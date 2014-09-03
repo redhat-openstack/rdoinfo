@@ -1,0 +1,46 @@
+---
+releases:
+- name: juno
+  builds:
+  - dist: fedora-21
+    distgit: fedora/master
+    buildsys: koji/master
+  - dist: epel-7
+    distgit: fedora/master
+    buildsys: copr/jruzicka/rdo-juno-epel-7
+- name: icehouse
+  builds:
+  - dist: fedora-20
+    distgit: fedora/f21
+    buildsys: koji/f21
+  - dist: epel-6
+    distgit: fedora/f21
+    buildsys: copr/jruzicka/rdo-juno-epel-6
+  - dist: epel-7
+    distgit: fedora/f21
+    buildsys: copr/jruzicka/rdo-juno-epel-7
+
+package-configs:
+  default:
+    upstream: https://git.openstack.org/openstack/%(name)s
+    distgit: https://github.com/openstack-packages/%(name)s.git
+  client:
+    upstream: https://git.openstack.org/openstack/python-%(name)s
+    distgit: https://github.com/openstack-packages/python-%(name)s.git
+
+packages:
+- name: keystone
+- name: glance
+- name: nova
+- name: neutron
+- name: nova
+- name: keystoneclient
+  conf: client
+- name: glanceclient
+  conf: client
+- name: novaclient
+  conf: client
+- name: neutronclient
+  conf: client
+- name: novaclient
+  conf: client
