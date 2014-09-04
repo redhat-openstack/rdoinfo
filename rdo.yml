@@ -1,46 +1,67 @@
 ---
+# support for overriding this on per-package basis is doable,
+# I.E. each package can have it's own 'releases' section
 releases:
 - name: juno
+  # if we switch to per-dist distgit branches again, 'branch' could be
+  # overriden for each build target
+  branch: master
   builds:
   - dist: fedora-21
-    distgit: fedora/master
     buildsys: koji/master
   - dist: epel-7
-    distgit: fedora/master
     buildsys: copr/jruzicka/rdo-juno-epel-7
 - name: icehouse
+  branch: f21
   builds:
   - dist: fedora-20
-    distgit: fedora/f21
     buildsys: koji/f21
   - dist: epel-6
-    distgit: fedora/f21
     buildsys: copr/jruzicka/rdo-juno-epel-6
   - dist: epel-7
-    distgit: fedora/f21
     buildsys: copr/jruzicka/rdo-juno-epel-7
 
+# these are basically templates for 'packages' information bellow, reducing
+# redundant information in this file
 package-configs:
-  default:
+  core:
     upstream: https://git.openstack.org/openstack/%(name)s
-    distgit: https://github.com/openstack-packages/%(name)s.git
+    distgit: ssh://pkgs.fedoraproject.org/openstack-%(name)s.git
+    patches: https://github.com/redhat-openstack/%(name)s.git
   client:
     upstream: https://git.openstack.org/openstack/python-%(name)s
-    distgit: https://github.com/openstack-packages/python-%(name)s.git
+    distgit: ssh://pkgs.fedoraproject.org/python-%(name)s.git
+    patches: https://github.com/redhat-openstack/python-%(name)s.git
+    maintainers:
+    - jruzicka@redhat.com
 
 packages:
+- name: nova
+  conf: core
+  maintainers:
+  - apevec@redhat.com
+  - ndipanov@redhat.com
 - name: keystone
-- name: glance
-- name: nova
+  conf: core
+  maintainers:
+  - apevec@redhat.com
 - name: neutron
-- name: nova
-- name: keystoneclient
-  conf: client
-- name: glanceclient
-  conf: client
+  conf: core
+  maintainers:
+  - ihrachyska@redhat.com
+  - jlibosvar@redhat.com
 - name: novaclient
   conf: client
+- name: keytsoneclient
+  conf: client
+  maintainers:
+  - apevec@redhat.com
+  - jruzicka@redhat.com
 - name: neutronclient
   conf: client
-- name: novaclient
-  conf: client
+# this package has no conf, all info here
+- name: python-six
+  upstream: hg::https://bitbucket.org/gutworth/six
+  distgit: ssh://pkgs.fedoraproject.org/python-%(name)s.git
+  maintainers:
+  - apevec@redhat.com
