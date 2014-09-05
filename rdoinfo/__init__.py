@@ -79,18 +79,15 @@ def apply_package_config(pkg, conf):
 
 
 def substitute_package(pkg):
+    # substitution is very simple, no recursion
+    new_pkg = copy.copy(pkg)
     for key, val in pkg.items():
         if isinstance(val, basestring):
-            pkg[key] = val % pkg
-    return pkg
+            new_pkg[key] = val % pkg
+    return new_pkg
 
 
 def parse_package(pkg, info):
-    try:
-        name = pkg['name']
-    except KeyError:
-        raise MissingRequiredItem(item='package.name')
-
     pkgconfs = parse_package_configs(info)
     if 'conf' in pkg:
         conf_id = pkg['conf']
@@ -100,6 +97,10 @@ def parse_package(pkg, info):
             raise UndefinedPackageConfig(conf=conf_id)
         pkg = apply_package_config(pkg, conf)
     pkg = substitute_package(pkg)
+    try:
+        name = pkg['name']
+    except KeyError:
+        raise MissingRequiredItem(item='package.name')
     try:
         maints = pkg['maintainers']
     except:

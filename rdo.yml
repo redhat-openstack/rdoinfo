@@ -25,41 +25,99 @@ releases:
 # redundant information in this file
 package-configs:
   core:
-    upstream: https://git.openstack.org/openstack/%(name)s
-    distgit: ssh://pkgs.fedoraproject.org/openstack-%(name)s.git
-    patches: https://github.com/redhat-openstack/%(name)s.git
+    name: openstack-%(project)s
+    upstream: https://git.openstack.org/openstack/%(project)s
+    distgit: ssh://pkgs.fedoraproject.org/openstack-%(project)s.git
+    patches: https://github.com/redhat-openstack/%(project)s.git
   client:
-    upstream: https://git.openstack.org/openstack/python-%(name)s
-    distgit: ssh://pkgs.fedoraproject.org/python-%(name)s.git
-    patches: https://github.com/redhat-openstack/python-%(name)s.git
+    name: python-%(project)s
+    upstream: https://git.openstack.org/openstack/python-%(project)s
+    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
+    patches: https://github.com/redhat-openstack/python-%(project)s.git
     maintainers:
     - jruzicka@redhat.com
 
 packages:
-- name: nova
+# core openstack projects
+- project: nova
   conf: core
   maintainers:
-  - apevec@redhat.com
   - ndipanov@redhat.com
-- name: keystone
+  - jruzicka@redhat.com
+- project: keystone
   conf: core
   maintainers:
   - apevec@redhat.com
-- name: neutron
+- project: glance
+  conf: core
+  maintainers:
+  - hguemar@redhat.com
+- project: swift
+  conf: core
+  maintainers:
+  - zaitcev@redhat.com
+- project: ceilometer
+  conf: core
+  maintainers:
+  - slinaber@redhat.com
+  - apevec@redhat.com
+- project: heat
+  conf: core
+  maintainers:
+  - sdake@redhat.co
+  - jpeeler@redhat.com
+  - ryansb@redhat.com
+- project: cinder
+  conf: core
+  maintainers:
+  - eharney@redhat.com
+  - apevec@redhat.com
+- project: neutron
   conf: core
   maintainers:
   - ihrachyska@redhat.com
   - jlibosvar@redhat.com
-- name: novaclient
-  conf: client
-- name: keytsoneclient
-  conf: client
+- project: horizon
+  package: python-django-horizon
+  conf: core
+  distgit: ssh://pkgs.fedoraproject.org/python-django-horizon.git
   maintainers:
-  - apevec@redhat.com
-  - jruzicka@redhat.com
-- name: neutronclient
+  - mrunge@redhat.com
+- name: python-django-openstack-auth
+  conf: core
+  upstream: https://git.openstack.org/openstack/django_openstack_auth
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
+  patches: https://github.com/redhat-openstack/%(name)s.git
+  maintainers:
+  - mrunge@redhat.com
+# The openstack clients
+- project: keystoneclient
   conf: client
-# this package has no conf, all info here
+- project: glanceclient
+  conf: client
+- project: novaclient
+  conf: client
+- project: swiftclient
+  conf: client
+- project: ceilometerclient
+  conf: client
+- project: heatclient
+  conf: client
+- project: tuskarclient
+  conf: client
+- project: cinderclient
+  conf: client
+- project: ironicclient
+  conf: client
+- project: neutronclient
+  conf: client
+- project: saharaclient
+  conf: client
+- project: troveclient
+  conf: client
+- project: keystonemiddleware
+  conf: client
+# deps
 - name: python-six
   upstream: hg::https://bitbucket.org/gutworth/six
   distgit: ssh://pkgs.fedoraproject.org/python-%(name)s.git
