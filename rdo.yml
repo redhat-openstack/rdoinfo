@@ -7,7 +7,7 @@ releases:
   # overriden for each build target
   branch: master
   builds:
-  - dist: fedora-21
+  - dist: fedora-20
     buildsys: koji/master
   - dist: epel-7
     buildsys: copr/jruzicka/rdo-juno-epel-7
