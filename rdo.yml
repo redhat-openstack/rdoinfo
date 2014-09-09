@@ -20,9 +20,9 @@ releases:
   - dist: fedora-20
     buildsys: koji/f21
   - dist: epel-6
-    buildsys: copr/jruzicka/rdo-juno-epel-6
+    buildsys: copr/jruzicka/rdo-icehouse-epel-6
   - dist: epel-7
-    buildsys: copr/jruzicka/rdo-juno-epel-7
+    buildsys: copr/jruzicka/rdo-icehosue-epel-7
 
 # these are basically templates for 'packages' information bellow, reducing
 # redundant information in this file
