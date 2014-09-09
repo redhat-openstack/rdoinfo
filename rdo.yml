@@ -9,6 +9,9 @@ releases:
   builds:
   - dist: fedora-21
     buildsys: koji/master
+  - dist: fedora-20
+    # fedora-20 repo is provided as a symlink to fedora-21 repo ATM
+    buildsys: symlink/fedora-21
   - dist: epel-7
     buildsys: copr/jruzicka/rdo-juno-epel-7
 - name: icehouse
