@@ -3,25 +3,25 @@
 # I.E. each package can have it's own 'releases' section
 releases:
 - name: juno
-  # if we switch to per-dist distgit branches again, 'branch' could be
-  # overriden for each build target
+  # this is default branch for release and can be overriden on repo level
   branch: master
-  builds:
-  - dist: fedora-21
+  fedora: 22/rawhide
+  repos:
+  - name: fedora-21
     buildsys: koji/master
-  - dist: fedora-20
-    # fedora-20 repo is provided as a symlink to fedora-21 repo ATM
-    buildsys: symlink/fedora-21
-  - dist: epel-7
+  - name: fedora-20
+    special: symlink to fedora-21 name (don't submit fedora-20 updates)
+  - name: epel-7
     buildsys: copr/jruzicka/rdo-juno-epel-7
 - name: icehouse
   branch: f21
-  builds:
-  - dist: fedora-20
+  fedora: 21
+  repos:
+  - name: fedora-20
     buildsys: koji/f21
-  - dist: epel-6
+  - name: epel-6
     buildsys: copr/jruzicka/rdo-icehouse-epel-6
-  - dist: epel-7
+  - name: epel-7
     buildsys: copr/jruzicka/rdo-icehosue-epel-7
 
 # these are basically templates for 'packages' information bellow, reducing

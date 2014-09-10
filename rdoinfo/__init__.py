@@ -46,6 +46,17 @@ def parse_info(info):
     parse_packages(info)
 
 
+def parse_release_repo(repo, default_branch=None):
+    if 'name' not in repo:
+        raise MissingRequiredItem(item='repo.name')
+    if 'branch' not in repo:
+        if default_branch:
+            repo['branch'] = default_branch
+        else:
+            raise MissingRequiredItem(item='repo.branch')
+    return repo
+
+
 def parse_releases(info):
     try:
         releases = info['releases']
@@ -59,9 +70,12 @@ def parse_releases(info):
         except KeyError:
             raise MissingRequiredItem(item='release.name')
         try:
-            builds = rls['builds']
+            repos = rls['repos']
         except KeyError:
             raise MissingRequiredItem(item='release.builds')
+        default_branch = rls.get('branch')
+        for repo in repos:
+            parse_release_repo(repo, default_branch)
     # XXX: releases not yet used, subject to change
     return releases
 
