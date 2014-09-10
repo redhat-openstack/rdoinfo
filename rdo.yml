@@ -10,7 +10,7 @@ releases:
   - name: fedora-21
     buildsys: koji/master
   - name: fedora-20
-    special: symlink to fedora-21 name (don't submit fedora-20 updates)
+    special: symlink to fedora-21 repo (don't submit fedora-20 updates)
   - name: epel-7
     buildsys: copr/jruzicka/rdo-juno-epel-7
 - name: icehouse
