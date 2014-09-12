@@ -123,6 +123,10 @@ packages:
 - project: keystonemiddleware
   conf: client
   upstream: https://git.openstack.org/openstack/keystonemiddleware
+# openstack libraries
+- project: oslo-sphinx
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslosphinx
 # deps
 - name: python-six
   upstream: hg::https://bitbucket.org/gutworth/six
