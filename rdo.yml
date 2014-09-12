@@ -32,11 +32,13 @@ package-configs:
     upstream: https://git.openstack.org/openstack/%(project)s
     distgit: ssh://pkgs.fedoraproject.org/openstack-%(project)s.git
     patches: https://github.com/redhat-openstack/%(project)s.git
+    master-distgit: https://github.com/openstack-packages/%(project)s.git
   client:
     name: python-%(project)s
     upstream: https://git.openstack.org/openstack/python-%(project)s
     distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
     patches: https://github.com/redhat-openstack/python-%(project)s.git
+    master-distgit: https://github.com/openstack-packages/python-%(project)s.git
     maintainers:
     - jruzicka@redhat.com
 
@@ -90,6 +92,7 @@ packages:
   upstream: https://git.openstack.org/openstack/django_openstack_auth
   distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   patches: https://github.com/redhat-openstack/%(name)s.git
+  master-distgit: https://github.com/openstack-packages/%(name)s.git
   maintainers:
   - mrunge@redhat.com
 # The openstack clients
@@ -124,5 +127,6 @@ packages:
 - name: python-six
   upstream: hg::https://bitbucket.org/gutworth/six
   distgit: ssh://pkgs.fedoraproject.org/python-%(name)s.git
+  master-distgit: https://github.com/openstack-packages/python-six.git
   maintainers:
   - mrunge@redhat.com
