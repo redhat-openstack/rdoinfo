@@ -119,6 +119,7 @@ packages:
   conf: client
 - project: keystonemiddleware
   conf: client
+  upstream: https://git.openstack.org/openstack/keystonemiddleware
 # deps
 - name: python-six
   upstream: hg::https://bitbucket.org/gutworth/six
