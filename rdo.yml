@@ -77,6 +77,10 @@ packages:
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
+- project: ironic
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
 - project: neutron
   conf: core
   maintainers:
@@ -95,6 +99,51 @@ packages:
   master-distgit: https://github.com/openstack-packages/%(name)s.git
   maintainers:
   - mrunge@redhat.com
+- project: diskimage-builder
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: dib-utils
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: tripleo
+  conf: core
+  upstream: https://git.openstack.org/openstack/tripleo-incubator
+  maintainers:
+  - jruzicka@redhat.com
+- project: tripleo-heat-templates
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: tripleo-image-elements
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: tuskar
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: tuskar-ui
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: os-apply-config
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: os-collect-config
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: os-refresh-config
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
+- project: os-cloud-config
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
@@ -127,6 +176,30 @@ packages:
 - project: oslo-sphinx
   conf: client
   upstream: https://git.openstack.org/openstack/oslosphinx
+- project: oslo-i18n
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.i18n
+- project: oslo-messaging
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.messaging
+- project: oslo-config
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.config
+- project: oslo-rootwrap
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.rootwrap
+- project: oslo-db
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.db
+- project: oslo-utils
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.utils
+- project: oslo-vmware
+  conf: client
+  upstream: https://git.openstack.org/openstack/oslo.vmware
+- project: stevedore
+  conf: client
+  upstream: https://git.openstack.org/openstack/stevedore
 # deps
 - name: python-six
   upstream: hg::https://bitbucket.org/gutworth/six
@@ -134,3 +207,166 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-six.git
   maintainers:
   - mrunge@redhat.com
+- name: packstack
+  upstream: https://git.openstack.org/stackforge/packstack.git
+  master-distgit: https://github.com/openstack-packages/packstack.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: openstack-puppet-modules
+  upstream:
+    - https://github.com/puppetlabs/puppetlabs-apache.git
+    - https://github.com/stackforge/puppet-ceilometer.git
+    - https://github.com/rcritten/puppet-certmonger.git
+    - https://github.com/stackforge/puppet-cinder.git
+    - https://github.com/purpleidea/puppet-common.git
+    - https://github.com/ripienaar/puppet-concat.git
+    - https://github.com/puppetlabs/puppetlabs-firewall.git
+    - https://github.com/rohara/puppet-galera.git
+    - https://github.com/stackforge/puppet-glance.git
+    - https://github.com/purpleidea/puppet-gluster.git
+    - https://github.com/puppetlabs/puppetlabs-haproxy.git
+    - https://github.com/stackforge/puppet-heat.git
+    - https://github.com/stackforge/puppet-horizon.git
+    - https://github.com/puppetlabs/puppetlabs-inifile.git
+    - https://github.com/stackforge/puppet-keystone.git
+    - https://github.com/saz/puppet-memcached.git
+    - https://github.com/puppetlabs/puppetlabs-mongodb.git
+    - https://github.com/puppetlabs/puppetlabs-mysql.git
+    - https://github.com/stackforge/puppet-neutron.git
+    - https://github.com/stackforge/puppet-nova.git
+    - https://github.com/rcritten/puppet-nssdb.git
+    - https://github.com/stackforge/puppet-openstack.git
+    - https://github.com/radez/puppet-pacemaker.git
+    - https://github.com/purpleidea/puppet-puppet.git
+    - https://github.com/dprince/puppet-qpid.git
+    - https://github.com/puppetlabs/puppetlabs-rabbitmq.git
+    - https://github.com/puppetlabs/puppetlabs-rsync.git
+    - https://github.com/stackforge/puppet-sahara.git
+    - https://github.com/saz/puppet-ssh.git
+    - https://github.com/nanliu/puppet-staging.git
+    - https://github.com/puppetlabs/puppetlabs-stdlib.git
+    - https://github.com/stackforge/puppet-swift.git
+    - https://github.com/puppetlabs/puppetlabs-sysctl.git
+    - https://github.com/stackforge/puppet-tempest.git
+    - https://github.com/puppetlabs/puppetlabs-vcsrepo.git
+    - https://github.com/derekhiggins/puppet-vlan.git
+    - https://github.com/stackforge/puppet-vswitch.git
+    - https://github.com/puppetlabs/puppetlabs-xinetd.git
+  master-distgit: https://github.com/openstack-packages/openstack-puppet-modules.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-django-pyscss
+  upstream: https://github.com/fusionbox/django-pyscss.git
+  master-distgit: https://github.com/openstack-packages/python-django-pyscss.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic
+  upstream: hg::https://bitbucket.org/thomaswaldmann/xstatic
+  master-distgit: https://github.com/openstack-packages/python-XStatic.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-jQuery
+  upstream: hg::https://bitbucket.org/thomaswaldmann/xstatic-jquery
+  master-distgit: https://github.com/openstack-packages/python-XStatic-jQuery.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Angular
+  upstream: https://github.com/stackforge/xstatic-angular.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Angular.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Angular-Cookies
+  upstream: https://github.com/stackforge/xstatic-angular-cookies.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Angular-Cookies.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Angular-Mock
+  upstream: https://github.com/stackforge/xstatic-angular-mock.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Angular-Mock.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-D3
+  upstream: https://github.com/stackforge/xstatic-d3.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-D3.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Hogan
+  upstream: https://github.com/stackforge/xstatic-hogan.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Hogan.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Jasmine
+  upstream: https://github.com/stackforge/xstatic-jasmine.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Jasmine.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-JQuery-Migrate
+  upstream: https://github.com/stackforge/xstatic-jquery-migrate.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-JQuery-Migrate.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-JQuery.quicksearch
+  upstream: https://github.com/stackforge/xstatic-jquery.quicksearch.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-JQuery.quicksearch.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-JQuery.TableSorter
+  upstream: https://github.com/stackforge/xstatic-jquery.tablesorter.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-JQuery.TableSorter.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-JSEncrypt
+  upstream: https://github.com/stackforge/xstatic-jsencrypt.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-JSEncrypt.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-QUnit
+  upstream: https://github.com/stackforge/xstatic-qunit.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-QUnit.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Rickshaw
+  upstream: https://github.com/stackforge/xstatic-rickshaw.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Rickshaw.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-XStatic-Spin
+  upstream: https://github.com/stackforge/xstatic-spin.git
+  master-distgit: https://github.com/openstack-packages/python-XStatic-Spin.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-pecan
+  upstream: https://github.com/stackforge/pecan.git
+  master-distgit: https://github.com/openstack-packages/python-pecan.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-osprofiler
+  upstream: https://git.openstack.org/stackforge/osprofiler
+  master-distgit: https://github.com/openstack-packages/python-osprofiler.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-dogpile-cache
+  upstream: https://bitbucket.org/zzzeek/dogpile.cache.git
+  master-distgit: https://github.com/openstack-packages/python-dogpile-cache.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-taskflow
+  upstream: https://git.openstack.org/openstack/taskflow
+  master-distgit: https://github.com/openstack-packages/python-taskflow.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-alembic
+  upstream: https://bitbucket.org/zzzeek/alembic.git
+  master-distgit: https://github.com/openstack-packages/python-alembic.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-retrying
+  upstream: https://github.com/rholder/retrying.git
+  master-distgit: https://github.com/openstack-packages/python-retrying.git
+  maintainers:
+  - jruzicka@redhat.com
+- name: python-rfc3986
+  upstream: https://github.com/sigmavirus24/rfc3986.git
+  master-distgit: https://github.com/openstack-packages/python-rfc3986.git
+  maintainers:
+  - jruzicka@redhat.com
