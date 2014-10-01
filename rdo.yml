@@ -41,6 +41,14 @@ package-configs:
     master-distgit: https://github.com/openstack-packages/python-%(project)s.git
     maintainers:
     - jruzicka@redhat.com
+  lib:
+    name: python-%(project)s
+    upstream: https://git.openstack.org/openstack/python-%(project)s
+    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
+    patches: https://github.com/redhat-openstack/python-%(project)s.git
+    master-distgit: https://github.com/openstack-packages/python-%(project)s.git
+    maintainers:
+    - apevec@redhat.com
 
 packages:
 # core openstack projects
@@ -174,31 +182,31 @@ packages:
   upstream: https://git.openstack.org/openstack/keystonemiddleware
 # openstack libraries
 - project: oslo-sphinx
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.i18n
 - project: oslo-messaging
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.messaging
 - project: oslo-config
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.config
 - project: oslo-rootwrap
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.rootwrap
 - project: oslo-db
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.db
 - project: oslo-utils
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.utils
 - project: oslo-vmware
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/oslo.vmware
 - project: stevedore
-  conf: client
+  conf: lib
   upstream: https://git.openstack.org/openstack/stevedore
 # deps
 - name: python-six
