@@ -218,8 +218,10 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-six.git
   maintainers:
   - mrunge@redhat.com
-- name: packstack
+- name: openstack-packstack
   upstream: https://git.openstack.org/stackforge/packstack.git
+  patches: https://github.com/redhat-openstack/packstack.git
+  distgit: ssh://pkgs.fedoraproject.org/openstack-packstack
   master-distgit: https://github.com/openstack-packages/packstack.git
   maintainers:
   - mmagr@redhat.com
