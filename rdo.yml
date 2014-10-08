@@ -68,6 +68,10 @@ packages:
   conf: core
   maintainers:
   - hguemar@redhat.com
+- project: glance_store
+  conf: core
+  maintainers:
+  - hguemar@redhat.com
 - project: swift
   conf: core
   maintainers:
@@ -199,6 +203,9 @@ packages:
 - project: oslo-rootwrap
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.rootwrap
+- project: oslo-serialization
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.serialization
 - project: oslo-db
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.db
