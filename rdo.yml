@@ -70,6 +70,8 @@ packages:
   - hguemar@redhat.com
 - project: glance_store
   conf: core
+  name: python-glance-store
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - hguemar@redhat.com
 - project: swift
