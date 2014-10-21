@@ -212,6 +212,9 @@ packages:
 - project: oslo-serialization
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.serialization
+- project: oslo-middleware
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.middleware
 - project: oslo-db
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.db
