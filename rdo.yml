@@ -206,6 +206,9 @@ packages:
 - project: oslo-config
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.config
+- project: oslo-concurrency
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.rootwrap
