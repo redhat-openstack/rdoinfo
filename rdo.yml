@@ -79,6 +79,18 @@ packages:
   conf: core
   maintainers:
   - ihrachys@redhat.com
+- project: neutron-fwaas
+  conf: core
+  maintainers:
+  - ihrachys@redhat.com
+- project: neutron-lbaas
+  conf: core
+  maintainers:
+  - ihrachys@redhat.com
+- project: neutron-vpnaas
+  conf: core
+  maintainers:
+  - ihrachys@redhat.com
 - project: horizon
   package: python-django-horizon
   conf: core
