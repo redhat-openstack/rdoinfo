@@ -232,6 +232,9 @@ packages:
 - project: oslo-vmware
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.vmware
+- project: oslo-context
+  conf: lib
+  upstream: https://git.openstack.org/openstack/oslo.context
 - project: stevedore
   conf: lib
   upstream: https://git.openstack.org/openstack/stevedore
