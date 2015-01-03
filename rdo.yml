@@ -403,3 +403,8 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-migrate.git
   maintainers:
   - pbrady@redhat.com
+- name: python-netifaces
+  upstream: hg::https://bitbucket.org/al45tair/netifaces
+  master-distgit: https://github.com/openstack-packages/python-netifaces.git
+  maintainers:
+  - apevec@redhat.com
