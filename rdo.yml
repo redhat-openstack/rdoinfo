@@ -152,11 +152,16 @@ packages:
 - project: tuskar
   conf: core
   maintainers:
-  - jruzicka@redhat.com
+  - jdobies@redhat.com
 - project: tuskar-ui
   conf: core
   maintainers:
-  - jruzicka@redhat.com
+  - jcoufal@redhat.com
+- project: tuskar-ui-extras
+  upstream: https://git.openstack.org/stackforge/tuskar-ui-extras
+  conf: core
+  maintainers:
+  - jcoufal@redhat.com
 - project: os-apply-config
   name: os-apply-config
   conf: core
@@ -197,6 +202,8 @@ packages:
   conf: client
 - project: tuskarclient
   conf: client
+  maintainers:
+  - jcoufal@redhat.com
 - project: cinderclient
   conf: client
 - project: ironicclient
