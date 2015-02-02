@@ -268,48 +268,62 @@ packages:
 - name: openstack-puppet-modules
   upstream:
     - https://github.com/puppetlabs/puppetlabs-apache.git
+    - https://github.com/aimonb/puppet_aviator.git
     - https://github.com/stackforge/puppet-ceilometer.git
     - https://github.com/rcritten/puppet-certmonger.git
     - https://github.com/stackforge/puppet-cinder.git
     - https://github.com/purpleidea/puppet-common.git
-    - https://github.com/ripienaar/puppet-concat.git
+    - https://github.com/puppetlabs/puppetlabs-concat.git
     - https://github.com/puppetlabs/puppetlabs-firewall.git
-    - https://github.com/rohara/puppet-galera.git
+    - https://github.com/redhat-openstack/puppet-galera.git
     - https://github.com/stackforge/puppet-glance.git
     - https://github.com/purpleidea/puppet-gluster.git
     - https://github.com/puppetlabs/puppetlabs-haproxy.git
     - https://github.com/stackforge/puppet-heat.git
     - https://github.com/stackforge/puppet-horizon.git
     - https://github.com/puppetlabs/puppetlabs-inifile.git
+    - https://github.com/xbezdick/puppet-ipa.git
+    - https://github.com/stackforge/puppet-ironic.git
     - https://github.com/stackforge/puppet-keystone.git
+    - https://github.com/stackforge/puppet-manila.git
     - https://github.com/saz/puppet-memcached.git
+    - https://github.com/pdxcat/puppet-module-collectd.git
+    - https://github.com/ripienaar/puppet-module-data.git
     - https://github.com/puppetlabs/puppetlabs-mongodb.git
     - https://github.com/puppetlabs/puppetlabs-mysql.git
+    - https://github.com/stackforge/puppet-n1k-vsm.git
+    - https://github.com/gildub/puppet-nagios-openstack.git
     - https://github.com/stackforge/puppet-neutron.git
     - https://github.com/stackforge/puppet-nova.git
     - https://github.com/rcritten/puppet-nssdb.git
+    - https://github.com/puppetlabs/puppetlabs-ntp.git
     - https://github.com/stackforge/puppet-openstack.git
-    - https://github.com/radez/puppet-pacemaker.git
+    - https://github.com/stackforge/puppet-openstacklib.git
+    - https://github.com/redhat-openstack/puppet-pacemaker.git
     - https://github.com/purpleidea/puppet-puppet.git
     - https://github.com/dprince/puppet-qpid.git
     - https://github.com/puppetlabs/puppetlabs-rabbitmq.git
+    - https://github.com/arioch/puppet-redis.git
     - https://github.com/puppetlabs/puppetlabs-rsync.git
-    - https://github.com/stackforge/puppet-sahara.git
+    - https://github.com/frozencemetery/puppet-sahara.git
     - https://github.com/saz/puppet-ssh.git
     - https://github.com/nanliu/puppet-staging.git
     - https://github.com/puppetlabs/puppetlabs-stdlib.git
     - https://github.com/stackforge/puppet-swift.git
     - https://github.com/puppetlabs/puppetlabs-sysctl.git
     - https://github.com/stackforge/puppet-tempest.git
+    - https://github.com/saz/puppet-timezone.git
+    - https://github.com/stackforge/puppet-trove.git
     - https://github.com/puppetlabs/puppetlabs-vcsrepo.git
     - https://github.com/derekhiggins/puppet-vlan.git
     - https://github.com/stackforge/puppet-vswitch.git
     - https://github.com/puppetlabs/puppetlabs-xinetd.git
-    - https://github.com/stackforge/puppet-openstacklib.git
   master-distgit: https://github.com/openstack-packages/openstack-puppet-modules.git
   maintainers:
   - mmagr@redhat.com
   - lbezdick@redhat.com
+  - gchamoul@redhat.com
+  - ichavero@redhat.com
 - name: python-django-pyscss
   upstream: https://github.com/fusionbox/django-pyscss.git
   master-distgit: https://github.com/openstack-packages/python-django-pyscss.git
