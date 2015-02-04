@@ -182,6 +182,10 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: trove
+  conf: core
+  maintainers:
+  - hguemar@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
