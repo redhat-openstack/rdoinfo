@@ -120,6 +120,10 @@ packages:
   distgit: ssh://pkgs.fedoraproject.org/python-django-horizon.git
   maintainers:
   - mrunge@redhat.com
+- project: trove
+  conf: core
+  maintainers:
+  - hguemar@fedoraproject.org
 - name: python-django-openstack-auth
   conf: core
   upstream: https://git.openstack.org/openstack/django_openstack_auth
