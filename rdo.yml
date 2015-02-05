@@ -161,6 +161,16 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: instack
+  conf: core
+  upstream: https://github.com/agroup/instack.git
+  maintainers:
+  - jslagle@redhat.com
+- project: instack-undercloud
+  conf: core
+  upstream: https://github.com/agroup/instack-undercloud.git
+  maintainers:
+  - jslagle@redhat.com
 - project: os-apply-config
   name: os-apply-config
   conf: core
