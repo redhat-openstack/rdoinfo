@@ -171,6 +171,10 @@ packages:
   upstream: https://github.com/agroup/instack-undercloud.git
   maintainers:
   - jslagle@redhat.com
+- project: heat-templates
+  conf: core
+  maintainers:
+  - jpeeler@redhat.com
 - project: os-apply-config
   name: os-apply-config
   conf: core
