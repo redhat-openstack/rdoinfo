@@ -120,6 +120,10 @@ packages:
   distgit: ssh://pkgs.fedoraproject.org/python-django-horizon.git
   maintainers:
   - mrunge@redhat.com
+- project: trove
+  conf: core
+  maintainers:
+  - hguemar@fedoraproject.org
 - name: python-django-openstack-auth
   conf: core
   upstream: https://git.openstack.org/openstack/django_openstack_auth
@@ -157,6 +161,20 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: instack
+  conf: core
+  upstream: https://github.com/agroup/instack.git
+  maintainers:
+  - jslagle@redhat.com
+- project: instack-undercloud
+  conf: core
+  upstream: https://github.com/agroup/instack-undercloud.git
+  maintainers:
+  - jslagle@redhat.com
+- project: heat-templates
+  conf: core
+  maintainers:
+  - jpeeler@redhat.com
 - project: os-apply-config
   name: os-apply-config
   conf: core
