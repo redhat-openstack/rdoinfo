@@ -2,13 +2,24 @@
 # support for overriding this on per-package basis is doable,
 # I.E. each package can have it's own 'releases' section
 releases:
-- name: juno
+- name: kilo
   # this is default branch for release and can be overriden on repo level
   branch: master
-  fedora: 22/rawhide
+  fedora: 23/rawhide
+  repos:
+  - name: fedora-22
+    buildsys: koji/master
+  - name: fedora-21
+    special: symlink to fedora-22 repo (don't submit fedora-21 updates)
+  - name: epel-7
+    buildsys: cbs/cloud7-el7
+- name: juno
+  # this is default branch for release and can be overriden on repo level
+  branch: f22
+  fedora: 22
   repos:
   - name: fedora-21
-    buildsys: koji/master
+    buildsys: koji/f22
   - name: fedora-20
     special: symlink to fedora-21 repo (don't submit fedora-20 updates)
   - name: epel-7
