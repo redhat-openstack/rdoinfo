@@ -3,7 +3,7 @@ import collections
 import yaml
 
 
-__version__ = '0.1'
+__version__ = '0.2'
 
 
 class RdoinfoException(Exception):
@@ -115,6 +115,9 @@ def parse_package(pkg, info):
         name = pkg['name']
     except KeyError:
         raise MissingRequiredItem(item='package.name')
+    if 'project' not in pkg:
+        raise MissingRequiredItem(
+            item="project for '%s' package" % name)
     try:
         maints = pkg['maintainers']
     except:
