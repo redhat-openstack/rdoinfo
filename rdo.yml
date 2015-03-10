@@ -386,6 +386,12 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-pycadf.git
   maintainers:
   - apevec@redhat.com
+- name: python-networking-arista
+  project: networking-arista
+  upstream: https://git.openstack.org/stackforge/networking-arista.git
+  master-distgit: https://github.com/openstack-packages/python-networking-arista.git
+  maintainers:
+  - ihrachys@redhat.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
