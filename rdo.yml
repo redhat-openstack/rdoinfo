@@ -292,13 +292,6 @@ packages:
   conf: lib
   upstream: https://git.openstack.org/openstack/stevedore
 # deps
-- name: python-six
-  project: six
-  upstream: hg::https://bitbucket.org/gutworth/six
-  distgit: ssh://pkgs.fedoraproject.org/python-%(name)s.git
-  master-distgit: https://github.com/openstack-packages/python-six.git
-  maintainers:
-  - mrunge@redhat.com
 - name: openstack-packstack
   project: packstack
   upstream: https://git.openstack.org/stackforge/packstack.git
