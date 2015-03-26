@@ -20,20 +20,47 @@ releases:
   repos:
   - name: fedora-21
     buildsys: koji/f22
+    distrepos:
+    - name: RDO Juno fedora-21
+      url: https://repos.fedorapeople.org/repos/openstack/openstack-juno/fedora-21/
+      # Not sure how this should look for Fedora.next
   - name: fedora-20
     special: symlink to fedora-21 repo (don't submit fedora-20 updates)
+    distrepos:
+    - name: RDO Juno fedora-20
+      url: https://repos.fedorapeople.org/repos/openstack/openstack-juno/fedora-20/
+    - name: Fedora 20 Updates
+      url: http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/
+    - name: Fedora 20
+      url: http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/os/
   - name: epel-7
     buildsys: copr/jruzicka/rdo-juno-epel-7
+    distrepos:
+    - name: RDO Juno epel-7
+      url: https://repos.fedorapeople.org/repos/openstack/openstack-juno/epel-7/
 - name: icehouse
   branch: f21
   fedora: 21
   repos:
   - name: fedora-20
     buildsys: koji/f21
+    distrepos:
+    - name: RDO Icehouse fedora-20
+      url: https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/fedora-20/
+    - name: Fedora 20 Updates
+      url: http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/
+    - name: Fedora 20
+      url: http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/os/
   - name: epel-6
     buildsys: copr/jruzicka/rdo-icehouse-epel-6
+    distrepos:
+    - name: RDO Icehouse epel-6
+      url: https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/
   - name: epel-7
     buildsys: copr/jruzicka/rdo-icehosue-epel-7
+    distrepos:
+    - name: RDO Icehouse epel-7
+      url: https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-7/
 
 # these are basically templates for 'packages' information bellow, reducing
 # redundant information in this file
