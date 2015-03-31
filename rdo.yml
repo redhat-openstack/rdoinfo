@@ -241,6 +241,8 @@ packages:
   conf: client
 - project: troveclient
   conf: client
+- project: designateclient
+  conf: client
 - project: keystonemiddleware
   conf: client
   upstream: https://git.openstack.org/openstack/keystonemiddleware
