@@ -270,6 +270,7 @@ packages:
   conf: client
 - project: designateclient
   conf: client
+  distro-branch: rpm-master
 - project: keystonemiddleware
   conf: client
   upstream: https://git.openstack.org/openstack/keystonemiddleware
