@@ -426,3 +426,9 @@ packages:
   conf: core
   maintainers:
   - jslagle@redhat.com
+- name: python-semantic-version
+  project: semanticversion
+  upstream: https://github.com/rbarrois/python-semanticversion.git
+  master-distgit: https://github.com/openstack-packages/python-semantic-version.git
+  maintainers:
+  - apevec@redhat.com
