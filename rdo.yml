@@ -280,51 +280,67 @@ packages:
 - project: oslo-sphinx
   conf: lib
   upstream: https://git.openstack.org/openstack/oslosphinx
+  source-branch: stable/kilo
 - project: oslo-i18n
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.i18n
+  source-branch: stable/kilo
 - project: oslo-messaging
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.messaging
+  source-branch: stable/kilo
 - project: oslo-config
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.config
+  source-branch: stable/kilo
 - project: oslo-concurrency
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.concurrency
+  source-branch: stable/kilo
 - project: oslo-rootwrap
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.rootwrap
+  source-branch: stable/kilo
 - project: oslo-serialization
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.serialization
+  source-branch: stable/kilo
 - project: oslo-middleware
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.middleware
+  source-branch: stable/kilo
 - project: oslo-db
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.db
+  source-branch: stable/kilo
 - project: oslo-utils
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.utils
+  source-branch: stable/kilo
 - project: oslo-vmware
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.vmware
+  source-branch: stable/kilo
 - project: oslo-context
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.context
+  source-branch: stable/kilo
 - project: oslo-log
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.log
+  source-branch: stable/kilo
 - project: oslo-policy
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.policy
+  source-branch: stable/kilo
 - project: oslo-versionedobjects
   conf: lib
   upstream: https://git.openstack.org/openstack/oslo.versionedobjects
+  source-branch: stable/kilo
 - project: stevedore
   conf: lib
   upstream: https://git.openstack.org/openstack/stevedore
+  source-branch: stable/kilo
 # deps
 - name: openstack-packstack
   project: packstack
