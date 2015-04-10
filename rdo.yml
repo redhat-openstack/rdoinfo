@@ -426,6 +426,7 @@ packages:
   project: networking-odl
   upstream: https://git.openstack.org/stackforge/networking-odl.git
   master-distgit: https://github.com/openstack-packages/python-networking-odl.git
+  distro-branch: rpm-master
   maintainers:
   - ihrachys@redhat.com
 - project: tripleo-puppet-elements
