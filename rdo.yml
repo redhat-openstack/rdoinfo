@@ -245,6 +245,7 @@ packages:
 - project: os-client-config
   name: os-client-config
   conf: core
+  distro-branch: rpm-master
   maintainers:
   - jruzicka@redhat.com
 # The openstack clients
