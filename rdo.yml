@@ -242,6 +242,11 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: os-client-config
+  name: os-client-config
+  conf: core
+  maintainers:
+  - jruzicka@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
