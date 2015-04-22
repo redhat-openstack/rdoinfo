@@ -355,64 +355,16 @@ packages:
   - apevec@gmail.com
   - gchamoul@redhat.com
   - jpena@redhat.com
-- name: python-django-pyscss
-  project: django-pycss
-  upstream: https://github.com/fusionbox/django-pyscss.git
-  master-distgit: https://github.com/openstack-packages/python-django-pyscss.git
-  maintainers:
-  - mrunge@redhat.com
-- name: python-pecan
-  project: pecan
-  upstream: https://github.com/stackforge/pecan.git
-  master-distgit: https://github.com/openstack-packages/python-pecan.git
-  maintainers:
-  - apevec@redhat.com
 - name: python-osprofiler
   project: osprofiler
   upstream: https://git.openstack.org/stackforge/osprofiler
   master-distgit: https://github.com/openstack-packages/python-osprofiler.git
   maintainers:
   - apevec@redhat.com
-- name: python-dogpile-cache
-  project: dogpile.cache
-  upstream: https://bitbucket.org/zzzeek/dogpile.cache.git
-  master-distgit: https://github.com/openstack-packages/python-dogpile-cache.git
-  maintainers:
-  - apevec@redhat.com
 - name: python-taskflow
   project: taskflow
   upstream: https://git.openstack.org/openstack/taskflow
   master-distgit: https://github.com/openstack-packages/python-taskflow.git
-  maintainers:
-  - apevec@redhat.com
-- name: python-alembic
-  project: alembic
-  upstream: https://bitbucket.org/zzzeek/alembic.git
-  master-distgit: https://github.com/openstack-packages/python-alembic.git
-  maintainers:
-  - apevec@redhat.com
-- name: python-retrying
-  project: retrying
-  upstream: https://github.com/rholder/retrying.git
-  master-distgit: https://github.com/openstack-packages/python-retrying.git
-  maintainers:
-  - apevec@redhat.com
-- name: python-rfc3986
-  project: rfc3986
-  upstream: https://github.com/sigmavirus24/rfc3986.git
-  master-distgit: https://github.com/openstack-packages/python-rfc3986.git
-  maintainers:
-  - apevec@redhat.com
-- name: python-migrate
-  project: migrate
-  upstream: https://git.openstack.org/stackforge/sqlalchemy-migrate.git
-  master-distgit: https://github.com/openstack-packages/python-migrate.git
-  maintainers:
-  - pbrady@redhat.com
-- name: python-netifaces
-  project: netifaces
-  upstream: hg::https://bitbucket.org/al45tair/netifaces
-  master-distgit: https://github.com/openstack-packages/python-netifaces.git
   maintainers:
   - apevec@redhat.com
 - name: python-pysaml2
