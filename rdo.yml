@@ -139,22 +139,27 @@ packages:
   conf: core
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - project: neutron-fwaas
   conf: core
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - project: neutron-lbaas
   conf: core
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - project: neutron-vpnaas
   conf: core
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - project: designate
   conf: core
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - project: sahara
   conf: core
   distro-branch: rpm-master
@@ -385,6 +390,7 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-networking-arista.git
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - name: python-networking-odl
   project: networking-odl
   upstream: https://git.openstack.org/stackforge/networking-odl.git
@@ -392,6 +398,7 @@ packages:
   distro-branch: rpm-master
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
