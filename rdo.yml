@@ -302,6 +302,7 @@ packages:
   upstream: https://git.openstack.org/openstack/oslo.i18n
 - project: oslo-messaging
   conf: lib
+  distro-branch: rpm-master
   upstream: https://git.openstack.org/openstack/oslo.messaging
 - project: oslo-config
   conf: lib
