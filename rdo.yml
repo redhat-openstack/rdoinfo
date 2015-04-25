@@ -344,6 +344,10 @@ packages:
 - project: stevedore
   conf: lib
   upstream: https://git.openstack.org/openstack/stevedore
+- project: taskflow
+  conf: lib
+- project: pycadf
+  conf: lib
 # deps
 - name: openstack-packstack
   project: packstack
@@ -369,22 +373,10 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-osprofiler.git
   maintainers:
   - apevec@redhat.com
-- name: python-taskflow
-  project: taskflow
-  upstream: https://git.openstack.org/openstack/taskflow
-  master-distgit: https://github.com/openstack-packages/python-taskflow.git
-  maintainers:
-  - apevec@redhat.com
 - name: python-pysaml2
   project: pysaml2
   upstream: https://github.com/rohe/pysaml2.git
   master-distgit: https://github.com/openstack-packages/python-pysaml2.git
-  maintainers:
-  - apevec@redhat.com
-- name: python-pycadf
-  project: pycadf
-  upstream: https://github.com/openstack/pycadf
-  master-distgit: https://github.com/openstack-packages/python-pycadf.git
   maintainers:
   - apevec@redhat.com
 - name: python-networking-arista
