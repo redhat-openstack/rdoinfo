@@ -67,24 +67,24 @@ releases:
 package-configs:
   core:
     name: openstack-%(project)s
-    upstream: https://git.openstack.org/openstack/%(project)s
+    upstream: git://git.openstack.org/openstack/%(project)s
     distgit: ssh://pkgs.fedoraproject.org/openstack-%(project)s.git
-    patches: https://github.com/redhat-openstack/%(project)s.git
-    master-distgit: https://github.com/openstack-packages/%(project)s.git
+    patches: git://github.com/redhat-openstack/%(project)s
+    master-distgit: git://github.com/openstack-packages/%(project)s
   client:
     name: python-%(project)s
-    upstream: https://git.openstack.org/openstack/python-%(project)s
+    upstream: git://git.openstack.org/openstack/python-%(project)s
     distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-    patches: https://github.com/redhat-openstack/python-%(project)s.git
-    master-distgit: https://github.com/openstack-packages/python-%(project)s.git
+    patches: git://github.com/redhat-openstack/python-%(project)s
+    master-distgit: git://github.com/openstack-packages/python-%(project)s
     maintainers:
     - jruzicka@redhat.com
   lib:
     name: python-%(project)s
-    upstream: https://git.openstack.org/openstack/python-%(project)s
+    upstream: git://git.openstack.org/openstack/%(project)s
     distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-    patches: https://github.com/redhat-openstack/python-%(project)s.git
-    master-distgit: https://github.com/openstack-packages/python-%(project)s.git
+    patches: git://github.com/redhat-openstack/%(project)s
+    master-distgit: git://github.com/openstack-packages/python-%(project)s
     maintainers:
     - apevec@redhat.com
   xstatic:
@@ -180,10 +180,10 @@ packages:
 - name: python-django-openstack-auth
   project: django_openstack_auth
   conf: core
-  upstream: https://git.openstack.org/openstack/django_openstack_auth
+  upstream: git://git.openstack.org/openstack/django_openstack_auth
   distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
-  patches: https://github.com/redhat-openstack/%(name)s.git
-  master-distgit: https://github.com/openstack-packages/%(name)s.git
+  patches: git://github.com/redhat-openstack/%(name)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - mrunge@redhat.com
 - project: diskimage-builder
@@ -196,7 +196,7 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo
   conf: core
-  upstream: https://git.openstack.org/openstack/tripleo-incubator
+  upstream: git://git.openstack.org/openstack/tripleo-incubator
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-heat-templates
@@ -217,12 +217,12 @@ packages:
   - jruzicka@redhat.com
 - project: instack
   conf: core
-  upstream: https://github.com/rdo-management/instack.git
+  upstream: git://github.com/rdo-management/instack
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
   conf: core
-  upstream: https://github.com/rdo-management/instack-undercloud.git
+  upstream: git://github.com/rdo-management/instack-undercloud
   maintainers:
   - jslagle@redhat.com
 - project: heat-templates
@@ -290,60 +290,59 @@ packages:
   distro-branch: rpm-master
 - project: keystonemiddleware
   conf: client
-  upstream: https://git.openstack.org/openstack/keystonemiddleware
+  upstream: git://git.openstack.org/openstack/keystonemiddleware
 - project: openstackclient
   conf: client
   distro-branch: rpm-master
 # openstack libraries
 - project: oslo-sphinx
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslosphinx
+  upstream: git://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.i18n
+  upstream: git://git.openstack.org/openstack/oslo.i18n
 - project: oslo-messaging
   conf: lib
   distro-branch: rpm-master
-  upstream: https://git.openstack.org/openstack/oslo.messaging
+  upstream: git://git.openstack.org/openstack/oslo.messaging
 - project: oslo-config
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.config
+  upstream: git://git.openstack.org/openstack/oslo.config
 - project: oslo-concurrency
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.concurrency
+  upstream: git://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.rootwrap
+  upstream: git://git.openstack.org/openstack/oslo.rootwrap
 - project: oslo-serialization
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.serialization
+  upstream: git://git.openstack.org/openstack/oslo.serialization
 - project: oslo-middleware
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.middleware
+  upstream: git://git.openstack.org/openstack/oslo.middleware
 - project: oslo-db
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.db
+  upstream: git://git.openstack.org/openstack/oslo.db
 - project: oslo-utils
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.utils
+  upstream: git://git.openstack.org/openstack/oslo.utils
 - project: oslo-vmware
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.vmware
+  upstream: git://git.openstack.org/openstack/oslo.vmware
 - project: oslo-context
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.context
+  upstream: git://git.openstack.org/openstack/oslo.context
 - project: oslo-log
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.log
+  upstream: git://git.openstack.org/openstack/oslo.log
 - project: oslo-policy
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.policy
+  upstream: git://git.openstack.org/openstack/oslo.policy
 - project: oslo-versionedobjects
   conf: lib
-  upstream: https://git.openstack.org/openstack/oslo.versionedobjects
+  upstream: git://git.openstack.org/openstack/oslo.versionedobjects
 - project: stevedore
   conf: lib
-  upstream: https://git.openstack.org/openstack/stevedore
 - project: taskflow
   conf: lib
 - project: pycadf
@@ -351,45 +350,45 @@ packages:
 # deps
 - name: openstack-packstack
   project: packstack
-  upstream: https://git.openstack.org/stackforge/packstack.git
-  patches: https://github.com/redhat-openstack/packstack.git
+  upstream: git://git.openstack.org/stackforge/packstack
+  patches: git://github.com/redhat-openstack/packstack
   distgit: ssh://pkgs.fedoraproject.org/openstack-packstack
-  master-distgit: https://github.com/openstack-packages/packstack.git
+  master-distgit: git://github.com/openstack-packages/packstack
   maintainers:
   - mmagr@redhat.com
   - lbezdick@redhat.com
 - name: openstack-puppet-modules
   project: openstack-puppet-modules
-  upstream: https://github.com/redhat-openstack/%(name)s.git
+  upstream: git://github.com/redhat-openstack/%(name)s
   source-branch: master-patches
-  master-distgit: https://github.com/openstack-packages/%(name)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@gmail.com
   - gchamoul@redhat.com
   - jpena@redhat.com
 - name: python-osprofiler
   project: osprofiler
-  upstream: https://git.openstack.org/stackforge/osprofiler
-  master-distgit: https://github.com/openstack-packages/python-osprofiler.git
+  upstream: git://git.openstack.org/stackforge/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@redhat.com
 - name: python-pysaml2
   project: pysaml2
-  upstream: https://github.com/rohe/pysaml2.git
-  master-distgit: https://github.com/openstack-packages/python-pysaml2.git
+  upstream: git://github.com/rohe/pysaml2
+  master-distgit: git://github.com/openstack-packages/python-pysaml2
   maintainers:
   - apevec@redhat.com
 - name: python-networking-arista
   project: networking-arista
-  upstream: https://git.openstack.org/stackforge/networking-arista.git
-  master-distgit: https://github.com/openstack-packages/python-networking-arista.git
+  upstream: git://git.openstack.org/stackforge/networking-arista
+  master-distgit: git://github.com/openstack-packages/python-networking-arista
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - name: python-networking-odl
   project: networking-odl
-  upstream: https://git.openstack.org/stackforge/networking-odl.git
-  master-distgit: https://github.com/openstack-packages/python-networking-odl.git
+  upstream: git://git.openstack.org/stackforge/networking-odl
+  master-distgit: git://github.com/openstack-packages/python-networking-odl
   distro-branch: rpm-master
   maintainers:
   - ihrachys@redhat.com
