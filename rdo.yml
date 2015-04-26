@@ -95,6 +95,7 @@ packages:
 # core openstack projects
 - project: nova
   conf: core
+  distro-branch: rpm-master
   maintainers:
   - ndipanov@redhat.com
   - jruzicka@redhat.com
@@ -105,6 +106,7 @@ packages:
   - apevec@redhat.com
 - project: glance
   conf: core
+  distro-branch: rpm-master
   maintainers:
   - hguemar@redhat.com
 - project: glance_store
