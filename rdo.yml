@@ -112,6 +112,7 @@ packages:
 - project: glance_store
   conf: core
   name: python-glance-store
+  distro-branch: rpm-master
   distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - hguemar@redhat.com
