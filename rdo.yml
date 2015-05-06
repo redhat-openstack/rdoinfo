@@ -176,6 +176,7 @@ packages:
 - project: horizon
   name: python-django-horizon
   conf: core
+  distro-branch: rpm-master
   distgit: ssh://pkgs.fedoraproject.org/python-django-horizon.git
   maintainers:
   - mrunge@redhat.com
