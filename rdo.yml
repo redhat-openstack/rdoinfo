@@ -286,6 +286,7 @@ packages:
 # The openstack clients
 - project: keystoneclient
   conf: client
+  distro-branch: rpm-master
 - project: glanceclient
   conf: client
 - project: novaclient
