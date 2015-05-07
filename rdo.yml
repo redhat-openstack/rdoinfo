@@ -392,6 +392,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
 - project: stevedore
   conf: lib
+  distro-branch: rpm-master
 - project: taskflow
   conf: lib
   distro-branch: rpm-master
