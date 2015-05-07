@@ -390,6 +390,7 @@ packages:
   patches: git://github.com/redhat-openstack/packstack
   distgit: ssh://pkgs.fedoraproject.org/openstack-packstack
   master-distgit: git://github.com/openstack-packages/packstack
+  distro-branch: rpm-master
   maintainers:
   - mmagr@redhat.com
   - lbezdick@redhat.com
