@@ -349,6 +349,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
 - project: oslo-concurrency
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
   conf: lib
