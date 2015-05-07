@@ -337,6 +337,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslo.i18n
 - project: oslo-messaging
   conf: lib
