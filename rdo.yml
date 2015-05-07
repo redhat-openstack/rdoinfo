@@ -325,6 +325,7 @@ packages:
   distro-branch: rpm-master
 - project: keystonemiddleware
   conf: client
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/keystonemiddleware
 - project: openstackclient
   conf: client
