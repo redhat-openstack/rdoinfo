@@ -345,6 +345,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
 - project: oslo-config
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslo.config
 - project: oslo-concurrency
   conf: lib
