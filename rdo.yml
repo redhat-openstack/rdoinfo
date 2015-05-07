@@ -333,6 +333,7 @@ packages:
 # openstack libraries
 - project: oslo-sphinx
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
   conf: lib
