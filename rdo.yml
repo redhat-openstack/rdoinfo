@@ -388,6 +388,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
 - project: oslo-versionedobjects
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
 - project: stevedore
   conf: lib
