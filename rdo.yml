@@ -424,6 +424,7 @@ packages:
   project: osprofiler
   upstream: git://git.openstack.org/stackforge/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
+  distro-branch: rpm-master
   maintainers:
   - apevec@redhat.com
 - name: python-pysaml2
