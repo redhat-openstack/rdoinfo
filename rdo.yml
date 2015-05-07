@@ -373,6 +373,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
 - project: oslo-vmware
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslo.vmware
 - project: oslo-context
   conf: lib
