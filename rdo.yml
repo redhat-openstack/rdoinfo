@@ -399,6 +399,7 @@ packages:
   upstream: git://github.com/redhat-openstack/%(name)s
   source-branch: master-patches
   master-distgit: git://github.com/openstack-packages/%(name)s
+  distro-branch: rpm-master
   maintainers:
   - apevec@gmail.com
   - gchamoul@redhat.com
