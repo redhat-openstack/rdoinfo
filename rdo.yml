@@ -365,6 +365,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
 - project: oslo-db
   conf: lib
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/oslo.db
 - project: oslo-utils
   conf: lib
