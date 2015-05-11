@@ -188,6 +188,7 @@ packages:
 - name: python-django-openstack-auth
   project: django_openstack_auth
   conf: core
+  distro-branch: rpm-master
   upstream: git://git.openstack.org/openstack/django_openstack_auth
   distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   patches: git://github.com/redhat-openstack/%(name)s
