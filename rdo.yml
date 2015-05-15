@@ -7,12 +7,12 @@ releases:
   branch: master
   fedora: 23/rawhide
   repos:
-  - name: fedora-22
+  - name: f22
     buildsys: koji/master
-  - name: fedora-21
+  - name: f21
     special: symlink to fedora-22 repo (don't submit fedora-21 updates)
-  - name: epel-7
-    buildsys: cbs/cloud7-el7
+  - name: el7
+    buildsys: cbs/cloud7-openstack-kilo-el7
 - name: juno
   # this is default branch for release and can be overriden on repo level
   branch: f22
