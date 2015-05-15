@@ -68,25 +68,25 @@ package-configs:
   core:
     name: openstack-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
+    distgit: ssh://pkgs.fedoraproject.org/openstack-%(project)s.git
     patches: git://github.com/redhat-openstack/%(project)s
     master-distgit: git://github.com/openstack-packages/%(project)s
     distro-branch: rpm-master
   client:
     name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/%(name)s
-    distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
-    patches: git://github.com/redhat-openstack/%(name)s
-    master-distgit: git://github.com/openstack-packages/%(name)s
+    upstream: git://git.openstack.org/openstack/python-%(project)s
+    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
+    patches: git://github.com/redhat-openstack/python-%(project)s
+    master-distgit: git://github.com/openstack-packages/python-%(project)s
     distro-branch: rpm-master
     maintainers:
     - jruzicka@redhat.com
   lib:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
+    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
     patches: git://github.com/redhat-openstack/%(project)s
-    master-distgit: git://github.com/openstack-packages/%(name)s
+    master-distgit: git://github.com/openstack-packages/python-%(project)s
     distro-branch: rpm-master
     maintainers:
     - apevec@redhat.com
@@ -339,7 +339,7 @@ packages:
   conf: lib
 # deps
 - project: packstack
-  name: openstack-%(project)s
+  name: openstack-packstack
   upstream: git://git.openstack.org/stackforge/%(project)s
   patches: git://github.com/redhat-openstack/%(project)s
   distgit: ssh://pkgs.fedoraproject.org/%(name)s
@@ -359,7 +359,7 @@ packages:
   - gchamoul@redhat.com
   - jpena@redhat.com
 - project: osprofiler
-  name: python-%(project)s
+  name: python-osprofiler
   upstream: git://git.openstack.org/stackforge/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
@@ -373,7 +373,7 @@ packages:
   maintainers:
   - apevec@redhat.com
 - project: networking-arista
-  name: python-%(project)s
+  name: python-networking-arista
   upstream: git://git.openstack.org/stackforge/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
@@ -381,7 +381,7 @@ packages:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: networking-odl
-  name: python-%(project)s
+  name: python-networking-odl
   upstream: git://git.openstack.org/stackforge/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
