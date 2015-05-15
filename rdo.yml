@@ -398,3 +398,15 @@ packages:
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
+- project: tempest
+  conf: core
+  upstream: git://github.com/redhat-openstack/%(project)s
+  source-branch: master
+  maintainers:
+  - slinaber@redhat.com
+  - psedlak@redhat.com
+- project: tempest-lib
+  conf: lib
+  maintainers:
+  - slinaber@redhat.com
+  - psedlak@redhat.com
