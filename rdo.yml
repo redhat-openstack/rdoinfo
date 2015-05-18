@@ -173,6 +173,7 @@ packages:
 - project: django_openstack_auth
   conf: lib
   name: python-django-openstack-auth
+  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - mrunge@redhat.com
 - project: diskimage-builder
