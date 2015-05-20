@@ -132,6 +132,11 @@ packages:
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
+- project: ironic
+  conf: core
+  distro-branch: rpm-master
+  maintainers:
+  - athomas@redhat.com
 - project: neutron
   conf: core
   maintainers:
