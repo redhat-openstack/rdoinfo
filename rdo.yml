@@ -378,6 +378,12 @@ packages:
   distro-branch: rpm-master
   maintainers:
   - apevec@redhat.com
+- project: appdirs
+  conf: lib
+  upstream: git://github.com/ActiveState/appdirs
+  maintainers:
+  - apevec@redhat.com
+  - jpena@redhat.com
 - project: networking-arista
   name: python-networking-arista
   upstream: git://git.openstack.org/stackforge/%(project)s
