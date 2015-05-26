@@ -126,6 +126,12 @@ packages:
   distro-branch: rpm-master
   maintainers:
   - eglynn@redhat.com
+  - pkilambi@redhat.com
+- project: gnocchi
+  conf: core
+  distro-branch: rpm-master
+  maintainers:
+  - pkilambi@redhat.com
 - project: heat
   conf: core
   distro-branch: rpm-master
