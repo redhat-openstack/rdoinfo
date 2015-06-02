@@ -404,6 +404,14 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+- project: networking-mlnx
+  name: python-networking-mlnx
+  upstream: git://git.openstack.org/stackforge/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  distro-branch: rpm-master
+  maintainers:
+  - ihrachys@redhat.com
+  - motyz@mellanox.com
 - project: networking-odl
   name: python-networking-odl
   upstream: git://git.openstack.org/stackforge/%(project)s
