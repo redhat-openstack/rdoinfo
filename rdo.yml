@@ -265,6 +265,11 @@ packages:
   name: os-client-config
   maintainers:
   - jruzicka@redhat.com
+- project: manila
+  conf: core
+  maintainers:
+  - hguemar@fedoraproject.org
+  - zaitcev@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
