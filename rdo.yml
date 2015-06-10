@@ -117,6 +117,7 @@ package-configs:
     distro-branch: rpm-master
     maintainers:
     - jruzicka@redhat.com
+    - hguemar@redhat.com
   lib:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
@@ -126,6 +127,7 @@ package-configs:
     distro-branch: rpm-master
     maintainers:
     - apevec@redhat.com
+    - hguemar@redhat.com
   xstatic:
     maintainers:
     - mrunge@redhat.com
@@ -174,6 +176,7 @@ packages:
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
+  - hguemar@redhat.com
 - project: ironic
   conf: core
   distro-branch: rpm-master
@@ -217,7 +220,7 @@ packages:
   conf: core
   maintainers:
   - victoria@redhat.com
-  - hguemar@fedoraproject.org
+  - hguemar@redhat.com
 - project: django_openstack_auth
   conf: lib
   name: python-django-openstack-auth
@@ -333,6 +336,8 @@ packages:
 - project: troveclient
   conf: client
 - project: designateclient
+  conf: client
+- project: manilaclient
   conf: client
 - project: keystonemiddleware
   conf: client
