@@ -307,8 +307,13 @@ packages:
 - project: manila
   conf: core
   maintainers:
-  - hguemar@fedoraproject.org
+  - hguemar@redhat.com
   - zaitcev@redhat.com
+- project: zaqar
+  conf: core
+  maintainers:
+  - hguemar@redhat.com
+  - fpercoco@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
