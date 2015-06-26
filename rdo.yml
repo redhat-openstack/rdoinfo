@@ -469,6 +469,13 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+- project: networking-cisco
+  name: networking-cisco
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/bdemers/networking-cisco-packages
+  distro-branch: rpm-master
+  maintainers:
+  - openstack-networking@cisco.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
