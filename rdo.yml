@@ -395,6 +395,9 @@ packages:
 - project: oslo-versionedobjects
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
+- project: oslo-service
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslo.service
 - project: stevedore
   conf: lib
 - project: taskflow
