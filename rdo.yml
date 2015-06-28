@@ -404,6 +404,8 @@ packages:
   conf: lib
 - project: pycadf
   conf: lib
+- project: debtcollector
+  conf: lib
 # deps
 - project: packstack
   name: openstack-packstack
