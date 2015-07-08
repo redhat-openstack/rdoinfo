@@ -472,10 +472,11 @@ packages:
 - project: networking-cisco
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/bdemers/networking-cisco-packages
+  master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
   maintainers:
   - openstack-networking@cisco.com
+  - brdemers@cisco.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
