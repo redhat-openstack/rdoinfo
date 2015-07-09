@@ -536,6 +536,12 @@ packages:
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
+- project: UcsSdk
+  conf: lib
+  upstream: git://github.com/CiscoUcs/UcsPythonSDK
+  maintainers:
+  - openstack-networking@cisco.com
+  - brdemers@cisco.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
