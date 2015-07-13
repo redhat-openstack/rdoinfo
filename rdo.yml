@@ -460,7 +460,7 @@ packages:
   - jpena@redhat.com
 - project: networking-arista
   name: python-networking-arista
-  upstream: git://git.openstack.org/stackforge/%(project)s
+  upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
   maintainers:
