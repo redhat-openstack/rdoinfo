@@ -207,6 +207,10 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+- project: octavia
+  conf: core
+  maintainers:
+  - nmagnezi@redhat.com
 - project: sahara
   conf: core
   maintainers:
@@ -395,11 +399,23 @@ packages:
 - project: oslo-versionedobjects
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
+- project: oslo-service
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslo.service
+- project: oslo-reports
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslo.reports
 - project: stevedore
   conf: lib
 - project: taskflow
   conf: lib
 - project: pycadf
+  conf: lib
+- project: debtcollector
+  conf: lib
+- project: automaton
+  conf: lib
+- project: cliff
   conf: lib
 # deps
 - project: packstack
@@ -444,7 +460,7 @@ packages:
   - jpena@redhat.com
 - project: networking-arista
   name: python-networking-arista
-  upstream: git://git.openstack.org/stackforge/%(project)s
+  upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
   maintainers:
@@ -473,6 +489,14 @@ packages:
   distro-branch: rpm-master
   maintainers:
   - ihrachys@redhat.com
+- project: networking-cisco
+  name: python-networking-cisco
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  distro-branch: rpm-master
+  maintainers:
+  - openstack-networking@cisco.com
+  - brdemers@cisco.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
