@@ -466,6 +466,13 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+- project: vmware-nsx
+  name: python-networking-vmware-nsx
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  distro-branch: rpm-master
+  maintainers:
+  - ihrachys@redhat.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
