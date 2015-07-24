@@ -507,3 +507,6 @@ packages:
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
+- project: cachetools
+  conf: lib
+  upstream: git://github.com/tkem/cachetools.git
