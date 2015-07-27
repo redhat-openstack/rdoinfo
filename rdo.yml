@@ -4,8 +4,8 @@
 releases:
 - name: kilo
   # this is default branch for release and can be overriden on repo level
-  branch: master
-  fedora: 23/rawhide
+  branch: f23
+  fedora: 23
   repos:
   - name: f22
     buildsys: koji/master
