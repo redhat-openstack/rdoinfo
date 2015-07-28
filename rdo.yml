@@ -2,6 +2,40 @@
 # support for overriding this on per-package basis is doable,
 # I.E. each package can have it's own 'releases' section
 releases:
+- name: liberty
+  # this is default branch for release and can be overriden on repo level
+  branch: master
+  fedora: 24/rawhide
+  repos:
+  - name: f23
+    buildsys: koji/master
+    distrepos:
+    - name: RDO Liberty f23
+      url: https://rdoproject.org/repos/openstack-liberty/testing/f23/
+    - name: Fedora 23 Development
+      url: http://download.fedoraproject.org/pub/fedora/development/23/x86_64/os/
+  - name: f22
+    special: symlink to fedora-23 repo (don't submit fedora-22 Liberty updates)
+    distrepos:
+    - name: RDO Liberty f22
+      url: https://rdoproject.org/repos/openstack-liberty/testing/f22/
+    - name: Fedora 22 Updates
+      url: http://download.fedoraproject.org/pub/fedora/linux/updates/22/x86_64/
+    - name: Fedora 22
+      url: http://download.fedoraproject.org/pub/fedora/linux/releases/22/Everything/x86_64/os/
+  - name: el7
+    buildsys: cbs/cloud7-openstack-liberty-el7
+    distrepos:
+    - name: RDO Liberty el7
+      url: https://rdoproject.org/repos/openstack-liberty/testing/el7/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
+      url: http://mirror.centos.org/centos/7/extras/x86_64/
+    - name: EPEL 7
+      url: http://dl.fedoraproject.org/pub/epel/7/x86_64/
 - name: kilo
   # this is default branch for release and can be overriden on repo level
   branch: f23
