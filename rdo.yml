@@ -546,3 +546,6 @@ packages:
 - project: cachetools
   conf: lib
   upstream: git://github.com/tkem/cachetools.git
+- project: unicodecsv
+  conf: lib
+  upstream: git://github.com/jdunck/python-unicodecsv
