@@ -536,6 +536,14 @@ packages:
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
+- project: UcsSdk
+  name: python-%(project)s
+  upstream: git://github.com/CiscoUcs/UcsPythonSDK
+  master-distgit: git://github.com/bdemers/python-UcsSdk-spec
+  distro-branch: rpm-master
+  maintainers:
+  - openstack-networking@cisco.com
+  - brdemers@cisco.com
 - project: tripleo-puppet-elements
   conf: core
   maintainers:
