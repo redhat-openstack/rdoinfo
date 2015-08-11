@@ -296,6 +296,11 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: tuskar-ui-extras
+  conf: core
+  upstream: https://github.com/rdo-management/tuskar-ui-extras
+  maintainers:
+  - jtomasek@redhat.com
 - project: instack
   conf: core
   name: instack
@@ -352,6 +357,12 @@ packages:
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
+- project: ironic-discoverd
+  conf: core
+  upstream: https://github.com/rdo-management/ironic-discoverd
+  source-branch: mgt-master
+  maintainers:
+  - dtantsur@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
@@ -387,6 +398,15 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: client
+- project: ironic-inspector-client
+  conf: client
+  maintainers:
+  - dtantsur@redhat.com
+- project: rdomanager-oscplugin
+  conf: client
+  upstream: https://github.com/rdo-management/python-rdomanager-oscplugin
+  maintainers:
+  - brad@redhat.com
 # openstack libraries
 - project: oslo-sphinx
   conf: lib
@@ -477,6 +497,11 @@ packages:
   - apevec@gmail.com
   - gchamoul@redhat.com
   - jpena@redhat.com
+- project: tripleo-common
+  conf: core
+  name: tripleo-common
+  maintainers:
+  - jprovazn@redhat.com
 - project: osprofiler
   name: python-osprofiler
   upstream: git://git.openstack.org/stackforge/%(project)s
