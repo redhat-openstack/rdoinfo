@@ -363,6 +363,11 @@ packages:
   source-branch: mgt-master
   maintainers:
   - dtantsur@redhat.com
+- project: ironic-python-agent
+  conf: core
+  maintainers:
+  - trown@redhat.com
+  - dtantsur@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
