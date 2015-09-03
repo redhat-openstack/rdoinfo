@@ -469,6 +469,8 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: stevedore
   conf: lib
+- project: castellan
+  conf: lib
 - project: taskflow
   conf: lib
 - project: pycadf
