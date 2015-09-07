@@ -162,6 +162,7 @@ package-configs:
     maintainers:
     - apevec@redhat.com
     - hguemar@redhat.com
+    - lbezdick@redhat.com
   xstatic:
     maintainers:
     - mrunge@redhat.com
@@ -413,6 +414,12 @@ packages:
   maintainers:
   - brad@redhat.com
 # openstack libraries
+- project: mox3
+  conf: lib
+  upstream: git://git.openstack.org/openstack/mox3
+- project: oslotest
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
   conf: lib
   upstream: git://git.openstack.org/openstack/oslosphinx
