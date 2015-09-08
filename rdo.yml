@@ -492,6 +492,9 @@ packages:
   conf: lib
 - project: futurist
   conf: lib
+- project: hacking
+  conf: lib
+  upstream: git://git.openstack.org/openstack-dev/hacking
 # deps
 - project: packstack
   name: openstack-packstack
