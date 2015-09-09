@@ -307,13 +307,11 @@ packages:
 - project: instack
   conf: core
   name: instack
-  upstream: git://github.com/rdo-management/%(project)s
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
   conf: core
   name: instack-undercloud
-  upstream: git://github.com/rdo-management/%(project)s
   maintainers:
   - jslagle@redhat.com
 - project: heat-templates
