@@ -613,3 +613,9 @@ packages:
   master-distgit: https://github.com/openstack-packages/python-alembic.git
   maintainers:
   - apevec@redhat.com
+- project: hardware
+  conf: lib
+  upstream: git://github.com/redhat-cip/hardware.git
+  maintainers:
+  - trown@redhat.com
+  - flepied@redhat.com
