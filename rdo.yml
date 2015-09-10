@@ -473,6 +473,9 @@ packages:
 - project: oslo-reports
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.reports
+- project: oslo-policy
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslo.policy
 - project: stevedore
   conf: lib
 - project: castellan
