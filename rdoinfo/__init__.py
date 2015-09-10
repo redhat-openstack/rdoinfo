@@ -34,6 +34,8 @@ class MissingRequiredItem(InvalidInfoFormat):
 class UndefinedPackageConfig(InvalidInfoFormat):
     msg_fmt = "Package config isn't defined: %(conf)s"
 
+class DuplicatedProject(InvalidInfoFormat):
+    msg_fmt = "Duplicated project: %(prj)s"
 
 def parse_info_file(fn):
     info = yaml.load(open(fn, 'rb'))
@@ -111,6 +113,7 @@ def parse_package(pkg, info):
             raise UndefinedPackageConfig(conf=conf_id)
         pkg = apply_package_config(pkg, conf)
     pkg = substitute_package(pkg)
+
     try:
         name = pkg['name']
     except KeyError:
@@ -137,6 +140,13 @@ def parse_package(pkg, info):
 
     return pkg
 
+def check_for_duplicates(pkg, pkgs):
+    for oldpkg in pkgs:
+        if pkg['name'] == oldpkg['name']:
+            return True
+        if pkg['upstream'] == oldpkg['upstream']:
+            return True
+    return False
 
 def parse_packages(info):
     try:
@@ -148,5 +158,10 @@ def parse_packages(info):
 
     parsed_pkgs = []
     for pkg in pkgs:
-        parsed_pkgs.append(parse_package(pkg, info))
+        parsed_pkg = parse_package(pkg, info)
+        if check_for_duplicates(parsed_pkg,parsed_pkgs):
+            raise DuplicatedProject(prj=parsed_pkg['name'])
+        else:
+            parsed_pkgs.append(parsed_pkg)
+
     info['packages'] = parsed_pkgs
