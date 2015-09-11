@@ -219,6 +219,11 @@ packages:
   distro-branch: rpm-master
   maintainers:
   - athomas@redhat.com
+- project: ironic-inspector
+  conf: core
+  maintainers:
+  - trown@redhat.com
+  - dtantsur@redhat.com
 - project: neutron
   conf: core
   maintainers:
@@ -358,12 +363,6 @@ packages:
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
-- project: ironic-discoverd
-  conf: core
-  upstream: https://github.com/rdo-management/ironic-discoverd
-  source-branch: mgt-master
-  maintainers:
-  - dtantsur@redhat.com
 - project: ironic-python-agent
   conf: core
   maintainers:
