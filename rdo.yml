@@ -367,6 +367,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
+- project: barbican
+  conf: core
+  maintainers:
+  - greg.swift@rackspace.net
+  - msm@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
