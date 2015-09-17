@@ -13,8 +13,6 @@ notifications:
       - "Change view : %{compare_url}"
       - "Build details : %{build_url}"
     channels:
-        - "chat.freenode.net#rdo"
+        - "irc.freenode.net#rdo"
     on_success: always
     on_failure: always
-    use_notice: true
-    skip_join: true
