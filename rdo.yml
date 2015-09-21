@@ -625,3 +625,8 @@ packages:
 - project: keystoneauth1
   conf: lib
   upstream: git://github.com/openstack/keystoneauth
+- project: rally
+  conf: core
+  maintainers:
+  - vimartin@redhat.com
+  - slinaber@redhat.com
