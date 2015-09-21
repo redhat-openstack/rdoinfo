@@ -345,8 +345,6 @@ packages:
   - jruzicka@redhat.com
 - project: os-client-config
   conf: lib
-  upstream: git://github.com/redhat-openstack/%(project)s
-  source-branch: pin-to-1.6.4
   maintainers:
   - jruzicka@redhat.com
 - project: manila
