@@ -619,3 +619,6 @@ packages:
   maintainers:
   - trown@redhat.com
   - flepied@redhat.com
+- project: keystoneauth1
+  conf: lib
+  upstream: git://github.com/openstack/keystoneauth
