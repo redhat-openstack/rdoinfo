@@ -402,6 +402,9 @@ packages:
 - project: keystonemiddleware
   conf: client
   upstream: git://git.openstack.org/openstack/%(project)s
+- project: ceilometermiddleware
+  conf: client
+  upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: client
 - project: ironic-inspector-client
