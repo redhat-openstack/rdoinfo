@@ -625,3 +625,6 @@ packages:
 - project: keystoneauth1
   conf: lib
   upstream: git://github.com/openstack/keystoneauth
+- project: zaqarclient
+  conf: lib
+  upstream: git://github.com/openstack/python-%(project)s.git
