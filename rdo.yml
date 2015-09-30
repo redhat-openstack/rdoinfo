@@ -2,10 +2,44 @@
 # support for overriding this on per-package basis is doable,
 # I.E. each package can have it's own 'releases' section
 releases:
-- name: kilo
+- name: liberty
   # this is default branch for release and can be overriden on repo level
   branch: master
-  fedora: 23/rawhide
+  fedora: 24/rawhide
+  repos:
+  - name: f23
+    buildsys: koji/master
+    distrepos:
+    - name: RDO Liberty f23
+      url: https://rdoproject.org/repos/openstack-liberty/testing/f23/
+    - name: Fedora 23 Development
+      url: http://download.fedoraproject.org/pub/fedora/development/23/x86_64/os/
+  - name: f22
+    special: symlink to fedora-23 repo (don't submit fedora-22 Liberty updates)
+    distrepos:
+    - name: RDO Liberty f22
+      url: https://rdoproject.org/repos/openstack-liberty/testing/f22/
+    - name: Fedora 22 Updates
+      url: http://download.fedoraproject.org/pub/fedora/linux/updates/22/x86_64/
+    - name: Fedora 22
+      url: http://download.fedoraproject.org/pub/fedora/linux/releases/22/Everything/x86_64/os/
+  - name: el7
+    buildsys: cbs/cloud7-openstack-liberty-el7
+    distrepos:
+    - name: RDO Liberty el7
+      url: https://rdoproject.org/repos/openstack-liberty/testing/el7/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
+      url: http://mirror.centos.org/centos/7/extras/x86_64/
+    - name: EPEL 7
+      url: http://dl.fedoraproject.org/pub/epel/7/x86_64/
+- name: kilo
+  # this is default branch for release and can be overriden on repo level
+  branch: f23
+  fedora: 23
   repos:
   - name: f22
     buildsys: koji/master
@@ -128,6 +162,7 @@ package-configs:
     maintainers:
     - apevec@redhat.com
     - hguemar@redhat.com
+    - lbezdick@redhat.com
   xstatic:
     maintainers:
     - mrunge@redhat.com
@@ -161,11 +196,13 @@ packages:
   maintainers:
   - eglynn@redhat.com
   - pkilambi@redhat.com
+  - chdent@redhat.com
 - project: gnocchi
   conf: core
   distro-branch: rpm-master
   maintainers:
   - pkilambi@redhat.com
+  - chdent@redhat.com
 - project: heat
   conf: core
   maintainers:
@@ -262,16 +299,19 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
+- project: tuskar-ui-extras
+  conf: core
+  upstream: https://github.com/rdo-management/tuskar-ui-extras
+  maintainers:
+  - jtomasek@redhat.com
 - project: instack
   conf: core
   name: instack
-  upstream: git://github.com/rdo-management/%(project)s
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
   conf: core
   name: instack-undercloud
-  upstream: git://github.com/rdo-management/%(project)s
   maintainers:
   - jslagle@redhat.com
 - project: heat-templates
@@ -304,8 +344,7 @@ packages:
   maintainers:
   - jruzicka@redhat.com
 - project: os-client-config
-  conf: core
-  name: os-client-config
+  conf: lib
   maintainers:
   - jruzicka@redhat.com
 - project: manila
@@ -318,6 +357,21 @@ packages:
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
+- project: ironic-inspector
+  conf: core
+  maintainers:
+  - trown@redhat.com
+  - dtantsur@redhat.com
+- project: ironic-python-agent
+  conf: core
+  maintainers:
+  - trown@redhat.com
+  - dtantsur@redhat.com
+- project: barbican
+  conf: core
+  maintainers:
+  - greg.swift@rackspace.net
+  - msm@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
@@ -351,9 +405,31 @@ packages:
 - project: keystonemiddleware
   conf: client
   upstream: git://git.openstack.org/openstack/%(project)s
+- project: ceilometermiddleware
+  conf: client
+  upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: client
+- project: ironic-inspector-client
+  conf: client
+  maintainers:
+  - dtantsur@redhat.com
+- project: tripleoclient
+  conf: client
+  maintainers:
+  - brad@redhat.com
+- project: zaqarclient
+  conf: client
+  maintainers:
+  - hguemar@redhat.com
+  - fpercoco@redhat.com
 # openstack libraries
+- project: mox3
+  conf: lib
+  upstream: git://git.openstack.org/openstack/mox3
+- project: oslotest
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
   conf: lib
   upstream: git://git.openstack.org/openstack/oslosphinx
@@ -363,6 +439,9 @@ packages:
 - project: oslo-messaging
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
+- project: oslo-cache
+  conf: lib
+  upstream: git://git.openstack.org/openstack/oslo.cache
 - project: oslo-config
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.config
@@ -407,6 +486,8 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: stevedore
   conf: lib
+- project: castellan
+  conf: lib
 - project: taskflow
   conf: lib
 - project: pycadf
@@ -417,6 +498,11 @@ packages:
   conf: lib
 - project: cliff
   conf: lib
+- project: futurist
+  conf: lib
+- project: hacking
+  conf: lib
+  upstream: git://git.openstack.org/openstack-dev/hacking
 # deps
 - project: packstack
   name: openstack-packstack
@@ -438,6 +524,11 @@ packages:
   - apevec@gmail.com
   - gchamoul@redhat.com
   - jpena@redhat.com
+- project: tripleo-common
+  conf: core
+  name: tripleo-common
+  maintainers:
+  - jprovazn@redhat.com
 - project: osprofiler
   name: python-osprofiler
   upstream: git://git.openstack.org/stackforge/%(project)s
@@ -489,11 +580,25 @@ packages:
   distro-branch: rpm-master
   maintainers:
   - ihrachys@redhat.com
+- project: networking-bigswitch
+  name: python-networking-bigswitch
+  upstream: git://git.openstack.org/stackforge/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  distro-branch: rpm-master
+  maintainers:
+  - ihrachys@redhat.com
+  - xin.wu@bigswitch.com
 - project: networking-cisco
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   distro-branch: rpm-master
+  maintainers:
+  - openstack-networking@cisco.com
+  - brdemers@cisco.com
+- project: UcsSdk
+  conf: lib
+  upstream: git://github.com/CiscoUcs/UcsPythonSDK
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
@@ -507,3 +612,46 @@ packages:
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
+- project: cachetools
+  conf: lib
+  upstream: git://github.com/tkem/cachetools.git
+- project: unicodecsv
+  conf: lib
+  upstream: git://github.com/jdunck/python-unicodecsv
+- name: python-alembic
+  project: alembic
+  upstream: https://bitbucket.org/zzzeek/alembic.git
+  master-distgit: https://github.com/openstack-packages/python-alembic.git
+  maintainers:
+  - apevec@redhat.com
+- project: hardware
+  conf: lib
+  upstream: git://github.com/redhat-cip/hardware.git
+  maintainers:
+  - trown@redhat.com
+  - flepied@redhat.com
+- project: keystoneauth1
+  conf: lib
+  upstream: git://github.com/openstack/keystoneauth
+- project: rally
+  conf: core
+  maintainers:
+  - vimartin@redhat.com
+  - slinaber@redhat.com
+- project: tempest
+  conf: core
+  upstream: git://github.com/redhat-openstack/tempest.git
+  source-branch: rebased-upstream
+  maintainers:
+  - slinaber@redhat.com
+  - dmellado@redhat.com
+- project: tempest-lib
+  conf: lib
+  maintainers:
+  - slinaber@redhat.com
+  - dmellado@redhat.com
+- project: os-testr
+  conf: lib
+  maintainers:
+  - slinaber@redhat.com
+  - dmellado@redhat.com
