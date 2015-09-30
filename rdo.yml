@@ -394,6 +394,10 @@ packages:
   conf: client
 - project: neutronclient
   conf: client
+  maintainers:
+  - ihrachys@redhat.com
+  - jruzicka@redhat.com
+  - hguemar@redhat.com
 - project: saharaclient
   conf: client
 - project: troveclient
