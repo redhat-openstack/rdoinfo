@@ -15,5 +15,5 @@ notifications:
       - "Build details : %{build_url}"
     channels:
         - "irc.freenode.net#rdo"
-    on_success: always
+    on_success: never
     on_failure: always
