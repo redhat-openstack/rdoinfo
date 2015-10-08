@@ -291,19 +291,6 @@ packages:
   conf: core
   maintainers:
   - jruzicka@redhat.com
-- project: tuskar
-  conf: core
-  maintainers:
-  - jruzicka@redhat.com
-- project: tuskar-ui
-  conf: core
-  maintainers:
-  - jruzicka@redhat.com
-- project: tuskar-ui-extras
-  conf: core
-  upstream: https://github.com/rdo-management/tuskar-ui-extras
-  maintainers:
-  - jtomasek@redhat.com
 - project: instack
   conf: core
   name: instack
@@ -384,8 +371,6 @@ packages:
 - project: ceilometerclient
   conf: client
 - project: heatclient
-  conf: client
-- project: tuskarclient
   conf: client
 - project: cinderclient
   conf: client
