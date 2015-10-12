@@ -278,7 +278,8 @@ packages:
   name: dib-utils
   maintainers:
   - jruzicka@redhat.com
-- project: tripleo
+- project: tripleo-incubator
+  name: openstack-tripleo
   conf: core
   upstream: git://git.openstack.org/openstack/tripleo-incubator
   maintainers:
