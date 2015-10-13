@@ -281,7 +281,8 @@ packages:
 - project: tripleo-incubator
   name: openstack-tripleo
   conf: core
-  upstream: git://git.openstack.org/openstack/tripleo-incubator
+  distgit: ssh://pkgs.fedoraproject.org/openstack-tripleo.git
+  master-distgit: git://github.com/openstack-packages/tripleo
   maintainers:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
