@@ -108,29 +108,6 @@ releases:
       url: http://mirror.centos.org/centos/7/extras/x86_64/
     - name: EPEL 7
       url: http://dl.fedoraproject.org/pub/epel/7/x86_64/
-- name: icehouse
-  branch: f21
-  fedora: 21
-  repos:
-  - name: fedora-20
-    buildsys: koji/f21
-    distrepos:
-    - name: RDO Icehouse fedora-20
-      url: https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/fedora-20/
-    - name: Fedora 20 Updates
-      url: http://dl.fedoraproject.org/pub/fedora/linux/updates/20/x86_64/
-    - name: Fedora 20
-      url: http://dl.fedoraproject.org/pub/fedora/linux/releases/20/Fedora/x86_64/os/
-  - name: epel-6
-    buildsys: copr/jruzicka/rdo-icehouse-epel-6
-    distrepos:
-    - name: RDO Icehouse epel-6
-      url: https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-6/
-  - name: epel-7
-    buildsys: copr/jruzicka/rdo-icehosue-epel-7
-    distrepos:
-    - name: RDO Icehouse epel-7
-      url: https://repos.fedorapeople.org/repos/openstack/openstack-icehouse/epel-7/
 
 # these are basically templates for 'packages' information bellow, reducing
 # redundant information in this file
