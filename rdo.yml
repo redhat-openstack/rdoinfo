@@ -519,7 +519,7 @@ packages:
   - jprovazn@redhat.com
 - project: osprofiler
   name: python-osprofiler
-  upstream: git://git.openstack.org/stackforge/%(project)s
+  upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@redhat.com
@@ -544,7 +544,7 @@ packages:
   - majopela@redhat.com
 - project: networking-mlnx
   name: python-networking-mlnx
-  upstream: git://git.openstack.org/stackforge/%(project)s
+  upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
@@ -562,13 +562,6 @@ packages:
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
-- project: networking-bigswitch
-  name: python-networking-bigswitch
-  upstream: git://git.openstack.org/stackforge/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
-  maintainers:
-  - ihrachys@redhat.com
-  - xin.wu@bigswitch.com
 - project: networking-cisco
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
