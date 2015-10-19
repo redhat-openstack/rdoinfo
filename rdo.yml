@@ -496,7 +496,7 @@ packages:
 # deps
 - project: packstack
   name: openstack-packstack
-  upstream: git://git.openstack.org/stackforge/%(project)s
+  upstream: git://git.openstack.org/openstack/%(project)s
   patches: git://github.com/redhat-openstack/%(project)s
   distgit: ssh://pkgs.fedoraproject.org/%(name)s
   master-distgit: git://github.com/openstack-packages/%(project)s
