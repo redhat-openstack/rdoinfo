@@ -541,7 +541,7 @@ packages:
   - ihrachys@redhat.com
 - project: networking-bigswitch
   name: python-networking-bigswitch
-  upstream: git://git.openstack.org/stackforge/%(project)s
+  upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
