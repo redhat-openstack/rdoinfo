@@ -565,8 +565,9 @@ packages:
   - jslagle@redhat.com
 - project: os-brick
   name: python-os-brick
-  conf: core
-  name: os-brick
+  conf: lib
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(project)s
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
