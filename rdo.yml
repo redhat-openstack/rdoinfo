@@ -373,6 +373,11 @@ packages:
   conf: client
 - project: manilaclient
   conf: client
+- project: barbicanclient
+  conf: client
+  maintainers:
+  - greg.swift@rackspace.net
+  - msm@redhat.com
 - project: keystonemiddleware
   conf: client
   upstream: git://git.openstack.org/openstack/%(project)s
