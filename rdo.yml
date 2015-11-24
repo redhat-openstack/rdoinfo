@@ -642,3 +642,8 @@ packages:
   conf: core
   maintainers:
   - hguemar@redhat.com
+- project: requestsexceptions
+  conf: lib
+  upstream: git://github.com/openstack-infra/requestsexceptions
+  maintainers:
+  - jpena@redhat.com
