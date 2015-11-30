@@ -232,6 +232,7 @@ packages:
 - project: horizon
   conf: core
   name: python-django-horizon
+  distgit: ssh://pkgs.fedoraproject.org/python-django-%(project)s.git
   maintainers:
   - mrunge@redhat.com
 - project: trove
