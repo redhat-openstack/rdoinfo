@@ -318,7 +318,6 @@ packages:
   name: python-os-win
   conf: lib
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(project)s
   maintainers:
   - jpena@redhat.com
 - project: manila
