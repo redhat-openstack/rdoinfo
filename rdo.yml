@@ -380,6 +380,10 @@ packages:
   - greg.swift@rackspace.net
   - msm@redhat.com
   - chkumar@redhat.com
+- project: cloudkittyclient
+  conf: client
+  maintainers:
+  - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: client
   upstream: git://git.openstack.org/openstack/%(project)s
