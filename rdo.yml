@@ -336,6 +336,10 @@ packages:
   conf: core
   maintainers:
   - gauvain.pocentek@objectif-libre.com
+- project: ec2-api
+  conf: core
+  maintainers:
+  - marcos.fermin.lobo@cern.ch
 # The openstack clients
 - project: keystoneclient
   conf: client
