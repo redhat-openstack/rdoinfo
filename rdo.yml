@@ -494,7 +494,6 @@ packages:
 - project: openstack-puppet-modules
   name: openstack-puppet-modules
   upstream: git://github.com/redhat-openstack/%(name)s
-  source-branch: master-patches
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@gmail.com
