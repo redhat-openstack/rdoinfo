@@ -591,12 +591,6 @@ packages:
 - project: unicodecsv
   conf: lib
   upstream: git://github.com/jdunck/python-unicodecsv
-- name: python-alembic
-  project: alembic
-  upstream: https://bitbucket.org/zzzeek/alembic.git
-  master-distgit: https://github.com/openstack-packages/python-alembic.git
-  maintainers:
-  - apevec@redhat.com
 - project: hardware
   conf: lib
   upstream: git://github.com/redhat-cip/hardware.git
