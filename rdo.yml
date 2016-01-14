@@ -90,8 +90,17 @@ releases:
     - name: EPEL 7
       url: http://dl.fedoraproject.org/pub/epel/7/x86_64/
 
-# these are basically templates for 'packages' information bellow, reducing
-# redundant information in this file
+
+# default template for 'packages' infromation bellow
+package-default:
+    name: python-%(project)s
+    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
+    patches: git://github.com/redhat-openstack/%(project)s
+    master-distgit: git://github.com/openstack-packages/python-%(project)s
+
+
+# custom templates for 'packages' information bellow, reducing
+# redundant information in this file; inherits package-default
 package-configs:
   core:
     name: openstack-%(project)s

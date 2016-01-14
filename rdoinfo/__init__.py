@@ -89,15 +89,11 @@ def parse_releases(info):
 
 
 def parse_package_configs(info):
+    if 'package-default' not in info:
+        info['package-default'] = {}
     if 'package-configs' not in info:
         info['package-configs'] = {}
-    return info['package-configs']
-
-
-def apply_package_config(pkg, conf):
-    new_pkg = copy.deepcopy(conf)
-    new_pkg.update(pkg)
-    return new_pkg
+    return info['package-default'], info['package-configs']
 
 
 def substitute_package(pkg):
@@ -113,15 +109,19 @@ def substitute_package(pkg):
 
 
 def parse_package(pkg, info):
-    pkgconfs = parse_package_configs(info)
+    pkddefault, pkgconfs = parse_package_configs(info)
+    # start with default package config
+    parsed_pkg = copy.deepcopy(pkddefault)
     if 'conf' in pkg:
+        # apply package configuration template
         conf_id = pkg['conf']
         try:
             conf = pkgconfs[conf_id]
         except KeyError:
             raise UndefinedPackageConfig(conf=conf_id)
-        pkg = apply_package_config(pkg, conf)
-    pkg = substitute_package(pkg)
+        parsed_pkg.update(conf)
+    parsed_pkg.update(pkg)
+    pkg = substitute_package(parsed_pkg)
 
     try:
         name = pkg['name']
