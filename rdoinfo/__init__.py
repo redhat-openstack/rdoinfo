@@ -34,6 +34,11 @@ class MissingRequiredItem(InvalidInfoFormat):
 class UndefinedPackageConfig(InvalidInfoFormat):
     msg_fmt = "Package config isn't defined: %(conf)s"
 
+
+class SubstitutionFailed(InvalidInfoFormat):
+    msg_fmt = "Substitution failed for string: %(txt)s"
+
+
 class DuplicatedProject(InvalidInfoFormat):
     msg_fmt = "Duplicated project: %(prj)s"
 
@@ -99,7 +104,10 @@ def substitute_package(pkg):
     new_pkg = copy.copy(pkg)
     for key, val in pkg.items():
         if isinstance(val, basestring):
-            new_pkg[key] = val % pkg
+            try:
+                new_pkg[key] = val % pkg
+            except KeyError:
+                raise SubstitutionFailed(txt=val)
     return new_pkg
 
 
