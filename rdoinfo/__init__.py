@@ -42,6 +42,7 @@ class SubstitutionFailed(InvalidInfoFormat):
 class DuplicatedProject(InvalidInfoFormat):
     msg_fmt = "Duplicated project: %(prj)s"
 
+
 def parse_info_file(fn):
     info = yaml.load(open(fn, 'rb'))
     parse_info(info)
@@ -148,6 +149,7 @@ def parse_package(pkg, info):
 
     return pkg
 
+
 def check_for_duplicates(pkg, pkgs):
     for oldpkg in pkgs:
         if pkg['name'] == oldpkg['name']:
@@ -155,6 +157,7 @@ def check_for_duplicates(pkg, pkgs):
         if pkg['upstream'] == oldpkg['upstream']:
             return True
     return False
+
 
 def parse_packages(info):
     try:
@@ -167,7 +170,7 @@ def parse_packages(info):
     parsed_pkgs = []
     for pkg in pkgs:
         parsed_pkg = parse_package(pkg, info)
-        if check_for_duplicates(parsed_pkg,parsed_pkgs):
+        if check_for_duplicates(parsed_pkg, parsed_pkgs):
             raise DuplicatedProject(prj=parsed_pkg['name'])
         else:
             parsed_pkgs.append(parsed_pkg)
