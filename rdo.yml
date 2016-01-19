@@ -572,7 +572,7 @@ packages:
 - project: cisco-ironic-contrib
   name: python-ironic-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/bdemers/%(name)s
+  master-distgit: git://github.com/openstack-pacakges/%(name)s
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
