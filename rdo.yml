@@ -97,6 +97,10 @@ package-default:
     distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
     patches: git://github.com/redhat-openstack/%(project)s
     master-distgit: git://github.com/openstack-packages/python-%(project)s
+    tags:
+      mitaka:
+      liberty:
+      kilo:
 
 
 # custom templates for 'packages' information bellow, reducing

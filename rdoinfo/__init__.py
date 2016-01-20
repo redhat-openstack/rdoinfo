@@ -43,15 +43,15 @@ class DuplicatedProject(InvalidInfoFormat):
     msg_fmt = "Duplicated project: %(prj)s"
 
 
-def parse_info_file(fn):
+def parse_info_file(fn, apply_tag=None):
     info = yaml.load(open(fn, 'rb'))
-    parse_info(info)
+    parse_info(info, apply_tag=apply_tag)
     return info
 
 
-def parse_info(info):
+def parse_info(info, apply_tag=None):
     parse_releases(info)
-    parse_packages(info)
+    parse_packages(info, apply_tag=apply_tag)
 
 
 def parse_release_repo(repo, default_branch=None):
@@ -108,7 +108,7 @@ def substitute_package(pkg):
     return new_pkg
 
 
-def parse_package(pkg, info):
+def parse_package(pkg, info, apply_tag=None):
     pkddefault, pkgconfs = parse_package_configs(info)
     # start with default package config
     parsed_pkg = copy.deepcopy(pkddefault)
@@ -121,6 +121,11 @@ def parse_package(pkg, info):
             raise UndefinedPackageConfig(conf=conf_id)
         parsed_pkg.update(conf)
     parsed_pkg.update(pkg)
+    if apply_tag:
+        tags = parsed_pkg.get('tags', {})
+        tagdict = tags.get(apply_tag)
+        if tagdict:
+            parsed_pkg.update(tagdict)
     pkg = substitute_package(parsed_pkg)
 
     try:
@@ -159,7 +164,7 @@ def check_for_duplicates(pkg, pkgs):
     return False
 
 
-def parse_packages(info):
+def parse_packages(info, apply_tag=None):
     try:
         pkgs = info['packages']
     except KeyError:
@@ -169,7 +174,7 @@ def parse_packages(info):
 
     parsed_pkgs = []
     for pkg in pkgs:
-        parsed_pkg = parse_package(pkg, info)
+        parsed_pkg = parse_package(pkg, info, apply_tag=apply_tag)
         if check_for_duplicates(parsed_pkg, parsed_pkgs):
             raise DuplicatedProject(prj=parsed_pkg['name'])
         else:
