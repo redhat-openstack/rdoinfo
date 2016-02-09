@@ -168,6 +168,10 @@ packages:
   - mabaakou@redhat.com
 - project: gnocchi
   conf: core
+  tags:
+    mitaka:
+    liberty:
+      source-branch: stable/1.3
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
