@@ -200,6 +200,12 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+- project: neutron-lib
+  conf: lib
+  name: python-neutron-lib
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  maintainers:
+  - ihrachys@redhat.com
 - project: neutron-fwaas
   conf: core
   maintainers:
