@@ -176,6 +176,9 @@ packages:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
 - project: aodh
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - pkilambi@redhat.com
@@ -192,6 +195,9 @@ packages:
   - apevec@redhat.com
   - hguemar@redhat.com
 - project: ironic
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - trown@redhat.com
@@ -229,10 +235,16 @@ packages:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: octavia
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - nmagnezi@redhat.com
 - project: sahara
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - egafford@redhat.com
@@ -254,16 +266,25 @@ packages:
   maintainers:
   - mrunge@redhat.com
 - project: diskimage-builder
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: diskimage-builder
   maintainers:
   - jruzicka@redhat.com
 - project: dib-utils
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: dib-utils
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-incubator
+  tags:
+    mitaka:
+    liberty:
   name: openstack-tripleo
   conf: core
   distgit: ssh://pkgs.fedoraproject.org/openstack-tripleo.git
@@ -271,83 +292,134 @@ packages:
   maintainers:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-image-elements
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - jruzicka@redhat.com
 - project: instack
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: instack
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: instack-undercloud
   maintainers:
   - jslagle@redhat.com
 - project: heat-templates
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - ryansb@redhat.com
 - project: os-apply-config
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: os-apply-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-collect-config
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: os-collect-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-net-config
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: os-net-config
   maintainers:
   - dprince@redhat.com
 - project: os-refresh-config
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: os-refresh-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-cloud-config
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: os-cloud-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-client-config
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - jruzicka@redhat.com
 - project: os-win
+  tags:
+    mitaka:
+    liberty:
   name: python-os-win
   conf: lib
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
 - project: manila
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - hguemar@redhat.com
   - zaitcev@redhat.com
 - project: zaqar
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
 - project: ironic-inspector
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
 - project: ironic-python-agent
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
 - project: ironic-lib
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - trown@redhat.com
@@ -358,14 +430,23 @@ packages:
   - greg.swift@rackspace.net
   - msm@redhat.com
 - project: cloudkitty
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - gauvain.pocentek@objectif-libre.com
 - project: ec2-api
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - marcos.fermin.lobo@cern.ch
 - project: magnum
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - chkumar@redhat.com
@@ -400,14 +481,23 @@ packages:
 - project: designateclient
   conf: client
 - project: manilaclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
 - project: barbicanclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - greg.swift@rackspace.net
   - msm@redhat.com
   - chkumar@redhat.com
 - project: cloudkittyclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - gauvain.pocentek@objectif-libre.com
@@ -415,34 +505,58 @@ packages:
   conf: client
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
+  tags:
+    mitaka:
+    liberty:
   conf: client
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: client
 - project: ironic-inspector-client
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - dtantsur@redhat.com
 - project: tripleoclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - brad@redhat.com
 - project: zaqarclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
 - project: openstacksdk
+  tags:
+    mitaka:
+    liberty:
   conf: client
 - project: gnocchiclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - pkilambi@redhat.com
 # openstack libraries
 - project: mox3
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/mox3
 - project: oslotest
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
@@ -455,6 +569,9 @@ packages:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
 - project: oslo-cache
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.cache
 - project: oslo-config
@@ -494,28 +611,52 @@ packages:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
 - project: oslo-service
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: stevedore
   conf: lib
 - project: castellan
+  tags:
+    mitaka:
+    liberty:
   conf: lib
 - project: taskflow
   conf: lib
 - project: pycadf
   conf: lib
 - project: debtcollector
+  tags:
+    mitaka:
+    liberty:
   conf: lib
 - project: automaton
+  tags:
+    mitaka:
+    liberty:
   conf: lib
 - project: cliff
+  tags:
+    mitaka:
+    liberty:
   conf: lib
 - project: futurist
+  tags:
+    mitaka:
+    liberty:
   conf: lib
 - project: hacking
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack-dev/hacking
 # deps
@@ -538,6 +679,9 @@ packages:
   - gchamoul@redhat.com
   - jpena@redhat.com
 - project: tripleo-common
+  tags:
+    mitaka:
+    liberty:
   conf: core
   name: tripleo-common
   maintainers:
@@ -555,6 +699,9 @@ packages:
   maintainers:
   - apevec@redhat.com
 - project: appdirs
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://github.com/ActiveState/appdirs
   maintainers:
@@ -608,6 +755,9 @@ packages:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
 - project: cisco-ironic-contrib
+  tags:
+    mitaka:
+    liberty:
   name: python-ironic-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
@@ -615,10 +765,16 @@ packages:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
 - project: tripleo-puppet-elements
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - jslagle@redhat.com
 - project: os-brick
+  tags:
+    mitaka:
+    liberty:
   name: python-os-brick
   conf: lib
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -627,26 +783,44 @@ packages:
   - eharney@redhat.com
   - jpena@redhat.com
 - project: cachetools
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://github.com/tkem/cachetools.git
 - project: unicodecsv
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://github.com/jdunck/python-unicodecsv
 - project: hardware
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://github.com/redhat-cip/hardware.git
   maintainers:
   - trown@redhat.com
   - flepied@redhat.com
 - project: keystoneauth1
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://github.com/openstack/keystoneauth
 - project: rally
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - vimartin@redhat.com
   - slinaber@redhat.com
 - project: tempest
+  tags:
+    mitaka:
+    liberty:
   conf: core
   upstream: git://github.com/redhat-openstack/tempest.git
   source-branch: rebased-upstream
@@ -654,53 +828,86 @@ packages:
   - slinaber@redhat.com
   - dmellado@redhat.com
 - project: tempest-lib
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - slinaber@redhat.com
   - dmellado@redhat.com
 - project: os-testr
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - slinaber@redhat.com
   - dmellado@redhat.com
 - project: proliantutils
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
 - project: dracclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
 - project: mistralclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
   - hguemar@redhat.com
 - project: mistral
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - hguemar@redhat.com
 - project: requestsexceptions
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   upstream: git://github.com/openstack-infra/requestsexceptions
   maintainers:
   - jpena@redhat.com
 - project: app-catalog-ui
+  tags:
+    mitaka:
+    liberty:
   conf: core
   maintainers:
   - Kevin.Fox@pnnl.gov
 - project: tooz
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - apevec@redhat.com
   - pkilambi@redhat.com
 - project: magnumclient
+  tags:
+    mitaka:
+    liberty:
   conf: client
   maintainers:
     - chkumar@redhat.com
     - mathieu.velten@cern.ch
 - project: reno
+  tags:
+    mitaka:
+    liberty:
   conf: lib
   maintainers:
   - chkumar@redhat.com
