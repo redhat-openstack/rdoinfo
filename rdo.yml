@@ -671,11 +671,6 @@ packages:
   - lbezdick@redhat.com
   - ichavero@redhat.com
 - project: openstack-puppet-modules
-  tags:
-    mitaka:
-    liberty:
-    kilo:
-      source-branch: f23-patches
   name: openstack-puppet-modules
   upstream: git://github.com/redhat-openstack/%(name)s
   master-distgit: git://github.com/openstack-packages/%(name)s
