@@ -451,6 +451,13 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
+- project: manila-ui
+  tags:
+    mitaka:
+    liberty:
+  conf: core
+  maintainers:
+  - hguemar@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
