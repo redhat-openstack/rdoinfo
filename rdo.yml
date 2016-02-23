@@ -741,6 +741,13 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - xin.wu@bigswitch.com
+- project: networking-ovn
+  name: python-networking-ovn
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  maintainers:
+  - rbryant@redhat.com
+  - nusiddiq@redhat.com
 - project: networking-cisco
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
