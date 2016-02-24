@@ -101,6 +101,7 @@ package-configs:
     - jguiditt@redhat.com
     - gchamoul@redhat.com
 
+
 packages:
 # OpenStack Puppet Modules
 - project: puppet-aodh
@@ -910,6 +911,7 @@ packages:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
 - project: cisco-ironic-contrib
+  # not in rpmfactory
   tags:
     mitaka:
     liberty:
