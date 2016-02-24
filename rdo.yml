@@ -135,39 +135,71 @@ package-configs:
   xstatic:
     maintainers:
     - mrunge@redhat.com
+  # templates using rpmfactory's repositories
+  rpmfactory-core:
+    name: openstack-%(project)s
+    upstream: git://git.openstack.org/openstack/%(project)s
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    maintainers:
+    - jruzicka@redhat.com
+    - hguemar@redhat.com
+  rpmfactory-client:
+    name: python-%(project)s
+    upstream: git://git.openstack.org/openstack/python-%(project)s
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    maintainers:
+    - jruzicka@redhat.com
+    - hguemar@redhat.com
+  rpmfactory-lib:
+    name: python-%(project)s
+    upstream: git://git.openstack.org/openstack/%(project)s
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    maintainers:
+    - apevec@redhat.com
+    - hguemar@redhat.com
+    - lbezdick@redhat.com
 
 packages:
 # core openstack projects
 - project: nova
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ndipanov@redhat.com
   - sferdjao@redhat.com
 - project: keystone
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - apevec@redhat.com
 - project: glance
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
 - project: glance_store
-  conf: core
+  conf: rpmfactory-core
   name: python-glance-store
   maintainers:
   - hguemar@redhat.com
 - project: swift
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - zaitcev@redhat.com
 - project: ceilometer
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - eglynn@redhat.com
   - pkilambi@redhat.com
   - mabaakou@redhat.com
 - project: gnocchi
-  conf: core
+  conf: rpmfactory-core
   tags:
     mitaka:
     liberty:
@@ -179,17 +211,17 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
 - project: heat
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - zbitter@redhat.com
   - ryansb@redhat.com
 - project: cinder
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
@@ -198,15 +230,16 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
 - project: neutron
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: neutron-lib
+  # not in rpmfactory
   conf: lib
   name: python-neutron-lib
   master-distgit: git://github.com/openstack-packages/%(name)s
@@ -215,22 +248,22 @@ packages:
   maintainers:
   - ihrachys@redhat.com
 - project: neutron-fwaas
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: neutron-lbaas
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: neutron-vpnaas
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: designate
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
@@ -238,38 +271,36 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - nmagnezi@redhat.com
 - project: sahara
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - egafford@redhat.com
 - project: horizon
-  conf: core
+  conf: rpmfactory-core
   name: python-django-horizon
-  distgit: ssh://pkgs.fedoraproject.org/python-django-%(project)s.git
   maintainers:
   - mrunge@redhat.com
 - project: trove
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - victoria@redhat.com
   - hguemar@redhat.com
 - project: django_openstack_auth
-  conf: lib
+  conf: rpmfactory-lib
   name: python-django-openstack-auth
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - mrunge@redhat.com
 - project: diskimage-builder
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: diskimage-builder
   maintainers:
   - jruzicka@redhat.com
@@ -277,7 +308,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: dib-utils
   maintainers:
   - jruzicka@redhat.com
@@ -286,9 +317,7 @@ packages:
     mitaka:
     liberty:
   name: openstack-tripleo
-  conf: core
-  distgit: ssh://pkgs.fedoraproject.org/openstack-tripleo.git
-  master-distgit: git://github.com/openstack-packages/tripleo
+  conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
@@ -302,14 +331,14 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - jruzicka@redhat.com
 - project: instack
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: instack
   maintainers:
   - jslagle@redhat.com
@@ -317,7 +346,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: instack-undercloud
   maintainers:
   - jslagle@redhat.com
@@ -325,14 +354,14 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - ryansb@redhat.com
 - project: os-apply-config
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: os-apply-config
   maintainers:
   - jruzicka@redhat.com
@@ -340,7 +369,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: os-collect-config
   maintainers:
   - jruzicka@redhat.com
@@ -348,7 +377,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: os-net-config
   maintainers:
   - dprince@redhat.com
@@ -356,7 +385,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: os-refresh-config
   maintainers:
   - jruzicka@redhat.com
@@ -364,7 +393,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: os-cloud-config
   maintainers:
   - jruzicka@redhat.com
@@ -380,7 +409,7 @@ packages:
     mitaka:
     liberty:
   name: python-os-win
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
@@ -388,7 +417,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
   - zaitcev@redhat.com
@@ -396,7 +425,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
@@ -404,7 +433,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
@@ -412,7 +441,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
@@ -420,12 +449,12 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
 - project: barbican
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - greg.swift@rackspace.net
   - msm@redhat.com
@@ -433,63 +462,64 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - gauvain.pocentek@objectif-libre.com
 - project: ec2-api
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
 - project: magnum
   tags:
     mitaka:
     liberty:
+  # not in rpmfactory
   conf: core
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
 # The openstack clients
 - project: keystoneclient
-  conf: client
+  conf: rpmfactory-client
 - project: glanceclient
-  conf: client
+  conf: rpmfactory-client
 - project: novaclient
-  conf: client
+  conf: rpmfactory-client
 - project: swiftclient
-  conf: client
+  conf: rpmfactory-client
 - project: ceilometerclient
-  conf: client
+  conf: rpmfactory-client
 - project: heatclient
-  conf: client
+  conf: rpmfactory-client
 - project: cinderclient
-  conf: client
+  conf: rpmfactory-client
 - project: ironicclient
-  conf: client
+  conf: rpmfactory-client
 - project: neutronclient
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - ihrachys@redhat.com
   - jruzicka@redhat.com
   - hguemar@redhat.com
 - project: saharaclient
-  conf: client
+  conf: rpmfactory-client
 - project: troveclient
-  conf: client
+  conf: rpmfactory-client
 - project: designateclient
-  conf: client
+  conf: rpmfactory-client
 - project: manilaclient
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
 - project: barbicanclient
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - greg.swift@rackspace.net
   - msm@redhat.com
@@ -498,39 +528,39 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
-  conf: client
+  conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
-  conf: client
+  conf: rpmfactory-client
 - project: ironic-inspector-client
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - dtantsur@redhat.com
 - project: tripleoclient
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - brad@redhat.com
 - project: zaqarclient
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
@@ -538,12 +568,12 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
 - project: gnocchiclient
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
 # openstack libraries
@@ -551,129 +581,127 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/mox3
 - project: oslotest
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
 - project: oslo-messaging
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
 - project: oslo-cache
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.cache
 - project: oslo-config
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
 - project: oslo-concurrency
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
 - project: oslo-serialization
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
 - project: oslo-middleware
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
 - project: oslo-db
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
 - project: oslo-utils
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
 - project: oslo-vmware
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
 - project: oslo-context
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
 - project: oslo-log
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
 - project: oslo-policy
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
 - project: oslo-versionedobjects
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
 - project: oslo-service
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: stevedore
-  conf: lib
+  conf: rpmfactory-lib
 - project: castellan
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
 - project: taskflow
-  conf: lib
+  conf: rpmfactory-lib
 - project: pycadf
-  conf: lib
+  conf: rpmfactory-lib
 - project: debtcollector
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
 - project: automaton
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
 - project: cliff
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
 - project: futurist
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
 - project: hacking
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack-dev/hacking
 # deps
 - project: packstack
+  conf: rpmfactory-core
   name: openstack-packstack
   upstream: git://git.openstack.org/openstack/%(project)s
-  patches: git://github.com/redhat-openstack/%(project)s
-  distgit: ssh://pkgs.fedoraproject.org/%(name)s
-  master-distgit: git://github.com/openstack-packages/%(project)s
   maintainers:
   - mmagr@redhat.com
   - lbezdick@redhat.com
   - ichavero@redhat.com
 - project: openstack-puppet-modules
+  conf: rpmfactory-core
   name: openstack-puppet-modules
   upstream: git://github.com/redhat-openstack/%(name)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@gmail.com
   - gchamoul@redhat.com
@@ -682,79 +710,79 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   name: tripleo-common
   maintainers:
   - jprovazn@redhat.com
 - project: osprofiler
+  conf: rpmfactory-lib
   name: python-osprofiler
-  upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@redhat.com
 - project: pysaml2
   name: python-%(project)s
+  conf: rpmfactory-lib
   upstream: git://github.com/rohe/pysaml2
-  master-distgit: git://github.com/openstack-packages/python-pysaml2
   maintainers:
   - apevec@redhat.com
 - project: appdirs
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/ActiveState/appdirs
   maintainers:
   - apevec@redhat.com
   - jpena@redhat.com
 - project: networking-arista
+  conf: rpmfactory-lib
   name: python-networking-arista
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: networking-mlnx
+  conf: rpmfactory-lib
   name: python-networking-mlnx
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
   - lennyb@mellanox.com
 - project: networking-odl
+  conf: rpmfactory-lib
   name: python-networking-odl
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: vmware-nsx
+  conf: rpmfactory-lib
   name: python-networking-vmware-nsx
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
 - project: networking-bigswitch
+  conf: rpmfactory-lib
   name: python-networking-bigswitch
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - ihrachys@redhat.com
   - xin.wu@bigswitch.com
 - project: networking-cisco
+  conf: rpmfactory-lib
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
 - project: UcsSdk
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
 - project: cisco-ironic-contrib
+  # not in rpmfactory
   tags:
     mitaka:
     liberty:
@@ -776,9 +804,8 @@ packages:
     mitaka:
     liberty:
   name: python-os-brick
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(project)s
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
@@ -786,19 +813,19 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/tkem/cachetools.git
 - project: unicodecsv
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/jdunck/python-unicodecsv
 - project: hardware
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/redhat-cip/hardware.git
   maintainers:
   - trown@redhat.com
@@ -807,13 +834,13 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/openstack/keystoneauth
 - project: rally
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - vimartin@redhat.com
   - slinaber@redhat.com
@@ -821,7 +848,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   upstream: git://github.com/redhat-openstack/tempest.git
   source-branch: rebased-upstream
   maintainers:
@@ -831,7 +858,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - slinaber@redhat.com
   - dmellado@redhat.com
@@ -839,7 +866,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - slinaber@redhat.com
   - dmellado@redhat.com
@@ -847,7 +874,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
@@ -855,7 +882,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
@@ -863,21 +890,21 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
   - hguemar@redhat.com
 - project: mistral
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
 - project: requestsexceptions
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   upstream: git://github.com/openstack-infra/requestsexceptions
   maintainers:
   - jpena@redhat.com
@@ -885,14 +912,14 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - Kevin.Fox@pnnl.gov
 - project: tooz
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - apevec@redhat.com
   - pkilambi@redhat.com
@@ -900,7 +927,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: client
+  conf: rpmfactory-client
   maintainers:
     - chkumar@redhat.com
     - mathieu.velten@cern.ch
@@ -908,7 +935,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
   - jpena@redhat.com
