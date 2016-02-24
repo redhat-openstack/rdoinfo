@@ -201,6 +201,7 @@ packages:
   conf: core
   maintainers:
   - trown@redhat.com
+  - dtantsur@redhat.com
 - project: neutron
   conf: core
   maintainers:
@@ -475,6 +476,8 @@ packages:
   conf: client
 - project: ironicclient
   conf: client
+  maintainers:
+  - dtantsur@redhat.com
 - project: neutronclient
   conf: client
   maintainers:
