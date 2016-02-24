@@ -750,7 +750,7 @@ packages:
   - xin.wu@bigswitch.com
 - project: networking-ovn
   tags:
-    mitaka:
+    UNDER-REVIEW:
   name: python-networking-ovn
   upstream: git://git.openstack.org/openstack/%(project)s
   master-distgit: git://github.com/openstack-packages/%(name)s
