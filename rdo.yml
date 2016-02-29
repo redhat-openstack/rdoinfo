@@ -703,21 +703,6 @@ packages:
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - apevec@redhat.com
-- project: pysaml2
-  name: python-%(project)s
-  upstream: git://github.com/rohe/pysaml2
-  master-distgit: git://github.com/openstack-packages/python-pysaml2
-  maintainers:
-  - apevec@redhat.com
-- project: appdirs
-  tags:
-    mitaka:
-    liberty:
-  conf: lib
-  upstream: git://github.com/ActiveState/appdirs
-  maintainers:
-  - apevec@redhat.com
-  - jpena@redhat.com
 - project: networking-arista
   name: python-networking-arista
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -802,18 +787,6 @@ packages:
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
-- project: cachetools
-  tags:
-    mitaka:
-    liberty:
-  conf: lib
-  upstream: git://github.com/tkem/cachetools.git
-- project: unicodecsv
-  tags:
-    mitaka:
-    liberty:
-  conf: lib
-  upstream: git://github.com/jdunck/python-unicodecsv
 - project: hardware
   tags:
     mitaka:
