@@ -233,6 +233,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
+  - dtantsur@redhat.com
 - project: neutron
   conf: rpmfactory-core
   maintainers:
@@ -481,6 +482,13 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
+- project: manila-ui
+  tags:
+    mitaka:
+    liberty:
+  conf: core
+  maintainers:
+  - hguemar@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: rpmfactory-client
@@ -498,6 +506,9 @@ packages:
   conf: rpmfactory-client
 - project: ironicclient
   conf: rpmfactory-client
+  maintainers:
+  - dtantsur@redhat.com
+  - trown@redhat.com
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
@@ -719,21 +730,6 @@ packages:
   name: python-osprofiler
   maintainers:
   - apevec@redhat.com
-- project: pysaml2
-  name: python-%(project)s
-  conf: rpmfactory-lib
-  upstream: git://github.com/rohe/pysaml2
-  maintainers:
-  - apevec@redhat.com
-- project: appdirs
-  tags:
-    mitaka:
-    liberty:
-  conf: rpmfactory-lib
-  upstream: git://github.com/ActiveState/appdirs
-  maintainers:
-  - apevec@redhat.com
-  - jpena@redhat.com
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
@@ -768,6 +764,15 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - xin.wu@bigswitch.com
+- project: networking-ovn
+  tags:
+    mitaka:
+  name: python-networking-ovn
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(name)s
+  maintainers:
+  - rbryant@redhat.com
+  - nusiddiq@redhat.com
 - project: networking-cisco
   conf: rpmfactory-lib
   name: python-networking-cisco
@@ -809,18 +814,6 @@ packages:
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
-- project: cachetools
-  tags:
-    mitaka:
-    liberty:
-  conf: rpmfactory-lib
-  upstream: git://github.com/tkem/cachetools.git
-- project: unicodecsv
-  tags:
-    mitaka:
-    liberty:
-  conf: rpmfactory-lib
-  upstream: git://github.com/jdunck/python-unicodecsv
 - project: hardware
   tags:
     mitaka:
