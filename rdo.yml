@@ -170,8 +170,23 @@ package-configs:
     - apevec@redhat.com
     - hguemar@redhat.com
     - lbezdick@redhat.com
+  rpmfactory-puppet:
+    name: %(project)s
+    upstream: git://git.openstack.org/openstack/%(project)s
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
+    maintainers:
+    - lbezdick@redhat.com
+    - jguiditt@redhat.com
+    - gchamoul@redhat.com
 
 packages:
+# OpenStack Puppet Modules
+- project: aodh
+  conf: rpmfactory-puppet
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
