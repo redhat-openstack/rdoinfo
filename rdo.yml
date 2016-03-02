@@ -143,6 +143,7 @@ package-configs:
     patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
     master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
     review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
     maintainers:
     - jruzicka@redhat.com
     - hguemar@redhat.com
@@ -153,6 +154,7 @@ package-configs:
     patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
     master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
     review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
     maintainers:
     - jruzicka@redhat.com
     - hguemar@redhat.com
@@ -163,6 +165,7 @@ package-configs:
     patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
     master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
     review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
     maintainers:
     - apevec@redhat.com
     - hguemar@redhat.com
