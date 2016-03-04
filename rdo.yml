@@ -1017,10 +1017,11 @@ packages:
 - project: tempest
   tags:
     mitaka:
+      source-branch: master
     liberty:
+      source-branch: liberty
   conf: rpmfactory-core
   upstream: git://github.com/redhat-openstack/tempest.git
-  source-branch: rebased-upstream
   maintainers:
   - slinaber@redhat.com
   - dmellado@redhat.com
