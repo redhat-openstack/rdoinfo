@@ -103,35 +103,9 @@ package-default:
       kilo:
 
 
-# custom templates for 'packages' information bellow, reducing
+# custom templates for 'packages' information below, reducing
 # redundant information in this file; inherits package-default
 package-configs:
-  core:
-    name: openstack-%(project)s
-    upstream: git://git.openstack.org/openstack/%(project)s
-    # Current distgit for RDO Liberyt is rdo-liberty branch
-    distgit: git://github.com/openstack-packages/%(project)s
-    patches: git://github.com/redhat-openstack/%(project)s
-    master-distgit: git://github.com/openstack-packages/%(project)s
-  client:
-    name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/python-%(project)s
-    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-    patches: git://github.com/redhat-openstack/python-%(project)s
-    master-distgit: git://github.com/openstack-packages/python-%(project)s
-    maintainers:
-    - jruzicka@redhat.com
-    - hguemar@redhat.com
-  lib:
-    name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-    patches: git://github.com/redhat-openstack/%(project)s
-    master-distgit: git://github.com/openstack-packages/python-%(project)s
-    maintainers:
-    - apevec@redhat.com
-    - hguemar@redhat.com
-    - lbezdick@redhat.com
   xstatic:
     maintainers:
     - mrunge@redhat.com
@@ -243,8 +217,7 @@ packages:
   - ihrachys@redhat.com
   - majopela@redhat.com
 - project: neutron-lib
-  # not in rpmfactory
-  conf: lib
+  conf: rpmfactory-lib
   name: python-neutron-lib
   master-distgit: git://github.com/openstack-packages/%(name)s
   tags:
@@ -328,7 +301,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-image-elements
@@ -405,7 +378,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: lib
+  conf: rpmfactory-lib
   maintainers:
   - jruzicka@redhat.com
 - project: os-win
@@ -480,8 +453,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  # not in rpmfactory
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
@@ -489,7 +461,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
 # The openstack clients
@@ -790,13 +762,11 @@ packages:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
 - project: cisco-ironic-contrib
-  # not in rpmfactory
   tags:
     mitaka:
     liberty:
   name: python-ironic-cisco
-  upstream: git://git.openstack.org/openstack/%(project)s
-  master-distgit: git://github.com/openstack-packages/%(name)s
+  conf: rpmfactory-core
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
@@ -804,7 +774,7 @@ packages:
   tags:
     mitaka:
     liberty:
-  conf: core
+  conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
 - project: os-brick
