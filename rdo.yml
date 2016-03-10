@@ -2,6 +2,21 @@
 # support for overriding this on per-package basis is doable,
 # I.E. each package can have it's own 'releases' section
 releases:
+- name: mitaka
+  branch: rdo-mitaka
+  repos:
+  - name: el7
+    buildsys: cbs/cloud7-openstack-mitaka-el7
+    distrepos:
+    - name: RDO Mitaka el7
+      #url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
+      url: http://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
+      url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: liberty
   # this is default branch for release and can be overriden on repo level
   branch: rdo-liberty
