@@ -228,6 +228,7 @@ packages:
   upstream: git://github.com/soylent/konstantin-fluentd
 - project: puppet-keepalived
   conf: rpmfactory-puppet
+  distgit: http://rpmfactory.beta.rdoproject.org/r/p/puppet-module-keepalived-distgit.git
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
 - project: puppet-kibana3
   conf: rpmfactory-puppet
