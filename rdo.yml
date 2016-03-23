@@ -226,9 +226,9 @@ packages:
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
-- project: puppet-module-keepalived
+- project: puppet-keepalived
   conf: rpmfactory-puppet
-  upstream: git://github.com/Unyonsys/%(project)s
+  upstream: git://github.com/Unyonsys/puppet-module-keepalived
 - project: puppet-kibana3
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
