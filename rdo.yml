@@ -155,77 +155,59 @@ packages:
 - project: puppet-zaqar
   conf: rpmfactory-puppet
 - project: puppet-apache
-  name: puppetlabs-apache
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-apache
 - project: puppet-concat
-  name: puppetlabs-concat
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-concat
 - project: puppet-firewall
-  name: puppetlabs-firewall
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-firewall
 - project: puppet-haproxy
-  name: puppetlabs-haproxy
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-haproxy
 - project: puppet-corosync
-  name: puppetlabs-corosync
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-corosync
 - project: puppet-git
-  name: puppetlabs-git
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-git
 - project: puppet-inifile
-  name: puppetlabs-inifile
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-inifile
 - project: puppet-mongodb
-  name: puppetlabs-mongodb
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-mongodb
 - project: puppet-mysql
-  name: puppetlabs-mysql
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-mysql
 - project: puppet-java
-  name: puppetlabs-java
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-java
 - project: puppet-ntp
-  name: puppetlabs-ntp
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-ntp
 - project: puppet-rabbitmq
-  name: puppetlabs-rabbitmq
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
 - project: puppet-rsync
-  name: puppetlabs-rsync
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-rsync
 - project: puppet-stdlib
-  name: puppetlabs-stdlib
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-stdlib
 - project: puppet-tomcat
-  name: puppetlabs-tomcat
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-tomcat
 - project: puppet-vcsrepo
-  name: puppetlabs-vcsrepo
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
 - project: puppet-xinetd
-  name: puppetlabs-xinetd
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/%(name)s
+  upstream: git://github.com/puppetlabs/puppetlabs-xinetd
 - project: puppet-cassandra
-  name: cassandra
   conf: rpmfactory-puppet
-  upstream: git://github.com/locp/%(name)s
+  upstream: git://github.com/locp/cassandra
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
@@ -242,9 +224,8 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
 - project: puppet-fluentd
-  name: konstantin-fluentd
   conf: rpmfactory-puppet
-  upstream: git://github.com/soylent/%(name)s
+  upstream: git://github.com/soylent/konstantin-fluentd
 - project: puppet-module-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/%(project)s
@@ -285,9 +266,8 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
 - project: puppet-sensu
-  name: sensu-puppet
   conf: rpmfactory-puppet
-  upstream: git://github.com/sensu/%(name)s
+  upstream: git://github.com/sensu/sensu-puppet
 - project: puppet-snmp
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
