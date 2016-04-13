@@ -72,33 +72,33 @@ package-configs:
   rpmfactory-core:
     name: openstack-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
-    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
-    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/openstack/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
     - jruzicka@redhat.com
     - hguemar@redhat.com
   rpmfactory-client:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/python-%(project)s
-    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
-    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
-    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/openstack/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
     - jruzicka@redhat.com
     - hguemar@redhat.com
   rpmfactory-lib:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
-    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
-    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/openstack/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
     - apevec@redhat.com
     - hguemar@redhat.com
@@ -106,11 +106,11 @@ package-configs:
   rpmfactory-puppet:
     name: "%(project)s"
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    patches: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s.git
-    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/%(project)s-distgit.git
-    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s.git
-    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/%(project)s-distgit.git
+    distgit: http://rpmfactory.beta.rdoproject.org/r/p/puppet/%(project)s-distgit.git
+    patches: http://rpmfactory.beta.rdoproject.org/r/p/puppet/%(project)s.git
+    master-distgit: http://rpmfactory.beta.rdoproject.org/r/p/puppet/%(project)s-distgit.git
+    review-patches: ssh://rpmfactory.beta.rdoproject.org:29418/puppet/%(project)s.git
+    review-origin: ssh://rpmfactory.beta.rdoproject.org:29418/puppet/%(project)s-distgit.git
     maintainers:
     - lbezdick@redhat.com
     - jguiditt@redhat.com
