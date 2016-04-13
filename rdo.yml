@@ -418,6 +418,21 @@ packages:
   conf: core
   maintainers:
   - hguemar@redhat.com
+- project: trove-dashboard
+  name: openstack-trove-ui
+  tags:
+    mitaka:
+  conf: core
+  maintainers:
+  - victoria@redhat.com
+  - pmackinn@redhat.com
+- project: sahara-dashboard
+  name: openstack-sahara-ui
+  tags:
+    mitaka:
+  conf: core
+  maintainers:
+  - egafford@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: client
