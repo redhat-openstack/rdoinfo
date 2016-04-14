@@ -9,8 +9,7 @@ releases:
     buildsys: cbs/cloud7-openstack-mitaka-el7
     distrepos:
     - name: RDO Mitaka el7
-      #url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
-      url: http://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
     - name: CentOS 7 Base
       url: http://mirror.centos.org/centos/7/os/x86_64/
     - name: CentOS 7 Updates
