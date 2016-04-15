@@ -241,7 +241,7 @@ packages:
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
-- project: puppet-module-keepalived
+- project: puppet-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
 - project: puppet-kibana3
@@ -255,7 +255,7 @@ packages:
   upstream: git://github.com/midonet/%(project)s
 - project: puppet-collectd
   conf: rpmfactory-puppet
-  master-distgit: http://review.rdoproject.org/r/p/puppet/puppet-module-collectd-distgit.git
+  master-distgit: http://review.rdoproject.org/r/p/puppet/puppet-collectd-distgit.git
   upstream: git://github.com/voxpupuli/%(project)s
 - project: puppet-module-data
   conf: rpmfactory-puppet
