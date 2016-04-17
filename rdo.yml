@@ -650,9 +650,9 @@ packages:
   distgit: ssh://pkgs.fedoraproject.org/%(name)s
   master-distgit: git://github.com/openstack-packages/%(project)s
   maintainers:
+  - ichavero@redhat.com
   - mmagr@redhat.com
   - lbezdick@redhat.com
-  - ichavero@redhat.com
 - project: openstack-puppet-modules
   name: openstack-puppet-modules
   upstream: git://github.com/redhat-openstack/%(name)s
