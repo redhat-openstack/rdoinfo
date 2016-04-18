@@ -175,7 +175,7 @@ packages:
   master-distgit: git://github.com/openstack-packages/%(name)s
   tags:
     newton:
-      mitaka:
+    mitaka:
   maintainers:
   - ihrachys@redhat.com
 - project: neutron-fwaas
@@ -597,6 +597,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
 - project: oslo-cache
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -844,6 +845,7 @@ packages:
   - slinaber@redhat.com
 - project: tempest
   tags:
+    newton:
     mitaka:
       source-branch: master
     liberty:
@@ -855,6 +857,7 @@ packages:
   - dmellado@redhat.com
 - project: tempest-lib
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -906,6 +909,7 @@ packages:
   - hguemar@redhat.com
 - project: requestsexceptions
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
