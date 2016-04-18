@@ -9,8 +9,7 @@ releases:
     buildsys: cbs/cloud7-openstack-mitaka-el7
     distrepos:
     - name: RDO Mitaka el7
-      #url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
-      url: http://buildlogs.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-mitaka/
     - name: CentOS 7 Base
       url: http://mirror.centos.org/centos/7/os/x86_64/
     - name: CentOS 7 Updates
@@ -315,7 +314,6 @@ packages:
 - project: nova
   conf: rpmfactory-core
   maintainers:
-  - ndipanov@redhat.com
   - sferdjao@redhat.com
 - project: keystone
   conf: rpmfactory-core
@@ -629,6 +627,21 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
+- project: trove-dashboard
+  name: openstack-trove-ui
+  tags:
+    mitaka:
+  conf: core
+  maintainers:
+  - victoria@redhat.com
+  - pmackinn@redhat.com
+- project: sahara-dashboard
+  name: openstack-sahara-ui
+  tags:
+    mitaka:
+  conf: core
+  maintainers:
+  - egafford@redhat.com
 # The openstack clients
 - project: keystoneclient
   conf: rpmfactory-client
@@ -846,9 +859,9 @@ packages:
   name: openstack-packstack
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
+  - ichavero@redhat.com
   - mmagr@redhat.com
   - lbezdick@redhat.com
-  - ichavero@redhat.com
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
