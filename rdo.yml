@@ -878,3 +878,12 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - jpena@redhat.com
+- project: group-based-policy
+  tags:
+    liberty:
+    kilo:
+  name: openstack-neutron-gbp
+  upstream: git://git.openstack.org/openstack/%(project)s
+  master-distgit: git://github.com/openstack-packages/%(project)s
+  maintainers:
+  - kukura@noironetworks.com
