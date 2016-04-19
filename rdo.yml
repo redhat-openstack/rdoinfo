@@ -56,6 +56,7 @@ package-default:
     patches: git://github.com/redhat-openstack/%(project)s
     master-distgit: git://github.com/openstack-packages/python-%(project)s
     tags:
+      newton:
       mitaka:
       liberty:
       kilo:
@@ -126,6 +127,7 @@ packages:
 - project: gnocchi
   conf: core
   tags:
+    newton:
     mitaka:
       source-branch: stable/2.0
     liberty:
@@ -135,6 +137,7 @@ packages:
   - mabaakou@redhat.com
 - project: aodh
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -154,6 +157,7 @@ packages:
   - hguemar@redhat.com
 - project: ironic
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -170,7 +174,8 @@ packages:
   name: python-neutron-lib
   master-distgit: git://github.com/openstack-packages/%(name)s
   tags:
-      mitaka:
+    newton:
+    mitaka:
   maintainers:
   - ihrachys@redhat.com
 - project: neutron-fwaas
@@ -195,6 +200,7 @@ packages:
   - majopela@redhat.com
 - project: octavia
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -202,6 +208,7 @@ packages:
   - nmagnezi@redhat.com
 - project: sahara
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -226,6 +233,7 @@ packages:
   - mrunge@redhat.com
 - project: diskimage-builder
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -234,6 +242,7 @@ packages:
   - jruzicka@redhat.com
 - project: dib-utils
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -242,6 +251,7 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-incubator
   tags:
+    newton:
     mitaka:
     liberty:
   name: openstack-tripleo
@@ -252,6 +262,7 @@ packages:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -259,6 +270,7 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-image-elements
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -266,6 +278,7 @@ packages:
   - jruzicka@redhat.com
 - project: instack
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -274,6 +287,7 @@ packages:
   - jslagle@redhat.com
 - project: instack-undercloud
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -282,6 +296,7 @@ packages:
   - jslagle@redhat.com
 - project: heat-templates
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -289,6 +304,7 @@ packages:
   - ryansb@redhat.com
 - project: os-apply-config
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -297,6 +313,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-collect-config
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -305,6 +322,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-net-config
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -313,6 +331,7 @@ packages:
   - dprince@redhat.com
 - project: os-refresh-config
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -321,6 +340,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-cloud-config
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -329,6 +349,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-client-config
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -336,6 +357,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-win
   tags:
+    newton:
     mitaka:
     liberty:
   name: python-os-win
@@ -345,6 +367,7 @@ packages:
   - jpena@redhat.com
 - project: manila
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -353,6 +376,7 @@ packages:
   - zaitcev@redhat.com
 - project: zaqar
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -361,6 +385,7 @@ packages:
   - fpercoco@redhat.com
 - project: ironic-inspector
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -369,6 +394,7 @@ packages:
   - dtantsur@redhat.com
 - project: ironic-python-agent
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -377,6 +403,7 @@ packages:
   - dtantsur@redhat.com
 - project: ironic-lib
   tags:
+    newton:
     mitaka:
   conf: lib
   maintainers:
@@ -389,6 +416,7 @@ packages:
   - msm@redhat.com
 - project: cloudkitty
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -396,6 +424,7 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: ec2-api
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -403,6 +432,7 @@ packages:
   - marcos.fermin.lobo@cern.ch
 - project: magnum
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -411,6 +441,7 @@ packages:
   - mathieu.velten@cern.ch
 - project: manila-ui
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -419,6 +450,7 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
+    newton:
     mitaka:
   conf: core
   maintainers:
@@ -427,6 +459,7 @@ packages:
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
+    newton:
     mitaka:
   conf: core
   maintainers:
@@ -465,11 +498,13 @@ packages:
   conf: client
 - project: manilaclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
 - project: barbicanclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -479,6 +514,7 @@ packages:
   - chkumar@redhat.com
 - project: cloudkittyclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -489,6 +525,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -497,6 +534,7 @@ packages:
   conf: client
 - project: ironic-inspector-client
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -504,6 +542,7 @@ packages:
   - dtantsur@redhat.com
 - project: tripleoclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -511,6 +550,7 @@ packages:
   - brad@redhat.com
 - project: zaqarclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -519,11 +559,13 @@ packages:
   - fpercoco@redhat.com
 - project: openstacksdk
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
 - project: gnocchiclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -532,12 +574,14 @@ packages:
 # openstack libraries
 - project: mox3
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/mox3
 - project: oslotest
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -553,6 +597,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
 - project: oslo-cache
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -595,12 +640,14 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
 - project: oslo-service
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
   upstream: git://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -609,6 +656,7 @@ packages:
   conf: lib
 - project: castellan
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -618,26 +666,31 @@ packages:
   conf: lib
 - project: debtcollector
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
 - project: automaton
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
 - project: cliff
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
 - project: futurist
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
 - project: hacking
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -663,6 +716,7 @@ packages:
   - jpena@redhat.com
 - project: tripleo-common
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -711,6 +765,7 @@ packages:
   - xin.wu@bigswitch.com
 - project: networking-ovn
   tags:
+    newton:
     mitaka:
   name: python-networking-ovn
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -733,6 +788,7 @@ packages:
   - brdemers@cisco.com
 - project: cisco-ironic-contrib
   tags:
+    newton:
     mitaka:
     liberty:
   name: python-ironic-cisco
@@ -743,6 +799,7 @@ packages:
   - brdemers@cisco.com
 - project: tripleo-puppet-elements
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -750,6 +807,7 @@ packages:
   - jslagle@redhat.com
 - project: os-brick
   tags:
+    newton:
     mitaka:
     liberty:
   name: python-os-brick
@@ -761,6 +819,7 @@ packages:
   - jpena@redhat.com
 - project: hardware
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -770,12 +829,14 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
   upstream: git://github.com/openstack/keystoneauth
 - project: rally
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -784,6 +845,7 @@ packages:
   - slinaber@redhat.com
 - project: tempest
   tags:
+    newton:
     mitaka:
       source-branch: master
     liberty:
@@ -795,6 +857,7 @@ packages:
   - dmellado@redhat.com
 - project: tempest-lib
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -803,6 +866,7 @@ packages:
   - dmellado@redhat.com
 - project: os-testr
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -811,6 +875,7 @@ packages:
   - dmellado@redhat.com
 - project: proliantutils
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -819,6 +884,7 @@ packages:
   - trown@redhat.com
 - project: dracclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -827,6 +893,7 @@ packages:
   - trown@redhat.com
 - project: mistralclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -834,6 +901,7 @@ packages:
   - hguemar@redhat.com
 - project: mistral
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -841,6 +909,7 @@ packages:
   - hguemar@redhat.com
 - project: requestsexceptions
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -849,6 +918,7 @@ packages:
   - jpena@redhat.com
 - project: app-catalog-ui
   tags:
+    newton:
     mitaka:
     liberty:
   conf: core
@@ -856,6 +926,7 @@ packages:
   - Kevin.Fox@pnnl.gov
 - project: tooz
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
@@ -864,6 +935,7 @@ packages:
   - pkilambi@redhat.com
 - project: magnumclient
   tags:
+    newton:
     mitaka:
     liberty:
   conf: client
@@ -872,9 +944,16 @@ packages:
     - mathieu.velten@cern.ch
 - project: reno
   tags:
+    newton:
     mitaka:
     liberty:
   conf: lib
   maintainers:
   - chkumar@redhat.com
   - jpena@redhat.com
+- project: k8sclient
+  tags:
+    newton:
+  conf: lib
+  maintainers:
+    - chkumar@redhat.com
