@@ -112,10 +112,13 @@ packages:
 - project: glance_store
   conf: core
   name: python-glance-store
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - hguemar@redhat.com
 - project: swift
   conf: core
+  name: openstack-swift
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - zaitcev@redhat.com
 - project: ceilometer
@@ -228,6 +231,7 @@ packages:
 - project: django_openstack_auth
   conf: lib
   name: python-django-openstack-auth
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   master-distgit: git://github.com/openstack-packages/%(name)s
   maintainers:
   - mrunge@redhat.com
@@ -247,6 +251,7 @@ packages:
     liberty:
   conf: core
   name: dib-utils
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-incubator
@@ -309,6 +314,7 @@ packages:
     liberty:
   conf: core
   name: os-apply-config
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - jruzicka@redhat.com
 - project: os-collect-config
@@ -318,6 +324,7 @@ packages:
     liberty:
   conf: core
   name: os-collect-config
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - jruzicka@redhat.com
 - project: os-net-config
@@ -327,6 +334,7 @@ packages:
     liberty:
   conf: core
   name: os-net-config
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - dprince@redhat.com
 - project: os-refresh-config
@@ -336,6 +344,7 @@ packages:
     liberty:
   conf: core
   name: os-refresh-config
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - jruzicka@redhat.com
 - project: os-cloud-config
@@ -345,6 +354,7 @@ packages:
     liberty:
   conf: core
   name: os-cloud-config
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - jruzicka@redhat.com
 - project: os-client-config
@@ -380,6 +390,7 @@ packages:
     mitaka:
     liberty:
   conf: core
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
@@ -398,6 +409,7 @@ packages:
     mitaka:
     liberty:
   conf: core
+  distgit: ssh://pkgs.fedoraproject.org/%(name)s.git
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
