@@ -1150,6 +1150,30 @@ packages:
   maintainers:
     - chkumar@redhat.com
     - mathieu.velten@cern.ch
+- project: congressclient
+  tags:
+    newton:
+    mitaka:
+  conf: client
+  maintainers:
+    - mathieu.velten@cern.ch
+    - asteroid566@gmail.com
+- project: muranoclient
+  tags:
+    newton:
+    mitaka:
+  conf: client
+  maintainers:
+    - mathieu.velten@cern.ch
+    - asteroid566@gmail.com
+- project: murano
+  tags:
+    newton:
+    mitaka:
+  conf: core
+  maintainers:
+    - mathieu.velten@cern.ch
+    - asteroid566@gmail.com
 - project: reno
   tags:
     newton:
