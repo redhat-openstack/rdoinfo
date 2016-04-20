@@ -251,6 +251,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
 - project: puppet-midonet
+  source-branch: stable/v2015.06
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
 - project: puppet-collectd
