@@ -115,6 +115,9 @@ package-configs:
     - lbezdick@redhat.com
     - jguiditt@redhat.com
     - gchamoul@redhat.com
+    # Only building puppet modules on newton and later
+    tags:
+      newton:
 
 
 packages:
