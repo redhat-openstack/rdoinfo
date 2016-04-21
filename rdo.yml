@@ -121,197 +121,339 @@ packages:
 # OpenStack Puppet Modules
 - project: puppet-aodh
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-ceilometer
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-cinder
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-glance
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-gnocchi
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-heat
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-horizon
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-ironic
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-keystone
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-manila
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-neutron
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-nova
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-openstack_extras
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-openstacklib
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-sahara
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-swift
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-tempest
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-tripleo
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-trove
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-tuskar
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-vswitch
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-ceph
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-n1k-vsm
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-mistral
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-zaqar
   conf: rpmfactory-puppet
+  tags:
+    newton:
 - project: puppet-apache
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
+  tags:
+    newton:
 - project: puppet-concat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
+  tags:
+    newton:
 - project: puppet-firewall
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
+  tags:
+    newton:
 - project: puppet-haproxy
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
+  tags:
+    newton:
 - project: puppet-corosync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-corosync
+  tags:
+    newton:
 - project: puppet-git
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
+  tags:
+    newton:
 - project: puppet-inifile
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
+  tags:
+    newton:
 - project: puppet-mongodb
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mongodb
+  tags:
+    newton:
 - project: puppet-mysql
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
+  tags:
+    newton:
 - project: puppet-java
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
+  tags:
+    newton:
 - project: puppet-ntp
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
+  tags:
+    newton:
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
+  tags:
+    newton:
 - project: puppet-rsync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
+  tags:
+    newton:
 - project: puppet-stdlib
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
+  tags:
+    newton:
 - project: puppet-tomcat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
+  tags:
+    newton:
 - project: puppet-vcsrepo
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
+  tags:
+    newton:
 - project: puppet-xinetd
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
+  tags:
+    newton:
 - project: puppet-cassandra
   conf: rpmfactory-puppet
   upstream: git://github.com/locp/cassandra
+  tags:
+    newton:
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
+  tags:
+    newton:
 - project: puppet-contrail
   conf: rpmfactory-puppet
   upstream: git://github.com/redhat-cip/%(project)s
+  tags:
+    newton:
 - project: puppet-datacat
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
+  tags:
+    newton:
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
+  tags:
+    newton:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
+  tags:
+    newton:
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
+  tags:
+    newton:
 - project: puppet-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
+  tags:
+    newton:
 - project: puppet-kibana3
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
+  tags:
+    newton:
 - project: puppet-memcached
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
+  tags:
+    newton:
 - project: puppet-midonet
   source-branch: stable/v2015.06
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
+  tags:
+    newton:
 - project: puppet-collectd
   conf: rpmfactory-puppet
   master-distgit: http://review.rdoproject.org/r/p/puppet/puppet-collectd-distgit.git
   upstream: git://github.com/voxpupuli/%(project)s
+  tags:
+    newton:
 - project: puppet-module-data
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
+  tags:
+    newton:
 # - project: puppet-nagios-openstack
 #   conf: rpmfactory-puppet
 #   upstream: git://github.com/gildub/%(project)s
 - project: puppet-nssdb
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
+  tags:
+    newton:
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
   upstream: git://github.com/dfarrell07/%(project)s
+  tags:
+    newton:
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
+  tags:
+    newton:
 - project: puppet-qpid
   conf: rpmfactory-puppet
   upstream: git://github.com/dprince/%(project)s
+  tags:
+    newton:
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
+  tags:
+    newton:
 - project: puppet-remote
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
+  tags:
+    newton:
 - project: puppet-sensu
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
+  tags:
+    newton:
 - project: puppet-snmp
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
+  tags:
+    newton:
 - project: puppet-ssh
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
+  tags:
+    newton:
 - project: puppet-staging
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
+  tags:
+    newton:
 - project: puppet-timezone
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
+  tags:
+    newton:
 - project: puppet-uchiwa
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
+  tags:
+    newton:
 - project: puppet-vlan
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
+  tags:
+    newton:
 - project: puppet-zookeeper
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
+  tags:
+    newton:
 - project: puppet-kmod
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
+  tags:
+    newton:
 - project: puppet-sysctl
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
+  tags:
+    newton:
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
