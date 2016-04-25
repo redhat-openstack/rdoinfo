@@ -867,6 +867,11 @@ packages:
     liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.reports
+- project: oslo-privsep
+  tags:
+    newton:
+  conf: rpmfactory-lib
+  upstream: git://git.openstack.org/openstack/oslo.privsep
 - project: stevedore
   conf: rpmfactory-lib
 - project: castellan
