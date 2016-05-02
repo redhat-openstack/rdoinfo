@@ -140,9 +140,6 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-keystone
   conf: rpmfactory-puppet
-  tags:
-    newton:
-      source-branch: stable/mitaka
 - project: puppet-manila
   conf: rpmfactory-puppet
 - project: puppet-neutron
