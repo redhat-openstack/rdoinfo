@@ -3,7 +3,7 @@
 # I.E. each package can have it's own 'releases' section
 releases:
 - name: mitaka
-  branch: rdo-mitaka
+  branch: mitaka-rdo
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-mitaka-el7
@@ -18,7 +18,7 @@ releases:
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: liberty
   # this is default branch for release and can be overriden on repo level
-  branch: rdo-liberty
+  branch: liberty-rdo
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-liberty-el7
@@ -33,7 +33,7 @@ releases:
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: kilo
   # this is default branch for release and can be overriden on repo level
-  branch: f23
+  branch: kilo-rdo
   fedora: 23
   repos:
   - name: el7
