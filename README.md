@@ -10,8 +10,8 @@ validating the info file.
 
 ### Updating the info
 
-Run `verify.py` script for basic sanity check on the `rdo.yml` info file
-before submitting changes through pull request, please.
+Run `verify.py` script for basic sanity check on the `rdo.yml` info file.
+Use `git-review` to propose a change.
 
 
 ### Usage
