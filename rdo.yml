@@ -788,6 +788,13 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
+- project: aodhclient
+  tags:
+    newton:
+    mitaka:
+  conf: rpmfactory-client
+  maintainers:
+  - pkilambi@redhat.com
 # openstack libraries
 - project: mox3
   tags:
