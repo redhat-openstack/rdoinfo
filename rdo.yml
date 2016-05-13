@@ -53,8 +53,8 @@ releases:
 package-default:
     name: python-%(project)s
     distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-    patches: git://github.com/redhat-openstack/%(project)s
-    master-distgit: git://github.com/openstack-packages/python-%(project)s
+    patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
+    master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     tags:
       newton:
       mitaka:
@@ -393,7 +393,6 @@ packages:
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
-  master-distgit: git://github.com/openstack-packages/%(name)s
   tags:
     newton:
     mitaka:
