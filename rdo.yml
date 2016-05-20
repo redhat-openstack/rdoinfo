@@ -388,6 +388,8 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+  - jlibosva@redhat.com
+  - nmagnezi@redhat.com
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
@@ -396,21 +398,30 @@ packages:
     mitaka:
   maintainers:
   - ihrachys@redhat.com
+  - majopela@redhat.com
+  - jlibosva@redhat.com
+  - nmagnezi@redhat.com
 - project: neutron-fwaas
   conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+  - jlibosva@redhat.com
+  - nmagnezi@redhat.com
 - project: neutron-lbaas
   conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+  - jlibosva@redhat.com
+  - nmagnezi@redhat.com
 - project: neutron-vpnaas
   conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+  - jlibosva@redhat.com
+  - nmagnezi@redhat.com
 - project: designate
   conf: rpmfactory-core
   maintainers:
