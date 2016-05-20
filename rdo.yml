@@ -276,9 +276,6 @@ packages:
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
-- project: puppet-qpid
-  conf: rpmfactory-puppet
-  upstream: git://github.com/dprince/%(project)s
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
