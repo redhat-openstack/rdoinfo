@@ -754,6 +754,8 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: rpmfactory-client
+  maintainers:
+  - dougal@redhat.com
 - project: ironic-inspector-client
   tags:
     newton:
