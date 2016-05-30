@@ -100,7 +100,7 @@ def substitute_package(pkg):
     # substitution is very simple, no recursion
     new_pkg = copy.copy(pkg)
     for key, val in pkg.items():
-        if isinstance(val, basestring):
+        if isinstance(val, six.string_types):
             try:
                 new_pkg[key] = val % pkg
             except KeyError:
