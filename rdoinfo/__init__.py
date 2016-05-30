@@ -3,6 +3,11 @@ import collections
 import yaml
 
 
+try:
+    stringType = basetring
+except NameError:
+    stringType = str
+
 __version__ = '0.2'
 
 
@@ -100,7 +105,7 @@ def substitute_package(pkg):
     # substitution is very simple, no recursion
     new_pkg = copy.copy(pkg)
     for key, val in pkg.items():
-        if isinstance(val, basestring):
+        if isinstance(val, stringType):
             try:
                 new_pkg[key] = val % pkg
             except KeyError:
