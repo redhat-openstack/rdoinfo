@@ -41,4 +41,4 @@ info = inforepo.get_info()
 Projects that use `rdoinfo`:
 
  * [rdopkg](https://github.com/redhat-openstack/rdopkg)
- * [delorean](https://github.com/openstack-packages/delorean)
+ * [DLRN](https://github.com/openstack-packages/DLRN)
