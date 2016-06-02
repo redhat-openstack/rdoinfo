@@ -1156,6 +1156,15 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - Kevin.Fox@pnnl.gov
+- project: mistral-dashboard
+  name: openstack-mitral-ui
+  tags:
+    newton:
+    mitaka:
+    liberty:
+  conf: rpmfactory-core
+  maintainers:
+  - marcos.fermin.lobo@cern.ch
 - project: tooz
   tags:
     newton:
