@@ -669,6 +669,13 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
+- project: neutron-lbaas-ui-dashboard
+  tags:
+    newton:
+    mitaka:
+  conf: rpmfactory-core
+  maintainers:
+  - mrunge@redhat.com
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
