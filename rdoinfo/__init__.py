@@ -1,5 +1,6 @@
-import copy
 import collections
+import copy
+import six
 import yaml
 
 
