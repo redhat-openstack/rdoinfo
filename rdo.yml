@@ -1166,9 +1166,10 @@ packages:
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
-    newton:
-    mitaka:
-    liberty:
+    under-review:
+#    newton:
+#    mitaka:
+#    liberty:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
