@@ -424,6 +424,13 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+- project: designate-tempest-plugin
+  conf: rpmfactory-lib
+  name: python-designate-tests-tempest
+  tags:
+    under-review:
+  maintainers:
+  - amoralej@redhat.com
 - project: octavia
   tags:
     newton:
