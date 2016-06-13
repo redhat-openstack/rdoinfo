@@ -228,7 +228,7 @@ packages:
   upstream: git://github.com/locp/cassandra
 - project: puppet-certmonger
   conf: rpmfactory-puppet
-  upstream: git://github.com/rcritten/%(project)s
+  upstream: git://github.com/earsdown/%(project)s
 - project: puppet-contrail
   conf: rpmfactory-puppet
   upstream: git://github.com/redhat-cip/%(project)s
