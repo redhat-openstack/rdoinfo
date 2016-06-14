@@ -334,6 +334,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - zaitcev@redhat.com
+- project: swift3
+  name: openstack-swift-plugin-swift3
+  conf: rpmfactory-core
+  tags:
+    under-review:
 - project: ceilometer
   conf: rpmfactory-core
   maintainers:
