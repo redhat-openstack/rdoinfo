@@ -949,7 +949,7 @@ packages:
   upstream: git://git.openstack.org/openstack-dev/hacking
 - project: wsme
   tags:
-    under-review:
+    newton:
   conf: rpmfactory-lib
 # deps
 - project: packstack
