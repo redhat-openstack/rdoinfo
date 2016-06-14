@@ -947,6 +947,10 @@ packages:
     liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack-dev/hacking
+- project: wsme
+  tags:
+    under-review:
+  conf: rpmfactory-lib
 # deps
 - project: packstack
   conf: rpmfactory-core
