@@ -166,6 +166,8 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-ceph
   conf: rpmfactory-puppet
+  tags:
+    stable/hammer:
 - project: puppet-n1k-vsm
   conf: rpmfactory-puppet
 - project: puppet-mistral
