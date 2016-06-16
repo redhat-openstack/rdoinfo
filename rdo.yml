@@ -166,11 +166,6 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-ceph
   conf: rpmfactory-puppet
-  tags:
-    mitaka:
-      source-branch: stable/hammer
-    newton:
-      source-branch: master
 - project: puppet-n1k-vsm
   conf: rpmfactory-puppet
 - project: puppet-mistral
