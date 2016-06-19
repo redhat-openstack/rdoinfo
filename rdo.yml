@@ -660,7 +660,8 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
-    under-review:
+    newton:
+    mitaka:
   conf: rpmfactory-core
   maintainers:
   - gauvain.pocentek@objectif-libre.com
