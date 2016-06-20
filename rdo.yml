@@ -445,6 +445,13 @@ packages:
   maintainers:
   - nmagnezi@redhat.com
   - ihrachys@redhat.com
+- project: watcher
+  conf: rpmfactory-lib
+  name: openstack-watcher
+  tags:
+    under-review:
+  maintainers:
+  - jpena@redhat.com
 - project: sahara
   tags:
     newton:
