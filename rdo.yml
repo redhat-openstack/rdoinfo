@@ -781,11 +781,7 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: rpmfactory-client
-  tags:
-    # TEMP pin: https://bugs.launchpad.net/aodh/+bug/1594930
-    newton:
-      upstream: git://github.com/redhat-openstack/%(project)s.git
-      source-branch: master-patches
+  upstream: git://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
   tags:
     newton:
