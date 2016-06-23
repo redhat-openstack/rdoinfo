@@ -526,6 +526,13 @@ packages:
   - mpryc@redhat.com
   - daniel.pawlik@corp.ovh.com
   - jpena@redhat.com
+- project: vitrage
+  conf: rpmfactory-core
+  # should be for newton and ocata
+  tags:
+    under-review:
+  maintainers:
+  - eyal.bar-ilan@nokia.com
 - project: sahara
   tags:
     ocata-uc:
