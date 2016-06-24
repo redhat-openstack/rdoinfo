@@ -791,11 +791,6 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: rpmfactory-client
-  tags:
-    # TEMP pin: https://bugs.launchpad.net/python-openstackclient/+bug/1593664
-    newton:
-      upstream: git://github.com/redhat-openstack/python-openstackclient.git
-      source-branch: master-patches
   maintainers:
   - dougal@redhat.com
 - project: ironic-inspector-client
