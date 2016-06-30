@@ -706,6 +706,14 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - mrunge@redhat.com
+- project: sahara-image-elements
+  tags:
+    newton:
+    mitaka:
+  conf: rpmfactory-core
+  name: sahara-image-elements
+  maintainers:
+  - egafford@redhat.com
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
