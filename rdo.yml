@@ -88,6 +88,7 @@ package-configs:
     master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    tags_only: yes
     maintainers:
     - jruzicka@redhat.com
     - hguemar@redhat.com
@@ -99,6 +100,7 @@ package-configs:
     master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    tags_only: yes
     maintainers:
     - apevec@redhat.com
     - hguemar@redhat.com
