@@ -1,4 +1,3 @@
----
 # support for overriding this on per-package basis is doable,
 # I.E. each package can have it's own 'releases' section
 releases:
@@ -57,17 +56,15 @@ releases:
 
 # default template for 'packages' infromation bellow
 package-default:
-    name: python-%(project)s
-    distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-    patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-    master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
-    tags:
-      newton:
-      mitaka:
-      liberty:
-      kilo:
-
-
+  name: python-%(project)s
+  distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
+  patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
+  master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+  tags:
+    newton:
+    mitaka:
+    liberty:
+    kilo:
 # custom templates for 'packages' information below, reducing
 # redundant information in this file; inherits package-default
 package-configs:
@@ -110,7 +107,7 @@ package-configs:
     - hguemar@redhat.com
     - lbezdick@redhat.com
   rpmfactory-puppet:
-    name: "%(project)s"
+    name: '%(project)s'
     upstream: git://git.openstack.org/openstack/%(project)s
     distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/puppet/%(project)s.git
@@ -124,8 +121,6 @@ package-configs:
     # Only building puppet modules on newton and later
     tags:
       newton:
-
-
 packages:
 # OpenStack Puppet Modules
 - project: puppet-aodh
@@ -1247,32 +1242,32 @@ packages:
     liberty:
   conf: rpmfactory-client
   maintainers:
-    - chkumar@redhat.com
-    - mathieu.velten@cern.ch
+  - chkumar@redhat.com
+  - mathieu.velten@cern.ch
 - project: congressclient
   tags:
     newton:
     mitaka:
   conf: rpmfactory-client
   maintainers:
-    - mathieu.velten@cern.ch
-    - asteroid566@gmail.com
+  - mathieu.velten@cern.ch
+  - asteroid566@gmail.com
 - project: muranoclient
   tags:
     newton:
     mitaka:
   conf: rpmfactory-client
   maintainers:
-    - mathieu.velten@cern.ch
-    - asteroid566@gmail.com
+  - mathieu.velten@cern.ch
+  - asteroid566@gmail.com
 - project: murano
   tags:
     newton:
     mitaka:
   conf: rpmfactory-core
   maintainers:
-    - mathieu.velten@cern.ch
-    - asteroid566@gmail.com
+  - mathieu.velten@cern.ch
+  - asteroid566@gmail.com
 - project: reno
   tags:
     newton:
@@ -1287,7 +1282,7 @@ packages:
     newton:
   conf: rpmfactory-client
   maintainers:
-    - chkumar@redhat.com
+  - chkumar@redhat.com
 - project: microversion-parse
   tags:
     newton:
