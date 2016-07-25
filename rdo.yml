@@ -61,6 +61,7 @@ package-default:
   patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -120,6 +121,7 @@ package-configs:
     - gchamoul@redhat.com
     # Only building puppet modules on newton and later
     tags:
+      newton-uc:
       newton:
 packages:
 # OpenStack Puppet Modules
@@ -339,6 +341,7 @@ packages:
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
   tags:
+    newton-uc:
     newton:
 - project: ceilometer
   conf: rpmfactory-core
@@ -349,6 +352,7 @@ packages:
 - project: gnocchi
   conf: rpmfactory-core
   tags:
+    newton-uc:
     newton:
     mitaka:
       source-branch: stable/2.1
@@ -359,6 +363,7 @@ packages:
   - mabaakou@redhat.com
 - project: aodh
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -379,6 +384,7 @@ packages:
   - hguemar@redhat.com
 - project: ironic
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -397,6 +403,7 @@ packages:
   conf: rpmfactory-lib
   name: python-neutron-lib
   tags:
+    newton-uc:
     newton:
     mitaka:
   maintainers:
@@ -434,11 +441,13 @@ packages:
   conf: rpmfactory-lib
   name: python-designate-tests-tempest
   tags:
+    newton-uc:
     newton:
   maintainers:
   - amoralej@redhat.com
 - project: octavia
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -449,6 +458,7 @@ packages:
 - project: watcher
   conf: rpmfactory-core
   tags:
+    newton-uc:
     newton:
   maintainers:
   - mpryc@redhat.com
@@ -456,6 +466,7 @@ packages:
   - jpena@redhat.com
 - project: sahara
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -479,6 +490,7 @@ packages:
   - mrunge@redhat.com
 - project: diskimage-builder
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -488,6 +500,7 @@ packages:
   - jruzicka@redhat.com
 - project: dib-utils
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -497,6 +510,7 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-incubator
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -506,6 +520,7 @@ packages:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -515,6 +530,7 @@ packages:
   - dprince@redhat.com
 - project: tripleo-image-elements
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -523,6 +539,7 @@ packages:
   - jruzicka@redhat.com
 - project: instack
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -532,6 +549,7 @@ packages:
   - jslagle@redhat.com
 - project: instack-undercloud
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -541,6 +559,7 @@ packages:
   - jslagle@redhat.com
 - project: heat-templates
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -549,6 +568,7 @@ packages:
   - ryansb@redhat.com
 - project: os-apply-config
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -558,6 +578,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-collect-config
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -567,6 +588,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-net-config
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -576,6 +598,7 @@ packages:
   - dprince@redhat.com
 - project: os-refresh-config
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -585,6 +608,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-cloud-config
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -594,6 +618,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-client-config
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -602,6 +627,7 @@ packages:
   - jruzicka@redhat.com
 - project: os-win
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -612,6 +638,7 @@ packages:
   - jpena@redhat.com
 - project: manila
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -621,6 +648,7 @@ packages:
   - zaitcev@redhat.com
 - project: zaqar
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -630,6 +658,7 @@ packages:
   - fpercoco@redhat.com
 - project: ironic-inspector
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -639,6 +668,7 @@ packages:
   - dtantsur@redhat.com
 - project: ironic-python-agent
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -648,6 +678,7 @@ packages:
   - dtantsur@redhat.com
 - project: ironic-lib
   tags:
+    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-lib
@@ -661,6 +692,7 @@ packages:
   - msm@redhat.com
 - project: cloudkitty
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -670,6 +702,7 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
+    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -677,6 +710,7 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: ec2-api
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -685,6 +719,7 @@ packages:
   - marcos.fermin.lobo@cern.ch
 - project: magnum
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -694,6 +729,7 @@ packages:
   - mathieu.velten@cern.ch
 - project: manila-ui
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -703,6 +739,7 @@ packages:
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
+    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -718,6 +755,7 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
+    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -727,6 +765,7 @@ packages:
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
+    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -735,43 +774,119 @@ packages:
 # The openstack clients
 - project: keystoneclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 3.2.0
+    newton:
+    mitaka:
+    liberty:
 - project: glanceclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 2.2.0
+    newton:
+    mitaka:
+    liberty:
 - project: novaclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 5.0.0
+    newton:
+    mitaka:
+    liberty:
 - project: swiftclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 3.0.0
+    newton:
+    mitaka:
+    liberty:
 - project: ceilometerclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 2.4.0
+    newton:
+    mitaka:
+    liberty:
 - project: heatclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 1.3.0
+    newton:
+    mitaka:
+    liberty:
 - project: cinderclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 1.8.0
+    newton:
+    mitaka:
+    liberty:
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
   - dtantsur@redhat.com
   - trown@redhat.com
+  tags:
+    newton-uc:
+      source-branch: 1.5.0
+    newton:
+    mitaka:
+    liberty:
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
   - ihrachys@redhat.com
   - jruzicka@redhat.com
   - hguemar@redhat.com
+  tags:
+    newton-uc:
+      source-branch: 4.2.0
+    newton:
+    mitaka:
+    liberty:
 - project: saharaclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 0.15.0
+    newton:
+    mitaka:
+    liberty:
 - project: troveclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 2.3.0
+    newton:
+    mitaka:
+    liberty:
 - project: designateclient
   conf: rpmfactory-client
+  tags:
+    newton-uc:
+      source-branch: 2.2.0
+    newton:
+    mitaka:
+    liberty:
 - project: manilaclient
   tags:
+    newton-uc:
+      source-branch: 1.10.0
     newton:
     mitaka:
     liberty:
   conf: rpmfactory-client
 - project: barbicanclient
   tags:
+    newton-uc:
+      source-branch: 4.0.1
     newton:
     mitaka:
     liberty:
@@ -782,6 +897,7 @@ packages:
   - chkumar@redhat.com
 - project: cloudkittyclient
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -793,6 +909,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -802,8 +919,16 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - dougal@redhat.com
+  tags:
+    newton-uc:
+      source-branch: 2.6.0
+    newton:
+    mitaka:
+    liberty:
 - project: ironic-inspector-client
   tags:
+    newton-uc:
+      source-branch: 1.8.0
     newton:
     mitaka:
     liberty:
@@ -812,6 +937,7 @@ packages:
   - dtantsur@redhat.com
 - project: tripleoclient
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -820,6 +946,8 @@ packages:
   - brad@redhat.com
 - project: zaqarclient
   tags:
+    newton-uc:
+      source-branch: 1.1.0
     newton:
     mitaka:
     liberty:
@@ -829,12 +957,14 @@ packages:
   - fpercoco@redhat.com
 - project: openstacksdk
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
   conf: rpmfactory-client
 - project: gnocchiclient
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -843,6 +973,8 @@ packages:
   - pkilambi@redhat.com
 - project: aodhclient
   tags:
+    newton-uc:
+      source-branch: 0.5.0
     newton:
     mitaka:
   conf: rpmfactory-client
@@ -851,6 +983,7 @@ packages:
 # openstack libraries
 - project: mox3
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -858,6 +991,8 @@ packages:
   upstream: git://git.openstack.org/openstack/mox3
 - project: oslotest
   tags:
+    newton-uc:
+      source-branch: 2.7.0
     newton:
     mitaka:
     liberty:
@@ -869,11 +1004,25 @@ packages:
 - project: oslo-i18n
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
+  tags:
+    newton-uc:
+      source-branch: 3.8.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-messaging
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
+  tags:
+    newton-uc:
+      source-branch: 5.5.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-cache
   tags:
+    newton-uc:
+      source-branch: 1.11.0
     newton:
     mitaka:
     liberty:
@@ -882,41 +1031,115 @@ packages:
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
+  tags:
+    newton-uc:
+      source-branch: 3.13.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
+  tags:
+    newton-uc:
+      source-branch: 3.12.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-rootwrap
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
+  tags:
+    newton-uc:
+      source-branch: 4.4.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-serialization
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
+  tags:
+    newton-uc:
+      source-branch: 2.11.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-middleware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
+  tags:
+    newton-uc:
+      source-branch: 3.15.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-db
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
+  tags:
+    newton-uc:
+      source-branch: 4.8.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-utils
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
+  tags:
+    newton-uc:
+      source-branch: 3.16.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-vmware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
+  tags:
+    newton-uc:
+      source-branch: 2.11.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-context
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
+  tags:
+    newton-uc:
+      source-branch: 2.5.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-log
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
+  tags:
+    newton-uc:
+      source-branch: 3.12.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-policy
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
+  tags:
+    newton-uc:
+      source-branch: 1.12.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
+  tags:
+    newton-uc:
+      source-branch: 1.13.0
+    newton:
+    mitaka:
+    liberty:
 - project: oslo-service
   tags:
+    newton-uc:
+      source-branch: 1.13.0
     newton:
     mitaka:
     liberty:
@@ -924,6 +1147,8 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   tags:
+    newton-uc:
+      source-branch: 1.12.0
     newton:
     mitaka:
     liberty:
@@ -931,6 +1156,8 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: oslo-privsep
   tags:
+    newton-uc:
+      source-branch: 1.10.0
     newton:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.privsep
@@ -938,6 +1165,7 @@ packages:
   conf: rpmfactory-lib
 - project: castellan
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -948,30 +1176,35 @@ packages:
   conf: rpmfactory-lib
 - project: debtcollector
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: automaton
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: cliff
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: futurist
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: hacking
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -979,6 +1212,7 @@ packages:
   upstream: git://git.openstack.org/openstack-dev/hacking
 - project: wsme
   tags:
+    newton-uc:
     newton:
   conf: rpmfactory-lib
 # deps
@@ -1000,6 +1234,7 @@ packages:
   - jpena@redhat.com
 - project: tripleo-common
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1049,6 +1284,7 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
+    newton-uc:
     newton:
     mitaka:
   name: python-networking-ovn
@@ -1072,6 +1308,7 @@ packages:
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1082,6 +1319,7 @@ packages:
   - brdemers@cisco.com
 - project: tripleo-puppet-elements
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1090,6 +1328,7 @@ packages:
   - jslagle@redhat.com
 - project: os-brick
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1101,6 +1340,7 @@ packages:
   - jpena@redhat.com
 - project: hardware
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1111,6 +1351,7 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1118,6 +1359,7 @@ packages:
   upstream: git://github.com/openstack/keystoneauth
 - project: rally
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1127,6 +1369,7 @@ packages:
   - slinaber@redhat.com
 - project: tempest
   tags:
+    newton-uc:
     newton:
     mitaka:
       source-branch: master
@@ -1139,6 +1382,7 @@ packages:
   - dmellado@redhat.com
 - project: tempest-lib
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1148,6 +1392,7 @@ packages:
   - dmellado@redhat.com
 - project: os-testr
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1157,6 +1402,7 @@ packages:
   - dmellado@redhat.com
 - project: proliantutils
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1166,6 +1412,7 @@ packages:
   - trown@redhat.com
 - project: dracclient
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1175,6 +1422,8 @@ packages:
   - trown@redhat.com
 - project: mistralclient
   tags:
+    newton-uc:
+      source-branch: 2.0.0
     newton:
     mitaka:
     liberty:
@@ -1183,6 +1432,7 @@ packages:
   - hguemar@redhat.com
 - project: mistral
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1191,6 +1441,7 @@ packages:
   - hguemar@redhat.com
 - project: requestsexceptions
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1200,6 +1451,7 @@ packages:
   - jpena@redhat.com
 - project: app-catalog-ui
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1210,6 +1462,7 @@ packages:
   name: openstack-mistral-ui
   tags:
     under-review:
+#    newton-uc:
 #    newton:
 #    mitaka:
 #    liberty:
@@ -1220,6 +1473,7 @@ packages:
   name: openstack-magnum-ui
   tags:
     under-review:
+#    newton-uc:
 #    newton:
 #    mitaka:
 #    liberty:
@@ -1228,6 +1482,7 @@ packages:
   - marcos.fermin.lobo@cern.ch
 - project: tooz
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1237,6 +1492,8 @@ packages:
   - pkilambi@redhat.com
 - project: magnumclient
   tags:
+    newton-uc:
+      source-branch: 2.2.0
     newton:
     mitaka:
     liberty:
@@ -1246,6 +1503,8 @@ packages:
   - mathieu.velten@cern.ch
 - project: congressclient
   tags:
+    newton-uc:
+      source-branch: 1.4.0
     newton:
     mitaka:
   conf: rpmfactory-client
@@ -1254,6 +1513,8 @@ packages:
   - asteroid566@gmail.com
 - project: muranoclient
   tags:
+    newton-uc:
+      source-branch: 0.9.0
     newton:
     mitaka:
   conf: rpmfactory-client
@@ -1262,6 +1523,7 @@ packages:
   - asteroid566@gmail.com
 - project: murano
   tags:
+    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -1270,6 +1532,7 @@ packages:
   - asteroid566@gmail.com
 - project: reno
   tags:
+    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1279,17 +1542,22 @@ packages:
   - jpena@redhat.com
 - project: k8sclient
   tags:
+    newton-uc:
+      source-branch: 0.2.0
     newton:
   conf: rpmfactory-client
   maintainers:
   - chkumar@redhat.com
 - project: microversion-parse
   tags:
+    newton-uc:
     newton:
   conf: rpmfactory-lib
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
+    newton-uc:
+      source-branch: 0.4.0
     newton:
   maintainers:
   - amoralej@redhat.com
