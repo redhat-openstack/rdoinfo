@@ -1265,6 +1265,12 @@ packages:
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
+- project: tripleo-ui
+  conf: rpmfactory-core
+  tags:
+    newton:
+  maintainers:
+    - honza@redhat.com
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
