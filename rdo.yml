@@ -1242,6 +1242,13 @@ packages:
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
+- project: tripleo-ui
+  tags:
+    under-review:
+  conf: rpmfactory-lib
+  upstream: git://git.openstack.org/openstack/%(name)s
+  maintainers:
+    - honza@redhat.com
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
