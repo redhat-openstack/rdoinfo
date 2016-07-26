@@ -1012,6 +1012,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
+- project: openstack-tripleo-ui
+  tags:
+    under-review:
+  maintainers:
+    - honza@redhat.com
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
