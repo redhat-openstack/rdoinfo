@@ -521,6 +521,14 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - jruzicka@redhat.com
+- project: tripleo-validations
+  tags:
+    under-review:
+    # newton-uc:
+    # newton:
+  conf: rpmfactory-core
+  maintainers:
+  - m.andre@redhat.com
 - project: instack
   tags:
     newton-uc:
