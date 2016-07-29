@@ -1561,3 +1561,10 @@ packages:
     newton:
   maintainers:
   - amoralej@redhat.com
+- project: tempest-horizon
+  conf: rpmfactory-lib
+  name: python-horizon-tests-tempest
+  tags:
+    under-review:
+  maintainers:
+  - chkumar@redhat.com
