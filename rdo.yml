@@ -1611,6 +1611,8 @@ packages:
 - project: os-vif
   conf: rpmfactory-lib
   tags:
-    under-review:
+    newton-uc:
+      source-branch: 1.1.0
+    newton:
   maintainers:
   - amoralej@redhat.com
