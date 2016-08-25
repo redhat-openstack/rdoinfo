@@ -771,7 +771,7 @@ packages:
   conf: rpmfactory-client
   tags:
     newton-uc:
-      source-branch: 2.3.0
+      source-branch: 2.5.0
     newton:
     mitaka:
     liberty:
@@ -896,7 +896,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     newton-uc:
-      source-branch: 4.8.0
+      source-branch: 4.9.0
     newton:
     mitaka:
     liberty:
@@ -952,7 +952,7 @@ packages:
 - project: openstacksdk
   tags:
     newton-uc:
-      source-branch: 0.9.2
+      source-branch: 0.9.4
     newton:
     mitaka:
       source-branch: 0.8.6
@@ -1015,7 +1015,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     newton-uc:
-      source-branch: 5.8.0
+      source-branch: 5.9.0
     newton:
     mitaka:
     liberty:
