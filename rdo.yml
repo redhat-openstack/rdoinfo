@@ -385,7 +385,7 @@ packages:
   name: python-neutron-lib
   tags:
     newton-uc:
-      source-branch: 0.3.0
+      source-branch: 0.4.0
     newton:
     mitaka:
   maintainers:
@@ -665,7 +665,7 @@ packages:
 - project: ironic-lib
   tags:
     newton-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
     newton:
     mitaka:
   conf: rpmfactory-lib
@@ -850,7 +850,7 @@ packages:
   conf: rpmfactory-client
   tags:
     newton-uc:
-      source-branch: 2.3.0
+      source-branch: 2.4.0
     newton:
     mitaka:
     liberty:
@@ -1022,7 +1022,7 @@ packages:
 - project: oslo-cache
   tags:
     newton-uc:
-      source-branch: 1.13.0
+      source-branch: 1.14.0
     newton:
     mitaka:
     liberty:
@@ -1033,7 +1033,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     newton-uc:
-      source-branch: 3.16.0
+      source-branch: 3.17.0
     newton:
     mitaka:
     liberty:
@@ -1096,7 +1096,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     newton-uc:
-      source-branch: 2.13.0
+      source-branch: 2.14.0
     newton:
     mitaka:
     liberty:
@@ -1114,7 +1114,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     newton-uc:
-      source-branch: 3.15.0
+      source-branch: 3.16.0
     newton:
     mitaka:
     liberty:
@@ -1389,7 +1389,7 @@ packages:
 - project: keystoneauth1
   tags:
     newton-uc:
-      source-branch: 2.11.1
+      source-branch: 2.12.1
     newton:
     mitaka:
     liberty:
