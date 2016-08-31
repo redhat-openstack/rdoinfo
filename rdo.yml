@@ -1502,22 +1502,18 @@ packages:
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
-    under-review:
-#    newton-uc:
-#    newton:
-#    mitaka:
-#    liberty:
+    newton-uc:
+    newton:
+    mitaka:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
-    under-review:
-#    newton-uc:
-#    newton:
-#    mitaka:
-#    liberty:
+    newton-uc:
+    newton:
+    mitaka:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
