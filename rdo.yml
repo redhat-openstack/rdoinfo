@@ -1225,6 +1225,14 @@ packages:
     mitaka:
     liberty:
   conf: rpmfactory-lib
+- project: cursive
+  tags:
+    under-review:
+#    newton-uc:
+#    newton:
+  maintainers:
+  - jpena@redhat.com
+  conf: rpmfactory-lib
 - project: hacking
   tags:
     newton-uc:
