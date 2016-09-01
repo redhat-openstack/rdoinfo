@@ -108,6 +108,8 @@ packages:
 # OpenStack Puppet Modules
 - project: puppet-aodh
   conf: rpmfactory-puppet
+- project: puppet-barbican
+  conf: rpmfactory-puppet
 - project: puppet-ceilometer
   conf: rpmfactory-puppet
 - project: puppet-cinder
