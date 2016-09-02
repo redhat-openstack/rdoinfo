@@ -619,7 +619,7 @@ packages:
 - project: os-client-config
   tags:
     newton-uc:
-      source-branch: 1.18.0
+      source-branch: 1.21.1
     newton:
     mitaka:
     liberty:
@@ -957,7 +957,7 @@ packages:
 - project: zaqarclient
   tags:
     newton-uc:
-      source-branch: 1.1.0
+      source-branch: 1.2.0
     newton:
     mitaka:
     liberty:
@@ -1094,7 +1094,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     newton-uc:
-      source-branch: 4.13.0
+      source-branch: 4.13.1
     newton:
     mitaka:
     liberty:
