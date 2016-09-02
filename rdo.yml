@@ -1440,6 +1440,7 @@ packages:
   conf: rpmfactory-core
   upstream: git://github.com/redhat-openstack/tempest.git
   maintainers:
+  - chkumar@redhat.com
   - slinaber@redhat.com
   - dmellado@redhat.com
 - project: tempest-lib
@@ -1451,6 +1452,7 @@ packages:
     liberty:
   conf: rpmfactory-lib
   maintainers:
+  - chkumar@redhat.com
   - slinaber@redhat.com
   - dmellado@redhat.com
 - project: os-testr
@@ -1462,6 +1464,7 @@ packages:
     liberty:
   conf: rpmfactory-lib
   maintainers:
+  - chkumar@redhat.com
   - slinaber@redhat.com
   - dmellado@redhat.com
 - project: proliantutils
