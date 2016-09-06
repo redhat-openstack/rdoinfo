@@ -380,6 +380,13 @@ packages:
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
+- project: panko
+  tags:
+    newton-uc:
+    newton:
+  conf: rpmfactory-core
+  maintainers:
+  - pkilambi@redhat.com
 - project: heat
   conf: rpmfactory-core
   maintainers:
