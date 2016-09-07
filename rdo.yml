@@ -1461,9 +1461,10 @@ packages:
 - project: tempest
   tags:
     newton-uc:
+      source-branch: newton
     newton:
     mitaka:
-      source-branch: master
+      source-branch: mitaka
     liberty:
       source-branch: liberty
   conf: rpmfactory-core
