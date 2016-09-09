@@ -1121,9 +1121,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     newton-uc:
-# TODO(jpena): set a proper pin as soon as https://review.openstack.org/367221
-# is included in a stable/newton release
-#      source-branch: 4.13.1
+      source-branch: 4.13.3
     newton:
     mitaka:
     liberty:
