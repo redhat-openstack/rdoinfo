@@ -970,7 +970,9 @@ packages:
 - project: tripleoclient
   tags:
     newton-uc:
+      source-branch: master
     newton:
+      source-branch: master
     mitaka:
     liberty:
   conf: rpmfactory-client
