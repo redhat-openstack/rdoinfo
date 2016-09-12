@@ -1672,3 +1672,11 @@ packages:
     newton:
   maintainers:
   - amoralej@redhat.com
+- project: sahara-tests
+  conf: rpmfactory-lib
+  name: openstack-sahara-tests
+  tags:
+    under-review
+  maintainers:
+    - chkumar@redhat.com
+    - ltoscano@redhat.com
