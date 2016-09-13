@@ -504,7 +504,9 @@ packages:
 - project: diskimage-builder
   tags:
     newton-uc:
-      source-branch: 1.18.2
+# TODO(jpena): pin again once a stable release including
+# https://review.openstack.org/347513 is available
+#      source-branch: 1.18.2
     newton:
     mitaka:
     liberty:
