@@ -969,13 +969,8 @@ packages:
   - dtantsur@redhat.com
 - project: tripleoclient
   tags:
-# FIXME(hguemar) critical fixes are not backported upstream
-# on stable/newton
-# https://bugs.launchpad.net/tripleo/+bug/1622353
     newton-uc:
-      source-branch: master
     newton:
-      source-branch: master
     mitaka:
     liberty:
   conf: rpmfactory-client
