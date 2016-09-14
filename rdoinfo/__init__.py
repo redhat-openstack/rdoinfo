@@ -160,8 +160,6 @@ def check_for_duplicates(pkg, pkgs):
     for oldpkg in pkgs:
         if pkg['name'] == oldpkg['name']:
             return True
-        if pkg['upstream'] == oldpkg['upstream']:
-            return True
     return False
 
 
