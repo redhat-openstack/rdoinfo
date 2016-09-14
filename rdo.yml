@@ -538,6 +538,20 @@ packages:
   maintainers:
   - jslagle@redhat.com
   - dprince@redhat.com
+- project: tripleo-heat-templates-compat
+  conf: rpmfactory-core
+  upstream: git://git.openstack.org/openstack/tripleo-heat-templates
+  tags:
+    under-review:
+#    newton-uc:
+#      source-branch: stable/mitaka
+#    newton:
+#      source-branch: stable/mitaka
+#    mitaka:
+#      source-branch: stable/liberty
+  maintainers:
+  - mburns@redhat.com
+  - jslagle@redhat.com
 - project: tripleo-image-elements
   tags:
     newton-uc:
