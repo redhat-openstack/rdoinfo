@@ -25,6 +25,7 @@ def filter_all(project):
 
 def filter_all_minus_tripleo(project):
     TRIPLEO_PROJECTS = [
+      'diskimage-builder',
       'os-apply-config',
       'os-cloud-config',
       'os-collect-config',
