@@ -1613,6 +1613,14 @@ packages:
   maintainers:
   - mathieu.velten@cern.ch
   - asteroid566@gmail.com
+- project: murano-dashboard
+  name: openstack-murano-ui
+  tags:
+    under-review:
+  conf: rpmfactory-core
+  maintainers:
+  - atsamutali@mirantis.com
+  - iyozhikov@mirantis.com
 - project: reno
   tags:
     newton-uc:
