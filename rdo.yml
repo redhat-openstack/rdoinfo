@@ -1616,10 +1616,9 @@ packages:
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
-    under-review:
-    #newton-uc:
-    #newton:
-    #mitaka:
+    newton-uc:
+    newton:
+    mitaka:
   conf: rpmfactory-core
   maintainers:
   - atsamutali@mirantis.com
