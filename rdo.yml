@@ -1,4 +1,18 @@
 releases:
+- name: ocata
+  branch: ocata-rdo
+  repos:
+  - name: el7
+    buildsys: cbs/cloud7-openstack-ocata-el7
+    distrepos:
+    - name: RDO Ocata el7
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-ocata/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
+      url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: newton
   branch: newton-rdo
   repos:
@@ -57,6 +71,8 @@ package-default:
   patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -116,6 +132,8 @@ package-configs:
     - gchamoul@redhat.com
     # Only building puppet modules on newton and later
     tags:
+      ocata-uc:
+      ocata:
       newton-uc:
       newton:
 packages:
@@ -346,6 +364,8 @@ packages:
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
 - project: ceilometer
@@ -357,6 +377,8 @@ packages:
 - project: gnocchi
   conf: rpmfactory-core
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -368,6 +390,8 @@ packages:
   - mabaakou@redhat.com
 - project: aodh
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -378,6 +402,8 @@ packages:
   - mabaakou@redhat.com
 - project: panko
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   conf: rpmfactory-core
@@ -396,6 +422,8 @@ packages:
   - hguemar@redhat.com
 - project: ironic
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -415,6 +443,8 @@ packages:
   conf: rpmfactory-lib
   name: python-neutron-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.4.0
     newton:
@@ -454,12 +484,16 @@ packages:
   conf: rpmfactory-lib
   name: python-designate-tests-tempest
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   maintainers:
   - amoralej@redhat.com
 - project: octavia
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -471,6 +505,8 @@ packages:
 - project: watcher
   conf: rpmfactory-core
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   maintainers:
@@ -479,6 +515,8 @@ packages:
   - jpena@redhat.com
 - project: sahara
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -503,6 +541,8 @@ packages:
   - mrunge@redhat.com
 - project: diskimage-builder
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -513,6 +553,8 @@ packages:
   - jruzicka@redhat.com
 - project: dib-utils
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.0.10
     newton:
@@ -524,6 +566,8 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-incubator
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -534,6 +578,8 @@ packages:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -558,6 +604,8 @@ packages:
   - jslagle@redhat.com
 - project: tripleo-image-elements
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -567,6 +615,8 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-validations
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   conf: rpmfactory-core
@@ -574,6 +624,8 @@ packages:
   - m.andre@redhat.com
 - project: instack
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -584,6 +636,8 @@ packages:
   - jslagle@redhat.com
 - project: instack-undercloud
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -594,6 +648,8 @@ packages:
   - jslagle@redhat.com
 - project: heat-templates
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -603,6 +659,8 @@ packages:
   - sbaker@redhat.com
 - project: os-apply-config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -613,6 +671,8 @@ packages:
   - jruzicka@redhat.com
 - project: os-collect-config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -623,6 +683,8 @@ packages:
   - jruzicka@redhat.com
 - project: os-net-config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -633,6 +695,8 @@ packages:
   - dprince@redhat.com
 - project: os-refresh-config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -643,6 +707,8 @@ packages:
   - jruzicka@redhat.com
 - project: os-cloud-config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -653,6 +719,8 @@ packages:
   - jruzicka@redhat.com
 - project: os-client-config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.21.1
     newton:
@@ -663,6 +731,8 @@ packages:
   - jruzicka@redhat.com
 - project: os-win
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.2.0
     newton:
@@ -675,6 +745,8 @@ packages:
   - jpena@redhat.com
 - project: manila
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -685,6 +757,8 @@ packages:
   - zaitcev@redhat.com
 - project: zaqar
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -695,6 +769,8 @@ packages:
   - fpercoco@redhat.com
 - project: ironic-inspector
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -705,6 +781,8 @@ packages:
   - dtantsur@redhat.com
 - project: ironic-python-agent
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -715,6 +793,8 @@ packages:
   - dtantsur@redhat.com
 - project: ironic-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.1.0
     newton:
@@ -730,6 +810,8 @@ packages:
   - msm@redhat.com
 - project: cloudkitty
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -740,6 +822,8 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -748,6 +832,8 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: ec2-api
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -757,6 +843,8 @@ packages:
   - marcos.fermin.lobo@cern.ch
 - project: magnum
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -767,6 +855,8 @@ packages:
   - mathieu.velten@cern.ch
 - project: manila-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -777,6 +867,8 @@ packages:
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -793,6 +885,8 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -803,6 +897,8 @@ packages:
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -813,6 +909,8 @@ packages:
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.5.0
     newton:
@@ -821,6 +919,8 @@ packages:
 - project: glanceclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.5.0
     newton:
@@ -829,6 +929,8 @@ packages:
 - project: novaclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 6.0.0
     newton:
@@ -837,6 +939,8 @@ packages:
 - project: swiftclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.0.0
     newton:
@@ -845,6 +949,8 @@ packages:
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.6.1
     newton:
@@ -853,6 +959,8 @@ packages:
 - project: heatclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.4.0
     newton:
@@ -861,6 +969,8 @@ packages:
 - project: cinderclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.9.0
     newton:
@@ -872,6 +982,8 @@ packages:
   - dtantsur@redhat.com
   - trown@redhat.com
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.7.0
     newton:
@@ -884,6 +996,8 @@ packages:
   - jruzicka@redhat.com
   - hguemar@redhat.com
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 6.0.0
     newton:
@@ -892,6 +1006,8 @@ packages:
 - project: saharaclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.18.0
     newton:
@@ -900,6 +1016,8 @@ packages:
 - project: troveclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.5.0
     newton:
@@ -908,6 +1026,8 @@ packages:
 - project: designateclient
   conf: rpmfactory-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.3.0
     newton:
@@ -915,6 +1035,8 @@ packages:
     liberty:
 - project: manilaclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.11.0
     newton:
@@ -923,6 +1045,8 @@ packages:
   conf: rpmfactory-client
 - project: barbicanclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 4.0.1
     newton:
@@ -935,6 +1059,8 @@ packages:
   - chkumar@redhat.com
 - project: cloudkittyclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -946,6 +1072,8 @@ packages:
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 4.9.0
     newton:
@@ -953,6 +1081,8 @@ packages:
     liberty:
 - project: ceilometermiddleware
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.5.0
     newton:
@@ -965,6 +1095,8 @@ packages:
   maintainers:
   - dougal@redhat.com
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.2.0
     newton:
@@ -972,6 +1104,8 @@ packages:
     liberty:
 - project: ironic-inspector-client
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.9.0
     newton:
@@ -982,6 +1116,8 @@ packages:
   - dtantsur@redhat.com
 - project: tripleoclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -991,6 +1127,8 @@ packages:
   - brad@redhat.com
 - project: zaqarclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.2.0
     newton:
@@ -1002,6 +1140,8 @@ packages:
   - fpercoco@redhat.com
 - project: openstacksdk
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.9.5
     newton:
@@ -1012,6 +1152,8 @@ packages:
   conf: rpmfactory-client
 - project: gnocchiclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1023,6 +1165,8 @@ packages:
   - pkilambi@redhat.com
 - project: aodhclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.6.0
     newton:
@@ -1033,6 +1177,8 @@ packages:
 # openstack libraries
 - project: mox3
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.18.0
     newton:
@@ -1042,6 +1188,8 @@ packages:
   upstream: git://git.openstack.org/openstack/mox3
 - project: oslotest
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.10.0
     newton:
@@ -1056,6 +1204,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.9.0
     newton:
@@ -1065,6 +1215,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 5.10.0
     newton:
@@ -1072,6 +1224,8 @@ packages:
     liberty:
 - project: oslo-cache
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.14.0
     newton:
@@ -1083,6 +1237,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.17.0
     newton:
@@ -1092,6 +1248,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.14.0
     newton:
@@ -1101,6 +1259,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 5.1.0
     newton:
@@ -1110,6 +1270,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.13.0
     newton:
@@ -1119,6 +1281,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.19.0
     newton:
@@ -1128,6 +1292,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 4.13.3
     newton:
@@ -1137,6 +1303,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.16.0
     newton:
@@ -1146,6 +1314,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.14.0
     newton:
@@ -1155,6 +1325,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.9.0
     newton:
@@ -1164,6 +1336,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 3.16.0
     newton:
@@ -1173,6 +1347,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.14.0
     newton:
@@ -1182,6 +1358,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.17.0
     newton:
@@ -1189,6 +1367,8 @@ packages:
     liberty:
 - project: oslo-service
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.16.0
     newton:
@@ -1198,6 +1378,8 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.14.0
     newton:
@@ -1207,6 +1389,8 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: oslo-privsep
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.13.0
     newton:
@@ -1215,6 +1399,8 @@ packages:
 - project: stevedore
   conf: rpmfactory-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.17.1
     newton:
@@ -1222,6 +1408,8 @@ packages:
     liberty:
 - project: castellan
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.4.0
     newton:
@@ -1231,6 +1419,8 @@ packages:
 - project: taskflow
   conf: rpmfactory-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.6.0
     newton:
@@ -1239,6 +1429,8 @@ packages:
 - project: pycadf
   conf: rpmfactory-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.4.0
     newton:
@@ -1246,6 +1438,8 @@ packages:
     liberty:
 - project: debtcollector
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.8.0
     newton:
@@ -1254,6 +1448,8 @@ packages:
   conf: rpmfactory-lib
 - project: automaton
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.4.0
     newton:
@@ -1262,6 +1458,8 @@ packages:
   conf: rpmfactory-lib
 - project: cliff
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.2.0
     newton:
@@ -1270,6 +1468,8 @@ packages:
   conf: rpmfactory-lib
 - project: futurist
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.18.0
     newton:
@@ -1278,6 +1478,8 @@ packages:
   conf: rpmfactory-lib
 - project: cursive
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.1.1
     newton:
@@ -1286,6 +1488,8 @@ packages:
   conf: rpmfactory-lib
 - project: hacking
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1294,6 +1498,8 @@ packages:
   upstream: git://git.openstack.org/openstack-dev/hacking
 - project: wsme
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   conf: rpmfactory-lib
@@ -1316,6 +1522,8 @@ packages:
   - jpena@redhat.com
 - project: tripleo-common
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1326,6 +1534,8 @@ packages:
   - mburns@redhat.com
 - project: tripleo-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   conf: rpmfactory-core
@@ -1337,6 +1547,8 @@ packages:
   maintainers:
   - apevec@redhat.com
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.4.0
     newton:
@@ -1379,6 +1591,8 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1403,6 +1617,8 @@ packages:
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1414,6 +1630,8 @@ packages:
   - brdemers@cisco.com
 - project: tripleo-puppet-elements
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1423,6 +1641,8 @@ packages:
   - jslagle@redhat.com
 - project: os-brick
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.6.1
     newton:
@@ -1436,6 +1656,8 @@ packages:
   - jpena@redhat.com
 - project: hardware
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1447,6 +1669,8 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.12.1
     newton:
@@ -1456,6 +1680,8 @@ packages:
   upstream: git://github.com/openstack/keystoneauth
 - project: rally
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1466,6 +1692,8 @@ packages:
   - slinaber@redhat.com
 - project: tempest
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: newton
     newton:
@@ -1481,6 +1709,8 @@ packages:
   - dmellado@redhat.com
 - project: tempest-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.0.0
     newton:
@@ -1493,6 +1723,8 @@ packages:
   - dmellado@redhat.com
 - project: os-testr
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.7.0
     newton:
@@ -1505,6 +1737,8 @@ packages:
   - dmellado@redhat.com
 - project: proliantutils
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1515,6 +1749,8 @@ packages:
   - trown@redhat.com
 - project: dracclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1525,6 +1761,8 @@ packages:
   - trown@redhat.com
 - project: mistralclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.1.1
     newton:
@@ -1535,6 +1773,8 @@ packages:
   - hguemar@redhat.com
 - project: mistral
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1544,6 +1784,8 @@ packages:
   - hguemar@redhat.com
 - project: requestsexceptions
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.1.3
     newton:
@@ -1555,6 +1797,8 @@ packages:
   - jpena@redhat.com
 - project: app-catalog-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1565,6 +1809,8 @@ packages:
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1574,6 +1820,8 @@ packages:
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1582,6 +1830,8 @@ packages:
   - marcos.fermin.lobo@cern.ch
 - project: tooz
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.43.0
     newton:
@@ -1593,6 +1843,8 @@ packages:
   - pkilambi@redhat.com
 - project: magnumclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 2.3.0
     newton:
@@ -1604,6 +1856,8 @@ packages:
   - mathieu.velten@cern.ch
 - project: congressclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.5.0
     newton:
@@ -1614,6 +1868,8 @@ packages:
   - asteroid566@gmail.com
 - project: muranoclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.11.0
     newton:
@@ -1624,6 +1880,8 @@ packages:
   - asteroid566@gmail.com
 - project: murano
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1634,6 +1892,8 @@ packages:
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
     mitaka:
@@ -1643,6 +1903,8 @@ packages:
   - iyozhikov@mirantis.com
 - project: reno
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.8.0
     newton:
@@ -1654,6 +1916,8 @@ packages:
   - jpena@redhat.com
 - project: k8sclient
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.3.0
     newton:
@@ -1662,6 +1926,8 @@ packages:
   - chkumar@redhat.com
 - project: microversion-parse
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 0.1.4
     newton:
@@ -1669,6 +1935,8 @@ packages:
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.1.0
     newton:
@@ -1678,6 +1946,8 @@ packages:
   conf: rpmfactory-lib
   name: python-horizon-tests-tempest
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   maintainers:
@@ -1685,6 +1955,8 @@ packages:
 - project: os-vif
   conf: rpmfactory-lib
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
       source-branch: 1.2.1
     newton:
@@ -1694,6 +1966,8 @@ packages:
   conf: rpmfactory-lib
   name: openstack-sahara-tests
   tags:
+    ocata-uc:
+    ocata:
     newton-uc:
     newton:
   maintainers:
