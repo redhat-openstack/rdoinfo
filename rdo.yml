@@ -304,6 +304,11 @@ packages:
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
+- project: puppet-powerdns
+  conf: rpmfactory-puppet
+  tags:
+    under-review:
+  upstream: git://github.com/antonlindstrom/%(project)s
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
