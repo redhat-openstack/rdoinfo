@@ -550,11 +550,10 @@ packages:
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
   tags:
-    under-review:
-#    newton-uc:
-#      source-branch: stable/mitaka
-#    newton:
-#      source-branch: stable/mitaka
+    newton-uc:
+      source-branch: stable/mitaka
+    newton:
+      source-branch: stable/mitaka
 #    mitaka:
 #      source-branch: stable/liberty
   maintainers:
