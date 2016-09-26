@@ -1550,8 +1550,7 @@ packages:
   name: python-networking-odl
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - ihrachys@redhat.com
-  - majopela@redhat.com
+  - mkolesni@redhat.com
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
