@@ -8,7 +8,7 @@ import ruamel.yaml as yaml
 
 RDO = 'rdo.yml'
 UC = 'upper-constraints.txt'
-UC_RELEASE = 'newton-uc'
+UC_RELEASE = 'ocata-uc'
 SOURCE_BRANCH = 'source-branch'
 
 
