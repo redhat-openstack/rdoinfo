@@ -73,7 +73,6 @@ package-default:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -134,7 +133,6 @@ package-configs:
     tags:
       ocata-uc:
       ocata:
-      newton-uc:
       newton:
 packages:
 # OpenStack Puppet Modules
@@ -380,7 +378,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
 - project: ceilometer
   conf: rpmfactory-core
@@ -392,9 +389,8 @@ packages:
   conf: rpmfactory-core
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: stable/3.0
+    ocata:
     newton:
       source-branch: stable/3.0
     mitaka:
@@ -408,7 +404,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -420,7 +415,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   conf: rpmfactory-core
   maintainers:
@@ -440,7 +434,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -460,10 +453,10 @@ packages:
   name: python-neutron-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.4.0
+    ocata:
     newton:
+      source-branch: 0.4.0
     mitaka:
   maintainers:
   - ihrachys@redhat.com
@@ -502,7 +495,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   maintainers:
   - amoralej@redhat.com
@@ -510,7 +502,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -523,7 +514,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   maintainers:
   - mpryc@redhat.com
@@ -533,7 +523,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -559,7 +548,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -570,10 +558,10 @@ packages:
 - project: dib-utils
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.0.10
+    ocata:
     newton:
+      source-branch: 0.0.10
     mitaka:
     liberty:
   conf: rpmfactory-core
@@ -584,7 +572,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -596,7 +583,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -608,8 +594,6 @@ packages:
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
   tags:
-    newton-uc:
-      source-branch: stable/mitaka
     newton:
       source-branch: stable/mitaka
   maintainers:
@@ -619,7 +603,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -630,7 +613,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   conf: rpmfactory-core
   maintainers:
@@ -639,7 +621,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -651,7 +632,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -663,7 +643,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -674,7 +653,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -686,7 +664,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -698,7 +675,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -710,7 +686,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -722,7 +697,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -733,10 +707,10 @@ packages:
 - project: os-client-config
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.21.1
+    ocata:
     newton:
+      source-branch: 1.21.1
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -745,10 +719,10 @@ packages:
 - project: os-win
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.2.0
+    ocata:
     newton:
+      source-branch: 1.2.0
     mitaka:
     liberty:
   name: python-os-win
@@ -760,7 +734,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -772,7 +745,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -784,7 +756,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -796,7 +767,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -807,10 +777,10 @@ packages:
 - project: ironic-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.1.0
+    ocata:
     newton:
+      source-branch: 2.1.0
     mitaka:
   conf: rpmfactory-lib
   maintainers:
@@ -825,7 +795,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -837,7 +806,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -847,7 +815,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -858,7 +825,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -870,7 +836,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -882,7 +847,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -892,7 +856,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   conf: rpmfactory-core
   name: sahara-image-elements
@@ -903,7 +866,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -915,7 +877,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -926,70 +887,70 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.5.0
+    ocata:
     newton:
+      source-branch: 3.5.0
     mitaka:
     liberty:
 - project: glanceclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.5.0
+    ocata:
     newton:
+      source-branch: 2.5.0
     mitaka:
     liberty:
 - project: novaclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 6.0.0
+    ocata:
     newton:
+      source-branch: 6.0.0
     mitaka:
     liberty:
 - project: swiftclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.1.0
+    ocata:
     newton:
+      source-branch: 3.1.0
     mitaka:
     liberty:
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.6.1
+    ocata:
     newton:
+      source-branch: 2.6.1
     mitaka:
     liberty:
 - project: heatclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
+      source-branch: 1.5.0
     ocata:
-    newton-uc:
-      source-branch: 1.4.0
     newton:
+      source-branch: 1.4.0
     mitaka:
     liberty:
 - project: cinderclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.9.0
+    ocata:
     newton:
+      source-branch: 1.9.0
     mitaka:
     liberty:
 - project: ironicclient
@@ -999,10 +960,10 @@ packages:
   - trown@redhat.com
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.7.0
+    ocata:
     newton:
+      source-branch: 1.7.0
     mitaka:
     liberty:
 - project: neutronclient
@@ -1013,59 +974,59 @@ packages:
   - hguemar@redhat.com
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 6.0.0
+    ocata:
     newton:
+      source-branch: 6.0.0
     mitaka:
     liberty:
 - project: saharaclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.18.0
+    ocata:
     newton:
+      source-branch: 0.18.0
     mitaka:
     liberty:
 - project: troveclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.5.0
+    ocata:
     newton:
+      source-branch: 2.5.0
     mitaka:
     liberty:
 - project: designateclient
   conf: rpmfactory-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.3.0
+    ocata:
     newton:
+      source-branch: 2.3.0
     mitaka:
     liberty:
 - project: manilaclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.11.0
+    ocata:
     newton:
+      source-branch: 1.11.0
     mitaka:
     liberty:
   conf: rpmfactory-client
 - project: barbicanclient
   tags:
     ocata-uc:
+      source-branch: 4.1.0
     ocata:
-    newton-uc:
-      source-branch: 4.0.1
     newton:
+      source-branch: 4.0.1
     mitaka:
     liberty:
   conf: rpmfactory-client
@@ -1077,7 +1038,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1089,19 +1049,19 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 4.9.0
+    ocata:
     newton:
+      source-branch: 4.9.0
     mitaka:
     liberty:
 - project: ceilometermiddleware
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.5.0
+    ocata:
     newton:
+      source-branch: 0.5.0
     mitaka:
     liberty:
   conf: rpmfactory-client
@@ -1112,19 +1072,19 @@ packages:
   - dougal@redhat.com
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.2.0
+    ocata:
     newton:
+      source-branch: 3.2.0
     mitaka:
     liberty:
 - project: ironic-inspector-client
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.9.0
+    ocata:
     newton:
+      source-branch: 1.9.0
     mitaka:
     liberty:
   conf: rpmfactory-client
@@ -1134,7 +1094,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1144,10 +1103,10 @@ packages:
 - project: zaqarclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.2.0
+    ocata:
     newton:
+      source-branch: 1.2.0
     mitaka:
     liberty:
   conf: rpmfactory-client
@@ -1157,10 +1116,10 @@ packages:
 - project: openstacksdk
   tags:
     ocata-uc:
+      source-branch: 0.9.7
     ocata:
-    newton-uc:
-      source-branch: 0.9.5
     newton:
+      source-branch: 0.9.5
     mitaka:
       source-branch: 0.8.6
     liberty:
@@ -1170,7 +1129,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
       source-branch: stable/2.2
@@ -1182,10 +1140,10 @@ packages:
 - project: aodhclient
   tags:
     ocata-uc:
+      source-branch: 0.7.0
     ocata:
-    newton-uc:
-      source-branch: 0.6.0
     newton:
+      source-branch: 0.6.0
     mitaka:
   conf: rpmfactory-client
   maintainers:
@@ -1194,10 +1152,10 @@ packages:
 - project: mox3
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.18.0
+    ocata:
     newton:
+      source-branch: 0.18.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1205,10 +1163,10 @@ packages:
 - project: oslotest
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.10.0
+    ocata:
     newton:
+      source-branch: 2.10.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1221,10 +1179,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.9.0
+    ocata:
     newton:
+      source-branch: 3.9.0
     mitaka:
     liberty:
 - project: oslo-messaging
@@ -1232,19 +1190,19 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 5.10.0
+    ocata:
     newton:
+      source-branch: 5.10.0
     mitaka:
     liberty:
 - project: oslo-cache
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.14.0
+    ocata:
     newton:
+      source-branch: 1.14.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1254,10 +1212,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.17.0
+    ocata:
     newton:
+      source-branch: 3.17.0
     mitaka:
     liberty:
 - project: oslo-concurrency
@@ -1265,10 +1223,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.14.0
+    ocata:
     newton:
+      source-branch: 3.14.0
     mitaka:
     liberty:
 - project: oslo-rootwrap
@@ -1276,10 +1234,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 5.1.0
+    ocata:
     newton:
+      source-branch: 5.1.0
     mitaka:
     liberty:
 - project: oslo-serialization
@@ -1287,10 +1245,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.13.0
+    ocata:
     newton:
+      source-branch: 2.13.0
     mitaka:
     liberty:
 - project: oslo-middleware
@@ -1298,10 +1256,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.19.0
+    ocata:
     newton:
+      source-branch: 3.19.0
     mitaka:
     liberty:
 - project: oslo-db
@@ -1309,10 +1267,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 4.13.3
+    ocata:
     newton:
+      source-branch: 4.13.3
     mitaka:
     liberty:
 - project: oslo-utils
@@ -1320,10 +1278,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.16.0
+    ocata:
     newton:
+      source-branch: 3.16.0
     mitaka:
     liberty:
 - project: oslo-vmware
@@ -1331,10 +1289,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.14.0
+    ocata:
     newton:
+      source-branch: 2.14.0
     mitaka:
     liberty:
 - project: oslo-context
@@ -1342,10 +1300,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.9.0
+    ocata:
     newton:
+      source-branch: 2.9.0
     mitaka:
     liberty:
 - project: oslo-log
@@ -1353,10 +1311,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 3.16.0
+    ocata:
     newton:
+      source-branch: 3.16.0
     mitaka:
     liberty:
 - project: oslo-policy
@@ -1364,10 +1322,10 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.14.0
+    ocata:
     newton:
+      source-branch: 1.14.0
     mitaka:
     liberty:
 - project: oslo-versionedobjects
@@ -1375,19 +1333,19 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.17.0
+    ocata:
     newton:
+      source-branch: 1.17.0
     mitaka:
     liberty:
 - project: oslo-service
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.16.0
+    ocata:
     newton:
+      source-branch: 1.16.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1395,10 +1353,10 @@ packages:
 - project: oslo-reports
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.14.0
+    ocata:
     newton:
+      source-branch: 1.14.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1406,29 +1364,29 @@ packages:
 - project: oslo-privsep
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.13.0
+    ocata:
     newton:
+      source-branch: 1.13.0
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.privsep
 - project: stevedore
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.17.1
+    ocata:
     newton:
+      source-branch: 1.17.1
     mitaka:
     liberty:
 - project: castellan
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.4.0
+    ocata:
     newton:
+      source-branch: 0.4.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1436,69 +1394,69 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.6.0
+    ocata:
     newton:
+      source-branch: 2.6.0
     mitaka:
     liberty:
 - project: pycadf
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.4.0
+    ocata:
     newton:
+      source-branch: 2.4.0
     mitaka:
     liberty:
 - project: debtcollector
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.8.0
+    ocata:
     newton:
+      source-branch: 1.8.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: automaton
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.4.0
+    ocata:
     newton:
+      source-branch: 1.4.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: cliff
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.2.0
+    ocata:
     newton:
+      source-branch: 2.2.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: futurist
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.18.0
+    ocata:
     newton:
+      source-branch: 0.18.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
 - project: cursive
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.1.1
+    ocata:
     newton:
+      source-branch: 0.1.1
   maintainers:
   - jpena@redhat.com
   conf: rpmfactory-lib
@@ -1506,7 +1464,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1516,7 +1473,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   conf: rpmfactory-lib
 # deps
@@ -1540,7 +1496,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1552,7 +1507,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   conf: rpmfactory-core
   maintainers:
@@ -1564,10 +1518,10 @@ packages:
   - apevec@redhat.com
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.4.0
+    ocata:
     newton:
+      source-branch: 1.4.0
     mitaka:
     liberty:
 - project: networking-arista
@@ -1609,7 +1563,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   name: python-networking-ovn
@@ -1635,7 +1588,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1648,7 +1600,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1658,10 +1609,10 @@ packages:
 - project: os-brick
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.6.1
+    ocata:
     newton:
+      source-branch: 1.6.1
     mitaka:
     liberty:
   name: python-os-brick
@@ -1674,7 +1625,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1686,10 +1636,10 @@ packages:
 - project: keystoneauth1
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.12.1
+    ocata:
     newton:
+      source-branch: 2.12.1
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1698,7 +1648,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1710,9 +1659,8 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
-      source-branch: newton
     newton:
+      source-branch: newton
     mitaka:
       source-branch: mitaka
     liberty:
@@ -1726,10 +1674,10 @@ packages:
 - project: tempest-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.0.0
+    ocata:
     newton:
+      source-branch: 1.0.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1740,10 +1688,10 @@ packages:
 - project: os-testr
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.7.0
+    ocata:
     newton:
+      source-branch: 0.7.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1755,7 +1703,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1767,7 +1714,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1778,10 +1724,10 @@ packages:
 - project: mistralclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.1.1
+    ocata:
     newton:
+      source-branch: 2.1.1
     mitaka:
     liberty:
   conf: rpmfactory-client
@@ -1791,7 +1737,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1801,10 +1746,10 @@ packages:
 - project: requestsexceptions
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.1.3
+    ocata:
     newton:
+      source-branch: 1.1.3
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1815,7 +1760,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
     liberty:
@@ -1827,7 +1771,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -1838,7 +1781,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -1847,10 +1789,10 @@ packages:
 - project: tooz
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.43.0
+    ocata:
     newton:
+      source-branch: 1.43.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1860,10 +1802,10 @@ packages:
 - project: magnumclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 2.3.0
+    ocata:
     newton:
+      source-branch: 2.3.0
     mitaka:
     liberty:
   conf: rpmfactory-client
@@ -1873,10 +1815,10 @@ packages:
 - project: congressclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.5.0
+    ocata:
     newton:
+      source-branch: 1.5.0
     mitaka:
   conf: rpmfactory-client
   maintainers:
@@ -1885,10 +1827,10 @@ packages:
 - project: muranoclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.11.0
+    ocata:
     newton:
+      source-branch: 0.11.0
     mitaka:
   conf: rpmfactory-client
   maintainers:
@@ -1898,7 +1840,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -1910,7 +1851,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -1920,10 +1860,10 @@ packages:
 - project: reno
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.8.0
+    ocata:
     newton:
+      source-branch: 1.8.0
     mitaka:
     liberty:
   conf: rpmfactory-lib
@@ -1933,29 +1873,29 @@ packages:
 - project: k8sclient
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.3.0
+    ocata:
     newton:
+      source-branch: 0.3.0
   conf: rpmfactory-client
   maintainers:
   - chkumar@redhat.com
 - project: microversion-parse
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 0.1.4
+    ocata:
     newton:
+      source-branch: 0.1.4
   conf: rpmfactory-lib
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.1.0
+    ocata:
     newton:
+      source-branch: 1.1.0
   maintainers:
   - amoralej@redhat.com
 - project: tempest-horizon
@@ -1964,7 +1904,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   maintainers:
   - chkumar@redhat.com
@@ -1972,10 +1911,10 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-    ocata:
-    newton-uc:
       source-branch: 1.2.1
+    ocata:
     newton:
+      source-branch: 1.2.1
   maintainers:
   - amoralej@redhat.com
 - project: sahara-tests
@@ -1984,7 +1923,6 @@ packages:
   tags:
     ocata-uc:
     ocata:
-    newton-uc:
     newton:
   maintainers:
   - chkumar@redhat.com
