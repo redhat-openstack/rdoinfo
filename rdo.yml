@@ -263,8 +263,6 @@ packages:
   upstream: git://github.com/richardc/%(project)s
 - project: puppet-dns
   conf: rpmfactory-puppet
-  tags:
-    under-review:
   upstream: git://github.com/theforeman/%(project)s
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
