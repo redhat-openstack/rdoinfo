@@ -1989,3 +1989,12 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - ltoscano@redhat.com
+- project: networking-bagpipe
+  name: python-networking-bagpipe
+  tags:
+    under-review:
+    #ocata-uc:
+  conf: rpmfactory-core
+  upstream: https://github.com/openstack/networking-bagpipe
+  maintainers:
+    - lhinds@redhat.com
