@@ -1532,15 +1532,13 @@ packages:
   name: python-networking-mlnx
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - ihrachys@redhat.com
   - lennyb@mellanox.com
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - ihrachys@redhat.com
-  - majopela@redhat.com
+  - mkolesni@redhat.com
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
@@ -1552,7 +1550,6 @@ packages:
   name: python-networking-bigswitch
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - ihrachys@redhat.com
   - xin.wu@bigswitch.com
 - project: networking-ovn
   conf: rpmfactory-lib
