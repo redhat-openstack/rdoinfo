@@ -1568,6 +1568,9 @@ packages:
   - nusiddiq@redhat.com
 - project: networking-cisco
   conf: rpmfactory-lib
+  tags:
+    mitaka:
+      source-branch: 3.2.0
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
