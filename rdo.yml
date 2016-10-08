@@ -1599,6 +1599,13 @@ packages:
   maintainers:
   - openstack-networking@cisco.com
   - brdemers@cisco.com
+- project: ImcSdk
+  name: python-ImcSdk
+  upstream: git://github.com/CiscoUcs/%(project)s
+  master-distgit: git://github.com/bdemers/%(name)s
+  maintainers:
+  - openstack-networking@cisco.com
+  - brdemers@cisco.com
 - project: tripleo-puppet-elements
   tags:
     ocata-uc:
