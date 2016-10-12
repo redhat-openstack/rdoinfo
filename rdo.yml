@@ -1579,13 +1579,13 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - openstack-networking@cisco.com
-  - brdemers@cisco.com
+  - sambetts@cisco.com
 - project: UcsSdk
   conf: rpmfactory-lib
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
   maintainers:
   - openstack-networking@cisco.com
-  - brdemers@cisco.com
+  - sambetts@cisco.com
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
@@ -1598,7 +1598,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - openstack-networking@cisco.com
-  - brdemers@cisco.com
+  - sambetts@cisco.com
 - project: tripleo-puppet-elements
   tags:
     ocata-uc:
