@@ -73,6 +73,7 @@ def update_uc():
     with open(RDO, 'rb') as infile:
         info = yaml.load(infile, Loader=yaml.RoundTripLoader)
     DEFAULT_RELEASES = info['package-default']['tags']
+    RELEASES_PUPPET = info['package-configs']['rpmfactory-puppet']['tags']
     for pkg in info['packages']:
         project = pkg['project']
         if project in uc_projects:
@@ -87,7 +88,10 @@ def update_uc():
                 if prev_version:
                     prev_version = prev_version.get(SOURCE_BRANCH)
             else:
-                tags = copy.copy(DEFAULT_RELEASES)
+                if project.startswith('puppet'):
+                    tags = copy.copy(RELEASES_PUPPET)
+                else:
+                    tags = copy.copy(DEFAULT_RELEASES)
                 prev_version = None
             tags[UC_RELEASE] = {SOURCE_BRANCH: new_version}
             if prev_version:
