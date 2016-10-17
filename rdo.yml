@@ -232,6 +232,8 @@ packages:
   tags:
     ocata:
       source-branch: 4.2.x
+    newton:
+      source-branch: 4.2.x
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
