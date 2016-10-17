@@ -229,9 +229,7 @@ packages:
 - project: puppet-ntp
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
-  tags:
-    ocata:
-      source-branch: 4.2.x
+  source-branch: 4.2.x
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
