@@ -69,7 +69,7 @@ package-default:
   name: python-%(project)s
   distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
   patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-  master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+  master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
   tags:
     ocata-uc:
     ocata:
@@ -86,9 +86,9 @@ package-configs:
   rpmfactory-core:
     name: openstack-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-    master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
@@ -97,9 +97,9 @@ package-configs:
   rpmfactory-client:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/python-%(project)s
-    distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-    master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
@@ -108,9 +108,9 @@ package-configs:
   rpmfactory-lib:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
-    distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-    master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
