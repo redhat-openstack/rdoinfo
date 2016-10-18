@@ -710,7 +710,7 @@ packages:
 - project: os-client-config
   tags:
     ocata-uc:
-      source-branch: 1.21.1
+      source-branch: 1.22.0
     ocata:
     newton:
       source-branch: 1.21.1
@@ -722,7 +722,7 @@ packages:
 - project: os-win
   tags:
     ocata-uc:
-      source-branch: 1.2.0
+      source-branch: 1.2.1
     ocata:
     newton:
       source-branch: 1.2.0
@@ -780,7 +780,7 @@ packages:
 - project: ironic-lib
   tags:
     ocata-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
     ocata:
     newton:
       source-branch: 2.1.0
@@ -890,7 +890,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
     ocata:
     newton:
       source-branch: 3.5.0
@@ -1052,7 +1052,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     ocata-uc:
-      source-branch: 4.9.0
+      source-branch: 4.10.0
     ocata:
     newton:
       source-branch: 4.9.0
@@ -1075,7 +1075,7 @@ packages:
   - dougal@redhat.com
   tags:
     ocata-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
     ocata:
     newton:
       source-branch: 3.2.0
@@ -1119,7 +1119,7 @@ packages:
 - project: openstacksdk
   tags:
     ocata-uc:
-      source-branch: 0.9.7
+      source-branch: 0.9.8
     ocata:
     newton:
       source-branch: 0.9.5
@@ -1325,7 +1325,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     ocata-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     ocata:
     newton:
       source-branch: 1.14.0
@@ -1644,7 +1644,7 @@ packages:
 - project: keystoneauth1
   tags:
     ocata-uc:
-      source-branch: 2.12.1
+      source-branch: 2.14.0
     ocata:
     newton:
       source-branch: 2.12.1
@@ -1835,7 +1835,7 @@ packages:
 - project: muranoclient
   tags:
     ocata-uc:
-      source-branch: 0.11.0
+      source-branch: 0.11.1
     ocata:
     newton:
       source-branch: 0.11.0
@@ -1900,7 +1900,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 1.1.0
+      source-branch: 1.2.0
     ocata:
     newton:
       source-branch: 1.1.0
