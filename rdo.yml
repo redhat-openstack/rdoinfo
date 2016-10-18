@@ -184,8 +184,6 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-tripleo
   conf: rpmfactory-puppet
-  distgit: https://github.com/rdo-packages/puppet-tripleo-distgit.git
-  master-distgit: https://github.com/rdo-packages/puppet-tripleo-distgit.git
 - project: puppet-trove
   conf: rpmfactory-puppet
 - project: puppet-vswitch
@@ -295,7 +293,6 @@ packages:
   upstream: git://github.com/midonet/%(project)s
 - project: puppet-collectd
   conf: rpmfactory-puppet
-  master-distgit: http://review.rdoproject.org/r/p/puppet/puppet-collectd-distgit.git
   upstream: git://github.com/voxpupuli/%(project)s
 - project: puppet-module-data
   conf: rpmfactory-puppet
