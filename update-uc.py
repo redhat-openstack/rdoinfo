@@ -1,15 +1,26 @@
 #!/usr/bin/env python
 #
 # Update OpenStack Oslo and Clients libraries versions in rdoinfo from:
-# http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt
+# * master branch (default)
+# curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=master
+# * stable/newton
+# curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=stable/newton
+
+# USAGE
+#    update-uc.py [branch]
+# If branch is not specified, master i.e. currently ocata-uc is assumed.
 
 import copy
 import ruamel.yaml as yaml
+import sys
 
 RDO = 'rdo.yml'
-UC = 'upper-constraints.txt'
-UC_RELEASE = 'ocata-uc'
 SOURCE_BRANCH = 'source-branch'
+UC = 'upper-constraints.txt'
+if len(sys.argv) > 1:
+    UC_RELEASE = sys.argv[1]
+else:
+    UC_RELEASE = 'ocata-uc'
 
 
 # filter for Oslo and clients
