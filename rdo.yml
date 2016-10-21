@@ -1553,6 +1553,16 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - ihrachys@redhat.com
+- project: networking-vsphere
+  name: python-networking-vsphere
+  tags:
+    under-review:
+    #ocata:
+    #ocata-uc:
+  conf: rpmfactory-lib
+  upstream: git://git.openstack.org/openstack/%(project)s
+  maintainers:
+  - odivlad@gmail.com
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
