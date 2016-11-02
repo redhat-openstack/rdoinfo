@@ -208,33 +208,69 @@ packages:
 - project: puppet-apache
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-concat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-firewall
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-haproxy
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-corosync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/puppet-corosync
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-git
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
 - project: puppet-inifile
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-mongodb
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mongodb
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-mysql
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-java
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-ntp
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
@@ -248,115 +284,259 @@ packages:
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-rsync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-stdlib
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-tomcat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-vcsrepo
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-xinetd
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-cassandra
   conf: rpmfactory-puppet
   upstream: git://github.com/locp/cassandra
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/earsdown/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-contrail
   conf: rpmfactory-puppet
   upstream: git://github.com/redhat-cip/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-datacat
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-dns
   conf: rpmfactory-puppet
   upstream: git://github.com/theforeman/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-kibana3
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-memcached
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-midonet
   source-branch: stable/v2015.06
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-collectd
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-module-data
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 # - project: puppet-nagios-openstack
 #   conf: rpmfactory-puppet
 #   upstream: git://github.com/gildub/%(project)s
 - project: puppet-nssdb
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
   upstream: git://github.com/dfarrell07/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-powerdns
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-remote
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-sensu
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-snmp
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-ssh
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-staging
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-timezone
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-uchiwa
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-vlan
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-zookeeper
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-kmod
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-sysctl
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
