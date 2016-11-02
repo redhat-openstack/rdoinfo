@@ -1880,6 +1880,18 @@ packages:
   maintainers:
   - mathieu.velten@cern.ch
   - asteroid566@gmail.com
+- project: murano-agent
+  name: openstack-agent
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+    #newton-uc:
+    #newton:
+    #mitaka:
+  conf: rpmfactory-core
+  maintainers:
+  - akroshchenko@mirantis.com
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
