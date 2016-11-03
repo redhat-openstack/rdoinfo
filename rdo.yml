@@ -1563,6 +1563,13 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+  tags:
+    ocata-uc:
+    ocata:
+    newton:
+      source-branch: stable/mitaka
+    mitaka:
+    liberty:
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
