@@ -80,6 +80,9 @@ def update_uc():
             # "Setting %s to version %s" % (project, new_version)
             if 'tags' in pkg:
                 tags = pkg['tags']
+                if 'version-locked' in tags:
+                    print("%s is version-locked, not updating" % project)
+                    continue
                 prev_version = tags.get(UC_RELEASE)
                 if prev_version:
                     prev_version = prev_version.get(SOURCE_BRANCH)
