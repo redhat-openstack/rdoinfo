@@ -1007,6 +1007,15 @@ packages:
       source-branch: 2.5.0
     mitaka:
     liberty:
+- project: vitrageclient
+  conf: rpmfactory-client
+  tags:
+      under-review:
+      # ocata-uc:
+      # ocata:
+      # newton:
+  maintainers:
+  - mrunge@redhat.com
 - project: designateclient
   conf: rpmfactory-client
   tags:
