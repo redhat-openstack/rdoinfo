@@ -1560,6 +1560,14 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - ihrachys@redhat.com
+- project: vmware-nsxlib
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+#   ocata-uc:
+#   ocata:
+  maintainers:
+  - jpena@redhat.com
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
