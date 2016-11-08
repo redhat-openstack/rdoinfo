@@ -460,7 +460,7 @@ packages:
   name: python-neutron-lib
   tags:
     ocata-uc:
-      source-branch: 0.4.0
+      source-branch: 1.0.0
     ocata:
     newton:
       source-branch: 0.4.0
@@ -565,7 +565,7 @@ packages:
 - project: dib-utils
   tags:
     ocata-uc:
-      source-branch: 0.0.10
+      source-branch: 0.0.11
     ocata:
     newton:
       source-branch: 0.0.10
@@ -934,7 +934,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 2.6.1
+      source-branch: 2.7.0
     ocata:
     newton:
       source-branch: 2.6.1
@@ -1010,7 +1010,7 @@ packages:
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
-      under-review:
+    under-review:
       # ocata-uc:
       # ocata:
       # newton:
@@ -1295,7 +1295,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     ocata-uc:
-      source-branch: 3.17.0
+      source-branch: 3.18.0
     ocata:
     newton:
       source-branch: 3.16.0
@@ -1634,7 +1634,7 @@ packages:
 - project: os-brick
   tags:
     ocata-uc:
-      source-branch: 1.6.1
+      source-branch: 1.7.0
     ocata:
     newton:
       source-branch: 1.6.1
@@ -1829,7 +1829,7 @@ packages:
 - project: magnumclient
   tags:
     ocata-uc:
-      source-branch: 2.3.0
+      source-branch: 2.3.1
     ocata:
     newton:
       source-branch: 2.3.0
