@@ -991,7 +991,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 0.18.0
+      source-branch: 1.0.0
     ocata:
     newton:
       source-branch: 0.18.0
@@ -1074,7 +1074,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     ocata-uc:
-      source-branch: 0.5.0
+      source-branch: 1.0.0
     ocata:
     newton:
       source-branch: 0.5.0
@@ -1572,6 +1572,8 @@ packages:
   conf: rpmfactory-lib
   tags:
     under-review:
+    ocata-uc:
+      source-branch: 0.2.0
 #   ocata-uc:
 #   ocata:
   maintainers:
@@ -1641,7 +1643,7 @@ packages:
 - project: os-brick
   tags:
     ocata-uc:
-      source-branch: 1.7.0
+      source-branch: 1.8.0
     ocata:
     newton:
       source-branch: 1.6.1
@@ -1991,4 +1993,4 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/networking-bagpipe
   maintainers:
-    - lhinds@redhat.com
+  - lhinds@redhat.com
