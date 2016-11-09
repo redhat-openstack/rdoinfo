@@ -1565,6 +1565,12 @@ packages:
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
+  tags:
+    ocata-ftbfs:
+    # https://review.rdoproject.org/r/3543
+    newton:
+    mitaka:
+    liberty:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - ihrachys@redhat.com
