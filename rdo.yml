@@ -1571,9 +1571,9 @@ packages:
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
-    under-review:
-#   ocata-uc:
-#   ocata:
+    ocata-uc:
+    ocata:
+      source-branch: 0.2.0
   maintainers:
   - jpena@redhat.com
 - project: networking-bigswitch
