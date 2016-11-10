@@ -1991,3 +1991,13 @@ packages:
   upstream: https://github.com/openstack/networking-bagpipe
   maintainers:
   - lhinds@redhat.com
+- project: novajoin
+   name: python-novajoin
+   tags:
+     under-review:
+     #ocata-uc:
+     #ocata:
+   conf: rpmfactory-lib
+   maintainers:
+   - rcritten@redhat.com
+   - alee@redhat.com
