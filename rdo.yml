@@ -206,6 +206,11 @@ packages:
 - project: puppet-apache
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
+  tags:
+    ocata:
+    ocata-uc:
+    newton:
+      source-branch: 1.10.0
 - project: puppet-concat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
