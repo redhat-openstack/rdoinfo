@@ -1883,12 +1883,9 @@ packages:
 - project: murano-agent
   name: openstack-agent
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
-    #newton-uc:
-    #newton:
-    #mitaka:
+    ocata-uc:
+    ocata:
+    newton:
   conf: rpmfactory-core
   maintainers:
   - akroshchenko@mirantis.com
