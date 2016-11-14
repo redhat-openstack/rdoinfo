@@ -1981,9 +1981,8 @@ packages:
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
-    under-review:
-    #ocata:
-    #ocata-uc:
+    ocata:
+    ocata-uc:
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/networking-bagpipe
   maintainers:
