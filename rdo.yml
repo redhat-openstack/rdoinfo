@@ -1860,6 +1860,8 @@ packages:
   - asteroid566@gmail.com
 - project: muranoclient
   tags:
+# TODO(jpena): muranoclient needs to be version-locked to 0.11.1 until murano-pkg-check is packaged
+    version-locked:
     ocata-uc:
       source-branch: 0.11.1
     ocata:
