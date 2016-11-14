@@ -1010,10 +1010,9 @@ packages:
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
-    under-review:
-      # ocata-uc:
-      # ocata:
-      # newton:
+    ocata-uc:
+    ocata:
+    newton:
   maintainers:
   - mrunge@redhat.com
 - project: designateclient
