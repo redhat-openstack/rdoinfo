@@ -183,6 +183,10 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-ovn
   conf: rpmfactory-puppet
+- project: puppet-qdr
+  conf: rpmfactory-puppet
+  tags:
+    under-review:
 - project: puppet-sahara
   conf: rpmfactory-puppet
 - project: puppet-swift
