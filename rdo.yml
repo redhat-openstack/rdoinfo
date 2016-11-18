@@ -843,6 +843,10 @@ packages:
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
   tags:
+    ocata-uc:
+      source-branch: stable/newton
+    ocata:
+      source-branch: stable/newton
     newton:
       source-branch: stable/mitaka
   maintainers:
