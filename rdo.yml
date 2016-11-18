@@ -950,8 +950,10 @@ packages:
   - jruzicka@redhat.com
 - project: os-client-config
   tags:
+# (amoralej) we must keep 1.22.0 in ocata-uc until https://bugs.launchpad.net/python-openstackclient/+bug/1642301 is fixed
+    version-locked:
     ocata-uc:
-      source-branch: 1.24.0
+      source-branch: 1.22.0
     ocata:
     newton:
       source-branch: 1.21.1
