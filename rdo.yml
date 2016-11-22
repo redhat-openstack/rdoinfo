@@ -2238,3 +2238,13 @@ packages:
     ocata-uc:
   maintainers:
   - rnoriega@redhat.com
+- project: networking-fujitsu
+  name: python-networking-fujitsu
+  tags:
+    under-review:
+    #ocata:
+    #ocata-uc:
+  conf: rpmfactory-lib
+  upstream: https://github.com/openstack/networking-fujitsu
+  maintainers:
+  - sanagi.koki@jp.fujitsu.com
