@@ -83,6 +83,7 @@ package-configs:
   xstatic:
     maintainers:
     - mrunge@redhat.com
+    - rdopiera@redhat.com
   # templates using rpmfactory's repositories
   rpmfactory-core:
     name: openstack-%(project)s
@@ -787,6 +788,7 @@ packages:
   name: python-django-horizon
   maintainers:
   - mrunge@redhat.com
+  - rdopiera@redhat.com
 - project: trove
   conf: rpmfactory-core
   maintainers:
@@ -797,6 +799,7 @@ packages:
   name: python-django-openstack-auth
   maintainers:
   - mrunge@redhat.com
+  - rdopiera@redhat.com
 - project: diskimage-builder
   tags:
     ocata-uc:
@@ -1109,6 +1112,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - mrunge@redhat.com
+  - rdopiera@redhat.com
 - project: sahara-image-elements
   tags:
     ocata-uc:
