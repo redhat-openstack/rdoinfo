@@ -156,6 +156,10 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-designate
   conf: rpmfactory-puppet
+- project: puppet-ec2api
+  conf: rpmfactory-puppet
+  tags:
+    under-review:
 - project: puppet-glance
   conf: rpmfactory-puppet
 - project: puppet-gnocchi
