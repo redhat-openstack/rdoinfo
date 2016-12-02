@@ -1156,7 +1156,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 3.7.0
+      source-branch: 3.8.0
     ocata:
     newton:
       source-branch: 3.5.0
@@ -1325,7 +1325,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     ocata-uc:
-      source-branch: 4.10.0
+      source-branch: 4.11.0
     ocata:
     newton:
       source-branch: 4.9.0
@@ -1440,7 +1440,7 @@ packages:
 - project: oslotest
   tags:
     ocata-uc:
-      source-branch: 2.11.0
+      source-branch: 2.12.0
     ocata:
     newton:
       source-branch: 2.10.0
@@ -1467,7 +1467,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     ocata-uc:
-      source-branch: 5.12.0
+      source-branch: 5.13.0
     ocata:
     newton:
       source-branch: 5.10.0
@@ -1476,7 +1476,7 @@ packages:
 - project: oslo-cache
   tags:
     ocata-uc:
-      source-branch: 1.15.0
+      source-branch: 1.16.0
     ocata:
     newton:
       source-branch: 1.14.0
@@ -1511,7 +1511,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     ocata-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
     ocata:
     newton:
       source-branch: 5.1.1
@@ -1544,7 +1544,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     ocata-uc:
-      source-branch: 4.14.0
+      source-branch: 4.15.0
     ocata:
     newton:
       source-branch: 4.13.3
@@ -1588,7 +1588,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     ocata-uc:
-      source-branch: 3.16.0
+      source-branch: 3.17.0
     ocata:
     newton:
       source-branch: 3.16.0
@@ -1610,7 +1610,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     ocata-uc:
-      source-branch: 1.18.0
+      source-branch: 1.19.0
     ocata:
     newton:
       source-branch: 1.17.0
@@ -1619,7 +1619,7 @@ packages:
 - project: oslo-service
   tags:
     ocata-uc:
-      source-branch: 1.17.0
+      source-branch: 1.18.0
     ocata:
     newton:
       source-branch: 1.16.0
@@ -1641,7 +1641,7 @@ packages:
 - project: oslo-privsep
   tags:
     ocata-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     ocata:
     newton:
       source-branch: 1.13.0
@@ -1651,7 +1651,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 1.18.0
+      source-branch: 1.19.0
     ocata:
     newton:
       source-branch: 1.17.1
@@ -1720,7 +1720,7 @@ packages:
 - project: futurist
   tags:
     ocata-uc:
-      source-branch: 0.19.0
+      source-branch: 0.20.0
     ocata:
     newton:
       source-branch: 0.18.0
@@ -2093,7 +2093,7 @@ packages:
 - project: tooz
   tags:
     ocata-uc:
-      source-branch: 1.44.0
+      source-branch: 1.45.0
     ocata:
     newton:
       source-branch: 1.43.0
