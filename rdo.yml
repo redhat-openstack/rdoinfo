@@ -425,6 +425,13 @@ packages:
   tags:
     ocata-uc:
     ocata:
+- project: puppet-fdio
+  conf: rpmfactory-puppet
+  upstream: https://git.fd.io/%(project)s
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
