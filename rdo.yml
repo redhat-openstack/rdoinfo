@@ -1814,9 +1814,11 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-vsphere
   tags:
-    under-review:
-#   ocata:
-#   ocata-uc:
+    ocata:
+    ocata-uc:
+    newton:
+    mitaka:
+    liberty:
   maintainers:
   - odivlad@gmail.com
   - gm.mephisto@gmail.com
