@@ -159,7 +159,8 @@ packages:
 - project: puppet-ec2api
   conf: rpmfactory-puppet
   tags:
-    under-review:
+    ocata-uc:
+    ocata:
 - project: puppet-glance
   conf: rpmfactory-puppet
 - project: puppet-gnocchi
