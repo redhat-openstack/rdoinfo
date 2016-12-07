@@ -403,6 +403,14 @@ packages:
     ocata:
     newton:
       source-branch: 6806948daa1e64b9a362a38dba7b4a909867b1b0
+- project: puppet-etcd
+  conf: rpmfactory-puppet
+  upstream: git://github.com/cristifalcas/%(project)s
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+    #newton:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
