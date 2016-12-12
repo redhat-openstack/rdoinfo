@@ -598,6 +598,16 @@ packages:
     ocata:
     newton:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
+- project: puppet-logstash
+  conf: rpmfactory-puppet
+  upstream: git://github.com/elastic/%(project)s
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+    #newton:
+  maintainers:
+  - alejandroandreu@openmailbox.org
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
