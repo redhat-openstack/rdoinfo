@@ -445,14 +445,15 @@ packages:
     newton:
       source-branch: 7671b5f9dd9999948ee3916fc93a860891929275
 - project: puppet-midonet
-  source-branch: stable/v2015.06
   conf: rpmfactory-puppet
-  upstream: git://github.com/midonet/%(project)s
+  upstream: git://github.com/openstack/%(project)s
   tags:
     ocata-uc:
     ocata:
     newton:
-      source-branch: bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
+      source-branch: cb2714b6c60718b2447e348930d8e6b3a5d2227f
+  maintainers:
+  - alejandroandreu@openmailbox.org
 - project: puppet-collectd
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
