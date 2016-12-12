@@ -610,6 +610,16 @@ packages:
     #newton:
   maintainers:
   - alejandroandreu@openmailbox.org
+- project: puppet-lib-file_concat
+  conf: rpmfactory-puppet
+  upstream: git://github.com/electrical/%(project)s
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+    #newton:
+  maintainers:
+  - alejandroandreu@openmailbox.org
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
