@@ -395,7 +395,7 @@ packages:
       source-branch: fb0402c8b5a00f22b7bd6e3d2d11760d2deb3475
     ocata:
     newton:
-      source-branch: 0fc5e6541e888289c1ea56dc6256f23a729ee68e
+      source-branch: 667a9d775d53d0dc591adb59bf7f336680dac52c
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/earsdown/%(project)s
@@ -512,15 +512,16 @@ packages:
     newton:
       source-branch: 7671b5f9dd9999948ee3916fc93a860891929275
 - project: puppet-midonet
-  source-branch: stable/v2015.06
   conf: rpmfactory-puppet
-  upstream: git://github.com/midonet/%(project)s
+  upstream: git://github.com/openstack/%(project)s
   tags:
     ocata-uc:
       source-branch: v2015.06.9
     ocata:
     newton:
-      source-branch: bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
+      source-branch: cb2714b6c60718b2447e348930d8e6b3a5d2227f
+  maintainers:
+  - alejandroandreu@openmailbox.org
 - project: puppet-midonet_openstack
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
@@ -677,7 +678,7 @@ packages:
       source-branch: 9383fdad877c2d70aead91283ddde14fe22144d8
     ocata:
     newton:
-      source-branch: 53bba0c685da3e43a4c644fbfb6aa1fffe6e5380
+      source-branch: b53bf81abcddefa2200fb23ca7039bea4332cb3a
 - project: puppet-kmod
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
