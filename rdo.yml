@@ -461,14 +461,6 @@ packages:
     ocata:
     newton:
       source-branch: 4a3843cdad526adb1527a6ad9ba503ae9b7d6361
-- project: puppet-module-data
-  conf: rpmfactory-puppet
-  upstream: git://github.com/ripienaar/%(project)s
-  tags:
-    ocata-uc:
-    ocata:
-    newton:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 # - project: puppet-nagios-openstack
 #   conf: rpmfactory-puppet
 #   upstream: git://github.com/gildub/%(project)s
