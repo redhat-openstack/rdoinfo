@@ -2324,4 +2324,11 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
-
+- project: networking-l2gw
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+  maintainers:
+  - rnoriega@redhat.com
