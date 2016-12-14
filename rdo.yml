@@ -2315,3 +2315,11 @@ packages:
   upstream: https://github.com/openstack/networking-fujitsu
   maintainers:
   - sanagi.koki@jp.fujitsu.com
+- project: networking-l2gw
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+  maintainers:
+  - rnoriega@redhat.com
