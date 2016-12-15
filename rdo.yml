@@ -614,10 +614,10 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/electrical/%(project)s
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
-    #newton:
+    ocata-uc:
+    ocata:
+    newton:
+      source-branch: ebc6a32b64bfda92509146d422ab30bd1b0f4610
   maintainers:
   - alejandroandreu@openmailbox.org
 # core openstack projects
