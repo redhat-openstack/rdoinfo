@@ -420,6 +420,15 @@ packages:
     ocata:
     newton:
       source-branch: 907deb9c236e05211c97a677dbae240edb41c636
+- project: puppet-ipaclient
+  conf: rpmfactory-puppet
+  upstream: git://github.com/joshuabaird/%(project)s
+  tags:
+    under-review:
+    ocata:
+    ocata-uc:
+  maintainers:
+  - alee@redhat.com
 - project: puppet-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
