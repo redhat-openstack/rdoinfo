@@ -2315,3 +2315,13 @@ packages:
   upstream: https://github.com/openstack/networking-fujitsu
   maintainers:
   - sanagi.koki@jp.fujitsu.com
+- project: ironic-staging-drivers
+  name: openstack-ironic-staging-drivers
+  tags:
+    under-review:
+    #ocata:
+    #ocata-uc:
+  conf: rpmfactory-lib
+  maintainers:
+  - lucasagomes@gmail.com
+
