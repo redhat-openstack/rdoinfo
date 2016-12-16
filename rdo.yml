@@ -2318,9 +2318,8 @@ packages:
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
-    under-review:
-    #ocata:
-    #ocata-uc:
+    ocata:
+    ocata-uc:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
