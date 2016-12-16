@@ -2317,9 +2317,8 @@ packages:
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
-    under-review:
-    #ocata:
-    #ocata-uc:
+    ocata:
+    ocata-uc:
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/networking-fujitsu
   maintainers:
