@@ -822,6 +822,14 @@ packages:
     under-review:
   maintainers:
   - eyal.bar-ilan@nokia.com
+- project: vitrage-dashboard
+  name: openstack-vitrage-ui
+  conf: rpmfactory-core
+  # should be for newton and ocata
+  tags:
+    under-review:
+  maintainers:
+  - eyal.bar-ilan@nokia.com
 - project: sahara
   tags:
     ocata-uc:
