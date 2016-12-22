@@ -428,9 +428,8 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/joshuabaird/%(project)s
   tags:
-    under-review:
-#    ocata:
-#    ocata-uc:
+    ocata:
+    ocata-uc:
   maintainers:
   - alee@redhat.com
 - project: puppet-keepalived
