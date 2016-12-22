@@ -2393,9 +2393,8 @@ packages:
 - project: tackerclient
   conf: rpmfactory-client
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
+    ocata-uc:
+    ocata:
   maintainers:
   - dradez@redhat.com
 - project: ansible-pacemaker
