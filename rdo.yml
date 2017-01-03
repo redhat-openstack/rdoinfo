@@ -1795,8 +1795,11 @@ packages:
     ocata-uc:
     ocata:
     newton:
+      source-branch: 0.10.x
     mitaka:
+      source-branch: 0.10.x
     liberty:
+      source-branch: 0.10.x
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack-dev/hacking
 - project: wsme
