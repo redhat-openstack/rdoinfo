@@ -651,6 +651,12 @@ packages:
     #newton:
   maintainers:
   - alejandroandreu@openmailbox.org
+- project: puppet-tacker
+  conf: rpmfactory-puppet
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
