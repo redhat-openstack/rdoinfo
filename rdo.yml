@@ -423,9 +423,8 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
+    ocata-uc:
+    ocata:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
