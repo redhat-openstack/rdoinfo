@@ -2402,6 +2402,7 @@ packages:
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
+  upstream: https://github.com/redhat-openstack/ansible-pacemaker
   tags:
     under-review:
     #ocata-uc:
