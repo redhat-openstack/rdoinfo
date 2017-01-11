@@ -2409,3 +2409,13 @@ packages:
     #ocata:
   maintainers:
   - mbultel@redhat.com
+- project: scciclient
+  name: python-scciclient
+  tags:
+    under-review:
+    #ocata:
+    #ocata-uc:
+  conf: rpmfactory-lib
+  upstream: https://github.com/openstack/python-scciclient
+  maintainers:
+  - okado.hiroaki@jp.fujitsu.com
