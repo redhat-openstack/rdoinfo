@@ -643,10 +643,9 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
-    #newton:
+    ocata-uc:
+    ocata:
+    newton:
 - project: puppet-logstash
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
