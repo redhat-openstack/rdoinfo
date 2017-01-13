@@ -391,10 +391,10 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/redhat-cip/%(project)s
   tags:
-    ocata-uc:
-    ocata:
-    newton:
-      source-branch: c0f7cde686c20ce139c184c688e9f7d13dcd0743
+#    ocata-uc:
+#    ocata:
+#    newton:
+#      source-branch: c0f7cde686c20ce139c184c688e9f7d13dcd0743
 - project: puppet-datacat
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
