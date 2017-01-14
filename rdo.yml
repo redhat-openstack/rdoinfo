@@ -1064,7 +1064,7 @@ packages:
 - project: os-win
   tags:
     ocata-uc:
-      source-branch: 1.2.1
+      source-branch: 1.3.0
     ocata:
     newton:
       source-branch: 1.2.1
@@ -1122,7 +1122,7 @@ packages:
 - project: ironic-lib
   tags:
     ocata-uc:
-      source-branch: 2.3.0
+      source-branch: 2.5.0
     ocata:
     newton:
       source-branch: 2.1.2
@@ -1233,7 +1233,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
     ocata:
     newton:
       source-branch: 3.5.0
@@ -1293,7 +1293,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
     ocata:
     newton:
       source-branch: 1.9.0
@@ -1306,7 +1306,7 @@ packages:
   - trown@redhat.com
   tags:
     ocata-uc:
-      source-branch: 1.8.0
+      source-branch: 1.9.0
     ocata:
     newton:
       source-branch: 1.7.1
@@ -1402,7 +1402,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     ocata-uc:
-      source-branch: 4.12.0
+      source-branch: 4.13.1
     ocata:
     newton:
       source-branch: 4.9.0
@@ -1456,7 +1456,7 @@ packages:
 - project: zaqarclient
   tags:
     ocata-uc:
-      source-branch: 1.2.0
+      source-branch: 1.3.0
     ocata:
     newton:
       source-branch: 1.2.0
@@ -1481,6 +1481,7 @@ packages:
 - project: gnocchiclient
   tags:
     ocata-uc:
+      source-branch: 2.8.0
     ocata:
     newton:
       source-branch: stable/2.6
@@ -1577,7 +1578,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
     ocata-uc:
-      source-branch: 3.16.0
+      source-branch: 3.17.0
     ocata:
     newton:
       source-branch: 3.14.0
@@ -1588,7 +1589,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     ocata-uc:
-      source-branch: 5.3.0
+      source-branch: 5.3.1
     ocata:
     newton:
       source-branch: 5.1.1
@@ -1787,7 +1788,7 @@ packages:
 - project: cliff
   tags:
     ocata-uc:
-      source-branch: 2.3.0
+      source-branch: 2.4.0
     ocata:
     newton:
       source-branch: 2.2.0
@@ -1919,7 +1920,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 0.5.0
+      source-branch: 0.6.0
     ocata:
   maintainers:
   - jpena@redhat.com
@@ -2015,7 +2016,7 @@ packages:
 - project: keystoneauth1
   tags:
     ocata-uc:
-      source-branch: 2.16.0
+      source-branch: 2.17.0
     ocata:
     newton:
       source-branch: 2.12.2
@@ -2170,7 +2171,7 @@ packages:
 - project: tooz
   tags:
     ocata-uc:
-      source-branch: 1.46.0
+      source-branch: 1.47.0
     ocata:
     newton:
       source-branch: 1.43.0
@@ -2251,7 +2252,7 @@ packages:
 - project: reno
   tags:
     ocata-uc:
-      source-branch: 2.0.0
+      source-branch: 2.0.3
     ocata:
     newton:
       source-branch: 1.9.0
@@ -2283,7 +2284,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 1.2.0
+      source-branch: 1.3.0
     ocata:
     newton:
       source-branch: 1.1.0
@@ -2302,7 +2303,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 1.3.0
+      source-branch: 1.4.0
     ocata:
     newton:
       source-branch: 1.2.1
@@ -2389,6 +2390,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
+      source-branch: 0.6.0
     ocata:
   maintainers:
   - dradez@redhat.com
@@ -2404,6 +2406,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
+      source-branch: 0.8.0
     ocata:
   maintainers:
   - dradez@redhat.com
