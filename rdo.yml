@@ -2379,9 +2379,8 @@ packages:
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
+    ocata-uc:
+    ocata:
   maintainers:
   - rnoriega@redhat.com
 - project: heat-translator
