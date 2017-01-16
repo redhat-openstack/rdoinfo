@@ -58,7 +58,7 @@ releases:
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: common
   # this is a stub allowing rdopkg to build rdo common packages in the right build target
-  branch: rdo-common
+  branch: common-rdo
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-common-el7
