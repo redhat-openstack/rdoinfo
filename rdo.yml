@@ -992,6 +992,16 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - sbaker@redhat.com
+- project: heat-agents
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+  conf: rpmfactory-core
+  maintainers:
+  - therve@redhat.com
+  - sbaker@redhat.com
+  - zbitter@redhat.com
 - project: os-apply-config
   tags:
     ocata-uc:
