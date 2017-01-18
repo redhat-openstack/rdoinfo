@@ -2412,9 +2412,8 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/redhat-openstack/ansible-pacemaker
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
+    ocata-uc:
+    ocata:
   maintainers:
   - mbultel@redhat.com
 - project: congress
