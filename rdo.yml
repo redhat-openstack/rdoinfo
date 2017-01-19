@@ -1501,6 +1501,15 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
+- project: monascaclient
+  tags:
+    under-review:
+#   ocata-uc:
+#      source-branch: 1.4.0
+#    ocata:
+  conf: rpmfactory-client
+  maintainers:
+  - jpena@redhat.com
 # openstack libraries
 - project: mox3
   tags:
