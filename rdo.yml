@@ -2425,3 +2425,15 @@ packages:
     #ocata:
   maintainers:
   - dradez@redhat.com
+- project: python-tempestconf
+  name: python-tempestconf
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+  conf: rpmfactory-lib
+  upstream: git://github.com/redhat-openstack/python-tempestconf.git
+  maintainers:
+  - chkumar@redhat.com
+  - ltoscano@redhat.com
+  - dmellado@redhat.com
