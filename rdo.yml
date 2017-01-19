@@ -2040,12 +2040,14 @@ packages:
     ocata:
     newton:
       source-branch: newton
+      upstream: git://github.com/redhat-openstack/tempest.git
     mitaka:
       source-branch: mitaka
+      upstream: git://github.com/redhat-openstack/tempest.git
     liberty:
       source-branch: liberty
+      upstream: git://github.com/redhat-openstack/tempest.git
   conf: rpmfactory-core
-  upstream: git://github.com/redhat-openstack/tempest.git
   maintainers:
   - chkumar@redhat.com
   - slinaber@redhat.com
