@@ -2452,3 +2452,12 @@ packages:
   - chkumar@redhat.com
   - ltoscano@redhat.com
   - dmellado@redhat.com
+- project: puppet-auditd
+  conf: rpmfactory-puppet
+  upstream: https://github.com/kemra102/puppet-auditd
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+  maintainers:
+  - lhinds@redhat.com
