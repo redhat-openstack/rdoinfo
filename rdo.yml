@@ -1918,6 +1918,16 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - mkolesni@redhat.com
+- project: networking-sfc
+  conf: rpmfactory-lib
+  name: python-networking-sfc
+  tags:
+    under-review:
+    #ocata:
+    #ocata-uc:
+  upstream: git://git.openstack.org/openstack/%(project)s
+  maintainers:
+  - bcafarel@redhat.com
 - project: networking-vsphere
   conf: rpmfactory-lib
   name: python-networking-vsphere
