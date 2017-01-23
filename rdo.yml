@@ -2440,14 +2440,12 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
-- project: python-tempestconf
-  name: python-tempestconf
+- project: tempestconf
   conf: rpmfactory-lib
   upstream: git://github.com/redhat-openstack/python-tempestconf.git
   tags:
-    under-review:
-    #ocata-uc:
-    #ocata:
+    ocata-uc:
+    ocata:
   maintainers:
   - chkumar@redhat.com
   - ltoscano@redhat.com
