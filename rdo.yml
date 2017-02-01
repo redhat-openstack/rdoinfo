@@ -238,6 +238,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-apache
   tags:
     ocata-uc:
+      source-branch: 58207d395c313f5cd44c3c9d5df0ef7e1fb648a3
     ocata:
     newton:
       source-branch: 05a0aac78092e46d544e03ad9adf796ae76f7ec2
@@ -246,6 +247,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
     ocata-uc:
+      source-branch: 66022dc64068e2266a606225eec0b55d325ecddd
     ocata:
     newton:
       source-branch: fdf4a84534ccb1b9ae8ffb654c7e160a31e294ee
@@ -254,6 +256,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
   tags:
     ocata-uc:
+      source-branch: 463ec1d0f5c50a719cb96e6479d90b8de8f41489
     ocata:
     newton:
       source-branch: 46a61192f73aad42f9ec9905d42895c089b0508b
@@ -262,6 +265,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
   tags:
     ocata-uc:
+      source-branch: f6fed46e7a5c3f9e4791240eaffb1a115d8f0135
     ocata:
     newton:
       source-branch: 6ee818019078e7ac9a6316409c369bf907ec2afd
@@ -270,6 +274,7 @@ packages:
   upstream: git://github.com/puppet-community/puppet-corosync
   tags:
     ocata-uc:
+      source-branch: f438aa583b59fe312347ff080a7ca99ba058c7e9
     ocata:
     newton:
       source-branch: 915bb72ba481c2bf08d4c128e3ae89e69a8a6d43
@@ -278,6 +283,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-git
   tags:
     ocata-uc:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     ocata:
     newton:
       source-branch: 7e9b9de109730e233811817cefe110cefe6484a6
@@ -286,6 +292,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
   tags:
     ocata-uc:
+      source-branch: 936ed07a85460fda127b2a542d3213efd19a8f2a
     ocata:
     newton:
       source-branch: c1f1d1e22d75215fc28e3f463af4b8fd72bde781
@@ -294,6 +301,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-mongodb
   tags:
     ocata-uc:
+      source-branch: ed8d47bfe56433feae475aba61a12656c7ae61c2
     ocata:
     newton:
       source-branch: 40e8515c0f824236d5f3d0fe491ed03f02cb9d9f
@@ -302,6 +310,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
   tags:
     ocata-uc:
+      source-branch: aec738379fbb7a01043dbe65293165898713195e
     ocata:
     newton:
       source-branch: c840a358878fc5c51ce33b7981678f2a4229a18c
@@ -310,6 +319,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-java
   tags:
     ocata-uc:
+      source-branch: 6605e34d71a3ddcd7da47eb462de94da4ab078b7
     ocata:
     newton:
       source-branch: d27b0af5a91de82efd2f1adb915a4ac2635bdbb8
@@ -328,6 +338,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
   tags:
     ocata-uc:
+      source-branch: 03b859292fe94dd727bd4b5b795b658beb2bdb4a
     ocata:
     newton:
       source-branch: 12aa7ccceb7d93cbf9d68c1b3338195bf8ce5564
@@ -336,6 +347,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
   tags:
     ocata-uc:
+      source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
     ocata:
     newton:
       source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
@@ -344,6 +356,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
   tags:
     ocata-uc:
+      source-branch: db8c1fbb2394d93fe3156b17c840455f1b3e2c76
     ocata:
     newton:
       source-branch: dcef77af4cef2870874f76c06e92f601aeb5bc0c
@@ -352,6 +365,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
   tags:
     ocata-uc:
+      source-branch: 2b9e169f63bbc91360d84cf93415563bd0155155
     ocata:
     newton:
       source-branch: 8d96971ca1c58219f856ba8c5cc1af1de95c27a6
@@ -360,6 +374,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
   tags:
     ocata-uc:
+      source-branch: 247c33c7994dda5811e5e24c3ad0c3cdef89b9ec
     ocata:
     newton:
       source-branch: 6c88fb38e7710d68d9c41961a45db2b841b86e2f
@@ -368,6 +383,7 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
   tags:
     ocata-uc:
+      source-branch: 9beb441c0c5433f6a1a42dd70aea173de5b800e4
     ocata:
     newton:
       source-branch: a09c77e008377cb2ab36ca0893888f6ef4aadda0
@@ -376,6 +392,7 @@ packages:
   upstream: git://github.com/locp/cassandra
   tags:
     ocata-uc:
+      source-branch: fb0402c8b5a00f22b7bd6e3d2d11760d2deb3475
     ocata:
     newton:
       source-branch: 0fc5e6541e888289c1ea56dc6256f23a729ee68e
@@ -384,6 +401,7 @@ packages:
   upstream: git://github.com/earsdown/%(project)s
   tags:
     ocata-uc:
+      source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
     ocata:
     newton:
       source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
@@ -392,6 +410,7 @@ packages:
   upstream: git://github.com/Juniper/%(project)s
   tags:
     ocata-uc:
+      source-branch: 9a890f368bee58efa4ea9f94fcfe6bdc3d82c592
     ocata:
     newton:
       source-branch: c0f7cde686c20ce139c184c688e9f7d13dcd0743
@@ -400,6 +419,7 @@ packages:
   upstream: git://github.com/richardc/%(project)s
   tags:
     ocata-uc:
+      source-branch: 93b88b78364ee35f2bf39ca98ad08b78f423c1d2
     ocata:
     newton:
       source-branch: 10f6dde9a3c3c47c06a6322d22d7723685d9976a
@@ -408,6 +428,7 @@ packages:
   upstream: git://github.com/theforeman/%(project)s
   tags:
     ocata-uc:
+      source-branch: 88fe0f0d71bc39fe080228d946fc256400a08531
     ocata:
     newton:
       source-branch: 343a804661e81dc5322f20c1e708be971ade914e
@@ -416,6 +437,7 @@ packages:
   upstream: git://github.com/elastic/%(project)s
   tags:
     ocata-uc:
+      source-branch: 4c5c58c400f575370fb61680e55fa298bfc67728
     ocata:
     newton:
       source-branch: 6806948daa1e64b9a362a38dba7b4a909867b1b0
@@ -424,18 +446,21 @@ packages:
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
     ocata-uc:
+      source-branch: 81dd85b88104882fa1b44059aa210b11e27cfb02
     ocata:
 - project: puppet-fdio
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
   tags:
     ocata-uc:
+      source-branch: 9326e4237f4d161f297dc4493ab4928ea6e2bf0f
     ocata:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
   tags:
     ocata-uc:
+      source-branch: 066d7a5bb630a41296428d81d3c1a1232574d008
     ocata:
     newton:
       source-branch: 4bbf44eb9fed06afced809a6bb8b8d94f04d87c3
@@ -444,6 +469,7 @@ packages:
   upstream: git://github.com/soylent/konstantin-fluentd
   tags:
     ocata-uc:
+      source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
     ocata:
     newton:
       source-branch: 907deb9c236e05211c97a677dbae240edb41c636
@@ -453,6 +479,7 @@ packages:
   tags:
     ocata:
     ocata-uc:
+      source-branch: 052dd074420b6a2a494e86b2c03020be57940205
   maintainers:
   - alee@redhat.com
 - project: puppet-keepalived
@@ -460,6 +487,7 @@ packages:
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
   tags:
     ocata-uc:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     ocata:
     newton:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
@@ -468,6 +496,7 @@ packages:
   upstream: git://github.com/thejandroman/%(project)s
   tags:
     ocata-uc:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     ocata:
     newton:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
@@ -476,6 +505,7 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     ocata-uc:
+      source-branch: v3.0.1
     ocata:
     newton:
       source-branch: 7671b5f9dd9999948ee3916fc93a860891929275
@@ -485,6 +515,7 @@ packages:
   upstream: git://github.com/midonet/%(project)s
   tags:
     ocata-uc:
+      source-branch: v2015.06.9
     ocata:
     newton:
       source-branch: bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
@@ -503,6 +534,7 @@ packages:
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
     ocata-uc:
+      source-branch: eb1e0a95cb62fc6cd41f0a2c60fcdf34e7eaf596
     ocata:
     newton:
       source-branch: 4a3843cdad526adb1527a6ad9ba503ae9b7d6361
@@ -511,6 +543,7 @@ packages:
   upstream: git://github.com/ripienaar/%(project)s
   tags:
     ocata-uc:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     ocata:
     newton:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
@@ -522,6 +555,7 @@ packages:
   upstream: git://github.com/rcritten/%(project)s
   tags:
     ocata-uc:
+      source-branch: 2e163a21fb80d828afede2d4be6214f1171c4887
     ocata:
     newton:
       source-branch: 2e163a21fb80d828afede2d4be6214f1171c4887
@@ -530,6 +564,7 @@ packages:
   upstream: git://github.com/dfarrell07/%(project)s
   tags:
     ocata-uc:
+      source-branch: 726187652054ad46c7ff980f2fe9e56c9ad5b3b5
     ocata:
     newton:
       source-branch: b2d8d9dc3becdad8213ae51c4cda27c077dca71c
@@ -538,6 +573,7 @@ packages:
   upstream: git://github.com/openstack/%(project)s
   tags:
     ocata-uc:
+      source-branch: 28020de0fb5699104057eed7a96d106bc396c9a2
     ocata:
     newton:
       source-branch: 1e2560f5b7fd6e4ef1d9b02b5cb2e8bfe676555a
@@ -546,6 +582,7 @@ packages:
   upstream: git://github.com/antonlindstrom/%(project)s
   tags:
     ocata-uc:
+      source-branch: 899651549b6d57470d233321265ace862270e154
     ocata:
     newton:
       source-branch: 899651549b6d57470d233321265ace862270e154
@@ -554,6 +591,7 @@ packages:
   upstream: git://github.com/arioch/%(project)s
   tags:
     ocata-uc:
+      source-branch: a2d63958ad8867585b0a01b9de3edffa43f9baa1
     ocata:
     newton:
       source-branch: 9711564ca49494d0eb1919e8c5668f68a50efa7d
@@ -562,6 +600,7 @@ packages:
   upstream: git://github.com/paramite/%(project)s
   tags:
     ocata-uc:
+      source-branch: 2d3a47780b95b337b8e84558fe11977ea033d051
     ocata:
     newton:
       source-branch: 35cc5571593d21408d625bd8ee35217345ec502a
@@ -570,6 +609,7 @@ packages:
   upstream: git://github.com/sensu/sensu-puppet
   tags:
     ocata-uc:
+      source-branch: ca45853d7ab1268462bd152ec8fd17bebfeb1eb6
     ocata:
     newton:
       source-branch: 6d10bae43dbb16ca58e3188cc293de01a622240a
@@ -578,6 +618,7 @@ packages:
   upstream: git://github.com/razorsedge/%(project)s
   tags:
     ocata-uc:
+      source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
     ocata:
     newton:
       source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
@@ -586,6 +627,7 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     ocata-uc:
+      source-branch: v3.0.1
     ocata:
     newton:
       source-branch: 8564a4b939b75dc560487acd87ad6f2258b6ff1a
@@ -594,6 +636,7 @@ packages:
   upstream: git://github.com/nanliu/%(project)s
   tags:
     ocata-uc:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     ocata:
     newton:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
@@ -602,6 +645,7 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     ocata-uc:
+      source-branch: v3.4.0
     ocata:
     newton:
       source-branch: cf62f1bb34c2704afac9e2d37244bbf0c6b3ac95
@@ -610,6 +654,7 @@ packages:
   upstream: git://github.com/Yelp/%(project)s
   tags:
     ocata-uc:
+      source-branch: 8095b7cc05b4d53a057213e0869dd8bea5b3b9cd
     ocata:
     newton:
       source-branch: 64ce619c26995bc270aa762e24ca298b9787bc3e
@@ -618,6 +663,7 @@ packages:
   upstream: git://github.com/derekhiggins/%(project)s
   tags:
     ocata-uc:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     ocata:
     newton:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
@@ -626,6 +672,7 @@ packages:
   upstream: git://github.com/deric/%(project)s
   tags:
     ocata-uc:
+      source-branch: 9383fdad877c2d70aead91283ddde14fe22144d8
     ocata:
     newton:
       source-branch: 53bba0c685da3e43a4c644fbfb6aa1fffe6e5380
@@ -634,6 +681,7 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     ocata-uc:
+      source-branch: 924ee8552bbd5540f96f549a1f4e497376e5b08e
     ocata:
     newton:
       source-branch: 0d69a96e8d0d3a08da0d5f476c733134df4fb9ee
@@ -642,6 +690,7 @@ packages:
   upstream: git://github.com/duritong/%(project)s
   tags:
     ocata-uc:
+      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
     ocata:
     newton:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
@@ -650,6 +699,7 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     ocata-uc:
+      source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
     ocata:
     newton:
       source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
@@ -668,6 +718,7 @@ packages:
   upstream: git://github.com/electrical/%(project)s
   tags:
     ocata-uc:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
     ocata:
     #newton:
       #source-branch: ebc6a32b64bfda92509146d422ab30bd1b0f4610
@@ -2492,6 +2543,7 @@ packages:
   upstream: https://github.com/kemra102/puppet-auditd
   tags:
     ocata-uc:
+      source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
     ocata:
   maintainers:
   - lhinds@redhat.com
