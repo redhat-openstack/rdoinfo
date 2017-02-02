@@ -1325,7 +1325,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
-      source-branch: 6.0.0
+      source-branch: 7.1.0
     ocata:
     newton:
       source-branch: 6.0.0
@@ -1553,7 +1553,7 @@ packages:
 - project: gnocchiclient
   tags:
     ocata-uc:
-      source-branch: 2.8.2
+      source-branch: 3.0.0
     ocata:
     newton:
       source-branch: stable/2.6
@@ -1736,7 +1736,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     ocata-uc:
-      source-branch: 2.12.0
+      source-branch: 2.12.1
     ocata:
     newton:
       source-branch: 2.9.0
@@ -2011,7 +2011,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 0.6.0
+      source-branch: 0.7.0
     ocata:
   maintainers:
   - jpena@redhat.com
