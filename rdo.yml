@@ -413,7 +413,9 @@ packages:
       source-branch: 9a890f368bee58efa4ea9f94fcfe6bdc3d82c592
     ocata:
     newton:
-      source-branch: c0f7cde686c20ce139c184c688e9f7d13dcd0743
+  maintainers:
+  - mhenkel@juniper.net
+  - kparmar@juniper.net
 - project: puppet-datacat
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
