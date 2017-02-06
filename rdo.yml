@@ -1205,6 +1205,16 @@ packages:
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
+- project: ironic-ui
+  name: openstack-ironic-ui
+  tags:
+    under-review:
+    #ocata-uc:
+    #ocata:
+  conf: rpmfactory-core
+  maintainers:
+  - trown@redhat.com
+  - dtantsur@redhat.com
 - project: barbican
   conf: rpmfactory-core
   maintainers:
