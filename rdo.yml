@@ -516,11 +516,12 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
   tags:
-    ocata-uc:
-      source-branch: v2015.06.9
-    ocata:
-    newton:
-      source-branch: bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
+# TODO(jpena): temporarily disabled, https://review.rdoproject.org/r/4521
+#    ocata-uc:
+#      source-branch: v2015.06.9
+#    ocata:
+#    newton:
+#      source-branch: bafa9e9bc3e683cd3ceb2650eb174cf707a2837e
 - project: puppet-midonet_openstack
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
