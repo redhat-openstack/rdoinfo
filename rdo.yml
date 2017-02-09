@@ -2153,10 +2153,8 @@ packages:
   - dmellado@redhat.com
   - ltoscano@redhat.com
 - project: tempest-lib
+  # retired in ocata release
   tags:
-    ocata-uc:
-      source-branch: 1.0.0
-    ocata:
     newton:
       source-branch: 1.0.0
     mitaka:
