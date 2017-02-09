@@ -2320,12 +2320,8 @@ packages:
   - dmellado@redhat.com
   - ltoscano@redhat.com
 - project: tempest-lib
+  # retired in ocata release
   tags:
-    pike-uc:
-      source-branch: 1.0.0
-    pike:
-    ocata:
-      source-branch: 1.0.0
     newton:
       source-branch: 1.0.0
     mitaka:
