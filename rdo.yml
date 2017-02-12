@@ -1427,6 +1427,7 @@ packages:
   conf: rpmfactory-client
   tags:
     ocata-uc:
+      source-branch: 1.1.0
     ocata:
     newton:
   maintainers:
@@ -2015,7 +2016,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     ocata-uc:
-      source-branch: 0.7.0
+      source-branch: 0.7.1
     ocata:
   maintainers:
   - jpena@redhat.com
@@ -2364,7 +2365,7 @@ packages:
 - project: k8sclient
   tags:
     ocata-uc:
-      source-branch: 0.3.0
+      source-branch: 0.4.0
     ocata:
     newton:
       source-branch: 0.3.0
