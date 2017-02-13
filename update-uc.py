@@ -3,6 +3,8 @@
 # Update OpenStack Oslo and Clients libraries versions in rdoinfo from:
 # * master branch (default)
 # curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=master
+# * stable/ocata
+# curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=stable/ocata
 # * stable/newton
 # curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=stable/newton
 
@@ -20,7 +22,7 @@ UC = 'upper-constraints.txt'
 if len(sys.argv) > 1:
     UC_RELEASE = sys.argv[1]
 else:
-    UC_RELEASE = 'ocata-uc'
+    UC_RELEASE = 'pike-uc'
 
 
 # filter for Oslo and clients
@@ -96,7 +98,7 @@ def update_uc():
                 prev_version = None
             if UC_RELEASE not in pkg['tags']:
                 print("Not updating %s, it is not included in release %s"
-                          % (project, UC_RELEASE))
+                      % (project, UC_RELEASE))
                 continue
             tags[UC_RELEASE] = {SOURCE_BRANCH: new_version}
             if prev_version:
