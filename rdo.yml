@@ -1990,9 +1990,8 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-sfc
   tags:
-    under-review:
-    #ocata:
-    #ocata-uc:
+    ocata-uc:
+    ocata:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
