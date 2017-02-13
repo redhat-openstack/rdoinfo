@@ -1,4 +1,18 @@
 releases:
+- name: pike
+  branch: pike-rdo
+  repos:
+  - name: el7
+    buildsys: cbs/cloud7-openstack-pike-el7
+    distrepos:
+    - name: RDO Pike el7
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-pike/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
+      url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: ocata
   branch: ocata-rdo
   repos:
@@ -72,11 +86,11 @@ package-default:
 # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
   master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
 # custom templates for 'packages' information below, reducing
 # redundant information in this file; inherits package-default
 package-configs:
@@ -141,7 +155,8 @@ package-configs:
     - gchamoul@redhat.com
     # Only building puppet modules on newton and later
     tags:
-      ocata-uc:
+      pike-uc:
+      pike:
       ocata:
       newton:
 packages:
@@ -157,14 +172,16 @@ packages:
 - project: puppet-congress
   conf: rpmfactory-puppet
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
 - project: puppet-designate
   conf: rpmfactory-puppet
 - project: puppet-ec2api
   conf: rpmfactory-puppet
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
 - project: puppet-glance
   conf: rpmfactory-puppet
@@ -189,7 +206,8 @@ packages:
 - project: puppet-octavia
   conf: rpmfactory-puppet
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
 - project: puppet-oslo
   conf: rpmfactory-puppet
@@ -202,7 +220,8 @@ packages:
 - project: puppet-panko
   conf: rpmfactory-puppet
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
 - project: puppet-qdr
   conf: rpmfactory-puppet
@@ -215,7 +234,8 @@ packages:
 - project: puppet-tacker
   conf: rpmfactory-puppet
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
 - project: puppet-tempest
   conf: rpmfactory-puppet
@@ -237,99 +257,111 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
   tags:
-    ocata-uc:
-      source-branch: 58207d395c313f5cd44c3c9d5df0ef7e1fb648a3
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 58207d395c313f5cd44c3c9d5df0ef7e1fb648a3
     newton:
       source-branch: 05a0aac78092e46d544e03ad9adf796ae76f7ec2
 - project: puppet-concat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
-    ocata-uc:
-      source-branch: 66022dc64068e2266a606225eec0b55d325ecddd
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 66022dc64068e2266a606225eec0b55d325ecddd
     newton:
       source-branch: fdf4a84534ccb1b9ae8ffb654c7e160a31e294ee
 - project: puppet-firewall
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
   tags:
-    ocata-uc:
-      source-branch: 463ec1d0f5c50a719cb96e6479d90b8de8f41489
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 463ec1d0f5c50a719cb96e6479d90b8de8f41489
     newton:
       source-branch: 46a61192f73aad42f9ec9905d42895c089b0508b
 - project: puppet-haproxy
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
   tags:
-    ocata-uc:
-      source-branch: f6fed46e7a5c3f9e4791240eaffb1a115d8f0135
+    pike-uc:
+    pike:
     ocata:
+      source-branch: f6fed46e7a5c3f9e4791240eaffb1a115d8f0135
     newton:
       source-branch: 6ee818019078e7ac9a6316409c369bf907ec2afd
 - project: puppet-corosync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/puppet-corosync
   tags:
-    ocata-uc:
-      source-branch: f438aa583b59fe312347ff080a7ca99ba058c7e9
+    pike-uc:
+    pike:
     ocata:
+      source-branch: f438aa583b59fe312347ff080a7ca99ba058c7e9
     newton:
       source-branch: 915bb72ba481c2bf08d4c128e3ae89e69a8a6d43
 - project: puppet-git
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
   tags:
-    ocata-uc:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     newton:
       source-branch: 7e9b9de109730e233811817cefe110cefe6484a6
 - project: puppet-inifile
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
   tags:
-    ocata-uc:
-      source-branch: 936ed07a85460fda127b2a542d3213efd19a8f2a
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 936ed07a85460fda127b2a542d3213efd19a8f2a
     newton:
       source-branch: c1f1d1e22d75215fc28e3f463af4b8fd72bde781
 - project: puppet-mongodb
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mongodb
   tags:
-    ocata-uc:
-      source-branch: ed8d47bfe56433feae475aba61a12656c7ae61c2
+    pike-uc:
+    pike:
     ocata:
+      source-branch: ed8d47bfe56433feae475aba61a12656c7ae61c2
     newton:
       source-branch: 40e8515c0f824236d5f3d0fe491ed03f02cb9d9f
 - project: puppet-mysql
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
   tags:
-    ocata-uc:
-      source-branch: aec738379fbb7a01043dbe65293165898713195e
+    pike-uc:
+    pike:
     ocata:
+      source-branch: aec738379fbb7a01043dbe65293165898713195e
     newton:
       source-branch: c840a358878fc5c51ce33b7981678f2a4229a18c
 - project: puppet-java
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
   tags:
-    ocata-uc:
-      source-branch: 6605e34d71a3ddcd7da47eb462de94da4ab078b7
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 6605e34d71a3ddcd7da47eb462de94da4ab078b7
     newton:
       source-branch: d27b0af5a91de82efd2f1adb915a4ac2635bdbb8
 - project: puppet-ntp
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
   tags:
-    ocata:
+    pike-uc:
       source-branch: 4.2.x
-    ocata-uc:
+    pike:
+      source-branch: 4.2.x
+    ocata:
       source-branch: 4.2.x
     newton:
       source-branch: 93da3bd01a5ae4276eddec15ac615eb4bccc23cf
@@ -337,81 +369,90 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
   tags:
-    ocata-uc:
-      source-branch: 03b859292fe94dd727bd4b5b795b658beb2bdb4a
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 03b859292fe94dd727bd4b5b795b658beb2bdb4a
     newton:
       source-branch: 12aa7ccceb7d93cbf9d68c1b3338195bf8ce5564
 - project: puppet-rsync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
   tags:
-    ocata-uc:
-      source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
     newton:
       source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
 - project: puppet-stdlib
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
   tags:
-    ocata-uc:
-      source-branch: db8c1fbb2394d93fe3156b17c840455f1b3e2c76
+    pike-uc:
+    pike:
     ocata:
+      source-branch: db8c1fbb2394d93fe3156b17c840455f1b3e2c76
     newton:
       source-branch: dcef77af4cef2870874f76c06e92f601aeb5bc0c
 - project: puppet-tomcat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
   tags:
-    ocata-uc:
-      source-branch: 2b9e169f63bbc91360d84cf93415563bd0155155
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 2b9e169f63bbc91360d84cf93415563bd0155155
     newton:
       source-branch: 8d96971ca1c58219f856ba8c5cc1af1de95c27a6
 - project: puppet-vcsrepo
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
   tags:
-    ocata-uc:
-      source-branch: 247c33c7994dda5811e5e24c3ad0c3cdef89b9ec
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 247c33c7994dda5811e5e24c3ad0c3cdef89b9ec
     newton:
       source-branch: 6c88fb38e7710d68d9c41961a45db2b841b86e2f
 - project: puppet-xinetd
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
   tags:
-    ocata-uc:
-      source-branch: 9beb441c0c5433f6a1a42dd70aea173de5b800e4
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 9beb441c0c5433f6a1a42dd70aea173de5b800e4
     newton:
       source-branch: a09c77e008377cb2ab36ca0893888f6ef4aadda0
 - project: puppet-cassandra
   conf: rpmfactory-puppet
   upstream: git://github.com/locp/cassandra
   tags:
-    ocata-uc:
-      source-branch: fb0402c8b5a00f22b7bd6e3d2d11760d2deb3475
+    pike-uc:
+    pike:
     ocata:
+      source-branch: fb0402c8b5a00f22b7bd6e3d2d11760d2deb3475
     newton:
       source-branch: 0fc5e6541e888289c1ea56dc6256f23a729ee68e
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/earsdown/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
     newton:
       source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
 - project: puppet-contrail
   conf: rpmfactory-puppet
   upstream: git://github.com/Juniper/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 9a890f368bee58efa4ea9f94fcfe6bdc3d82c592
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 9a890f368bee58efa4ea9f94fcfe6bdc3d82c592
     newton:
   maintainers:
   - mhenkel@juniper.net
@@ -420,67 +461,75 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 93b88b78364ee35f2bf39ca98ad08b78f423c1d2
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 93b88b78364ee35f2bf39ca98ad08b78f423c1d2
     newton:
       source-branch: 10f6dde9a3c3c47c06a6322d22d7723685d9976a
 - project: puppet-dns
   conf: rpmfactory-puppet
   upstream: git://github.com/theforeman/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 88fe0f0d71bc39fe080228d946fc256400a08531
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 88fe0f0d71bc39fe080228d946fc256400a08531
     newton:
       source-branch: 343a804661e81dc5322f20c1e708be971ade914e
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 4c5c58c400f575370fb61680e55fa298bfc67728
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 4c5c58c400f575370fb61680e55fa298bfc67728
     newton:
       source-branch: 6806948daa1e64b9a362a38dba7b4a909867b1b0
 - project: puppet-etcd
   conf: rpmfactory-puppet
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 81dd85b88104882fa1b44059aa210b11e27cfb02
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 81dd85b88104882fa1b44059aa210b11e27cfb02
 - project: puppet-fdio
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 9326e4237f4d161f297dc4493ab4928ea6e2bf0f
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 9326e4237f4d161f297dc4493ab4928ea6e2bf0f
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 066d7a5bb630a41296428d81d3c1a1232574d008
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 066d7a5bb630a41296428d81d3c1a1232574d008
     newton:
       source-branch: 4bbf44eb9fed06afced809a6bb8b8d94f04d87c3
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
   tags:
-    ocata-uc:
-      source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
+    pike-uc:
+    pike:
     ocata:
+      source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
     newton:
       source-branch: 907deb9c236e05211c97a677dbae240edb41c636
 - project: puppet-ipaclient
   conf: rpmfactory-puppet
   upstream: git://github.com/joshuabaird/%(project)s
   tags:
+    pike-uc:
+    pike:
     ocata:
-    ocata-uc:
       source-branch: 052dd074420b6a2a494e86b2c03020be57940205
   maintainers:
   - alee@redhat.com
@@ -488,34 +537,38 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
   tags:
-    ocata-uc:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    pike-uc:
+    pike:
     ocata:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     newton:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-kibana3
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     newton:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-memcached
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
-    ocata-uc:
-      source-branch: v3.0.1
+    pike-uc:
+    pike:
     ocata:
+      source-branch: v3.0.1
     newton:
       source-branch: 7671b5f9dd9999948ee3916fc93a860891929275
 - project: puppet-midonet
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   maintainers:
@@ -525,7 +578,8 @@ packages:
   upstream: git://github.com/midonet/%(project)s
   tags:
     under-review:
-    #ocata-uc:
+    #pike-uc:
+    #pike:
     #ocata:
     #newton:
   maintainers:
@@ -534,18 +588,20 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
-    ocata-uc:
-      source-branch: eb1e0a95cb62fc6cd41f0a2c60fcdf34e7eaf596
+    pike-uc:
+    pike:
     ocata:
+      source-branch: eb1e0a95cb62fc6cd41f0a2c60fcdf34e7eaf596
     newton:
       source-branch: 4a3843cdad526adb1527a6ad9ba503ae9b7d6361
 - project: puppet-module-data
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     newton:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 # - project: puppet-nagios-openstack
@@ -555,153 +611,170 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 2e163a21fb80d828afede2d4be6214f1171c4887
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 2e163a21fb80d828afede2d4be6214f1171c4887
     newton:
       source-branch: 2e163a21fb80d828afede2d4be6214f1171c4887
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
   upstream: git://github.com/dfarrell07/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 726187652054ad46c7ff980f2fe9e56c9ad5b3b5
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 726187652054ad46c7ff980f2fe9e56c9ad5b3b5
     newton:
       source-branch: b2d8d9dc3becdad8213ae51c4cda27c077dca71c
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 28020de0fb5699104057eed7a96d106bc396c9a2
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 28020de0fb5699104057eed7a96d106bc396c9a2
     newton:
       source-branch: 1e2560f5b7fd6e4ef1d9b02b5cb2e8bfe676555a
 - project: puppet-powerdns
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 899651549b6d57470d233321265ace862270e154
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 899651549b6d57470d233321265ace862270e154
     newton:
       source-branch: 899651549b6d57470d233321265ace862270e154
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
   tags:
-    ocata-uc:
-      source-branch: a2d63958ad8867585b0a01b9de3edffa43f9baa1
+    pike-uc:
+    pike:
     ocata:
+      source-branch: a2d63958ad8867585b0a01b9de3edffa43f9baa1
     newton:
       source-branch: 9711564ca49494d0eb1919e8c5668f68a50efa7d
 - project: puppet-remote
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 2d3a47780b95b337b8e84558fe11977ea033d051
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 2d3a47780b95b337b8e84558fe11977ea033d051
     newton:
       source-branch: 35cc5571593d21408d625bd8ee35217345ec502a
 - project: puppet-sensu
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
   tags:
-    ocata-uc:
-      source-branch: ca45853d7ab1268462bd152ec8fd17bebfeb1eb6
+    pike-uc:
+    pike:
     ocata:
+      source-branch: ca45853d7ab1268462bd152ec8fd17bebfeb1eb6
     newton:
       source-branch: 6d10bae43dbb16ca58e3188cc293de01a622240a
 - project: puppet-snmp
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
     newton:
       source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
 - project: puppet-ssh
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
-    ocata-uc:
-      source-branch: v3.0.1
+    pike-uc:
+    pike:
     ocata:
+      source-branch: v3.0.1
     newton:
       source-branch: 8564a4b939b75dc560487acd87ad6f2258b6ff1a
 - project: puppet-staging
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
   tags:
-    ocata-uc:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    pike-uc:
+    pike:
     ocata:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     newton:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-timezone
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
-    ocata-uc:
-      source-branch: v3.4.0
+    pike-uc:
+    pike:
     ocata:
+      source-branch: v3.4.0
     newton:
       source-branch: cf62f1bb34c2704afac9e2d37244bbf0c6b3ac95
 - project: puppet-uchiwa
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 8095b7cc05b4d53a057213e0869dd8bea5b3b9cd
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 8095b7cc05b4d53a057213e0869dd8bea5b3b9cd
     newton:
       source-branch: 64ce619c26995bc270aa762e24ca298b9787bc3e
 - project: puppet-vlan
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
   tags:
-    ocata-uc:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    pike-uc:
+    pike:
     ocata:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     newton:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-zookeeper
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 9383fdad877c2d70aead91283ddde14fe22144d8
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 9383fdad877c2d70aead91283ddde14fe22144d8
     newton:
       source-branch: 53bba0c685da3e43a4c644fbfb6aa1fffe6e5380
 - project: puppet-kmod
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 924ee8552bbd5540f96f549a1f4e497376e5b08e
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 924ee8552bbd5540f96f549a1f4e497376e5b08e
     newton:
       source-branch: 0d69a96e8d0d3a08da0d5f476c733134df4fb9ee
 - project: puppet-sysctl
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
     newton:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
 - project: puppet-systemd
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
-    ocata-uc:
-      source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
+    pike-uc:
+    pike:
     ocata:
+      source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
     newton:
       source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
 - project: puppet-logstash
@@ -709,7 +782,8 @@ packages:
   upstream: git://github.com/elastic/%(project)s
   tags:
     under-review:
-    #ocata-uc:
+    #pike-uc:
+    #pike:
     #ocata:
     #newton:
   maintainers:
@@ -718,9 +792,10 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/electrical/%(project)s
   tags:
-    ocata-uc:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    pike-uc:
+    pike:
     ocata:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
     #newton:
       #source-branch: ebc6a32b64bfda92509146d422ab30bd1b0f4610
   maintainers:
@@ -753,7 +828,8 @@ packages:
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
 - project: ceilometer
@@ -765,32 +841,33 @@ packages:
 - project: gnocchi
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: stable/3.1
+    pike:
     ocata:
+      source-branch: stable/3.1
     newton:
       source-branch: stable/3.0
     mitaka:
       source-branch: stable/2.1
-    liberty:
-      source-branch: stable/1.3
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
 - project: aodh
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
 - project: panko
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   conf: rpmfactory-core
@@ -809,11 +886,11 @@ packages:
   - hguemar@redhat.com
 - project: ironic
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
@@ -830,9 +907,11 @@ packages:
   conf: rpmfactory-lib
   name: python-neutron-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.1.0
+    pike:
     ocata:
+      source-branch: 1.1.0
     newton:
       source-branch: 0.4.0
     mitaka:
@@ -875,18 +954,19 @@ packages:
   conf: rpmfactory-lib
   name: python-designate-tests-tempest
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   maintainers:
   - amoralej@redhat.com
 - project: octavia
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - nmagnezi@redhat.com
@@ -894,7 +974,8 @@ packages:
 - project: watcher
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   maintainers:
@@ -904,7 +985,8 @@ packages:
 - project: vitrage
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - eyal.bar-ilan@nokia.com
@@ -912,17 +994,18 @@ packages:
   name: openstack-vitrage-ui
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - eyal.bar-ilan@nokia.com
 - project: sahara
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - egafford@redhat.com
@@ -945,46 +1028,47 @@ packages:
   - rdopiera@redhat.com
 - project: diskimage-builder
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: diskimage-builder
   maintainers:
   - jruzicka@redhat.com
 - project: dib-utils
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.0.11
+    pike:
     ocata:
+      source-branch: 0.0.11
     newton:
       source-branch: 0.0.10
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: dib-utils
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-incubator
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   name: openstack-tripleo
   conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
 - project: tripleo-heat-templates
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
@@ -993,8 +1077,10 @@ packages:
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
   tags:
-    ocata-uc:
-      source-branch: stable/newton
+    pike-uc:
+      source-branch: stable/ocata
+    pike:
+      source-branch: stable/ocata
     ocata:
       source-branch: stable/newton
     newton:
@@ -1004,17 +1090,18 @@ packages:
   - jslagle@redhat.com
 - project: tripleo-image-elements
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-validations
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   conf: rpmfactory-core
@@ -1022,40 +1109,41 @@ packages:
   - m.andre@redhat.com
 - project: instack
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: instack
   maintainers:
   - jslagle@redhat.com
 - project: instack-undercloud
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: instack-undercloud
   maintainers:
   - jslagle@redhat.com
 - project: heat-templates
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - sbaker@redhat.com
 - project: heat-agents
   tags:
     under-review:
-    #ocata-uc:
+    #pike-uc:
+    #pike:
     #ocata:
   conf: rpmfactory-core
   maintainers:
@@ -1064,80 +1152,82 @@ packages:
   - zbitter@redhat.com
 - project: os-apply-config
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: os-apply-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-collect-config
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: os-collect-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-net-config
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: os-net-config
   maintainers:
   - dprince@redhat.com
 - project: os-refresh-config
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: os-refresh-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-cloud-config
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   name: os-cloud-config
   maintainers:
   - jruzicka@redhat.com
 - project: os-client-config
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.26.0
+    pike:
     ocata:
+      source-branch: 1.26.0
     newton:
       source-branch: 1.21.1
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   maintainers:
   - jruzicka@redhat.com
 - project: os-win
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.4.0
+    pike:
     ocata:
+      source-branch: 1.4.0
     newton:
       source-branch: 1.2.1
     mitaka:
-    liberty:
   name: python-os-win
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -1145,53 +1235,55 @@ packages:
   - jpena@redhat.com
 - project: manila
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
   - zaitcev@redhat.com
 - project: zaqar
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
 - project: ironic-inspector
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
 - project: ironic-python-agent
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
   - dtantsur@redhat.com
 - project: ironic-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.5.2
+    pike:
     ocata:
+      source-branch: 2.5.2
     newton:
       source-branch: 2.1.3
     mitaka:
@@ -1203,7 +1295,8 @@ packages:
   name: openstack-ironic-ui
   tags:
     under-review:
-    #ocata-uc:
+    #pike-uc:
+    #pike:
     #ocata:
   conf: rpmfactory-core
   maintainers:
@@ -1216,7 +1309,8 @@ packages:
   - msm@redhat.com
 - project: cloudkitty
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -1226,7 +1320,8 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -1235,39 +1330,40 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: ec2-api
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
 - project: magnum
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
 - project: manila-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
       source-branch: aacd1e6a7ba2a0ec7f9de4d446de92afba7d2ca0
@@ -1278,7 +1374,8 @@ packages:
   - rdopiera@redhat.com
 - project: sahara-image-elements
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   conf: rpmfactory-core
@@ -1288,7 +1385,8 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -1299,7 +1397,8 @@ packages:
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -1310,86 +1409,94 @@ packages:
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.10.0
+    pike:
     ocata:
+      source-branch: 3.10.0
     newton:
       source-branch: 3.5.0
     mitaka:
-    liberty:
 - project: glanceclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.6.0
+    pike:
     ocata:
+      source-branch: 2.6.0
     newton:
       source-branch: 2.5.0
     mitaka:
-    liberty:
 - project: novaclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 7.1.0
+    pike:
     ocata:
+      source-branch: 7.1.0
     newton:
       source-branch: 6.0.0
     mitaka:
-    liberty:
 - project: swiftclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.3.0
+    pike:
     ocata:
+      source-branch: 3.3.0
     newton:
       source-branch: 3.1.0
     mitaka:
-    liberty:
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.8.0
+    pike:
     ocata:
+      source-branch: 2.8.0
     newton:
       source-branch: 2.6.2
     mitaka:
-    liberty:
 - project: heatclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.8.0
+    pike:
     ocata:
+      source-branch: 1.8.0
     newton:
       source-branch: 1.5.0
     mitaka:
-    liberty:
 - project: cinderclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.11.0
+    pike:
     ocata:
+      source-branch: 1.11.0
     newton:
       source-branch: 1.9.0
     mitaka:
-    liberty:
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
   - dtantsur@redhat.com
   - trown@redhat.com
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.11.0
+    pike:
     ocata:
+      source-branch: 1.11.0
     newton:
       source-branch: 1.7.1
     mitaka:
-    liberty:
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
@@ -1397,37 +1504,41 @@ packages:
   - jruzicka@redhat.com
   - hguemar@redhat.com
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 6.1.0
+    pike:
     ocata:
+      source-branch: 6.1.0
     newton:
       source-branch: 6.0.0
     mitaka:
-    liberty:
 - project: saharaclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.1.0
+    pike:
     ocata:
+      source-branch: 1.1.0
     newton:
       source-branch: 0.18.0
     mitaka:
-    liberty:
 - project: troveclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.8.0
+    pike:
     ocata:
+      source-branch: 2.8.0
     newton:
       source-branch: 2.5.0
     mitaka:
-    liberty:
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   maintainers:
@@ -1435,32 +1546,35 @@ packages:
 - project: designateclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.6.0
+    pike:
     ocata:
+      source-branch: 2.6.0
     newton:
       source-branch: 2.3.0
     mitaka:
-    liberty:
 - project: manilaclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.14.0
+    pike:
     ocata:
+      source-branch: 1.14.0
     newton:
       source-branch: 1.11.0
     mitaka:
-    liberty:
   conf: rpmfactory-client
 - project: barbicanclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 4.2.0
+    pike:
     ocata:
+      source-branch: 4.2.0
     newton:
       source-branch: 4.0.1
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - greg.swift@rackspace.net
@@ -1468,7 +1582,8 @@ packages:
   - chkumar@redhat.com
 - project: cloudkittyclient
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -1479,22 +1594,24 @@ packages:
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 4.14.0
+    pike:
     ocata:
+      source-branch: 4.14.0
     newton:
       source-branch: 4.9.0
     mitaka:
-    liberty:
 - project: ceilometermiddleware
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.0.0
+    pike:
     ocata:
+      source-branch: 1.0.0
     newton:
       source-branch: 0.5.1
     mitaka:
-    liberty:
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
 - project: openstackclient
@@ -1502,79 +1619,84 @@ packages:
   maintainers:
   - dougal@redhat.com
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.8.1
+    pike:
     ocata:
+      source-branch: 3.8.1
     newton:
       source-branch: 3.2.1
     mitaka:
-    liberty:
 - project: ironic-inspector-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.11.0
+    pike:
     ocata:
+      source-branch: 1.11.0
     newton:
       source-branch: 1.10.0
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - dtantsur@redhat.com
 - project: tripleoclient
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - brad@redhat.com
 - project: zaqarclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.3.0
+    pike:
     ocata:
+      source-branch: 1.3.0
     newton:
       source-branch: 1.2.0
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - hguemar@redhat.com
   - fpercoco@redhat.com
 - project: openstacksdk
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.9.13
+    pike:
     ocata:
+      source-branch: 0.9.13
     newton:
       source-branch: 0.9.5
     mitaka:
       source-branch: 0.8.6
-    liberty:
-      source-branch: 0.7.4
   conf: rpmfactory-client
 - project: gnocchiclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.0.0
+    pike:
     ocata:
+      source-branch: 3.0.0
     newton:
       source-branch: stable/2.6
     mitaka:
-      source-branch: stable/2.2
-    liberty:
       source-branch: stable/2.2
   conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
 - project: aodhclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.8.0
+    pike:
     ocata:
+      source-branch: 0.8.0
     newton:
       source-branch: 0.7.0
     mitaka:
@@ -1583,33 +1705,37 @@ packages:
   - pkilambi@redhat.com
 - project: monascaclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.5.0
+    pike:
     ocata:
+      source-branch: 1.5.0
   conf: rpmfactory-client
   maintainers:
   - jpena@redhat.com
 # openstack libraries
 - project: mox3
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.20.0
+    pike:
     ocata:
+      source-branch: 0.20.0
     newton:
       source-branch: 0.18.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/mox3
 - project: oslotest
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.13.0
+    pike:
     ocata:
+      source-branch: 2.13.0
     newton:
       source-branch: 2.10.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
@@ -1619,194 +1745,213 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.12.0
+    pike:
     ocata:
+      source-branch: 3.12.0
     newton:
       source-branch: 3.9.0
     mitaka:
-    liberty:
 - project: oslo-messaging
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 5.17.0
+    pike:
     ocata:
+      source-branch: 5.17.0
     newton:
       source-branch: 5.10.1
     mitaka:
-    liberty:
 - project: oslo-cache
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.17.0
+    pike:
     ocata:
+      source-branch: 1.17.0
     newton:
       source-branch: 1.14.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.cache
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.22.0
+    pike:
     ocata:
+      source-branch: 3.22.0
     newton:
       source-branch: 3.17.1
     mitaka:
-    liberty:
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.18.0
+    pike:
     ocata:
+      source-branch: 3.18.0
     newton:
       source-branch: 3.14.0
     mitaka:
-    liberty:
 - project: oslo-rootwrap
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 5.4.0
+    pike:
     ocata:
+      source-branch: 5.4.0
     newton:
       source-branch: 5.1.1
     mitaka:
-    liberty:
 - project: oslo-serialization
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.16.0
+    pike:
     ocata:
+      source-branch: 2.16.0
     newton:
       source-branch: 2.13.0
     mitaka:
-    liberty:
 - project: oslo-middleware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.23.1
+    pike:
     ocata:
+      source-branch: 3.23.1
     newton:
       source-branch: 3.19.0
     mitaka:
-    liberty:
 - project: oslo-db
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 4.17.0
+    pike:
     ocata:
+      source-branch: 4.17.0
     newton:
       source-branch: 4.13.5
     mitaka:
-    liberty:
 - project: oslo-utils
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.22.0
+    pike:
     ocata:
+      source-branch: 3.22.0
     newton:
       source-branch: 3.16.0
     mitaka:
-    liberty:
 - project: oslo-vmware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.17.0
+    pike:
     ocata:
+      source-branch: 2.17.0
     newton:
       source-branch: 2.14.0
     mitaka:
-    liberty:
 - project: oslo-context
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.12.1
+    pike:
     ocata:
+      source-branch: 2.12.1
     newton:
       source-branch: 2.9.0
     mitaka:
-    liberty:
 - project: oslo-log
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.20.0
+    pike:
     ocata:
+      source-branch: 3.20.0
     newton:
       source-branch: 3.16.0
     mitaka:
-    liberty:
 - project: oslo-policy
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.18.0
+    pike:
     ocata:
+      source-branch: 1.18.0
     newton:
       source-branch: 1.14.0
     mitaka:
-    liberty:
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.21.0
+    pike:
     ocata:
+      source-branch: 1.21.0
     newton:
       source-branch: 1.17.0
     mitaka:
-    liberty:
 - project: oslo-service
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.19.0
+    pike:
     ocata:
+      source-branch: 1.19.0
     newton:
       source-branch: 1.16.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.17.0
+    pike:
     ocata:
+      source-branch: 1.17.0
     newton:
       source-branch: 1.14.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.reports
 - project: oslo-privsep
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.16.0
+    pike:
     ocata:
+      source-branch: 1.16.0
     newton:
       source-branch: 1.13.1
   conf: rpmfactory-lib
@@ -1814,88 +1959,98 @@ packages:
 - project: stevedore
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.20.0
+    pike:
     ocata:
+      source-branch: 1.20.0
     newton:
       source-branch: 1.17.1
     mitaka:
-    liberty:
 - project: castellan
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.5.0
+    pike:
     ocata:
+      source-branch: 0.5.0
     newton:
       source-branch: 0.4.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
 - project: taskflow
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.9.0
+    pike:
     ocata:
+      source-branch: 2.9.0
     newton:
       source-branch: 2.6.0
     mitaka:
-    liberty:
 - project: pycadf
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.5.0
+    pike:
     ocata:
+      source-branch: 2.5.0
     newton:
       source-branch: 2.4.0
     mitaka:
-    liberty:
 - project: debtcollector
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.11.0
+    pike:
     ocata:
+      source-branch: 1.11.0
     newton:
       source-branch: 1.8.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
 - project: automaton
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.7.0
+    pike:
     ocata:
+      source-branch: 1.7.0
     newton:
       source-branch: 1.4.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
 - project: cliff
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.4.0
+    pike:
     ocata:
+      source-branch: 2.4.0
     newton:
       source-branch: 2.2.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
 - project: futurist
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.21.0
+    pike:
     ocata:
+      source-branch: 0.21.0
     newton:
       source-branch: 0.18.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
 - project: cursive
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.1.1
+    pike:
     ocata:
+      source-branch: 0.1.1
     newton:
       source-branch: 0.1.1
   maintainers:
@@ -1903,16 +2058,17 @@ packages:
   conf: rpmfactory-lib
 - project: hacking
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack-dev/hacking
 - project: wsme
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   conf: rpmfactory-lib
@@ -1935,18 +2091,19 @@ packages:
   - jpena@redhat.com
 - project: tripleo-common
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
 - project: tripleo-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   conf: rpmfactory-core
@@ -1958,14 +2115,14 @@ packages:
   maintainers:
   - apevec@redhat.com
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.5.0
+    pike:
     ocata:
+      source-branch: 1.5.0
     newton:
       source-branch: 1.4.0
     mitaka:
-      source-branch: 1.4.0
-    liberty:
       source-branch: 1.4.0
 - project: networking-arista
   conf: rpmfactory-lib
@@ -1991,8 +2148,9 @@ packages:
   name: python-networking-sfc
   tags:
     under-review:
+    #pike-uc:
+    #pike:
     #ocata:
-    #ocata-uc:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
@@ -2001,8 +2159,9 @@ packages:
   name: python-networking-vsphere
   tags:
     under-review:
+#   pike-uc:
+#   pike:
 #   ocata:
-#   ocata-uc:
   maintainers:
   - odivlad@gmail.com
   - gm.mephisto@gmail.com
@@ -2015,9 +2174,11 @@ packages:
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.7.0
+    pike:
     ocata:
+      source-branch: 0.7.0
   maintainers:
   - jpena@redhat.com
 - project: networking-bigswitch
@@ -2029,7 +2190,8 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -2042,13 +2204,13 @@ packages:
 - project: networking-cisco
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
       source-branch: 4.0.0
     mitaka:
       source-branch: 3.2.0
-    liberty:
   name: python-networking-cisco
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -2063,11 +2225,11 @@ packages:
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   name: python-ironic-cisco
   conf: rpmfactory-core
   maintainers:
@@ -2075,23 +2237,24 @@ packages:
   - sambetts@cisco.com
 - project: tripleo-puppet-elements
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
 - project: os-brick
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.11.0
+    pike:
     ocata:
+      source-branch: 1.11.0
     newton:
       source-branch: 1.6.1
     mitaka:
-    liberty:
   name: python-os-brick
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -2100,11 +2263,11 @@ packages:
   - jpena@redhat.com
 - project: hardware
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://github.com/redhat-cip/hardware.git
   maintainers:
@@ -2112,40 +2275,39 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.18.0
+    pike:
     ocata:
+      source-branch: 2.18.0
     newton:
       source-branch: 2.12.3
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://github.com/openstack/keystoneauth
 - project: rally
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
       source-branch: 0.7.0
     mitaka:
       source-branch: 0.7.0
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - vimartin@redhat.com
   - slinaber@redhat.com
 - project: tempest
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
       source-branch: newton
       upstream: git://github.com/redhat-openstack/tempest.git
     mitaka:
       source-branch: mitaka
-      upstream: git://github.com/redhat-openstack/tempest.git
-    liberty:
-      source-branch: liberty
       upstream: git://github.com/redhat-openstack/tempest.git
   conf: rpmfactory-core
   maintainers:
@@ -2155,13 +2317,14 @@ packages:
   - ltoscano@redhat.com
 - project: tempest-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.0.0
+    pike:
     ocata:
+      source-branch: 1.0.0
     newton:
       source-branch: 1.0.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
@@ -2169,13 +2332,14 @@ packages:
   - dmellado@redhat.com
 - project: os-testr
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.8.0
+    pike:
     ocata:
+      source-branch: 0.8.0
     newton:
       source-branch: 0.8.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
@@ -2183,75 +2347,78 @@ packages:
   - dmellado@redhat.com
 - project: proliantutils
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
 - project: dracclient
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
 - project: mistralclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 3.0.0
+    pike:
     ocata:
+      source-branch: 3.0.0
     newton:
       source-branch: 2.1.2
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - hguemar@redhat.com
 - project: mistral
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
 - project: requestsexceptions
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.1.3
+    pike:
     ocata:
+      source-branch: 1.1.3
     newton:
       source-branch: 1.1.3
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   upstream: git://github.com/openstack-infra/requestsexceptions
   maintainers:
   - jpena@redhat.com
 - project: app-catalog-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
-    liberty:
   conf: rpmfactory-core
   maintainers:
   - Kevin.Fox@pnnl.gov
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -2261,7 +2428,8 @@ packages:
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -2270,35 +2438,39 @@ packages:
   - marcos.fermin.lobo@cern.ch
 - project: tooz
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.48.0
+    pike:
     ocata:
+      source-branch: 1.48.0
     newton:
       source-branch: 1.43.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   maintainers:
   - apevec@redhat.com
   - pkilambi@redhat.com
 - project: magnumclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.4.0
+    pike:
     ocata:
+      source-branch: 2.4.0
     newton:
       source-branch: 2.3.1
     mitaka:
-    liberty:
   conf: rpmfactory-client
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
 - project: congressclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.6.0
+    pike:
     ocata:
+      source-branch: 1.6.0
     newton:
       source-branch: 1.5.0
     mitaka:
@@ -2310,9 +2482,11 @@ packages:
   tags:
 # TODO(jpena): muranoclient needs to be version-locked to 0.11.1 until murano-pkg-check is packaged
     version-locked:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.11.1
+    pike:
     ocata:
+      source-branch: 0.11.1
     newton:
       source-branch: 0.11.1
     mitaka:
@@ -2322,7 +2496,8 @@ packages:
   - asteroid566@gmail.com
 - project: murano
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -2332,7 +2507,8 @@ packages:
   - asteroid566@gmail.com
 - project: murano-agent
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   conf: rpmfactory-core
@@ -2341,7 +2517,8 @@ packages:
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
     mitaka:
@@ -2351,22 +2528,25 @@ packages:
   - iyozhikov@mirantis.com
 - project: reno
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 2.0.3
+    pike:
     ocata:
+      source-branch: 2.0.3
     newton:
       source-branch: 1.9.0
     mitaka:
-    liberty:
   conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
   - jpena@redhat.com
 - project: k8sclient
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.3.0
+    pike:
     ocata:
+      source-branch: 0.3.0
     newton:
       source-branch: 0.3.0
   conf: rpmfactory-client
@@ -2374,18 +2554,22 @@ packages:
   - chkumar@redhat.com
 - project: microversion-parse
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.1.4
+    pike:
     ocata:
+      source-branch: 0.1.4
     newton:
       source-branch: 0.1.4
   conf: rpmfactory-lib
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.3.0
+    pike:
     ocata:
+      source-branch: 1.3.0
     newton:
       source-branch: 1.1.0
   maintainers:
@@ -2394,7 +2578,8 @@ packages:
   conf: rpmfactory-lib
   name: python-horizon-tests-tempest
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   maintainers:
@@ -2402,9 +2587,11 @@ packages:
 - project: os-vif
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 1.4.0
+    pike:
     ocata:
+      source-branch: 1.4.0
     newton:
       source-branch: 1.2.1
   maintainers:
@@ -2413,7 +2600,8 @@ packages:
   conf: rpmfactory-lib
   name: openstack-sahara-tests
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
     newton:
   maintainers:
@@ -2423,15 +2611,17 @@ packages:
   conf: rpmfactory-lib
   name: python-os-faults
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - chkumar@redhat.com
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
+    pike-uc:
+    pike:
     ocata:
-    ocata-uc:
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/networking-bagpipe
   maintainers:
@@ -2439,22 +2629,25 @@ packages:
 - project: virtualbmc
   name: python-virtualbmc
   tags:
+    pike-uc:
+    pike:
     ocata:
-    ocata-uc:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
+    pike-uc:
+    pike:
     ocata:
-    ocata-uc:
   maintainers:
   - rnoriega@redhat.com
 - project: novajoin
   name: python-novajoin
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   conf: rpmfactory-lib
   maintainers:
@@ -2463,8 +2656,9 @@ packages:
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
+    pike-uc:
+    pike:
     ocata:
-    ocata-uc:
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/networking-fujitsu
   maintainers:
@@ -2472,15 +2666,17 @@ packages:
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
+    pike-uc:
+    pike:
     ocata:
-    ocata-uc:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - rnoriega@redhat.com
@@ -2488,24 +2684,29 @@ packages:
   name: python-heat-translator
   conf: rpmfactory-lib
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.7.0
+    pike:
     ocata:
+      source-branch: 0.7.0
   maintainers:
   - dradez@redhat.com
 - project: tacker
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - dradez@redhat.com
 - project: tackerclient
   conf: rpmfactory-client
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: 0.9.0
+    pike:
     ocata:
+      source-branch: 0.9.0
   maintainers:
   - dradez@redhat.com
 - project: ansible-pacemaker
@@ -2513,21 +2714,24 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/redhat-openstack/ansible-pacemaker
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - mbultel@redhat.com
 - project: congress
   conf: rpmfactory-core
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - dradez@redhat.com
 - project: shaker
   name: python-shaker
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   conf: rpmfactory-lib
   maintainers:
@@ -2536,7 +2740,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://github.com/redhat-openstack/python-tempestconf.git
   tags:
-    ocata-uc:
+    pike-uc:
+    pike:
     ocata:
   maintainers:
   - chkumar@redhat.com
@@ -2546,15 +2751,18 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://github.com/kemra102/puppet-auditd
   tags:
-    ocata-uc:
+    pike-uc:
       source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
+    pike:
     ocata:
+      source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
   maintainers:
   - lhinds@redhat.com
 - project: kolla
   tags:
     under-review:
-    #ocata-uc:
+    #pike-uc:
+    #pike:
     #ocata:
   conf: rpmfactory-core
   maintainers:
