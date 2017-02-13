@@ -223,6 +223,10 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-trove
   conf: rpmfactory-puppet
+- project: puppet-vitrage
+  conf: rpmfactory-puppet
+  tags:
+      under-review:
 - project: puppet-vswitch
   conf: rpmfactory-puppet
 - project: puppet-ceph
@@ -460,7 +464,7 @@ packages:
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
-  tags:
+  tags:aodhclient
     ocata-uc:
       source-branch: 066d7a5bb630a41296428d81d3c1a1232574d008
     ocata:
