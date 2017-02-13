@@ -2147,10 +2147,9 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-sfc
   tags:
-    under-review:
-    #pike-uc:
-    #pike:
-    #ocata:
+    pike-uc:
+    pike:
+    ocata:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
