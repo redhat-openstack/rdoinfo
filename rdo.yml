@@ -1298,10 +1298,9 @@ packages:
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
-    under-review:
-    #pike-uc:
-    #pike:
-    #ocata:
+    pike-uc:
+    pike:
+    ocata:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
