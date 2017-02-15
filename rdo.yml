@@ -2475,13 +2475,11 @@ packages:
   - asteroid566@gmail.com
 - project: muranoclient
   tags:
-# TODO(jpena): muranoclient needs to be version-locked to 0.11.1 until murano-pkg-check is packaged
-    version-locked:
     pike-uc:
-      source-branch: 0.11.1
+      source-branch: 0.12.0
     pike:
     ocata:
-      source-branch: 0.11.1
+      source-branch: 0.12.0
     newton:
       source-branch: 0.11.1
     mitaka:
