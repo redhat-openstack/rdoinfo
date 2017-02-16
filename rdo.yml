@@ -1134,6 +1134,9 @@ packages:
   - jslagle@redhat.com
 - project: heat-templates
   tags:
+    pike-uc:
+    pike:
+    ocata:
     newton:
     mitaka:
   conf: rpmfactory-core
@@ -1141,9 +1144,10 @@ packages:
   - sbaker@redhat.com
 - project: heat-agents
   tags:
-    pike-uc:
-    pike:
-    ocata:
+    under-review:
+    #pike-uc:
+    #pike:
+    #ocata:
   conf: rpmfactory-core
   maintainers:
   - therve@redhat.com
