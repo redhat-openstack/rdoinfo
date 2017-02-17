@@ -1539,6 +1539,8 @@ packages:
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
+    # TODO(jpena): unlock once we have 1.1.2 tagged upstream
+    version-locked:
     pike-uc:
     pike:
     ocata:
@@ -1655,7 +1657,7 @@ packages:
 - project: zaqarclient
   tags:
     pike-uc:
-      source-branch: 1.3.0
+      source-branch: 1.4.0
     pike:
     ocata:
       source-branch: 1.3.0
@@ -2176,7 +2178,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 0.7.0
+      source-branch: 0.7.1
     pike:
     ocata:
       source-branch: 0.7.0
