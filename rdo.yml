@@ -1132,6 +1132,18 @@ packages:
   name: instack-undercloud
   maintainers:
   - jslagle@redhat.com
+- project: ara
+  name: python-ara
+  tags:
+    under-review
+    #pike-uc:
+    #pike:
+    #ocata:
+    #newton:
+    #mitaka:
+  conf: rpmfactory-core
+  maintainers:
+  - lbezdick@redhat.com
 - project: heat-templates
   tags:
     newton:
