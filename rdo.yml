@@ -2184,6 +2184,15 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-bigswitch
   upstream: git://git.openstack.org/openstack/%(project)s
+  tags:
+    pike-uc:
+    pike:
+    ocata:
+    newton:
+      # Required until https://bugs.launchpad.net/networking-bigswitch/+bug/1658645
+      # is fixed.
+      source-branch: 061815ffaf250deeb78a367e22747a4733999a48
+    mitaka:
   maintainers:
   - xin.wu@bigswitch.com
 - project: networking-ovn
