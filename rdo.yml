@@ -1245,7 +1245,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
-  - zaitcev@redhat.com
+  - tbarron@redhat.com
 - project: zaqar
   tags:
     pike-uc:
@@ -1360,6 +1360,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@redhat.com
+  - tbarron@redhat.com
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
@@ -1567,6 +1568,8 @@ packages:
     newton:
       source-branch: 1.11.0
     mitaka:
+  maintainers:
+  - tbarron@redhat.com
   conf: rpmfactory-client
 - project: barbicanclient
   tags:
