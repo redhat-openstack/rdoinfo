@@ -1477,7 +1477,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 1.11.0
+      source-branch: 2.0.0
     pike:
     ocata:
       source-branch: 1.11.0
@@ -1761,7 +1761,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     pike-uc:
-      source-branch: 5.18.0
+      source-branch: 5.19.0
     pike:
     ocata:
       source-branch: 5.17.1
@@ -1809,7 +1809,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     pike-uc:
-      source-branch: 5.5.0
+      source-branch: 5.6.0
     pike:
     ocata:
       source-branch: 5.4.0
@@ -1905,7 +1905,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     pike-uc:
-      source-branch: 1.19.0
+      source-branch: 1.20.0
     pike:
     ocata:
       source-branch: 1.18.0
@@ -2119,7 +2119,7 @@ packages:
   - apevec@redhat.com
   tags:
     pike-uc:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
     pike:
     ocata:
       source-branch: 1.5.0
@@ -2275,7 +2275,7 @@ packages:
 - project: keystoneauth1
   tags:
     pike-uc:
-      source-branch: 2.18.0
+      source-branch: 2.19.0
     pike:
     ocata:
       source-branch: 2.18.0
@@ -2436,7 +2436,7 @@ packages:
 - project: tooz
   tags:
     pike-uc:
-      source-branch: 1.50.0
+      source-branch: 1.51.0
     pike:
     ocata:
       source-branch: 1.48.0
