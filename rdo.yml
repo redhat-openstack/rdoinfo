@@ -2783,3 +2783,13 @@ packages:
   maintainers:
   - lucasagomes@gmail.com
   - dtantsur@redhat.com
+- project: collectd-ceilometer-plugin
+  name: collectd-ceilometer-plugin
+  conf: rpmfactory-lib
+  upstream: https://github.com/openstack/collectd-ceilometer-plugin
+  tags:
+    under-review:
+    #pike:
+    #pike-uc:
+  maintainers:
+    - mrunge@redhat.com
