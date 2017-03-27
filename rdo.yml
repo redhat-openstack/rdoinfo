@@ -112,7 +112,7 @@ package-configs:
   xstatic:
     maintainers:
     - mrunge@redhat.com
-    - rdopiera@redhat.com
+    - github@sheep.art.pl
   # templates using rpmfactory's repositories
   rpmfactory-core:
     name: openstack-%(project)s
@@ -832,7 +832,7 @@ packages:
 - project: nova
   conf: rpmfactory-core
   maintainers:
-  - sferdjao@redhat.com
+  - sahid.ferdjaoui@redhat.com
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -921,7 +921,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: neutron
   conf: rpmfactory-core
   maintainers:
@@ -1041,18 +1041,18 @@ packages:
   name: python-django-horizon
   maintainers:
   - mrunge@redhat.com
-  - rdopiera@redhat.com
+  - github@sheep.art.pl
 - project: trove
   conf: rpmfactory-core
   maintainers:
-  - victoria@redhat.com
+  - vimartin@redhat.com
   - hguemar@fedoraproject.org
 - project: django_openstack_auth
   conf: rpmfactory-lib
   name: python-django-openstack-auth
   maintainers:
   - mrunge@redhat.com
-  - rdopiera@redhat.com
+  - github@sheep.art.pl
 - project: diskimage-builder
   tags:
     pike-uc:
@@ -1301,7 +1301,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: ironic-python-agent
   tags:
     pike-uc:
@@ -1312,7 +1312,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: ironic-lib
   tags:
     pike-uc:
@@ -1326,7 +1326,7 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - trown@redhat.com
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
@@ -1336,7 +1336,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - trown@redhat.com
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: barbican
   conf: rpmfactory-core
   maintainers:
@@ -1407,7 +1407,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - mrunge@redhat.com
-  - rdopiera@redhat.com
+  - github@sheep.art.pl
 - project: sahara-image-elements
   tags:
     pike-uc:
@@ -1428,7 +1428,7 @@ packages:
     mitaka:
   conf: rpmfactory-core
   maintainers:
-  - victoria@redhat.com
+  - vimartin@redhat.com
   - pmackinn@redhat.com
 - project: sahara-dashboard
   name: openstack-sahara-ui
@@ -1522,7 +1522,7 @@ packages:
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
   - trown@redhat.com
   tags:
     pike-uc:
@@ -1690,7 +1690,7 @@ packages:
     mitaka:
   conf: rpmfactory-client
   maintainers:
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: tripleoclient
   tags:
     pike-uc:
@@ -2200,13 +2200,13 @@ packages:
   name: python-networking-mlnx
   upstream: https://github.com/openstack/%(project)s
   maintainers:
-  - lennyb@mellanox.com
+  - lennybe@gmail.com
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
   upstream: https://github.com/openstack/%(project)s
   maintainers:
-  - mkolesni@redhat.com
+  - mike.kolesnik@gmail.com
 - project: networking-sfc
   conf: rpmfactory-lib
   name: python-networking-sfc
@@ -2265,7 +2265,7 @@ packages:
   name: python-networking-ovn
   upstream: https://github.com/openstack/%(project)s
   maintainers:
-  - rbryant@redhat.com
+  - russell@russellbryant.net
   - nusiddiq@redhat.com
 - project: networking-cisco
   conf: rpmfactory-lib
@@ -2287,7 +2287,7 @@ packages:
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
   maintainers:
   - openstack-networking@cisco.com
-  - sambetts@cisco.com
+  - sam@code-smash.net
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
@@ -2297,7 +2297,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - openstack-networking@cisco.com
-  - sambetts@cisco.com
+  - sam@code-smash.net
 - project: tripleo-puppet-elements
   tags:
     pike-uc:
@@ -2846,7 +2846,7 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
-  - dtantsur@redhat.com
+  - divius.inside@gmail.com
 - project: collectd-ceilometer-plugin
   name: collectd-ceilometer-plugin
   conf: rpmfactory-lib
