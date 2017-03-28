@@ -1,0 +1,38 @@
+package-configs:
+  unmanaged-dependency:
+     # This is the conf for dependencies in rdo-common not being entirely managed
+     # in review.r.o but using cbs-tags for automatic tagging
+     distgit: https://github.com/rdo-common/%(project)s.git
+     patches:
+     master-distgit: https://github.com/rdo-common/%(project)s.git
+     review-patches:
+     review-origin:
+     tags:
+       dependency:
+     maintainers:
+     - apevec@redhat.com
+     - hguemar@fedoraproject.org
+  dependency:
+     # This is the conf for dependencies in rdo-common entirely managed
+     # in review.r.o
+     distgit: https://github.com/rdo-common/%(project)s-distgit.git
+     patches: http://review.rdoproject.org/r/p/rdo-common/%(project)s.git
+     master-distgit: https://github.com/rdo-common/%(project)s-distgit.git
+     review-patches: ssh://review.rdoproject.org:29418/rdo-common/%(project)s.git
+     review-origin: ssh://review.rdoproject.org:29418/rdo-common/%(project)s-distgit.git
+     tags:
+       dependency:
+     maintainers:
+     - apevec@redhat.com
+     - hguemar@fedoraproject.org
+packages:
+# Used as example for further work in CBS tags automation
+- project: python-sphinx
+  name: python-sphinx
+  conf: unmanaged-dependency
+  upstream: https://github.com/sphinx-doc/sphinx
+  cbs-tags:
+    common:
+      testing: python-sphinx-1.2.3-5.el7
+      release: python-sphinx-1.2.3-5.el7
+
