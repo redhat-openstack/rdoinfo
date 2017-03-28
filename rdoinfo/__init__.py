@@ -2,6 +2,7 @@ import collections
 import copy
 import six
 import yaml
+from os import path
 
 
 __version__ = '0.2'
@@ -44,11 +45,23 @@ class DuplicatedProject(InvalidInfoFormat):
     msg_fmt = "Duplicated project: %(prj)s"
 
 
-def parse_info_file(fn, apply_tag=None):
-    info = yaml.load(open(fn, 'rb'))
-    parse_info(info, apply_tag=apply_tag)
+def include_packages(info, include_info):
+    if include_info:
+        if 'packages' in include_info.keys():
+            info['packages'] = info['packages'] + include_info['packages']
+        if 'package-configs' in include_info.keys():
+            info['package-configs'].update(include_info['package-configs'])
     return info
 
+
+def parse_info_file(fn, apply_tag=None, include_fns=['deps.yml']):
+    info = yaml.load(open(fn, 'rb'))
+    for fn in include_fns:
+        include_file = path.join(path.dirname(fn), fn)
+        include_info = yaml.load(open(include_file, 'rb'))
+        info = include_packages(info, include_info)
+    parse_info(info, apply_tag=apply_tag)
+    return info
 
 def parse_info(info, apply_tag=None):
     parse_releases(info)
