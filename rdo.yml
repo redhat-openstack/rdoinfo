@@ -2795,3 +2795,20 @@ packages:
     #pike-uc:
   maintainers:
   - mrunge@redhat.com
+- project: kuryr
+  name: python-kuryr-lib
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+  maintainers:
+  - asegurap@redhat.com
+  - dmellado@redhat.com
+  - ltomasbo@redhat.com
+- project: kuryr-kubernetes
+  conf: rpmfactory-core
+  tags:
+    under-review:
+  maintainers:
+  - asegurap@redhat.com
+  - dmellado@redhat.com
+  - ltomasbo@redhat.com
