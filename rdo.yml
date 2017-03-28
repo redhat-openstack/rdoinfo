@@ -111,7 +111,7 @@ package-configs:
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
     - jruzicka@redhat.com
-    - hguemar@redhat.com
+    - hguemar@fedoraproject.org
   rpmfactory-client:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/python-%(project)s
@@ -124,7 +124,7 @@ package-configs:
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
     - jruzicka@redhat.com
-    - hguemar@redhat.com
+    - hguemar@fedoraproject.org
   rpmfactory-lib:
     name: python-%(project)s
     upstream: git://git.openstack.org/openstack/%(project)s
@@ -137,7 +137,7 @@ package-configs:
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     maintainers:
     - apevec@redhat.com
-    - hguemar@redhat.com
+    - hguemar@fedoraproject.org
     - lbezdick@redhat.com
   rpmfactory-puppet:
     name: '%(project)s'
@@ -818,13 +818,13 @@ packages:
 - project: glance
   conf: rpmfactory-core
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: glance_store
   conf: rpmfactory-core
   name: python-glance-store
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: swift
   conf: rpmfactory-core
@@ -888,7 +888,7 @@ packages:
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
 - project: ironic
   tags:
     pike-uc:
@@ -1024,7 +1024,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - victoria@redhat.com
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
 - project: django_openstack_auth
   conf: rpmfactory-lib
   name: python-django-openstack-auth
@@ -1243,7 +1243,7 @@ packages:
     mitaka:
   conf: rpmfactory-core
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   - tbarron@redhat.com
 - project: zaqar
   tags:
@@ -1254,7 +1254,7 @@ packages:
     mitaka:
   conf: rpmfactory-core
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   - fpercoco@redhat.com
 - project: ironic-inspector
   tags:
@@ -1358,7 +1358,7 @@ packages:
     mitaka:
   conf: rpmfactory-core
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   - tbarron@redhat.com
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
@@ -1503,7 +1503,7 @@ packages:
   maintainers:
   - ihrachys@redhat.com
   - jruzicka@redhat.com
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   tags:
     pike-uc:
       source-branch: 6.1.0
@@ -1669,7 +1669,7 @@ packages:
     mitaka:
   conf: rpmfactory-client
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
   - fpercoco@redhat.com
 - project: openstacksdk
   tags:
@@ -2380,7 +2380,7 @@ packages:
     mitaka:
   conf: rpmfactory-client
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
 - project: mistral
   tags:
     pike-uc:
@@ -2390,7 +2390,7 @@ packages:
     mitaka:
   conf: rpmfactory-core
   maintainers:
-  - hguemar@redhat.com
+  - hguemar@fedoraproject.org
 - project: requestsexceptions
   tags:
     pike-uc:
