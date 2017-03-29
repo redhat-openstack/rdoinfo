@@ -2085,9 +2085,9 @@ packages:
   name: openstack-packstack
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - ichavero@redhat.com
   - mmagr@redhat.com
-  - lbezdick@redhat.com
+  - amoralej@redhat.com
+  - jpena@redhat.com
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
