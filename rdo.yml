@@ -1200,6 +1200,7 @@ packages:
     ocata:
       source-branch: 294a04e99eea6811b2847f9b31746f4255167c3a
     newton:
+      source-branch: 5.1.0
     mitaka:
   conf: rpmfactory-core
   name: os-cloud-config
@@ -1959,7 +1960,7 @@ packages:
     ocata:
       source-branch: 1.16.0
     newton:
-      source-branch: 1.13.2
+      source-branch: 1.13.1
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.privsep
 - project: stevedore
