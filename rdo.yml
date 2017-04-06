@@ -1233,6 +1233,12 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
+- project: os-xenapi
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+  maintainers:
+  - jpena@redhat.com
 - project: manila
   tags:
     pike-uc:
