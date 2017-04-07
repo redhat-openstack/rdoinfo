@@ -1676,9 +1676,8 @@ packages:
   maintainers:
   - tdecacqu@redhat.com
   tags:
-    under-review:
-    # pike-uc:
-    #   source-branch: 1.18.1
+    pike-uc:
+    pike:
   upstream: https://github.com/openstack-infra/%(project)s
 - project: ironic-inspector-client
   tags:
