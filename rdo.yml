@@ -1640,6 +1640,15 @@ packages:
     newton:
       source-branch: 3.2.1
     mitaka:
+- project: shade
+  conf: rpmfactory-client
+  maintainers:
+  - tdecacqu@redhat.com
+  tags:
+    under-review:
+    # pike-uc:
+    #   source-branch: 1.18.1
+  upstream: git://git.openstack.org/openstack-infra/%(project)s
 - project: ironic-inspector-client
   tags:
     pike-uc:
