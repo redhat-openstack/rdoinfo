@@ -1222,7 +1222,7 @@ packages:
 - project: os-win
   tags:
     pike-uc:
-      source-branch: 1.4.1
+      source-branch: 2.0.0
     pike:
     ocata:
       source-branch: 1.4.1
@@ -1238,6 +1238,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
+      source-branch: 0.1.1
     pike:
   maintainers:
   - jpena@redhat.com
@@ -1607,7 +1608,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     pike-uc:
-      source-branch: 4.14.0
+      source-branch: 4.15.0
     pike:
     ocata:
       source-branch: 4.14.0
