@@ -2407,6 +2407,14 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@fedoraproject.org
+- project: mistral-lib
+  tags:
+    under-review:
+    #pike-uc:
+    #pike:
+  conf: rpmfactory-lib
+  maintainers:
+  - dougal@redhat.com
 - project: requestsexceptions
   tags:
     pike-uc:
