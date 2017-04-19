@@ -1239,6 +1239,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
+      source-branch: 0.1.1
     pike:
   maintainers:
   - jpena@redhat.com
@@ -1854,7 +1855,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
     pike-uc:
-      source-branch: 3.25.0
+      source-branch: 3.26.0
     pike:
     ocata:
       source-branch: 3.23.1
@@ -1914,7 +1915,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     pike-uc:
-      source-branch: 3.24.0
+      source-branch: 3.25.0
     pike:
     ocata:
       source-branch: 3.20.1
