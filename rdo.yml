@@ -2009,6 +2009,17 @@ packages:
       source-branch: 1.13.2
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/oslo.privsep
+- project: ovsdbapp
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+    #pike:
+    #pike-uc:
+  maintainers:
+  - twilson@redhat.com
+  - ihrachys@redhat.com
+  - jlibosva@redhat.com
+  - rbryant@rehdat.com
 - project: stevedore
   conf: rpmfactory-lib
   tags:
