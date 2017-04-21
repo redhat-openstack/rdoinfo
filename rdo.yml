@@ -1219,6 +1219,9 @@ packages:
   - jruzicka@redhat.com
 - project: os-cloud-config
   tags:
+    # This project was removed in Pike and locked to the commit before
+    # retirement.
+    version-locked:
     ocata:
       source-branch: 294a04e99eea6811b2847f9b31746f4255167c3a
     newton:
@@ -1490,7 +1493,7 @@ packages:
       source-branch: 2.8.1
     pike:
     ocata:
-      source-branch: 2.8.0
+      source-branch: 2.8.1
     newton:
       source-branch: 2.6.2
     mitaka:
@@ -1726,6 +1729,8 @@ packages:
   conf: rpmfactory-client
 - project: gnocchiclient
   tags:
+    # TODO: remove when https://review.openstack.org/448549 is merged
+    version-locked:
     pike-uc:
       source-branch: 3.1.1
     pike:
