@@ -116,7 +116,7 @@ package-configs:
   # templates using rpmfactory's repositories
   rpmfactory-core:
     name: openstack-%(project)s
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://github.com/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -129,7 +129,7 @@ package-configs:
     - hguemar@fedoraproject.org
   rpmfactory-client:
     name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/python-%(project)s
+    upstream: https://github.com/openstack/python-%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -142,7 +142,7 @@ package-configs:
     - hguemar@fedoraproject.org
   rpmfactory-lib:
     name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://github.com/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -156,7 +156,7 @@ package-configs:
     - lbezdick@redhat.com
   rpmfactory-puppet:
     name: '%(project)s'
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://github.com/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/puppet/%(project)s.git
@@ -1102,7 +1102,7 @@ packages:
   - dprince@redhat.com
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
-  upstream: git://git.openstack.org/openstack/tripleo-heat-templates
+  upstream: https://github.com/openstack/tripleo-heat-templates
   tags:
     pike-uc:
       source-branch: stable/ocata
@@ -1253,7 +1253,7 @@ packages:
     mitaka:
   name: python-os-win
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
 - project: os-xenapi
@@ -1629,7 +1629,7 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: rpmfactory-client
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   tags:
     pike-uc:
       source-branch: 4.15.0
@@ -1652,7 +1652,7 @@ packages:
       source-branch: 0.5.1
     mitaka:
   conf: rpmfactory-client
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -1674,7 +1674,7 @@ packages:
     under-review:
     # pike-uc:
     #   source-branch: 1.18.1
-  upstream: git://git.openstack.org/openstack-infra/%(project)s
+  upstream: https://github.com/openstack-infra/%(project)s
 - project: ironic-inspector-client
   tags:
     pike-uc:
@@ -1773,7 +1773,7 @@ packages:
       source-branch: 0.18.0
     mitaka:
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/mox3
+  upstream: https://github.com/openstack/mox3
 - project: oslotest
   tags:
     pike-uc:
@@ -1785,13 +1785,13 @@ packages:
       source-branch: 2.10.0
     mitaka:
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslotest
+  upstream: https://github.com/openstack/oslotest
 - project: oslo-sphinx
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslosphinx
+  upstream: https://github.com/openstack/oslosphinx
 - project: oslo-i18n
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.i18n
+  upstream: https://github.com/openstack/oslo.i18n
   tags:
     pike-uc:
       source-branch: 3.15.0
@@ -1803,7 +1803,7 @@ packages:
     mitaka:
 - project: oslo-messaging
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.messaging
+  upstream: https://github.com/openstack/oslo.messaging
   tags:
     pike-uc:
       source-branch: 5.22.0
@@ -1824,10 +1824,10 @@ packages:
       source-branch: 1.14.0
     mitaka:
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.cache
+  upstream: https://github.com/openstack/oslo.cache
 - project: oslo-config
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.config
+  upstream: https://github.com/openstack/oslo.config
   tags:
     pike-uc:
       source-branch: 3.24.0
@@ -1839,7 +1839,7 @@ packages:
     mitaka:
 - project: oslo-concurrency
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.concurrency
+  upstream: https://github.com/openstack/oslo.concurrency
   tags:
     pike-uc:
       source-branch: 3.20.0
@@ -1851,7 +1851,7 @@ packages:
     mitaka:
 - project: oslo-rootwrap
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.rootwrap
+  upstream: https://github.com/openstack/oslo.rootwrap
   tags:
     pike-uc:
       source-branch: 5.7.0
@@ -1863,7 +1863,7 @@ packages:
     mitaka:
 - project: oslo-serialization
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.serialization
+  upstream: https://github.com/openstack/oslo.serialization
   tags:
     pike-uc:
       source-branch: 2.18.0
@@ -1875,7 +1875,7 @@ packages:
     mitaka:
 - project: oslo-middleware
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.middleware
+  upstream: https://github.com/openstack/oslo.middleware
   tags:
     pike-uc:
       source-branch: 3.26.0
@@ -1887,7 +1887,7 @@ packages:
     mitaka:
 - project: oslo-db
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.db
+  upstream: https://github.com/openstack/oslo.db
   tags:
     pike-uc:
       source-branch: 4.21.0
@@ -1899,7 +1899,7 @@ packages:
     mitaka:
 - project: oslo-utils
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.utils
+  upstream: https://github.com/openstack/oslo.utils
   tags:
     pike-uc:
       source-branch: 3.25.0
@@ -1911,7 +1911,7 @@ packages:
     mitaka:
 - project: oslo-vmware
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.vmware
+  upstream: https://github.com/openstack/oslo.vmware
   tags:
     pike-uc:
       source-branch: 2.19.0
@@ -1923,7 +1923,7 @@ packages:
     mitaka:
 - project: oslo-context
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.context
+  upstream: https://github.com/openstack/oslo.context
   tags:
     pike-uc:
       source-branch: 2.13.0
@@ -1935,7 +1935,7 @@ packages:
     mitaka:
 - project: oslo-log
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.log
+  upstream: https://github.com/openstack/oslo.log
   tags:
     pike-uc:
       source-branch: 3.25.0
@@ -1947,7 +1947,7 @@ packages:
     mitaka:
 - project: oslo-policy
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.policy
+  upstream: https://github.com/openstack/oslo.policy
   tags:
     pike-uc:
       source-branch: 1.22.0
@@ -1959,7 +1959,7 @@ packages:
     mitaka:
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.versionedobjects
+  upstream: https://github.com/openstack/oslo.versionedobjects
   tags:
     pike-uc:
       source-branch: 1.23.0
@@ -1980,7 +1980,7 @@ packages:
       source-branch: 1.16.0
     mitaka:
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.service
+  upstream: https://github.com/openstack/oslo.service
 - project: oslo-reports
   tags:
     pike-uc:
@@ -1992,7 +1992,7 @@ packages:
       source-branch: 1.14.0
     mitaka:
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.reports
+  upstream: https://github.com/openstack/oslo.reports
 - project: oslo-privsep
   tags:
     pike-uc:
@@ -2003,7 +2003,7 @@ packages:
     newton:
       source-branch: 1.13.2
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.privsep
+  upstream: https://github.com/openstack/oslo.privsep
 - project: stevedore
   conf: rpmfactory-lib
   tags:
@@ -2112,7 +2112,7 @@ packages:
     newton:
     mitaka:
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack-dev/hacking
+  upstream: https://github.com/openstack-dev/hacking
 - project: wsme
   tags:
     pike-uc:
@@ -2124,7 +2124,7 @@ packages:
 - project: packstack
   conf: rpmfactory-core
   name: openstack-packstack
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - mmagr@redhat.com
   - amoralej@redhat.com
@@ -2175,20 +2175,20 @@ packages:
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - shashank@arista.com
   - openstack-dev@arista.com
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - lennyb@mellanox.com
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - mkolesni@redhat.com
 - project: networking-sfc
@@ -2198,7 +2198,7 @@ packages:
     pike-uc:
     pike:
     ocata:
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
 - project: networking-vsphere
@@ -2215,7 +2215,7 @@ packages:
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - ihrachys@redhat.com
 - project: vmware-nsxlib
@@ -2231,7 +2231,7 @@ packages:
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - wolverine.av@gmail.com
   - sarath.kutty@bigswitch.com
@@ -2247,7 +2247,7 @@ packages:
     mitaka:
       source-branch: bea93ad25af3138bdbb68e9c5d619a2e19b7c1e8
   name: python-networking-ovn
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - rbryant@redhat.com
   - nusiddiq@redhat.com
@@ -2262,7 +2262,7 @@ packages:
     mitaka:
       source-branch: 3.2.0
   name: python-networking-cisco
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - openstack-networking@cisco.com
   - sambetts@cisco.com
@@ -2304,7 +2304,7 @@ packages:
     mitaka:
   name: python-os-brick
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://github.com/openstack/%(project)s
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
