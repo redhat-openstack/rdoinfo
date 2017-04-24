@@ -4,6 +4,9 @@ releases:
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-pike-el7
+    buildsys-tags:
+    - cloud7-openstack-pike-candidate
+    - cloud7-openstack-pike-testing
     distrepos:
     - name: RDO Pike el7
       url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-pike/
@@ -18,6 +21,10 @@ releases:
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-ocata-el7
+    buildsys-tags:
+    - cloud7-openstack-ocata-candidate
+    - cloud7-openstack-ocata-testing
+    - cloud7-openstack-ocata-release
     distrepos:
     - name: RDO Ocata el7
       url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-ocata/
@@ -32,6 +39,10 @@ releases:
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-newton-el7
+    buildsys-tags:
+    - cloud7-openstack-newton-candidate
+    - cloud7-openstack-newton-testing
+    - cloud7-openstack-newton-release
     distrepos:
     - name: RDO Newton el7
       url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-newton/
@@ -76,6 +87,10 @@ releases:
   repos:
   - name: el7
     buildsys: cbs/cloud7-openstack-common-el7
+    buildsys-tags:
+    - cloud7-openstack-common-candidate
+    - cloud7-openstack-common-testing
+    - cloud7-openstack-common-release
 
 
 # default template for 'packages' infromation bellow
@@ -163,6 +178,12 @@ packages:
 # OpenStack Puppet Modules
 - project: puppet-aodh
   conf: rpmfactory-puppet
+  buildsys-tags:
+  # example to show how buildsys-tags will be used
+    cloud7-openstack-ocata-testing: puppet-aodh-10.4.0-1.el7
+    cloud7-openstack-ocata-release: puppet-aodh-10.3.0-1.el7
+    cloud7-openstack-newton-testing: puppet-aodh-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-aodh-9.5.0-1.el7
 - project: puppet-barbican
   conf: rpmfactory-puppet
 - project: puppet-ceilometer
