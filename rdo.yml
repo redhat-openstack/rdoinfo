@@ -2450,9 +2450,9 @@ packages:
   - hguemar@fedoraproject.org
 - project: mistral-lib
   tags:
-    under-review:
-    #pike-uc:
-    #pike:
+    pike-uc:
+      source-branch: 0.1.0
+    pike:
   conf: rpmfactory-lib
   maintainers:
   - dougal@redhat.com
