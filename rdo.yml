@@ -2012,9 +2012,9 @@ packages:
 - project: ovsdbapp
   conf: rpmfactory-lib
   tags:
-    under-review:
-    #pike:
-    #pike-uc:
+    pike-uc:
+      source-branch: 0.3.0
+    pike:
   maintainers:
   - twilson@redhat.com
   - ihrachys@redhat.com
