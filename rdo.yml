@@ -1741,6 +1741,7 @@ packages:
     mitaka:
       source-branch: stable/2.2
   conf: rpmfactory-client
+  upstream: https://github.com/gnocchixyz/python-%(project)s
   maintainers:
   - pkilambi@redhat.com
 - project: aodhclient
