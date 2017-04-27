@@ -34,4 +34,41 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
+    cloud7-openstack-pike-testing: python-sphinx-1.5.2-2.el7
+- project: python-snowballstemmer
+  name: python-snowballstemmer
+  conf: unmanaged-dependency
+  upstream: https://github.com/shibukawa/snowball_py
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-snowballstemmer-1.2.0-2.el7
+- project: python-imagesize
+  name: python-imagesize
+  conf: unmanaged-dependency
+  upstream: https://github.com/shibukawa/imagesize_py
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-imagesize-0.7.1-5.el7
+- project: python-sphinx_rtd_theme
+  name: python-sphinx_rtd_theme
+  conf: unmanaged-dependency
+  upstream: https://github.com/rtfd/sphinx_rtd_theme/
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-sphinx_rtd_theme-0.2.2-1.el7
+- project: python-sphinx-theme-alabaster
+  name: python-sphinx-theme-alabaster
+  conf: unmanaged-dependency
+  upstream: https://github.com/bitprophet/alabaster
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-sphinx-theme-alabaster-0.7.9-4.el7
+- project: google-roboto-slab-fonts
+  name: google-roboto-slab-fonts
+  conf: unmanaged-dependency
+  upstream: https://github.com/google/fonts/
+  buildsys-tags:
+    cloud7-openstack-common-testing: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
+- project: environment-modules
+  name: environment-modules
+  conf: unmanaged-dependency
+  upstream: http://modules.sourceforge.net/
+  buildsys-tags:
+    cloud7-openstack-common-testing: environment-modules-3.2.10-20.el7
 
