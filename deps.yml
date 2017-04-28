@@ -34,4 +34,15 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
-
+- project: python-ryu
+  name: python-ryu
+  conf: unmanaged-dependency
+  upstream: https://github.com/osrg/ryu
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-ryu-4.13-1.el7
+- project: python-tinyrpc
+  name: python-tinyrpc
+  conf: unmanaged-dependency
+  upstream: https://github.com/mbr/tinyrpc
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-tinyrpc-0.5-4.20170523git1f38ac.el7
