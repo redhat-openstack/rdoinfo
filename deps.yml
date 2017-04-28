@@ -34,4 +34,9 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
-
+- project: python-eventlet
+  name: python-eventlet
+  conf: unmanaged-dependency
+  upstream: https://github.com/eventlet/eventlet
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-eventlet-0.20.1-1.el7
