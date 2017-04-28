@@ -34,4 +34,10 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
-
+- project: python-idna
+  name: python-idna
+  conf: unmanaged-dependency
+  upstream: https://github.com/kjd/idna
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-idna-2.5-1.el7
+    cloud7-openstack-newton-testing: python-idna-2.5-1.el7
