@@ -34,4 +34,9 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
-
+- project: python-amqp
+  name: python-amqp
+  conf: unmanaged-dependency
+  upstream: https://github.com/celery/py-amqp
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-amqp-2.1.4-2.el7
