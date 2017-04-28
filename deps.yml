@@ -34,4 +34,9 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
-
+- project: python-PyMySQL
+  name: python-PyMySQL
+  conf: unmanaged-dependency
+  upstream: https://github.com/PyMySQL/PyMySQL
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-PyMySQL-0.7.11-1.el7
