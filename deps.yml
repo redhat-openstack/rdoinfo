@@ -34,4 +34,9 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-1.2.3-5.el7
     cloud7-openstack-common-release: python-sphinx-1.2.3-5.el7
-
+- project: python-pyroute2
+  name: python-pyroute2
+  conf: unmanaged-dependency
+  upstream: https://github.com/svinota/pyroute2
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-pyroute2-0.4.15-1.el7
