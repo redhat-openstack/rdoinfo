@@ -879,6 +879,8 @@ packages:
   - pkilambi@redhat.com
 - project: heat
   conf: rpmfactory-core
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-heat-7.0.4-1.el7
   maintainers:
   - zbitter@redhat.com
   - therve@redhat.com
