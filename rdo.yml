@@ -2889,3 +2889,13 @@ packages:
   maintainers:
   - mmagr@redhat.com
   - mrunge@redhat.com
+- project: fluent-logger
+  upstream: https://github.com/fluent/fluent-logger-python.git
+  conf: rpmfactory-lib
+  tags:
+    #pike-uc:
+    #pike:
+    under-review:
+  maintainers:
+  - mmagr@redhat.com
+  - mrunge@redhat.com
