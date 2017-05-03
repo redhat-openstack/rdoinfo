@@ -1664,9 +1664,7 @@ packages:
   - dougal@redhat.com
   tags:
     pike-uc:
-      # https://bugs.launchpad.net/tripleo/+bug/1687706
-      # https://review.openstack.org/#/c/461959/
-      source-branch: d930b043eef262f3eb34489f01b9856077dc2dc4
+      source-branch: 3.10.0
     pike:
     ocata:
       source-branch: 3.8.1
