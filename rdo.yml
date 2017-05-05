@@ -648,14 +648,16 @@ packages:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
-  upstream: git://github.com/dfarrell07/%(project)s
+  upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
   tags:
     pike-uc:
+      source-branch: stable/carbon
     pike:
+      source-branch: stable/carbon
     ocata:
-      source-branch: 4.0.0
+      source-branch: stable/boron
     newton:
-      source-branch: b2d8d9dc3becdad8213ae51c4cda27c077dca71c
+      source-branch: stable/boron
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
