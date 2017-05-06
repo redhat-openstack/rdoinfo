@@ -2914,3 +2914,14 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
+- project: scciclient
+  name: python-scciclient
+  tags:
+    under-review:
+    #pike:
+    #pike-uc:
+  conf: rpmfactory-lib
+  upstream: https://github.com/openstack/python-scciclient
+  maintainers:
+  - okado.hiroaki@jp.fujitsu.com
+  - sanagi.koki@jp.fujitsu.com
