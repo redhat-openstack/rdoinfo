@@ -282,9 +282,8 @@ packages:
 - project: puppet-murano
   conf: rpmfactory-puppet
   tags:
-    under-review:
-    # pike-uc:
-    # pike:
+    pike-uc:
+    pike:
 - project: puppet-zaqar
   conf: rpmfactory-puppet
 - project: puppet-apache
