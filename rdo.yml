@@ -2845,6 +2845,15 @@ packages:
   name: openstack-selinux
   conf: rpmfactory-core
   upstream: https://github.com/redhat-openstack/openstack-selinux
+  tags:
+    pike-uc:
+      source-branch: 69822b36bd1ba7d0237a328ab8ce7675d13f49d0
+    pike:
+    ocata:
+      source-branch: 69822b36bd1ba7d0237a328ab8ce7675d13f49d0
+    newton:
+      source-branch: 69822b36bd1ba7d0237a328ab8ce7675d13f49d0
+
   maintainers:
   - lhh@redhat.com
   - lon@metamorphism.com
