@@ -2175,6 +2175,14 @@ packages:
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
+- project: tripleo-repos
+  tags:
+    under-review:
+    #pike-uc:
+    #pike:
+  conf: rpmfactory-core
+  maintainers:
+  - bnemec@redhat.com
 - project: tripleo-ui
   tags:
     pike-uc:
