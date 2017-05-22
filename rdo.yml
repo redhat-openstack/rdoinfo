@@ -876,6 +876,7 @@ packages:
   - mabaakou@redhat.com
 - project: gnocchi
   conf: rpmfactory-core
+  upstream: https://github.com/gnocchixyz/%(project)s
   tags:
     pike-uc:
     pike:
