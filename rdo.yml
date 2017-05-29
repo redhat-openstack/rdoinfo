@@ -1650,8 +1650,6 @@ packages:
   conf: rpmfactory-client
 - project: gnocchiclient
   tags:
-    # TODO: remove when https://review.openstack.org/448549 is merged
-    version-locked:
     pike-uc:
       source-branch: 3.1.1
     pike:
