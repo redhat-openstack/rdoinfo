@@ -2774,9 +2774,8 @@ packages:
   - sbaker@redhat.com
 - project: scciclient
   tags:
-    under-review:
-    #pike:
-    #pike-uc:
+    pike:
+    pike-uc:
   conf: rpmfactory-lib
   upstream: https://github.com/openstack/python-scciclient
   maintainers:
