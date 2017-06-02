@@ -2785,9 +2785,9 @@ packages:
 - project: os-traits
   conf: rpmfactory-lib
   tags:
-    under-review:
-    #pike-uc:
-    #pike:
+    pike-uc:
+      source-branch: 0.3.1
+    pike:
   maintainers:
   - ratailor@redhat.com
   - ykarel@redhat.com
