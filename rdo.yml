@@ -1405,7 +1405,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
     pike:
     ocata:
       source-branch: 2.6.0
@@ -1482,7 +1482,7 @@ packages:
   - hguemar@fedoraproject.org
   tags:
     pike-uc:
-      source-branch: 6.3.0
+      source-branch: 6.2.0
     pike:
     ocata:
       source-branch: 6.1.0
@@ -1752,7 +1752,7 @@ packages:
 - project: oslo-cache
   tags:
     pike-uc:
-      source-branch: 1.21.0
+      source-branch: 1.22.0
     pike:
     ocata:
       source-branch: 1.17.0
@@ -2479,7 +2479,7 @@ packages:
 - project: reno
   tags:
     pike-uc:
-      source-branch: 2.3.1
+      source-branch: 2.3.0
     pike:
     ocata:
       source-branch: 2.2.1
@@ -2532,7 +2532,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 1.4.0
+      source-branch: 1.5.0
     pike:
     ocata:
       source-branch: 1.4.1
@@ -2776,6 +2776,7 @@ packages:
   tags:
     pike:
     pike-uc:
+      source-branch: 1.1.0
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
