@@ -1405,7 +1405,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
     pike:
     ocata:
       source-branch: 2.6.0
@@ -1569,7 +1569,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     pike-uc:
-      source-branch: 4.15.0
+      source-branch: 4.16.0
     pike:
     ocata:
       source-branch: 4.14.0
@@ -1741,7 +1741,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     pike-uc:
-      source-branch: 5.24.2
+      source-branch: 5.26.0
     pike:
     ocata:
       source-branch: 5.17.1
@@ -1750,7 +1750,7 @@ packages:
 - project: oslo-cache
   tags:
     pike-uc:
-      source-branch: 1.21.0
+      source-branch: 1.23.0
     pike:
     ocata:
       source-branch: 1.17.0
@@ -1763,7 +1763,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     pike-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
     pike:
     ocata:
       source-branch: 3.22.0
@@ -1807,7 +1807,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
     pike-uc:
-      source-branch: 3.27.0
+      source-branch: 3.28.0
     pike:
     ocata:
       source-branch: 3.23.1
@@ -1840,7 +1840,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     pike-uc:
-      source-branch: 2.19.0
+      source-branch: 2.20.0
     pike:
     ocata:
       source-branch: 2.17.0
@@ -1862,7 +1862,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     pike-uc:
-      source-branch: 3.27.0
+      source-branch: 3.28.0
     pike:
     ocata:
       source-branch: 3.20.1
@@ -1904,7 +1904,7 @@ packages:
 - project: oslo-reports
   tags:
     pike-uc:
-      source-branch: 1.19.0
+      source-branch: 1.20.0
     pike:
     ocata:
       source-branch: 1.17.0
@@ -1938,7 +1938,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 1.22.0
+      source-branch: 1.23.0
     pike:
     ocata:
       source-branch: 1.20.0
@@ -1947,7 +1947,7 @@ packages:
 - project: castellan
   tags:
     pike-uc:
-      source-branch: 0.8.0
+      source-branch: 0.9.0
     pike:
     ocata:
       source-branch: 0.5.0
@@ -1958,7 +1958,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 2.11.0
+      source-branch: 2.12.0
     pike:
     ocata:
       source-branch: 2.9.0
@@ -2093,7 +2093,7 @@ packages:
   - apevec@redhat.com
   tags:
     pike-uc:
-      source-branch: 1.9.0
+      source-branch: 1.9.1
     pike:
     ocata:
       source-branch: 1.5.0
@@ -2477,7 +2477,7 @@ packages:
 - project: reno
   tags:
     pike-uc:
-      source-branch: 2.3.1
+      source-branch: 2.3.2
     pike:
     ocata:
       source-branch: 2.2.1
@@ -2530,7 +2530,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 1.4.0
+      source-branch: 1.5.0
     pike:
     ocata:
       source-branch: 1.4.1
@@ -2774,6 +2774,7 @@ packages:
   tags:
     pike:
     pike-uc:
+      source-branch: 1.1.0
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
