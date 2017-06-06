@@ -1682,10 +1682,9 @@ packages:
   - pkilambi@redhat.com
 - project: pankoclient
   tags:
-    under-review:
-    #pike-uc:
-    #  source-branch: 0.3.0
-    #pike:
+    pike-uc:
+      source-branch: 0.3.0
+    pike:
   conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
