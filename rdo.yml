@@ -2803,3 +2803,26 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - ltoscano@redhat.com
+- project: glare
+  name: python-glare
+  tags:
+    under-review:
+    #pike:
+    #pike-uc:
+    #ocata:
+  conf: rpmfactory-core
+  maintainers:
+  - mfedosin@gmail.com
+  - idan.narotzki@nokia.com
+- project: glareclient
+  conf: rpmfactory-client
+  tags:
+    under-review:
+    #pike-uc:
+    #  source-branch: 0.3.0
+    #pike:
+    #ocata:
+    #  source-branch: 0.3.0
+  maintainers:
+  - mfedosin@gmail.com
+  - idan.narotzki@nokia.com
