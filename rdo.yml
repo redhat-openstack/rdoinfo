@@ -2837,3 +2837,8 @@ packages:
   maintainers:
   - mfedosin@gmail.com
   - idan.narotzki@nokia.com
+# XXX: this entry only purpose is to piggy-back on
+# RPM Factory's upstream repo syncing feature
+- project: project-config
+  upstream: git://git.openstack.org/openstack-infra/project-config
+    
