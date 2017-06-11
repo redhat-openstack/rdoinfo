@@ -1447,7 +1447,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
     pike:
     ocata:
       source-branch: 1.8.1
@@ -1504,7 +1504,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 2.9.0
+      source-branch: 2.10.0
     pike:
     ocata:
       source-branch: 2.8.0
@@ -1534,7 +1534,7 @@ packages:
 - project: manilaclient
   tags:
     pike-uc:
-      source-branch: 1.15.0
+      source-branch: 1.16.0
     pike:
     ocata:
       source-branch: 1.14.0
@@ -1742,7 +1742,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     pike-uc:
-      source-branch: 5.24.2
+      source-branch: 5.26.0
     pike:
     ocata:
       source-branch: 5.17.1
@@ -2244,7 +2244,7 @@ packages:
 - project: keystoneauth1
   tags:
     pike-uc:
-      source-branch: 2.20.0
+      source-branch: 2.21.0
     pike:
     ocata:
       source-branch: 2.18.0
@@ -2778,6 +2778,7 @@ packages:
   tags:
     pike:
     pike-uc:
+      source-branch: 1.2.0
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
