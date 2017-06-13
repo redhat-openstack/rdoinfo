@@ -1392,7 +1392,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 3.10.0
+      source-branch: 3.11.0
     pike:
     ocata:
       source-branch: 3.10.0
@@ -1432,7 +1432,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 2.8.1
+      source-branch: 2.9.0
     pike:
     ocata:
       source-branch: 2.8.1
@@ -1442,7 +1442,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
     pike:
     ocata:
       source-branch: 1.8.1
@@ -1499,7 +1499,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 2.9.0
+      source-branch: 2.10.0
     pike:
     ocata:
       source-branch: 2.8.0
@@ -1529,7 +1529,7 @@ packages:
 - project: manilaclient
   tags:
     pike-uc:
-      source-branch: 1.15.0
+      source-branch: 1.16.0
     pike:
     ocata:
       source-branch: 1.14.0
@@ -1541,7 +1541,7 @@ packages:
 - project: barbicanclient
   tags:
     pike-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
     pike:
     ocata:
       source-branch: 4.2.0
@@ -1631,7 +1631,7 @@ packages:
 - project: zaqarclient
   tags:
     pike-uc:
-      source-branch: 1.5.0
+      source-branch: 1.6.0
     pike:
     ocata:
       source-branch: 1.4.0
@@ -1737,7 +1737,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     pike-uc:
-      source-branch: 5.24.2
+      source-branch: 5.26.0
     pike:
     ocata:
       source-branch: 5.17.1
@@ -1964,7 +1964,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 2.5.0
+      source-branch: 2.6.0
     pike:
     ocata:
       source-branch: 2.5.0
@@ -2239,7 +2239,7 @@ packages:
 - project: keystoneauth1
   tags:
     pike-uc:
-      source-branch: 2.20.0
+      source-branch: 2.21.0
     pike:
     ocata:
       source-branch: 2.18.0
@@ -2404,7 +2404,7 @@ packages:
 - project: magnumclient
   tags:
     pike-uc:
-      source-branch: 2.5.0
+      source-branch: 2.6.0
     pike:
     ocata:
       source-branch: 2.5.0
@@ -2417,7 +2417,7 @@ packages:
 - project: congressclient
   tags:
     pike-uc:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
     pike:
     ocata:
       source-branch: 1.6.0
@@ -2773,6 +2773,7 @@ packages:
   tags:
     pike:
     pike-uc:
+      source-branch: 1.2.0
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
