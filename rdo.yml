@@ -1737,7 +1737,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     pike-uc:
-      source-branch: 5.24.2
+      source-branch: 5.27.0
     pike:
     ocata:
       source-branch: 5.17.1
@@ -1759,7 +1759,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     pike-uc:
-      source-branch: 4.3.0
+      source-branch: 4.5.0
     pike:
     ocata:
       source-branch: 3.22.0
@@ -1954,7 +1954,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 2.12.0
+      source-branch: 2.13.0
     pike:
     ocata:
       source-branch: 2.9.0
@@ -1973,7 +1973,7 @@ packages:
 - project: debtcollector
   tags:
     pike-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     pike:
     ocata:
       source-branch: 1.11.0
@@ -2089,7 +2089,7 @@ packages:
   - apevec@redhat.com
   tags:
     pike-uc:
-      source-branch: 1.9.1
+      source-branch: 1.10.0
     pike:
     ocata:
       source-branch: 1.5.0
@@ -2391,7 +2391,7 @@ packages:
 - project: tooz
   tags:
     pike-uc:
-      source-branch: 1.57.0
+      source-branch: 1.57.1
     pike:
     ocata:
       source-branch: 1.48.0
@@ -2473,7 +2473,7 @@ packages:
 - project: reno
   tags:
     pike-uc:
-      source-branch: 2.3.2
+      source-branch: 2.4.0
     pike:
     ocata:
       source-branch: 2.2.1
@@ -2773,6 +2773,7 @@ packages:
   tags:
     pike:
     pike-uc:
+      source-branch: 1.2.0
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
