@@ -1645,7 +1645,7 @@ packages:
 - project: openstacksdk
   tags:
     pike-uc:
-      source-branch: 0.9.16
+      source-branch: 0.9.17
     pike:
     ocata:
       source-branch: 0.9.13
@@ -1860,7 +1860,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     pike-uc:
-      source-branch: 3.28.0
+      source-branch: 3.28.1
     pike:
     ocata:
       source-branch: 3.20.1
@@ -2475,7 +2475,7 @@ packages:
 - project: reno
   tags:
     pike-uc:
-      source-branch: 2.4.0
+      source-branch: 2.4.1
     pike:
     ocata:
       source-branch: 2.2.1
@@ -2776,6 +2776,7 @@ packages:
   tags:
     pike:
     pike-uc:
+      source-branch: 1.2.0
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
