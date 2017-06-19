@@ -2765,6 +2765,16 @@ packages:
   - asegurap@redhat.com
   - dmellado@redhat.com
   - luis5tb@gmail.com
+- project: kuryr-tempest-plugin
+  name: python-kuryr-tests-tempest
+  conf: rpmfactory-lib
+  tags:
+    pike-uc:
+    pike:
+  maintainers:
+  - asegurap@redhat.com
+  - dmellado@redhat.com
+  - luis5tb@gmail.com
 - project: osops-tools-monitoring-oschecks
   name: osops-tools-monitoring-oschecks
   upstream: https://github.com/openstack/osops-tools-monitoring
