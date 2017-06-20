@@ -144,6 +144,23 @@ package-configs:
       pike:
       ocata:
       newton:
+  rpmfactory-tempest-plugin:
+# Name and Project will be defined.
+    name: '%(project)s'
+    upstream: git://git.openstack.org/openstack/%(project)s
+#   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    distgit: https://github.com/rdo-packages/%(project)s-distgit.git
+    patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
+#   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
+    review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
+    review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    maintainers:
+    - chkumar@redhat.com
+    - ltoscano@redhat.com
+    tags:
+      pike-uc:
+      pike:
 packages:
 # OpenStack Puppet Modules
 - project: puppet-aodh
