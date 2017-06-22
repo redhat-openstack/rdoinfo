@@ -167,70 +167,170 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
   # example to show how buildsys-tags will be used
-    cloud7-openstack-ocata-testing: puppet-aodh-10.4.0-1.el7
-    cloud7-openstack-ocata-release: puppet-aodh-10.3.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-aodh-10.4.1-1.el7
+    cloud7-openstack-ocata-release: puppet-aodh-10.4.1-1.el7
     cloud7-openstack-newton-testing: puppet-aodh-9.5.0-1.el7
     cloud7-openstack-newton-release: puppet-aodh-9.5.0-1.el7
 - project: puppet-barbican
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-barbican-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-barbican-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-barbican-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-barbican-10.3.1-1.el7
 - project: puppet-ceilometer
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-ceilometer-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-ceilometer-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-ceilometer-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-ceilometer-10.3.1-1.el7
 - project: puppet-cinder
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-cinder-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-cinder-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-cinder-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-cinder-10.3.1-1.el7
 - project: puppet-congress
   conf: rpmfactory-puppet
   tags:
     pike-uc:
     pike:
     ocata:
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-congress-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-congress-10.3.0-1.el7
 - project: puppet-designate
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-designate-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-designate-10.3.1-1.el7
 - project: puppet-ec2api
   conf: rpmfactory-puppet
   tags:
     pike-uc:
     pike:
     ocata:
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-ec2api-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-ec2api-10.3.1-1.el7
 - project: puppet-glance
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-glance-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-glance-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-glance-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-glance-10.3.1-1.el7
 - project: puppet-gnocchi
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-gnocchi-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-gnocchi-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-gnocchi-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-gnocchi-10.3.1-1.el7
 - project: puppet-heat
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-heat-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-heat-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-heat-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-heat-10.3.1-1.el7
 - project: puppet-horizon
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-horizon-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-horizon-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-horizon-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-horizon-10.3.1-1.el7
 - project: puppet-ironic
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-ironic-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-ironic-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-ironic-10.4.1-1.el7
+    cloud7-openstack-ocata-release: puppet-ironic-10.4.1-1.el7
 - project: puppet-keystone
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-keystone-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-keystone-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-keystone-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-keystone-10.3.1-1.el7
 - project: puppet-magnum
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-magnum-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-magnum-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-magnum-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-magnum-10.3.1-1.el7
 - project: puppet-manila
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-manila-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-manila-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-manila-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-manila-10.3.1-1.el7
 - project: puppet-neutron
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-neutron-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-neutron-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-neutron-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-neutron-10.3.1-1.el7
 - project: puppet-nova
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-nova-9.5.1-1.el7
+    cloud7-openstack-newton-release: puppet-nova-9.5.1-1.el7
+    cloud7-openstack-ocata-testing: puppet-nova-10.4.1-1.el7
+    cloud7-openstack-ocata-release: puppet-nova-10.4.1-1.el7
 - project: puppet-octavia
   conf: rpmfactory-puppet
   tags:
     pike-uc:
     pike:
     ocata:
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-octavia-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-octavia-10.3.1-1.el7
 - project: puppet-oslo
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-oslo-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-oslo-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-oslo-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-oslo-10.3.1-1.el7
 - project: puppet-openstack_extras
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-openstack_extras-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-openstack_extras-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-openstack_extras-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-openstack_extras-10.3.1-1.el7
 - project: puppet-openstacklib
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-openstacklib-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-openstacklib-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-openstacklib-10.4.1-1.el7
+    cloud7-openstack-ocata-release: puppet-openstacklib-10.4.1-1.el7
 - project: puppet-ovn
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-ovn-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-ovn-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-ovn-10.4.1-1.el7
+    cloud7-openstack-ocata-release: puppet-ovn-10.4.1-1.el7
 - project: puppet-panko
   conf: rpmfactory-puppet
   tags:
     pike-uc:
     pike:
     ocata:
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-panko-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-panko-10.3.1-1.el7
 - project: puppet-qdr
   conf: rpmfactory-puppet
   tags:
@@ -239,20 +339,48 @@ packages:
     ocata:
 - project: puppet-sahara
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-sahara-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-sahara-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-sahara-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-sahara-10.3.1-1.el7
 - project: puppet-swift
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-swift-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-swift-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-swift-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-swift-10.3.1-1.el7
 - project: puppet-tacker
   conf: rpmfactory-puppet
   tags:
     pike-uc:
     pike:
     ocata:
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-tacker-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-tacker-10.3.1-1.el7
 - project: puppet-tempest
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-tempest-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-tempest-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-tempest-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-tempest-10.3.1-1.el7
 - project: puppet-tripleo
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-tripleo-5.6.0-1.el7
+    cloud7-openstack-newton-release: puppet-tripleo-5.6.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-tripleo-6.4.0-1.el7
+    cloud7-openstack-ocata-release: puppet-tripleo-6.4.0-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-trove-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-trove-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-trove-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-trove-10.3.1-1.el7
 - project: puppet-vitrage
   conf: rpmfactory-puppet
   tags:
@@ -260,12 +388,32 @@ packages:
     pike:
 - project: puppet-vswitch
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-vswitch-5.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-vswitch-5.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-vswitch-6.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-vswitch-6.3.1-1.el7
 - project: puppet-ceph
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-ceph-2.2.1-1.el7
+    cloud7-openstack-newton-release: puppet-ceph-2.2.1-1.el7
+    cloud7-openstack-ocata-testing: puppet-ceph-2.3.0-1.el7
+    cloud7-openstack-ocata-release: puppet-ceph-2.3.0-1.el7
 - project: puppet-n1k-vsm
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+    cloud7-openstack-newton-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+    cloud7-openstack-ocata-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+    cloud7-openstack-ocata-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
 - project: puppet-mistral
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-mistral-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-mistral-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-mistral-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-mistral-10.3.1-1.el7
 - project: puppet-murano
   conf: rpmfactory-puppet
   tags:
@@ -273,6 +421,11 @@ packages:
     pike:
 - project: puppet-zaqar
   conf: rpmfactory-puppet
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-zaqar-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-zaqar-9.5.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-zaqar-10.3.1-1.el7
+    cloud7-openstack-ocata-release: puppet-zaqar-10.3.1-1.el7
 - project: puppet-apache
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
@@ -283,6 +436,11 @@ packages:
       source-branch: 58207d395c313f5cd44c3c9d5df0ef7e1fb648a3
     newton:
       source-branch: 58207d395c313f5cd44c3c9d5df0ef7e1fb648a3
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-apache-1.10.0-2.05a0aacgit.el7
+    cloud7-openstack-newton-release: puppet-apache-1.10.0-2.05a0aacgit.el7
+    cloud7-openstack-ocata-testing: puppet-apache-1.11.0-1.58207d3git.el7
+    cloud7-openstack-ocata-release: puppet-apache-1.11.0-1.58207d3git.el7
 - project: puppet-concat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
@@ -293,6 +451,11 @@ packages:
       source-branch: 66022dc64068e2266a606225eec0b55d325ecddd
     newton:
       source-branch: fdf4a84534ccb1b9ae8ffb654c7e160a31e294ee
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-concat-2.2.0-2.fdf4a84git.el7
+    cloud7-openstack-newton-release: puppet-concat-2.2.0-2.fdf4a84git.el7
+    cloud7-openstack-ocata-testing: puppet-concat-2.2.0-3.66022dcgit.el7
+    cloud7-openstack-ocata-release: puppet-concat-2.2.0-3.66022dcgit.el7
 - project: puppet-firewall
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
@@ -303,6 +466,11 @@ packages:
       source-branch: 463ec1d0f5c50a719cb96e6479d90b8de8f41489
     newton:
       source-branch: 46a61192f73aad42f9ec9905d42895c089b0508b
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-firewall-1.8.1-2.46a6119git.el7
+    cloud7-openstack-newton-release: puppet-firewall-1.8.1-2.46a6119git.el7
+    cloud7-openstack-ocata-testing: puppet-firewall-1.8.2-1.463ec1dgit.el7
+    cloud7-openstack-ocata-release: puppet-firewall-1.8.2-1.463ec1dgit.el7
 - project: puppet-haproxy
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
@@ -313,6 +481,11 @@ packages:
       source-branch: f6fed46e7a5c3f9e4791240eaffb1a115d8f0135
     newton:
       source-branch: 6ee818019078e7ac9a6316409c369bf907ec2afd
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-haproxy-1.5.0-2.6ee8180git.el7
+    cloud7-openstack-newton-release: puppet-haproxy-1.5.0-2.6ee8180git.el7
+    cloud7-openstack-ocata-testing: puppet-haproxy-1.5.0-3.f6fed46git.el7
+    cloud7-openstack-ocata-release: puppet-haproxy-1.5.0-3.f6fed46git.el7
 - project: puppet-corosync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/puppet-corosync
@@ -323,6 +496,11 @@ packages:
       source-branch: f438aa583b59fe312347ff080a7ca99ba058c7e9
     newton:
       source-branch: 915bb72ba481c2bf08d4c128e3ae89e69a8a6d43
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-corosync-5.0.0-2.915bb72git.el7
+    cloud7-openstack-newton-release: puppet-corosync-5.0.0-2.915bb72git.el7
+    cloud7-openstack-ocata-testing: puppet-corosync-5.0.0-3.f438aa5git.el7
+    cloud7-openstack-ocata-release: puppet-corosync-5.0.0-3.f438aa5git.el7
 - project: puppet-git
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
@@ -333,6 +511,11 @@ packages:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     newton:
       source-branch: 7e9b9de109730e233811817cefe110cefe6484a6
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-git-0.4.0-2.7e9b9degit.el7
+    cloud7-openstack-newton-release: puppet-git-0.4.0-2.7e9b9degit.el7
+    cloud7-openstack-ocata-testing: puppet-git-0.4.0-3.4e4498egit.el7
+    cloud7-openstack-ocata-release: puppet-git-0.4.0-3.4e4498egit.el7
 - project: puppet-inifile
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
@@ -343,6 +526,11 @@ packages:
       source-branch: 936ed07a85460fda127b2a542d3213efd19a8f2a
     newton:
       source-branch: c1f1d1e22d75215fc28e3f463af4b8fd72bde781
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-inifile-1.6.0-2.c1f1d1egit.el7
+    cloud7-openstack-newton-release: puppet-inifile-1.6.0-2.c1f1d1egit.el7
+    cloud7-openstack-ocata-testing: puppet-inifile-1.6.0-3.936ed07git.el7
+    cloud7-openstack-ocata-release: puppet-inifile-1.6.0-3.936ed07git.el7
 - project: puppet-mongodb
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mongodb
@@ -353,6 +541,11 @@ packages:
       source-branch: ed8d47bfe56433feae475aba61a12656c7ae61c2
     newton:
       source-branch: 40e8515c0f824236d5f3d0fe491ed03f02cb9d9f
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-mongodb-0.16.0-2.40e8515git.el7
+    cloud7-openstack-newton-release: puppet-mongodb-0.16.0-2.40e8515git.el7
+    cloud7-openstack-ocata-testing: puppet-mongodb-0.17.0-1.ed8d47bgit.el7
+    cloud7-openstack-ocata-release: puppet-mongodb-0.17.0-1.ed8d47bgit.el7
 - project: puppet-mysql
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
@@ -363,6 +556,11 @@ packages:
       source-branch: aec738379fbb7a01043dbe65293165898713195e
     newton:
       source-branch: c840a358878fc5c51ce33b7981678f2a4229a18c
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-mysql-3.10.0-1.c840a35git.el7
+    cloud7-openstack-newton-release: puppet-mysql-3.10.0-1.c840a35git.el7
+    cloud7-openstack-ocata-testing: puppet-mysql-3.10.0-2.aec7383git.el7
+    cloud7-openstack-ocata-release: puppet-mysql-3.10.0-2.aec7383git.el7
 - project: puppet-java
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
@@ -373,6 +571,11 @@ packages:
       source-branch: 6605e34d71a3ddcd7da47eb462de94da4ab078b7
     newton:
       source-branch: d27b0af5a91de82efd2f1adb915a4ac2635bdbb8
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-java-1.6.0-2.d27b0afgit.el7
+    cloud7-openstack-newton-release: puppet-java-1.6.0-2.d27b0afgit.el7
+    cloud7-openstack-ocata-testing: puppet-java-1.6.0-3.6605e34git.el7
+    cloud7-openstack-ocata-release: puppet-java-1.6.0-3.6605e34git.el7
 - project: puppet-ntp
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
@@ -385,6 +588,11 @@ packages:
       source-branch: 4.2.x
     newton:
       source-branch: 93da3bd01a5ae4276eddec15ac615eb4bccc23cf
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-ntp-4.2.0-2.el7
+    cloud7-openstack-newton-release: puppet-ntp-4.2.0-2.el7
+    cloud7-openstack-ocata-testing: puppet-ntp-4.2.0-2.el7
+    cloud7-openstack-ocata-release: puppet-ntp-4.2.0-2.el7
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
@@ -395,6 +603,11 @@ packages:
       source-branch: 03b859292fe94dd727bd4b5b795b658beb2bdb4a
     newton:
       source-branch: 12aa7ccceb7d93cbf9d68c1b3338195bf8ce5564
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-rabbitmq-5.6.0-2.12aa7ccgit.el7
+    cloud7-openstack-newton-release: puppet-rabbitmq-5.6.0-2.12aa7ccgit.el7
+    cloud7-openstack-ocata-testing: puppet-rabbitmq-5.6.0-3.03b8592git.el7
+    cloud7-openstack-ocata-release: puppet-rabbitmq-5.6.0-3.03b8592git.el7
 - project: puppet-rsync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
@@ -405,6 +618,11 @@ packages:
       source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
     newton:
       source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-rsync-0.4.0-1.8cc3c6fgit.el7
+    cloud7-openstack-newton-release: puppet-rsync-0.4.0-1.8cc3c6fgit.el7
+    cloud7-openstack-ocata-testing: puppet-rsync-0.4.0-1.8cc3c6fgit.el7
+    cloud7-openstack-ocata-release: puppet-rsync-0.4.0-1.8cc3c6fgit.el7
 - project: puppet-stdlib
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
@@ -416,6 +634,11 @@ packages:
       source-branch: db8c1fbb2394d93fe3156b17c840455f1b3e2c76
     newton:
       source-branch: dcef77af4cef2870874f76c06e92f601aeb5bc0c
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-stdlib-4.13.1-2.dcef77agit.el7
+    cloud7-openstack-newton-release: puppet-stdlib-4.13.1-2.dcef77agit.el7
+    cloud7-openstack-ocata-testing: puppet-stdlib-4.14.0-1.db8c1fbgit.el7
+    cloud7-openstack-ocata-release: puppet-stdlib-4.14.0-1.db8c1fbgit.el7
 - project: puppet-tomcat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
@@ -426,6 +649,11 @@ packages:
       source-branch: 2b9e169f63bbc91360d84cf93415563bd0155155
     newton:
       source-branch: 8d96971ca1c58219f856ba8c5cc1af1de95c27a6
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-tomcat-1.6.0-2.8d96971git.el7
+    cloud7-openstack-newton-release: puppet-tomcat-1.6.0-2.8d96971git.el7
+    cloud7-openstack-ocata-testing: puppet-tomcat-1.6.1-1.2b9e169git.el7
+    cloud7-openstack-ocata-release: puppet-tomcat-1.6.1-1.2b9e169git.el7
 - project: puppet-vcsrepo
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
@@ -436,6 +664,11 @@ packages:
       source-branch: 247c33c7994dda5811e5e24c3ad0c3cdef89b9ec
     newton:
       source-branch: 6c88fb38e7710d68d9c41961a45db2b841b86e2f
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-vcsrepo-1.4.0-2.6c88fb3git.el7
+    cloud7-openstack-newton-release: puppet-vcsrepo-1.4.0-2.6c88fb3git.el7
+    cloud7-openstack-ocata-testing: puppet-vcsrepo-1.5.0-1.247c33cgit.el7
+    cloud7-openstack-ocata-release: puppet-vcsrepo-1.5.0-1.247c33cgit.el7
 - project: puppet-xinetd
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
@@ -446,6 +679,11 @@ packages:
       source-branch: 9beb441c0c5433f6a1a42dd70aea173de5b800e4
     newton:
       source-branch: a09c77e008377cb2ab36ca0893888f6ef4aadda0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-xinetd-2.0.0-2.a09c77egit.el7
+    cloud7-openstack-newton-release: puppet-xinetd-2.0.0-2.a09c77egit.el7
+    cloud7-openstack-ocata-testing: puppet-xinetd-2.0.0-3.9beb441git.el7
+    cloud7-openstack-ocata-release: puppet-xinetd-2.0.0-3.9beb441git.el7
 - project: puppet-cassandra
   conf: rpmfactory-puppet
   upstream: git://github.com/locp/cassandra
@@ -456,6 +694,11 @@ packages:
       source-branch: fb0402c8b5a00f22b7bd6e3d2d11760d2deb3475
     newton:
       source-branch: 0fc5e6541e888289c1ea56dc6256f23a729ee68e
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-cassandra-2.1.1-1.0fc5e65git.el7
+    cloud7-openstack-newton-release: puppet-cassandra-2.1.1-1.0fc5e65git.el7
+    cloud7-openstack-ocata-testing: puppet-cassandra-2.3.0-1.fb0402cgit.el7
+    cloud7-openstack-ocata-release: puppet-cassandra-2.3.0-1.fb0402cgit.el7
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/earsdown/%(project)s
@@ -466,6 +709,11 @@ packages:
       source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
     newton:
       source-branch: 1157a7e552d87696e80ed4ab54bf0608a1c5ffff
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-certmonger-1.1.1-1.1157a7egit.el7
+    cloud7-openstack-newton-release: puppet-certmonger-1.1.1-1.1157a7egit.el7
+    cloud7-openstack-ocata-testing: puppet-certmonger-1.1.1-1.1157a7egit.el7
+    cloud7-openstack-ocata-release: puppet-certmonger-1.1.1-1.1157a7egit.el7
 - project: puppet-contrail
   conf: rpmfactory-puppet
   upstream: git://github.com/Juniper/%(project)s
@@ -478,6 +726,11 @@ packages:
   maintainers:
   - mhenkel@juniper.net
   - kparmar@juniper.net
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-contrail-1.0.0-1.c0f7cdegit.el7
+    cloud7-openstack-newton-release: puppet-contrail-1.0.0-1.c0f7cdegit.el7
+    cloud7-openstack-ocata-testing: puppet-contrail-1.0.0-2.9a890f3git.el7
+    cloud7-openstack-ocata-release: puppet-contrail-1.0.0-2.9a890f3git.el7
 - project: puppet-datacat
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
@@ -488,6 +741,11 @@ packages:
       source-branch: 93b88b78364ee35f2bf39ca98ad08b78f423c1d2
     newton:
       source-branch: 10f6dde9a3c3c47c06a6322d22d7723685d9976a
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-datacat-0.6.2-1.10f6ddegit.el7
+    cloud7-openstack-newton-release: puppet-datacat-0.6.2-1.10f6ddegit.el7
+    cloud7-openstack-ocata-testing: puppet-datacat-0.6.2-2.93b88b7git.el7
+    cloud7-openstack-ocata-release: puppet-datacat-0.6.2-2.93b88b7git.el7
 - project: puppet-dns
   conf: rpmfactory-puppet
   upstream: git://github.com/theforeman/%(project)s
@@ -498,6 +756,11 @@ packages:
       source-branch: 88fe0f0d71bc39fe080228d946fc256400a08531
     newton:
       source-branch: 343a804661e81dc5322f20c1e708be971ade914e
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-dns-4.0.0-0.1.343a804git.el7
+    cloud7-openstack-newton-release: puppet-dns-4.0.0-0.1.343a804git.el7
+    cloud7-openstack-ocata-testing: puppet-dns-4.0.0-1.88fe0f0git.el7
+    cloud7-openstack-ocata-release: puppet-dns-4.0.0-1.88fe0f0git.el7
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
@@ -508,6 +771,11 @@ packages:
       source-branch: 4c5c58c400f575370fb61680e55fa298bfc67728
     newton:
       source-branch: 6806948daa1e64b9a362a38dba7b4a909867b1b0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-elasticsearch-0.14.0-2.6806948git.el7
+    cloud7-openstack-newton-release: puppet-elasticsearch-0.14.0-2.6806948git.el7
+    cloud7-openstack-ocata-testing: puppet-elasticsearch-0.15.1-1.4c5c58cgit.el7
+    cloud7-openstack-ocata-release: puppet-elasticsearch-0.15.1-1.4c5c58cgit.el7
 - project: puppet-etcd
   conf: rpmfactory-puppet
   upstream: git://github.com/cristifalcas/%(project)s
@@ -516,6 +784,9 @@ packages:
     pike:
     ocata:
       source-branch: 81dd85b88104882fa1b44059aa210b11e27cfb02
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-etcd-1.10.0-1.81dd85bgit.el7
+    cloud7-openstack-ocata-release: puppet-etcd-1.10.0-1.81dd85bgit.el7
 - project: puppet-fdio
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
@@ -524,6 +795,9 @@ packages:
     pike:
     ocata:
       source-branch: 9326e4237f4d161f297dc4493ab4928ea6e2bf0f
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-fdio-0.0.1-1.9326e42git.el7
+    cloud7-openstack-ocata-release: puppet-fdio-0.0.1-1.9326e42git.el7
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
@@ -534,6 +808,11 @@ packages:
       source-branch: 066d7a5bb630a41296428d81d3c1a1232574d008
     newton:
       source-branch: 4bbf44eb9fed06afced809a6bb8b8d94f04d87c3
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-kafka-2.1.0-2.4bbf44egit.el7
+    cloud7-openstack-newton-release: puppet-kafka-2.1.0-2.4bbf44egit.el7
+    cloud7-openstack-ocata-testing: puppet-kafka-2.2.0-1.066d7a5git.el7
+    cloud7-openstack-ocata-release: puppet-kafka-2.2.0-1.066d7a5git.el7
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
@@ -544,6 +823,11 @@ packages:
       source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
     newton:
       source-branch: 907deb9c236e05211c97a677dbae240edb41c636
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-fluentd-0.8.0-1.el7
+    cloud7-openstack-newton-release: puppet-fluentd-0.8.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-fluentd-0.9.0-1.el7
+    cloud7-openstack-ocata-release: puppet-fluentd-0.9.0-1.el7
 - project: puppet-ipaclient
   conf: rpmfactory-puppet
   upstream: git://github.com/joshuabaird/%(project)s
@@ -554,6 +838,9 @@ packages:
       source-branch: 052dd074420b6a2a494e86b2c03020be57940205
   maintainers:
   - alee@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-ipaclient-2.5.1-1.el7
+    cloud7-openstack-ocata-release: puppet-ipaclient-2.5.1-1.el7
 - project: puppet-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
@@ -564,6 +851,11 @@ packages:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     newton:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+    cloud7-openstack-newton-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+    cloud7-openstack-ocata-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+    cloud7-openstack-ocata-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
 - project: puppet-kibana3
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
@@ -574,6 +866,11 @@ packages:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     newton:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
+    cloud7-openstack-newton-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
+    cloud7-openstack-ocata-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
+    cloud7-openstack-ocata-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
 - project: puppet-memcached
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
@@ -584,6 +881,11 @@ packages:
       source-branch: v3.0.1
     newton:
       source-branch: 7671b5f9dd9999948ee3916fc93a860891929275
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-memcached-2.8.1-2.7671b5fgit.el7
+    cloud7-openstack-newton-release: puppet-memcached-2.8.1-2.7671b5fgit.el7
+    cloud7-openstack-ocata-testing: puppet-memcached-3.0.1-1.el7
+    cloud7-openstack-ocata-release: puppet-memcached-3.0.1-1.el7
 - project: puppet-midonet
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
@@ -594,6 +896,11 @@ packages:
     newton:
   maintainers:
   - alejandroandreu@openmailbox.org
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-midonet-2015.06.09-1.el7
+    cloud7-openstack-newton-release: puppet-midonet-2015.06.09-1.el7
+    cloud7-openstack-ocata-testing: puppet-midonet-1.1.0-1.el7
+    cloud7-openstack-ocata-release: puppet-midonet-1.1.0-1.el7
 - project: puppet-midonet_openstack
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
@@ -615,6 +922,11 @@ packages:
       source-branch: eb1e0a95cb62fc6cd41f0a2c60fcdf34e7eaf596
     newton:
       source-branch: 4a3843cdad526adb1527a6ad9ba503ae9b7d6361
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-collectd-5.1.0-2.4a3843cgit.el7
+    cloud7-openstack-newton-release: puppet-collectd-5.1.0-2.4a3843cgit.el7
+    cloud7-openstack-ocata-testing: puppet-collectd-5.3.0-1.eb1e0a9git.el7
+    cloud7-openstack-ocata-release: puppet-collectd-5.3.0-1.eb1e0a9git.el7
 - project: puppet-module-data
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
@@ -625,6 +937,11 @@ packages:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     newton:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
+    cloud7-openstack-newton-release: puppet-module-data-0.5.1-1.28dafcegit.el7
+    cloud7-openstack-ocata-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
+    cloud7-openstack-ocata-release: puppet-module-data-0.5.1-1.28dafcegit.el7
 # - project: puppet-nagios-openstack
 #   conf: rpmfactory-puppet
 #   upstream: git://github.com/gildub/%(project)s
@@ -638,6 +955,11 @@ packages:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
     newton:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-nssdb-1.0.1-1.el7
+    cloud7-openstack-newton-release: puppet-nssdb-1.0.1-1.el7
+    cloud7-openstack-ocata-testing: puppet-nssdb-1.0.1-1.el7
+    cloud7-openstack-ocata-release: puppet-nssdb-1.0.1-1.el7
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
@@ -650,6 +972,11 @@ packages:
       source-branch: stable/boron
     newton:
       source-branch: stable/boron
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-opendaylight-3.7.0-1.b2d8d9dgit.el7
+    cloud7-openstack-newton-release: puppet-opendaylight-3.7.0-1.b2d8d9dgit.el7
+    cloud7-openstack-ocata-testing: puppet-opendaylight-4.0.0-1.el7
+    cloud7-openstack-ocata-release: puppet-opendaylight-4.0.0-1.el7
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
@@ -660,6 +987,11 @@ packages:
       source-branch: stable/0.6.x
     newton:
       source-branch: stable/0.6.x
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-pacemaker-0.4.0-0.1.el7
+    cloud7-openstack-newton-release: puppet-pacemaker-0.4.0-0.1.el7
+    cloud7-openstack-ocata-testing: puppet-pacemaker-0.5.0-2.7403757git.el7
+    cloud7-openstack-ocata-release: puppet-pacemaker-0.5.0-1.fe4d448git.el7
 - project: puppet-powerdns
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
@@ -670,6 +1002,11 @@ packages:
       source-branch: 899651549b6d57470d233321265ace862270e154
     newton:
       source-branch: 899651549b6d57470d233321265ace862270e154
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-powerdns-0.0.5-1.8996515git.el7
+    cloud7-openstack-newton-release: puppet-powerdns-0.0.5-1.8996515git.el7
+    cloud7-openstack-ocata-testing: puppet-powerdns-0.0.5-1.8996515git.el7
+    cloud7-openstack-ocata-release: puppet-powerdns-0.0.5-1.8996515git.el7
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
@@ -680,6 +1017,11 @@ packages:
       source-branch: a2d63958ad8867585b0a01b9de3edffa43f9baa1
     newton:
       source-branch: 9711564ca49494d0eb1919e8c5668f68a50efa7d
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-redis-1.2.3-2.9711564git.el7
+    cloud7-openstack-newton-release: puppet-redis-1.2.3-2.9711564git.el7
+    cloud7-openstack-ocata-testing: puppet-redis-1.2.4-1.a2d6395git.el7
+    cloud7-openstack-ocata-release: puppet-redis-1.2.4-1.a2d6395git.el7
 - project: puppet-remote
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
@@ -690,6 +1032,11 @@ packages:
       source-branch: 2d3a47780b95b337b8e84558fe11977ea033d051
     newton:
       source-branch: 35cc5571593d21408d625bd8ee35217345ec502a
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-remote-0.0.1-1.el7
+    cloud7-openstack-newton-release: puppet-remote-0.0.1-1.el7
+    cloud7-openstack-ocata-testing: puppet-remote-0.0.1-2.2d3a477git.el7
+    cloud7-openstack-ocata-release: puppet-remote-0.0.1-2.2d3a477git.el7
 - project: puppet-sensu
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
@@ -700,6 +1047,11 @@ packages:
       source-branch: ca45853d7ab1268462bd152ec8fd17bebfeb1eb6
     newton:
       source-branch: 6d10bae43dbb16ca58e3188cc293de01a622240a
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-sensu-2.1.0-2.6d10baegit.el7
+    cloud7-openstack-newton-release: puppet-sensu-2.1.0-2.6d10baegit.el7
+    cloud7-openstack-ocata-testing: puppet-sensu-2.2.0-1.ca45853git.el7
+    cloud7-openstack-ocata-release: puppet-sensu-2.2.0-1.ca45853git.el7
 - project: puppet-snmp
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
@@ -710,6 +1062,11 @@ packages:
       source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
     newton:
       source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-snmp-3.6.0-1.7d4c97cgit.el7
+    cloud7-openstack-newton-release: puppet-snmp-3.6.0-1.7d4c97cgit.el7
+    cloud7-openstack-ocata-testing: puppet-snmp-3.6.0-1.7d4c97cgit.el7
+    cloud7-openstack-ocata-release: puppet-snmp-3.6.0-1.7d4c97cgit.el7
 - project: puppet-ssh
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
@@ -720,6 +1077,11 @@ packages:
       source-branch: v3.0.1
     newton:
       source-branch: 8564a4b939b75dc560487acd87ad6f2258b6ff1a
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-ssh-2.9.1-1.el7
+    cloud7-openstack-newton-release: puppet-ssh-2.9.1-1.el7
+    cloud7-openstack-ocata-testing: puppet-ssh-3.0.1-2.el7
+    cloud7-openstack-ocata-release: puppet-ssh-3.0.1-2.el7
 - project: puppet-staging
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
@@ -730,6 +1092,11 @@ packages:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     newton:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-staging-1.0.4-1.b466d93git.el7
+    cloud7-openstack-newton-release: puppet-staging-1.0.4-1.b466d93git.el7
+    cloud7-openstack-ocata-testing: puppet-staging-1.0.4-1.b466d93git.el7
+    cloud7-openstack-ocata-release: puppet-staging-1.0.4-1.b466d93git.el7
 - project: puppet-timezone
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
@@ -740,6 +1107,11 @@ packages:
       source-branch: v3.4.0
     newton:
       source-branch: cf62f1bb34c2704afac9e2d37244bbf0c6b3ac95
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-timezone-3.3.0-1.cf62f1bgit.el7
+    cloud7-openstack-newton-release: puppet-timezone-3.3.0-1.cf62f1bgit.el7
+    cloud7-openstack-ocata-testing: puppet-timezone-3.4.0-1.el7
+    cloud7-openstack-ocata-release: puppet-timezone-3.4.0-1.el7
 - project: puppet-uchiwa
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
@@ -750,6 +1122,11 @@ packages:
       source-branch: 8095b7cc05b4d53a057213e0869dd8bea5b3b9cd
     newton:
       source-branch: 64ce619c26995bc270aa762e24ca298b9787bc3e
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-uchiwa-1.0.1-1.64ce619git.el7
+    cloud7-openstack-newton-release: puppet-uchiwa-1.0.1-1.64ce619git.el7
+    cloud7-openstack-ocata-testing: puppet-uchiwa-1.0.1-2.8095b7cgit.el7
+    cloud7-openstack-ocata-release: puppet-uchiwa-1.0.1-2.8095b7cgit.el7
 - project: puppet-vlan
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
@@ -760,6 +1137,11 @@ packages:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     newton:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-vlan-0.1.0-1.el7
+    cloud7-openstack-newton-release: puppet-vlan-0.1.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-vlan-0.1.0-1.el7
+    cloud7-openstack-ocata-release: puppet-vlan-0.1.0-1.el7
 - project: puppet-zookeeper
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
@@ -770,6 +1152,11 @@ packages:
       source-branch: 9383fdad877c2d70aead91283ddde14fe22144d8
     newton:
       source-branch: 53bba0c685da3e43a4c644fbfb6aa1fffe6e5380
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-zookeeper-0.7.0-0.1.53bba0cgit.el7
+    cloud7-openstack-newton-release: puppet-zookeeper-0.7.0-0.1.53bba0cgit.el7
+    cloud7-openstack-ocata-testing: puppet-zookeeper-0.7.1-1.9383fdagit.el7
+    cloud7-openstack-ocata-release: puppet-zookeeper-0.7.1-1.9383fdagit.el7
 - project: puppet-kmod
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
@@ -780,6 +1167,11 @@ packages:
       source-branch: 924ee8552bbd5540f96f549a1f4e497376e5b08e
     newton:
       source-branch: 0d69a96e8d0d3a08da0d5f476c733134df4fb9ee
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-kmod-2.1.1-2.0d69a96git.el7
+    cloud7-openstack-newton-release: puppet-kmod-2.1.1-2.0d69a96git.el7
+    cloud7-openstack-ocata-testing: puppet-kmod-2.1.1-3.924ee85git.el7
+    cloud7-openstack-ocata-release: puppet-kmod-2.1.1-3.924ee85git.el7
 - project: puppet-sysctl
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
@@ -790,6 +1182,11 @@ packages:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
     newton:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-sysctl-0.0.11-1.el7
+    cloud7-openstack-newton-release: puppet-sysctl-0.0.11-1.el7
+    cloud7-openstack-ocata-testing: puppet-sysctl-0.0.11-1.el7
+    cloud7-openstack-ocata-release: puppet-sysctl-0.0.11-1.el7
 - project: puppet-systemd
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
@@ -800,6 +1197,11 @@ packages:
       source-branch: 70c418cfb49d5d13e68c0584f0a30464527f6bd1
     newton:
       source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
+  buildsys-tags:
+    cloud7-openstack-newton-testing: puppet-systemd-0.4.0-1.a032136git.el7
+    cloud7-openstack-newton-release: puppet-systemd-0.4.0-1.a032136git.el7
+    cloud7-openstack-ocata-testing: puppet-systemd-0.4.0-2.70c418cgit.el7
+    cloud7-openstack-ocata-release: puppet-systemd-0.4.0-2.70c418cgit.el7
 - project: puppet-logstash
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
@@ -824,29 +1226,57 @@ packages:
   maintainers:
   - alejandroandreu@openmailbox.org
 # core openstack projects
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-lib-file_concat-1.0.1-1.813132bgit.el7
+    cloud7-openstack-ocata-release: puppet-lib-file_concat-1.0.1-1.813132bgit.el7
 - project: nova
   conf: rpmfactory-core
   maintainers:
   - sahid.ferdjaoui@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-nova-14.0.6-1.el7
+    cloud7-openstack-newton-release: openstack-nova-14.0.6-1.el7
+    cloud7-openstack-ocata-testing: openstack-nova-15.0.4-1.el7
+    cloud7-openstack-ocata-release: openstack-nova-15.0.3-2.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
   - apevec@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-keystone-10.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-keystone-10.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-keystone-11.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-keystone-11.0.0-1.el7
 - project: glance
   conf: rpmfactory-core
   maintainers:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-glance-13.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-glance-13.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-glance-14.0.0-2.el7
+    cloud7-openstack-ocata-release: openstack-glance-14.0.0-2.el7
 - project: glance_store
   conf: rpmfactory-core
   name: python-glance-store
   maintainers:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-glance-store-0.18.0-1.el7
+    cloud7-openstack-newton-release: python-glance-store-0.18.0-1.el7
+    cloud7-openstack-ocata-testing: python-glance-store-0.20.0-1.el7
+    cloud7-openstack-ocata-release: python-glance-store-0.20.0-1.el7
 - project: swift
   conf: rpmfactory-core
   maintainers:
   - zaitcev@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-swift-2.10.1-1.el7
+    cloud7-openstack-newton-release: openstack-swift-2.10.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-swift-2.13.0-1.el7
+    cloud7-openstack-ocata-release: openstack-swift-2.13.0-1.el7
 - project: swift3
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
@@ -855,12 +1285,22 @@ packages:
     pike:
     ocata:
     newton:
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-swift-plugin-swift3-1.11.0-1.el7
+    cloud7-openstack-newton-release: openstack-swift-plugin-swift3-1.11.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-swift-plugin-swift3-1.11.0-1.el7
+    cloud7-openstack-ocata-release: openstack-swift-plugin-swift3-1.11.0-1.el7
 - project: ceilometer
   conf: rpmfactory-core
   maintainers:
   - eglynn@redhat.com
   - pkilambi@redhat.com
   - mabaakou@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-ceilometer-7.0.4-1.el7
+    cloud7-openstack-newton-release: openstack-ceilometer-7.0.4-1.el7
+    cloud7-openstack-ocata-testing: openstack-ceilometer-8.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-ceilometer-8.0.1-1.el7
 - project: gnocchi
   conf: rpmfactory-core
   upstream: https://github.com/gnocchixyz/%(project)s
@@ -875,6 +1315,11 @@ packages:
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-gnocchi-3.0.8-1.el7
+    cloud7-openstack-newton-release: openstack-gnocchi-3.0.8-1.el7
+    cloud7-openstack-ocata-testing: openstack-gnocchi-3.1.5-1.el7
+    cloud7-openstack-ocata-release: openstack-gnocchi-3.1.3-1.el7
 - project: aodh
   tags:
     pike-uc:
@@ -885,6 +1330,11 @@ packages:
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-aodh-3.0.2-1.el7
+    cloud7-openstack-newton-release: openstack-aodh-3.0.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-aodh-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-aodh-4.0.0-1.el7
 - project: panko
   tags:
     pike-uc:
@@ -894,6 +1344,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - pkilambi@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-panko-1.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-panko-1.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-panko-2.0.2-1.el7
+    cloud7-openstack-ocata-release: openstack-panko-2.0.2-1.el7
 - project: heat
   conf: rpmfactory-core
   maintainers:
@@ -901,12 +1356,22 @@ packages:
   - therve@redhat.com
   - ramishra@redhat.com
   - sbaker@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-heat-7.0.3-1.el7
+    cloud7-openstack-newton-release: openstack-heat-7.0.3-1.el7
+    cloud7-openstack-ocata-testing: openstack-heat-8.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-heat-8.0.1-1.el7
 - project: cinder
   conf: rpmfactory-core
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
   - hguemar@fedoraproject.org
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-cinder-9.1.4-1.el7
+    cloud7-openstack-newton-release: openstack-cinder-9.1.4-1.el7
+    cloud7-openstack-ocata-testing: openstack-cinder-10.0.2-1.el7
+    cloud7-openstack-ocata-release: openstack-cinder-10.0.1-1.el7
 - project: ironic
   tags:
     pike-uc:
@@ -917,6 +1382,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-ironic-6.2.3-1.el7
+    cloud7-openstack-newton-release: openstack-ironic-6.2.3-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-7.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-ironic-7.0.1-1.el7
 - project: neutron
   conf: rpmfactory-core
   maintainers:
@@ -925,6 +1395,11 @@ packages:
   - jlibosva@redhat.com
   - nmagnezi@redhat.com
   - twilson@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-neutron-9.3.1-1.el7
+    cloud7-openstack-newton-release: openstack-neutron-9.3.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-10.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-neutron-10.0.1-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
@@ -942,6 +1417,11 @@ packages:
   - jlibosva@redhat.com
   - nmagnezi@redhat.com
   - twilson@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-neutron-lib-0.4.0-1.el7
+    cloud7-openstack-newton-release: python-neutron-lib-0.4.0-1.el7
+    cloud7-openstack-ocata-testing: python-neutron-lib-1.1.0-1.el7
+    cloud7-openstack-ocata-release: python-neutron-lib-1.1.0-1.el7
 - project: neutron-fwaas
   conf: rpmfactory-core
   maintainers:
@@ -950,6 +1430,11 @@ packages:
   - jlibosva@redhat.com
   - nmagnezi@redhat.com
   - twilson@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-neutron-fwaas-9.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-neutron-fwaas-9.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-fwaas-10.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-neutron-fwaas-10.0.1-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
   maintainers:
@@ -958,6 +1443,11 @@ packages:
   - jlibosva@redhat.com
   - nmagnezi@redhat.com
   - twilson@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-neutron-lbaas-9.2.0-1.el7
+    cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.0-1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
   maintainers:
@@ -966,11 +1456,21 @@ packages:
   - jlibosva@redhat.com
   - nmagnezi@redhat.com
   - twilson@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-neutron-vpnaas-9.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-neutron-vpnaas-9.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-vpnaas-10.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-neutron-vpnaas-10.0.0-1.el7
 - project: designate
   conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-designate-3.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-designate-3.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-designate-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-designate-4.0.0-1.el7
 - project: designate-tempest-plugin
   conf: rpmfactory-lib
   name: python-designate-tests-tempest
@@ -981,6 +1481,11 @@ packages:
     newton:
   maintainers:
   - amoralej@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-designate-tests-tempest-0.1.1-0.1.5fde085git.el7
+    cloud7-openstack-newton-release: python-designate-tests-tempest-0.1.1-0.1.5fde085git.el7
+    cloud7-openstack-ocata-testing: python-designate-tests-tempest-0.2.0-1.el7
+    cloud7-openstack-ocata-release: python-designate-tests-tempest-0.2.0-1.el7
 - project: octavia
   tags:
     pike-uc:
@@ -991,6 +1496,11 @@ packages:
   maintainers:
   - nmagnezi@redhat.com
   - ihrachys@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-octavia-0.9.1-1.el7
+    cloud7-openstack-newton-release: openstack-octavia-0.9.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-octavia-0.10.0-1.el7
+    cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
 - project: watcher
   conf: rpmfactory-core
   tags:
@@ -1002,6 +1512,11 @@ packages:
   - mpryc@redhat.com
   - daniel.pawlik@corp.ovh.com
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-watcher-0.31.0-1.el7
+    cloud7-openstack-newton-release: openstack-watcher-0.31.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-watcher-1.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-watcher-1.0.1-1.el7
 - project: vitrage
   conf: rpmfactory-core
   tags:
@@ -1010,6 +1525,9 @@ packages:
     ocata:
   maintainers:
   - eyal.bar-ilan@nokia.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-vitrage-1.5.1-1.el7
+    cloud7-openstack-ocata-release: openstack-vitrage-1.5.1-1.el7
 - project: vitrage-dashboard
   name: openstack-vitrage-ui
   conf: rpmfactory-core
@@ -1019,6 +1537,9 @@ packages:
     ocata:
   maintainers:
   - eyal.bar-ilan@nokia.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-vitrage-ui-1.1.1-1.el7
+    cloud7-openstack-ocata-release: openstack-vitrage-ui-1.1.1-1.el7
 - project: sahara
   tags:
     pike-uc:
@@ -1028,23 +1549,43 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - egafford@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-sahara-5.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-sahara-5.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-6.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-sahara-6.0.0-1.el7
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
   maintainers:
   - mrunge@redhat.com
   - github@sheep.art.pl
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-django-horizon-10.0.3-1.el7
+    cloud7-openstack-newton-release: python-django-horizon-10.0.3-1.el7
+    cloud7-openstack-ocata-testing: python-django-horizon-11.0.1-2.el7
+    cloud7-openstack-ocata-release: python-django-horizon-11.0.1-2.el7
 - project: trove
   conf: rpmfactory-core
   maintainers:
   - vimartin@redhat.com
   - hguemar@fedoraproject.org
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-trove-6.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-trove-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-trove-7.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-trove-7.0.0-1.el7
 - project: django_openstack_auth
   conf: rpmfactory-lib
   name: python-django-openstack-auth
   maintainers:
   - mrunge@redhat.com
   - github@sheep.art.pl
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-django-openstack-auth-2.4.2-1.el7
+    cloud7-openstack-newton-release: python-django-openstack-auth-2.4.2-1.el7
+    cloud7-openstack-ocata-testing: python-django-openstack-auth-3.1.1-1.el7
+    cloud7-openstack-ocata-release: python-django-openstack-auth-3.1.1-1.el7
 - project: diskimage-builder
   tags:
     pike-uc:
@@ -1057,6 +1598,11 @@ packages:
   name: diskimage-builder
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: diskimage-builder-1.26.1-1.el7
+    cloud7-openstack-newton-release: diskimage-builder-1.26.1-1.el7
+    cloud7-openstack-ocata-testing: diskimage-builder-1.28.0-1.el7
+    cloud7-openstack-ocata-release: diskimage-builder-1.28.0-1.el7
 - project: dib-utils
   tags:
     pike-uc:
@@ -1070,6 +1616,11 @@ packages:
   name: dib-utils
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: dib-utils-0.0.10-1.el7
+    cloud7-openstack-newton-release: dib-utils-0.0.10-1.el7
+    cloud7-openstack-ocata-testing: dib-utils-0.0.11-1.el7
+    cloud7-openstack-ocata-release: dib-utils-0.0.11-1.el7
 - project: tripleo-incubator
   tags:
     newton:
@@ -1077,6 +1628,9 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-0.0.8-0.3.4de13b3git.el7
+    cloud7-openstack-newton-release: openstack-tripleo-0.0.8-0.3.4de13b3git.el7
 - project: tripleo-heat-templates
   tags:
     pike-uc:
@@ -1087,6 +1641,11 @@ packages:
   maintainers:
   - jslagle@redhat.com
   - dprince@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.0-1.el7
+    cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.0.0-0.2.0rc2.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.0.0-0.2.0rc2.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -1102,6 +1661,11 @@ packages:
   maintainers:
   - mburns@redhat.com
   - jslagle@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-compat-2.1.0-2.el7
+    cloud7-openstack-newton-release: openstack-tripleo-heat-templates-compat-2.1.0-2.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-compat-5.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-compat-5.2.0-1.el7
 - project: tripleo-image-elements
   tags:
     pike-uc:
@@ -1111,6 +1675,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-image-elements-5.3.0-2.el7
+    cloud7-openstack-newton-release: openstack-tripleo-image-elements-5.3.0-2.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-image-elements-6.1.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.0-1.el7
 - project: tripleo-validations
   tags:
     pike-uc:
@@ -1120,6 +1689,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - m.andre@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-validations-5.1.2-1.el7
+    cloud7-openstack-newton-release: openstack-tripleo-validations-5.1.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.5.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-validations-5.5.0-1.el7
 - project: instack
   tags:
     pike-uc:
@@ -1130,6 +1704,11 @@ packages:
   name: instack
   maintainers:
   - jslagle@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: instack-5.1.0-1.el7
+    cloud7-openstack-newton-release: instack-5.1.0-1.el7
+    cloud7-openstack-ocata-testing: instack-6.1.0-1.el7
+    cloud7-openstack-ocata-release: instack-6.1.0-1.el7
 - project: instack-undercloud
   tags:
     pike-uc:
@@ -1140,12 +1719,20 @@ packages:
   name: instack-undercloud
   maintainers:
   - jslagle@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: instack-undercloud-5.3.0-1.el7
+    cloud7-openstack-newton-release: instack-undercloud-5.3.0-1.el7
+    cloud7-openstack-ocata-testing: instack-undercloud-6.1.0-1.el7
+    cloud7-openstack-ocata-release: instack-undercloud-6.1.0-1.el7
 - project: heat-templates
   tags:
     newton:
   conf: rpmfactory-core
   maintainers:
   - sbaker@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-heat-templates-0-0.5.1e6015dgit.el7
+    cloud7-openstack-newton-release: openstack-heat-templates-0-0.5.1e6015dgit.el7
 - project: heat-agents
   tags:
     pike-uc:
@@ -1156,6 +1743,9 @@ packages:
   - therve@redhat.com
   - sbaker@redhat.com
   - zbitter@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-heat-agents-1.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-heat-agents-1.0.1-1.el7
 - project: os-apply-config
   tags:
     pike-uc:
@@ -1166,6 +1756,11 @@ packages:
   name: os-apply-config
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: os-apply-config-5.1.0-1.el7
+    cloud7-openstack-newton-release: os-apply-config-5.1.0-1.el7
+    cloud7-openstack-ocata-testing: os-apply-config-6.1.0-1.el7
+    cloud7-openstack-ocata-release: os-apply-config-6.1.0-1.el7
 - project: os-collect-config
   tags:
     pike-uc:
@@ -1176,6 +1771,11 @@ packages:
   name: os-collect-config
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: os-collect-config-5.2.0-1.el7
+    cloud7-openstack-newton-release: os-collect-config-5.2.0-1.el7
+    cloud7-openstack-ocata-testing: os-collect-config-6.1.0-1.el7
+    cloud7-openstack-ocata-release: os-collect-config-6.1.0-1.el7
 - project: os-net-config
   tags:
     pike-uc:
@@ -1186,6 +1786,11 @@ packages:
   name: os-net-config
   maintainers:
   - dprince@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: os-net-config-5.2.0-1.el7
+    cloud7-openstack-newton-release: os-net-config-5.2.0-1.el7
+    cloud7-openstack-ocata-testing: os-net-config-6.1.0-1.el7
+    cloud7-openstack-ocata-release: os-net-config-6.1.0-1.el7
 - project: os-refresh-config
   tags:
     pike-uc:
@@ -1196,6 +1801,11 @@ packages:
   name: os-refresh-config
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: os-refresh-config-5.2.0-1.el7
+    cloud7-openstack-newton-release: os-refresh-config-5.2.0-1.el7
+    cloud7-openstack-ocata-testing: os-refresh-config-6.1.0-1.el7
+    cloud7-openstack-ocata-release: os-refresh-config-6.1.0-1.el7
 - project: os-cloud-config
   tags:
     # This project was removed in Pike and locked to the commit before
@@ -1208,6 +1818,11 @@ packages:
   name: os-cloud-config
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: os-cloud-config-5.1.0-1.el7
+    cloud7-openstack-newton-release: os-cloud-config-5.1.0-1.el7
+    cloud7-openstack-ocata-testing: os-cloud-config-6.0.0-1.el7
+    cloud7-openstack-ocata-release: os-cloud-config-6.0.0-1.el7
 - project: os-client-config
   tags:
     pike-uc:
@@ -1220,6 +1835,11 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - jruzicka@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-os-client-config-1.21.1-1.el7
+    cloud7-openstack-newton-release: python-os-client-config-1.21.1-1.el7
+    cloud7-openstack-ocata-testing: python-os-client-config-1.26.0-1.el7
+    cloud7-openstack-ocata-release: python-os-client-config-1.26.0-1.el7
 - project: os-win
   tags:
     pike-uc:
@@ -1234,6 +1854,11 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-os-win-1.2.1-1.el7
+    cloud7-openstack-newton-release: python-os-win-1.2.1-1.el7
+    cloud7-openstack-ocata-testing: python-os-win-1.4.1-1.el7
+    cloud7-openstack-ocata-release: python-os-win-1.4.1-1.el7
 - project: os-xenapi
   conf: rpmfactory-lib
   tags:
@@ -1254,6 +1879,11 @@ packages:
   maintainers:
   - hguemar@fedoraproject.org
   - tbarron@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-manila-3.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-manila-3.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-manila-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-manila-4.0.0-1.el7
 - project: zaqar
   tags:
     pike-uc:
@@ -1265,6 +1895,11 @@ packages:
   - hguemar@fedoraproject.org
   - fpercoco@redhat.com
   - therve@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-zaqar-3.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-zaqar-3.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-zaqar-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-zaqar-4.0.0-1.el7
 - project: ironic-inspector
   tags:
     pike-uc:
@@ -1275,6 +1910,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-ironic-inspector-4.2.1-1.el7
+    cloud7-openstack-newton-release: openstack-ironic-inspector-4.2.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-inspector-5.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-ironic-inspector-5.0.0-1.el7
 - project: ironic-python-agent
   tags:
     pike-uc:
@@ -1285,6 +1925,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-ironic-python-agent-1.5.1-1.el7
+    cloud7-openstack-newton-release: openstack-ironic-python-agent-1.5.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-python-agent-2.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-ironic-python-agent-2.0.0-1.el7
 - project: ironic-lib
   tags:
     pike-uc:
@@ -1298,6 +1943,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-ironic-lib-2.1.2-1.el7
+    cloud7-openstack-newton-release: python-ironic-lib-2.1.2-1.el7
+    cloud7-openstack-ocata-testing: python-ironic-lib-2.5.2-1.el7
+    cloud7-openstack-ocata-release: python-ironic-lib-2.5.2-1.el7
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
@@ -1308,11 +1958,19 @@ packages:
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-ironic-ui-2.2.0-1.el7
 - project: barbican
   conf: rpmfactory-core
   maintainers:
   - greg.swift@rackspace.net
   - msm@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-barbican-3.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-barbican-3.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-barbican-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-barbican-4.0.0-1.el7
 - project: cloudkitty
   tags:
     pike-uc:
@@ -1322,6 +1980,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - gauvain.pocentek@objectif-libre.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-cloudkitty-0.6.1-2.el7
+    cloud7-openstack-newton-release: openstack-cloudkitty-0.6.1-2.el7
+    cloud7-openstack-ocata-testing: openstack-cloudkitty-5.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-cloudkitty-5.0.1-1.el7
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
@@ -1332,6 +1995,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - gauvain.pocentek@objectif-libre.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-cloudkitty-ui-0.6.1-1.el7
+    cloud7-openstack-newton-release: openstack-cloudkitty-ui-0.6.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-cloudkitty-ui-5.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-cloudkitty-ui-5.0.0-1.el7
 - project: ec2-api
   tags:
     pike-uc:
@@ -1341,6 +2009,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-ec2-api-3.0.2-1.el7
+    cloud7-openstack-newton-release: openstack-ec2-api-3.0.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-ec2-api-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-ec2-api-4.0.0-1.el7
 - project: magnum
   tags:
     pike-uc:
@@ -1351,6 +2024,11 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-magnum-3.2.0-1.el7
+    cloud7-openstack-newton-release: openstack-magnum-3.2.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-magnum-4.1.1-1.el7
+    cloud7-openstack-ocata-release: openstack-magnum-4.1.0-2.el7
 - project: manila-ui
   tags:
     pike-uc:
@@ -1361,6 +2039,11 @@ packages:
   maintainers:
   - hguemar@fedoraproject.org
   - tbarron@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-manila-ui-2.5.1-1.el7
+    cloud7-openstack-newton-release: openstack-manila-ui-2.5.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-manila-ui-2.7.1-1.el7
+    cloud7-openstack-ocata-release: openstack-manila-ui-2.7.1-1.el7
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
@@ -1373,6 +2056,11 @@ packages:
   maintainers:
   - mrunge@redhat.com
   - github@sheep.art.pl
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-neutron-lbaas-ui-1.0.0-2.el7
+    cloud7-openstack-newton-release: openstack-neutron-lbaas-ui-1.0.0-2.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-lbaas-ui-2.0.0-2.el7
+    cloud7-openstack-ocata-release: openstack-neutron-lbaas-ui-2.0.0-2.el7
 - project: sahara-image-elements
   tags:
     pike-uc:
@@ -1383,6 +2071,11 @@ packages:
   name: sahara-image-elements
   maintainers:
   - egafford@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: sahara-image-elements-5.0.1-1.el7
+    cloud7-openstack-newton-release: sahara-image-elements-5.0.1-1.el7
+    cloud7-openstack-ocata-testing: sahara-image-elements-6.0.0-1.el7
+    cloud7-openstack-ocata-release: sahara-image-elements-6.0.0-1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
@@ -1394,6 +2087,11 @@ packages:
   maintainers:
   - vimartin@redhat.com
   - pmackinn@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-trove-ui-7.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-trove-ui-7.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-trove-ui-8.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-trove-ui-8.0.0-1.el7
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
@@ -1405,6 +2103,11 @@ packages:
   maintainers:
   - egafford@redhat.com
 # The openstack clients
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-sahara-ui-5.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-sahara-ui-5.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-ui-6.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-sahara-ui-6.0.0-1.el7
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
@@ -1415,6 +2118,11 @@ packages:
       source-branch: 3.10.0
     newton:
       source-branch: 3.5.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-keystoneclient-3.5.1-1.el7
+    cloud7-openstack-newton-release: python-keystoneclient-3.5.1-1.el7
+    cloud7-openstack-ocata-testing: python-keystoneclient-3.10.0-1.el7
+    cloud7-openstack-ocata-release: python-keystoneclient-3.10.0-1.el7
 - project: glanceclient
   conf: rpmfactory-client
   tags:
@@ -1425,6 +2133,11 @@ packages:
       source-branch: 2.6.0
     newton:
       source-branch: 2.5.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-glanceclient-2.5.0-1.el7
+    cloud7-openstack-newton-release: python-glanceclient-2.5.0-1.el7
+    cloud7-openstack-ocata-testing: python-glanceclient-2.6.0-1.el7
+    cloud7-openstack-ocata-release: python-glanceclient-2.6.0-1.el7
 - project: novaclient
   conf: rpmfactory-client
   tags:
@@ -1435,6 +2148,11 @@ packages:
       source-branch: 7.1.2
     newton:
       source-branch: 6.0.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-novaclient-6.0.1-1.el7
+    cloud7-openstack-newton-release: python-novaclient-6.0.1-1.el7
+    cloud7-openstack-ocata-testing: python-novaclient-7.1.1-1.el7
+    cloud7-openstack-ocata-release: python-novaclient-7.1.0-1.el7
 - project: swiftclient
   conf: rpmfactory-client
   tags:
@@ -1445,6 +2163,11 @@ packages:
       source-branch: 3.3.0
     newton:
       source-branch: 3.1.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-swiftclient-3.1.0-1.el7
+    cloud7-openstack-newton-release: python-swiftclient-3.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-swiftclient-3.3.0-1.el7
+    cloud7-openstack-ocata-release: python-swiftclient-3.3.0-1.el7
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
@@ -1455,6 +2178,11 @@ packages:
       source-branch: 2.8.1
     newton:
       source-branch: 2.6.2
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-ceilometerclient-2.6.2-1.el7
+    cloud7-openstack-newton-release: python-ceilometerclient-2.6.2-1.el7
+    cloud7-openstack-ocata-testing: python-ceilometerclient-2.8.1-1.el7
+    cloud7-openstack-ocata-release: python-ceilometerclient-2.8.1-1.el7
 - project: heatclient
   conf: rpmfactory-client
   tags:
@@ -1465,6 +2193,11 @@ packages:
       source-branch: 1.8.1
     newton:
       source-branch: 1.5.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-heatclient-1.5.1-1.el7
+    cloud7-openstack-newton-release: python-heatclient-1.5.1-1.el7
+    cloud7-openstack-ocata-testing: python-heatclient-1.8.1-1.el7
+    cloud7-openstack-ocata-release: python-heatclient-1.8.0-1.el7
 - project: cinderclient
   conf: rpmfactory-client
   tags:
@@ -1475,6 +2208,11 @@ packages:
       source-branch: 1.11.0
     newton:
       source-branch: 1.9.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-cinderclient-1.9.0-1.el7
+    cloud7-openstack-newton-release: python-cinderclient-1.9.0-1.el7
+    cloud7-openstack-ocata-testing: python-cinderclient-1.11.0-1.el7
+    cloud7-openstack-ocata-release: python-cinderclient-1.11.0-1.el7
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
@@ -1488,6 +2226,11 @@ packages:
       source-branch: 1.11.1
     newton:
       source-branch: 1.7.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-ironicclient-1.7.1-1.el7
+    cloud7-openstack-newton-release: python-ironicclient-1.7.1-1.el7
+    cloud7-openstack-ocata-testing: python-ironicclient-1.11.1-1.el7
+    cloud7-openstack-ocata-release: python-ironicclient-1.11.1-1.el7
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
@@ -1502,6 +2245,11 @@ packages:
       source-branch: 6.1.0
     newton:
       source-branch: 6.0.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-neutronclient-6.0.0-2.el7
+    cloud7-openstack-newton-release: python-neutronclient-6.0.0-2.el7
+    cloud7-openstack-ocata-testing: python-neutronclient-6.1.0-1.el7
+    cloud7-openstack-ocata-release: python-neutronclient-6.1.0-1.el7
 - project: saharaclient
   conf: rpmfactory-client
   tags:
@@ -1512,6 +2260,11 @@ packages:
       source-branch: 1.1.0
     newton:
       source-branch: 0.18.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-saharaclient-0.18.0-1.el7
+    cloud7-openstack-newton-release: python-saharaclient-0.18.0-1.el7
+    cloud7-openstack-ocata-testing: python-saharaclient-1.1.0-1.el7
+    cloud7-openstack-ocata-release: python-saharaclient-1.1.0-1.el7
 - project: troveclient
   conf: rpmfactory-client
   tags:
@@ -1522,6 +2275,11 @@ packages:
       source-branch: 2.8.0
     newton:
       source-branch: 2.5.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-troveclient-2.5.0-1.el7
+    cloud7-openstack-newton-release: python-troveclient-2.5.0-1.el7
+    cloud7-openstack-ocata-testing: python-troveclient-2.8.0-1.el7
+    cloud7-openstack-ocata-release: python-troveclient-2.8.0-1.el7
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
@@ -1533,6 +2291,11 @@ packages:
     newton:
   maintainers:
   - mrunge@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-vitrageclient-1.0.1-1.el7
+    cloud7-openstack-newton-release: python-vitrageclient-1.0.1-1.el7
+    cloud7-openstack-ocata-testing: python-vitrageclient-1.1.1-1.el7
+    cloud7-openstack-ocata-release: python-vitrageclient-1.1.1-1.el7
 - project: designateclient
   conf: rpmfactory-client
   tags:
@@ -1543,6 +2306,11 @@ packages:
       source-branch: 2.6.0
     newton:
       source-branch: 2.3.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-designateclient-2.3.0-1.el7
+    cloud7-openstack-newton-release: python-designateclient-2.3.0-1.el7
+    cloud7-openstack-ocata-testing: python-designateclient-2.6.0-1.el7
+    cloud7-openstack-ocata-release: python-designateclient-2.6.0-1.el7
 - project: manilaclient
   tags:
     pike-uc:
@@ -1555,6 +2323,11 @@ packages:
   maintainers:
   - tbarron@redhat.com
   conf: rpmfactory-client
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-manilaclient-1.11.0-1.el7
+    cloud7-openstack-newton-release: python-manilaclient-1.11.0-1.el7
+    cloud7-openstack-ocata-testing: python-manilaclient-1.14.0-1.el7
+    cloud7-openstack-ocata-release: python-manilaclient-1.14.0-1.el7
 - project: barbicanclient
   tags:
     pike-uc:
@@ -1569,6 +2342,11 @@ packages:
   - greg.swift@rackspace.net
   - msm@redhat.com
   - chkumar@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-barbicanclient-4.1.0-1.el7
+    cloud7-openstack-newton-release: python-barbicanclient-4.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-barbicanclient-4.2.0-1.el7
+    cloud7-openstack-ocata-release: python-barbicanclient-4.2.0-1.el7
 - project: cloudkittyclient
   tags:
     pike-uc:
@@ -1578,6 +2356,11 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - gauvain.pocentek@objectif-libre.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-cloudkittyclient-0.6.0-1.el7
+    cloud7-openstack-newton-release: python-cloudkittyclient-0.6.0-1.el7
+    cloud7-openstack-ocata-testing: python-cloudkittyclient-1.0.0-1.el7
+    cloud7-openstack-ocata-release: python-cloudkittyclient-1.0.0-1.el7
 - project: keystonemiddleware
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -1589,6 +2372,11 @@ packages:
       source-branch: 4.14.0
     newton:
       source-branch: 4.9.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-keystonemiddleware-4.9.0-1.el7
+    cloud7-openstack-newton-release: python-keystonemiddleware-4.9.0-1.el7
+    cloud7-openstack-ocata-testing: python-keystonemiddleware-4.14.0-1.el7
+    cloud7-openstack-ocata-release: python-keystonemiddleware-4.14.0-1.el7
 - project: ceilometermiddleware
   tags:
     # version 1.0.1 has been incorrectly added in u-c for stable/ocata. Unlock when fixed.
@@ -1602,6 +2390,11 @@ packages:
       source-branch: 0.5.1
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-ceilometermiddleware-0.5.1-1.el7
+    cloud7-openstack-newton-release: python-ceilometermiddleware-0.5.1-1.el7
+    cloud7-openstack-ocata-testing: python-ceilometermiddleware-1.0.0-1.el7
+    cloud7-openstack-ocata-release: python-ceilometermiddleware-1.0.0-1.el7
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -1614,6 +2407,11 @@ packages:
       source-branch: 3.8.1
     newton:
       source-branch: 3.2.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-openstackclient-3.2.1-1.el7
+    cloud7-openstack-newton-release: python-openstackclient-3.2.1-1.el7
+    cloud7-openstack-ocata-testing: python-openstackclient-3.8.1-1.el7
+    cloud7-openstack-ocata-release: python-openstackclient-3.8.1-1.el7
 - project: shade
   conf: rpmfactory-client
   maintainers:
@@ -1636,6 +2434,11 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-ironic-inspector-client-1.10.0-1.el7
+    cloud7-openstack-newton-release: python-ironic-inspector-client-1.10.0-1.el7
+    cloud7-openstack-ocata-testing: python-ironic-inspector-client-1.11.0-1.el7
+    cloud7-openstack-ocata-release: python-ironic-inspector-client-1.11.0-1.el7
 - project: tripleoclient
   tags:
     pike-uc:
@@ -1645,6 +2448,11 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - brad@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-tripleoclient-5.4.2-1.el7
+    cloud7-openstack-newton-release: python-tripleoclient-5.4.2-1.el7
+    cloud7-openstack-ocata-testing: python-tripleoclient-6.1.0-1.el7
+    cloud7-openstack-ocata-release: python-tripleoclient-6.1.0-1.el7
 - project: zaqarclient
   tags:
     pike-uc:
@@ -1659,6 +2467,11 @@ packages:
   - hguemar@fedoraproject.org
   - fpercoco@redhat.com
   - therve@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-zaqarclient-1.2.0-2.el7
+    cloud7-openstack-newton-release: python-zaqarclient-1.2.0-2.el7
+    cloud7-openstack-ocata-testing: python-zaqarclient-1.4.0-1.el7
+    cloud7-openstack-ocata-release: python-zaqarclient-1.4.0-1.el7
 - project: openstacksdk
   tags:
     pike-uc:
@@ -1669,6 +2482,11 @@ packages:
     newton:
       source-branch: 0.9.5
   conf: rpmfactory-client
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-openstacksdk-0.9.5-1.el7
+    cloud7-openstack-newton-release: python-openstacksdk-0.9.5-1.el7
+    cloud7-openstack-ocata-testing: python-openstacksdk-0.9.13-1.el7
+    cloud7-openstack-ocata-release: python-openstacksdk-0.9.13-1.el7
 - project: gnocchiclient
   tags:
     pike-uc:
@@ -1682,6 +2500,11 @@ packages:
   upstream: https://github.com/gnocchixyz/python-%(project)s
   maintainers:
   - pkilambi@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-gnocchiclient-2.8.2-1.el7
+    cloud7-openstack-newton-release: python-gnocchiclient-2.8.2-1.el7
+    cloud7-openstack-ocata-testing: python-gnocchiclient-3.1.0-1.el7
+    cloud7-openstack-ocata-release: python-gnocchiclient-3.1.0-1.el7
 - project: aodhclient
   tags:
     pike-uc:
@@ -1694,6 +2517,11 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-aodhclient-0.7.0-1.el7
+    cloud7-openstack-newton-release: python-aodhclient-0.7.0-1.el7
+    cloud7-openstack-ocata-testing: python-aodhclient-0.8.0-1.el7
+    cloud7-openstack-ocata-release: python-aodhclient-0.8.0-1.el7
 - project: pankoclient
   tags:
     pike-uc:
@@ -1713,6 +2541,9 @@ packages:
   maintainers:
   - jpena@redhat.com
 # openstack libraries
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-monascaclient-1.5.0-1.el7
+    cloud7-openstack-ocata-release: python-monascaclient-1.5.0-1.el7
 - project: mox3
   tags:
     pike-uc:
@@ -1724,6 +2555,11 @@ packages:
       source-branch: 0.18.0
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/mox3
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-mox3-0.18.0-1.el7
+    cloud7-openstack-newton-release: python-mox3-0.18.0-1.el7
+    cloud7-openstack-ocata-testing: python-mox3-0.20.0-1.el7
+    cloud7-openstack-ocata-release: python-mox3-0.20.0-1.el7
 - project: oslotest
   tags:
     pike-uc:
@@ -1735,9 +2571,21 @@ packages:
       source-branch: 2.10.0
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslotest
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslotest-2.10.0-1.el7
+    cloud7-openstack-newton-release: python-oslotest-2.10.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslotest-2.13.0-1.el7
+    cloud7-openstack-ocata-release: python-oslotest-2.13.0-1.el7
 - project: oslo-sphinx
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslosphinx
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-oslo-sphinx-3.2.0-1.el7
+    cloud7-openstack-common-release: python-oslo-sphinx-3.2.0-1.el7
+    cloud7-openstack-newton-testing: python-oslo-sphinx-4.7.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-sphinx-4.7.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-sphinx-4.10.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-sphinx-4.10.0-1.el7
 - project: oslo-i18n
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
@@ -1751,6 +2599,11 @@ packages:
       source-branch: 3.9.0
   maintainers:
   - panemade@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-i18n-3.9.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-i18n-3.9.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-i18n-3.12.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-i18n-3.12.0-1.el7
 - project: oslo-messaging
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
@@ -1762,6 +2615,11 @@ packages:
       source-branch: 5.17.1
     newton:
       source-branch: 5.10.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-messaging-5.10.1-1.el7
+    cloud7-openstack-newton-release: python-oslo-messaging-5.10.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.1-1.el7
+    cloud7-openstack-ocata-release: python-oslo-messaging-5.17.1-1.el7
 - project: oslo-cache
   tags:
     pike-uc:
@@ -1773,6 +2631,11 @@ packages:
       source-branch: 1.14.0
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.cache
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-cache-1.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-cache-1.14.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-cache-1.17.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-cache-1.17.0-1.el7
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
@@ -1784,6 +2647,11 @@ packages:
       source-branch: 3.22.0
     newton:
       source-branch: 3.17.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-config-3.17.1-1.el7
+    cloud7-openstack-newton-release: python-oslo-config-3.17.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-config-3.22.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-config-3.22.0-1.el7
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
@@ -1795,6 +2663,11 @@ packages:
       source-branch: 3.18.0
     newton:
       source-branch: 3.14.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-concurrency-3.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-concurrency-3.14.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-concurrency-3.18.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-concurrency-3.18.0-1.el7
 - project: oslo-rootwrap
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
@@ -1806,6 +2679,11 @@ packages:
       source-branch: 5.4.1
     newton:
       source-branch: 5.1.2
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-rootwrap-5.1.1-1.el7
+    cloud7-openstack-newton-release: python-oslo-rootwrap-5.1.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-rootwrap-5.4.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-rootwrap-5.4.0-1.el7
 - project: oslo-serialization
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
@@ -1817,6 +2695,11 @@ packages:
       source-branch: 2.16.0
     newton:
       source-branch: 2.13.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-serialization-2.13.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-serialization-2.13.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-serialization-2.16.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-serialization-2.16.0-1.el7
 - project: oslo-middleware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
@@ -1828,6 +2711,11 @@ packages:
       source-branch: 3.23.1
     newton:
       source-branch: 3.19.1
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-middleware-3.19.1-1.el7
+    cloud7-openstack-newton-release: python-oslo-middleware-3.19.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-middleware-3.23.1-1.el7
+    cloud7-openstack-ocata-release: python-oslo-middleware-3.23.1-1.el7
 - project: oslo-db
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
@@ -1839,6 +2727,11 @@ packages:
       source-branch: 4.17.0
     newton:
       source-branch: 4.13.5
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-db-4.13.5-1.el7
+    cloud7-openstack-newton-release: python-oslo-db-4.13.5-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-db-4.17.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-db-4.17.0-1.el7
 - project: oslo-utils
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
@@ -1850,6 +2743,11 @@ packages:
       source-branch: 3.22.0
     newton:
       source-branch: 3.16.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-utils-3.16.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-utils-3.16.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-utils-3.22.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-utils-3.22.0-1.el7
 - project: oslo-vmware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
@@ -1861,6 +2759,11 @@ packages:
       source-branch: 2.17.0
     newton:
       source-branch: 2.14.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-vmware-2.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-vmware-2.14.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-vmware-2.17.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-vmware-2.17.0-1.el7
 - project: oslo-context
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
@@ -1872,6 +2775,11 @@ packages:
       source-branch: 2.12.1
     newton:
       source-branch: 2.9.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-context-2.9.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-context-2.9.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-context-2.12.1-1.el7
+    cloud7-openstack-ocata-release: python-oslo-context-2.12.1-1.el7
 - project: oslo-log
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
@@ -1883,6 +2791,11 @@ packages:
       source-branch: 3.20.1
     newton:
       source-branch: 3.16.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-log-3.16.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-log-3.16.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-log-3.20.1-1.el7
+    cloud7-openstack-ocata-release: python-oslo-log-3.20.1-1.el7
 - project: oslo-policy
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
@@ -1894,6 +2807,11 @@ packages:
       source-branch: 1.18.0
     newton:
       source-branch: 1.14.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-policy-1.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-policy-1.14.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-policy-1.18.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-policy-1.18.0-1.el7
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
@@ -1905,6 +2823,11 @@ packages:
       source-branch: 1.21.0
     newton:
       source-branch: 1.17.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-versionedobjects-1.17.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-versionedobjects-1.17.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-versionedobjects-1.21.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-versionedobjects-1.21.0-1.el7
 - project: oslo-service
   tags:
     pike-uc:
@@ -1916,6 +2839,11 @@ packages:
       source-branch: 1.16.0
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.service
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-service-1.16.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-service-1.16.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-service-1.19.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-service-1.19.0-1.el7
 - project: oslo-reports
   tags:
     pike-uc:
@@ -1927,6 +2855,11 @@ packages:
       source-branch: 1.14.0
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.reports
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-reports-1.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-reports-1.14.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-reports-1.17.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-reports-1.17.0-1.el7
 - project: oslo-privsep
   tags:
     pike-uc:
@@ -1938,6 +2871,11 @@ packages:
       source-branch: 1.13.2
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.privsep
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-oslo-privsep-1.13.2-1.el7
+    cloud7-openstack-newton-release: python-oslo-privsep-1.13.2-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-privsep-1.16.0-1.el7
+    cloud7-openstack-ocata-release: python-oslo-privsep-1.16.0-1.el7
 - project: ovsdbapp
   conf: rpmfactory-lib
   tags:
@@ -1959,6 +2897,13 @@ packages:
       source-branch: 1.20.0
     newton:
       source-branch: 1.17.1
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-stevedore-1.8.0-1.el7
+    cloud7-openstack-common-release: python-stevedore-1.8.0-1.el7
+    cloud7-openstack-newton-testing: python-stevedore-1.17.1-1.el7
+    cloud7-openstack-newton-release: python-stevedore-1.17.1-1.el7
+    cloud7-openstack-ocata-testing: python-stevedore-1.20.0-1.el7
+    cloud7-openstack-ocata-release: python-stevedore-1.20.0-1.el7
 - project: castellan
   tags:
     pike-uc:
@@ -1969,6 +2914,11 @@ packages:
     newton:
       source-branch: 0.4.0
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-castellan-0.4.0-1.el7
+    cloud7-openstack-newton-release: python-castellan-0.4.0-1.el7
+    cloud7-openstack-ocata-testing: python-castellan-0.5.0-1.el7
+    cloud7-openstack-ocata-release: python-castellan-0.5.0-1.el7
 - project: taskflow
   conf: rpmfactory-lib
   tags:
@@ -1979,6 +2929,11 @@ packages:
       source-branch: 2.9.0
     newton:
       source-branch: 2.6.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-taskflow-2.6.0-1.el7
+    cloud7-openstack-newton-release: python-taskflow-2.6.0-1.el7
+    cloud7-openstack-ocata-testing: python-taskflow-2.9.0-1.el7
+    cloud7-openstack-ocata-release: python-taskflow-2.9.0-1.el7
 - project: pycadf
   conf: rpmfactory-lib
   tags:
@@ -1989,6 +2944,11 @@ packages:
       source-branch: 2.5.0
     newton:
       source-branch: 2.4.0
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-pycadf-2.4.0-1.el7
+    cloud7-openstack-newton-release: python-pycadf-2.4.0-1.el7
+    cloud7-openstack-ocata-testing: python-pycadf-2.5.0-1.el7
+    cloud7-openstack-ocata-release: python-pycadf-2.5.0-1.el7
 - project: debtcollector
   tags:
     pike-uc:
@@ -1999,6 +2959,11 @@ packages:
     newton:
       source-branch: 1.8.0
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-debtcollector-1.8.0-1.el7
+    cloud7-openstack-newton-release: python-debtcollector-1.8.0-1.el7
+    cloud7-openstack-ocata-testing: python-debtcollector-1.11.0-1.el7
+    cloud7-openstack-ocata-release: python-debtcollector-1.11.0-1.el7
 - project: automaton
   tags:
     pike-uc:
@@ -2009,6 +2974,11 @@ packages:
     newton:
       source-branch: 1.4.0
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-automaton-1.4.0-2.el7
+    cloud7-openstack-newton-release: python-automaton-1.4.0-2.el7
+    cloud7-openstack-ocata-testing: python-automaton-1.7.0-1.el7
+    cloud7-openstack-ocata-release: python-automaton-1.7.0-1.el7
 - project: cliff
   tags:
     pike-uc:
@@ -2019,6 +2989,13 @@ packages:
     newton:
       source-branch: 2.2.0
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-cliff-1.15.0-1.el7
+    cloud7-openstack-common-release: python-cliff-1.15.0-1.el7
+    cloud7-openstack-newton-testing: python-cliff-2.2.0-1.el7
+    cloud7-openstack-newton-release: python-cliff-2.2.0-1.el7
+    cloud7-openstack-ocata-testing: python-cliff-2.4.0-1.el7
+    cloud7-openstack-ocata-release: python-cliff-2.4.0-1.el7
 - project: futurist
   tags:
     pike-uc:
@@ -2029,6 +3006,11 @@ packages:
     newton:
       source-branch: 0.18.0
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-futurist-0.18.0-1.el7
+    cloud7-openstack-newton-release: python-futurist-0.18.0-1.el7
+    cloud7-openstack-ocata-testing: python-futurist-0.21.0-1.el7
+    cloud7-openstack-ocata-release: python-futurist-0.21.0-1.el7
 - project: cursive
   tags:
     pike-uc:
@@ -2041,6 +3023,11 @@ packages:
   maintainers:
   - jpena@redhat.com
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-cursive-0.1.1-1.el7
+    cloud7-openstack-newton-release: python-cursive-0.1.1-1.el7
+    cloud7-openstack-ocata-testing: python-cursive-0.1.1-1.el7
+    cloud7-openstack-ocata-release: python-cursive-0.1.1-1.el7
 - project: hacking
   tags:
     pike-uc:
@@ -2049,6 +3036,11 @@ packages:
     newton:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack-dev/hacking
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-hacking-0.10.2-2.el7
+    cloud7-openstack-common-release: python-hacking-0.10.2-2.el7
+    cloud7-openstack-ocata-testing: python-hacking-0.13.0-1.el7
+    cloud7-openstack-ocata-release: python-hacking-0.13.0-1.el7
 - project: wsme
   tags:
     pike-uc:
@@ -2056,6 +3048,11 @@ packages:
     ocata:
     newton:
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-wsme-0.8.0-1.el7
+    cloud7-openstack-common-release: python-wsme-0.8.0-1.el7
+    cloud7-openstack-newton-testing: python-wsme-0.8.0-1.el7
+    cloud7-openstack-newton-release: python-wsme-0.8.0-1.el7
 # deps
 - project: packstack
   conf: rpmfactory-core
@@ -2065,6 +3062,11 @@ packages:
   - mmagr@redhat.com
   - amoralej@redhat.com
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-packstack-9.0.2-1.el7
+    cloud7-openstack-newton-release: openstack-packstack-9.0.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-packstack-10.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-packstack-10.0.1-1.el7
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
@@ -2073,6 +3075,11 @@ packages:
   - apevec@gmail.com
   - gchamoul@redhat.com
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-puppet-modules-9.3.0-1.el7
+    cloud7-openstack-newton-release: openstack-puppet-modules-9.3.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-puppet-modules-10.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-puppet-modules-10.0.0-1.el7
 - project: tripleo-common
   tags:
     pike-uc:
@@ -2083,6 +3090,11 @@ packages:
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-common-5.4.2-1.el7
+    cloud7-openstack-newton-release: openstack-tripleo-common-5.4.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-common-6.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-common-6.0.0-1.el7
 - project: tripleo-repos
   tags:
     under-review:
@@ -2101,6 +3113,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - honza@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-ui-1.2.0-1.el7
+    cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.0-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
@@ -2114,6 +3131,13 @@ packages:
       source-branch: 1.5.0
     newton:
       source-branch: 1.4.0
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-osprofiler-0.3.0-1.el7
+    cloud7-openstack-common-release: python-osprofiler-0.3.0-1.el7
+    cloud7-openstack-newton-testing: python-osprofiler-1.4.0-1.el7
+    cloud7-openstack-newton-release: python-osprofiler-1.4.0-1.el7
+    cloud7-openstack-ocata-testing: python-osprofiler-1.5.0-1.el7
+    cloud7-openstack-ocata-release: python-osprofiler-1.5.0-1.el7
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
@@ -2121,18 +3145,31 @@ packages:
   maintainers:
   - shashank@arista.com
   - openstack-dev@arista.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-networking-arista-2016.1.0-1.el7
+    cloud7-openstack-newton-release: python-networking-arista-2016.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-networking-arista-2017.1.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-arista-2017.1.0-1.el7
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - lennybe@gmail.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-networking-mlnx-10.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-mlnx-10.0.0-1.el7
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - mike.kolesnik@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-networking-odl-3.1.0-1.el7
+    cloud7-openstack-newton-release: python-networking-odl-3.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-networking-odl-4.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-odl-4.0.0-1.el7
 - project: networking-sfc
   conf: rpmfactory-lib
   name: python-networking-sfc
@@ -2144,6 +3181,9 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-networking-sfc-4.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-sfc-4.0.0-1.el7
 - project: networking-vsphere
   conf: rpmfactory-lib
   name: python-networking-vsphere
@@ -2161,6 +3201,11 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - ihrachys@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-networking-vmware-nsx-9.1.0-1.el7
+    cloud7-openstack-newton-release: python-networking-vmware-nsx-9.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-networking-vmware-nsx-10.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-vmware-nsx-10.0.0-1.el7
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
@@ -2171,6 +3216,9 @@ packages:
       source-branch: 0.7.0
   maintainers:
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-vmware-nsxlib-0.7.0-1.el7
+    cloud7-openstack-ocata-release: python-vmware-nsxlib-0.7.0-1.el7
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
@@ -2180,6 +3228,11 @@ packages:
   - sarath.kutty@bigswitch.com
   - xin.wu@bigswitch.com
   - rdo-maintainers@bigswitch.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-networking-bigswitch-9.40.5-1.el7
+    cloud7-openstack-newton-release: python-networking-bigswitch-9.40.5-1.el7
+    cloud7-openstack-ocata-testing: python-networking-bigswitch-10.0.4-1.el7
+    cloud7-openstack-ocata-release: python-networking-bigswitch-10.0.4-1.el7
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
@@ -2192,6 +3245,11 @@ packages:
   maintainers:
   - russell@russellbryant.net
   - nusiddiq@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-networking-ovn-1.0.0-1.el7
+    cloud7-openstack-newton-release: python-networking-ovn-1.0.0-1.el7
+    cloud7-openstack-ocata-testing: python-networking-ovn-2.0.1-1.el7
+    cloud7-openstack-ocata-release: python-networking-ovn-2.0.1-1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
   tags:
@@ -2205,12 +3263,20 @@ packages:
   maintainers:
   - openstack-networking@cisco.com
   - sambetts@cisco.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-networking-cisco-4.0.0-1.el7
+    cloud7-openstack-newton-release: python-networking-cisco-4.0.0-1.el7
+    cloud7-openstack-ocata-testing: python-networking-cisco-5.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-cisco-5.0.0-1.el7
 - project: UcsSdk
   conf: rpmfactory-lib
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
   maintainers:
   - openstack-networking@cisco.com
   - sam@code-smash.net
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-UcsSdk-0.8.2.5-1.el7
+    cloud7-openstack-common-release: python-UcsSdk-0.8.2.5-1.el7
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
@@ -2229,6 +3295,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - jslagle@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.0-1.el7
+    cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.0.0-0.2.0rc2.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.0.0-0.2.0rc2.el7
 - project: os-brick
   tags:
     pike-uc:
@@ -2244,6 +3315,11 @@ packages:
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-os-brick-1.6.2-1.el7
+    cloud7-openstack-newton-release: python-os-brick-1.6.2-1.el7
+    cloud7-openstack-ocata-testing: python-os-brick-1.11.0-1.el7
+    cloud7-openstack-ocata-release: python-os-brick-1.11.0-1.el7
 - project: hardware
   tags:
     pike-uc:
@@ -2255,6 +3331,13 @@ packages:
   maintainers:
   - trown@redhat.com
   - flepied@redhat.com
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-hardware-0.17-1.el7
+    cloud7-openstack-common-release: python-hardware-0.17-1.el7
+    cloud7-openstack-newton-testing: python-hardware-0.18-1.el7
+    cloud7-openstack-newton-release: python-hardware-0.18-1.el7
+    cloud7-openstack-ocata-testing: python-hardware-0.18-1.el7
+    cloud7-openstack-ocata-release: python-hardware-0.18-1.el7
 - project: keystoneauth1
   tags:
     pike-uc:
@@ -2266,6 +3349,11 @@ packages:
       source-branch: 2.12.3
   conf: rpmfactory-lib
   upstream: git://github.com/openstack/keystoneauth
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-keystoneauth1-2.12.2-1.el7
+    cloud7-openstack-newton-release: python-keystoneauth1-2.12.2-1.el7
+    cloud7-openstack-ocata-testing: python-keystoneauth1-2.18.0-1.el7
+    cloud7-openstack-ocata-release: python-keystoneauth1-2.18.0-1.el7
 - project: rally
   tags:
     pike-uc:
@@ -2280,6 +3368,11 @@ packages:
   - vimartin@redhat.com
   - slinaber@redhat.com
   - chkumar@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-rally-0.7.0-1.el7
+    cloud7-openstack-newton-release: openstack-rally-0.7.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-rally-0.8.1-1.el7
+    cloud7-openstack-ocata-release: openstack-rally-0.8.1-1.el7
 - project: tempest
   tags:
     pike-uc:
@@ -2294,6 +3387,11 @@ packages:
   - chkumar@redhat.com
   - slinaber@redhat.com
   - ltoscano@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-tempest-13.0.0-10.79cf31agit.el7
+    cloud7-openstack-newton-release: openstack-tempest-13.0.0-10.79cf31agit.el7
+    cloud7-openstack-ocata-testing: openstack-tempest-16.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tempest-16.0.0-1.el7
 - project: tempest-lib
   # retired in ocata release
   tags:
@@ -2303,6 +3401,9 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - slinaber@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-tempest-lib-1.0.0-1.el7
+    cloud7-openstack-newton-release: python-tempest-lib-1.0.0-1.el7
 - project: os-testr
   tags:
     pike-uc:
@@ -2316,6 +3417,11 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - afazekas@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-os-testr-0.8.0-1.el7
+    cloud7-openstack-newton-release: python-os-testr-0.8.0-1.el7
+    cloud7-openstack-ocata-testing: python-os-testr-0.8.0-1.el7
+    cloud7-openstack-ocata-release: python-os-testr-0.8.0-1.el7
 - project: proliantutils
   tags:
     pike-uc:
@@ -2328,6 +3434,13 @@ packages:
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-proliantutils-2.1.7-1.el7
+    cloud7-openstack-common-release: python-proliantutils-2.1.7-1.el7
+    cloud7-openstack-newton-testing: python-proliantutils-2.1.11-1.el7
+    cloud7-openstack-newton-release: python-proliantutils-2.1.11-1.el7
+    cloud7-openstack-ocata-testing: python-proliantutils-2.2.0-1.el7
+    cloud7-openstack-ocata-release: python-proliantutils-2.2.0-1.el7
 - project: dracclient
   tags:
     pike-uc:
@@ -2338,6 +3451,11 @@ packages:
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-dracclient-1.0.0-1.el7
+    cloud7-openstack-newton-release: python-dracclient-1.0.0-1.el7
+    cloud7-openstack-ocata-testing: python-dracclient-1.1.1-1.el7
+    cloud7-openstack-ocata-release: python-dracclient-1.1.1-1.el7
 - project: mistralclient
   tags:
     pike-uc:
@@ -2350,6 +3468,11 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - hguemar@fedoraproject.org
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-mistralclient-2.1.2-1.el7
+    cloud7-openstack-newton-release: python-mistralclient-2.1.2-1.el7
+    cloud7-openstack-ocata-testing: python-mistralclient-3.0.0-1.el7
+    cloud7-openstack-ocata-release: python-mistralclient-3.0.0-1.el7
 - project: mistral
   tags:
     pike-uc:
@@ -2359,6 +3482,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@fedoraproject.org
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-mistral-3.0.2-1.el7
+    cloud7-openstack-newton-release: openstack-mistral-3.0.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-mistral-4.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-mistral-4.0.0-2.el7
 - project: mistral-lib
   tags:
     pike-uc:
@@ -2380,6 +3508,9 @@ packages:
   upstream: git://github.com/openstack-infra/requestsexceptions
   maintainers:
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-requestsexceptions-1.1.3-1.el7
+    cloud7-openstack-common-release: python-requestsexceptions-1.1.3-1.el7
 - project: app-catalog-ui
   tags:
     pike-uc:
@@ -2389,6 +3520,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - Kevin.Fox@pnnl.gov
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-app-catalog-ui-1.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-app-catalog-ui-1.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-app-catalog-ui-1.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-app-catalog-ui-1.0.0-1.el7
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
@@ -2399,6 +3535,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-mistral-ui-3.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-mistral-ui-3.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-mistral-ui-4.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-mistral-ui-4.0.0-1.el7
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
@@ -2409,6 +3550,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-magnum-ui-2.1.1-1.el7
+    cloud7-openstack-newton-release: openstack-magnum-ui-2.1.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-magnum-ui-2.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-magnum-ui-2.2.0-1.el7
 - project: tooz
   tags:
     pike-uc:
@@ -2422,6 +3568,11 @@ packages:
   maintainers:
   - apevec@redhat.com
   - pkilambi@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-tooz-1.43.0-1.el7
+    cloud7-openstack-newton-release: python-tooz-1.43.0-1.el7
+    cloud7-openstack-ocata-testing: python-tooz-1.48.0-1.el7
+    cloud7-openstack-ocata-release: python-tooz-1.48.0-1.el7
 - project: magnumclient
   tags:
     pike-uc:
@@ -2435,6 +3586,11 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - mathieu.velten@cern.ch
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-magnumclient-2.3.1-1.el7
+    cloud7-openstack-newton-release: python-magnumclient-2.3.1-1.el7
+    cloud7-openstack-ocata-testing: python-magnumclient-2.5.0-1.el7
+    cloud7-openstack-ocata-release: python-magnumclient-2.5.0-1.el7
 - project: congressclient
   tags:
     pike-uc:
@@ -2448,6 +3604,11 @@ packages:
   maintainers:
   - mathieu.velten@cern.ch
   - asteroid566@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-congressclient-1.5.0-1.el7
+    cloud7-openstack-newton-release: python-congressclient-1.5.0-1.el7
+    cloud7-openstack-ocata-testing: python-congressclient-1.6.0-1.el7
+    cloud7-openstack-ocata-release: python-congressclient-1.6.0-1.el7
 - project: muranoclient
   tags:
     pike-uc:
@@ -2461,6 +3622,11 @@ packages:
   maintainers:
   - mathieu.velten@cern.ch
   - asteroid566@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-muranoclient-0.11.1-1.el7
+    cloud7-openstack-newton-release: python-muranoclient-0.11.1-1.el7
+    cloud7-openstack-ocata-testing: python-muranoclient-0.12.0-1.el7
+    cloud7-openstack-ocata-release: python-muranoclient-0.12.0-1.el7
 - project: murano
   tags:
     pike-uc:
@@ -2471,6 +3637,11 @@ packages:
   maintainers:
   - mathieu.velten@cern.ch
   - asteroid566@gmail.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-murano-3.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-murano-3.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-murano-3.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-murano-3.2.0-1.el7
 - project: murano-agent
   tags:
     pike-uc:
@@ -2480,6 +3651,11 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - akroshchenko@mirantis.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-murano-agent-3.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-murano-agent-3.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-murano-agent-3.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-murano-agent-3.2.0-1.el7
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
@@ -2491,6 +3667,11 @@ packages:
   maintainers:
   - atsamutali@mirantis.com
   - iyozhikov@mirantis.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-murano-ui-3.0.0-1.el7
+    cloud7-openstack-newton-release: openstack-murano-ui-3.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-murano-ui-3.2.0-1.el7
+    cloud7-openstack-ocata-release: openstack-murano-ui-3.2.0-1.el7
 - project: reno
   tags:
     pike-uc:
@@ -2504,6 +3685,11 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-reno-1.8.0-1.el7
+    cloud7-openstack-common-release: python-reno-1.8.0-1.el7
+    cloud7-openstack-ocata-testing: python-reno-2.2.1-1.el7
+    cloud7-openstack-ocata-release: python-reno-2.0.3-1.el7
 - project: k8sclient
   tags:
     newton:
@@ -2511,6 +3697,9 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - chkumar@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-k8sclient-0.3.0-1.el7
+    cloud7-openstack-newton-release: python-k8sclient-0.3.0-1.el7
 - project: microversion-parse
   tags:
     pike-uc:
@@ -2521,6 +3710,11 @@ packages:
     newton:
       source-branch: 0.1.4
   conf: rpmfactory-lib
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-microversion-parse-0.1.4-1.el7
+    cloud7-openstack-newton-release: python-microversion-parse-0.1.4-1.el7
+    cloud7-openstack-ocata-testing: python-microversion-parse-0.1.4-1.el7
+    cloud7-openstack-ocata-release: python-microversion-parse-0.1.4-1.el7
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
@@ -2533,6 +3727,11 @@ packages:
       source-branch: 1.1.0
   maintainers:
   - amoralej@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-osc-lib-1.1.0-3.el7
+    cloud7-openstack-newton-release: python-osc-lib-1.1.0-3.el7
+    cloud7-openstack-ocata-testing: python-osc-lib-1.3.0-1.el7
+    cloud7-openstack-ocata-release: python-osc-lib-1.3.0-1.el7
 - project: tempest-horizon
   conf: rpmfactory-lib
   name: python-horizon-tests-tempest
@@ -2543,6 +3742,11 @@ packages:
     newton:
   maintainers:
   - chkumar@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-horizon-tests-tempest-0.0.1-0.1.5378f71git.el7
+    cloud7-openstack-newton-release: python-horizon-tests-tempest-0.0.1-0.1.5378f71git.el7
+    cloud7-openstack-ocata-testing: python-horizon-tests-tempest-0.0.1-0.2.b6f352dgit.el7
+    cloud7-openstack-ocata-release: python-horizon-tests-tempest-0.0.1-0.2.b6f352dgit.el7
 - project: os-vif
   conf: rpmfactory-lib
   tags:
@@ -2555,6 +3759,11 @@ packages:
       source-branch: 1.2.1
   maintainers:
   - amoralej@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-os-vif-1.2.1-1.el7
+    cloud7-openstack-newton-release: python-os-vif-1.2.1-1.el7
+    cloud7-openstack-ocata-testing: python-os-vif-1.4.0-1.el7
+    cloud7-openstack-ocata-release: python-os-vif-1.4.0-1.el7
 - project: sahara-tests
   conf: rpmfactory-lib
   name: openstack-sahara-tests
@@ -2568,6 +3777,11 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - ltoscano@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: openstack-sahara-tests-0.4.0-1.el7
+    cloud7-openstack-newton-release: openstack-sahara-tests-0.4.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-tests-0.4.1-1.el7
+    cloud7-openstack-ocata-release: openstack-sahara-tests-0.4.1-1.el7
 - project: os-faults
   conf: rpmfactory-lib
   name: python-os-faults
@@ -2580,6 +3794,10 @@ packages:
       source-branch: 0.1.10
   maintainers:
   - chkumar@redhat.com
+  buildsys-tags:
+    cloud7-openstack-newton-testing: python-os-faults-0.1.10-1.el7
+    cloud7-openstack-ocata-testing: python-os-faults-0.1.10-1.el7
+    cloud7-openstack-ocata-release: python-os-faults-0.1.10-1.el7
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
@@ -2592,6 +3810,9 @@ packages:
   upstream: https://github.com/openstack/networking-bagpipe
   maintainers:
   - lhinds@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-networking-bagpipe-6.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-bagpipe-6.0.0-1.el7
 - project: virtualbmc
   name: python-virtualbmc
   tags:
@@ -2603,6 +3824,9 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-virtualbmc-1.0.0-1.el7
+    cloud7-openstack-ocata-release: python-virtualbmc-1.0.0-1.el7
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
@@ -2611,6 +3835,9 @@ packages:
     ocata:
   maintainers:
   - rnoriega@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-networking-bgpvpn-6.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-bgpvpn-6.0.0-1.el7
 - project: novajoin
   name: python-novajoin
   tags:
@@ -2622,6 +3849,9 @@ packages:
   maintainers:
   - rcritten@redhat.com
   - alee@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-novajoin-1.0.11-1.el7
+    cloud7-openstack-ocata-release: python-novajoin-1.0.11-1.el7
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
@@ -2632,6 +3862,9 @@ packages:
   upstream: https://github.com/openstack/networking-fujitsu
   maintainers:
   - sanagi.koki@jp.fujitsu.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-networking-fujitsu-4.0.1-1.el7
+    cloud7-openstack-ocata-release: python-networking-fujitsu-4.0.1-1.el7
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
@@ -2641,6 +3874,9 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - lucasagomes@gmail.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-ironic-staging-drivers-0.6.0-1.el7
+    cloud7-openstack-ocata-release: openstack-ironic-staging-drivers-0.6.0-1.el7
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
@@ -2649,6 +3885,9 @@ packages:
     ocata:
   maintainers:
   - rnoriega@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-networking-l2gw-10.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-l2gw-10.0.0-1.el7
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
@@ -2660,6 +3899,9 @@ packages:
       source-branch: 0.7.0
   maintainers:
   - dradez@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-heat-translator-0.7.0-1.el7
+    cloud7-openstack-ocata-release: python-heat-translator-0.7.0-1.el7
 - project: tacker
   conf: rpmfactory-core
   tags:
@@ -2668,6 +3910,9 @@ packages:
     ocata:
   maintainers:
   - dradez@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-tacker-0.7.0-1.el7
+    cloud7-openstack-ocata-release: openstack-tacker-0.7.0-1.el7
 - project: tackerclient
   conf: rpmfactory-client
   tags:
@@ -2678,6 +3923,9 @@ packages:
       source-branch: 0.9.0
   maintainers:
   - dradez@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-tackerclient-0.9.0-1.el7
+    cloud7-openstack-ocata-release: python-tackerclient-0.9.0-1.el7
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
@@ -2688,6 +3936,9 @@ packages:
     ocata:
   maintainers:
   - mbultel@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: ansible-pacemaker-1.0.0-1.el7
+    cloud7-openstack-ocata-release: ansible-pacemaker-1.0.0-1.el7
 - project: congress
   conf: rpmfactory-core
   tags:
@@ -2696,6 +3947,9 @@ packages:
     ocata:
   maintainers:
   - dradez@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-congress-5.0.0-1.el7
+    cloud7-openstack-ocata-release: openstack-congress-5.0.0-1.el7
 - project: shaker
   name: python-shaker
   tags:
@@ -2705,6 +3959,9 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-shaker-0.0.17-1.el7
+    cloud7-openstack-ocata-release: python-shaker-0.0.17-1.el7
 - project: tempestconf
   conf: rpmfactory-lib
   upstream: git://github.com/redhat-openstack/python-tempestconf.git
@@ -2716,6 +3973,9 @@ packages:
   maintainers:
   - chkumar@redhat.com
   - ltoscano@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: python-tempestconf-1.1.1-1.el7
+    cloud7-openstack-ocata-release: python-tempestconf-1.1.1-1.el7
 - project: puppet-auditd
   conf: rpmfactory-puppet
   upstream: https://github.com/kemra102/puppet-auditd
@@ -2727,6 +3987,9 @@ packages:
       source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
   maintainers:
   - lhinds@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: puppet-auditd-2.2.0-1.el7
+    cloud7-openstack-ocata-release: puppet-auditd-2.2.0-1.el7
 - project: kolla
   tags:
     pike-uc:
@@ -2735,6 +3998,9 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - sbaker@redhat.com
+  buildsys-tags:
+    cloud7-openstack-ocata-testing: openstack-kolla-4.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-kolla-4.0.1-1.el7
 - project: openstack-selinux
   name: openstack-selinux
   conf: rpmfactory-core
@@ -2743,6 +4009,12 @@ packages:
   - lhh@redhat.com
   - lon@metamorphism.com
   - rhallise@redhat.com
+  buildsys-tags:
+    cloud7-openstack-common-testing: openstack-selinux-0.7.13-2.el7
+    cloud7-openstack-common-release: openstack-selinux-0.7.13-2.el7
+    cloud7-openstack-newton-testing: openstack-selinux-0.7.4-2.el7
+    cloud7-openstack-newton-release: openstack-selinux-0.7.4-2.el7
+    cloud7-openstack-ocata-release: openstack-selinux-0.7.4-2.el7
 - project: sushy
   name: python-sushy
   tags:
