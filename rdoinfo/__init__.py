@@ -7,6 +7,12 @@ from os import path
 
 __version__ = '0.2'
 
+"""
+rdoinfo module provides a set of methods to interact with
+metadata files contained in the repository.
+
+"""
+
 
 class RdoinfoException(Exception):
     msg_fmt = "An unknown error occurred"
@@ -55,6 +61,14 @@ def include_packages(info, include_info):
 
 
 def parse_info_file(fn, apply_tag=None, include_fns=['deps.yml']):
+    """
+    Parse rdoinfo metadata files.
+
+    :param fn: name of main metadata file, as rdo.yml
+    :param apply_tag: tag to apply
+    :param include_fns: list of additional files to be parsed, defaults to deps.yml
+    :returns: dictionary containing all packages in rdoinfo
+    """
     info = yaml.load(open(fn, 'rb'))
     for fn in include_fns:
         include_file = path.join(path.dirname(fn), fn)
