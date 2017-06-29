@@ -205,6 +205,7 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-designate-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-designate-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-designate-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-designate-10.3.1-1.el7
 - project: puppet-ec2api
@@ -398,7 +399,7 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-ceph-2.3.0-1.el7
-    cloud7-openstack-newton-release: puppet-ceph-2.2.1-1.el7
+    cloud7-openstack-newton-release: puppet-ceph-2.3.0-1.el7
     cloud7-openstack-ocata-testing: puppet-ceph-2.3.0-1.el7
     cloud7-openstack-ocata-release: puppet-ceph-2.3.0-1.el7
 - project: puppet-n1k-vsm
