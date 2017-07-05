@@ -2047,7 +2047,7 @@ packages:
   name: ansible
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: ansible-2.2.1.0-1.el7
+    cloud7-openstack-common-testing: ansible-2.3.0.0-3.el7
     cloud7-openstack-common-release: ansible-2.2.1.0-1.el7
 - project: python-ipaddress
   name: python-ipaddress
@@ -2874,7 +2874,7 @@ packages:
   name: python-docker
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-docker-2.3.0-1.1.el7
+    cloud7-openstack-pike-testing: python-docker-2.4.2-1.2.el7
 - project: corosync
   name: corosync
   conf: unmanaged-dependency
