@@ -18,7 +18,7 @@ def verify_buildsys_tags(pkg, buildsystags):
         for btag in btags.keys():
             if btag in buildsystags:
                 value = btags[btag]
-                if value is None:
+                if value is None and btag != 'version-locked':
                     raise Exception("buildsys-tag %s for package %s is empty" %
                                     (btag, pkg['name']))
             else:
@@ -27,7 +27,7 @@ def verify_buildsys_tags(pkg, buildsystags):
     return True
 
 def list_buildsys_tags(info):
-    tags = []
+    tags = ['version-locked']
     for release in info['releases']:
         for repo in release['repos']:
             if 'buildsys-tags' in repo.keys():
