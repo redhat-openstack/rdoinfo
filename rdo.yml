@@ -81,7 +81,6 @@ package-default:
 package-configs:
   xstatic:
     maintainers:
-    - mrunge@redhat.com
     - github@sheep.art.pl
   # templates using rpmfactory's repositories
   rpmfactory-core:
@@ -1561,7 +1560,6 @@ packages:
   conf: rpmfactory-core
   name: python-django-horizon
   maintainers:
-  - mrunge@redhat.com
   - github@sheep.art.pl
   buildsys-tags:
     cloud7-openstack-newton-testing: python-django-horizon-10.0.3-1.el7
@@ -1582,7 +1580,6 @@ packages:
   conf: rpmfactory-lib
   name: python-django-openstack-auth
   maintainers:
-  - mrunge@redhat.com
   - github@sheep.art.pl
   buildsys-tags:
     cloud7-openstack-newton-testing: python-django-openstack-auth-2.4.2-1.el7
@@ -2057,7 +2054,6 @@ packages:
       source-branch: aacd1e6a7ba2a0ec7f9de4d446de92afba7d2ca0
   conf: rpmfactory-core
   maintainers:
-  - mrunge@redhat.com
   - github@sheep.art.pl
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-lbaas-ui-1.0.0-2.el7
