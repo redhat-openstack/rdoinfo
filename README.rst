@@ -82,6 +82,11 @@ a project:
   tag in CentOS Build System (CBS). It contains a set of mappings where the key is the
   CBS tag name and the value is the package NVR included in the tag.
 
+  * *version-locked* can be used as buildsys-tag key to disable automatic update by
+    periodic job. if a list of CBS tags is assigned to version-locked buildsys-tag,
+    only the tags in the list are locked. If it's empty automatic job will ignore the
+    package for all tags.
+
 
 Attributes inheritance in rdoinfo
 ---------------------------------
