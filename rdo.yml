@@ -4135,3 +4135,11 @@ packages:
   tags:
     pike-uc:
     pike:
+- project: senlin
+  conf: openstack-senlin
+  name: openstack-senlin
+  upstream: https://github.com/openstack/senlin
+  tags:
+    under-review:
+  maintainers:
+  - cbrown2@ocf.co.uk
