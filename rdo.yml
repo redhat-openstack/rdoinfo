@@ -4135,3 +4135,11 @@ packages:
   tags:
     pike-uc:
     pike:
+- project: senlin
+  conf: rpmfactory-core
+  name: openstack-senlin
+  upstream: https://github.com/openstack/senlin
+  tags:
+    under-review:
+  maintainers:
+  - snecklifter@gmail.com
