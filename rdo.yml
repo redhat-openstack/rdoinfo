@@ -4135,3 +4135,10 @@ packages:
   tags:
     pike-uc:
     pike:
+- project: senlin
+  name: openstack-senlin
+  upstream: https://github.com/openstack/senlin
+  tags:
+    under-review:
+  maintainers:
+  - snecklifter@gmail.com
