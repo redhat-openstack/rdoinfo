@@ -373,7 +373,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-tripleo-5.6.0-1.el7
     cloud7-openstack-newton-release: puppet-tripleo-5.6.0-1.el7
-    cloud7-openstack-ocata-testing: puppet-tripleo-6.4.0-1.el7
+    cloud7-openstack-ocata-testing: puppet-tripleo-6.5.0-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.4.0-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
@@ -1276,7 +1276,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-swift-2.10.2-1.el7
     cloud7-openstack-newton-release: openstack-swift-2.10.1-1.el7
-    cloud7-openstack-ocata-testing: openstack-swift-2.13.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-swift-2.13.1-1.el7
     cloud7-openstack-ocata-release: openstack-swift-2.13.0-1.el7
 - project: swift3
   name: openstack-swift-plugin-swift3
@@ -1360,7 +1360,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-heat-7.0.4-1.el7
     cloud7-openstack-newton-release: openstack-heat-7.0.3-1.el7
-    cloud7-openstack-ocata-testing: openstack-heat-8.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-heat-8.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.1-1.el7
 - project: cinder
   conf: rpmfactory-core
@@ -1386,7 +1386,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ironic-6.2.4-1.el7
     cloud7-openstack-newton-release: openstack-ironic-6.2.3-1.el7
-    cloud7-openstack-ocata-testing: openstack-ironic-7.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-7.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-7.0.1-1.el7
 - project: neutron
   conf: rpmfactory-core
@@ -1399,7 +1399,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-9.4.0-1.el7
     cloud7-openstack-newton-release: openstack-neutron-9.3.1-1.el7
-    cloud7-openstack-ocata-testing: openstack-neutron-10.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-10.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.1-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -1447,7 +1447,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-lbaas-9.2.1-1.el7
     cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.0-1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
@@ -1527,7 +1527,7 @@ packages:
   maintainers:
   - eyal.bar-ilan@nokia.com
   buildsys-tags:
-    cloud7-openstack-ocata-testing: openstack-vitrage-1.5.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-vitrage-1.5.2-1.el7
     cloud7-openstack-ocata-release: openstack-vitrage-1.5.1-1.el7
 - project: vitrage-dashboard
   name: openstack-vitrage-ui
@@ -1553,7 +1553,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-sahara-5.0.1-1.el7
     cloud7-openstack-newton-release: openstack-sahara-5.0.1-1.el7
-    cloud7-openstack-ocata-testing: openstack-sahara-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-6.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-6.0.0-1.el7
 - project: horizon
   conf: rpmfactory-core
@@ -1563,7 +1563,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-django-horizon-10.0.5-1.el7
     cloud7-openstack-newton-release: python-django-horizon-10.0.3-1.el7
-    cloud7-openstack-ocata-testing: python-django-horizon-11.0.1-2.el7
+    cloud7-openstack-ocata-testing: python-django-horizon-11.0.3-2.el7
     cloud7-openstack-ocata-release: python-django-horizon-11.0.1-2.el7
 - project: trove
   conf: rpmfactory-core
@@ -1643,7 +1643,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.0-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.0.0-0.2.0rc2.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.0.0-0.2.0rc2.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -1856,7 +1856,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-os-win-1.2.2-1.el7
     cloud7-openstack-newton-release: python-os-win-1.2.1-1.el7
-    cloud7-openstack-ocata-testing: python-os-win-1.4.1-1.el7
+    cloud7-openstack-ocata-testing: python-os-win-1.4.2-1.el7
     cloud7-openstack-ocata-release: python-os-win-1.4.1-1.el7
 - project: os-xenapi
   conf: rpmfactory-lib
@@ -1912,7 +1912,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ironic-inspector-4.2.2-1.el7
     cloud7-openstack-newton-release: openstack-ironic-inspector-4.2.1-1.el7
-    cloud7-openstack-ocata-testing: openstack-ironic-inspector-5.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-inspector-5.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-inspector-5.0.0-1.el7
 - project: ironic-python-agent
   tags:
@@ -1958,7 +1958,7 @@ packages:
   - trown@redhat.com
   - divius.inside@gmail.com
   buildsys-tags:
-    cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-ui-2.2.0-1.el7
 - project: barbican
   conf: rpmfactory-core
@@ -2073,7 +2073,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: sahara-image-elements-5.0.1-1.el7
     cloud7-openstack-newton-release: sahara-image-elements-5.0.1-1.el7
-    cloud7-openstack-ocata-testing: sahara-image-elements-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: sahara-image-elements-6.0.1-1.el7
     cloud7-openstack-ocata-release: sahara-image-elements-6.0.0-1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
@@ -2293,7 +2293,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-vitrageclient-1.0.1-1.el7
     cloud7-openstack-newton-release: python-vitrageclient-1.0.1-1.el7
-    cloud7-openstack-ocata-testing: python-vitrageclient-1.1.1-1.el7
+    cloud7-openstack-ocata-testing: python-vitrageclient-1.1.2-1.el7
     cloud7-openstack-ocata-release: python-vitrageclient-1.1.1-1.el7
 - project: designateclient
   conf: rpmfactory-client
@@ -2583,7 +2583,7 @@ packages:
     cloud7-openstack-common-release: python-oslo-sphinx-3.2.0-1.el7
     cloud7-openstack-newton-testing: python-oslo-sphinx-4.7.0-1.el7
     cloud7-openstack-newton-release: python-oslo-sphinx-4.7.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-sphinx-4.10.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-sphinx-4.10.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-sphinx-4.10.0-1.el7
 - project: oslo-i18n
   conf: rpmfactory-lib
@@ -2681,7 +2681,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-rootwrap-5.1.2-1.el7
     cloud7-openstack-newton-release: python-oslo-rootwrap-5.1.1-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-rootwrap-5.4.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-rootwrap-5.4.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-rootwrap-5.4.0-1.el7
 - project: oslo-serialization
   conf: rpmfactory-lib
@@ -2793,7 +2793,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-log-3.16.0-1.el7
     cloud7-openstack-newton-release: python-oslo-log-3.16.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-log-3.20.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-log-3.20.1-2.el7
     cloud7-openstack-ocata-release: python-oslo-log-3.20.1-1.el7
 - project: oslo-policy
   conf: rpmfactory-lib
@@ -2841,7 +2841,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-service-1.16.0-1.el7
     cloud7-openstack-newton-release: python-oslo-service-1.16.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-service-1.19.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-service-1.19.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-service-1.19.0-1.el7
 - project: oslo-reports
   tags:
@@ -3297,7 +3297,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.0-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.0.0-0.2.0rc2.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.0.0-0.2.0rc2.el7
 - project: os-brick
   tags:
@@ -3760,7 +3760,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-os-vif-1.2.1-1.el7
     cloud7-openstack-newton-release: python-os-vif-1.2.1-1.el7
-    cloud7-openstack-ocata-testing: python-os-vif-1.4.0-1.el7
+    cloud7-openstack-ocata-testing: python-os-vif-1.4.1-1.el7
     cloud7-openstack-ocata-release: python-os-vif-1.4.0-1.el7
 - project: sahara-tests
   conf: rpmfactory-lib
@@ -3793,8 +3793,9 @@ packages:
   maintainers:
   - chkumar@redhat.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: python-os-faults-0.1.10-1.el7
-    cloud7-openstack-ocata-testing: python-os-faults-0.1.10-1.el7
+    cloud7-openstack-newton-testing: python-os-faults-0.1.11-1.el7
+    cloud7-openstack-newton-release: python-os-faults-0.1.10-1.el7
+    cloud7-openstack-ocata-testing: python-os-faults-0.1.11-1.el7
     cloud7-openstack-ocata-release: python-os-faults-0.1.10-1.el7
 - project: networking-bagpipe
   name: python-networking-bagpipe
@@ -3972,7 +3973,7 @@ packages:
   - chkumar@redhat.com
   - ltoscano@redhat.com
   buildsys-tags:
-    cloud7-openstack-ocata-testing: python-tempestconf-1.1.1-1.el7
+    cloud7-openstack-ocata-testing: python-tempestconf-1.1.2-1.el7
     cloud7-openstack-ocata-release: python-tempestconf-1.1.1-1.el7
 - project: puppet-auditd
   conf: rpmfactory-puppet
@@ -3997,7 +3998,7 @@ packages:
   maintainers:
   - sbaker@redhat.com
   buildsys-tags:
-    cloud7-openstack-ocata-testing: openstack-kolla-4.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-kolla-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-kolla-4.0.1-1.el7
 - project: openstack-selinux
   name: openstack-selinux
