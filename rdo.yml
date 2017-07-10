@@ -220,7 +220,7 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-glance-9.6.0-1.el7
-    cloud7-openstack-newton-release: puppet-glance-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-glance-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-glance-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-glance-10.3.1-1.el7
 - project: puppet-gnocchi
@@ -283,7 +283,7 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-nova-9.5.4-1.el7
-    cloud7-openstack-newton-release: puppet-nova-9.5.1-1.el7
+    cloud7-openstack-newton-release: puppet-nova-9.5.4-1.el7
     cloud7-openstack-ocata-testing: puppet-nova-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-nova-10.4.1-1.el7
 - project: puppet-octavia
@@ -349,7 +349,7 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-swift-9.6.0-1.el7
-    cloud7-openstack-newton-release: puppet-swift-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-swift-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-swift-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-swift-10.3.1-1.el7
 - project: puppet-tacker
@@ -1236,7 +1236,7 @@ packages:
   - sahid.ferdjaoui@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-nova-14.0.7-1.el7
-    cloud7-openstack-newton-release: openstack-nova-14.0.6-1.el7
+    cloud7-openstack-newton-release: openstack-nova-14.0.7-1.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.4-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.3-2.el7
 - project: keystone
@@ -1245,7 +1245,7 @@ packages:
   - apevec@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-keystone-10.0.2-1.el7
-    cloud7-openstack-newton-release: openstack-keystone-10.0.1-1.el7
+    cloud7-openstack-newton-release: openstack-keystone-10.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-keystone-11.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-keystone-11.0.0-1.el7
 - project: glance
@@ -1275,7 +1275,7 @@ packages:
   - zaitcev@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-swift-2.10.2-1.el7
-    cloud7-openstack-newton-release: openstack-swift-2.10.1-1.el7
+    cloud7-openstack-newton-release: openstack-swift-2.10.2-1.el7
     cloud7-openstack-ocata-testing: openstack-swift-2.13.0-1.el7
     cloud7-openstack-ocata-release: openstack-swift-2.13.0-1.el7
 - project: swift3
@@ -1299,7 +1299,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ceilometer-7.0.5-1.el7
-    cloud7-openstack-newton-release: openstack-ceilometer-7.0.4-1.el7
+    cloud7-openstack-newton-release: openstack-ceilometer-7.0.5-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.0.1-1.el7
 - project: gnocchi
@@ -1318,7 +1318,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-gnocchi-3.0.11-1.el7
-    cloud7-openstack-newton-release: openstack-gnocchi-3.0.8-1.el7
+    cloud7-openstack-newton-release: openstack-gnocchi-3.0.11-1.el7
     cloud7-openstack-ocata-testing: openstack-gnocchi-3.1.5-1.el7
     cloud7-openstack-ocata-release: openstack-gnocchi-3.1.3-1.el7
 - project: aodh
@@ -1359,7 +1359,7 @@ packages:
   - sbaker@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-heat-7.0.4-1.el7
-    cloud7-openstack-newton-release: openstack-heat-7.0.3-1.el7
+    cloud7-openstack-newton-release: openstack-heat-7.0.4-1.el7
     cloud7-openstack-ocata-testing: openstack-heat-8.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.1-1.el7
 - project: cinder
@@ -1385,7 +1385,7 @@ packages:
   - divius.inside@gmail.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ironic-6.2.4-1.el7
-    cloud7-openstack-newton-release: openstack-ironic-6.2.3-1.el7
+    cloud7-openstack-newton-release: openstack-ironic-6.2.4-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-7.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-7.0.1-1.el7
 - project: neutron
@@ -1398,7 +1398,7 @@ packages:
   - twilson@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-9.4.0-1.el7
-    cloud7-openstack-newton-release: openstack-neutron-9.3.1-1.el7
+    cloud7-openstack-newton-release: openstack-neutron-9.4.0-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.1-1.el7
 - project: neutron-lib
@@ -1446,7 +1446,7 @@ packages:
   - twilson@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-lbaas-9.2.1-1.el7
-    cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.0-1.el7
+    cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.0-1.el7
 - project: neutron-vpnaas
@@ -1562,7 +1562,7 @@ packages:
   - github@sheep.art.pl
   buildsys-tags:
     cloud7-openstack-newton-testing: python-django-horizon-10.0.5-1.el7
-    cloud7-openstack-newton-release: python-django-horizon-10.0.3-1.el7
+    cloud7-openstack-newton-release: python-django-horizon-10.0.5-1.el7
     cloud7-openstack-ocata-testing: python-django-horizon-11.0.1-2.el7
     cloud7-openstack-ocata-release: python-django-horizon-11.0.1-2.el7
 - project: trove
@@ -1855,7 +1855,7 @@ packages:
   - jpena@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-os-win-1.2.2-1.el7
-    cloud7-openstack-newton-release: python-os-win-1.2.1-1.el7
+    cloud7-openstack-newton-release: python-os-win-1.2.2-1.el7
     cloud7-openstack-ocata-testing: python-os-win-1.4.1-1.el7
     cloud7-openstack-ocata-release: python-os-win-1.4.1-1.el7
 - project: os-xenapi
@@ -1911,7 +1911,7 @@ packages:
   - divius.inside@gmail.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ironic-inspector-4.2.2-1.el7
-    cloud7-openstack-newton-release: openstack-ironic-inspector-4.2.1-1.el7
+    cloud7-openstack-newton-release: openstack-ironic-inspector-4.2.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-inspector-5.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-inspector-5.0.0-1.el7
 - project: ironic-python-agent
@@ -1926,7 +1926,7 @@ packages:
   - divius.inside@gmail.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ironic-python-agent-1.5.2-1.el7
-    cloud7-openstack-newton-release: openstack-ironic-python-agent-1.5.1-1.el7
+    cloud7-openstack-newton-release: openstack-ironic-python-agent-1.5.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-python-agent-2.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-python-agent-2.0.0-1.el7
 - project: ironic-lib
@@ -2680,7 +2680,7 @@ packages:
       source-branch: 5.1.2
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-rootwrap-5.1.2-1.el7
-    cloud7-openstack-newton-release: python-oslo-rootwrap-5.1.1-1.el7
+    cloud7-openstack-newton-release: python-oslo-rootwrap-5.1.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-rootwrap-5.4.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-rootwrap-5.4.0-1.el7
 - project: oslo-serialization
@@ -3368,7 +3368,7 @@ packages:
   - chkumar@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-rally-0.9.1-1.el7
-    cloud7-openstack-newton-release: openstack-rally-0.7.0-1.el7
+    cloud7-openstack-newton-release: openstack-rally-0.9.1-1.el7
     cloud7-openstack-ocata-testing: openstack-rally-0.8.1-1.el7
     cloud7-openstack-ocata-release: openstack-rally-0.8.1-1.el7
 - project: tempest
@@ -3387,7 +3387,7 @@ packages:
   - ltoscano@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tempest-13.0.0-12.ab030abgit.el7
-    cloud7-openstack-newton-release: openstack-tempest-13.0.0-10.79cf31agit.el7
+    cloud7-openstack-newton-release: openstack-tempest-13.0.0-12.ab030abgit.el7
     cloud7-openstack-ocata-testing: openstack-tempest-16.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-tempest-16.0.0-1.el7
 - project: tempest-lib
@@ -3794,6 +3794,7 @@ packages:
   - chkumar@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-os-faults-0.1.10-1.el7
+    cloud7-openstack-newton-release: python-os-faults-0.1.10-1.el7
     cloud7-openstack-ocata-testing: python-os-faults-0.1.10-1.el7
     cloud7-openstack-ocata-release: python-os-faults-0.1.10-1.el7
 - project: networking-bagpipe
