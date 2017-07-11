@@ -1,4 +1,17 @@
 package-configs:
+  fedora-dependency:
+     # This is the conf for dependencies rebuilt from Fedora distgit
+     # and using cbs-tags for automatic tagging
+    distgit: https://src.fedoraproject.org/git/rpms/%(project)s.git
+    patches:
+    master-distgit: https://src.fedoraproject.org/git/rpms/%(project)s.git
+    review-patches:
+    review-origin:
+    tags:
+      dependency:
+    maintainers:
+    - apevec@redhat.com
+    - hguemar@fedoraproject.org
   unmanaged-dependency:
      # This is the conf for dependencies in rdo-common not being entirely managed
      # in review.r.o but using cbs-tags for automatic tagging
@@ -1504,10 +1517,13 @@ packages:
     cloud7-openstack-common-release: python-characteristic-14.3.0-4.el7
 - project: python-sqlalchemy
   name: python-sqlalchemy
-  conf: unmanaged-dependency
+  conf: fedora-dependency
+  maintainers:
+  - mbayer@redhat.com
   buildsys-tags:
     cloud7-openstack-common-testing: python-sqlalchemy-1.0.11-1.el7
     cloud7-openstack-common-release: python-sqlalchemy-1.0.11-1.el7
+    cloud7-openstack-pike-testing: python-sqlalchemy-1.1.11-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: unmanaged-dependency
