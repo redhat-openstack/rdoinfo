@@ -1643,7 +1643,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.0-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.0.0-0.2.0rc2.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -1691,7 +1691,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-validations-5.1.2-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-validations-5.1.2-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.5.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.6.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-validations-5.5.0-1.el7
 - project: instack
   tags:
@@ -1958,7 +1958,7 @@ packages:
   - trown@redhat.com
   - divius.inside@gmail.com
   buildsys-tags:
-    cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-ui-2.2.0-1.el7
 - project: barbican
   conf: rpmfactory-core
@@ -2105,7 +2105,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-sahara-ui-5.0.1-1.el7
     cloud7-openstack-newton-release: openstack-sahara-ui-5.0.1-1.el7
-    cloud7-openstack-ocata-testing: openstack-sahara-ui-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-ui-6.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-ui-6.0.0-1.el7
 - project: keystoneclient
   conf: rpmfactory-client
@@ -2450,7 +2450,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-tripleoclient-5.4.2-1.el7
     cloud7-openstack-newton-release: python-tripleoclient-5.4.2-1.el7
-    cloud7-openstack-ocata-testing: python-tripleoclient-6.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-tripleoclient-6.2.0-1.el7
     cloud7-openstack-ocata-release: python-tripleoclient-6.1.0-1.el7
 - project: zaqarclient
   tags:
@@ -2573,7 +2573,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslotest-2.10.1-1.el7
     cloud7-openstack-newton-release: python-oslotest-2.10.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslotest-2.13.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslotest-2.13.1-1.el7
     cloud7-openstack-ocata-release: python-oslotest-2.13.0-1.el7
 - project: oslo-sphinx
   conf: rpmfactory-lib
@@ -2617,7 +2617,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-messaging-5.10.2-1.el7
     cloud7-openstack-newton-release: python-oslo-messaging-5.10.1-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-messaging-5.17.1-1.el7
 - project: oslo-cache
   tags:
@@ -2713,7 +2713,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-middleware-3.19.1-1.el7
     cloud7-openstack-newton-release: python-oslo-middleware-3.19.1-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-middleware-3.23.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-middleware-3.23.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-middleware-3.23.1-1.el7
 - project: oslo-db
   conf: rpmfactory-lib
@@ -2729,7 +2729,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-db-4.13.6-1.el7
     cloud7-openstack-newton-release: python-oslo-db-4.13.5-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-db-4.17.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-db-4.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-db-4.17.0-1.el7
 - project: oslo-utils
   conf: rpmfactory-lib
@@ -2745,7 +2745,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-utils-3.16.1-1.el7
     cloud7-openstack-newton-release: python-oslo-utils-3.16.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-utils-3.22.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-utils-3.22.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-utils-3.22.0-1.el7
 - project: oslo-vmware
   conf: rpmfactory-lib
@@ -2761,7 +2761,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-vmware-2.14.1-1.el7
     cloud7-openstack-newton-release: python-oslo-vmware-2.14.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-vmware-2.17.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-vmware-2.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-vmware-2.17.0-1.el7
 - project: oslo-context
   conf: rpmfactory-lib
@@ -2777,7 +2777,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-context-2.9.0-1.el7
     cloud7-openstack-newton-release: python-oslo-context-2.9.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-context-2.12.1-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-context-2.12.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-context-2.12.1-1.el7
 - project: oslo-log
   conf: rpmfactory-lib
@@ -2857,7 +2857,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-reports-1.14.0-1.el7
     cloud7-openstack-newton-release: python-oslo-reports-1.14.0-1.el7
-    cloud7-openstack-ocata-testing: python-oslo-reports-1.17.0-1.el7
+    cloud7-openstack-ocata-testing: python-oslo-reports-1.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-reports-1.17.0-1.el7
 - project: oslo-privsep
   tags:
@@ -2901,7 +2901,7 @@ packages:
     cloud7-openstack-common-release: python-stevedore-1.8.0-1.el7
     cloud7-openstack-newton-testing: python-stevedore-1.17.1-1.el7
     cloud7-openstack-newton-release: python-stevedore-1.17.1-1.el7
-    cloud7-openstack-ocata-testing: python-stevedore-1.20.0-1.el7
+    cloud7-openstack-ocata-testing: python-stevedore-1.20.1-1.el7
     cloud7-openstack-ocata-release: python-stevedore-1.20.0-1.el7
 - project: castellan
   tags:
@@ -2976,7 +2976,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-automaton-1.4.0-2.el7
     cloud7-openstack-newton-release: python-automaton-1.4.0-2.el7
-    cloud7-openstack-ocata-testing: python-automaton-1.7.0-1.el7
+    cloud7-openstack-ocata-testing: python-automaton-1.7.1-1.el7
     cloud7-openstack-ocata-release: python-automaton-1.7.0-1.el7
 - project: cliff
   tags:
@@ -3008,7 +3008,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-futurist-0.18.0-1.el7
     cloud7-openstack-newton-release: python-futurist-0.18.0-1.el7
-    cloud7-openstack-ocata-testing: python-futurist-0.21.0-1.el7
+    cloud7-openstack-ocata-testing: python-futurist-0.21.1-1.el7
     cloud7-openstack-ocata-release: python-futurist-0.21.0-1.el7
 - project: cursive
   tags:
@@ -3094,7 +3094,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-common-5.4.2-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.2-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-common-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.0.0-1.el7
 - project: tripleo-repos
   tags:
@@ -3299,7 +3299,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.0-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.0.0-0.2.0rc2.el7
 - project: os-brick
   tags:
@@ -3572,7 +3572,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-tooz-1.43.1-1.el7
     cloud7-openstack-newton-release: python-tooz-1.43.1-1.el7
-    cloud7-openstack-ocata-testing: python-tooz-1.48.0-1.el7
+    cloud7-openstack-ocata-testing: python-tooz-1.48.1-1.el7
     cloud7-openstack-ocata-release: python-tooz-1.48.0-1.el7
 - project: magnumclient
   tags:
