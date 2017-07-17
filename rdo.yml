@@ -2572,7 +2572,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslotest
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslotest-2.10.1-1.el7
-    cloud7-openstack-newton-release: python-oslotest-2.10.0-1.el7
+    cloud7-openstack-newton-release: python-oslotest-2.10.1-1.el7
     cloud7-openstack-ocata-testing: python-oslotest-2.13.1-1.el7
     cloud7-openstack-ocata-release: python-oslotest-2.13.0-1.el7
 - project: oslo-sphinx
@@ -2616,7 +2616,7 @@ packages:
       source-branch: 5.10.2
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-messaging-5.10.2-1.el7
-    cloud7-openstack-newton-release: python-oslo-messaging-5.10.1-1.el7
+    cloud7-openstack-newton-release: python-oslo-messaging-5.10.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-messaging-5.17.1-1.el7
 - project: oslo-cache
@@ -2632,7 +2632,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.cache
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-cache-1.14.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-cache-1.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-cache-1.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-cache-1.17.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-cache-1.17.0-1.el7
 - project: oslo-config
@@ -2664,7 +2664,7 @@ packages:
       source-branch: 3.14.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-concurrency-3.14.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-concurrency-3.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-concurrency-3.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-concurrency-3.18.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-concurrency-3.18.0-1.el7
 - project: oslo-rootwrap
@@ -2696,7 +2696,7 @@ packages:
       source-branch: 2.13.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-serialization-2.13.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-serialization-2.13.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-serialization-2.13.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-serialization-2.16.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-serialization-2.16.0-1.el7
 - project: oslo-middleware
@@ -2728,7 +2728,7 @@ packages:
       source-branch: 4.13.6
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-db-4.13.6-1.el7
-    cloud7-openstack-newton-release: python-oslo-db-4.13.5-1.el7
+    cloud7-openstack-newton-release: python-oslo-db-4.13.6-1.el7
     cloud7-openstack-ocata-testing: python-oslo-db-4.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-db-4.17.0-1.el7
 - project: oslo-utils
@@ -2744,7 +2744,7 @@ packages:
       source-branch: 3.16.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-utils-3.16.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-utils-3.16.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-utils-3.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-utils-3.22.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-utils-3.22.0-1.el7
 - project: oslo-vmware
@@ -2760,7 +2760,7 @@ packages:
       source-branch: 2.14.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-vmware-2.14.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-vmware-2.14.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-vmware-2.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-vmware-2.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-vmware-2.17.0-1.el7
 - project: oslo-context
@@ -2792,7 +2792,7 @@ packages:
       source-branch: 3.16.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-log-3.16.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-log-3.16.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-log-3.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-log-3.20.1-2.el7
     cloud7-openstack-ocata-release: python-oslo-log-3.20.1-1.el7
 - project: oslo-policy
@@ -2824,7 +2824,7 @@ packages:
       source-branch: 1.17.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-versionedobjects-1.17.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-versionedobjects-1.17.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-versionedobjects-1.17.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-versionedobjects-1.21.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-versionedobjects-1.21.0-1.el7
 - project: oslo-service
@@ -2840,7 +2840,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.service
   buildsys-tags:
     cloud7-openstack-newton-testing: python-oslo-service-1.16.1-1.el7
-    cloud7-openstack-newton-release: python-oslo-service-1.16.0-1.el7
+    cloud7-openstack-newton-release: python-oslo-service-1.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-service-1.19.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-service-1.19.0-1.el7
 - project: oslo-reports
@@ -2930,7 +2930,7 @@ packages:
       source-branch: 2.6.1
   buildsys-tags:
     cloud7-openstack-newton-testing: python-taskflow-2.6.1-1.el7
-    cloud7-openstack-newton-release: python-taskflow-2.6.0-1.el7
+    cloud7-openstack-newton-release: python-taskflow-2.6.1-1.el7
     cloud7-openstack-ocata-testing: python-taskflow-2.9.0-1.el7
     cloud7-openstack-ocata-release: python-taskflow-2.9.0-1.el7
 - project: pycadf
