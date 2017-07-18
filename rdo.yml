@@ -209,6 +209,8 @@ packages:
     cloud7-openstack-ocata-release: puppet-designate-10.3.1-1.el7
 - project: puppet-ec2api
   conf: rpmfactory-puppet
+  maintainers:
+  - sven@redhat.com
   tags:
     pike-uc:
     pike:
@@ -281,6 +283,8 @@ packages:
     cloud7-openstack-ocata-release: puppet-neutron-10.3.1-1.el7
 - project: puppet-nova
   conf: rpmfactory-puppet
+  maintainers:
+  - sven@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-nova-9.5.4-1.el7
     cloud7-openstack-newton-release: puppet-nova-9.5.4-1.el7
@@ -1234,6 +1238,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - sahid.ferdjaoui@redhat.com
+  - sven@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-nova-14.0.7-1.el7
     cloud7-openstack-newton-release: openstack-nova-14.0.7-1.el7
@@ -2013,6 +2018,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
+  - sven@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ec2-api-3.0.2-1.el7
     cloud7-openstack-newton-release: openstack-ec2-api-3.0.2-1.el7
