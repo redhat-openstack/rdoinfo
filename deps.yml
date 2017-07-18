@@ -2929,3 +2929,13 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-exabgp-4.0.0-1.el7
+- project: python-abclient
+  name: python-abclient
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-abclient-0.2.3-2.el7
+- project: python-icalendar
+  name: python-icalendar
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-icalendar-3.11.5-1.el7
