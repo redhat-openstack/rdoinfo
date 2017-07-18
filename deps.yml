@@ -833,7 +833,7 @@ packages:
   name: python-crypto
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: python-crypto-2.6.1-1.el7
+    cloud7-openstack-common-testing: python-crypto-2.6.1-15.el7
     cloud7-openstack-common-release: python-crypto-2.6.1-1.el7
 - project: python-matplotlib
   name: python-matplotlib
@@ -2929,6 +2929,16 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-exabgp-4.0.0-1.el7
+- project: libtommath
+  name: libtommath
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: libtommath-1.0-8.el7
+- project: libtomcrypt
+  name: libtomcrypt
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: libtomcrypt-1.17-33.20170623gitcd6e602.el7
 - project: python-abclient
   name: python-abclient
   conf: unmanaged-dependency
