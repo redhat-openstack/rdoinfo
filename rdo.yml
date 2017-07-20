@@ -1199,6 +1199,8 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     pike-uc:
+      # https://github.com/camptocamp/puppet-systemd/issues/35
+      source-branch: b80984882b79c4edb48486513be1436dfa6736f2
     pike:
     ocata:
       source-branch: 70c418cfb49d5d13e68c0584f0a30464527f6bd1
