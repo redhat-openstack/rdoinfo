@@ -1413,7 +1413,7 @@ packages:
   name: python-neutron-lib
   tags:
     pike-uc:
-      source-branch: 1.7.0
+      source-branch: 1.9.0
     pike:
     ocata:
       source-branch: 1.1.0
@@ -2232,7 +2232,7 @@ packages:
   - trown@redhat.com
   tags:
     pike-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     pike:
     ocata:
       source-branch: 1.11.1
@@ -2559,7 +2559,7 @@ packages:
 - project: mox3
   tags:
     pike-uc:
-      source-branch: 0.22.0
+      source-branch: 0.23.0
     pike:
     ocata:
       source-branch: 0.20.0
@@ -2575,7 +2575,7 @@ packages:
 - project: oslotest
   tags:
     pike-uc:
-      source-branch: 2.16.1
+      source-branch: 2.17.0
     pike:
     ocata:
       source-branch: 2.13.1
@@ -2603,7 +2603,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
     pike-uc:
-      source-branch: 3.16.0
+      source-branch: 3.17.0
     pike:
     ocata:
       source-branch: 3.12.0
@@ -2621,7 +2621,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     pike-uc:
-      source-branch: 5.29.0
+      source-branch: 5.30.0
     pike:
     ocata:
       source-branch: 5.17.2
@@ -2635,7 +2635,7 @@ packages:
 - project: oslo-cache
   tags:
     pike-uc:
-      source-branch: 1.23.0
+      source-branch: 1.25.0
     pike:
     ocata:
       source-branch: 1.17.0
@@ -2653,7 +2653,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     pike-uc:
-      source-branch: 4.8.0
+      source-branch: 4.9.0
     pike:
     ocata:
       source-branch: 3.22.0
@@ -2669,7 +2669,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
     pike-uc:
-      source-branch: 3.20.0
+      source-branch: 3.21.0
     pike:
     ocata:
       source-branch: 3.18.0
@@ -2685,7 +2685,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     pike-uc:
-      source-branch: 5.7.0
+      source-branch: 5.9.0
     pike:
     ocata:
       source-branch: 5.4.1
@@ -2701,7 +2701,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
     pike-uc:
-      source-branch: 2.19.0
+      source-branch: 2.20.0
     pike:
     ocata:
       source-branch: 2.16.0
@@ -2717,7 +2717,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
     pike-uc:
-      source-branch: 3.29.2
+      source-branch: 3.30.0
     pike:
     ocata:
       source-branch: 3.23.2
@@ -2733,7 +2733,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     pike-uc:
-      source-branch: 4.24.1
+      source-branch: 4.25.0
     pike:
     ocata:
       source-branch: 4.17.1
@@ -2749,7 +2749,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     pike-uc:
-      source-branch: 3.27.0
+      source-branch: 3.28.0
     pike:
     ocata:
       source-branch: 3.22.1
@@ -2765,7 +2765,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     pike-uc:
-      source-branch: 2.22.1
+      source-branch: 2.23.0
     pike:
     ocata:
       source-branch: 2.17.1
@@ -2781,7 +2781,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     pike-uc:
-      source-branch: 2.16.0
+      source-branch: 2.17.0
     pike:
     ocata:
       source-branch: 2.12.2
@@ -2797,7 +2797,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     pike-uc:
-      source-branch: 3.29.0
+      source-branch: 3.30.0
     pike:
     ocata:
       source-branch: 3.20.1
@@ -2813,7 +2813,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     pike-uc:
-      source-branch: 1.24.1
+      source-branch: 1.25.0
     pike:
     ocata:
       source-branch: 1.18.0
@@ -2829,7 +2829,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     pike-uc:
-      source-branch: 1.25.0
+      source-branch: 1.26.0
     pike:
     ocata:
       source-branch: 1.21.0
@@ -2843,7 +2843,7 @@ packages:
 - project: oslo-service
   tags:
     pike-uc:
-      source-branch: 1.24.1
+      source-branch: 1.25.0
     pike:
     ocata:
       source-branch: 1.19.1
@@ -2859,7 +2859,7 @@ packages:
 - project: oslo-reports
   tags:
     pike-uc:
-      source-branch: 1.21.1
+      source-branch: 1.22.0
     pike:
     ocata:
       source-branch: 1.17.1
@@ -2875,7 +2875,7 @@ packages:
 - project: oslo-privsep
   tags:
     pike-uc:
-      source-branch: 1.21.1
+      source-branch: 1.22.0
     pike:
     ocata:
       source-branch: 1.16.0
@@ -2903,7 +2903,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 1.24.0
+      source-branch: 1.25.0
     pike:
     ocata:
       source-branch: 1.20.1
@@ -2919,7 +2919,7 @@ packages:
 - project: castellan
   tags:
     pike-uc:
-      source-branch: 0.11.1
+      source-branch: 0.12.0
     pike:
     ocata:
       source-branch: 0.5.0
@@ -2935,7 +2935,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 2.13.0
+      source-branch: 2.14.0
     pike:
     ocata:
       source-branch: 2.9.0
@@ -2964,7 +2964,7 @@ packages:
 - project: debtcollector
   tags:
     pike-uc:
-      source-branch: 1.16.0
+      source-branch: 1.17.0
     pike:
     ocata:
       source-branch: 1.11.0
@@ -2979,7 +2979,7 @@ packages:
 - project: automaton
   tags:
     pike-uc:
-      source-branch: 1.11.0
+      source-branch: 1.12.0
     pike:
     ocata:
       source-branch: 1.7.1
@@ -3011,7 +3011,7 @@ packages:
 - project: futurist
   tags:
     pike-uc:
-      source-branch: 1.2.0
+      source-branch: 1.3.0
     pike:
     ocata:
       source-branch: 0.21.1
@@ -3140,7 +3140,7 @@ packages:
   - apevec@redhat.com
   tags:
     pike-uc:
-      source-branch: 1.10.1
+      source-branch: 1.11.0
     pike:
     ocata:
       source-branch: 1.5.0
@@ -3319,7 +3319,7 @@ packages:
 - project: os-brick
   tags:
     pike-uc:
-      source-branch: 1.13.1
+      source-branch: 1.15.1
     pike:
     ocata:
       source-branch: 1.11.0
@@ -3575,7 +3575,7 @@ packages:
 - project: tooz
   tags:
     pike-uc:
-      source-branch: 1.57.4
+      source-branch: 1.57.3
     pike:
     ocata:
       source-branch: 1.48.1
