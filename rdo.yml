@@ -1655,7 +1655,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.0-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.1.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.0.0-0.2.0rc2.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -3968,7 +3968,7 @@ packages:
   maintainers:
   - dradez@redhat.com
   buildsys-tags:
-    cloud7-openstack-ocata-testing: openstack-congress-5.0.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-congress-5.0.0-2.el7
     cloud7-openstack-ocata-release: openstack-congress-5.0.0-1.el7
 - project: shaker
   name: python-shaker
