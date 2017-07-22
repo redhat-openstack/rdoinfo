@@ -1415,7 +1415,7 @@ packages:
   name: python-neutron-lib
   tags:
     pike-uc:
-      source-branch: 1.9.0
+      source-branch: 1.9.1
     pike:
     ocata:
       source-branch: 1.1.0
@@ -2216,7 +2216,7 @@ packages:
   conf: rpmfactory-client
   tags:
     pike-uc:
-      source-branch: 2.2.0
+      source-branch: 3.0.0
     pike:
     ocata:
       source-branch: 1.11.0
@@ -2380,7 +2380,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     pike-uc:
-      source-branch: 4.16.0
+      source-branch: 4.17.0
     pike:
     ocata:
       source-branch: 4.14.0
@@ -2655,7 +2655,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     pike-uc:
-      source-branch: 4.10.0
+      source-branch: 4.11.0
     pike:
     ocata:
       source-branch: 3.22.0
@@ -3359,7 +3359,7 @@ packages:
 - project: keystoneauth1
   tags:
     pike-uc:
-      source-branch: 2.21.0
+      source-branch: 3.0.0
     pike:
     ocata:
       source-branch: 2.18.0
@@ -3577,7 +3577,7 @@ packages:
 - project: tooz
   tags:
     pike-uc:
-      source-branch: 1.57.4
+      source-branch: 1.58.0
     pike:
     ocata:
       source-branch: 1.48.1
@@ -4113,7 +4113,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     pike-uc:
-      source-branch: 0.3.2
+      source-branch: 0.3.3
     pike:
   maintainers:
   - ratailor@redhat.com
