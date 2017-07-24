@@ -2944,3 +2944,8 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-icalendar-3.11.5-1.el7
+- project: python-netmiko
+  name: python-netmiko
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-netmiko-1.4.1-1.el7
