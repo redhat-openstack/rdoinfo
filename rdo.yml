@@ -1253,7 +1253,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-keystone-10.0.2-1.el7
     cloud7-openstack-newton-release: openstack-keystone-10.0.2-1.el7
-    cloud7-openstack-ocata-testing: openstack-keystone-11.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-keystone-11.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-keystone-11.0.1-1.el7
 - project: glance
   conf: rpmfactory-core
@@ -1307,7 +1307,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ceilometer-7.0.5-1.el7
     cloud7-openstack-newton-release: openstack-ceilometer-7.0.5-1.el7
-    cloud7-openstack-ocata-testing: openstack-ceilometer-8.0.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.0.1-1.el7
 - project: gnocchi
   conf: rpmfactory-core
@@ -1326,7 +1326,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-gnocchi-3.0.11-1.el7
     cloud7-openstack-newton-release: openstack-gnocchi-3.0.11-1.el7
-    cloud7-openstack-ocata-testing: openstack-gnocchi-3.1.5-1.el7
+    cloud7-openstack-ocata-testing: openstack-gnocchi-3.1.9-1.el7
     cloud7-openstack-ocata-release: openstack-gnocchi-3.1.5-1.el7
 - project: aodh
   tags:
@@ -1378,7 +1378,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-cinder-9.1.4-1.el7
     cloud7-openstack-newton-release: openstack-cinder-9.1.4-1.el7
-    cloud7-openstack-ocata-testing: openstack-cinder-10.0.2-1.el7
+    cloud7-openstack-ocata-testing: openstack-cinder-10.0.4-1.el7
     cloud7-openstack-ocata-release: openstack-cinder-10.0.2-1.el7
 - project: ironic
   tags:
@@ -2040,7 +2040,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-magnum-3.2.0-1.el7
     cloud7-openstack-newton-release: openstack-magnum-3.2.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-magnum-4.1.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-magnum-4.1.3-1.el7
     cloud7-openstack-ocata-release: openstack-magnum-4.1.1-1.el7
 - project: manila-ui
   tags:
@@ -3314,7 +3314,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.0-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.0-1.el7
-    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.1.0-1.el7
+    cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.2.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.0.0-0.2.0rc2.el7
 - project: os-brick
   tags:
