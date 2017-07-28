@@ -4193,3 +4193,15 @@ packages:
   tags:
     pike-uc:
     pike:
+- project: stestr
+  upstream: https://github.com/mtreinish/stestr
+  tags:
+    under-review:
+    #pike-uc:
+    #pike:
+  conf: rpmfactory-lib
+  maintainers:
+  - chkumar@redhat.com
+  - afazekas@redhat.com
+  - ltoscano@redhat.com
+
