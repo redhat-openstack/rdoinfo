@@ -2963,6 +2963,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-icalendar-3.11.5-1.el7
+<<<<<<< HEAD
 - project: python-netmiko
   name: python-netmiko
   conf: unmanaged-dependency
@@ -2993,3 +2994,13 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-markupsafe-0.23-16.el7
+- project: stestr
+  name: python-stestr
+  conf: unmanaged-dependency
+  buildsys-tags:
+    #cloud7-openstack-common-testing: python-stestr-0.5.0
+- project: subunit2sql
+  name: python-subunit2sql
+  conf: unmanaged-dependency
+  buildsys-tags:
+    #cloud7-openstack-common-testing: python-subunit2sql
