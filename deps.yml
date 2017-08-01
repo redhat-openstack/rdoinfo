@@ -3126,3 +3126,18 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-webcolors-1.7-4.el7
+- project: stestr
+  name: python-stestr
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-stestr-1.0.0-4.el7
+- project: subunit2sql
+  name: python-subunit2sql
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-subunit2sql-1.8.0-6.1.el7
+- project: future
+  name: future
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: future-0.16.0-4.el7
