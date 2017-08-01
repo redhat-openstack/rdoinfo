@@ -2949,3 +2949,8 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-icalendar-3.11.5-1.el7
+- project: stestr
+  name: python-stestr
+  conf: unmanaged-dependency
+  buildsys-tags:
+    #cloud7-openstack-common-testing: python-stestr-0.5.0
