@@ -1252,7 +1252,7 @@ packages:
   - apevec@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-keystone-10.0.3-1.el7
-    cloud7-openstack-newton-release: openstack-keystone-10.0.2-1.el7
+    cloud7-openstack-newton-release: openstack-keystone-10.0.3-1.el7
     cloud7-openstack-ocata-testing: openstack-keystone-11.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-keystone-11.0.3-1.el7
 - project: glance
@@ -1306,7 +1306,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ceilometer-7.1.0-1.el7
-    cloud7-openstack-newton-release: openstack-ceilometer-7.0.5-1.el7
+    cloud7-openstack-newton-release: openstack-ceilometer-7.1.0-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.0-1.el7
 - project: gnocchi
@@ -2039,7 +2039,7 @@ packages:
   - strigazi@gmail.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-magnum-3.3.1-1.el7
-    cloud7-openstack-newton-release: openstack-magnum-3.2.0-1.el7
+    cloud7-openstack-newton-release: openstack-magnum-3.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-magnum-4.1.3-1.el7
     cloud7-openstack-ocata-release: openstack-magnum-4.1.3-1.el7
 - project: manila-ui
@@ -2207,7 +2207,7 @@ packages:
       source-branch: 1.5.2
   buildsys-tags:
     cloud7-openstack-newton-testing: python-heatclient-1.5.2-1.el7
-    cloud7-openstack-newton-release: python-heatclient-1.5.1-1.el7
+    cloud7-openstack-newton-release: python-heatclient-1.5.2-1.el7
     cloud7-openstack-ocata-testing: python-heatclient-1.8.1-1.el7
     cloud7-openstack-ocata-release: python-heatclient-1.8.1-1.el7
 - project: cinderclient
