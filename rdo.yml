@@ -1245,7 +1245,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-nova-14.0.7-1.el7
     cloud7-openstack-newton-release: openstack-nova-14.0.7-1.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.6-1.el7
-    cloud7-openstack-ocata-release: openstack-nova-15.0.4-1.el7
+    cloud7-openstack-ocata-release: openstack-nova-15.0.6-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -2164,7 +2164,7 @@ packages:
     cloud7-openstack-newton-testing: python-novaclient-6.0.1-1.el7
     cloud7-openstack-newton-release: python-novaclient-6.0.1-1.el7
     cloud7-openstack-ocata-testing: python-novaclient-7.1.2-1.el7
-    cloud7-openstack-ocata-release: python-novaclient-7.1.1-1.el7
+    cloud7-openstack-ocata-release: python-novaclient-7.1.2-1.el7
 - project: swiftclient
   conf: rpmfactory-client
   tags:
@@ -3488,7 +3488,7 @@ packages:
     cloud7-openstack-newton-testing: python-mistralclient-2.1.2-1.el7
     cloud7-openstack-newton-release: python-mistralclient-2.1.2-1.el7
     cloud7-openstack-ocata-testing: python-mistralclient-3.0.1-1.el7
-    cloud7-openstack-ocata-release: python-mistralclient-3.0.0-1.el7
+    cloud7-openstack-ocata-release: python-mistralclient-3.0.1-1.el7
 - project: mistral
   tags:
     pike-uc:
@@ -3502,7 +3502,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-mistral-3.0.2-1.el7
     cloud7-openstack-newton-release: openstack-mistral-3.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-mistral-4.0.2-1.el7
-    cloud7-openstack-ocata-release: openstack-mistral-4.0.1-1.el7
+    cloud7-openstack-ocata-release: openstack-mistral-4.0.2-1.el7
 - project: mistral-lib
   tags:
     pike-uc:
