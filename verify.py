@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from __future__ import print_function
 import rdoinfo
-import yaml
+import ruamel.yaml as yaml
 
 
 def verify(fn, include_fns=[]):

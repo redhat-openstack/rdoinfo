@@ -1,7 +1,7 @@
 import collections
 import copy
 import six
-import yaml
+import ruamel.yaml as yaml
 from os import path
 
 
