@@ -2971,3 +2971,13 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-scp-0.10.2-6.el7
+- project: python-daiquiri
+  name: python-daiquiri
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-daiquiri-1.2.1-1.el7
+- project: python-json-logger
+  name: python-json-logger
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-json-logger-0.1.7-1.el7
