@@ -2125,7 +2125,7 @@ packages:
     cloud7-openstack-common-release: python-gflags-2.0-5.el7
 - project: subunit
   name: subunit
-  conf: unmanaged-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: subunit-1.0.0-1.el7
     cloud7-openstack-common-release: subunit-1.0.0-1.el7
