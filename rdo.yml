@@ -1290,7 +1290,7 @@ packages:
   - sven@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-nova-14.0.7-2.el7
-    cloud7-openstack-newton-release: openstack-nova-14.0.7-1.el7
+    cloud7-openstack-newton-release: openstack-nova-14.0.7-2.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.6-2.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.6-1.el7
 - project: keystone
@@ -1373,7 +1373,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-gnocchi-3.0.13-1.el7
-    cloud7-openstack-newton-release: openstack-gnocchi-3.0.11-1.el7
+    cloud7-openstack-newton-release: openstack-gnocchi-3.0.13-1.el7
     cloud7-openstack-ocata-testing: openstack-gnocchi-3.1.9-1.el7
     cloud7-openstack-ocata-release: openstack-gnocchi-3.1.9-1.el7
 - project: aodh
@@ -1414,7 +1414,7 @@ packages:
   - sbaker@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-heat-7.0.5-1.el7
-    cloud7-openstack-newton-release: openstack-heat-7.0.4-1.el7
+    cloud7-openstack-newton-release: openstack-heat-7.0.5-1.el7
     cloud7-openstack-ocata-testing: openstack-heat-8.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.2-1.el7
 - project: cinder
