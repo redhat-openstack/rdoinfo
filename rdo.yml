@@ -3869,8 +3869,6 @@ packages:
   name: python-networking-bagpipe
   tags:
     pike-uc:
-      # (TODO) Remove pin after https://review.rdoproject.org/r/#/c/5839/ is merged
-      source-branch: 1a3f1415a74c32ca2fc171a8acd78cf8551db233
     pike:
     ocata:
   conf: rpmfactory-lib
