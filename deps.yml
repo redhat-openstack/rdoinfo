@@ -2982,3 +2982,14 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-json-logger-0.1.7-1.el7
+- project: python-jinja2
+  name: python-jinja2
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-jinja2-2.8.1-1.el7
+- project: python-markupsafe
+  name: python-markupsafe
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-markupsafe-0.23-16.el7
+    
