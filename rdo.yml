@@ -2440,10 +2440,8 @@ packages:
     cloud7-openstack-ocata-release: python-keystonemiddleware-4.14.0-1.el7
 - project: ceilometermiddleware
   tags:
-    # version 1.0.1 has been incorrectly added in u-c for stable/ocata. Unlock when fixed.
-    version-locked:
     pike-uc:
-      source-branch: 1.0.1
+      source-branch: 1.1.0
     pike:
     ocata:
       source-branch: 1.0.0
