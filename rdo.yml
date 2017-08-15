@@ -4241,3 +4241,9 @@ packages:
   tags:
     pike-uc:
     pike:
+- project: karbor-dashboard
+  name: openstack-karbor-ui
+  conf: rpmfactory-core
+  upstream: https://github.com/openstack/karbor-dashboard
+  tags:
+    under-review:
