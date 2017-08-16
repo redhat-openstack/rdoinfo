@@ -65,7 +65,7 @@ Git repositories for the package:
 to build a package for, and if we need to use some release-specific information for
 a project:
 
-* *release* tags, as newton, ocata, pike or pike-uc means that the package will be
+* *release* tags, as newton, ocata, pike, queens or queens-uc means that the package will be
   included in the RDO Trunk repo for that specific release.
 
   * source-branch: inside a release tag defines the git branch, tag or commit will be
