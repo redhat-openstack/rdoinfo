@@ -3551,6 +3551,14 @@ packages:
     cloud7-openstack-newton-release: openstack-mistral-3.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-mistral-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-4.0.2-1.el7
+- project: mistral-extra
+  tags:
+    under-review:
+    #pike-uc:
+    #pike:
+  conf: rpmfactory-lib
+  maintainers:
+  - rbrady@redhat.com
 - project: mistral-lib
   tags:
     pike-uc:
