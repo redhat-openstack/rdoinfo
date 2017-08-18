@@ -1576,7 +1576,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-neutron-9.4.0-1.el7
     cloud7-openstack-newton-release: openstack-neutron-9.4.0-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.2-2.el7
-    cloud7-openstack-ocata-release: openstack-neutron-10.0.2-1.el7
+    cloud7-openstack-ocata-release: openstack-neutron-10.0.2-2.el7
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
@@ -2652,7 +2652,7 @@ packages:
     cloud7-openstack-newton-testing: python-ceilometermiddleware-0.5.1-1.el7
     cloud7-openstack-newton-release: python-ceilometermiddleware-0.5.1-1.el7
     cloud7-openstack-ocata-testing: python-ceilometermiddleware-1.0.3-1.el7
-    cloud7-openstack-ocata-release: python-ceilometermiddleware-1.0.0-1.el7
+    cloud7-openstack-ocata-release: python-ceilometermiddleware-1.0.3-1.el7
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -3621,7 +3621,7 @@ packages:
     cloud7-openstack-newton-testing: python-networking-cisco-4.0.0-1.el7
     cloud7-openstack-newton-release: python-networking-cisco-4.0.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-cisco-5.1.0-1.el7
-    cloud7-openstack-ocata-release: python-networking-cisco-5.0.0-1.el7
+    cloud7-openstack-ocata-release: python-networking-cisco-5.1.0-1.el7
 - project: UcsSdk
   conf: rpmfactory-lib
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
