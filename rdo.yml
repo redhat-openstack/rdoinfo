@@ -4339,6 +4339,16 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-tackerclient-0.9.0-1.el7
     cloud7-openstack-ocata-release: python-tackerclient-0.9.0-1.el7
+- project: ansible-kubespray
+  name: ansible-kubespray
+  conf: rpmfactory-lib
+  tags:
+  under-review:
+  #queens:
+  #queens-uc:
+  maintainers:
+  - bdobreli@redhat.com
+  - fpercoco@redhat.com
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
