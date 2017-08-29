@@ -1406,7 +1406,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-nova-14.0.7-2.el7
     cloud7-openstack-newton-release: openstack-nova-14.0.7-2.el7
-    cloud7-openstack-ocata-testing: openstack-nova-15.0.6-2.el7
+    cloud7-openstack-ocata-testing: openstack-nova-15.0.7-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.6-2.el7
 - project: keystone
   conf: rpmfactory-core
@@ -1508,7 +1508,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-aodh-3.0.3-2.el7
     cloud7-openstack-newton-release: openstack-aodh-3.0.3-2.el7
-    cloud7-openstack-ocata-testing: openstack-aodh-4.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-aodh-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-aodh-4.0.1-1.el7
 - project: panko
   tags:
@@ -1535,7 +1535,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-heat-7.0.5-1.el7
     cloud7-openstack-newton-release: openstack-heat-7.0.5-1.el7
-    cloud7-openstack-ocata-testing: openstack-heat-8.0.3-1.el7
+    cloud7-openstack-ocata-testing: openstack-heat-8.0.4-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.3-1.el7
 - project: cinder
   conf: rpmfactory-core
@@ -1546,7 +1546,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-cinder-9.1.4-1.el7
     cloud7-openstack-newton-release: openstack-cinder-9.1.4-1.el7
-    cloud7-openstack-ocata-testing: openstack-cinder-10.0.4-1.el7
+    cloud7-openstack-ocata-testing: openstack-cinder-10.0.5-1.el7
     cloud7-openstack-ocata-release: openstack-cinder-10.0.4-1.el7
 - project: ironic
   tags:
@@ -1575,7 +1575,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-9.4.0-2.el7
     cloud7-openstack-newton-release: openstack-neutron-9.4.0-2.el7
-    cloud7-openstack-ocata-testing: openstack-neutron-10.0.2-2.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-10.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.2-2.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -1612,7 +1612,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-fwaas-9.0.1-1.el7
     cloud7-openstack-newton-release: openstack-neutron-fwaas-9.0.1-1.el7
-    cloud7-openstack-ocata-testing: openstack-neutron-fwaas-10.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-neutron-fwaas-10.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-fwaas-10.0.1-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
@@ -1739,7 +1739,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-sahara-5.0.2-1.el7
     cloud7-openstack-newton-release: openstack-sahara-5.0.2-1.el7
-    cloud7-openstack-ocata-testing: openstack-sahara-6.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-6.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-6.0.1-1.el7
 - project: horizon
   conf: rpmfactory-core
@@ -2299,7 +2299,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: sahara-image-elements-5.0.2-1.el7
     cloud7-openstack-newton-release: sahara-image-elements-5.0.2-1.el7
-    cloud7-openstack-ocata-testing: sahara-image-elements-6.0.1-1.el7
+    cloud7-openstack-ocata-testing: sahara-image-elements-6.0.2-1.el7
     cloud7-openstack-ocata-release: sahara-image-elements-6.0.1-1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
@@ -2333,7 +2333,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-sahara-ui-5.0.2-1.el7
     cloud7-openstack-newton-release: openstack-sahara-ui-5.0.2-1.el7
-    cloud7-openstack-ocata-testing: openstack-sahara-ui-6.0.1-1.el7
+    cloud7-openstack-ocata-testing: openstack-sahara-ui-6.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-ui-6.0.1-1.el7
 - project: keystoneclient
   conf: rpmfactory-client
@@ -2493,7 +2493,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-newton-testing: python-neutronclient-6.0.0-2.el7
     cloud7-openstack-newton-release: python-neutronclient-6.0.0-2.el7
-    cloud7-openstack-ocata-testing: python-neutronclient-6.1.0-1.el7
+    cloud7-openstack-ocata-testing: python-neutronclient-6.1.1-1.el7
     cloud7-openstack-ocata-release: python-neutronclient-6.1.0-1.el7
 - project: saharaclient
   conf: rpmfactory-client
