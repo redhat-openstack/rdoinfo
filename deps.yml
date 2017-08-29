@@ -792,7 +792,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-pyroute2-0.4.8-1.el7
     cloud7-openstack-common-release: python-pyroute2-0.4.8-1.el7
-    cloud7-openstack-pike-testing: python-pyroute2-0.4.15-1.el7
+    cloud7-openstack-pike-testing: python-pyroute2-0.4.19-1.el7
 - project: wxGTK
   name: wxGTK
   conf: unmanaged-dependency
@@ -1578,6 +1578,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-memcached-1.54-3.el7
     cloud7-openstack-common-release: python-memcached-1.54-3.el7
+    cloud7-openstack-pike-testing: python-memcached-1.58-1.el7
 - project: python-pep8
   name: python-pep8
   conf: unmanaged-dependency
