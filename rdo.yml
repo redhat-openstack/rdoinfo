@@ -4530,6 +4530,9 @@ packages:
 - project: patrole
   name: python-patrole
   conf: rpmfactory-tempest-plugin
+  maintainers:
+  - rmascena@redhat.com
+  - hrybacki@redhat.com
   tags:
     queens-uc:
     queens:
@@ -4563,6 +4566,9 @@ packages:
 - project: keystone-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-keystone-tests-tempest
+  maintainers:
+  - panbalag@redhat.com
+  - alee@redhat.com
   tags:
     queens-uc:
     queens:
