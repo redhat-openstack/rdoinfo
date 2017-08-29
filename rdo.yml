@@ -3869,10 +3869,8 @@ packages:
     cloud7-openstack-pike-release: openstack-tripleo-common-7.5.0-1.el7
 - project: tripleo-repos
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
-    #pike:
+    queens-uc:
+    queens:
   conf: rpmfactory-core
   name: tripleo-repos
   maintainers:
