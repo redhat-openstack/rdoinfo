@@ -3619,6 +3619,8 @@ packages:
     cloud7-openstack-newton-release: python-networking-cisco-4.0.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-cisco-5.1.0-1.el7
     cloud7-openstack-ocata-release: python-networking-cisco-5.1.0-1.el7
+# XXX: UcsSdk is not OpenStack component
+# Could be moved to deps.yml since it is not under active development
 - project: UcsSdk
   conf: rpmfactory-lib
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
