@@ -4535,28 +4535,25 @@ packages:
     queens:
     pike:
 - project: glare
-  name: python-glare
-  tags:
-    under-review:
-    #queens-uc:
-    #queens:
-    #pike
-    #ocata:
   conf: rpmfactory-core
+  tags:
+    queens-uc:
+    queens:
+    pike:
+    ocata:
   maintainers:
   - mfedosin@gmail.com
   - idan.narotzki@nokia.com
 - project: glareclient
   conf: rpmfactory-client
   tags:
-    under-review:
-    #queens-uc:
-    #  source-branch: 0.3.0
-    #queens:
-    #pike:
-    #  source-branch: 0.3.0
-    #ocata:
-    #  source-branch: 0.3.0
+    queens-uc:
+      source-branch: 0.4.1
+    queens:
+    pike:
+      source-branch: 0.4.1
+    ocata:
+      source-branch: 0.4.1
   maintainers:
   - mfedosin@gmail.com
   - idan.narotzki@nokia.com
