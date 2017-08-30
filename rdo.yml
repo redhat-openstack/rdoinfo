@@ -1408,6 +1408,8 @@ packages:
     cloud7-openstack-newton-release: openstack-nova-14.0.7-2.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.6-2.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.6-2.el7
+    cloud7-openstack-pike-testing: openstack-nova-16.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-nova-16.0.0-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -1417,6 +1419,8 @@ packages:
     cloud7-openstack-newton-release: openstack-keystone-10.0.3-1.el7
     cloud7-openstack-ocata-testing: openstack-keystone-11.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-keystone-11.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-keystone-12.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-keystone-12.0.0-1.el7
 - project: glance
   conf: rpmfactory-core
   maintainers:
@@ -1427,6 +1431,8 @@ packages:
     cloud7-openstack-newton-release: openstack-glance-13.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-glance-14.0.0-2.el7
     cloud7-openstack-ocata-release: openstack-glance-14.0.0-2.el7
+    cloud7-openstack-pike-testing: openstack-glance-15.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-glance-15.0.0-1.el7
 - project: glance_store
   conf: rpmfactory-core
   name: python-glance-store
@@ -1438,6 +1444,8 @@ packages:
     cloud7-openstack-newton-release: python-glance-store-0.18.0-1.el7
     cloud7-openstack-ocata-testing: python-glance-store-0.20.0-1.el7
     cloud7-openstack-ocata-release: python-glance-store-0.20.0-1.el7
+    cloud7-openstack-pike-testing: python-glance-store-0.22.0-1.el7
+    #cloud7-openstack-pike-release: python-glance-store-0.22.0-1.el7
 - project: swift
   conf: rpmfactory-core
   maintainers:
@@ -1447,6 +1455,8 @@ packages:
     cloud7-openstack-newton-release: openstack-swift-2.10.2-1.el7
     cloud7-openstack-ocata-testing: openstack-swift-2.13.1-1.el7
     cloud7-openstack-ocata-release: openstack-swift-2.13.1-1.el7
+    cloud7-openstack-pike-testing: openstack-swift-2.15.1-1.el7
+    #cloud7-openstack-pike-release: openstack-swift-2.15.1-1.el7
 - project: swift3
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
@@ -1472,6 +1482,8 @@ packages:
     cloud7-openstack-newton-release: openstack-ceilometer-7.1.0-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-ceilometer-9.0.0-1.el7
 - project: gnocchi
   conf: rpmfactory-core
   upstream: https://github.com/gnocchixyz/%(project)s
@@ -1510,6 +1522,8 @@ packages:
     cloud7-openstack-newton-release: openstack-aodh-3.0.3-2.el7
     cloud7-openstack-ocata-testing: openstack-aodh-4.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-aodh-4.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-aodh-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-aodh-5.0.0-1.el7
 - project: panko
   tags:
     queens-uc:
@@ -1537,6 +1551,8 @@ packages:
     cloud7-openstack-newton-release: openstack-heat-7.0.5-1.el7
     cloud7-openstack-ocata-testing: openstack-heat-8.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-heat-9.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-heat-9.0.0-1.el7
 - project: cinder
   conf: rpmfactory-core
   maintainers:
@@ -1548,6 +1564,8 @@ packages:
     cloud7-openstack-newton-release: openstack-cinder-9.1.4-1.el7
     cloud7-openstack-ocata-testing: openstack-cinder-10.0.4-1.el7
     cloud7-openstack-ocata-release: openstack-cinder-10.0.4-1.el7
+    cloud7-openstack-pike-testing: openstack-cinder-11.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-cinder-11.0.0-1.el7
 - project: ironic
   tags:
     queens-uc:
@@ -1564,6 +1582,8 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-6.2.4-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-7.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-7.0.2-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-9.1.0-1.el7
+    #cloud7-openstack-pike-release: openstack-ironic-9.1.0-1.el7
 - project: neutron
   conf: rpmfactory-core
   maintainers:
@@ -1577,6 +1597,8 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-9.4.0-2.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.2-2.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.2-2.el7
+    cloud7-openstack-pike-testing: openstack-neutron-11.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-neutron-11.0.0-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
@@ -1601,6 +1623,8 @@ packages:
     cloud7-openstack-newton-release: python-neutron-lib-0.4.0-1.el7
     cloud7-openstack-ocata-testing: python-neutron-lib-1.1.0-1.el7
     cloud7-openstack-ocata-release: python-neutron-lib-1.1.0-1.el7
+    cloud7-openstack-pike-testing: python-neutron-lib-1.9.1-1.el7
+    #cloud7-openstack-pike-release: python-neutron-lib-1.9.1-1.el7
 - project: neutron-fwaas
   conf: rpmfactory-core
   maintainers:
@@ -1614,6 +1638,8 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-fwaas-9.0.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-fwaas-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-fwaas-10.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-fwaas-11.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-neutron-fwaas-11.0.0-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
   maintainers:
@@ -1627,6 +1653,8 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-lbaas-11.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-neutron-lbaas-11.0.0-1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
   maintainers:
@@ -1650,6 +1678,8 @@ packages:
     cloud7-openstack-newton-release: openstack-designate-3.0.1-1.el7
     cloud7-openstack-ocata-testing: openstack-designate-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-designate-4.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-designate-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-designate-5.0.0-1.el7
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
@@ -1683,6 +1713,8 @@ packages:
     cloud7-openstack-newton-release: openstack-octavia-0.9.1-1.el7
     cloud7-openstack-ocata-testing: openstack-octavia-0.10.0-1.el7
     cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
+    cloud7-openstack-pike-testing: openstack-octavia-1.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-octavia-1.0.0-1.el7
 - project: watcher
   conf: rpmfactory-core
   tags:
@@ -1712,6 +1744,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-vitrage-1.5.2-1.el7
     cloud7-openstack-ocata-release: openstack-vitrage-1.5.2-1.el7
+    cloud7-openstack-pike-testing: openstack-vitrage-1.8.1-1.el7
+    #cloud7-openstack-pike-release: openstack-vitrage-1.8.1-1.el7
 - project: vitrage-dashboard
   name: openstack-vitrage-ui
   conf: rpmfactory-core
@@ -1725,6 +1759,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-vitrage-ui-1.1.1-1.el7
     cloud7-openstack-ocata-release: openstack-vitrage-ui-1.1.1-1.el7
+    cloud7-openstack-pike-testing: openstack-vitrage-ui-1.3.1-1.el7
+    #cloud7-openstack-pike-release: openstack-vitrage-ui-1.3.1-1.el7
 - project: sahara
   tags:
     queens-uc:
@@ -1740,6 +1776,8 @@ packages:
     cloud7-openstack-newton-release: openstack-sahara-5.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-sahara-6.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-6.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-sahara-7.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-sahara-7.0.0-1.el7
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
@@ -1760,6 +1798,8 @@ packages:
     cloud7-openstack-newton-release: openstack-trove-6.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-trove-7.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-trove-7.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-trove-8.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-trove-8.0.0-1.el7
 - project: django_openstack_auth
   conf: rpmfactory-lib
   name: python-django-openstack-auth
@@ -1770,6 +1810,8 @@ packages:
     cloud7-openstack-newton-release: python-django-openstack-auth-2.4.2-1.el7
     cloud7-openstack-ocata-testing: python-django-openstack-auth-3.1.1-1.el7
     cloud7-openstack-ocata-release: python-django-openstack-auth-3.1.1-1.el7
+    cloud7-openstack-pike-testing: python-django-openstack-auth-3.5.0-1.el7
+    #cloud7-openstack-pike-release: python-django-openstack-auth-3.5.0-1.el7
 - project: diskimage-builder
   tags:
     queens-uc:
@@ -2046,6 +2088,8 @@ packages:
     cloud7-openstack-newton-release: python-os-client-config-1.21.1-1.el7
     cloud7-openstack-ocata-testing: python-os-client-config-1.26.0-1.el7
     cloud7-openstack-ocata-release: python-os-client-config-1.26.0-1.el7
+    cloud7-openstack-pike-testing: python-os-client-config-1.28.0-1.el7
+    #cloud7-openstack-pike-release: python-os-client-config-1.28.0-1.el7
 - project: os-win
   tags:
     queens-uc:
@@ -2067,6 +2111,8 @@ packages:
     cloud7-openstack-newton-release: python-os-win-1.2.2-1.el7
     cloud7-openstack-ocata-testing: python-os-win-1.4.2-1.el7
     cloud7-openstack-ocata-release: python-os-win-1.4.2-1.el7
+    cloud7-openstack-pike-testing: python-os-win-2.2.0-1.el7
+    #cloud7-openstack-pike-release: python-os-win-2.2.0-1.el7
 - project: os-xenapi
   conf: rpmfactory-lib
   tags:
@@ -2078,6 +2124,9 @@ packages:
     pike:
   maintainers:
   - jpena@redhat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-os-xenapi-0.2.0-1.el7
+    #cloud7-openstack-pike-release: python-os-xenapi-0.2.0-1.el7
 - project: manila
   tags:
     queens-uc:
@@ -2094,6 +2143,8 @@ packages:
     cloud7-openstack-newton-release: openstack-manila-3.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-manila-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-manila-4.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-manila-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-manila-5.0.0-1.el7
 - project: zaqar
   tags:
     queens-uc:
@@ -2111,6 +2162,8 @@ packages:
     cloud7-openstack-newton-release: openstack-zaqar-3.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-zaqar-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-zaqar-4.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-zaqar-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-zaqar-5.0.0-1.el7
 - project: ironic-inspector
   tags:
     queens-uc:
@@ -2127,6 +2180,8 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-inspector-4.2.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-inspector-5.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-inspector-5.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-inspector-6.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-ironic-inspector-6.0.0-1.el7
 - project: ironic-python-agent
   tags:
     queens-uc:
@@ -2143,6 +2198,8 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-python-agent-1.5.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-python-agent-2.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-python-agent-2.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-python-agent-2.2.0-1.el7
+    #cloud7-openstack-pike-release: openstack-ironic-python-agent-2.2.0-1.el7
 - project: ironic-lib
   tags:
     queens-uc:
@@ -2163,6 +2220,8 @@ packages:
     cloud7-openstack-newton-release: python-ironic-lib-2.1.2-1.el7
     cloud7-openstack-ocata-testing: python-ironic-lib-2.5.2-1.el7
     cloud7-openstack-ocata-release: python-ironic-lib-2.5.2-1.el7
+    cloud7-openstack-pike-testing: python-ironic-lib-2.9.0-1.el7
+    #cloud7-openstack-pike-release: python-ironic-lib-2.9.0-1.el7
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
@@ -2177,6 +2236,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-ui-2.2.1-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-ui-3.0.1-1.el7
+    #cloud7-openstack-pike-release: openstack-ironic-ui-3.0.1-1.el7
 - project: barbican
   conf: rpmfactory-core
   maintainers:
@@ -2187,6 +2248,8 @@ packages:
     cloud7-openstack-newton-release: openstack-barbican-3.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-barbican-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-barbican-4.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-barbican-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-barbican-5.0.0-1.el7
 - project: cloudkitty
   tags:
     queens-uc:
@@ -2202,6 +2265,8 @@ packages:
     cloud7-openstack-newton-release: openstack-cloudkitty-0.6.1-2.el7
     cloud7-openstack-ocata-testing: openstack-cloudkitty-5.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-cloudkitty-5.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-cloudkitty-6.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-cloudkitty-6.0.0-1.el7
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
@@ -2218,6 +2283,8 @@ packages:
     cloud7-openstack-newton-release: openstack-cloudkitty-ui-0.6.1-1.el7
     cloud7-openstack-ocata-testing: openstack-cloudkitty-ui-5.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-cloudkitty-ui-5.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-cloudkitty-ui-6.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-cloudkitty-ui-6.0.0-1.el7
 - project: ec2-api
   tags:
     queens-uc:
@@ -2234,6 +2301,8 @@ packages:
     cloud7-openstack-newton-release: openstack-ec2-api-3.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ec2-api-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-ec2-api-4.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ec2-api-4.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-ec2-api-4.0.0-1.el7
 - project: magnum
   tags:
     queens-uc:
@@ -2251,6 +2320,8 @@ packages:
     cloud7-openstack-newton-release: openstack-magnum-3.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-magnum-4.1.3-1.el7
     cloud7-openstack-ocata-release: openstack-magnum-4.1.3-1.el7
+    cloud7-openstack-pike-testing: openstack-magnum-5.0.1-1.el7
+    #cloud7-openstack-pike-release: openstack-magnum-5.0.1-1.el7
 - project: manila-ui
   tags:
     queens-uc:
@@ -2267,6 +2338,8 @@ packages:
     cloud7-openstack-newton-release: openstack-manila-ui-2.5.1-1.el7
     cloud7-openstack-ocata-testing: openstack-manila-ui-2.7.1-1.el7
     cloud7-openstack-ocata-release: openstack-manila-ui-2.7.1-1.el7
+    cloud7-openstack-pike-testing: openstack-manila-ui-2.10.1-1.el7
+    #cloud7-openstack-pike-release: openstack-manila-ui-2.10.1-1.el7
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
@@ -2317,6 +2390,8 @@ packages:
     cloud7-openstack-newton-release: openstack-trove-ui-7.0.1-1.el7
     cloud7-openstack-ocata-testing: openstack-trove-ui-8.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-trove-ui-8.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-trove-ui-9.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-trove-ui-9.0.0-1.el7
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
@@ -2334,6 +2409,8 @@ packages:
     cloud7-openstack-newton-release: openstack-sahara-ui-5.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-sahara-ui-6.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-ui-6.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-sahara-ui-7.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-sahara-ui-7.0.0-1.el7
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
@@ -2351,6 +2428,8 @@ packages:
     cloud7-openstack-newton-release: python-keystoneclient-3.5.1-1.el7
     cloud7-openstack-ocata-testing: python-keystoneclient-3.10.0-1.el7
     cloud7-openstack-ocata-release: python-keystoneclient-3.10.0-1.el7
+    cloud7-openstack-pike-testing: python-keystoneclient-3.13.0-1.el7
+    #cloud7-openstack-pike-release: python-keystoneclient-3.13.0-1.el7
 - project: glanceclient
   conf: rpmfactory-client
   tags:
@@ -2368,6 +2447,8 @@ packages:
     cloud7-openstack-newton-release: python-glanceclient-2.5.0-1.el7
     cloud7-openstack-ocata-testing: python-glanceclient-2.6.0-1.el7
     cloud7-openstack-ocata-release: python-glanceclient-2.6.0-1.el7
+    cloud7-openstack-pike-testing: python-glanceclient-2.8.0-1.el7
+    #cloud7-openstack-pike-release: python-glanceclient-2.8.0-1.el7
 - project: novaclient
   conf: rpmfactory-client
   tags:
@@ -2385,6 +2466,8 @@ packages:
     cloud7-openstack-newton-release: python-novaclient-6.0.1-1.el7
     cloud7-openstack-ocata-testing: python-novaclient-7.1.2-1.el7
     cloud7-openstack-ocata-release: python-novaclient-7.1.2-1.el7
+    cloud7-openstack-pike-testing: python-novaclient-9.1.0-1.el7
+    #cloud7-openstack-pike-release: python-novaclient-9.1.0-1.el7
 - project: swiftclient
   conf: rpmfactory-client
   tags:
@@ -2402,6 +2485,8 @@ packages:
     cloud7-openstack-newton-release: python-swiftclient-3.1.0-1.el7
     cloud7-openstack-ocata-testing: python-swiftclient-3.3.0-1.el7
     cloud7-openstack-ocata-release: python-swiftclient-3.3.0-1.el7
+    cloud7-openstack-pike-testing: python-swiftclient-3.4.0-1.el7
+    #cloud7-openstack-pike-release: python-swiftclient-3.4.0-1.el7
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
@@ -2419,6 +2504,8 @@ packages:
     cloud7-openstack-newton-release: python-ceilometerclient-2.6.2-1.el7
     cloud7-openstack-ocata-testing: python-ceilometerclient-2.8.1-1.el7
     cloud7-openstack-ocata-release: python-ceilometerclient-2.8.1-1.el7
+    cloud7-openstack-pike-testing: python-ceilometerclient-2.9.0-1.el7
+    #cloud7-openstack-pike-release: python-ceilometerclient-2.9.0-1.el7
 - project: heatclient
   conf: rpmfactory-client
   tags:
@@ -2436,6 +2523,8 @@ packages:
     cloud7-openstack-newton-release: python-heatclient-1.5.2-1.el7
     cloud7-openstack-ocata-testing: python-heatclient-1.8.1-1.el7
     cloud7-openstack-ocata-release: python-heatclient-1.8.1-1.el7
+    cloud7-openstack-pike-testing: python-heatclient-1.11.0-1.el7
+    #cloud7-openstack-pike-release: python-heatclient-1.11.0-1.el7
 - project: cinderclient
   conf: rpmfactory-client
   tags:
@@ -2453,6 +2542,8 @@ packages:
     cloud7-openstack-newton-release: python-cinderclient-1.9.0-1.el7
     cloud7-openstack-ocata-testing: python-cinderclient-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-cinderclient-1.11.0-1.el7
+    cloud7-openstack-pike-testing: python-cinderclient-3.1.0-1.el7
+    #cloud7-openstack-pike-release: python-cinderclient-3.1.0-1.el7
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
@@ -2473,6 +2564,8 @@ packages:
     cloud7-openstack-newton-release: python-ironicclient-1.7.1-1.el7
     cloud7-openstack-ocata-testing: python-ironicclient-1.11.1-1.el7
     cloud7-openstack-ocata-release: python-ironicclient-1.11.1-1.el7
+    cloud7-openstack-pike-testing: python-ironicclient-1.16.0-1.el7
+    #cloud7-openstack-pike-release: python-ironicclient-1.16.0-1.el7
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
@@ -2494,6 +2587,8 @@ packages:
     cloud7-openstack-newton-release: python-neutronclient-6.0.0-2.el7
     cloud7-openstack-ocata-testing: python-neutronclient-6.1.0-1.el7
     cloud7-openstack-ocata-release: python-neutronclient-6.1.0-1.el7
+    cloud7-openstack-pike-testing: python-neutronclient-6.5.0-1.el7
+    #cloud7-openstack-pike-release: python-neutronclient-6.5.0-1.el7
 - project: saharaclient
   conf: rpmfactory-client
   tags:
@@ -2511,6 +2606,8 @@ packages:
     cloud7-openstack-newton-release: python-saharaclient-0.18.0-1.el7
     cloud7-openstack-ocata-testing: python-saharaclient-1.1.0-1.el7
     cloud7-openstack-ocata-release: python-saharaclient-1.1.0-1.el7
+    cloud7-openstack-pike-testing: python-saharaclient-1.3.0-1.el7
+    #cloud7-openstack-pike-release: python-saharaclient-1.3.0-1.el7
 - project: troveclient
   conf: rpmfactory-client
   tags:
@@ -2528,6 +2625,8 @@ packages:
     cloud7-openstack-newton-release: python-troveclient-2.5.0-1.el7
     cloud7-openstack-ocata-testing: python-troveclient-2.8.0-1.el7
     cloud7-openstack-ocata-release: python-troveclient-2.8.0-1.el7
+    cloud7-openstack-pike-testing: python-troveclient-2.12.0-1.el7
+    #cloud7-openstack-pike-release: python-troveclient-2.12.0-1.el7
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
@@ -2545,6 +2644,8 @@ packages:
     cloud7-openstack-newton-release: python-vitrageclient-1.0.1-1.el7
     cloud7-openstack-ocata-testing: python-vitrageclient-1.1.2-1.el7
     cloud7-openstack-ocata-release: python-vitrageclient-1.1.2-1.el7
+    cloud7-openstack-pike-testing: python-vitrageclient-1.3.0-1.el7
+    #cloud7-openstack-pike-release: python-vitrageclient-1.3.0-1.el7
 - project: designateclient
   conf: rpmfactory-client
   tags:
@@ -2562,6 +2663,8 @@ packages:
     cloud7-openstack-newton-release: python-designateclient-2.3.0-1.el7
     cloud7-openstack-ocata-testing: python-designateclient-2.6.0-1.el7
     cloud7-openstack-ocata-release: python-designateclient-2.6.0-1.el7
+    cloud7-openstack-pike-testing: python-designateclient-2.7.0-1.el7
+    #cloud7-openstack-pike-release: python-designateclient-2.7.0-1.el7
 - project: manilaclient
   tags:
     queens-uc:
@@ -2581,6 +2684,8 @@ packages:
     cloud7-openstack-newton-release: python-manilaclient-1.11.0-1.el7
     cloud7-openstack-ocata-testing: python-manilaclient-1.14.0-1.el7
     cloud7-openstack-ocata-release: python-manilaclient-1.14.0-1.el7
+    cloud7-openstack-pike-testing: python-manilaclient-1.17.1-1.el7
+    #cloud7-openstack-pike-release: python-manilaclient-1.17.1-1.el7
 - project: barbicanclient
   tags:
     queens-uc:
@@ -2602,6 +2707,8 @@ packages:
     cloud7-openstack-newton-release: python-barbicanclient-4.1.0-1.el7
     cloud7-openstack-ocata-testing: python-barbicanclient-4.2.0-1.el7
     cloud7-openstack-ocata-release: python-barbicanclient-4.2.0-1.el7
+    cloud7-openstack-pike-testing: python-barbicanclient-4.5.2-1.el7
+    #cloud7-openstack-pike-release: python-barbicanclient-4.5.2-1.el7
 - project: cloudkittyclient
   tags:
     queens-uc:
@@ -2617,6 +2724,8 @@ packages:
     cloud7-openstack-newton-release: python-cloudkittyclient-0.6.0-1.el7
     cloud7-openstack-ocata-testing: python-cloudkittyclient-1.0.0-1.el7
     cloud7-openstack-ocata-release: python-cloudkittyclient-1.0.0-1.el7
+    cloud7-openstack-pike-testing: python-cloudkittyclient-1.1.0-1.el7
+    #cloud7-openstack-pike-release: python-cloudkittyclient-1.1.0-1.el7
 - project: keystonemiddleware
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -2635,6 +2744,8 @@ packages:
     cloud7-openstack-newton-release: python-keystonemiddleware-4.9.0-1.el7
     cloud7-openstack-ocata-testing: python-keystonemiddleware-4.14.0-1.el7
     cloud7-openstack-ocata-release: python-keystonemiddleware-4.14.0-1.el7
+    cloud7-openstack-pike-testing: python-keystonemiddleware-4.17.0-1.el7
+    #cloud7-openstack-pike-release: python-keystonemiddleware-4.17.0-1.el7
 - project: ceilometermiddleware
   tags:
     queens-uc:
@@ -2653,6 +2764,8 @@ packages:
     cloud7-openstack-newton-release: python-ceilometermiddleware-0.5.2-1.el7
     cloud7-openstack-ocata-testing: python-ceilometermiddleware-1.0.3-1.el7
     cloud7-openstack-ocata-release: python-ceilometermiddleware-1.0.3-1.el7
+    cloud7-openstack-pike-testing: python-ceilometermiddleware-1.1.0-1.el7
+    #cloud7-openstack-pike-release: python-ceilometermiddleware-1.1.0-1.el7
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -2672,6 +2785,8 @@ packages:
     cloud7-openstack-newton-release: python-openstackclient-3.2.1-1.el7
     cloud7-openstack-ocata-testing: python-openstackclient-3.8.1-1.el7
     cloud7-openstack-ocata-release: python-openstackclient-3.8.1-1.el7
+    cloud7-openstack-pike-testing: python-openstackclient-3.12.0-1.el7
+    #cloud7-openstack-pike-release: python-openstackclient-3.12.0-1.el7
 - project: shade
   conf: rpmfactory-client
   maintainers:
@@ -2703,6 +2818,8 @@ packages:
     cloud7-openstack-newton-release: python-ironic-inspector-client-1.10.0-1.el7
     cloud7-openstack-ocata-testing: python-ironic-inspector-client-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-ironic-inspector-client-1.11.0-1.el7
+    cloud7-openstack-pike-testing: python-ironic-inspector-client-2.0.0-1.el7
+    #cloud7-openstack-pike-release: python-ironic-inspector-client-2.0.0-1.el7
 - project: tripleoclient
   tags:
     queens-uc:
@@ -2718,6 +2835,8 @@ packages:
     cloud7-openstack-newton-release: python-tripleoclient-5.4.2-1.el7
     cloud7-openstack-ocata-testing: python-tripleoclient-6.2.0-1.el7
     cloud7-openstack-ocata-release: python-tripleoclient-6.2.0-1.el7
+    cloud7-openstack-pike-testing: python-tripleoclient-7.2.0-1.el7
+    #cloud7-openstack-pike-release: python-tripleoclient-7.2.0-1.el7
 - project: zaqarclient
   tags:
     queens-uc:
@@ -2739,6 +2858,8 @@ packages:
     cloud7-openstack-newton-release: python-zaqarclient-1.2.0-2.el7
     cloud7-openstack-ocata-testing: python-zaqarclient-1.4.0-1.el7
     cloud7-openstack-ocata-release: python-zaqarclient-1.4.0-1.el7
+    cloud7-openstack-pike-testing: python-zaqarclient-1.7.0-1.el7
+    #cloud7-openstack-pike-release: python-zaqarclient-1.7.0-1.el7
 - project: openstacksdk
   tags:
     queens-uc:
@@ -2756,6 +2877,8 @@ packages:
     cloud7-openstack-newton-release: python-openstacksdk-0.9.5-1.el7
     cloud7-openstack-ocata-testing: python-openstacksdk-0.9.13-1.el7
     cloud7-openstack-ocata-release: python-openstacksdk-0.9.13-1.el7
+    cloud7-openstack-pike-testing: python-openstacksdk-0.9.17-1.el7
+    #cloud7-openstack-pike-release: python-openstacksdk-0.9.17-1.el7
 - project: gnocchiclient
   tags:
     queens-uc:
@@ -2776,6 +2899,8 @@ packages:
     cloud7-openstack-newton-release: python-gnocchiclient-2.8.2-1.el7
     cloud7-openstack-ocata-testing: python-gnocchiclient-3.1.0-1.el7
     cloud7-openstack-ocata-release: python-gnocchiclient-3.1.0-1.el7
+    cloud7-openstack-pike-testing: python-gnocchiclient-3.3.1-1.el7
+    #cloud7-openstack-pike-release: python-gnocchiclient-3.3.1-1.el7
 - project: aodhclient
   tags:
     queens-uc:
@@ -2795,6 +2920,8 @@ packages:
     cloud7-openstack-newton-release: python-aodhclient-0.7.0-1.el7
     cloud7-openstack-ocata-testing: python-aodhclient-0.8.0-1.el7
     cloud7-openstack-ocata-release: python-aodhclient-0.8.0-1.el7
+    cloud7-openstack-pike-testing: python-aodhclient-0.9.0-1.el7
+    #cloud7-openstack-pike-release: python-aodhclient-0.9.0-1.el7
 - project: pankoclient
   tags:
     queens-uc:
@@ -2805,6 +2932,9 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - pkilambi@redhat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-pankoclient-0.3.0-1.el7
+    #cloud7-openstack-pike-release: python-pankoclient-0.3.0-1.el7
 - project: monascaclient
   tags:
     queens-uc:
@@ -2821,6 +2951,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-monascaclient-1.5.1-1.el7
     cloud7-openstack-ocata-release: python-monascaclient-1.5.1-1.el7
+    cloud7-openstack-pike-testing: python-monascaclient-1.7.0-1.el7
+    #cloud7-openstack-pike-release: python-monascaclient-1.7.0-1.el7
 - project: mox3
   tags:
     queens-uc:
@@ -2839,6 +2971,8 @@ packages:
     cloud7-openstack-newton-release: python-mox3-0.18.0-1.el7
     cloud7-openstack-ocata-testing: python-mox3-0.20.0-1.el7
     cloud7-openstack-ocata-release: python-mox3-0.20.0-1.el7
+    cloud7-openstack-pike-testing: python-mox3-0.23.0-1.el7
+    #cloud7-openstack-pike-release: python-mox3-0.23.0-1.el7
 - project: oslotest
   tags:
     queens-uc:
@@ -2857,6 +2991,8 @@ packages:
     cloud7-openstack-newton-release: python-oslotest-2.10.1-1.el7
     cloud7-openstack-ocata-testing: python-oslotest-2.13.1-1.el7
     cloud7-openstack-ocata-release: python-oslotest-2.13.1-1.el7
+    cloud7-openstack-pike-testing: python-oslotest-2.17.0-1.el7
+    #cloud7-openstack-pike-release: python-oslotest-2.17.0-1.el7
 - project: oslo-sphinx
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslosphinx
@@ -2867,6 +3003,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-sphinx-4.7.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-sphinx-4.10.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-sphinx-4.10.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-sphinx-4.15.1-1.el7
+    #cloud7-openstack-pike-release: python-oslo-sphinx-4.15.1-1.el7
 - project: oslo-i18n
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
@@ -2887,6 +3025,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-i18n-3.9.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-i18n-3.12.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-i18n-3.12.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-i18n-3.17.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-i18n-3.17.0-1.el7
 - project: oslo-messaging
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
@@ -2905,6 +3045,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-messaging-5.10.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-messaging-5.17.2-1.el7
+    cloud7-openstack-pike-testing: python-oslo-messaging-5.30.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-messaging-5.30.0-1.el7
 - project: oslo-cache
   tags:
     queens-uc:
@@ -2923,6 +3065,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-cache-1.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-cache-1.17.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-cache-1.17.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-cache-1.25.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-cache-1.25.0-1.el7
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
@@ -2941,6 +3085,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-config-3.17.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-config-3.22.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-config-3.22.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-config-4.11.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-config-4.11.0-1.el7
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
@@ -2959,6 +3105,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-concurrency-3.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-concurrency-3.18.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-concurrency-3.18.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-concurrency-3.21.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-concurrency-3.21.0-1.el7
 - project: oslo-rootwrap
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
@@ -2977,6 +3125,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-rootwrap-5.1.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-rootwrap-5.4.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-rootwrap-5.4.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-rootwrap-5.9.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-rootwrap-5.9.0-1.el7
 - project: oslo-serialization
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
@@ -2995,6 +3145,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-serialization-2.13.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-serialization-2.16.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-serialization-2.16.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-serialization-2.20.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-serialization-2.20.0-1.el7
 - project: oslo-middleware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
@@ -3013,6 +3165,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-middleware-3.19.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-middleware-3.23.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-middleware-3.23.2-1.el7
+    cloud7-openstack-pike-testing: python-oslo-middleware-3.30.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-middleware-3.30.0-1.el7
 - project: oslo-db
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
@@ -3031,6 +3185,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-db-4.13.6-1.el7
     cloud7-openstack-ocata-testing: python-oslo-db-4.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-db-4.17.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-db-4.25.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-db-4.25.0-1.el7
 - project: oslo-utils
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
@@ -3049,6 +3205,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-utils-3.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-utils-3.22.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-utils-3.22.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-utils-3.28.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-utils-3.28.0-1.el7
 - project: oslo-vmware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
@@ -3067,6 +3225,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-vmware-2.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-vmware-2.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-vmware-2.17.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-vmware-2.23.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-vmware-2.23.0-1.el7
 - project: oslo-context
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
@@ -3085,6 +3245,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-context-2.9.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-context-2.12.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-context-2.12.2-1.el7
+    cloud7-openstack-pike-testing: python-oslo-context-2.17.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-context-2.17.0-1.el7
 - project: oslo-log
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
@@ -3103,6 +3265,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-log-3.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-log-3.20.1-2.el7
     cloud7-openstack-ocata-release: python-oslo-log-3.20.1-2.el7
+    cloud7-openstack-pike-testing: python-oslo-log-3.30.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-log-3.30.0-1.el7
 - project: oslo-policy
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
@@ -3121,6 +3285,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-policy-1.14.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-policy-1.18.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-policy-1.18.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-policy-1.25.1-1.el7
+    #cloud7-openstack-pike-release: python-oslo-policy-1.25.1-1.el7
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
@@ -3139,6 +3305,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-versionedobjects-1.17.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-versionedobjects-1.21.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-versionedobjects-1.21.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-versionedobjects-1.26.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-versionedobjects-1.26.0-1.el7
 - project: oslo-service
   tags:
     queens-uc:
@@ -3157,6 +3325,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-service-1.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-service-1.19.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-service-1.19.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-service-1.25.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-service-1.25.0-1.el7
 - project: oslo-reports
   tags:
     queens-uc:
@@ -3175,6 +3345,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-reports-1.14.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-reports-1.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-reports-1.17.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-reports-1.22.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-reports-1.22.0-1.el7
 - project: oslo-privsep
   tags:
     queens-uc:
@@ -3193,6 +3365,8 @@ packages:
     cloud7-openstack-newton-release: python-oslo-privsep-1.13.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-privsep-1.16.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-privsep-1.16.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-privsep-1.22.0-1.el7
+    #cloud7-openstack-pike-release: python-oslo-privsep-1.22.0-1.el7
 - project: ovsdbapp
   conf: rpmfactory-lib
   tags:
@@ -3206,6 +3380,9 @@ packages:
   - ihrachys@redhat.com
   - jlibosva@redhat.com
   - rbryant@rehdat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-ovsdbapp-0.4.0-1.el7
+    #cloud7-openstack-pike-release: python-ovsdbapp-0.4.0-1.el7
 - project: stevedore
   conf: rpmfactory-lib
   tags:
@@ -3225,6 +3402,8 @@ packages:
     cloud7-openstack-newton-release: python-stevedore-1.17.1-1.el7
     cloud7-openstack-ocata-testing: python-stevedore-1.20.1-1.el7
     cloud7-openstack-ocata-release: python-stevedore-1.20.1-1.el7
+    cloud7-openstack-pike-testing: python-stevedore-1.25.0-1.el7
+    #cloud7-openstack-pike-release: python-stevedore-1.25.0-1.el7
 - project: castellan
   tags:
     queens-uc:
@@ -3242,6 +3421,8 @@ packages:
     cloud7-openstack-newton-release: python-castellan-0.4.0-1.el7
     cloud7-openstack-ocata-testing: python-castellan-0.5.0-1.el7
     cloud7-openstack-ocata-release: python-castellan-0.5.0-1.el7
+    cloud7-openstack-pike-testing: python-castellan-0.12.0-1.el7
+    #cloud7-openstack-pike-release: python-castellan-0.12.0-1.el7
 - project: taskflow
   conf: rpmfactory-lib
   tags:
@@ -3259,6 +3440,8 @@ packages:
     cloud7-openstack-newton-release: python-taskflow-2.6.1-1.el7
     cloud7-openstack-ocata-testing: python-taskflow-2.9.0-1.el7
     cloud7-openstack-ocata-release: python-taskflow-2.9.0-1.el7
+    cloud7-openstack-pike-testing: python-taskflow-2.14.0-1.el7
+    #cloud7-openstack-pike-release: python-taskflow-2.14.0-1.el7
 - project: pycadf
   conf: rpmfactory-lib
   tags:
@@ -3276,6 +3459,8 @@ packages:
     cloud7-openstack-newton-release: python-pycadf-2.4.0-1.el7
     cloud7-openstack-ocata-testing: python-pycadf-2.5.0-1.el7
     cloud7-openstack-ocata-release: python-pycadf-2.5.0-1.el7
+    cloud7-openstack-pike-testing: python-pycadf-2.6.0-1.el7
+    #cloud7-openstack-pike-release: python-pycadf-2.6.0-1.el7
 - project: debtcollector
   tags:
     queens-uc:
@@ -3293,6 +3478,8 @@ packages:
     cloud7-openstack-newton-release: python-debtcollector-1.8.0-1.el7
     cloud7-openstack-ocata-testing: python-debtcollector-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-debtcollector-1.11.0-1.el7
+    cloud7-openstack-pike-testing: python-debtcollector-1.17.0-1.el7
+    #cloud7-openstack-pike-release: python-debtcollector-1.17.0-1.el7
 - project: automaton
   tags:
     queens-uc:
@@ -3310,6 +3497,8 @@ packages:
     cloud7-openstack-newton-release: python-automaton-1.4.0-2.el7
     cloud7-openstack-ocata-testing: python-automaton-1.7.1-1.el7
     cloud7-openstack-ocata-release: python-automaton-1.7.1-1.el7
+    cloud7-openstack-pike-testing: python-automaton-1.12.0-1.el7
+    #cloud7-openstack-pike-release: python-automaton-1.12.0-1.el7
 - project: cliff
   tags:
     queens-uc:
@@ -3329,6 +3518,8 @@ packages:
     cloud7-openstack-newton-release: python-cliff-2.2.0-1.el7
     cloud7-openstack-ocata-testing: python-cliff-2.4.0-1.el7
     cloud7-openstack-ocata-release: python-cliff-2.4.0-1.el7
+    cloud7-openstack-pike-testing: python-cliff-2.8.0-1.el7
+    #cloud7-openstack-pike-release: python-cliff-2.8.0-1.el7
 - project: futurist
   tags:
     queens-uc:
@@ -3346,6 +3537,8 @@ packages:
     cloud7-openstack-newton-release: python-futurist-0.18.0-1.el7
     cloud7-openstack-ocata-testing: python-futurist-0.21.1-1.el7
     cloud7-openstack-ocata-release: python-futurist-0.21.1-1.el7
+    cloud7-openstack-pike-testing: python-futurist-1.3.0-1.el7
+    #cloud7-openstack-pike-release: python-futurist-1.3.0-1.el7
 - project: cursive
   tags:
     queens-uc:
@@ -3365,6 +3558,8 @@ packages:
     cloud7-openstack-newton-release: python-cursive-0.1.1-1.el7
     cloud7-openstack-ocata-testing: python-cursive-0.1.1-1.el7
     cloud7-openstack-ocata-release: python-cursive-0.1.1-1.el7
+    cloud7-openstack-pike-testing: python-cursive-0.1.2-1.el7
+    #cloud7-openstack-pike-release: python-cursive-0.1.2-1.el7
 - project: hacking
   tags:
     queens-uc:
@@ -3381,6 +3576,8 @@ packages:
     cloud7-openstack-common-release: python-hacking-0.10.2-2.el7
     cloud7-openstack-ocata-testing: python-hacking-0.13.0-1.el7
     cloud7-openstack-ocata-release: python-hacking-0.13.0-1.el7
+    cloud7-openstack-pike-testing: python-hacking-0.13.0-1.el7
+    #cloud7-openstack-pike-release: python-hacking-0.13.0-1.el7
 - project: wsme
   tags:
     queens-uc:
@@ -3394,6 +3591,8 @@ packages:
     cloud7-openstack-common-release: python-wsme-0.8.0-1.el7
     cloud7-openstack-newton-testing: python-wsme-0.8.0-1.el7
     cloud7-openstack-newton-release: python-wsme-0.8.0-1.el7
+    cloud7-openstack-pike-testing: python-wsme-0.9.2-1.el7
+    #cloud7-openstack-pike-release: python-wsme-0.9.2-1.el7
 # deps
 - project: packstack
   conf: rpmfactory-core
@@ -3408,6 +3607,8 @@ packages:
     cloud7-openstack-newton-release: openstack-packstack-9.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-packstack-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-packstack-10.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-packstack-11.0.0-0.2.0rc1.el7
+    #cloud7-openstack-pike-release: openstack-packstack-11.0.0-0.2.0rc1.el7
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
@@ -3463,6 +3664,8 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.0-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.3.0-1.el7
+    #cloud7-openstack-pike-release: openstack-tripleo-ui-7.3.0-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
@@ -3485,6 +3688,8 @@ packages:
     cloud7-openstack-newton-release: python-osprofiler-1.4.0-1.el7
     cloud7-openstack-ocata-testing: python-osprofiler-1.5.0-1.el7
     cloud7-openstack-ocata-release: python-osprofiler-1.5.0-1.el7
+    cloud7-openstack-pike-testing: python-osprofiler-1.11.0-1.el7
+    #cloud7-openstack-pike-release: python-osprofiler-1.11.0-1.el7
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
@@ -3497,6 +3702,8 @@ packages:
     cloud7-openstack-newton-release: python-networking-arista-2016.1.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-arista-2017.1.0-1.el7
     cloud7-openstack-ocata-release: python-networking-arista-2017.1.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-arista-2017.1.3-1.el7
+    #cloud7-openstack-pike-release: python-networking-arista-2017.1.3-1.el7
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
@@ -3517,6 +3724,8 @@ packages:
     cloud7-openstack-newton-release: python-networking-odl-3.1.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-odl-4.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-odl-4.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-odl-11.0.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-odl-11.0.0-1.el7
 - project: networking-sfc
   conf: rpmfactory-lib
   name: python-networking-sfc
@@ -3532,6 +3741,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-sfc-4.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-sfc-4.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-sfc-5.0.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-sfc-5.0.0-1.el7
 - project: networking-vsphere
   conf: rpmfactory-lib
   name: python-networking-vsphere
@@ -3567,6 +3778,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-vmware-nsxlib-0.7.0-1.el7
     cloud7-openstack-ocata-release: python-vmware-nsxlib-0.7.0-1.el7
+    cloud7-openstack-pike-testing: python-vmware-nsxlib-10.1.2-1.el7
+    #cloud7-openstack-pike-release: python-vmware-nsxlib-10.1.2-1.el7
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
@@ -3581,6 +3794,8 @@ packages:
     cloud7-openstack-newton-release: python-networking-bigswitch-9.40.5-1.el7
     cloud7-openstack-ocata-testing: python-networking-bigswitch-10.0.4-1.el7
     cloud7-openstack-ocata-release: python-networking-bigswitch-10.0.4-1.el7
+    cloud7-openstack-pike-testing: python-networking-bigswitch-11.0.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-bigswitch-11.0.0-1.el7
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
@@ -3599,6 +3814,8 @@ packages:
     cloud7-openstack-newton-release: python-networking-ovn-1.0.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-ovn-2.0.1-1.el7
     cloud7-openstack-ocata-release: python-networking-ovn-2.0.1-1.el7
+    cloud7-openstack-pike-testing: python-networking-ovn-3.0.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-ovn-3.0.0-1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
   tags:
@@ -3620,6 +3837,8 @@ packages:
     cloud7-openstack-newton-release: python-networking-cisco-4.0.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-cisco-5.1.0-1.el7
     cloud7-openstack-ocata-release: python-networking-cisco-5.1.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-cisco-5.2.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-cisco-5.2.0-1.el7
 - project: UcsSdk
   conf: rpmfactory-lib
   upstream: git://github.com/CiscoUcs/UcsPythonSDK
@@ -3676,6 +3895,8 @@ packages:
     cloud7-openstack-newton-release: python-os-brick-1.6.2-1.el7
     cloud7-openstack-ocata-testing: python-os-brick-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-os-brick-1.11.0-1.el7
+    cloud7-openstack-pike-testing: python-os-brick-1.15.2-1.el7
+    #cloud7-openstack-pike-release: python-os-brick-1.15.2-1.el7
 - project: hardware
   tags:
     queens-uc:
@@ -3695,6 +3916,8 @@ packages:
     cloud7-openstack-newton-release: python-hardware-0.18-1.el7
     cloud7-openstack-ocata-testing: python-hardware-0.18-1.el7
     cloud7-openstack-ocata-release: python-hardware-0.18-1.el7
+    cloud7-openstack-pike-testing: python-hardware-0.18-1.el7
+    #cloud7-openstack-pike-release: python-hardware-0.18-1.el7
 - project: keystoneauth1
   tags:
     queens-uc:
@@ -3713,6 +3936,8 @@ packages:
     cloud7-openstack-newton-release: python-keystoneauth1-2.12.2-1.el7
     cloud7-openstack-ocata-testing: python-keystoneauth1-2.18.0-1.el7
     cloud7-openstack-ocata-release: python-keystoneauth1-2.18.0-1.el7
+    cloud7-openstack-pike-testing: python-keystoneauth1-3.1.0-1.el7
+    #cloud7-openstack-pike-release: python-keystoneauth1-3.1.0-1.el7
 - project: rally
   tags:
     queens-uc:
@@ -3732,6 +3957,8 @@ packages:
     cloud7-openstack-newton-release: openstack-rally-0.9.1-1.el7
     cloud7-openstack-ocata-testing: openstack-rally-0.8.1-1.el7
     cloud7-openstack-ocata-release: openstack-rally-0.8.1-1.el7
+    cloud7-openstack-pike-testing: openstack-rally-0.9.1-1.el7
+    #cloud7-openstack-pike-release: openstack-rally-0.9.1-1.el7
 - project: tempest
   tags:
     queens-uc:
@@ -3785,6 +4012,8 @@ packages:
     cloud7-openstack-newton-release: python-os-testr-0.8.0-1.el7
     cloud7-openstack-ocata-testing: python-os-testr-0.8.0-1.el7
     cloud7-openstack-ocata-release: python-os-testr-0.8.0-1.el7
+    cloud7-openstack-pike-testing: python-os-testr-0.8.2-1.el7
+    #cloud7-openstack-pike-release: python-os-testr-0.8.2-1.el7
 - project: proliantutils
   tags:
     queens-uc:
@@ -3807,6 +4036,8 @@ packages:
     cloud7-openstack-newton-release: python-proliantutils-2.1.11-1.el7
     cloud7-openstack-ocata-testing: python-proliantutils-2.2.0-1.el7
     cloud7-openstack-ocata-release: python-proliantutils-2.2.0-1.el7
+    cloud7-openstack-pike-testing: python-proliantutils-2.4.0-1.el7
+    #cloud7-openstack-pike-release: python-proliantutils-2.4.0-1.el7
 - project: dracclient
   tags:
     queens-uc:
@@ -3823,6 +4054,8 @@ packages:
     cloud7-openstack-newton-release: python-dracclient-1.0.0-1.el7
     cloud7-openstack-ocata-testing: python-dracclient-1.1.1-1.el7
     cloud7-openstack-ocata-release: python-dracclient-1.1.1-1.el7
+    cloud7-openstack-pike-testing: python-dracclient-1.3.0-1.el7
+    #cloud7-openstack-pike-release: python-dracclient-1.3.0-1.el7
 - project: mistralclient
   tags:
     queens-uc:
@@ -3842,6 +4075,8 @@ packages:
     cloud7-openstack-newton-release: python-mistralclient-2.1.2-1.el7
     cloud7-openstack-ocata-testing: python-mistralclient-3.0.2-1.el7
     cloud7-openstack-ocata-release: python-mistralclient-3.0.2-1.el7
+    cloud7-openstack-pike-testing: python-mistralclient-3.1.2-1.el7
+    #cloud7-openstack-pike-release: python-mistralclient-3.1.2-1.el7
 - project: mistral
   tags:
     queens-uc:
@@ -3857,6 +4092,8 @@ packages:
     cloud7-openstack-newton-release: openstack-mistral-3.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-mistral-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-4.0.2-1.el7
+    cloud7-openstack-pike-testing: openstack-mistral-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-mistral-5.0.0-1.el7
 - project: mistral-lib
   tags:
     queens-uc:
@@ -3867,6 +4104,9 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - dougal@redhat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-mistral-lib-0.2.0-1.el7
+    #cloud7-openstack-pike-release: python-mistral-lib-0.2.0-1.el7
 - project: requestsexceptions
   tags:
     queens-uc:
@@ -3885,6 +4125,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-requestsexceptions-1.1.3-1.el7
     cloud7-openstack-common-release: python-requestsexceptions-1.1.3-1.el7
+    cloud7-openstack-pike-testing: python-requestsexceptions-1.3.0-1.el7
+    #cloud7-openstack-pike-release: python-requestsexceptions-1.3.0-1.el7
 - project: app-catalog-ui
   tags:
     queens-uc:
@@ -3916,6 +4158,8 @@ packages:
     cloud7-openstack-newton-release: openstack-mistral-ui-3.0.1-1.el7
     cloud7-openstack-ocata-testing: openstack-mistral-ui-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-ui-4.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-mistral-ui-5.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-mistral-ui-5.0.0-1.el7
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
@@ -3933,6 +4177,8 @@ packages:
     cloud7-openstack-newton-release: openstack-magnum-ui-2.1.1-1.el7
     cloud7-openstack-ocata-testing: openstack-magnum-ui-2.2.0-1.el7
     cloud7-openstack-ocata-release: openstack-magnum-ui-2.2.0-1.el7
+    cloud7-openstack-pike-testing: openstack-magnum-ui-3.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-magnum-ui-3.0.0-1.el7
 - project: tooz
   tags:
     queens-uc:
@@ -3953,6 +4199,8 @@ packages:
     cloud7-openstack-newton-release: python-tooz-1.43.1-1.el7
     cloud7-openstack-ocata-testing: python-tooz-1.48.2-1.el7
     cloud7-openstack-ocata-release: python-tooz-1.48.2-1.el7
+    cloud7-openstack-pike-testing: python-tooz-1.58.0-1.el7
+    #cloud7-openstack-pike-release: python-tooz-1.58.0-1.el7
 - project: magnumclient
   tags:
     queens-uc:
@@ -3974,6 +4222,8 @@ packages:
     cloud7-openstack-newton-release: python-magnumclient-2.3.1-1.el7
     cloud7-openstack-ocata-testing: python-magnumclient-2.5.0-1.el7
     cloud7-openstack-ocata-release: python-magnumclient-2.5.0-1.el7
+    cloud7-openstack-pike-testing: python-magnumclient-2.7.0-1.el7
+    #cloud7-openstack-pike-release: python-magnumclient-2.7.0-1.el7
 - project: congressclient
   tags:
     queens-uc:
@@ -3994,6 +4244,8 @@ packages:
     cloud7-openstack-newton-release: python-congressclient-1.5.0-1.el7
     cloud7-openstack-ocata-testing: python-congressclient-1.6.0-1.el7
     cloud7-openstack-ocata-release: python-congressclient-1.6.0-1.el7
+    cloud7-openstack-pike-testing: python-congressclient-1.8.0-1.el7
+    #cloud7-openstack-pike-release: python-congressclient-1.8.0-1.el7
 - project: muranoclient
   tags:
     queens-uc:
@@ -4014,6 +4266,8 @@ packages:
     cloud7-openstack-newton-release: python-muranoclient-0.11.1-1.el7
     cloud7-openstack-ocata-testing: python-muranoclient-0.12.0-1.el7
     cloud7-openstack-ocata-release: python-muranoclient-0.12.0-1.el7
+    cloud7-openstack-pike-testing: python-muranoclient-0.14.0-1.el7
+    #cloud7-openstack-pike-release: python-muranoclient-0.14.0-1.el7
 - project: murano
   tags:
     queens-uc:
@@ -4030,6 +4284,8 @@ packages:
     cloud7-openstack-newton-release: openstack-murano-3.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-murano-3.2.0-1.el7
     cloud7-openstack-ocata-release: openstack-murano-3.2.0-1.el7
+    cloud7-openstack-pike-testing: openstack-murano-4.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-murano-4.0.0-1.el7
 - project: murano-agent
   tags:
     queens-uc:
@@ -4062,6 +4318,8 @@ packages:
     cloud7-openstack-newton-release: openstack-murano-ui-3.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-murano-ui-3.2.0-1.el7
     cloud7-openstack-ocata-release: openstack-murano-ui-3.2.0-1.el7
+    cloud7-openstack-pike-testing: openstack-murano-ui-4.0.0-1.el7
+    #cloud7-openstack-pike-release: openstack-murano-ui-4.0.0-1.el7
 - project: reno
   tags:
     queens-uc:
@@ -4082,6 +4340,8 @@ packages:
     cloud7-openstack-common-release: python-reno-1.8.0-1.el7
     cloud7-openstack-ocata-testing: python-reno-2.2.1-1.el7
     cloud7-openstack-ocata-release: python-reno-2.2.1-1.el7
+    cloud7-openstack-pike-testing: python-reno-2.5.0-1.el7
+    #cloud7-openstack-pike-release: python-reno-2.5.0-1.el7
 - project: k8sclient
   tags:
     newton:
@@ -4109,6 +4369,8 @@ packages:
     cloud7-openstack-newton-release: python-microversion-parse-0.1.4-1.el7
     cloud7-openstack-ocata-testing: python-microversion-parse-0.1.4-1.el7
     cloud7-openstack-ocata-release: python-microversion-parse-0.1.4-1.el7
+    cloud7-openstack-pike-testing: python-microversion-parse-0.1.4-1.el7
+    #cloud7-openstack-pike-release: python-microversion-parse-0.1.4-1.el7
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
@@ -4128,6 +4390,8 @@ packages:
     cloud7-openstack-newton-release: python-osc-lib-1.1.0-3.el7
     cloud7-openstack-ocata-testing: python-osc-lib-1.3.0-1.el7
     cloud7-openstack-ocata-release: python-osc-lib-1.3.0-1.el7
+    cloud7-openstack-pike-testing: python-osc-lib-1.7.0-1.el7
+    #cloud7-openstack-pike-release: python-osc-lib-1.7.0-1.el7
 - project: tempest-horizon
   conf: rpmfactory-tempest-plugin
   name: python-horizon-tests-tempest
@@ -4161,6 +4425,8 @@ packages:
     cloud7-openstack-newton-release: python-os-vif-1.2.1-1.el7
     cloud7-openstack-ocata-testing: python-os-vif-1.4.1-1.el7
     cloud7-openstack-ocata-release: python-os-vif-1.4.1-1.el7
+    cloud7-openstack-pike-testing: python-os-vif-1.7.0-1.el7
+    #cloud7-openstack-pike-release: python-os-vif-1.7.0-1.el7
 - project: sahara-tests
   conf: rpmfactory-lib
   name: openstack-sahara-tests
@@ -4198,6 +4464,8 @@ packages:
     cloud7-openstack-newton-release: python-os-faults-0.1.10-1.el7
     cloud7-openstack-ocata-testing: python-os-faults-0.1.11-1.el7
     cloud7-openstack-ocata-release: python-os-faults-0.1.11-1.el7
+    cloud7-openstack-pike-testing: python-os-faults-0.1.14-1.el7
+    #cloud7-openstack-pike-release: python-os-faults-0.1.14-1.el7
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
@@ -4212,6 +4480,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-bagpipe-6.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-bagpipe-6.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-bagpipe-7.0.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-bagpipe-7.0.0-1.el7
 - project: virtualbmc
   name: python-virtualbmc
   tags:
@@ -4228,6 +4498,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-virtualbmc-1.0.0-1.el7
     cloud7-openstack-ocata-release: python-virtualbmc-1.0.0-1.el7
+    cloud7-openstack-pike-testing: python-virtualbmc-1.2.0-1.el7
+    #cloud7-openstack-pike-release: python-virtualbmc-1.2.0-1.el7
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
@@ -4240,6 +4512,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-bgpvpn-6.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-bgpvpn-6.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-bgpvpn-7.0.0-1.el7
+    #cloud7-openstack-pike-release: python-networking-bgpvpn-7.0.0-1.el7
 - project: novajoin
   name: python-novajoin
   tags:
@@ -4255,6 +4529,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-novajoin-1.0.11-1.el7
     cloud7-openstack-ocata-release: python-novajoin-1.0.11-1.el7
+    cloud7-openstack-pike-testing: python-novajoin-1.0.15-1.el7
+    #cloud7-openstack-pike-release: python-novajoin-1.0.15-1.el7
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
@@ -4269,6 +4545,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-fujitsu-4.0.1-1.el7
     cloud7-openstack-ocata-release: python-networking-fujitsu-4.0.1-1.el7
+    cloud7-openstack-pike-testing: python-networking-fujitsu-4.1.2-1.el7
+    #cloud7-openstack-pike-release: python-networking-fujitsu-4.1.2-1.el7
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
@@ -4294,6 +4572,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-l2gw-10.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-l2gw-10.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-l2gw-10.0.1-0.1.16cf7d6git.el7
+    #cloud7-openstack-pike-release: python-networking-l2gw-10.0.1-0.1.16cf7d6git.el7
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
@@ -4310,6 +4590,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-heat-translator-0.7.0-1.el7
     cloud7-openstack-ocata-release: python-heat-translator-0.7.0-1.el7
+    cloud7-openstack-pike-testing: python-heat-translator-0.9.0-1.el7
+    #cloud7-openstack-pike-release: python-heat-translator-0.9.0-1.el7
 - project: tacker
   conf: rpmfactory-core
   tags:
@@ -4337,6 +4619,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-tackerclient-0.9.0-1.el7
     cloud7-openstack-ocata-release: python-tackerclient-0.9.0-1.el7
+    cloud7-openstack-pike-testing: python-tackerclient-0.10.0-1.el7
+    #cloud7-openstack-pike-release: python-tackerclient-0.10.0-1.el7
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
@@ -4391,6 +4675,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-tempestconf-1.1.2-1.el7
     cloud7-openstack-ocata-release: python-tempestconf-1.1.2-1.el7
+    cloud7-openstack-pike-testing: python-tempestconf-1.1.2-1.el7
+    #cloud7-openstack-pike-release: python-tempestconf-1.1.2-1.el7
 - project: puppet-auditd
   conf: rpmfactory-puppet
   upstream: https://github.com/kemra102/puppet-auditd
@@ -4445,6 +4731,9 @@ packages:
   maintainers:
   - lucasagomes@gmail.com
   - divius.inside@gmail.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-sushy-1.0.0-1.el7
+    #cloud7-openstack-pike-release: python-sushy-1.0.0-1.el7
 - project: collectd-ceilometer-plugin
   name: collectd-ceilometer-plugin
   conf: rpmfactory-lib
@@ -4507,6 +4796,9 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - sbaker@redhat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-paunch-1.5.0-1.el7
+    #cloud7-openstack-pike-release: python-paunch-1.5.0-1.el7
 - project: scciclient
   tags:
     queens-uc:
@@ -4517,6 +4809,9 @@ packages:
   maintainers:
   - okado.hiroaki@jp.fujitsu.com
   - sanagi.koki@jp.fujitsu.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-scciclient-0.5.0-1.el7
+    #cloud7-openstack-pike-release: python-scciclient-0.5.0-1.el7
 - project: os-traits
   conf: rpmfactory-lib
   tags:
@@ -4528,6 +4823,9 @@ packages:
   maintainers:
   - ratailor@redhat.com
   - ykarel@redhat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-os-traits-0.3.3-1.el7
+    #cloud7-openstack-pike-release: python-os-traits-0.3.3-1.el7
 - project: patrole
   name: python-patrole
   conf: rpmfactory-tempest-plugin
@@ -4612,6 +4910,9 @@ packages:
       source-branch: 1.4.0
   maintainers:
   - snecklifter@gmail.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-senlinclient-1.4.0-1.el7
+    #cloud7-openstack-pike-release: python-senlinclient-1.4.0-1.el7
 - project: barbican-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-barbican-tests-tempest
