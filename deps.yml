@@ -57,26 +57,31 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python2-typing-3.6.1-1.el7
+    cloud7-openstack-common-release: python2-typing-3.6.1-1.el7
 - project: python-imagesize
   name: python-imagesize
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-imagesize-0.7.1-5.el7
+    cloud7-openstack-common-release: python-imagesize-0.7.1-5.el7
 - project: python-snowballstemmer
   name: python-snowballstemmer
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-snowballstemmer-1.2.0-2.el7
+    cloud7-openstack-common-release: python-snowballstemmer-1.2.0-2.el7
 - project: python-sphinx-theme-alabaster
   name: python-sphinx-theme-alabaster
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-theme-alabaster-0.7.9-4.el7
+    cloud7-openstack-common-release: python-sphinx-theme-alabaster-0.7.9-4.el7
 - project: python-whoosh
   name: python-whoosh
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-whoosh-2.5.7-4.el7
+    cloud7-openstack-common-release: python-whoosh-2.5.7-4.el7
 - project: python-PyMySQL
   name: python-PyMySQL
   conf: unmanaged-dependency
@@ -283,7 +288,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx-testing-0.7.2-1.el7
-    cloud7-openstack-common-release: python-sphinx-testing-0.7.1-2.el7
+    cloud7-openstack-common-release: python-sphinx-testing-0.7.2-1.el7
 - project: PyQt4
   name: PyQt4
   conf: unmanaged-dependency
@@ -372,7 +377,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: memcached-1.4.39-1.el7
-    cloud7-openstack-common-release: memcached-1.4.33-2.el7
+    cloud7-openstack-common-release: memcached-1.4.39-1.el7
 - project: python-cachez
   name: python-cachez
   conf: unmanaged-dependency
@@ -793,6 +798,7 @@ packages:
     cloud7-openstack-common-testing: python-pyroute2-0.4.8-1.el7
     cloud7-openstack-common-release: python-pyroute2-0.4.8-1.el7
     cloud7-openstack-pike-testing: python-pyroute2-0.4.19-1.el7
+    cloud7-openstack-pike-release: python-pyroute2-0.4.19-1.el7
 - project: wxGTK
   name: wxGTK
   conf: unmanaged-dependency
@@ -840,7 +846,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-crypto-2.6.1-15.el7
-    cloud7-openstack-common-release: python-crypto-2.6.1-1.el7
+    cloud7-openstack-common-release: python-crypto-2.6.1-15.el7
 - project: python-matplotlib
   name: python-matplotlib
   conf: unmanaged-dependency
@@ -947,7 +953,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-beautifulsoup4-4.6.0-1.el7
-    cloud7-openstack-common-release: python-beautifulsoup4-4.4.1-3.el7
+    cloud7-openstack-common-release: python-beautifulsoup4-4.6.0-1.el7
 - project: scipy
   name: scipy
   conf: unmanaged-dependency
@@ -1055,7 +1061,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sysv_ipc-0.7.0-4.el7
-    cloud7-openstack-common-release: python-sysv_ipc-0.4.2-11.el7
+    cloud7-openstack-common-release: python-sysv_ipc-0.7.0-4.el7
 - project: python-XStatic-objectpath
   name: python-XStatic-objectpath
   conf: unmanaged-dependency
@@ -1300,12 +1306,13 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-tables-3.3.0-4.el7
-    cloud7-openstack-common-release: python-tables-3.1.1-2.el7
+    cloud7-openstack-common-release: python-tables-3.3.0-4.el7
 - project: blosc
   name: blosc
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: blosc-1.11.1-3.el7
+    cloud7-openstack-common-release: blosc-1.11.1-3.el7
 - project: libunwind
   name: libunwind
   conf: unmanaged-dependency
@@ -1548,6 +1555,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-process-tests-1.0.0-7.el7
+    cloud7-openstack-common-release: python-process-tests-1.0.0-7.el7
 - project: perl-Net-SNMP
   name: perl-Net-SNMP
   conf: unmanaged-dependency
@@ -1579,6 +1587,7 @@ packages:
     cloud7-openstack-common-testing: python-memcached-1.54-3.el7
     cloud7-openstack-common-release: python-memcached-1.54-3.el7
     cloud7-openstack-pike-testing: python-memcached-1.58-1.el7
+    cloud7-openstack-pike-release: python-memcached-1.58-1.el7
 - project: python-pep8
   name: python-pep8
   conf: unmanaged-dependency
@@ -1614,7 +1623,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: pyparsing-2.1.10-3.el7
-    cloud7-openstack-common-release: pyparsing-2.0.7-1.el7
+    cloud7-openstack-common-release: pyparsing-2.1.10-3.el7
 - project: python-pykwalify
   name: python-pykwalify
   conf: unmanaged-dependency
@@ -1626,6 +1635,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-scrypt-0.8.0-2.el7
+    cloud7-openstack-common-release: python-scrypt-0.8.0-2.el7
 - project: librx
   name: librx
   conf: unmanaged-dependency
@@ -1673,7 +1683,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinx_rtd_theme-0.2.4-1.el7
-    cloud7-openstack-common-release: python-sphinx_rtd_theme-0.1.8-2.el7
+    cloud7-openstack-common-release: python-sphinx_rtd_theme-0.2.4-1.el7
 - project: python-tablib
   name: python-tablib
   conf: unmanaged-dependency
@@ -1745,6 +1755,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-gunicorn-19.7.1-1.el7
+    cloud7-openstack-common-release: python-gunicorn-19.7.1-1.el7
 - project: python-influxdb
   name: python-influxdb
   conf: unmanaged-dependency
@@ -1810,12 +1821,13 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-coverage-4.4.1-1.el7
+    cloud7-openstack-common-release: python-coverage-4.4.1-1.el7
 - project: python-pygments
   name: python-pygments
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-pygments-2.2.0-7.el7
-    cloud7-openstack-common-release: python-pygments-2.0.2-4.el7
+    cloud7-openstack-common-release: python-pygments-2.2.0-7.el7
 - project: python-scales
   name: python-scales
   conf: unmanaged-dependency
@@ -2003,7 +2015,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-fastcache-1.0.2-9.el7
-    cloud7-openstack-common-release: python-fastcache-1.0.2-3.el7
+    cloud7-openstack-common-release: python-fastcache-1.0.2-9.el7
 - project: python-flake8
   name: python-flake8
   conf: unmanaged-dependency
@@ -2015,7 +2027,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-pytest-cov-2.5.1-1.el7
-    cloud7-openstack-common-release: python-pytest-cov-1.6-3.el7
+    cloud7-openstack-common-release: python-pytest-cov-2.5.1-1.el7
 - project: sysbench
   name: sysbench
   conf: unmanaged-dependency
@@ -2078,7 +2090,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: ansible-2.3.0.0-3.el7
-    cloud7-openstack-common-release: ansible-2.2.1.0-1.el7
+    cloud7-openstack-common-release: ansible-2.3.0.0-3.el7
 - project: python-ipaddress
   name: python-ipaddress
   conf: unmanaged-dependency
@@ -2090,7 +2102,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: crudini-0.9-2.el7
-    cloud7-openstack-common-release: crudini-0.7-1.el7
+    cloud7-openstack-common-release: crudini-0.9-2.el7
 - project: erlang-mustache
   name: erlang-mustache
   conf: unmanaged-dependency
@@ -2120,7 +2132,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: pytest-3.0.6-2.el7
-    cloud7-openstack-common-release: pytest-2.9.2-1.el7
+    cloud7-openstack-common-release: pytest-3.0.6-2.el7
 - project: python-gflags
   name: python-gflags
   conf: unmanaged-dependency
@@ -2283,6 +2295,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-bcrypt-3.1.2-3.el7
+    cloud7-openstack-common-release: python-bcrypt-3.1.2-3.el7
 - project: python-httplib2
   name: python-httplib2
   conf: unmanaged-dependency
@@ -2647,6 +2660,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
+    cloud7-openstack-common-release: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
 - project: Cython
   name: Cython
   conf: unmanaged-dependency
@@ -2688,7 +2702,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: openstack-macros-2018.1.0-0
-    cloud7-openstack-common-release: openstack-macros-2017.1.6-0
+    cloud7-openstack-common-release: openstack-macros-2018.1.0-0
 - project: python-pbr
   name: python-pbr
   conf: unmanaged-dependency
@@ -2705,7 +2719,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-six-1.10.0-9.el7
-    cloud7-openstack-common-release: python-six-1.10.0-3.el7
+    cloud7-openstack-common-release: python-six-1.10.0-9.el7
 - project: python-botocore
   name: python-botocore
   conf: unmanaged-dependency
@@ -2946,53 +2960,64 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-exabgp-4.0.1-3.el7
+    cloud7-openstack-common-release: python-exabgp-4.0.1-3.el7
 - project: libtommath
   name: libtommath
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: libtommath-1.0-8.el7
+    cloud7-openstack-common-release: libtommath-1.0-8.el7
 - project: libtomcrypt
   name: libtomcrypt
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: libtomcrypt-1.17-33.20170623gitcd6e602.el7
+    cloud7-openstack-common-release: libtomcrypt-1.17-33.20170623gitcd6e602.el7
 - project: python-abclient
   name: python-abclient
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-abclient-0.2.3-2.el7
+    cloud7-openstack-common-release: python-abclient-0.2.3-2.el7
 - project: python-icalendar
   name: python-icalendar
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-icalendar-3.11.5-1.el7
+    cloud7-openstack-common-release: python-icalendar-3.11.5-1.el7
 - project: python-netmiko
   name: python-netmiko
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
 - project: python-scp
   name: python-scp
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-scp-0.10.2-6.el7
+    cloud7-openstack-common-release: python-scp-0.10.2-6.el7
 - project: python-daiquiri
   name: python-daiquiri
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-daiquiri-1.2.1-1.el7
+    cloud7-openstack-common-release: python-daiquiri-1.2.1-1.el7
 - project: python-json-logger
   name: python-json-logger
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-json-logger-0.1.7-1.el7
+    cloud7-openstack-common-release: python-json-logger-0.1.7-1.el7
 - project: python-jinja2
   name: python-jinja2
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-jinja2-2.8.1-1.el7
+    cloud7-openstack-common-release: python-jinja2-2.8.1-1.el7
 - project: python-markupsafe
   name: python-markupsafe
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-markupsafe-0.23-16.el7
+    cloud7-openstack-common-release: python-markupsafe-0.23-16.el7
