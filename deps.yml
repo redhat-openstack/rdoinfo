@@ -874,7 +874,7 @@ packages:
   name: python-matplotlib
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: python-matplotlib-2.0.0-1.el7
+    cloud7-openstack-common-testing: python-matplotlib-2.0.0-3.el7
     cloud7-openstack-common-release: python-matplotlib-2.0.0-1.el7
 - project: coin-or-CoinUtils
   name: coin-or-CoinUtils
@@ -3081,3 +3081,39 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-markupsafe-0.23-16.el7
     cloud7-openstack-common-release: python-markupsafe-0.23-16.el7
+- project: python-tabulate
+  name: python-tabulate
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-tabulate-0.7.5-7.el7
+- project: python-sphinxcontrib-actdiag
+  name: python-sphinxcontrib-actdiag
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-sphinxcontrib-actdiag-0.8.5-1.el7
+- project: python-actdiag
+  name: python-actdiag
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-actdiag-0.5.4-6.el7
+- project: python-sphinxcontrib-blockdiag
+  name: python-sphinxcontrib-blockdiag
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-sphinxcontrib-blockdiag-1.5.5-1.el7
+- project: python-blockdiag
+  name: python-blockdiag
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-blockdiag-1.5.3-9.el7
+- project: python-funcparserlib
+  name: python-funcparserlib
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-funcparserlib-0.3.6-13.el7
+- project: python-webcolors
+  name: python-webcolors
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-webcolors-1.7-4.el7
+
