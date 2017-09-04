@@ -745,7 +745,7 @@ packages:
     cloud7-openstack-pike-release: puppet-ntp-4.2.0-2.el7
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-rabbitmq
+  upstream: git://github.com/voxpupuli/puppet-rabbitmq
   tags:
     queens-uc:
       source-branch: 5ac45dedd9b409c9efac654724bc74867cb9233b
