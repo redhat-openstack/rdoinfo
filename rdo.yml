@@ -5037,7 +5037,9 @@ packages:
   name: osops-tools-monitoring-oschecks
   upstream: https://github.com/openstack/osops-tools-monitoring
   tags:
-    under-review:
+    queens-uc:
+    queens:
+    pike:
   conf: rpmfactory-lib
   maintainers:
   - mmagr@redhat.com
