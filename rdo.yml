@@ -1785,7 +1785,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-9.4.0-2.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.2-2.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.2-2.el7
-    cloud7-openstack-pike-testing: openstack-neutron-11.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-11.0.0-2.el7
     cloud7-openstack-pike-release: openstack-neutron-11.0.0-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -1841,7 +1841,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.1-1.el7
-    cloud7-openstack-pike-testing: openstack-neutron-lbaas-11.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-lbaas-11.0.1-1.el7
     cloud7-openstack-pike-release: openstack-neutron-lbaas-11.0.0-1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
@@ -1905,7 +1905,7 @@ packages:
     cloud7-openstack-newton-release: openstack-octavia-0.9.1-1.el7
     cloud7-openstack-ocata-testing: openstack-octavia-0.10.0-1.el7
     cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
-    cloud7-openstack-pike-testing: openstack-octavia-1.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-octavia-1.0.1-1.el7
     cloud7-openstack-pike-release: openstack-octavia-1.0.0-1.el7
 - project: watcher
   conf: rpmfactory-core
@@ -1982,7 +1982,7 @@ packages:
     cloud7-openstack-newton-release: python-django-horizon-10.0.5-1.el7
     cloud7-openstack-ocata-testing: python-django-horizon-11.0.3-1.el7
     cloud7-openstack-ocata-release: python-django-horizon-11.0.3-1.el7
-    cloud7-openstack-pike-testing: python-django-horizon-12.0.0-1.el7
+    cloud7-openstack-pike-testing: python-django-horizon-12.0.0-2.el7
     cloud7-openstack-pike-release: python-django-horizon-12.0.0-1.el7
 - project: trove
   conf: rpmfactory-core
@@ -2577,7 +2577,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-lbaas-ui-1.0.0-2.el7
     cloud7-openstack-ocata-testing: openstack-neutron-lbaas-ui-2.0.0-2.el7
     cloud7-openstack-ocata-release: openstack-neutron-lbaas-ui-2.0.0-2.el7
-    cloud7-openstack-pike-testing: openstack-neutron-lbaas-ui-3.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-lbaas-ui-3.0.1-1.el7
     cloud7-openstack-pike-release: openstack-neutron-lbaas-ui-3.0.0-1.el7
 - project: sahara-image-elements
   tags:
@@ -4210,7 +4210,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tempest-13.0.0-12.ab030abgit.el7
     cloud7-openstack-ocata-testing: openstack-tempest-16.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-tempest-16.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tempest-16.1.0-2.e70e0fegit.el7
+    cloud7-openstack-pike-testing: openstack-tempest-17.0.0-1.el7
     cloud7-openstack-pike-release: openstack-tempest-16.1.0-2.e70e0fegit.el7
 - project: tempest-lib
   # retired in ocata release
@@ -4685,7 +4685,7 @@ packages:
     cloud7-openstack-newton-release: openstack-sahara-tests-0.4.0-1.el7
     cloud7-openstack-ocata-testing: openstack-sahara-tests-0.4.1-1.el7
     cloud7-openstack-ocata-release: openstack-sahara-tests-0.4.1-1.el7
-    cloud7-openstack-pike-testing: openstack-sahara-tests-0.4.1-1.el7
+    cloud7-openstack-pike-testing: openstack-sahara-tests-0.5.0-2.el7
     cloud7-openstack-pike-release: openstack-sahara-tests-0.4.1-1.el7
 - project: os-faults
   conf: rpmfactory-lib
@@ -4923,7 +4923,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-tempestconf-1.1.2-1.el7
     cloud7-openstack-ocata-release: python-tempestconf-1.1.2-1.el7
-    cloud7-openstack-pike-testing: python-tempestconf-1.1.2-1.el7
+    cloud7-openstack-pike-testing: python-tempestconf-1.1.3-1.el7
     cloud7-openstack-pike-release: python-tempestconf-1.1.2-1.el7
 - project: puppet-auditd
   conf: rpmfactory-puppet
