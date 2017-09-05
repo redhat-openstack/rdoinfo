@@ -5223,3 +5223,13 @@ packages:
   tags:
     queens-uc:
     queens:
+- project: novajoin-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-novajoin-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - alee@redhat.com
+  - panbalag@redhat.com
