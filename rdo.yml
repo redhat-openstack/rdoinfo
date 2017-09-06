@@ -486,6 +486,15 @@ packages:
     cloud7-openstack-ocata-release: puppet-ceph-2.3.0-1.el7
     cloud7-openstack-pike-testing: puppet-ceph-2.4.0-1.el7
     cloud7-openstack-pike-release: puppet-ceph-2.4.0-1.el7
+  tags:
+    queens-uc:
+    queens:
+    pike:
+      source-branch: stable/jewel
+    ocata:
+      source-branch: stable/jewel
+    newton:
+      source-branch: stable/jewel
 - project: puppet-n1k-vsm
   conf: rpmfactory-puppet
   buildsys-tags:
