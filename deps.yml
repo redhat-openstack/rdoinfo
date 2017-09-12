@@ -238,7 +238,7 @@ packages:
   name: python-qpid
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: python-qpid-0.30-1.el7
+    cloud7-openstack-common-testing: python-qpid-1.36.0-1.el7
     cloud7-openstack-common-release: python-qpid-0.30-1.el7
 - project: python-packaging
   name: python-packaging
@@ -2291,7 +2291,7 @@ packages:
   name: qpid-proton
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: qpid-proton-0.14.0-2.el7
+    cloud7-openstack-common-testing: qpid-proton-0.17.0-4.el7
     cloud7-openstack-common-release: qpid-proton-0.14.0-2.el7
 - project: python-sphinxcontrib-pecanwsme
   name: python-sphinxcontrib-pecanwsme
@@ -2499,7 +2499,7 @@ packages:
   name: qpid-cpp
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: qpid-cpp-1.35.0-2.el7
+    cloud7-openstack-common-testing: qpid-cpp-1.36.0-1.el7.1
     cloud7-openstack-common-release: qpid-cpp-1.35.0-2.el7
 - project: python-cov-core
   name: python-cov-core
@@ -2685,7 +2685,7 @@ packages:
   name: qpid-dispatch
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: qpid-dispatch-0.6.1-4.el7
+    cloud7-openstack-common-testing: qpid-dispatch-0.8.0-1.el7
     cloud7-openstack-common-release: qpid-dispatch-0.6.1-4.el7
 - project: python-XStatic-Angular-Schema-Form
   name: python-XStatic-Angular-Schema-Form
