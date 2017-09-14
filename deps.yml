@@ -2749,12 +2749,6 @@ packages:
     cloud7-openstack-common-release: erlang-sd_notify-0.1-9.el7
   maintainers:
   - lemenkov@gmail.com
-- project: openstack-macros
-  name: openstack-macros
-  conf: unmanaged-dependency
-  buildsys-tags:
-    cloud7-openstack-common-testing: openstack-macros-2018.1.0-0
-    cloud7-openstack-common-release: openstack-macros-2018.1.0-0
 - project: python-pbr
   name: python-pbr
   conf: unmanaged-dependency
