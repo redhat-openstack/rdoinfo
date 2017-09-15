@@ -2087,7 +2087,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.0-0.2.0rc2.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.0-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.0-0.1.0rc1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2127,7 +2127,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-image-elements-5.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-image-elements-6.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.0-0.2.0rc2.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.0-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.0-0.1.0rc1.el7
 - project: tripleo-validations
   tags:
@@ -2567,7 +2567,7 @@ packages:
     cloud7-openstack-newton-release: openstack-manila-ui-2.5.1-1.el7
     cloud7-openstack-ocata-testing: openstack-manila-ui-2.7.1-1.el7
     cloud7-openstack-ocata-release: openstack-manila-ui-2.7.1-1.el7
-    cloud7-openstack-pike-testing: openstack-manila-ui-2.10.1-1.el7
+    cloud7-openstack-pike-testing: openstack-manila-ui-2.10.2-1.el7
     cloud7-openstack-pike-release: openstack-manila-ui-2.10.1-1.el7
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
@@ -2917,7 +2917,7 @@ packages:
     cloud7-openstack-newton-release: python-manilaclient-1.11.0-1.el7
     cloud7-openstack-ocata-testing: python-manilaclient-1.14.0-1.el7
     cloud7-openstack-ocata-release: python-manilaclient-1.14.0-1.el7
-    cloud7-openstack-pike-testing: python-manilaclient-1.17.1-1.el7
+    cloud7-openstack-pike-testing: python-manilaclient-1.17.2-1.el7
     cloud7-openstack-pike-release: python-manilaclient-1.17.1-1.el7
 - project: barbicanclient
   tags:
@@ -4108,7 +4108,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.0-0.2.0rc2.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.0-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.0-0.1.0rc1.el7
 - project: os-brick
   tags:
