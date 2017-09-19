@@ -1675,7 +1675,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ceilometer-7.1.0-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.0-1.el7
-    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.1-1.el7
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.0-1.el7
 - project: gnocchi
   conf: rpmfactory-core
@@ -2373,7 +2373,7 @@ packages:
     cloud7-openstack-newton-release: openstack-manila-3.0.0-1.el7
     cloud7-openstack-ocata-testing: openstack-manila-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-manila-4.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-manila-5.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-manila-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-manila-5.0.0-1.el7
 - project: zaqar
   tags:
@@ -4966,7 +4966,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-kolla-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-kolla-4.0.2-1.el7
-    cloud7-openstack-pike-testing: openstack-kolla-5.0.0-0.1.bbeda30git.el7
+    cloud7-openstack-pike-testing: openstack-kolla-5.0.0-1.el7
     cloud7-openstack-pike-release: openstack-kolla-5.0.0-0.1.bbeda30git.el7
 - project: openstack-selinux
   name: openstack-selinux
@@ -5032,6 +5032,8 @@ packages:
   - asegurap@redhat.com
   - dmellado@redhat.com
   - luis5tb@gmail.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: openstack-kuryr-kubernetes-0.2.0-1.el7
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
   tags:
