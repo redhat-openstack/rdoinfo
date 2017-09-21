@@ -2548,7 +2548,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ec2-api-3.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ec2-api-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-ec2-api-4.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-ec2-api-4.1.0-0.1.7490601git.el7
+    cloud7-openstack-pike-testing: openstack-ec2-api-5.0.0-1.el7
     cloud7-openstack-pike-release: openstack-ec2-api-4.1.0-0.1.7490601git.el7
 - project: magnum
   tags:
@@ -4021,6 +4021,7 @@ packages:
     cloud7-openstack-newton-release: python-networking-vmware-nsx-9.1.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-vmware-nsx-10.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-vmware-nsx-10.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-vmware-nsx-11.0.0-1.el7
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
@@ -4033,7 +4034,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-vmware-nsxlib-0.7.0-1.el7
     cloud7-openstack-ocata-release: python-vmware-nsxlib-0.7.0-1.el7
-    cloud7-openstack-pike-testing: python-vmware-nsxlib-10.1.2-1.el7
+    cloud7-openstack-pike-testing: python-vmware-nsxlib-11.0.0-1.el7
     cloud7-openstack-pike-release: python-vmware-nsxlib-10.1.2-1.el7
 - project: networking-bigswitch
   conf: rpmfactory-lib
@@ -4842,7 +4843,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-l2gw-10.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-l2gw-10.0.0-1.el7
-    cloud7-openstack-pike-testing: python-networking-l2gw-10.0.1-0.1.16cf7d6git.el7
+    cloud7-openstack-pike-testing: python-networking-l2gw-11.0.0-1.el7
     cloud7-openstack-pike-release: python-networking-l2gw-10.0.1-0.1.16cf7d6git.el7
 - project: heat-translator
   name: python-heat-translator
