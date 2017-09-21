@@ -5028,6 +5028,18 @@ packages:
     #pike:
   maintainers:
   - mrunge@redhat.com
+- project: collectd-gnocchi
+  name: python-collectd-gnocchi
+  conf: rpmfactory-lib
+  upstream: https://github.com/jd/collectd-gnocchi
+  tags:
+    under-review:
+    # queens-uc
+  maintainers:
+  - lars@redhat.com
+  - mmagr@redhat.com
+  - mrunge@redhat.com
+  - pkilambi@redhat.com
 - project: kuryr
   name: python-kuryr-lib
   conf: rpmfactory-lib
