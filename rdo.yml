@@ -911,7 +911,7 @@ packages:
     cloud7-openstack-pike-release: puppet-cassandra-2.5.0-1.d180a6cgit.el7
 - project: puppet-certmonger
   conf: rpmfactory-puppet
-  upstream: git://github.com/earsdown/%(project)s
+  upstream: git://github.com/saltedsignal/%(project)s
   tags:
     queens-uc:
       source-branch: d09f0f2bfb60f72f4843801f845383576c8afbc2
