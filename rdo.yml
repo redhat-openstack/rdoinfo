@@ -5277,9 +5277,8 @@ packages:
 - project: openstack-macros
   conf: rpm-packaging
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
-  buildsys-tags:
-    cloud7-openstack-common-testing: openstack-macros-2018.1.0-0
-    cloud7-openstack-common-release: openstack-macros-2018.1.0-0
+    queens-uc:
+    queens:
+    pike:
+    ocata:
+    newton:
