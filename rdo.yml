@@ -190,7 +190,7 @@ packages:
     cloud7-openstack-ocata-testing: puppet-aodh-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-aodh-10.4.1-1.el7
     cloud7-openstack-newton-testing: puppet-aodh-9.6.0-1.el7
-    cloud7-openstack-newton-release: puppet-aodh-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-aodh-9.6.0-1.el7
     cloud7-openstack-pike-testing: puppet-aodh-11.3.0-1.el7
     cloud7-openstack-pike-release: puppet-aodh-11.3.0-1.el7
 - project: puppet-barbican
@@ -286,7 +286,7 @@ packages:
   conf: rpmfactory-puppet
   buildsys-tags:
     cloud7-openstack-newton-testing: puppet-horizon-9.6.0-1.el7
-    cloud7-openstack-newton-release: puppet-horizon-9.5.0-1.el7
+    cloud7-openstack-newton-release: puppet-horizon-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-horizon-10.4.0-1.el7
     cloud7-openstack-ocata-release: puppet-horizon-10.4.0-1.el7
     cloud7-openstack-pike-testing: puppet-horizon-11.3.0-1.el7
@@ -1689,7 +1689,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-ceilometer-7.1.1-1.el7
-    cloud7-openstack-newton-release: openstack-ceilometer-7.1.0-1.el7
+    cloud7-openstack-newton-release: openstack-ceilometer-7.1.1-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.1-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.1-1.el7
     cloud7-openstack-pike-testing: openstack-ceilometer-9.0.1-1.el7
@@ -1713,7 +1713,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-gnocchi-3.0.15-1.el7
-    cloud7-openstack-newton-release: openstack-gnocchi-3.0.14-1.el7
+    cloud7-openstack-newton-release: openstack-gnocchi-3.0.15-1.el7
     cloud7-openstack-ocata-testing: openstack-gnocchi-3.1.10-1.el7
     cloud7-openstack-ocata-release: openstack-gnocchi-3.1.10-1.el7
     cloud7-openstack-pike-testing: openstack-gnocchi-4.0.2-1.el7
