@@ -1818,7 +1818,7 @@ packages:
   name: python-neutron-lib
   tags:
     queens-uc:
-      source-branch: 1.9.1
+      source-branch: 1.10.0
     queens:
     pike:
       source-branch: 1.9.1
@@ -3303,7 +3303,7 @@ packages:
 - project: oslo-cache
   tags:
     queens-uc:
-      source-branch: 1.25.0
+      source-branch: 1.26.0
     queens:
     pike:
       source-branch: 1.25.0
@@ -3365,7 +3365,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     queens-uc:
-      source-branch: 5.9.0
+      source-branch: 5.10.0
     queens:
     pike:
       source-branch: 5.9.0
@@ -3425,7 +3425,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     queens-uc:
-      source-branch: 4.26.0
+      source-branch: 4.27.0
     queens:
     pike:
       source-branch: 4.25.0
@@ -3485,7 +3485,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     queens-uc:
-      source-branch: 2.18.0
+      source-branch: 2.18.1
     queens:
     pike:
       source-branch: 2.17.0
@@ -3505,7 +3505,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     queens-uc:
-      source-branch: 3.30.0
+      source-branch: 3.31.0
     queens:
     pike:
       source-branch: 3.30.0
@@ -3525,7 +3525,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     queens-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
     queens:
     pike:
       source-branch: 1.25.1
@@ -3545,7 +3545,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     queens-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
     queens:
     pike:
       source-branch: 1.26.0
@@ -3624,7 +3624,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 0.5.0
+      source-branch: 0.6.0
     queens:
     pike:
       source-branch: 0.4.0
