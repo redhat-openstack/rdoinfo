@@ -3108,6 +3108,11 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinxcontrib-blockdiag-1.5.5-1.el7
+- project: python-sphinxcontrib-seqdiag
+  name: python-sphinxcontrib-seqdiag
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-sphinxcontrib-seqdiag-0.8.4-5.el7
 - project: python-blockdiag
   name: python-blockdiag
   conf: unmanaged-dependency
