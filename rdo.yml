@@ -553,7 +553,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-apache
   tags:
     queens-uc:
-      source-branch: e31a6825eb394f4cdf77cffa5fe7dadba89bc7b0
     queens:
     pike:
       source-branch: e31a6825eb394f4cdf77cffa5fe7dadba89bc7b0
@@ -573,7 +572,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
     queens-uc:
-      source-branch: b783e1e99def0bf45a391a2ebce5a39bd4174e11
     queens:
     pike:
       source-branch: b783e1e99def0bf45a391a2ebce5a39bd4174e11
@@ -593,7 +591,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
   tags:
     queens-uc:
-      source-branch: 2f892e904162117e45daeb2ddaa955135b5c1c6b
     queens:
     pike:
       source-branch: 2f892e904162117e45daeb2ddaa955135b5c1c6b
@@ -613,7 +610,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
   tags:
     queens-uc:
-      source-branch: 6ffcb071cce02735a831bf1b9bc4f7e83f3e53c5
     queens:
     pike:
       source-branch: 6ffcb071cce02735a831bf1b9bc4f7e83f3e53c5
@@ -633,7 +629,6 @@ packages:
   upstream: git://github.com/puppet-community/puppet-corosync
   tags:
     queens-uc:
-      source-branch: 527cda5b119803b5fa7cb3605ad7c98c78ec18cb
     queens:
     pike:
       source-branch: 527cda5b119803b5fa7cb3605ad7c98c78ec18cb
@@ -653,7 +648,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-git
   tags:
     queens-uc:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     queens:
     pike:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
@@ -673,7 +667,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
   tags:
     queens-uc:
-      source-branch: 16fd47d7c74e9bf44ec6f6a9197f16e9a3f57092
     queens:
     pike:
       source-branch: 16fd47d7c74e9bf44ec6f6a9197f16e9a3f57092
@@ -693,7 +686,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-mongodb
   tags:
     queens-uc:
-      source-branch: 2feae027bcee4c3cf5957d81b7edc6fd5905b3c0
     queens:
     pike:
       source-branch: 2feae027bcee4c3cf5957d81b7edc6fd5905b3c0
@@ -713,7 +705,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
   tags:
     queens-uc:
-      source-branch: 920dd76214d87d9b26f0db105886ee89ac266c4e
     queens:
     pike:
       source-branch: 920dd76214d87d9b26f0db105886ee89ac266c4e
@@ -733,7 +724,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-java
   tags:
     queens-uc:
-      source-branch: 43aa9af1b258abfb671b640867dbafc67681565e
     pike:
       source-branch: 43aa9af1b258abfb671b640867dbafc67681565e
     queens:
@@ -774,7 +764,6 @@ packages:
   upstream: git://github.com/voxpupuli/puppet-rabbitmq
   tags:
     queens-uc:
-      source-branch: 70ac6c59180a307786db28218d11348acc6d7a42
     queens:
     pike:
       source-branch: 70ac6c59180a307786db28218d11348acc6d7a42
@@ -794,7 +783,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
   tags:
     queens-uc:
-      source-branch: 295cfce277ce6e7efb5589fa7238927886aba43f
     queens:
     pike:
       source-branch: 295cfce277ce6e7efb5589fa7238927886aba43f
@@ -814,7 +802,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
   tags:
     queens-uc:
-      source-branch: 4.18.0
     queens:
     pike:
       source-branch: 4.18.0
@@ -834,7 +821,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
   tags:
     queens-uc:
-      source-branch: 9fed47bdbf6cc86b15be10c4fe0e7559540eeaef
     queens:
     pike:
       source-branch: 9fed47bdbf6cc86b15be10c4fe0e7559540eeaef
@@ -854,7 +840,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
   tags:
     queens-uc:
-      source-branch: e3d28c6f7aa3b1daf7e9d30b55494592a65a2264
     queens:
     pike:
       source-branch: e3d28c6f7aa3b1daf7e9d30b55494592a65a2264
@@ -874,7 +859,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
   tags:
     queens-uc:
-      source-branch: 1d1e6d43a1eea48e402ef79e6bb81a516564038e
     queens:
     pike:
       source-branch: 1d1e6d43a1eea48e402ef79e6bb81a516564038e
@@ -894,7 +878,6 @@ packages:
   upstream: git://github.com/locp/cassandra
   tags:
     queens-uc:
-      source-branch: d180a6c4c2842c06acbb4ab15856cf0f866062bc
     queens:
     pike:
       source-branch: d180a6c4c2842c06acbb4ab15856cf0f866062bc
@@ -914,7 +897,6 @@ packages:
   upstream: git://github.com/saltedsignal/%(project)s
   tags:
     queens-uc:
-      source-branch: fad2a2dc4a8a3780922e70c9e3d8a46731689576
     queens:
     pike:
       source-branch: d09f0f2bfb60f72f4843801f845383576c8afbc2
@@ -934,7 +916,6 @@ packages:
   upstream: git://github.com/Juniper/%(project)s
   tags:
     queens-uc:
-      source-branch: 90128d1703d025c8d09bc8839382332f0c7fdae9
     queens:
     pike:
       source-branch: 90128d1703d025c8d09bc8839382332f0c7fdae9
@@ -956,7 +937,6 @@ packages:
   upstream: git://github.com/richardc/%(project)s
   tags:
     queens-uc:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
     queens:
     pike:
       source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
@@ -976,7 +956,6 @@ packages:
   upstream: git://github.com/theforeman/%(project)s
   tags:
     queens-uc:
-      source-branch: d0c02af491cc2341607ca4bb068115ffc1eb0565
     queens:
     pike:
       source-branch: d0c02af491cc2341607ca4bb068115ffc1eb0565
@@ -996,7 +975,6 @@ packages:
   upstream: git://github.com/elastic/%(project)s
   tags:
     queens-uc:
-      source-branch: 36c01db5b37837a474051e16c97db4950f8ed4ce
     queens:
     pike:
       source-branch: 36c01db5b37837a474051e16c97db4950f8ed4ce
@@ -1016,7 +994,6 @@ packages:
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
     queens-uc:
-      source-branch: f43e1292a9554766f799cd5a14b67cc19ce5b00e
     queens:
     pike:
       source-branch: f43e1292a9554766f799cd5a14b67cc19ce5b00e
@@ -1032,7 +1009,6 @@ packages:
   upstream: https://git.fd.io/%(project)s
   tags:
     queens-uc:
-      source-branch: d9ad6d211b86111bdca6b78891808a1bbdec86d2
     queens:
     pike:
       source-branch: d9ad6d211b86111bdca6b78891808a1bbdec86d2
@@ -1048,7 +1024,6 @@ packages:
   upstream: git://github.com/puppet-community/%(project)s
   tags:
     queens-uc:
-      source-branch: 8da0480b9a1bcc8adcdaa6e309978c0e4aff49ef
     queens:
     pike:
       source-branch: 8da0480b9a1bcc8adcdaa6e309978c0e4aff49ef
@@ -1068,7 +1043,6 @@ packages:
   upstream: git://github.com/soylent/konstantin-fluentd
   tags:
     queens-uc:
-      source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
     queens:
     pike:
       source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
@@ -1088,7 +1062,6 @@ packages:
   upstream: git://github.com/joshuabaird/%(project)s
   tags:
     queens-uc:
-      source-branch: 052dd074420b6a2a494e86b2c03020be57940205
     queens:
     pike:
       source-branch: 052dd074420b6a2a494e86b2c03020be57940205
@@ -1106,7 +1079,6 @@ packages:
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
   tags:
     queens-uc:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     queens:
     pike:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
@@ -1126,7 +1098,6 @@ packages:
   upstream: git://github.com/thejandroman/%(project)s
   tags:
     queens-uc:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     queens:
     pike:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
@@ -1146,7 +1117,6 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     queens-uc:
-      source-branch: adf8b634759d4ff9fc43e723a35698bc6f2c3e2f
     queens:
     pike:
       source-branch: adf8b634759d4ff9fc43e723a35698bc6f2c3e2f
@@ -1196,7 +1166,6 @@ packages:
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
     queens-uc:
-      source-branch: b995bdacb244c0416f74ff2414475def8d573e95
     queens:
     pike:
       source-branch: b995bdacb244c0416f74ff2414475def8d573e95
@@ -1216,7 +1185,6 @@ packages:
   upstream: git://github.com/ripienaar/%(project)s
   tags:
     queens-uc:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     queens:
     pike:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
@@ -1239,7 +1207,6 @@ packages:
   upstream: git://github.com/rcritten/%(project)s
   tags:
     queens-uc:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
     queens:
     pike:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
@@ -1298,7 +1265,6 @@ packages:
   upstream: git://github.com/antonlindstrom/%(project)s
   tags:
     queens-uc:
-      source-branch: 899651549b6d57470d233321265ace862270e154
     queens:
     pike:
       source-branch: 899651549b6d57470d233321265ace862270e154
@@ -1318,7 +1284,6 @@ packages:
   upstream: git://github.com/arioch/%(project)s
   tags:
     queens-uc:
-      source-branch: 8c61533fb8224edce02c633f28bf5eee1aa9b8c6
     queens:
     pike:
       source-branch: 8c61533fb8224edce02c633f28bf5eee1aa9b8c6
@@ -1338,7 +1303,6 @@ packages:
   upstream: git://github.com/paramite/%(project)s
   tags:
     queens-uc:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
     queens:
     pike:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
@@ -1358,7 +1322,6 @@ packages:
   upstream: git://github.com/sensu/sensu-puppet
   tags:
     queens-uc:
-      source-branch: c99f0d261fcf68edbd27706cc391f06a3006c4f5
     queens:
     pike:
       source-branch: c99f0d261fcf68edbd27706cc391f06a3006c4f5
@@ -1378,7 +1341,6 @@ packages:
   upstream: git://github.com/razorsedge/%(project)s
   tags:
     queens-uc:
-      source-branch: df91395cd829134c53d61d6878232aff1b999905
     queens:
     pike:
       source-branch: df91395cd829134c53d61d6878232aff1b999905
@@ -1398,7 +1360,6 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     queens-uc:
-      source-branch: 3fb5405d021322e428777c3806c8a8bb568fc6eb
     queens:
     pike:
       source-branch: 3fb5405d021322e428777c3806c8a8bb568fc6eb
@@ -1418,7 +1379,6 @@ packages:
   upstream: git://github.com/nanliu/%(project)s
   tags:
     queens-uc:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     queens:
     pike:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
@@ -1438,7 +1398,6 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     queens-uc:
-      source-branch: 62ba3ccadf13ee8dbd786b7ade29096fc3ab40b6
     queens:
     pike:
       source-branch: 62ba3ccadf13ee8dbd786b7ade29096fc3ab40b6
@@ -1458,7 +1417,6 @@ packages:
   upstream: git://github.com/Yelp/%(project)s
   tags:
     queens-uc:
-      source-branch: b6140883a5cb2de2b3d36c86a217a862f9ca5894
     queens:
     pike:
       source-branch: b6140883a5cb2de2b3d36c86a217a862f9ca5894
@@ -1478,7 +1436,6 @@ packages:
   upstream: git://github.com/derekhiggins/%(project)s
   tags:
     queens-uc:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     queens:
     pike:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
@@ -1498,7 +1455,6 @@ packages:
   upstream: git://github.com/deric/%(project)s
   tags:
     queens-uc:
-      source-branch: da686b4da03a64ec30c210189f98a774e40b62ac
     queens:
     pike:
       source-branch: da686b4da03a64ec30c210189f98a774e40b62ac
@@ -1518,7 +1474,6 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     queens-uc:
-      source-branch: b4d8db2a92fb9aaa98c0d68dcfd3795cc7b5249b
     queens:
     pike:
       source-branch: b4d8db2a92fb9aaa98c0d68dcfd3795cc7b5249b
@@ -1538,7 +1493,6 @@ packages:
   upstream: git://github.com/duritong/%(project)s
   tags:
     queens-uc:
-      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
     queens:
     pike:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
@@ -1558,7 +1512,6 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     queens-uc:
-      source-branch: 047b31db32f5b6ed2555fedb1bf0cfd02d19e23d
     queens:
     pike:
       source-branch: 047b31db32f5b6ed2555fedb1bf0cfd02d19e23d
@@ -1590,7 +1543,6 @@ packages:
   upstream: git://github.com/electrical/%(project)s
   tags:
     queens-uc:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
     queens:
     pike:
       source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
@@ -4961,7 +4913,6 @@ packages:
   upstream: https://github.com/kemra102/puppet-auditd
   tags:
     queens-uc:
-      source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
     queens:
     pike:
       source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
