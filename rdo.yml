@@ -1616,7 +1616,7 @@ packages:
     cloud7-openstack-newton-release: openstack-nova-14.0.8-1.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.7-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.7-1.el7
-    cloud7-openstack-pike-testing: openstack-nova-16.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-nova-16.0.1-1.el7
     cloud7-openstack-pike-release: openstack-nova-16.0.0-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -1796,7 +1796,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-6.2.4-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-7.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-7.0.2-1.el7
-    cloud7-openstack-pike-testing: openstack-ironic-9.1.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-9.1.1-1.el7
     cloud7-openstack-pike-release: openstack-ironic-9.1.0-1.el7
 - project: neutron
   conf: rpmfactory-core
@@ -1811,7 +1811,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-9.4.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.3-1.el7
-    cloud7-openstack-pike-testing: openstack-neutron-11.0.0-3.el7
+    cloud7-openstack-pike-testing: openstack-neutron-11.0.1-1.el7
     cloud7-openstack-pike-release: openstack-neutron-11.0.0-3.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -1852,7 +1852,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-fwaas-9.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-fwaas-10.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-fwaas-10.1.0-1.el7
-    cloud7-openstack-pike-testing: openstack-neutron-fwaas-11.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-fwaas-11.0.1-1.el7
     cloud7-openstack-pike-release: openstack-neutron-fwaas-11.0.0-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
@@ -2445,7 +2445,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-python-agent-1.5.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-python-agent-2.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-python-agent-2.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-ironic-python-agent-2.2.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-python-agent-2.2.1-1.el7
     cloud7-openstack-pike-release: openstack-ironic-python-agent-2.2.0-1.el7
 - project: ironic-lib
   tags:
@@ -3968,6 +3968,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-mlnx-10.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-mlnx-10.0.0-1.el7
+    cloud7-openstack-pike-testing: python-networking-mlnx-11.0.0-1.el7
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
@@ -5294,3 +5295,4 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: openstack-macros-2018.1.0-0
     cloud7-openstack-common-release: openstack-macros-2018.1.0-0
+    cloud7-openstack-pike-testing: openstack-macros-2018.1.1-0
