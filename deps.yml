@@ -2978,7 +2978,8 @@ packages:
   name: resource-agents
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-pike-testing: resource-agents-3.9.5-100.el7
+    cloud7-openstack-pike-testing: resource-agents-3.9.5-105.el7.0.0.rdo1
+
     cloud7-openstack-pike-release: resource-agents-3.9.5-100.el7
 - project: pcs
   name: pcs
@@ -3002,7 +3003,7 @@ packages:
   name: pacemaker
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-pike-testing: pacemaker-1.1.16-10.el7
+    cloud7-openstack-pike-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
     cloud7-openstack-pike-release: pacemaker-1.1.16-10.el7
 - project: python-vine
   name: python-vine
