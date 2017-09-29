@@ -1818,7 +1818,7 @@ packages:
   name: python-neutron-lib
   tags:
     queens-uc:
-      source-branch: 1.9.1
+      source-branch: 1.10.0
     queens:
     pike:
       source-branch: 1.9.1
@@ -2804,7 +2804,7 @@ packages:
   - trown@redhat.com
   tags:
     queens-uc:
-      source-branch: 1.17.0
+      source-branch: 1.17.1
     queens:
     pike:
       source-branch: 1.17.0
@@ -3229,7 +3229,7 @@ packages:
 - project: oslotest
   tags:
     queens-uc:
-      source-branch: 2.18.0
+      source-branch: 2.18.1
     queens:
     pike:
       source-branch: 2.17.0
@@ -3303,7 +3303,7 @@ packages:
 - project: oslo-cache
   tags:
     queens-uc:
-      source-branch: 1.25.0
+      source-branch: 1.26.0
     queens:
     pike:
       source-branch: 1.25.0
@@ -3325,7 +3325,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     queens-uc:
-      source-branch: 4.12.0
+      source-branch: 4.13.0
     queens:
     pike:
       source-branch: 4.11.1
@@ -3345,7 +3345,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
     queens-uc:
-      source-branch: 3.22.0
+      source-branch: 3.23.0
     queens:
     pike:
       source-branch: 3.21.1
@@ -3365,7 +3365,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     queens-uc:
-      source-branch: 5.9.0
+      source-branch: 5.10.0
     queens:
     pike:
       source-branch: 5.9.0
@@ -3385,7 +3385,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
     queens-uc:
-      source-branch: 2.20.0
+      source-branch: 2.21.0
     queens:
     pike:
       source-branch: 2.20.0
@@ -3405,7 +3405,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
     queens-uc:
-      source-branch: 3.31.0
+      source-branch: 3.32.0
     queens:
     pike:
       source-branch: 3.30.1
@@ -3425,7 +3425,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     queens-uc:
-      source-branch: 4.26.0
+      source-branch: 4.28.0
     queens:
     pike:
       source-branch: 4.25.0
@@ -3445,7 +3445,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     queens-uc:
-      source-branch: 3.29.0
+      source-branch: 3.30.0
     queens:
     pike:
       source-branch: 3.28.0
@@ -3465,7 +3465,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     queens-uc:
-      source-branch: 2.23.0
+      source-branch: 2.24.0
     queens:
     pike:
       source-branch: 2.23.0
@@ -3485,7 +3485,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     queens-uc:
-      source-branch: 2.18.0
+      source-branch: 2.19.0
     queens:
     pike:
       source-branch: 2.17.0
@@ -3505,7 +3505,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     queens-uc:
-      source-branch: 3.30.0
+      source-branch: 3.31.0
     queens:
     pike:
       source-branch: 3.30.0
@@ -3525,7 +3525,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     queens-uc:
-      source-branch: 1.26.0
+      source-branch: 1.28.0
     queens:
     pike:
       source-branch: 1.25.1
@@ -3545,7 +3545,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     queens-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
     queens:
     pike:
       source-branch: 1.26.0
@@ -3624,7 +3624,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 0.5.0
+      source-branch: 0.6.0
     queens:
     pike:
       source-branch: 0.4.0
@@ -3640,7 +3640,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
     queens:
     pike:
       source-branch: 1.25.0
@@ -3680,7 +3680,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 2.15.0
+      source-branch: 2.16.0
     queens:
     pike:
       source-branch: 2.14.0
@@ -3717,7 +3717,7 @@ packages:
 - project: debtcollector
   tags:
     queens-uc:
-      source-branch: 1.17.0
+      source-branch: 1.18.0
     queens:
     pike:
       source-branch: 1.17.1
@@ -3736,7 +3736,7 @@ packages:
 - project: automaton
   tags:
     queens-uc:
-      source-branch: 1.12.0
+      source-branch: 1.13.0
     queens:
     pike:
       source-branch: 1.12.1
@@ -3755,7 +3755,7 @@ packages:
 - project: cliff
   tags:
     queens-uc:
-      source-branch: 2.8.0
+      source-branch: 2.9.0
     queens:
     pike:
       source-branch: 2.8.0
@@ -3776,7 +3776,7 @@ packages:
 - project: futurist
   tags:
     queens-uc:
-      source-branch: 1.3.0
+      source-branch: 1.4.0
     queens:
     pike:
       source-branch: 1.3.0
