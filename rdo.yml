@@ -4851,6 +4851,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-ironic-staging-drivers-0.6.0-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-staging-drivers-0.6.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-staging-drivers-0.7.0-1.el7
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
@@ -5186,6 +5187,8 @@ packages:
   maintainers:
   - mfedosin@gmail.com
   - idan.narotzki@nokia.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-glareclient-0.4.2-1.el7
 - project: keystone-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-keystone-tests-tempest
