@@ -2018,7 +2018,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-requests-2.11.1-1.el7
     cloud7-openstack-common-release: python-requests-2.11.1-1.el7
-    cloud7-openstack-queens-testing: python-requests-2.11.1-1.el7
+    cloud7-openstack-pike-testing: python-requests-2.14.2-1.el7
+    cloud7-openstack-queens-testing: python-requests-2.14.2-1.el7
 - project: python-idna
   name: python-idna
   conf: unmanaged-dependency
@@ -2164,7 +2165,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-urllib3-1.16-1.el7
     cloud7-openstack-common-release: python-urllib3-1.16-1.el7
-    cloud7-openstack-queens-testing: python-urllib3-1.16-1.el7
+    cloud7-openstack-pike-testing: python-urllib3-1.21.1-1.el7
+    cloud7-openstack-queens-testing: python-urllib3-1.21.1-1.el7
 - project: python-lockfile
   name: python-lockfile
   conf: unmanaged-dependency
