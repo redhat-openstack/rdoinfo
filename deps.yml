@@ -2474,11 +2474,11 @@ packages:
     cloud7-openstack-queens-testing: python-django-nose-1.4.3-1.el7
 - project: python-ncclient
   name: python-ncclient
-  conf: unmanaged-dependency
+  conf: fedora-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: python-ncclient-0.4.2-2.el7
+    cloud7-openstack-common-testing: python-ncclient-0.4.7-5.el7
     cloud7-openstack-common-release: python-ncclient-0.4.2-2.el7
-    cloud7-openstack-queens-testing: python-ncclient-0.4.2-2.el7
+    cloud7-openstack-queens-testing: python-ncclient-0.4.7-5.el7
 - project: pytest
   name: pytest
   conf: unmanaged-dependency
