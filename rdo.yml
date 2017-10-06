@@ -3929,6 +3929,15 @@ packages:
     cloud7-openstack-ocata-release: python-networking-arista-2017.1.3-1.el7
     cloud7-openstack-pike-testing: python-networking-arista-2017.2.0-1.el7
     cloud7-openstack-pike-release: python-networking-arista-2017.2.0-1.el7
+- project: networking-baremetal
+  conf: rpmfactory-lib
+  name: python-networking-baremetal
+  upstream: git://git.openstack.org/openstack/%(project)s
+  tags:
+    under-review:
+  maintainers:
+  - divius.inside@gmail.com
+  - harald.jensas@gmail.com
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
