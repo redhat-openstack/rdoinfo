@@ -335,7 +335,7 @@ packages:
     cloud7-openstack-newton-release: puppet-magnum-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-magnum-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-magnum-10.3.1-1.el7
-    cloud7-openstack-pike-testing: puppet-magnum-11.3.0-1.el7
+    cloud7-openstack-pike-testing: puppet-magnum-11.3.1-1.el7
     cloud7-openstack-pike-release: puppet-magnum-11.3.0-1.el7
 - project: puppet-manila
   conf: rpmfactory-puppet
@@ -364,7 +364,7 @@ packages:
     cloud7-openstack-newton-release: puppet-nova-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-nova-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-nova-10.4.1-1.el7
-    cloud7-openstack-pike-testing: puppet-nova-11.3.0-1.el7
+    cloud7-openstack-pike-testing: puppet-nova-11.4.0-1.el7
     cloud7-openstack-pike-release: puppet-nova-11.3.0-1.el7
 - project: puppet-octavia
   conf: rpmfactory-puppet
@@ -482,7 +482,7 @@ packages:
     cloud7-openstack-newton-release: puppet-tripleo-5.6.2-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.1-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.1-1.el7
-    cloud7-openstack-pike-testing: puppet-tripleo-7.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-tripleo-7.4.2-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.0-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
@@ -554,7 +554,7 @@ packages:
     queens:
     pike:
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-murano-11.3.0-1.el7
+    cloud7-openstack-pike-testing: puppet-murano-11.3.1-1.el7
     cloud7-openstack-pike-release: puppet-murano-11.3.0-1.el7
 - project: puppet-zaqar
   conf: rpmfactory-puppet
@@ -1662,7 +1662,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ceilometer-7.1.1-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.1-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.1-1.el7
-    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.1-2.el7
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.1-1.el7
 - project: gnocchi
   conf: rpmfactory-core
@@ -2075,7 +2075,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.1-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.2-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.0-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2132,7 +2132,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-validations-5.1.2-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.6.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.1-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.1-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.0-1.el7
 - project: instack
   tags:
@@ -2151,7 +2151,7 @@ packages:
     cloud7-openstack-newton-release: instack-5.1.0-1.el7
     cloud7-openstack-ocata-testing: instack-6.1.0-1.el7
     cloud7-openstack-ocata-release: instack-6.1.0-1.el7
-    cloud7-openstack-pike-testing: instack-7.0.0-1.el7
+    cloud7-openstack-pike-testing: instack-7.0.1-1.el7
     cloud7-openstack-pike-release: instack-7.0.0-1.el7
 - project: instack-undercloud
   tags:
@@ -2170,7 +2170,7 @@ packages:
     cloud7-openstack-newton-release: instack-undercloud-5.3.1-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.1-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.1-1.el7
-    cloud7-openstack-pike-testing: instack-undercloud-7.4.0-1.el7
+    cloud7-openstack-pike-testing: instack-undercloud-7.4.1-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.0-1.el7
 - project: heat-templates
   tags:
@@ -2698,7 +2698,7 @@ packages:
     cloud7-openstack-newton-release: python-novaclient-6.0.1-1.el7
     cloud7-openstack-ocata-testing: python-novaclient-7.1.2-1.el7
     cloud7-openstack-ocata-release: python-novaclient-7.1.2-1.el7
-    cloud7-openstack-pike-testing: python-novaclient-9.1.0-1.el7
+    cloud7-openstack-pike-testing: python-novaclient-9.1.1-1.el7
     cloud7-openstack-pike-release: python-novaclient-9.1.0-1.el7
 - project: swiftclient
   conf: rpmfactory-client
@@ -3030,6 +3030,8 @@ packages:
     pike:
       source-branch: 1.22.2
   upstream: git://git.openstack.org/openstack-infra/%(project)s
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-shade-1.22.2-1.el7
 - project: ironic-inspector-client
   tags:
     queens-uc:
@@ -3066,7 +3068,7 @@ packages:
     cloud7-openstack-newton-release: python-tripleoclient-5.4.3-1.el7
     cloud7-openstack-ocata-testing: python-tripleoclient-6.2.1-1.el7
     cloud7-openstack-ocata-release: python-tripleoclient-6.2.1-1.el7
-    cloud7-openstack-pike-testing: python-tripleoclient-7.3.0-1.el7
+    cloud7-openstack-pike-testing: python-tripleoclient-7.3.2-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.0-1.el7
 - project: zaqarclient
   tags:
@@ -3872,7 +3874,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.3-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.1-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.0-2.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.2-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.0-2.el7
 - project: tripleo-repos
   tags:
@@ -3897,7 +3899,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.0-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.1-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.2-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.0-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
@@ -4141,7 +4143,7 @@ packages:
     cloud7-openstack-newton-release: python-os-brick-1.6.2-1.el7
     cloud7-openstack-ocata-testing: python-os-brick-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-os-brick-1.11.0-1.el7
-    cloud7-openstack-pike-testing: python-os-brick-1.15.2-1.el7
+    cloud7-openstack-pike-testing: python-os-brick-1.15.3-1.el7
     cloud7-openstack-pike-release: python-os-brick-1.15.2-1.el7
 - project: hardware
   tags:
@@ -5146,6 +5148,8 @@ packages:
   maintainers:
   - mfedosin@gmail.com
   - idan.narotzki@nokia.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: openstack-glare-0.4.1-1.el7
 - project: glareclient
   conf: rpmfactory-client
   tags:
