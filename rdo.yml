@@ -478,7 +478,7 @@ packages:
 - project: puppet-tripleo
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-tripleo-5.6.2-1.el7
+    cloud7-openstack-newton-testing: puppet-tripleo-5.6.3-1.el7
     cloud7-openstack-newton-release: puppet-tripleo-5.6.2-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.3-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.1-1.el7
@@ -1833,7 +1833,7 @@ packages:
   - nmagnezi@redhat.com
   - twilson@redhat.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-neutron-lbaas-9.2.1-1.el7
+    cloud7-openstack-newton-testing: openstack-neutron-lbaas-9.2.2-1.el7
     cloud7-openstack-newton-release: openstack-neutron-lbaas-9.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-lbaas-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.1-1.el7
@@ -1897,7 +1897,7 @@ packages:
   - nmagnezi@redhat.com
   - ihrachys@redhat.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-octavia-0.9.1-1.el7
+    cloud7-openstack-newton-testing: openstack-octavia-0.9.2-1.el7
     cloud7-openstack-newton-release: openstack-octavia-0.9.1-1.el7
     cloud7-openstack-ocata-testing: openstack-octavia-0.10.0-1.el7
     cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
@@ -2071,7 +2071,7 @@ packages:
   - dprince@redhat.com
   - aschultz@next-development.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.1-1.el7
+    cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.2-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.3-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.1-1.el7
@@ -2166,7 +2166,7 @@ packages:
   - jslagle@redhat.com
   - aschultz@next-development.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: instack-undercloud-5.3.1-1.el7
+    cloud7-openstack-newton-testing: instack-undercloud-5.3.2-1.el7
     cloud7-openstack-newton-release: instack-undercloud-5.3.1-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.1-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.1-1.el7
@@ -2694,7 +2694,7 @@ packages:
     newton:
       source-branch: 6.0.2
   buildsys-tags:
-    cloud7-openstack-newton-testing: python-novaclient-6.0.1-1.el7
+    cloud7-openstack-newton-testing: python-novaclient-6.0.2-1.el7
     cloud7-openstack-newton-release: python-novaclient-6.0.1-1.el7
     cloud7-openstack-ocata-testing: python-novaclient-7.1.2-1.el7
     cloud7-openstack-ocata-release: python-novaclient-7.1.2-1.el7
@@ -3893,7 +3893,7 @@ packages:
   maintainers:
   - honza@redhat.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-tripleo-ui-1.2.0-1.el7
+    cloud7-openstack-newton-testing: openstack-tripleo-ui-1.2.1-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.0-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.1-1.el7
@@ -4445,7 +4445,7 @@ packages:
   - apevec@redhat.com
   - pkilambi@redhat.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: python-tooz-1.43.1-1.el7
+    cloud7-openstack-newton-testing: python-tooz-1.43.2-1.el7
     cloud7-openstack-newton-release: python-tooz-1.43.1-1.el7
     cloud7-openstack-ocata-testing: python-tooz-1.48.2-1.el7
     cloud7-openstack-ocata-release: python-tooz-1.48.2-1.el7
