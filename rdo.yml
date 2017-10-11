@@ -3363,7 +3363,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
     queens-uc:
-      source-branch: 2.21.0
+      source-branch: 2.21.1
     queens:
     pike:
       source-branch: 2.20.0
@@ -3463,7 +3463,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     queens-uc:
-      source-branch: 2.19.0
+      source-branch: 2.19.1
     queens:
     pike:
       source-branch: 2.17.0
@@ -3733,7 +3733,7 @@ packages:
 - project: cliff
   tags:
     queens-uc:
-      source-branch: 2.9.0
+      source-branch: 2.9.1
     queens:
     pike:
       source-branch: 2.8.0
@@ -4345,7 +4345,7 @@ packages:
 - project: mistral-lib
   tags:
     queens-uc:
-      source-branch: 0.2.0
+      source-branch: 0.3.0
     queens:
     pike:
       source-branch: 0.2.0
