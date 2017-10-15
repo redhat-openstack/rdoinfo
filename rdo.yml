@@ -478,7 +478,7 @@ packages:
 - project: puppet-tripleo
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-tripleo-5.6.3-1.el7
+    cloud7-openstack-newton-testing: puppet-tripleo-5.6.4-1.el7
     cloud7-openstack-newton-release: puppet-tripleo-5.6.3-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.3-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.3-1.el7
@@ -2071,7 +2071,7 @@ packages:
   - dprince@redhat.com
   - aschultz@next-development.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.2-1.el7
+    cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.3-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.2-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.3-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.3-1.el7
@@ -3871,7 +3871,7 @@ packages:
   - trown@redhat.com
   - mburns@redhat.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-tripleo-common-5.4.3-1.el7
+    cloud7-openstack-newton-testing: openstack-tripleo-common-5.4.4-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.3-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.2-1.el7
@@ -4116,7 +4116,7 @@ packages:
   - jslagle@redhat.com
   - aschultz@next-development.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.1-1.el7
+    cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.2-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.2.3-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.3-1.el7
