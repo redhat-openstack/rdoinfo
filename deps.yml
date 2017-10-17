@@ -255,7 +255,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-fixtures-3.0.0-2.el7
     cloud7-openstack-common-release: python-fixtures-3.0.0-2.el7
-    cloud7-openstack-queens-testing: python-fixtures-3.0.0-2.el7
+    cloud7-openstack-pike-testing: python-fixtures-3.0.0-7.el7
+    cloud7-openstack-queens-testing: python-fixtures-3.0.0-7.el7
 - project: python-twisted
   name: python-twisted
   conf: unmanaged-dependency
@@ -3586,8 +3587,8 @@ packages:
   name: python-stestr
   conf: fedora-dependency
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-stestr-1.0.0-4.1.el7
-    cloud7-openstack-queens-testing: python-stestr-1.0.0-4.1.el7
+    cloud7-openstack-pike-testing: python-stestr-1.1.0-1.el7
+    cloud7-openstack-queens-testing: python-stestr-1.1.0-1.el7
 - project: subunit2sql
   name: python-subunit2sql
   conf: unmanaged-dependency
