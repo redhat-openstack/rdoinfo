@@ -2538,7 +2538,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-dulwich-0.16.1-1.el7
     cloud7-openstack-common-release: python-dulwich-0.16.1-1.el7
-    cloud7-openstack-queens-testing: python-dulwich-0.16.1-1.el7
+    cloud7-openstack-pike-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-queens-testing: python-dulwich-0.18.4-1.el7
 - project: pyflakes
   name: pyflakes
   conf: unmanaged-dependency
@@ -3602,3 +3603,27 @@ packages:
   buildsys-tags:
     cloud7-openstack-pike-testing: future-0.16.0-4.el7
     cloud7-openstack-queens-testing: future-0.16.0-4.el7
+- project: python-httpretty
+  name: python-httpretty
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
+    cloud7-openstack-queens-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
+- project: python-ntlm3
+  name: python-ntlm3
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-ntlm3-1.0.2-4.el7
+    cloud7-openstack-queens-testing: python-ntlm3-1.0.2-4.el7
+- project: python-requests_ntlm
+  name: python-requests_ntlm
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-requests_ntlm-0.3.0-4.el7
+    cloud7-openstack-queens-testing: python-requests_ntlm-0.3.0-4.el7
+- project: python-winrm
+  name: python-winrm
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-pike-testing: python-winrm-0.2.2-3.el7
+    cloud7-openstack-queens-testing: python-winrm-0.2.2-3.el7
