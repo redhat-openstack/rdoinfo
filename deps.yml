@@ -257,6 +257,7 @@ packages:
     cloud7-openstack-common-release: python-fixtures-3.0.0-2.el7
     cloud7-openstack-pike-testing: python-fixtures-3.0.0-7.el7
     cloud7-openstack-queens-testing: python-fixtures-3.0.0-7.el7
+    cloud7-openstack-pike-release: python-fixtures-3.0.0-7.el7
 - project: python-twisted
   name: python-twisted
   conf: unmanaged-dependency
@@ -926,6 +927,7 @@ packages:
     cloud7-openstack-newton-release: mariadb-10.1.12-4.el7
     cloud7-openstack-pike-testing: mariadb-10.1.20-2.el7
     cloud7-openstack-queens-testing: mariadb-10.1.20-2.el7
+    cloud7-openstack-pike-release: mariadb-10.1.20-2.el7
 - project: python-pyroute2
   name: python-pyroute2
   conf: unmanaged-dependency
@@ -1883,6 +1885,7 @@ packages:
     cloud7-openstack-common-release: python-pyghmi-1.0.12-1.el7
     cloud7-openstack-pike-testing: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-queens-testing: python-pyghmi-1.0.22-1.el7
+    cloud7-openstack-pike-release: python-pyghmi-1.0.22-1.el7
 - project: python-nose
   name: python-nose
   conf: unmanaged-dependency
@@ -2023,6 +2026,7 @@ packages:
     cloud7-openstack-common-release: python-requests-2.11.1-1.el7
     cloud7-openstack-pike-testing: python-requests-2.14.2-1.el7
     cloud7-openstack-queens-testing: python-requests-2.14.2-1.el7
+    cloud7-openstack-pike-release: python-requests-2.14.2-1.el7
 - project: python-idna
   name: python-idna
   conf: unmanaged-dependency
@@ -2170,6 +2174,7 @@ packages:
     cloud7-openstack-common-release: python-urllib3-1.16-1.el7
     cloud7-openstack-pike-testing: python-urllib3-1.21.1-1.el7
     cloud7-openstack-queens-testing: python-urllib3-1.21.1-1.el7
+    cloud7-openstack-pike-release: python-urllib3-1.21.1-1.el7
 - project: python-lockfile
   name: python-lockfile
   conf: unmanaged-dependency
@@ -2505,6 +2510,7 @@ packages:
     cloud7-openstack-common-release: subunit-1.0.0-1.el7
     cloud7-openstack-pike-testing: subunit-1.2.0-14.el7
     cloud7-openstack-queens-testing: subunit-1.2.0-14.el7
+    cloud7-openstack-pike-release: subunit-1.2.0-14.el7
 - project: python-jsonschema
   name: python-jsonschema
   conf: unmanaged-dependency
@@ -2541,6 +2547,7 @@ packages:
     cloud7-openstack-common-release: python-dulwich-0.16.1-1.el7
     cloud7-openstack-pike-testing: python-dulwich-0.18.4-1.el7
     cloud7-openstack-queens-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-pike-release: python-dulwich-0.18.4-1.el7
 - project: pyflakes
   name: pyflakes
   conf: unmanaged-dependency
@@ -3407,7 +3414,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: resource-agents-3.9.5-105.el7.0.0.rdo1
-    cloud7-openstack-pike-release: resource-agents-3.9.5-100.el7
+    cloud7-openstack-pike-release: resource-agents-3.9.5-105.el7.0.0.rdo1
     cloud7-openstack-queens-testing: resource-agents-3.9.5-105.el7.0.0.rdo1
 - project: pcs
   name: pcs
@@ -3433,7 +3440,7 @@ packages:
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
-    cloud7-openstack-pike-release: pacemaker-1.1.16-10.el7
+    cloud7-openstack-pike-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
     cloud7-openstack-queens-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: python-vine
   name: python-vine
@@ -3562,11 +3569,13 @@ packages:
   buildsys-tags:
     cloud7-openstack-pike-testing: python-sphinxcontrib-seqdiag-0.8.4-5.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-seqdiag-0.8.4-5.el7
+    cloud7-openstack-pike-release: python-sphinxcontrib-seqdiag-0.8.4-5.el7
 - project: python-blockdiag
   name: python-blockdiag
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-blockdiag-1.5.3-9.el7
+    cloud7-openstack-common-release: python-blockdiag-1.5.3-9.el7
     cloud7-openstack-queens-testing: python-blockdiag-1.5.3-9.el7
 - project: python-seqdiag
   name: python-seqdiag
@@ -3574,6 +3583,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-pike-testing: python-seqdiag-0.9.5-10.el7
     cloud7-openstack-queens-testing: python-seqdiag-0.9.5-10.el7
+    cloud7-openstack-pike-release: python-seqdiag-0.9.5-10.el7
 - project: python-funcparserlib
   name: python-funcparserlib
   conf: unmanaged-dependency
@@ -3592,39 +3602,46 @@ packages:
   buildsys-tags:
     cloud7-openstack-pike-testing: python-stestr-1.1.0-1.el7
     cloud7-openstack-queens-testing: python-stestr-1.1.0-1.el7
+    cloud7-openstack-pike-release: python-stestr-1.1.0-1.el7
 - project: subunit2sql
   name: python-subunit2sql
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-subunit2sql-1.8.0-6.1.el7
     cloud7-openstack-queens-testing: python-subunit2sql-1.8.0-6.1.el7
+    cloud7-openstack-pike-release: python-subunit2sql-1.8.0-6.1.el7
 - project: future
   name: future
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: future-0.16.0-4.el7
     cloud7-openstack-queens-testing: future-0.16.0-4.el7
+    cloud7-openstack-pike-release: future-0.16.0-4.el7
 - project: python-httpretty
   name: python-httpretty
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
     cloud7-openstack-queens-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
+    cloud7-openstack-pike-release: python-httpretty-0.8.14-6.20161011git70af1f8.el7
 - project: python-ntlm3
   name: python-ntlm3
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-ntlm3-1.0.2-4.el7
     cloud7-openstack-queens-testing: python-ntlm3-1.0.2-4.el7
+    cloud7-openstack-pike-release: python-ntlm3-1.0.2-4.el7
 - project: python-requests_ntlm
   name: python-requests_ntlm
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-requests_ntlm-0.3.0-4.el7
     cloud7-openstack-queens-testing: python-requests_ntlm-0.3.0-4.el7
+    cloud7-openstack-pike-release: python-requests_ntlm-0.3.0-4.el7
 - project: python-winrm
   name: python-winrm
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-winrm-0.2.2-3.el7
     cloud7-openstack-queens-testing: python-winrm-0.2.2-3.el7
+    cloud7-openstack-pike-release: python-winrm-0.2.2-3.el7
