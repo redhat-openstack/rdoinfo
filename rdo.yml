@@ -1789,7 +1789,7 @@ packages:
   name: python-neutron-lib
   tags:
     queens-uc:
-      source-branch: 1.10.0
+      source-branch: 1.11.0
     queens:
     pike:
       source-branch: 1.9.1
@@ -2430,7 +2430,7 @@ packages:
 - project: ironic-lib
   tags:
     queens-uc:
-      source-branch: 2.10.0
+      source-branch: 2.11.0
     queens:
     pike:
       source-branch: 2.10.0
@@ -3267,7 +3267,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     queens-uc:
-      source-branch: 5.33.0
+      source-branch: 5.33.1
     queens:
     pike:
       source-branch: 5.30.1
@@ -3307,7 +3307,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     queens-uc:
-      source-branch: 4.13.1
+      source-branch: 4.13.2
     queens:
     pike:
       source-branch: 4.11.1
@@ -3407,7 +3407,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     queens-uc:
-      source-branch: 4.28.0
+      source-branch: 4.29.0
     queens:
     pike:
       source-branch: 4.25.0
@@ -3487,7 +3487,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     queens-uc:
-      source-branch: 3.31.0
+      source-branch: 3.32.0
     queens:
     pike:
       source-branch: 3.30.0
@@ -3507,7 +3507,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     queens-uc:
-      source-branch: 1.28.1
+      source-branch: 1.29.0
     queens:
     pike:
       source-branch: 1.25.1
@@ -3527,7 +3527,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     queens-uc:
-      source-branch: 1.28.0
+      source-branch: 1.29.0
     queens:
     pike:
       source-branch: 1.26.0
@@ -3642,7 +3642,7 @@ packages:
 - project: castellan
   tags:
     queens-uc:
-      source-branch: 0.14.0
+      source-branch: 0.14.1
     queens:
     pike:
       source-branch: 0.12.0
