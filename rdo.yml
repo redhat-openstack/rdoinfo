@@ -5312,3 +5312,10 @@ packages:
     queens:
   maintainers:
   - ykarel@redhat.com
+- project: zaqar-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-zaqar-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
