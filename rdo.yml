@@ -1587,7 +1587,7 @@ packages:
     cloud7-openstack-newton-release: openstack-nova-14.0.8-1.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.7-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.7-1.el7
-    cloud7-openstack-pike-testing: openstack-nova-16.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-nova-16.0.2-1.el7
     cloud7-openstack-pike-release: openstack-nova-16.0.1-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -2171,7 +2171,7 @@ packages:
     cloud7-openstack-newton-release: instack-undercloud-5.3.2-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.1-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.1-1.el7
-    cloud7-openstack-pike-testing: instack-undercloud-7.4.1-1.el7
+    cloud7-openstack-pike-testing: instack-undercloud-7.4.2-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.1-1.el7
 - project: heat-templates
   tags:
@@ -2250,7 +2250,7 @@ packages:
     cloud7-openstack-newton-release: os-net-config-5.2.1-1.el7
     cloud7-openstack-ocata-testing: os-net-config-6.1.1-1.el7
     cloud7-openstack-ocata-release: os-net-config-6.1.1-1.el7
-    cloud7-openstack-pike-testing: os-net-config-7.3.0-1.el7
+    cloud7-openstack-pike-testing: os-net-config-7.3.1-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.0-1.el7
 - project: os-refresh-config
   tags:
@@ -4625,7 +4625,7 @@ packages:
     cloud7-openstack-newton-release: python-microversion-parse-0.1.4-1.el7
     cloud7-openstack-ocata-testing: python-microversion-parse-0.1.4-1.el7
     cloud7-openstack-ocata-release: python-microversion-parse-0.1.4-1.el7
-    cloud7-openstack-pike-testing: python-microversion-parse-0.1.4-1.el7
+    cloud7-openstack-pike-testing: python-microversion-parse-0.1.4-2.el7
     cloud7-openstack-pike-release: python-microversion-parse-0.1.4-1.el7
 - project: osc-lib
   conf: rpmfactory-lib
