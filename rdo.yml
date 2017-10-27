@@ -432,7 +432,9 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 1c4246458420abc0561c4e8edb233322c57c423b
     ocata:
+      source-branch: 1c4246458420abc0561c4e8edb233322c57c423b
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-qdr-0.2.0-1.dcd40cagit.el7
     cloud7-openstack-pike-release: puppet-qdr-0.2.0-1.dcd40cagit.el7
@@ -538,6 +540,15 @@ packages:
     cloud7-openstack-ocata-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
     cloud7-openstack-pike-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
     cloud7-openstack-pike-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+  tags:
+    queens-uc:
+    queens:
+    pike:
+      source-branch: 91772fa53dd3ed2686d2e8b0303c77ea6faefe68
+    ocata:
+      source-branch: 91772fa53dd3ed2686d2e8b0303c77ea6faefe68
+    newton:
+      source-branch: 91772fa53dd3ed2686d2e8b0303c77ea6faefe68
 - project: puppet-mistral
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -1267,6 +1278,7 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 9a46ecd1e71aa44566a642cc10dd311ffad22166
     ocata:
       source-branch: stable/0.6.x
     newton:
@@ -1651,8 +1663,11 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 1fb6a30ee59a16cd4b6c49bab963ff9e3f974580
     ocata:
+      source-branch: 1fb6a30ee59a16cd4b6c49bab963ff9e3f974580
     newton:
+      source-branch: 1fb6a30ee59a16cd4b6c49bab963ff9e3f974580
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-swift-plugin-swift3-1.11.0-1.el7
     cloud7-openstack-newton-release: openstack-swift-plugin-swift3-1.11.0-1.el7
@@ -1885,6 +1900,7 @@ packages:
     ocata:
       source-branch: 9c3c7a32ab9f13eb6f8773bac5668bce7b83a9de
     newton:
+      source-branch: ba1288637e40f938b39f6ff10127217cdc9300e6
   maintainers:
   - amoralej@redhat.com
   buildsys-tags:
@@ -2019,6 +2035,7 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 8f025691bacd6e945fb522697f17461dd31c0330
     ocata:
       source-branch: 1.28.0
     newton:
@@ -2059,6 +2076,7 @@ packages:
 - project: tripleo-incubator
   tags:
     newton:
+      source-branch: a7686792e731c8c49b630271b4aec15b9ba9cce2
   name: openstack-tripleo
   conf: rpmfactory-core
   maintainers:
@@ -2184,6 +2202,7 @@ packages:
 - project: heat-templates
   tags:
     newton:
+      source-branch: 2823fcafdc66d384a5d8207966a5e797ae466403
   conf: rpmfactory-core
   maintainers:
   - sbaker@redhat.com
@@ -2351,12 +2370,11 @@ packages:
 - project: os-xenapi
   conf: rpmfactory-lib
   tags:
-    # TODO: unlock once we have new release tagged upstream including
-    # https://review.openstack.org/#/c/454677/
-    version-locked:
     queens-uc:
+      source-branch: 0.3.1
     queens:
     pike:
+      source-branch: d1f59c7c5f1d3a9036fa0ef90920049f39f7a3d7
   maintainers:
   - jpena@redhat.com
   buildsys-tags:
@@ -3808,6 +3826,7 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 59c9c41394b28df4f5670eacec57f5ab79fc85da
     ocata:
       source-branch: f733b3133e2c5371cd109485903405f15e0db21e
     newton:
@@ -3826,8 +3845,11 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 9f84e4c7c59b172a09341af2ab496d07e29e01aa
     ocata:
+      source-branch: 9f84e4c7c59b172a09341af2ab496d07e29e01aa
     newton:
+      source-branch: 9f84e4c7c59b172a09341af2ab496d07e29e01aa
   conf: rpmfactory-lib
   buildsys-tags:
     cloud7-openstack-common-testing: python-wsme-0.8.0-1.el7
@@ -4104,10 +4126,20 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-UcsSdk-0.8.2.5-1.el7
     cloud7-openstack-common-release: python-UcsSdk-0.8.2.5-1.el7
+  tags:
+    queens-uc:
+    queens:
+    pike:
+      source-branch: bf6b07d6abeacb922c92b198352eda4eb9e4629b
+    ocata:
+      source-branch: bf6b07d6abeacb922c92b198352eda4eb9e4629b
+    newton:
+      source-branch: bf6b07d6abeacb922c92b198352eda4eb9e4629b
 - project: cisco-ironic-contrib
   # not in rpmfactory
   tags:
     newton:
+      source-branch: b918a5af7a75c25f4b354125ce32a3a0dbe180c4
   name: python-ironic-cisco
   conf: rpmfactory-core
   maintainers:
@@ -4160,8 +4192,11 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: f6492106beca1ba4c2f824e7fc816e917f989aa1
     ocata:
+      source-branch: f6492106beca1ba4c2f824e7fc816e917f989aa1
     newton:
+      source-branch: f6492106beca1ba4c2f824e7fc816e917f989aa1
   conf: rpmfactory-lib
   upstream: git://github.com/redhat-cip/hardware.git
   maintainers:
@@ -4304,8 +4339,11 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 5e9b27ee97b40f87d2cf65a53fcea6860a7a4731
     ocata:
+      source-branch: 5e9b27ee97b40f87d2cf65a53fcea6860a7a4731
     newton:
+      source-branch: 5e9b27ee97b40f87d2cf65a53fcea6860a7a4731
   conf: rpmfactory-client
   maintainers:
   - ifarkas@redhat.com
@@ -4393,8 +4431,11 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 4f5e9f658b309b361f0148945a0a1ae63621090d
     ocata:
+      source-branch: 4f5e9f658b309b361f0148945a0a1ae63621090d
     newton:
+      source-branch: 4f5e9f658b309b361f0148945a0a1ae63621090d
   conf: rpmfactory-core
   maintainers:
   - Kevin.Fox@pnnl.gov
@@ -4665,7 +4706,9 @@ packages:
     queens:
     pike:
     ocata:
+      source-branch: 86ac4f82ce7b01d2d841e633f99ff6599df54d06
     newton:
+      source-branch: 86ac4f82ce7b01d2d841e633f99ff6599df54d06
   buildsys-tags:
     cloud7-openstack-newton-testing: python-horizon-tests-tempest-0.0.1-0.1.5378f71git.el7
     cloud7-openstack-newton-release: python-horizon-tests-tempest-0.0.1-0.1.5378f71git.el7
@@ -4793,6 +4836,7 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: master
     ocata:
       source-branch: 054c186b1e818cc9c9701d419dbc2618f98480e7
   conf: rpmfactory-lib
@@ -4907,7 +4951,9 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 0e4d7c02f956af7d57d4c4e3b6827995b0a053a2
     ocata:
+      source-branch: 0e4d7c02f956af7d57d4c4e3b6827995b0a053a2
   maintainers:
   - mbultel@redhat.com
   buildsys-tags:
@@ -4935,7 +4981,9 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: 6fc8d21b3baaf2ea1294e3429602c8ba97811848
     ocata:
+      source-branch: 6fc8d21b3baaf2ea1294e3429602c8ba97811848
   conf: rpmfactory-lib
   maintainers:
   - chkumar@redhat.com
@@ -4999,6 +5047,15 @@ packages:
   - lhh@redhat.com
   - lon@metamorphism.com
   - rhallise@redhat.com
+  tags:
+    queens-uc:
+    queens:
+    pike:
+      source-branch: master
+    ocata:
+      source-branch: master
+    newton:
+      source-branch: master
   buildsys-tags:
     cloud7-openstack-common-testing: openstack-selinux-0.8.7-1.el7
     cloud7-openstack-common-release: openstack-selinux-0.8.7-1.el7
@@ -5050,6 +5107,7 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: da736d115bfeb10c9adf8d019696203bba5cbf8d
   maintainers:
   - asegurap@redhat.com
   - dmellado@redhat.com
@@ -5209,6 +5267,7 @@ packages:
     queens-uc:
     queens:
     pike:
+      source-branch: d73c5c3fcb724ea6aa5589d9977d337dac8f80a0
   maintainers:
   - dnyanmpawar@gmail.com
   - pawarsandeepu@gmail.com
