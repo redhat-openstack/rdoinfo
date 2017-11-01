@@ -500,7 +500,7 @@ packages:
     queens:
     pike:
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-vitrage-0.0.1-1.e5f1e91git.el7
+    cloud7-openstack-pike-testing: puppet-vitrage-1.0.0-1.el7
     cloud7-openstack-pike-release: puppet-vitrage-0.0.1-1.e5f1e91git.el7
 - project: puppet-vswitch
   conf: rpmfactory-puppet
@@ -1736,7 +1736,7 @@ packages:
     cloud7-openstack-newton-release: openstack-heat-7.0.6-1.el7
     cloud7-openstack-ocata-testing: openstack-heat-8.0.5-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.4-1.el7
-    cloud7-openstack-pike-testing: openstack-heat-9.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-heat-9.0.1-1.el7
     cloud7-openstack-pike-release: openstack-heat-9.0.0-1.el7
 - project: cinder
   conf: rpmfactory-core
@@ -2756,7 +2756,7 @@ packages:
     cloud7-openstack-newton-release: python-heatclient-1.5.2-1.el7
     cloud7-openstack-ocata-testing: python-heatclient-1.8.1-1.el7
     cloud7-openstack-ocata-release: python-heatclient-1.8.1-1.el7
-    cloud7-openstack-pike-testing: python-heatclient-1.11.0-1.el7
+    cloud7-openstack-pike-testing: python-heatclient-1.11.1-1.el7
     cloud7-openstack-pike-release: python-heatclient-1.11.0-1.el7
 - project: cinderclient
   conf: rpmfactory-client
@@ -4208,7 +4208,7 @@ packages:
     cloud7-openstack-newton-release: openstack-rally-0.9.1-1.el7
     cloud7-openstack-ocata-testing: openstack-rally-0.9.1-1.el7
     cloud7-openstack-ocata-release: openstack-rally-0.9.1-1.el7
-    cloud7-openstack-pike-testing: openstack-rally-0.9.1-1.el7
+    cloud7-openstack-pike-testing: openstack-rally-0.10.0-1.el7
     cloud7-openstack-pike-release: openstack-rally-0.9.1-1.el7
 - project: tempest
   tags:
