@@ -1627,6 +1627,13 @@ packages:
     cloud7-openstack-pike-release: python-glance-store-0.22.0-1.el7
 - project: swift
   conf: rpmfactory-core
+  tags:
+    # Fixme(ykarel) once the issue introduced in
+    # https://review.openstack.org/#/c/500158 is fixed
+    queens-uc:
+      source-branch: 449d83fb0c8668f444baf3c74cf15c26a70bb02e
+    queens:
+      source-branch: 449d83fb0c8668f444baf3c74cf15c26a70bb02e
   maintainers:
   - zaitcev@redhat.com
   buildsys-tags:
