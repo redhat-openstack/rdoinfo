@@ -1790,7 +1790,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-6.3.0-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-7.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-7.0.3-1.el7
-    cloud7-openstack-pike-testing: openstack-ironic-9.1.1-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-9.1.2-1.el7
     cloud7-openstack-pike-release: openstack-ironic-9.1.1-1.el7
 - project: neutron
   conf: rpmfactory-core
@@ -3931,7 +3931,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.2-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.2-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.3-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.2-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
@@ -5232,7 +5232,7 @@ packages:
   - mfedosin@gmail.com
   - idan.narotzki@nokia.com
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-glareclient-0.4.2-1.el7
+    cloud7-openstack-pike-testing: python-glareclient-0.4.3-1.el7
     cloud7-openstack-pike-release: python-glareclient-0.4.2-1.el7
 - project: keystone-tempest-plugin
   conf: rpmfactory-tempest-plugin
