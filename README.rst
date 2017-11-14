@@ -25,8 +25,8 @@ An example of metadata associated to a package is provided here::
       conf: rpmfactory-client
       upstream: git://git.openstack.org/openstack/python-novaclient
       patches: http://review.rdoproject.org/r/p/openstack/novaclient.git
-      distgit: https://github.com/rdo-packages/novaclient-distgit.git
-      master-distgit: https://github.com/rdo-packages/novaclient-distgit.git
+      distgit: https://review.rdoproject.org/r/openstack/novaclient-distgit
+      master-distgit: https://review.rdoproject.org/r/openstack/novaclient-distgit
       review-origin: ssh://review.rdoproject.org:29418/openstack/novaclient-distgit.git
       review-patches: ssh://review.rdoproject.org:29418/openstack/novaclient.git
       tags:
@@ -130,14 +130,14 @@ Usage
 
 
 `rdoinfo` is a dynamic information source so you probably want some mechanism
-to sync latest from github and import the `rdoinfo` parser module in order to
-have up-to-date RDO information.
+to sync latest from review.rdoproject.org and import the `rdoinfo` parser
+module in order to have up-to-date RDO information.
 
 See `rdoinfo/__init__.py:parse_info_file` function or `verify.py` script to
 get an idea what's going on.
 
-`rdopkg <https://github.com/redhat-openstack/rdopkg>`_ provides
-`rdopkg.actionmods.rdoinfo module <https://github.com/redhat-openstack/rdopkg/blob/master/rdopkg/actionmods/rdoinfo.py>`_
+`rdopkg <https://softwarefactory-project.io/r/#/q/project:rdopkg>`_ provides
+`rdopkg.actionmods.rdoinfo module <https://softwarefactory-project.io/r/gitweb?p=rdopkg.git;a=blob;f=rdopkg/actionmods/rdoinfo.py>`_
 which can fetch this repo for you (into `~/.rdopkg/rdoinfo` by default), keep
 it up-to-date, easily import the parser and give you the parsed info
 structure.
@@ -152,5 +152,5 @@ structure.
 
 Projects that use `rdoinfo`:
 
- * `rdopkg <https://github.com/redhat-openstack/rdopkg>`_
- * `DLRN <https://github.com/openstack-packages/DLRN>`_
+ * `rdopkg <https://softwarefactory-project.io/r/#/q/project:rdopkg>`_
+ * `DLRN <https://softwarefactory-project.io/r/#/q/project:DLRN>`_
