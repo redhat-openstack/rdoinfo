@@ -3238,7 +3238,7 @@ packages:
 - project: oslotest
   tags:
     queens-uc:
-      source-branch: 2.18.1
+      source-branch: 3.0.0
     queens:
     pike:
       source-branch: 2.17.0
@@ -3514,7 +3514,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     queens-uc:
-      source-branch: 3.32.0
+      source-branch: 3.33.0
     queens:
     pike:
       source-branch: 3.30.0
@@ -3534,7 +3534,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     queens-uc:
-      source-branch: 1.29.0
+      source-branch: 1.30.0
     queens:
     pike:
       source-branch: 1.25.1
@@ -3572,7 +3572,7 @@ packages:
 - project: oslo-service
   tags:
     queens-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
     queens:
     pike:
       source-branch: 1.25.0
@@ -3941,7 +3941,7 @@ packages:
   - apevec@redhat.com
   tags:
     queens-uc:
-      source-branch: 1.13.0
+      source-branch: 1.14.0
     queens:
     pike:
       source-branch: 1.11.0
