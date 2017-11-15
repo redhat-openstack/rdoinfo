@@ -1952,6 +1952,16 @@ packages:
   maintainers:
   - nmagnezi@redhat.com
   - ihrachys@redhat.com
+- project: octaviaclient
+  conf: rpmfactory-client
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - ihrachys@redhat.com
+  - nmagnezi@redhat.com
+  - cgoncalves@redhat.com
 - project: watcher
   conf: rpmfactory-core
   tags:
