@@ -2373,9 +2373,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-oswin-tempest-tests-plugin
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
+    queens-uc:
+    queens:
   maintainers:
   - mkopec@redhat.com
 - project: os-xenapi
