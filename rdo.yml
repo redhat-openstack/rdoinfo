@@ -1929,6 +1929,16 @@ packages:
     cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
     cloud7-openstack-pike-testing: openstack-octavia-1.0.1-1.el7
     cloud7-openstack-pike-release: openstack-octavia-1.0.1-1.el7
+- project: octavia-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-octavia-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - nmagnezi@redhat.com
+  - ihrachys@redhat.com
 - project: watcher
   conf: rpmfactory-core
   tags:
