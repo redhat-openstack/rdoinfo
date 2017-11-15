@@ -1833,6 +1833,18 @@ packages:
     cloud7-openstack-ocata-release: python-neutron-lib-1.1.0-1.el7
     cloud7-openstack-pike-testing: python-neutron-lib-1.9.1-1.el7
     cloud7-openstack-pike-release: python-neutron-lib-1.9.1-1.el7
+- project: neutron-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-neutron-tests-tempest
+  tags:
+    queens-uc:
+    queens:
+  maintainers:
+  - ihrachys@redhat.com
+  - majopela@redhat.com
+  - jlibosva@redhat.com
+  - nmagnezi@redhat.com
+  - twilson@redhat.com
 - project: neutron-fwaas
   conf: rpmfactory-core
   maintainers:
