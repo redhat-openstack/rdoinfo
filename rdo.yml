@@ -484,7 +484,7 @@ packages:
     cloud7-openstack-newton-release: puppet-tripleo-5.6.5-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.4-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.4-1.el7
-    cloud7-openstack-pike-testing: puppet-tripleo-7.4.3-1.el7
+    cloud7-openstack-pike-testing: puppet-tripleo-7.4.4-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.3-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
@@ -1909,7 +1909,7 @@ packages:
     cloud7-openstack-newton-release: python-designate-tests-tempest-0.1.1-0.1.5fde085git.el7
     cloud7-openstack-ocata-testing: python-designate-tests-tempest-0.2.0-1.el7
     cloud7-openstack-ocata-release: python-designate-tests-tempest-0.2.0-1.el7
-    cloud7-openstack-pike-testing: python-designate-tests-tempest-0.2.0-0.1.4c094d1git.el7
+    cloud7-openstack-pike-testing: python-designate-tests-tempest-0.2.0-3.4c094d1git.el7
     cloud7-openstack-pike-release: python-designate-tests-tempest-0.2.0-0.1.4c094d1git.el7
 - project: octavia
   tags:
@@ -2103,7 +2103,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.4-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.4-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.4-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.4-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.3-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2198,7 +2198,7 @@ packages:
     cloud7-openstack-newton-release: instack-undercloud-5.3.3-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.2-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.2-1.el7
-    cloud7-openstack-pike-testing: instack-undercloud-7.4.3-1.el7
+    cloud7-openstack-pike-testing: instack-undercloud-7.4.4-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.3-1.el7
 - project: heat-templates
   tags:
@@ -3097,7 +3097,7 @@ packages:
     cloud7-openstack-newton-release: python-tripleoclient-5.4.3-1.el7
     cloud7-openstack-ocata-testing: python-tripleoclient-6.2.1-1.el7
     cloud7-openstack-ocata-release: python-tripleoclient-6.2.1-1.el7
-    cloud7-openstack-pike-testing: python-tripleoclient-7.3.3-1.el7
+    cloud7-openstack-pike-testing: python-tripleoclient-7.3.4-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.3-1.el7
 - project: zaqarclient
   tags:
@@ -3907,7 +3907,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.5-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.2-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.3-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.4-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.3-1.el7
 - project: tripleo-repos
   tags:
@@ -3932,7 +3932,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.2-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.3-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.4-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.3-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
@@ -4275,7 +4275,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tempest-13.0.0-12.ab030abgit.el7
     cloud7-openstack-ocata-testing: openstack-tempest-16.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-tempest-16.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tempest-17.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tempest-17.1.0-1.el7
     cloud7-openstack-pike-release: openstack-tempest-17.0.0-1.el7
 - project: tempest-lib
   # retired in ocata release
