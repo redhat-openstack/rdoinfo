@@ -1598,7 +1598,7 @@ packages:
     cloud7-openstack-newton-release: openstack-nova-14.0.9-1.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.7-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.7-1.el7
-    cloud7-openstack-pike-testing: openstack-nova-16.0.2-1.el7
+    cloud7-openstack-pike-testing: openstack-nova-16.0.3-1.el7
     cloud7-openstack-pike-release: openstack-nova-16.0.2-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -1686,7 +1686,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ceilometer-7.1.1-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.1-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.1-1.el7
-    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.1-3.el7
+    cloud7-openstack-pike-testing: openstack-ceilometer-9.0.2-1.el7
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.1-3.el7
 - project: gnocchi
   conf: rpmfactory-core
@@ -1922,7 +1922,7 @@ packages:
     cloud7-openstack-newton-release: python-designate-tests-tempest-0.1.1-0.1.5fde085git.el7
     cloud7-openstack-ocata-testing: python-designate-tests-tempest-0.2.0-1.el7
     cloud7-openstack-ocata-release: python-designate-tests-tempest-0.2.0-1.el7
-    cloud7-openstack-pike-testing: python-designate-tests-tempest-0.2.0-3.4c094d1git.el7
+    cloud7-openstack-pike-testing: python-designate-tests-tempest-0.3.0-1.el7
     cloud7-openstack-pike-release: python-designate-tests-tempest-0.2.0-0.1.4c094d1git.el7
 - project: octavia
   tags:
@@ -4218,7 +4218,7 @@ packages:
     cloud7-openstack-newton-release: python-os-brick-1.6.2-1.el7
     cloud7-openstack-ocata-testing: python-os-brick-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-os-brick-1.11.0-1.el7
-    cloud7-openstack-pike-testing: python-os-brick-1.15.3-1.el7
+    cloud7-openstack-pike-testing: python-os-brick-1.15.4-1.el7
     cloud7-openstack-pike-release: python-os-brick-1.15.3-1.el7
 - project: hardware
   tags:
@@ -4307,7 +4307,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tempest-13.0.0-12.ab030abgit.el7
     cloud7-openstack-ocata-testing: openstack-tempest-16.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-tempest-16.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tempest-17.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tempest-17.1.0-1.el7
     cloud7-openstack-pike-release: openstack-tempest-17.0.0-1.el7
 - project: tempest-lib
   # retired in ocata release
@@ -4424,7 +4424,7 @@ packages:
     cloud7-openstack-newton-release: openstack-mistral-3.0.2-1.el7
     cloud7-openstack-ocata-testing: openstack-mistral-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-4.0.2-1.el7
-    cloud7-openstack-pike-testing: openstack-mistral-5.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-mistral-5.2.0-1.el7
     cloud7-openstack-pike-release: openstack-mistral-5.0.0-1.el7
 - project: mistral-lib
   tags:
@@ -4495,7 +4495,7 @@ packages:
     cloud7-openstack-newton-release: openstack-mistral-ui-3.0.1-1.el7
     cloud7-openstack-ocata-testing: openstack-mistral-ui-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-ui-4.0.0-1.el7
-    cloud7-openstack-pike-testing: openstack-mistral-ui-5.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-mistral-ui-5.2.0-1.el7
     cloud7-openstack-pike-release: openstack-mistral-ui-5.0.0-1.el7
 - project: magnum-ui
   name: openstack-magnum-ui
