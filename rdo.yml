@@ -3023,7 +3023,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     queens-uc:
-      source-branch: 4.17.0
+      source-branch: 4.18.0
     queens:
     pike:
       source-branch: 4.17.0
@@ -3406,7 +3406,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     queens-uc:
-      source-branch: 5.10.0
+      source-branch: 5.11.0
     queens:
     pike:
       source-branch: 5.9.0
@@ -3526,7 +3526,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
     queens-uc:
-      source-branch: 2.19.2
+      source-branch: 2.19.3
     queens:
     pike:
       source-branch: 2.17.0
@@ -3665,7 +3665,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 0.7.0
+      source-branch: 0.8.0
     queens:
     pike:
       source-branch: 0.4.0
@@ -4662,7 +4662,7 @@ packages:
 - project: reno
   tags:
     queens-uc:
-      source-branch: 2.5.1
+      source-branch: 2.6.0
     queens:
     pike:
       source-branch: 2.5.0
