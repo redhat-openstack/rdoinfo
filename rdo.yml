@@ -306,7 +306,7 @@ packages:
     cloud7-openstack-newton-release: puppet-horizon-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-horizon-10.4.0-1.el7
     cloud7-openstack-ocata-release: puppet-horizon-10.4.0-1.el7
-    cloud7-openstack-pike-testing: puppet-horizon-11.3.0-1.el7
+    cloud7-openstack-pike-testing: puppet-horizon-11.4.0-1.el7
     cloud7-openstack-pike-release: puppet-horizon-11.3.0-1.el7
 - project: puppet-ironic
   conf: rpmfactory-puppet
@@ -484,7 +484,7 @@ packages:
     cloud7-openstack-newton-release: puppet-tripleo-5.6.5-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.5-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.5-1.el7
-    cloud7-openstack-pike-testing: puppet-tripleo-7.4.4-1.el7
+    cloud7-openstack-pike-testing: puppet-tripleo-7.4.5-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.4-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
@@ -1598,7 +1598,7 @@ packages:
     cloud7-openstack-newton-release: openstack-nova-14.0.10-1.el7
     cloud7-openstack-ocata-testing: openstack-nova-15.0.8-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.0.8-1.el7
-    cloud7-openstack-pike-testing: openstack-nova-16.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-nova-16.0.3-2.el7
     cloud7-openstack-pike-release: openstack-nova-16.0.3-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -1805,7 +1805,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-9.4.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.4-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.4-1.el7
-    cloud7-openstack-pike-testing: openstack-neutron-11.0.2-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-11.0.2-2.el7
     cloud7-openstack-pike-release: openstack-neutron-11.0.2-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -2038,7 +2038,7 @@ packages:
     cloud7-openstack-newton-release: python-django-horizon-10.0.5-1.el7
     cloud7-openstack-ocata-testing: python-django-horizon-11.0.4-1.el7
     cloud7-openstack-ocata-release: python-django-horizon-11.0.4-1.el7
-    cloud7-openstack-pike-testing: python-django-horizon-12.0.0-2.el7
+    cloud7-openstack-pike-testing: python-django-horizon-12.0.1-1.el7
     cloud7-openstack-pike-release: python-django-horizon-12.0.0-2.el7
 - project: trove
   conf: rpmfactory-core
@@ -2136,7 +2136,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.5-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.5-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.5-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.4-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.4-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2176,7 +2176,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-image-elements-5.3.2-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-image-elements-6.1.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.1-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.2-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.1-1.el7
 - project: tripleo-validations
   tags:
@@ -2193,7 +2193,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-validations-5.1.2-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.6.1-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.1-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.2-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.3-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.2-1.el7
 - project: instack
   tags:
@@ -2231,7 +2231,7 @@ packages:
     cloud7-openstack-newton-release: instack-undercloud-5.3.4-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.2-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.2-1.el7
-    cloud7-openstack-pike-testing: instack-undercloud-7.4.4-1.el7
+    cloud7-openstack-pike-testing: instack-undercloud-7.4.5-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.4-1.el7
 - project: heat-templates
   tags:
@@ -2275,7 +2275,7 @@ packages:
     cloud7-openstack-newton-release: os-apply-config-5.1.0-1.el7
     cloud7-openstack-ocata-testing: os-apply-config-6.1.1-1.el7
     cloud7-openstack-ocata-release: os-apply-config-6.1.1-1.el7
-    cloud7-openstack-pike-testing: os-apply-config-7.2.0-1.el7
+    cloud7-openstack-pike-testing: os-apply-config-7.2.1-1.el7
     cloud7-openstack-pike-release: os-apply-config-7.2.0-1.el7
 - project: os-collect-config
   tags:
@@ -2293,7 +2293,7 @@ packages:
     cloud7-openstack-newton-release: os-collect-config-5.2.0-1.el7
     cloud7-openstack-ocata-testing: os-collect-config-6.1.1-1.el7
     cloud7-openstack-ocata-release: os-collect-config-6.1.1-1.el7
-    cloud7-openstack-pike-testing: os-collect-config-7.2.0-1.el7
+    cloud7-openstack-pike-testing: os-collect-config-7.2.1-1.el7
     cloud7-openstack-pike-release: os-collect-config-7.2.0-1.el7
 - project: os-net-config
   tags:
@@ -2311,7 +2311,7 @@ packages:
     cloud7-openstack-newton-release: os-net-config-5.2.1-1.el7
     cloud7-openstack-ocata-testing: os-net-config-6.1.1-1.el7
     cloud7-openstack-ocata-release: os-net-config-6.1.1-1.el7
-    cloud7-openstack-pike-testing: os-net-config-7.3.1-1.el7
+    cloud7-openstack-pike-testing: os-net-config-7.3.2-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.1-1.el7
 - project: os-refresh-config
   tags:
@@ -3129,7 +3129,7 @@ packages:
     cloud7-openstack-newton-release: python-tripleoclient-5.4.3-1.el7
     cloud7-openstack-ocata-testing: python-tripleoclient-6.2.1-1.el7
     cloud7-openstack-ocata-release: python-tripleoclient-6.2.1-1.el7
-    cloud7-openstack-pike-testing: python-tripleoclient-7.3.4-1.el7
+    cloud7-openstack-pike-testing: python-tripleoclient-7.3.5-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.4-1.el7
 - project: zaqarclient
   tags:
@@ -3285,7 +3285,7 @@ packages:
     cloud7-openstack-newton-release: python-oslotest-2.10.1-1.el7
     cloud7-openstack-ocata-testing: python-oslotest-2.13.1-1.el7
     cloud7-openstack-ocata-release: python-oslotest-2.13.1-1.el7
-    cloud7-openstack-pike-testing: python-oslotest-2.17.0-1.el7
+    cloud7-openstack-pike-testing: python-oslotest-2.17.1-1.el7
     cloud7-openstack-pike-release: python-oslotest-2.17.0-1.el7
 - project: oslo-sphinx
   conf: rpmfactory-lib
@@ -3319,7 +3319,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-i18n-3.9.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-i18n-3.12.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-i18n-3.12.0-1.el7
-    cloud7-openstack-pike-testing: python-oslo-i18n-3.17.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-i18n-3.17.1-1.el7
     cloud7-openstack-pike-release: python-oslo-i18n-3.17.0-1.el7
 - project: oslo-messaging
   conf: rpmfactory-lib
@@ -3359,7 +3359,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-cache-1.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-cache-1.17.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-cache-1.17.0-1.el7
-    cloud7-openstack-pike-testing: python-oslo-cache-1.25.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-cache-1.25.1-1.el7
     cloud7-openstack-pike-release: python-oslo-cache-1.25.0-1.el7
 - project: oslo-config
   conf: rpmfactory-lib
@@ -3419,7 +3419,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-rootwrap-5.1.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-rootwrap-5.4.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-rootwrap-5.4.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-rootwrap-5.9.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-rootwrap-5.9.1-1.el7
     cloud7-openstack-pike-release: python-oslo-rootwrap-5.9.0-1.el7
 - project: oslo-serialization
   conf: rpmfactory-lib
@@ -3439,7 +3439,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-serialization-2.13.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-serialization-2.16.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-serialization-2.16.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-serialization-2.20.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-serialization-2.20.1-1.el7
     cloud7-openstack-pike-release: python-oslo-serialization-2.20.0-1.el7
 - project: oslo-middleware
   conf: rpmfactory-lib
@@ -3479,7 +3479,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-db-4.13.6-1.el7
     cloud7-openstack-ocata-testing: python-oslo-db-4.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-db-4.17.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-db-4.25.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-db-4.25.1-1.el7
     cloud7-openstack-pike-release: python-oslo-db-4.25.0-1.el7
 - project: oslo-utils
   conf: rpmfactory-lib
@@ -3499,7 +3499,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-utils-3.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-utils-3.22.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-utils-3.22.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-utils-3.28.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-utils-3.28.1-1.el7
     cloud7-openstack-pike-release: python-oslo-utils-3.28.0-1.el7
 - project: oslo-vmware
   conf: rpmfactory-lib
@@ -3519,7 +3519,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-vmware-2.14.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-vmware-2.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-vmware-2.17.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-vmware-2.23.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-vmware-2.23.1-1.el7
     cloud7-openstack-pike-release: python-oslo-vmware-2.23.0-1.el7
 - project: oslo-context
   conf: rpmfactory-lib
@@ -3539,7 +3539,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-context-2.9.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-context-2.12.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-context-2.12.2-1.el7
-    cloud7-openstack-pike-testing: python-oslo-context-2.17.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-context-2.17.1-1.el7
     cloud7-openstack-pike-release: python-oslo-context-2.17.0-1.el7
 - project: oslo-log
   conf: rpmfactory-lib
@@ -3559,7 +3559,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-log-3.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-log-3.20.1-2.el7
     cloud7-openstack-ocata-release: python-oslo-log-3.20.1-2.el7
-    cloud7-openstack-pike-testing: python-oslo-log-3.30.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-log-3.30.1-1.el7
     cloud7-openstack-pike-release: python-oslo-log-3.30.0-1.el7
 - project: oslo-policy
   conf: rpmfactory-lib
@@ -3579,7 +3579,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-policy-1.14.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-policy-1.18.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-policy-1.18.0-1.el7
-    cloud7-openstack-pike-testing: python-oslo-policy-1.25.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-policy-1.25.2-1.el7
     cloud7-openstack-pike-release: python-oslo-policy-1.25.1-1.el7
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
@@ -3599,7 +3599,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-versionedobjects-1.17.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-versionedobjects-1.21.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-versionedobjects-1.21.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-versionedobjects-1.26.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-versionedobjects-1.26.1-1.el7
     cloud7-openstack-pike-release: python-oslo-versionedobjects-1.26.0-1.el7
 - project: oslo-service
   tags:
@@ -3619,7 +3619,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-service-1.16.1-1.el7
     cloud7-openstack-ocata-testing: python-oslo-service-1.19.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-service-1.19.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-service-1.25.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-service-1.25.1-1.el7
     cloud7-openstack-pike-release: python-oslo-service-1.25.0-1.el7
 - project: oslo-reports
   tags:
@@ -3639,7 +3639,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-reports-1.14.0-1.el7
     cloud7-openstack-ocata-testing: python-oslo-reports-1.17.1-1.el7
     cloud7-openstack-ocata-release: python-oslo-reports-1.17.1-1.el7
-    cloud7-openstack-pike-testing: python-oslo-reports-1.22.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-reports-1.22.1-1.el7
     cloud7-openstack-pike-release: python-oslo-reports-1.22.0-1.el7
 - project: oslo-privsep
   tags:
@@ -3659,7 +3659,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-privsep-1.13.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-privsep-1.16.0-1.el7
     cloud7-openstack-ocata-release: python-oslo-privsep-1.16.0-1.el7
-    cloud7-openstack-pike-testing: python-oslo-privsep-1.22.0-1.el7
+    cloud7-openstack-pike-testing: python-oslo-privsep-1.22.1-1.el7
     cloud7-openstack-pike-release: python-oslo-privsep-1.22.0-1.el7
 - project: ovsdbapp
   conf: rpmfactory-lib
@@ -3696,7 +3696,7 @@ packages:
     cloud7-openstack-newton-release: python-stevedore-1.17.1-1.el7
     cloud7-openstack-ocata-testing: python-stevedore-1.20.1-1.el7
     cloud7-openstack-ocata-release: python-stevedore-1.20.1-1.el7
-    cloud7-openstack-pike-testing: python-stevedore-1.25.0-1.el7
+    cloud7-openstack-pike-testing: python-stevedore-1.25.1-1.el7
     cloud7-openstack-pike-release: python-stevedore-1.25.0-1.el7
 - project: castellan
   tags:
@@ -3715,7 +3715,7 @@ packages:
     cloud7-openstack-newton-release: python-castellan-0.4.0-1.el7
     cloud7-openstack-ocata-testing: python-castellan-0.5.0-1.el7
     cloud7-openstack-ocata-release: python-castellan-0.5.0-1.el7
-    cloud7-openstack-pike-testing: python-castellan-0.12.0-1.el7
+    cloud7-openstack-pike-testing: python-castellan-0.12.1-1.el7
     cloud7-openstack-pike-release: python-castellan-0.12.0-1.el7
 - project: taskflow
   conf: rpmfactory-lib
@@ -3734,7 +3734,7 @@ packages:
     cloud7-openstack-newton-release: python-taskflow-2.6.1-1.el7
     cloud7-openstack-ocata-testing: python-taskflow-2.9.1-1.el7
     cloud7-openstack-ocata-release: python-taskflow-2.9.1-1.el7
-    cloud7-openstack-pike-testing: python-taskflow-2.14.0-1.el7
+    cloud7-openstack-pike-testing: python-taskflow-2.14.1-1.el7
     cloud7-openstack-pike-release: python-taskflow-2.14.0-1.el7
 - project: pycadf
   conf: rpmfactory-lib
@@ -3831,7 +3831,7 @@ packages:
     cloud7-openstack-newton-release: python-futurist-0.18.0-1.el7
     cloud7-openstack-ocata-testing: python-futurist-0.21.1-1.el7
     cloud7-openstack-ocata-release: python-futurist-0.21.1-1.el7
-    cloud7-openstack-pike-testing: python-futurist-1.3.0-1.el7
+    cloud7-openstack-pike-testing: python-futurist-1.3.1-1.el7
     cloud7-openstack-pike-release: python-futurist-1.3.0-1.el7
 - project: cursive
   tags:
@@ -3939,7 +3939,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.6-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.3-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.3-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.4-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.4-1.el7
 - project: tripleo-repos
   tags:
@@ -3964,7 +3964,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.2-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.4-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.4-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
@@ -4194,7 +4194,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.2-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.2.3-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.3-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.2-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.1-1.el7
 - project: os-brick
   tags:
@@ -5188,6 +5188,8 @@ packages:
   - mrunge@redhat.com
   - jbadiapa@redhat.com
   - lars@redhat.com
+  buildsys-tags:
+    cloud7-openstack-pike-testing: osops-tools-monitoring-oschecks-0.0.1-0.1.1a3ca01git.el7
 - project: paunch
   tags:
     queens-uc:
