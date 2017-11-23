@@ -100,7 +100,8 @@ a common pattern, such as upstream Git repo or package name. These configuration
 * rpmfactory-lib, for generic Python libraries (e.g. oslo-sphinx, oslo-messaging)
 * rpmfactory-puppet, for Puppet modules
 * rpmfactory-tempest-plugin, for tempest plugins packages
-* unmanaged-dependency, for dependencies whose distgit is not managed using RDO gerrit instance.
+* fedora-dependency, for dependencies which are rebuilds from fedora packages with no fork.
+* rdo-dependency, for dependencies whose distgit is a fork from fedora in github.com/rdo-common
 
 Once you have defined a configuration in your new project section using *conf* atribute,
 most of the options are defined for you. Note that any option specified in the package section
