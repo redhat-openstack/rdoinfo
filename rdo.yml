@@ -1837,9 +1837,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
   tags:
-    under-review:
-    # queens-uc:
-    # queens:
+    queens-uc:
+    queens:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
