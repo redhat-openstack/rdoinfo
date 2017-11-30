@@ -5125,10 +5125,10 @@ packages:
 - project: collectd-gnocchi
   name: python-collectd-gnocchi
   conf: rpmfactory-lib
-  upstream: https://github.com/jd/collectd-gnocchi
+  upstream: https://github.com/gnocchixyz/collectd-gnocchi
   tags:
-    under-review:
-    # queens-uc
+    queens-uc:
+    queens:
   maintainers:
   - lars@redhat.com
   - mmagr@redhat.com
