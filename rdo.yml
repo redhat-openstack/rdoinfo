@@ -5420,6 +5420,9 @@ packages:
   name: python-zaqar-tests-tempest
   tags:
     queens-uc:
+      # Fixme(ykarel) once the issue introduced in
+      # https://review.openstack.org/#/c/522422 is fixed
+      source-branch: 30219666aa0723ff19f6ea46aeb7063242e81bc4
     queens:
   maintainers:
   - therve@redhat.com
