@@ -3250,7 +3250,7 @@ packages:
 - project: mox3
   tags:
     queens-uc:
-      source-branch: 0.23.0
+      source-branch: 0.24.0
     queens:
     pike:
       source-branch: 0.23.0
@@ -3326,7 +3326,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     queens-uc:
-      source-branch: 5.34.0
+      source-branch: 5.34.1
     queens:
     pike:
       source-branch: 5.30.1
@@ -3486,7 +3486,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     queens-uc:
-      source-branch: 3.31.0
+      source-branch: 3.32.0
     queens:
     pike:
       source-branch: 3.28.1
@@ -3546,7 +3546,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     queens-uc:
-      source-branch: 3.34.0
+      source-branch: 3.35.0
     queens:
     pike:
       source-branch: 3.30.1
@@ -3566,7 +3566,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     queens-uc:
-      source-branch: 1.30.0
+      source-branch: 1.31.0
     queens:
     pike:
       source-branch: 1.25.2
@@ -3758,7 +3758,7 @@ packages:
 - project: debtcollector
   tags:
     queens-uc:
-      source-branch: 1.18.0
+      source-branch: 1.19.0
     queens:
     pike:
       source-branch: 1.17.1
@@ -3817,7 +3817,7 @@ packages:
 - project: futurist
   tags:
     queens-uc:
-      source-branch: 1.4.0
+      source-branch: 1.5.0
     queens:
     pike:
       source-branch: 1.3.1
