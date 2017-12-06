@@ -3096,7 +3096,7 @@ packages:
 - project: ironic-inspector-client
   tags:
     queens-uc:
-      source-branch: 2.1.0
+      source-branch: 3.0.0
     queens:
     pike:
       source-branch: 2.1.0
@@ -3304,7 +3304,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
     queens-uc:
-      source-branch: 3.18.0
+      source-branch: 3.19.0
     queens:
     pike:
       source-branch: 3.17.1
@@ -3406,7 +3406,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
     queens-uc:
-      source-branch: 5.11.0
+      source-branch: 5.12.0
     queens:
     pike:
       source-branch: 5.9.1
@@ -3446,7 +3446,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
     queens-uc:
-      source-branch: 3.32.1
+      source-branch: 3.33.0
     queens:
     pike:
       source-branch: 3.30.1
@@ -3466,7 +3466,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     queens-uc:
-      source-branch: 4.30.0
+      source-branch: 4.31.0
     queens:
     pike:
       source-branch: 4.25.1
@@ -3506,7 +3506,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     queens-uc:
-      source-branch: 2.24.0
+      source-branch: 2.25.0
     queens:
     pike:
       source-branch: 2.23.1
@@ -3586,7 +3586,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     queens-uc:
-      source-branch: 1.29.0
+      source-branch: 1.30.0
     queens:
     pike:
       source-branch: 1.26.1
@@ -3604,7 +3604,7 @@ packages:
 - project: oslo-service
   tags:
     queens-uc:
-      source-branch: 1.27.0
+      source-branch: 1.28.0
     queens:
     pike:
       source-branch: 1.25.1
@@ -3624,7 +3624,7 @@ packages:
 - project: oslo-reports
   tags:
     queens-uc:
-      source-branch: 1.24.0
+      source-branch: 1.25.0
     queens:
     pike:
       source-branch: 1.22.1
@@ -3644,7 +3644,7 @@ packages:
 - project: oslo-privsep
   tags:
     queens-uc:
-      source-branch: 1.23.0
+      source-branch: 1.24.0
     queens:
     pike:
       source-branch: 1.22.1
@@ -3681,7 +3681,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 1.27.1
+      source-branch: 1.28.0
     queens:
     pike:
       source-branch: 1.25.1
@@ -3777,7 +3777,7 @@ packages:
 - project: automaton
   tags:
     queens-uc:
-      source-branch: 1.13.0
+      source-branch: 1.13.1
     queens:
     pike:
       source-branch: 1.12.1
@@ -5193,7 +5193,7 @@ packages:
 - project: paunch
   tags:
     queens-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
     queens:
     pike:
       source-branch: 1.5.2
