@@ -5456,3 +5456,10 @@ packages:
     #queens:
   maintainers:
   - ykarel@redhat.com
+- project: tripleo-ipsec
+  conf: rpmfactory-lib
+  name: ansible-tripleo-ipsec
+  tags:
+    under-review:
+  maintainers:
+  - jaosorior@gmail.com
