@@ -5446,3 +5446,12 @@ packages:
     #queens:
   maintainers:
   - ramishra@redhat.com
+- project: murano-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-murano-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - ykarel@redhat.com
