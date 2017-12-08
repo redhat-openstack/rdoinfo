@@ -1,10 +1,11 @@
 import collections
 import copy
 import six
-import yaml
+import ruamel.yaml as yaml
 from os import path
 
 
+conf_maps = {}
 __version__ = '0.2'
 
 """
@@ -50,6 +51,10 @@ class DuplicatedProject(InvalidInfoFormat):
     msg_fmt = "Duplicated project: %(prj)s"
 
 
+class NotFound(RdoinfoException):
+    msg_fmt = "Package Not Found: %(package)s"
+
+
 def include_packages(info, include_info):
     if include_info:
         if 'packages' in include_info.keys():
@@ -69,12 +74,15 @@ def parse_info_file(fn, apply_tag=None, include_fns=['deps.yml']):
     :returns: dictionary containing all packages in rdoinfo
     """
     info = yaml.load(open(fn, 'rb'))
+    conf_maps[fn] = info['package-configs'].keys()
     for fn in include_fns:
         include_file = path.join(path.dirname(fn), fn)
         include_info = yaml.load(open(include_file, 'rb'))
+        conf_maps[fn] = include_info['package-configs'].keys()
         info = include_packages(info, include_info)
     parse_info(info, apply_tag=apply_tag)
     return info
+
 
 def parse_info(info, apply_tag=None):
     parse_releases(info)
@@ -206,3 +214,65 @@ def parse_packages(info, apply_tag=None):
             parsed_pkgs.append(parsed_pkg)
 
     info['packages'] = parsed_pkgs
+
+
+def find_package(fn, name):
+    """Find package info by name
+
+    :param fn: name of main metadata file, as rdo.yml
+    :param name: Package name to search
+    """
+    info = parse_info_file(fn)
+    try:
+        package = [x for x in info['packages']
+                   if x['name'] == name][0]
+        return package
+    except IndexError:
+        raise NotFound(package=name)
+
+
+def add_package(fn, pkg):
+    """Add a package
+
+    :param fn: name of main metadata file, as rdo.yml
+    :param pkg: Package data dict
+    """
+    info = parse_info_file(fn)
+    pkgparse = parse_package(pkg, info)
+    for k, v in conf_maps.items():
+        if pkgparse['conf'] in v:
+            data_file = k
+    if data_file:
+        with open(data_file, 'rb') as infile:
+            data_info = yaml.load(infile, Loader=yaml.RoundTripLoader)
+        data_info['packages'].append(pkgparse)
+        with open(data_file, 'w') as outfile:
+            outfile.write(yaml.dump(data_info, Dumper=yaml.RoundTripDumper,
+                                    indent=2))
+
+
+def add_tag(fn, pkg, tag_type, tag, pin):
+    """Add/Update tag for a package
+
+    :param fn: name of main metadata file, as rdo.yml
+    :param pkg: name of the package to add a tag
+    :param tag_type: Type of the tag: tags or buildsys-tags
+    :param tag: tag to be added or updated
+    :param pin: value for the tag
+    """
+    package = find_package(fn, pkg)
+    info = parse_info_file(fn)
+    pkgparse = parse_package(package, info)
+    for k, v in conf_maps.items():
+        if pkgparse['conf'] in v:
+            data_file = k
+    if data_file:
+        with open(data_file, 'rb') as infile:
+            data_info = yaml.load(infile, Loader=yaml.RoundTripLoader)
+        newpkg = [x for x in data_info['packages'] if x['name'] == pkg][0]
+        tagdict = newpkg.get(tag_type, {})
+        tagdict[tag] = pin
+        newpkg[tag_type] = tagdict
+        with open(data_file, 'w') as outfile:
+            outfile.write(yaml.dump(data_info, Dumper=yaml.RoundTripDumper,
+                                    indent=2))
