@@ -5483,3 +5483,10 @@ packages:
     under-review:
   maintainers:
   - sdoran@redhat.com
+- project: mistral-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-mistral-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
