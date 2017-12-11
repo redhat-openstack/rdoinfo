@@ -2063,6 +2063,10 @@ packages:
     cloud7-openstack-ocata-release: python-django-openstack-auth-3.1.1-1.el7
     cloud7-openstack-pike-testing: python-django-openstack-auth-3.5.0-1.el7
     cloud7-openstack-pike-release: python-django-openstack-auth-3.5.0-1.el7
+  tags:
+    pike:
+    ocata:
+    newton:
 - project: diskimage-builder
   tags:
     queens-uc:
