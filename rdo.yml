@@ -1961,6 +1961,17 @@ packages:
   - ihrachys@redhat.com
   - nmagnezi@redhat.com
   - cgoncalves@redhat.com
+- project: octavia-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-octavia-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - nmagnezi@redhat.com
+  - ihrachys@redhat.com
+  - cgoncalves@redhat.com
 - project: watcher
   conf: rpmfactory-core
   tags:
