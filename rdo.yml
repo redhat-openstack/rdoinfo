@@ -5451,9 +5451,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-murano-tests-tempest
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
+    queens-uc:
+    queens:
   maintainers:
   - ykarel@redhat.com
 - project: tripleo-ipsec
