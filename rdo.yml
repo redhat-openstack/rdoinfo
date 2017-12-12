@@ -5473,7 +5473,8 @@ packages:
   conf: rpmfactory-lib
   name: ansible-tripleo-ipsec
   tags:
-    under-review:
+    queens-uc:
+    queens:
   maintainers:
   - jaosorior@gmail.com
 - project: ansible-role-redhat-subscription
