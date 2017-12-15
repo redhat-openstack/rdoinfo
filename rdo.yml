@@ -3079,7 +3079,7 @@ packages:
   - dougal@redhat.com
   tags:
     queens-uc:
-      source-branch: 3.12.0
+      source-branch: 3.13.0
     queens:
     pike:
       source-branch: 3.12.0
@@ -3481,7 +3481,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     queens-uc:
-      source-branch: 4.31.0
+      source-branch: 4.32.0
     queens:
     pike:
       source-branch: 4.25.1
@@ -4431,7 +4431,7 @@ packages:
     #queens:
   conf: rpmfactory-lib
   maintainers:
-    - tdunnon@redhat.com
+  - tdunnon@redhat.com
 - project: mistral
   tags:
     queens-uc:
@@ -4735,7 +4735,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 1.7.0
+      source-branch: 1.8.0
     queens:
     pike:
       source-branch: 1.7.0
