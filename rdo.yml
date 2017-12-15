@@ -5513,3 +5513,12 @@ packages:
     under-review:
     #queens-uc:
     #queens:
+- project: magnum-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-magnum-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - ykarel@redhat.com
