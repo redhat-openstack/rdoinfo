@@ -4947,6 +4947,14 @@ packages:
     cloud7-openstack-ocata-release: python-networking-l2gw-10.0.0-1.el7
     cloud7-openstack-pike-testing: python-networking-l2gw-11.0.0-1.el7
     cloud7-openstack-pike-release: python-networking-l2gw-11.0.0-1.el7
+- project: networking-l2gw-tempest-plugin
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - rnoriega@redhat.com
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
