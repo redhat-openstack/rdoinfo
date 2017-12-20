@@ -3648,3 +3648,8 @@ packages:
     cloud7-openstack-pike-testing: python-winrm-0.2.2-3.el7
     cloud7-openstack-queens-testing: python-winrm-0.2.2-3.el7
     cloud7-openstack-pike-release: python-winrm-0.2.2-3.el7
+- project: python-defusedxml
+  name: python-defusedxml
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-defusedxml-0.5.0-2.el7
