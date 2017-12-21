@@ -5561,3 +5561,12 @@ packages:
     under-review:
     #queens-uc:
     #queens:
+- project: cinder-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-cinder-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - eharney@redhat.com
