@@ -4418,6 +4418,7 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - hguemar@fedoraproject.org
+  - dougal@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-mistralclient-2.1.2-1.el7
     cloud7-openstack-newton-release: python-mistralclient-2.1.2-1.el7
@@ -4433,6 +4434,7 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - tdunnon@redhat.com
+  - dougal@redhat.com
 - project: mistral
   tags:
     queens-uc:
@@ -4443,6 +4445,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@fedoraproject.org
+  - dougal@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-mistral-3.0.2-1.el7
     cloud7-openstack-newton-release: openstack-mistral-3.0.2-1.el7
@@ -4512,6 +4515,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
+  - dougal@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-mistral-ui-3.0.1-1.el7
     cloud7-openstack-newton-release: openstack-mistral-ui-3.0.1-1.el7
@@ -5511,6 +5515,8 @@ packages:
     under-review:
     #queens-uc:
     #queens:
+  maintainers:
+  - dougal@redhat.com
 - project: tripleo-common-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-tripleo-common-tests-tempest
