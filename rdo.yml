@@ -5570,3 +5570,12 @@ packages:
     #queens:
   maintainers:
   - eharney@redhat.com
+- project: ironic-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-ironic-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
+  maintainers:
+  - dtantsur@redhat.com
