@@ -3353,7 +3353,7 @@ packages:
     cloud7-openstack-newton-release: python-oslo-messaging-5.10.2-1.el7
     cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-messaging-5.17.2-1.el7
-    cloud7-openstack-pike-testing: python-oslo-messaging-5.30.1-1.el7
+    cloud7-openstack-pike-testing: python-oslo-messaging-5.30.2-1.el7
     cloud7-openstack-pike-release: python-oslo-messaging-5.30.1-1.el7
 - project: oslo-cache
   tags:
@@ -5337,7 +5337,7 @@ packages:
   - pawarsandeepu@gmail.com
   - DL-VTAS-ENG-SDIO-HyperScale-Opensource@veritas.com
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-veritas_hyperscale-1.1.0-1.el7
+    cloud7-openstack-pike-testing: puppet-veritas_hyperscale-1.1.1-1.el7
     cloud7-openstack-pike-release: puppet-veritas_hyperscale-1.0.0-1.el7
 - project: neutron-dynamic-routing
   conf: rpmfactory-core
@@ -5438,6 +5438,8 @@ packages:
     queens:
     pike:
       source-branch: v2.2.0
+  buildsys-tags:
+    cloud7-openstack-pike-testing: puppet-archive-2.2.0-1.el7
 - project: os-service-types
   conf: rpmfactory-lib
   tags:
