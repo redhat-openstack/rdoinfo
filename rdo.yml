@@ -5432,10 +5432,11 @@ packages:
     ocata:
     newton:
   buildsys-tags:
-    cloud7-openstack-common-testing: openstack-macros-2018.1.0-0
+    cloud7-openstack-common-testing: openstack-macros-2018.1.2-0
     cloud7-openstack-common-release: openstack-macros-2018.1.0-0
-    cloud7-openstack-pike-testing: openstack-macros-2018.1.1-0
+    cloud7-openstack-pike-testing: openstack-macros-2018.1.2-0
     cloud7-openstack-pike-release: openstack-macros-2018.1.1-0
+    cloud7-openstack-queens-testing: openstack-macros-2018.1.2-0
 - project: puppet-archive
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
