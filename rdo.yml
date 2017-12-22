@@ -5466,7 +5466,9 @@ packages:
 - project: rsd-lib
   conf: rpmfactory-lib
   tags:
-    under-review:
+    queens-uc:
+      source-branch: 0.1.1
+    queens:
   maintainers:
   - nathaniel.potter@intel.com
   - lin.a.yang@intel.com
