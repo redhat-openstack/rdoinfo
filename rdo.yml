@@ -4957,9 +4957,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
+    queens-uc:
+    queens:
   maintainers:
   - rnoriega@redhat.com
 - project: heat-translator
