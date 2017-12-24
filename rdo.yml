@@ -1774,7 +1774,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-cinder-10.0.5-1.el7
     cloud7-openstack-ocata-release: openstack-cinder-10.0.5-1.el7
     cloud7-openstack-pike-testing: openstack-cinder-11.0.2-1.el7
-    cloud7-openstack-pike-release: openstack-cinder-11.0.1-1.el7
+    cloud7-openstack-pike-release: openstack-cinder-11.0.2-1.el7
 - project: ironic
   tags:
     queens-uc:
@@ -3355,7 +3355,7 @@ packages:
     cloud7-openstack-ocata-testing: python-oslo-messaging-5.17.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-messaging-5.17.2-1.el7
     cloud7-openstack-pike-testing: python-oslo-messaging-5.30.2-1.el7
-    cloud7-openstack-pike-release: python-oslo-messaging-5.30.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-messaging-5.30.2-1.el7
 - project: oslo-cache
   tags:
     queens-uc:
@@ -3921,7 +3921,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-packstack-10.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-packstack-10.0.1-1.el7
     cloud7-openstack-pike-testing: openstack-packstack-11.0.1-1.el7
-    cloud7-openstack-pike-release: openstack-packstack-11.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-packstack-11.0.1-1.el7
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
@@ -5105,7 +5105,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-kolla-4.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-kolla-4.0.2-1.el7
     cloud7-openstack-pike-testing: openstack-kolla-5.0.1-1.el7
-    cloud7-openstack-pike-release: openstack-kolla-5.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-kolla-5.0.1-1.el7
 - project: openstack-selinux
   name: openstack-selinux
   conf: rpmfactory-core
@@ -5344,7 +5344,7 @@ packages:
   - DL-VTAS-ENG-SDIO-HyperScale-Opensource@veritas.com
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-veritas_hyperscale-1.1.1-1.el7
-    cloud7-openstack-pike-release: puppet-veritas_hyperscale-1.0.0-1.el7
+    cloud7-openstack-pike-release: puppet-veritas_hyperscale-1.1.1-1.el7
 - project: neutron-dynamic-routing
   conf: rpmfactory-core
   upstream: https://github.com/openstack/neutron-dynamic-routing
@@ -5446,6 +5446,7 @@ packages:
       source-branch: v2.2.0
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-archive-2.2.0-1.el7
+    cloud7-openstack-pike-release: puppet-archive-2.2.0-1.el7
 - project: os-service-types
   conf: rpmfactory-lib
   tags:
