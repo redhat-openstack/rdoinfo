@@ -5570,3 +5570,10 @@ packages:
     #queens:
   maintainers:
   - eharney@redhat.com
+- project: congress-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-congress-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
