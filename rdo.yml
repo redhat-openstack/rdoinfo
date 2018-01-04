@@ -5579,3 +5579,10 @@ packages:
     #queens:
   maintainers:
   - dtantsur@redhat.com
+- project: ec2api-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-ec2api-tests-tempest
+  tags:
+    under-review:
+    #queens-uc:
+    #queens:
