@@ -3500,11 +3500,13 @@ packages:
     cloud7-openstack-queens-testing: python-icalendar-3.11.5-1.el7
 - project: python-netmiko
   name: python-netmiko
-  conf: unmanaged-dependency
+  conf: fedora-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-common-testing: python-netmiko-1.4.2-1.el7
     cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
-    cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-queens-testing: python-netmiko-1.4.3-1.el7
+  maintainers:
+  - divius.inside@gmail.com
 - project: python-scp
   name: python-scp
   conf: unmanaged-dependency
