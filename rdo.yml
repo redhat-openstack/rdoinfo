@@ -5475,7 +5475,9 @@ packages:
 - project: rsdclient
   conf: rpmfactory-client
   tags:
-    under-review:
+    queens-uc:
+      source-branch: 0.1.1
+    queens:
   maintainers:
   - lin.a.yang@intel.com
   - nathaniel.potter@intel.com
