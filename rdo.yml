@@ -4022,7 +4022,8 @@ packages:
 - project: networking-baremetal
   conf: rpmfactory-lib
   tags:
-    under-review:
+    queens-uc:
+    queens:
   maintainers:
   - divius.inside@gmail.com
   - harald.jensas@gmail.com
