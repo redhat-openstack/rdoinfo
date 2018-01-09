@@ -5561,9 +5561,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-trove-tests-tempest
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
+    queens-uc:
+    queens:
 - project: telemetry-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-telemetry-tests-tempest
