@@ -485,7 +485,7 @@ packages:
     cloud7-openstack-newton-release: puppet-tripleo-5.6.5-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.6-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.6-1.el7
-    cloud7-openstack-pike-testing: puppet-tripleo-7.4.6-1.el7
+    cloud7-openstack-pike-testing: puppet-tripleo-7.4.7-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.5-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
@@ -1806,7 +1806,7 @@ packages:
     cloud7-openstack-newton-release: openstack-neutron-9.4.1-1.el7
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.4-2.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.4-1.el7
-    cloud7-openstack-pike-testing: openstack-neutron-11.0.2-2.el7
+    cloud7-openstack-pike-testing: openstack-neutron-11.0.2-3.el7
     cloud7-openstack-pike-release: openstack-neutron-11.0.2-2.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -2149,7 +2149,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.7-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.7-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.7-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.6-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.7-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.5-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2206,7 +2206,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-validations-5.1.3-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.6.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.2-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.4-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.3-1.el7
 - project: instack
   tags:
@@ -2225,7 +2225,7 @@ packages:
     cloud7-openstack-newton-release: instack-5.1.0-1.el7
     cloud7-openstack-ocata-testing: instack-6.1.0-1.el7
     cloud7-openstack-ocata-release: instack-6.1.0-1.el7
-    cloud7-openstack-pike-testing: instack-7.0.1-1.el7
+    cloud7-openstack-pike-testing: instack-7.0.2-1.el7
     cloud7-openstack-pike-release: instack-7.0.1-1.el7
 - project: instack-undercloud
   tags:
@@ -2244,7 +2244,7 @@ packages:
     cloud7-openstack-newton-release: instack-undercloud-5.3.5-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.3-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.3-1.el7
-    cloud7-openstack-pike-testing: instack-undercloud-7.4.6-1.el7
+    cloud7-openstack-pike-testing: instack-undercloud-7.4.7-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.5-1.el7
 - project: heat-templates
   tags:
@@ -3954,7 +3954,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.7-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.4-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.4-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.6-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.7-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.5-1.el7
 - project: tripleo-repos
   tags:
@@ -3979,7 +3979,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-ui-1.2.1-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-3.2.2-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.2-1.el7
-    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.6-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.7-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.5-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
