@@ -1545,18 +1545,18 @@ packages:
     queens-uc:
     queens:
     pike:
-      source-branch: 047b31db32f5b6ed2555fedb1bf0cfd02d19e23d
+      source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
     ocata:
-      source-branch: 70c418cfb49d5d13e68c0584f0a30464527f6bd1
+      source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
     newton:
-      source-branch: a0321364514f52a4c110a15afbdad5109d768fe6
+      source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-systemd-0.4.0-1.a032136git.el7
-    cloud7-openstack-newton-release: puppet-systemd-0.4.0-1.a032136git.el7
-    cloud7-openstack-ocata-testing: puppet-systemd-0.4.0-2.70c418cgit.el7
-    cloud7-openstack-ocata-release: puppet-systemd-0.4.0-2.70c418cgit.el7
-    cloud7-openstack-pike-testing: puppet-systemd-1.0.0-1.047b31dgit.el7
-    cloud7-openstack-pike-release: puppet-systemd-1.0.0-1.047b31dgit.el7
+    cloud7-openstack-newton-testing: puppet-systemd-1.1.1-1.20a465bgit.el7
+    cloud7-openstack-newton-release: puppet-systemd-1.1.1-1.20a465bgit.el7
+    cloud7-openstack-ocata-testing: puppet-systemd-1.1.1-1.20a465bgit.el7
+    cloud7-openstack-ocata-release: puppet-systemd-1.1.1-1.20a465bgit.el7
+    cloud7-openstack-pike-testing: puppet-systemd-1.1.1-1.20a465bgit.el7
+    cloud7-openstack-pike-release: puppet-systemd-1.1.1-1.20a465bgit.el7
 - project: puppet-logstash
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
