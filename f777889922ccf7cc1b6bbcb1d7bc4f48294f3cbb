@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa963961_d1d02ecc",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1559,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-01-10T18:36:37Z",
+      "side": 1,
+      "message": "if we move on with this, the steps are:\n\n1. Review to update only tags: \u003creleases\u003e: source-branch\n2. Update commit, version, release and changelog in https://github.com/rdo-packages/puppet-systemd-distgit/blob/pike-rdo/puppet-systemd.spec#L3 (note pike-rdo branch)\n3. Update buildsys-tags: *-testing with the new package\n4. Update buildsys-tags: *-release with the new package\n\nDon\u0027t hesitate to contact me if you have any further question.",
+      "range": {
+        "startLine": 1559,
+        "startChar": 4,
+        "endLine": 1559,
+        "endChar": 72
+      },
+      "revId": "f777889922ccf7cc1b6bbcb1d7bc4f48294f3cbb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
