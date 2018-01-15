@@ -1256,9 +1256,9 @@ packages:
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
   tags:
     queens-uc:
-      source-branch: stable/carbon
+      source-branch: master
     queens:
-      source-branch: stable/carbon
+      source-branch: master
     pike:
       source-branch: stable/carbon
     ocata:
