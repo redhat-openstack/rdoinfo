@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fa963961_bf9d705b",
+        "filename": "deps.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 929,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2018-01-16T23:23:16Z",
+      "side": 1,
+      "message": "This was generated from what\u0027s currently tagged, and we can\u0027t really untag from -testing and -release since it would not change buildlogs and mirror.centos content.\nLet\u0027s try and see how graffiti handles.",
+      "parentUuid": "fa963961_acb0ac8c",
+      "range": {
+        "startLine": 928,
+        "startChar": 0,
+        "endLine": 929,
+        "endChar": 51
+      },
+      "revId": "c4f1f68eae5b653a3feb3771ca7143296c9d9994",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa963961_ccbad06e",
         "filename": "deps.yml",
         "patchSetId": 2
