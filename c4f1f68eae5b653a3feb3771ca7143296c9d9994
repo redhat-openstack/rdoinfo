@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa963961_acb0ac8c",
+        "filename": "deps.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 929,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-01-16T13:20:43Z",
+      "side": 1,
+      "message": "These two lines could be removed as we have it in common which is used in pike and older",
+      "range": {
+        "startLine": 928,
+        "startChar": 0,
+        "endLine": 929,
+        "endChar": 51
+      },
+      "revId": "c4f1f68eae5b653a3feb3771ca7143296c9d9994",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa963961_ccbad06e",
+        "filename": "deps.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 930,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2018-01-16T13:20:43Z",
+      "side": 1,
+      "message": "We don\u0027t use common for queens, so we need to also bump mariadb in cloud7-openstack-queens-testing tag.",
+      "range": {
+        "startLine": 930,
+        "startChar": 22,
+        "endLine": 930,
+        "endChar": 35
+      },
+      "revId": "c4f1f68eae5b653a3feb3771ca7143296c9d9994",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
