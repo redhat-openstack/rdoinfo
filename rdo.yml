@@ -2975,7 +2975,7 @@ packages:
 - project: manilaclient
   tags:
     queens-uc:
-      source-branch: 1.19.0
+      source-branch: 1.20.0
     queens:
     pike:
       source-branch: 1.17.2
@@ -3481,7 +3481,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     queens-uc:
-      source-branch: 4.32.0
+      source-branch: 4.33.0
     queens:
     pike:
       source-branch: 4.25.1
@@ -3988,7 +3988,7 @@ packages:
   - apevec@redhat.com
   tags:
     queens-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     queens:
     pike:
       source-branch: 1.11.0
@@ -5303,7 +5303,7 @@ packages:
   conf: rpmfactory-client
   tags:
     queens-uc:
-      source-branch: 0.5.0
+      source-branch: 0.5.1
     queens:
     pike:
       source-branch: 0.4.3
