@@ -923,12 +923,17 @@ packages:
   name: mariadb
   conf: unmanaged-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: mariadb-10.1.20-1.el7
+    cloud7-openstack-common-testing: mariadb-10.1.30-2.el7
     cloud7-openstack-common-release: mariadb-10.1.20-1.el7
     cloud7-openstack-newton-release: mariadb-10.1.12-4.el7
     cloud7-openstack-pike-testing: mariadb-10.1.20-2.el7
     cloud7-openstack-queens-testing: mariadb-10.1.20-2.el7
     cloud7-openstack-pike-release: mariadb-10.1.20-2.el7
+- project: Judy
+  name: Judy
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: Judy-1.0.5-8.el7
 - project: python-pyroute2
   name: python-pyroute2
   conf: unmanaged-dependency
