@@ -2400,13 +2400,18 @@ packages:
     cloud7-openstack-common-testing: python-amqplib-1.0.2-7.el7
     cloud7-openstack-common-release: python-amqplib-1.0.2-7.el7
     cloud7-openstack-queens-testing: python-amqplib-1.0.2-7.el7
+- project: nghttp2
+  name: nghttp2
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: nghttp2-1.29.0-1.el7
 - project: nodejs
   name: nodejs
   conf: unmanaged-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: nodejs-6.10.2-1.el7
     cloud7-openstack-common-release: nodejs-6.10.2-1.el7
-    cloud7-openstack-queens-testing: nodejs-6.10.2-1.el7
+    cloud7-openstack-queens-testing: nodejs-8.9.4-2.el7
 - project: python-XStatic-roboto-fontface
   name: python-XStatic-roboto-fontface
   conf: unmanaged-dependency
@@ -2590,7 +2595,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: libuv-1.9.1-1.el7
     cloud7-openstack-common-release: libuv-1.9.1-1.el7
-    cloud7-openstack-queens-testing: libuv-1.9.1-1.el7
+    cloud7-openstack-queens-testing: libuv-1.16.1-1.el7
 - project: python-XStatic-smart-table
   name: python-XStatic-smart-table
   conf: unmanaged-dependency
@@ -3362,7 +3367,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tripleo-ui-deps-3-4.el7
     cloud7-openstack-ocata-release: openstack-tripleo-ui-deps-3-4.el7
     cloud7-openstack-pike-testing: openstack-tripleo-ui-deps-7-6.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-ui-deps-8-3.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-ui-deps-8-4.el7
     version-locked:
     - cloud7-openstack-newton-release
     - cloud7-openstack-ocata-release
