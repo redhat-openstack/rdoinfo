@@ -2047,7 +2047,7 @@ packages:
     cloud7-openstack-newton-release: python-django-horizon-10.0.5-1.el7
     cloud7-openstack-ocata-testing: python-django-horizon-11.0.4-1.el7
     cloud7-openstack-ocata-release: python-django-horizon-11.0.4-1.el7
-    cloud7-openstack-pike-testing: python-django-horizon-12.0.1-1.el7
+    cloud7-openstack-pike-testing: python-django-horizon-12.0.2-1.el7
     cloud7-openstack-pike-release: python-django-horizon-12.0.1-1.el7
 - project: trove
   conf: rpmfactory-core
@@ -4242,7 +4242,7 @@ packages:
     cloud7-openstack-newton-release: python-os-brick-1.6.2-1.el7
     cloud7-openstack-ocata-testing: python-os-brick-1.11.0-1.el7
     cloud7-openstack-ocata-release: python-os-brick-1.11.0-1.el7
-    cloud7-openstack-pike-testing: python-os-brick-1.15.4-1.el7
+    cloud7-openstack-pike-testing: python-os-brick-1.15.5-1.el7
     cloud7-openstack-pike-release: python-os-brick-1.15.4-1.el7
 - project: hardware
   tags:
@@ -5000,7 +5000,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-tacker-0.7.0-1.el7
     cloud7-openstack-ocata-release: openstack-tacker-0.7.0-1.el7
-    cloud7-openstack-pike-testing: openstack-tacker-0.8.0-1.el7
+    cloud7-openstack-pike-testing: openstack-tacker-0.8.1-1.el7
     cloud7-openstack-pike-release: openstack-tacker-0.8.0-1.el7
 - project: tackerclient
   conf: rpmfactory-client
