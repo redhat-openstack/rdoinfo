@@ -3501,7 +3501,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     queens-uc:
-      source-branch: 3.34.0
+      source-branch: 3.35.0
     queens:
     pike:
       source-branch: 3.28.1
@@ -3639,7 +3639,7 @@ packages:
 - project: oslo-reports
   tags:
     queens-uc:
-      source-branch: 1.25.0
+      source-branch: 1.26.0
     queens:
     pike:
       source-branch: 1.22.1
@@ -3716,7 +3716,7 @@ packages:
 - project: castellan
   tags:
     queens-uc:
-      source-branch: 0.16.0
+      source-branch: 0.17.0
     queens:
     pike:
       source-branch: 0.12.2
@@ -3792,7 +3792,7 @@ packages:
 - project: automaton
   tags:
     queens-uc:
-      source-branch: 1.13.1
+      source-branch: 1.14.0
     queens:
     pike:
       source-branch: 1.12.1
@@ -3988,7 +3988,7 @@ packages:
   - apevec@redhat.com
   tags:
     queens-uc:
-      source-branch: 1.15.0
+      source-branch: 1.15.1
     queens:
     pike:
       source-branch: 1.11.0
@@ -4618,7 +4618,7 @@ packages:
 - project: muranoclient
   tags:
     queens-uc:
-      source-branch: 0.14.0
+      source-branch: 1.0.0
     queens:
     pike:
       source-branch: 0.14.0
@@ -4746,7 +4746,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     queens-uc:
-      source-branch: 1.8.0
+      source-branch: 1.9.0
     queens:
     pike:
       source-branch: 1.7.0
