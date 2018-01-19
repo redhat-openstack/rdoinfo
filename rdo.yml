@@ -206,14 +206,14 @@ packages:
   # example to show how buildsys-tags will be used
     cloud7-openstack-ocata-testing: puppet-aodh-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-aodh-10.4.1-1.el7
-    cloud7-openstack-newton-testing: puppet-aodh-9.6.0-1.el7
+    cloud7-openstack-newton-testing: puppet-aodh-9.7.0-1.el7
     cloud7-openstack-newton-release: puppet-aodh-9.6.0-1.el7
     cloud7-openstack-pike-testing: puppet-aodh-11.4.0-1.el7
     cloud7-openstack-pike-release: puppet-aodh-11.4.0-1.el7
 - project: puppet-barbican
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-barbican-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-barbican-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-barbican-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-barbican-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-barbican-10.3.1-1.el7
@@ -222,7 +222,7 @@ packages:
 - project: puppet-ceilometer
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-ceilometer-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-ceilometer-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-ceilometer-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-ceilometer-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-ceilometer-10.3.1-1.el7
@@ -231,7 +231,7 @@ packages:
 - project: puppet-cinder
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-cinder-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-cinder-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-cinder-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-cinder-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-cinder-10.3.1-1.el7
@@ -252,7 +252,7 @@ packages:
 - project: puppet-designate
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-designate-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-designate-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-designate-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-designate-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-designate-10.3.1-1.el7
@@ -275,7 +275,7 @@ packages:
 - project: puppet-glance
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-glance-9.6.0-1.el7
+    cloud7-openstack-newton-testing: puppet-glance-9.7.0-1.el7
     cloud7-openstack-newton-release: puppet-glance-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-glance-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-glance-10.3.1-1.el7
@@ -284,7 +284,7 @@ packages:
 - project: puppet-gnocchi
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-gnocchi-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-gnocchi-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-gnocchi-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-gnocchi-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-gnocchi-10.3.1-1.el7
@@ -293,7 +293,7 @@ packages:
 - project: puppet-heat
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-heat-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-heat-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-heat-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-heat-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-heat-10.3.1-1.el7
@@ -302,7 +302,7 @@ packages:
 - project: puppet-horizon
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-horizon-9.7.0-1.el7
+    cloud7-openstack-newton-testing: puppet-horizon-9.8.0-1.el7
     cloud7-openstack-newton-release: puppet-horizon-9.7.0-1.el7
     cloud7-openstack-ocata-testing: puppet-horizon-10.5.0-1.el7
     cloud7-openstack-ocata-release: puppet-horizon-10.5.0-1.el7
@@ -311,7 +311,7 @@ packages:
 - project: puppet-ironic
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-ironic-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-ironic-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-ironic-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-ironic-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-ironic-10.4.1-1.el7
@@ -320,7 +320,7 @@ packages:
 - project: puppet-keystone
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-keystone-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-keystone-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-keystone-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-keystone-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-keystone-10.3.1-1.el7
@@ -341,7 +341,7 @@ packages:
 - project: puppet-manila
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-manila-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-manila-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-manila-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-manila-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-manila-10.3.1-1.el7
@@ -350,7 +350,7 @@ packages:
 - project: puppet-neutron
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-neutron-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-neutron-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-neutron-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-neutron-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-neutron-10.3.1-1.el7
@@ -382,7 +382,7 @@ packages:
 - project: puppet-oslo
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-oslo-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-oslo-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-oslo-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-oslo-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-oslo-10.3.1-1.el7
@@ -391,7 +391,7 @@ packages:
 - project: puppet-openstack_extras
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-openstack_extras-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-openstack_extras-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-openstack_extras-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-openstack_extras-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-openstack_extras-10.3.1-1.el7
@@ -400,7 +400,7 @@ packages:
 - project: puppet-openstacklib
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-openstacklib-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-openstacklib-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-openstacklib-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-openstacklib-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-openstacklib-10.4.1-1.el7
@@ -409,7 +409,7 @@ packages:
 - project: puppet-ovn
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-ovn-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-ovn-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-ovn-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-ovn-10.4.1-1.el7
     cloud7-openstack-ocata-release: puppet-ovn-10.4.1-1.el7
@@ -442,7 +442,7 @@ packages:
 - project: puppet-sahara
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-sahara-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-sahara-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-sahara-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-sahara-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-sahara-10.3.1-1.el7
@@ -451,7 +451,7 @@ packages:
 - project: puppet-swift
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-swift-9.6.0-1.el7
+    cloud7-openstack-newton-testing: puppet-swift-9.7.0-1.el7
     cloud7-openstack-newton-release: puppet-swift-9.6.0-1.el7
     cloud7-openstack-ocata-testing: puppet-swift-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-swift-10.3.1-1.el7
@@ -472,7 +472,7 @@ packages:
 - project: puppet-tempest
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-tempest-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-tempest-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-tempest-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-tempest-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-tempest-10.3.1-1.el7
@@ -490,7 +490,7 @@ packages:
 - project: puppet-trove
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-trove-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-trove-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-trove-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-trove-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-trove-10.3.1-1.el7
@@ -508,7 +508,7 @@ packages:
 - project: puppet-vswitch
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-vswitch-5.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-vswitch-5.6.0-1.el7
     cloud7-openstack-newton-release: puppet-vswitch-5.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-vswitch-6.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-vswitch-6.3.1-1.el7
@@ -553,7 +553,7 @@ packages:
 - project: puppet-mistral
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-mistral-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-mistral-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-mistral-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-mistral-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-mistral-10.3.1-1.el7
@@ -571,7 +571,7 @@ packages:
 - project: puppet-zaqar
   conf: rpmfactory-puppet
   buildsys-tags:
-    cloud7-openstack-newton-testing: puppet-zaqar-9.5.0-1.el7
+    cloud7-openstack-newton-testing: puppet-zaqar-9.6.0-1.el7
     cloud7-openstack-newton-release: puppet-zaqar-9.5.0-1.el7
     cloud7-openstack-ocata-testing: puppet-zaqar-10.3.1-1.el7
     cloud7-openstack-ocata-release: puppet-zaqar-10.3.1-1.el7
@@ -4164,7 +4164,7 @@ packages:
   - openstack-networking@cisco.com
   - sambetts@cisco.com
   buildsys-tags:
-    cloud7-openstack-newton-testing: python-networking-cisco-4.0.0-1.el7
+    cloud7-openstack-newton-testing: python-networking-cisco-5.5.0-1.el7
     cloud7-openstack-newton-release: python-networking-cisco-4.0.0-1.el7
     cloud7-openstack-ocata-testing: python-networking-cisco-5.1.0-1.el7
     cloud7-openstack-ocata-release: python-networking-cisco-5.1.0-1.el7
