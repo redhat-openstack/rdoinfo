@@ -1864,6 +1864,11 @@ packages:
     cloud7-openstack-common-testing: python-pep8-1.5.7-2.el7
     cloud7-openstack-common-release: python-pep8-1.5.7-2.el7
     cloud7-openstack-queens-testing: python-pep8-1.5.7-2.el7
+- project: python-pycodestyle
+  name: python-pycodestyle
+  conf: unmanaged-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pycodestyle-2.3.1-1.el7
 - project: python-uri-templates
   name: python-uri-templates
   conf: unmanaged-dependency
@@ -2364,7 +2369,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-flake8-2.4.1-2.el7
     cloud7-openstack-common-release: python-flake8-2.4.1-2.el7
-    cloud7-openstack-queens-testing: python-flake8-2.4.1-2.el7
+    cloud7-openstack-queens-testing: python-flake8-2.6.2-1.el7
 - project: python-pytest-cov
   name: python-pytest-cov
   conf: unmanaged-dependency
