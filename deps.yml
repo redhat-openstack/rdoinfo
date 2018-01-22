@@ -634,11 +634,12 @@ packages:
     cloud7-openstack-queens-testing: python-XStatic-mdi-1.4.57.0-4.el7
 - project: python-django
   name: python-django
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-django-1.8.14-1.el7
     cloud7-openstack-common-release: python-django-1.8.14-1.el7
-    cloud7-openstack-queens-testing: python-django-1.8.14-1.el7
+    cloud7-openstack-queens-candidate: python-django-1.11.8-2.el7
+    cloud7-openstack-queens-testing: python-django-1.8.14-2.el7
 - project: python-django-discover-runner
   name: python-django-discover-runner
   conf: fedora-dependency
@@ -846,6 +847,7 @@ packages:
     cloud7-openstack-common-testing: python-django-babel-0.4.0-2.el7
     cloud7-openstack-common-release: python-django-babel-0.4.0-2.el7
     cloud7-openstack-queens-testing: python-django-babel-0.4.0-2.el7
+    cloud7-openstack-queens-candidate: python-django-babel-0.6.2-1.el7
 - project: python-websockify
   name: python-websockify
   conf: fedora-dependency
@@ -1318,7 +1320,7 @@ packages:
     cloud7-openstack-queens-testing: python-cmd2-0.6.8-8.el7
 - project: python-kubernetes
   name: python-kubernetes
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-kubernetes-1.0.0-0.3.b3.el7
     cloud7-openstack-common-release: python-kubernetes-1.0.0-0.3.b3.el7
