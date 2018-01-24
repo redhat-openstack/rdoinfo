@@ -5593,9 +5593,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-congress-tests-tempest
   tags:
-    under-review:
-    #queens-uc:
-    #queens:
+    queens-uc:
+    queens:
 - project: tap-as-a-service
   conf: rpmfactory-lib
   name: python-tap-as-a-service
