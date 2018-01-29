@@ -522,11 +522,12 @@ packages:
     cloud7-openstack-queens-testing: python-gabbi-1.33.0-1.el7
 - project: python-ldap3
   name: python-ldap3
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-ldap3-0.9.8.6-2.el7
     cloud7-openstack-common-release: python-ldap3-0.9.8.6-2.el7
     cloud7-openstack-queens-testing: python-ldap3-0.9.8.6-2.el7
+    cloud7-openstack-queens-candidate: python-ldap3-2.4.1-2.el7
 - project: python-cradox
   name: python-cradox
   conf: fedora-dependency
@@ -728,6 +729,7 @@ packages:
     cloud7-openstack-pike-release: python-alembic-0.8.10-1.el7
     cloud7-openstack-queens-testing: python-alembic-0.8.10-1.el7
     cloud7-openstack-ocata-release: python-alembic-0.8.10-1.el7
+    cloud7-openstack-queens-candidate: python-alembic-0.9.7-1.el7
 - project: python-statsd
   name: python-statsd
   conf: fedora-dependency
@@ -1784,7 +1786,7 @@ packages:
     cloud7-openstack-queens-testing: python-characteristic-14.3.0-4.el7
 - project: python-sqlalchemy
   name: python-sqlalchemy
-  conf: fedora-dependency
+  conf: rdo-dependency
   maintainers:
   - mbayer@redhat.com
   buildsys-tags:
@@ -1793,6 +1795,7 @@ packages:
     cloud7-openstack-pike-testing: python-sqlalchemy-1.1.11-1.el7
     cloud7-openstack-pike-release: python-sqlalchemy-1.1.11-1.el7
     cloud7-openstack-queens-testing: python-sqlalchemy-1.1.11-1.el7
+    cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -3186,6 +3189,7 @@ packages:
     cloud7-openstack-pike-testing: python-botocore-1.6.0-1.el7
     cloud7-openstack-queens-testing: python-botocore-1.6.0-1.el7
     cloud7-openstack-pike-release: python-botocore-1.6.0-1.el7
+    cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
