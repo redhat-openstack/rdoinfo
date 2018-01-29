@@ -600,7 +600,10 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
+    # Fixme(ykarel) Unpin once the bug is fixed:
+    # https://bugs.launchpad.net/tripleo/+bug/1745712
     queens-uc:
+      source-branch: d4857dfabe00ccbd158050e9245d074818a7cf15
     queens:
     pike:
       source-branch: b783e1e99def0bf45a391a2ebce5a39bd4174e11
