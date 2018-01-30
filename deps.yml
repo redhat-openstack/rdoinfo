@@ -526,8 +526,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-ldap3-0.9.8.6-2.el7
     cloud7-openstack-common-release: python-ldap3-0.9.8.6-2.el7
-    cloud7-openstack-queens-testing: python-ldap3-0.9.8.6-2.el7
-    cloud7-openstack-queens-candidate: python-ldap3-2.4.1-2.el7
+    cloud7-openstack-queens-testing: python-ldap3-2.4.1-3.el7
+    cloud7-openstack-queens-candidate: python-ldap3-2.4.1-3.el7
 - project: python-cradox
   name: python-cradox
   conf: fedora-dependency
@@ -639,7 +639,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-django-1.8.14-1.el7
     cloud7-openstack-common-release: python-django-1.8.14-1.el7
-    cloud7-openstack-queens-testing: python-django-1.8.14-1.el7
+    cloud7-openstack-queens-testing: python-django-1.11.8-1.el7
 - project: python-django-discover-runner
   name: python-django-discover-runner
   conf: fedora-dependency
@@ -727,7 +727,7 @@ packages:
     cloud7-openstack-ocata-testing: python-alembic-0.8.10-1.el7
     cloud7-openstack-pike-testing: python-alembic-0.8.10-1.el7
     cloud7-openstack-pike-release: python-alembic-0.8.10-1.el7
-    cloud7-openstack-queens-testing: python-alembic-0.8.10-1.el7
+    cloud7-openstack-queens-testing: python-alembic-0.9.7-1.el7
     cloud7-openstack-ocata-release: python-alembic-0.8.10-1.el7
     cloud7-openstack-queens-candidate: python-alembic-0.9.7-1.el7
 - project: python-statsd
@@ -847,7 +847,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-django-babel-0.4.0-2.el7
     cloud7-openstack-common-release: python-django-babel-0.4.0-2.el7
-    cloud7-openstack-queens-testing: python-django-babel-0.4.0-2.el7
+    cloud7-openstack-queens-testing: python-django-babel-0.6.2-1.el7
     cloud7-openstack-queens-candidate: python-django-babel-0.6.2-1.el7
 - project: python-websockify
   name: python-websockify
@@ -1794,7 +1794,7 @@ packages:
     cloud7-openstack-common-release: python-sqlalchemy-1.0.11-1.el7
     cloud7-openstack-pike-testing: python-sqlalchemy-1.1.11-1.el7
     cloud7-openstack-pike-release: python-sqlalchemy-1.1.11-1.el7
-    cloud7-openstack-queens-testing: python-sqlalchemy-1.1.11-1.el7
+    cloud7-openstack-queens-testing: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
 - project: qpid-qmf
   name: qpid-qmf
@@ -3187,7 +3187,7 @@ packages:
     cloud7-openstack-common-testing: python-botocore-1.4.43-1.el7
     cloud7-openstack-common-release: python-botocore-1.4.43-1.el7
     cloud7-openstack-pike-testing: python-botocore-1.6.0-1.el7
-    cloud7-openstack-queens-testing: python-botocore-1.6.0-1.el7
+    cloud7-openstack-queens-testing: python-botocore-1.8.33-1.el7
     cloud7-openstack-pike-release: python-botocore-1.6.0-1.el7
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
 - project: python-XStatic-tv4
