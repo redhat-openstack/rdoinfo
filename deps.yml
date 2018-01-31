@@ -3663,3 +3663,8 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-jsonmodels-2.2-1.el7
+- project: blazarclient
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: python-blazarclient-1.0.1-1.el7
+  name: python-blazarclient
+  conf: fedora-dependency
