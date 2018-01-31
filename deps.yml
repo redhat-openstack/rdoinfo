@@ -3663,3 +3663,8 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-jsonmodels-2.2-1.el7
+- project: python-google-auth
+  name: python-google-auth
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: python-google-auth-1.3.0-1.el7
