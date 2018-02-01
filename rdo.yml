@@ -2496,7 +2496,7 @@ packages:
 - project: ironic-lib
   tags:
     queens-uc:
-      source-branch: 2.11.0
+      source-branch: 2.12.0
     queens:
     pike:
       source-branch: 2.10.0
@@ -2772,7 +2772,7 @@ packages:
   conf: rpmfactory-client
   tags:
     queens-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
     queens:
     pike:
       source-branch: 3.4.0
@@ -3143,7 +3143,7 @@ packages:
 - project: zaqarclient
   tags:
     queens-uc:
-      source-branch: 1.8.0
+      source-branch: 1.9.0
     queens:
     pike:
       source-branch: 1.7.0
@@ -3241,7 +3241,7 @@ packages:
 - project: monascaclient
   tags:
     queens-uc:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
     queens:
     pike:
       source-branch: 1.7.1
@@ -3435,7 +3435,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
     queens-uc:
-      source-branch: 2.21.1
+      source-branch: 2.23.0
     queens:
     pike:
       source-branch: 2.20.2
@@ -3595,7 +3595,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     queens-uc:
-      source-branch: 1.31.1
+      source-branch: 1.31.2
     queens:
     pike:
       source-branch: 1.26.1
