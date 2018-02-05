@@ -2519,11 +2519,12 @@ packages:
     cloud7-openstack-pike-release: subunit-1.2.0-14.el7
 - project: python-jsonschema
   name: python-jsonschema
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-jsonschema-2.3.0-1.el7
     cloud7-openstack-common-release: python-jsonschema-2.3.0-1.el7
-    cloud7-openstack-queens-testing: python-jsonschema-2.3.0-1.el7
+    cloud7-openstack-queens-testing: python-jsonschema-2.6.0-2.el7
+    cloud7-openstack-queens-candidate: python-jsonschema-2.6.0-2.el7
 - project: v8
   name: v8
   conf: fedora-dependency
