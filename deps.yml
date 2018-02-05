@@ -3287,13 +3287,14 @@ packages:
     cloud7-openstack-queens-testing: python-click-6.3-1.el7
 - project: python-openstackdocstheme
   name: python-openstackdocstheme
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-openstackdocstheme-1.3.0-1.el7
     cloud7-openstack-common-release: python-openstackdocstheme-1.3.0-1.el7
     cloud7-openstack-pike-testing: python-openstackdocstheme-1.11.0-1.el7
     cloud7-openstack-pike-release: python-openstackdocstheme-1.11.0-1.el7
     cloud7-openstack-queens-testing: python-openstackdocstheme-1.11.0-1.el7
+    cloud7-openstack-queens-candidate: python-openstackdocstheme-1.18.1-1.el7
 - project: python-pymongo
   name: python-pymongo
   conf: fedora-dependency
