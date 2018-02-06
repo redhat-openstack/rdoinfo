@@ -4721,3 +4721,11 @@ packages:
   conf: fedora-dependency
   maintainers:
   - moguimar@redhat.com
+- project: python-ucsmsdk
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-ucsmsdk-0.9.3.2-1.el7
+  name: python-ucsmsdk
+  conf: rdo-dependency
+  upstream: https://github.com/CiscoUcs/ucsmsdk
+  maintainers:
+  - sadasu@cisco.com
