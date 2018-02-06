@@ -2084,6 +2084,7 @@ packages:
     cloud7-openstack-common-testing: python-extras-0.0.3-2.el7
     cloud7-openstack-common-release: python-extras-0.0.3-2.el7
     cloud7-openstack-queens-testing: python-extras-0.0.3-2.el7
+    cloud7-openstack-queens-candidate: python-extras-1.0.0-2.el7
 - project: jemalloc
   name: jemalloc
   conf: fedora-dependency
@@ -3260,6 +3261,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-dns-1.12.0-1.el7
     cloud7-openstack-common-release: python-dns-1.12.0-1.el7
+    cloud7-openstack-queens-candidate: python-dns-1.15.0-5.el7
 - project: ruby-augeas
   name: ruby-augeas
   conf: fedora-dependency
