@@ -3687,3 +3687,8 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-candidate: oniguruma-6.7.0-1.el7
+- project: python-munch
+  name: python-munch
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: python-munch-2.2.0-2.el7
