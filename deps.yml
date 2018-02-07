@@ -3679,3 +3679,13 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-candidate: python-google-auth-1.3.0-1.el7
     cloud7-openstack-queens-testing: python-google-auth-1.3.0-1.el7
+- project: python-decorator
+  name: python-decorator
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: python-decorator-4.2.1-1.el7
+- project: oniguruma
+  name: oniguruma
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: oniguruma-6.7.0-1.el7
