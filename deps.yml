@@ -1452,7 +1452,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-mox-0.5.3-6.el7
     cloud7-openstack-common-release: python-mox-0.5.3-6.el7
-    cloud7-openstack-queens-testing: python-mox-0.5.3-6.el7
+    cloud7-openstack-queens-testing: python-mox-0.5.3-15.el7
     cloud7-openstack-queens-candidate: python-mox-0.5.3-15.el7
 - project: python-linecache2
   name: python-linecache2
@@ -1749,7 +1749,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-testresources-0.2.7-6.el7
     cloud7-openstack-common-release: python-testresources-0.2.7-6.el7
-    cloud7-openstack-queens-testing: python-testresources-0.2.7-6.el7
+    cloud7-openstack-queens-testing: python-testresources-1.0.0-6.el7
     cloud7-openstack-queens-candidate: python-testresources-1.0.0-6.el7
 - project: python-funcsigs
   name: python-funcsigs
@@ -2244,7 +2244,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-jsonpatch-1.14-1.el7
     cloud7-openstack-common-release: python-jsonpatch-1.14-1.el7
-    cloud7-openstack-queens-testing: python-jsonpatch-1.14-1.el7
+    cloud7-openstack-queens-testing: python-jsonpatch-1.21-1.el7
     cloud7-openstack-queens-candidate: python-jsonpatch-1.21-1.el7
 - project: python-etcd
   name: python-etcd
@@ -2993,7 +2993,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-testscenarios-0.4-4.el7
     cloud7-openstack-common-release: python-testscenarios-0.4-4.el7
-    cloud7-openstack-queens-testing: python-testscenarios-0.4-4.el7
+    cloud7-openstack-queens-testing: python-testscenarios-0.5.0-8.el7
     cloud7-openstack-queens-candidate: python-testscenarios-0.5.0-8.el7
 - project: python-wsaccel
   name: python-wsaccel
@@ -3694,4 +3694,5 @@ packages:
   name: python-munch
   conf: fedora-dependency
   buildsys-tags:
+    cloud7-openstack-queens-testing: python-munch-2.2.0-2.el7
     cloud7-openstack-queens-candidate: python-munch-2.2.0-2.el7
