@@ -2168,12 +2168,12 @@ packages:
     cloud7-openstack-queens-testing: nodejs-packaging-9-1.el7
 - project: jq
   name: jq
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: jq-1.3-2.el7
     cloud7-openstack-common-release: jq-1.3-2.el7
-    cloud7-openstack-queens-testing: jq-1.3-2.el7
-    cloud7-openstack-queens-candidate: jq-1.5-8.el7
+    cloud7-openstack-queens-testing: jq-1.5-10.el7
+    cloud7-openstack-queens-candidate: jq-1.5-10.el7
 - project: python-urllib3
   name: python-urllib3
   conf: rdo-dependency
@@ -3692,6 +3692,7 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-candidate: oniguruma-6.7.0-1.el7
+    cloud7-openstack-queens-testing: oniguruma-6.7.0-1.el7
 - project: python-munch
   name: python-munch
   conf: fedora-dependency
