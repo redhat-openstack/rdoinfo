@@ -1684,6 +1684,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-ceilometer-9.0.4-1.el7
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.4-1.el7
 - project: gnocchi
+  name: gnocchi
   conf: rpmfactory-core
   upstream: https://github.com/gnocchixyz/%(project)s
   tags:
@@ -2401,7 +2402,7 @@ packages:
     cloud7-openstack-pike-release: python-os-win-2.2.0-1.el7
 - project: oswin-tempest-plugin
   conf: rpmfactory-tempest-plugin
-  name: python-oswin-tempest-tests-plugin
+  name: python-oswin-tests-tempest
   tags:
     queens-uc:
     queens:
