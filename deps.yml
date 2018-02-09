@@ -1149,6 +1149,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-prettytable-0.7.2-1.el7
     cloud7-openstack-common-release: python-prettytable-0.7.2-1.el7
+    cloud7-openstack-queens-candidate: python-prettytable-0.7.2-12.el7
 - project: python-pymemcache
   name: python-pymemcache
   conf: fedora-dependency
@@ -3699,3 +3700,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-munch-2.2.0-2.el7
     cloud7-openstack-queens-candidate: python-munch-2.2.0-2.el7
+- project: pycryptopp
+  name: pycrytopp
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.el7
