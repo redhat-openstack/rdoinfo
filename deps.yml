@@ -3698,3 +3698,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-munch-2.2.0-2.el7
     cloud7-openstack-queens-candidate: python-munch-2.2.0-2.el7
+- project: pycryptopp
+  name: pycrytopp
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-15.el7
