@@ -925,13 +925,13 @@ packages:
     cloud7-openstack-pike-release: mariadb-10.1.20-2.el7
 - project: python-pyroute2
   name: python-pyroute2
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-pyroute2-0.4.8-1.el7
     cloud7-openstack-common-release: python-pyroute2-0.4.8-1.el7
     cloud7-openstack-pike-testing: python-pyroute2-0.4.19-1.el7
     cloud7-openstack-pike-release: python-pyroute2-0.4.19-1.el7
-    cloud7-openstack-queens-testing: python-pyroute2-0.4.19-1.el7
+    cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
 - project: wxGTK
   name: wxGTK
   conf: fedora-dependency
