@@ -1684,6 +1684,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-ceilometer-9.0.4-1.el7
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.4-1.el7
 - project: gnocchi
+  name: gnocchi
   conf: rpmfactory-core
   upstream: https://github.com/gnocchixyz/%(project)s
   tags:
