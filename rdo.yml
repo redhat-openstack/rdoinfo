@@ -484,7 +484,7 @@ packages:
     cloud7-openstack-newton-testing: puppet-tripleo-5.6.7-1.el7
     cloud7-openstack-newton-release: puppet-tripleo-5.6.7-1.el7
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.9-1.el7
-    cloud7-openstack-ocata-release: puppet-tripleo-6.5.8-1.el7
+    cloud7-openstack-ocata-release: puppet-tripleo-6.5.9-1.el7
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.8-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.8-1.el7
 - project: puppet-trove
@@ -1680,7 +1680,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-ceilometer-7.1.1-1.el7
     cloud7-openstack-newton-release: openstack-ceilometer-7.1.1-1.el7
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.3-1.el7
-    cloud7-openstack-ocata-release: openstack-ceilometer-8.1.2-1.el7
+    cloud7-openstack-ocata-release: openstack-ceilometer-8.1.3-1.el7
     cloud7-openstack-pike-testing: openstack-ceilometer-9.0.4-1.el7
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.4-1.el7
 - project: gnocchi
@@ -1723,7 +1723,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-aodh-3.0.4-1.el7
     cloud7-openstack-newton-release: openstack-aodh-3.0.4-1.el7
     cloud7-openstack-ocata-testing: openstack-aodh-4.0.3-1.el7
-    cloud7-openstack-ocata-release: openstack-aodh-4.0.2-1.el7
+    cloud7-openstack-ocata-release: openstack-aodh-4.0.3-1.el7
     cloud7-openstack-pike-testing: openstack-aodh-5.1.0-1.el7
     cloud7-openstack-pike-release: openstack-aodh-5.0.0-1.el7
 - project: panko
@@ -2143,7 +2143,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-tripleo-heat-templates-5.3.9-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-heat-templates-5.3.9-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.10-1.el7
-    cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.9-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.10-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.8-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.8-1.el7
 - project: tripleo-heat-templates-compat
@@ -2183,7 +2183,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-tripleo-image-elements-5.3.3-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-image-elements-5.3.3-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-image-elements-6.1.3-1.el7
-    cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.2-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.3-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.2-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.2-1.el7
 - project: tripleo-validations
@@ -2200,7 +2200,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-tripleo-validations-5.1.3-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-validations-5.1.3-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.6.4-1.el7
-    cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.3-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.4-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.6-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.6-1.el7
 - project: instack
@@ -2238,7 +2238,7 @@ packages:
     cloud7-openstack-newton-testing: instack-undercloud-5.3.7-1.el7
     cloud7-openstack-newton-release: instack-undercloud-5.3.7-1.el7
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.5-1.el7
-    cloud7-openstack-ocata-release: instack-undercloud-6.1.4-1.el7
+    cloud7-openstack-ocata-release: instack-undercloud-6.1.5-1.el7
     cloud7-openstack-pike-testing: instack-undercloud-7.4.8-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.8-1.el7
 - project: heat-templates
@@ -2282,7 +2282,7 @@ packages:
     cloud7-openstack-newton-testing: os-apply-config-5.1.1-1.el7
     cloud7-openstack-newton-release: os-apply-config-5.1.1-1.el7
     cloud7-openstack-ocata-testing: os-apply-config-6.1.3-1.el7
-    cloud7-openstack-ocata-release: os-apply-config-6.1.2-1.el7
+    cloud7-openstack-ocata-release: os-apply-config-6.1.3-1.el7
     cloud7-openstack-pike-testing: os-apply-config-7.2.2-1.el7
     cloud7-openstack-pike-release: os-apply-config-7.2.1-1.el7
 - project: os-collect-config
@@ -2300,7 +2300,7 @@ packages:
     cloud7-openstack-newton-testing: os-collect-config-5.2.1-1.el7
     cloud7-openstack-newton-release: os-collect-config-5.2.1-1.el7
     cloud7-openstack-ocata-testing: os-collect-config-6.1.3-1.el7
-    cloud7-openstack-ocata-release: os-collect-config-6.1.2-1.el7
+    cloud7-openstack-ocata-release: os-collect-config-6.1.3-1.el7
     cloud7-openstack-pike-testing: os-collect-config-7.2.1-1.el7
     cloud7-openstack-pike-release: os-collect-config-7.2.1-1.el7
 - project: os-net-config
@@ -2318,7 +2318,7 @@ packages:
     cloud7-openstack-newton-testing: os-net-config-5.2.2-1.el7
     cloud7-openstack-newton-release: os-net-config-5.2.2-1.el7
     cloud7-openstack-ocata-testing: os-net-config-6.1.3-1.el7
-    cloud7-openstack-ocata-release: os-net-config-6.1.2-1.el7
+    cloud7-openstack-ocata-release: os-net-config-6.1.3-1.el7
     cloud7-openstack-pike-testing: os-net-config-7.3.2-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.2-1.el7
 - project: os-refresh-config
@@ -3140,7 +3140,7 @@ packages:
     cloud7-openstack-newton-testing: python-tripleoclient-5.4.5-1.el7
     cloud7-openstack-newton-release: python-tripleoclient-5.4.5-1.el7
     cloud7-openstack-ocata-testing: python-tripleoclient-6.2.4-1.el7
-    cloud7-openstack-ocata-release: python-tripleoclient-6.2.3-1.el7
+    cloud7-openstack-ocata-release: python-tripleoclient-6.2.4-1.el7
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.7-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.7-1.el7
 - project: zaqarclient
@@ -3950,7 +3950,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-tripleo-common-5.4.7-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-common-5.4.7-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.5-1.el7
-    cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.4-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.5-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.8-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.8-1.el7
 - project: tripleo-repos
@@ -4210,7 +4210,7 @@ packages:
     cloud7-openstack-newton-testing: openstack-tripleo-puppet-elements-5.3.3-1.el7
     cloud7-openstack-newton-release: openstack-tripleo-puppet-elements-5.3.3-1.el7
     cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.2.5-1.el7
-    cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.4-1.el7
+    cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.5-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.4-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.4-1.el7
 - project: os-brick
