@@ -1768,7 +1768,7 @@ packages:
     cloud7-openstack-newton-release: openstack-cinder-9.1.4-1.el7
     cloud7-openstack-ocata-testing: openstack-cinder-10.0.5-1.el7
     cloud7-openstack-ocata-release: openstack-cinder-10.0.5-1.el7
-    cloud7-openstack-pike-testing: openstack-cinder-11.0.2-1.el7
+    cloud7-openstack-pike-testing: openstack-cinder-11.1.0-1.el7
     cloud7-openstack-pike-release: openstack-cinder-11.0.2-1.el7
 - project: ironic
   tags:
@@ -1786,7 +1786,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-6.3.0-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-7.0.3-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-7.0.3-1.el7
-    cloud7-openstack-pike-testing: openstack-ironic-9.1.2-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-9.1.3-1.el7
     cloud7-openstack-pike-release: openstack-ironic-9.1.2-1.el7
 - project: neutron
   conf: rpmfactory-core
@@ -2474,7 +2474,7 @@ packages:
     cloud7-openstack-newton-release: openstack-ironic-inspector-4.2.2-1.el7
     cloud7-openstack-ocata-testing: openstack-ironic-inspector-5.0.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-inspector-5.0.1-1.el7
-    cloud7-openstack-pike-testing: openstack-ironic-inspector-6.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-inspector-6.0.1-1.el7
     cloud7-openstack-pike-release: openstack-ironic-inspector-6.0.0-1.el7
 - project: ironic-python-agent
   tags:
@@ -2514,7 +2514,7 @@ packages:
     cloud7-openstack-newton-release: python-ironic-lib-2.1.2-1.el7
     cloud7-openstack-ocata-testing: python-ironic-lib-2.5.2-1.el7
     cloud7-openstack-ocata-release: python-ironic-lib-2.5.2-1.el7
-    cloud7-openstack-pike-testing: python-ironic-lib-2.10.0-1.el7
+    cloud7-openstack-pike-testing: python-ironic-lib-2.10.1-1.el7
     cloud7-openstack-pike-release: python-ironic-lib-2.10.0-1.el7
 - project: ironic-ui
   name: openstack-ironic-ui
@@ -2530,7 +2530,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-ironic-ui-2.2.1-1.el7
     cloud7-openstack-ocata-release: openstack-ironic-ui-2.2.1-1.el7
-    cloud7-openstack-pike-testing: openstack-ironic-ui-3.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-ui-3.0.2-1.el7
     cloud7-openstack-pike-release: openstack-ironic-ui-3.0.1-1.el7
 - project: barbican
   conf: rpmfactory-core
@@ -3687,7 +3687,7 @@ packages:
   - jlibosva@redhat.com
   - rbryant@rehdat.com
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-ovsdbapp-0.4.1-1.el7
+    cloud7-openstack-pike-testing: python-ovsdbapp-0.4.2-1.el7
     cloud7-openstack-pike-release: python-ovsdbapp-0.4.1-1.el7
 - project: stevedore
   conf: rpmfactory-lib
