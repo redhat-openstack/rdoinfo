@@ -3706,3 +3706,8 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-candidate: pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.el7
+- project: osc-placement
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-osc-placement-1.0.0-1.el7
+  name: python-osc-placement
+  conf: fedora-dependency
