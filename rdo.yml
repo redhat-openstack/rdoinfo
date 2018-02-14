@@ -204,7 +204,7 @@ package-configs:
       pike:
   rpm-packaging:
     name: '%(project)s'
-    upstream: git://git.openstack.org/openstack/rpm-packaging
+    upstream: git://git.openstack.org/openstack/%(project)s.git
     distgit: https://github.com/openstack/rpm-packaging
     distgit-path: /openstack/%(project)s
     master-distgit: https://github.com/openstack/rpm-packaging
@@ -5912,6 +5912,7 @@ packages:
   - panbalag@redhat.com
 - project: openstack-macros
   conf: rpm-packaging
+  upstream: https://github.com/javierpena/openstack-macros
   tags:
     rocky-uc:
     rocky:
