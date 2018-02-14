@@ -2478,6 +2478,17 @@ packages:
     cloud7-openstack-ocata-release: openstack-heat-agents-1.0.1-1.el7
     cloud7-openstack-pike-testing: openstack-heat-agents-1.4.0-1.el7
     cloud7-openstack-pike-release: openstack-heat-agents-1.4.0-1.el7
+- project: heat-dashboard
+  name: openstack-heat-ui
+  tags:
+    under-review:
+    #queens-uc:
+    #queens
+  buildsys-tags:
+    version-locked:
+  conf: rpmfactory-core
+  maintainers:
+  - therve@redhat.com
 - project: os-apply-config
   tags:
     rocky-uc:
