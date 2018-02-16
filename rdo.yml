@@ -989,13 +989,13 @@ packages:
     cloud7-openstack-pike-release: puppet-xinetd-2.0.0-4.1d1e6d4git.el7
 - project: puppet-cassandra
   conf: rpmfactory-puppet
-  upstream: git://github.com/locp/cassandra
+  upstream: git://github.com/voxpupuli/puppet-cassandra
   tags:
     rocky-uc:
-      source-branch: 4032d40dd0d80bf24e35a88c5fad7c742b89873b
+      source-branch: 2454099687f5e533b553bd38b3ac7f69a864408c
     rocky:
     queens:
-      source-branch: 4032d40dd0d80bf24e35a88c5fad7c742b89873b
+      source-branch: 2454099687f5e533b553bd38b3ac7f69a864408c
     pike:
       source-branch: d180a6c4c2842c06acbb4ab15856cf0f866062bc
     ocata:
