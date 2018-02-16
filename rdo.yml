@@ -2932,7 +2932,7 @@ packages:
     cloud7-openstack-ocata-testing: sahara-image-elements-6.0.2-1.el7
     cloud7-openstack-ocata-release: sahara-image-elements-6.0.2-1.el7
     cloud7-openstack-pike-testing: sahara-image-elements-7.0.1-1.el7
-    cloud7-openstack-pike-release: sahara-image-elements-7.0.0-1.el7
+    cloud7-openstack-pike-release: sahara-image-elements-7.0.1-1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
@@ -4723,7 +4723,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tempest-16.1.0-3.el7
     cloud7-openstack-ocata-release: openstack-tempest-16.1.0-3.el7
     cloud7-openstack-pike-testing: openstack-tempest-17.2.0-2.el7
-    cloud7-openstack-pike-release: openstack-tempest-17.2.0-1.el7
+    cloud7-openstack-pike-release: openstack-tempest-17.2.0-2.el7
 - project: tempest-lib
   # retired in ocata release
   tags:
@@ -4859,7 +4859,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-mistral-4.0.2-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-4.0.2-1.el7
     cloud7-openstack-pike-testing: openstack-mistral-5.2.2-1.el7
-    cloud7-openstack-pike-release: openstack-mistral-5.2.1-1.el7
+    cloud7-openstack-pike-release: openstack-mistral-5.2.2-1.el7
 - project: mistral-lib
   tags:
     rocky-uc:
@@ -4934,7 +4934,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-mistral-ui-4.0.0-1.el7
     cloud7-openstack-ocata-release: openstack-mistral-ui-4.0.0-1.el7
     cloud7-openstack-pike-testing: openstack-mistral-ui-5.2.2-1.el7
-    cloud7-openstack-pike-release: openstack-mistral-ui-5.2.1-1.el7
+    cloud7-openstack-pike-release: openstack-mistral-ui-5.2.2-1.el7
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
