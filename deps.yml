@@ -3717,3 +3717,10 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-candidate: pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.el7
+# TEMP for https://bugs.launchpad.net/tripleo/+bug/1744954
+# until Extras 7.4 update is released
+- project: docker
+  name: docker
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: docker-1.13.1-47.1.gitf43d177.el7
