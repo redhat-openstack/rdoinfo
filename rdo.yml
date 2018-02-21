@@ -768,7 +768,7 @@ packages:
     cloud7-openstack-pike-release: puppet-inifile-2.0.0-1.16fd47dgit.el7
 - project: puppet-mongodb
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-mongodb
+  upstream: git://github.com/voxpupuli/puppet-mongodb
   tags:
     rocky-uc:
       source-branch: c60e4ca4d9344b733d6d8048c8ef8face92a720e
