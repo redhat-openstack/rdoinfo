@@ -36,6 +36,7 @@ packages:
     cloud7-openstack-pike-testing: python-sphinx-1.6.2-3.el7
     cloud7-openstack-pike-release: python-sphinx-1.6.2-3.el7
     cloud7-openstack-queens-testing: python-sphinx-1.6.2-3.el7
+    cloud7-openstack-queens-release: python-sphinx-1.6.2-3.el7
 - project: python-sphinxcontrib-websupport
   name: python-sphinxcontrib-websupport
   conf: rdo-dependency
@@ -43,6 +44,7 @@ packages:
     cloud7-openstack-pike-testing: python-sphinxcontrib-websupport-1.0.1-1.el7
     cloud7-openstack-pike-release: python-sphinxcontrib-websupport-1.0.1-1.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-websupport-1.0.1-1.el7
+    cloud7-openstack-queens-release: python-sphinxcontrib-websupport-1.0.1-1.el7
 - project: python2-typing
   name: python2-typing
   conf: fedora-dependency
@@ -50,6 +52,7 @@ packages:
     cloud7-openstack-common-testing: python2-typing-3.6.1-1.el7
     cloud7-openstack-common-release: python2-typing-3.6.1-1.el7
     cloud7-openstack-queens-testing: python2-typing-3.6.1-1.el7
+    cloud7-openstack-queens-release: python2-typing-3.6.1-1.el7
 - project: python-imagesize
   name: python-imagesize
   conf: rdo-dependency
@@ -57,6 +60,7 @@ packages:
     cloud7-openstack-common-testing: python-imagesize-0.7.1-5.el7
     cloud7-openstack-common-release: python-imagesize-0.7.1-5.el7
     cloud7-openstack-queens-testing: python-imagesize-0.7.1-5.el7
+    cloud7-openstack-queens-release: python-imagesize-0.7.1-5.el7
 - project: python-snowballstemmer
   name: python-snowballstemmer
   conf: fedora-dependency
@@ -64,6 +68,7 @@ packages:
     cloud7-openstack-common-testing: python-snowballstemmer-1.2.0-2.el7
     cloud7-openstack-common-release: python-snowballstemmer-1.2.0-2.el7
     cloud7-openstack-queens-testing: python-snowballstemmer-1.2.0-2.el7
+    cloud7-openstack-queens-release: python-snowballstemmer-1.2.0-2.el7
 - project: python-sphinx-theme-alabaster
   name: python-sphinx-theme-alabaster
   conf: rdo-dependency
@@ -71,6 +76,7 @@ packages:
     cloud7-openstack-common-testing: python-sphinx-theme-alabaster-0.7.9-4.el7
     cloud7-openstack-common-release: python-sphinx-theme-alabaster-0.7.9-4.el7
     cloud7-openstack-queens-testing: python-sphinx-theme-alabaster-0.7.9-4.el7
+    cloud7-openstack-queens-release: python-sphinx-theme-alabaster-0.7.9-4.el7
 - project: python-whoosh
   name: python-whoosh
   conf: fedora-dependency
@@ -78,6 +84,7 @@ packages:
     cloud7-openstack-common-testing: python-whoosh-2.5.7-4.el7
     cloud7-openstack-common-release: python-whoosh-2.5.7-4.el7
     cloud7-openstack-queens-testing: python-whoosh-2.5.7-4.el7
+    cloud7-openstack-queens-release: python-whoosh-2.5.7-4.el7
 - project: python-PyMySQL
   name: python-PyMySQL
   conf: fedora-dependency
@@ -87,6 +94,7 @@ packages:
     cloud7-openstack-common-testing: python-PyMySQL-0.7.9-2.el7
     cloud7-openstack-common-release: python-PyMySQL-0.7.9-2.el7
     cloud7-openstack-queens-testing: python-PyMySQL-0.7.11-1.el7
+    cloud7-openstack-queens-release: python-PyMySQL-0.7.11-1.el7
 - project: python-routes
   name: python-routes
   conf: fedora-dependency
@@ -96,6 +104,7 @@ packages:
     cloud7-openstack-pike-testing: python-routes-2.4.1-1.el7
     cloud7-openstack-pike-release: python-routes-2.4.1-1.el7
     cloud7-openstack-queens-testing: python-routes-2.4.1-1.el7
+    cloud7-openstack-queens-release: python-routes-2.4.1-1.el7
 - project: gv
   name: gv
   conf: fedora-dependency
@@ -103,6 +112,7 @@ packages:
     cloud7-openstack-common-testing: gv-3.7.4-6.el7
     cloud7-openstack-common-release: gv-3.7.4-6.el7
     cloud7-openstack-queens-testing: gv-3.7.4-6.el7
+    cloud7-openstack-queens-release: gv-3.7.4-6.el7
 - project: python-retrying
   name: python-retrying
   conf: fedora-dependency
@@ -110,6 +120,7 @@ packages:
     cloud7-openstack-common-testing: python-retrying-1.2.3-4.el7
     cloud7-openstack-common-release: python-retrying-1.2.3-4.el7
     cloud7-openstack-queens-testing: python-retrying-1.2.3-4.el7
+    cloud7-openstack-queens-release: python-retrying-1.2.3-4.el7
 - project: python-kafka
   name: python-kafka
   conf: fedora-dependency
@@ -121,6 +132,7 @@ packages:
     cloud7-openstack-pike-testing: python-kafka-1.3.1-1.el7
     cloud7-openstack-pike-release: python-kafka-1.3.1-1.el7
     cloud7-openstack-queens-testing: python-kafka-1.3.1-1.el7
+    cloud7-openstack-queens-release: python-kafka-1.3.1-1.el7
 - project: python-txaio
   name: python-txaio
   conf: fedora-dependency
@@ -128,6 +140,7 @@ packages:
     cloud7-openstack-common-testing: python-txaio-2.0.4-3.el7
     cloud7-openstack-common-release: python-txaio-2.0.4-3.el7
     cloud7-openstack-queens-testing: python-txaio-2.0.4-3.el7
+    cloud7-openstack-queens-release: python-txaio-2.0.4-3.el7
 - project: python-pint
   name: python-pint
   conf: fedora-dependency
@@ -135,6 +148,7 @@ packages:
     cloud7-openstack-common-testing: python-pint-0.6-2.el7
     cloud7-openstack-common-release: python-pint-0.6-2.el7
     cloud7-openstack-queens-testing: python-pint-0.6-2.el7
+    cloud7-openstack-queens-release: python-pint-0.6-2.el7
 - project: python-nose-xcover
   name: python-nose-xcover
   conf: fedora-dependency
@@ -142,6 +156,7 @@ packages:
     cloud7-openstack-common-testing: python-nose-xcover-1.0.7-4.el7
     cloud7-openstack-common-release: python-nose-xcover-1.0.7-4.el7
     cloud7-openstack-queens-testing: python-nose-xcover-1.0.7-4.el7
+    cloud7-openstack-queens-release: python-nose-xcover-1.0.7-4.el7
 - project: shiboken
   name: shiboken
   conf: fedora-dependency
@@ -149,6 +164,7 @@ packages:
     cloud7-openstack-common-testing: shiboken-1.2.4-2.el7
     cloud7-openstack-common-release: shiboken-1.2.4-2.el7
     cloud7-openstack-queens-testing: shiboken-1.2.4-2.el7
+    cloud7-openstack-queens-release: shiboken-1.2.4-2.el7
 - project: python-requests-oauthlib
   name: python-requests-oauthlib
   conf: fedora-dependency
@@ -162,6 +178,7 @@ packages:
     cloud7-openstack-common-testing: python-sure-1.4.0-1.el7
     cloud7-openstack-common-release: python-sure-1.4.0-1.el7
     cloud7-openstack-queens-testing: python-sure-1.4.0-1.el7
+    cloud7-openstack-queens-release: python-sure-1.4.0-1.el7
 - project: python-hypothesis
   name: python-hypothesis
   conf: fedora-dependency
@@ -169,6 +186,7 @@ packages:
     cloud7-openstack-common-testing: python-hypothesis-2.0.0-1.el7
     cloud7-openstack-common-release: python-hypothesis-2.0.0-1.el7
     cloud7-openstack-queens-testing: python-hypothesis-2.0.0-1.el7
+    cloud7-openstack-queens-release: python-hypothesis-2.0.0-1.el7
 - project: liberasurecode
   name: liberasurecode
   conf: fedora-dependency
@@ -178,6 +196,7 @@ packages:
     cloud7-openstack-pike-testing: liberasurecode-1.5.0-1.el7
     cloud7-openstack-pike-release: liberasurecode-1.5.0-1.el7
     cloud7-openstack-queens-testing: liberasurecode-1.5.0-1.el7
+    cloud7-openstack-queens-release: liberasurecode-1.5.0-1.el7
 - project: python-backports_abc
   name: python-backports_abc
   conf: rdo-dependency
@@ -185,6 +204,7 @@ packages:
     cloud7-openstack-common-testing: python-backports_abc-0.5-2.el7
     cloud7-openstack-common-release: python-backports_abc-0.5-2.el7
     cloud7-openstack-queens-testing: python-backports_abc-0.5-2.el7
+    cloud7-openstack-queens-release: python-backports_abc-0.5-2.el7
 - project: libimagequant
   name: libimagequant
   conf: fedora-dependency
@@ -192,6 +212,7 @@ packages:
     cloud7-openstack-common-testing: libimagequant-2.8.2-2.el7
     cloud7-openstack-common-release: libimagequant-2.8.2-2.el7
     cloud7-openstack-queens-testing: libimagequant-2.8.2-2.el7
+    cloud7-openstack-queens-release: libimagequant-2.8.2-2.el7
 - project: python-blinker
   name: python-blinker
   conf: fedora-dependency
@@ -199,6 +220,7 @@ packages:
     cloud7-openstack-common-testing: python-blinker-1.3-6.el7
     cloud7-openstack-common-release: python-blinker-1.3-6.el7
     cloud7-openstack-queens-testing: python-blinker-1.3-6.el7
+    cloud7-openstack-queens-release: python-blinker-1.3-6.el7
 - project: sympy
   name: sympy
   conf: fedora-dependency
@@ -206,6 +228,7 @@ packages:
     cloud7-openstack-common-testing: sympy-0.7.6-2.el7
     cloud7-openstack-common-release: sympy-0.7.6-2.el7
     cloud7-openstack-queens-testing: sympy-0.7.6-2.el7
+    cloud7-openstack-queens-release: sympy-0.7.6-2.el7
 - project: python-setuptools
   name: python-setuptools
   conf: fedora-dependency
@@ -213,6 +236,7 @@ packages:
     cloud7-openstack-common-testing: python-setuptools-22.0.5-1.el7
     cloud7-openstack-common-release: python-setuptools-22.0.5-1.el7
     cloud7-openstack-queens-testing: python-setuptools-22.0.5-1.el7
+    cloud7-openstack-queens-release: python-setuptools-22.0.5-1.el7
 - project: python-falcon
   name: python-falcon
   conf: fedora-dependency
@@ -222,6 +246,7 @@ packages:
     cloud7-openstack-newton-release: python-falcon-0.3.0-5.el7
     cloud7-openstack-ocata-release: python-falcon-0.3.0-5.el7
     cloud7-openstack-queens-testing: python-falcon-1.0.0-4.el7
+    cloud7-openstack-queens-release: python-falcon-1.0.0-4.el7
 - project: python-sphinxcontrib-napoleon
   name: python-sphinxcontrib-napoleon
   conf: fedora-dependency
@@ -236,6 +261,7 @@ packages:
     cloud7-openstack-common-testing: python-cairocffi-0.7.2-7.el7
     cloud7-openstack-common-release: python-cairocffi-0.7.2-7.el7
     cloud7-openstack-queens-testing: python-cairocffi-0.7.2-7.el7
+    cloud7-openstack-queens-release: python-cairocffi-0.7.2-7.el7
 - project: python-fixtures
   name: python-fixtures
   conf: fedora-dependency
@@ -245,6 +271,7 @@ packages:
     cloud7-openstack-pike-testing: python-fixtures-3.0.0-7.el7
     cloud7-openstack-queens-testing: python-fixtures-3.0.0-7.el7
     cloud7-openstack-pike-release: python-fixtures-3.0.0-7.el7
+    cloud7-openstack-queens-release: python-fixtures-3.0.0-7.el7
 - project: python-twisted
   name: python-twisted
   conf: fedora-dependency
@@ -252,6 +279,7 @@ packages:
     cloud7-openstack-common-testing: python-twisted-16.1.1-3.el7
     cloud7-openstack-common-release: python-twisted-16.1.1-3.el7
     cloud7-openstack-queens-testing: python-twisted-16.1.1-3.el7
+    cloud7-openstack-queens-release: python-twisted-16.1.1-3.el7
 - project: python-qpid
   name: python-qpid
   conf: fedora-dependency
@@ -259,6 +287,7 @@ packages:
     cloud7-openstack-common-testing: python-qpid-1.36.0-1.el7
     cloud7-openstack-common-release: python-qpid-0.30-1.el7
     cloud7-openstack-queens-testing: python-qpid-1.36.0-1.el7
+    cloud7-openstack-queens-release: python-qpid-1.36.0-1.el7
 - project: python-packaging
   name: python-packaging
   conf: rdo-dependency
@@ -266,6 +295,7 @@ packages:
     cloud7-openstack-common-testing: python-packaging-16.8-2.el7
     cloud7-openstack-common-release: python-packaging-16.8-2.el7
     cloud7-openstack-queens-testing: python-packaging-16.8-2.el7
+    cloud7-openstack-queens-release: python-packaging-16.8-2.el7
 - project: python-psutil
   name: python-psutil
   conf: rdo-dependency
@@ -277,6 +307,7 @@ packages:
     cloud7-openstack-pike-testing: python-psutil-5.2.2-2.el7
     cloud7-openstack-pike-release: python-psutil-5.2.2-2.el7
     cloud7-openstack-queens-testing: python-psutil-5.2.2-2.el7
+    cloud7-openstack-queens-release: python-psutil-5.2.2-2.el7
 - project: python-pip
   name: python-pip
   conf: fedora-dependency
@@ -284,6 +315,7 @@ packages:
     cloud7-openstack-common-testing: python-pip-8.1.2-1.el7
     cloud7-openstack-common-release: python-pip-8.1.2-1.el7
     cloud7-openstack-queens-testing: python-pip-8.1.2-1.el7
+    cloud7-openstack-queens-release: python-pip-8.1.2-1.el7
 - project: mariadb-galera
   name: mariadb-galera
   conf: fedora-dependency
@@ -301,6 +333,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-bootswatch-3.3.7.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-bootswatch-3.3.7.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-bootswatch-3.3.7.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-bootswatch-3.3.7.0-1.el7
 - project: xqilla
   name: xqilla
   conf: fedora-dependency
@@ -308,6 +341,7 @@ packages:
     cloud7-openstack-common-testing: xqilla-2.2.4-7.el7
     cloud7-openstack-common-release: xqilla-2.2.4-7.el7
     cloud7-openstack-queens-testing: xqilla-2.2.4-7.el7
+    cloud7-openstack-queens-release: xqilla-2.2.4-7.el7
 - project: python-XStatic-Bootstrap-SCSS
   name: python-XStatic-Bootstrap-SCSS
   conf: fedora-dependency
@@ -317,6 +351,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
     cloud7-openstack-pike-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
     cloud7-openstack-queens-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
+    cloud7-openstack-queens-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
 - project: python-sphinx-testing
   name: python-sphinx-testing
   conf: rdo-dependency
@@ -324,6 +359,7 @@ packages:
     cloud7-openstack-common-testing: python-sphinx-testing-0.7.2-1.el7
     cloud7-openstack-common-release: python-sphinx-testing-0.7.2-1.el7
     cloud7-openstack-queens-testing: python-sphinx-testing-0.7.2-1.el7
+    cloud7-openstack-queens-release: python-sphinx-testing-0.7.2-1.el7
 - project: PyQt4
   name: PyQt4
   conf: fedora-dependency
@@ -331,6 +367,7 @@ packages:
     cloud7-openstack-common-testing: PyQt4-4.12-1.el7
     cloud7-openstack-common-release: PyQt4-4.12-1.el7
     cloud7-openstack-queens-testing: PyQt4-4.12-1.el7
+    cloud7-openstack-queens-release: PyQt4-4.12-1.el7
 - project: python-openstack-nose-plugin
   name: python-openstack-nose-plugin
   conf: fedora-dependency
@@ -338,6 +375,7 @@ packages:
     cloud7-openstack-common-testing: python-openstack-nose-plugin-0.11-4.el7
     cloud7-openstack-common-release: python-openstack-nose-plugin-0.11-4.el7
     cloud7-openstack-queens-testing: python-openstack-nose-plugin-0.11-4.el7
+    cloud7-openstack-queens-release: python-openstack-nose-plugin-0.11-4.el7
 - project: python-repoze-who
   name: python-repoze-who
   conf: fedora-dependency
@@ -345,6 +383,7 @@ packages:
     cloud7-openstack-common-testing: python-repoze-who-2.1-1.el7
     cloud7-openstack-common-release: python-repoze-who-2.1-1.el7
     cloud7-openstack-queens-testing: python-repoze-who-2.1-1.el7
+    cloud7-openstack-queens-release: python-repoze-who-2.1-1.el7
 - project: python-logilab-common
   name: python-logilab-common
   conf: fedora-dependency
@@ -363,6 +402,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-JSEncrypt-2.3.1.1-1.el7
     cloud7-openstack-pike-release: python-XStatic-JSEncrypt-2.3.1.1-1.el7
     cloud7-openstack-queens-testing: python-XStatic-JSEncrypt-2.3.1.1-1.el7
+    cloud7-openstack-queens-release: python-XStatic-JSEncrypt-2.3.1.1-1.el7
 - project: python-boto
   name: python-boto
   conf: fedora-dependency
@@ -370,6 +410,7 @@ packages:
     cloud7-openstack-common-testing: python-boto-2.34.0-4.el7
     cloud7-openstack-common-release: python-boto-2.34.0-4.el7
     cloud7-openstack-queens-testing: python-boto-2.34.0-4.el7
+    cloud7-openstack-queens-release: python-boto-2.34.0-4.el7
 - project: python-scripttest
   name: python-scripttest
   conf: fedora-dependency
@@ -377,6 +418,7 @@ packages:
     cloud7-openstack-common-testing: python-scripttest-1.0.4-7.el7
     cloud7-openstack-common-release: python-scripttest-1.0.4-7.el7
     cloud7-openstack-queens-testing: python-scripttest-1.0.4-7.el7
+    cloud7-openstack-queens-release: python-scripttest-1.0.4-7.el7
 - project: python-meld3
   name: python-meld3
   conf: rdo-dependency
@@ -384,6 +426,7 @@ packages:
     cloud7-openstack-common-testing: python-meld3-1.0.2-4.el7
     cloud7-openstack-common-release: python-meld3-1.0.2-4.el7
     cloud7-openstack-queens-testing: python-meld3-1.0.2-4.el7
+    cloud7-openstack-queens-release: python-meld3-1.0.2-4.el7
 - project: python-XStatic-Rickshaw
   name: python-XStatic-Rickshaw
   conf: fedora-dependency
@@ -392,6 +435,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-Rickshaw-1.5.0.0-4.el7
     cloud7-openstack-queens-testing: python-XStatic-Rickshaw-1.5.0.0-4.el7
     cloud7-openstack-queens-candidate: python-XStatic-Rickshaw-1.5.0.0-12.el7
+    cloud7-openstack-queens-release: python-XStatic-Rickshaw-1.5.0.0-4.el7
 - project: python-django-pyscss
   name: python-django-pyscss
   conf: fedora-dependency
@@ -405,6 +449,7 @@ packages:
     cloud7-openstack-pike-testing: python-django-pyscss-2.0.2-1.el7
     cloud7-openstack-pike-release: python-django-pyscss-2.0.2-1.el7
     cloud7-openstack-queens-testing: python-django-pyscss-2.0.2-1.el7
+    cloud7-openstack-queens-release: python-django-pyscss-2.0.2-1.el7
 - project: hiera
   name: hiera
   conf: rdo-dependency
@@ -412,6 +457,7 @@ packages:
     cloud7-openstack-common-testing: hiera-1.3.4-5.el7
     cloud7-openstack-common-release: hiera-1.3.4-5.el7
     cloud7-openstack-queens-testing: hiera-1.3.4-5.el7
+    cloud7-openstack-queens-release: hiera-1.3.4-5.el7
 - project: python-XStatic-Font-Awesome
   name: python-XStatic-Font-Awesome
   conf: fedora-dependency
@@ -423,6 +469,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-Font-Awesome-4.7.0.0-3.el7
     cloud7-openstack-pike-release: python-XStatic-Font-Awesome-4.7.0.0-3.el7
     cloud7-openstack-queens-testing: python-XStatic-Font-Awesome-4.7.0.0-3.el7
+    cloud7-openstack-queens-release: python-XStatic-Font-Awesome-4.7.0.0-3.el7
 - project: memcached
   name: memcached
   conf: rdo-dependency
@@ -430,6 +477,7 @@ packages:
     cloud7-openstack-common-testing: memcached-1.4.39-1.el7
     cloud7-openstack-common-release: memcached-1.4.39-1.el7
     cloud7-openstack-queens-testing: memcached-1.4.39-1.el7
+    cloud7-openstack-queens-release: memcached-1.4.39-1.el7
 - project: python-cachez
   name: python-cachez
   conf: fedora-dependency
@@ -437,6 +485,7 @@ packages:
     cloud7-openstack-common-testing: python-cachez-0.1.0-2.el7
     cloud7-openstack-common-release: python-cachez-0.1.0-2.el7
     cloud7-openstack-queens-testing: python-cachez-0.1.0-2.el7
+    cloud7-openstack-queens-release: python-cachez-0.1.0-2.el7
 - project: novnc
   name: novnc
   conf: fedora-dependency
@@ -444,6 +493,7 @@ packages:
     cloud7-openstack-common-testing: novnc-0.5.1-2.el7
     cloud7-openstack-common-release: novnc-0.5.1-2.el7
     cloud7-openstack-queens-testing: novnc-0.5.1-2.el7
+    cloud7-openstack-queens-release: novnc-0.5.1-2.el7
 - project: python-wsgi_intercept
   name: python-wsgi_intercept
   conf: fedora-dependency
@@ -451,6 +501,7 @@ packages:
     cloud7-openstack-common-testing: python-wsgi_intercept-1.2.2-1.el7
     cloud7-openstack-common-release: python-wsgi_intercept-1.2.2-1.el7
     cloud7-openstack-queens-testing: python-wsgi_intercept-1.2.2-1.el7
+    cloud7-openstack-queens-release: python-wsgi_intercept-1.2.2-1.el7
 - project: python-pika_pool
   name: python-pika_pool
   conf: fedora-dependency
@@ -458,6 +509,7 @@ packages:
     cloud7-openstack-common-testing: python-pika_pool-0.1.3-3.el7
     cloud7-openstack-common-release: python-pika_pool-0.1.3-3.el7
     cloud7-openstack-queens-testing: python-pika_pool-0.1.3-3.el7
+    cloud7-openstack-queens-release: python-pika_pool-0.1.3-3.el7
 - project: python-positional
   name: python-positional
   conf: fedora-dependency
@@ -471,6 +523,7 @@ packages:
     cloud7-openstack-pike-testing: python-positional-1.1.1-2.el7
     cloud7-openstack-pike-release: python-positional-1.1.1-2.el7
     cloud7-openstack-queens-testing: python-positional-1.1.1-2.el7
+    cloud7-openstack-queens-release: python-positional-1.1.1-2.el7
 - project: python-paste-deploy
   name: python-paste-deploy
   conf: fedora-dependency
@@ -478,6 +531,7 @@ packages:
     cloud7-openstack-common-testing: python-paste-deploy-1.5.2-6.el7
     cloud7-openstack-common-release: python-paste-deploy-1.5.2-6.el7
     cloud7-openstack-queens-testing: python-paste-deploy-1.5.2-6.el7
+    cloud7-openstack-queens-release: python-paste-deploy-1.5.2-6.el7
 - project: hdf5
   name: hdf5
   conf: fedora-dependency
@@ -485,6 +539,7 @@ packages:
     cloud7-openstack-common-testing: hdf5-1.8.13-7.el7
     cloud7-openstack-common-release: hdf5-1.8.13-7.el7
     cloud7-openstack-queens-testing: hdf5-1.8.13-7.el7
+    cloud7-openstack-queens-release: hdf5-1.8.13-7.el7
 - project: python-pysaml2
   name: python-pysaml2
   conf: fedora-dependency
@@ -492,6 +547,7 @@ packages:
     cloud7-openstack-common-testing: python-pysaml2-3.0.2-2.el7
     cloud7-openstack-common-release: python-pysaml2-3.0.2-2.el7
     cloud7-openstack-queens-testing: python-pysaml2-3.0.2-2.el7
+    cloud7-openstack-queens-release: python-pysaml2-3.0.2-2.el7
 - project: nagios-plugins
   name: nagios-plugins
   conf: fedora-dependency
@@ -505,6 +561,7 @@ packages:
     cloud7-openstack-common-testing: python-cassandra-driver-3.7.1-4.el7
     cloud7-openstack-common-release: python-cassandra-driver-3.7.1-4.el7
     cloud7-openstack-queens-testing: python-cassandra-driver-3.7.1-4.el7
+    cloud7-openstack-queens-release: python-cassandra-driver-3.7.1-4.el7
 - project: python-socketpool
   name: python-socketpool
   conf: fedora-dependency
@@ -512,6 +569,7 @@ packages:
     cloud7-openstack-common-testing: python-socketpool-0.5.3-2.el7
     cloud7-openstack-common-release: python-socketpool-0.5.3-2.el7
     cloud7-openstack-queens-testing: python-socketpool-0.5.3-2.el7
+    cloud7-openstack-queens-release: python-socketpool-0.5.3-2.el7
 - project: python-gabbi
   name: python-gabbi
   conf: fedora-dependency
@@ -521,6 +579,7 @@ packages:
     cloud7-openstack-pike-testing: python-gabbi-1.33.0-1.el7
     cloud7-openstack-pike-release: python-gabbi-1.33.0-1.el7
     cloud7-openstack-queens-testing: python-gabbi-1.33.0-1.el7
+    cloud7-openstack-queens-release: python-gabbi-1.33.0-1.el7
 - project: python-ldap3
   name: python-ldap3
   conf: rdo-dependency
@@ -529,6 +588,7 @@ packages:
     cloud7-openstack-common-release: python-ldap3-0.9.8.6-2.el7
     cloud7-openstack-queens-testing: python-ldap3-2.4.1-3.el7
     cloud7-openstack-queens-candidate: python-ldap3-2.4.1-3.el7
+    cloud7-openstack-queens-release: python-ldap3-2.4.1-3.el7
 - project: python-cradox
   name: python-cradox
   conf: fedora-dependency
@@ -536,6 +596,7 @@ packages:
     cloud7-openstack-common-testing: python-cradox-1.3.2-1.el7
     cloud7-openstack-common-release: python-cradox-1.3.2-1.el7
     cloud7-openstack-queens-testing: python-cradox-1.3.2-1.el7
+    cloud7-openstack-queens-release: python-cradox-1.3.2-1.el7
 - project: python-gmpy2
   name: python-gmpy2
   conf: fedora-dependency
@@ -543,6 +604,7 @@ packages:
     cloud7-openstack-common-testing: python-gmpy2-2.0.5-1.el7
     cloud7-openstack-common-release: python-gmpy2-2.0.5-1.el7
     cloud7-openstack-queens-testing: python-gmpy2-2.0.5-1.el7
+    cloud7-openstack-queens-release: python-gmpy2-2.0.5-1.el7
 - project: python-webob
   name: python-webob
   conf: fedora-dependency
@@ -556,6 +618,7 @@ packages:
     cloud7-openstack-pike-testing: python-webob-1.7.2-1.el7
     cloud7-openstack-pike-release: python-webob-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-webob-1.7.2-1.el7
+    cloud7-openstack-queens-release: python-webob-1.7.2-1.el7
 - project: python-pycxx
   name: python-pycxx
   conf: rdo-dependency
@@ -563,6 +626,7 @@ packages:
     cloud7-openstack-common-testing: python-pycxx-6.2.8-3.el7
     cloud7-openstack-common-release: python-pycxx-6.2.8-3.el7
     cloud7-openstack-queens-testing: python-pycxx-6.2.8-3.el7
+    cloud7-openstack-queens-release: python-pycxx-6.2.8-3.el7
 - project: python-pyngus
   name: python-pyngus
   conf: fedora-dependency
@@ -570,6 +634,7 @@ packages:
     cloud7-openstack-common-testing: python-pyngus-2.0.3-3.el7
     cloud7-openstack-common-release: python-pyngus-2.0.3-3.el7
     cloud7-openstack-queens-testing: python-pyngus-2.0.3-3.el7
+    cloud7-openstack-queens-release: python-pyngus-2.0.3-3.el7
 - project: python-sqlite3dbm
   name: python-sqlite3dbm
   conf: fedora-dependency
@@ -577,6 +642,7 @@ packages:
     cloud7-openstack-common-testing: python-sqlite3dbm-0.1.4-6.el7
     cloud7-openstack-common-release: python-sqlite3dbm-0.1.4-6.el7
     cloud7-openstack-queens-testing: python-sqlite3dbm-0.1.4-6.el7
+    cloud7-openstack-queens-release: python-sqlite3dbm-0.1.4-6.el7
 - project: python-jsonpath-rw
   name: python-jsonpath-rw
   conf: fedora-dependency
@@ -584,6 +650,7 @@ packages:
     cloud7-openstack-common-testing: python-jsonpath-rw-1.2.3-2.el7
     cloud7-openstack-common-release: python-jsonpath-rw-1.2.3-2.el7
     cloud7-openstack-queens-testing: python-jsonpath-rw-1.2.3-2.el7
+    cloud7-openstack-queens-release: python-jsonpath-rw-1.2.3-2.el7
 - project: heat-cfntools
   name: heat-cfntools
   conf: fedora-dependency
@@ -591,6 +658,7 @@ packages:
     cloud7-openstack-common-testing: heat-cfntools-1.3.0-2.el7
     cloud7-openstack-common-release: heat-cfntools-1.3.0-2.el7
     cloud7-openstack-queens-testing: heat-cfntools-1.3.0-2.el7
+    cloud7-openstack-queens-release: heat-cfntools-1.3.0-2.el7
 - project: python-django-formtools
   name: python-django-formtools
   conf: fedora-dependency
@@ -599,6 +667,7 @@ packages:
     cloud7-openstack-common-release: python-django-formtools-1.0-4.el7
     cloud7-openstack-queens-testing: python-django-formtools-2.1-1.el7
     cloud7-openstack-queens-candidate: python-django-formtools-2.1-1.el7
+    cloud7-openstack-queens-release: python-django-formtools-2.1-1.el7
 - project: python-ply
   name: python-ply
   conf: fedora-dependency
@@ -612,6 +681,7 @@ packages:
     cloud7-openstack-common-testing: python-openstack-doc-tools-1.3.0-2.el7
     cloud7-openstack-common-release: python-openstack-doc-tools-1.3.0-2.el7
     cloud7-openstack-queens-testing: python-openstack-doc-tools-1.3.0-2.el7
+    cloud7-openstack-queens-release: python-openstack-doc-tools-1.3.0-2.el7
 - project: python-jsonpointer
   name: python-jsonpointer
   conf: fedora-dependency
@@ -619,6 +689,7 @@ packages:
     cloud7-openstack-common-testing: python-jsonpointer-1.10-4.el7
     cloud7-openstack-common-release: python-jsonpointer-1.10-4.el7
     cloud7-openstack-queens-testing: python-jsonpointer-1.10-4.el7
+    cloud7-openstack-queens-release: python-jsonpointer-1.10-4.el7
 - project: python-bottle
   name: python-bottle
   conf: rdo-dependency
@@ -626,6 +697,7 @@ packages:
     cloud7-openstack-common-testing: python-bottle-0.12.9-1.el7
     cloud7-openstack-common-release: python-bottle-0.12.9-1.el7
     cloud7-openstack-queens-testing: python-bottle-0.12.9-1.el7
+    cloud7-openstack-queens-release: python-bottle-0.12.9-1.el7
 - project: python-XStatic-mdi
   name: python-XStatic-mdi
   conf: fedora-dependency
@@ -635,6 +707,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-mdi-1.4.57.0-4.el7
     cloud7-openstack-pike-release: python-XStatic-mdi-1.4.57.0-4.el7
     cloud7-openstack-queens-testing: python-XStatic-mdi-1.4.57.0-4.el7
+    cloud7-openstack-queens-release: python-XStatic-mdi-1.4.57.0-4.el7
 - project: python-django
   name: python-django
   conf: fedora-dependency
@@ -643,6 +716,7 @@ packages:
     cloud7-openstack-common-release: python-django-1.8.14-1.el7
     cloud7-openstack-queens-candidate: python-django-1.11.10-1.el7
     cloud7-openstack-queens-testing: python-django-1.11.10-1.el7
+    cloud7-openstack-queens-release: python-django-1.11.10-1.el7
 - project: python-django-discover-runner
   name: python-django-discover-runner
   conf: fedora-dependency
@@ -650,6 +724,7 @@ packages:
     cloud7-openstack-common-testing: python-django-discover-runner-1.0-5.el7
     cloud7-openstack-common-release: python-django-discover-runner-1.0-5.el7
     cloud7-openstack-queens-testing: python-django-discover-runner-1.0-5.el7
+    cloud7-openstack-queens-release: python-django-discover-runner-1.0-5.el7
 - project: python-cryptography-vectors
   name: python-cryptography-vectors
   conf: fedora-dependency
@@ -661,6 +736,7 @@ packages:
     cloud7-openstack-pike-testing: python-cryptography-vectors-1.7.2-1.el7
     cloud7-openstack-pike-release: python-cryptography-vectors-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-cryptography-vectors-1.7.2-1.el7
+    cloud7-openstack-queens-release: python-cryptography-vectors-1.7.2-1.el7
 - project: python-simplejson
   name: python-simplejson
   conf: fedora-dependency
@@ -668,6 +744,7 @@ packages:
     cloud7-openstack-common-testing: python-simplejson-3.5.3-5.el7
     cloud7-openstack-common-release: python-simplejson-3.5.3-5.el7
     cloud7-openstack-queens-testing: python-simplejson-3.5.3-5.el7
+    cloud7-openstack-queens-release: python-simplejson-3.5.3-5.el7
 - project: python-dateutil
   name: python-dateutil
   conf: rdo-dependency
@@ -675,6 +752,7 @@ packages:
     cloud7-openstack-common-testing: python-dateutil-2.4.2-1.el7
     cloud7-openstack-common-release: python-dateutil-2.4.2-1.el7
     cloud7-openstack-queens-testing: python-dateutil-2.6.1-1.el7
+    cloud7-openstack-queens-release: python-dateutil-2.6.1-1.el7
 - project: python-cycler
   name: python-cycler
   conf: rdo-dependency
@@ -682,6 +760,7 @@ packages:
     cloud7-openstack-common-testing: python-cycler-0.10.0-2.el7
     cloud7-openstack-common-release: python-cycler-0.10.0-2.el7
     cloud7-openstack-queens-testing: python-cycler-0.10.0-2.el7
+    cloud7-openstack-queens-release: python-cycler-0.10.0-2.el7
 - project: python-croniter
   name: python-croniter
   conf: fedora-dependency
@@ -689,6 +768,7 @@ packages:
     cloud7-openstack-common-testing: python-croniter-0.3.4-2.el7
     cloud7-openstack-common-release: python-croniter-0.3.4-2.el7
     cloud7-openstack-queens-testing: python-croniter-0.3.19-1.el7
+    cloud7-openstack-queens-release: python-croniter-0.3.19-1.el7
 - project: python-XStatic-Angular-Bootstrap
   name: python-XStatic-Angular-Bootstrap
   conf: fedora-dependency
@@ -700,6 +780,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
 - project: python-appdirs
   name: python-appdirs
   conf: fedora-dependency
@@ -707,6 +788,7 @@ packages:
     cloud7-openstack-common-testing: python-appdirs-1.4.0-4.el7
     cloud7-openstack-common-release: python-appdirs-1.4.0-4.el7
     cloud7-openstack-queens-testing: python-appdirs-1.4.0-4.el7
+    cloud7-openstack-queens-release: python-appdirs-1.4.0-4.el7
 - project: python-service-identity
   name: python-service-identity
   conf: fedora-dependency
@@ -714,6 +796,7 @@ packages:
     cloud7-openstack-common-testing: python-service-identity-14.0.0-4.el7
     cloud7-openstack-common-release: python-service-identity-14.0.0-4.el7
     cloud7-openstack-queens-testing: python-service-identity-14.0.0-4.el7
+    cloud7-openstack-queens-release: python-service-identity-14.0.0-4.el7
 - project: xemacs-packages-base
   name: xemacs-packages-base
   conf: fedora-dependency
@@ -733,6 +816,7 @@ packages:
     cloud7-openstack-pike-release: python-alembic-0.8.10-1.el7
     cloud7-openstack-queens-testing: python-alembic-0.9.7-1.el7
     cloud7-openstack-queens-candidate: python-alembic-0.9.7-1.el7
+    cloud7-openstack-queens-release: python-alembic-0.9.7-1.el7
 - project: python-statsd
   name: python-statsd
   conf: fedora-dependency
@@ -740,6 +824,7 @@ packages:
     cloud7-openstack-common-testing: python-statsd-3.2.1-5.el7
     cloud7-openstack-common-release: python-statsd-3.2.1-5.el7
     cloud7-openstack-queens-testing: python-statsd-3.2.1-5.el7
+    cloud7-openstack-queens-release: python-statsd-3.2.1-5.el7
 - project: galera
   name: galera
   conf: rdo-dependency
@@ -747,6 +832,7 @@ packages:
     cloud7-openstack-common-testing: galera-25.3.16-1.el7
     cloud7-openstack-common-release: galera-25.3.16-1.el7
     cloud7-openstack-queens-testing: galera-25.3.16-3.el7
+    cloud7-openstack-queens-release: galera-25.3.16-3.el7
 - project: libdb4
   name: libdb4
   conf: fedora-dependency
@@ -754,6 +840,7 @@ packages:
     cloud7-openstack-common-testing: libdb4-4.8.30-13.el7
     cloud7-openstack-common-release: libdb4-4.8.30-13.el7
     cloud7-openstack-queens-testing: libdb4-4.8.30-13.el7
+    cloud7-openstack-queens-release: libdb4-4.8.30-13.el7
 - project: python-testrepository
   name: python-testrepository
   conf: fedora-dependency
@@ -762,6 +849,7 @@ packages:
     cloud7-openstack-common-release: python-testrepository-0.0.18-2.el7
     cloud7-openstack-queens-testing: python-testrepository-0.0.20-12.el7
     cloud7-openstack-queens-candidate: python-testrepository-0.0.20-12.el7
+    cloud7-openstack-queens-release: python-testrepository-0.0.20-12.el7
 - project: python-docopt
   name: python-docopt
   conf: fedora-dependency
@@ -769,6 +857,7 @@ packages:
     cloud7-openstack-common-testing: python-docopt-0.6.2-4.el7
     cloud7-openstack-common-release: python-docopt-0.6.2-4.el7
     cloud7-openstack-queens-testing: python-docopt-0.6.2-4.el7
+    cloud7-openstack-queens-release: python-docopt-0.6.2-4.el7
 - project: python-amqp
   name: python-amqp
   conf: rdo-dependency
@@ -778,6 +867,7 @@ packages:
     cloud7-openstack-pike-testing: python-amqp-2.1.4-1.el7
     cloud7-openstack-pike-release: python-amqp-2.1.4-1.el7
     cloud7-openstack-queens-testing: python-amqp-2.1.4-1.el7
+    cloud7-openstack-queens-release: python-amqp-2.1.4-1.el7
 - project: python-logutils
   name: python-logutils
   conf: fedora-dependency
@@ -785,6 +875,7 @@ packages:
     cloud7-openstack-common-testing: python-logutils-0.3.3-3.el7
     cloud7-openstack-common-release: python-logutils-0.3.3-3.el7
     cloud7-openstack-queens-testing: python-logutils-0.3.3-3.el7
+    cloud7-openstack-queens-release: python-logutils-0.3.3-3.el7
 - project: sip
   name: sip
   conf: fedora-dependency
@@ -792,6 +883,7 @@ packages:
     cloud7-openstack-common-testing: sip-4.19-1.el7
     cloud7-openstack-common-release: sip-4.19-1.el7
     cloud7-openstack-queens-testing: sip-4.19-1.el7
+    cloud7-openstack-queens-release: sip-4.19-1.el7
 - project: python-django-compressor
   name: python-django-compressor
   conf: fedora-dependency
@@ -806,6 +898,7 @@ packages:
     cloud7-openstack-pike-release: python-django-compressor-2.0-1.el7
     cloud7-openstack-queens-testing: python-django-compressor-2.1-5.el7
     cloud7-openstack-queens-candidate: python-django-compressor-2.1-5.el7
+    cloud7-openstack-queens-release: python-django-compressor-2.1-5.el7
 - project: python-sphinx-argparse
   name: python-sphinx-argparse
   conf: rdo-dependency
@@ -813,6 +906,7 @@ packages:
     cloud7-openstack-common-testing: python-sphinx-argparse-0.1.15-2.el7
     cloud7-openstack-common-release: python-sphinx-argparse-0.1.15-2.el7
     cloud7-openstack-queens-testing: python-sphinx-argparse-0.1.15-2.el7
+    cloud7-openstack-queens-release: python-sphinx-argparse-0.1.15-2.el7
 - project: rdo-rpm-macros
   name: rdo-rpm-macros
   conf: fedora-dependency
@@ -832,6 +926,7 @@ packages:
     cloud7-openstack-common-testing: boost159-1.59.0-2.el7
     cloud7-openstack-common-release: boost159-1.59.0-2.el7
     cloud7-openstack-queens-testing: boost159-1.59.0-2.el7
+    cloud7-openstack-queens-release: boost159-1.59.0-2.el7
 - project: python-pika
   name: python-pika
   conf: fedora-dependency
@@ -839,6 +934,7 @@ packages:
     cloud7-openstack-common-testing: python-pika-0.10.0-3.el7
     cloud7-openstack-common-release: python-pika-0.10.0-3.el7
     cloud7-openstack-queens-testing: python-pika-0.10.0-3.el7
+    cloud7-openstack-queens-release: python-pika-0.10.0-3.el7
 - project: python-greenlet
   name: python-greenlet
   conf: rdo-dependency
@@ -846,6 +942,7 @@ packages:
     cloud7-openstack-common-testing: python-greenlet-0.4.9-1.el7
     cloud7-openstack-common-release: python-greenlet-0.4.9-1.el7
     cloud7-openstack-queens-testing: python-greenlet-0.4.12-1.el7
+    cloud7-openstack-queens-release: python-greenlet-0.4.12-1.el7
 - project: python-django-babel
   name: python-django-babel
   conf: fedora-dependency
@@ -854,6 +951,7 @@ packages:
     cloud7-openstack-common-release: python-django-babel-0.4.0-2.el7
     cloud7-openstack-queens-testing: python-django-babel-0.6.2-1.el7
     cloud7-openstack-queens-candidate: python-django-babel-0.6.2-1.el7
+    cloud7-openstack-queens-release: python-django-babel-0.6.2-1.el7
 - project: python-websockify
   name: python-websockify
   conf: fedora-dependency
@@ -861,6 +959,7 @@ packages:
     cloud7-openstack-common-testing: python-websockify-0.8.0-1.el7
     cloud7-openstack-common-release: python-websockify-0.8.0-1.el7
     cloud7-openstack-queens-testing: python-websockify-0.8.0-1.el7
+    cloud7-openstack-queens-release: python-websockify-0.8.0-1.el7
 - project: python-olefile
   name: python-olefile
   conf: rdo-dependency
@@ -868,6 +967,7 @@ packages:
     cloud7-openstack-common-testing: python-olefile-0.44-1.el7
     cloud7-openstack-common-release: python-olefile-0.44-1.el7
     cloud7-openstack-queens-testing: python-olefile-0.44-1.el7
+    cloud7-openstack-queens-release: python-olefile-0.44-1.el7
 - project: python-keyring
   name: python-keyring
   conf: rdo-dependency
@@ -875,6 +975,7 @@ packages:
     cloud7-openstack-common-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-common-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-queens-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-queens-release: python-keyring-5.7.1-1.el7
 - project: openvswitch
   name: openvswitch
   conf: rdo-dependency
@@ -888,12 +989,14 @@ packages:
     cloud7-openstack-pike-testing: openvswitch-2.7.3-1.1fc27.el7
     cloud7-openstack-pike-release: openvswitch-2.7.3-1.1fc27.el7
     cloud7-openstack-queens-testing: openvswitch-2.8.2-1.el7
+    cloud7-openstack-queens-release: openvswitch-2.8.2-1.el7
 - project: python-pykafka
   name: python-pykafka
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-pykafka-2.6.0-0.1.dev2.el7
     cloud7-openstack-queens-testing: python-pykafka-2.6.0-0.1.dev2.el7
+    cloud7-openstack-queens-release: python-pykafka-2.6.0-0.1.dev2.el7
 - project: python-requests-mock
   name: python-requests-mock
   conf: fedora-dependency
@@ -907,6 +1010,7 @@ packages:
     cloud7-openstack-pike-testing: python-requests-mock-1.3.0-1.el7
     cloud7-openstack-pike-release: python-requests-mock-1.3.0-1.el7
     cloud7-openstack-queens-testing: python-requests-mock-1.3.0-1.el7
+    cloud7-openstack-queens-release: python-requests-mock-1.3.0-1.el7
 - project: sparsehash
   name: sparsehash
   conf: fedora-dependency
@@ -914,6 +1018,7 @@ packages:
     cloud7-openstack-common-testing: sparsehash-2.0.2-4.el7
     cloud7-openstack-common-release: sparsehash-2.0.2-4.el7
     cloud7-openstack-queens-testing: sparsehash-2.0.2-4.el7
+    cloud7-openstack-queens-release: sparsehash-2.0.2-4.el7
 - project: mariadb
   name: mariadb
   conf: rdo-dependency
@@ -924,6 +1029,7 @@ packages:
     cloud7-openstack-pike-testing: mariadb-10.1.20-2.el7
     cloud7-openstack-queens-testing: mariadb-10.1.20-2.el7
     cloud7-openstack-pike-release: mariadb-10.1.20-2.el7
+    cloud7-openstack-queens-release: mariadb-10.1.20-2.el7
 - project: python-pyroute2
   name: python-pyroute2
   conf: rdo-dependency
@@ -933,6 +1039,7 @@ packages:
     cloud7-openstack-pike-testing: python-pyroute2-0.4.19-1.el7
     cloud7-openstack-pike-release: python-pyroute2-0.4.19-1.el7
     cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
+    cloud7-openstack-queens-release: python-pyroute2-0.4.21-1.el7
 - project: wxGTK
   name: wxGTK
   conf: fedora-dependency
@@ -940,6 +1047,7 @@ packages:
     cloud7-openstack-common-testing: wxGTK-2.8.12-8.el7
     cloud7-openstack-common-release: wxGTK-2.8.12-8.el7
     cloud7-openstack-queens-testing: wxGTK-2.8.12-8.el7
+    cloud7-openstack-queens-release: wxGTK-2.8.12-8.el7
 - project: conntrack-tools
   name: conntrack-tools
   conf: fedora-dependency
@@ -953,6 +1061,7 @@ packages:
     cloud7-openstack-common-testing: python-setproctitle-1.1.9-4.el7
     cloud7-openstack-common-release: python-setproctitle-1.1.9-4.el7
     cloud7-openstack-queens-testing: python-setproctitle-1.1.9-4.el7
+    cloud7-openstack-queens-release: python-setproctitle-1.1.9-4.el7
 - project: xqc
   name: xqc
   conf: fedora-dependency
@@ -960,6 +1069,7 @@ packages:
     cloud7-openstack-common-testing: xqc-1.0-0.6.20101120svn7.el7
     cloud7-openstack-common-release: xqc-1.0-0.6.20101120svn7.el7
     cloud7-openstack-queens-testing: xqc-1.0-0.6.20101120svn7.el7
+    cloud7-openstack-queens-release: xqc-1.0-0.6.20101120svn7.el7
 - project: python-xcffib
   name: python-xcffib
   conf: fedora-dependency
@@ -967,6 +1077,7 @@ packages:
     cloud7-openstack-common-testing: python-xcffib-0.4.2-2.el7
     cloud7-openstack-common-release: python-xcffib-0.4.2-2.el7
     cloud7-openstack-queens-testing: python-xcffib-0.4.2-2.el7
+    cloud7-openstack-queens-release: python-xcffib-0.4.2-2.el7
 - project: python-XStatic-Angular-Mock
   name: python-XStatic-Angular-Mock
   conf: fedora-dependency
@@ -974,6 +1085,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-Angular-Mock-1.2.1.1-2.el7
     cloud7-openstack-common-release: python-XStatic-Angular-Mock-1.2.1.1-2.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-Mock-1.2.1.1-2.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-Mock-1.2.1.1-2.el7
 - project: keycloak-httpd-client-install
   name: keycloak-httpd-client-install
   conf: fedora-dependency
@@ -993,6 +1105,7 @@ packages:
     cloud7-openstack-common-testing: python-matplotlib-2.0.0-3.el7
     cloud7-openstack-common-release: python-matplotlib-2.0.0-1.el7
     cloud7-openstack-queens-testing: python-matplotlib-2.0.0-3.el7
+    cloud7-openstack-queens-release: python-matplotlib-2.0.0-3.el7
 - project: coin-or-CoinUtils
   name: coin-or-CoinUtils
   conf: fedora-dependency
@@ -1000,6 +1113,7 @@ packages:
     cloud7-openstack-common-testing: coin-or-CoinUtils-2.10.13-1.el7
     cloud7-openstack-common-release: coin-or-CoinUtils-2.10.13-1.el7
     cloud7-openstack-queens-testing: coin-or-CoinUtils-2.10.13-1.el7
+    cloud7-openstack-queens-release: coin-or-CoinUtils-2.10.13-1.el7
 - project: python-kombu
   name: python-kombu
   conf: fedora-dependency
@@ -1009,6 +1123,7 @@ packages:
     cloud7-openstack-pike-testing: python-kombu-4.0.2-5.el7
     cloud7-openstack-pike-release: python-kombu-4.0.2-5.el7
     cloud7-openstack-queens-testing: python-kombu-4.0.2-5.el7
+    cloud7-openstack-queens-release: python-kombu-4.0.2-5.el7
 - project: python-autobahn
   name: python-autobahn
   conf: rdo-dependency
@@ -1016,6 +1131,7 @@ packages:
     cloud7-openstack-common-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-common-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-queens-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-queens-release: python-autobahn-0.10.9-1.gitcf10233.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -1023,6 +1139,7 @@ packages:
     cloud7-openstack-common-testing: python-lz4-0.9.0-1.el7
     cloud7-openstack-common-release: python-lz4-0.9.0-1.el7
     cloud7-openstack-queens-testing: python-lz4-0.9.0-1.el7
+    cloud7-openstack-queens-release: python-lz4-0.9.0-1.el7
 - project: python-cotyledon
   name: python-cotyledon
   conf: fedora-dependency
@@ -1034,6 +1151,7 @@ packages:
     cloud7-openstack-pike-testing: python-cotyledon-1.6.3-1.el7
     cloud7-openstack-pike-release: python-cotyledon-1.6.3-1.el7
     cloud7-openstack-queens-testing: python-cotyledon-1.6.3-1.el7
+    cloud7-openstack-queens-release: python-cotyledon-1.6.3-1.el7
 - project: python-xmltodict
   name: python-xmltodict
   conf: rdo-dependency
@@ -1041,6 +1159,7 @@ packages:
     cloud7-openstack-common-testing: python-xmltodict-0.10.1-1.el7
     cloud7-openstack-common-release: python-xmltodict-0.10.1-1.el7
     cloud7-openstack-queens-testing: python-xmltodict-0.10.1-1.el7
+    cloud7-openstack-queens-release: python-xmltodict-0.10.1-1.el7
 - project: python-XStatic-Bootstrap-Datepicker
   name: python-XStatic-Bootstrap-Datepicker
   conf: fedora-dependency
@@ -1049,6 +1168,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-1.el7
     cloud7-openstack-queens-candidate: python-XStatic-Bootstrap-Datepicker-1.3.1.0-9.el7
+    cloud7-openstack-queens-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-1.el7
 - project: python-functools32
   name: python-functools32
   conf: fedora-dependency
@@ -1056,6 +1176,7 @@ packages:
     cloud7-openstack-common-testing: python-functools32-3.2.3.2-1.el7
     cloud7-openstack-common-release: python-functools32-3.2.3.2-1.el7
     cloud7-openstack-queens-testing: python-functools32-3.2.3.2-1.el7
+    cloud7-openstack-queens-release: python-functools32-3.2.3.2-1.el7
 - project: python-migrate
   name: python-migrate
   conf: fedora-dependency
@@ -1065,6 +1186,7 @@ packages:
     cloud7-openstack-pike-testing: python-migrate-0.11.0-1.el7
     cloud7-openstack-pike-release: python-migrate-0.11.0-1.el7
     cloud7-openstack-queens-testing: python-migrate-0.11.0-1.el7
+    cloud7-openstack-queens-release: python-migrate-0.11.0-1.el7
 - project: python-futures
   name: python-futures
   conf: fedora-dependency
@@ -1073,6 +1195,7 @@ packages:
     cloud7-openstack-common-release: python-futures-3.0.3-1.el7
     cloud7-openstack-queens-testing: python-futures-3.1.1-2.el7
     cloud7-openstack-queens-candidate: python-futures-3.1.1-2.el7
+    cloud7-openstack-queens-release: python-futures-3.1.1-2.el7
 - project: erlang
   name: erlang
   conf: rdo-dependency
@@ -1080,6 +1203,7 @@ packages:
     cloud7-openstack-common-testing: erlang-18.3.4.5-4.el7
     cloud7-openstack-common-release: erlang-18.3.4.4-2.el7
     cloud7-openstack-queens-testing: erlang-19.3.6.4-1.el7
+    cloud7-openstack-queens-release: erlang-19.3.6.4-1.el7
   maintainers:
   - lemenkov@gmail.com
 - project: fio
@@ -1089,6 +1213,7 @@ packages:
     cloud7-openstack-common-testing: fio-2.2.10-1.el7
     cloud7-openstack-common-release: fio-2.2.10-1.el7
     cloud7-openstack-queens-testing: fio-2.2.10-1.el7
+    cloud7-openstack-queens-release: fio-2.2.10-1.el7
 - project: google-api-python-client
   name: google-api-python-client
   conf: fedora-dependency
@@ -1096,6 +1221,7 @@ packages:
     cloud7-openstack-common-testing: google-api-python-client-1.4.2-4.el7
     cloud7-openstack-common-release: google-api-python-client-1.4.2-4.el7
     cloud7-openstack-queens-testing: google-api-python-client-1.4.2-4.el7
+    cloud7-openstack-queens-release: google-api-python-client-1.4.2-4.el7
 - project: python-construct
   name: python-construct
   conf: rdo-dependency
@@ -1103,6 +1229,7 @@ packages:
     cloud7-openstack-common-testing: python-construct-2.8.10-1.el7
     cloud7-openstack-common-release: python-construct-2.8.10-1.el7
     cloud7-openstack-queens-testing: python-construct-2.8.10-1.el7
+    cloud7-openstack-queens-release: python-construct-2.8.10-1.el7
 - project: python-warlock
   name: python-warlock
   conf: fedora-dependency
@@ -1110,6 +1237,7 @@ packages:
     cloud7-openstack-common-testing: python-warlock-1.0.1-1.el7
     cloud7-openstack-common-release: python-warlock-1.0.1-1.el7
     cloud7-openstack-queens-testing: python-warlock-1.0.1-1.el7
+    cloud7-openstack-queens-release: python-warlock-1.0.1-1.el7
 - project: python-beautifulsoup4
   name: python-beautifulsoup4
   conf: fedora-dependency
@@ -1117,6 +1245,7 @@ packages:
     cloud7-openstack-common-testing: python-beautifulsoup4-4.6.0-1.el7
     cloud7-openstack-common-release: python-beautifulsoup4-4.6.0-1.el7
     cloud7-openstack-queens-testing: python-beautifulsoup4-4.6.0-1.el7
+    cloud7-openstack-queens-release: python-beautifulsoup4-4.6.0-1.el7
 - project: scipy
   name: scipy
   conf: rdo-dependency
@@ -1124,6 +1253,7 @@ packages:
     cloud7-openstack-common-testing: scipy-0.18.0-3.el7
     cloud7-openstack-common-release: scipy-0.18.0-3.el7
     cloud7-openstack-queens-testing: scipy-0.18.0-3.el7
+    cloud7-openstack-queens-release: scipy-0.18.0-3.el7
 - project: coin-or-Clp
   name: coin-or-Clp
   conf: fedora-dependency
@@ -1131,6 +1261,7 @@ packages:
     cloud7-openstack-common-testing: coin-or-Clp-1.16.10-1.el7
     cloud7-openstack-common-release: coin-or-Clp-1.16.10-1.el7
     cloud7-openstack-queens-testing: coin-or-Clp-1.16.10-1.el7
+    cloud7-openstack-queens-release: coin-or-Clp-1.16.10-1.el7
 - project: python-anyjson
   name: python-anyjson
   conf: fedora-dependency
@@ -1138,6 +1269,7 @@ packages:
     cloud7-openstack-common-testing: python-anyjson-0.3.3-3.el7
     cloud7-openstack-common-release: python-anyjson-0.3.3-3.el7
     cloud7-openstack-queens-testing: python-anyjson-0.3.3-3.el7
+    cloud7-openstack-queens-release: python-anyjson-0.3.3-3.el7
 - project: python-ddt
   name: python-ddt
   conf: fedora-dependency
@@ -1145,6 +1277,7 @@ packages:
     cloud7-openstack-common-testing: python-ddt-1.0.1-2.el7
     cloud7-openstack-common-release: python-ddt-1.0.1-2.el7
     cloud7-openstack-queens-testing: python-ddt-1.0.1-2.el7
+    cloud7-openstack-queens-release: python-ddt-1.0.1-2.el7
 - project: python-prettytable
   name: python-prettytable
   conf: fedora-dependency
@@ -1159,6 +1292,7 @@ packages:
     cloud7-openstack-common-testing: python-pymemcache-1.2.5-2.el7
     cloud7-openstack-common-release: python-pymemcache-1.2.5-2.el7
     cloud7-openstack-queens-testing: python-pymemcache-1.2.5-2.el7
+    cloud7-openstack-queens-release: python-pymemcache-1.2.5-2.el7
 - project: python-ecdsa
   name: python-ecdsa
   conf: fedora-dependency
@@ -1172,6 +1306,7 @@ packages:
     cloud7-openstack-common-testing: python-mccabe-0.2.1-4.el7
     cloud7-openstack-common-release: python-mccabe-0.2.1-4.el7
     cloud7-openstack-queens-testing: python-mccabe-0.2.1-4.el7
+    cloud7-openstack-queens-release: python-mccabe-0.2.1-4.el7
 - project: python-html5lib
   name: python-html5lib
   conf: fedora-dependency
@@ -1179,6 +1314,7 @@ packages:
     cloud7-openstack-common-testing: python-html5lib-0.999-5.el7
     cloud7-openstack-common-release: python-html5lib-0.999-5.el7
     cloud7-openstack-queens-testing: python-html5lib-0.999-5.el7
+    cloud7-openstack-queens-release: python-html5lib-0.999-5.el7
 - project: python-sqlalchemy-utils
   name: python-sqlalchemy-utils
   conf: fedora-dependency
@@ -1186,6 +1322,7 @@ packages:
     cloud7-openstack-common-testing: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-common-release: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-queens-testing: python-sqlalchemy-utils-0.31.3-2.el7
+    cloud7-openstack-queens-release: python-sqlalchemy-utils-0.31.3-2.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -1193,6 +1330,7 @@ packages:
     cloud7-openstack-common-testing: python-pandas-0.19.1-2.el7.2
     cloud7-openstack-common-release: python-pandas-0.19.1-2.el7.2
     cloud7-openstack-queens-testing: python-pandas-0.19.1-2.el7.2
+    cloud7-openstack-queens-release: python-pandas-0.19.1-2.el7.2
 - project: radiusclient-ng
   name: radiusclient-ng
   conf: fedora-dependency
@@ -1200,6 +1338,7 @@ packages:
     cloud7-openstack-common-testing: radiusclient-ng-0.5.6-9.el7
     cloud7-openstack-common-release: radiusclient-ng-0.5.6-9.el7
     cloud7-openstack-queens-testing: radiusclient-ng-0.5.6-9.el7
+    cloud7-openstack-queens-release: radiusclient-ng-0.5.6-9.el7
 - project: python-XStatic-Hogan
   name: python-XStatic-Hogan
   conf: fedora-dependency
@@ -1208,6 +1347,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-Hogan-2.0.0.2-2.el7
     cloud7-openstack-queens-testing: python-XStatic-Hogan-2.0.0.2-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-Hogan-2.0.0.2-10.el7
+    cloud7-openstack-queens-release: python-XStatic-Hogan-2.0.0.2-2.el7
 - project: python-nose-exclude
   name: python-nose-exclude
   conf: fedora-dependency
@@ -1215,6 +1355,7 @@ packages:
     cloud7-openstack-common-testing: python-nose-exclude-0.1.9-3.el7
     cloud7-openstack-common-release: python-nose-exclude-0.1.9-3.el7
     cloud7-openstack-queens-testing: python-nose-exclude-0.1.9-3.el7
+    cloud7-openstack-queens-release: python-nose-exclude-0.1.9-3.el7
 - project: facter
   name: facter
   conf: rdo-dependency
@@ -1222,6 +1363,7 @@ packages:
     cloud7-openstack-common-testing: facter-2.4.4-4.el7
     cloud7-openstack-common-release: facter-2.4.4-4.el7
     cloud7-openstack-queens-testing: facter-2.4.4-4.el7
+    cloud7-openstack-queens-release: facter-2.4.4-4.el7
 - project: python-jwt
   name: python-jwt
   conf: fedora-dependency
@@ -1229,6 +1371,7 @@ packages:
     cloud7-openstack-common-testing: python-jwt-1.4.0-3.el7
     cloud7-openstack-common-release: python-jwt-1.4.0-3.el7
     cloud7-openstack-queens-testing: python-jwt-1.4.0-3.el7
+    cloud7-openstack-queens-release: python-jwt-1.4.0-3.el7
 - project: python-requests-kerberos
   name: python-requests-kerberos
   conf: fedora-dependency
@@ -1236,6 +1379,7 @@ packages:
     cloud7-openstack-common-testing: python-requests-kerberos-0.8.0-3.el7
     cloud7-openstack-common-release: python-requests-kerberos-0.8.0-3.el7
     cloud7-openstack-queens-testing: python-requests-kerberos-0.8.0-3.el7
+    cloud7-openstack-queens-release: python-requests-kerberos-0.8.0-3.el7
 - project: python-sysv_ipc
   name: python-sysv_ipc
   conf: rdo-dependency
@@ -1243,6 +1387,7 @@ packages:
     cloud7-openstack-common-testing: python-sysv_ipc-0.7.0-4.el7
     cloud7-openstack-common-release: python-sysv_ipc-0.7.0-4.el7
     cloud7-openstack-queens-testing: python-sysv_ipc-0.7.0-4.el7
+    cloud7-openstack-queens-release: python-sysv_ipc-0.7.0-4.el7
 - project: python-XStatic-objectpath
   name: python-XStatic-objectpath
   conf: fedora-dependency
@@ -1250,6 +1395,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-objectpath-1.2.1.0-0.1.pre_review.el7
     cloud7-openstack-common-release: python-XStatic-objectpath-1.2.1.0-0.1.pre_review.el7
     cloud7-openstack-queens-testing: python-XStatic-objectpath-1.2.1.0-0.1.pre_review.el7
+    cloud7-openstack-queens-release: python-XStatic-objectpath-1.2.1.0-0.1.pre_review.el7
 - project: libstemmer
   name: libstemmer
   conf: fedora-dependency
@@ -1257,6 +1403,7 @@ packages:
     cloud7-openstack-common-testing: libstemmer-0-2.585svn.el7
     cloud7-openstack-common-release: libstemmer-0-2.585svn.el7
     cloud7-openstack-queens-testing: libstemmer-0-2.585svn.el7
+    cloud7-openstack-queens-release: libstemmer-0-2.585svn.el7
 - project: yaml-cpp
   name: yaml-cpp
   conf: fedora-dependency
@@ -1264,6 +1411,7 @@ packages:
     cloud7-openstack-common-testing: yaml-cpp-0.5.1-6.el7
     cloud7-openstack-common-release: yaml-cpp-0.5.1-6.el7
     cloud7-openstack-queens-testing: yaml-cpp-0.5.1-6.el7
+    cloud7-openstack-queens-release: yaml-cpp-0.5.1-6.el7
 - project: sshpass
   name: sshpass
   conf: fedora-dependency
@@ -1277,6 +1425,7 @@ packages:
     cloud7-openstack-common-testing: python-pillow-4.0.0-1.el7
     cloud7-openstack-common-release: python-pillow-4.0.0-1.el7
     cloud7-openstack-queens-testing: python-pillow-4.0.0-1.el7
+    cloud7-openstack-queens-release: python-pillow-4.0.0-1.el7
 - project: python-termcolor
   name: python-termcolor
   conf: fedora-dependency
@@ -1284,6 +1433,7 @@ packages:
     cloud7-openstack-common-testing: python-termcolor-1.1.0-4.el7
     cloud7-openstack-common-release: python-termcolor-1.1.0-4.el7
     cloud7-openstack-queens-testing: python-termcolor-1.1.0-4.el7
+    cloud7-openstack-queens-release: python-termcolor-1.1.0-4.el7
 - project: fping
   name: fping
   conf: fedora-dependency
@@ -1291,6 +1441,7 @@ packages:
     cloud7-openstack-common-testing: fping-3.5-3.el7
     cloud7-openstack-common-release: fping-3.5-3.el7
     cloud7-openstack-queens-testing: fping-3.5-3.el7
+    cloud7-openstack-queens-release: fping-3.5-3.el7
 - project: python-ordereddict
   name: python-ordereddict
   conf: fedora-dependency
@@ -1298,6 +1449,7 @@ packages:
     cloud7-openstack-common-testing: python-ordereddict-1.1-6.el7
     cloud7-openstack-common-release: python-ordereddict-1.1-6.el7
     cloud7-openstack-queens-testing: python-ordereddict-1.1-6.el7
+    cloud7-openstack-queens-release: python-ordereddict-1.1-6.el7
 - project: debootstrap
   name: debootstrap
   conf: fedora-dependency
@@ -1305,6 +1457,7 @@ packages:
     cloud7-openstack-common-testing: debootstrap-1.0.81-1.el7
     cloud7-openstack-common-release: debootstrap-1.0.81-1.el7
     cloud7-openstack-queens-testing: debootstrap-1.0.81-1.el7
+    cloud7-openstack-queens-release: debootstrap-1.0.81-1.el7
 - project: python-XStatic-Angular-lrdragndrop
   name: python-XStatic-Angular-lrdragndrop
   conf: fedora-dependency
@@ -1315,6 +1468,7 @@ packages:
     cloud7-openstack-ocata-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-Angular-lrdragndrop-1.0.2.2-9.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-2.el7
 - project: python-bashate
   name: python-bashate
   conf: fedora-dependency
@@ -1322,6 +1476,7 @@ packages:
     cloud7-openstack-common-testing: python-bashate-0.5.1-1.el7
     cloud7-openstack-common-release: python-bashate-0.5.1-1.el7
     cloud7-openstack-queens-testing: python-bashate-0.5.1-1.el7
+    cloud7-openstack-queens-release: python-bashate-0.5.1-1.el7
 - project: python-cmd2
   name: python-cmd2
   conf: fedora-dependency
@@ -1329,6 +1484,7 @@ packages:
     cloud7-openstack-common-testing: python-cmd2-0.6.8-8.el7
     cloud7-openstack-common-release: python-cmd2-0.6.8-8.el7
     cloud7-openstack-queens-testing: python-cmd2-0.6.8-8.el7
+    cloud7-openstack-queens-release: python-cmd2-0.6.8-8.el7
 - project: python-kubernetes
   name: python-kubernetes
   conf: fedora-dependency
@@ -1337,6 +1493,7 @@ packages:
     cloud7-openstack-common-release: python-kubernetes-1.0.0-0.3.b3.el7
     cloud7-openstack-queens-testing: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-queens-candidate: python-kubernetes-4.0.0-1.el7
+    cloud7-openstack-queens-release: python-kubernetes-4.0.0-1.el7
 - project: openstack-utils
   name: openstack-utils
   conf: rdo-dependency
@@ -1345,6 +1502,7 @@ packages:
     cloud7-openstack-common-release: openstack-utils-2017.1-1.el7
     cloud7-openstack-newton-release: openstack-utils-2015.2-1.el7
     cloud7-openstack-queens-testing: openstack-utils-2017.1-1.el7
+    cloud7-openstack-queens-release: openstack-utils-2017.1-1.el7
 - project: dibbler
   name: dibbler
   conf: fedora-dependency
@@ -1352,6 +1510,7 @@ packages:
     cloud7-openstack-common-testing: dibbler-1.0.1-0.RC1.2.el7
     cloud7-openstack-common-release: dibbler-1.0.1-0.RC1.2.el7
     cloud7-openstack-queens-testing: dibbler-1.0.1-0.RC1.2.el7
+    cloud7-openstack-queens-release: dibbler-1.0.1-0.RC1.2.el7
 - project: python-trollius
   name: python-trollius
   conf: fedora-dependency
@@ -1359,6 +1518,7 @@ packages:
     cloud7-openstack-common-testing: python-trollius-2.0-3.el7
     cloud7-openstack-common-release: python-trollius-2.0-3.el7
     cloud7-openstack-queens-testing: python-trollius-2.0-3.el7
+    cloud7-openstack-queens-release: python-trollius-2.0-3.el7
 - project: python-jsonpath-rw-ext
   name: python-jsonpath-rw-ext
   conf: fedora-dependency
@@ -1366,6 +1526,7 @@ packages:
     cloud7-openstack-common-testing: python-jsonpath-rw-ext-1.0.0-1.el7
     cloud7-openstack-common-release: python-jsonpath-rw-ext-1.0.0-1.el7
     cloud7-openstack-queens-testing: python-jsonpath-rw-ext-1.0.0-1.el7
+    cloud7-openstack-queens-release: python-jsonpath-rw-ext-1.0.0-1.el7
 - project: python-http-parser
   name: python-http-parser
   conf: fedora-dependency
@@ -1373,6 +1534,7 @@ packages:
     cloud7-openstack-common-testing: python-http-parser-0.8.3-3.el7
     cloud7-openstack-common-release: python-http-parser-0.8.3-3.el7
     cloud7-openstack-queens-testing: python-http-parser-0.8.3-3.el7
+    cloud7-openstack-queens-release: python-http-parser-0.8.3-3.el7
 - project: python-pathlib
   name: python-pathlib
   conf: fedora-dependency
@@ -1380,6 +1542,7 @@ packages:
     cloud7-openstack-common-testing: python-pathlib-1.0.1-1.el7
     cloud7-openstack-common-release: python-pathlib-1.0.1-1.el7
     cloud7-openstack-queens-testing: python-pathlib-1.0.1-1.el7
+    cloud7-openstack-queens-release: python-pathlib-1.0.1-1.el7
 - project: python-iso8601
   name: python-iso8601
   conf: fedora-dependency
@@ -1387,6 +1550,7 @@ packages:
     cloud7-openstack-common-testing: python-iso8601-0.1.11-1.el7
     cloud7-openstack-common-release: python-iso8601-0.1.11-1.el7
     cloud7-openstack-queens-testing: python-iso8601-0.1.11-1.el7
+    cloud7-openstack-queens-release: python-iso8601-0.1.11-1.el7
 - project: generatorrunner
   name: generatorrunner
   conf: fedora-dependency
@@ -1394,6 +1558,7 @@ packages:
     cloud7-openstack-common-testing: generatorrunner-0.6.16-10.el7
     cloud7-openstack-common-release: generatorrunner-0.6.16-10.el7
     cloud7-openstack-queens-testing: generatorrunner-0.6.16-10.el7
+    cloud7-openstack-queens-release: generatorrunner-0.6.16-10.el7
 - project: xemacs-packages-extra
   name: xemacs-packages-extra
   conf: fedora-dependency
@@ -1408,6 +1573,7 @@ packages:
     cloud7-openstack-common-testing: ruby-shadow-1.4.1-23.el7
     cloud7-openstack-common-release: ruby-shadow-1.4.1-23.el7
     cloud7-openstack-queens-testing: ruby-shadow-1.4.1-23.el7
+    cloud7-openstack-queens-release: ruby-shadow-1.4.1-23.el7
 - project: python-elasticsearch
   name: python-elasticsearch
   conf: fedora-dependency
@@ -1415,6 +1581,7 @@ packages:
     cloud7-openstack-common-testing: python-elasticsearch-1.4.0-2.el7
     cloud7-openstack-common-release: python-elasticsearch-1.4.0-2.el7
     cloud7-openstack-queens-testing: python-elasticsearch-1.4.0-2.el7
+    cloud7-openstack-queens-release: python-elasticsearch-1.4.0-2.el7
 - project: python-nose-cov
   name: python-nose-cov
   conf: rdo-dependency
@@ -1422,6 +1589,7 @@ packages:
     cloud7-openstack-common-testing: python-nose-cov-1.6-7.el7
     cloud7-openstack-common-release: python-nose-cov-1.6-7.el7
     cloud7-openstack-queens-testing: python-nose-cov-1.6-7.el7
+    cloud7-openstack-queens-release: python-nose-cov-1.6-7.el7
 - project: python-gitdb
   name: python-gitdb
   conf: fedora-dependency
@@ -1429,6 +1597,7 @@ packages:
     cloud7-openstack-common-testing: python-gitdb-0.6.4-4.el7
     cloud7-openstack-common-release: python-gitdb-0.6.4-4.el7
     cloud7-openstack-queens-testing: python-gitdb-0.6.4-4.el7
+    cloud7-openstack-queens-release: python-gitdb-0.6.4-4.el7
 - project: puppet
   name: puppet
   conf: rdo-dependency
@@ -1440,6 +1609,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-4.8.2-1.el7
     cloud7-openstack-pike-release: puppet-4.8.2-1.el7
     cloud7-openstack-queens-testing: puppet-4.8.2-1.el7
+    cloud7-openstack-queens-release: puppet-4.8.2-1.el7
 - project: python-paramiko
   name: python-paramiko
   conf: rdo-dependency
@@ -1460,6 +1630,7 @@ packages:
     cloud7-openstack-common-release: python-mox-0.5.3-6.el7
     cloud7-openstack-queens-testing: python-mox-0.5.3-15.el7
     cloud7-openstack-queens-candidate: python-mox-0.5.3-15.el7
+    cloud7-openstack-queens-release: python-mox-0.5.3-15.el7
 - project: python-linecache2
   name: python-linecache2
   conf: fedora-dependency
@@ -1467,6 +1638,7 @@ packages:
     cloud7-openstack-common-testing: python-linecache2-1.0.0-1.el7
     cloud7-openstack-common-release: python-linecache2-1.0.0-1.el7
     cloud7-openstack-queens-testing: python-linecache2-1.0.0-1.el7
+    cloud7-openstack-queens-release: python-linecache2-1.0.0-1.el7
 - project: python-ImcSdk
   name: python-ImcSdk
   conf: fedora-dependency
@@ -1474,6 +1646,7 @@ packages:
     cloud7-openstack-common-testing: python-ImcSdk-0.7.2-3.el7
     cloud7-openstack-common-release: python-ImcSdk-0.7.2-3.el7
     cloud7-openstack-queens-testing: python-ImcSdk-0.7.2-3.el7
+    cloud7-openstack-queens-release: python-ImcSdk-0.7.2-3.el7
 - project: coin-or-Osi
   name: coin-or-Osi
   conf: fedora-dependency
@@ -1481,6 +1654,7 @@ packages:
     cloud7-openstack-common-testing: coin-or-Osi-0.107.8-1.el7
     cloud7-openstack-common-release: coin-or-Osi-0.107.8-1.el7
     cloud7-openstack-queens-testing: coin-or-Osi-0.107.8-1.el7
+    cloud7-openstack-queens-release: coin-or-Osi-0.107.8-1.el7
 - project: zeromq
   name: zeromq
   conf: fedora-dependency
@@ -1488,6 +1662,7 @@ packages:
     cloud7-openstack-common-testing: zeromq-4.0.5-4.el7
     cloud7-openstack-common-release: zeromq-4.0.5-4.el7
     cloud7-openstack-queens-testing: zeromq-4.0.5-4.el7
+    cloud7-openstack-queens-release: zeromq-4.0.5-4.el7
 - project: python-contextlib2
   name: python-contextlib2
   conf: fedora-dependency
@@ -1495,6 +1670,7 @@ packages:
     cloud7-openstack-common-testing: python-contextlib2-0.4.0-1.el7
     cloud7-openstack-common-release: python-contextlib2-0.4.0-1.el7
     cloud7-openstack-queens-testing: python-contextlib2-0.4.0-1.el7
+    cloud7-openstack-queens-release: python-contextlib2-0.4.0-1.el7
 - project: python-mock
   name: python-mock
   conf: rdo-dependency
@@ -1508,6 +1684,7 @@ packages:
     cloud7-openstack-pike-testing: python-mock-2.0.0-1.el7
     cloud7-openstack-pike-release: python-mock-2.0.0-1.el7
     cloud7-openstack-queens-testing: python-mock-2.0.0-1.el7
+    cloud7-openstack-queens-release: python-mock-2.0.0-1.el7
 - project: python-pyeclib
   name: python-pyeclib
   conf: fedora-dependency
@@ -1518,6 +1695,7 @@ packages:
     cloud7-openstack-pike-release: python-pyeclib-1.5.0-1.el7
     cloud7-openstack-queens-testing: python-pyeclib-1.5.0-3.el7
     cloud7-openstack-queens-candidate: python-pyeclib-1.5.0-3.el7
+    cloud7-openstack-queens-release: python-pyeclib-1.5.0-3.el7
 - project: librdkafka
   name: librdkafka
   conf: fedora-dependency
@@ -1525,6 +1703,7 @@ packages:
     cloud7-openstack-common-testing: librdkafka-0.9.2-2.el7
     cloud7-openstack-common-release: librdkafka-0.9.2-2.el7
     cloud7-openstack-queens-testing: librdkafka-0.9.2-2.el7
+    cloud7-openstack-queens-release: librdkafka-0.9.2-2.el7
 - project: python-tables
   name: python-tables
   conf: rdo-dependency
@@ -1532,6 +1711,7 @@ packages:
     cloud7-openstack-common-testing: python-tables-3.3.0-4.el7
     cloud7-openstack-common-release: python-tables-3.3.0-4.el7
     cloud7-openstack-queens-testing: python-tables-3.3.0-4.el7
+    cloud7-openstack-queens-release: python-tables-3.3.0-4.el7
 - project: blosc
   name: blosc
   conf: fedora-dependency
@@ -1539,6 +1719,7 @@ packages:
     cloud7-openstack-common-testing: blosc-1.11.1-3.el7
     cloud7-openstack-common-release: blosc-1.11.1-3.el7
     cloud7-openstack-queens-testing: blosc-1.11.1-3.el7
+    cloud7-openstack-queens-release: blosc-1.11.1-3.el7
 - project: libunwind
   name: libunwind
   conf: fedora-dependency
@@ -1552,6 +1733,7 @@ packages:
     cloud7-openstack-common-testing: python-simplegeneric-0.8-7.el7
     cloud7-openstack-common-release: python-simplegeneric-0.8-7.el7
     cloud7-openstack-queens-testing: python-simplegeneric-0.8-7.el7
+    cloud7-openstack-queens-release: python-simplegeneric-0.8-7.el7
 - project: python-weakrefmethod
   name: python-weakrefmethod
   conf: fedora-dependency
@@ -1559,6 +1741,7 @@ packages:
     cloud7-openstack-common-testing: python-weakrefmethod-1.0.2-3.el7
     cloud7-openstack-common-release: python-weakrefmethod-1.0.2-3.el7
     cloud7-openstack-queens-testing: python-weakrefmethod-1.0.2-3.el7
+    cloud7-openstack-queens-release: python-weakrefmethod-1.0.2-3.el7
 - project: python-setuptools_scm
   name: python-setuptools_scm
   conf: rdo-dependency
@@ -1566,6 +1749,7 @@ packages:
     cloud7-openstack-common-testing: python-setuptools_scm-1.10.1-1.el7
     cloud7-openstack-common-release: python-setuptools_scm-1.10.1-1.el7
     cloud7-openstack-queens-testing: python-setuptools_scm-1.10.1-1.el7
+    cloud7-openstack-queens-release: python-setuptools_scm-1.10.1-1.el7
 - project: python-pecan
   name: python-pecan
   conf: fedora-dependency
@@ -1579,6 +1763,7 @@ packages:
     cloud7-openstack-pike-testing: python-pecan-1.1.2-1.el7
     cloud7-openstack-pike-release: python-pecan-1.1.2-1.el7
     cloud7-openstack-queens-testing: python-pecan-1.1.2-1.el7
+    cloud7-openstack-queens-release: python-pecan-1.1.2-1.el7
 - project: Xaw3d
   name: Xaw3d
   conf: fedora-dependency
@@ -1586,6 +1771,7 @@ packages:
     cloud7-openstack-common-testing: Xaw3d-1.6.2-4.el7
     cloud7-openstack-common-release: Xaw3d-1.6.2-4.el7
     cloud7-openstack-queens-testing: Xaw3d-1.6.2-4.el7
+    cloud7-openstack-queens-release: Xaw3d-1.6.2-4.el7
 - project: python-networkx
   name: python-networkx
   conf: rdo-dependency
@@ -1593,6 +1779,7 @@ packages:
     cloud7-openstack-common-testing: python-networkx-1.10-1.el7
     cloud7-openstack-common-release: python-networkx-1.10-1.el7
     cloud7-openstack-queens-testing: python-networkx-1.10-1.el7
+    cloud7-openstack-queens-release: python-networkx-1.10-1.el7
 - project: python-websocket-client
   name: python-websocket-client
   conf: fedora-dependency
@@ -1600,6 +1787,7 @@ packages:
     cloud7-openstack-common-testing: python-websocket-client-0.34.0-3.el7
     cloud7-openstack-common-release: python-websocket-client-0.34.0-3.el7
     cloud7-openstack-queens-testing: python-websocket-client-0.34.0-3.el7
+    cloud7-openstack-queens-release: python-websocket-client-0.34.0-3.el7
 - project: python-redis
   name: python-redis
   conf: fedora-dependency
@@ -1607,6 +1795,7 @@ packages:
     cloud7-openstack-common-testing: python-redis-2.10.3-1.el7
     cloud7-openstack-common-release: python-redis-2.10.3-1.el7
     cloud7-openstack-queens-testing: python-redis-2.10.3-1.el7
+    cloud7-openstack-queens-release: python-redis-2.10.3-1.el7
 - project: python-waitress
   name: python-waitress
   conf: fedora-dependency
@@ -1614,6 +1803,7 @@ packages:
     cloud7-openstack-common-testing: python-waitress-0.8.9-5.el7
     cloud7-openstack-common-release: python-waitress-0.8.9-5.el7
     cloud7-openstack-queens-testing: python-waitress-0.8.9-5.el7
+    cloud7-openstack-queens-release: python-waitress-0.8.9-5.el7
 - project: python-unicodecsv
   name: python-unicodecsv
   conf: fedora-dependency
@@ -1621,6 +1811,7 @@ packages:
     cloud7-openstack-common-testing: python-unicodecsv-0.14.1-1.el7
     cloud7-openstack-common-release: python-unicodecsv-0.14.1-1.el7
     cloud7-openstack-queens-testing: python-unicodecsv-0.14.1-1.el7
+    cloud7-openstack-queens-release: python-unicodecsv-0.14.1-1.el7
 - project: python-XStatic-Jasmine
   name: python-XStatic-Jasmine
   conf: fedora-dependency
@@ -1630,6 +1821,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-Jasmine-2.4.1.1-1.el7
     cloud7-openstack-pike-release: python-XStatic-Jasmine-2.4.1.1-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Jasmine-2.4.1.1-1.el7
+    cloud7-openstack-queens-release: python-XStatic-Jasmine-2.4.1.1-1.el7
 - project: python-rfc3986
   name: python-rfc3986
   conf: fedora-dependency
@@ -1637,6 +1829,7 @@ packages:
     cloud7-openstack-common-testing: python-rfc3986-0.3.1-1.el7
     cloud7-openstack-common-release: python-rfc3986-0.3.1-1.el7
     cloud7-openstack-queens-testing: python-rfc3986-0.3.1-1.el7
+    cloud7-openstack-queens-release: python-rfc3986-0.3.1-1.el7
 - project: python-eventlet
   name: python-eventlet
   conf: rdo-dependency
@@ -1650,6 +1843,7 @@ packages:
     cloud7-openstack-pike-testing: python-eventlet-0.20.1-2.el7
     cloud7-openstack-pike-release: python-eventlet-0.20.1-2.el7
     cloud7-openstack-queens-testing: python-eventlet-0.20.1-2.el7
+    cloud7-openstack-queens-release: python-eventlet-0.20.1-2.el7
 - project: python-XStatic
   name: python-XStatic
   conf: fedora-dependency
@@ -1657,6 +1851,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-1.0.1-8.el7
     cloud7-openstack-common-release: python-XStatic-1.0.1-8.el7
     cloud7-openstack-queens-testing: python-XStatic-1.0.1-8.el7
+    cloud7-openstack-queens-release: python-XStatic-1.0.1-8.el7
 - project: pysendfile
   name: pysendfile
   conf: fedora-dependency
@@ -1664,6 +1859,7 @@ packages:
     cloud7-openstack-common-testing: pysendfile-2.0.0-5.el7
     cloud7-openstack-common-release: pysendfile-2.0.0-5.el7
     cloud7-openstack-queens-testing: pysendfile-2.0.0-5.el7
+    cloud7-openstack-queens-release: pysendfile-2.0.0-5.el7
 - project: libnetfilter_cttimeout
   name: libnetfilter_cttimeout
   conf: fedora-dependency
@@ -1677,6 +1873,7 @@ packages:
     cloud7-openstack-common-testing: python-msgpack-0.4.6-3.el7
     cloud7-openstack-common-release: python-msgpack-0.4.6-3.el7
     cloud7-openstack-queens-testing: python-msgpack-0.4.6-3.el7
+    cloud7-openstack-queens-release: python-msgpack-0.4.6-3.el7
 - project: python-smmap
   name: python-smmap
   conf: fedora-dependency
@@ -1684,6 +1881,7 @@ packages:
     cloud7-openstack-common-testing: python-smmap-0.9.0-5.el7
     cloud7-openstack-common-release: python-smmap-0.9.0-5.el7
     cloud7-openstack-queens-testing: python-smmap-0.9.0-5.el7
+    cloud7-openstack-queens-release: python-smmap-0.9.0-5.el7
 - project: python-py
   name: python-py
   conf: rdo-dependency
@@ -1697,6 +1895,7 @@ packages:
     cloud7-openstack-common-testing: erlang-rpm-macros-0.1.4-1.el7
     cloud7-openstack-common-release: erlang-rpm-macros-0.1.4-1.el7
     cloud7-openstack-queens-testing: erlang-rpm-macros-0.1.4-1.el7
+    cloud7-openstack-queens-release: erlang-rpm-macros-0.1.4-1.el7
   maintainers:
   - lemenkov@gmail.com
 - project: babel
@@ -1706,6 +1905,7 @@ packages:
     cloud7-openstack-common-testing: babel-2.3.4-1.el7
     cloud7-openstack-common-release: babel-2.3.4-1.el7
     cloud7-openstack-queens-testing: babel-2.3.4-1.el7
+    cloud7-openstack-queens-release: babel-2.3.4-1.el7
 - project: python-colorama
   name: python-colorama
   conf: fedora-dependency
@@ -1713,6 +1913,7 @@ packages:
     cloud7-openstack-common-testing: python-colorama-0.3.7-2.el7
     cloud7-openstack-common-release: python-colorama-0.3.7-2.el7
     cloud7-openstack-queens-testing: python-colorama-0.3.7-2.el7
+    cloud7-openstack-queens-release: python-colorama-0.3.7-2.el7
 - project: python-netifaces
   name: python-netifaces
   conf: fedora-dependency
@@ -1726,6 +1927,7 @@ packages:
     cloud7-openstack-common-testing: python-tempita-0.5.1-8.el7
     cloud7-openstack-common-release: python-tempita-0.5.1-8.el7
     cloud7-openstack-queens-testing: python-tempita-0.5.1-8.el7
+    cloud7-openstack-queens-release: python-tempita-0.5.1-8.el7
 - project: python-scss
   name: python-scss
   conf: fedora-dependency
@@ -1735,6 +1937,7 @@ packages:
     cloud7-openstack-newton-release: python-scss-1.3.4-1.el7
     cloud7-openstack-ocata-release: python-scss-1.3.4-1.el7
     cloud7-openstack-queens-testing: python-scss-1.3.4-6.el7
+    cloud7-openstack-queens-release: python-scss-1.3.4-6.el7
 - project: python-gevent
   name: python-gevent
   conf: rdo-dependency
@@ -1742,6 +1945,7 @@ packages:
     cloud7-openstack-common-testing: python-gevent-1.1.2-2.el7
     cloud7-openstack-common-release: python-gevent-1.1.2-2.el7
     cloud7-openstack-queens-testing: python-gevent-1.1.2-2.el7
+    cloud7-openstack-queens-release: python-gevent-1.1.2-2.el7
 - project: python-mpmath
   name: python-mpmath
   conf: fedora-dependency
@@ -1749,6 +1953,7 @@ packages:
     cloud7-openstack-common-testing: python-mpmath-0.19-2.el7
     cloud7-openstack-common-release: python-mpmath-0.19-2.el7
     cloud7-openstack-queens-testing: python-mpmath-0.19-2.el7
+    cloud7-openstack-queens-release: python-mpmath-0.19-2.el7
 - project: python-testresources
   name: python-testresources
   conf: fedora-dependency
@@ -1757,6 +1962,7 @@ packages:
     cloud7-openstack-common-release: python-testresources-0.2.7-6.el7
     cloud7-openstack-queens-testing: python-testresources-1.0.0-6.el7
     cloud7-openstack-queens-candidate: python-testresources-1.0.0-6.el7
+    cloud7-openstack-queens-release: python-testresources-1.0.0-6.el7
 - project: python-funcsigs
   name: python-funcsigs
   conf: fedora-dependency
@@ -1770,6 +1976,7 @@ packages:
     cloud7-openstack-pike-testing: python-funcsigs-1.0.2-1.el7
     cloud7-openstack-pike-release: python-funcsigs-1.0.2-1.el7
     cloud7-openstack-queens-testing: python-funcsigs-1.0.2-1.el7
+    cloud7-openstack-queens-release: python-funcsigs-1.0.2-1.el7
 - project: python-ldappool
   name: python-ldappool
   conf: fedora-dependency
@@ -1777,6 +1984,7 @@ packages:
     cloud7-openstack-common-testing: python-ldappool-1.0-4.el7
     cloud7-openstack-common-release: python-ldappool-1.0-4.el7
     cloud7-openstack-queens-testing: python-ldappool-1.0-4.el7
+    cloud7-openstack-queens-release: python-ldappool-1.0-4.el7
 - project: python-demjson
   name: python-demjson
   conf: rdo-dependency
@@ -1784,6 +1992,7 @@ packages:
     cloud7-openstack-common-testing: python-demjson-2.2.4-3.el7
     cloud7-openstack-common-release: python-demjson-2.2.4-3.el7
     cloud7-openstack-queens-testing: python-demjson-2.2.4-3.el7
+    cloud7-openstack-queens-release: python-demjson-2.2.4-3.el7
 - project: python-cliff-tablib
   name: python-cliff-tablib
   conf: fedora-dependency
@@ -1791,6 +2000,7 @@ packages:
     cloud7-openstack-common-testing: python-cliff-tablib-1.1-3.el7
     cloud7-openstack-common-release: python-cliff-tablib-1.1-3.el7
     cloud7-openstack-queens-testing: python-cliff-tablib-1.1-3.el7
+    cloud7-openstack-queens-release: python-cliff-tablib-1.1-3.el7
 - project: python-characteristic
   name: python-characteristic
   conf: fedora-dependency
@@ -1798,6 +2008,7 @@ packages:
     cloud7-openstack-common-testing: python-characteristic-14.3.0-4.el7
     cloud7-openstack-common-release: python-characteristic-14.3.0-4.el7
     cloud7-openstack-queens-testing: python-characteristic-14.3.0-4.el7
+    cloud7-openstack-queens-release: python-characteristic-14.3.0-4.el7
 - project: python-sqlalchemy
   name: python-sqlalchemy
   conf: rdo-dependency
@@ -1810,6 +2021,7 @@ packages:
     cloud7-openstack-pike-release: python-sqlalchemy-1.1.11-1.el7
     cloud7-openstack-queens-testing: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
+    cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -1824,6 +2036,7 @@ packages:
     cloud7-openstack-common-testing: python-process-tests-1.0.0-7.el7
     cloud7-openstack-common-release: python-process-tests-1.0.0-7.el7
     cloud7-openstack-queens-testing: python-process-tests-1.0.0-7.el7
+    cloud7-openstack-queens-release: python-process-tests-1.0.0-7.el7
 - project: perl-Net-SNMP
   name: perl-Net-SNMP
   conf: fedora-dependency
@@ -1837,6 +2050,7 @@ packages:
     cloud7-openstack-common-testing: python-voluptuous-0.8.9-1.el7
     cloud7-openstack-common-release: python-voluptuous-0.8.9-1.el7
     cloud7-openstack-queens-testing: python-voluptuous-0.10.5-2.el7
+    cloud7-openstack-queens-release: python-voluptuous-0.10.5-2.el7
 - project: rabbitmq-server
   name: rabbitmq-server
   conf: fedora-dependency
@@ -1844,6 +2058,7 @@ packages:
     cloud7-openstack-common-testing: rabbitmq-server-3.6.5-1.el7
     cloud7-openstack-common-release: rabbitmq-server-3.6.5-1.el7
     cloud7-openstack-queens-testing: rabbitmq-server-3.6.5-1.el7
+    cloud7-openstack-queens-release: rabbitmq-server-3.6.5-1.el7
   maintainers:
   - lemenkov@gmail.com
 - project: fakeroot
@@ -1853,6 +2068,7 @@ packages:
     cloud7-openstack-common-testing: fakeroot-1.20.2-4.el7
     cloud7-openstack-common-release: fakeroot-1.20.2-4.el7
     cloud7-openstack-queens-testing: fakeroot-1.20.2-4.el7
+    cloud7-openstack-queens-release: fakeroot-1.20.2-4.el7
 - project: python-memcached
   name: python-memcached
   conf: fedora-dependency
@@ -1862,6 +2078,7 @@ packages:
     cloud7-openstack-pike-testing: python-memcached-1.58-1.el7
     cloud7-openstack-pike-release: python-memcached-1.58-1.el7
     cloud7-openstack-queens-testing: python-memcached-1.58-1.el7
+    cloud7-openstack-queens-release: python-memcached-1.58-1.el7
 - project: python-pep8
   name: python-pep8
   conf: fedora-dependency
@@ -1869,11 +2086,13 @@ packages:
     cloud7-openstack-common-testing: python-pep8-1.5.7-2.el7
     cloud7-openstack-common-release: python-pep8-1.5.7-2.el7
     cloud7-openstack-queens-testing: python-pep8-1.5.7-2.el7
+    cloud7-openstack-queens-release: python-pep8-1.5.7-2.el7
 - project: python-pycodestyle
   name: python-pycodestyle
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-pycodestyle-2.0.0-5.el7
+    cloud7-openstack-queens-release: python-pycodestyle-2.0.0-5.el7
 - project: python-uri-templates
   name: python-uri-templates
   conf: fedora-dependency
@@ -1881,6 +2100,7 @@ packages:
     cloud7-openstack-common-testing: python-uri-templates-0.6-5.el7
     cloud7-openstack-common-release: python-uri-templates-0.6-5.el7
     cloud7-openstack-queens-testing: python-uri-templates-0.6-5.el7
+    cloud7-openstack-queens-release: python-uri-templates-0.6-5.el7
 - project: pystache
   name: pystache
   conf: fedora-dependency
@@ -1888,6 +2108,7 @@ packages:
     cloud7-openstack-common-testing: pystache-0.5.3-2.el7
     cloud7-openstack-common-release: pystache-0.5.3-2.el7
     cloud7-openstack-queens-testing: pystache-0.5.3-2.el7
+    cloud7-openstack-queens-release: pystache-0.5.3-2.el7
 - project: python-pyghmi
   name: python-pyghmi
   conf: fedora-dependency
@@ -1897,6 +2118,7 @@ packages:
     cloud7-openstack-pike-testing: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-queens-testing: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-pike-release: python-pyghmi-1.0.22-1.el7
+    cloud7-openstack-queens-release: python-pyghmi-1.0.22-1.el7
 - project: python-nose
   name: python-nose
   conf: fedora-dependency
@@ -1904,6 +2126,7 @@ packages:
     cloud7-openstack-common-testing: python-nose-1.3.7-7.el7
     cloud7-openstack-common-release: python-nose-1.3.7-7.el7
     cloud7-openstack-queens-testing: python-nose-1.3.7-7.el7
+    cloud7-openstack-queens-release: python-nose-1.3.7-7.el7
 - project: pyparsing
   name: pyparsing
   conf: rdo-dependency
@@ -1911,6 +2134,7 @@ packages:
     cloud7-openstack-common-testing: pyparsing-2.1.10-3.el7
     cloud7-openstack-common-release: pyparsing-2.1.10-3.el7
     cloud7-openstack-queens-testing: pyparsing-2.1.10-3.el7
+    cloud7-openstack-queens-release: pyparsing-2.1.10-3.el7
 - project: python-pykwalify
   name: python-pykwalify
   conf: fedora-dependency
@@ -1918,6 +2142,7 @@ packages:
     cloud7-openstack-common-testing: python-pykwalify-1.5.1-2.el7
     cloud7-openstack-common-release: python-pykwalify-1.5.1-2.el7
     cloud7-openstack-queens-testing: python-pykwalify-1.5.1-2.el7
+    cloud7-openstack-queens-release: python-pykwalify-1.5.1-2.el7
 - project: python-scrypt
   name: python-scrypt
   conf: fedora-dependency
@@ -1925,6 +2150,7 @@ packages:
     cloud7-openstack-common-testing: python-scrypt-0.8.0-2.el7
     cloud7-openstack-common-release: python-scrypt-0.8.0-2.el7
     cloud7-openstack-queens-testing: python-scrypt-0.8.0-2.el7
+    cloud7-openstack-queens-release: python-scrypt-0.8.0-2.el7
 - project: librx
   name: librx
   conf: fedora-dependency
@@ -1932,6 +2158,7 @@ packages:
     cloud7-openstack-common-testing: librx-1.5-19.el7
     cloud7-openstack-common-release: librx-1.5-19.el7
     cloud7-openstack-queens-testing: librx-1.5-19.el7
+    cloud7-openstack-queens-release: librx-1.5-19.el7
 - project: python-isodate
   name: python-isodate
   conf: fedora-dependency
@@ -1939,6 +2166,7 @@ packages:
     cloud7-openstack-common-testing: python-isodate-0.5.0-3.el7
     cloud7-openstack-common-release: python-isodate-0.5.0-3.el7
     cloud7-openstack-queens-testing: python-isodate-0.5.0-3.el7
+    cloud7-openstack-queens-release: python-isodate-0.5.0-3.el7
 - project: python-editor
   name: python-editor
   conf: fedora-dependency
@@ -1946,6 +2174,7 @@ packages:
     cloud7-openstack-common-testing: python-editor-0.4-4.el7
     cloud7-openstack-common-release: python-editor-0.4-4.el7
     cloud7-openstack-queens-testing: python-editor-0.4-4.el7
+    cloud7-openstack-queens-release: python-editor-0.4-4.el7
 - project: libnetfilter_queue
   name: libnetfilter_queue
   conf: fedora-dependency
@@ -1959,6 +2188,7 @@ packages:
     cloud7-openstack-common-testing: python-persist-queue-0.1.4-1.el7
     cloud7-openstack-common-release: python-persist-queue-0.1.4-1.el7
     cloud7-openstack-queens-testing: python-persist-queue-0.1.4-1.el7
+    cloud7-openstack-queens-release: python-persist-queue-0.1.4-1.el7
 - project: python-traceback2
   name: python-traceback2
   conf: fedora-dependency
@@ -1966,6 +2196,7 @@ packages:
     cloud7-openstack-common-testing: python-traceback2-1.4.0-2.el7
     cloud7-openstack-common-release: python-traceback2-1.4.0-2.el7
     cloud7-openstack-queens-testing: python-traceback2-1.4.0-2.el7
+    cloud7-openstack-queens-release: python-traceback2-1.4.0-2.el7
 - project: lz4
   name: lz4
   conf: fedora-dependency
@@ -1973,6 +2204,7 @@ packages:
     cloud7-openstack-common-testing: lz4-r131-2.el7
     cloud7-openstack-common-release: lz4-r131-2.el7
     cloud7-openstack-queens-testing: lz4-r131-2.el7
+    cloud7-openstack-queens-release: lz4-r131-2.el7
 - project: python-sphinx_rtd_theme
   name: python-sphinx_rtd_theme
   conf: fedora-dependency
@@ -1980,6 +2212,7 @@ packages:
     cloud7-openstack-common-testing: python-sphinx_rtd_theme-0.2.4-1.el7
     cloud7-openstack-common-release: python-sphinx_rtd_theme-0.2.4-1.el7
     cloud7-openstack-queens-testing: python-sphinx_rtd_theme-0.2.4-1.el7
+    cloud7-openstack-queens-release: python-sphinx_rtd_theme-0.2.4-1.el7
 - project: python-tablib
   name: python-tablib
   conf: fedora-dependency
@@ -1987,6 +2220,7 @@ packages:
     cloud7-openstack-common-testing: python-tablib-0.10.0-1.el7
     cloud7-openstack-common-release: python-tablib-0.10.0-1.el7
     cloud7-openstack-queens-testing: python-tablib-0.10.0-1.el7
+    cloud7-openstack-queens-release: python-tablib-0.10.0-1.el7
 - project: python-marathon
   name: python-marathon
   conf: fedora-dependency
@@ -1994,6 +2228,7 @@ packages:
     cloud7-openstack-common-testing: python-marathon-0.8.7-1.el7
     cloud7-openstack-common-release: python-marathon-0.8.7-1.el7
     cloud7-openstack-queens-testing: python-marathon-0.8.7-1.el7
+    cloud7-openstack-queens-release: python-marathon-0.8.7-1.el7
 - project: python-XStatic-JQuery-Migrate
   name: python-XStatic-JQuery-Migrate
   conf: fedora-dependency
@@ -2002,6 +2237,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-JQuery-Migrate-1.2.1.1-2.el7
     cloud7-openstack-queens-testing: python-XStatic-JQuery-Migrate-1.2.1.1-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-JQuery-Migrate-1.2.1.1-10.el7
+    cloud7-openstack-queens-release: python-XStatic-JQuery-Migrate-1.2.1.1-2.el7
 - project: python-tzlocal
   name: python-tzlocal
   conf: fedora-dependency
@@ -2009,6 +2245,7 @@ packages:
     cloud7-openstack-common-testing: python-tzlocal-1.2-4.el7
     cloud7-openstack-common-release: python-tzlocal-1.2-4.el7
     cloud7-openstack-queens-testing: python-tzlocal-1.2-4.el7
+    cloud7-openstack-queens-release: python-tzlocal-1.2-4.el7
 - project: python-semantic_version
   name: python-semantic_version
   conf: fedora-dependency
@@ -2016,6 +2253,7 @@ packages:
     cloud7-openstack-common-testing: python-semantic_version-2.4.2-1.el7
     cloud7-openstack-common-release: python-semantic_version-2.4.2-1.el7
     cloud7-openstack-queens-testing: python-semantic_version-2.4.2-1.el7
+    cloud7-openstack-queens-release: python-semantic_version-2.4.2-1.el7
 - project: pydot
   name: pydot
   conf: rdo-dependency
@@ -2023,6 +2261,7 @@ packages:
     cloud7-openstack-common-testing: pydot-1.0.28-11.el7
     cloud7-openstack-common-release: pydot-1.0.28-11.el7
     cloud7-openstack-queens-testing: pydot-1.0.28-11.el7
+    cloud7-openstack-queens-release: pydot-1.0.28-11.el7
 - project: python-APScheduler
   name: python-APScheduler
   conf: fedora-dependency
@@ -2030,6 +2269,7 @@ packages:
     cloud7-openstack-common-testing: python-APScheduler-3.0.5-2.el7
     cloud7-openstack-common-release: python-APScheduler-3.0.5-2.el7
     cloud7-openstack-queens-testing: python-APScheduler-3.0.5-2.el7
+    cloud7-openstack-queens-release: python-APScheduler-3.0.5-2.el7
 - project: python-requests
   name: python-requests
   conf: rdo-dependency
@@ -2039,6 +2279,7 @@ packages:
     cloud7-openstack-pike-testing: python-requests-2.14.2-1.el7
     cloud7-openstack-queens-testing: python-requests-2.14.2-1.el7
     cloud7-openstack-pike-release: python-requests-2.14.2-1.el7
+    cloud7-openstack-queens-release: python-requests-2.14.2-1.el7
 - project: python-idna
   name: python-idna
   conf: rdo-dependency
@@ -2046,6 +2287,7 @@ packages:
     cloud7-openstack-common-testing: python-idna-2.5-1.el7
     cloud7-openstack-common-release: python-idna-2.5-1.el7
     cloud7-openstack-queens-testing: python-idna-2.5-1.el7
+    cloud7-openstack-queens-release: python-idna-2.5-1.el7
 - project: python-cairosvg
   name: python-cairosvg
   conf: fedora-dependency
@@ -2053,6 +2295,7 @@ packages:
     cloud7-openstack-common-testing: python-cairosvg-1.0.20-3.el7
     cloud7-openstack-common-release: python-cairosvg-1.0.20-3.el7
     cloud7-openstack-queens-testing: python-cairosvg-1.0.20-3.el7
+    cloud7-openstack-queens-release: python-cairosvg-1.0.20-3.el7
 - project: python-pifpaf
   name: python-pifpaf
   conf: fedora-dependency
@@ -2060,6 +2303,7 @@ packages:
     cloud7-openstack-common-testing: python-pifpaf-0.12.0-1.el7
     cloud7-openstack-common-release: python-pifpaf-0.12.0-1.el7
     cloud7-openstack-queens-testing: python-pifpaf-0.12.0-1.el7
+    cloud7-openstack-queens-release: python-pifpaf-0.12.0-1.el7
 - project: python-gunicorn
   name: python-gunicorn
   conf: rdo-dependency
@@ -2067,6 +2311,7 @@ packages:
     cloud7-openstack-common-testing: python-gunicorn-19.7.1-1.el7
     cloud7-openstack-common-release: python-gunicorn-19.7.1-1.el7
     cloud7-openstack-queens-testing: python-gunicorn-19.7.1-1.el7
+    cloud7-openstack-queens-release: python-gunicorn-19.7.1-1.el7
 - project: python-influxdb
   name: python-influxdb
   conf: rdo-dependency
@@ -2074,6 +2319,7 @@ packages:
     cloud7-openstack-common-testing: python-influxdb-4.0.0-1.el7.1
     cloud7-openstack-common-release: python-influxdb-4.0.0-1.el7.1
     cloud7-openstack-queens-testing: python-influxdb-4.0.0-1.el7.1
+    cloud7-openstack-queens-release: python-influxdb-4.0.0-1.el7.1
 - project: apiextractor
   name: apiextractor
   conf: fedora-dependency
@@ -2081,6 +2327,7 @@ packages:
     cloud7-openstack-common-testing: apiextractor-0.10.10-11.el7
     cloud7-openstack-common-release: apiextractor-0.10.10-11.el7
     cloud7-openstack-queens-testing: apiextractor-0.10.10-11.el7
+    cloud7-openstack-queens-release: apiextractor-0.10.10-11.el7
 - project: python-jsonrpclib
   name: python-jsonrpclib
   conf: fedora-dependency
@@ -2088,6 +2335,7 @@ packages:
     cloud7-openstack-common-testing: python-jsonrpclib-0.1.3-2.el7
     cloud7-openstack-common-release: python-jsonrpclib-0.1.3-2.el7
     cloud7-openstack-queens-testing: python-jsonrpclib-0.1.3-2.el7
+    cloud7-openstack-queens-release: python-jsonrpclib-0.1.3-2.el7
 - project: python-extras
   name: python-extras
   conf: fedora-dependency
@@ -2096,6 +2344,7 @@ packages:
     cloud7-openstack-common-release: python-extras-0.0.3-2.el7
     cloud7-openstack-queens-testing: python-extras-1.0.0-2.el7
     cloud7-openstack-queens-candidate: python-extras-1.0.0-2.el7
+    cloud7-openstack-queens-release: python-extras-1.0.0-2.el7
 - project: jemalloc
   name: jemalloc
   conf: fedora-dependency
@@ -2103,6 +2352,7 @@ packages:
     cloud7-openstack-common-testing: jemalloc-3.6.0-1.el7
     cloud7-openstack-common-release: jemalloc-3.6.0-1.el7
     cloud7-openstack-queens-testing: jemalloc-3.6.0-1.el7
+    cloud7-openstack-queens-release: jemalloc-3.6.0-1.el7
 - project: python-selenium
   name: python-selenium
   conf: rdo-dependency
@@ -2110,6 +2360,7 @@ packages:
     cloud7-openstack-common-testing: python-selenium-2.42.1-3.el7
     cloud7-openstack-common-release: python-selenium-2.42.1-3.el7
     cloud7-openstack-queens-testing: python-selenium-2.42.1-3.el7
+    cloud7-openstack-queens-release: python-selenium-2.42.1-3.el7
 - project: python-enum34
   name: python-enum34
   conf: fedora-dependency
@@ -2123,6 +2374,7 @@ packages:
     cloud7-openstack-common-testing: python-zake-0.2.2-2.el7
     cloud7-openstack-common-release: python-zake-0.2.2-2.el7
     cloud7-openstack-queens-testing: python-zake-0.2.2-2.el7
+    cloud7-openstack-queens-release: python-zake-0.2.2-2.el7
 - project: python-empy
   name: python-empy
   conf: fedora-dependency
@@ -2130,6 +2382,7 @@ packages:
     cloud7-openstack-common-testing: python-empy-3.3.2-2.el7
     cloud7-openstack-common-release: python-empy-3.3.2-2.el7
     cloud7-openstack-queens-testing: python-empy-3.3.2-2.el7
+    cloud7-openstack-queens-release: python-empy-3.3.2-2.el7
 - project: python-XStatic-Magic-Search
   name: python-XStatic-Magic-Search
   conf: fedora-dependency
@@ -2138,6 +2391,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-Magic-Search-0.2.0.1-2.el7
     cloud7-openstack-queens-testing: python-XStatic-Magic-Search-0.2.0.1-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-Magic-Search-0.2.5.1-5.el7
+    cloud7-openstack-queens-release: python-XStatic-Magic-Search-0.2.0.1-2.el7
 - project: python-coverage
   name: python-coverage
   conf: fedora-dependency
@@ -2145,6 +2399,7 @@ packages:
     cloud7-openstack-common-testing: python-coverage-4.4.1-1.el7
     cloud7-openstack-common-release: python-coverage-4.4.1-1.el7
     cloud7-openstack-queens-testing: python-coverage-4.4.1-1.el7
+    cloud7-openstack-queens-release: python-coverage-4.4.1-1.el7
 - project: python-pygments
   name: python-pygments
   conf: fedora-dependency
@@ -2152,6 +2407,7 @@ packages:
     cloud7-openstack-common-testing: python-pygments-2.2.0-7.el7
     cloud7-openstack-common-release: python-pygments-2.2.0-7.el7
     cloud7-openstack-queens-testing: python-pygments-2.2.0-7.el7
+    cloud7-openstack-queens-release: python-pygments-2.2.0-7.el7
 - project: python-scales
   name: python-scales
   conf: fedora-dependency
@@ -2159,6 +2415,7 @@ packages:
     cloud7-openstack-common-testing: python-scales-1.0.5-8.el7
     cloud7-openstack-common-release: python-scales-1.0.5-8.el7
     cloud7-openstack-queens-testing: python-scales-1.0.5-8.el7
+    cloud7-openstack-queens-release: python-scales-1.0.5-8.el7
 - project: python-pytimeparse
   name: python-pytimeparse
   conf: fedora-dependency
@@ -2166,6 +2423,7 @@ packages:
     cloud7-openstack-common-testing: python-pytimeparse-1.1.5-1.el7
     cloud7-openstack-common-release: python-pytimeparse-1.1.5-1.el7
     cloud7-openstack-queens-testing: python-pytimeparse-1.1.5-1.el7
+    cloud7-openstack-queens-release: python-pytimeparse-1.1.5-1.el7
 - project: nodejs-packaging
   name: nodejs-packaging
   conf: fedora-dependency
@@ -2173,6 +2431,7 @@ packages:
     cloud7-openstack-common-testing: nodejs-packaging-9-1.el7
     cloud7-openstack-common-release: nodejs-packaging-9-1.el7
     cloud7-openstack-queens-testing: nodejs-packaging-9-1.el7
+    cloud7-openstack-queens-release: nodejs-packaging-9-1.el7
 - project: jq
   name: jq
   conf: rdo-dependency
@@ -2181,6 +2440,7 @@ packages:
     cloud7-openstack-common-release: jq-1.3-2.el7
     cloud7-openstack-queens-testing: jq-1.5-10.el7
     cloud7-openstack-queens-candidate: jq-1.5-10.el7
+    cloud7-openstack-queens-release: jq-1.5-10.el7
 - project: python-urllib3
   name: python-urllib3
   conf: rdo-dependency
@@ -2190,6 +2450,7 @@ packages:
     cloud7-openstack-pike-testing: python-urllib3-1.21.1-1.el7
     cloud7-openstack-queens-testing: python-urllib3-1.21.1-1.el7
     cloud7-openstack-pike-release: python-urllib3-1.21.1-1.el7
+    cloud7-openstack-queens-release: python-urllib3-1.21.1-1.el7
 - project: python-lockfile
   name: python-lockfile
   conf: fedora-dependency
@@ -2209,6 +2470,7 @@ packages:
     cloud7-openstack-common-testing: python-rdflib-4.1.2-2.el7
     cloud7-openstack-common-release: python-rdflib-4.1.2-2.el7
     cloud7-openstack-queens-testing: python-rdflib-4.1.2-2.el7
+    cloud7-openstack-queens-release: python-rdflib-4.1.2-2.el7
 - project: python-singledispatch
   name: python-singledispatch
   conf: fedora-dependency
@@ -2216,6 +2478,7 @@ packages:
     cloud7-openstack-common-testing: python-singledispatch-3.4.0.3-4.el7
     cloud7-openstack-common-release: python-singledispatch-3.4.0.3-4.el7
     cloud7-openstack-queens-testing: python-singledispatch-3.4.0.3-4.el7
+    cloud7-openstack-queens-release: python-singledispatch-3.4.0.3-4.el7
 - project: python-dogpile-core
   name: python-dogpile-core
   conf: fedora-dependency
@@ -2223,6 +2486,7 @@ packages:
     cloud7-openstack-common-testing: python-dogpile-core-0.4.1-2.el7
     cloud7-openstack-common-release: python-dogpile-core-0.4.1-2.el7
     cloud7-openstack-queens-testing: python-dogpile-core-0.4.1-2.el7
+    cloud7-openstack-queens-release: python-dogpile-core-0.4.1-2.el7
 - project: bandit
   name: bandit
   conf: rdo-dependency
@@ -2230,6 +2494,7 @@ packages:
     cloud7-openstack-common-testing: bandit-0.13.2-1.el7
     cloud7-openstack-common-release: bandit-0.13.2-1.el7
     cloud7-openstack-queens-testing: bandit-0.13.2-1.el7
+    cloud7-openstack-queens-release: bandit-0.13.2-1.el7
 - project: python-pysocks
   name: python-pysocks
   conf: fedora-dependency
@@ -2239,6 +2504,7 @@ packages:
     cloud7-openstack-newton-release: python-pysocks-1.5.6-3.el7
     cloud7-openstack-ocata-release: python-pysocks-1.5.6-3.el7
     cloud7-openstack-queens-testing: python-pysocks-1.5.6-3.el7
+    cloud7-openstack-queens-release: python-pysocks-1.5.6-3.el7
 - project: python-django-appconf
   name: python-django-appconf
   conf: rdo-dependency
@@ -2246,6 +2512,7 @@ packages:
     cloud7-openstack-common-testing: python-django-appconf-1.0.1-4.el7
     cloud7-openstack-common-release: python-django-appconf-1.0.1-4.el7
     cloud7-openstack-queens-testing: python-django-appconf-1.0.1-4.el7
+    cloud7-openstack-queens-release: python-django-appconf-1.0.1-4.el7
 - project: python-jsonpatch
   name: python-jsonpatch
   conf: fedora-dependency
@@ -2254,6 +2521,7 @@ packages:
     cloud7-openstack-common-release: python-jsonpatch-1.14-1.el7
     cloud7-openstack-queens-testing: python-jsonpatch-1.21-1.el7
     cloud7-openstack-queens-candidate: python-jsonpatch-1.21-1.el7
+    cloud7-openstack-queens-release: python-jsonpatch-1.21-1.el7
 - project: python-etcd
   name: python-etcd
   conf: rdo-dependency
@@ -2261,6 +2529,7 @@ packages:
     cloud7-openstack-common-testing: python-etcd-0.4.3-5.el7
     cloud7-openstack-common-release: python-etcd-0.4.3-5.el7
     cloud7-openstack-queens-testing: python-etcd-0.4.3-5.el7
+    cloud7-openstack-queens-release: python-etcd-0.4.3-5.el7
 - project: python-ptyprocess
   name: python-ptyprocess
   conf: fedora-dependency
@@ -2268,6 +2537,7 @@ packages:
     cloud7-openstack-common-testing: python-ptyprocess-0.4-1.el7
     cloud7-openstack-common-release: python-ptyprocess-0.4-1.el7
     cloud7-openstack-queens-testing: python-ptyprocess-0.4-1.el7
+    cloud7-openstack-queens-release: python-ptyprocess-0.4-1.el7
 - project: python-junitxml
   name: python-junitxml
   conf: fedora-dependency
@@ -2275,6 +2545,7 @@ packages:
     cloud7-openstack-common-testing: python-junitxml-0.7-1.el7
     cloud7-openstack-common-release: python-junitxml-0.7-1.el7
     cloud7-openstack-queens-testing: python-junitxml-0.7-1.el7
+    cloud7-openstack-queens-release: python-junitxml-0.7-1.el7
 - project: rubygem-rgen
   name: rubygem-rgen
   conf: fedora-dependency
@@ -2282,6 +2553,7 @@ packages:
     cloud7-openstack-common-testing: rubygem-rgen-0.6.6-2.el7
     cloud7-openstack-common-release: rubygem-rgen-0.6.6-2.el7
     cloud7-openstack-queens-testing: rubygem-rgen-0.6.6-2.el7
+    cloud7-openstack-queens-release: rubygem-rgen-0.6.6-2.el7
 - project: python-keyczar
   name: python-keyczar
   conf: fedora-dependency
@@ -2289,6 +2561,7 @@ packages:
     cloud7-openstack-common-testing: python-keyczar-0.71c-2.el7
     cloud7-openstack-common-release: python-keyczar-0.71c-2.el7
     cloud7-openstack-queens-testing: python-keyczar-0.71c-2.el7
+    cloud7-openstack-queens-release: python-keyczar-0.71c-2.el7
 - project: python-zmq
   name: python-zmq
   conf: fedora-dependency
@@ -2296,6 +2569,7 @@ packages:
     cloud7-openstack-common-testing: python-zmq-14.7.0-2.el7
     cloud7-openstack-common-release: python-zmq-14.7.0-2.el7
     cloud7-openstack-queens-testing: python-zmq-14.7.0-2.el7
+    cloud7-openstack-queens-release: python-zmq-14.7.0-2.el7
 - project: python-mimeparse
   name: python-mimeparse
   conf: fedora-dependency
@@ -2303,6 +2577,7 @@ packages:
     cloud7-openstack-common-testing: python-mimeparse-0.1.4-1.el7
     cloud7-openstack-common-release: python-mimeparse-0.1.4-1.el7
     cloud7-openstack-queens-testing: python-mimeparse-0.1.4-1.el7
+    cloud7-openstack-queens-release: python-mimeparse-0.1.4-1.el7
 - project: python-pretend
   name: python-pretend
   conf: fedora-dependency
@@ -2310,6 +2585,7 @@ packages:
     cloud7-openstack-common-testing: python-pretend-1.0.8-2.el7
     cloud7-openstack-common-release: python-pretend-1.0.8-2.el7
     cloud7-openstack-queens-testing: python-pretend-1.0.8-2.el7
+    cloud7-openstack-queens-release: python-pretend-1.0.8-2.el7
 - project: numpy
   name: numpy
   conf: fedora-dependency
@@ -2317,6 +2593,7 @@ packages:
     cloud7-openstack-common-testing: numpy-1.11.2-2.el7
     cloud7-openstack-common-release: numpy-1.11.2-2.el7
     cloud7-openstack-queens-testing: numpy-1.11.2-2.el7
+    cloud7-openstack-queens-release: numpy-1.11.2-2.el7
 - project: python-dtopt
   name: python-dtopt
   conf: fedora-dependency
@@ -2324,6 +2601,7 @@ packages:
     cloud7-openstack-common-testing: python-dtopt-0.1-16.el7
     cloud7-openstack-common-release: python-dtopt-0.1-16.el7
     cloud7-openstack-queens-testing: python-dtopt-0.1-16.el7
+    cloud7-openstack-queens-release: python-dtopt-0.1-16.el7
 - project: python-sphinxcontrib-programoutput
   name: python-sphinxcontrib-programoutput
   conf: fedora-dependency
@@ -2338,6 +2616,7 @@ packages:
     cloud7-openstack-common-testing: openpgm-5.2.122-2.el7
     cloud7-openstack-common-release: openpgm-5.2.122-2.el7
     cloud7-openstack-queens-testing: openpgm-5.2.122-2.el7
+    cloud7-openstack-queens-release: openpgm-5.2.122-2.el7
 - project: python-XStatic-jQuery
   name: python-XStatic-jQuery
   conf: fedora-dependency
@@ -2346,6 +2625,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-jQuery-1.10.2.1-1.el7
     cloud7-openstack-queens-testing: python-XStatic-jQuery-1.10.2.1-1.el7
     cloud7-openstack-queens-candidate: python-XStatic-jQuery-1.10.2.1-9.el7
+    cloud7-openstack-queens-release: python-XStatic-jQuery-1.10.2.1-1.el7
 - project: rubygem-nokogiri
   name: rubygem-nokogiri
   conf: fedora-dependency
@@ -2353,6 +2633,7 @@ packages:
     cloud7-openstack-common-testing: rubygem-nokogiri-1.6.1-1.el7.1
     cloud7-openstack-common-release: rubygem-nokogiri-1.6.1-1.el7.1
     cloud7-openstack-queens-testing: rubygem-nokogiri-1.6.1-1.el7.1
+    cloud7-openstack-queens-release: rubygem-nokogiri-1.6.1-1.el7.1
 - project: python-webtest
   name: python-webtest
   conf: fedora-dependency
@@ -2360,6 +2641,7 @@ packages:
     cloud7-openstack-common-testing: python-webtest-2.0.23-1.el7
     cloud7-openstack-common-release: python-webtest-2.0.23-1.el7
     cloud7-openstack-queens-testing: python-webtest-2.0.23-1.el7
+    cloud7-openstack-queens-release: python-webtest-2.0.23-1.el7
 - project: python-repoze-lru
   name: python-repoze-lru
   conf: fedora-dependency
@@ -2367,6 +2649,7 @@ packages:
     cloud7-openstack-common-testing: python-repoze-lru-0.4-3.el7
     cloud7-openstack-common-release: python-repoze-lru-0.4-3.el7
     cloud7-openstack-queens-testing: python-repoze-lru-0.4-3.el7
+    cloud7-openstack-queens-release: python-repoze-lru-0.4-3.el7
 - project: python-fastcache
   name: python-fastcache
   conf: fedora-dependency
@@ -2374,6 +2657,7 @@ packages:
     cloud7-openstack-common-testing: python-fastcache-1.0.2-9.el7
     cloud7-openstack-common-release: python-fastcache-1.0.2-9.el7
     cloud7-openstack-queens-testing: python-fastcache-1.0.2-9.el7
+    cloud7-openstack-queens-release: python-fastcache-1.0.2-9.el7
 - project: python-flake8
   name: python-flake8
   conf: rdo-dependency
@@ -2381,6 +2665,7 @@ packages:
     cloud7-openstack-common-testing: python-flake8-2.4.1-2.el7
     cloud7-openstack-common-release: python-flake8-2.4.1-2.el7
     cloud7-openstack-queens-testing: python-flake8-2.6.2-1.el7
+    cloud7-openstack-queens-release: python-flake8-2.6.2-1.el7
 - project: python-pytest-cov
   name: python-pytest-cov
   conf: fedora-dependency
@@ -2388,6 +2673,7 @@ packages:
     cloud7-openstack-common-testing: python-pytest-cov-2.5.1-1.el7
     cloud7-openstack-common-release: python-pytest-cov-2.5.1-1.el7
     cloud7-openstack-queens-testing: python-pytest-cov-2.5.1-1.el7
+    cloud7-openstack-queens-release: python-pytest-cov-2.5.1-1.el7
 - project: sysbench
   name: sysbench
   conf: fedora-dependency
@@ -2395,6 +2681,7 @@ packages:
     cloud7-openstack-common-testing: sysbench-0.4.12-12.el7
     cloud7-openstack-common-release: sysbench-0.4.12-12.el7
     cloud7-openstack-queens-testing: sysbench-0.4.12-12.el7
+    cloud7-openstack-queens-release: sysbench-0.4.12-12.el7
 - project: python-retryz
   name: python-retryz
   conf: fedora-dependency
@@ -2402,6 +2689,7 @@ packages:
     cloud7-openstack-common-testing: python-retryz-0.1.8-1.el7
     cloud7-openstack-common-release: python-retryz-0.1.8-1.el7
     cloud7-openstack-queens-testing: python-retryz-0.1.8-1.el7
+    cloud7-openstack-queens-release: python-retryz-0.1.8-1.el7
 - project: python-epi
   name: python-epi
   conf: fedora-dependency
@@ -2409,6 +2697,7 @@ packages:
     cloud7-openstack-common-testing: python-epi-0.1-4.el7
     cloud7-openstack-common-release: python-epi-0.1-4.el7
     cloud7-openstack-queens-testing: python-epi-0.1-4.el7
+    cloud7-openstack-queens-release: python-epi-0.1-4.el7
 - project: python-amqplib
   name: python-amqplib
   conf: fedora-dependency
@@ -2416,11 +2705,13 @@ packages:
     cloud7-openstack-common-testing: python-amqplib-1.0.2-7.el7
     cloud7-openstack-common-release: python-amqplib-1.0.2-7.el7
     cloud7-openstack-queens-testing: python-amqplib-1.0.2-7.el7
+    cloud7-openstack-queens-release: python-amqplib-1.0.2-7.el7
 - project: nghttp2
   name: nghttp2
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: nghttp2-1.29.0-1.el7
+    cloud7-openstack-queens-release: nghttp2-1.29.0-1.el7
 - project: nodejs
   name: nodejs
   conf: rdo-dependency
@@ -2428,6 +2719,7 @@ packages:
     cloud7-openstack-common-testing: nodejs-6.10.2-1.el7
     cloud7-openstack-common-release: nodejs-6.10.2-1.el7
     cloud7-openstack-queens-testing: nodejs-8.9.4-2.el7
+    cloud7-openstack-queens-release: nodejs-8.9.4-2.el7
 - project: python-XStatic-roboto-fontface
   name: python-XStatic-roboto-fontface
   conf: fedora-dependency
@@ -2439,6 +2731,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-roboto-fontface-0.5.0.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-roboto-fontface-0.5.0.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-roboto-fontface-0.5.0.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-roboto-fontface-0.5.0.0-1.el7
 - project: python-wrapt
   name: python-wrapt
   conf: fedora-dependency
@@ -2446,6 +2739,7 @@ packages:
     cloud7-openstack-common-testing: python-wrapt-1.10.8-2.el7
     cloud7-openstack-common-release: python-wrapt-1.10.8-2.el7
     cloud7-openstack-queens-testing: python-wrapt-1.10.8-2.el7
+    cloud7-openstack-queens-release: python-wrapt-1.10.8-2.el7
 - project: python-jmespath
   name: python-jmespath
   conf: fedora-dependency
@@ -2453,6 +2747,7 @@ packages:
     cloud7-openstack-common-testing: python-jmespath-0.9.0-5.el7
     cloud7-openstack-common-release: python-jmespath-0.9.0-5.el7
     cloud7-openstack-queens-testing: python-jmespath-0.9.0-5.el7
+    cloud7-openstack-queens-release: python-jmespath-0.9.0-5.el7
 - project: python-oauth2client
   name: python-oauth2client
   conf: fedora-dependency
@@ -2460,6 +2755,7 @@ packages:
     cloud7-openstack-common-testing: python-oauth2client-1.5.2-3.el7.1
     cloud7-openstack-common-release: python-oauth2client-1.5.2-3.el7.1
     cloud7-openstack-queens-testing: python-oauth2client-1.5.2-3.el7.1
+    cloud7-openstack-queens-release: python-oauth2client-1.5.2-3.el7.1
 - project: ansible
   name: ansible
   conf: fedora-dependency
@@ -2473,6 +2769,7 @@ packages:
     cloud7-openstack-common-testing: python-ipaddress-1.0.16-3.el7
     cloud7-openstack-common-release: python-ipaddress-1.0.16-3.el7
     cloud7-openstack-queens-testing: python-ipaddress-1.0.16-3.el7
+    cloud7-openstack-queens-release: python-ipaddress-1.0.16-3.el7
 - project: crudini
   name: crudini
   conf: fedora-dependency
@@ -2480,6 +2777,7 @@ packages:
     cloud7-openstack-common-testing: crudini-0.9-2.el7
     cloud7-openstack-common-release: crudini-0.9-2.el7
     cloud7-openstack-queens-testing: crudini-0.9-2.el7
+    cloud7-openstack-queens-release: crudini-0.9-2.el7
 - project: erlang-mustache
   name: erlang-mustache
   conf: fedora-dependency
@@ -2487,6 +2785,7 @@ packages:
     cloud7-openstack-common-testing: erlang-mustache-0.1.0-5.el7
     cloud7-openstack-common-release: erlang-mustache-0.1.0-5.el7
     cloud7-openstack-queens-testing: erlang-mustache-0.1.0-5.el7
+    cloud7-openstack-queens-release: erlang-mustache-0.1.0-5.el7
   maintainers:
   - lemenkov@gmail.com
 - project: GitPython
@@ -2496,6 +2795,7 @@ packages:
     cloud7-openstack-common-testing: GitPython-1.0.1-5.el7
     cloud7-openstack-common-release: GitPython-1.0.1-5.el7
     cloud7-openstack-queens-testing: GitPython-1.0.1-5.el7
+    cloud7-openstack-queens-release: GitPython-1.0.1-5.el7
 - project: python-django-nose
   name: python-django-nose
   conf: fedora-dependency
@@ -2504,6 +2804,7 @@ packages:
     cloud7-openstack-common-release: python-django-nose-1.4.3-1.el7
     cloud7-openstack-queens-testing: python-django-nose-1.4.5-1.el7
     cloud7-openstack-queens-candidate: python-django-nose-1.4.5-1.el7
+    cloud7-openstack-queens-release: python-django-nose-1.4.5-1.el7
 - project: python-ncclient
   name: python-ncclient
   conf: fedora-dependency
@@ -2511,6 +2812,7 @@ packages:
     cloud7-openstack-common-testing: python-ncclient-0.4.7-5.el7
     cloud7-openstack-common-release: python-ncclient-0.4.2-2.el7
     cloud7-openstack-queens-testing: python-ncclient-0.4.7-5.el7
+    cloud7-openstack-queens-release: python-ncclient-0.4.7-5.el7
 - project: pytest
   name: pytest
   conf: rdo-dependency
@@ -2518,6 +2820,7 @@ packages:
     cloud7-openstack-common-testing: pytest-3.0.6-2.el7
     cloud7-openstack-common-release: pytest-3.0.6-2.el7
     cloud7-openstack-queens-testing: pytest-3.0.6-2.el7
+    cloud7-openstack-queens-release: pytest-3.0.6-2.el7
 - project: python-gflags
   name: python-gflags
   conf: fedora-dependency
@@ -2525,6 +2828,7 @@ packages:
     cloud7-openstack-common-testing: python-gflags-2.0-5.el7
     cloud7-openstack-common-release: python-gflags-2.0-5.el7
     cloud7-openstack-queens-testing: python-gflags-2.0-5.el7
+    cloud7-openstack-queens-release: python-gflags-2.0-5.el7
 - project: subunit
   name: subunit
   conf: rdo-dependency
@@ -2534,6 +2838,7 @@ packages:
     cloud7-openstack-pike-testing: subunit-1.2.0-14.el7
     cloud7-openstack-queens-testing: subunit-1.2.0-14.el7
     cloud7-openstack-pike-release: subunit-1.2.0-14.el7
+    cloud7-openstack-queens-release: subunit-1.2.0-14.el7
 - project: python-jsonschema
   name: python-jsonschema
   conf: rdo-dependency
@@ -2542,6 +2847,7 @@ packages:
     cloud7-openstack-common-release: python-jsonschema-2.3.0-1.el7
     cloud7-openstack-queens-testing: python-jsonschema-2.6.0-2.el7
     cloud7-openstack-queens-candidate: python-jsonschema-2.6.0-2.el7
+    cloud7-openstack-queens-release: python-jsonschema-2.6.0-2.el7
 - project: v8
   name: v8
   conf: fedora-dependency
@@ -2549,6 +2855,7 @@ packages:
     cloud7-openstack-common-testing: v8-3.14.5.10-14.el7
     cloud7-openstack-common-release: v8-3.14.5.10-14.el7
     cloud7-openstack-queens-testing: v8-3.14.5.10-14.el7
+    cloud7-openstack-queens-release: v8-3.14.5.10-14.el7
 - project: python-flask-babel
   name: python-flask-babel
   conf: fedora-dependency
@@ -2556,6 +2863,7 @@ packages:
     cloud7-openstack-common-testing: python-flask-babel-0.9-1.el7
     cloud7-openstack-common-release: python-flask-babel-0.9-1.el7
     cloud7-openstack-queens-testing: python-flask-babel-0.9-1.el7
+    cloud7-openstack-queens-release: python-flask-babel-0.9-1.el7
 - project: pysnmp
   name: pysnmp
   conf: rdo-dependency
@@ -2563,6 +2871,7 @@ packages:
     cloud7-openstack-common-testing: pysnmp-4.3.2-3.el7
     cloud7-openstack-common-release: pysnmp-4.3.2-3.el7
     cloud7-openstack-queens-testing: pysnmp-4.3.2-3.el7
+    cloud7-openstack-queens-release: pysnmp-4.3.2-3.el7
 - project: python-dulwich
   name: python-dulwich
   conf: rdo-dependency
@@ -2572,6 +2881,7 @@ packages:
     cloud7-openstack-pike-testing: python-dulwich-0.18.4-1.el7
     cloud7-openstack-queens-testing: python-dulwich-0.18.4-1.el7
     cloud7-openstack-pike-release: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-queens-release: python-dulwich-0.18.4-1.el7
 - project: pyflakes
   name: pyflakes
   conf: fedora-dependency
@@ -2579,6 +2889,7 @@ packages:
     cloud7-openstack-common-testing: pyflakes-0.9.2-1.el7
     cloud7-openstack-common-release: pyflakes-0.9.2-1.el7
     cloud7-openstack-queens-testing: pyflakes-0.9.2-1.el7
+    cloud7-openstack-queens-release: pyflakes-0.9.2-1.el7
 - project: coin-or-Cbc
   name: coin-or-Cbc
   conf: fedora-dependency
@@ -2586,6 +2897,7 @@ packages:
     cloud7-openstack-common-testing: coin-or-Cbc-2.9.8-1.el7
     cloud7-openstack-common-release: coin-or-Cbc-2.9.8-1.el7
     cloud7-openstack-queens-testing: coin-or-Cbc-2.9.8-1.el7
+    cloud7-openstack-queens-release: coin-or-Cbc-2.9.8-1.el7
 - project: python-wheel
   name: python-wheel
   conf: fedora-dependency
@@ -2593,6 +2905,7 @@ packages:
     cloud7-openstack-common-testing: python-wheel-0.26.0-2.el7
     cloud7-openstack-common-release: python-wheel-0.26.0-2.el7
     cloud7-openstack-queens-testing: python-wheel-0.26.0-2.el7
+    cloud7-openstack-queens-release: python-wheel-0.26.0-2.el7
 - project: python-rsa
   name: python-rsa
   conf: fedora-dependency
@@ -2600,6 +2913,7 @@ packages:
     cloud7-openstack-common-testing: python-rsa-3.3-2.el7
     cloud7-openstack-common-release: python-rsa-3.3-2.el7
     cloud7-openstack-queens-testing: python-rsa-3.3-2.el7
+    cloud7-openstack-queens-release: python-rsa-3.3-2.el7
 - project: fdupes
   name: fdupes
   conf: fedora-dependency
@@ -2607,6 +2921,7 @@ packages:
     cloud7-openstack-common-testing: fdupes-1.51-10.el7
     cloud7-openstack-common-release: fdupes-1.51-10.el7
     cloud7-openstack-queens-testing: fdupes-1.51-10.el7
+    cloud7-openstack-queens-release: fdupes-1.51-10.el7
 - project: libuv
   name: libuv
   conf: rdo-dependency
@@ -2614,6 +2929,7 @@ packages:
     cloud7-openstack-common-testing: libuv-1.9.1-1.el7
     cloud7-openstack-common-release: libuv-1.9.1-1.el7
     cloud7-openstack-queens-testing: libuv-1.16.1-1.el7
+    cloud7-openstack-queens-release: libuv-1.16.1-1.el7
 - project: python-XStatic-smart-table
   name: python-XStatic-smart-table
   conf: fedora-dependency
@@ -2623,6 +2939,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-smart-table-1.4.13.2-1.el7
     cloud7-openstack-pike-release: python-XStatic-smart-table-1.4.13.2-1.el7
     cloud7-openstack-queens-testing: python-XStatic-smart-table-1.4.13.2-1.el7
+    cloud7-openstack-queens-release: python-XStatic-smart-table-1.4.13.2-1.el7
 - project: python-sqlparse
   name: python-sqlparse
   conf: fedora-dependency
@@ -2630,6 +2947,7 @@ packages:
     cloud7-openstack-common-testing: python-sqlparse-0.1.18-5.el7
     cloud7-openstack-common-release: python-sqlparse-0.1.18-5.el7
     cloud7-openstack-queens-testing: python-sqlparse-0.1.18-5.el7
+    cloud7-openstack-queens-release: python-sqlparse-0.1.18-5.el7
 - project: python-monotonic
   name: python-monotonic
   conf: rdo-dependency
@@ -2637,6 +2955,7 @@ packages:
     cloud7-openstack-common-testing: python-monotonic-0.6-1.el7
     cloud7-openstack-common-release: python-monotonic-0.6-1.el7
     cloud7-openstack-queens-testing: python-monotonic-0.6-1.el7
+    cloud7-openstack-queens-release: python-monotonic-0.6-1.el7
 - project: python-deprecation
   name: python-deprecation
   conf: fedora-dependency
@@ -2644,6 +2963,7 @@ packages:
     cloud7-openstack-common-testing: python-deprecation-1.0-3.el7
     cloud7-openstack-common-release: python-deprecation-1.0-3.el7
     cloud7-openstack-queens-testing: python-deprecation-1.0-3.el7
+    cloud7-openstack-queens-release: python-deprecation-1.0-3.el7
 - project: web-assets
   name: web-assets
   conf: fedora-dependency
@@ -2651,6 +2971,7 @@ packages:
     cloud7-openstack-common-testing: web-assets-5-1.el7
     cloud7-openstack-common-release: web-assets-5-1.el7
     cloud7-openstack-queens-testing: web-assets-5-1.el7
+    cloud7-openstack-queens-release: web-assets-5-1.el7
 - project: qpid-proton
   name: qpid-proton
   conf: fedora-dependency
@@ -2658,6 +2979,7 @@ packages:
     cloud7-openstack-common-testing: qpid-proton-0.17.0-4.el7
     cloud7-openstack-common-release: qpid-proton-0.14.0-2.el7
     cloud7-openstack-queens-testing: qpid-proton-0.17.0-4.el7
+    cloud7-openstack-queens-release: qpid-proton-0.17.0-4.el7
 - project: python-sphinxcontrib-pecanwsme
   name: python-sphinxcontrib-pecanwsme
   conf: fedora-dependency
@@ -2665,6 +2987,7 @@ packages:
     cloud7-openstack-common-testing: python-sphinxcontrib-pecanwsme-0.8.0-3.el7
     cloud7-openstack-common-release: python-sphinxcontrib-pecanwsme-0.8.0-3.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-pecanwsme-0.8.0-3.el7
+    cloud7-openstack-queens-release: python-sphinxcontrib-pecanwsme-0.8.0-3.el7
 - project: python-cachetools
   name: python-cachetools
   conf: fedora-dependency
@@ -2679,6 +3002,7 @@ packages:
     cloud7-openstack-pike-release: python-cachetools-1.1.6-2.el7
     cloud7-openstack-queens-testing: python-cachetools-2.0.1-3.el7
     cloud7-openstack-queens-candidate: python-cachetools-2.0.1-3.el7
+    cloud7-openstack-queens-release: python-cachetools-2.0.1-3.el7
 - project: python-pyglet
   name: python-pyglet
   conf: fedora-dependency
@@ -2686,6 +3010,7 @@ packages:
     cloud7-openstack-common-testing: python-pyglet-1.2.1-2.el7
     cloud7-openstack-common-release: python-pyglet-1.2.1-2.el7
     cloud7-openstack-queens-testing: python-pyglet-1.2.1-2.el7
+    cloud7-openstack-queens-release: python-pyglet-1.2.1-2.el7
 - project: python-tenacity
   name: python-tenacity
   conf: fedora-dependency
@@ -2696,6 +3021,7 @@ packages:
     cloud7-openstack-pike-release: python-tenacity-4.4.0-1.el7
     cloud7-openstack-queens-testing: python-tenacity-4.8.0-1.el7
     cloud7-openstack-queens-candidate: python-tenacity-4.8.0-1.el7
+    cloud7-openstack-queens-release: python-tenacity-4.8.0-1.el7
 - project: python-tornado
   name: python-tornado
   conf: rdo-dependency
@@ -2703,6 +3029,7 @@ packages:
     cloud7-openstack-common-testing: python-tornado-4.4.2-2.el7
     cloud7-openstack-common-release: python-tornado-4.4.2-2.el7
     cloud7-openstack-queens-testing: python-tornado-4.4.2-2.el7
+    cloud7-openstack-queens-release: python-tornado-4.4.2-2.el7
 - project: python-snappy
   name: python-snappy
   conf: fedora-dependency
@@ -2710,6 +3037,7 @@ packages:
     cloud7-openstack-common-testing: python-snappy-0.5-8.el7
     cloud7-openstack-common-release: python-snappy-0.5-8.el7
     cloud7-openstack-queens-testing: python-snappy-0.5-8.el7
+    cloud7-openstack-queens-release: python-snappy-0.5-8.el7
 - project: python-bcrypt
   name: python-bcrypt
   conf: rdo-dependency
@@ -2717,6 +3045,7 @@ packages:
     cloud7-openstack-common-testing: python-bcrypt-3.1.2-3.el7
     cloud7-openstack-common-release: python-bcrypt-3.1.2-3.el7
     cloud7-openstack-queens-testing: python-bcrypt-3.1.2-3.el7
+    cloud7-openstack-queens-release: python-bcrypt-3.1.2-3.el7
 - project: python-httplib2
   name: python-httplib2
   conf: fedora-dependency
@@ -2730,6 +3059,7 @@ packages:
     cloud7-openstack-common-testing: python-testtools-1.8.0-2.el7
     cloud7-openstack-common-release: python-testtools-1.8.0-2.el7
     cloud7-openstack-queens-testing: python-testtools-1.8.0-2.el7
+    cloud7-openstack-queens-release: python-testtools-1.8.0-2.el7
 - project: libnetfilter_cthelper
   name: libnetfilter_cthelper
   conf: fedora-dependency
@@ -2743,6 +3073,7 @@ packages:
     cloud7-openstack-common-testing: ttembed-1.1-3.el7
     cloud7-openstack-common-release: ttembed-1.1-3.el7
     cloud7-openstack-queens-testing: ttembed-1.1-3.el7
+    cloud7-openstack-queens-release: ttembed-1.1-3.el7
 - project: python-netaddr
   name: python-netaddr
   conf: fedora-dependency
@@ -2751,6 +3082,7 @@ packages:
     cloud7-openstack-common-release: python-netaddr-0.7.18-1.el7
     cloud7-openstack-queens-testing: python-netaddr-0.7.19-5.el7
     cloud7-openstack-queens-candidate: python-netaddr-0.7.19-5.el7
+    cloud7-openstack-queens-release: python-netaddr-0.7.19-5.el7
 - project: pyOpenSSL
   name: pyOpenSSL
   conf: fedora-dependency
@@ -2764,6 +3096,7 @@ packages:
     cloud7-openstack-pike-testing: pyOpenSSL-16.2.0-3.el7
     cloud7-openstack-pike-release: pyOpenSSL-16.2.0-3.el7
     cloud7-openstack-queens-testing: pyOpenSSL-16.2.0-3.el7
+    cloud7-openstack-queens-release: pyOpenSSL-16.2.0-3.el7
 - project: nrpe
   name: nrpe
   conf: fedora-dependency
@@ -2777,6 +3110,7 @@ packages:
     cloud7-openstack-common-testing: jsoncpp-0.10.5-2.el7
     cloud7-openstack-common-release: jsoncpp-0.10.5-2.el7
     cloud7-openstack-queens-testing: jsoncpp-0.10.5-2.el7
+    cloud7-openstack-queens-release: jsoncpp-0.10.5-2.el7
 - project: python-certifi
   name: python-certifi
   conf: rdo-dependency
@@ -2784,6 +3118,7 @@ packages:
     cloud7-openstack-common-testing: python-certifi-2016.9.26-2.el7
     cloud7-openstack-common-release: python-certifi-2016.9.26-2.el7
     cloud7-openstack-queens-testing: python-certifi-2016.9.26-2.el7
+    cloud7-openstack-queens-release: python-certifi-2016.9.26-2.el7
 - project: lato-fonts
   name: lato-fonts
   conf: fedora-dependency
@@ -2791,6 +3126,7 @@ packages:
     cloud7-openstack-common-testing: lato-fonts-2.015-1.el7
     cloud7-openstack-common-release: lato-fonts-2.015-1.el7
     cloud7-openstack-queens-testing: lato-fonts-2.015-1.el7
+    cloud7-openstack-queens-release: lato-fonts-2.015-1.el7
 - project: python-pykmip
   name: python-pykmip
   conf: fedora-dependency
@@ -2798,6 +3134,7 @@ packages:
     cloud7-openstack-common-testing: python-pykmip-0.5.0-1.el7
     cloud7-openstack-common-release: python-pykmip-0.5.0-1.el7
     cloud7-openstack-queens-testing: python-pykmip-0.5.0-1.el7
+    cloud7-openstack-queens-release: python-pykmip-0.5.0-1.el7
 - project: qhull
   name: qhull
   conf: rdo-dependency
@@ -2805,6 +3142,7 @@ packages:
     cloud7-openstack-common-testing: qhull-2015.2-1.el7
     cloud7-openstack-common-release: qhull-2015.2-1.el7
     cloud7-openstack-queens-testing: qhull-2015.2-1.el7
+    cloud7-openstack-queens-release: qhull-2015.2-1.el7
 - project: python-pygal
   name: python-pygal
   conf: fedora-dependency
@@ -2812,6 +3150,7 @@ packages:
     cloud7-openstack-common-testing: python-pygal-2.3.0-2.el7
     cloud7-openstack-common-release: python-pygal-2.3.0-2.el7
     cloud7-openstack-queens-testing: python-pygal-2.3.0-2.el7
+    cloud7-openstack-queens-release: python-pygal-2.3.0-2.el7
 - project: python-speaklater
   name: python-speaklater
   conf: fedora-dependency
@@ -2819,6 +3158,7 @@ packages:
     cloud7-openstack-common-testing: python-speaklater-1.3-1.el7
     cloud7-openstack-common-release: python-speaklater-1.3-1.el7
     cloud7-openstack-queens-testing: python-speaklater-1.3-1.el7
+    cloud7-openstack-queens-release: python-speaklater-1.3-1.el7
 - project: python-d2to1
   name: python-d2to1
   conf: fedora-dependency
@@ -2826,6 +3166,7 @@ packages:
     cloud7-openstack-common-testing: python-d2to1-0.2.11-1.el7
     cloud7-openstack-common-release: python-d2to1-0.2.11-1.el7
     cloud7-openstack-queens-testing: python-d2to1-0.2.11-1.el7
+    cloud7-openstack-queens-release: python-d2to1-0.2.11-1.el7
 - project: gperftools
   name: gperftools
   conf: fedora-dependency
@@ -2833,6 +3174,7 @@ packages:
     cloud7-openstack-common-testing: gperftools-2.4.91-1.el7
     cloud7-openstack-common-release: gperftools-2.4.91-1.el7
     cloud7-openstack-queens-testing: gperftools-2.4.91-1.el7
+    cloud7-openstack-queens-release: gperftools-2.4.91-1.el7
 - project: python-subprocess32
   name: python-subprocess32
   conf: fedora-dependency
@@ -2840,6 +3182,7 @@ packages:
     cloud7-openstack-common-testing: python-subprocess32-3.2.6-4.el7
     cloud7-openstack-common-release: python-subprocess32-3.2.6-4.el7
     cloud7-openstack-queens-testing: python-subprocess32-3.2.6-4.el7
+    cloud7-openstack-queens-release: python-subprocess32-3.2.6-4.el7
 - project: python-pyasn1
   name: python-pyasn1
   conf: fedora-dependency
@@ -2863,6 +3206,7 @@ packages:
     cloud7-openstack-common-testing: redis-3.2.8-1.el7
     cloud7-openstack-common-release: redis-3.2.8-1.el7
     cloud7-openstack-queens-testing: redis-3.2.8-1.el7
+    cloud7-openstack-queens-release: redis-3.2.8-1.el7
 - project: python-pyside
   name: python-pyside
   conf: rdo-dependency
@@ -2870,6 +3214,7 @@ packages:
     cloud7-openstack-common-testing: python-pyside-1.2.2-6.el7.1
     cloud7-openstack-common-release: python-pyside-1.2.2-6.el7.1
     cloud7-openstack-queens-testing: python-pyside-1.2.2-6.el7.1
+    cloud7-openstack-queens-release: python-pyside-1.2.2-6.el7.1
 - project: python-XStatic-JQuery-quicksearch
   name: python-XStatic-JQuery-quicksearch
   conf: fedora-dependency
@@ -2878,6 +3223,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-JQuery-quicksearch-2.0.3.1-2.el7
     cloud7-openstack-queens-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-JQuery-quicksearch-2.0.3.1-10.el7
+    cloud7-openstack-queens-release: python-XStatic-JQuery-quicksearch-2.0.3.1-2.el7
 - project: python-PuLP
   name: python-PuLP
   conf: rdo-dependency
@@ -2885,6 +3231,7 @@ packages:
     cloud7-openstack-common-testing: python-PuLP-1.6.1-5.el7
     cloud7-openstack-common-release: python-PuLP-1.6.1-5.el7
     cloud7-openstack-queens-testing: python-PuLP-1.6.1-5.el7
+    cloud7-openstack-queens-release: python-PuLP-1.6.1-5.el7
 - project: python-versiontools
   name: python-versiontools
   conf: fedora-dependency
@@ -2892,6 +3239,7 @@ packages:
     cloud7-openstack-common-testing: python-versiontools-1.9.1-4.el7
     cloud7-openstack-common-release: python-versiontools-1.9.1-4.el7
     cloud7-openstack-queens-testing: python-versiontools-1.9.1-4.el7
+    cloud7-openstack-queens-release: python-versiontools-1.9.1-4.el7
 - project: qpid-cpp
   name: qpid-cpp
   conf: fedora-dependency
@@ -2899,6 +3247,7 @@ packages:
     cloud7-openstack-common-testing: qpid-cpp-1.36.0-1.el7.1
     cloud7-openstack-common-release: qpid-cpp-1.35.0-2.el7
     cloud7-openstack-queens-testing: qpid-cpp-1.36.0-1.el7.1
+    cloud7-openstack-queens-release: qpid-cpp-1.36.0-1.el7.1
 - project: python-cov-core
   name: python-cov-core
   conf: fedora-dependency
@@ -2906,6 +3255,7 @@ packages:
     cloud7-openstack-common-testing: python-cov-core-1.7-4.el7
     cloud7-openstack-common-release: python-cov-core-1.7-4.el7
     cloud7-openstack-queens-testing: python-cov-core-1.7-4.el7
+    cloud7-openstack-queens-release: python-cov-core-1.7-4.el7
 - project: python-numexpr
   name: python-numexpr
   conf: rdo-dependency
@@ -2913,6 +3263,7 @@ packages:
     cloud7-openstack-common-testing: python-numexpr-2.6.1-3.el7
     cloud7-openstack-common-release: python-numexpr-2.6.1-3.el7
     cloud7-openstack-queens-testing: python-numexpr-2.6.1-3.el7
+    cloud7-openstack-queens-release: python-numexpr-2.6.1-3.el7
 - project: python-blist
   name: python-blist
   conf: fedora-dependency
@@ -2920,6 +3271,7 @@ packages:
     cloud7-openstack-common-testing: python-blist-1.3.6-9.el7
     cloud7-openstack-common-release: python-blist-1.3.6-9.el7
     cloud7-openstack-queens-testing: python-blist-1.3.6-9.el7
+    cloud7-openstack-queens-release: python-blist-1.3.6-9.el7
 - project: python-fasteners
   name: python-fasteners
   conf: fedora-dependency
@@ -2927,6 +3279,7 @@ packages:
     cloud7-openstack-common-testing: python-fasteners-0.14.1-6.el7
     cloud7-openstack-common-release: python-fasteners-0.14.1-6.el7
     cloud7-openstack-queens-testing: python-fasteners-0.14.1-6.el7
+    cloud7-openstack-queens-release: python-fasteners-0.14.1-6.el7
 - project: python-queuelib
   name: python-queuelib
   conf: rdo-dependency
@@ -2934,6 +3287,7 @@ packages:
     cloud7-openstack-common-testing: python-queuelib-1.4.2-4.el7
     cloud7-openstack-common-release: python-queuelib-1.4.2-4.el7
     cloud7-openstack-queens-testing: python-queuelib-1.4.2-4.el7
+    cloud7-openstack-queens-release: python-queuelib-1.4.2-4.el7
 - project: python-pydotplus
   name: python-pydotplus
   conf: rdo-dependency
@@ -2941,6 +3295,7 @@ packages:
     cloud7-openstack-common-testing: python-pydotplus-2.0.2-2.el7
     cloud7-openstack-common-release: python-pydotplus-2.0.2-2.el7
     cloud7-openstack-queens-testing: python-pydotplus-2.0.2-2.el7
+    cloud7-openstack-queens-release: python-pydotplus-2.0.2-2.el7
 - project: python-astroid
   name: python-astroid
   conf: fedora-dependency
@@ -2955,6 +3310,7 @@ packages:
     cloud7-openstack-common-testing: python-tinyrpc-0.5-4.20170523git1f38ac.el7
     cloud7-openstack-common-release: python-tinyrpc-0.5-4.20170523git1f38ac.el7
     cloud7-openstack-queens-testing: python-tinyrpc-0.5-4.20170523git1f38ac.el7
+    cloud7-openstack-queens-release: python-tinyrpc-0.5-4.20170523git1f38ac.el7
 - project: coin-or-Cgl
   name: coin-or-Cgl
   conf: fedora-dependency
@@ -2962,6 +3318,7 @@ packages:
     cloud7-openstack-common-testing: coin-or-Cgl-0.59.9-1.el7
     cloud7-openstack-common-release: coin-or-Cgl-0.59.9-1.el7
     cloud7-openstack-queens-testing: coin-or-Cgl-0.59.9-1.el7
+    cloud7-openstack-queens-release: coin-or-Cgl-0.59.9-1.el7
 - project: python-BeautifulSoup
   name: python-BeautifulSoup
   conf: fedora-dependency
@@ -2969,6 +3326,7 @@ packages:
     cloud7-openstack-common-testing: python-BeautifulSoup-3.2.1-8.el7
     cloud7-openstack-common-release: python-BeautifulSoup-3.2.1-8.el7
     cloud7-openstack-queens-testing: python-BeautifulSoup-3.2.1-8.el7
+    cloud7-openstack-queens-release: python-BeautifulSoup-3.2.1-8.el7
 - project: python-rjsmin
   name: python-rjsmin
   conf: fedora-dependency
@@ -2978,6 +3336,7 @@ packages:
     cloud7-openstack-newton-release: python-rjsmin-1.0.12-2.el7
     cloud7-openstack-ocata-release: python-rjsmin-1.0.12-2.el7
     cloud7-openstack-queens-testing: python-rjsmin-1.0.12-2.el7
+    cloud7-openstack-queens-release: python-rjsmin-1.0.12-2.el7
 - project: python-betamax
   name: python-betamax
   conf: fedora-dependency
@@ -2985,6 +3344,7 @@ packages:
     cloud7-openstack-common-testing: python-betamax-0.7.0-1.el7
     cloud7-openstack-common-release: python-betamax-0.7.0-1.el7
     cloud7-openstack-queens-testing: python-betamax-0.7.0-1.el7
+    cloud7-openstack-queens-release: python-betamax-0.7.0-1.el7
 - project: python-yaql
   name: python-yaql
   conf: fedora-dependency
@@ -2993,6 +3353,7 @@ packages:
     cloud7-openstack-common-release: python-yaql-1.1.0-3.el7
     cloud7-openstack-queens-testing: python-yaql-1.1.3-2.el7
     cloud7-openstack-queens-candidate: python-yaql-1.1.3-2.el7
+    cloud7-openstack-queens-release: python-yaql-1.1.3-2.el7
 - project: python-lesscpy
   name: python-lesscpy
   conf: fedora-dependency
@@ -3000,6 +3361,7 @@ packages:
     cloud7-openstack-common-testing: python-lesscpy-0.9j-4.el7
     cloud7-openstack-common-release: python-lesscpy-0.9j-4.el7
     cloud7-openstack-queens-testing: python-lesscpy-0.9j-4.el7
+    cloud7-openstack-queens-release: python-lesscpy-0.9j-4.el7
 - project: python-testscenarios
   name: python-testscenarios
   conf: fedora-dependency
@@ -3008,6 +3370,7 @@ packages:
     cloud7-openstack-common-release: python-testscenarios-0.4-4.el7
     cloud7-openstack-queens-testing: python-testscenarios-0.5.0-8.el7
     cloud7-openstack-queens-candidate: python-testscenarios-0.5.0-8.el7
+    cloud7-openstack-queens-release: python-testscenarios-0.5.0-8.el7
 - project: python-wsaccel
   name: python-wsaccel
   conf: fedora-dependency
@@ -3015,6 +3378,7 @@ packages:
     cloud7-openstack-common-testing: python-wsaccel-0.6.2-8.el7
     cloud7-openstack-common-release: python-wsaccel-0.6.2-8.el7
     cloud7-openstack-queens-testing: python-wsaccel-0.6.2-8.el7
+    cloud7-openstack-queens-release: python-wsaccel-0.6.2-8.el7
 - project: python-ujson
   name: python-ujson
   conf: rdo-dependency
@@ -3022,6 +3386,7 @@ packages:
     cloud7-openstack-common-testing: python-ujson-1.35-1.el7
     cloud7-openstack-common-release: python-ujson-1.35-1.el7
     cloud7-openstack-queens-testing: python-ujson-1.35-1.el7
+    cloud7-openstack-queens-release: python-ujson-1.35-1.el7
 - project: python-XStatic-QUnit
   name: python-XStatic-QUnit
   conf: fedora-dependency
@@ -3029,6 +3394,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-QUnit-1.14.0.2-2.el7
     cloud7-openstack-common-release: python-XStatic-QUnit-1.14.0.2-2.el7
     cloud7-openstack-queens-testing: python-XStatic-QUnit-1.14.0.2-2.el7
+    cloud7-openstack-queens-release: python-XStatic-QUnit-1.14.0.2-2.el7
 - project: python-oauthlib
   name: python-oauthlib
   conf: fedora-dependency
@@ -3042,6 +3408,7 @@ packages:
     cloud7-openstack-common-testing: coin-or-Sample-1.2.10-5.el7
     cloud7-openstack-common-release: coin-or-Sample-1.2.10-5.el7
     cloud7-openstack-queens-testing: coin-or-Sample-1.2.10-5.el7
+    cloud7-openstack-queens-release: coin-or-Sample-1.2.10-5.el7
 - project: python-XStatic-Spin
   name: python-XStatic-Spin
   conf: fedora-dependency
@@ -3050,6 +3417,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-Spin-1.2.5.2-2.el7
     cloud7-openstack-queens-testing: python-XStatic-Spin-1.2.5.2-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-Spin-1.2.5.2-11.el7
+    cloud7-openstack-queens-release: python-XStatic-Spin-1.2.5.2-2.el7
 - project: python-freezegun
   name: python-freezegun
   conf: fedora-dependency
@@ -3057,6 +3425,7 @@ packages:
     cloud7-openstack-common-testing: python-freezegun-0.3.8-2.el7
     cloud7-openstack-common-release: python-freezegun-0.3.8-2.el7
     cloud7-openstack-queens-testing: python-freezegun-0.3.8-2.el7
+    cloud7-openstack-queens-release: python-freezegun-0.3.8-2.el7
 - project: python-enum
   name: python-enum
   conf: fedora-dependency
@@ -3064,6 +3433,7 @@ packages:
     cloud7-openstack-common-testing: python-enum-0.4.4-9.el7
     cloud7-openstack-common-release: python-enum-0.4.4-9.el7
     cloud7-openstack-queens-testing: python-enum-0.4.4-9.el7
+    cloud7-openstack-queens-release: python-enum-0.4.4-9.el7
 - project: openjpeg2
   name: openjpeg2
   conf: fedora-dependency
@@ -3071,6 +3441,7 @@ packages:
     cloud7-openstack-common-testing: openjpeg2-2.1.2-1.el7
     cloud7-openstack-common-release: openjpeg2-2.1.2-1.el7
     cloud7-openstack-queens-testing: openjpeg2-2.1.2-1.el7
+    cloud7-openstack-queens-release: openjpeg2-2.1.2-1.el7
 - project: python-XStatic-jquery-ui
   name: python-XStatic-jquery-ui
   conf: fedora-dependency
@@ -3079,6 +3450,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-jquery-ui-1.10.4.1-1.el7
     cloud7-openstack-queens-testing: python-XStatic-jquery-ui-1.10.4.1-1.el7
     cloud7-openstack-queens-candidate: python-XStatic-jquery-ui-1.10.4.1-10.el7
+    cloud7-openstack-queens-release: python-XStatic-jquery-ui-1.10.4.1-1.el7
 - project: qstat
   name: qstat
   conf: fedora-dependency
@@ -3086,6 +3458,7 @@ packages:
     cloud7-openstack-common-testing: qstat-2.11-13.20080912svn311.el7
     cloud7-openstack-common-release: qstat-2.11-13.20080912svn311.el7
     cloud7-openstack-queens-testing: qstat-2.11-13.20080912svn311.el7
+    cloud7-openstack-queens-release: qstat-2.11-13.20080912svn311.el7
 - project: python-XStatic-Angular-FileUpload
   name: python-XStatic-Angular-FileUpload
   conf: fedora-dependency
@@ -3093,6 +3466,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-Angular-FileUpload-12.0.4.0-1.el7
     cloud7-openstack-common-release: python-XStatic-Angular-FileUpload-12.0.4.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-FileUpload-12.0.4.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-FileUpload-12.0.4.0-1.el7
 - project: python-XStatic-Angular-Gettext
   name: python-XStatic-Angular-Gettext
   conf: fedora-dependency
@@ -3104,6 +3478,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
 - project: python-suds
   name: python-suds
   conf: rdo-dependency
@@ -3111,6 +3486,7 @@ packages:
     cloud7-openstack-common-testing: python-suds-0.7-0.4.94664ddd46a6.el7
     cloud7-openstack-common-release: python-suds-0.7-0.4.94664ddd46a6.el7
     cloud7-openstack-queens-testing: python-suds-0.7-0.4.94664ddd46a6.el7
+    cloud7-openstack-queens-release: python-suds-0.7-0.4.94664ddd46a6.el7
 - project: qpid-dispatch
   name: qpid-dispatch
   conf: fedora-dependency
@@ -3118,6 +3494,7 @@ packages:
     cloud7-openstack-common-testing: qpid-dispatch-0.8.0-1.el7
     cloud7-openstack-common-release: qpid-dispatch-0.6.1-4.el7
     cloud7-openstack-queens-testing: qpid-dispatch-0.8.0-1.el7
+    cloud7-openstack-queens-release: qpid-dispatch-0.8.0-1.el7
 - project: python-XStatic-Angular-Schema-Form
   name: python-XStatic-Angular-Schema-Form
   conf: fedora-dependency
@@ -3125,6 +3502,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
     cloud7-openstack-common-release: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
 - project: python-daemon
   name: python-daemon
   conf: fedora-dependency
@@ -3132,6 +3510,7 @@ packages:
     cloud7-openstack-common-testing: python-daemon-1.6-4.el7
     cloud7-openstack-common-release: python-daemon-1.6-4.el7
     cloud7-openstack-queens-testing: python-daemon-1.6-4.el7
+    cloud7-openstack-queens-release: python-daemon-1.6-4.el7
 - project: fontawesome-fonts
   name: fontawesome-fonts
   conf: fedora-dependency
@@ -3139,6 +3518,7 @@ packages:
     cloud7-openstack-common-testing: fontawesome-fonts-4.4.0-1.el7
     cloud7-openstack-common-release: fontawesome-fonts-4.4.0-1.el7
     cloud7-openstack-queens-testing: fontawesome-fonts-4.4.0-1.el7
+    cloud7-openstack-queens-release: fontawesome-fonts-4.4.0-1.el7
 - project: google-roboto-slab-fonts
   name: google-roboto-slab-fonts
   conf: fedora-dependency
@@ -3146,6 +3526,7 @@ packages:
     cloud7-openstack-common-testing: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
     cloud7-openstack-common-release: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
     cloud7-openstack-queens-testing: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
+    cloud7-openstack-queens-release: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
 - project: Cython
   name: Cython
   conf: rdo-dependency
@@ -3153,6 +3534,7 @@ packages:
     cloud7-openstack-common-testing: Cython-0.25.2-3.el7
     cloud7-openstack-common-release: Cython-0.25.2-3.el7
     cloud7-openstack-queens-testing: Cython-0.25.2-3.el7
+    cloud7-openstack-queens-release: Cython-0.25.2-3.el7
 - project: supervisor
   name: supervisor
   conf: fedora-dependency
@@ -3160,6 +3542,7 @@ packages:
     cloud7-openstack-common-testing: supervisor-3.3.1-2.el7
     cloud7-openstack-common-release: supervisor-3.3.1-2.el7
     cloud7-openstack-queens-testing: supervisor-3.3.1-2.el7
+    cloud7-openstack-queens-release: supervisor-3.3.1-2.el7
 - project: python-cssselect
   name: python-cssselect
   conf: fedora-dependency
@@ -3167,6 +3550,7 @@ packages:
     cloud7-openstack-common-testing: python-cssselect-0.9.1-5.el7
     cloud7-openstack-common-release: python-cssselect-0.9.1-5.el7
     cloud7-openstack-queens-testing: python-cssselect-0.9.1-5.el7
+    cloud7-openstack-queens-release: python-cssselect-0.9.1-5.el7
 - project: nagios
   name: nagios
   conf: fedora-dependency
@@ -3174,6 +3558,7 @@ packages:
     cloud7-openstack-common-testing: nagios-3.5.1-1.el7
     cloud7-openstack-common-release: nagios-3.5.1-1.el7
     cloud7-openstack-queens-testing: nagios-3.5.1-1.el7
+    cloud7-openstack-queens-release: nagios-3.5.1-1.el7
 - project: python-unittest2
   name: python-unittest2
   conf: fedora-dependency
@@ -3181,6 +3566,7 @@ packages:
     cloud7-openstack-common-testing: python-unittest2-1.0.1-1.el7
     cloud7-openstack-common-release: python-unittest2-1.0.1-1.el7
     cloud7-openstack-queens-testing: python-unittest2-1.0.1-1.el7
+    cloud7-openstack-queens-release: python-unittest2-1.0.1-1.el7
 - project: erlang-sd_notify
   name: erlang-sd_notify
   conf: rdo-dependency
@@ -3188,6 +3574,7 @@ packages:
     cloud7-openstack-common-testing: erlang-sd_notify-0.1-9.el7
     cloud7-openstack-common-release: erlang-sd_notify-0.1-9.el7
     cloud7-openstack-queens-testing: erlang-sd_notify-1.0-2.el7
+    cloud7-openstack-queens-release: erlang-sd_notify-1.0-2.el7
   maintainers:
   - lemenkov@gmail.com
 - project: python-pbr
@@ -3203,6 +3590,7 @@ packages:
     cloud7-openstack-pike-testing: python-pbr-3.1.1-1.el7
     cloud7-openstack-pike-release: python-pbr-3.1.1-1.el7
     cloud7-openstack-queens-testing: python-pbr-3.1.1-1.el7
+    cloud7-openstack-queens-release: python-pbr-3.1.1-1.el7
 - project: python-six
   name: python-six
   conf: rdo-dependency
@@ -3210,6 +3598,7 @@ packages:
     cloud7-openstack-common-testing: python-six-1.10.0-9.el7
     cloud7-openstack-common-release: python-six-1.10.0-9.el7
     cloud7-openstack-queens-testing: python-six-1.10.0-9.el7
+    cloud7-openstack-queens-release: python-six-1.10.0-9.el7
 - project: python-botocore
   name: python-botocore
   conf: fedora-dependency
@@ -3220,6 +3609,7 @@ packages:
     cloud7-openstack-pike-release: python-botocore-1.6.0-1.el7
     cloud7-openstack-queens-testing: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
+    cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -3227,6 +3617,7 @@ packages:
     cloud7-openstack-common-testing: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
     cloud7-openstack-common-release: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
     cloud7-openstack-queens-testing: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
+    cloud7-openstack-queens-release: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
 - project: python-kazoo
   name: python-kazoo
   conf: fedora-dependency
@@ -3234,6 +3625,7 @@ packages:
     cloud7-openstack-common-testing: python-kazoo-2.2.1-1.el7
     cloud7-openstack-common-release: python-kazoo-2.2.1-1.el7
     cloud7-openstack-queens-testing: python-kazoo-2.2.1-1.el7
+    cloud7-openstack-queens-release: python-kazoo-2.2.1-1.el7
 - project: python-XStatic-termjs
   name: python-XStatic-termjs
   conf: fedora-dependency
@@ -3243,6 +3635,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-termjs-0.0.7.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-termjs-0.0.7.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-termjs-0.0.7.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-termjs-0.0.7.0-1.el7
 - project: bakefile
   name: bakefile
   conf: fedora-dependency
@@ -3250,6 +3643,7 @@ packages:
     cloud7-openstack-common-testing: bakefile-0.2.9-2.el7
     cloud7-openstack-common-release: bakefile-0.2.9-2.el7
     cloud7-openstack-queens-testing: bakefile-0.2.9-2.el7
+    cloud7-openstack-queens-release: bakefile-0.2.9-2.el7
 - project: python-passlib
   name: python-passlib
   conf: fedora-dependency
@@ -3257,6 +3651,7 @@ packages:
     cloud7-openstack-common-testing: python-passlib-1.7.0-4.el7
     cloud7-openstack-common-release: python-passlib-1.7.0-4.el7
     cloud7-openstack-queens-testing: python-passlib-1.7.0-4.el7
+    cloud7-openstack-queens-release: python-passlib-1.7.0-4.el7
 - project: mongodb
   name: mongodb
   conf: rdo-dependency
@@ -3272,6 +3667,7 @@ packages:
     cloud7-openstack-newton-release: python-rcssmin-1.0.6-2.el7
     cloud7-openstack-ocata-release: python-rcssmin-1.0.6-2.el7
     cloud7-openstack-queens-testing: python-rcssmin-1.0.6-2.el7
+    cloud7-openstack-queens-release: python-rcssmin-1.0.6-2.el7
 - project: python-restkit
   name: python-restkit
   conf: fedora-dependency
@@ -3279,6 +3675,7 @@ packages:
     cloud7-openstack-common-testing: python-restkit-4.2.2-2.el7
     cloud7-openstack-common-release: python-restkit-4.2.2-2.el7
     cloud7-openstack-queens-testing: python-restkit-4.2.2-2.el7
+    cloud7-openstack-queens-release: python-restkit-4.2.2-2.el7
 - project: python-dns
   name: python-dns
   conf: fedora-dependency
@@ -3287,6 +3684,7 @@ packages:
     cloud7-openstack-common-release: python-dns-1.12.0-1.el7
     cloud7-openstack-queens-testing: python-dns-1.15.0-5.el7
     cloud7-openstack-queens-candidate: python-dns-1.15.0-5.el7
+    cloud7-openstack-queens-release: python-dns-1.15.0-5.el7
 - project: ruby-augeas
   name: ruby-augeas
   conf: fedora-dependency
@@ -3294,6 +3692,7 @@ packages:
     cloud7-openstack-common-testing: ruby-augeas-0.5.0-1.el7
     cloud7-openstack-common-release: ruby-augeas-0.5.0-1.el7
     cloud7-openstack-queens-testing: ruby-augeas-0.5.0-1.el7
+    cloud7-openstack-queens-release: ruby-augeas-0.5.0-1.el7
 - project: python-dogpile-cache
   name: python-dogpile-cache
   conf: fedora-dependency
@@ -3307,6 +3706,7 @@ packages:
     cloud7-openstack-pike-testing: python-dogpile-cache-0.6.2-1.el7
     cloud7-openstack-pike-release: python-dogpile-cache-0.6.2-1.el7
     cloud7-openstack-queens-testing: python-dogpile-cache-0.6.2-1.el7
+    cloud7-openstack-queens-release: python-dogpile-cache-0.6.2-1.el7
 - project: python-click
   name: python-click
   conf: fedora-dependency
@@ -3314,6 +3714,7 @@ packages:
     cloud7-openstack-common-testing: python-click-6.3-1.el7
     cloud7-openstack-common-release: python-click-6.3-1.el7
     cloud7-openstack-queens-testing: python-click-6.3-1.el7
+    cloud7-openstack-queens-release: python-click-6.3-1.el7
 - project: python-openstackdocstheme
   name: python-openstackdocstheme
   conf: fedora-dependency
@@ -3324,6 +3725,7 @@ packages:
     cloud7-openstack-pike-release: python-openstackdocstheme-1.11.0-1.el7
     cloud7-openstack-queens-testing: python-openstackdocstheme-1.18.1-1.el7
     cloud7-openstack-queens-candidate: python-openstackdocstheme-1.18.1-1.el7
+    cloud7-openstack-queens-release: python-openstackdocstheme-1.18.1-1.el7
 - project: python-pymongo
   name: python-pymongo
   conf: fedora-dependency
@@ -3331,6 +3733,7 @@ packages:
     cloud7-openstack-common-testing: python-pymongo-3.0.3-1.el7
     cloud7-openstack-common-release: python-pymongo-3.0.3-1.el7
     cloud7-openstack-queens-testing: python-pymongo-3.0.3-1.el7
+    cloud7-openstack-queens-release: python-pymongo-3.0.3-1.el7
 - project: python-XStatic-D3
   name: python-XStatic-D3
   conf: fedora-dependency
@@ -3342,6 +3745,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-D3-3.5.17.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-D3-3.5.17.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-D3-3.5.17.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-D3-3.5.17.0-1.el7
 - project: python-posix_ipc
   name: python-posix_ipc
   conf: fedora-dependency
@@ -3349,6 +3753,7 @@ packages:
     cloud7-openstack-common-testing: python-posix_ipc-0.9.8-1.el7
     cloud7-openstack-common-release: python-posix_ipc-0.9.8-1.el7
     cloud7-openstack-queens-testing: python-posix_ipc-0.9.8-1.el7
+    cloud7-openstack-queens-release: python-posix_ipc-0.9.8-1.el7
 - project: python-bitmath
   name: python-bitmath
   conf: fedora-dependency
@@ -3356,6 +3761,7 @@ packages:
     cloud7-openstack-common-testing: python-bitmath-1.3.1-1.el7
     cloud7-openstack-common-release: python-bitmath-1.3.1-1.el7
     cloud7-openstack-queens-testing: python-bitmath-1.3.1-1.el7
+    cloud7-openstack-queens-release: python-bitmath-1.3.1-1.el7
 - project: python-Bottleneck
   name: python-Bottleneck
   conf: fedora-dependency
@@ -3363,6 +3769,7 @@ packages:
     cloud7-openstack-common-testing: python-Bottleneck-0.6.0-4.el7
     cloud7-openstack-common-release: python-Bottleneck-0.6.0-4.el7
     cloud7-openstack-queens-testing: python-Bottleneck-0.6.0-4.el7
+    cloud7-openstack-queens-release: python-Bottleneck-0.6.0-4.el7
 - project: python-sphinxcontrib-httpdomain
   name: python-sphinxcontrib-httpdomain
   conf: fedora-dependency
@@ -3370,6 +3777,7 @@ packages:
     cloud7-openstack-common-testing: python-sphinxcontrib-httpdomain-1.1.8-4.el7
     cloud7-openstack-common-release: python-sphinxcontrib-httpdomain-1.1.8-4.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-httpdomain-1.1.8-4.el7
+    cloud7-openstack-queens-release: python-sphinxcontrib-httpdomain-1.1.8-4.el7
 - project: python-XStatic-JQuery-TableSorter
   name: python-XStatic-JQuery-TableSorter
   conf: fedora-dependency
@@ -3378,6 +3786,7 @@ packages:
     cloud7-openstack-common-release: python-XStatic-JQuery-TableSorter-2.14.5.1-2.el7
     cloud7-openstack-queens-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-2.el7
     cloud7-openstack-queens-candidate: python-XStatic-JQuery-TableSorter-2.14.5.1-10.el7
+    cloud7-openstack-queens-release: python-XStatic-JQuery-TableSorter-2.14.5.1-2.el7
 - project: phantomjs
   name: phantomjs
   conf: rdo-dependency
@@ -3391,6 +3800,7 @@ packages:
     - cloud7-openstack-ocata-release
     - cloud7-openstack-pike-release
     cloud7-openstack-queens-testing: phantomjs-1.9.7-3.el7
+    cloud7-openstack-queens-release: phantomjs-1.9.7-3.el7
 - project: openstack-tripleo-ui-deps
   name: openstack-tripleo-ui-deps
   conf: rdo-dependency
@@ -3416,6 +3826,7 @@ packages:
     cloud7-openstack-pike-testing: python-tosca-parser-0.8.1-1.el7
     cloud7-openstack-pike-release: python-tosca-parser-0.8.1-1.el7
     cloud7-openstack-queens-testing: python-tosca-parser-0.8.1-1.el7
+    cloud7-openstack-queens-release: python-tosca-parser-0.8.1-1.el7
 - project: python-ryu
   name: python-ryu
   conf: rdo-dependency
@@ -3427,6 +3838,7 @@ packages:
     cloud7-openstack-pike-testing: python-ryu-4.15-1.el7
     cloud7-openstack-pike-release: python-ryu-4.15-1.el7
     cloud7-openstack-queens-testing: python-ryu-4.15-1.el7
+    cloud7-openstack-queens-release: python-ryu-4.15-1.el7
 - project: python-XStatic-Angular
   name: python-XStatic-Angular
   conf: fedora-dependency
@@ -3438,6 +3850,7 @@ packages:
     cloud7-openstack-pike-testing: python-XStatic-Angular-1.5.8.0-1.el7
     cloud7-openstack-pike-release: python-XStatic-Angular-1.5.8.0-1.el7
     cloud7-openstack-queens-testing: python-XStatic-Angular-1.5.8.0-1.el7
+    cloud7-openstack-queens-release: python-XStatic-Angular-1.5.8.0-1.el7
 - project: python-murano-pkg-check
   name: python-murano-pkg-check
   conf: fedora-dependency
@@ -3447,6 +3860,7 @@ packages:
     cloud7-openstack-pike-testing: python-murano-pkg-check-0.3.0-2.el7
     cloud7-openstack-pike-release: python-murano-pkg-check-0.3.0-2.el7
     cloud7-openstack-queens-testing: python-murano-pkg-check-0.3.0-2.el7
+    cloud7-openstack-queens-release: python-murano-pkg-check-0.3.0-2.el7
 - project: resource-agents
   name: resource-agents
   conf: rdo-dependency
@@ -3454,6 +3868,7 @@ packages:
     cloud7-openstack-pike-testing: resource-agents-3.9.5-105.el7.0.0.rdo1
     cloud7-openstack-pike-release: resource-agents-3.9.5-105.el7.0.0.rdo1
     cloud7-openstack-queens-testing: resource-agents-3.9.5-105.el7_4.8.rdo1
+    cloud7-openstack-queens-release: resource-agents-3.9.5-105.el7_4.8.rdo1
 - project: pcs
   name: pcs
   conf: rdo-dependency
@@ -3467,6 +3882,7 @@ packages:
     cloud7-openstack-pike-testing: python-docker-2.4.2-1.2.el7
     cloud7-openstack-pike-release: python-docker-2.4.2-1.2.el7
     cloud7-openstack-queens-testing: python-docker-2.4.2-1.2.el7
+    cloud7-openstack-queens-release: python-docker-2.4.2-1.2.el7
 - project: corosync
   name: corosync
   conf: rdo-dependency
@@ -3480,6 +3896,7 @@ packages:
     cloud7-openstack-pike-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
     cloud7-openstack-pike-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
     cloud7-openstack-queens-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
+    cloud7-openstack-queens-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: python-vine
   name: python-vine
   conf: fedora-dependency
@@ -3487,6 +3904,7 @@ packages:
     cloud7-openstack-pike-testing: python-vine-1.1.3-2.el7
     cloud7-openstack-pike-release: python-vine-1.1.3-2.el7
     cloud7-openstack-queens-testing: python-vine-1.1.3-2.el7
+    cloud7-openstack-queens-release: python-vine-1.1.3-2.el7
 - project: python-docker-pycreds
   name: python-docker-pycreds
   conf: rdo-dependency
@@ -3494,6 +3912,7 @@ packages:
     cloud7-openstack-pike-testing: python-docker-pycreds-0.2.1-4.el7
     cloud7-openstack-pike-release: python-docker-pycreds-0.2.1-4.el7
     cloud7-openstack-queens-testing: python-docker-pycreds-0.2.1-4.el7
+    cloud7-openstack-queens-release: python-docker-pycreds-0.2.1-4.el7
 - project: libqb
   name: libqb
   conf: rdo-dependency
@@ -3507,6 +3926,7 @@ packages:
     cloud7-openstack-common-testing: python-exabgp-4.0.1-3.el7
     cloud7-openstack-common-release: python-exabgp-4.0.1-3.el7
     cloud7-openstack-queens-testing: python-exabgp-4.0.1-3.el7
+    cloud7-openstack-queens-release: python-exabgp-4.0.1-3.el7
 - project: libtommath
   name: libtommath
   conf: fedora-dependency
@@ -3514,6 +3934,7 @@ packages:
     cloud7-openstack-common-testing: libtommath-1.0-8.el7
     cloud7-openstack-common-release: libtommath-1.0-8.el7
     cloud7-openstack-queens-testing: libtommath-1.0-8.el7
+    cloud7-openstack-queens-release: libtommath-1.0-8.el7
 - project: libtomcrypt
   name: libtomcrypt
   conf: fedora-dependency
@@ -3521,6 +3942,7 @@ packages:
     cloud7-openstack-common-testing: libtomcrypt-1.17-33.20170623gitcd6e602.el7
     cloud7-openstack-common-release: libtomcrypt-1.17-33.20170623gitcd6e602.el7
     cloud7-openstack-queens-testing: libtomcrypt-1.17-33.20170623gitcd6e602.el7
+    cloud7-openstack-queens-release: libtomcrypt-1.17-33.20170623gitcd6e602.el7
 - project: python-abclient
   name: python-abclient
   conf: fedora-dependency
@@ -3528,6 +3950,7 @@ packages:
     cloud7-openstack-common-testing: python-abclient-0.2.3-2.el7
     cloud7-openstack-common-release: python-abclient-0.2.3-2.el7
     cloud7-openstack-queens-testing: python-abclient-0.2.3-2.el7
+    cloud7-openstack-queens-release: python-abclient-0.2.3-2.el7
 - project: python-icalendar
   name: python-icalendar
   conf: fedora-dependency
@@ -3535,6 +3958,7 @@ packages:
     cloud7-openstack-common-testing: python-icalendar-3.11.5-1.el7
     cloud7-openstack-common-release: python-icalendar-3.11.5-1.el7
     cloud7-openstack-queens-testing: python-icalendar-3.11.5-1.el7
+    cloud7-openstack-queens-release: python-icalendar-3.11.5-1.el7
 - project: python-netmiko
   name: python-netmiko
   conf: rdo-dependency
@@ -3542,6 +3966,7 @@ packages:
     cloud7-openstack-common-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-queens-release: python-netmiko-1.4.1-1.el7
 - project: python-scp
   name: python-scp
   conf: rdo-dependency
@@ -3549,6 +3974,7 @@ packages:
     cloud7-openstack-common-testing: python-scp-0.10.2-6.el7
     cloud7-openstack-common-release: python-scp-0.10.2-6.el7
     cloud7-openstack-queens-testing: python-scp-0.10.2-6.el7
+    cloud7-openstack-queens-release: python-scp-0.10.2-6.el7
 - project: python-daiquiri
   name: python-daiquiri
   conf: fedora-dependency
@@ -3556,6 +3982,7 @@ packages:
     cloud7-openstack-common-testing: python-daiquiri-1.2.1-1.el7
     cloud7-openstack-common-release: python-daiquiri-1.2.1-1.el7
     cloud7-openstack-queens-testing: python-daiquiri-1.2.1-1.el7
+    cloud7-openstack-queens-release: python-daiquiri-1.2.1-1.el7
 - project: python-json-logger
   name: python-json-logger
   conf: fedora-dependency
@@ -3563,6 +3990,7 @@ packages:
     cloud7-openstack-common-testing: python-json-logger-0.1.7-1.el7
     cloud7-openstack-common-release: python-json-logger-0.1.7-1.el7
     cloud7-openstack-queens-testing: python-json-logger-0.1.7-1.el7
+    cloud7-openstack-queens-release: python-json-logger-0.1.7-1.el7
 - project: python-jinja2
   name: python-jinja2
   conf: fedora-dependency
@@ -3570,6 +3998,7 @@ packages:
     cloud7-openstack-common-testing: python-jinja2-2.8.1-1.el7
     cloud7-openstack-common-release: python-jinja2-2.8.1-1.el7
     cloud7-openstack-queens-testing: python-jinja2-2.8.1-1.el7
+    cloud7-openstack-queens-release: python-jinja2-2.8.1-1.el7
 - project: python-markupsafe
   name: python-markupsafe
   conf: fedora-dependency
@@ -3577,30 +4006,35 @@ packages:
     cloud7-openstack-common-testing: python-markupsafe-0.23-16.el7
     cloud7-openstack-common-release: python-markupsafe-0.23-16.el7
     cloud7-openstack-queens-testing: python-markupsafe-0.23-16.el7
+    cloud7-openstack-queens-release: python-markupsafe-0.23-16.el7
 - project: python-tabulate
   name: python-tabulate
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-tabulate-0.7.5-7.el7
     cloud7-openstack-queens-testing: python-tabulate-0.7.5-7.el7
+    cloud7-openstack-queens-release: python-tabulate-0.7.5-7.el7
 - project: python-sphinxcontrib-actdiag
   name: python-sphinxcontrib-actdiag
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinxcontrib-actdiag-0.8.5-1.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-actdiag-0.8.5-1.el7
+    cloud7-openstack-queens-release: python-sphinxcontrib-actdiag-0.8.5-1.el7
 - project: python-actdiag
   name: python-actdiag
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-actdiag-0.5.4-6.el7
     cloud7-openstack-queens-testing: python-actdiag-0.5.4-6.el7
+    cloud7-openstack-queens-release: python-actdiag-0.5.4-6.el7
 - project: python-sphinxcontrib-blockdiag
   name: python-sphinxcontrib-blockdiag
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-sphinxcontrib-blockdiag-1.5.5-1.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-blockdiag-1.5.5-1.el7
+    cloud7-openstack-queens-release: python-sphinxcontrib-blockdiag-1.5.5-1.el7
 - project: python-sphinxcontrib-seqdiag
   name: python-sphinxcontrib-seqdiag
   conf: fedora-dependency
@@ -3608,6 +4042,7 @@ packages:
     cloud7-openstack-pike-testing: python-sphinxcontrib-seqdiag-0.8.4-5.el7
     cloud7-openstack-pike-release: python-sphinxcontrib-seqdiag-0.8.4-5.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-seqdiag-0.8.4-5.el7
+    cloud7-openstack-queens-release: python-sphinxcontrib-seqdiag-0.8.4-5.el7
 - project: python-blockdiag
   name: python-blockdiag
   conf: fedora-dependency
@@ -3615,6 +4050,7 @@ packages:
     cloud7-openstack-common-testing: python-blockdiag-1.5.3-9.el7
     cloud7-openstack-common-release: python-blockdiag-1.5.3-9.el7
     cloud7-openstack-queens-testing: python-blockdiag-1.5.3-9.el7
+    cloud7-openstack-queens-release: python-blockdiag-1.5.3-9.el7
 - project: python-seqdiag
   name: python-seqdiag
   conf: fedora-dependency
@@ -3622,6 +4058,7 @@ packages:
     cloud7-openstack-pike-testing: python-seqdiag-0.9.5-10.el7
     cloud7-openstack-pike-release: python-seqdiag-0.9.5-10.el7
     cloud7-openstack-queens-testing: python-seqdiag-0.9.5-10.el7
+    cloud7-openstack-queens-release: python-seqdiag-0.9.5-10.el7
 - project: python-funcparserlib
   name: python-funcparserlib
   conf: fedora-dependency
@@ -3629,6 +4066,7 @@ packages:
     cloud7-openstack-common-testing: python-funcparserlib-0.3.6-13.el7
     cloud7-openstack-common-release: python-funcparserlib-0.3.6-13.el7
     cloud7-openstack-queens-testing: python-funcparserlib-0.3.6-13.el7
+    cloud7-openstack-queens-release: python-funcparserlib-0.3.6-13.el7
 - project: python-webcolors
   name: python-webcolors
   conf: fedora-dependency
@@ -3636,6 +4074,7 @@ packages:
     cloud7-openstack-common-testing: python-webcolors-1.7-4.el7
     cloud7-openstack-common-release: python-webcolors-1.7-4.el7
     cloud7-openstack-queens-testing: python-webcolors-1.7-4.el7
+    cloud7-openstack-queens-release: python-webcolors-1.7-4.el7
 - project: stestr
   name: python-stestr
   conf: fedora-dependency
@@ -3643,6 +4082,7 @@ packages:
     cloud7-openstack-pike-testing: python-stestr-1.1.0-1.el7
     cloud7-openstack-pike-release: python-stestr-1.1.0-1.el7
     cloud7-openstack-queens-testing: python-stestr-1.1.0-1.el7
+    cloud7-openstack-queens-release: python-stestr-1.1.0-1.el7
 - project: subunit2sql
   name: python-subunit2sql
   conf: fedora-dependency
@@ -3650,6 +4090,7 @@ packages:
     cloud7-openstack-pike-testing: python-subunit2sql-1.8.0-6.1.el7
     cloud7-openstack-pike-release: python-subunit2sql-1.8.0-6.1.el7
     cloud7-openstack-queens-testing: python-subunit2sql-1.8.0-6.1.el7
+    cloud7-openstack-queens-release: python-subunit2sql-1.8.0-6.1.el7
 - project: future
   name: future
   conf: fedora-dependency
@@ -3657,6 +4098,7 @@ packages:
     cloud7-openstack-pike-testing: future-0.16.0-4.el7
     cloud7-openstack-pike-release: future-0.16.0-4.el7
     cloud7-openstack-queens-testing: future-0.16.0-4.el7
+    cloud7-openstack-queens-release: future-0.16.0-4.el7
 - project: python-httpretty
   name: python-httpretty
   conf: fedora-dependency
@@ -3664,6 +4106,7 @@ packages:
     cloud7-openstack-pike-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
     cloud7-openstack-pike-release: python-httpretty-0.8.14-6.20161011git70af1f8.el7
     cloud7-openstack-queens-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
+    cloud7-openstack-queens-release: python-httpretty-0.8.14-6.20161011git70af1f8.el7
 - project: python-ntlm3
   name: python-ntlm3
   conf: fedora-dependency
@@ -3671,6 +4114,7 @@ packages:
     cloud7-openstack-pike-testing: python-ntlm3-1.0.2-4.el7
     cloud7-openstack-pike-release: python-ntlm3-1.0.2-4.el7
     cloud7-openstack-queens-testing: python-ntlm3-1.0.2-4.el7
+    cloud7-openstack-queens-release: python-ntlm3-1.0.2-4.el7
 - project: python-requests_ntlm
   name: python-requests_ntlm
   conf: fedora-dependency
@@ -3678,6 +4122,7 @@ packages:
     cloud7-openstack-pike-testing: python-requests_ntlm-0.3.0-4.el7
     cloud7-openstack-pike-release: python-requests_ntlm-0.3.0-4.el7
     cloud7-openstack-queens-testing: python-requests_ntlm-0.3.0-4.el7
+    cloud7-openstack-queens-release: python-requests_ntlm-0.3.0-4.el7
 - project: python-winrm
   name: python-winrm
   conf: fedora-dependency
@@ -3685,34 +4130,40 @@ packages:
     cloud7-openstack-pike-testing: python-winrm-0.2.2-3.el7
     cloud7-openstack-pike-release: python-winrm-0.2.2-3.el7
     cloud7-openstack-queens-testing: python-winrm-0.2.2-3.el7
+    cloud7-openstack-queens-release: python-winrm-0.2.2-3.el7
 - project: python-defusedxml
   name: python-defusedxml
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-defusedxml-0.5.0-2.el7
+    cloud7-openstack-queens-release: python-defusedxml-0.5.0-2.el7
 - project: python-jsonmodels
   name: python-jsonmodels
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-jsonmodels-2.2-1.el7
+    cloud7-openstack-queens-release: python-jsonmodels-2.2-1.el7
 - project: python-google-auth
   name: python-google-auth
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-google-auth-1.3.0-1.el7
     cloud7-openstack-queens-candidate: python-google-auth-1.3.0-1.el7
+    cloud7-openstack-queens-release: python-google-auth-1.3.0-1.el7
 - project: onigumura
   name: onigumura
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: oniguruma-6.7.0-1.el7
     cloud7-openstack-queens-candidate: oniguruma-6.7.0-1.el7
+    cloud7-openstack-queens-release: oniguruma-6.7.0-1.el7
 - project: python-munch
   name: python-munch
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: python-munch-2.2.0-2.el7
     cloud7-openstack-queens-candidate: python-munch-2.2.0-2.el7
+    cloud7-openstack-queens-release: python-munch-2.2.0-2.el7
 - project: pycryptopp
   name: pycrytopp
   conf: fedora-dependency
@@ -3725,3 +4176,4 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-queens-testing: docker-1.13.1-47.2.gitf43d177.el7
+    cloud7-openstack-queens-release: docker-1.13.1-47.2.gitf43d177.el7
