@@ -2620,9 +2620,9 @@ packages:
 - project: heat-dashboard
   name: openstack-heat-ui
   tags:
-    under-review:
-    #queens-uc:
-    #queens
+    rocky-uc:
+    rocky:
+    queens:
   buildsys-tags:
     version-locked:
   conf: rpmfactory-core
