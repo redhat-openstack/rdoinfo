@@ -2153,7 +2153,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-heat-8.0.6-1.el7
     cloud7-openstack-pike-testing: openstack-heat-9.0.3-1.el7
     cloud7-openstack-pike-release: openstack-heat-9.0.3-1.el7
-    cloud7-openstack-queens-testing: openstack-heat-10.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-testing: openstack-heat-10.0.0-0.2.0rc2.el7
     cloud7-openstack-queens-release: openstack-heat-10.0.0-0.1.0rc1.el7
 - project: cinder
   conf: rpmfactory-core
@@ -2168,7 +2168,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-cinder-10.0.5-1.el7
     cloud7-openstack-pike-testing: openstack-cinder-11.1.0-1.el7
     cloud7-openstack-pike-release: openstack-cinder-11.1.0-1.el7
-    cloud7-openstack-queens-testing: openstack-cinder-12.0.0-0.2.0rc2.el7
+    cloud7-openstack-queens-testing: openstack-cinder-12.0.0-0.3.0rc2.el7
     cloud7-openstack-queens-release: openstack-cinder-12.0.0-0.2.0rc2.el7
 - project: ironic
   tags:
@@ -4912,6 +4912,7 @@ packages:
     cloud7-openstack-ocata-release: python-networking-vmware-nsx-10.0.0-1.el7
     cloud7-openstack-pike-testing: python-networking-vmware-nsx-11.0.0-1.el7
     cloud7-openstack-pike-release: python-networking-vmware-nsx-11.0.0-1.el7
+    cloud7-openstack-queens-testing: python-networking-vmware-nsx-12.0.1-1.el7
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
@@ -4927,6 +4928,7 @@ packages:
     cloud7-openstack-ocata-release: python-vmware-nsxlib-0.7.0-1.el7
     cloud7-openstack-pike-testing: python-vmware-nsxlib-11.0.0-1.el7
     cloud7-openstack-pike-release: python-vmware-nsxlib-11.0.0-1.el7
+    cloud7-openstack-queens-testing: python-vmware-nsxlib-12.0.1-1.el7
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
@@ -5741,7 +5743,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-sahara-tests-0.4.1-1.el7
     cloud7-openstack-pike-testing: openstack-sahara-tests-0.5.0-2.el7
     cloud7-openstack-pike-release: openstack-sahara-tests-0.5.0-2.el7
-    cloud7-openstack-queens-testing: openstack-sahara-tests-0.5.1-0.1.a202728git.el7
+    cloud7-openstack-queens-testing: openstack-sahara-tests-0.6.0-1.el7
     cloud7-openstack-queens-release: openstack-sahara-tests-0.5.1-0.1.a202728git.el7
 - project: os-faults
   conf: rpmfactory-lib
@@ -5899,6 +5901,7 @@ packages:
     cloud7-openstack-ocata-release: python-networking-l2gw-10.0.0-1.el7
     cloud7-openstack-pike-testing: python-networking-l2gw-11.0.0-1.el7
     cloud7-openstack-pike-release: python-networking-l2gw-11.0.0-1.el7
+    cloud7-openstack-queens-testing: python-networking-l2gw-12.0.1-1.el7
 - project: networking-l2gw-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
