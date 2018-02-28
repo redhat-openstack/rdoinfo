@@ -2744,11 +2744,11 @@ packages:
     rocky-uc:
     rocky:
     queens:
-  buildsys-tags:
-    version-locked:
   conf: rpmfactory-core
   maintainers:
   - therve@redhat.com
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-heat-ui-1.0.2-1.el7
 - project: os-apply-config
   tags:
     rocky-uc:
