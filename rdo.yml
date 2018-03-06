@@ -1534,11 +1534,11 @@ packages:
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
   tags:
     rocky-uc:
-      source-branch: d3b32a4d44b9d0f345d845790737714b10d76d05
+      source-branch: master
     rocky:
       source-branch: master
     queens:
-      source-branch: d3b32a4d44b9d0f345d845790737714b10d76d05
+      source-branch: stable/oxygen
     pike:
       source-branch: stable/carbon
     ocata:
