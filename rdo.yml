@@ -2749,6 +2749,7 @@ packages:
   - therve@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-heat-ui-1.0.2-1.el7
+    cloud7-openstack-queens-release: openstack-heat-ui-1.0.2-1.el7
 - project: os-apply-config
   tags:
     rocky-uc:
@@ -5171,7 +5172,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tempest-17.2.0-4.el7
     cloud7-openstack-pike-release: openstack-tempest-17.2.0-4.el7
     cloud7-openstack-queens-testing: openstack-tempest-18.0.0-1.el7
-    cloud7-openstack-queens-release: openstack-tempest-17.2.0-5.el7
+    cloud7-openstack-queens-release: openstack-tempest-18.0.0-1.el7
 - project: tempest-lib
   # retired in ocata release
   tags:
@@ -5475,7 +5476,7 @@ packages:
     cloud7-openstack-pike-testing: python-magnumclient-2.7.0-1.el7
     cloud7-openstack-pike-release: python-magnumclient-2.7.0-1.el7
     cloud7-openstack-queens-testing: python-magnumclient-2.9.0-1.el7
-    cloud7-openstack-queens-release: python-magnumclient-2.8.0-1.el7
+    cloud7-openstack-queens-release: python-magnumclient-2.9.0-1.el7
 - project: congressclient
   tags:
     rocky-uc:
@@ -6093,6 +6094,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-kolla-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-kolla-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-kolla-6.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-release: openstack-kolla-6.0.0-0.1.0rc1.el7
 - project: openstack-selinux
   name: openstack-selinux
   conf: rpmfactory-core
@@ -6249,6 +6251,7 @@ packages:
     cloud7-openstack-pike-testing: python-paunch-1.5.3-1.el7
     cloud7-openstack-pike-release: python-paunch-1.5.2-1.el7
     cloud7-openstack-queens-testing: python-paunch-2.3.0-1.el7
+    cloud7-openstack-queens-release: python-paunch-2.3.0-1.el7
 - project: scciclient
   tags:
     rocky-uc:
@@ -6612,6 +6615,7 @@ packages:
   - sdoran@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: ansible-role-redhat-subscription-1.0.1-1.el7
+    cloud7-openstack-queens-release: ansible-role-redhat-subscription-1.0.1-1.el7
 - project: mistral-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-mistral-tests-tempest
