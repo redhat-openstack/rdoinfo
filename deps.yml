@@ -37,6 +37,7 @@ packages:
     cloud7-openstack-pike-release: python-sphinx-1.6.2-3.el7
     cloud7-openstack-queens-testing: python-sphinx-1.6.2-3.el7
     cloud7-openstack-queens-release: python-sphinx-1.6.2-3.el7
+    cloud7-openstack-rocky-candidate: python-sphinx-1.7.1-1.el7
 - project: python-sphinxcontrib-websupport
   name: python-sphinxcontrib-websupport
   conf: rdo-dependency
@@ -717,6 +718,7 @@ packages:
     cloud7-openstack-queens-candidate: python-django-1.11.10-1.el7
     cloud7-openstack-queens-testing: python-django-1.11.10-1.el7
     cloud7-openstack-queens-release: python-django-1.11.10-1.el7
+    cloud7-openstack-rocky-candidate: python-django-1.11.11-1.el7
 - project: python-django-discover-runner
   name: python-django-discover-runner
   conf: fedora-dependency
@@ -1132,6 +1134,7 @@ packages:
     cloud7-openstack-common-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-queens-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-queens-release: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-rocky-candidate: python-autobahn-18.3.1-1.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -1278,6 +1281,7 @@ packages:
     cloud7-openstack-common-release: python-ddt-1.0.1-2.el7
     cloud7-openstack-queens-testing: python-ddt-1.0.1-2.el7
     cloud7-openstack-queens-release: python-ddt-1.0.1-2.el7
+    cloud7-openstack-rocky-candidate: python-ddt-1.1.2-1.el7
 - project: python-prettytable
   name: python-prettytable
   conf: fedora-dependency
@@ -2022,6 +2026,7 @@ packages:
     cloud7-openstack-queens-testing: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -2361,6 +2366,7 @@ packages:
     cloud7-openstack-common-release: python-selenium-2.42.1-3.el7
     cloud7-openstack-queens-testing: python-selenium-2.42.1-3.el7
     cloud7-openstack-queens-release: python-selenium-2.42.1-3.el7
+    cloud7-openstack-rocky-candidate: python-selenium-3.10.0-1.el7
 - project: python-enum34
   name: python-enum34
   conf: fedora-dependency
@@ -3022,6 +3028,7 @@ packages:
     cloud7-openstack-queens-testing: python-tenacity-4.8.0-1.el7
     cloud7-openstack-queens-candidate: python-tenacity-4.8.0-1.el7
     cloud7-openstack-queens-release: python-tenacity-4.8.0-1.el7
+    cloud7-openstack-rocky-candidate: python-tenacity-4.9.0-1.el7
 - project: python-tornado
   name: python-tornado
   conf: rdo-dependency
@@ -3426,6 +3433,7 @@ packages:
     cloud7-openstack-common-release: python-freezegun-0.3.8-2.el7
     cloud7-openstack-queens-testing: python-freezegun-0.3.8-2.el7
     cloud7-openstack-queens-release: python-freezegun-0.3.8-2.el7
+    cloud7-openstack-rocky-candidate: python-freezegun-0.3.10-1.el7
 - project: python-enum
   name: python-enum
   conf: fedora-dependency
@@ -3610,6 +3618,7 @@ packages:
     cloud7-openstack-queens-testing: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.9.6-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -3707,6 +3716,7 @@ packages:
     cloud7-openstack-pike-release: python-dogpile-cache-0.6.2-1.el7
     cloud7-openstack-queens-testing: python-dogpile-cache-0.6.2-1.el7
     cloud7-openstack-queens-release: python-dogpile-cache-0.6.2-1.el7
+    cloud7-openstack-rocky-candidate: python-dogpile-cache-0.6.5-1.el7
 - project: python-click
   name: python-click
   conf: fedora-dependency
@@ -3967,6 +3977,7 @@ packages:
     cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-release: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-rocky-candidate: python-netmiko-2.1.0-1.el7
 - project: python-scp
   name: python-scp
   conf: rdo-dependency
@@ -4178,3 +4189,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: docker-1.13.1-47.2.gitf43d177.el7
     cloud7-openstack-queens-release: docker-1.13.1-47.2.gitf43d177.el7
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pytest-3.4.2-1.el7
+  name: python-pytest
+  conf: fedora-dependency
