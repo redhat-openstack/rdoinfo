@@ -3877,12 +3877,13 @@ packages:
     cloud7-openstack-pike-release: pcs-0.9.158-4.el7
 - project: python-docker
   name: python-docker
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-docker-2.4.2-1.2.el7
     cloud7-openstack-pike-release: python-docker-2.4.2-1.2.el7
     cloud7-openstack-queens-testing: python-docker-2.4.2-1.2.el7
     cloud7-openstack-queens-release: python-docker-2.4.2-1.2.el7
+    cloud7-openstack-rocky-candidate: python-docker-3.3.0-1.el7
 - project: corosync
   name: corosync
   conf: rdo-dependency
