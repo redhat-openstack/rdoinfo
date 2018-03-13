@@ -3190,6 +3190,11 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-pyasn1-0.1.9-6.el7.1
     cloud7-openstack-common-release: python-pyasn1-0.1.9-6.el7.1
+- project: python-pyasn1crypto
+  name: python-pyasn1crypto
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: python-pyasn1crypto-0.23.0-2.el7
 - project: python-cryptography
   name: python-cryptography
   conf: fedora-dependency
