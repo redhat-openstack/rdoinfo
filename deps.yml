@@ -1623,6 +1623,7 @@ packages:
     cloud7-openstack-ocata-release: python-paramiko-2.0.0-1.el7
     cloud7-openstack-pike-testing: python-paramiko-2.0.0-1.el7
     cloud7-openstack-pike-release: python-paramiko-2.0.0-1.el7
+    cloud7-openstack-rocky-candidate: python-paramiko-2.4.1-1.el7
 - project: python-mox
   name: python-mox
   conf: fedora-dependency
@@ -2120,6 +2121,7 @@ packages:
     cloud7-openstack-queens-testing: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-pike-release: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-queens-release: python-pyghmi-1.0.22-1.el7
+    cloud7-openstack-rocky-candidate: python-pyghmi-1.0.42-1.el7
 - project: python-nose
   name: python-nose
   conf: fedora-dependency
@@ -2362,6 +2364,7 @@ packages:
     cloud7-openstack-common-release: python-selenium-2.42.1-3.el7
     cloud7-openstack-queens-testing: python-selenium-2.42.1-3.el7
     cloud7-openstack-queens-release: python-selenium-2.42.1-3.el7
+    cloud7-openstack-rocky-candidate: python-selenium-3.11.0-1.el7
 - project: python-enum34
   name: python-enum34
   conf: fedora-dependency
@@ -2596,6 +2599,7 @@ packages:
     cloud7-openstack-common-release: numpy-1.11.2-2.el7
     cloud7-openstack-queens-testing: numpy-1.11.2-2.el7
     cloud7-openstack-queens-release: numpy-1.11.2-2.el7
+    cloud7-openstack-rocky-candidate: numpy-1.14.2-1.el7
 - project: python-dtopt
   name: python-dtopt
   conf: fedora-dependency
@@ -3618,6 +3622,7 @@ packages:
     cloud7-openstack-queens-testing: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.9.7-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
