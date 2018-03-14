@@ -256,7 +256,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-ceilometer-11.5.0-1.el7
     cloud7-openstack-pike-release: puppet-ceilometer-11.5.0-1.el7
     cloud7-openstack-queens-testing: puppet-ceilometer-12.4.1-1.el7
-    cloud7-openstack-queens-release: puppet-ceilometer-12.4.0-1.el7
+    cloud7-openstack-queens-release: puppet-ceilometer-12.4.1-1.el7
 - project: puppet-cinder
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -573,6 +573,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.9-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.9-1.el7
     cloud7-openstack-queens-testing: puppet-tripleo-8.3.0-1.el7
+    cloud7-openstack-queens-release: puppet-tripleo-8.3.0-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -1963,7 +1964,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-nova-16.0.3-2.el7
     cloud7-openstack-pike-release: openstack-nova-16.0.3-2.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-nova-17.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-nova-17.0.1-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -2552,7 +2553,7 @@ packages:
     cloud7-openstack-pike-testing: diskimage-builder-2.8.0-1.el7
     cloud7-openstack-pike-release: diskimage-builder-2.8.0-1.el7
     cloud7-openstack-queens-testing: diskimage-builder-2.11.0-1.el7
-    cloud7-openstack-queens-release: diskimage-builder-2.10.1-1.el7
+    cloud7-openstack-queens-release: diskimage-builder-2.11.0-1.el7
 - project: dib-utils
   tags:
     rocky-uc:
@@ -2612,6 +2613,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.9-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.9-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.0-0.1.0rc1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -2656,6 +2658,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.3-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-image-elements-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.0-0.1.0rc1.el7
 - project: tripleo-validations
   tags:
     rocky-uc:
@@ -2675,6 +2678,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.6-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.6-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-validations-8.3.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-validations-8.3.0-1.el7
 - project: instack
   tags:
     rocky-uc:
@@ -2696,6 +2700,7 @@ packages:
     cloud7-openstack-pike-testing: instack-7.0.2-1.el7
     cloud7-openstack-pike-release: instack-7.0.2-1.el7
     cloud7-openstack-queens-testing: instack-8.1.0-1.el7
+    cloud7-openstack-queens-release: instack-8.1.0-1.el7
 - project: instack-undercloud
   tags:
     rocky-uc:
@@ -2717,6 +2722,7 @@ packages:
     cloud7-openstack-pike-testing: instack-undercloud-7.4.9-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.9-1.el7
     cloud7-openstack-queens-testing: instack-undercloud-8.3.0-1.el7
+    cloud7-openstack-queens-release: instack-undercloud-8.3.0-1.el7
 - project: heat-templates
   tags:
     newton:
@@ -2745,6 +2751,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-heat-agents-1.4.0-1.el7
     cloud7-openstack-pike-release: openstack-heat-agents-1.4.0-1.el7
     cloud7-openstack-queens-testing: openstack-heat-agents-1.5.3-1.el7
+    cloud7-openstack-queens-release: openstack-heat-agents-1.5.3-1.el7
 - project: heat-dashboard
   name: openstack-heat-ui
   tags:
@@ -2777,6 +2784,7 @@ packages:
     cloud7-openstack-pike-testing: os-apply-config-7.2.3-1.el7
     cloud7-openstack-pike-release: os-apply-config-7.2.3-1.el7
     cloud7-openstack-queens-testing: os-apply-config-8.3.0-1.el7
+    cloud7-openstack-queens-release: os-apply-config-8.3.0-1.el7
 - project: os-collect-config
   tags:
     rocky-uc:
@@ -2797,6 +2805,7 @@ packages:
     cloud7-openstack-pike-testing: os-collect-config-7.2.2-1.el7
     cloud7-openstack-pike-release: os-collect-config-7.2.2-1.el7
     cloud7-openstack-queens-testing: os-collect-config-8.3.0-1.el7
+    cloud7-openstack-queens-release: os-collect-config-8.3.0-1.el7
 - project: os-net-config
   tags:
     rocky-uc:
@@ -2817,6 +2826,7 @@ packages:
     cloud7-openstack-pike-testing: os-net-config-7.3.3-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.3-1.el7
     cloud7-openstack-queens-testing: os-net-config-8.3.0-1.el7
+    cloud7-openstack-queens-release: os-net-config-8.3.0-1.el7
 - project: os-refresh-config
   tags:
     rocky-uc:
@@ -2837,6 +2847,7 @@ packages:
     cloud7-openstack-pike-testing: os-refresh-config-7.1.0-1.el7
     cloud7-openstack-pike-release: os-refresh-config-7.1.0-1.el7
     cloud7-openstack-queens-testing: os-refresh-config-8.3.0-1.el7
+    cloud7-openstack-queens-release: os-refresh-config-8.3.0-1.el7
 - project: os-cloud-config
   tags:
     # This project was removed in Pike and locked to the commit before
@@ -2905,7 +2916,7 @@ packages:
     cloud7-openstack-pike-testing: python-os-win-2.2.0-1.el7
     cloud7-openstack-pike-release: python-os-win-2.2.0-1.el7
     cloud7-openstack-queens-testing: python-os-win-3.0.1-1.el7
-    cloud7-openstack-queens-release: python-os-win-3.0.0-1.el7
+    cloud7-openstack-queens-release: python-os-win-3.0.1-1.el7
 - project: oswin-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-oswin-tests-tempest
@@ -3743,7 +3754,7 @@ packages:
     cloud7-openstack-pike-testing: python-shade-1.22.2-1.el7
     cloud7-openstack-pike-release: python-shade-1.22.2-1.el7
     cloud7-openstack-queens-testing: python-shade-1.27.1-1.el7
-    cloud7-openstack-queens-release: python-shade-1.27.0-1.el7
+    cloud7-openstack-queens-release: python-shade-1.27.1-1.el7
 - project: ironic-inspector-client
   tags:
     rocky-uc:
@@ -3790,6 +3801,7 @@ packages:
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.8-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.8-1.el7
     cloud7-openstack-queens-testing: python-tripleoclient-9.1.0-1.el7
+    cloud7-openstack-queens-release: python-tripleoclient-9.1.0-1.el7
 - project: zaqarclient
   tags:
     rocky-uc:
@@ -4763,6 +4775,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.9-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.9-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-common-8.5.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-common-8.5.0-1.el7
 - project: tripleo-repos
   tags:
     rocky-uc:
@@ -4791,6 +4804,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.7-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.7-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-ui-8.3.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-ui-8.3.0-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
@@ -5058,6 +5072,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.5-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-puppet-elements-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.0-0.1.0rc1.el7
 - project: os-brick
   tags:
     rocky-uc:
@@ -5188,7 +5203,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tempest-17.2.0-4.el7
     cloud7-openstack-pike-release: openstack-tempest-17.2.0-4.el7
     cloud7-openstack-queens-testing: openstack-tempest-18.0.0-2.el7
-    cloud7-openstack-queens-release: openstack-tempest-18.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-tempest-18.0.0-2.el7
 - project: tempest-lib
   # retired in ocata release
   tags:
@@ -6380,7 +6395,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-senlin-4.0.0-1.el7
     cloud7-openstack-pike-release: openstack-senlin-4.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-senlin-5.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-senlin-5.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-senlin-5.0.1-1.el7
 - project: puppet-veritas_hyperscale
   conf: rpmfactory-puppet
   upstream: https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale
@@ -6619,7 +6634,7 @@ packages:
   - jaosorior@gmail.com
   buildsys-tags:
     cloud7-openstack-queens-testing: ansible-tripleo-ipsec-8.1.0-1.el7
-    cloud7-openstack-queens-release: ansible-tripleo-ipsec-8.0.2-1.el7
+    cloud7-openstack-queens-release: ansible-tripleo-ipsec-8.1.0-1.el7
 - project: ansible-role-redhat-subscription
   conf: rpmfactory-lib
   name: ansible-role-redhat-subscription
