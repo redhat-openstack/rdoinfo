@@ -2194,6 +2194,14 @@ packages:
     cloud7-openstack-queens-testing: openstack-ironic-10.1.1-1.el7
     cloud7-openstack-queens-release: openstack-ironic-10.1.1-1.el7
 - project: neutron
+  tags:
+    rocky-uc:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
+      source-branch: newton-eol
   conf: rpmfactory-core
   maintainers:
   - ihrachys@redhat.com
