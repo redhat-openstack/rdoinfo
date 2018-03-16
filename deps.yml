@@ -4336,7 +4336,17 @@ packages:
     cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-release: python-netmiko-1.4.1-1.el7
-    cloud7-openstack-rocky-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-rocky-testing: python-netmiko-2.1.0-1.el7
+- project: python-textfsm
+  name: python-textfsm
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-textfsm-0.3.2-1.el7
+- project: pyserial
+  name: pyserial
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: pyserial-3.1.1-7.el7
 - project: python-scp
   name: python-scp
   conf: rdo-dependency
