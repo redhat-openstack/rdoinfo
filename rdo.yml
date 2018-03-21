@@ -2620,7 +2620,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.11-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.9-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.9-1.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.0-0.1.0rc1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2665,7 +2665,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.3-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.3-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.3-1.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-image-elements-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-image-elements-8.0.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.0-0.1.0rc1.el7
 - project: tripleo-validations
   tags:
@@ -3786,7 +3786,7 @@ packages:
     cloud7-openstack-ocata-release: python-ironic-inspector-client-1.11.0-1.el7
     cloud7-openstack-pike-testing: python-ironic-inspector-client-2.1.0-1.el7
     cloud7-openstack-pike-release: python-ironic-inspector-client-2.1.0-1.el7
-    cloud7-openstack-queens-testing: python-ironic-inspector-client-3.1.0-1.el7
+    cloud7-openstack-queens-testing: python-ironic-inspector-client-3.1.1-1.el7
     cloud7-openstack-queens-release: python-ironic-inspector-client-3.1.0-1.el7
 - project: tripleoclient
   tags:
@@ -4465,7 +4465,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-pike-testing: python-ovsdbapp-0.4.2-1.el7
     cloud7-openstack-pike-release: python-ovsdbapp-0.4.2-1.el7
-    cloud7-openstack-queens-testing: python-ovsdbapp-0.9.1-1.el7
+    cloud7-openstack-queens-testing: python-ovsdbapp-0.10.0-1.el7
     cloud7-openstack-queens-release: python-ovsdbapp-0.9.1-1.el7
 - project: stevedore
   conf: rpmfactory-lib
@@ -5079,7 +5079,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.5-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.5-1.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-puppet-elements-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-puppet-elements-8.0.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.0-0.1.0rc1.el7
 - project: os-brick
   tags:
@@ -6132,7 +6132,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-kolla-4.0.3-1.el7
     cloud7-openstack-pike-testing: openstack-kolla-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-kolla-5.0.1-1.el7
-    cloud7-openstack-queens-testing: openstack-kolla-6.0.0-0.1.0rc1.el7
+    cloud7-openstack-queens-testing: openstack-kolla-6.0.0-0.2.0rc2.el7
     cloud7-openstack-queens-release: openstack-kolla-6.0.0-0.1.0rc1.el7
 - project: openstack-selinux
   name: openstack-selinux
@@ -6336,7 +6336,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-pike-testing: python-patrole-0.1.0-1.el7
     cloud7-openstack-pike-release: python-patrole-0.1.0-1.el7
-    cloud7-openstack-queens-testing: python-patrole-0.2.0-1.el7
+    cloud7-openstack-queens-testing: python-patrole-0.3.0-1.el7
     cloud7-openstack-queens-release: python-patrole-0.2.0-1.el7
 - project: glare
   conf: rpmfactory-core
@@ -6706,7 +6706,7 @@ packages:
   maintainers:
   - eyal.bar-ilan@nokia.com
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-vitrage-tests-tempest-0.0.1-0.1.493c933git.el7
+    cloud7-openstack-queens-testing: python-vitrage-tests-tempest-1.0.0-1.el7
     cloud7-openstack-queens-release: python-vitrage-tests-tempest-0.0.1-0.1.493c933git.el7
 - project: trove-tempest-plugin
   conf: rpmfactory-tempest-plugin
@@ -6782,6 +6782,8 @@ packages:
   maintainers:
   - rnoriega@redhat.com
   - zshi@redhat.com
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tap-as-a-service-3.0.0-1.el7
 - project: designate-dashboard
   name: openstack-designate-ui
   tags:
