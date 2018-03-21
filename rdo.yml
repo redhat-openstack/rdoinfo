@@ -6787,11 +6787,9 @@ packages:
 - project: designate-dashboard
   name: openstack-designate-ui
   tags:
-    under-review:
-    #rocky-uc:
-    #rocky:
-    #queens:
-    #pike:
+    rocky-uc:
+    rocky:
+    queens:
   conf: rpmfactory-core
   maintainers:
   - kevintibi@hotmail.com
