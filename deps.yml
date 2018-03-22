@@ -472,12 +472,13 @@ packages:
     cloud7-openstack-queens-release: python-XStatic-Font-Awesome-4.7.0.0-3.el7
 - project: memcached
   name: memcached
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: memcached-1.4.39-1.el7
     cloud7-openstack-common-release: memcached-1.4.39-1.el7
     cloud7-openstack-queens-testing: memcached-1.4.39-1.el7
     cloud7-openstack-queens-release: memcached-1.4.39-1.el7
+    cloud7-openstack-queens-candidate: memcached-1.5.6-1.el7
 - project: python-cachez
   name: python-cachez
   conf: fedora-dependency
