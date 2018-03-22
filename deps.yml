@@ -1495,6 +1495,7 @@ packages:
     cloud7-openstack-queens-testing: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-queens-candidate: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-queens-release: python-kubernetes-4.0.0-1.el7
+    cloud7-openstack-rocky-candidate: python-kubernetes-5.0.0-1.el7
 - project: openstack-utils
   name: openstack-utils
   conf: rdo-dependency
@@ -1789,6 +1790,7 @@ packages:
     cloud7-openstack-common-release: python-websocket-client-0.34.0-3.el7
     cloud7-openstack-queens-testing: python-websocket-client-0.34.0-3.el7
     cloud7-openstack-queens-release: python-websocket-client-0.34.0-3.el7
+    cloud7-openstack-rocky-candidate: python-websocket-client-0.47.0-1.el7
 - project: python-redis
   name: python-redis
   conf: fedora-dependency
