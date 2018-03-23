@@ -561,7 +561,7 @@ packages:
     cloud7-openstack-ocata-release: puppet-tempest-10.4.0-1.el7
     cloud7-openstack-pike-testing: puppet-tempest-11.5.0-1.el7
     cloud7-openstack-pike-release: puppet-tempest-11.5.0-1.el7
-    cloud7-openstack-queens-testing: puppet-tempest-12.3.0-1.el7
+    cloud7-openstack-queens-testing: puppet-tempest-12.4.0-1.el7
     cloud7-openstack-queens-release: puppet-tempest-12.3.0-1.el7
 - project: puppet-tripleo
   conf: rpmfactory-puppet
@@ -2372,7 +2372,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
     cloud7-openstack-pike-testing: openstack-octavia-1.0.1-1.el7
     cloud7-openstack-pike-release: openstack-octavia-1.0.1-1.el7
-    cloud7-openstack-queens-testing: openstack-octavia-2.0.0-1.el7
+    cloud7-openstack-queens-testing: openstack-octavia-2.0.0-2.el7
     cloud7-openstack-queens-release: openstack-octavia-2.0.0-1.el7
 - project: octavia-dashboard
   name: openstack-octavia-ui
@@ -5787,7 +5787,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-sahara-tests-0.4.1-1.el7
     cloud7-openstack-pike-testing: openstack-sahara-tests-0.5.0-2.el7
     cloud7-openstack-pike-release: openstack-sahara-tests-0.5.0-2.el7
-    cloud7-openstack-queens-testing: openstack-sahara-tests-0.6.0-1.el7
+    cloud7-openstack-queens-testing: openstack-sahara-tests-0.6.0-2.el7
     cloud7-openstack-queens-release: openstack-sahara-tests-0.6.0-1.el7
 - project: os-faults
   conf: rpmfactory-lib
@@ -6796,3 +6796,5 @@ packages:
   maintainers:
   - kevintibi@hotmail.com
   - rod2a@hotmail.com
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-designate-ui-6.0.0-1.el7
