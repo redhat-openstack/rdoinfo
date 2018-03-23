@@ -221,6 +221,7 @@ packages:
     cloud7-openstack-common-release: python-blinker-1.3-6.el7
     cloud7-openstack-queens-testing: python-blinker-1.3-6.el7
     cloud7-openstack-queens-release: python-blinker-1.3-6.el7
+    cloud7-openstack-rocky-candidate: python-blinker-1.4-1.el7
 - project: sympy
   name: sympy
   conf: fedora-dependency
@@ -818,6 +819,7 @@ packages:
     cloud7-openstack-queens-testing: python-alembic-0.9.7-1.el7
     cloud7-openstack-queens-candidate: python-alembic-0.9.7-1.el7
     cloud7-openstack-queens-release: python-alembic-0.9.7-1.el7
+    cloud7-openstack-rocky-candidate: python-alembic-0.9.9-1.el7
 - project: python-statsd
   name: python-statsd
   conf: fedora-dependency
@@ -1041,6 +1043,7 @@ packages:
     cloud7-openstack-pike-release: python-pyroute2-0.4.19-1.el7
     cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-queens-release: python-pyroute2-0.4.21-1.el7
+    cloud7-openstack-rocky-candidate: python-pyroute2-0.5.0-1.el7
 - project: wxGTK
   name: wxGTK
   conf: fedora-dependency
@@ -1890,6 +1893,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-py-1.4.31-3.el7
     cloud7-openstack-common-release: python-py-1.4.31-3.el7
+    cloud7-openstack-rocky-candidate: python-py-1.5.3-1.el7
 - project: erlang-rpm-macros
   name: erlang-rpm-macros
   conf: fedora-dependency
@@ -3034,6 +3038,7 @@ packages:
     cloud7-openstack-common-release: python-tornado-4.4.2-2.el7
     cloud7-openstack-queens-testing: python-tornado-4.4.2-2.el7
     cloud7-openstack-queens-release: python-tornado-4.4.2-2.el7
+    cloud7-openstack-rocky-candidate: python-tornado-4.5.3-1.el7
 - project: python-snappy
   name: python-snappy
   conf: fedora-dependency
@@ -3211,6 +3216,7 @@ packages:
     cloud7-openstack-pike-testing: python-cryptography-1.7.2-1.el7
     cloud7-openstack-pike-release: python-cryptography-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-cryptography-2.1.4-1.el7
+    cloud7-openstack-rocky-candidate: python-cryptography-2.2.1-1.el7
 - project: redis
   name: redis
   conf: fedora-dependency
@@ -3979,6 +3985,7 @@ packages:
     cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-release: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-rocky-candidate: python-netmiko-2.1.1-1.el7
 - project: python-scp
   name: python-scp
   conf: rdo-dependency
@@ -4197,3 +4204,23 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
     cloud7-openstack-queens-release: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: more-itertools
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-more-itertools-4.1.0-1.el7
+  name: python-more-itertools
+  conf: fedora-dependency
+- project: h11
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-h11-0.7.0-1.el7
+  name: python-h11
+  conf: fedora-dependency
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pytest-3.5.0-1.el7
+  name: python-pytest
+  conf: fedora-dependency
+- project: wsproto
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-wsproto-0.11.0-1.el7
+  name: python-wsproto
+  conf: fedora-dependency
