@@ -889,6 +889,7 @@ packages:
     cloud7-openstack-queens-candidate: python-alembic-0.9.7-1.el7
     cloud7-openstack-queens-release: python-alembic-0.9.7-1.el7
     cloud7-openstack-rocky-testing: python-alembic-0.9.7-1.el7
+    cloud7-openstack-rocky-candidate: python-alembic-0.9.9-1.el7
 - project: python-statsd
   name: python-statsd
   conf: fedora-dependency
@@ -1130,6 +1131,7 @@ packages:
     cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-queens-release: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-rocky-testing: python-pyroute2-0.4.21-1.el7
+    cloud7-openstack-rocky-candidate: python-pyroute2-0.5.0-1.el7
 - project: wxGTK
   name: wxGTK
   conf: fedora-dependency
@@ -2054,6 +2056,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-py-1.4.31-3.el7
     cloud7-openstack-common-release: python-py-1.4.31-3.el7
+    cloud7-openstack-rocky-candidate: python-py-1.5.3-1.el7
 - project: erlang-rpm-macros
   name: erlang-rpm-macros
   conf: fedora-dependency
@@ -3078,6 +3081,7 @@ packages:
     cloud7-openstack-queens-testing: pytest-3.0.6-2.el7
     cloud7-openstack-queens-release: pytest-3.0.6-2.el7
     cloud7-openstack-rocky-testing: pytest-3.0.6-2.el7
+    cloud7-openstack-rocky-candidate: pytest-3.5.0-1.el7
 - project: python-gflags
   name: python-gflags
   conf: fedora-dependency
@@ -3502,6 +3506,7 @@ packages:
     cloud7-openstack-queens-testing: python-cryptography-2.1.4-1.el7
     cloud7-openstack-queens-release: python-cryptography-2.1.4-1.el7
     cloud7-openstack-rocky-testing: python-cryptography-2.1.4-1.el7
+    cloud7-openstack-rocky-candidate: python-cryptography-2.2.1-1.el7
 - project: redis
   name: redis
   conf: fedora-dependency
@@ -4333,6 +4338,7 @@ packages:
     cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-rocky-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-rocky-candidate: python-netmiko-2.1.1-1.el7
 - project: python-scp
   name: python-scp
   conf: rdo-dependency
