@@ -736,7 +736,7 @@ packages:
     cloud7-openstack-pike-testing: python-cryptography-vectors-1.7.2-1.el7
     cloud7-openstack-pike-release: python-cryptography-vectors-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-cryptography-vectors-2.1.4-1.el7
-    cloud7-openstack-queens-release: python-cryptography-vectors-1.7.2-1.el7
+    cloud7-openstack-queens-release: python-cryptography-vectors-2.1.4-1.el7
     cloud7-openstack-queens-candidate: python-cryptography-vectors-2.1.4-1.el7
 - project: python-simplejson
   name: python-simplejson
@@ -1624,6 +1624,7 @@ packages:
     cloud7-openstack-pike-testing: python-paramiko-2.0.0-1.el7
     cloud7-openstack-pike-release: python-paramiko-2.0.0-1.el7
     cloud7-openstack-queens-testing: python-paramiko-2.1.1-3.el7
+    cloud7-openstack-queens-release: python-paramiko-2.1.1-3.el7
 - project: python-mox
   name: python-mox
   conf: fedora-dependency
@@ -2467,6 +2468,7 @@ packages:
     cloud7-openstack-common-release: python-cffi-1.5.2-1.el7
     cloud7-openstack-queens-candidate: python-cffi-1.11.2-1.el7
     cloud7-openstack-queens-testing: python-cffi-1.11.2-1.el7
+    cloud7-openstack-queens-release: python-cffi-1.11.2-1.el7
 - project: python-rdflib
   name: python-rdflib
   conf: fedora-dependency
@@ -3100,7 +3102,7 @@ packages:
     cloud7-openstack-pike-testing: pyOpenSSL-16.2.0-3.el7
     cloud7-openstack-pike-release: pyOpenSSL-16.2.0-3.el7
     cloud7-openstack-queens-testing: pyOpenSSL-17.3.0-3.el7
-    cloud7-openstack-queens-release: pyOpenSSL-16.2.0-3.el7
+    cloud7-openstack-queens-release: pyOpenSSL-17.3.0-3.el7
     cloud7-openstack-queens-candidate: pyOpenSSL-17.3.0-3.el7
 - project: nrpe
   name: nrpe
@@ -3200,6 +3202,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-candidate: python-asn1crypto-0.23.0-2.el7
     cloud7-openstack-queens-testing: python-asn1crypto-0.23.0-2.el7
+    cloud7-openstack-queens-release: python-asn1crypto-0.23.0-2.el7
 - project: python-cryptography
   name: python-cryptography
   conf: rdo-dependency
@@ -3211,6 +3214,7 @@ packages:
     cloud7-openstack-pike-testing: python-cryptography-1.7.2-1.el7
     cloud7-openstack-pike-release: python-cryptography-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-cryptography-2.1.4-1.el7
+    cloud7-openstack-queens-release: python-cryptography-2.1.4-1.el7
 - project: redis
   name: redis
   conf: fedora-dependency
