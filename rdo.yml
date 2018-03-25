@@ -6751,3 +6751,12 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-designate-ui-6.0.0-1.el7
     cloud7-openstack-queens-release: openstack-designate-ui-6.0.0-1.el7
+- project: cyborg
+  name: openstack-cyborg
+  conf: rpmfactory-core
+  tags:
+    under-review:
+    #rocky-uc:
+    #rocky:
+  maintainers:
+  - chkumar@redhat.com
