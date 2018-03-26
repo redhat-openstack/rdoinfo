@@ -754,6 +754,7 @@ packages:
     cloud7-openstack-common-release: python-dateutil-2.4.2-1.el7
     cloud7-openstack-queens-testing: python-dateutil-2.6.1-1.el7
     cloud7-openstack-queens-release: python-dateutil-2.6.1-1.el7
+    cloud7-openstack-rocky-candidate: python-dateutil-2.7.1-1.el7
 - project: python-cycler
   name: python-cycler
   conf: rdo-dependency
@@ -2802,6 +2803,7 @@ packages:
     cloud7-openstack-common-release: GitPython-1.0.1-5.el7
     cloud7-openstack-queens-testing: GitPython-1.0.1-5.el7
     cloud7-openstack-queens-release: GitPython-1.0.1-5.el7
+    cloud7-openstack-rocky-candidate: GitPython-2.1.9-1.el7
 - project: python-django-nose
   name: python-django-nose
   conf: fedora-dependency
@@ -4201,3 +4203,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
     cloud7-openstack-queens-release: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: scipy
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-scipy-1.0.1-1.el7
+  name: python-scipy
+  conf: fedora-dependency
