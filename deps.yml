@@ -384,6 +384,7 @@ packages:
     cloud7-openstack-common-release: python-repoze-who-2.1-1.el7
     cloud7-openstack-queens-testing: python-repoze-who-2.1-1.el7
     cloud7-openstack-queens-release: python-repoze-who-2.1-1.el7
+    cloud7-openstack-rocky-candidate: python-repoze-who-2.3-1.el7
 - project: python-logilab-common
   name: python-logilab-common
   conf: fedora-dependency
@@ -3058,6 +3059,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-httplib2-0.9.2-1.el7
     cloud7-openstack-common-release: python-httplib2-0.9.2-1.el7
+    cloud7-openstack-rocky-candidate: python-httplib2-0.11.3-1.el7
 - project: python-testtools
   name: python-testtools
   conf: fedora-dependency
@@ -3899,6 +3901,7 @@ packages:
     cloud7-openstack-pike-release: python-docker-2.4.2-1.2.el7
     cloud7-openstack-queens-testing: python-docker-2.4.2-1.2.el7
     cloud7-openstack-queens-release: python-docker-2.4.2-1.2.el7
+    cloud7-openstack-rocky-candidate: python-docker-3.2.0-1.el7
 - project: corosync
   name: corosync
   conf: rdo-dependency
@@ -4201,3 +4204,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
     cloud7-openstack-queens-release: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-sphinx-feature-classification-0.1.0-1.el7
+  name: python-sphinx-feature-classification
+  conf: fedora-dependency
