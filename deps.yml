@@ -4201,3 +4201,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
     cloud7-openstack-queens-release: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: google-api-python-client
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-google-api-client-1.6.6-1.el7
+  name: python-google-api-client
+  conf: fedora-dependency
