@@ -571,7 +571,7 @@ packages:
     cloud7-openstack-ocata-testing: puppet-tripleo-6.5.11-1.el7
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.11-1.el7
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.11-1.el7
-    cloud7-openstack-pike-release: puppet-tripleo-7.4.9-1.el7
+    cloud7-openstack-pike-release: puppet-tripleo-7.4.11-1.el7
     cloud7-openstack-queens-testing: puppet-tripleo-8.3.1-1.el7
     cloud7-openstack-queens-release: puppet-tripleo-8.3.1-1.el7
 - project: puppet-trove
@@ -1962,7 +1962,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-nova-15.1.0-1.el7
     cloud7-openstack-ocata-release: openstack-nova-15.1.0-1.el7
     cloud7-openstack-pike-testing: openstack-nova-16.1.0-1.el7
-    cloud7-openstack-pike-release: openstack-nova-16.0.3-2.el7
+    cloud7-openstack-pike-release: openstack-nova-16.1.0-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.1-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.1-1.el7
 - project: keystone
@@ -2054,7 +2054,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-ceilometer-8.1.4-1.el7
     cloud7-openstack-ocata-release: openstack-ceilometer-8.1.4-1.el7
     cloud7-openstack-pike-testing: openstack-ceilometer-9.0.5-1.el7
-    cloud7-openstack-pike-release: openstack-ceilometer-9.0.4-1.el7
+    cloud7-openstack-pike-release: openstack-ceilometer-9.0.5-1.el7
     cloud7-openstack-queens-testing: openstack-ceilometer-10.0.0-1.el7
     cloud7-openstack-queens-release: openstack-ceilometer-10.0.0-1.el7
 - project: gnocchi
@@ -2154,7 +2154,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-heat-8.0.6-1.el7
     cloud7-openstack-ocata-release: openstack-heat-8.0.6-1.el7
     cloud7-openstack-pike-testing: openstack-heat-9.0.3-2.el7
-    cloud7-openstack-pike-release: openstack-heat-9.0.3-1.el7
+    cloud7-openstack-pike-release: openstack-heat-9.0.3-2.el7
     cloud7-openstack-queens-testing: openstack-heat-10.0.0-1.el7
     cloud7-openstack-queens-release: openstack-heat-10.0.0-1.el7
 - project: cinder
@@ -2215,7 +2215,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-neutron-10.0.5-1.el7
     cloud7-openstack-ocata-release: openstack-neutron-10.0.5-1.el7
     cloud7-openstack-pike-testing: openstack-neutron-11.0.3-1.el7
-    cloud7-openstack-pike-release: openstack-neutron-11.0.2-3.el7
+    cloud7-openstack-pike-release: openstack-neutron-11.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-12.0.0-1.el7
 - project: neutron-lib
@@ -2619,7 +2619,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tripleo-heat-templates-6.2.12-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.12-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.11-1.el7
-    cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.9-1.el7
+    cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.11-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.1-1.el7
 - project: tripleo-heat-templates-compat
@@ -2664,7 +2664,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tripleo-image-elements-6.1.3-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.3-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.4-1.el7
-    cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.3-1.el7
+    cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.4-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-image-elements-8.0.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.0-1.el7
 - project: tripleo-validations
@@ -2684,7 +2684,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tripleo-validations-5.6.4-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.4-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.8-1.el7
-    cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.6-1.el7
+    cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.8-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-validations-8.4.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.0-1.el7
 - project: instack
@@ -2728,7 +2728,7 @@ packages:
     cloud7-openstack-ocata-testing: instack-undercloud-6.1.6-1.el7
     cloud7-openstack-ocata-release: instack-undercloud-6.1.6-1.el7
     cloud7-openstack-pike-testing: instack-undercloud-7.4.11-1.el7
-    cloud7-openstack-pike-release: instack-undercloud-7.4.9-1.el7
+    cloud7-openstack-pike-release: instack-undercloud-7.4.11-1.el7
     cloud7-openstack-queens-testing: instack-undercloud-8.4.0-1.el7
     cloud7-openstack-queens-release: instack-undercloud-8.4.0-1.el7
 - project: heat-templates
@@ -2832,7 +2832,7 @@ packages:
     cloud7-openstack-ocata-testing: os-net-config-6.1.4-1.el7
     cloud7-openstack-ocata-release: os-net-config-6.1.4-1.el7
     cloud7-openstack-pike-testing: os-net-config-7.3.4-1.el7
-    cloud7-openstack-pike-release: os-net-config-7.3.3-1.el7
+    cloud7-openstack-pike-release: os-net-config-7.3.4-1.el7
     cloud7-openstack-queens-testing: os-net-config-8.4.0-1.el7
     cloud7-openstack-queens-release: os-net-config-8.4.0-1.el7
 - project: os-refresh-config
@@ -3807,7 +3807,7 @@ packages:
     cloud7-openstack-ocata-testing: python-tripleoclient-6.2.4-1.el7
     cloud7-openstack-ocata-release: python-tripleoclient-6.2.4-1.el7
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.9-1.el7
-    cloud7-openstack-pike-release: python-tripleoclient-7.3.8-1.el7
+    cloud7-openstack-pike-release: python-tripleoclient-7.3.9-1.el7
     cloud7-openstack-queens-testing: python-tripleoclient-9.2.0-1.el7
     cloud7-openstack-queens-release: python-tripleoclient-9.2.0-1.el7
 - project: zaqarclient
@@ -4252,7 +4252,7 @@ packages:
     cloud7-openstack-ocata-testing: python-oslo-utils-3.22.2-1.el7
     cloud7-openstack-ocata-release: python-oslo-utils-3.22.2-1.el7
     cloud7-openstack-pike-testing: python-oslo-utils-3.28.2-1.el7
-    cloud7-openstack-pike-release: python-oslo-utils-3.28.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-utils-3.28.2-1.el7
     cloud7-openstack-queens-testing: python-oslo-utils-3.35.0-1.el7
     cloud7-openstack-queens-release: python-oslo-utils-3.35.0-1.el7
 - project: oslo-vmware
@@ -4781,7 +4781,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tripleo-common-6.1.5-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.5-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.11-1.el7
-    cloud7-openstack-pike-release: openstack-tripleo-common-7.6.9-1.el7
+    cloud7-openstack-pike-release: openstack-tripleo-common-7.6.11-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-common-8.6.0-1.el7
 - project: tripleo-repos
@@ -5079,7 +5079,7 @@ packages:
     cloud7-openstack-ocata-testing: openstack-tripleo-puppet-elements-6.2.5-1.el7
     cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.5-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.7-1.el7
-    cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.5-1.el7
+    cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.7-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-puppet-elements-8.0.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.0-1.el7
 - project: os-brick
@@ -6287,7 +6287,7 @@ packages:
   - sbaker@redhat.com
   buildsys-tags:
     cloud7-openstack-pike-testing: python-paunch-1.5.5-1.el7
-    cloud7-openstack-pike-release: python-paunch-1.5.2-1.el7
+    cloud7-openstack-pike-release: python-paunch-1.5.5-1.el7
     cloud7-openstack-queens-testing: python-paunch-2.4.0-1.el7
     cloud7-openstack-queens-release: python-paunch-2.4.0-1.el7
 - project: scciclient
