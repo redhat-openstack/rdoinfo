@@ -689,7 +689,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-apache
   tags:
     rocky-uc:
-      source-branch: e587f2af793111adab04bb776808f99a09ca092b
     rocky:
     queens:
       source-branch: e587f2af793111adab04bb776808f99a09ca092b
@@ -712,10 +711,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
-    # Fixme(ykarel) Unpin once the bug is fixed:
-    # https://bugs.launchpad.net/tripleo/+bug/1745712
     rocky-uc:
-      source-branch: d4857dfabe00ccbd158050e9245d074818a7cf15
     rocky:
     queens:
       source-branch: d4857dfabe00ccbd158050e9245d074818a7cf15
@@ -739,7 +735,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
   tags:
     rocky-uc:
-      source-branch: 3dc19907a9ee10f3c0d8e8486ccb7d245bade339
     rocky:
     queens:
       source-branch: 3dc19907a9ee10f3c0d8e8486ccb7d245bade339
@@ -763,7 +758,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
   tags:
     rocky-uc:
-      source-branch: 11ac7a2402686967b13ff0f42ea23cf73f11aa7b
     rocky:
     queens:
       source-branch: 11ac7a2402686967b13ff0f42ea23cf73f11aa7b
@@ -787,7 +781,6 @@ packages:
   upstream: git://github.com/puppet-community/puppet-corosync
   tags:
     rocky-uc:
-      source-branch: 9940eb9d212941e8d3107d4806a5390e39269500
     rocky:
     queens:
       source-branch: 9940eb9d212941e8d3107d4806a5390e39269500
@@ -811,7 +804,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-git
   tags:
     rocky-uc:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     rocky:
     queens:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
@@ -835,7 +827,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
   tags:
     rocky-uc:
-      source-branch: d2c38b99ca78363ac7d0c8c12088d628a494d37f
     rocky:
     queens:
       source-branch: d2c38b99ca78363ac7d0c8c12088d628a494d37f
@@ -859,7 +850,6 @@ packages:
   upstream: git://github.com/voxpupuli/puppet-mongodb
   tags:
     rocky-uc:
-      source-branch: c60e4ca4d9344b733d6d8048c8ef8face92a720e
     rocky:
     queens:
       source-branch: c60e4ca4d9344b733d6d8048c8ef8face92a720e
@@ -883,7 +873,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
   tags:
     rocky-uc:
-      source-branch: a5497b2bcf9098ed707348193bb7ff2e4ef1e543
     rocky:
     queens:
       source-branch: a5497b2bcf9098ed707348193bb7ff2e4ef1e543
@@ -907,7 +896,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-java
   tags:
     rocky-uc:
-      source-branch: 47afbd2462df0c2378b4c4499cfc3b2815f6b9c5
     rocky:
     queens:
       source-branch: 47afbd2462df0c2378b4c4499cfc3b2815f6b9c5
@@ -956,7 +944,6 @@ packages:
   upstream: git://github.com/voxpupuli/puppet-rabbitmq
   tags:
     rocky-uc:
-      source-branch: d4b06b76cdfa9ab0755a96f2cffd0097db7436a9
     rocky:
     queens:
       source-branch: d4b06b76cdfa9ab0755a96f2cffd0097db7436a9
@@ -980,7 +967,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
   tags:
     rocky-uc:
-      source-branch: 447685f915b78fef86a693685f7e49e21ff9c998
     rocky:
     queens:
       source-branch: 447685f915b78fef86a693685f7e49e21ff9c998
@@ -1004,7 +990,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
   tags:
     rocky-uc:
-      source-branch: b0d99ad6f1c87c4f0115e08b3bade8c736cc7f64
     rocky:
     queens:
       source-branch: b0d99ad6f1c87c4f0115e08b3bade8c736cc7f64
@@ -1028,7 +1013,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
   tags:
     rocky-uc:
-      source-branch: c6d99544f97fffb67a4cf96f217f1162440e2dd0
     rocky:
     queens:
       source-branch: c6d99544f97fffb67a4cf96f217f1162440e2dd0
@@ -1052,7 +1036,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
   tags:
     rocky-uc:
-      source-branch: bb1209e157494bf1a759ea95d074ae2317ee9d4f
     rocky:
     queens:
       source-branch: bb1209e157494bf1a759ea95d074ae2317ee9d4f
@@ -1076,7 +1059,6 @@ packages:
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
   tags:
     rocky-uc:
-      source-branch: b95c79caac894f508448ce918407381900f1cda0
     rocky:
     queens:
       source-branch: b95c79caac894f508448ce918407381900f1cda0
@@ -1100,7 +1082,6 @@ packages:
   upstream: git://github.com/voxpupuli/puppet-cassandra
   tags:
     rocky-uc:
-      source-branch: 2454099687f5e533b553bd38b3ac7f69a864408c
     rocky:
     queens:
       source-branch: 2454099687f5e533b553bd38b3ac7f69a864408c
@@ -1124,7 +1105,6 @@ packages:
   upstream: git://github.com/saltedsignal/%(project)s
   tags:
     rocky-uc:
-      source-branch: f340ee6835c11cbde9194a0083a7eb156c90610b
     rocky:
     queens:
       source-branch: f340ee6835c11cbde9194a0083a7eb156c90610b
@@ -1148,7 +1128,6 @@ packages:
   upstream: git://github.com/Juniper/%(project)s
   tags:
     rocky-uc:
-      source-branch: ecf700b52054ffb9d73768dc4ae31d87dc66fc98
     rocky:
     queens:
       source-branch: ecf700b52054ffb9d73768dc4ae31d87dc66fc98
@@ -1174,7 +1153,6 @@ packages:
   upstream: git://github.com/richardc/%(project)s
   tags:
     rocky-uc:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
     rocky:
     queens:
       source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
@@ -1198,7 +1176,6 @@ packages:
   upstream: git://github.com/theforeman/%(project)s
   tags:
     rocky-uc:
-      source-branch: 99cd0253f31aa260dc09bcc765e5f83211b204cd
     rocky:
     queens:
       source-branch: 99cd0253f31aa260dc09bcc765e5f83211b204cd
@@ -1222,7 +1199,6 @@ packages:
   upstream: git://github.com/elastic/%(project)s
   tags:
     rocky-uc:
-      source-branch: 813c7290c3a8d77eef397526d1ea6dc108943b0d
     rocky:
     queens:
       source-branch: 813c7290c3a8d77eef397526d1ea6dc108943b0d
@@ -1246,7 +1222,6 @@ packages:
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
     rocky-uc:
-      source-branch: 319df65ac8a275170eb643f3c0854e7877e30d73
     rocky:
     queens:
       source-branch: 319df65ac8a275170eb643f3c0854e7877e30d73
@@ -1266,7 +1241,6 @@ packages:
   upstream: https://git.fd.io/%(project)s
   tags:
     rocky-uc:
-      source-branch: bd0218a8cfd7e66c2fce9a1fd2a46d70fbdc3d77
     rocky:
     queens:
       source-branch: bd0218a8cfd7e66c2fce9a1fd2a46d70fbdc3d77
@@ -1286,7 +1260,6 @@ packages:
   upstream: git://github.com/puppet-community/%(project)s
   tags:
     rocky-uc:
-      source-branch: 6419b44068a031e557e55a977c0b37d88747e8b2
     rocky:
     queens:
       source-branch: 6419b44068a031e557e55a977c0b37d88747e8b2
@@ -1310,7 +1283,6 @@ packages:
   upstream: git://github.com/soylent/konstantin-fluentd
   tags:
     rocky-uc:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
     rocky:
     queens:
       source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
@@ -1334,7 +1306,6 @@ packages:
   upstream: git://github.com/joshuabaird/%(project)s
   tags:
     rocky-uc:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
     rocky:
     queens:
       source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
@@ -1356,7 +1327,6 @@ packages:
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
   tags:
     rocky-uc:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     rocky:
     queens:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
@@ -1380,7 +1350,6 @@ packages:
   upstream: git://github.com/thejandroman/%(project)s
   tags:
     rocky-uc:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     rocky:
     queens:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
@@ -1404,7 +1373,6 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     rocky-uc:
-      source-branch: bf90f06c9caf73c7f3ad28f4c0a1e649ec871c56
     rocky:
     queens:
       source-branch: bf90f06c9caf73c7f3ad28f4c0a1e649ec871c56
@@ -1461,7 +1429,6 @@ packages:
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
     rocky-uc:
-      source-branch: 93c8d0bd32bb5610652f30e785ba6644fc82a8b6
     rocky:
     queens:
       source-branch: 93c8d0bd32bb5610652f30e785ba6644fc82a8b6
@@ -1485,7 +1452,6 @@ packages:
   upstream: git://github.com/ripienaar/%(project)s
   tags:
     rocky-uc:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     rocky:
     queens:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
@@ -1512,7 +1478,6 @@ packages:
   upstream: git://github.com/rcritten/%(project)s
   tags:
     rocky-uc:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
     rocky:
     queens:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
@@ -1583,7 +1548,6 @@ packages:
   upstream: git://github.com/antonlindstrom/%(project)s
   tags:
     rocky-uc:
-      source-branch: 899651549b6d57470d233321265ace862270e154
     rocky:
     queens:
       source-branch: 899651549b6d57470d233321265ace862270e154
@@ -1607,7 +1571,6 @@ packages:
   upstream: git://github.com/arioch/%(project)s
   tags:
     rocky-uc:
-      source-branch: bfcc2120f7b83342b03241d1429028a6defdd0da
     rocky:
     queens:
       source-branch: bfcc2120f7b83342b03241d1429028a6defdd0da
@@ -1631,7 +1594,6 @@ packages:
   upstream: git://github.com/paramite/%(project)s
   tags:
     rocky-uc:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
     rocky:
     queens:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
@@ -1655,7 +1617,6 @@ packages:
   upstream: git://github.com/sensu/sensu-puppet
   tags:
     rocky-uc:
-      source-branch: aa0f9256ade05153c99f5eac8931da9eb1aaec1a
     rocky:
     queens:
       source-branch: aa0f9256ade05153c99f5eac8931da9eb1aaec1a
@@ -1679,7 +1640,6 @@ packages:
   upstream: git://github.com/razorsedge/%(project)s
   tags:
     rocky-uc:
-      source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
     rocky:
     queens:
       source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
@@ -1703,7 +1663,6 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     rocky-uc:
-      source-branch: fb2de7592b5a75930a6eefb283ce070a3051d9d2
     rocky:
     queens:
       source-branch: fb2de7592b5a75930a6eefb283ce070a3051d9d2
@@ -1727,7 +1686,6 @@ packages:
   upstream: git://github.com/nanliu/%(project)s
   tags:
     rocky-uc:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     rocky:
     queens:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
@@ -1751,7 +1709,6 @@ packages:
   upstream: git://github.com/saz/%(project)s
   tags:
     rocky-uc:
-      source-branch: 32aa9f58992067eda45f372d788a9388934d5355
     rocky:
     queens:
       source-branch: 32aa9f58992067eda45f372d788a9388934d5355
@@ -1775,7 +1732,6 @@ packages:
   upstream: git://github.com/Yelp/%(project)s
   tags:
     rocky-uc:
-      source-branch: 92c7f71f864ecc2a1e747b1a48be69c737ec97a4
     rocky:
     queens:
       source-branch: 92c7f71f864ecc2a1e747b1a48be69c737ec97a4
@@ -1799,7 +1755,6 @@ packages:
   upstream: git://github.com/derekhiggins/%(project)s
   tags:
     rocky-uc:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     rocky:
     queens:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
@@ -1823,7 +1778,6 @@ packages:
   upstream: git://github.com/deric/%(project)s
   tags:
     rocky-uc:
-      source-branch: 88b4cea04ddd13da7648022185212e19320c5fa9
     rocky:
     queens:
       source-branch: 88b4cea04ddd13da7648022185212e19320c5fa9
@@ -1847,7 +1801,6 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     rocky-uc:
-      source-branch: ad513009a503842bece35953943ce12a0e1503ee
     rocky:
     queens:
       source-branch: ad513009a503842bece35953943ce12a0e1503ee
@@ -1871,7 +1824,6 @@ packages:
   upstream: git://github.com/duritong/%(project)s
   tags:
     rocky-uc:
-      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
     rocky:
     queens:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
@@ -1895,6 +1847,7 @@ packages:
   upstream: git://github.com/camptocamp/%(project)s
   tags:
     rocky-uc:
+      # We need this pin https://bugs.launchpad.net/tripleo/+bug/1755211
       source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
     rocky:
     queens:
@@ -1931,7 +1884,6 @@ packages:
   upstream: git://github.com/electrical/%(project)s
   tags:
     rocky-uc:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
     rocky:
     queens:
       source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
@@ -6102,7 +6054,6 @@ packages:
   upstream: https://github.com/kemra102/puppet-auditd
   tags:
     rocky-uc:
-      source-branch: c0c1ccb971dba3c085099ac3b012523f6c6b52a9
     rocky:
     queens:
       source-branch: c0c1ccb971dba3c085099ac3b012523f6c6b52a9
@@ -6409,7 +6360,6 @@ packages:
   upstream: https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale
   tags:
     rocky-uc:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
     rocky:
     queens:
       source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
@@ -6543,7 +6493,6 @@ packages:
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
     rocky-uc:
-      source-branch: 10888dbf9c5b99fd11cd495ea9e46a232bf858a8
     rocky:
     queens:
       source-branch: 10888dbf9c5b99fd11cd495ea9e46a232bf858a8
