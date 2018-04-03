@@ -1190,6 +1190,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-crypto-2.6.1-15.el7
     cloud7-openstack-common-release: python-crypto-2.6.1-15.el7
+    cloud7-openstack-queens-testing: python-crypto-2.6.1-15.el7
+    cloud7-openstack-rocky-testing: python-crypto-2.6.1-15.el7
 - project: python-matplotlib
   name: python-matplotlib
   conf: rdo-dependency
@@ -3013,6 +3015,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: ansible-2.3.2.0-2.el7
     cloud7-openstack-common-release: ansible-2.3.0.0-3.el7
+    cloud7-openstack-queens-testing: ansible-2.4.3.0-1.el7
+    cloud7-openstack-rocky-testing: ansible-2.4.3.0-1.el7
 - project: python-ipaddress
   name: python-ipaddress
   conf: fedora-dependency
