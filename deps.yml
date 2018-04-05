@@ -4573,3 +4573,8 @@ packages:
     cloud7-openstack-queens-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
     cloud7-openstack-queens-release: python-backports-ssl_match_hostname-3.5.0.1-1.el7
     cloud7-openstack-rocky-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-sphinxcontrib-apidoc-0.2.1-6.el7
+  name: python-sphinxcontrib-apidoc
+  conf: fedora-dependency
