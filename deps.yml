@@ -599,6 +599,7 @@ packages:
     cloud7-openstack-queens-testing: python-pysaml2-3.0.2-2.el7
     cloud7-openstack-queens-release: python-pysaml2-3.0.2-2.el7
     cloud7-openstack-rocky-testing: python-pysaml2-3.0.2-2.el7
+    cloud7-openstack-rocky-candidate: python-pysaml2-4.5.0-1.el7
 - project: nagios-plugins
   name: nagios-plugins
   conf: fedora-dependency
@@ -4252,6 +4253,7 @@ packages:
     cloud7-openstack-queens-testing: python-ryu-4.15-1.el7
     cloud7-openstack-queens-release: python-ryu-4.15-1.el7
     cloud7-openstack-rocky-testing: python-ryu-4.15-1.el7
+    cloud7-openstack-rocky-candidate: python-ryu-4.24-1.el7
   maintainers:
   - skaplons@redhat.com
 - project: python-XStatic-Angular
