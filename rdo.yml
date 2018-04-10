@@ -4968,6 +4968,10 @@ packages:
 - project: networking-cisco
   conf: rpmfactory-lib
   tags:
+    queens:
+      source-branch: 6.1.0
+    pike:
+      source-branch: 6.1.0
     ocata:
       source-branch: 5.5.2
     newton:
