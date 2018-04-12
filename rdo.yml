@@ -6034,7 +6034,9 @@ packages:
   upstream: git://git.openstack.org/openstack/python-%(project)s
   tags:
     rocky-uc:
+      source-branch: 1.1.4
     rocky:
+      source-branch: 1.1.4
     queens:
       source-branch: 1.1.4
     pike:
