@@ -4579,3 +4579,13 @@ packages:
     cloud7-openstack-rocky-candidate: python-sphinxcontrib-apidoc-0.2.1-6.el7
   name: python-sphinxcontrib-apidoc
   conf: fedora-dependency
+- project: xapian-core
+  buildsys-tags:
+    cloud7-openstack-rocky-el7-build: xapian-core-1.2.22-1.el7
+  name: xapian-core
+  conf: fedora-dependency
+- project: xapian-bindings
+  buildsys-tags:
+    cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
+  name: xapian-bindings
+  conf: fedora-dependency
