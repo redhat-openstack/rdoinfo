@@ -1439,6 +1439,7 @@ packages:
     cloud7-openstack-queens-testing: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-utils-0.31.3-2.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -4327,13 +4328,14 @@ packages:
     cloud7-openstack-queens-release: python-icalendar-3.11.5-1.el7
 - project: python-netmiko
   name: python-netmiko
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-common-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
     cloud7-openstack-queens-release: python-netmiko-1.4.1-1.el7
     cloud7-openstack-rocky-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-rocky-candidate: python-netmiko-2.1.0-1.el7
 - project: python-scp
   name: python-scp
   conf: rdo-dependency
