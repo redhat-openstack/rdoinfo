@@ -2193,7 +2193,7 @@ packages:
     cloud7-openstack-rocky-testing: python-characteristic-14.3.0-4.el7
 - project: python-sqlalchemy
   name: python-sqlalchemy
-  conf: rdo-dependency
+  conf: fedora-dependency
   maintainers:
   - mbayer@redhat.com
   buildsys-tags:
@@ -2205,6 +2205,7 @@ packages:
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-1.2.2-2.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
