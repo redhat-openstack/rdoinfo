@@ -2238,7 +2238,6 @@ packages:
 - project: neutron-lbaas
   conf: rpmfactory-core
   maintainers:
-  - ihrachys@redhat.com
   - majopela@redhat.com
   - jlibosva@redhat.com
   - nmagnezi@redhat.com
@@ -2272,7 +2271,6 @@ packages:
 - project: designate
   conf: rpmfactory-core
   maintainers:
-  - ihrachys@redhat.com
   - majopela@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-designate-3.0.1-1.el7
@@ -2318,7 +2316,6 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - nmagnezi@redhat.com
-  - ihrachys@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-octavia-0.9.2-1.el7
     cloud7-openstack-newton-release: openstack-octavia-0.9.2-1.el7
@@ -2337,7 +2334,6 @@ packages:
     queens:
   maintainers:
   - nmagnezi@redhat.com
-  - ihrachys@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-octavia-ui-1.0.1-1.el7
     cloud7-openstack-queens-release: openstack-octavia-ui-1.0.0-1.el7
@@ -2350,7 +2346,6 @@ packages:
     queens:
       source-branch: 1.4.0
   maintainers:
-  - ihrachys@redhat.com
   - nmagnezi@redhat.com
   - cgoncalves@redhat.com
   buildsys-tags:
@@ -2365,7 +2360,6 @@ packages:
     queens:
   maintainers:
   - nmagnezi@redhat.com
-  - ihrachys@redhat.com
   - cgoncalves@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
