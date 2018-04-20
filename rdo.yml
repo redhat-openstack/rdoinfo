@@ -2146,7 +2146,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-ironic-9.1.4-1.el7
     cloud7-openstack-pike-release: openstack-ironic-9.1.4-1.el7
     cloud7-openstack-queens-testing: openstack-ironic-10.1.2-1.el7
-    cloud7-openstack-queens-release: openstack-ironic-10.1.1-1.el7
+    cloud7-openstack-queens-release: openstack-ironic-10.1.2-1.el7
 - project: neutron
   tags:
     rocky-uc:
@@ -2282,7 +2282,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-designate-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-designate-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-designate-6.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-designate-6.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-designate-6.0.1-1.el7
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
@@ -2327,7 +2327,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-octavia-1.0.2-1.el7
     cloud7-openstack-pike-release: openstack-octavia-1.0.2-1.el7
     cloud7-openstack-queens-testing: openstack-octavia-2.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-octavia-2.0.0-2.el7
+    cloud7-openstack-queens-release: openstack-octavia-2.0.1-1.el7
 - project: octavia-dashboard
   name: openstack-octavia-ui
   conf: rpmfactory-core
@@ -2340,7 +2340,7 @@ packages:
   - ihrachys@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-octavia-ui-1.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-octavia-ui-1.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-octavia-ui-1.0.1-1.el7
 - project: octaviaclient
   conf: rpmfactory-client
   tags:
@@ -2369,7 +2369,7 @@ packages:
   - cgoncalves@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
-    cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.1.019e4ebgit.el7
+    cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
 - project: watcher
   conf: rpmfactory-core
   tags:
@@ -6245,7 +6245,7 @@ packages:
     cloud7-openstack-pike-testing: python-paunch-1.5.5-1.el7
     cloud7-openstack-pike-release: python-paunch-1.5.5-1.el7
     cloud7-openstack-queens-testing: python-paunch-2.5.0-1.el7
-    cloud7-openstack-queens-release: python-paunch-2.4.0-1.el7
+    cloud7-openstack-queens-release: python-paunch-2.5.0-1.el7
 - project: scciclient
   tags:
     rocky-uc:
