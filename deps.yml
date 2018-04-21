@@ -4590,3 +4590,8 @@ packages:
     cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
   name: xapian-bindings
   conf: fedora-dependency
+- project: jira
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-jira-1.0.14-1.el7
+  name: python-jira
+  conf: fedora-dependency
