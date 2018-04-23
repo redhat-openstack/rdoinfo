@@ -4166,12 +4166,12 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-ui-deps-3-4.el7
     cloud7-openstack-pike-testing: openstack-tripleo-ui-deps-7-6.el7
     cloud7-openstack-queens-testing: openstack-tripleo-ui-deps-8-6.el7
+    cloud7-openstack-rocky-el7-build: openstack-tripleo-ui-deps-9-1.el7
     version-locked:
     - cloud7-openstack-newton-release
     - cloud7-openstack-ocata-release
     - cloud7-openstack-pike-release
     - cloud7-openstack-queens-release
-    cloud7-openstack-rocky-el7-build: openstack-tripleo-ui-deps-8-6.el7
 - project: python-tosca-parser
   name: python-tosca-parser
   conf: fedora-dependency
