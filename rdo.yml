@@ -6790,3 +6790,10 @@ packages:
     cloud7-openstack-queens-release: openstack-designate-ui-6.0.0-1.el7
     cloud7-openstack-pike-testing: openstack-designate-ui-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-designate-ui-5.0.1-1.el7
+- project: ansible-role-container-registry
+  conf: rpmfactory-lib
+  name: ansible-role-container-registry
+  tags:
+    under-review:
+  maintainers:
+  - emilien@redhat.com
