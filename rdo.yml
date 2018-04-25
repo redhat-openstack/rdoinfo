@@ -2209,6 +2209,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: a79ab2c2c03a886f4a7fe72447a314850d1308bc
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
@@ -2290,6 +2291,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 5be2abbe6febdc60e4aaec1e3ff322e8152420e6
     pike:
       source-branch: 0.3.0
     ocata:
@@ -2363,6 +2365,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 51e91b4dfe9bed364912034b7f8a51528b46fd84
   maintainers:
   - nmagnezi@redhat.com
   - ihrachys@redhat.com
@@ -2886,6 +2889,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: f5c9ea4dc83a6d3771a70c8f91b81ddbea00231d
   maintainers:
   - mkopec@redhat.com
   buildsys-tags:
@@ -5678,6 +5682,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: a23f4074fd458b74e9de1a583b7812e1ef855bce
     pike:
     ocata:
       source-branch: 86ac4f82ce7b01d2d841e633f99ff6599df54d06
@@ -5909,6 +5914,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 9ffb185ea061fb5f6379b02513ba6c3ab459ae4c
   maintainers:
   - rnoriega@redhat.com
   buildsys-tags:
@@ -6200,6 +6206,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 22a7992338440190548ebf10b2a56f1f91dc5e99
     pike:
   conf: rpmfactory-tempest-plugin
   maintainers:
@@ -6337,6 +6344,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 564670bead8da7669a2f1c82d0dd3cf41b75fd5b
     pike:
   buildsys-tags:
     cloud7-openstack-pike-testing: python-keystone-tests-tempest-0.0.1-0.1.fe269f2git.el7
@@ -6415,6 +6423,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 5ddcc7eefaefb4ef178081ec4838e8f450c6c1dd
     pike:
   maintainers:
   - alee@redhat.com
@@ -6430,6 +6439,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 604448cdcd01e9d759726f10831da4ad5f607ac3
   buildsys-tags:
     cloud7-openstack-queens-testing: python-vmware-nsx-tests-tempest-0.0.1-0.1.2e3185agit.el7
     cloud7-openstack-queens-release: python-vmware-nsx-tests-tempest-0.0.1-0.1.2e3185agit.el7
@@ -6459,6 +6469,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: f453e4f7e532547b501df266eaf1ebfd4924d248
   buildsys-tags:
     cloud7-openstack-queens-testing: python-watcher-tests-tempest-0.0.1-0.1.168c024git.el7
     cloud7-openstack-queens-release: python-watcher-tests-tempest-0.0.1-0.1.168c024git.el7
@@ -6469,6 +6480,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 59d7ba68345a55cd7c6879b623177ebdc39b0414
   maintainers:
   - alee@redhat.com
   - panbalag@redhat.com
@@ -6527,6 +6539,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: f6c761d2138824849ca3036e49210e7649978ebb
   maintainers:
   - therve@redhat.com
   buildsys-tags:
@@ -6567,6 +6580,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 07a6bd4a5b8dc2e94d2b7f4fb74b472b3a4f562c
   maintainers:
   - ramishra@redhat.com
   buildsys-tags:
@@ -6579,6 +6593,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: c8de2b6f9ffd974618f3e605b6625d12b6ebd844
   maintainers:
   - ykarel@redhat.com
   buildsys-tags:
@@ -6615,6 +6630,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 530bee8d11b1cc27bb677a30203f3127042c04e8
   maintainers:
   - dougal@redhat.com
   buildsys-tags:
@@ -6627,6 +6643,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 89909a6b2ffdb91545a6564b22c3fd3e3601e8d1
   buildsys-tags:
     cloud7-openstack-queens-testing: python-tripleo-common-tests-tempest-0.0.1-0.1.0eb31c3git.el7
     cloud7-openstack-queens-release: python-tripleo-common-tests-tempest-0.0.1-0.1.0eb31c3git.el7
@@ -6637,6 +6654,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 7f35fc0f5e9836502f0b92fba5bd65cd93d7047d
   buildsys-tags:
     cloud7-openstack-queens-testing: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
     cloud7-openstack-queens-release: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
@@ -6647,6 +6665,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: d1ff331528d17a0c112ea183e1db4a14cb9e5957
   maintainers:
   - ykarel@redhat.com
   buildsys-tags:
@@ -6659,6 +6678,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 3b51d5479ab46f3303d420496bc5ed859bfc3052
   maintainers:
   - eyal.bar-ilan@nokia.com
   buildsys-tags:
@@ -6671,6 +6691,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: afc68dfc120bda7e131126fb2683dfdab2d26b9e
   buildsys-tags:
     cloud7-openstack-queens-testing: python-trove-tests-tempest-0.0.1-0.1.ac887d2git.el7
     cloud7-openstack-queens-release: python-trove-tests-tempest-0.0.1-0.1.ac887d2git.el7
@@ -6681,6 +6702,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 11277a8bee2b0ee0688ed32cc0e836872c24ee4b
   buildsys-tags:
     cloud7-openstack-queens-testing: python-telemetry-tests-tempest-0.0.1-0.1.dbd432egit.el7
     cloud7-openstack-queens-release: python-telemetry-tests-tempest-0.0.1-0.1.dbd432egit.el7
@@ -6691,6 +6713,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: aafbdf87047f1eeabd9566db50765a72d6f18be1
   maintainers:
   - eharney@redhat.com
   buildsys-tags:
@@ -6703,6 +6726,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: b50f6e0e83b6a73097a0946114f03aa18567617f
   maintainers:
   - divius.inside@gmail.com
   buildsys-tags:
@@ -6715,6 +6739,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: ba836d429f38ce0831cf336feb2a620fdcf3efcb
   buildsys-tags:
     cloud7-openstack-queens-testing: python-ec2api-tests-tempest-0.0.1-0.1.16c5d96git.el7
     cloud7-openstack-queens-release: python-ec2api-tests-tempest-0.0.1-0.1.16c5d96git.el7
@@ -6725,6 +6750,7 @@ packages:
     rocky-uc:
     rocky:
     queens:
+      source-branch: 2eb5269e6ce81807b261ceb41c6a2e28bfd01d37
   buildsys-tags:
     cloud7-openstack-queens-testing: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
     cloud7-openstack-queens-release: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
