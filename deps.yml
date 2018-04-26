@@ -628,7 +628,7 @@ packages:
     cloud7-openstack-pike-release: python-gabbi-1.33.0-1.el7
     cloud7-openstack-queens-testing: python-gabbi-1.33.0-1.el7
     cloud7-openstack-queens-release: python-gabbi-1.33.0-1.el7
-    cloud7-openstack-rocky-testing: python-gabbi-1.33.0-1.el7
+    cloud7-openstack-rocky-testing: python-gabbi-1.42.1-2.el7
 - project: python-ldap3
   name: python-ldap3
   conf: rdo-dependency
@@ -1651,7 +1651,7 @@ packages:
     cloud7-openstack-common-release: python-trollius-2.0-3.el7
     cloud7-openstack-queens-testing: python-trollius-2.0-3.el7
     cloud7-openstack-queens-release: python-trollius-2.0-3.el7
-    cloud7-openstack-rocky-testing: python-trollius-2.0-3.el7
+    cloud7-openstack-rocky-testing: python-trollius-2.1-7.el7
     cloud7-openstack-rocky-candidate: python-trollius-2.1-7.el7
 - project: python-jsonpath-rw-ext
   name: python-jsonpath-rw-ext
@@ -2205,7 +2205,7 @@ packages:
     cloud7-openstack-queens-testing: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
-    cloud7-openstack-rocky-testing: python-sqlalchemy-1.2.2-2.el7
+    cloud7-openstack-rocky-testing: python-sqlalchemy-1.2.5-1.el7
     cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
 - project: qpid-qmf
   name: qpid-qmf
@@ -3510,7 +3510,7 @@ packages:
     cloud7-openstack-pike-release: python-cryptography-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-cryptography-2.1.4-1.el7
     cloud7-openstack-queens-release: python-cryptography-2.1.4-1.el7
-    cloud7-openstack-rocky-testing: python-cryptography-2.1.4-1.el7
+    cloud7-openstack-rocky-testing: python-cryptography-2.1.4-2.el7
 - project: redis
   name: redis
   conf: fedora-dependency
@@ -4082,7 +4082,7 @@ packages:
     cloud7-openstack-queens-testing: python-openstackdocstheme-1.18.1-1.el7
     cloud7-openstack-queens-candidate: python-openstackdocstheme-1.18.1-1.el7
     cloud7-openstack-queens-release: python-openstackdocstheme-1.18.1-1.el7
-    cloud7-openstack-rocky-el7-build: python-openstackdocstheme-1.18.1-1.el7
+    cloud7-openstack-rocky-el7-build: python-openstackdocstheme-1.20.1-1.el7
     cloud7-openstack-rocky-candidate: python-openstackdocstheme-1.20.1-1.el7
 - project: python-pymongo
   name: python-pymongo
