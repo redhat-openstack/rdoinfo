@@ -4609,3 +4609,8 @@ packages:
     cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
   name: xapian-bindings
   conf: fedora-dependency
+- project: skydive-client
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-skydive-client-0.4.5-1.el7
+  name: python-skydive-client
+  conf: fedora-dependency
