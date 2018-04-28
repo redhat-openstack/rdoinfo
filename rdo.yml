@@ -575,7 +575,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.12-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.12-1.el7
     cloud7-openstack-queens-testing: puppet-tripleo-8.3.2-1.el7
-    cloud7-openstack-queens-release: puppet-tripleo-8.3.1-1.el7
+    cloud7-openstack-queens-release: puppet-tripleo-8.3.2-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -1945,7 +1945,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-glance-15.0.1-1.el7
     cloud7-openstack-pike-release: openstack-glance-15.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-glance-16.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-glance-16.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-glance-16.0.1-1.el7
 - project: glance_store
   conf: rpmfactory-core
   name: python-glance-store
@@ -2027,7 +2027,7 @@ packages:
   - mabaakou@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: gnocchi-4.2.3-1.el7
-    cloud7-openstack-queens-release: gnocchi-4.2.1-1.el7
+    cloud7-openstack-queens-release: gnocchi-4.2.3-1.el7
 - project: gnocchi-legacy
   name: openstack-gnocchi
   conf: rpmfactory-core
@@ -2094,7 +2094,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-panko-3.1.0-1.el7
     cloud7-openstack-pike-release: openstack-panko-3.1.0-1.el7
     cloud7-openstack-queens-testing: openstack-panko-4.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-panko-4.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-panko-4.0.1-1.el7
 - project: heat
   conf: rpmfactory-core
   maintainers:
@@ -2125,7 +2125,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-cinder-11.1.0-1.el7
     cloud7-openstack-pike-release: openstack-cinder-11.1.0-1.el7
     cloud7-openstack-queens-testing: openstack-cinder-12.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-cinder-12.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-cinder-12.0.1-1.el7
 - project: ironic
   tags:
     rocky-uc:
@@ -2584,7 +2584,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.12-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.12-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.2-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.1-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.2-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -2629,7 +2629,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.5-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-image-elements-7.0.5-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-image-elements-8.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.1-1.el7
 - project: tripleo-validations
   tags:
     rocky-uc:
@@ -2649,7 +2649,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.9-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.9-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-validations-8.4.1-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.1-1.el7
 - project: instack
   tags:
     rocky-uc:
@@ -2693,7 +2693,7 @@ packages:
     cloud7-openstack-pike-testing: instack-undercloud-7.4.11-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.11-1.el7
     cloud7-openstack-queens-testing: instack-undercloud-8.4.1-1.el7
-    cloud7-openstack-queens-release: instack-undercloud-8.4.0-1.el7
+    cloud7-openstack-queens-release: instack-undercloud-8.4.1-1.el7
 - project: heat-templates
   tags:
     newton:
@@ -2797,7 +2797,7 @@ packages:
     cloud7-openstack-pike-testing: os-net-config-7.3.5-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.5-1.el7
     cloud7-openstack-queens-testing: os-net-config-8.4.1-1.el7
-    cloud7-openstack-queens-release: os-net-config-8.4.0-1.el7
+    cloud7-openstack-queens-release: os-net-config-8.4.1-1.el7
 - project: os-refresh-config
   tags:
     rocky-uc:
@@ -2938,7 +2938,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-manila-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-manila-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-manila-6.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-manila-6.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-manila-6.0.1-1.el7
 - project: zaqar
   tags:
     rocky-uc:
@@ -2960,7 +2960,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-zaqar-5.0.0-1.el7
     cloud7-openstack-pike-release: openstack-zaqar-5.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-zaqar-6.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-zaqar-6.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-zaqar-6.0.1-1.el7
 - project: ironic-inspector
   tags:
     rocky-uc:
@@ -3028,7 +3028,7 @@ packages:
     cloud7-openstack-pike-testing: python-ironic-lib-2.10.1-1.el7
     cloud7-openstack-pike-release: python-ironic-lib-2.10.1-1.el7
     cloud7-openstack-queens-testing: python-ironic-lib-2.12.1-1.el7
-    cloud7-openstack-queens-release: python-ironic-lib-2.12.0-1.el7
+    cloud7-openstack-queens-release: python-ironic-lib-2.12.1-1.el7
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
@@ -3167,7 +3167,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-manila-ui-2.10.2-1.el7
     cloud7-openstack-pike-release: openstack-manila-ui-2.10.2-1.el7
     cloud7-openstack-queens-testing: openstack-manila-ui-2.13.0-2.el7
-    cloud7-openstack-queens-release: openstack-manila-ui-2.13.0-1.el7
+    cloud7-openstack-queens-release: openstack-manila-ui-2.13.0-2.el7
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
@@ -3302,7 +3302,7 @@ packages:
     cloud7-openstack-pike-testing: python-glanceclient-2.8.0-1.el7
     cloud7-openstack-pike-release: python-glanceclient-2.8.0-1.el7
     cloud7-openstack-queens-testing: python-glanceclient-2.10.0-1.el7
-    cloud7-openstack-queens-release: python-glanceclient-2.9.1-1.el7
+    cloud7-openstack-queens-release: python-glanceclient-2.10.0-1.el7
 - project: novaclient
   conf: rpmfactory-client
   tags:
@@ -3774,7 +3774,7 @@ packages:
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.10-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.10-1.el7
     cloud7-openstack-queens-testing: python-tripleoclient-9.2.1-1.el7
-    cloud7-openstack-queens-release: python-tripleoclient-9.2.0-1.el7
+    cloud7-openstack-queens-release: python-tripleoclient-9.2.1-1.el7
 - project: zaqarclient
   tags:
     rocky-uc:
@@ -4748,7 +4748,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.12-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.12-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.1-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.1-1.el7
 - project: tripleo-repos
   tags:
     rocky-uc:
@@ -5322,7 +5322,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-mistral-5.2.2-1.el7
     cloud7-openstack-pike-release: openstack-mistral-5.2.2-1.el7
     cloud7-openstack-queens-testing: openstack-mistral-6.0.2-1.el7
-    cloud7-openstack-queens-release: openstack-mistral-6.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-mistral-6.0.2-1.el7
 - project: mistral-lib
   tags:
     rocky-uc:
@@ -6143,7 +6143,7 @@ packages:
     cloud7-openstack-pike-testing: python-sushy-1.1.0-1.el7
     cloud7-openstack-pike-release: python-sushy-1.1.0-1.el7
     cloud7-openstack-queens-testing: python-sushy-1.3.2-1.el7
-    cloud7-openstack-queens-release: python-sushy-1.3.1-1.el7
+    cloud7-openstack-queens-release: python-sushy-1.3.2-1.el7
 - project: collectd-ceilometer-plugin
   name: collectd-ceilometer-plugin
   conf: rpmfactory-lib
@@ -6204,7 +6204,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-kuryr-kubernetes-0.2.0-1.el7
     cloud7-openstack-pike-release: openstack-kuryr-kubernetes-0.2.0-1.el7
     cloud7-openstack-queens-testing: openstack-kuryr-kubernetes-0.4.2-1.el7
-    cloud7-openstack-queens-release: openstack-kuryr-kubernetes-0.4.1-1.el7
+    cloud7-openstack-queens-release: openstack-kuryr-kubernetes-0.4.2-1.el7
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
   tags:
