@@ -2178,7 +2178,7 @@ packages:
   name: python-neutron-lib
   tags:
     rocky-uc:
-      source-branch: 1.13.0
+      source-branch: 1.14.0
     rocky:
     queens:
       source-branch: 1.13.0
@@ -2905,7 +2905,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     rocky-uc:
-      source-branch: 0.3.2
+      source-branch: 0.3.3
     rocky:
     queens:
       source-branch: 0.3.1
@@ -4057,7 +4057,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     rocky-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
     rocky:
     queens:
       source-branch: 5.2.0
@@ -4177,7 +4177,7 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     rocky-uc:
-      source-branch: 4.36.0
+      source-branch: 4.37.0
     rocky:
     queens:
       source-branch: 4.33.0
@@ -4391,7 +4391,7 @@ packages:
 - project: oslo-privsep
   tags:
     rocky-uc:
-      source-branch: 1.28.0
+      source-branch: 1.29.0
     rocky:
     queens:
       source-branch: 1.27.0
@@ -4600,7 +4600,7 @@ packages:
 - project: futurist
   tags:
     rocky-uc:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
     rocky:
     queens:
       source-branch: 1.6.0
