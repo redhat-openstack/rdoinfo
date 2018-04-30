@@ -6565,8 +6565,6 @@ packages:
   name: python-heat-tests-tempest
   tags:
     rocky-uc:
-      # FIXME(ykarel) Revert once we have new version of gabbi
-      source-branch: 07a6bd4a5b8dc2e94d2b7f4fb74b472b3a4f562c
     rocky:
     queens:
   maintainers:
