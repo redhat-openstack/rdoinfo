@@ -4476,7 +4476,7 @@ packages:
     cloud7-openstack-queens-testing: python-webcolors-1.7-4.el7
     cloud7-openstack-queens-release: python-webcolors-1.7-4.el7
     cloud7-openstack-rocky-el7-build: python-webcolors-1.7-4.el7
-- project: stestr
+- project: python-stestr
   name: python-stestr
   conf: fedora-dependency
   buildsys-tags:
@@ -4485,7 +4485,7 @@ packages:
     cloud7-openstack-queens-testing: python-stestr-1.1.0-1.el7
     cloud7-openstack-queens-release: python-stestr-1.1.0-1.el7
     cloud7-openstack-rocky-testing: python-stestr-1.1.0-1.el7
-- project: subunit2sql
+- project: python-subunit2sql
   name: python-subunit2sql
   conf: fedora-dependency
   buildsys-tags:
