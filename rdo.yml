@@ -1522,7 +1522,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-opendaylight-4.1.0-1.3768d5egit.el7
     cloud7-openstack-pike-release: puppet-opendaylight-4.1.0-1.3768d5egit.el7
     cloud7-openstack-queens-testing: puppet-opendaylight-8.1.2-1.38977efgit.el7
-    cloud7-openstack-queens-release: puppet-opendaylight-7.0.0-1.d3b32a4git.el7
+    cloud7-openstack-queens-release: puppet-opendaylight-8.1.2-1.38977efgit.el7
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
@@ -1918,7 +1918,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-nova-16.1.1-1.el7
     cloud7-openstack-pike-release: openstack-nova-16.1.1-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.3-1.el7
-    cloud7-openstack-queens-release: openstack-nova-17.0.2-1.el7
+    cloud7-openstack-queens-release: openstack-nova-17.0.3-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -6204,7 +6204,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-kuryr-kubernetes-0.2.0-1.el7
     cloud7-openstack-pike-release: openstack-kuryr-kubernetes-0.2.0-1.el7
     cloud7-openstack-queens-testing: openstack-kuryr-kubernetes-0.4.3-1.el7
-    cloud7-openstack-queens-release: openstack-kuryr-kubernetes-0.4.2-1.el7
+    cloud7-openstack-queens-release: openstack-kuryr-kubernetes-0.4.3-1.el7
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
   tags:
