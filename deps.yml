@@ -154,6 +154,7 @@ packages:
     cloud7-openstack-queens-testing: python-txaio-2.0.4-3.el7
     cloud7-openstack-queens-release: python-txaio-2.0.4-3.el7
     cloud7-openstack-rocky-testing: python-txaio-2.0.4-3.el7
+    cloud7-openstack-rocky-candidate: python-txaio-2.10.0-1.el7
 - project: python-pint
   name: python-pint
   conf: fedora-dependency
@@ -335,6 +336,7 @@ packages:
     cloud7-openstack-queens-testing: python-psutil-5.2.2-2.el7
     cloud7-openstack-queens-release: python-psutil-5.2.2-2.el7
     cloud7-openstack-rocky-testing: python-psutil-5.2.2-2.el7
+    cloud7-openstack-rocky-candidate: python-psutil-5.4.5-1.el7
 - project: python-pip
   name: python-pip
   conf: fedora-dependency
@@ -610,6 +612,7 @@ packages:
     cloud7-openstack-common-release: python-cassandra-driver-3.7.1-4.el7
     cloud7-openstack-queens-testing: python-cassandra-driver-3.7.1-4.el7
     cloud7-openstack-queens-release: python-cassandra-driver-3.7.1-4.el7
+    cloud7-openstack-rocky-candidate: python-cassandra-driver-3.14.0-1.el7
 - project: python-socketpool
   name: python-socketpool
   conf: fedora-dependency
@@ -639,6 +642,7 @@ packages:
     cloud7-openstack-queens-candidate: python-ldap3-2.4.1-3.el7
     cloud7-openstack-queens-release: python-ldap3-2.4.1-3.el7
     cloud7-openstack-rocky-testing: python-ldap3-2.4.1-3.el7
+    cloud7-openstack-rocky-candidate: python-ldap3-2.5-1.el7
 - project: python-cradox
   name: python-cradox
   conf: fedora-dependency
@@ -779,6 +783,7 @@ packages:
     cloud7-openstack-queens-testing: python-django-1.11.10-1.el7
     cloud7-openstack-queens-release: python-django-1.11.10-1.el7
     cloud7-openstack-rocky-testing: python-django-1.11.10-1.el7
+    cloud7-openstack-rocky-candidate: python-django-1.11.12-1.el7
 - project: python-django-discover-runner
   name: python-django-discover-runner
   conf: fedora-dependency
@@ -811,6 +816,7 @@ packages:
     cloud7-openstack-queens-testing: python-simplejson-3.5.3-5.el7
     cloud7-openstack-queens-release: python-simplejson-3.5.3-5.el7
     cloud7-openstack-rocky-testing: python-simplejson-3.5.3-5.el7
+    cloud7-openstack-rocky-candidate: python-simplejson-3.14.0-1.el7
 - project: python-dateutil
   name: python-dateutil
   conf: rdo-dependency
@@ -1229,6 +1235,7 @@ packages:
     cloud7-openstack-queens-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-queens-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-rocky-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-rocky-candidate: python-autobahn-18.4.1-1.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -1440,6 +1447,7 @@ packages:
     cloud7-openstack-queens-testing: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-utils-0.31.3-2.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.33.2-1.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -1552,6 +1560,7 @@ packages:
     cloud7-openstack-queens-testing: python-pillow-4.0.0-1.el7
     cloud7-openstack-queens-release: python-pillow-4.0.0-1.el7
     cloud7-openstack-rocky-testing: python-pillow-4.0.0-1.el7
+    cloud7-openstack-rocky-candidate: python-pillow-5.1.0-1.el7
 - project: python-termcolor
   name: python-termcolor
   conf: fedora-dependency
@@ -1614,6 +1623,7 @@ packages:
     cloud7-openstack-queens-testing: python-cmd2-0.6.8-8.el7
     cloud7-openstack-queens-release: python-cmd2-0.6.8-8.el7
     cloud7-openstack-rocky-testing: python-cmd2-0.6.8-8.el7
+    cloud7-openstack-rocky-candidate: python-cmd2-0.8.5-1.el7
 - project: python-kubernetes
   name: python-kubernetes
   conf: fedora-dependency
@@ -2206,7 +2216,7 @@ packages:
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-1.2.5-1.el7
-    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.7-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -2313,6 +2323,7 @@ packages:
     cloud7-openstack-pike-release: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-queens-release: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-rocky-testing: python-pyghmi-1.0.22-1.el7
+    cloud7-openstack-rocky-candidate: python-pyghmi-1.0.44-1.el7
 - project: python-nose
   name: python-nose
   conf: fedora-dependency
@@ -2757,6 +2768,7 @@ packages:
     cloud7-openstack-queens-candidate: python-jsonpatch-1.21-1.el7
     cloud7-openstack-queens-release: python-jsonpatch-1.21-1.el7
     cloud7-openstack-rocky-testing: python-jsonpatch-1.21-1.el7
+    cloud7-openstack-rocky-candidate: python-jsonpatch-1.23-1.el7
 - project: python-etcd
   name: python-etcd
   conf: rdo-dependency
@@ -3030,6 +3042,7 @@ packages:
     cloud7-openstack-queens-testing: python-ipaddress-1.0.16-3.el7
     cloud7-openstack-queens-release: python-ipaddress-1.0.16-3.el7
     cloud7-openstack-rocky-testing: python-ipaddress-1.0.16-3.el7
+    cloud7-openstack-rocky-candidate: python-ipaddress-1.0.22-1.el7
 - project: crudini
   name: crudini
   conf: fedora-dependency
@@ -3152,6 +3165,7 @@ packages:
     cloud7-openstack-pike-release: python-dulwich-0.18.4-1.el7
     cloud7-openstack-queens-release: python-dulwich-0.18.4-1.el7
     cloud7-openstack-rocky-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-rocky-candidate: python-dulwich-0.19.2-1.el7
 - project: pyflakes
   name: pyflakes
   conf: fedora-dependency
@@ -3243,6 +3257,7 @@ packages:
     cloud7-openstack-queens-testing: python-deprecation-1.0-3.el7
     cloud7-openstack-queens-release: python-deprecation-1.0-3.el7
     cloud7-openstack-rocky-testing: python-deprecation-1.0-3.el7
+    cloud7-openstack-rocky-candidate: python-deprecation-2.0.2-1.el7
 - project: web-assets
   name: web-assets
   conf: fedora-dependency
@@ -3307,6 +3322,7 @@ packages:
     cloud7-openstack-queens-candidate: python-tenacity-4.8.0-1.el7
     cloud7-openstack-queens-release: python-tenacity-4.8.0-1.el7
     cloud7-openstack-rocky-testing: python-tenacity-4.8.0-1.el7
+    cloud7-openstack-rocky-candidate: python-tenacity-4.11.0-1.el7
 - project: python-tornado
   name: python-tornado
   conf: rdo-dependency
@@ -3413,6 +3429,7 @@ packages:
     cloud7-openstack-queens-testing: python-certifi-2016.9.26-2.el7
     cloud7-openstack-queens-release: python-certifi-2016.9.26-2.el7
     cloud7-openstack-rocky-testing: python-certifi-2016.9.26-2.el7
+    cloud7-openstack-rocky-candidate: python-certifi-2018.4.16-1.el7
 - project: lato-fonts
   name: lato-fonts
   conf: fedora-dependency
@@ -3957,6 +3974,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.8.33-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.9-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4254,6 +4272,7 @@ packages:
     cloud7-openstack-queens-testing: python-docker-2.4.2-1.2.el7
     cloud7-openstack-queens-release: python-docker-2.4.2-1.2.el7
     cloud7-openstack-rocky-testing: python-docker-2.4.2-1.2.el7
+    cloud7-openstack-rocky-candidate: python-docker-3.3.0-1.el7
 - project: corosync
   name: corosync
   conf: rdo-dependency
@@ -4302,6 +4321,7 @@ packages:
     cloud7-openstack-queens-testing: python-exabgp-4.0.1-3.el7
     cloud7-openstack-queens-release: python-exabgp-4.0.1-3.el7
     cloud7-openstack-rocky-testing: python-exabgp-4.0.1-3.el7
+    cloud7-openstack-rocky-candidate: python-exabgp-4.0.6-1.el7
 - project: libtommath
   name: libtommath
   conf: fedora-dependency
@@ -4595,7 +4615,7 @@ packages:
     cloud7-openstack-rocky-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
 - project: sphinxcontrib-apidoc
   buildsys-tags:
-    cloud7-openstack-rocky-candidate: python-sphinxcontrib-apidoc-0.2.1-6.el7
+    cloud7-openstack-rocky-candidate: python-sphinxcontrib-apidoc-0.2.0-1.el7
     cloud7-openstack-rocky-el7-build: python-sphinxcontrib-apidoc-0.2.1-6.el7
   name: python-sphinxcontrib-apidoc
   conf: fedora-dependency
@@ -4608,4 +4628,39 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
   name: xapian-bindings
+  conf: fedora-dependency
+- project: jira
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-jira-1.0.15-1.el7
+  name: python-jira
+  conf: fedora-dependency
+- project: skydive-client
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-skydive-client-0.4.5-1.el7
+  name: python-skydive-client
+  conf: fedora-dependency
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pytest-3.5.1-1.el7
+  name: python-pytest
+  conf: fedora-dependency
+- project: subunit
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-subunit-1.3.0-1.el7
+  name: python-subunit
+  conf: fedora-dependency
+- project: wcwidth
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-wcwidth-0.1.7-6.el7
+  name: python-wcwidth
+  conf: fedora-dependency
+- project: jeepney
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-jeepney-0.3.1-1.el7
+  name: python-jeepney
+  conf: fedora-dependency
+- project: asyncio
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-asyncio-3.4.3-1.el7
+  name: python-asyncio
   conf: fedora-dependency
