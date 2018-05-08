@@ -2177,6 +2177,8 @@ packages:
   conf: rpmfactory-lib
   name: python-neutron-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 1.14.0
     rocky-uc:
       source-branch: 1.14.0
     rocky:
@@ -2352,6 +2354,8 @@ packages:
 - project: octaviaclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 1.4.0
     rocky-uc:
       source-branch: 1.4.0
     rocky:
@@ -2838,6 +2842,8 @@ packages:
     cloud7-openstack-ocata-release: os-cloud-config-6.0.0-1.el7
 - project: os-client-config
   tags:
+    rocky-py3-uc:
+      source-branch: 1.29.0
     rocky-uc:
       source-branch: 1.29.0
     rocky:
@@ -2863,6 +2869,8 @@ packages:
     cloud7-openstack-queens-release: python-os-client-config-1.29.0-1.el7
 - project: os-win
   tags:
+    rocky-py3-uc:
+      source-branch: 4.0.0
     rocky-uc:
       source-branch: 4.0.0
     rocky:
@@ -2904,6 +2912,8 @@ packages:
 - project: os-xenapi
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 0.3.3
     rocky-uc:
       source-branch: 0.3.3
     rocky:
@@ -3260,6 +3270,8 @@ packages:
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 3.16.0
     rocky-uc:
       source-branch: 3.16.0
     rocky:
@@ -3283,6 +3295,8 @@ packages:
 - project: glanceclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 2.11.0
     rocky-uc:
       source-branch: 2.11.0
     rocky:
@@ -3306,6 +3320,8 @@ packages:
 - project: novaclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 10.2.0
     rocky-uc:
       source-branch: 10.2.0
     rocky:
@@ -3329,6 +3345,8 @@ packages:
 - project: swiftclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 3.5.0
     rocky-uc:
       source-branch: 3.5.0
     rocky:
@@ -3376,6 +3394,8 @@ packages:
 - project: heatclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 1.15.0
     rocky-uc:
       source-branch: 1.15.0
     rocky:
@@ -3399,6 +3419,8 @@ packages:
 - project: cinderclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 3.5.0
     rocky-uc:
       source-branch: 3.5.0
     rocky:
@@ -3425,6 +3447,8 @@ packages:
   - divius.inside@gmail.com
   - trown@redhat.com
   tags:
+    rocky-py3-uc:
+      source-branch: 2.3.0
     rocky-uc:
       source-branch: 2.3.0
     rocky:
@@ -3452,6 +3476,8 @@ packages:
   - jruzicka@redhat.com
   - hguemar@fedoraproject.org
   tags:
+    rocky-py3-uc:
+      source-branch: 6.8.0
     rocky-uc:
       source-branch: 6.8.0
     rocky:
@@ -3475,6 +3501,8 @@ packages:
 - project: saharaclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 1.6.0
     rocky-uc:
       source-branch: 1.6.0
     rocky:
@@ -3498,6 +3526,8 @@ packages:
 - project: troveclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 2.15.0
     rocky-uc:
       source-branch: 2.15.0
     rocky:
@@ -3521,6 +3551,8 @@ packages:
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 2.0.0
     rocky-uc:
       source-branch: 2.0.0
     rocky:
@@ -3544,6 +3576,8 @@ packages:
 - project: designateclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 2.9.0
     rocky-uc:
       source-branch: 2.9.0
     rocky:
@@ -3566,6 +3600,8 @@ packages:
     cloud7-openstack-queens-release: python-designateclient-2.9.0-1.el7
 - project: manilaclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.22.0
     rocky-uc:
       source-branch: 1.22.0
     rocky:
@@ -3591,6 +3627,8 @@ packages:
     cloud7-openstack-queens-release: python-manilaclient-1.21.0-1.el7
 - project: barbicanclient
   tags:
+    rocky-py3-uc:
+      source-branch: 4.6.0
     rocky-uc:
       source-branch: 4.6.0
     rocky:
@@ -3618,6 +3656,7 @@ packages:
     cloud7-openstack-queens-release: python-barbicanclient-4.6.0-1.el7
 - project: cloudkittyclient
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -3640,6 +3679,8 @@ packages:
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
+    rocky-py3-uc:
+      source-branch: 5.0.0
     rocky-uc:
       source-branch: 5.0.0
     rocky:
@@ -3689,6 +3730,8 @@ packages:
   maintainers:
   - dougal@redhat.com
   tags:
+    rocky-py3-uc:
+      source-branch: 3.15.0
     rocky-uc:
       source-branch: 3.15.0
     rocky:
@@ -3714,6 +3757,8 @@ packages:
   maintainers:
   - tdecacqu@redhat.com
   tags:
+    rocky-py3-uc:
+      source-branch: 1.27.1
     rocky-uc:
       source-branch: 1.27.1
     rocky:
@@ -3777,6 +3822,8 @@ packages:
     cloud7-openstack-queens-release: python-tripleoclient-9.2.1-1.el7
 - project: zaqarclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.9.0
     rocky-uc:
       source-branch: 1.9.0
     rocky:
@@ -3805,6 +3852,8 @@ packages:
 - project: openstacksdk
   tags:
     version-locked:
+    rocky-py3-uc:
+      source-branch: 0.11.3
     rocky-uc:
       source-branch: 0.11.3
     rocky:
@@ -3828,6 +3877,8 @@ packages:
     cloud7-openstack-queens-release: python-openstacksdk-0.11.3-1.el7
 - project: gnocchiclient
   tags:
+    rocky-py3-uc:
+      source-branch: 7.0.1
     rocky-uc:
       source-branch: 7.0.1
     rocky:
@@ -3854,6 +3905,8 @@ packages:
     cloud7-openstack-queens-release: python-gnocchiclient-7.0.1-1.el7
 - project: aodhclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.0.0
     rocky-uc:
       source-branch: 1.0.0
     rocky:
@@ -3879,6 +3932,8 @@ packages:
     cloud7-openstack-queens-release: python-aodhclient-1.0.0-1.el7
 - project: pankoclient
   tags:
+    rocky-py3-uc:
+      source-branch: 0.4.0
     rocky-uc:
       source-branch: 0.4.0
     rocky:
@@ -3896,6 +3951,8 @@ packages:
     cloud7-openstack-queens-release: python-pankoclient-0.4.0-1.el7
 - project: monascaclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.11.0
     rocky-uc:
       source-branch: 1.11.0
     rocky:
@@ -3918,6 +3975,8 @@ packages:
     cloud7-openstack-queens-release: python-monascaclient-1.10.0-1.el7
 - project: mox3
   tags:
+    rocky-py3-uc:
+      source-branch: 0.25.0
     rocky-uc:
       source-branch: 0.25.0
     rocky:
@@ -3942,6 +4001,8 @@ packages:
     cloud7-openstack-queens-release: python-mox3-0.24.0-1.el7
 - project: oslotest
   tags:
+    rocky-py3-uc:
+      source-branch: 3.4.1
     rocky-uc:
       source-branch: 3.4.1
     rocky:
@@ -3982,6 +4043,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
+    rocky-py3-uc:
+      source-branch: 3.20.0
     rocky-uc:
       source-branch: 3.20.0
     rocky:
@@ -4008,6 +4071,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
+    rocky-py3-uc:
+      source-branch: 6.2.0
     rocky-uc:
       source-branch: 6.2.0
     rocky:
@@ -4030,6 +4095,8 @@ packages:
     cloud7-openstack-queens-release: python-oslo-messaging-5.35.0-1.el7
 - project: oslo-cache
   tags:
+    rocky-py3-uc:
+      source-branch: 1.30.0
     rocky-uc:
       source-branch: 1.30.0
     rocky:
@@ -4056,6 +4123,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
+    rocky-py3-uc:
+      source-branch: 6.2.0
     rocky-uc:
       source-branch: 6.2.0
     rocky:
@@ -4080,6 +4149,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
+    rocky-py3-uc:
+      source-branch: 3.27.0
     rocky-uc:
       source-branch: 3.27.0
     rocky:
@@ -4104,6 +4175,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
+    rocky-py3-uc:
+      source-branch: 5.14.0
     rocky-uc:
       source-branch: 5.14.0
     rocky:
@@ -4128,6 +4201,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
+    rocky-py3-uc:
+      source-branch: 2.25.0
     rocky-uc:
       source-branch: 2.25.0
     rocky:
@@ -4152,6 +4227,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
+    rocky-py3-uc:
+      source-branch: 3.35.0
     rocky-uc:
       source-branch: 3.35.0
     rocky:
@@ -4176,6 +4253,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
+    rocky-py3-uc:
+      source-branch: 4.37.0
     rocky-uc:
       source-branch: 4.37.0
     rocky:
@@ -4200,6 +4279,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
+    rocky-py3-uc:
+      source-branch: 3.36.0
     rocky-uc:
       source-branch: 3.36.0
     rocky:
@@ -4224,6 +4305,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
+    rocky-py3-uc:
+      source-branch: 2.28.0
     rocky-uc:
       source-branch: 2.28.0
     rocky:
@@ -4248,6 +4331,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
+    rocky-py3-uc:
+      source-branch: 2.20.0
     rocky-uc:
       source-branch: 2.20.0
     rocky:
@@ -4272,6 +4357,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
+    rocky-py3-uc:
+      source-branch: 3.38.0
     rocky-uc:
       source-branch: 3.38.0
     rocky:
@@ -4296,6 +4383,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
+    rocky-py3-uc:
+      source-branch: 1.34.0
     rocky-uc:
       source-branch: 1.34.0
     rocky:
@@ -4320,6 +4409,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
+    rocky-py3-uc:
+      source-branch: 1.33.1
     rocky-uc:
       source-branch: 1.33.1
     rocky:
@@ -4342,6 +4433,8 @@ packages:
     cloud7-openstack-queens-release: python-oslo-versionedobjects-1.31.2-1.el7
 - project: oslo-service
   tags:
+    rocky-py3-uc:
+      source-branch: 1.31.1
     rocky-uc:
       source-branch: 1.31.1
     rocky:
@@ -4366,6 +4459,8 @@ packages:
     cloud7-openstack-queens-release: python-oslo-service-1.29.0-1.el7
 - project: oslo-reports
   tags:
+    rocky-py3-uc:
+      source-branch: 1.28.0
     rocky-uc:
       source-branch: 1.28.0
     rocky:
@@ -4390,6 +4485,8 @@ packages:
     cloud7-openstack-queens-release: python-oslo-reports-1.26.0-1.el7
 - project: oslo-privsep
   tags:
+    rocky-py3-uc:
+      source-branch: 1.29.0
     rocky-uc:
       source-branch: 1.29.0
     rocky:
@@ -4415,6 +4512,8 @@ packages:
 - project: ovsdbapp
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 0.10.0
     rocky-uc:
       source-branch: 0.10.0
     rocky:
@@ -4435,6 +4534,8 @@ packages:
 - project: stevedore
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 1.28.0
     rocky-uc:
       source-branch: 1.28.0
     rocky:
@@ -4459,6 +4560,8 @@ packages:
     cloud7-openstack-queens-release: python-stevedore-1.28.0-1.el7
 - project: castellan
   tags:
+    rocky-py3-uc:
+      source-branch: 0.17.0
     rocky-uc:
       source-branch: 0.17.0
     rocky:
@@ -4483,6 +4586,8 @@ packages:
 - project: taskflow
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 3.1.0
     rocky-uc:
       source-branch: 3.1.0
     rocky:
@@ -4506,6 +4611,8 @@ packages:
 - project: pycadf
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 2.7.0
     rocky-uc:
       source-branch: 2.7.0
     rocky:
@@ -4528,6 +4635,8 @@ packages:
     cloud7-openstack-queens-release: python-pycadf-2.7.0-1.el7
 - project: debtcollector
   tags:
+    rocky-py3-uc:
+      source-branch: 1.19.0
     rocky-uc:
       source-branch: 1.19.0
     rocky:
@@ -4551,6 +4660,8 @@ packages:
     cloud7-openstack-queens-release: python-debtcollector-1.19.0-1.el7
 - project: automaton
   tags:
+    rocky-py3-uc:
+      source-branch: 1.14.0
     rocky-uc:
       source-branch: 1.14.0
     rocky:
@@ -4574,6 +4685,8 @@ packages:
     cloud7-openstack-queens-release: python-automaton-1.14.0-1.el7
 - project: cliff
   tags:
+    rocky-py3-uc:
+      source-branch: 2.11.0
     rocky-uc:
       source-branch: 2.11.0
     rocky:
@@ -4599,6 +4712,8 @@ packages:
     cloud7-openstack-queens-release: python-cliff-2.11.0-1.el7
 - project: futurist
   tags:
+    rocky-py3-uc:
+      source-branch: 1.7.0
     rocky-uc:
       source-branch: 1.7.0
     rocky:
@@ -4622,6 +4737,8 @@ packages:
     cloud7-openstack-queens-release: python-futurist-1.6.0-1.el7
 - project: cursive
   tags:
+    rocky-py3-uc:
+      source-branch: 0.2.1
     rocky-uc:
       source-branch: 0.2.1
     rocky:
@@ -4647,6 +4764,8 @@ packages:
     cloud7-openstack-queens-release: python-cursive-0.2.1-1.el7
 - project: hacking
   tags:
+    rocky-py3-uc:
+      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
     rocky-uc:
       source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
     rocky:
@@ -4671,6 +4790,7 @@ packages:
     cloud7-openstack-queens-release: python-hacking-1.0.0-1.865398fgit.el7
 - project: wsme
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -4784,6 +4904,8 @@ packages:
   maintainers:
   - apevec@redhat.com
   tags:
+    rocky-py3-uc:
+      source-branch: 2.0.0
     rocky-uc:
       source-branch: 2.0.0
     rocky:
@@ -4920,6 +5042,7 @@ packages:
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -5048,6 +5171,8 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.0-1.el7
 - project: os-brick
   tags:
+    rocky-py3-uc:
+      source-branch: 2.4.0
     rocky-uc:
       source-branch: 2.4.0
     rocky:
@@ -5103,6 +5228,8 @@ packages:
     cloud7-openstack-queens-release: python-hardware-0.18-1.el7
 - project: keystoneauth1
   tags:
+    rocky-py3-uc:
+      source-branch: 3.5.0
     rocky-uc:
       source-branch: 3.5.0
     rocky:
@@ -5191,6 +5318,8 @@ packages:
     cloud7-openstack-newton-release: python-tempest-lib-1.0.0-1.el7
 - project: os-testr
   tags:
+    rocky-py3-uc:
+      source-branch: 1.0.0
     rocky-uc:
       source-branch: 1.0.0
     rocky:
@@ -5269,6 +5398,8 @@ packages:
     cloud7-openstack-queens-release: python-dracclient-1.3.1-1.el7
 - project: mistralclient
   tags:
+    rocky-py3-uc:
+      source-branch: 3.4.0
     rocky-uc:
       source-branch: 3.4.0
     rocky:
@@ -5325,6 +5456,8 @@ packages:
     cloud7-openstack-queens-release: openstack-mistral-6.0.2-1.el7
 - project: mistral-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 0.5.0
     rocky-uc:
       source-branch: 0.5.0
     rocky:
@@ -5342,6 +5475,8 @@ packages:
     cloud7-openstack-queens-release: python-mistral-lib-0.4.0-1.el7
 - project: requestsexceptions
   tags:
+    rocky-py3-uc:
+      source-branch: 1.4.0
     rocky-uc:
       source-branch: 1.4.0
     rocky:
@@ -5429,6 +5564,8 @@ packages:
     cloud7-openstack-queens-release: openstack-magnum-ui-4.0.0-1.el7
 - project: tooz
   tags:
+    rocky-py3-uc:
+      source-branch: 1.61.0
     rocky-uc:
       source-branch: 1.61.0
     rocky:
@@ -5455,6 +5592,8 @@ packages:
     cloud7-openstack-queens-release: python-tooz-1.60.0-1.el7
 - project: magnumclient
   tags:
+    rocky-py3-uc:
+      source-branch: 2.9.0
     rocky-uc:
       source-branch: 2.9.0
     rocky:
@@ -5483,6 +5622,8 @@ packages:
     cloud7-openstack-queens-release: python-magnumclient-2.9.0-1.el7
 - project: congressclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.9.0
     rocky-uc:
       source-branch: 1.9.0
     rocky:
@@ -5509,6 +5650,8 @@ packages:
     cloud7-openstack-queens-release: python-congressclient-1.9.0-1.el7
 - project: muranoclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.0.1
     rocky-uc:
       source-branch: 1.0.1
     rocky:
@@ -5598,6 +5741,8 @@ packages:
     cloud7-openstack-queens-release: openstack-murano-ui-5.0.0-1.el7
 - project: reno
   tags:
+    rocky-py3-uc:
+      source-branch: 2.8.0
     rocky-uc:
       source-branch: 2.8.0
     rocky:
@@ -5634,6 +5779,8 @@ packages:
     cloud7-openstack-newton-release: python-k8sclient-0.3.0-1.el7
 - project: microversion-parse
   tags:
+    rocky-py3-uc:
+      source-branch: 0.2.1
     rocky-uc:
       source-branch: 0.2.1
     rocky:
@@ -5658,6 +5805,8 @@ packages:
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 1.10.0
     rocky-uc:
       source-branch: 1.10.0
     rocky:
@@ -5705,6 +5854,8 @@ packages:
 - project: os-vif
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 1.10.0
     rocky-uc:
       source-branch: 1.10.0
     rocky:
@@ -5758,6 +5909,7 @@ packages:
   conf: rpmfactory-lib
   name: python-os-faults
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -5799,6 +5951,8 @@ packages:
 - project: virtualbmc
   name: python-virtualbmc
   tags:
+    rocky-py3-uc:
+      source-branch: 1.3.0
     rocky-uc:
       source-branch: 1.3.0
     rocky:
@@ -5967,6 +6121,8 @@ packages:
 - project: tackerclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 0.12.0
     rocky-uc:
       source-branch: 0.12.0
     rocky:
@@ -6026,6 +6182,7 @@ packages:
 - project: shaker
   name: python-shaker
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -6128,6 +6285,8 @@ packages:
 - project: sushy
   name: python-sushy
   tags:
+    rocky-py3-uc:
+      source-branch: 1.3.1
     rocky-uc:
       source-branch: 1.3.1
     rocky:
@@ -6175,6 +6334,7 @@ packages:
   name: python-kuryr-lib
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -6259,6 +6419,7 @@ packages:
     cloud7-openstack-queens-release: python-paunch-2.5.0-1.el7
 - project: scciclient
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -6276,6 +6437,8 @@ packages:
 - project: os-traits
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 0.6.0
     rocky-uc:
       source-branch: 0.6.0
     rocky:
@@ -6324,6 +6487,8 @@ packages:
 - project: glareclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 0.5.2
     rocky-uc:
       source-branch: 0.5.2
     rocky:
@@ -6407,6 +6572,8 @@ packages:
   conf: rpmfactory-client
   upstream: https://github.com/openstack/python-senlinclient
   tags:
+    rocky-py3-uc:
+      source-branch: 1.7.0
     rocky-uc:
       source-branch: 1.7.0
     rocky:
@@ -6527,6 +6694,8 @@ packages:
 - project: os-service-types
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 1.2.0
     rocky-uc:
       source-branch: 1.2.0
     rocky:
@@ -6553,6 +6722,8 @@ packages:
 - project: rsd-lib
   conf: rpmfactory-lib
   tags:
+    rocky-py3-uc:
+      source-branch: 0.2.1
     rocky-uc:
       source-branch: 0.2.1
     rocky:
@@ -6567,6 +6738,8 @@ packages:
 - project: rsdclient
   conf: rpmfactory-client
   tags:
+    rocky-py3-uc:
+      source-branch: 0.1.3
     rocky-uc:
       source-branch: 0.1.3
     rocky:
