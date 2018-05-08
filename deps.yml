@@ -4610,3 +4610,13 @@ packages:
     cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
   name: xapian-bindings
   conf: fedora-dependency
+- project: jaeger-client
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-jaeger-client-3.8.0-1.el7
+  name: python-jaeger-client
+  conf: fedora-dependency
+- project: opentracing
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-opentracing-1.3.0-1.el7
+  name: python-opentracing
+  conf: fedora-dependency
