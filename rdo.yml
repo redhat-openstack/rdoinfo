@@ -4027,6 +4027,14 @@ packages:
     cloud7-openstack-queens-release: python-oslotest-3.2.0-1.el7
 - project: oslo-sphinx
   conf: rpmfactory-lib
+  tags:
+    rocky-py3-uc:
+    rocky-uc:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
   upstream: git://git.openstack.org/openstack/oslosphinx
   buildsys-tags:
     cloud7-openstack-common-testing: python-oslo-sphinx-3.2.0-1.el7
