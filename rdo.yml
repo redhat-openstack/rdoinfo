@@ -2532,6 +2532,8 @@ packages:
     cloud7-openstack-queens-release: diskimage-builder-2.11.0-1.el7
 - project: dib-utils
   tags:
+    rocky-py3-uc:
+      source-branch: 0.0.11
     rocky-uc:
       source-branch: 0.0.11
     rocky:
