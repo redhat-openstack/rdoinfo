@@ -4610,3 +4610,8 @@ packages:
     cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
   name: xapian-bindings
   conf: fedora-dependency
+- project: qinlingclient
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-qinlingclient-1.0.0-1.el7
+  name: python-qinlingclient
+  conf: fedora-dependency
