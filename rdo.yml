@@ -4947,6 +4947,18 @@ packages:
     cloud7-openstack-pike-release: python-osprofiler-1.11.0-1.el7
     cloud7-openstack-queens-testing: python-osprofiler-1.15.2-1.el7
     cloud7-openstack-queens-release: python-osprofiler-1.15.2-1.el7
+- project: networking-ansible
+  conf: rpmfactory-lib
+  name: python-networking-ansible
+  upstream: git://git.openstack.org/openstack/%(project)s
+  maintainers:
+  - dradez@redhat.com
+  - michapma@redhat.com
+  - jlibosva@redhat.com
+  tags:
+    under-review:
+    #rocky:
+    #rocky-uc:
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
