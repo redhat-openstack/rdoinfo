@@ -4325,9 +4325,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     rocky-py3-uc:
-      source-branch: 2.28.0
+      source-branch: 2.29.0
     rocky-uc:
-      source-branch: 2.28.0
+      source-branch: 2.29.0
     rocky:
     queens:
       source-branch: 2.26.0
@@ -4532,9 +4532,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     rocky-py3-uc:
-      source-branch: 0.10.0
+      source-branch: 0.10.1
     rocky-uc:
-      source-branch: 0.10.0
+      source-branch: 0.10.1
     rocky:
     queens:
       source-branch: 0.10.0
@@ -5418,9 +5418,9 @@ packages:
 - project: mistralclient
   tags:
     rocky-py3-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
     rocky-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
     rocky:
     queens:
       source-branch: 3.3.0
