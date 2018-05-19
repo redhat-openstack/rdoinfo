@@ -1917,7 +1917,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-nova-15.1.0-1.el7
     cloud7-openstack-pike-testing: openstack-nova-16.1.2-1.el7
     cloud7-openstack-pike-release: openstack-nova-16.1.1-1.el7
-    cloud7-openstack-queens-testing: openstack-nova-17.0.3-1.el7
+    cloud7-openstack-queens-testing: openstack-nova-17.0.4-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.3-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -2109,7 +2109,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-heat-8.0.6-1.el7
     cloud7-openstack-pike-testing: openstack-heat-9.0.4-1.el7
     cloud7-openstack-pike-release: openstack-heat-9.0.3-2.el7
-    cloud7-openstack-queens-testing: openstack-heat-10.0.0-1.el7
+    cloud7-openstack-queens-testing: openstack-heat-10.0.1-1.el7
     cloud7-openstack-queens-release: openstack-heat-10.0.0-1.el7
 - project: cinder
   conf: rpmfactory-core
@@ -2171,7 +2171,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-neutron-10.0.5-1.el7
     cloud7-openstack-pike-testing: openstack-neutron-11.0.4-1.el7
     cloud7-openstack-pike-release: openstack-neutron-11.0.3-1.el7
-    cloud7-openstack-queens-testing: openstack-neutron-12.0.1-1.el7
+    cloud7-openstack-queens-testing: openstack-neutron-12.0.2-1.el7
     cloud7-openstack-queens-release: openstack-neutron-12.0.1-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -2428,7 +2428,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-vitrage-1.5.2-1.el7
     cloud7-openstack-pike-testing: openstack-vitrage-1.8.2-1.el7
     cloud7-openstack-pike-release: openstack-vitrage-1.8.2-1.el7
-    cloud7-openstack-queens-testing: openstack-vitrage-2.2.0-1.el7
+    cloud7-openstack-queens-testing: openstack-vitrage-2.3.0-1.el7
     cloud7-openstack-queens-release: openstack-vitrage-2.2.0-1.el7
 - project: vitrage-dashboard
   name: openstack-vitrage-ui
@@ -2467,7 +2467,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-sahara-6.0.3-1.el7
     cloud7-openstack-pike-testing: openstack-sahara-7.0.1-1.el7
     cloud7-openstack-pike-release: openstack-sahara-7.0.1-1.el7
-    cloud7-openstack-queens-testing: openstack-sahara-8.0.0-1.el7
+    cloud7-openstack-queens-testing: openstack-sahara-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-sahara-8.0.0-1.el7
 - project: horizon
   conf: rpmfactory-core
@@ -2481,7 +2481,7 @@ packages:
     cloud7-openstack-ocata-release: python-django-horizon-11.0.4-1.el7
     cloud7-openstack-pike-testing: python-django-horizon-12.0.2-1.el7
     cloud7-openstack-pike-release: python-django-horizon-12.0.2-1.el7
-    cloud7-openstack-queens-testing: python-django-horizon-13.0.0-1.el7
+    cloud7-openstack-queens-testing: python-django-horizon-13.0.1-1.el7
     cloud7-openstack-queens-release: python-django-horizon-13.0.0-1.el7
 - project: trove
   conf: rpmfactory-core
@@ -3166,7 +3166,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-magnum-4.1.4-1.el7
     cloud7-openstack-pike-testing: openstack-magnum-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-magnum-5.0.1-1.el7
-    cloud7-openstack-queens-testing: openstack-magnum-6.1.0-1.el7
+    cloud7-openstack-queens-testing: openstack-magnum-6.1.1-1.el7
     cloud7-openstack-queens-release: openstack-magnum-6.1.0-1.el7
 - project: manila-ui
   tags:
@@ -3231,7 +3231,7 @@ packages:
     cloud7-openstack-ocata-release: sahara-image-elements-6.0.3-1.el7
     cloud7-openstack-pike-testing: sahara-image-elements-7.0.1-1.el7
     cloud7-openstack-pike-release: sahara-image-elements-7.0.1-1.el7
-    cloud7-openstack-queens-testing: sahara-image-elements-8.0.0-1.el7
+    cloud7-openstack-queens-testing: sahara-image-elements-8.0.1-1.el7
     cloud7-openstack-queens-release: sahara-image-elements-8.0.0-1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
@@ -3276,7 +3276,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-sahara-ui-6.0.3-1.el7
     cloud7-openstack-pike-testing: openstack-sahara-ui-7.0.1-1.el7
     cloud7-openstack-pike-release: openstack-sahara-ui-7.0.1-1.el7
-    cloud7-openstack-queens-testing: openstack-sahara-ui-8.0.0-1.el7
+    cloud7-openstack-queens-testing: openstack-sahara-ui-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-sahara-ui-8.0.0-1.el7
 - project: keystoneclient
   conf: rpmfactory-client
@@ -4188,7 +4188,7 @@ packages:
     cloud7-openstack-ocata-release: python-oslo-concurrency-3.18.1-1.el7
     cloud7-openstack-pike-testing: python-oslo-concurrency-3.21.1-1.el7
     cloud7-openstack-pike-release: python-oslo-concurrency-3.21.1-1.el7
-    cloud7-openstack-queens-testing: python-oslo-concurrency-3.25.0-1.el7
+    cloud7-openstack-queens-testing: python-oslo-concurrency-3.25.1-1.el7
     cloud7-openstack-queens-release: python-oslo-concurrency-3.25.0-1.el7
 - project: oslo-rootwrap
   conf: rpmfactory-lib
@@ -4292,7 +4292,7 @@ packages:
     cloud7-openstack-ocata-release: python-oslo-db-4.17.1-1.el7
     cloud7-openstack-pike-testing: python-oslo-db-4.25.1-1.el7
     cloud7-openstack-pike-release: python-oslo-db-4.25.1-1.el7
-    cloud7-openstack-queens-testing: python-oslo-db-4.33.0-1.el7
+    cloud7-openstack-queens-testing: python-oslo-db-4.33.1-1.el7
     cloud7-openstack-queens-release: python-oslo-db-4.33.0-1.el7
 - project: oslo-utils
   conf: rpmfactory-lib
@@ -4448,7 +4448,7 @@ packages:
     cloud7-openstack-ocata-release: python-oslo-versionedobjects-1.21.1-1.el7
     cloud7-openstack-pike-testing: python-oslo-versionedobjects-1.26.1-1.el7
     cloud7-openstack-pike-release: python-oslo-versionedobjects-1.26.1-1.el7
-    cloud7-openstack-queens-testing: python-oslo-versionedobjects-1.31.2-1.el7
+    cloud7-openstack-queens-testing: python-oslo-versionedobjects-1.31.3-1.el7
     cloud7-openstack-queens-release: python-oslo-versionedobjects-1.31.2-1.el7
 - project: oslo-service
   tags:
@@ -5115,7 +5115,7 @@ packages:
     cloud7-openstack-ocata-release: python-networking-ovn-2.0.1-1.el7
     cloud7-openstack-pike-testing: python-networking-ovn-3.0.1-1.el7
     cloud7-openstack-pike-release: python-networking-ovn-3.0.1-1.el7
-    cloud7-openstack-queens-testing: python-networking-ovn-4.0.0-1.el7
+    cloud7-openstack-queens-testing: python-networking-ovn-4.0.1-1.el7
     cloud7-openstack-queens-release: python-networking-ovn-4.0.0-1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
@@ -5607,7 +5607,7 @@ packages:
     cloud7-openstack-ocata-release: python-tooz-1.48.2-1.el7
     cloud7-openstack-pike-testing: python-tooz-1.58.0-1.el7
     cloud7-openstack-pike-release: python-tooz-1.58.0-1.el7
-    cloud7-openstack-queens-testing: python-tooz-1.60.0-1.el7
+    cloud7-openstack-queens-testing: python-tooz-1.60.1-1.el7
     cloud7-openstack-queens-release: python-tooz-1.60.0-1.el7
 - project: magnumclient
   tags:
