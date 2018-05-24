@@ -7001,3 +7001,12 @@ packages:
     rocky:
   maintainers:
   - emilien@redhat.com
+- project: ansible-role-tripleo-modify-image
+  conf: rpmfactory-lib
+  name: ansible-role-tripleo-modify-image
+  tags:
+    under-review:
+    # rocky-uc:
+    # rocky:
+  maintainers:
+  - sbaker@redhat.com
