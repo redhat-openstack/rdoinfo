@@ -2317,6 +2317,7 @@ packages:
     cloud7-openstack-pike-release: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-queens-release: python-pyghmi-1.0.22-1.el7
     cloud7-openstack-rocky-testing: python-pyghmi-1.0.22-1.el7
+    cloud7-openstack-rocky-candidate: python-pyghmi-1.1.0-1.el7
 - project: python-nose
   name: python-nose
   conf: fedora-dependency
@@ -3740,6 +3741,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-oauthlib-0.7.2-5.20150520git514cad7.el7
     cloud7-openstack-common-release: python-oauthlib-0.7.2-5.20150520git514cad7.el7
+    cloud7-openstack-rocky-candidate: python-oauthlib-2.1.0-1.el7
 - project: coin-or-Sample
   name: coin-or-Sample
   conf: fedora-dependency
