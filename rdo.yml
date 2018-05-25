@@ -6513,7 +6513,9 @@ packages:
 - project: glare
   conf: rpmfactory-core
   tags:
+    # FIXME(jpena) unlock once WebOb >= 1.8.0 is in the deps repo
     rocky-uc:
+        source-branch: 8ebd33cdc99af43f5250dd3a751a80cd714d0a94
     rocky:
     queens:
     pike:
@@ -6976,6 +6978,8 @@ packages:
   conf: rpmfactory-lib
   name: python-tap-as-a-service
   tags:
+    # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
+    version-locked:
     rocky-uc:
     rocky:
     queens:
