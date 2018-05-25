@@ -7016,10 +7016,11 @@ packages:
 - project: metalsmith
   name: python-metalsmith
   tags:
-    under-review:
-    #rocky-py3-uc:
-    #rocky-uc:
-    #rocky:
+    rocky-py3-uc:
+      source-branch: 0.3.0
+    rocky-uc:
+      source-branch: 0.3.0
+    rocky:
   conf: rpmfactory-lib
   maintainers:
   - divius.inside@gmail.com
