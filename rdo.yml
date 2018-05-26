@@ -6213,7 +6213,7 @@ packages:
   - dradez@redhat.com
   buildsys-tags:
     cloud7-openstack-ocata-testing: openstack-congress-5.0.0-3.el7
-    cloud7-openstack-ocata-release: openstack-congress-5.0.0-2.el7
+    cloud7-openstack-ocata-release: openstack-congress-5.0.0-3.el7
     cloud7-openstack-pike-testing: openstack-congress-6.0.0-1.el7
     cloud7-openstack-pike-release: openstack-congress-6.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-congress-7.0.0-1.el7
@@ -6515,7 +6515,7 @@ packages:
   tags:
     # FIXME(jpena) unlock once WebOb >= 1.8.0 is in the deps repo
     rocky-uc:
-        source-branch: 8ebd33cdc99af43f5250dd3a751a80cd714d0a94
+      source-branch: 8ebd33cdc99af43f5250dd3a751a80cd714d0a94
     rocky:
     queens:
     pike:
