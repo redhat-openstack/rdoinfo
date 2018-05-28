@@ -179,6 +179,7 @@ package-configs:
     - gchamoul@redhat.com
     # Only building puppet modules on newton and later
     tags:
+      rocky-py3-uc:
       rocky-uc:
       rocky:
       queens:
@@ -273,6 +274,7 @@ packages:
 - project: puppet-congress
   conf: rpmfactory-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -301,6 +303,7 @@ packages:
   maintainers:
   - sven@redhat.com
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -431,6 +434,7 @@ packages:
 - project: puppet-octavia
   conf: rpmfactory-puppet
   tags:
+    rockky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -490,6 +494,7 @@ packages:
 - project: puppet-panko
   conf: rpmfactory-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -505,6 +510,7 @@ packages:
 - project: puppet-qdr
   conf: rpmfactory-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -542,6 +548,7 @@ packages:
 - project: puppet-tacker
   conf: rpmfactory-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -590,6 +597,7 @@ packages:
 - project: puppet-vitrage
   conf: rpmfactory-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -622,6 +630,7 @@ packages:
     cloud7-openstack-queens-testing: puppet-ceph-2.5.0-1.el7
     cloud7-openstack-queens-release: puppet-ceph-2.5.0-1.el7
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -643,6 +652,7 @@ packages:
     cloud7-openstack-queens-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
     cloud7-openstack-queens-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -666,6 +676,7 @@ packages:
 - project: puppet-murano
   conf: rpmfactory-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -690,6 +701,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -713,6 +725,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -736,6 +749,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -759,6 +773,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -782,6 +797,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/puppet-corosync
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -805,6 +821,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -828,6 +845,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -851,6 +869,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-mongodb
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -874,6 +893,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -897,6 +917,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -920,6 +941,8 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
   tags:
+    rocky-py3-uc:
+      source-branch: 4.2.x
     rocky-uc:
       source-branch: 4.2.x
     rocky:
@@ -945,6 +968,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-rabbitmq
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -968,6 +992,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -991,6 +1016,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1014,6 +1040,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1037,6 +1064,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1060,6 +1088,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1083,6 +1112,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-cassandra
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1106,6 +1136,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saltedsignal/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1129,6 +1160,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Juniper/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1154,6 +1186,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1177,6 +1210,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/theforeman/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1200,6 +1234,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1223,6 +1258,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1242,6 +1278,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1261,6 +1298,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1284,6 +1322,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1307,6 +1346,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/joshuabaird/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1328,6 +1368,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1351,6 +1392,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1374,6 +1416,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1397,6 +1440,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1430,6 +1474,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1453,6 +1498,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1479,6 +1525,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1502,6 +1549,8 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
   tags:
+    rocky-py3-uc:
+      source-branch: master
     rocky-uc:
       source-branch: master
     rocky:
@@ -1527,6 +1576,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1549,6 +1599,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1572,6 +1623,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1595,6 +1647,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1618,6 +1671,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1641,6 +1695,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1664,6 +1719,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1687,6 +1743,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1710,6 +1767,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1733,6 +1791,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1756,6 +1815,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1779,6 +1839,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1802,6 +1863,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1825,6 +1887,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -1848,6 +1911,9 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
+    rocky-py3-uc:
+      # We need this pin https://bugs.launchpad.net/tripleo/+bug/1755211
+      source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
     rocky-uc:
       # We need this pin https://bugs.launchpad.net/tripleo/+bug/1755211
       source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
@@ -1885,6 +1951,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/electrical/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -6265,6 +6332,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://github.com/kemra102/puppet-auditd
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -6583,6 +6651,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
@@ -6723,6 +6792,7 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
+    rocky-py3-uc:
     rocky-uc:
     rocky:
     queens:
