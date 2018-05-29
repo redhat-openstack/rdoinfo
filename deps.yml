@@ -2065,6 +2065,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-py-1.4.31-3.el7
     cloud7-openstack-common-release: python-py-1.4.31-3.el7
+    cloud7-openstack-rocky-testing: python-py-1.5.3-2.el7
 - project: erlang-rpm-macros
   name: erlang-rpm-macros
   conf: fedora-dependency
@@ -3098,7 +3099,7 @@ packages:
     cloud7-openstack-common-release: pytest-3.0.6-2.el7
     cloud7-openstack-queens-testing: pytest-3.0.6-2.el7
     cloud7-openstack-queens-release: pytest-3.0.6-2.el7
-    cloud7-openstack-rocky-testing: pytest-3.0.6-2.el7
+    cloud7-openstack-rocky-testing: pytest-3.5.1-1.el7
 - project: python-gflags
   name: python-gflags
   conf: fedora-dependency
@@ -4624,4 +4625,19 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-el7-build: xapian-bindings-1.2.22-1.el7
   name: xapian-bindings
+  conf: fedora-dependency
+- project: python-more-itertools
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-more-itertools-4.1.0-1.el7
+  name: python-more-itertools
+  conf: rdo-dependency
+- project: python-attrs
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-attrs-17.4.0-4.el7
+  name: python-attrs
+  conf: rdo-dependency
+- project: python-pluggy
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-pluggy-0.6.0-2.el7
+  name: python-pluggy
   conf: fedora-dependency
