@@ -3860,6 +3860,8 @@ packages:
     cloud7-openstack-queens-release: python-shade-1.27.1-1.el7
 - project: ironic-inspector-client
   tags:
+    rocky-py3-uc:
+      source-branch: 3.2.0
     rocky-uc:
       source-branch: 3.2.0
     rocky:
