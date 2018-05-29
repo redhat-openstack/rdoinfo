@@ -1214,7 +1214,7 @@ packages:
     cloud7-openstack-rocky-testing: coin-or-CoinUtils-2.10.13-1.el7
 - project: python-kombu
   name: python-kombu
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-kombu-3.0.32-1.el7
     cloud7-openstack-common-release: python-kombu-3.0.32-1.el7
@@ -1223,6 +1223,7 @@ packages:
     cloud7-openstack-queens-testing: python-kombu-4.0.2-5.el7
     cloud7-openstack-queens-release: python-kombu-4.0.2-5.el7
     cloud7-openstack-rocky-testing: python-kombu-4.0.2-5.el7
+    cloud7-openstack-rocky-candidate: python-kombu-4.2.0-2.el7
 - project: python-autobahn
   name: python-autobahn
   conf: rdo-dependency
@@ -1490,13 +1491,14 @@ packages:
     cloud7-openstack-rocky-testing: facter-2.4.4-4.el7
 - project: python-jwt
   name: python-jwt
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-jwt-1.4.0-3.el7
     cloud7-openstack-common-release: python-jwt-1.4.0-3.el7
     cloud7-openstack-queens-testing: python-jwt-1.4.0-3.el7
     cloud7-openstack-queens-release: python-jwt-1.4.0-3.el7
     cloud7-openstack-rocky-testing: python-jwt-1.4.0-3.el7
+    cloud7-openstack-rocky-candidate: python-jwt-1.6.1-1.el7
 - project: python-requests-kerberos
   name: python-requests-kerberos
   conf: fedora-dependency
@@ -3061,13 +3063,14 @@ packages:
   - lemenkov@gmail.com
 - project: GitPython
   name: GitPython
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: GitPython-1.0.1-5.el7
     cloud7-openstack-common-release: GitPython-1.0.1-5.el7
     cloud7-openstack-queens-testing: GitPython-1.0.1-5.el7
     cloud7-openstack-queens-release: GitPython-1.0.1-5.el7
     cloud7-openstack-rocky-testing: GitPython-1.0.1-5.el7
+    cloud7-openstack-rocky-candidate: GitPython-2.1.10-1.el7
 - project: python-django-nose
   name: python-django-nose
   conf: fedora-dependency
@@ -3969,6 +3972,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.8.33-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-2.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
