@@ -671,7 +671,7 @@ packages:
     cloud7-openstack-pike-release: python-webob-1.7.2-1.el7
     cloud7-openstack-queens-testing: python-webob-1.7.2-1.el7
     cloud7-openstack-queens-release: python-webob-1.7.2-1.el7
-    cloud7-openstack-rocky-testing: python-webob-1.7.2-1.el7
+    cloud7-openstack-rocky-testing: python-webob-1.8.1-1.el7
     cloud7-openstack-rocky-candidate: python-webob-1.8.1-1.el7
 - project: python-pycxx
   name: python-pycxx
@@ -1223,7 +1223,7 @@ packages:
     cloud7-openstack-pike-release: python-kombu-4.0.2-5.el7
     cloud7-openstack-queens-testing: python-kombu-4.0.2-5.el7
     cloud7-openstack-queens-release: python-kombu-4.0.2-5.el7
-    cloud7-openstack-rocky-testing: python-kombu-4.0.2-5.el7
+    cloud7-openstack-rocky-testing: python-kombu-4.2.0-2.el7
     cloud7-openstack-rocky-candidate: python-kombu-4.2.0-2.el7
 - project: python-autobahn
   name: python-autobahn
@@ -1498,7 +1498,7 @@ packages:
     cloud7-openstack-common-release: python-jwt-1.4.0-3.el7
     cloud7-openstack-queens-testing: python-jwt-1.4.0-3.el7
     cloud7-openstack-queens-release: python-jwt-1.4.0-3.el7
-    cloud7-openstack-rocky-testing: python-jwt-1.4.0-3.el7
+    cloud7-openstack-rocky-testing: python-jwt-1.6.1-1.el7
     cloud7-openstack-rocky-candidate: python-jwt-1.6.1-1.el7
 - project: python-requests-kerberos
   name: python-requests-kerberos
@@ -1630,7 +1630,7 @@ packages:
     cloud7-openstack-queens-candidate: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-queens-release: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-rocky-candidate: python-kubernetes-5.0.0-1.el7
-    cloud7-openstack-rocky-testing: python-kubernetes-4.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-kubernetes-5.0.0-1.el7
 - project: openstack-utils
   name: openstack-utils
   conf: rdo-dependency
@@ -1916,7 +1916,7 @@ packages:
     cloud7-openstack-rocky-el7-build: python-setuptools_scm-1.10.1-1.el7
 - project: python-pecan
   name: python-pecan
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-pecan-1.0.2-2.el7
     cloud7-openstack-common-release: python-pecan-1.0.2-2.el7
@@ -1928,7 +1928,7 @@ packages:
     cloud7-openstack-pike-release: python-pecan-1.1.2-1.el7
     cloud7-openstack-queens-testing: python-pecan-1.1.2-1.el7
     cloud7-openstack-queens-release: python-pecan-1.1.2-1.el7
-    cloud7-openstack-rocky-testing: python-pecan-1.1.2-1.el7
+    cloud7-openstack-rocky-testing: python-pecan-1.3.2-1.el7
 - project: Xaw3d
   name: Xaw3d
   conf: fedora-dependency
@@ -2172,7 +2172,7 @@ packages:
     cloud7-openstack-common-release: python-ldappool-1.0-4.el7
     cloud7-openstack-queens-testing: python-ldappool-1.0-4.el7
     cloud7-openstack-queens-release: python-ldappool-1.0-4.el7
-    cloud7-openstack-rocky-testing: python-ldappool-1.0-4.el7
+    cloud7-openstack-rocky-testing: python-ldappool-2.1.0-1.el7
     cloud7-openstack-rocky-candidate: python-ldappool-2.1.0-1.el7
 - project: python-demjson
   name: python-demjson
@@ -3300,7 +3300,7 @@ packages:
     cloud7-openstack-queens-testing: python-cachetools-2.0.1-3.el7
     cloud7-openstack-queens-candidate: python-cachetools-2.0.1-3.el7
     cloud7-openstack-queens-release: python-cachetools-2.0.1-3.el7
-    cloud7-openstack-rocky-testing: python-cachetools-2.0.1-3.el7
+    cloud7-openstack-rocky-testing: python-cachetools-2.1.0-1.el7
     cloud7-openstack-rocky-candidate: python-cachetools-2.1.0-1.el7
 - project: python-pyglet
   name: python-pyglet
