@@ -145,6 +145,7 @@ packages:
     cloud7-openstack-queens-testing: python-kafka-1.3.1-1.el7
     cloud7-openstack-queens-release: python-kafka-1.3.1-1.el7
     cloud7-openstack-rocky-testing: python-kafka-1.3.1-1.el7
+    cloud7-openstack-rocky-candidate: python-kafka-1.4.3-1.el7
 - project: python-txaio
   name: python-txaio
   conf: fedora-dependency
@@ -838,6 +839,7 @@ packages:
     cloud7-openstack-queens-testing: python-croniter-0.3.19-1.el7
     cloud7-openstack-queens-release: python-croniter-0.3.19-1.el7
     cloud7-openstack-rocky-testing: python-croniter-0.3.19-1.el7
+    cloud7-openstack-rocky-candidate: python-croniter-0.3.23-1.el7
 - project: python-XStatic-Angular-Bootstrap
   name: python-XStatic-Angular-Bootstrap
   conf: fedora-dependency
@@ -1134,6 +1136,7 @@ packages:
     cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-queens-release: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-rocky-testing: python-pyroute2-0.4.21-1.el7
+    cloud7-openstack-rocky-candidate: python-pyroute2-0.5.1-1.el7
 - project: wxGTK
   name: wxGTK
   conf: fedora-dependency
@@ -1233,6 +1236,7 @@ packages:
     cloud7-openstack-queens-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-queens-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-rocky-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-rocky-candidate: python-autobahn-18.5.2-1.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -1498,7 +1502,7 @@ packages:
     cloud7-openstack-queens-testing: python-jwt-1.4.0-3.el7
     cloud7-openstack-queens-release: python-jwt-1.4.0-3.el7
     cloud7-openstack-rocky-testing: python-jwt-1.4.0-3.el7
-    cloud7-openstack-rocky-candidate: python-jwt-1.6.1-1.el7
+    cloud7-openstack-rocky-candidate: python-jwt-1.6.4-1.el7
 - project: python-requests-kerberos
   name: python-requests-kerberos
   conf: fedora-dependency
@@ -1955,6 +1959,7 @@ packages:
     cloud7-openstack-queens-testing: python-websocket-client-0.34.0-3.el7
     cloud7-openstack-queens-release: python-websocket-client-0.34.0-3.el7
     cloud7-openstack-rocky-testing: python-websocket-client-0.34.0-3.el7
+    cloud7-openstack-rocky-candidate: python-websocket-client-0.48.0-1.el7
 - project: python-redis
   name: python-redis
   conf: fedora-dependency
@@ -3505,6 +3510,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-pyasn1-0.1.9-6.el7.1
     cloud7-openstack-common-release: python-pyasn1-0.1.9-6.el7.1
+    cloud7-openstack-rocky-candidate: python-pyasn1-0.4.3-1.el7
 - project: python-asn1crypto
   name: python-asn1crypto
   conf: fedora-dependency
@@ -3973,7 +3979,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.8.33-1.el7
-    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-2.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.28-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4629,6 +4635,7 @@ packages:
 - project: python-more-itertools
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-more-itertools-4.1.0-1.el7
+    cloud7-openstack-rocky-candidate: python-more-itertools-4.2.0-1.el7
   name: python-more-itertools
   conf: rdo-dependency
 - project: python-attrs
@@ -4640,4 +4647,19 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-pluggy-0.6.0-2.el7
   name: python-pluggy
+  conf: fedora-dependency
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pytest-3.6.0-1.el7
+  name: python-pytest
+  conf: fedora-dependency
+- project: ldap
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-ldap-3.1.0-1.el7
+  name: python-ldap
+  conf: fedora-dependency
+- project: atomicwrites
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-atomicwrites-1.1.5-7.el7
+  name: python-atomicwrites
   conf: fedora-dependency
