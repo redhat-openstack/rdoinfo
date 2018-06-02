@@ -2253,9 +2253,9 @@ packages:
   name: python-neutron-lib
   tags:
     rocky-py3-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     rocky-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.0
     rocky:
     queens:
       source-branch: 1.13.0
@@ -4090,9 +4090,9 @@ packages:
 - project: oslotest
   tags:
     rocky-py3-uc:
-      source-branch: 3.4.2
+      source-branch: 3.5.0
     rocky-uc:
-      source-branch: 3.4.2
+      source-branch: 3.5.0
     rocky:
     queens:
       source-branch: 3.2.0
@@ -4168,9 +4168,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     rocky-py3-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
     rocky-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
     rocky:
     queens:
       source-branch: 5.35.0
@@ -4402,9 +4402,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     rocky-py3-uc:
-      source-branch: 2.29.0
+      source-branch: 2.29.1
     rocky-uc:
-      source-branch: 2.29.0
+      source-branch: 2.29.1
     rocky:
     queens:
       source-branch: 2.26.0
@@ -4480,9 +4480,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     rocky-py3-uc:
-      source-branch: 1.35.0
+      source-branch: 1.36.0
     rocky-uc:
-      source-branch: 1.35.0
+      source-branch: 1.36.0
     rocky:
     queens:
       source-branch: 1.33.1
@@ -4609,9 +4609,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     rocky-py3-uc:
-      source-branch: 0.10.1
+      source-branch: 0.11.0
     rocky-uc:
-      source-branch: 0.10.1
+      source-branch: 0.11.0
     rocky:
     queens:
       source-branch: 0.10.1
