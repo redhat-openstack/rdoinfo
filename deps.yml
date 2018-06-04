@@ -938,7 +938,7 @@ packages:
     cloud7-openstack-rocky-testing: python-docopt-0.6.2-4.el7
 - project: python-amqp
   name: python-amqp
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-amqp-1.4.6-1.el7
     cloud7-openstack-common-release: python-amqp-1.4.6-1.el7
@@ -947,6 +947,7 @@ packages:
     cloud7-openstack-queens-testing: python-amqp-2.1.4-1.el7
     cloud7-openstack-queens-release: python-amqp-2.1.4-1.el7
     cloud7-openstack-rocky-testing: python-amqp-2.1.4-1.el7
+    cloud7-openstack-rocky-candidate: python-amqp-2.3.2-1.el7
 - project: python-logutils
   name: python-logutils
   conf: fedora-dependency
@@ -1224,7 +1225,7 @@ packages:
     cloud7-openstack-queens-testing: python-kombu-4.0.2-5.el7
     cloud7-openstack-queens-release: python-kombu-4.0.2-5.el7
     cloud7-openstack-rocky-testing: python-kombu-4.2.0-2.el7
-    cloud7-openstack-rocky-candidate: python-kombu-4.2.0-2.el7
+    cloud7-openstack-rocky-candidate: python-kombu-4.2.1-1.el7
 - project: python-autobahn
   name: python-autobahn
   conf: rdo-dependency
@@ -2215,7 +2216,7 @@ packages:
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-1.2.5-1.el7
-    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.7-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -3862,13 +3863,14 @@ packages:
     cloud7-openstack-rocky-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
 - project: python-daemon
   name: python-daemon
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-daemon-1.6-4.el7
     cloud7-openstack-common-release: python-daemon-1.6-4.el7
     cloud7-openstack-queens-testing: python-daemon-1.6-4.el7
     cloud7-openstack-queens-release: python-daemon-1.6-4.el7
     cloud7-openstack-rocky-testing: python-daemon-1.6-4.el7
+    cloud7-openstack-rocky-candidate: python-daemon-2.1.2-8.el7
 - project: fontawesome-fonts
   name: fontawesome-fonts
   conf: fedora-dependency
