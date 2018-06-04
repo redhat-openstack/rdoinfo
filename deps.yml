@@ -947,6 +947,7 @@ packages:
     cloud7-openstack-queens-testing: python-amqp-2.1.4-1.el7
     cloud7-openstack-queens-release: python-amqp-2.1.4-1.el7
     cloud7-openstack-rocky-testing: python-amqp-2.1.4-1.el7
+    cloud7-openstack-rocky-candidate: python-amqp-2.3.2-1.el7
 - project: python-logutils
   name: python-logutils
   conf: fedora-dependency
@@ -1224,7 +1225,7 @@ packages:
     cloud7-openstack-queens-testing: python-kombu-4.0.2-5.el7
     cloud7-openstack-queens-release: python-kombu-4.0.2-5.el7
     cloud7-openstack-rocky-testing: python-kombu-4.0.2-5.el7
-    cloud7-openstack-rocky-candidate: python-kombu-4.2.0-2.el7
+    cloud7-openstack-rocky-candidate: python-kombu-4.2.1-1.el7
 - project: python-autobahn
   name: python-autobahn
   conf: rdo-dependency
@@ -2215,7 +2216,7 @@ packages:
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-1.2.2-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-1.2.5-1.el7
-    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.5-1.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.8-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -2691,6 +2692,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-lockfile-0.9.1-4.el7
     cloud7-openstack-common-release: python-lockfile-0.9.1-4.el7
+    cloud7-openstack-rocky-candidate: python-lockfile-0.12.2-1.el7
 - project: python-cffi
   name: python-cffi
   conf: fedora-dependency
@@ -3867,6 +3869,7 @@ packages:
     cloud7-openstack-queens-testing: python-daemon-1.6-4.el7
     cloud7-openstack-queens-release: python-daemon-1.6-4.el7
     cloud7-openstack-rocky-testing: python-daemon-1.6-4.el7
+    cloud7-openstack-rocky-candidate: python-daemon-2.1.2-8.el7
 - project: fontawesome-fonts
   name: fontawesome-fonts
   conf: fedora-dependency
@@ -3974,7 +3977,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.8.33-1.el7
-    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-2.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.31-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -3993,6 +3996,7 @@ packages:
     cloud7-openstack-queens-testing: python-kazoo-2.2.1-1.el7
     cloud7-openstack-queens-release: python-kazoo-2.2.1-1.el7
     cloud7-openstack-rocky-testing: python-kazoo-2.2.1-1.el7
+    cloud7-openstack-rocky-candidate: python-kazoo-2.5.0-1.el7
 - project: python-XStatic-termjs
   name: python-XStatic-termjs
   conf: fedora-dependency
@@ -4224,6 +4228,7 @@ packages:
     cloud7-openstack-queens-testing: python-ryu-4.15-1.el7
     cloud7-openstack-queens-release: python-ryu-4.15-1.el7
     cloud7-openstack-rocky-testing: python-ryu-4.15-1.el7
+    cloud7-openstack-rocky-candidate: python-ryu-4.25-1.el7
 - project: python-XStatic-Angular
   name: python-XStatic-Angular
   conf: fedora-dependency
@@ -4647,3 +4652,13 @@ packages:
     cloud7-openstack-rocky-testing: python-pexpect-4.5-1.el7
   name: python-pexpect
   conf: rdo-dependency
+- project: google-auth-httplib2
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-google-auth-httplib2-0.0.3-1.el7
+  name: python-google-auth-httplib2
+  conf: fedora-dependency
+- project: Babel
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-babel-2.6.0-1.el7
+  name: python-babel
+  conf: fedora-dependency
