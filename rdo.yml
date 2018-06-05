@@ -2188,6 +2188,14 @@ packages:
     cloud7-openstack-queens-release: openstack-heat-10.0.1-1.el7
 - project: cinder
   conf: rpmfactory-core
+  tags:
+    rocky-uc:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
+      source-branch: newton-eol
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
