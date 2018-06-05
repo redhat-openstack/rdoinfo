@@ -7158,3 +7158,13 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - amoralej@redhat.com
+- project: puppet-barometer
+  upstream: https://github.com/opnfv/puppet-barometer
+  tags:
+    under-review:
+    #rocky-py3-uc:
+    #rocky-uc:
+    #rocky:
+  conf: rpmfactory-puppet
+  maintainers:
+  - akhilakishore@gmail.com
