@@ -642,13 +642,13 @@ packages:
     cloud7-openstack-rocky-testing: python-ldap3-2.4.1-3.el7
 - project: python-cradox
   name: python-cradox
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-cradox-1.3.2-1.el7
     cloud7-openstack-common-release: python-cradox-1.3.2-1.el7
-    cloud7-openstack-queens-testing: python-cradox-1.3.2-1.el7
-    cloud7-openstack-queens-release: python-cradox-1.3.2-1.el7
-    cloud7-openstack-rocky-testing: python-cradox-1.3.2-1.el7
+    cloud7-openstack-queens-testing: python-cradox-2.1.0-1.el7
+    cloud7-openstack-queens-release: python-cradox-2.1.0-1.el7
+    cloud7-openstack-rocky-candidate: python-cradox-2.1.0-1.el7
 - project: python-gmpy2
   name: python-gmpy2
   conf: fedora-dependency
