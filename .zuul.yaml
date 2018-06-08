@@ -1,0 +1,86 @@
+- project:
+    name: rdoinfo
+    check:
+      jobs:
+        - legacy-tox-validate
+        - legacy-rdoinfo-DLRN-check
+        - legacy-validate-dependencies-rebuilds
+        - legacy-weirdo-validate-buildsys-tags:
+            dependencies:
+              - legacy-validate-buildsys-tags
+        - legacy-rdoinfo-tripleo-master-testing-centos-7-multinode-1ctlr-featureset016:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - legacy-rdoinfo-tripleo-pike-testing-centos-7-multinode-1ctlr-featureset006:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - legacy-rdoinfo-tripleo-pike-release-centos-7-multinode-1ctlr-featureset006:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - legacy-rdoinfo-tripleo-ocata-testing-centos-7-multinode-1ctlr-featureset005:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - legacy-rdoinfo-tripleo-ocata-release-centos-7-multinode-1ctlr-featureset005:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - legacy-validate-buildsys-tags
+        - legacy-rdoinfo-buildsys-tags-update-testing
+        - legacy-rdoinfo-buildsys-tags-update-release
+    experimental:
+      jobs:
+        - legacy-weirdo-dlrn-master-packstack-scenario003:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            branches: ^(rpm-)?master$
+        - legacy-weirdo-dlrn-master-puppet-scenario001:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            branches: ^(rpm-)?master$
+        - legacy-weirdo-dlrn-master-puppet-scenario002:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            branches: ^(rpm-)?master$
+        - legacy-weirdo-dlrn-master-puppet-scenario003:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            branches: ^(rpm-)?master$
+        - legacy-weirdo-dlrn-master-puppet-scenario004:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            branches: ^(rpm-)?master$
+        - legacy-rdoinfo-DLRN-check
+    gate:
+      queue: whitebox-tempest-plugin
+      jobs:
+        - legacy-tox-validate
+        - legacy-rdoinfo-DLRN-check
+        - legacy-validate-buildsys-tags
+        - legacy-rebuild-fedora-dependencies
+    periodic:
+      jobs:
+        - legacy-rdoinfo-upper-constraints-update-master
+        - legacy-rdoinfo-upper-constraints-update-queens
+        - legacy-rdoinfo-upper-constraints-update-pike
+        - legacy-rdoinfo-upper-constraints-update-ocata
+        - legacy-rdoinfo-upper-constraints-update-newton
+        - legacy-rdoinfo-buildsys-tags-update-ocata-testing
+        - legacy-rdoinfo-buildsys-tags-update-ocata-release
+        - legacy-rdoinfo-buildsys-tags-update-pike-testing
+        - legacy-rdoinfo-buildsys-tags-update-pike-release
+        - legacy-rdoinfo-buildsys-tags-update-queens-testing
+        - legacy-rdoinfo-buildsys-tags-update-queens-release
+    post:
+      jobs:
+        - legacy-rdoinfo-create-project
+        - legacy-rdo-send-stable-release
+        - legacy-update-buildsys-tags
