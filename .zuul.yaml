@@ -1,0 +1,6 @@
+- project:
+    name: rdoinfo
+    check:
+      jobs:
+        - legacy-update-buildsys-tags
+        - legacy-rdo-send-stable-release
