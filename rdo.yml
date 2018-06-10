@@ -582,7 +582,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.13-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.13-1.el7
     cloud7-openstack-queens-testing: puppet-tripleo-8.3.3-1.el7
-    cloud7-openstack-queens-release: puppet-tripleo-8.3.2-1.el7
+    cloud7-openstack-queens-release: puppet-tripleo-8.3.3-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -1985,7 +1985,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-nova-16.1.4-1.el7
     cloud7-openstack-pike-release: openstack-nova-16.1.4-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.5-1.el7
-    cloud7-openstack-queens-release: openstack-nova-17.0.4-1.el7
+    cloud7-openstack-queens-release: openstack-nova-17.0.5-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -2208,7 +2208,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-cinder-11.1.0-2.el7
     cloud7-openstack-pike-release: openstack-cinder-11.1.0-1.el7
     cloud7-openstack-queens-testing: openstack-cinder-12.0.2-2.el7
-    cloud7-openstack-queens-release: openstack-cinder-12.0.1-1.el7
+    cloud7-openstack-queens-release: openstack-cinder-12.0.2-2.el7
 - project: ironic
   tags:
     rocky-uc:
@@ -2676,7 +2676,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.13-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.13-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.3-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.2-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.3-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -2741,7 +2741,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.9-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-validations-7.4.9-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-validations-8.4.2-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.1-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.2-1.el7
 - project: instack
   tags:
     rocky-uc:
@@ -2785,7 +2785,7 @@ packages:
     cloud7-openstack-pike-testing: instack-undercloud-7.4.12-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.12-1.el7
     cloud7-openstack-queens-testing: instack-undercloud-8.4.2-1.el7
-    cloud7-openstack-queens-release: instack-undercloud-8.4.1-1.el7
+    cloud7-openstack-queens-release: instack-undercloud-8.4.2-1.el7
 - project: heat-templates
   tags:
     newton:
@@ -2889,7 +2889,7 @@ packages:
     cloud7-openstack-pike-testing: os-net-config-7.3.6-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.6-1.el7
     cloud7-openstack-queens-testing: os-net-config-8.4.2-1.el7
-    cloud7-openstack-queens-release: os-net-config-8.4.1-1.el7
+    cloud7-openstack-queens-release: os-net-config-8.4.2-1.el7
 - project: os-refresh-config
   tags:
     rocky-uc:
@@ -3265,7 +3265,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-manila-ui-2.10.2-1.el7
     cloud7-openstack-pike-release: openstack-manila-ui-2.10.2-1.el7
     cloud7-openstack-queens-testing: openstack-manila-ui-2.13.0-3.el7
-    cloud7-openstack-queens-release: openstack-manila-ui-2.13.0-2.el7
+    cloud7-openstack-queens-release: openstack-manila-ui-2.13.0-3.el7
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
@@ -3429,7 +3429,7 @@ packages:
     cloud7-openstack-pike-testing: python-novaclient-9.1.2-1.el7
     cloud7-openstack-pike-release: python-novaclient-9.1.2-1.el7
     cloud7-openstack-queens-testing: python-novaclient-10.1.0-1.el7
-    cloud7-openstack-queens-release: python-novaclient-9.1.1-1.el7
+    cloud7-openstack-queens-release: python-novaclient-10.1.0-1.el7
 - project: swiftclient
   conf: rpmfactory-client
   tags:
@@ -3839,7 +3839,7 @@ packages:
     cloud7-openstack-pike-testing: python-openstackclient-3.12.1-1.el7
     cloud7-openstack-pike-release: python-openstackclient-3.12.1-1.el7
     cloud7-openstack-queens-testing: python-openstackclient-3.14.2-1.el7
-    cloud7-openstack-queens-release: python-openstackclient-3.14.1-1.el7
+    cloud7-openstack-queens-release: python-openstackclient-3.14.2-1.el7
 - project: shade
   conf: rpmfactory-client
   maintainers:
@@ -3909,7 +3909,7 @@ packages:
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.10-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.10-1.el7
     cloud7-openstack-queens-testing: python-tripleoclient-9.2.2-1.el7
-    cloud7-openstack-queens-release: python-tripleoclient-9.2.1-1.el7
+    cloud7-openstack-queens-release: python-tripleoclient-9.2.2-1.el7
 - project: zaqarclient
   tags:
     rocky-py3-uc:
@@ -4398,7 +4398,7 @@ packages:
     cloud7-openstack-pike-testing: python-oslo-utils-3.28.2-1.el7
     cloud7-openstack-pike-release: python-oslo-utils-3.28.2-1.el7
     cloud7-openstack-queens-testing: python-oslo-utils-3.35.1-1.el7
-    cloud7-openstack-queens-release: python-oslo-utils-3.35.0-1.el7
+    cloud7-openstack-queens-release: python-oslo-utils-3.35.1-1.el7
 - project: oslo-vmware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
@@ -4965,7 +4965,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.13-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.13-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.2-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.1-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.2-1.el7
 - project: tripleo-repos
   tags:
     rocky-uc:
@@ -5277,7 +5277,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.7-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-puppet-elements-7.0.7-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-puppet-elements-8.0.1-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.1-1.el7
 - project: os-brick
   tags:
     rocky-py3-uc:
@@ -5307,7 +5307,7 @@ packages:
     cloud7-openstack-pike-testing: python-os-brick-1.15.5-1.el7
     cloud7-openstack-pike-release: python-os-brick-1.15.5-1.el7
     cloud7-openstack-queens-testing: python-os-brick-2.3.2-1.el7
-    cloud7-openstack-queens-release: python-os-brick-2.3.1-1.el7
+    cloud7-openstack-queens-release: python-os-brick-2.3.2-1.el7
 - project: hardware
   tags:
     rocky-uc:
@@ -5729,7 +5729,7 @@ packages:
     cloud7-openstack-pike-testing: python-magnumclient-2.7.0-1.el7
     cloud7-openstack-pike-release: python-magnumclient-2.7.0-1.el7
     cloud7-openstack-queens-testing: python-magnumclient-2.9.1-1.el7
-    cloud7-openstack-queens-release: python-magnumclient-2.9.0-1.el7
+    cloud7-openstack-queens-release: python-magnumclient-2.9.1-1.el7
 - project: congressclient
   tags:
     rocky-py3-uc:
