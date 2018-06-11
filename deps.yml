@@ -47,6 +47,7 @@ packages:
     cloud7-openstack-queens-testing: python-sphinxcontrib-websupport-1.0.1-1.el7
     cloud7-openstack-queens-release: python-sphinxcontrib-websupport-1.0.1-1.el7
     cloud7-openstack-rocky-el7-build: python-sphinxcontrib-websupport-1.0.1-1.el7
+    cloud7-openstack-rocky-candidate: python-sphinxcontrib-websupport-1.1.0-1.el7
 - project: python2-typing
   name: python2-typing
   conf: fedora-dependency
@@ -185,6 +186,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-requests-oauthlib-0.5.0-4.el7
     cloud7-openstack-common-release: python-requests-oauthlib-0.5.0-4.el7
+    cloud7-openstack-rocky-candidate: python-requests-oauthlib-1.0.0-1.el7
 - project: python-sure
   name: python-sure
   conf: fedora-dependency
@@ -673,7 +675,7 @@ packages:
     cloud7-openstack-queens-testing: python-webob-1.7.2-1.el7
     cloud7-openstack-queens-release: python-webob-1.7.2-1.el7
     cloud7-openstack-rocky-testing: python-webob-1.8.1-1.el7
-    cloud7-openstack-rocky-candidate: python-webob-1.8.1-1.el7
+    cloud7-openstack-rocky-candidate: python-webob-1.8.2-1.el7
 - project: python-pycxx
   name: python-pycxx
   conf: rdo-dependency
@@ -781,6 +783,7 @@ packages:
     cloud7-openstack-queens-testing: python-django-1.11.10-1.el7
     cloud7-openstack-queens-release: python-django-1.11.10-1.el7
     cloud7-openstack-rocky-testing: python-django-1.11.10-1.el7
+    cloud7-openstack-rocky-candidate: python-django-2.0.6-1.el7
 - project: python-django-discover-runner
   name: python-django-discover-runner
   conf: fedora-dependency
@@ -2847,6 +2850,7 @@ packages:
     cloud7-openstack-queens-testing: numpy-1.11.2-2.el7
     cloud7-openstack-queens-release: numpy-1.11.2-2.el7
     cloud7-openstack-rocky-testing: numpy-1.11.2-2.el7
+    cloud7-openstack-rocky-candidate: numpy-1.14.4-1.el7
 - project: python-dtopt
   name: python-dtopt
   conf: fedora-dependency
@@ -3981,7 +3985,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.9.1-1.el7
-    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.33-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4511,6 +4515,7 @@ packages:
     cloud7-openstack-queens-testing: python-stestr-1.1.0-1.el7
     cloud7-openstack-queens-release: python-stestr-1.1.0-1.el7
     cloud7-openstack-rocky-testing: python-stestr-1.1.0-1.el7
+    cloud7-openstack-rocky-candidate: python-stestr-2.1.0-1.el7
 - project: python-subunit2sql
   name: python-subunit2sql
   conf: fedora-dependency
@@ -4656,3 +4661,8 @@ packages:
     cloud7-openstack-rocky-testing: python-pexpect-4.5-1.el7
   name: python-pexpect
   conf: rdo-dependency
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pytest-3.6.1-1.el7
+  name: python-pytest
+  conf: fedora-dependency
