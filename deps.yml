@@ -336,6 +336,7 @@ packages:
     cloud7-openstack-queens-testing: python-psutil-5.2.2-2.el7
     cloud7-openstack-queens-release: python-psutil-5.2.2-2.el7
     cloud7-openstack-rocky-testing: python-psutil-5.2.2-2.el7
+    cloud7-openstack-rocky-candidate: python-psutil-5.4.6-1.el7
 - project: python-pip
   name: python-pip
   conf: fedora-dependency
@@ -1238,6 +1239,7 @@ packages:
     cloud7-openstack-queens-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-queens-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-rocky-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-rocky-candidate: python-autobahn-18.6.1-1.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -3264,6 +3266,7 @@ packages:
     cloud7-openstack-queens-testing: python-deprecation-1.0-3.el7
     cloud7-openstack-queens-release: python-deprecation-1.0-3.el7
     cloud7-openstack-rocky-testing: python-deprecation-1.0-3.el7
+    cloud7-openstack-rocky-candidate: python-deprecation-2.0.3-1.el7
 - project: web-assets
   name: web-assets
   conf: fedora-dependency
@@ -3507,6 +3510,7 @@ packages:
     cloud7-openstack-queens-testing: python-subprocess32-3.2.6-4.el7
     cloud7-openstack-queens-release: python-subprocess32-3.2.6-4.el7
     cloud7-openstack-rocky-testing: python-subprocess32-3.2.6-4.el7
+    cloud7-openstack-rocky-candidate: python-subprocess32-3.5.2-1.el7
 - project: python-pyasn1
   name: python-pyasn1
   conf: fedora-dependency
@@ -3983,7 +3987,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.9.1-1.el7
-    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.35-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
