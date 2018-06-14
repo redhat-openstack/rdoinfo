@@ -4634,6 +4634,13 @@ packages:
     cloud7-openstack-rocky-el7-build: python-sphinxcontrib-apidoc-0.2.1-6.el7
   name: python-sphinxcontrib-apidoc
   conf: fedora-dependency
+- project: uwsgi
+  name: uwsgi
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: uwsgi-2.0.16-1.el7
+  maintainers:
+  - mnaser@vexxhost.com
 - project: xapian-core
   buildsys-tags:
     cloud7-openstack-rocky-el7-build: xapian-core-1.2.22-1.el7
