@@ -2505,6 +2505,7 @@ packages:
     cloud7-openstack-pike-release: python-requests-2.14.2-1.el7
     cloud7-openstack-queens-release: python-requests-2.14.2-1.el7
     cloud7-openstack-rocky-testing: python-requests-2.14.2-1.el7
+    cloud7-openstack-rocky-candidate: python-requests-2.19.1-1.el7
 - project: python-idna
   name: python-idna
   conf: rdo-dependency
@@ -3987,7 +3988,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.9.1-1.el7
-    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.39-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
