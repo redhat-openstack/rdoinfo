@@ -1020,6 +1020,7 @@ packages:
     cloud7-openstack-queens-testing: python-pika-0.10.0-3.el7
     cloud7-openstack-queens-release: python-pika-0.10.0-3.el7
     cloud7-openstack-rocky-testing: python-pika-0.10.0-3.el7
+    cloud7-openstack-rocky-candidate: python-pika-0.12.0-1.el7
 - project: python-greenlet
   name: python-greenlet
   conf: rdo-dependency
@@ -1128,7 +1129,7 @@ packages:
     cloud7-openstack-rocky-testing: mariadb-10.1.20-2.el7
 - project: python-pyroute2
   name: python-pyroute2
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-pyroute2-0.4.8-1.el7
     cloud7-openstack-common-release: python-pyroute2-0.4.8-1.el7
@@ -1137,6 +1138,7 @@ packages:
     cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-queens-release: python-pyroute2-0.4.21-1.el7
     cloud7-openstack-rocky-testing: python-pyroute2-0.4.21-1.el7
+    cloud7-openstack-rocky-candidate: python-pyroute2-0.5.2-1.el7
   maintainers:
   - skaplons@redhat.com
 - project: wxGTK
@@ -3985,7 +3987,7 @@ packages:
     cloud7-openstack-queens-candidate: python-botocore-1.8.33-1.el7
     cloud7-openstack-queens-release: python-botocore-1.8.33-1.el7
     cloud7-openstack-rocky-testing: python-botocore-1.9.1-1.el7
-    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
+    cloud7-openstack-rocky-candidate: python-botocore-1.10.41-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
