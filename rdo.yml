@@ -3992,9 +3992,9 @@ packages:
 - project: gnocchiclient
   tags:
     rocky-py3-uc:
-      source-branch: 7.0.1
+      source-branch: 7.0.2
     rocky-uc:
-      source-branch: 7.0.1
+      source-branch: 7.0.2
     rocky:
     queens:
       source-branch: 7.0.1
@@ -4020,9 +4020,9 @@ packages:
 - project: aodhclient
   tags:
     rocky-py3-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
     rocky-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
     rocky:
     queens:
       source-branch: 1.0.0
@@ -4194,9 +4194,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     rocky-py3-uc:
-      source-branch: 6.4.1
+      source-branch: 6.5.0
     rocky-uc:
-      source-branch: 6.4.1
+      source-branch: 6.5.0
     rocky:
     queens:
       source-branch: 5.35.0
@@ -4324,9 +4324,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
     rocky-py3-uc:
-      source-branch: 2.26.0
+      source-branch: 2.27.0
     rocky-uc:
-      source-branch: 2.26.0
+      source-branch: 2.27.0
     rocky:
     queens:
       source-branch: 2.24.0
@@ -4376,9 +4376,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     rocky-py3-uc:
-      source-branch: 4.38.0
+      source-branch: 4.39.0
     rocky-uc:
-      source-branch: 4.38.0
+      source-branch: 4.39.0
     rocky:
     queens:
       source-branch: 4.33.1
@@ -4402,9 +4402,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     rocky-py3-uc:
-      source-branch: 3.36.2
+      source-branch: 3.36.3
     rocky-uc:
-      source-branch: 3.36.2
+      source-branch: 3.36.3
     rocky:
     queens:
       source-branch: 3.35.1
@@ -4532,9 +4532,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     rocky-py3-uc:
-      source-branch: 1.33.1
+      source-branch: 1.33.2
     rocky-uc:
-      source-branch: 1.33.1
+      source-branch: 1.33.2
     rocky:
     queens:
       source-branch: 1.31.3
@@ -5361,9 +5361,9 @@ packages:
 - project: keystoneauth1
   tags:
     rocky-py3-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
     rocky-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
     rocky:
     queens:
       source-branch: 3.4.0
@@ -6217,7 +6217,7 @@ packages:
   conf: rpmfactory-lib
   tags:
     rocky-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
     rocky:
     queens:
       source-branch: 0.9.0
