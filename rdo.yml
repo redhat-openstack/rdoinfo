@@ -2016,6 +2016,18 @@ packages:
   maintainers:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
+  tags:
+    rocky-py3-uc:
+      distgit: https://github.com/openstack/rpm-packaging
+      distgit-path: /openstack/glance
+      master-distgit: https://github.com/openstack/rpm-packaging
+      distro-branch: master
+    rocky-uc:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-glance-13.0.0-1.el7
     cloud7-openstack-newton-release: openstack-glance-13.0.0-1.el7
