@@ -5388,9 +5388,12 @@ packages:
     cloud7-openstack-queens-release: python-keystoneauth1-3.4.0-1.el7
 - project: rally
   tags:
+    # FIXME(ykarel) rocky pin can be removed once https://review.rdoproject.org/r/#/c/14364/ is fixed
     rocky-uc:
+      source-branch: 86cd7dfa5c8f004f368554bbbaffb57d8caff3ac
     rocky:
     queens:
+      source-branch: 0.11.0
     pike:
       source-branch: 0.10.0
     ocata:
