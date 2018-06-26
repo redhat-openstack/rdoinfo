@@ -1066,6 +1066,7 @@ packages:
     cloud7-openstack-queens-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-queens-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-rocky-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-rocky-candidate: python-keyring-13.1.0-1.el7
 - project: openvswitch
   name: openvswitch
   conf: rdo-dependency
@@ -2593,6 +2594,7 @@ packages:
     cloud7-openstack-queens-testing: python-selenium-2.42.1-3.el7
     cloud7-openstack-queens-release: python-selenium-2.42.1-3.el7
     cloud7-openstack-rocky-el7-build: python-selenium-2.42.1-3.el7
+    cloud7-openstack-rocky-candidate: python-selenium-3.13.0-1.el7
 - project: python-enum34
   name: python-enum34
   conf: fedora-dependency
