@@ -4667,3 +4667,8 @@ packages:
     cloud7-openstack-rocky-testing: python-pexpect-4.5-1.el7
   name: python-pexpect
   conf: rdo-dependency
+- project: python-flask
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-flask-1.0.2-1.el7
+  conf: fedora-dependency
+  name: python-flask
