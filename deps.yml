@@ -4687,3 +4687,17 @@ packages:
   maintainers:
   - ltoscano@redhat.com
   - moguimar@redhat.com
+- project: python-aniso8601
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-aniso8601-0.82-3.el7
+  name: python-flask-restful
+  conf: fedora-dependency
+  maintainers:
+  - moguimar@redhat.com
+- project: python-flask-restful
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-flask-restful-0.3.5-4.el7
+  name: python-flask-restful
+  conf: fedora-dependency
+  maintainers:
+  - moguimar@redhat.com
