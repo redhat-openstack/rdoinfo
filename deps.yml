@@ -4697,3 +4697,10 @@ packages:
     cloud7-openstack-rocky-testing: python-distro-1.3.0-3.el7
   name: python-distro
   conf: fedora-dependency
+- project: python-aniso8601
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-aniso8601-0.82-3.el7
+  name: python-aniso8601
+  conf: fedora-dependency
+  maintainers:
+  - moguimar@redhat.com
