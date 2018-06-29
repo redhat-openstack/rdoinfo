@@ -96,7 +96,7 @@ def update_uc():
                 else:
                     tags = copy.copy(DEFAULT_RELEASES)
                 prev_version = None
-            if UC_RELEASE not in pkg['tags']:
+            if 'tags' in pkg and UC_RELEASE not in pkg['tags']:
                 print("Not updating %s, it is not included in release %s"
                       % (project, UC_RELEASE))
                 continue
