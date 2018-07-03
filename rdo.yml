@@ -6702,12 +6702,9 @@ packages:
   conf: rpmfactory-core
   upstream: https://github.com/openstack/neutron-dynamic-routing
   tags:
-    under-review:
-    #newton:
-    #ocata:
-    #pike:
-    #queens:
-    #queens:
+    rocky-uc:
+    rocky:
+    queens:
   maintainers:
   - mosonkonrad@gmail.com
 - project: senlinclient
