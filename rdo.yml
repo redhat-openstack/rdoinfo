@@ -2286,9 +2286,9 @@ packages:
   name: python-neutron-lib
   tags:
     rocky-py3-uc:
-      source-branch: 1.16.0
+      source-branch: 1.17.0
     rocky-uc:
-      source-branch: 1.16.0
+      source-branch: 1.17.0
     rocky:
     queens:
       source-branch: 1.13.0
@@ -4118,9 +4118,9 @@ packages:
 - project: oslotest
   tags:
     rocky-py3-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
     rocky-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
     rocky:
     queens:
       source-branch: 3.2.0
@@ -4248,9 +4248,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     rocky-py3-uc:
-      source-branch: 6.2.1
+      source-branch: 6.2.2
     rocky-uc:
-      source-branch: 6.2.1
+      source-branch: 6.2.2
     rocky:
     queens:
       source-branch: 5.2.0
@@ -4430,9 +4430,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
     rocky-py3-uc:
-      source-branch: 2.29.2
+      source-branch: 2.30.0
     rocky-uc:
-      source-branch: 2.29.2
+      source-branch: 2.30.0
     rocky:
     queens:
       source-branch: 2.26.0
@@ -4482,9 +4482,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
     rocky-py3-uc:
-      source-branch: 3.38.1
+      source-branch: 3.39.0
     rocky-uc:
-      source-branch: 3.38.1
+      source-branch: 3.39.0
     rocky:
     queens:
       source-branch: 3.36.0
@@ -4534,9 +4534,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
     rocky-py3-uc:
-      source-branch: 1.33.2
+      source-branch: 1.33.3
     rocky-uc:
-      source-branch: 1.33.2
+      source-branch: 1.33.3
     rocky:
     queens:
       source-branch: 1.31.3
@@ -5028,9 +5028,9 @@ packages:
   - apevec@redhat.com
   tags:
     rocky-py3-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
     rocky-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
     rocky:
     queens:
       source-branch: 1.15.2
@@ -6543,6 +6543,7 @@ packages:
 - project: paunch
   tags:
     rocky-uc:
+      source-branch: 3.0.0
     rocky:
     queens:
       source-branch: 2.5.0
@@ -6577,9 +6578,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     rocky-py3-uc:
-      source-branch: 0.7.0
+      source-branch: 0.8.0
     rocky-uc:
-      source-branch: 0.7.0
+      source-branch: 0.8.0
     rocky:
     queens:
       source-branch: 0.5.0
