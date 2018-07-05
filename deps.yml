@@ -4238,7 +4238,7 @@ packages:
     cloud7-openstack-rocky-testing: python-tosca-parser-0.8.1-1.el7
 - project: python-ryu
   name: python-ryu
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-newton-testing: python-ryu-4.9-2.el7
     cloud7-openstack-newton-release: python-ryu-4.9-2.el7
@@ -4249,6 +4249,7 @@ packages:
     cloud7-openstack-queens-testing: python-ryu-4.15-1.el7
     cloud7-openstack-queens-release: python-ryu-4.15-1.el7
     cloud7-openstack-rocky-testing: python-ryu-4.15-1.el7
+    cloud7-openstack-rocky-candidate: python-ryu-4.25-1.el7
   maintainers:
   - skaplons@redhat.com
 - project: python-XStatic-Angular
