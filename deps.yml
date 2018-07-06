@@ -4691,3 +4691,8 @@ packages:
   maintainers:
   - ltoscano@redhat.com
   - moguimar@redhat.com
+- project: python-distro
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-distro-1.3.0-3.el7
+  name: python-distro
+  conf: fedora-dependency
