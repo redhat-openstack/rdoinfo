@@ -4194,9 +4194,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     rocky-py3-uc:
-      source-branch: 6.5.0
+      source-branch: 7.0.0
     rocky-uc:
-      source-branch: 6.5.0
+      source-branch: 7.0.0
     rocky:
     queens:
       source-branch: 5.35.0
@@ -4246,9 +4246,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
     rocky-py3-uc:
-      source-branch: 6.2.2
+      source-branch: 6.3.0
     rocky-uc:
-      source-branch: 6.2.2
+      source-branch: 6.3.0
     rocky:
     queens:
       source-branch: 5.2.0
@@ -7125,9 +7125,9 @@ packages:
   name: python-metalsmith
   tags:
     rocky-py3-uc:
-      source-branch: 0.4.0
+      source-branch: 0.5.0
     rocky-uc:
-      source-branch: 0.4.0
+      source-branch: 0.5.0
     rocky:
   conf: rpmfactory-lib
   maintainers:
