@@ -4704,3 +4704,10 @@ packages:
   conf: fedora-dependency
   maintainers:
   - moguimar@redhat.com
+- project: python-itsdangerous
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-itsdangerous-0.24-14.el7
+  name: python-itsdangerous
+  conf: fedora-dependency
+  maintainers:
+  - moguimar@redhat.com
