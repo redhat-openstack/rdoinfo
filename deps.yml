@@ -4704,3 +4704,10 @@ packages:
   conf: fedora-dependency
   maintainers:
   - moguimar@redhat.com
+- project: python-flask-restful
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-flask-restful-0.3.6-7.el7
+  name: python-flask-restful
+  conf: fedora-dependency
+  maintainers:
+  - moguimar@redhat.com
