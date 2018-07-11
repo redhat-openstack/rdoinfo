@@ -581,7 +581,7 @@ packages:
     cloud7-openstack-ocata-release: puppet-tripleo-6.5.13-1.el7
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.13-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.13-1.el7
-    cloud7-openstack-queens-testing: puppet-tripleo-8.3.3-1.el7
+    cloud7-openstack-queens-testing: puppet-tripleo-8.3.4-1.el7
     cloud7-openstack-queens-release: puppet-tripleo-8.3.3-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
@@ -2699,7 +2699,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.14-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.13-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.13-1.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.3-1.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.4-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.3-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -2808,7 +2808,7 @@ packages:
     cloud7-openstack-ocata-release: instack-undercloud-6.1.7-1.el7
     cloud7-openstack-pike-testing: instack-undercloud-7.4.12-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.12-1.el7
-    cloud7-openstack-queens-testing: instack-undercloud-8.4.2-1.el7
+    cloud7-openstack-queens-testing: instack-undercloud-8.4.3-1.el7
     cloud7-openstack-queens-release: instack-undercloud-8.4.2-1.el7
 - project: heat-templates
   tags:
@@ -2912,7 +2912,7 @@ packages:
     cloud7-openstack-ocata-release: os-net-config-6.1.4-1.el7
     cloud7-openstack-pike-testing: os-net-config-7.3.6-1.el7
     cloud7-openstack-pike-release: os-net-config-7.3.6-1.el7
-    cloud7-openstack-queens-testing: os-net-config-8.4.2-1.el7
+    cloud7-openstack-queens-testing: os-net-config-8.4.3-1.el7
     cloud7-openstack-queens-release: os-net-config-8.4.2-1.el7
 - project: os-refresh-config
   tags:
@@ -3932,7 +3932,7 @@ packages:
     cloud7-openstack-ocata-release: python-tripleoclient-6.2.5-1.el7
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.10-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.10-1.el7
-    cloud7-openstack-queens-testing: python-tripleoclient-9.2.2-1.el7
+    cloud7-openstack-queens-testing: python-tripleoclient-9.2.3-1.el7
     cloud7-openstack-queens-release: python-tripleoclient-9.2.2-1.el7
 - project: zaqarclient
   tags:
@@ -4829,7 +4829,7 @@ packages:
     cloud7-openstack-ocata-release: python-cliff-2.4.1-1.el7
     cloud7-openstack-pike-testing: python-cliff-2.8.1-1.el7
     cloud7-openstack-pike-release: python-cliff-2.8.1-1.el7
-    cloud7-openstack-queens-testing: python-cliff-2.11.0-1.el7
+    cloud7-openstack-queens-testing: python-cliff-2.11.1-1.el7
     cloud7-openstack-queens-release: python-cliff-2.11.0-1.el7
 - project: futurist
   tags:
@@ -4989,7 +4989,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.7-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.13-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.13-1.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.2-1.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.3-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-common-8.6.2-1.el7
 - project: tripleo-repos
   tags:
@@ -5018,7 +5018,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.2-1.el7
     cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.7-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-ui-7.4.7-1.el7
-    cloud7-openstack-queens-testing: openstack-tripleo-ui-8.3.1-1.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-ui-8.3.2-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-ui-8.3.1-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
@@ -5229,7 +5229,7 @@ packages:
     cloud7-openstack-ocata-release: python-networking-ovn-2.0.1-1.el7
     cloud7-openstack-pike-testing: python-networking-ovn-3.0.1-1.el7
     cloud7-openstack-pike-release: python-networking-ovn-3.0.1-1.el7
-    cloud7-openstack-queens-testing: python-networking-ovn-4.0.1-1.el7
+    cloud7-openstack-queens-testing: python-networking-ovn-4.0.2-1.el7
     cloud7-openstack-queens-release: python-networking-ovn-4.0.1-1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
