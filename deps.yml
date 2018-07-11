@@ -4700,6 +4700,7 @@ packages:
 - project: python-aniso8601
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-aniso8601-0.82-3.el7
+    cloud7-openstack-rocky-testing: python-aniso8601-0.82-3.el7
   name: python-aniso8601
   conf: fedora-dependency
   maintainers:
@@ -4707,6 +4708,7 @@ packages:
 - project: python-itsdangerous
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-itsdangerous-0.24-14.el7
+    cloud7-openstack-rocky-testing: python-itsdangerous-0.24-14.el7
   name: python-itsdangerous
   conf: fedora-dependency
   maintainers:
@@ -4714,6 +4716,7 @@ packages:
 - project: python-flask-restful
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-flask-restful-0.3.6-7.el7
+    cloud7-openstack-rocky-testing: python-flask-restful-0.3.6-7.el7
   name: python-flask-restful
   conf: fedora-dependency
   maintainers:
