@@ -5235,6 +5235,10 @@ packages:
 - project: networking-cisco
   conf: rpmfactory-lib
   tags:
+    queens:
+      source-branch: 6.1.0
+    pike:
+      source-branch: 6.1.0
     ocata:
       source-branch: 5.5.2
     newton:
@@ -5244,6 +5248,7 @@ packages:
   maintainers:
   - openstack-networking@cisco.com
   - sambetts@cisco.com
+  - sadasu@cisco.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-networking-cisco-5.5.0-1.el7
     cloud7-openstack-newton-release: python-networking-cisco-5.5.0-1.el7
