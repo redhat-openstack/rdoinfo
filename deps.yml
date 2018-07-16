@@ -814,7 +814,7 @@ packages:
     cloud7-openstack-common-release: python-simplejson-3.5.3-5.el7
     cloud7-openstack-queens-testing: python-simplejson-3.5.3-5.el7
     cloud7-openstack-queens-release: python-simplejson-3.5.3-5.el7
-    cloud7-openstack-rocky-testing: python-simplejson-3.5.3-5.el7
+    cloud7-openstack-rocky-testing: python-simplejson-3.10.0-7.el7
 - project: python-dateutil
   name: python-dateutil
   conf: rdo-dependency
@@ -1564,7 +1564,7 @@ packages:
     cloud7-openstack-common-release: python-pillow-4.0.0-1.el7
     cloud7-openstack-queens-testing: python-pillow-4.0.0-1.el7
     cloud7-openstack-queens-release: python-pillow-4.0.0-1.el7
-    cloud7-openstack-rocky-testing: python-pillow-4.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-pillow-4.0.0-2.el7
 - project: python-termcolor
   name: python-termcolor
   conf: fedora-dependency
@@ -2414,7 +2414,7 @@ packages:
     cloud7-openstack-common-release: python-traceback2-1.4.0-2.el7
     cloud7-openstack-queens-testing: python-traceback2-1.4.0-2.el7
     cloud7-openstack-queens-release: python-traceback2-1.4.0-2.el7
-    cloud7-openstack-rocky-testing: python-traceback2-1.4.0-2.el7
+    cloud7-openstack-rocky-testing: python-traceback2-1.4.0-14.el7
     cloud7-openstack-rocky-candidate: python-traceback2-1.4.0-14.el7
 - project: lz4
   name: lz4
@@ -2834,7 +2834,7 @@ packages:
     cloud7-openstack-common-release: python-mimeparse-0.1.4-1.el7
     cloud7-openstack-queens-testing: python-mimeparse-0.1.4-1.el7
     cloud7-openstack-queens-release: python-mimeparse-0.1.4-1.el7
-    cloud7-openstack-rocky-testing: python-mimeparse-0.1.4-1.el7
+    cloud7-openstack-rocky-testing: python-mimeparse-1.6.0-2.el7
     cloud7-openstack-rocky-candidate: python-mimeparse-1.6.0-2.el7
 - project: python-pretend
   name: python-pretend
