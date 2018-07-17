@@ -6706,6 +6706,8 @@ packages:
     queens:
   maintainers:
   - mosonkonrad@gmail.com
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-dynamic-routing-12.0.1-1.el7
 - project: senlinclient
   conf: rpmfactory-client
   upstream: https://github.com/openstack/python-senlinclient
