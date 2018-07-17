@@ -7299,3 +7299,10 @@ packages:
   conf: rpmfactory-puppet
   maintainers:
   - akhilakishore@gmail.com
+- project: ansible-role-tripleo-keystone
+  conf: rpmfactory-lib
+  name: ansible-role-tripleo-keystone
+  tags:
+    under-review:
+  maintainers:
+  - rhos-df@redhat.com
