@@ -989,10 +989,11 @@ packages:
   name: python-sphinx-argparse
   conf: rdo-dependency
   buildsys-tags:
-    cloud7-openstack-common-testing: python-sphinx-argparse-0.1.15-2.el7
+    cloud7-openstack-common-testing: python-sphinx-argparse-0.2.2-1.el7
     cloud7-openstack-common-release: python-sphinx-argparse-0.1.15-2.el7
-    cloud7-openstack-queens-testing: python-sphinx-argparse-0.1.15-2.el7
+    cloud7-openstack-queens-testing: python-sphinx-argparse-0.2.2.-1.el7
     cloud7-openstack-queens-release: python-sphinx-argparse-0.1.15-2.el7
+    cloud7-openstack-rocky-testing: python-sphinx-argparse-0.2.2.-1.el7
 - project: rdo-rpm-macros
   name: rdo-rpm-macros
   conf: fedora-dependency
