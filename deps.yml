@@ -1061,13 +1061,14 @@ packages:
     cloud7-openstack-rocky-testing: python-olefile-0.44-1.el7
 - project: python-keyring
   name: python-keyring
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-common-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-queens-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-queens-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-rocky-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-rocky-candidate: python-keyring-13.2.1-1.el7
 - project: openvswitch
   name: openvswitch
   conf: rdo-dependency
@@ -1340,7 +1341,7 @@ packages:
     cloud7-openstack-common-release: google-api-python-client-1.4.2-4.el7
     cloud7-openstack-queens-testing: google-api-python-client-1.4.2-4.el7
     cloud7-openstack-queens-release: google-api-python-client-1.4.2-4.el7
-    cloud7-openstack-rocky-testing: google-api-python-client-1.4.2-4.el7
+    cloud7-openstack-rocky-candidate: google-api-python-client-1.6.7-3.el7
 - project: python-construct
   name: python-construct
   conf: rdo-dependency
@@ -1452,6 +1453,7 @@ packages:
     cloud7-openstack-queens-testing: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-queens-release: python-sqlalchemy-utils-0.31.3-2.el7
     cloud7-openstack-rocky-testing: python-sqlalchemy-utils-0.31.3-2.el7
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.32.12-5.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -2854,6 +2856,7 @@ packages:
     cloud7-openstack-queens-testing: numpy-1.11.2-2.el7
     cloud7-openstack-queens-release: numpy-1.11.2-2.el7
     cloud7-openstack-rocky-testing: numpy-1.11.2-2.el7
+    cloud7-openstack-rocky-candidate: numpy-1.14.5-1.el7
 - project: python-dtopt
   name: python-dtopt
   conf: fedora-dependency
@@ -3253,13 +3256,14 @@ packages:
     cloud7-openstack-rocky-testing: python-sqlparse-0.1.18-5.el7
 - project: python-monotonic
   name: python-monotonic
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-monotonic-0.6-1.el7
     cloud7-openstack-common-release: python-monotonic-0.6-1.el7
     cloud7-openstack-queens-testing: python-monotonic-0.6-1.el7
     cloud7-openstack-queens-release: python-monotonic-0.6-1.el7
     cloud7-openstack-rocky-testing: python-monotonic-0.6-1.el7
+    cloud7-openstack-rocky-candidate: python-monotonic-1.5-1.el7
 - project: python-deprecation
   name: python-deprecation
   conf: fedora-dependency
