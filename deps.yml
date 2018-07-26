@@ -1624,13 +1624,13 @@ packages:
     cloud7-openstack-queens-release: python-bashate-0.5.1-1.el7
 - project: python-cmd2
   name: python-cmd2
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-cmd2-0.6.8-8.el7
     cloud7-openstack-common-release: python-cmd2-0.6.8-8.el7
     cloud7-openstack-queens-testing: python-cmd2-0.6.8-8.el7
     cloud7-openstack-queens-release: python-cmd2-0.6.8-8.el7
-    cloud7-openstack-rocky-testing: python-cmd2-0.6.8-8.el7
+    cloud7-openstack-rocky-testing: python-cmd2-0.8.8-5.el7
 - project: python-kubernetes
   name: python-kubernetes
   conf: fedora-dependency
@@ -1838,7 +1838,7 @@ packages:
     cloud7-openstack-common-release: python-contextlib2-0.4.0-1.el7
     cloud7-openstack-queens-testing: python-contextlib2-0.4.0-1.el7
     cloud7-openstack-queens-release: python-contextlib2-0.4.0-1.el7
-    cloud7-openstack-rocky-testing: python-contextlib2-0.4.0-1.el7
+    cloud7-openstack-rocky-testing: python-contextlib2-0.5.5-8.el7
     cloud7-openstack-rocky-candidate: python-contextlib2-0.5.5-8.el7
 - project: python-mock
   name: python-mock
@@ -3333,7 +3333,7 @@ packages:
     cloud7-openstack-rocky-testing: python-pyglet-1.2.1-2.el7
 - project: python-tenacity
   name: python-tenacity
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-tenacity-3.2.1-1.el7
     cloud7-openstack-common-release: python-tenacity-3.2.1-1.el7
@@ -3342,7 +3342,7 @@ packages:
     cloud7-openstack-queens-testing: python-tenacity-4.8.0-1.el7
     cloud7-openstack-queens-candidate: python-tenacity-4.8.0-1.el7
     cloud7-openstack-queens-release: python-tenacity-4.8.0-1.el7
-    cloud7-openstack-rocky-testing: python-tenacity-4.8.0-1.el7
+    cloud7-openstack-rocky-testing: python-tenacity-4.12.0-1.el7
 - project: python-tornado
   name: python-tornado
   conf: rdo-dependency
@@ -3946,13 +3946,13 @@ packages:
     cloud7-openstack-queens-release: nagios-3.5.1-1.el7
 - project: python-unittest2
   name: python-unittest2
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-unittest2-1.0.1-1.el7
     cloud7-openstack-common-release: python-unittest2-1.0.1-1.el7
     cloud7-openstack-queens-testing: python-unittest2-1.0.1-1.el7
     cloud7-openstack-queens-release: python-unittest2-1.0.1-1.el7
-    cloud7-openstack-rocky-testing: python-unittest2-1.0.1-1.el7
+    cloud7-openstack-rocky-testing: python-unittest2-1.1.0-15.el7
 - project: erlang-sd_notify
   name: erlang-sd_notify
   conf: rdo-dependency
@@ -4743,12 +4743,14 @@ packages:
 - project: python-wcwidth
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-wcwidth-0.1.7-8.el7
+    cloud7-openstack-rocky-testing: python-wcwidth-0.1.7-8.el7
   name: python-wcwidth
   conf: fedora-dependency
   upstream: https://github.com/jquast/wcwidth
 - project: python-pyperclip
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-pyperclip-1.6.4-1.el7
+    cloud7-openstack-rocky-testing: python-pyperclip-1.6.4-1.el7
   name: python-pyperclip
   conf: fedora-dependency
   upstream: https://github.com/asweigart/pyperclip
