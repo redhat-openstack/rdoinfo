@@ -8628,3 +8628,10 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - lyarwood@redhat.com
+- project: ansible-role-openstack-operations
+  conf: rpmfactory-lib
+  name: ansible-role-openstack-operations
+  tags:
+    under-review:
+  maintainers:
+  - jrouleau@redhat.com
