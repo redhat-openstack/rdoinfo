@@ -4739,3 +4739,15 @@ packages:
   upstream: https://github.com/CiscoUcs/ucsmsdk
   maintainers:
   - sadasu@cisco.com
+- project: python-wcwidth
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-wcwidth-0.1.7-8.el7
+  name: python-wcwidth
+  conf: fedora-dependency
+  upstream: https://github.com/jquast/wcwidth
+- project: python-pyperclip
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pyperclip-1.6.4-1.el7
+  name: python-pyperclip
+  conf: fedora-dependency
+  upstream: https://github.com/asweigart/pyperclip
