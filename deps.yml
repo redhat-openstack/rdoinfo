@@ -258,6 +258,13 @@ packages:
     cloud7-openstack-queens-testing: python-setuptools-22.0.5-1.el7
     cloud7-openstack-queens-release: python-setuptools-22.0.5-1.el7
     cloud7-openstack-rocky-testing: python-setuptools-22.0.5-1.el7
+- project: python-setuptools_scm
+  name: python-setuptools_scm
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-common-testing: python-setuptools_scm-1.15.7-2.el7
+    cloud7-openstack-common-release: python-setuptools_scm-1.15.7-2.el7
+    cloud7-openstack-rocky-testing: python-setuptools_scm-1.15.7-2.el7
 - project: python-falcon
   name: python-falcon
   conf: fedora-dependency
