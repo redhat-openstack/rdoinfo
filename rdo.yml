@@ -4100,6 +4100,8 @@ packages:
     cloud7-openstack-queens-release: python-openstacksdk-0.11.3-1.el7
 - project: gnocchiclient
   tags:
+    #(TODO) remove version-locked when 7.0.4 is in u-c.
+    version-locked:
     rocky-py3-uc:
       source-branch: 7.0.4
     rocky-uc:
@@ -5844,9 +5846,9 @@ packages:
 - project: magnumclient
   tags:
     rocky-py3-uc:
-      source-branch: 2.9.1
+      source-branch: 2.10.0
     rocky-uc:
-      source-branch: 2.9.1
+      source-branch: 2.10.0
     rocky:
     queens:
       source-branch: 2.9.1
@@ -7200,9 +7202,8 @@ packages:
   conf: rpmfactory-lib
   name: python-tap-as-a-service
   tags:
-    # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
-    version-locked:
     rocky-uc:
+      source-branch: 3.0.0
     rocky:
     queens:
   maintainers:
@@ -7271,7 +7272,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     rocky-py3-uc:
+      source-branch: 1.3.0
     rocky-uc:
+      source-branch: 1.3.0
     rocky:
   maintainers:
   - mbooth@redhat.com
