@@ -582,7 +582,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-tripleo-7.4.15-1.el7
     cloud7-openstack-pike-release: puppet-tripleo-7.4.15-1.el7
     cloud7-openstack-queens-testing: puppet-tripleo-8.3.5-1.el7
-    cloud7-openstack-queens-release: puppet-tripleo-8.3.4-1.el7
+    cloud7-openstack-queens-release: puppet-tripleo-8.3.5-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -2287,7 +2287,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-panko-3.1.0-1.el7
     cloud7-openstack-pike-release: openstack-panko-3.1.0-1.el7
     cloud7-openstack-queens-testing: openstack-panko-4.0.2-1.el7
-    cloud7-openstack-queens-release: openstack-panko-4.0.1-1.el7
+    cloud7-openstack-queens-release: openstack-panko-4.0.2-1.el7
 - project: heat
   conf: rpmfactory-core
   maintainers:
@@ -2806,7 +2806,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.15-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.15-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.0.5-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.4-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.5-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -2915,7 +2915,7 @@ packages:
     cloud7-openstack-pike-testing: instack-undercloud-7.4.14-1.el7
     cloud7-openstack-pike-release: instack-undercloud-7.4.14-1.el7
     cloud7-openstack-queens-testing: instack-undercloud-8.4.4-1.el7
-    cloud7-openstack-queens-release: instack-undercloud-8.4.3-1.el7
+    cloud7-openstack-queens-release: instack-undercloud-8.4.4-1.el7
 - project: heat-templates
   tags:
     newton:
@@ -3166,7 +3166,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-manila-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-manila-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-manila-6.0.2-1.el7
-    cloud7-openstack-queens-release: openstack-manila-6.0.1-1.el7
+    cloud7-openstack-queens-release: openstack-manila-6.0.2-1.el7
 - project: zaqar
   tags:
     rocky-uc:
@@ -4041,7 +4041,7 @@ packages:
     cloud7-openstack-pike-testing: python-tripleoclient-7.3.12-1.el7
     cloud7-openstack-pike-release: python-tripleoclient-7.3.12-1.el7
     cloud7-openstack-queens-testing: python-tripleoclient-9.2.4-1.el7
-    cloud7-openstack-queens-release: python-tripleoclient-9.2.3-1.el7
+    cloud7-openstack-queens-release: python-tripleoclient-9.2.4-1.el7
 - project: zaqarclient
   tags:
     rocky-py3-uc:
@@ -4172,7 +4172,7 @@ packages:
     cloud7-openstack-pike-testing: python-pankoclient-0.3.0-1.el7
     cloud7-openstack-pike-release: python-pankoclient-0.3.0-1.el7
     cloud7-openstack-queens-testing: python-pankoclient-0.4.1-1.el7
-    cloud7-openstack-queens-release: python-pankoclient-0.4.0-1.el7
+    cloud7-openstack-queens-release: python-pankoclient-0.4.1-1.el7
 - project: monascaclient
   tags:
     rocky-py3-uc:
@@ -4324,7 +4324,7 @@ packages:
     cloud7-openstack-pike-testing: python-oslo-messaging-5.30.4-1.el7
     cloud7-openstack-pike-release: python-oslo-messaging-5.30.4-1.el7
     cloud7-openstack-queens-testing: python-oslo-messaging-5.35.1-1.el7
-    cloud7-openstack-queens-release: python-oslo-messaging-5.35.0-1.el7
+    cloud7-openstack-queens-release: python-oslo-messaging-5.35.1-1.el7
 - project: oslo-cache
   tags:
     rocky-py3-uc:
@@ -5100,7 +5100,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.15-1.el7
     cloud7-openstack-pike-release: openstack-tripleo-common-7.6.15-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.4-1.el7
-    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.3-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.4-1.el7
 - project: tripleo-repos
   tags:
     rocky-uc:
@@ -6513,7 +6513,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-kolla-5.0.3-1.el7
     cloud7-openstack-pike-release: openstack-kolla-5.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-kolla-6.1.0-1.el7
-    cloud7-openstack-queens-release: openstack-kolla-6.0.0-0.2.0rc2.el7
+    cloud7-openstack-queens-release: openstack-kolla-6.1.0-1.el7
 - project: openstack-selinux
   name: openstack-selinux
   conf: rpmfactory-core
