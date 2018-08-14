@@ -7299,3 +7299,13 @@ packages:
   conf: rpmfactory-puppet
   maintainers:
   - akhilakishore@gmail.com
+- project: rally-openstack
+  conf: rpmfactory-lib
+  name: openstack-rally-plugins
+  tags:
+    under-review:
+    # rocky-py3-uc:
+    # rocky-uc:
+    # rocky:
+  maintainers:
+  - chkumar@redhat.com
