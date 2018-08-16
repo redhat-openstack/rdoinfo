@@ -2903,7 +2903,6 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - nmagnezi@redhat.com
-  - ihrachys@redhat.com
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
   buildsys-tags:
@@ -2927,7 +2926,6 @@ packages:
     queens:
   maintainers:
   - nmagnezi@redhat.com
-  - ihrachys@redhat.com
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
   buildsys-tags:
@@ -2948,7 +2946,6 @@ packages:
     queens:
       source-branch: 1.4.0
   maintainers:
-  - ihrachys@redhat.com
   - nmagnezi@redhat.com
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
@@ -2968,7 +2965,6 @@ packages:
       source-branch: 51e91b4dfe9bed364912034b7f8a51528b46fd84
   maintainers:
   - nmagnezi@redhat.com
-  - ihrachys@redhat.com
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
   buildsys-tags:
@@ -3901,6 +3897,9 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - github@sheep.art.pl
+  - nmagnezi@redhat.com
+  - cgoncalves@redhat.com
+  - bcafarel@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-neutron-lbaas-ui-1.0.0-2.el7
     cloud7-openstack-newton-release: openstack-neutron-lbaas-ui-1.0.0-2.el7
@@ -4226,9 +4225,15 @@ packages:
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
-  - ihrachys@redhat.com
-  - jruzicka@redhat.com
+  - bcafarel@redhat.com
+  - bhaley@redhat.com
   - hguemar@fedoraproject.org
+  - jruzicka@redhat.com
+  - majopela@redhat.com
+  - njohnsto@redhat.com
+  - nmagnezi@redhat.com
+  - skaplons@redhat.com
+  - twilson@redhat.com
   tags:
     stein-py3-uc:
       source-branch: 6.9.0
@@ -5452,7 +5457,10 @@ packages:
       source-branch: 0.4.3
   maintainers:
   - twilson@redhat.com
-  - ihrachys@redhat.com
+  - dalvarez@redhat.com
+  - majopela@redhat.com
+  - lmartins@redhat.com
+  - rbanerje@redhat.com
   - rbryant@rehdat.com
   buildsys-tags:
     cloud7-openstack-pike-testing: python-ovsdbapp-0.4.3-1.el7
@@ -6108,8 +6116,12 @@ packages:
   name: python-networking-ovn
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - russell@russellbryant.net
+  - dalvarez@redhat.com
+  - majopela@redhat.com
   - nusiddiq@redhat.com
+  - lmartins@redhat.com
+  - russell@russellbryant.net
+  - rbanerje@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-networking-ovn-1.0.0-1.el7
     cloud7-openstack-newton-release: python-networking-ovn-1.0.0-1.el7
