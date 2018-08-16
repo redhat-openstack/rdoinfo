@@ -1,4 +1,23 @@
 releases:
+- name: stein
+  branch: rpm-master
+  tags_map: separated_buildreqs
+  repos:
+  - name: el7
+    buildsys: cbs/cloud7-openstack-stein-el7
+    buildsys-tags:
+    - cloud7-openstack-stein-el7-build
+    - cloud7-openstack-stein-candidate
+    - cloud7-openstack-stein-testing
+    distrepos:
+    - name: RDO Stein el7
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-stein/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
+      url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: rocky
   branch: rpm-master
   tags_map: separated_buildreqs
@@ -110,7 +129,8 @@ package-default:
 # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
   master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -179,8 +199,9 @@ package-configs:
     - gchamoul@redhat.com
     # Only building puppet modules on newton and later
     tags:
-      rocky-py3-uc:
-      rocky-uc:
+      stein-py3-uc:
+      stein-uc:
+      stein:
       rocky:
       queens:
       pike:
@@ -201,7 +222,8 @@ package-configs:
     - chkumar@redhat.com
     - ltoscano@redhat.com
     tags:
-      rocky-uc:
+      stein-uc:
+      stein:
       rocky:
       queens:
       pike:
@@ -218,7 +240,9 @@ package-configs:
     maintainers:
     - jpena@redhat.com
     tags:
-      rocky-uc:
+      stein-uc:
+        distro-branch: master
+      stein:
         distro-branch: master
       rocky:
         distro-branch: master
@@ -274,8 +298,9 @@ packages:
 - project: puppet-congress
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -303,8 +328,9 @@ packages:
   maintainers:
   - sven@redhat.com
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -434,8 +460,9 @@ packages:
 - project: puppet-octavia
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -494,8 +521,9 @@ packages:
 - project: puppet-panko
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -510,8 +538,9 @@ packages:
 - project: puppet-qdr
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -548,8 +577,9 @@ packages:
 - project: puppet-tacker
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -597,8 +627,9 @@ packages:
 - project: puppet-vitrage
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -630,8 +661,9 @@ packages:
     cloud7-openstack-queens-testing: puppet-ceph-2.5.0-1.el7
     cloud7-openstack-queens-release: puppet-ceph-2.5.0-1.el7
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -652,8 +684,9 @@ packages:
     cloud7-openstack-queens-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
     cloud7-openstack-queens-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -676,8 +709,9 @@ packages:
 - project: puppet-murano
   conf: rpmfactory-puppet
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -701,11 +735,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 56639c16ae69a5765e6b11daf71e51a70eae1087
-    rocky-uc:
+    stein-uc:
       source-branch: 56639c16ae69a5765e6b11daf71e51a70eae1087
+    stein:
     rocky:
+      source-branch: 56639c16ae69a5765e6b11daf71e51a70eae1087
     queens:
       source-branch: e587f2af793111adab04bb776808f99a09ca092b
     pike:
@@ -727,11 +763,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: bb680c103875dbb0ad7a4bae8108b4f3bafb1e70
-    rocky-uc:
+    stein-uc:
       source-branch: bb680c103875dbb0ad7a4bae8108b4f3bafb1e70
+    stein:
     rocky:
+      source-branch: bb680c103875dbb0ad7a4bae8108b4f3bafb1e70
     queens:
       source-branch: d4857dfabe00ccbd158050e9245d074818a7cf15
     pike:
@@ -753,11 +791,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 80a885890750e41b61da0e7cf363b425619a43bd
-    rocky-uc:
+    stein-uc:
       source-branch: 80a885890750e41b61da0e7cf363b425619a43bd
+    stein:
     rocky:
+      source-branch: 80a885890750e41b61da0e7cf363b425619a43bd
     queens:
       source-branch: 3dc19907a9ee10f3c0d8e8486ccb7d245bade339
     pike:
@@ -779,11 +819,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 6215a5e735b7f7bb470d0c10c5e8f72e6c17f4b7
-    rocky-uc:
+    stein-uc:
       source-branch: 6215a5e735b7f7bb470d0c10c5e8f72e6c17f4b7
+    stein:
     rocky:
+      source-branch: 6215a5e735b7f7bb470d0c10c5e8f72e6c17f4b7
     queens:
       source-branch: 11ac7a2402686967b13ff0f42ea23cf73f11aa7b
     pike:
@@ -805,11 +847,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/puppet-corosync
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2afcfec89466276f3103a737481e254d53047d8b
-    rocky-uc:
+    stein-uc:
       source-branch: 2afcfec89466276f3103a737481e254d53047d8b
+    stein:
     rocky:
+      source-branch: 2afcfec89466276f3103a737481e254d53047d8b
     queens:
       source-branch: 9940eb9d212941e8d3107d4806a5390e39269500
     pike:
@@ -831,11 +875,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
-    rocky-uc:
+    stein-uc:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    stein:
     rocky:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     queens:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
     pike:
@@ -857,11 +903,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: eb2e2e04440d94df486e7384b1afd340e4568f1b
-    rocky-uc:
+    stein-uc:
       source-branch: eb2e2e04440d94df486e7384b1afd340e4568f1b
+    stein:
     rocky:
+      source-branch: eb2e2e04440d94df486e7384b1afd340e4568f1b
     queens:
       source-branch: d2c38b99ca78363ac7d0c8c12088d628a494d37f
     pike:
@@ -883,11 +931,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-mongodb
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2971ed72b7985f83ed1d7817d9268c472c043d91
-    rocky-uc:
+    stein-uc:
       source-branch: 2971ed72b7985f83ed1d7817d9268c472c043d91
+    stein:
     rocky:
+      source-branch: 2971ed72b7985f83ed1d7817d9268c472c043d91
     queens:
       source-branch: c60e4ca4d9344b733d6d8048c8ef8face92a720e
     pike:
@@ -909,11 +959,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 204cfd4f3c67c9764c3b8278528974d02f9d2e65
-    rocky-uc:
+    stein-uc:
       source-branch: 204cfd4f3c67c9764c3b8278528974d02f9d2e65
+    stein:
     rocky:
+      source-branch: 204cfd4f3c67c9764c3b8278528974d02f9d2e65
     queens:
       source-branch: a5497b2bcf9098ed707348193bb7ff2e4ef1e543
     pike:
@@ -935,11 +987,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2bdbc7df0456074cd8efb956bf5aec85e46c7920
-    rocky-uc:
+    stein-uc:
       source-branch: 2bdbc7df0456074cd8efb956bf5aec85e46c7920
+    stein:
     rocky:
+      source-branch: 2bdbc7df0456074cd8efb956bf5aec85e46c7920
     queens:
       source-branch: 47afbd2462df0c2378b4c4499cfc3b2815f6b9c5
     pike:
@@ -961,9 +1015,11 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4.2.x
-    rocky-uc:
+    stein-uc:
+      source-branch: 4.2.x
+    stein:
       source-branch: 4.2.x
     rocky:
       source-branch: 4.2.x
@@ -988,11 +1044,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-rabbitmq
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1ccddad57e4d53bb3861754a1712b78f3a0fb13f
-    rocky-uc:
+    stein-uc:
       source-branch: 1ccddad57e4d53bb3861754a1712b78f3a0fb13f
+    stein:
     rocky:
+      source-branch: 1ccddad57e4d53bb3861754a1712b78f3a0fb13f
     queens:
       source-branch: d4b06b76cdfa9ab0755a96f2cffd0097db7436a9
     pike:
@@ -1014,11 +1072,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: f85532f066e3dab5d2305e88d1c3786819c0f8a5
-    rocky-uc:
+    stein-uc:
       source-branch: f85532f066e3dab5d2305e88d1c3786819c0f8a5
+    stein:
     rocky:
+      source-branch: f85532f066e3dab5d2305e88d1c3786819c0f8a5
     queens:
       source-branch: 447685f915b78fef86a693685f7e49e21ff9c998
     pike:
@@ -1040,11 +1100,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2f85336f41d10991c080ad758d35af5c82fc70cf
-    rocky-uc:
+    stein-uc:
       source-branch: 2f85336f41d10991c080ad758d35af5c82fc70cf
+    stein:
     rocky:
+      source-branch: 2f85336f41d10991c080ad758d35af5c82fc70cf
     queens:
       source-branch: b0d99ad6f1c87c4f0115e08b3bade8c736cc7f64
     pike:
@@ -1066,11 +1128,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 8d1f348f9153dc3ddaf8cd3ab46bd0854e5d027b
-    rocky-uc:
+    stein-uc:
       source-branch: 8d1f348f9153dc3ddaf8cd3ab46bd0854e5d027b
+    stein:
     rocky:
+      source-branch: 8d1f348f9153dc3ddaf8cd3ab46bd0854e5d027b
     queens:
       source-branch: c6d99544f97fffb67a4cf96f217f1162440e2dd0
     pike:
@@ -1092,11 +1156,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1bae9c85f212820eb3bf7453aab003e932758916
-    rocky-uc:
+    stein-uc:
       source-branch: 1bae9c85f212820eb3bf7453aab003e932758916
+    stein:
     rocky:
+      source-branch: 1bae9c85f212820eb3bf7453aab003e932758916
     queens:
       source-branch: bb1209e157494bf1a759ea95d074ae2317ee9d4f
     pike:
@@ -1118,11 +1184,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: b95c79caac894f508448ce918407381900f1cda0
-    rocky-uc:
+    stein-uc:
       source-branch: b95c79caac894f508448ce918407381900f1cda0
+    stein:
     rocky:
+      source-branch: b95c79caac894f508448ce918407381900f1cda0
     queens:
       source-branch: b95c79caac894f508448ce918407381900f1cda0
     pike:
@@ -1144,11 +1212,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-cassandra
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 21f5114304420b4bc0781a8f4f1668e01689a5c2
-    rocky-uc:
+    stein-uc:
       source-branch: 21f5114304420b4bc0781a8f4f1668e01689a5c2
+    stein:
     rocky:
+      source-branch: 21f5114304420b4bc0781a8f4f1668e01689a5c2
     queens:
       source-branch: 2454099687f5e533b553bd38b3ac7f69a864408c
     pike:
@@ -1170,11 +1240,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saltedsignal/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: ef9457ca650b652547fa99644b8a27de01b3db50
-    rocky-uc:
+    stein-uc:
       source-branch: ef9457ca650b652547fa99644b8a27de01b3db50
+    stein:
     rocky:
+      source-branch: ef9457ca650b652547fa99644b8a27de01b3db50
     queens:
       source-branch: ef9457ca650b652547fa99644b8a27de01b3db50
     pike:
@@ -1196,11 +1268,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Juniper/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
-    rocky-uc:
+    stein-uc:
       source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
+    stein:
     rocky:
+      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
     queens:
       source-branch: ecf700b52054ffb9d73768dc4ae31d87dc66fc98
     pike:
@@ -1224,11 +1298,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
-    rocky-uc:
+    stein-uc:
       source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+    stein:
     rocky:
+      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
     queens:
       source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
     pike:
@@ -1250,11 +1326,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/theforeman/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: ccf7ade644b50fe0a842e862d50cabe71cf860c9
-    rocky-uc:
+    stein-uc:
       source-branch: ccf7ade644b50fe0a842e862d50cabe71cf860c9
+    stein:
     rocky:
+      source-branch: ccf7ade644b50fe0a842e862d50cabe71cf860c9
     queens:
       source-branch: 99cd0253f31aa260dc09bcc765e5f83211b204cd
     pike:
@@ -1276,11 +1354,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: c8bdc895c6e0c286d55e91eba23e5d85a3b80802
-    rocky-uc:
+    stein-uc:
       source-branch: c8bdc895c6e0c286d55e91eba23e5d85a3b80802
+    stein:
     rocky:
+      source-branch: c8bdc895c6e0c286d55e91eba23e5d85a3b80802
     queens:
       source-branch: 813c7290c3a8d77eef397526d1ea6dc108943b0d
     pike:
@@ -1302,11 +1382,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/cristifalcas/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 7555287ddd784c4689bf8fe7c83598ea8deff80d
-    rocky-uc:
+    stein-uc:
       source-branch: 7555287ddd784c4689bf8fe7c83598ea8deff80d
+    stein:
     rocky:
+      source-branch: 7555287ddd784c4689bf8fe7c83598ea8deff80d
     queens:
       source-branch: 319df65ac8a275170eb643f3c0854e7877e30d73
     pike:
@@ -1324,11 +1406,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2dd7507d2e7b1be052ad8301f951b50422ee51f0
-    rocky-uc:
+    stein-uc:
       source-branch: 2dd7507d2e7b1be052ad8301f951b50422ee51f0
+    stein:
     rocky:
+      source-branch: 2dd7507d2e7b1be052ad8301f951b50422ee51f0
     queens:
       source-branch: bd0218a8cfd7e66c2fce9a1fd2a46d70fbdc3d77
     pike:
@@ -1346,11 +1430,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0dbae7467a59808a81710fe2664b948c5369f432
-    rocky-uc:
+    stein-uc:
       source-branch: 0dbae7467a59808a81710fe2664b948c5369f432
+    stein:
     rocky:
+      source-branch: 0dbae7467a59808a81710fe2664b948c5369f432
     queens:
       source-branch: 6419b44068a031e557e55a977c0b37d88747e8b2
     pike:
@@ -1372,11 +1458,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
-    rocky-uc:
+    stein-uc:
       source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
+    stein:
     rocky:
+      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
     queens:
       source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
     pike:
@@ -1398,11 +1486,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/joshuabaird/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
-    rocky-uc:
+    stein-uc:
       source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
+    stein:
     rocky:
+      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
     queens:
       source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
     pike:
@@ -1422,11 +1512,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
-    rocky-uc:
+    stein-uc:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    stein:
     rocky:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     queens:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
     pike:
@@ -1448,11 +1540,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
-    rocky-uc:
+    stein-uc:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    stein:
     rocky:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     queens:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
     pike:
@@ -1474,11 +1568,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: e517b447830398983007d17ea78d146f41e144e9
-    rocky-uc:
+    stein-uc:
       source-branch: e517b447830398983007d17ea78d146f41e144e9
+    stein:
     rocky:
+      source-branch: e517b447830398983007d17ea78d146f41e144e9
     queens:
       source-branch: 9b61ad1f94c5c4b54da14fc623a7d1123c97a88b
     pike:
@@ -1500,8 +1596,9 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -1534,11 +1631,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: f04aa34cb4b8781aadcb7724839d2b763f280866
-    rocky-uc:
+    stein-uc:
       source-branch: f04aa34cb4b8781aadcb7724839d2b763f280866
+    stein:
     rocky:
+      source-branch: f04aa34cb4b8781aadcb7724839d2b763f280866
     queens:
       source-branch: 93c8d0bd32bb5610652f30e785ba6644fc82a8b6
     pike:
@@ -1560,11 +1659,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
-    rocky-uc:
+    stein-uc:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    stein:
     rocky:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     queens:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
     pike:
@@ -1589,11 +1690,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/rcritten/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
-    rocky-uc:
+    stein-uc:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    stein:
     rocky:
+      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
     queens:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
     pike:
@@ -1615,12 +1718,14 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 8c1f7e5803bdb0998bc8184bbf71a07213da27e6
-    rocky-uc:
+    stein-uc:
       source-branch: 8c1f7e5803bdb0998bc8184bbf71a07213da27e6
-    rocky:
+    stein:
       source-branch: master
+    rocky:
+      source-branch: 8c1f7e5803bdb0998bc8184bbf71a07213da27e6
     queens:
       source-branch: stable/oxygen
     pike:
@@ -1642,8 +1747,9 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -1665,11 +1771,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 899651549b6d57470d233321265ace862270e154
-    rocky-uc:
+    stein-uc:
       source-branch: 899651549b6d57470d233321265ace862270e154
+    stein:
     rocky:
+      source-branch: 899651549b6d57470d233321265ace862270e154
     queens:
       source-branch: 899651549b6d57470d233321265ace862270e154
     pike:
@@ -1691,11 +1799,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 989403c3b291ec3d529490076bcc4772af3c11a0
-    rocky-uc:
+    stein-uc:
       source-branch: 989403c3b291ec3d529490076bcc4772af3c11a0
+    stein:
     rocky:
+      source-branch: 989403c3b291ec3d529490076bcc4772af3c11a0
     queens:
       source-branch: bfcc2120f7b83342b03241d1429028a6defdd0da
     pike:
@@ -1717,11 +1827,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
-    rocky-uc:
+    stein-uc:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    stein:
     rocky:
+      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
     queens:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
     pike:
@@ -1743,11 +1855,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 338ae0e83394c5771f54a6c070ff52d9a05ffbda
-    rocky-uc:
+    stein-uc:
       source-branch: 338ae0e83394c5771f54a6c070ff52d9a05ffbda
+    stein:
     rocky:
+      source-branch: 338ae0e83394c5771f54a6c070ff52d9a05ffbda
     queens:
       source-branch: aa0f9256ade05153c99f5eac8931da9eb1aaec1a
     pike:
@@ -1769,11 +1883,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
-    rocky-uc:
+    stein-uc:
       source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
+    stein:
     rocky:
+      source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
     queens:
       source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
     pike:
@@ -1795,11 +1911,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: ddaca5daa9456b8ddbdfe6225435bb5e111b8da5
-    rocky-uc:
+    stein-uc:
       source-branch: ddaca5daa9456b8ddbdfe6225435bb5e111b8da5
+    stein:
     rocky:
+      source-branch: ddaca5daa9456b8ddbdfe6225435bb5e111b8da5
     queens:
       source-branch: fb2de7592b5a75930a6eefb283ce070a3051d9d2
     pike:
@@ -1821,11 +1939,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
-    rocky-uc:
+    stein-uc:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    stein:
     rocky:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     queens:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
     pike:
@@ -1847,11 +1967,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 841bd52f23326f8385c4c1ee1f25bdbf6e0d6fa9
-    rocky-uc:
+    stein-uc:
       source-branch: 841bd52f23326f8385c4c1ee1f25bdbf6e0d6fa9
+    stein:
     rocky:
+      source-branch: 841bd52f23326f8385c4c1ee1f25bdbf6e0d6fa9
     queens:
       source-branch: 32aa9f58992067eda45f372d788a9388934d5355
     pike:
@@ -1873,11 +1995,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: fd951aea71853ce15ef1d3a547f50b148d7bcb37
-    rocky-uc:
+    stein-uc:
       source-branch: fd951aea71853ce15ef1d3a547f50b148d7bcb37
+    stein:
     rocky:
+      source-branch: fd951aea71853ce15ef1d3a547f50b148d7bcb37
     queens:
       source-branch: 92c7f71f864ecc2a1e747b1a48be69c737ec97a4
     pike:
@@ -1899,11 +2023,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
-    rocky-uc:
+    stein-uc:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    stein:
     rocky:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     queens:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
     pike:
@@ -1925,11 +2051,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0312c95f85bea3c3ba855fbbd4c4f02fa3d6ef7d
-    rocky-uc:
+    stein-uc:
       source-branch: 0312c95f85bea3c3ba855fbbd4c4f02fa3d6ef7d
+    stein:
     rocky:
+      source-branch: 0312c95f85bea3c3ba855fbbd4c4f02fa3d6ef7d
     queens:
       source-branch: 88b4cea04ddd13da7648022185212e19320c5fa9
     pike:
@@ -1951,11 +2079,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 42b27ae5f0c8a2650759e132d4d4372c224f0579
-    rocky-uc:
+    stein-uc:
       source-branch: 42b27ae5f0c8a2650759e132d4d4372c224f0579
+    stein:
     rocky:
+      source-branch: 42b27ae5f0c8a2650759e132d4d4372c224f0579
     queens:
       source-branch: ad513009a503842bece35953943ce12a0e1503ee
     pike:
@@ -1977,11 +2107,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: b3587fe842718e43bbe7abd12305fed170efef33
-    rocky-uc:
+    stein-uc:
       source-branch: b3587fe842718e43bbe7abd12305fed170efef33
+    stein:
     rocky:
+      source-branch: b3587fe842718e43bbe7abd12305fed170efef33
     queens:
       source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
     pike:
@@ -2003,13 +2135,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
   tags:
-    rocky-py3-uc:
-      # We need this pin https://bugs.launchpad.net/tripleo/+bug/1755211
+    stein-py3-uc:
       source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
-    rocky-uc:
-      # We need this pin https://bugs.launchpad.net/tripleo/+bug/1755211
+    stein-uc:
       source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
+    stein:
     rocky:
+      source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
     queens:
       source-branch: 20a465b0d8751bc08913b556d0a5b7fdac139271
     pike:
@@ -2043,11 +2175,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/electrical/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
-    rocky-uc:
+    stein-uc:
       source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    stein:
     rocky:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
     queens:
       source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
     pike:
@@ -2085,12 +2219,13 @@ packages:
   maintainers:
   - apevec@redhat.com
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       distgit: https://github.com/openstack/rpm-packaging
       distgit-path: /openstack/keystone
       master-distgit: https://github.com/openstack/rpm-packaging
       distro-branch: master
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2111,12 +2246,13 @@ packages:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       distgit: https://github.com/openstack/rpm-packaging
       distgit-path: /openstack/glance
       master-distgit: https://github.com/openstack/rpm-packaging
       distro-branch: master
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2138,8 +2274,9 @@ packages:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2171,7 +2308,8 @@ packages:
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2209,7 +2347,9 @@ packages:
   conf: rpmfactory-core
   upstream: https://github.com/gnocchixyz/%(project)s
   tags:
-    rocky-uc:
+    stein-uc:
+      source-branch: stable/4.3
+    stein:
       source-branch: stable/4.3
     rocky:
       source-branch: stable/4.3
@@ -2249,7 +2389,8 @@ packages:
     cloud7-openstack-pike-release: openstack-gnocchi-4.0.6-1.el7
 - project: aodh
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2270,7 +2411,8 @@ packages:
     cloud7-openstack-queens-release: openstack-aodh-6.0.1-1.el7
 - project: panko
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2307,7 +2449,8 @@ packages:
 - project: cinder
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2329,7 +2472,8 @@ packages:
     cloud7-openstack-queens-release: openstack-cinder-12.0.3-1.el7
 - project: ironic
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2350,7 +2494,8 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-10.1.3-1.el7
 - project: neutron
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2379,11 +2524,13 @@ packages:
   conf: rpmfactory-lib
   name: python-neutron-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.18.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.18.0
+    stein:
     rocky:
+      source-branch: 1.18.0
     queens:
       source-branch: 1.13.0
     pike:
@@ -2413,7 +2560,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 1d90adb9c784f8f1f9f54e9167196a9874fa6b32
@@ -2505,7 +2653,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 5be2abbe6febdc60e4aaec1e3ff322e8152420e6
@@ -2528,7 +2677,8 @@ packages:
     cloud7-openstack-queens-release: python-designate-tests-tempest-0.4.0-1.el7
 - project: octavia
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2553,7 +2703,8 @@ packages:
   name: openstack-octavia-ui
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -2567,11 +2718,13 @@ packages:
 - project: octaviaclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.6.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.6.0
+    stein:
     rocky:
+      source-branch: 1.6.0
     queens:
       source-branch: 1.4.0
   maintainers:
@@ -2586,7 +2739,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 51e91b4dfe9bed364912034b7f8a51528b46fd84
@@ -2601,7 +2755,8 @@ packages:
 - project: watcher
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2623,7 +2778,8 @@ packages:
 - project: vitrage
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2641,7 +2797,8 @@ packages:
   name: openstack-vitrage-ui
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2657,7 +2814,8 @@ packages:
     cloud7-openstack-queens-release: openstack-vitrage-ui-1.4.2-1.el7
 - project: sahara
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2722,8 +2880,9 @@ packages:
     newton:
 - project: diskimage-builder
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2747,11 +2906,13 @@ packages:
     cloud7-openstack-queens-release: diskimage-builder-2.16.0-1.el7
 - project: dib-utils
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.0.11
-    rocky-uc:
+    stein-uc:
       source-branch: 0.0.11
+    stein:
     rocky:
+      source-branch: 0.0.11
     queens:
       source-branch: 0.0.11
     pike:
@@ -2787,7 +2948,8 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-0.0.8-0.3.4de13b3git.el7
 - project: tripleo-heat-templates
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2811,7 +2973,9 @@ packages:
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
   tags:
-    rocky-uc:
+    stein-uc:
+      source-branch: stable/pike
+    stein:
       source-branch: stable/pike
     rocky:
       source-branch: stable/pike
@@ -2834,7 +2998,8 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-compat-5.2.0-1.el7
 - project: tripleo-image-elements
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2854,7 +3019,8 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.1-1.el7
 - project: tripleo-validations
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2874,7 +3040,8 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.2-1.el7
 - project: instack
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2896,7 +3063,8 @@ packages:
     cloud7-openstack-queens-release: instack-8.1.0-1.el7
 - project: instack-undercloud
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2928,7 +3096,8 @@ packages:
     cloud7-openstack-newton-release: openstack-heat-templates-0-0.5.1e6015dgit.el7
 - project: heat-agents
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2948,7 +3117,8 @@ packages:
 - project: heat-dashboard
   name: openstack-heat-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   conf: rpmfactory-core
@@ -2959,7 +3129,8 @@ packages:
     cloud7-openstack-queens-release: openstack-heat-ui-1.0.2-1.el7
 - project: os-apply-config
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -2980,7 +3151,8 @@ packages:
     cloud7-openstack-queens-release: os-apply-config-8.3.0-1.el7
 - project: os-collect-config
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3001,7 +3173,8 @@ packages:
     cloud7-openstack-queens-release: os-collect-config-8.3.0-1.el7
 - project: os-net-config
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3022,7 +3195,8 @@ packages:
     cloud7-openstack-queens-release: os-net-config-8.4.3-1.el7
 - project: os-refresh-config
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3060,11 +3234,13 @@ packages:
     cloud7-openstack-ocata-release: os-cloud-config-6.0.0-1.el7
 - project: os-client-config
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.31.2
-    rocky-uc:
+    stein-uc:
       source-branch: 1.31.2
+    stein:
     rocky:
+      source-branch: 1.31.2
     queens:
       source-branch: 1.29.0
     pike:
@@ -3087,11 +3263,13 @@ packages:
     cloud7-openstack-queens-release: python-os-client-config-1.29.0-1.el7
 - project: os-win
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4.0.0
-    rocky-uc:
+    stein-uc:
       source-branch: 4.0.0
+    stein:
     rocky:
+      source-branch: 4.0.0
     queens:
       source-branch: 3.0.1
     pike:
@@ -3118,7 +3296,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-oswin-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: f5c9ea4dc83a6d3771a70c8f91b81ddbea00231d
@@ -3130,11 +3309,13 @@ packages:
 - project: os-xenapi
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.3.3
-    rocky-uc:
+    stein-uc:
       source-branch: 0.3.3
+    stein:
     rocky:
+      source-branch: 0.3.3
     queens:
       source-branch: 0.3.1
     pike:
@@ -3148,7 +3329,8 @@ packages:
     cloud7-openstack-queens-release: python-os-xenapi-0.3.1-1.el7
 - project: manila
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     ocata:
@@ -3169,7 +3351,8 @@ packages:
     cloud7-openstack-queens-release: openstack-manila-6.0.2-1.el7
 - project: zaqar
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3191,7 +3374,8 @@ packages:
     cloud7-openstack-queens-release: openstack-zaqar-6.0.1-1.el7
 - project: ironic-inspector
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3212,7 +3396,8 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-inspector-7.2.1-1.el7
 - project: ironic-python-agent
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3233,9 +3418,11 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-python-agent-3.2.1-1.el7
 - project: ironic-lib
   tags:
-    rocky-uc:
+    stein-uc:
       source-branch: 2.14.0
+    stein:
     rocky:
+      source-branch: 2.14.0
     queens:
       source-branch: 2.12.1
     pike:
@@ -3260,7 +3447,8 @@ packages:
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3292,7 +3480,8 @@ packages:
     cloud7-openstack-queens-release: openstack-barbican-6.0.1-1.el7
 - project: cloudkitty
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3314,7 +3503,8 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3335,7 +3525,8 @@ packages:
     cloud7-openstack-queens-release: openstack-cloudkitty-ui-7.0.0-1.el7
 - project: ec2-api
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3356,7 +3547,8 @@ packages:
     cloud7-openstack-queens-release: openstack-ec2-api-5.1.0-0.1.ec59a03git.el7
 - project: magnum
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3379,7 +3571,8 @@ packages:
     cloud7-openstack-queens-release: openstack-magnum-6.1.1-1.el7
 - project: manila-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3401,7 +3594,8 @@ packages:
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3422,7 +3616,8 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-lbaas-ui-4.0.0-1.el7
 - project: sahara-image-elements
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3445,7 +3640,8 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3467,7 +3663,8 @@ packages:
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3490,11 +3687,13 @@ packages:
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.17.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.17.0
+    stein:
     rocky:
+      source-branch: 3.17.0
     queens:
       source-branch: 3.15.0
     pike:
@@ -3515,11 +3714,13 @@ packages:
 - project: glanceclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.12.1
-    rocky-uc:
+    stein-uc:
       source-branch: 2.12.1
+    stein:
     rocky:
+      source-branch: 2.12.1
     queens:
       source-branch: 2.10.0
     pike:
@@ -3540,11 +3741,13 @@ packages:
 - project: novaclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 11.0.0
-    rocky-uc:
+    stein-uc:
       source-branch: 11.0.0
+    stein:
     rocky:
+      source-branch: 11.0.0
     queens:
       source-branch: 10.1.0
     pike:
@@ -3565,11 +3768,13 @@ packages:
 - project: swiftclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.6.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.6.0
+    stein:
     rocky:
+      source-branch: 3.6.0
     queens:
       source-branch: 3.5.0
     pike:
@@ -3590,7 +3795,7 @@ packages:
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
-    rocky-uc:
+    stein-uc:
       source-branch: 2.9.0
     rocky:
       source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
@@ -3614,11 +3819,13 @@ packages:
 - project: heatclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.16.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.16.1
+    stein:
     rocky:
+      source-branch: 1.16.1
     queens:
       source-branch: 1.14.0
     pike:
@@ -3639,11 +3846,13 @@ packages:
 - project: cinderclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4.0.1
-    rocky-uc:
+    stein-uc:
       source-branch: 4.0.1
+    stein:
     rocky:
+      source-branch: 4.0.1
     queens:
       source-branch: 3.5.0
     pike:
@@ -3667,11 +3876,13 @@ packages:
   - divius.inside@gmail.com
   - trown@redhat.com
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.5.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.5.0
+    stein:
     rocky:
+      source-branch: 2.5.0
     queens:
       source-branch: 2.2.1
     pike:
@@ -3696,11 +3907,13 @@ packages:
   - jruzicka@redhat.com
   - hguemar@fedoraproject.org
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 6.9.0
-    rocky-uc:
+    stein-uc:
       source-branch: 6.9.0
+    stein:
     rocky:
+      source-branch: 6.9.0
     queens:
       source-branch: 6.7.0
     pike:
@@ -3721,11 +3934,13 @@ packages:
 - project: saharaclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.0.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.0.0
+    stein:
     rocky:
+      source-branch: 2.0.0
     queens:
       source-branch: 1.5.0
     pike:
@@ -3746,11 +3961,13 @@ packages:
 - project: troveclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.16.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.16.0
+    stein:
     rocky:
+      source-branch: 2.16.0
     queens:
       source-branch: 2.14.0
     pike:
@@ -3771,11 +3988,13 @@ packages:
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.3.0
+    stein:
     rocky:
+      source-branch: 2.3.0
     queens:
       source-branch: 2.1.0
     pike:
@@ -3796,11 +4015,13 @@ packages:
 - project: designateclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.10.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.10.0
+    stein:
     rocky:
+      source-branch: 2.10.0
     queens:
       source-branch: 2.9.0
     pike:
@@ -3820,11 +4041,13 @@ packages:
     cloud7-openstack-queens-release: python-designateclient-2.9.0-1.el7
 - project: manilaclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.24.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.24.1
+    stein:
     rocky:
+      source-branch: 1.24.1
     queens:
       source-branch: 1.21.1
     pike:
@@ -3847,11 +4070,13 @@ packages:
     cloud7-openstack-queens-release: python-manilaclient-1.21.1-1.el7
 - project: barbicanclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4.7.0
-    rocky-uc:
+    stein-uc:
       source-branch: 4.7.0
+    stein:
     rocky:
+      source-branch: 4.7.0
     queens:
       source-branch: 4.6.0
     pike:
@@ -3876,8 +4101,9 @@ packages:
     cloud7-openstack-queens-release: python-barbicanclient-4.6.0-1.el7
 - project: cloudkittyclient
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -3899,11 +4125,13 @@ packages:
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 5.2.0
-    rocky-uc:
+    stein-uc:
       source-branch: 5.2.0
+    stein:
     rocky:
+      source-branch: 5.2.0
     queens:
       source-branch: 4.21.0
     pike:
@@ -3923,9 +4151,11 @@ packages:
     cloud7-openstack-queens-release: python-keystonemiddleware-4.21.0-1.el7
 - project: ceilometermiddleware
   tags:
-    rocky-uc:
+    stein-uc:
       source-branch: 1.3.0
+    stein:
     rocky:
+      source-branch: 1.3.0
     queens:
       source-branch: 1.2.0
     pike:
@@ -3950,11 +4180,13 @@ packages:
   maintainers:
   - dougal@redhat.com
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.16.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.16.0
+    stein:
     rocky:
+      source-branch: 3.16.0
     queens:
       source-branch: 3.14.2
     pike:
@@ -3977,11 +4209,13 @@ packages:
   maintainers:
   - tdecacqu@redhat.com
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.29.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.29.0
+    stein:
     rocky:
+      source-branch: 1.29.0
     queens:
       source-branch: 1.27.1
     pike:
@@ -3994,11 +4228,13 @@ packages:
     cloud7-openstack-queens-release: python-shade-1.27.1-1.el7
 - project: ironic-inspector-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.3.0
+    stein:
     rocky:
+      source-branch: 3.3.0
     queens:
       source-branch: 3.1.1
     pike:
@@ -4021,7 +4257,8 @@ packages:
     cloud7-openstack-queens-release: python-ironic-inspector-client-3.1.1-1.el7
 - project: tripleoclient
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -4044,11 +4281,13 @@ packages:
     cloud7-openstack-queens-release: python-tripleoclient-9.2.4-1.el7
 - project: zaqarclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.10.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.10.0
+    stein:
     rocky:
+      source-branch: 1.10.0
     queens:
       source-branch: 1.9.0
     pike:
@@ -4074,11 +4313,13 @@ packages:
 - project: openstacksdk
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.17.2
-    rocky-uc:
+    stein-uc:
       source-branch: 0.17.2
+    stein:
     rocky:
+      source-branch: 0.17.2
     queens:
       source-branch: 0.11.3
     pike:
@@ -4100,12 +4341,14 @@ packages:
 - project: gnocchiclient
   tags:
     #(TODO) remove version-locked when 7.0.4 is in u-c.
-    version-locked:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 7.0.4
-    rocky-uc:
+    stein-uc:
       source-branch: 7.0.4
+    stein:
     rocky:
+      source-branch: 7.0.4
+    version-locked:
     queens:
       source-branch: 7.0.1
     pike:
@@ -4129,11 +4372,13 @@ packages:
     cloud7-openstack-queens-release: python-gnocchiclient-7.0.1-1.el7
 - project: aodhclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.1.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.1.0
+    stein:
     rocky:
+      source-branch: 1.1.0
     queens:
       source-branch: 1.0.0
     pike:
@@ -4156,11 +4401,13 @@ packages:
     cloud7-openstack-queens-release: python-aodhclient-1.0.0-1.el7
 - project: pankoclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.5.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.5.0
+    stein:
     rocky:
+      source-branch: 0.5.0
     queens:
       source-branch: 0.4.1
     pike:
@@ -4175,11 +4422,13 @@ packages:
     cloud7-openstack-queens-release: python-pankoclient-0.4.1-1.el7
 - project: monascaclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.12.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.12.1
+    stein:
     rocky:
+      source-branch: 1.12.1
     queens:
       source-branch: 1.10.0
     pike:
@@ -4199,11 +4448,13 @@ packages:
     cloud7-openstack-queens-release: python-monascaclient-1.10.0-1.el7
 - project: mox3
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.26.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.26.0
+    stein:
     rocky:
+      source-branch: 0.26.0
     queens:
       source-branch: 0.24.0
     pike:
@@ -4225,11 +4476,13 @@ packages:
     cloud7-openstack-queens-release: python-mox3-0.24.0-1.el7
 - project: oslotest
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.6.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.6.0
+    stein:
     rocky:
+      source-branch: 3.6.0
     queens:
       source-branch: 3.2.0
     pike:
@@ -4252,8 +4505,9 @@ packages:
 - project: oslo-sphinx
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -4275,11 +4529,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.21.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.21.0
+    stein:
     rocky:
+      source-branch: 3.21.0
     queens:
       source-branch: 3.19.0
     pike:
@@ -4303,11 +4559,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 8.1.0
-    rocky-uc:
+    stein-uc:
       source-branch: 8.1.0
+    stein:
     rocky:
+      source-branch: 8.1.0
     queens:
       source-branch: 5.35.1
     pike:
@@ -4327,11 +4585,13 @@ packages:
     cloud7-openstack-queens-release: python-oslo-messaging-5.35.1-1.el7
 - project: oslo-cache
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.30.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.30.1
+    stein:
     rocky:
+      source-branch: 1.30.1
     queens:
       source-branch: 1.28.0
     pike:
@@ -4355,11 +4615,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 6.4.0
-    rocky-uc:
+    stein-uc:
       source-branch: 6.4.0
+    stein:
     rocky:
+      source-branch: 6.4.0
     queens:
       source-branch: 5.2.0
     pike:
@@ -4381,11 +4643,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.27.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.27.0
+    stein:
     rocky:
+      source-branch: 3.27.0
     queens:
       source-branch: 3.25.1
     pike:
@@ -4407,11 +4671,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 5.14.1
-    rocky-uc:
+    stein-uc:
       source-branch: 5.14.1
+    stein:
     rocky:
+      source-branch: 5.14.1
     queens:
       source-branch: 5.13.0
     pike:
@@ -4433,11 +4699,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.27.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.27.0
+    stein:
     rocky:
+      source-branch: 2.27.0
     queens:
       source-branch: 2.24.0
     pike:
@@ -4459,11 +4727,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.36.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.36.0
+    stein:
     rocky:
+      source-branch: 3.36.0
     queens:
       source-branch: 3.34.0
     pike:
@@ -4485,11 +4755,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 4.40.0
-    rocky-uc:
+    stein-uc:
       source-branch: 4.40.0
+    stein:
     rocky:
+      source-branch: 4.40.0
     queens:
       source-branch: 4.33.1
     pike:
@@ -4511,11 +4783,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.36.4
-    rocky-uc:
+    stein-uc:
       source-branch: 3.36.4
+    stein:
     rocky:
+      source-branch: 3.36.4
     queens:
       source-branch: 3.35.1
     pike:
@@ -4537,11 +4811,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.31.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.31.0
+    stein:
     rocky:
+      source-branch: 2.31.0
     queens:
       source-branch: 2.26.0
     pike:
@@ -4563,11 +4839,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.21.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.21.0
+    stein:
     rocky:
+      source-branch: 2.21.0
     queens:
       source-branch: 2.20.0
     pike:
@@ -4589,11 +4867,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.39.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.39.0
+    stein:
     rocky:
+      source-branch: 3.39.0
     queens:
       source-branch: 3.36.0
     pike:
@@ -4615,11 +4895,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.38.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.38.1
+    stein:
     rocky:
+      source-branch: 1.38.1
     queens:
       source-branch: 1.33.2
     pike:
@@ -4641,11 +4923,13 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.33.3
-    rocky-uc:
+    stein-uc:
       source-branch: 1.33.3
+    stein:
     rocky:
+      source-branch: 1.33.3
     queens:
       source-branch: 1.31.3
     pike:
@@ -4665,11 +4949,13 @@ packages:
     cloud7-openstack-queens-release: python-oslo-versionedobjects-1.31.3-1.el7
 - project: oslo-service
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.31.3
-    rocky-uc:
+    stein-uc:
       source-branch: 1.31.3
+    stein:
     rocky:
+      source-branch: 1.31.3
     queens:
       source-branch: 1.29.0
     pike:
@@ -4691,11 +4977,13 @@ packages:
     cloud7-openstack-queens-release: python-oslo-service-1.29.0-1.el7
 - project: oslo-reports
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.28.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.28.0
+    stein:
     rocky:
+      source-branch: 1.28.0
     queens:
       source-branch: 1.26.0
     pike:
@@ -4717,11 +5005,13 @@ packages:
     cloud7-openstack-queens-release: python-oslo-reports-1.26.0-1.el7
 - project: oslo-privsep
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.29.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.29.0
+    stein:
     rocky:
+      source-branch: 1.29.0
     queens:
       source-branch: 1.27.0
     pike:
@@ -4744,11 +5034,13 @@ packages:
 - project: ovsdbapp
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.12.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.12.0
+    stein:
     rocky:
+      source-branch: 0.12.0
     queens:
       source-branch: 0.10.1
     pike:
@@ -4765,11 +5057,13 @@ packages:
 - project: stevedore
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.29.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.29.0
+    stein:
     rocky:
+      source-branch: 1.29.0
     queens:
       source-branch: 1.28.0
     pike:
@@ -4791,11 +5085,13 @@ packages:
     cloud7-openstack-queens-release: python-stevedore-1.28.0-1.el7
 - project: castellan
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.18.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.18.0
+    stein:
     rocky:
+      source-branch: 0.18.0
     queens:
       source-branch: 0.17.0
     pike:
@@ -4817,11 +5113,13 @@ packages:
 - project: taskflow
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.2.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.2.0
+    stein:
     rocky:
+      source-branch: 3.2.0
     queens:
       source-branch: 3.1.0
     pike:
@@ -4842,11 +5140,13 @@ packages:
 - project: pycadf
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.8.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.8.0
+    stein:
     rocky:
+      source-branch: 2.8.0
     queens:
       source-branch: 2.7.0
     pike:
@@ -4866,11 +5166,13 @@ packages:
     cloud7-openstack-queens-release: python-pycadf-2.7.0-1.el7
 - project: debtcollector
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.20.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.20.0
+    stein:
     rocky:
+      source-branch: 1.20.0
     queens:
       source-branch: 1.19.0
     pike:
@@ -4891,11 +5193,13 @@ packages:
     cloud7-openstack-queens-release: python-debtcollector-1.19.0-1.el7
 - project: automaton
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.15.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.15.0
+    stein:
     rocky:
+      source-branch: 1.15.0
     queens:
       source-branch: 1.14.0
     pike:
@@ -4916,11 +5220,13 @@ packages:
     cloud7-openstack-queens-release: python-automaton-1.14.0-1.el7
 - project: cliff
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.13.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.13.0
+    stein:
     rocky:
+      source-branch: 2.13.0
     queens:
       source-branch: 2.11.1
     pike:
@@ -4943,11 +5249,13 @@ packages:
     cloud7-openstack-queens-release: python-cliff-2.11.1-1.el7
 - project: futurist
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.7.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.7.0
+    stein:
     rocky:
+      source-branch: 1.7.0
     queens:
       source-branch: 1.6.0
     pike:
@@ -4968,11 +5276,13 @@ packages:
     cloud7-openstack-queens-release: python-futurist-1.6.0-1.el7
 - project: cursive
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.2.2
-    rocky-uc:
+    stein-uc:
       source-branch: 0.2.2
+    stein:
     rocky:
+      source-branch: 0.2.2
     queens:
       source-branch: 0.2.1
     pike:
@@ -4995,11 +5305,13 @@ packages:
     cloud7-openstack-queens-release: python-cursive-0.2.1-1.el7
 - project: hacking
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
-    rocky-uc:
+    stein-uc:
       source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    stein:
     rocky:
+      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
     queens:
       source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
     pike:
@@ -5021,8 +5333,9 @@ packages:
     cloud7-openstack-queens-release: python-hacking-1.0.0-1.865398fgit.el7
 - project: wsme
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5081,8 +5394,9 @@ packages:
     cloud7-openstack-pike-release: openstack-puppet-modules-11.0.0-0.1.0rc1.el7
 - project: tripleo-common
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5103,7 +5417,8 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-common-8.6.4-1.el7
 - project: tripleo-repos
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   conf: rpmfactory-core
@@ -5112,7 +5427,8 @@ packages:
   - bnemec@redhat.com
 - project: tripleo-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5136,11 +5452,13 @@ packages:
   maintainers:
   - apevec@redhat.com
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.3.0
+    stein:
     rocky:
+      source-branch: 2.3.0
     queens:
       source-branch: 1.15.2
     pike:
@@ -5169,8 +5487,9 @@ packages:
   - michapma@redhat.com
   - jlibosva@redhat.com
   tags:
+    stein-uc:
+    stein:
     rocky:
-    rocky-uc:
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
@@ -5188,7 +5507,8 @@ packages:
 - project: networking-baremetal
   conf: rpmfactory-lib
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -5200,7 +5520,8 @@ packages:
 - project: networking-generic-switch
   conf: rpmfactory-lib
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -5239,7 +5560,8 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-sfc
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5285,8 +5607,9 @@ packages:
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5321,7 +5644,8 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5377,7 +5701,8 @@ packages:
     cloud7-openstack-queens-testing: python-UcsSdk-0.8.2.5-1.el7
     cloud7-openstack-queens-release: python-UcsSdk-0.8.2.5-1.el7
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5398,7 +5723,8 @@ packages:
   - sam@code-smash.net
 - project: tripleo-puppet-elements
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5419,11 +5745,13 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.1-1.el7
 - project: os-brick
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.5.3
-    rocky-uc:
+    stein-uc:
       source-branch: 2.5.3
+    stein:
     rocky:
+      source-branch: 2.5.3
     queens:
       source-branch: 2.3.3
     pike:
@@ -5449,7 +5777,8 @@ packages:
     cloud7-openstack-queens-release: python-os-brick-2.3.2-1.el7
 - project: hardware
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5476,11 +5805,13 @@ packages:
     cloud7-openstack-queens-release: python-hardware-0.18-1.el7
 - project: keystoneauth1
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.10.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.10.0
+    stein:
     rocky:
+      source-branch: 3.10.0
     queens:
       source-branch: 3.4.0
     pike:
@@ -5502,7 +5833,8 @@ packages:
     cloud7-openstack-queens-release: python-keystoneauth1-3.4.0-1.el7
 - project: rally
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 0.11.0
@@ -5528,11 +5860,13 @@ packages:
     cloud7-openstack-queens-release: openstack-rally-0.11.0-1.el7
 - project: tempest
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 19.0.0
-    rocky-uc:
+    stein-uc:
       source-branch: 19.0.0
+    stein:
     rocky:
+      source-branch: 19.0.0
     queens:
       source-branch: 18.0.0
     pike:
@@ -5570,11 +5904,13 @@ packages:
     cloud7-openstack-newton-release: python-tempest-lib-1.0.0-1.el7
 - project: os-testr
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.0.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.0.0
+    stein:
     rocky:
+      source-branch: 1.0.0
     queens:
       source-branch: 1.0.0
     pike:
@@ -5598,9 +5934,11 @@ packages:
     cloud7-openstack-queens-release: python-os-testr-1.0.0-1.el7
 - project: proliantutils
   tags:
-    rocky-uc:
+    stein-uc:
       source-branch: 2.5.0
+    stein:
     rocky:
+      source-branch: 2.5.0
     queens:
       source-branch: 2.5.0
     pike:
@@ -5626,7 +5964,8 @@ packages:
     cloud7-openstack-queens-release: python-proliantutils-2.5.0-1.el7
 - project: dracclient
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5650,11 +5989,13 @@ packages:
     cloud7-openstack-queens-release: python-dracclient-1.3.1-1.el7
 - project: mistralclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 3.7.0
-    rocky-uc:
+    stein-uc:
       source-branch: 3.7.0
+    stein:
     rocky:
+      source-branch: 3.7.0
     queens:
       source-branch: 3.3.0
     pike:
@@ -5687,7 +6028,8 @@ packages:
   - dougal@redhat.com
 - project: mistral
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5708,11 +6050,13 @@ packages:
     cloud7-openstack-queens-release: openstack-mistral-6.0.3-1.el7
 - project: mistral-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.0.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.0.0
+    stein:
     rocky:
+      source-branch: 1.0.0
     queens:
       source-branch: 0.4.0
     pike:
@@ -5727,11 +6071,13 @@ packages:
     cloud7-openstack-queens-release: python-mistral-lib-0.4.0-1.el7
 - project: requestsexceptions
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.4.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.4.0
+    stein:
     rocky:
+      source-branch: 1.4.0
     queens:
       source-branch: 1.4.0
     pike:
@@ -5772,7 +6118,8 @@ packages:
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5794,7 +6141,8 @@ packages:
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5816,11 +6164,13 @@ packages:
     cloud7-openstack-queens-release: openstack-magnum-ui-4.0.0-1.el7
 - project: tooz
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.62.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.62.0
+    stein:
     rocky:
+      source-branch: 1.62.0
     queens:
       source-branch: 1.60.1
     pike:
@@ -5844,11 +6194,13 @@ packages:
     cloud7-openstack-queens-release: python-tooz-1.60.1-1.el7
 - project: magnumclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.10.0
-    rocky-uc:
+    stein-uc:
       source-branch: 2.10.0
+    stein:
     rocky:
+      source-branch: 2.10.0
     queens:
       source-branch: 2.9.1
     pike:
@@ -5874,11 +6226,13 @@ packages:
     cloud7-openstack-queens-release: python-magnumclient-2.9.1-1.el7
 - project: congressclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.11.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.11.0
+    stein:
     rocky:
+      source-branch: 1.11.0
     queens:
       source-branch: 1.9.0
     pike:
@@ -5902,11 +6256,13 @@ packages:
     cloud7-openstack-queens-release: python-congressclient-1.9.0-1.el7
 - project: muranoclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.1.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.1.1
+    stein:
     rocky:
+      source-branch: 1.1.1
     queens:
       source-branch: 1.0.1
     pike:
@@ -5930,7 +6286,8 @@ packages:
     cloud7-openstack-queens-release: python-muranoclient-1.0.1-1.el7
 - project: murano
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5951,7 +6308,8 @@ packages:
     cloud7-openstack-queens-release: openstack-murano-5.0.0-1.el7
 - project: murano-agent
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5972,7 +6330,8 @@ packages:
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -5993,11 +6352,13 @@ packages:
     cloud7-openstack-queens-release: openstack-murano-ui-5.0.0-1.el7
 - project: reno
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 2.9.2
-    rocky-uc:
+    stein-uc:
       source-branch: 2.9.2
+    stein:
     rocky:
+      source-branch: 2.9.2
     queens:
       source-branch: 2.7.0
     pike:
@@ -6031,11 +6392,13 @@ packages:
     cloud7-openstack-newton-release: python-k8sclient-0.3.0-1.el7
 - project: microversion-parse
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.2.1
-    rocky-uc:
+    stein-uc:
       source-branch: 0.2.1
+    stein:
     rocky:
+      source-branch: 0.2.1
     queens:
       source-branch: 0.1.4
     pike:
@@ -6057,11 +6420,13 @@ packages:
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.11.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.11.1
+    stein:
     rocky:
+      source-branch: 1.11.1
     queens:
       source-branch: 1.9.0
     pike:
@@ -6085,7 +6450,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-horizon-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: a23f4074fd458b74e9de1a583b7812e1ef855bce
@@ -6106,11 +6472,13 @@ packages:
 - project: os-vif
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.11.1
-    rocky-uc:
+    stein-uc:
       source-branch: 1.11.1
+    stein:
     rocky:
+      source-branch: 1.11.1
     queens:
       source-branch: 1.9.1
     pike:
@@ -6134,7 +6502,8 @@ packages:
   conf: rpmfactory-lib
   name: openstack-sahara-tests
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 0.6.0
@@ -6161,8 +6530,9 @@ packages:
   conf: rpmfactory-lib
   name: python-os-faults
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6184,7 +6554,8 @@ packages:
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6203,11 +6574,13 @@ packages:
 - project: virtualbmc
   name: python-virtualbmc
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.3.0
+    stein:
     rocky:
+      source-branch: 1.3.0
     queens:
       source-branch: 1.2.0
     pike:
@@ -6229,7 +6602,8 @@ packages:
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6246,7 +6620,8 @@ packages:
 - project: novajoin
   name: python-novajoin
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6267,7 +6642,8 @@ packages:
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6286,7 +6662,8 @@ packages:
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6304,7 +6681,8 @@ packages:
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6322,7 +6700,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 9ffb185ea061fb5f6379b02513ba6c3ab459ae4c
@@ -6335,9 +6714,11 @@ packages:
   name: python-heat-translator
   conf: rpmfactory-lib
   tags:
-    rocky-uc:
+    stein-uc:
       source-branch: 1.1.0
+    stein:
     rocky:
+      source-branch: 1.1.0
     queens:
       source-branch: 0.9.0
     pike:
@@ -6356,7 +6737,8 @@ packages:
 - project: tacker
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6373,11 +6755,13 @@ packages:
 - project: tackerclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.14.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.14.0
+    stein:
     rocky:
+      source-branch: 0.14.0
     queens:
       source-branch: 0.11.0
     pike:
@@ -6398,8 +6782,9 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/redhat-openstack/ansible-pacemaker
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6418,7 +6803,8 @@ packages:
 - project: congress
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6435,8 +6821,9 @@ packages:
 - project: shaker
   name: python-shaker
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6455,7 +6842,8 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/python-%(project)s
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 1.1.4
@@ -6477,11 +6865,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://github.com/kemra102/puppet-auditd
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
-    rocky-uc:
+    stein-uc:
       source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
+    stein:
     rocky:
+      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
     queens:
       source-branch: c0c1ccb971dba3c085099ac3b012523f6c6b52a9
     pike:
@@ -6499,7 +6889,8 @@ packages:
     cloud7-openstack-queens-release: puppet-auditd-2.2.0-2.c0c1ccbgit.el7
 - project: kolla
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6523,8 +6914,9 @@ packages:
   - lon@metamorphism.com
   - rhallise@redhat.com
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6541,11 +6933,13 @@ packages:
 - project: sushy
   name: python-sushy
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.6.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.6.0
+    stein:
     rocky:
+      source-branch: 1.6.0
     queens:
       source-branch: 1.3.2
     pike:
@@ -6575,7 +6969,8 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/gnocchixyz/collectd-gnocchi
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -6590,8 +6985,9 @@ packages:
   name: python-kuryr-lib
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6608,7 +7004,8 @@ packages:
 - project: kuryr-kubernetes
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6624,7 +7021,8 @@ packages:
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 0.2.0
@@ -6643,7 +7041,8 @@ packages:
   name: osops-tools-monitoring-oschecks
   upstream: https://github.com/openstack/osops-tools-monitoring
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6658,9 +7057,11 @@ packages:
     cloud7-openstack-pike-release: osops-tools-monitoring-oschecks-0.0.1-0.1.1a3ca01git.el7
 - project: paunch
   tags:
-    rocky-uc:
+    stein-uc:
       source-branch: 3.0.0
+    stein:
     rocky:
+      source-branch: 3.0.0
     queens:
       source-branch: 2.5.0
     pike:
@@ -6675,8 +7076,9 @@ packages:
     cloud7-openstack-queens-release: python-paunch-2.5.0-1.el7
 - project: scciclient
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6693,11 +7095,13 @@ packages:
 - project: os-traits
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.9.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.9.0
+    stein:
     rocky:
+      source-branch: 0.9.0
     queens:
       source-branch: 0.5.0
     pike:
@@ -6717,7 +7121,8 @@ packages:
   - rmascena@redhat.com
   - hrybacki@redhat.com
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 0.3.0
@@ -6730,7 +7135,8 @@ packages:
 - project: glare
   conf: rpmfactory-core
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6743,11 +7149,13 @@ packages:
 - project: glareclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.5.3
-    rocky-uc:
+    stein-uc:
       source-branch: 0.5.3
+    stein:
     rocky:
+      source-branch: 0.5.3
     queens:
       source-branch: 0.5.2
     pike:
@@ -6767,7 +7175,8 @@ packages:
   - panbalag@redhat.com
   - alee@redhat.com
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 564670bead8da7669a2f1c82d0dd3cf41b75fd5b
@@ -6782,7 +7191,8 @@ packages:
   name: openstack-senlin
   upstream: https://github.com/openstack/senlin
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6797,11 +7207,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
-    rocky-uc:
+    stein-uc:
       source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
+    stein:
     rocky:
+      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
     queens:
       source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
     pike:
@@ -6819,7 +7231,8 @@ packages:
   conf: rpmfactory-core
   upstream: https://github.com/openstack/neutron-dynamic-routing
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -6831,11 +7244,13 @@ packages:
   conf: rpmfactory-client
   upstream: https://github.com/openstack/python-senlinclient
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.8.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.8.0
+    stein:
     rocky:
+      source-branch: 1.8.0
     queens:
       source-branch: 1.7.0
     pike:
@@ -6851,7 +7266,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-barbican-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 5ddcc7eefaefb4ef178081ec4838e8f450c6c1dd
@@ -6867,7 +7283,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-vmware-nsx-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 604448cdcd01e9d759726f10831da4ad5f607ac3
@@ -6897,7 +7314,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-watcher-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: f453e4f7e532547b501df266eaf1ebfd4924d248
@@ -6908,7 +7326,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-novajoin-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 59d7ba68345a55cd7c6879b623177ebdc39b0414
@@ -6922,8 +7341,9 @@ packages:
   conf: rpm-packaging
   upstream: https://github.com/javierpena/openstack-macros
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -6941,11 +7361,13 @@ packages:
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: a2f5eb6411747f782da3c20fb3e8460f710c48d2
-    rocky-uc:
+    stein-uc:
       source-branch: a2f5eb6411747f782da3c20fb3e8460f710c48d2
+    stein:
     rocky:
+      source-branch: a2f5eb6411747f782da3c20fb3e8460f710c48d2
     queens:
       source-branch: 10888dbf9c5b99fd11cd495ea9e46a232bf858a8
     pike:
@@ -6958,11 +7380,13 @@ packages:
 - project: os-service-types
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.3.0
+    stein:
     rocky:
+      source-branch: 1.3.0
     queens:
       source-branch: 1.1.0
   maintainers:
@@ -6974,7 +7398,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-zaqar-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: f6c761d2138824849ca3036e49210e7649978ebb
@@ -6986,11 +7411,13 @@ packages:
 - project: rsd-lib
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.2.2
-    rocky-uc:
+    stein-uc:
       source-branch: 0.2.2
+    stein:
     rocky:
+      source-branch: 0.2.2
     queens:
       source-branch: 0.1.1
   maintainers:
@@ -7002,11 +7429,13 @@ packages:
 - project: rsdclient
   conf: rpmfactory-client
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.1.3
-    rocky-uc:
+    stein-uc:
       source-branch: 0.1.3
+    stein:
     rocky:
+      source-branch: 0.1.3
     queens:
       source-branch: 0.1.1
   maintainers:
@@ -7019,7 +7448,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-heat-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 9d99219f3e3f6ebb48cf6823b677c27609c52072
@@ -7032,7 +7462,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-murano-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: c8de2b6f9ffd974618f3e605b6625d12b6ebd844
@@ -7045,8 +7476,9 @@ packages:
   conf: rpmfactory-lib
   name: ansible-tripleo-ipsec
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -7058,7 +7490,8 @@ packages:
   conf: rpmfactory-lib
   name: ansible-role-redhat-subscription
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
   maintainers:
@@ -7070,7 +7503,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-mistral-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 530bee8d11b1cc27bb677a30203f3127042c04e8
@@ -7083,7 +7517,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-tripleo-common-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 89909a6b2ffdb91545a6564b22c3fd3e3601e8d1
@@ -7094,7 +7529,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-manila-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 7f35fc0f5e9836502f0b92fba5bd65cd93d7047d
@@ -7105,7 +7541,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-magnum-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: d1ff331528d17a0c112ea183e1db4a14cb9e5957
@@ -7118,7 +7555,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-vitrage-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 3b51d5479ab46f3303d420496bc5ed859bfc3052
@@ -7131,7 +7569,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-trove-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: afc68dfc120bda7e131126fb2683dfdab2d26b9e
@@ -7142,7 +7581,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-telemetry-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 11277a8bee2b0ee0688ed32cc0e836872c24ee4b
@@ -7153,7 +7593,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-cinder-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: aafbdf87047f1eeabd9566db50765a72d6f18be1
@@ -7166,7 +7607,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-ironic-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: b50f6e0e83b6a73097a0946114f03aa18567617f
@@ -7179,7 +7621,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-ec2api-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: ba836d429f38ce0831cf336feb2a620fdcf3efcb
@@ -7190,7 +7633,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-congress-tests-tempest
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
       source-branch: 2eb5269e6ce81807b261ceb41c6a2e28bfd01d37
@@ -7202,8 +7646,9 @@ packages:
   name: python-tap-as-a-service
   tags:
     # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
+    stein-uc:
+    stein:
     version-locked:
-    rocky-uc:
     rocky:
     queens:
   maintainers:
@@ -7215,7 +7660,8 @@ packages:
 - project: designate-dashboard
   name: openstack-designate-ui
   tags:
-    rocky-uc:
+    stein-uc:
+    stein:
     rocky:
     queens:
     pike:
@@ -7232,8 +7678,9 @@ packages:
   conf: rpmfactory-lib
   name: ansible-role-container-registry
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
   maintainers:
   - emilien@redhat.com
@@ -7241,41 +7688,48 @@ packages:
   conf: rpmfactory-lib
   name: ansible-role-tripleo-modify-image
   tags:
-    rocky-py3-uc:
-    rocky-uc:
+    stein-py3-uc:
+    stein-uc:
+    stein:
     rocky:
   maintainers:
   - sbaker@redhat.com
 - project: metalsmith
   name: python-metalsmith
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.5.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.5.0
+    stein:
     rocky:
+      source-branch: 0.5.0
   conf: rpmfactory-lib
   maintainers:
   - divius.inside@gmail.com
 - project: sphinx-feature-classification
   name: python-sphinx-feature-classification
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 0.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 0.3.0
+    stein:
     rocky:
+      source-branch: 0.3.0
   conf: rpmfactory-lib
   maintainers:
   - amoralej@redhat.com
 - project: osc-placement
   conf: rpmfactory-lib
   tags:
-    rocky-py3-uc:
+    stein-py3-uc:
       source-branch: 1.3.0
-    rocky-uc:
+    stein-uc:
       source-branch: 1.3.0
+    stein:
     rocky:
+      source-branch: 1.3.0
     queens:
   maintainers:
   - mbooth@redhat.com
