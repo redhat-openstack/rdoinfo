@@ -1640,7 +1640,7 @@ packages:
     cloud7-openstack-queens-testing: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-queens-candidate: python-kubernetes-4.0.0-1.el7
     cloud7-openstack-queens-release: python-kubernetes-4.0.0-1.el7
-    cloud7-openstack-rocky-candidate: python-kubernetes-5.0.0-1.el7
+    cloud7-openstack-rocky-candidate: python-kubernetes-6.0.0-1.el7
     cloud7-openstack-rocky-testing: python-kubernetes-5.0.0-1.el7
 - project: openstack-utils
   name: openstack-utils
@@ -4607,6 +4607,7 @@ packages:
     cloud7-openstack-queens-candidate: python-google-auth-1.3.0-1.el7
     cloud7-openstack-queens-release: python-google-auth-1.3.0-1.el7
     cloud7-openstack-rocky-testing: python-google-auth-1.3.0-1.el7
+    cloud7-openstack-rocky-candidate: python-google-auth-1.1.1-1.el7
 - project: onigumura
   name: onigumura
   conf: fedora-dependency
