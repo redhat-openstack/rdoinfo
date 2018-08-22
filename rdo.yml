@@ -3795,6 +3795,8 @@ packages:
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
+    # ceilometerclient is deprecated but still needed for watcher/vitrage.
+    version-locked:
     stein-uc:
       source-branch: 2.9.0
     stein:
