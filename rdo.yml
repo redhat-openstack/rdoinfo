@@ -2695,7 +2695,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-fwaas-11.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-fwaas-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-fwaas-12.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-fwaas-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-fwaas-13.0.0-0.2.0rc2.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
   maintainers:
@@ -2946,7 +2946,7 @@ packages:
     cloud7-openstack-pike-release: openstack-sahara-7.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-sahara-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-sahara-8.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-sahara-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-sahara-9.0.0-0.2.0rc2.el7
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
@@ -3820,7 +3820,7 @@ packages:
     cloud7-openstack-pike-release: openstack-sahara-ui-7.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-sahara-ui-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-sahara-ui-8.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.0-0.2.0rc2.el7
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
@@ -7916,6 +7916,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
     cloud7-openstack-queens-release: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
+    cloud7-openstack-rocky-testing: python-congress-tests-tempest-0.1.0-1.el7
 - project: tap-as-a-service
   conf: rpmfactory-lib
   name: python-tap-as-a-service
