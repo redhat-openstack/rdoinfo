@@ -2299,7 +2299,7 @@ packages:
     cloud7-openstack-pike-release: openstack-nova-16.1.4-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.5-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.5-1.el7
-    cloud7-openstack-rocky-testing: openstack-nova-18.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-nova-18.0.0-0.3.0rc3.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -2326,7 +2326,7 @@ packages:
     cloud7-openstack-pike-release: openstack-keystone-12.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-keystone-13.0.1-1.el7
     cloud7-openstack-queens-release: openstack-keystone-13.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-0.2.0rc2.el7
 - project: glance
   conf: rpmfactory-core
   maintainers:
@@ -2562,7 +2562,7 @@ packages:
     cloud7-openstack-pike-release: openstack-cinder-11.1.1-1.el7
     cloud7-openstack-queens-testing: openstack-cinder-12.0.3-1.el7
     cloud7-openstack-queens-release: openstack-cinder-12.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-cinder-13.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-cinder-13.0.0-0.3.0rc3.el7
 - project: ironic
   tags:
     stein-uc:
@@ -3697,7 +3697,7 @@ packages:
     cloud7-openstack-pike-release: openstack-magnum-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-magnum-6.1.1-1.el7
     cloud7-openstack-queens-release: openstack-magnum-6.1.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-magnum-7.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-magnum-7.0.1-1.el7
 - project: manila-ui
   tags:
     stein-uc:
