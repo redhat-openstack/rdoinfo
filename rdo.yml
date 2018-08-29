@@ -3520,7 +3520,7 @@ packages:
       source-branch: 4.0.1
     stein:
     rocky:
-      source-branch: 4.0.0
+      source-branch: 4.0.1
     queens:
       source-branch: 3.0.1
     pike:
@@ -4091,6 +4091,7 @@ packages:
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
+    version-locked:
     stein-uc:
       source-branch: 2.9.0
     stein:
@@ -5481,7 +5482,7 @@ packages:
       source-branch: 0.18.0
     stein:
     rocky:
-      source-branch: 0.18.0
+      source-branch: 0.19.0
     queens:
       source-branch: 0.17.0
     pike:
@@ -7069,7 +7070,7 @@ packages:
       source-branch: 1.4.0
     stein:
     rocky:
-      source-branch: 1.3.0
+      source-branch: 1.4.0
     queens:
       source-branch: 1.2.0
     pike:
