@@ -3558,7 +3558,7 @@ packages:
     cloud7-openstack-pike-release: python-os-win-2.2.0-1.el7
     cloud7-openstack-queens-testing: python-os-win-3.0.1-1.el7
     cloud7-openstack-queens-release: python-os-win-3.0.1-1.el7
-    cloud7-openstack-rocky-testing: python-os-win-4.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-os-win-4.0.1-1.el7
     cloud7-openstack-rocky-release: python-os-win-4.0.0-1.el7
 - project: oswin-tempest-plugin
   conf: rpmfactory-tempest-plugin
@@ -5519,7 +5519,7 @@ packages:
     cloud7-openstack-pike-release: python-castellan-0.12.2-1.el7
     cloud7-openstack-queens-testing: python-castellan-0.17.0-1.el7
     cloud7-openstack-queens-release: python-castellan-0.17.0-1.el7
-    cloud7-openstack-rocky-testing: python-castellan-0.18.0-1.el7
+    cloud7-openstack-rocky-testing: python-castellan-0.19.0-1.el7
     cloud7-openstack-rocky-release: python-castellan-0.18.0-1.el7
 - project: taskflow
   conf: rpmfactory-lib
@@ -5985,6 +5985,7 @@ packages:
     cloud7-openstack-ocata-release: python-networking-mlnx-10.0.0-1.el7
     cloud7-openstack-pike-testing: python-networking-mlnx-11.0.0-1.el7
     cloud7-openstack-pike-release: python-networking-mlnx-11.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-networking-mlnx-12.0.0-1.el7
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
@@ -6823,6 +6824,7 @@ packages:
     cloud7-openstack-pike-release: openstack-murano-agent-3.3.0-1.el7
     cloud7-openstack-queens-testing: openstack-murano-agent-3.4.0-1.el7
     cloud7-openstack-queens-release: openstack-murano-agent-3.4.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-murano-agent-3.5.1-1.el7
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
@@ -7113,6 +7115,7 @@ packages:
     cloud7-openstack-pike-release: python-virtualbmc-1.2.0-1.el7
     cloud7-openstack-queens-testing: python-virtualbmc-1.2.0-1.el7
     cloud7-openstack-queens-release: python-virtualbmc-1.2.0-1.el7
+    cloud7-openstack-rocky-testing: python-virtualbmc-1.4.0-1.el7
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
