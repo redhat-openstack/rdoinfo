@@ -2393,7 +2393,7 @@ packages:
     cloud7-openstack-pike-release: openstack-nova-16.1.4-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.5-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.5-1.el7
-    cloud7-openstack-rocky-testing: openstack-nova-18.0.0-0.3.0rc3.el7
+    cloud7-openstack-rocky-testing: openstack-nova-18.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-nova-18.0.0-0.3.0rc3.el7
 - project: keystone
   conf: rpmfactory-core
@@ -2421,7 +2421,7 @@ packages:
     cloud7-openstack-pike-release: openstack-keystone-12.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-keystone-13.0.1-1.el7
     cloud7-openstack-queens-release: openstack-keystone-13.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-keystone-14.0.0-0.2.0rc2.el7
 - project: glance
   conf: rpmfactory-core
@@ -2450,7 +2450,7 @@ packages:
     cloud7-openstack-pike-release: openstack-glance-15.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-glance-16.0.1-1.el7
     cloud7-openstack-queens-release: openstack-glance-16.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-glance-17.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-glance-17.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-glance-17.0.0-0.2.0rc2.el7
 - project: glance_store
   conf: rpmfactory-core
@@ -2640,7 +2640,7 @@ packages:
     cloud7-openstack-pike-release: openstack-heat-9.0.4-1.el7
     cloud7-openstack-queens-testing: openstack-heat-10.0.1-1.el7
     cloud7-openstack-queens-release: openstack-heat-10.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-heat-11.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-heat-11.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-heat-11.0.0-0.2.0rc2.el7
 - project: cinder
   conf: rpmfactory-core
@@ -2666,7 +2666,7 @@ packages:
     cloud7-openstack-pike-release: openstack-cinder-11.1.1-1.el7
     cloud7-openstack-queens-testing: openstack-cinder-12.0.3-1.el7
     cloud7-openstack-queens-release: openstack-cinder-12.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-cinder-13.0.0-0.3.0rc3.el7
+    cloud7-openstack-rocky-testing: openstack-cinder-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-cinder-13.0.0-0.3.0rc3.el7
 - project: ironic
   tags:
@@ -2720,7 +2720,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-11.0.5-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-12.0.3-1.el7
     cloud7-openstack-queens-release: openstack-neutron-12.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-13.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-13.0.0-0.2.0rc2.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -2801,7 +2801,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-fwaas-11.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-fwaas-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-fwaas-12.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-fwaas-13.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-fwaas-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.0-0.2.0rc2.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
@@ -2824,7 +2824,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-lbaas-11.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-lbaas-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-lbaas-12.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-lbaas-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-lbaas-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-13.0.0-0.1.0rc1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
@@ -2845,7 +2845,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-vpnaas-11.0.0-0.1.0rc1.el7
     cloud7-openstack-queens-testing: openstack-neutron-vpnaas-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-vpnaas-12.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-vpnaas-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-vpnaas-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.0-0.1.0rc1.el7
 - project: designate
   conf: rpmfactory-core
@@ -2861,7 +2861,7 @@ packages:
     cloud7-openstack-pike-release: openstack-designate-5.0.2-1.el7
     cloud7-openstack-queens-testing: openstack-designate-6.0.1-1.el7
     cloud7-openstack-queens-release: openstack-designate-6.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-designate-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-designate-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-designate-7.0.0-0.1.0rc1.el7
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
@@ -2915,7 +2915,7 @@ packages:
     cloud7-openstack-pike-release: openstack-octavia-1.0.2-1.el7
     cloud7-openstack-queens-testing: openstack-octavia-2.0.1-1.el7
     cloud7-openstack-queens-release: openstack-octavia-2.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-octavia-3.0.0-0.3.0rc3.el7
+    cloud7-openstack-rocky-testing: openstack-octavia-3.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-octavia-3.0.0-0.3.0rc3.el7
 - project: octavia-dashboard
   name: openstack-octavia-ui
@@ -2933,7 +2933,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-octavia-ui-1.0.1-1.el7
     cloud7-openstack-queens-release: openstack-octavia-ui-1.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-octavia-ui-2.0.0-0.3.0rc3.el7
+    cloud7-openstack-rocky-testing: openstack-octavia-ui-2.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-octavia-ui-2.0.0-0.3.0rc3.el7
 - project: octaviaclient
   conf: rpmfactory-client
@@ -3064,7 +3064,7 @@ packages:
     cloud7-openstack-pike-release: openstack-sahara-7.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-sahara-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-sahara-8.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-sahara-9.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-sahara-9.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-sahara-9.0.0-0.2.0rc2.el7
 - project: horizon
   conf: rpmfactory-core
@@ -3080,7 +3080,7 @@ packages:
     cloud7-openstack-pike-release: python-django-horizon-12.0.3-1.el7
     cloud7-openstack-queens-testing: python-django-horizon-13.0.1-1.el7
     cloud7-openstack-queens-release: python-django-horizon-13.0.1-1.el7
-    cloud7-openstack-rocky-testing: python-django-horizon-14.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: python-django-horizon-14.0.0-1.el7
     cloud7-openstack-rocky-release: python-django-horizon-14.0.0-0.2.0rc2.el7
 - project: trove
   conf: rpmfactory-core
@@ -3096,7 +3096,7 @@ packages:
     cloud7-openstack-pike-release: openstack-trove-8.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-trove-9.0.0-1.el7
     cloud7-openstack-queens-release: openstack-trove-9.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-trove-10.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-trove-10.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-trove-10.0.0-0.1.0rc1.el7
 - project: django_openstack_auth
   conf: rpmfactory-lib
@@ -3621,7 +3621,7 @@ packages:
     cloud7-openstack-pike-release: openstack-manila-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-manila-6.0.2-1.el7
     cloud7-openstack-queens-release: openstack-manila-6.0.2-1.el7
-    cloud7-openstack-rocky-testing: openstack-manila-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-manila-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-manila-7.0.0-0.1.0rc1.el7
 - project: zaqar
   tags:
@@ -3646,7 +3646,7 @@ packages:
     cloud7-openstack-pike-release: openstack-zaqar-5.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-zaqar-6.0.1-1.el7
     cloud7-openstack-queens-release: openstack-zaqar-6.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-zaqar-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-zaqar-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-zaqar-7.0.0-0.1.0rc1.el7
 - project: ironic-inspector
   tags:
@@ -3762,7 +3762,7 @@ packages:
     cloud7-openstack-pike-release: openstack-barbican-5.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-barbican-6.0.1-1.el7
     cloud7-openstack-queens-release: openstack-barbican-6.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-barbican-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-barbican-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-barbican-7.0.0-0.1.0rc1.el7
 - project: cloudkitty
   tags:
@@ -3910,7 +3910,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-lbaas-ui-3.0.2-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-lbaas-ui-4.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-lbaas-ui-4.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-lbaas-ui-5.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-lbaas-ui-5.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-ui-5.0.0-0.2.0rc2.el7
 - project: sahara-image-elements
   tags:
@@ -3935,7 +3935,7 @@ packages:
     cloud7-openstack-pike-release: sahara-image-elements-7.0.1-1.el7
     cloud7-openstack-queens-testing: sahara-image-elements-8.0.1-1.el7
     cloud7-openstack-queens-release: sahara-image-elements-8.0.1-1.el7
-    cloud7-openstack-rocky-testing: sahara-image-elements-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: sahara-image-elements-9.0.0-1.el7
     cloud7-openstack-rocky-release: sahara-image-elements-9.0.0-0.1.0rc1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
@@ -3960,7 +3960,7 @@ packages:
     cloud7-openstack-pike-release: openstack-trove-ui-9.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-trove-ui-10.0.0-1.el7
     cloud7-openstack-queens-release: openstack-trove-ui-10.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-trove-ui-11.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-trove-ui-11.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-trove-ui-11.0.0-0.1.0rc1.el7
 - project: sahara-dashboard
   name: openstack-sahara-ui
@@ -3986,7 +3986,7 @@ packages:
     cloud7-openstack-pike-release: openstack-sahara-ui-7.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-sahara-ui-8.0.1-1.el7
     cloud7-openstack-queens-release: openstack-sahara-ui-8.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-sahara-ui-9.0.0-0.2.0rc2.el7
 - project: keystoneclient
   conf: rpmfactory-client
@@ -6001,7 +6001,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-odl-11.0.0-1.el7
     cloud7-openstack-queens-testing: python-networking-odl-12.0.0-1.el7
     cloud7-openstack-queens-release: python-networking-odl-12.0.0-1.el7
-    cloud7-openstack-rocky-testing: python-networking-odl-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: python-networking-odl-13.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-odl-13.0.0-0.1.0rc1.el7
 - project: networking-sfc
   conf: rpmfactory-lib
@@ -6024,7 +6024,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-sfc-5.0.0-1.el7
     cloud7-openstack-queens-testing: python-networking-sfc-6.0.0-1.el7
     cloud7-openstack-queens-release: python-networking-sfc-6.0.0-1.el7
-    cloud7-openstack-rocky-testing: python-networking-sfc-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: python-networking-sfc-7.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-sfc-7.0.0-0.1.0rc1.el7
 - project: networking-vsphere
   conf: rpmfactory-lib
@@ -6118,7 +6118,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-ovn-3.0.1-1.el7
     cloud7-openstack-queens-testing: python-networking-ovn-4.0.2-1.el7
     cloud7-openstack-queens-release: python-networking-ovn-4.0.2-1.el7
-    cloud7-openstack-rocky-testing: python-networking-ovn-5.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: python-networking-ovn-5.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-ovn-5.0.0-0.1.0rc1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
@@ -6525,7 +6525,7 @@ packages:
     cloud7-openstack-pike-release: openstack-mistral-5.2.4-1.el7
     cloud7-openstack-queens-testing: openstack-mistral-6.0.3-1.el7
     cloud7-openstack-queens-release: openstack-mistral-6.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-mistral-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-mistral-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-mistral-7.0.0-0.1.0rc1.el7
 - project: mistral-lib
   tags:
@@ -6621,7 +6621,7 @@ packages:
     cloud7-openstack-pike-release: openstack-mistral-ui-5.2.4-1.el7
     cloud7-openstack-queens-testing: openstack-mistral-ui-6.0.0-1.el7
     cloud7-openstack-queens-release: openstack-mistral-ui-6.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-mistral-ui-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-mistral-ui-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-mistral-ui-7.0.0-0.1.0rc1.el7
 - project: magnum-ui
   name: openstack-magnum-ui
@@ -6801,7 +6801,7 @@ packages:
     cloud7-openstack-pike-release: openstack-murano-4.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-murano-5.0.0-1.el7
     cloud7-openstack-queens-release: openstack-murano-5.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-murano-6.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-murano-6.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-murano-6.0.0-0.1.0rc1.el7
 - project: murano-agent
   tags:
@@ -6848,7 +6848,7 @@ packages:
     cloud7-openstack-pike-release: openstack-murano-ui-4.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-murano-ui-5.0.0-1.el7
     cloud7-openstack-queens-release: openstack-murano-ui-5.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-murano-ui-6.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-murano-ui-6.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-murano-ui-6.0.0-0.1.0rc1.el7
 - project: reno
   tags:
@@ -7085,7 +7085,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-bagpipe-7.0.0-1.el7
     cloud7-openstack-queens-testing: python-networking-bagpipe-8.0.0-1.el7
     cloud7-openstack-queens-release: python-networking-bagpipe-8.0.0-1.el7
-    cloud7-openstack-rocky-testing: python-networking-bagpipe-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: python-networking-bagpipe-9.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-bagpipe-9.0.0-0.1.0rc1.el7
 - project: virtualbmc
   name: python-virtualbmc
@@ -7134,7 +7134,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-bgpvpn-7.0.0-1.el7
     cloud7-openstack-queens-testing: python-networking-bgpvpn-8.0.0-1.el7
     cloud7-openstack-queens-release: python-networking-bgpvpn-8.0.0-1.el7
-    cloud7-openstack-rocky-testing: python-networking-bgpvpn-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: python-networking-bgpvpn-9.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-bgpvpn-9.0.0-0.1.0rc1.el7
 - project: novajoin
   name: python-novajoin
@@ -7355,7 +7355,7 @@ packages:
     cloud7-openstack-pike-release: openstack-congress-6.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-congress-7.0.0-1.el7
     cloud7-openstack-queens-release: openstack-congress-7.0.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-congress-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-congress-8.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-congress-8.0.0-0.1.0rc1.el7
 - project: shaker
   name: python-shaker
@@ -7770,7 +7770,7 @@ packages:
     cloud7-openstack-pike-release: openstack-senlin-4.0.0-1.el7
     cloud7-openstack-queens-testing: openstack-senlin-5.0.1-1.el7
     cloud7-openstack-queens-release: openstack-senlin-5.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-senlin-6.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-senlin-6.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-senlin-6.0.0-0.1.0rc1.el7
 - project: puppet-veritas_hyperscale
   conf: rpmfactory-puppet
@@ -7811,7 +7811,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-neutron-dynamic-routing-12.0.1-1.el7
     cloud7-openstack-queens-release: openstack-neutron-dynamic-routing-12.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-dynamic-routing-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-dynamic-routing-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-dynamic-routing-13.0.0-0.1.0rc1.el7
 - project: senlinclient
   conf: rpmfactory-client
@@ -8295,7 +8295,7 @@ packages:
     cloud7-openstack-queens-release: openstack-designate-ui-6.0.0-1.el7
     cloud7-openstack-pike-testing: openstack-designate-ui-5.0.1-1.el7
     cloud7-openstack-pike-release: openstack-designate-ui-5.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-designate-ui-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-designate-ui-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-designate-ui-7.0.0-0.1.0rc1.el7
 - project: ansible-role-container-registry
   conf: rpmfactory-lib
