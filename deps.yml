@@ -1543,6 +1543,13 @@ packages:
     cloud7-openstack-queens-testing: python-html5lib-0.999-5.el7
     cloud7-openstack-queens-release: python-html5lib-0.999-5.el7
     cloud7-openstack-rocky-el7-build: python-html5lib-0.999-5.el7
+- project: python-sqlalchemy-collectd
+  name: python-sqlalchemy-collectd
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-rocky-testing: python-sqlalchemy-collectd-0.0.3-3.el7
+  maintainers:
+  - mbayer@redhat.com
 - project: python-sqlalchemy-utils
   name: python-sqlalchemy-utils
   conf: fedora-dependency
