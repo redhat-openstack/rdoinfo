@@ -5988,6 +5988,10 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - lennybe@gmail.com
+  - bcafarel@redhat.com
+  - bhaley@redhat.com
+  - njohnsto@redhat.com
+  - skaplons@redhat.com
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-mlnx-10.0.0-1.el7
     cloud7-openstack-ocata-release: python-networking-mlnx-10.0.0-1.el7
@@ -6052,7 +6056,10 @@ packages:
   name: python-networking-vmware-nsx
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
-  - ihrachys@redhat.com
+  - bcafarel@redhat.com
+  - bhaley@redhat.com
+  - njohnsto@redhat.com
+  - skaplons@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-networking-vmware-nsx-9.1.0-1.el7
     cloud7-openstack-newton-release: python-networking-vmware-nsx-9.1.0-1.el7
@@ -6094,6 +6101,10 @@ packages:
   - sarath.kutty@bigswitch.com
   - xin.wu@bigswitch.com
   - rdo-maintainers@bigswitch.com
+  - bcafarel@redhat.com
+  - bhaley@redhat.com
+  - njohnsto@redhat.com
+  - skaplons@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-networking-bigswitch-9.40.5-1.el7
     cloud7-openstack-newton-release: python-networking-bigswitch-9.40.5-1.el7
@@ -6150,6 +6161,10 @@ packages:
   - openstack-networking@cisco.com
   - sambetts@cisco.com
   - sadasu@cisco.com
+  - bcafarel@redhat.com
+  - bhaley@redhat.com
+  - njohnsto@redhat.com
+  - skaplons@redhat.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-networking-cisco-5.5.0-1.el7
     cloud7-openstack-newton-release: python-networking-cisco-5.5.0-1.el7
@@ -7188,6 +7203,10 @@ packages:
   upstream: https://github.com/openstack/networking-fujitsu
   maintainers:
   - sanagi.koki@jp.fujitsu.com
+  - bcafarel@redhat.com
+  - bhaley@redhat.com
+  - njohnsto@redhat.com
+  - skaplons@redhat.com
   buildsys-tags:
     cloud7-openstack-ocata-testing: python-networking-fujitsu-4.0.1-1.el7
     cloud7-openstack-ocata-release: python-networking-fujitsu-4.0.1-1.el7
