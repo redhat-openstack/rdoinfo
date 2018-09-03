@@ -3065,6 +3065,16 @@ packages:
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
+  # FIXME(jpena) remove tags once python-django-debreach is available
+  tags:
+    stein-uc:
+      source-branch: 08234efc6d48e2341f6db71df82a76584d3710fc
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
   maintainers:
   - github@sheep.art.pl
   buildsys-tags:
