@@ -8435,3 +8435,10 @@ packages:
     # rocky:
   maintainers:
   - chkumar@redhat.com
+- project: ansible-role-tripleo-aodh
+  conf: rpmfactory-lib
+  name: ansible-role-tripleo-aodh
+  tags:
+    under-review:
+  maintainers:
+  - jrouleau@redhat.com
