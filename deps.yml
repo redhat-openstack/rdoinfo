@@ -5142,3 +5142,10 @@ packages:
   conf: fedora-dependency
   maintainers:
   - rdopiera@redhat.com
+- project: python-django-debreach
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-django-debreach-1.5.2-1.el7
+  name: python-django-debreach
+  conf: fedora-dependency
+  maintainers:
+  - jpena@redhat.com
