@@ -8435,3 +8435,11 @@ packages:
     # rocky:
   maintainers:
   - chkumar@redhat.com
+- project: ansible-role-tripleo-ceilometer
+  conf: rpmfactory-lib
+  name: ansible-role-tripleo-ceilometer
+  tags:
+    under-review:
+  maintainers:
+  - jrouleau@redhat.com
+
