@@ -8435,3 +8435,10 @@ packages:
     # rocky:
   maintainers:
   - chkumar@redhat.com
+- project: ansible-role-tripleo-congress
+  conf: rpmfactory-lib
+  name: ansible-role-tripleo-congress
+  tags:
+    under-review:
+  maintainers:
+  - jrouleau@redhat.com
