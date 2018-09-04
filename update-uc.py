@@ -47,6 +47,7 @@ def filter_all_minus_tripleo(project):
       'mistral',
       'tempest',
       'instack-undercloud',
+      'paunch',
     ]
     return project not in TRIPLEO_PROJECTS
 
