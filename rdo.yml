@@ -3184,6 +3184,7 @@ packages:
     cloud7-openstack-newton-release: openstack-tripleo-0.0.8-0.3.4de13b3git.el7
 - project: tripleo-heat-templates
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3238,6 +3239,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-compat-9.0.0-0.1.0rc1.el7
 - project: tripleo-image-elements
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3381,6 +3383,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-heat-ui-1.4.0-1.el7
 - project: os-apply-config
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3405,6 +3408,7 @@ packages:
     cloud7-openstack-rocky-release: os-apply-config-9.1.0-1.el7
 - project: os-collect-config
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3429,6 +3433,7 @@ packages:
     cloud7-openstack-rocky-release: os-collect-config-9.2.0-1.el7
 - project: os-net-config
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3453,6 +3458,7 @@ packages:
     cloud7-openstack-rocky-release: os-net-config-9.2.0-1.el7
 - project: os-refresh-config
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6208,6 +6214,7 @@ packages:
   - sam@code-smash.net
 - project: tripleo-puppet-elements
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7647,6 +7654,7 @@ packages:
     cloud7-openstack-pike-release: osops-tools-monitoring-oschecks-0.0.1-0.1.1a3ca01git.el7
 - project: paunch
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
