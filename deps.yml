@@ -5150,3 +5150,11 @@ packages:
   conf: fedora-dependency
   maintainers:
   - jpena@redhat.com
+- project: libvarlink
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: libvarlink-12-1.el7
+  name: libvarlink
+  conf: rdo-dependency
+  maintainers:
+  - hguemar@redhat.com
+  - emilien@redhat.com
