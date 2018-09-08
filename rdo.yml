@@ -4481,6 +4481,7 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     stein-py3-uc:
+      source-branch: 5.2.0
     stein-uc:
       source-branch: 5.2.0
     stein:
@@ -5186,9 +5187,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     stein-py3-uc:
-      source-branch: 3.36.4
+      source-branch: 3.37.0
     stein-uc:
-      source-branch: 3.36.4
+      source-branch: 3.37.0
     stein:
     rocky:
       source-branch: 3.36.4
@@ -6895,9 +6896,9 @@ packages:
 - project: reno
   tags:
     stein-py3-uc:
-      source-branch: 2.9.2
+      source-branch: 2.10.0
     stein-uc:
-      source-branch: 2.9.2
+      source-branch: 2.10.0
     stein:
     rocky:
       source-branch: 2.9.2
