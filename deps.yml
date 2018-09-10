@@ -5158,3 +5158,10 @@ packages:
   maintainers:
   - hguemar@redhat.com
   - emilien@redhat.com
+- project: keepalived
+  name: keepalived
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: keepalived-2.0.6-1.el7
+  maintainers:
+  - hjensas@redhat.com
