@@ -265,6 +265,7 @@ packages:
     cloud7-openstack-queens-release: puppet-aodh-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-aodh-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-aodh-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-aodh-13.3.0-1.el7
 - project: puppet-barbican
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -278,6 +279,7 @@ packages:
     cloud7-openstack-queens-release: puppet-barbican-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-barbican-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-barbican-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-barbican-13.3.0-1.el7
 - project: puppet-ceilometer
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -291,6 +293,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ceilometer-12.5.0-1.el7
     cloud7-openstack-rocky-testing: puppet-ceilometer-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-ceilometer-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-ceilometer-13.3.0-1.el7
 - project: puppet-cinder
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -304,6 +307,7 @@ packages:
     cloud7-openstack-queens-release: puppet-cinder-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-cinder-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-cinder-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-cinder-13.3.0-1.el7
 - project: puppet-congress
   conf: rpmfactory-puppet
   tags:
@@ -323,6 +327,7 @@ packages:
     cloud7-openstack-queens-release: puppet-congress-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-congress-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-congress-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-congress-13.3.0-1.el7
 - project: puppet-designate
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -336,6 +341,7 @@ packages:
     cloud7-openstack-queens-release: puppet-designate-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-designate-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-designate-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-designate-13.3.0-1.el7
 - project: puppet-ec2api
   conf: rpmfactory-puppet
   maintainers:
@@ -357,6 +363,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ec2api-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-ec2api-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-ec2api-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-ec2api-13.3.0-1.el7
 - project: puppet-glance
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -370,6 +377,7 @@ packages:
     cloud7-openstack-queens-release: puppet-glance-12.5.0-1.el7
     cloud7-openstack-rocky-testing: puppet-glance-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-glance-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-glance-13.3.0-1.el7
 - project: puppet-gnocchi
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -383,6 +391,7 @@ packages:
     cloud7-openstack-queens-release: puppet-gnocchi-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-gnocchi-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-gnocchi-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-gnocchi-13.3.0-1.el7
 - project: puppet-heat
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -396,6 +405,7 @@ packages:
     cloud7-openstack-queens-release: puppet-heat-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-heat-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-heat-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-heat-13.3.0-1.el7
 - project: puppet-horizon
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -409,6 +419,7 @@ packages:
     cloud7-openstack-queens-release: puppet-horizon-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-horizon-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-horizon-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-horizon-13.3.0-1.el7
 - project: puppet-ironic
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -422,6 +433,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ironic-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-ironic-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-ironic-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-ironic-13.3.0-1.el7
 - project: puppet-keystone
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -435,6 +447,7 @@ packages:
     cloud7-openstack-queens-release: puppet-keystone-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-keystone-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-keystone-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-keystone-13.3.0-1.el7
 - project: puppet-magnum
   conf: rpmfactory-puppet
   maintainers:
@@ -451,6 +464,7 @@ packages:
     cloud7-openstack-queens-release: puppet-magnum-12.2.0-1.el7
     cloud7-openstack-rocky-testing: puppet-magnum-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-magnum-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-magnum-13.3.0-1.el7
 - project: puppet-manila
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -464,6 +478,7 @@ packages:
     cloud7-openstack-queens-release: puppet-manila-12.5.0-1.el7
     cloud7-openstack-rocky-testing: puppet-manila-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-manila-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-manila-13.3.0-1.el7
 - project: puppet-neutron
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -477,6 +492,7 @@ packages:
     cloud7-openstack-queens-release: puppet-neutron-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-neutron-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-neutron-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-neutron-13.3.0-1.el7
 - project: puppet-nova
   conf: rpmfactory-puppet
   maintainers:
@@ -492,6 +508,7 @@ packages:
     cloud7-openstack-queens-release: puppet-nova-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-nova-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-nova-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-nova-13.3.0-1.el7
 - project: puppet-octavia
   conf: rpmfactory-puppet
   tags:
@@ -511,6 +528,7 @@ packages:
     cloud7-openstack-queens-release: puppet-octavia-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-octavia-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-octavia-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-octavia-13.3.0-1.el7
 - project: puppet-oslo
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -524,6 +542,7 @@ packages:
     cloud7-openstack-queens-release: puppet-oslo-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-oslo-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-oslo-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-oslo-13.3.0-1.el7
 - project: puppet-openstack_extras
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -537,6 +556,7 @@ packages:
     cloud7-openstack-queens-release: puppet-openstack_extras-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-openstack_extras-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-openstack_extras-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-openstack_extras-13.3.0-1.el7
 - project: puppet-openstacklib
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -550,6 +570,7 @@ packages:
     cloud7-openstack-queens-release: puppet-openstacklib-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-openstacklib-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-openstacklib-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-openstacklib-13.3.0-1.el7
 - project: puppet-ovn
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -563,6 +584,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ovn-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-ovn-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-ovn-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-ovn-13.3.0-1.el7
 - project: puppet-panko
   conf: rpmfactory-puppet
   tags:
@@ -582,6 +604,7 @@ packages:
     cloud7-openstack-queens-release: puppet-panko-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-panko-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-panko-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-panko-13.3.0-1.el7
 - project: puppet-qdr
   conf: rpmfactory-puppet
   tags:
@@ -601,6 +624,7 @@ packages:
     cloud7-openstack-queens-release: puppet-qdr-1.0.0-1.el7
     cloud7-openstack-rocky-testing: puppet-qdr-2.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-qdr-2.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-qdr-2.3.0-1.el7
 - project: puppet-sahara
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -614,6 +638,7 @@ packages:
     cloud7-openstack-queens-release: puppet-sahara-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-sahara-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-sahara-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-sahara-13.3.0-1.el7
 - project: puppet-swift
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -627,6 +652,7 @@ packages:
     cloud7-openstack-queens-release: puppet-swift-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-swift-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-swift-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-swift-13.3.0-1.el7
 - project: puppet-tacker
   conf: rpmfactory-puppet
   tags:
@@ -646,6 +672,7 @@ packages:
     cloud7-openstack-queens-release: puppet-tacker-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-tacker-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-tacker-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-tacker-13.3.0-1.el7
 - project: puppet-tempest
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -659,6 +686,7 @@ packages:
     cloud7-openstack-queens-release: puppet-tempest-12.5.0-1.el7
     cloud7-openstack-rocky-testing: puppet-tempest-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-tempest-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-tempest-13.3.0-1.el7
 - project: puppet-tripleo
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -672,6 +700,7 @@ packages:
     cloud7-openstack-queens-release: puppet-tripleo-8.3.5-1.el7
     cloud7-openstack-rocky-testing: puppet-tripleo-9.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-tripleo-9.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-tripleo-9.3.0-1.el7
 - project: puppet-trove
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -685,6 +714,7 @@ packages:
     cloud7-openstack-queens-release: puppet-trove-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-trove-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-trove-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-trove-13.3.0-1.el7
 - project: puppet-vitrage
   conf: rpmfactory-puppet
   tags:
@@ -701,6 +731,7 @@ packages:
     cloud7-openstack-queens-release: puppet-vitrage-2.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-vitrage-3.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-vitrage-3.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-vitrage-3.3.0-1.el7
 - project: puppet-vswitch
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -714,6 +745,7 @@ packages:
     cloud7-openstack-queens-release: puppet-vswitch-8.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-vswitch-9.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-vswitch-9.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-vswitch-9.3.0-1.el7
 - project: puppet-ceph
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -727,6 +759,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ceph-2.5.0-1.el7
     cloud7-openstack-rocky-testing: puppet-ceph-2.5.1-1.el7
     cloud7-openstack-rocky-release: puppet-ceph-2.5.1-1.el7
+    cloud7-openstack-stein-testing: puppet-ceph-2.5.1-1.el7
   tags:
     stein-py3-uc:
     stein-uc:
@@ -752,6 +785,7 @@ packages:
     cloud7-openstack-queens-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
     cloud7-openstack-rocky-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
     cloud7-openstack-rocky-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+    cloud7-openstack-stein-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
   tags:
     stein-py3-uc:
     stein-uc:
@@ -777,6 +811,7 @@ packages:
     cloud7-openstack-queens-release: puppet-mistral-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-mistral-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-mistral-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-mistral-13.3.0-1.el7
 - project: puppet-murano
   conf: rpmfactory-puppet
   tags:
@@ -793,6 +828,7 @@ packages:
     cloud7-openstack-queens-release: puppet-murano-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-murano-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-murano-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-murano-13.3.0-1.el7
 - project: puppet-zaqar
   conf: rpmfactory-puppet
   buildsys-tags:
@@ -806,6 +842,7 @@ packages:
     cloud7-openstack-queens-release: puppet-zaqar-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-zaqar-13.3.0-1.el7
     cloud7-openstack-rocky-release: puppet-zaqar-13.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-zaqar-13.3.0-1.el7
 - project: puppet-apache
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-apache
@@ -836,6 +873,7 @@ packages:
     cloud7-openstack-queens-release: puppet-apache-2.3.1-1.e587f2agit.el7
     cloud7-openstack-rocky-testing: puppet-apache-3.2.0-1.56639c1git.el7
     cloud7-openstack-rocky-release: puppet-apache-3.2.0-1.56639c1git.el7
+    cloud7-openstack-stein-testing: puppet-apache-3.2.0-1.56639c1git.el7
 - project: puppet-concat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-concat
@@ -866,6 +904,7 @@ packages:
     cloud7-openstack-queens-release: puppet-concat-4.1.1-1.d4857dfgit.el7
     cloud7-openstack-rocky-testing: puppet-concat-4.2.1-1.bb680c1git.el7
     cloud7-openstack-rocky-release: puppet-concat-4.2.1-1.bb680c1git.el7
+    cloud7-openstack-stein-testing: puppet-concat-4.2.1-1.bb680c1git.el7
 - project: puppet-firewall
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-firewall
@@ -896,6 +935,7 @@ packages:
     cloud7-openstack-queens-release: puppet-firewall-1.12.0-1.3dc1990git.el7
     cloud7-openstack-rocky-testing: puppet-firewall-1.12.0-2.80a8858git.el7
     cloud7-openstack-rocky-release: puppet-firewall-1.12.0-2.80a8858git.el7
+    cloud7-openstack-stein-testing: puppet-firewall-1.12.0-2.80a8858git.el7
 - project: puppet-haproxy
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-haproxy
@@ -926,6 +966,7 @@ packages:
     cloud7-openstack-queens-release: puppet-haproxy-2.1.0-1.11ac7a2git.el7
     cloud7-openstack-rocky-testing: puppet-haproxy-2.1.0-2.6215a5egit.el7
     cloud7-openstack-rocky-release: puppet-haproxy-2.1.0-2.6215a5egit.el7
+    cloud7-openstack-stein-testing: puppet-haproxy-2.1.0-2.6215a5egit.el7
 - project: puppet-corosync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/puppet-corosync
@@ -956,6 +997,7 @@ packages:
     cloud7-openstack-queens-release: puppet-corosync-6.0.1-0.9940eb9git.el7
     cloud7-openstack-rocky-testing: puppet-corosync-6.0.2-0.1.2afcfecgit.el7
     cloud7-openstack-rocky-release: puppet-corosync-6.0.2-0.1.2afcfecgit.el7
+    cloud7-openstack-stein-testing: puppet-corosync-6.0.2-0.1.2afcfecgit.el7
 - project: puppet-git
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-git
@@ -986,6 +1028,7 @@ packages:
     cloud7-openstack-queens-release: puppet-git-0.4.0-3.4e4498egit.el7
     cloud7-openstack-rocky-testing: puppet-git-0.5.0-1.4e4498egit.el7
     cloud7-openstack-rocky-release: puppet-git-0.5.0-1.4e4498egit.el7
+    cloud7-openstack-stein-testing: puppet-git-0.5.0-1.4e4498egit.el7
 - project: puppet-inifile
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-inifile
@@ -1016,6 +1059,7 @@ packages:
     cloud7-openstack-queens-release: puppet-inifile-2.2.0-1.d2c38b9git.el7
     cloud7-openstack-rocky-testing: puppet-inifile-2.3.0-1.eb2e2e0git.el7
     cloud7-openstack-rocky-release: puppet-inifile-2.3.0-1.eb2e2e0git.el7
+    cloud7-openstack-stein-testing: puppet-inifile-2.3.0-1.eb2e2e0git.el7
 - project: puppet-mongodb
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-mongodb
@@ -1046,6 +1090,7 @@ packages:
     cloud7-openstack-queens-release: puppet-mongodb-1.1.1-0.1.c60e4cagit.el7
     cloud7-openstack-rocky-testing: puppet-mongodb-2.2.3-0.1.2971ed7git.el7
     cloud7-openstack-rocky-release: puppet-mongodb-2.2.3-0.1.2971ed7git.el7
+    cloud7-openstack-stein-testing: puppet-mongodb-2.2.3-0.1.2971ed7git.el7
 - project: puppet-mysql
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-mysql
@@ -1076,6 +1121,7 @@ packages:
     cloud7-openstack-queens-release: puppet-mysql-5.2.1-1.a5497b2git.el7
     cloud7-openstack-rocky-testing: puppet-mysql-6.0.0-1.204cfd4git.el7
     cloud7-openstack-rocky-release: puppet-mysql-6.0.0-1.204cfd4git.el7
+    cloud7-openstack-stein-testing: puppet-mysql-6.0.0-1.204cfd4git.el7
 - project: puppet-java
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-java
@@ -1106,6 +1152,7 @@ packages:
     cloud7-openstack-queens-release: puppet-java-2.4.0-1.47afbd2git.el7
     cloud7-openstack-rocky-testing: puppet-java-2.4.0-2.2bdbc7dgit.el7
     cloud7-openstack-rocky-release: puppet-java-2.4.0-2.2bdbc7dgit.el7
+    cloud7-openstack-stein-testing: puppet-java-2.4.0-2.2bdbc7dgit.el7
 - project: puppet-ntp
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-ntp
@@ -1137,6 +1184,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ntp-4.2.0-2.el7
     cloud7-openstack-rocky-testing: puppet-ntp-4.2.0-1.4.2.xgit.el7
     cloud7-openstack-rocky-release: puppet-ntp-4.2.0-1.4.2.xgit.el7
+    cloud7-openstack-stein-testing: puppet-ntp-4.2.0-1.4.2.xgit.el7
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-rabbitmq
@@ -1167,6 +1215,7 @@ packages:
     cloud7-openstack-queens-release: puppet-rabbitmq-8.1.1-0.d4b06b7git.el7
     cloud7-openstack-rocky-testing: puppet-rabbitmq-8.2.3-0.1.1ccddadgit.el7
     cloud7-openstack-rocky-release: puppet-rabbitmq-8.2.3-0.1.1ccddadgit.el7
+    cloud7-openstack-stein-testing: puppet-rabbitmq-8.2.3-0.1.1ccddadgit.el7
 - project: puppet-rsync
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-rsync
@@ -1197,6 +1246,7 @@ packages:
     cloud7-openstack-queens-release: puppet-rsync-0.4.0-3.447685fgit.el7
     cloud7-openstack-rocky-testing: puppet-rsync-1.1.0-1.f85532fgit.el7
     cloud7-openstack-rocky-release: puppet-rsync-1.1.0-1.f85532fgit.el7
+    cloud7-openstack-stein-testing: puppet-rsync-1.1.0-1.f85532fgit.el7
 - project: puppet-stdlib
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-stdlib
@@ -1227,6 +1277,7 @@ packages:
     cloud7-openstack-queens-release: puppet-stdlib-4.24.0-1.b0d99adgit.el7
     cloud7-openstack-rocky-testing: puppet-stdlib-4.25.1-1.2f85336git.el7
     cloud7-openstack-rocky-release: puppet-stdlib-4.25.1-1.2f85336git.el7
+    cloud7-openstack-stein-testing: puppet-stdlib-4.25.1-1.2f85336git.el7
 - project: puppet-tomcat
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-tomcat
@@ -1257,6 +1308,7 @@ packages:
     cloud7-openstack-queens-release: puppet-tomcat-2.2.0-1.c6d9954git.el7
     cloud7-openstack-rocky-testing: puppet-tomcat-2.3.0-1.8d1f348git.el7
     cloud7-openstack-rocky-release: puppet-tomcat-2.3.0-1.8d1f348git.el7
+    cloud7-openstack-stein-testing: puppet-tomcat-2.3.0-1.8d1f348git.el7
 - project: puppet-vcsrepo
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
@@ -1287,6 +1339,7 @@ packages:
     cloud7-openstack-queens-release: puppet-vcsrepo-2.3.0-1.bb1209egit.el7
     cloud7-openstack-rocky-testing: puppet-vcsrepo-2.3.0-2.1bae9c8git.el7
     cloud7-openstack-rocky-release: puppet-vcsrepo-2.3.0-2.1bae9c8git.el7
+    cloud7-openstack-stein-testing: puppet-vcsrepo-2.3.0-2.1bae9c8git.el7
 - project: puppet-xinetd
   conf: rpmfactory-puppet
   upstream: git://github.com/puppetlabs/puppetlabs-xinetd
@@ -1317,6 +1370,7 @@ packages:
     cloud7-openstack-queens-release: puppet-xinetd-3.0.0-1.b95c79cgit.el7
     cloud7-openstack-rocky-testing: puppet-xinetd-3.0.0-1.b95c79cgit.el7
     cloud7-openstack-rocky-release: puppet-xinetd-3.0.0-1.b95c79cgit.el7
+    cloud7-openstack-stein-testing: puppet-xinetd-3.0.0-1.b95c79cgit.el7
 - project: puppet-cassandra
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/puppet-cassandra
@@ -1347,6 +1401,7 @@ packages:
     cloud7-openstack-queens-release: puppet-cassandra-2.6.0-1.2454099git.el7
     cloud7-openstack-rocky-testing: puppet-cassandra-2.7.2-0.1.21f5114git.el7
     cloud7-openstack-rocky-release: puppet-cassandra-2.7.2-0.1.21f5114git.el7
+    cloud7-openstack-stein-testing: puppet-cassandra-2.7.2-0.1.21f5114git.el7
 - project: puppet-certmonger
   conf: rpmfactory-puppet
   upstream: git://github.com/saltedsignal/%(project)s
@@ -1377,6 +1432,7 @@ packages:
     cloud7-openstack-queens-release: puppet-certmonger-2.3.0-1.el7
     cloud7-openstack-rocky-testing: puppet-certmonger-2.3.0-2.ef9457cgit.el7
     cloud7-openstack-rocky-release: puppet-certmonger-2.3.0-2.ef9457cgit.el7
+    cloud7-openstack-stein-testing: puppet-certmonger-2.3.0-2.ef9457cgit.el7
 - project: puppet-contrail
   conf: rpmfactory-puppet
   upstream: git://github.com/Juniper/%(project)s
@@ -1409,6 +1465,7 @@ packages:
     cloud7-openstack-queens-release: puppet-contrail-1.0.0-4.ecf700bgit.el7
     cloud7-openstack-rocky-testing: puppet-contrail-1.0.0-5.6f87929git.el7
     cloud7-openstack-rocky-release: puppet-contrail-1.0.0-5.6f87929git.el7
+    cloud7-openstack-stein-testing: puppet-contrail-1.0.0-5.6f87929git.el7
 - project: puppet-datacat
   conf: rpmfactory-puppet
   upstream: git://github.com/richardc/%(project)s
@@ -1439,6 +1496,7 @@ packages:
     cloud7-openstack-queens-release: puppet-datacat-0.6.2-3.5cce8f2git.el7
     cloud7-openstack-rocky-testing: puppet-datacat-0.6.2-1.5cce8f2git.el7
     cloud7-openstack-rocky-release: puppet-datacat-0.6.2-1.5cce8f2git.el7
+    cloud7-openstack-stein-testing: puppet-datacat-0.6.2-1.5cce8f2git.el7
 - project: puppet-dns
   conf: rpmfactory-puppet
   upstream: git://github.com/theforeman/%(project)s
@@ -1469,6 +1527,7 @@ packages:
     cloud7-openstack-queens-release: puppet-dns-5.1.1-1.99cd025git.el7
     cloud7-openstack-rocky-testing: puppet-dns-5.3.1-1.ccf7adegit.el7
     cloud7-openstack-rocky-release: puppet-dns-5.3.1-1.ccf7adegit.el7
+    cloud7-openstack-stein-testing: puppet-dns-5.3.1-1.ccf7adegit.el7
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
@@ -1499,6 +1558,7 @@ packages:
     cloud7-openstack-queens-release: puppet-elasticsearch-6.2.0-1.813c729git.el7
     cloud7-openstack-rocky-testing: puppet-elasticsearch-6.3.1-1.c8bdc89git.el7
     cloud7-openstack-rocky-release: puppet-elasticsearch-6.3.1-1.c8bdc89git.el7
+    cloud7-openstack-stein-testing: puppet-elasticsearch-6.3.1-1.c8bdc89git.el7
 - project: puppet-etcd
   conf: rpmfactory-puppet
   upstream: git://github.com/cristifalcas/%(project)s
@@ -1525,6 +1585,7 @@ packages:
     cloud7-openstack-queens-release: puppet-etcd-1.12.2-1.el7
     cloud7-openstack-rocky-testing: puppet-etcd-1.12.2-2.7555287git.el7
     cloud7-openstack-rocky-release: puppet-etcd-1.12.2-2.7555287git.el7
+    cloud7-openstack-stein-testing: puppet-etcd-1.12.2-2.7555287git.el7
 - project: puppet-fdio
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
@@ -1551,6 +1612,7 @@ packages:
     cloud7-openstack-queens-release: puppet-fdio-18.01-1.el7
     cloud7-openstack-rocky-testing: puppet-fdio-18.01-2.2dd7507git.el7
     cloud7-openstack-rocky-release: puppet-fdio-18.01-2.2dd7507git.el7
+    cloud7-openstack-stein-testing: puppet-fdio-18.01-2.2dd7507git.el7
 - project: puppet-kafka
   conf: rpmfactory-puppet
   upstream: git://github.com/puppet-community/%(project)s
@@ -1581,6 +1643,7 @@ packages:
     cloud7-openstack-queens-release: puppet-kafka-5.0.1-0.6419b44git.el7
     cloud7-openstack-rocky-testing: puppet-kafka-5.3.1-0.1.0dbae74git.el7
     cloud7-openstack-rocky-release: puppet-kafka-5.3.1-0.1.0dbae74git.el7
+    cloud7-openstack-stein-testing: puppet-kafka-5.3.1-0.1.0dbae74git.el7
 - project: puppet-fluentd
   conf: rpmfactory-puppet
   upstream: git://github.com/soylent/konstantin-fluentd
@@ -1611,6 +1674,7 @@ packages:
     cloud7-openstack-queens-release: puppet-fluentd-0.10.0-1.el7
     cloud7-openstack-rocky-testing: puppet-fluentd-0.10.0-1.el7
     cloud7-openstack-rocky-release: puppet-fluentd-0.10.0-1.el7
+    cloud7-openstack-stein-testing: puppet-fluentd-0.10.0-1.el7
 - project: puppet-ipaclient
   conf: rpmfactory-puppet
   upstream: git://github.com/joshuabaird/%(project)s
@@ -1639,6 +1703,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ipaclient-2.5.2-1.el7
     cloud7-openstack-rocky-testing: puppet-ipaclient-2.5.2-1.el7
     cloud7-openstack-rocky-release: puppet-ipaclient-2.5.2-1.el7
+    cloud7-openstack-stein-testing: puppet-ipaclient-2.5.2-1.el7
 - project: puppet-keepalived
   conf: rpmfactory-puppet
   upstream: git://github.com/Unyonsys/puppet-module-keepalived
@@ -1669,6 +1734,7 @@ packages:
     cloud7-openstack-queens-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
     cloud7-openstack-rocky-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
     cloud7-openstack-rocky-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+    cloud7-openstack-stein-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
 - project: puppet-kibana3
   conf: rpmfactory-puppet
   upstream: git://github.com/thejandroman/%(project)s
@@ -1699,6 +1765,7 @@ packages:
     cloud7-openstack-queens-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
     cloud7-openstack-rocky-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
     cloud7-openstack-rocky-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
+    cloud7-openstack-stein-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
 - project: puppet-memcached
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
@@ -1729,6 +1796,7 @@ packages:
     cloud7-openstack-queens-release: puppet-memcached-3.1.0-1.el7
     cloud7-openstack-rocky-testing: puppet-memcached-3.3.0-1.e517b44git.el7
     cloud7-openstack-rocky-release: puppet-memcached-3.3.0-1.e517b44git.el7
+    cloud7-openstack-stein-testing: puppet-memcached-3.3.0-1.e517b44git.el7
 - project: puppet-midonet
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
@@ -1754,6 +1822,7 @@ packages:
     cloud7-openstack-queens-release: puppet-midonet-1.1.0-2.4a44c33git.el7
     cloud7-openstack-rocky-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
     cloud7-openstack-rocky-release: puppet-midonet-1.1.0-2.4a44c33git.el7
+    cloud7-openstack-stein-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
 - project: puppet-midonet_openstack
   conf: rpmfactory-puppet
   upstream: git://github.com/midonet/%(project)s
@@ -1796,6 +1865,7 @@ packages:
     cloud7-openstack-queens-release: puppet-collectd-8.0.2-0.93c8d0bgit.el7
     cloud7-openstack-rocky-testing: puppet-collectd-10.0.2-0.1.f04aa34git.el7
     cloud7-openstack-rocky-release: puppet-collectd-10.0.2-0.1.f04aa34git.el7
+    cloud7-openstack-stein-testing: puppet-collectd-10.0.2-0.1.f04aa34git.el7
 - project: puppet-module-data
   conf: rpmfactory-puppet
   upstream: git://github.com/ripienaar/%(project)s
@@ -1826,6 +1896,7 @@ packages:
     cloud7-openstack-queens-release: puppet-module-data-0.5.1-1.28dafcegit.el7
     cloud7-openstack-rocky-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
     cloud7-openstack-rocky-release: puppet-module-data-0.5.1-1.28dafcegit.el7
+    cloud7-openstack-stein-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
 # - project: puppet-nagios-openstack
 #   conf: rpmfactory-puppet
 #   upstream: git://github.com/gildub/%(project)s
@@ -1859,6 +1930,7 @@ packages:
     cloud7-openstack-queens-release: puppet-nssdb-1.0.1-1.el7
     cloud7-openstack-rocky-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
     cloud7-openstack-rocky-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
+    cloud7-openstack-stein-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
@@ -1890,6 +1962,7 @@ packages:
     cloud7-openstack-queens-release: puppet-opendaylight-8.2.2-1.9126c8dgit.el7
     cloud7-openstack-rocky-testing: puppet-opendaylight-8.3.0-1.8c1f7e5git.el7
     cloud7-openstack-rocky-release: puppet-opendaylight-8.3.0-1.8c1f7e5git.el7
+    cloud7-openstack-stein-testing: puppet-opendaylight-8.3.0-1.8c1f7e5git.el7
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
   upstream: git://github.com/openstack/%(project)s
@@ -1916,6 +1989,7 @@ packages:
     cloud7-openstack-queens-release: puppet-pacemaker-0.7.1-1.el7
     cloud7-openstack-rocky-testing: puppet-pacemaker-0.7.1-1.el7
     cloud7-openstack-rocky-release: puppet-pacemaker-0.7.1-1.el7
+    cloud7-openstack-stein-testing: puppet-pacemaker-0.7.1-1.el7
 - project: puppet-powerdns
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
@@ -1946,6 +2020,7 @@ packages:
     cloud7-openstack-queens-release: puppet-powerdns-0.0.5-1.8996515git.el7
     cloud7-openstack-rocky-testing: puppet-powerdns-0.0.5-1.8996515git.el7
     cloud7-openstack-rocky-release: puppet-powerdns-0.0.5-1.8996515git.el7
+    cloud7-openstack-stein-testing: puppet-powerdns-0.0.5-1.8996515git.el7
 - project: puppet-redis
   conf: rpmfactory-puppet
   upstream: git://github.com/arioch/%(project)s
@@ -1976,6 +2051,7 @@ packages:
     cloud7-openstack-queens-release: puppet-redis-3.2.0-2.bfcc212git.el7
     cloud7-openstack-rocky-testing: puppet-redis-3.3.0-1.989403cgit.el7
     cloud7-openstack-rocky-release: puppet-redis-3.3.0-1.989403cgit.el7
+    cloud7-openstack-stein-testing: puppet-redis-3.3.0-1.989403cgit.el7
 - project: puppet-remote
   conf: rpmfactory-puppet
   upstream: git://github.com/paramite/%(project)s
@@ -2006,6 +2082,7 @@ packages:
     cloud7-openstack-queens-release: puppet-remote-0.0.1-3.7420908git.el7
     cloud7-openstack-rocky-testing: puppet-remote-10.0.0-1.7420908git.el7
     cloud7-openstack-rocky-release: puppet-remote-10.0.0-1.7420908git.el7
+    cloud7-openstack-stein-testing: puppet-remote-10.0.0-1.7420908git.el7
 - project: puppet-sensu
   conf: rpmfactory-puppet
   upstream: git://github.com/sensu/sensu-puppet
@@ -2036,6 +2113,7 @@ packages:
     cloud7-openstack-queens-release: puppet-sensu-2.50.0-1.el7
     cloud7-openstack-rocky-testing: puppet-sensu-2.53.0-1.338ae0egit.el7
     cloud7-openstack-rocky-release: puppet-sensu-2.53.0-1.338ae0egit.el7
+    cloud7-openstack-stein-testing: puppet-sensu-2.53.0-1.338ae0egit.el7
 - project: puppet-snmp
   conf: rpmfactory-puppet
   upstream: git://github.com/razorsedge/%(project)s
@@ -2066,6 +2144,7 @@ packages:
     cloud7-openstack-queens-release: puppet-snmp-3.9.0-1.5d73485git.el7
     cloud7-openstack-rocky-testing: puppet-snmp-3.9.0-1.5d73485git.el7
     cloud7-openstack-rocky-release: puppet-snmp-3.9.0-1.5d73485git.el7
+    cloud7-openstack-stein-testing: puppet-snmp-3.9.0-1.5d73485git.el7
 - project: puppet-ssh
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
@@ -2096,6 +2175,7 @@ packages:
     cloud7-openstack-queens-release: puppet-ssh-3.0.1-4.fb2de75git.el7
     cloud7-openstack-rocky-testing: puppet-ssh-4.0.0-1.ddaca5dgit.el7
     cloud7-openstack-rocky-release: puppet-ssh-4.0.0-1.ddaca5dgit.el7
+    cloud7-openstack-stein-testing: puppet-ssh-4.0.0-1.ddaca5dgit.el7
 - project: puppet-staging
   conf: rpmfactory-puppet
   upstream: git://github.com/nanliu/%(project)s
@@ -2126,6 +2206,7 @@ packages:
     cloud7-openstack-queens-release: puppet-staging-1.0.4-1.b466d93git.el7
     cloud7-openstack-rocky-testing: puppet-staging-1.0.4-1.b466d93git.el7
     cloud7-openstack-rocky-release: puppet-staging-1.0.4-1.b466d93git.el7
+    cloud7-openstack-stein-testing: puppet-staging-1.0.4-1.b466d93git.el7
 - project: puppet-timezone
   conf: rpmfactory-puppet
   upstream: git://github.com/saz/%(project)s
@@ -2156,6 +2237,7 @@ packages:
     cloud7-openstack-queens-release: puppet-timezone-4.1.1-1.el7
     cloud7-openstack-rocky-testing: puppet-timezone-5.0.2-1.841bd52git.el7
     cloud7-openstack-rocky-release: puppet-timezone-5.0.2-1.841bd52git.el7
+    cloud7-openstack-stein-testing: puppet-timezone-5.0.2-1.841bd52git.el7
 - project: puppet-uchiwa
   conf: rpmfactory-puppet
   upstream: git://github.com/Yelp/%(project)s
@@ -2186,6 +2268,7 @@ packages:
     cloud7-openstack-queens-release: puppet-uchiwa-2.0.0-1.92c7f71git.el7
     cloud7-openstack-rocky-testing: puppet-uchiwa-2.1.1-1.fd951aegit.el7
     cloud7-openstack-rocky-release: puppet-uchiwa-2.1.1-1.fd951aegit.el7
+    cloud7-openstack-stein-testing: puppet-uchiwa-2.1.1-1.fd951aegit.el7
 - project: puppet-vlan
   conf: rpmfactory-puppet
   upstream: git://github.com/derekhiggins/%(project)s
@@ -2216,6 +2299,7 @@ packages:
     cloud7-openstack-queens-release: puppet-vlan-0.1.0-1.el7
     cloud7-openstack-rocky-testing: puppet-vlan-0.1.0-1.el7
     cloud7-openstack-rocky-release: puppet-vlan-0.1.0-1.el7
+    cloud7-openstack-stein-testing: puppet-vlan-0.1.0-1.el7
 - project: puppet-zookeeper
   conf: rpmfactory-puppet
   upstream: git://github.com/deric/%(project)s
@@ -2246,6 +2330,7 @@ packages:
     cloud7-openstack-queens-release: puppet-zookeeper-0.7.7-1.88b4ceagit.el7
     cloud7-openstack-rocky-testing: puppet-zookeeper-0.8.1-1.0312c95git.el7
     cloud7-openstack-rocky-release: puppet-zookeeper-0.8.1-1.0312c95git.el7
+    cloud7-openstack-stein-testing: puppet-zookeeper-0.8.1-1.0312c95git.el7
 - project: puppet-kmod
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
@@ -2276,6 +2361,7 @@ packages:
     cloud7-openstack-queens-release: puppet-kmod-2.2.0-1.ad51300git.el7
     cloud7-openstack-rocky-testing: puppet-kmod-2.2.0-2.42b27aegit.el7
     cloud7-openstack-rocky-release: puppet-kmod-2.2.0-2.42b27aegit.el7
+    cloud7-openstack-stein-testing: puppet-kmod-2.2.0-2.42b27aegit.el7
 - project: puppet-sysctl
   conf: rpmfactory-puppet
   upstream: git://github.com/duritong/%(project)s
@@ -2306,6 +2392,7 @@ packages:
     cloud7-openstack-queens-release: puppet-sysctl-0.0.11-1.el7
     cloud7-openstack-rocky-testing: puppet-sysctl-0.0.12-1.b3587fegit.el7
     cloud7-openstack-rocky-release: puppet-sysctl-0.0.12-1.b3587fegit.el7
+    cloud7-openstack-stein-testing: puppet-sysctl-0.0.12-1.b3587fegit.el7
 - project: puppet-systemd
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
@@ -2336,6 +2423,7 @@ packages:
     cloud7-openstack-queens-release: puppet-systemd-1.1.1-1.el7
     cloud7-openstack-rocky-testing: puppet-systemd-1.1.1-2.20a465bgit.el7
     cloud7-openstack-rocky-release: puppet-systemd-1.1.1-2.20a465bgit.el7
+    cloud7-openstack-stein-testing: puppet-systemd-1.1.1-2.20a465bgit.el7
 - project: puppet-logstash
   conf: rpmfactory-puppet
   upstream: git://github.com/elastic/%(project)s
@@ -2379,6 +2467,7 @@ packages:
     cloud7-openstack-queens-release: puppet-lib-file_concat-1.0.1-1.813132bgit.el7
     cloud7-openstack-rocky-testing: puppet-lib-file_concat-1.0.1-2.el7
     cloud7-openstack-rocky-release: puppet-lib-file_concat-1.0.1-2.el7
+    cloud7-openstack-stein-testing: puppet-lib-file_concat-1.0.1-2.el7
 - project: nova
   conf: rpmfactory-core
   maintainers:
@@ -2395,6 +2484,7 @@ packages:
     cloud7-openstack-queens-release: openstack-nova-17.0.5-1.el7
     cloud7-openstack-rocky-testing: openstack-nova-18.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-nova-18.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-nova-18.0.0-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -2423,6 +2513,7 @@ packages:
     cloud7-openstack-queens-release: openstack-keystone-13.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-keystone-14.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-keystone-14.0.0-1.el7
 - project: glance
   conf: rpmfactory-core
   maintainers:
@@ -2452,6 +2543,7 @@ packages:
     cloud7-openstack-queens-release: openstack-glance-16.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-glance-17.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-glance-17.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-glance-17.0.0-1.el7
 - project: glance_store
   conf: rpmfactory-core
   name: python-glance-store
@@ -2478,6 +2570,7 @@ packages:
     cloud7-openstack-queens-release: python-glance-store-0.23.0-1.el7
     cloud7-openstack-rocky-testing: python-glance-store-0.26.1-1.el7
     cloud7-openstack-rocky-release: python-glance-store-0.26.1-1.el7
+    cloud7-openstack-stein-testing: python-glance-store-0.26.1-1.el7
 - project: swift
   conf: rpmfactory-core
   maintainers:
@@ -2493,6 +2586,7 @@ packages:
     cloud7-openstack-queens-release: openstack-swift-2.17.0-1.el7
     cloud7-openstack-rocky-testing: openstack-swift-2.19.0-1.el7
     cloud7-openstack-rocky-release: openstack-swift-2.19.0-1.el7
+    cloud7-openstack-stein-testing: openstack-swift-2.19.0-1.el7
 - project: swift3
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
@@ -2530,6 +2624,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ceilometer-10.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-ceilometer-11.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-ceilometer-11.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ceilometer-11.0.0-1.el7
 - project: gnocchi
   name: gnocchi
   conf: rpmfactory-core
@@ -2551,6 +2646,7 @@ packages:
     cloud7-openstack-queens-release: gnocchi-4.2.3-1.el7
     cloud7-openstack-rocky-testing: gnocchi-4.3.0-1.el7
     cloud7-openstack-rocky-release: gnocchi-4.3.0-1.el7
+    cloud7-openstack-stein-testing: gnocchi-4.3.0-1.el7
 - project: gnocchi-legacy
   name: openstack-gnocchi
   conf: rpmfactory-core
@@ -2601,6 +2697,7 @@ packages:
     cloud7-openstack-queens-release: openstack-aodh-6.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-aodh-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-aodh-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-aodh-7.0.0-1.el7
 - project: panko
   tags:
     stein-uc:
@@ -2624,6 +2721,7 @@ packages:
     cloud7-openstack-queens-release: openstack-panko-4.0.2-1.el7
     cloud7-openstack-rocky-testing: openstack-panko-5.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-panko-5.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-panko-5.0.0-1.el7
 - project: heat
   conf: rpmfactory-core
   maintainers:
@@ -2642,6 +2740,7 @@ packages:
     cloud7-openstack-queens-release: openstack-heat-10.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-heat-11.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-heat-11.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-heat-11.0.0-1.el7
 - project: cinder
   conf: rpmfactory-core
   tags:
@@ -2668,6 +2767,7 @@ packages:
     cloud7-openstack-queens-release: openstack-cinder-12.0.3-1.el7
     cloud7-openstack-rocky-testing: openstack-cinder-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-cinder-13.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-cinder-13.0.0-1.el7
 - project: ironic
   tags:
     stein-uc:
@@ -2692,6 +2792,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-10.1.4-1.el7
     cloud7-openstack-rocky-testing: openstack-ironic-11.1.0-1.el7
     cloud7-openstack-rocky-release: openstack-ironic-11.1.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ironic-11.1.0-1.el7
 - project: neutron
   tags:
     stein-uc:
@@ -2722,6 +2823,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-12.0.3-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-13.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-13.0.0-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
@@ -2760,6 +2862,7 @@ packages:
     cloud7-openstack-queens-release: python-neutron-lib-1.13.0-1.el7
     cloud7-openstack-rocky-testing: python-neutron-lib-1.18.0-1.el7
     cloud7-openstack-rocky-release: python-neutron-lib-1.18.0-1.el7
+    cloud7-openstack-stein-testing: python-neutron-lib-1.18.0-1.el7
 - project: neutron-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
@@ -2783,6 +2886,7 @@ packages:
     cloud7-openstack-queens-release: python-neutron-tests-tempest-0.0.1-0.1.028c312git.el7
     cloud7-openstack-rocky-testing: python-neutron-tests-tempest-0.2.0-1.el7
     cloud7-openstack-rocky-release: python-neutron-tests-tempest-0.2.0-1.el7
+    cloud7-openstack-stein-testing: python-neutron-tests-tempest-0.2.0-1.el7
 - project: neutron-fwaas
   conf: rpmfactory-core
   maintainers:
@@ -2804,6 +2908,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-fwaas-12.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-fwaas-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-fwaas-13.0.0-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
   maintainers:
@@ -2827,6 +2932,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-lbaas-12.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-lbaas-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-13.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-lbaas-13.0.0-1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
   maintainers:
@@ -2848,6 +2954,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-vpnaas-12.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-vpnaas-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-vpnaas-13.0.0-1.el7
 - project: designate
   conf: rpmfactory-core
   maintainers:
@@ -2864,6 +2971,7 @@ packages:
     cloud7-openstack-queens-release: openstack-designate-6.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-designate-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-designate-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-designate-7.0.0-1.el7
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
@@ -2893,6 +3001,7 @@ packages:
     cloud7-openstack-queens-release: python-designate-tests-tempest-0.4.0-1.el7
     cloud7-openstack-rocky-testing: python-designate-tests-tempest-0.5.0-1.el7
     cloud7-openstack-rocky-release: python-designate-tests-tempest-0.5.0-1.el7
+    cloud7-openstack-stein-testing: python-designate-tests-tempest-0.5.0-1.el7
 - project: octavia
   tags:
     stein-uc:
@@ -2918,6 +3027,7 @@ packages:
     cloud7-openstack-queens-release: openstack-octavia-2.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-octavia-3.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-octavia-3.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-octavia-3.0.0-1.el7
 - project: octavia-dashboard
   name: openstack-octavia-ui
   conf: rpmfactory-core
@@ -2935,6 +3045,7 @@ packages:
     cloud7-openstack-queens-release: openstack-octavia-ui-1.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-octavia-ui-2.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-octavia-ui-2.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-octavia-ui-2.0.0-1.el7
 - project: octaviaclient
   conf: rpmfactory-client
   tags:
@@ -2956,6 +3067,7 @@ packages:
     cloud7-openstack-queens-release: python-octaviaclient-1.4.0-1.el7
     cloud7-openstack-rocky-testing: python-octaviaclient-1.6.0-1.el7
     cloud7-openstack-rocky-release: python-octaviaclient-1.6.0-1.el7
+    cloud7-openstack-stein-testing: python-octaviaclient-1.6.0-1.el7
 - project: octavia-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
@@ -2975,6 +3087,7 @@ packages:
     cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
     cloud7-openstack-rocky-testing: python-octavia-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-octavia-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-octavia-tests-tempest-0.1.0-1.el7
 - project: watcher
   conf: rpmfactory-core
   tags:
@@ -3000,6 +3113,7 @@ packages:
     cloud7-openstack-queens-release: openstack-watcher-1.8.0-1.el7
     cloud7-openstack-rocky-testing: openstack-watcher-1.12.0-1.el7
     cloud7-openstack-rocky-release: openstack-watcher-1.12.0-1.el7
+    cloud7-openstack-stein-testing: openstack-watcher-1.12.0-1.el7
 - project: vitrage
   conf: rpmfactory-core
   tags:
@@ -3020,6 +3134,7 @@ packages:
     cloud7-openstack-queens-release: openstack-vitrage-2.3.0-1.el7
     cloud7-openstack-rocky-testing: openstack-vitrage-3.2.0-1.el7
     cloud7-openstack-rocky-release: openstack-vitrage-3.2.0-1.el7
+    cloud7-openstack-stein-testing: openstack-vitrage-3.2.0-1.el7
 - project: vitrage-dashboard
   name: openstack-vitrage-ui
   conf: rpmfactory-core
@@ -3041,6 +3156,7 @@ packages:
     cloud7-openstack-queens-release: openstack-vitrage-ui-1.4.2-1.el7
     cloud7-openstack-rocky-testing: openstack-vitrage-ui-1.6.1-1.el7
     cloud7-openstack-rocky-release: openstack-vitrage-ui-1.6.1-1.el7
+    cloud7-openstack-stein-testing: openstack-vitrage-ui-1.6.1-1.el7
 - project: sahara
   tags:
     stein-uc:
@@ -3065,6 +3181,7 @@ packages:
     cloud7-openstack-queens-release: openstack-sahara-8.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-sahara-9.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-sahara-9.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-sahara-9.0.0-1.el7
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
@@ -3081,6 +3198,7 @@ packages:
     cloud7-openstack-queens-release: python-django-horizon-13.0.1-1.el7
     cloud7-openstack-rocky-testing: python-django-horizon-14.0.0-1.el7
     cloud7-openstack-rocky-release: python-django-horizon-14.0.0-1.el7
+    cloud7-openstack-stein-testing: python-django-horizon-14.0.0-1.el7
 - project: trove
   conf: rpmfactory-core
   maintainers:
@@ -3097,6 +3215,7 @@ packages:
     cloud7-openstack-queens-release: openstack-trove-9.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-trove-10.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-trove-10.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-trove-10.0.0-1.el7
 - project: django_openstack_auth
   conf: rpmfactory-lib
   name: python-django-openstack-auth
@@ -3141,6 +3260,7 @@ packages:
     cloud7-openstack-queens-release: diskimage-builder-2.16.0-1.el7
     cloud7-openstack-rocky-testing: diskimage-builder-2.16.0-1.el7
     cloud7-openstack-rocky-release: diskimage-builder-2.16.0-1.el7
+    cloud7-openstack-stein-testing: diskimage-builder-2.16.0-1.el7
 - project: dib-utils
   tags:
     stein-py3-uc:
@@ -3173,6 +3293,7 @@ packages:
     cloud7-openstack-queens-release: dib-utils-0.0.11-1.el7
     cloud7-openstack-rocky-testing: dib-utils-0.0.11-1.el7
     cloud7-openstack-rocky-release: dib-utils-0.0.11-1.el7
+    cloud7-openstack-stein-testing: dib-utils-0.0.11-1.el7
 - project: tripleo-incubator
   tags:
     newton:
@@ -3211,6 +3332,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.0.5-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-heat-templates-9.0.0-0.1.0rc1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-heat-templates-9.0.0-0.1.0rc1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -3240,6 +3362,7 @@ packages:
     cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-compat-5.2.0-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-heat-templates-compat-9.0.0-0.1.0rc1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-compat-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-heat-templates-compat-9.0.0-0.1.0rc1.el7
 - project: tripleo-image-elements
   tags:
     stein-py3-uc:
@@ -3264,6 +3387,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-image-elements-9.0.0-0.1.0rc1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-image-elements-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-image-elements-9.0.0-0.1.0rc1.el7
 - project: tripleo-validations
   tags:
     stein-py3-uc:
@@ -3288,6 +3412,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-validations-8.4.2-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-validations-9.3.0-1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-validations-9.3.0-1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-validations-9.3.0-1.el7
 - project: instack
   tags:
     stein-uc:
@@ -3313,6 +3438,7 @@ packages:
     cloud7-openstack-queens-release: instack-8.1.0-1.el7
     cloud7-openstack-rocky-testing: instack-9.1.0-1.el7
     cloud7-openstack-rocky-release: instack-9.1.0-1.el7
+    cloud7-openstack-stein-testing: instack-9.1.0-1.el7
 - project: instack-undercloud
   tags:
     stein-uc:
@@ -3338,6 +3464,7 @@ packages:
     cloud7-openstack-queens-release: instack-undercloud-8.4.4-1.el7
     cloud7-openstack-rocky-testing: instack-undercloud-9.3.0-1.el7
     cloud7-openstack-rocky-release: instack-undercloud-9.3.0-1.el7
+    cloud7-openstack-stein-testing: instack-undercloud-9.3.0-1.el7
 - project: heat-templates
   tags:
     newton:
@@ -3370,6 +3497,7 @@ packages:
     cloud7-openstack-queens-release: openstack-heat-agents-1.5.3-1.el7
     cloud7-openstack-rocky-testing: openstack-heat-agents-1.7.0-1.el7
     cloud7-openstack-rocky-release: openstack-heat-agents-1.7.0-1.el7
+    cloud7-openstack-stein-testing: openstack-heat-agents-1.7.0-1.el7
 - project: heat-dashboard
   name: openstack-heat-ui
   tags:
@@ -3385,6 +3513,7 @@ packages:
     cloud7-openstack-queens-release: openstack-heat-ui-1.0.2-1.el7
     cloud7-openstack-rocky-testing: openstack-heat-ui-1.4.0-1.el7
     cloud7-openstack-rocky-release: openstack-heat-ui-1.4.0-1.el7
+    cloud7-openstack-stein-testing: openstack-heat-ui-1.4.0-1.el7
 - project: os-apply-config
   tags:
     stein-py3-uc:
@@ -3410,6 +3539,7 @@ packages:
     cloud7-openstack-queens-release: os-apply-config-8.3.0-1.el7
     cloud7-openstack-rocky-testing: os-apply-config-9.1.0-1.el7
     cloud7-openstack-rocky-release: os-apply-config-9.1.0-1.el7
+    cloud7-openstack-stein-testing: os-apply-config-9.1.0-1.el7
 - project: os-collect-config
   tags:
     stein-py3-uc:
@@ -3435,6 +3565,7 @@ packages:
     cloud7-openstack-queens-release: os-collect-config-8.3.0-1.el7
     cloud7-openstack-rocky-testing: os-collect-config-9.2.0-1.el7
     cloud7-openstack-rocky-release: os-collect-config-9.2.0-1.el7
+    cloud7-openstack-stein-testing: os-collect-config-9.2.0-1.el7
 - project: os-net-config
   tags:
     stein-py3-uc:
@@ -3460,6 +3591,7 @@ packages:
     cloud7-openstack-queens-release: os-net-config-8.4.3-1.el7
     cloud7-openstack-rocky-testing: os-net-config-9.2.0-1.el7
     cloud7-openstack-rocky-release: os-net-config-9.2.0-1.el7
+    cloud7-openstack-stein-testing: os-net-config-9.2.0-1.el7
 - project: os-refresh-config
   tags:
     stein-py3-uc:
@@ -3485,6 +3617,7 @@ packages:
     cloud7-openstack-queens-release: os-refresh-config-8.3.0-1.el7
     cloud7-openstack-rocky-testing: os-refresh-config-9.1.0-1.el7
     cloud7-openstack-rocky-release: os-refresh-config-9.1.0-1.el7
+    cloud7-openstack-stein-testing: os-refresh-config-9.1.0-1.el7
 - project: os-cloud-config
   tags:
     # This project was removed in Pike and locked to the commit before
@@ -3533,6 +3666,7 @@ packages:
     cloud7-openstack-queens-release: python-os-client-config-1.29.0-1.el7
     cloud7-openstack-rocky-testing: python-os-client-config-1.31.2-1.el7
     cloud7-openstack-rocky-release: python-os-client-config-1.31.2-1.el7
+    cloud7-openstack-stein-testing: python-os-client-config-1.31.2-1.el7
 - project: os-win
   tags:
     stein-py3-uc:
@@ -3566,6 +3700,7 @@ packages:
     cloud7-openstack-queens-release: python-os-win-3.0.1-1.el7
     cloud7-openstack-rocky-testing: python-os-win-4.0.1-1.el7
     cloud7-openstack-rocky-release: python-os-win-4.0.1-1.el7
+    cloud7-openstack-stein-testing: python-os-win-4.0.1-1.el7
 - project: oswin-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-oswin-tests-tempest
@@ -3583,6 +3718,7 @@ packages:
     cloud7-openstack-queens-release: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
     cloud7-openstack-rocky-testing: python-oswin-tests-tempest-0.0.1-0.2.ef0396egit.el7
     cloud7-openstack-rocky-release: python-oswin-tests-tempest-0.0.1-0.2.ef0396egit.el7
+    cloud7-openstack-stein-testing: python-oswin-tests-tempest-0.0.1-0.2.ef0396egit.el7
 - project: os-xenapi
   conf: rpmfactory-lib
   tags:
@@ -3606,6 +3742,7 @@ packages:
     cloud7-openstack-queens-release: python-os-xenapi-0.3.1-1.el7
     cloud7-openstack-rocky-testing: python-os-xenapi-0.3.3-1.el7
     cloud7-openstack-rocky-release: python-os-xenapi-0.3.3-1.el7
+    cloud7-openstack-stein-testing: python-os-xenapi-0.3.3-1.el7
 - project: manila
   tags:
     stein-uc:
@@ -3630,6 +3767,7 @@ packages:
     cloud7-openstack-queens-release: openstack-manila-6.0.2-1.el7
     cloud7-openstack-rocky-testing: openstack-manila-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-manila-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-manila-7.0.0-1.el7
 - project: zaqar
   tags:
     stein-uc:
@@ -3655,6 +3793,7 @@ packages:
     cloud7-openstack-queens-release: openstack-zaqar-6.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-zaqar-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-zaqar-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-zaqar-7.0.0-1.el7
 - project: ironic-inspector
   tags:
     stein-uc:
@@ -3679,6 +3818,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-inspector-7.2.1-1.el7
     cloud7-openstack-rocky-testing: openstack-ironic-inspector-8.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-ironic-inspector-8.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ironic-inspector-8.0.0-1.el7
 - project: ironic-python-agent
   tags:
     stein-uc:
@@ -3703,6 +3843,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-python-agent-3.2.1-1.el7
     cloud7-openstack-rocky-testing: openstack-ironic-python-agent-3.3.0-1.el7
     cloud7-openstack-rocky-release: openstack-ironic-python-agent-3.3.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ironic-python-agent-3.3.0-1.el7
 - project: ironic-lib
   tags:
     stein-uc:
@@ -3733,6 +3874,7 @@ packages:
     cloud7-openstack-queens-release: python-ironic-lib-2.12.1-1.el7
     cloud7-openstack-rocky-testing: python-ironic-lib-2.14.0-1.el7
     cloud7-openstack-rocky-release: python-ironic-lib-2.14.0-1.el7
+    cloud7-openstack-stein-testing: python-ironic-lib-2.14.0-1.el7
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
@@ -3755,6 +3897,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-ui-3.1.2-1.el7
     cloud7-openstack-rocky-testing: openstack-ironic-ui-3.3.0-1.el7
     cloud7-openstack-rocky-release: openstack-ironic-ui-3.3.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ironic-ui-3.3.0-1.el7
 - project: barbican
   conf: rpmfactory-core
   maintainers:
@@ -3771,6 +3914,7 @@ packages:
     cloud7-openstack-queens-release: openstack-barbican-6.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-barbican-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-barbican-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-barbican-7.0.0-1.el7
 - project: cloudkitty
   tags:
     stein-uc:
@@ -3795,6 +3939,7 @@ packages:
     cloud7-openstack-queens-release: openstack-cloudkitty-7.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-cloudkitty-8.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-cloudkitty-8.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-cloudkitty-8.0.0-1.el7
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
@@ -3820,6 +3965,7 @@ packages:
     cloud7-openstack-queens-release: openstack-cloudkitty-ui-7.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-cloudkitty-ui-8.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-cloudkitty-ui-8.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-cloudkitty-ui-8.0.0-1.el7
 - project: ec2-api
   tags:
     stein-uc:
@@ -3844,6 +3990,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ec2-api-5.1.0-0.1.ec59a03git.el7
     cloud7-openstack-rocky-testing: openstack-ec2-api-7.1.0-1.el7
     cloud7-openstack-rocky-release: openstack-ec2-api-7.1.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ec2-api-7.1.0-1.el7
 - project: magnum
   tags:
     stein-uc:
@@ -3870,6 +4017,7 @@ packages:
     cloud7-openstack-queens-release: openstack-magnum-6.1.1-1.el7
     cloud7-openstack-rocky-testing: openstack-magnum-7.0.1-1.el7
     cloud7-openstack-rocky-release: openstack-magnum-7.0.1-1.el7
+    cloud7-openstack-stein-testing: openstack-magnum-7.0.1-1.el7
 - project: manila-ui
   tags:
     stein-uc:
@@ -3894,6 +4042,7 @@ packages:
     cloud7-openstack-queens-release: openstack-manila-ui-2.13.0-3.el7
     cloud7-openstack-rocky-testing: openstack-manila-ui-2.16.0-1.el7
     cloud7-openstack-rocky-release: openstack-manila-ui-2.16.0-1.el7
+    cloud7-openstack-stein-testing: openstack-manila-ui-2.16.0-1.el7
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
@@ -3922,6 +4071,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-lbaas-ui-4.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-lbaas-ui-5.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-ui-5.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-lbaas-ui-5.0.0-1.el7
 - project: sahara-image-elements
   tags:
     stein-uc:
@@ -3947,6 +4097,7 @@ packages:
     cloud7-openstack-queens-release: sahara-image-elements-8.0.1-1.el7
     cloud7-openstack-rocky-testing: sahara-image-elements-9.0.0-1.el7
     cloud7-openstack-rocky-release: sahara-image-elements-9.0.0-1.el7
+    cloud7-openstack-stein-testing: sahara-image-elements-9.0.0-1.el7
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
@@ -3972,6 +4123,7 @@ packages:
     cloud7-openstack-queens-release: openstack-trove-ui-10.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-trove-ui-11.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-trove-ui-11.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-trove-ui-11.0.0-1.el7
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
@@ -3998,6 +4150,7 @@ packages:
     cloud7-openstack-queens-release: openstack-sahara-ui-8.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-sahara-ui-9.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-sahara-ui-9.0.0-1.el7
 - project: keystoneclient
   conf: rpmfactory-client
   tags:
@@ -4027,6 +4180,7 @@ packages:
     cloud7-openstack-queens-release: python-keystoneclient-3.15.0-1.el7
     cloud7-openstack-rocky-testing: python-keystoneclient-3.17.0-1.el7
     cloud7-openstack-rocky-release: python-keystoneclient-3.17.0-1.el7
+    cloud7-openstack-stein-testing: python-keystoneclient-3.17.0-1.el7
 - project: glanceclient
   conf: rpmfactory-client
   tags:
@@ -4056,6 +4210,7 @@ packages:
     cloud7-openstack-queens-release: python-glanceclient-2.10.0-1.el7
     cloud7-openstack-rocky-testing: python-glanceclient-2.12.1-1.el7
     cloud7-openstack-rocky-release: python-glanceclient-2.12.1-1.el7
+    cloud7-openstack-stein-testing: python-glanceclient-2.12.1-1.el7
 - project: novaclient
   conf: rpmfactory-client
   tags:
@@ -4085,6 +4240,7 @@ packages:
     cloud7-openstack-queens-release: python-novaclient-10.1.0-1.el7
     cloud7-openstack-rocky-testing: python-novaclient-11.0.0-1.el7
     cloud7-openstack-rocky-release: python-novaclient-11.0.0-1.el7
+    cloud7-openstack-stein-testing: python-novaclient-11.0.0-1.el7
 - project: swiftclient
   conf: rpmfactory-client
   tags:
@@ -4114,6 +4270,7 @@ packages:
     cloud7-openstack-queens-release: python-swiftclient-3.5.0-1.el7
     cloud7-openstack-rocky-testing: python-swiftclient-3.6.0-1.el7
     cloud7-openstack-rocky-release: python-swiftclient-3.6.0-1.el7
+    cloud7-openstack-stein-testing: python-swiftclient-3.6.0-1.el7
 - project: ceilometerclient
   conf: rpmfactory-client
   tags:
@@ -4143,6 +4300,7 @@ packages:
     cloud7-openstack-queens-release: python-ceilometerclient-2.9.0-1.el7
     cloud7-openstack-rocky-testing: python-ceilometerclient-2.9.0-1.el7
     cloud7-openstack-rocky-release: python-ceilometerclient-2.9.0-1.el7
+    cloud7-openstack-stein-testing: python-ceilometerclient-2.9.0-1.el7
 - project: heatclient
   conf: rpmfactory-client
   tags:
@@ -4172,6 +4330,7 @@ packages:
     cloud7-openstack-queens-release: python-heatclient-1.14.0-1.el7
     cloud7-openstack-rocky-testing: python-heatclient-1.16.1-1.el7
     cloud7-openstack-rocky-release: python-heatclient-1.16.1-1.el7
+    cloud7-openstack-stein-testing: python-heatclient-1.16.1-1.el7
 - project: cinderclient
   conf: rpmfactory-client
   tags:
@@ -4201,6 +4360,7 @@ packages:
     cloud7-openstack-queens-release: python-cinderclient-3.5.0-1.el7
     cloud7-openstack-rocky-testing: python-cinderclient-4.0.1-1.el7
     cloud7-openstack-rocky-release: python-cinderclient-4.0.1-1.el7
+    cloud7-openstack-stein-testing: python-cinderclient-4.0.1-1.el7
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
@@ -4233,6 +4393,7 @@ packages:
     cloud7-openstack-queens-release: python-ironicclient-2.2.1-1.el7
     cloud7-openstack-rocky-testing: python-ironicclient-2.5.0-1.el7
     cloud7-openstack-rocky-release: python-ironicclient-2.5.0-1.el7
+    cloud7-openstack-stein-testing: python-ironicclient-2.5.0-1.el7
 - project: neutronclient
   conf: rpmfactory-client
   maintainers:
@@ -4272,6 +4433,7 @@ packages:
     cloud7-openstack-queens-release: python-neutronclient-6.7.0-1.el7
     cloud7-openstack-rocky-testing: python-neutronclient-6.9.0-1.el7
     cloud7-openstack-rocky-release: python-neutronclient-6.9.0-1.el7
+    cloud7-openstack-stein-testing: python-neutronclient-6.9.0-1.el7
 - project: saharaclient
   conf: rpmfactory-client
   tags:
@@ -4301,6 +4463,7 @@ packages:
     cloud7-openstack-queens-release: python-saharaclient-1.5.0-1.el7
     cloud7-openstack-rocky-testing: python-saharaclient-2.0.0-1.el7
     cloud7-openstack-rocky-release: python-saharaclient-2.0.0-1.el7
+    cloud7-openstack-stein-testing: python-saharaclient-2.0.0-1.el7
 - project: troveclient
   conf: rpmfactory-client
   tags:
@@ -4330,6 +4493,7 @@ packages:
     cloud7-openstack-queens-release: python-troveclient-2.14.0-1.el7
     cloud7-openstack-rocky-testing: python-troveclient-2.16.0-1.el7
     cloud7-openstack-rocky-release: python-troveclient-2.16.0-1.el7
+    cloud7-openstack-stein-testing: python-troveclient-2.16.0-1.el7
 - project: vitrageclient
   conf: rpmfactory-client
   tags:
@@ -4359,6 +4523,7 @@ packages:
     cloud7-openstack-queens-release: python-vitrageclient-2.1.0-1.el7
     cloud7-openstack-rocky-testing: python-vitrageclient-2.3.0-1.el7
     cloud7-openstack-rocky-release: python-vitrageclient-2.3.0-1.el7
+    cloud7-openstack-stein-testing: python-vitrageclient-2.3.0-1.el7
 - project: designateclient
   conf: rpmfactory-client
   tags:
@@ -4388,6 +4553,7 @@ packages:
     cloud7-openstack-queens-release: python-designateclient-2.9.0-1.el7
     cloud7-openstack-rocky-testing: python-designateclient-2.10.0-1.el7
     cloud7-openstack-rocky-release: python-designateclient-2.10.0-1.el7
+    cloud7-openstack-stein-testing: python-designateclient-2.10.0-1.el7
 - project: manilaclient
   tags:
     stein-py3-uc:
@@ -4419,6 +4585,7 @@ packages:
     cloud7-openstack-queens-release: python-manilaclient-1.21.1-1.el7
     cloud7-openstack-rocky-testing: python-manilaclient-1.24.1-1.el7
     cloud7-openstack-rocky-release: python-manilaclient-1.24.1-1.el7
+    cloud7-openstack-stein-testing: python-manilaclient-1.24.1-1.el7
 - project: barbicanclient
   tags:
     stein-py3-uc:
@@ -4452,6 +4619,7 @@ packages:
     cloud7-openstack-queens-release: python-barbicanclient-4.6.0-1.el7
     cloud7-openstack-rocky-testing: python-barbicanclient-4.7.0-1.el7
     cloud7-openstack-rocky-release: python-barbicanclient-4.7.0-1.el7
+    cloud7-openstack-stein-testing: python-barbicanclient-4.7.0-1.el7
 - project: cloudkittyclient
   tags:
     stein-py3-uc:
@@ -4476,6 +4644,7 @@ packages:
     cloud7-openstack-queens-release: python-cloudkittyclient-1.2.0-1.el7
     cloud7-openstack-rocky-testing: python-cloudkittyclient-2.0.0-1.el7
     cloud7-openstack-rocky-release: python-cloudkittyclient-2.0.0-1.el7
+    cloud7-openstack-stein-testing: python-cloudkittyclient-2.0.0-1.el7
 - project: keystonemiddleware
   conf: rpmfactory-client
   upstream: git://git.openstack.org/openstack/%(project)s
@@ -4506,6 +4675,7 @@ packages:
     cloud7-openstack-queens-release: python-keystonemiddleware-4.21.0-1.el7
     cloud7-openstack-rocky-testing: python-keystonemiddleware-5.2.0-1.el7
     cloud7-openstack-rocky-release: python-keystonemiddleware-5.2.0-1.el7
+    cloud7-openstack-stein-testing: python-keystonemiddleware-5.2.0-1.el7
 - project: ceilometermiddleware
   tags:
     stein-uc:
@@ -4534,6 +4704,7 @@ packages:
     cloud7-openstack-queens-release: python-ceilometermiddleware-1.2.0-1.el7
     cloud7-openstack-rocky-testing: python-ceilometermiddleware-1.3.0-1.el7
     cloud7-openstack-rocky-release: python-ceilometermiddleware-1.3.0-1.el7
+    cloud7-openstack-stein-testing: python-ceilometermiddleware-1.3.0-1.el7
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -4565,6 +4736,7 @@ packages:
     cloud7-openstack-queens-release: python-openstackclient-3.14.2-1.el7
     cloud7-openstack-rocky-testing: python-openstackclient-3.16.0-1.el7
     cloud7-openstack-rocky-release: python-openstackclient-3.16.0-1.el7
+    cloud7-openstack-stein-testing: python-openstackclient-3.16.0-1.el7
 - project: shade
   conf: rpmfactory-client
   maintainers:
@@ -4589,6 +4761,7 @@ packages:
     cloud7-openstack-queens-release: python-shade-1.27.1-1.el7
     cloud7-openstack-rocky-testing: python-shade-1.29.0-1.el7
     cloud7-openstack-rocky-release: python-shade-1.29.0-1.el7
+    cloud7-openstack-stein-testing: python-shade-1.29.0-1.el7
 - project: ironic-inspector-client
   tags:
     stein-py3-uc:
@@ -4620,6 +4793,7 @@ packages:
     cloud7-openstack-queens-release: python-ironic-inspector-client-3.1.1-1.el7
     cloud7-openstack-rocky-testing: python-ironic-inspector-client-3.3.0-1.el7
     cloud7-openstack-rocky-release: python-ironic-inspector-client-3.3.0-1.el7
+    cloud7-openstack-stein-testing: python-ironic-inspector-client-3.3.0-1.el7
 - project: tripleoclient
   tags:
     stein-uc:
@@ -4646,6 +4820,7 @@ packages:
     cloud7-openstack-queens-release: python-tripleoclient-9.2.4-1.el7
     cloud7-openstack-rocky-testing: python-tripleoclient-10.5.0-1.el7
     cloud7-openstack-rocky-release: python-tripleoclient-10.5.0-1.el7
+    cloud7-openstack-stein-testing: python-tripleoclient-10.5.0-1.el7
 - project: zaqarclient
   tags:
     stein-py3-uc:
@@ -4679,6 +4854,7 @@ packages:
     cloud7-openstack-queens-release: python-zaqarclient-1.9.0-1.el7
     cloud7-openstack-rocky-testing: python-zaqarclient-1.10.0-1.el7
     cloud7-openstack-rocky-release: python-zaqarclient-1.10.0-1.el7
+    cloud7-openstack-stein-testing: python-zaqarclient-1.10.0-1.el7
 - project: openstacksdk
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
@@ -4709,6 +4885,7 @@ packages:
     cloud7-openstack-queens-release: python-openstacksdk-0.11.3-1.el7
     cloud7-openstack-rocky-testing: python-openstacksdk-0.17.2-1.el7
     cloud7-openstack-rocky-release: python-openstacksdk-0.17.2-1.el7
+    cloud7-openstack-stein-testing: python-openstacksdk-0.17.2-1.el7
 - project: gnocchiclient
   tags:
     #(TODO) remove version-locked when 7.0.4 is in u-c.
@@ -4743,6 +4920,7 @@ packages:
     cloud7-openstack-queens-release: python-gnocchiclient-7.0.1-1.el7
     cloud7-openstack-rocky-testing: python-gnocchiclient-7.0.4-1.el7
     cloud7-openstack-rocky-release: python-gnocchiclient-7.0.4-1.el7
+    cloud7-openstack-stein-testing: python-gnocchiclient-7.0.4-1.el7
 - project: aodhclient
   tags:
     stein-py3-uc:
@@ -4774,6 +4952,7 @@ packages:
     cloud7-openstack-queens-release: python-aodhclient-1.0.0-1.el7
     cloud7-openstack-rocky-testing: python-aodhclient-1.1.1-1.el7
     cloud7-openstack-rocky-release: python-aodhclient-1.1.1-1.el7
+    cloud7-openstack-stein-testing: python-aodhclient-1.1.1-1.el7
 - project: pankoclient
   tags:
     stein-py3-uc:
@@ -4797,6 +4976,7 @@ packages:
     cloud7-openstack-queens-release: python-pankoclient-0.4.1-1.el7
     cloud7-openstack-rocky-testing: python-pankoclient-0.5.0-1.el7
     cloud7-openstack-rocky-release: python-pankoclient-0.5.0-1.el7
+    cloud7-openstack-stein-testing: python-pankoclient-0.5.0-1.el7
 - project: monascaclient
   tags:
     stein-py3-uc:
@@ -4825,6 +5005,7 @@ packages:
     cloud7-openstack-queens-release: python-monascaclient-1.10.0-1.el7
     cloud7-openstack-rocky-testing: python-monascaclient-1.12.1-1.el7
     cloud7-openstack-rocky-release: python-monascaclient-1.12.1-1.el7
+    cloud7-openstack-stein-testing: python-monascaclient-1.12.1-1.el7
 - project: mox3
   tags:
     stein-py3-uc:
@@ -4855,6 +5036,7 @@ packages:
     cloud7-openstack-queens-release: python-mox3-0.24.0-1.el7
     cloud7-openstack-rocky-testing: python-mox3-0.26.0-1.el7
     cloud7-openstack-rocky-release: python-mox3-0.26.0-1.el7
+    cloud7-openstack-stein-testing: python-mox3-0.26.0-1.el7
 - project: oslotest
   tags:
     stein-py3-uc:
@@ -4885,6 +5067,7 @@ packages:
     cloud7-openstack-queens-release: python-oslotest-3.2.0-1.el7
     cloud7-openstack-rocky-testing: python-oslotest-3.6.0-1.el7
     cloud7-openstack-rocky-release: python-oslotest-3.6.0-1.el7
+    cloud7-openstack-stein-testing: python-oslotest-3.6.0-1.el7
 - project: oslo-sphinx
   conf: rpmfactory-lib
   tags:
@@ -4910,6 +5093,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-sphinx-4.18.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-sphinx-4.18.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-sphinx-4.18.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-sphinx-4.18.0-1.el7
 - project: oslo-i18n
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.i18n
@@ -4942,6 +5126,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-i18n-3.19.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-i18n-3.21.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-i18n-3.21.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-i18n-3.21.0-1.el7
 - project: oslo-messaging
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.messaging
@@ -4972,6 +5157,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-messaging-5.35.1-1.el7
     cloud7-openstack-rocky-testing: python-oslo-messaging-8.1.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-messaging-8.1.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-messaging-8.1.0-1.el7
 - project: oslo-cache
   tags:
     stein-py3-uc:
@@ -5002,6 +5188,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-cache-1.28.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-cache-1.30.1-1.el7
     cloud7-openstack-rocky-release: python-oslo-cache-1.30.1-1.el7
+    cloud7-openstack-stein-testing: python-oslo-cache-1.30.1-1.el7
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
@@ -5032,6 +5219,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-config-5.2.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-config-6.4.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-config-6.4.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-config-6.4.0-1.el7
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
@@ -5062,6 +5250,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-concurrency-3.25.1-1.el7
     cloud7-openstack-rocky-testing: python-oslo-concurrency-3.27.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-concurrency-3.27.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-concurrency-3.27.0-1.el7
 - project: oslo-rootwrap
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.rootwrap
@@ -5092,6 +5281,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-rootwrap-5.13.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-rootwrap-5.14.1-1.el7
     cloud7-openstack-rocky-release: python-oslo-rootwrap-5.14.1-1.el7
+    cloud7-openstack-stein-testing: python-oslo-rootwrap-5.14.1-1.el7
 - project: oslo-serialization
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.serialization
@@ -5122,6 +5312,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-serialization-2.24.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-serialization-2.27.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-serialization-2.27.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-serialization-2.27.0-1.el7
 - project: oslo-middleware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.middleware
@@ -5152,6 +5343,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-middleware-3.34.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-middleware-3.36.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-middleware-3.36.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-middleware-3.36.0-1.el7
 - project: oslo-db
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.db
@@ -5182,6 +5374,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-db-4.33.1-1.el7
     cloud7-openstack-rocky-testing: python-oslo-db-4.40.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-db-4.40.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-db-4.40.0-1.el7
 - project: oslo-utils
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.utils
@@ -5212,6 +5405,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-utils-3.35.1-1.el7
     cloud7-openstack-rocky-testing: python-oslo-utils-3.36.4-1.el7
     cloud7-openstack-rocky-release: python-oslo-utils-3.36.4-1.el7
+    cloud7-openstack-stein-testing: python-oslo-utils-3.36.4-1.el7
 - project: oslo-vmware
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.vmware
@@ -5242,6 +5436,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-vmware-2.26.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-vmware-2.31.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-vmware-2.31.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-vmware-2.31.0-1.el7
 - project: oslo-context
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.context
@@ -5272,6 +5467,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-context-2.20.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-context-2.21.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-context-2.21.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-context-2.21.0-1.el7
 - project: oslo-log
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.log
@@ -5302,6 +5498,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-log-3.36.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-log-3.39.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-log-3.39.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-log-3.39.0-1.el7
 - project: oslo-policy
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.policy
@@ -5332,6 +5529,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-policy-1.33.2-1.el7
     cloud7-openstack-rocky-testing: python-oslo-policy-1.38.1-1.el7
     cloud7-openstack-rocky-release: python-oslo-policy-1.38.1-1.el7
+    cloud7-openstack-stein-testing: python-oslo-policy-1.38.1-1.el7
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.versionedobjects
@@ -5362,6 +5560,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-versionedobjects-1.31.3-1.el7
     cloud7-openstack-rocky-testing: python-oslo-versionedobjects-1.33.3-1.el7
     cloud7-openstack-rocky-release: python-oslo-versionedobjects-1.33.3-1.el7
+    cloud7-openstack-stein-testing: python-oslo-versionedobjects-1.33.3-1.el7
 - project: oslo-service
   tags:
     stein-py3-uc:
@@ -5392,6 +5591,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-service-1.29.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-service-1.31.3-1.el7
     cloud7-openstack-rocky-release: python-oslo-service-1.31.3-1.el7
+    cloud7-openstack-stein-testing: python-oslo-service-1.31.3-1.el7
 - project: oslo-reports
   tags:
     stein-py3-uc:
@@ -5422,6 +5622,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-reports-1.26.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-reports-1.28.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-reports-1.28.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-reports-1.28.0-1.el7
 - project: oslo-privsep
   tags:
     stein-py3-uc:
@@ -5452,6 +5653,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-privsep-1.27.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-privsep-1.29.0-1.el7
     cloud7-openstack-rocky-release: python-oslo-privsep-1.29.0-1.el7
+    cloud7-openstack-stein-testing: python-oslo-privsep-1.29.0-1.el7
 - project: ovsdbapp
   conf: rpmfactory-lib
   tags:
@@ -5480,6 +5682,7 @@ packages:
     cloud7-openstack-queens-release: python-ovsdbapp-0.10.1-1.el7
     cloud7-openstack-rocky-testing: python-ovsdbapp-0.12.0-1.el7
     cloud7-openstack-rocky-release: python-ovsdbapp-0.12.0-1.el7
+    cloud7-openstack-stein-testing: python-ovsdbapp-0.12.0-1.el7
 - project: stevedore
   conf: rpmfactory-lib
   tags:
@@ -5511,6 +5714,7 @@ packages:
     cloud7-openstack-queens-release: python-stevedore-1.28.0-1.el7
     cloud7-openstack-rocky-testing: python-stevedore-1.29.0-1.el7
     cloud7-openstack-rocky-release: python-stevedore-1.29.0-1.el7
+    cloud7-openstack-stein-testing: python-stevedore-1.29.0-1.el7
 - project: castellan
   tags:
     stein-py3-uc:
@@ -5540,6 +5744,7 @@ packages:
     cloud7-openstack-queens-release: python-castellan-0.17.0-1.el7
     cloud7-openstack-rocky-testing: python-castellan-0.19.0-1.el7
     cloud7-openstack-rocky-release: python-castellan-0.19.0-1.el7
+    cloud7-openstack-stein-testing: python-castellan-0.19.0-1.el7
 - project: taskflow
   conf: rpmfactory-lib
   tags:
@@ -5569,6 +5774,7 @@ packages:
     cloud7-openstack-queens-release: python-taskflow-3.1.0-1.el7
     cloud7-openstack-rocky-testing: python-taskflow-3.2.0-1.el7
     cloud7-openstack-rocky-release: python-taskflow-3.2.0-1.el7
+    cloud7-openstack-stein-testing: python-taskflow-3.2.0-1.el7
 - project: pycadf
   conf: rpmfactory-lib
   tags:
@@ -5598,6 +5804,7 @@ packages:
     cloud7-openstack-queens-release: python-pycadf-2.7.0-1.el7
     cloud7-openstack-rocky-testing: python-pycadf-2.8.0-1.el7
     cloud7-openstack-rocky-release: python-pycadf-2.8.0-1.el7
+    cloud7-openstack-stein-testing: python-pycadf-2.8.0-1.el7
 - project: debtcollector
   tags:
     stein-py3-uc:
@@ -5627,6 +5834,7 @@ packages:
     cloud7-openstack-queens-release: python-debtcollector-1.19.0-1.el7
     cloud7-openstack-rocky-testing: python-debtcollector-1.20.0-1.el7
     cloud7-openstack-rocky-release: python-debtcollector-1.20.0-1.el7
+    cloud7-openstack-stein-testing: python-debtcollector-1.20.0-1.el7
 - project: automaton
   tags:
     stein-py3-uc:
@@ -5656,6 +5864,7 @@ packages:
     cloud7-openstack-queens-release: python-automaton-1.14.0-1.el7
     cloud7-openstack-rocky-testing: python-automaton-1.15.0-1.el7
     cloud7-openstack-rocky-release: python-automaton-1.15.0-1.el7
+    cloud7-openstack-stein-testing: python-automaton-1.15.0-1.el7
 - project: cliff
   tags:
     stein-py3-uc:
@@ -5687,6 +5896,7 @@ packages:
     cloud7-openstack-queens-release: python-cliff-2.11.1-1.el7
     cloud7-openstack-rocky-testing: python-cliff-2.13.0-1.el7
     cloud7-openstack-rocky-release: python-cliff-2.13.0-1.el7
+    cloud7-openstack-stein-testing: python-cliff-2.13.0-1.el7
 - project: futurist
   tags:
     stein-py3-uc:
@@ -5716,6 +5926,7 @@ packages:
     cloud7-openstack-queens-release: python-futurist-1.6.0-1.el7
     cloud7-openstack-rocky-testing: python-futurist-1.7.0-1.el7
     cloud7-openstack-rocky-release: python-futurist-1.7.0-1.el7
+    cloud7-openstack-stein-testing: python-futurist-1.7.0-1.el7
 - project: cursive
   tags:
     stein-py3-uc:
@@ -5747,6 +5958,7 @@ packages:
     cloud7-openstack-queens-release: python-cursive-0.2.1-1.el7
     cloud7-openstack-rocky-testing: python-cursive-0.2.2-1.el7
     cloud7-openstack-rocky-release: python-cursive-0.2.2-1.el7
+    cloud7-openstack-stein-testing: python-cursive-0.2.2-1.el7
 - project: hacking
   tags:
     stein-py3-uc:
@@ -5777,6 +5989,7 @@ packages:
     cloud7-openstack-queens-release: python-hacking-1.0.0-1.865398fgit.el7
     cloud7-openstack-rocky-testing: python-hacking-1.1.0-1.el7
     cloud7-openstack-rocky-release: python-hacking-1.1.0-1.el7
+    cloud7-openstack-stein-testing: python-hacking-1.1.0-1.el7
 - project: wsme
   tags:
     stein-py3-uc:
@@ -5802,6 +6015,7 @@ packages:
     cloud7-openstack-queens-release: python-wsme-0.9.3-1.el7
     cloud7-openstack-rocky-testing: python-wsme-0.9.3-1.el7
     cloud7-openstack-rocky-release: python-wsme-0.9.3-1.el7
+    cloud7-openstack-stein-testing: python-wsme-0.9.3-1.el7
 # deps
 - project: packstack
   conf: rpmfactory-core
@@ -5822,6 +6036,7 @@ packages:
     cloud7-openstack-queens-release: openstack-packstack-12.0.0-2.el7
     cloud7-openstack-rocky-testing: openstack-packstack-13.0.0-0.1.0rc1.el7
     cloud7-openstack-rocky-release: openstack-packstack-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-testing: openstack-packstack-13.0.0-0.1.0rc1.el7
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
@@ -5867,6 +6082,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-common-8.6.4-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-common-9.3.0-1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-common-9.3.0-1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-common-9.3.0-1.el7
 - project: tripleo-repos
   tags:
     stein-uc:
@@ -5900,6 +6116,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-ui-8.3.2-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-ui-9.3.0-1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-ui-9.3.0-1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-ui-9.3.0-1.el7
 - project: osprofiler
   conf: rpmfactory-lib
   name: python-osprofiler
@@ -5934,6 +6151,7 @@ packages:
     cloud7-openstack-queens-release: python-osprofiler-1.15.2-1.el7
     cloud7-openstack-rocky-testing: python-osprofiler-2.3.0-1.el7
     cloud7-openstack-rocky-release: python-osprofiler-2.3.0-1.el7
+    cloud7-openstack-stein-testing: python-osprofiler-2.3.0-1.el7
 - project: networking-ansible
   conf: rpmfactory-lib
   name: python-networking-ansible
@@ -5949,6 +6167,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-networking-ansible-1.0.1-1.el7
     cloud7-openstack-rocky-release: python-networking-ansible-1.0.1-1.el7
+    cloud7-openstack-stein-testing: python-networking-ansible-1.0.1-1.el7
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
@@ -5978,6 +6197,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-baremetal-1.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-baremetal-1.2.0-1.el7
     cloud7-openstack-rocky-release: python-networking-baremetal-1.2.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-baremetal-1.2.0-1.el7
 - project: networking-generic-switch
   conf: rpmfactory-lib
   tags:
@@ -5993,6 +6213,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-generic-switch-1.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-generic-switch-1.2.0-1.el7
     cloud7-openstack-rocky-release: python-networking-generic-switch-1.2.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-generic-switch-1.2.0-1.el7
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
@@ -6010,6 +6231,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-mlnx-11.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-mlnx-12.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-mlnx-12.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-mlnx-12.0.0-1.el7
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
@@ -6027,6 +6249,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-odl-12.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-odl-13.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-odl-13.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-odl-13.0.0-1.el7
 - project: networking-sfc
   conf: rpmfactory-lib
   name: python-networking-sfc
@@ -6050,6 +6273,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-sfc-6.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-sfc-7.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-sfc-7.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-sfc-7.0.0-1.el7
 - project: networking-vsphere
   conf: rpmfactory-lib
   name: python-networking-vsphere
@@ -6082,6 +6306,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-vmware-nsx-12.0.1-1.el7
     cloud7-openstack-rocky-testing: python-networking-vmware-nsx-13.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-vmware-nsx-13.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-vmware-nsx-13.0.0-1.el7
 - project: vmware-nsxlib
   conf: rpmfactory-lib
   tags:
@@ -6103,6 +6328,7 @@ packages:
     cloud7-openstack-queens-release: python-vmware-nsxlib-12.0.1-1.el7
     cloud7-openstack-rocky-testing: python-vmware-nsxlib-13.0.0-1.el7
     cloud7-openstack-rocky-release: python-vmware-nsxlib-13.0.0-1.el7
+    cloud7-openstack-stein-testing: python-vmware-nsxlib-13.0.0-1.el7
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
@@ -6126,6 +6352,7 @@ packages:
     cloud7-openstack-queens-testing: python-networking-bigswitch-12.0.2-1.el7
     cloud7-openstack-queens-release: python-networking-bigswitch-12.0.2-1.el7
     cloud7-openstack-rocky-testing: python-networking-bigswitch-13.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-bigswitch-13.0.0-1.el7
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
@@ -6156,6 +6383,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-ovn-4.0.2-1.el7
     cloud7-openstack-rocky-testing: python-networking-ovn-5.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-ovn-5.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-ovn-5.0.0-1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
   tags:
@@ -6197,6 +6425,7 @@ packages:
     cloud7-openstack-queens-release: python-UcsSdk-0.8.2.5-1.el7
     cloud7-openstack-rocky-testing: python-UcsSdk-0.8.2.5-1.el7
     cloud7-openstack-rocky-release: python-UcsSdk-0.8.2.5-1.el7
+    cloud7-openstack-stein-testing: python-UcsSdk-0.8.2.5-1.el7
   tags:
     stein-uc:
     stein:
@@ -6243,6 +6472,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tripleo-puppet-elements-8.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-puppet-elements-9.0.0-0.1.0rc1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-puppet-elements-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-puppet-elements-9.0.0-0.1.0rc1.el7
 - project: os-brick
   tags:
     stein-py3-uc:
@@ -6277,6 +6507,7 @@ packages:
     cloud7-openstack-queens-release: python-os-brick-2.3.2-1.el7
     cloud7-openstack-rocky-testing: python-os-brick-2.5.3-1.el7
     cloud7-openstack-rocky-release: python-os-brick-2.5.3-1.el7
+    cloud7-openstack-stein-testing: python-os-brick-2.5.3-1.el7
 - project: hardware
   tags:
     stein-uc:
@@ -6307,6 +6538,7 @@ packages:
     cloud7-openstack-queens-release: python-hardware-0.18-1.el7
     cloud7-openstack-rocky-testing: python-hardware-0.18-1.el7
     cloud7-openstack-rocky-release: python-hardware-0.18-1.el7
+    cloud7-openstack-stein-testing: python-hardware-0.18-1.el7
 - project: keystoneauth1
   tags:
     stein-py3-uc:
@@ -6337,6 +6569,7 @@ packages:
     cloud7-openstack-queens-release: python-keystoneauth1-3.4.0-1.el7
     cloud7-openstack-rocky-testing: python-keystoneauth1-3.10.0-1.el7
     cloud7-openstack-rocky-release: python-keystoneauth1-3.10.0-1.el7
+    cloud7-openstack-stein-testing: python-keystoneauth1-3.10.0-1.el7
 - project: rally
   tags:
     stein-uc:
@@ -6367,6 +6600,7 @@ packages:
     cloud7-openstack-queens-release: openstack-rally-0.11.0-1.el7
     cloud7-openstack-rocky-testing: openstack-rally-1.1.0-1.el7
     cloud7-openstack-rocky-release: openstack-rally-1.1.0-1.el7
+    cloud7-openstack-stein-testing: openstack-rally-1.1.0-1.el7
 - project: tempest
   tags:
     stein-py3-uc:
@@ -6401,6 +6635,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tempest-18.0.0-2.el7
     cloud7-openstack-rocky-testing: openstack-tempest-19.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-tempest-19.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-tempest-19.0.0-1.el7
 - project: tempest-lib
   # retired in ocata release
   tags:
@@ -6445,6 +6680,7 @@ packages:
     cloud7-openstack-queens-release: python-os-testr-1.0.0-1.el7
     cloud7-openstack-rocky-testing: python-os-testr-1.0.0-1.el7
     cloud7-openstack-rocky-release: python-os-testr-1.0.0-1.el7
+    cloud7-openstack-stein-testing: python-os-testr-1.0.0-1.el7
 - project: proliantutils
   tags:
     stein-uc:
@@ -6477,6 +6713,7 @@ packages:
     cloud7-openstack-queens-release: python-proliantutils-2.5.0-1.el7
     cloud7-openstack-rocky-testing: python-proliantutils-2.6.0-1.el7
     cloud7-openstack-rocky-release: python-proliantutils-2.6.0-1.el7
+    cloud7-openstack-stein-testing: python-proliantutils-2.6.0-1.el7
 - project: dracclient
   tags:
     stein-uc:
@@ -6504,6 +6741,7 @@ packages:
     cloud7-openstack-queens-release: python-dracclient-1.3.1-1.el7
     cloud7-openstack-rocky-testing: python-dracclient-1.4.0-1.el7
     cloud7-openstack-rocky-release: python-dracclient-1.4.0-1.el7
+    cloud7-openstack-stein-testing: python-dracclient-1.4.0-1.el7
 - project: mistralclient
   tags:
     stein-py3-uc:
@@ -6536,6 +6774,7 @@ packages:
     cloud7-openstack-queens-release: python-mistralclient-3.3.0-1.el7
     cloud7-openstack-rocky-testing: python-mistralclient-3.7.0-1.el7
     cloud7-openstack-rocky-release: python-mistralclient-3.7.0-1.el7
+    cloud7-openstack-stein-testing: python-mistralclient-3.7.0-1.el7
 - project: mistral-extra
   tags:
     under-review:
@@ -6569,6 +6808,7 @@ packages:
     cloud7-openstack-queens-release: openstack-mistral-6.0.3-1.el7
     cloud7-openstack-rocky-testing: openstack-mistral-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-mistral-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-mistral-7.0.0-1.el7
 - project: mistral-lib
   tags:
     stein-py3-uc:
@@ -6592,6 +6832,7 @@ packages:
     cloud7-openstack-queens-release: python-mistral-lib-0.4.0-1.el7
     cloud7-openstack-rocky-testing: python-mistral-lib-1.0.0-1.el7
     cloud7-openstack-rocky-release: python-mistral-lib-1.0.0-1.el7
+    cloud7-openstack-stein-testing: python-mistral-lib-1.0.0-1.el7
 - project: requestsexceptions
   tags:
     stein-py3-uc:
@@ -6622,6 +6863,7 @@ packages:
     cloud7-openstack-queens-release: python-requestsexceptions-1.4.0-1.el7
     cloud7-openstack-rocky-testing: python-requestsexceptions-1.4.0-1.el7
     cloud7-openstack-rocky-release: python-requestsexceptions-1.4.0-1.el7
+    cloud7-openstack-stein-testing: python-requestsexceptions-1.4.0-1.el7
 - project: app-catalog-ui
   tags:
     pike:
@@ -6665,6 +6907,7 @@ packages:
     cloud7-openstack-queens-release: openstack-mistral-ui-6.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-mistral-ui-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-mistral-ui-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-mistral-ui-7.0.0-1.el7
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
@@ -6691,6 +6934,7 @@ packages:
     cloud7-openstack-queens-release: openstack-magnum-ui-4.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-magnum-ui-5.0.1-1.el7
     cloud7-openstack-rocky-release: openstack-magnum-ui-5.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-magnum-ui-5.0.1-1.el7
 - project: tooz
   tags:
     stein-py3-uc:
@@ -6723,6 +6967,7 @@ packages:
     cloud7-openstack-queens-release: python-tooz-1.60.1-1.el7
     cloud7-openstack-rocky-testing: python-tooz-1.62.0-1.el7
     cloud7-openstack-rocky-release: python-tooz-1.62.0-1.el7
+    cloud7-openstack-stein-testing: python-tooz-1.62.0-1.el7
 - project: magnumclient
   tags:
     stein-py3-uc:
@@ -6757,6 +7002,7 @@ packages:
     cloud7-openstack-queens-release: python-magnumclient-2.9.1-1.el7
     cloud7-openstack-rocky-testing: python-magnumclient-2.10.0-1.el7
     cloud7-openstack-rocky-release: python-magnumclient-2.10.0-1.el7
+    cloud7-openstack-stein-testing: python-magnumclient-2.10.0-1.el7
 - project: congressclient
   tags:
     stein-py3-uc:
@@ -6789,6 +7035,7 @@ packages:
     cloud7-openstack-queens-release: python-congressclient-1.9.0-1.el7
     cloud7-openstack-rocky-testing: python-congressclient-1.11.0-1.el7
     cloud7-openstack-rocky-release: python-congressclient-1.11.0-1.el7
+    cloud7-openstack-stein-testing: python-congressclient-1.11.0-1.el7
 - project: muranoclient
   tags:
     stein-py3-uc:
@@ -6821,6 +7068,7 @@ packages:
     cloud7-openstack-queens-release: python-muranoclient-1.0.1-1.el7
     cloud7-openstack-rocky-testing: python-muranoclient-1.1.1-1.el7
     cloud7-openstack-rocky-release: python-muranoclient-1.1.1-1.el7
+    cloud7-openstack-stein-testing: python-muranoclient-1.1.1-1.el7
 - project: murano
   tags:
     stein-uc:
@@ -6845,6 +7093,7 @@ packages:
     cloud7-openstack-queens-release: openstack-murano-5.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-murano-6.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-murano-6.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-murano-6.0.0-1.el7
 - project: murano-agent
   tags:
     stein-uc:
@@ -6868,6 +7117,7 @@ packages:
     cloud7-openstack-queens-release: openstack-murano-agent-3.4.0-1.el7
     cloud7-openstack-rocky-testing: openstack-murano-agent-3.5.1-1.el7
     cloud7-openstack-rocky-release: openstack-murano-agent-3.5.1-1.el7
+    cloud7-openstack-stein-testing: openstack-murano-agent-3.5.1-1.el7
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
@@ -6893,6 +7143,7 @@ packages:
     cloud7-openstack-queens-release: openstack-murano-ui-5.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-murano-ui-6.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-murano-ui-6.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-murano-ui-6.0.0-1.el7
 - project: reno
   tags:
     stein-py3-uc:
@@ -6925,6 +7176,7 @@ packages:
     cloud7-openstack-queens-release: python-reno-2.7.0-1.el7
     cloud7-openstack-rocky-testing: python-reno-2.9.2-1.el7
     cloud7-openstack-rocky-release: python-reno-2.9.2-1.el7
+    cloud7-openstack-stein-testing: python-reno-2.9.2-1.el7
 - project: k8sclient
   tags:
     newton:
@@ -6964,6 +7216,7 @@ packages:
     cloud7-openstack-queens-release: python-microversion-parse-0.1.4-2.el7
     cloud7-openstack-rocky-testing: python-microversion-parse-0.2.1-1.el7
     cloud7-openstack-rocky-release: python-microversion-parse-0.2.1-1.el7
+    cloud7-openstack-stein-testing: python-microversion-parse-0.2.1-1.el7
 - project: osc-lib
   conf: rpmfactory-lib
   tags:
@@ -6995,6 +7248,7 @@ packages:
     cloud7-openstack-queens-release: python-osc-lib-1.9.0-1.el7
     cloud7-openstack-rocky-testing: python-osc-lib-1.11.1-1.el7
     cloud7-openstack-rocky-release: python-osc-lib-1.11.1-1.el7
+    cloud7-openstack-stein-testing: python-osc-lib-1.11.1-1.el7
 - project: tempest-horizon
   conf: rpmfactory-tempest-plugin
   name: python-horizon-tests-tempest
@@ -7021,6 +7275,7 @@ packages:
     cloud7-openstack-queens-release: python-horizon-tests-tempest-0.0.1-0.1.a23f407git.el7
     cloud7-openstack-rocky-testing: python-horizon-tests-tempest-0.0.1-0.3.6490739git.el7
     cloud7-openstack-rocky-release: python-horizon-tests-tempest-0.0.1-0.3.6490739git.el7
+    cloud7-openstack-stein-testing: python-horizon-tests-tempest-0.0.1-0.3.6490739git.el7
 - project: os-vif
   conf: rpmfactory-lib
   tags:
@@ -7052,6 +7307,7 @@ packages:
     cloud7-openstack-queens-release: python-os-vif-1.9.1-1.el7
     cloud7-openstack-rocky-testing: python-os-vif-1.11.1-1.el7
     cloud7-openstack-rocky-release: python-os-vif-1.11.1-1.el7
+    cloud7-openstack-stein-testing: python-os-vif-1.11.1-1.el7
 - project: sahara-tests
   conf: rpmfactory-lib
   name: openstack-sahara-tests
@@ -7083,6 +7339,7 @@ packages:
     cloud7-openstack-queens-release: openstack-sahara-tests-0.6.0-2.el7
     cloud7-openstack-rocky-testing: openstack-sahara-tests-0.6.1-0.1.2e8e155git.el7
     cloud7-openstack-rocky-release: openstack-sahara-tests-0.6.1-0.1.2e8e155git.el7
+    cloud7-openstack-stein-testing: openstack-sahara-tests-0.6.1-0.1.2e8e155git.el7
 - project: os-faults
   conf: rpmfactory-lib
   name: python-os-faults
@@ -7110,6 +7367,7 @@ packages:
     cloud7-openstack-queens-release: python-os-faults-0.1.17-1.el7
     cloud7-openstack-rocky-testing: python-os-faults-0.1.17-1.el7
     cloud7-openstack-rocky-release: python-os-faults-0.1.17-1.el7
+    cloud7-openstack-stein-testing: python-os-faults-0.1.17-1.el7
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
@@ -7132,6 +7390,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-bagpipe-8.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-bagpipe-9.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-bagpipe-9.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-bagpipe-9.0.0-1.el7
 - project: virtualbmc
   name: python-virtualbmc
   tags:
@@ -7162,6 +7421,7 @@ packages:
     cloud7-openstack-queens-release: python-virtualbmc-1.2.0-1.el7
     cloud7-openstack-rocky-testing: python-virtualbmc-1.4.0-2.el7
     cloud7-openstack-rocky-release: python-virtualbmc-1.4.0-1.el7
+    cloud7-openstack-stein-testing: python-virtualbmc-1.4.0-2.el7
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
@@ -7182,6 +7442,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-bgpvpn-8.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-bgpvpn-9.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-bgpvpn-9.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-bgpvpn-9.0.0-1.el7
 - project: novajoin
   name: python-novajoin
   tags:
@@ -7206,6 +7467,7 @@ packages:
     cloud7-openstack-queens-release: python-novajoin-1.0.18-1.el7
     cloud7-openstack-rocky-testing: python-novajoin-1.0.19-1.el7
     cloud7-openstack-rocky-release: python-novajoin-1.0.19-1.el7
+    cloud7-openstack-stein-testing: python-novajoin-1.0.19-1.el7
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
@@ -7232,6 +7494,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-fujitsu-6.0.0-1.el7
     cloud7-openstack-rocky-testing: python-networking-fujitsu-7.0.0-1.el7
     cloud7-openstack-rocky-release: python-networking-fujitsu-7.0.0-1.el7
+    cloud7-openstack-stein-testing: python-networking-fujitsu-7.0.0-1.el7
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
@@ -7253,6 +7516,7 @@ packages:
     cloud7-openstack-queens-release: openstack-ironic-staging-drivers-0.9.1-1.el7
     cloud7-openstack-rocky-testing: openstack-ironic-staging-drivers-0.10.1-1.el7
     cloud7-openstack-rocky-release: openstack-ironic-staging-drivers-0.10.1-1.el7
+    cloud7-openstack-stein-testing: openstack-ironic-staging-drivers-0.10.1-1.el7
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
@@ -7273,6 +7537,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-l2gw-12.0.1-1.el7
     cloud7-openstack-rocky-testing: python-networking-l2gw-13.0.0-0.1.d8b1d2bgit.el7
     cloud7-openstack-rocky-release: python-networking-l2gw-13.0.0-0.1.d8b1d2bgit.el7
+    cloud7-openstack-stein-testing: python-networking-l2gw-13.0.0-0.1.d8b1d2bgit.el7
 - project: networking-l2gw-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
@@ -7290,6 +7555,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-l2gw-tests-tempest-0.0.1-0.1.8a8ec70git.el7
     cloud7-openstack-rocky-testing: python-networking-l2gw-tests-tempest-0.0.1-0.2.bf9ce3bgit.el7
     cloud7-openstack-rocky-release: python-networking-l2gw-tests-tempest-0.0.1-0.2.bf9ce3bgit.el7
+    cloud7-openstack-stein-testing: python-networking-l2gw-tests-tempest-0.0.1-0.2.bf9ce3bgit.el7
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
@@ -7316,6 +7582,7 @@ packages:
     cloud7-openstack-queens-release: python-heat-translator-0.9.0-1.el7
     cloud7-openstack-rocky-testing: python-heat-translator-1.1.0-1.el7
     cloud7-openstack-rocky-release: python-heat-translator-1.1.0-1.el7
+    cloud7-openstack-stein-testing: python-heat-translator-1.1.0-1.el7
 - project: tacker
   conf: rpmfactory-core
   tags:
@@ -7336,6 +7603,7 @@ packages:
     cloud7-openstack-queens-release: openstack-tacker-0.9.0-1.el7
     cloud7-openstack-rocky-testing: openstack-tacker-0.10.0-1.el7
     cloud7-openstack-rocky-release: openstack-tacker-0.10.0-1.el7
+    cloud7-openstack-stein-testing: openstack-tacker-0.10.0-1.el7
 - project: tackerclient
   conf: rpmfactory-client
   tags:
@@ -7363,6 +7631,7 @@ packages:
     cloud7-openstack-queens-release: python-tackerclient-0.11.0-1.el7
     cloud7-openstack-rocky-testing: python-tackerclient-0.14.0-1.el7
     cloud7-openstack-rocky-release: python-tackerclient-0.14.0-1.el7
+    cloud7-openstack-stein-testing: python-tackerclient-0.14.0-1.el7
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
@@ -7388,6 +7657,7 @@ packages:
     cloud7-openstack-queens-release: ansible-pacemaker-1.0.3-1.el7
     cloud7-openstack-rocky-testing: ansible-pacemaker-1.0.3-1.el7
     cloud7-openstack-rocky-release: ansible-pacemaker-1.0.3-1.el7
+    cloud7-openstack-stein-testing: ansible-pacemaker-1.0.3-1.el7
 - project: congress
   conf: rpmfactory-core
   tags:
@@ -7408,6 +7678,7 @@ packages:
     cloud7-openstack-queens-release: openstack-congress-7.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-congress-8.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-congress-8.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-congress-8.0.0-1.el7
 - project: shaker
   name: python-shaker
   tags:
@@ -7430,6 +7701,7 @@ packages:
     cloud7-openstack-queens-release: python-shaker-1.1.1-1.el7
     cloud7-openstack-rocky-testing: python-shaker-1.1.3-1.el7
     cloud7-openstack-rocky-release: python-shaker-1.1.3-1.el7
+    cloud7-openstack-stein-testing: python-shaker-1.1.3-1.el7
 - project: tempestconf
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/python-%(project)s
@@ -7456,6 +7728,7 @@ packages:
     cloud7-openstack-queens-release: python-tempestconf-2.0.0-1.el7
     cloud7-openstack-rocky-testing: python-tempestconf-2.0.0-1.el7
     cloud7-openstack-rocky-release: python-tempestconf-2.0.0-1.el7
+    cloud7-openstack-stein-testing: python-tempestconf-2.0.0-1.el7
 - project: puppet-auditd
   conf: rpmfactory-puppet
   upstream: https://github.com/kemra102/puppet-auditd
@@ -7484,6 +7757,7 @@ packages:
     cloud7-openstack-queens-release: puppet-auditd-2.2.0-2.c0c1ccbgit.el7
     cloud7-openstack-rocky-testing: puppet-auditd-2.2.0-3.189b22bgit.el7
     cloud7-openstack-rocky-release: puppet-auditd-2.2.0-3.189b22bgit.el7
+    cloud7-openstack-stein-testing: puppet-auditd-2.2.0-3.189b22bgit.el7
 - project: kolla
   tags:
     stein-uc:
@@ -7503,6 +7777,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-kolla-6.1.0-1.el7
     cloud7-openstack-queens-release: openstack-kolla-6.1.0-1.el7
     cloud7-openstack-rocky-testing: openstack-kolla-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-testing: openstack-kolla-7.0.0-0.1.0rc1.el7
 - project: openstack-selinux
   name: openstack-selinux
   conf: rpmfactory-core
@@ -7530,6 +7805,7 @@ packages:
     cloud7-openstack-queens-release: openstack-selinux-0.8.13-1.el7
     cloud7-openstack-rocky-testing: openstack-selinux-0.8.14-1.el7
     cloud7-openstack-rocky-release: openstack-selinux-0.8.14-1.el7
+    cloud7-openstack-stein-testing: openstack-selinux-0.8.14-1.el7
 - project: sushy
   name: python-sushy
   tags:
@@ -7555,6 +7831,7 @@ packages:
     cloud7-openstack-queens-release: python-sushy-1.3.2-1.el7
     cloud7-openstack-rocky-testing: python-sushy-1.6.0-1.el7
     cloud7-openstack-rocky-release: python-sushy-1.6.0-1.el7
+    cloud7-openstack-stein-testing: python-sushy-1.6.0-1.el7
 - project: collectd-ceilometer-plugin
   name: collectd-ceilometer-plugin
   conf: rpmfactory-lib
@@ -7605,6 +7882,7 @@ packages:
     cloud7-openstack-queens-release: python-kuryr-lib-0.7.0-1.el7
     cloud7-openstack-rocky-testing: python-kuryr-lib-0.8.0-1.el7
     cloud7-openstack-rocky-release: python-kuryr-lib-0.8.0-1.el7
+    cloud7-openstack-stein-testing: python-kuryr-lib-0.8.0-1.el7
 - project: kuryr-kubernetes
   conf: rpmfactory-core
   tags:
@@ -7624,6 +7902,7 @@ packages:
     cloud7-openstack-queens-release: openstack-kuryr-kubernetes-0.4.3-1.el7
     cloud7-openstack-rocky-testing: openstack-kuryr-kubernetes-0.5.0-1.el7
     cloud7-openstack-rocky-release: openstack-kuryr-kubernetes-0.5.0-1.el7
+    cloud7-openstack-stein-testing: openstack-kuryr-kubernetes-0.5.0-1.el7
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
   tags:
@@ -7647,6 +7926,7 @@ packages:
     cloud7-openstack-queens-release: python-kuryr-tests-tempest-0.2.0-1.el7
     cloud7-openstack-rocky-testing: python-kuryr-tests-tempest-0.3.0-1.el7
     cloud7-openstack-rocky-release: python-kuryr-tests-tempest-0.3.0-1.el7
+    cloud7-openstack-stein-testing: python-kuryr-tests-tempest-0.3.0-1.el7
 - project: osops-tools-monitoring-oschecks
   name: osops-tools-monitoring-oschecks
   upstream: https://github.com/openstack/osops-tools-monitoring
@@ -7706,6 +7986,7 @@ packages:
     cloud7-openstack-queens-release: python-scciclient-0.6.1-1.el7
     cloud7-openstack-rocky-testing: python-scciclient-0.7.3-1.el7
     cloud7-openstack-rocky-release: python-scciclient-0.7.3-1.el7
+    cloud7-openstack-stein-testing: python-scciclient-0.7.3-1.el7
 - project: os-traits
   conf: rpmfactory-lib
   tags:
@@ -7730,6 +8011,7 @@ packages:
     cloud7-openstack-queens-release: python-os-traits-0.5.0-1.el7
     cloud7-openstack-rocky-testing: python-os-traits-0.9.0-1.el7
     cloud7-openstack-rocky-release: python-os-traits-0.9.0-1.el7
+    cloud7-openstack-stein-testing: python-os-traits-0.9.0-1.el7
 - project: patrole
   name: python-patrole
   conf: rpmfactory-tempest-plugin
@@ -7751,6 +8033,7 @@ packages:
     cloud7-openstack-queens-release: python-patrole-0.3.0-1.el7
     cloud7-openstack-rocky-testing: python-patrole-0.4.0-1.el7
     cloud7-openstack-rocky-release: python-patrole-0.4.0-1.el7
+    cloud7-openstack-stein-testing: python-patrole-0.4.0-1.el7
 - project: glare
   conf: rpmfactory-core
   tags:
@@ -7789,6 +8072,7 @@ packages:
     cloud7-openstack-queens-release: python-glareclient-0.5.2-1.el7
     cloud7-openstack-rocky-testing: python-glareclient-0.5.3-1.el7
     cloud7-openstack-rocky-release: python-glareclient-0.5.3-1.el7
+    cloud7-openstack-stein-testing: python-glareclient-0.5.3-1.el7
 - project: keystone-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-keystone-tests-tempest
@@ -7810,6 +8094,7 @@ packages:
     cloud7-openstack-queens-release: python-keystone-tests-tempest-0.0.1-0.1.12689f5git.el7
     cloud7-openstack-rocky-testing: python-keystone-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-keystone-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-keystone-tests-tempest-0.1.0-1.el7
 - project: senlin
   conf: rpmfactory-core
   name: openstack-senlin
@@ -7829,6 +8114,7 @@ packages:
     cloud7-openstack-queens-release: openstack-senlin-5.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-senlin-6.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-senlin-6.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-senlin-6.0.0-1.el7
 - project: puppet-veritas_hyperscale
   conf: rpmfactory-puppet
   upstream: https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale
@@ -7855,6 +8141,7 @@ packages:
     cloud7-openstack-queens-release: puppet-veritas_hyperscale-1.1.1-1.el7
     cloud7-openstack-rocky-testing: puppet-veritas_hyperscale-1.1.1-1.el7
     cloud7-openstack-rocky-release: puppet-veritas_hyperscale-1.1.1-1.el7
+    cloud7-openstack-stein-testing: puppet-veritas_hyperscale-1.1.1-1.el7
 - project: neutron-dynamic-routing
   conf: rpmfactory-core
   upstream: https://github.com/openstack/neutron-dynamic-routing
@@ -7870,6 +8157,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-dynamic-routing-12.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-dynamic-routing-13.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-dynamic-routing-13.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-dynamic-routing-13.0.0-1.el7
 - project: senlinclient
   conf: rpmfactory-client
   upstream: https://github.com/openstack/python-senlinclient
@@ -7894,6 +8182,7 @@ packages:
     cloud7-openstack-queens-release: python-senlinclient-1.7.0-1.el7
     cloud7-openstack-rocky-testing: python-senlinclient-1.8.0-1.el7
     cloud7-openstack-rocky-release: python-senlinclient-1.8.0-1.el7
+    cloud7-openstack-stein-testing: python-senlinclient-1.8.0-1.el7
 - project: barbican-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-barbican-tests-tempest
@@ -7914,6 +8203,7 @@ packages:
     cloud7-openstack-queens-release: python-barbican-tests-tempest-0.0.1-0.1.b79d2eagit.el7
     cloud7-openstack-rocky-testing: python-barbican-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-barbican-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-barbican-tests-tempest-0.1.0-1.el7
 - project: vmware-nsx-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-vmware-nsx-tests-tempest
@@ -7928,6 +8218,7 @@ packages:
     cloud7-openstack-queens-testing: python-vmware-nsx-tests-tempest-0.0.1-0.1.2e3185agit.el7
     cloud7-openstack-queens-release: python-vmware-nsx-tests-tempest-0.0.1-0.1.2e3185agit.el7
     cloud7-openstack-rocky-testing: python-vmware-nsx-tests-tempest-1.0.0-1.el7
+    cloud7-openstack-stein-testing: python-vmware-nsx-tests-tempest-1.0.0-1.el7
 - project: karborclient
   tags:
     under-review:
@@ -7962,6 +8253,7 @@ packages:
     cloud7-openstack-queens-release: python-watcher-tests-tempest-0.0.1-0.1.168c024git.el7
     cloud7-openstack-rocky-testing: python-watcher-tests-tempest-1.0.0-1.el7
     cloud7-openstack-rocky-release: python-watcher-tests-tempest-1.0.0-1.el7
+    cloud7-openstack-stein-testing: python-watcher-tests-tempest-1.0.0-1.el7
 - project: novajoin-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-novajoin-tests-tempest
@@ -7980,6 +8272,7 @@ packages:
     cloud7-openstack-queens-release: python-novajoin-tests-tempest-0.0.1-0.1.59d7ba6git.el7
     cloud7-openstack-rocky-testing: python-novajoin-tests-tempest-0.0.1-0.2.f657712git.el7
     cloud7-openstack-rocky-release: python-novajoin-tests-tempest-0.0.1-0.2.f657712git.el7
+    cloud7-openstack-stein-testing: python-novajoin-tests-tempest-0.0.1-0.2.f657712git.el7
 - project: openstack-macros
   conf: rpm-packaging
   upstream: https://github.com/javierpena/openstack-macros
@@ -8000,6 +8293,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-macros-2018.1.2-0
     cloud7-openstack-queens-release: openstack-macros-2018.1.2-0
     cloud7-openstack-rocky-el7-build: openstack-macros-2018.1.2-0
+    cloud7-openstack-stein-el7-build: openstack-macros-2018.1.2-0
 - project: puppet-archive
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
@@ -8022,6 +8316,7 @@ packages:
     cloud7-openstack-queens-release: puppet-archive-2.2.1-0.10888dbgit.el7
     cloud7-openstack-rocky-testing: puppet-archive-3.1.2-0.1.a2f5eb6git.el7
     cloud7-openstack-rocky-release: puppet-archive-3.1.2-0.1.a2f5eb6git.el7
+    cloud7-openstack-stein-testing: puppet-archive-3.1.2-0.1.a2f5eb6git.el7
 - project: os-service-types
   conf: rpmfactory-lib
   tags:
@@ -8041,6 +8336,7 @@ packages:
     cloud7-openstack-queens-release: python-os-service-types-1.1.0-1.el7
     cloud7-openstack-rocky-testing: python-os-service-types-1.3.0-1.el7
     cloud7-openstack-rocky-release: python-os-service-types-1.3.0-1.el7
+    cloud7-openstack-stein-testing: python-os-service-types-1.3.0-1.el7
 - project: zaqar-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-zaqar-tests-tempest
@@ -8058,6 +8354,7 @@ packages:
     cloud7-openstack-queens-release: python-zaqar-tests-tempest-0.0.1-0.1.92d57f5git.el7
     cloud7-openstack-rocky-testing: python-zaqar-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-zaqar-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-zaqar-tests-tempest-0.1.0-1.el7
 - project: rsd-lib
   conf: rpmfactory-lib
   tags:
@@ -8078,6 +8375,7 @@ packages:
     cloud7-openstack-queens-release: python-rsd-lib-0.1.1-1.el7
     cloud7-openstack-rocky-testing: python-rsd-lib-0.2.1-1.el7
     cloud7-openstack-rocky-release: python-rsd-lib-0.2.1-1.el7
+    cloud7-openstack-stein-testing: python-rsd-lib-0.2.1-1.el7
 - project: rsdclient
   conf: rpmfactory-client
   tags:
@@ -8098,6 +8396,7 @@ packages:
     cloud7-openstack-queens-release: python-rsdclient-0.1.1-1.el7
     cloud7-openstack-rocky-testing: python-rsdclient-0.1.3-1.el7
     cloud7-openstack-rocky-release: python-rsdclient-0.1.3-1.el7
+    cloud7-openstack-stein-testing: python-rsdclient-0.1.3-1.el7
 - project: heat-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-heat-tests-tempest
@@ -8115,6 +8414,7 @@ packages:
     cloud7-openstack-queens-release: python-heat-tests-tempest-0.0.1-0.1.9b02d1egit.el7
     cloud7-openstack-rocky-testing: python-heat-tests-tempest-0.2.0-1.el7
     cloud7-openstack-rocky-release: python-heat-tests-tempest-0.2.0-1.el7
+    cloud7-openstack-stein-testing: python-heat-tests-tempest-0.2.0-1.el7
 - project: murano-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-murano-tests-tempest
@@ -8132,6 +8432,7 @@ packages:
     cloud7-openstack-queens-release: python-murano-tests-tempest-0.0.1-0.1.5571736git.el7
     cloud7-openstack-rocky-testing: python-murano-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-murano-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-murano-tests-tempest-0.1.0-1.el7
 - project: tripleo-ipsec
   conf: rpmfactory-lib
   name: ansible-tripleo-ipsec
@@ -8148,6 +8449,7 @@ packages:
     cloud7-openstack-queens-release: ansible-tripleo-ipsec-8.1.0-1.el7
     cloud7-openstack-rocky-testing: ansible-tripleo-ipsec-9.0.0-1.el7
     cloud7-openstack-rocky-release: ansible-tripleo-ipsec-9.0.0-1.el7
+    cloud7-openstack-stein-testing: ansible-tripleo-ipsec-9.0.0-1.el7
 - project: ansible-role-redhat-subscription
   conf: rpmfactory-lib
   name: ansible-role-redhat-subscription
@@ -8163,6 +8465,7 @@ packages:
     cloud7-openstack-queens-release: ansible-role-redhat-subscription-1.0.1-1.el7
     cloud7-openstack-rocky-testing: ansible-role-redhat-subscription-1.0.1-1.el7
     cloud7-openstack-rocky-release: ansible-role-redhat-subscription-1.0.1-1.el7
+    cloud7-openstack-stein-testing: ansible-role-redhat-subscription-1.0.1-1.el7
 - project: mistral-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-mistral-tests-tempest
@@ -8180,6 +8483,7 @@ packages:
     cloud7-openstack-queens-release: python-mistral-tests-tempest-0.0.1-0.1.8357183git.el7
     cloud7-openstack-rocky-testing: python-mistral-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-mistral-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-mistral-tests-tempest-0.1.0-1.el7
 - project: tripleo-common-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-tripleo-common-tests-tempest
@@ -8195,6 +8499,7 @@ packages:
     cloud7-openstack-queens-release: python-tripleo-common-tests-tempest-0.0.1-0.1.0eb31c3git.el7
     cloud7-openstack-rocky-testing: python-tripleo-common-tests-tempest-0.0.1-0.2.e3c05aagit.el7
     cloud7-openstack-rocky-release: python-tripleo-common-tests-tempest-0.0.1-0.2.e3c05aagit.el7
+    cloud7-openstack-stein-testing: python-tripleo-common-tests-tempest-0.0.1-0.2.e3c05aagit.el7
 - project: manila-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-manila-tests-tempest
@@ -8210,6 +8515,7 @@ packages:
     cloud7-openstack-queens-release: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
     cloud7-openstack-rocky-testing: python-manila-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-manila-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-manila-tests-tempest-0.1.0-1.el7
 - project: magnum-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-magnum-tests-tempest
@@ -8227,6 +8533,7 @@ packages:
     cloud7-openstack-queens-release: python-magnum-tests-tempest-0.0.1-0.1.418c238git.el7
     cloud7-openstack-rocky-testing: python-magnum-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-magnum-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-magnum-tests-tempest-0.1.0-1.el7
 - project: vitrage-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-vitrage-tests-tempest
@@ -8244,6 +8551,7 @@ packages:
     cloud7-openstack-queens-release: python-vitrage-tests-tempest-1.0.0-1.el7
     cloud7-openstack-rocky-testing: python-vitrage-tests-tempest-1.1.0-2.el7
     cloud7-openstack-rocky-release: python-vitrage-tests-tempest-1.1.0-2.el7
+    cloud7-openstack-stein-testing: python-vitrage-tests-tempest-1.1.0-2.el7
 - project: trove-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-trove-tests-tempest
@@ -8259,6 +8567,7 @@ packages:
     cloud7-openstack-queens-release: python-trove-tests-tempest-0.0.1-0.1.ac887d2git.el7
     cloud7-openstack-rocky-testing: python-trove-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-trove-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-trove-tests-tempest-0.1.0-1.el7
 - project: telemetry-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-telemetry-tests-tempest
@@ -8274,6 +8583,7 @@ packages:
     cloud7-openstack-queens-release: python-telemetry-tests-tempest-0.0.1-0.1.dbd432egit.el7
     cloud7-openstack-rocky-testing: python-telemetry-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-telemetry-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-telemetry-tests-tempest-0.1.0-1.el7
 - project: cinder-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-cinder-tests-tempest
@@ -8291,6 +8601,7 @@ packages:
     cloud7-openstack-queens-release: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
     cloud7-openstack-rocky-testing: python-cinder-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-cinder-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-cinder-tests-tempest-0.1.0-1.el7
 - project: ironic-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-ironic-tests-tempest
@@ -8308,6 +8619,7 @@ packages:
     cloud7-openstack-queens-release: python-ironic-tests-tempest-1.1.0-1.el7
     cloud7-openstack-rocky-testing: python-ironic-tests-tempest-1.2.0-1
     cloud7-openstack-rocky-release: python-ironic-tests-tempest-1.2.0-1
+    cloud7-openstack-stein-testing: python-ironic-tests-tempest-1.2.0-1
 - project: ec2api-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-ec2api-tests-tempest
@@ -8323,6 +8635,7 @@ packages:
     cloud7-openstack-queens-release: python-ec2api-tests-tempest-0.0.1-0.1.16c5d96git.el7
     cloud7-openstack-rocky-testing: python-ec2api-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-ec2api-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-ec2api-tests-tempest-0.1.0-1.el7
 - project: congress-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-congress-tests-tempest
@@ -8338,6 +8651,7 @@ packages:
     cloud7-openstack-queens-release: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
     cloud7-openstack-rocky-testing: python-congress-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-congress-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-stein-testing: python-congress-tests-tempest-0.1.0-1.el7
 - project: tap-as-a-service
   conf: rpmfactory-lib
   name: python-tap-as-a-service
@@ -8373,6 +8687,7 @@ packages:
     cloud7-openstack-pike-release: openstack-designate-ui-5.0.1-1.el7
     cloud7-openstack-rocky-testing: openstack-designate-ui-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-designate-ui-7.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-designate-ui-7.0.0-1.el7
 - project: ansible-role-container-registry
   conf: rpmfactory-lib
   name: ansible-role-container-registry
@@ -8386,6 +8701,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: ansible-role-container-registry-1.0.0-1.el7
     cloud7-openstack-rocky-release: ansible-role-container-registry-1.0.0-1.el7
+    cloud7-openstack-stein-testing: ansible-role-container-registry-1.0.0-1.el7
 - project: ansible-role-tripleo-modify-image
   conf: rpmfactory-lib
   name: ansible-role-tripleo-modify-image
@@ -8399,6 +8715,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: ansible-role-tripleo-modify-image-1.0.0-1.el7
     cloud7-openstack-rocky-release: ansible-role-tripleo-modify-image-1.0.0-1.el7
+    cloud7-openstack-stein-testing: ansible-role-tripleo-modify-image-1.0.0-1.el7
 - project: metalsmith
   name: python-metalsmith
   tags:
@@ -8415,6 +8732,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-metalsmith-0.6.0-1.el7
     cloud7-openstack-rocky-release: python-metalsmith-0.6.0-1.el7
+    cloud7-openstack-stein-testing: python-metalsmith-0.6.0-1.el7
 - project: sphinx-feature-classification
   name: python-sphinx-feature-classification
   tags:
@@ -8431,6 +8749,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-sphinx-feature-classification-0.3.0-1.el7
     cloud7-openstack-rocky-release: python-sphinx-feature-classification-0.3.0-1.el7
+    cloud7-openstack-stein-testing: python-sphinx-feature-classification-0.3.0-1.el7
 - project: osc-placement
   conf: rpmfactory-lib
   tags:
@@ -8447,6 +8766,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-osc-placement-1.3.0-1.el7
     cloud7-openstack-rocky-release: python-osc-placement-1.3.0-1.el7
+    cloud7-openstack-stein-testing: python-osc-placement-1.3.0-1.el7
 - project: stackviz
   conf: rpmfactory-lib
   name: python-stackviz
