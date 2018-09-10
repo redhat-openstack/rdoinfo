@@ -8477,3 +8477,16 @@ packages:
     # rocky:
   maintainers:
   - chkumar@redhat.com
+- project: keepalived
+  upstream: https://github.com/acassen/keepalived
+  name: keepalived
+  tags:
+    stein-uc:
+      source-branch: v2.0.6
+    stein:
+      source-branch: v2.0.6
+    rocky:
+      source-branch: v2.0.6
+  conf: rpm-packaging
+  maintainers:
+  - hjensas@redhat.com
