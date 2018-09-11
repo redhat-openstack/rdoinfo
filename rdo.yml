@@ -2720,7 +2720,7 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-11.0.5-1.el7
     cloud7-openstack-queens-testing: openstack-neutron-12.0.3-1.el7
     cloud7-openstack-queens-release: openstack-neutron-12.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-neutron-13.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-13.0.1-1.el7
     cloud7-openstack-rocky-release: openstack-neutron-13.0.0-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
@@ -3581,7 +3581,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
     cloud7-openstack-queens-release: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
-    cloud7-openstack-rocky-testing: python-oswin-tests-tempest-0.0.1-0.2.ef0396egit.el7
+    cloud7-openstack-rocky-testing: python-oswin-tests-tempest-0.1.0-1.el7
     cloud7-openstack-rocky-release: python-oswin-tests-tempest-0.0.1-0.2.ef0396egit.el7
 - project: os-xenapi
   conf: rpmfactory-lib
