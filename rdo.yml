@@ -2724,6 +2724,16 @@ packages:
     cloud7-openstack-stein-testing: openstack-panko-5.0.0-1.el7
 - project: heat
   conf: rpmfactory-core
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
+      source-branch: newton-eol
   maintainers:
   - zbitter@redhat.com
   - therve@redhat.com
@@ -3477,6 +3487,7 @@ packages:
     cloud7-openstack-newton-release: openstack-heat-templates-0-0.5.1e6015dgit.el7
 - project: heat-agents
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
