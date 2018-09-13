@@ -2744,6 +2744,7 @@ packages:
 - project: cinder
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3477,6 +3478,7 @@ packages:
     cloud7-openstack-newton-release: openstack-heat-templates-0-0.5.1e6015dgit.el7
 - project: heat-agents
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
