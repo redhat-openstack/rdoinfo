@@ -2625,6 +2625,15 @@ packages:
     cloud7-openstack-rocky-testing: openstack-ceilometer-11.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-ceilometer-11.0.0-1.el7
     cloud7-openstack-stein-testing: openstack-ceilometer-11.0.0-1.el7
+  tags:
+    stein-uc:
+      source-branch: 11.0.0
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
 - project: gnocchi
   name: gnocchi
   conf: rpmfactory-core
@@ -4711,9 +4720,9 @@ packages:
   - dougal@redhat.com
   tags:
     stein-py3-uc:
-      source-branch: 3.16.0
+      source-branch: 3.16.1
     stein-uc:
-      source-branch: 3.16.0
+      source-branch: 3.16.1
     stein:
     rocky:
       source-branch: 3.16.0
@@ -5564,9 +5573,9 @@ packages:
 - project: oslo-service
   tags:
     stein-py3-uc:
-      source-branch: 1.31.3
+      source-branch: 1.32.0
     stein-uc:
-      source-branch: 1.31.3
+      source-branch: 1.32.0
     stein:
     rocky:
       source-branch: 1.31.3
@@ -5658,9 +5667,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     stein-py3-uc:
-      source-branch: 0.12.0
+      source-branch: 0.12.1
     stein-uc:
-      source-branch: 0.12.0
+      source-branch: 0.12.1
     stein:
     rocky:
       source-branch: 0.12.0
@@ -5718,9 +5727,9 @@ packages:
 - project: castellan
   tags:
     stein-py3-uc:
-      source-branch: 0.18.0
+      source-branch: 0.19.0
     stein-uc:
-      source-branch: 0.18.0
+      source-branch: 0.19.0
     stein:
     rocky:
       source-branch: 0.19.0
@@ -7148,9 +7157,9 @@ packages:
 - project: reno
   tags:
     stein-py3-uc:
-      source-branch: 2.10.0
+      source-branch: 2.11.0
     stein-uc:
-      source-branch: 2.10.0
+      source-branch: 2.11.0
     stein:
     rocky:
       source-branch: 2.9.2
