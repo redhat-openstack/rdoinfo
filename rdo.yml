@@ -2575,16 +2575,6 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - zaitcev@redhat.com
-  tags:
-    # FIXME(jpena) drop pin once openstackdocstheme-1.23.2 is available in the Stein deps repo
-    stein-uc:
-      source-branch: 4bdc9b003a8ab1989105720ece04c1b3b516c7be
-    stein:
-    rocky:
-    queens:
-    pike:
-    ocata:
-    newton:
   buildsys-tags:
     cloud7-openstack-newton-testing: openstack-swift-2.10.2-1.el7
     cloud7-openstack-newton-release: openstack-swift-2.10.2-1.el7
