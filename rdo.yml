@@ -8503,3 +8503,11 @@ packages:
     under-review:
   maintainers:
   - jrouleau@redhat.com
+- project: placement
+  name: openstack-placement
+  tags:
+    under-review:
+    #stein
+  conf: rpmfactory-core
+  maintainers:
+  - lyarwood@redhat.com
