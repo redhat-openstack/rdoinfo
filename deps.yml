@@ -2801,7 +2801,6 @@ packages:
     cloud7-openstack-common-release: lz4-r131-2.el7
     cloud7-openstack-queens-testing: lz4-r131-2.el7
     cloud7-openstack-queens-release: lz4-r131-2.el7
-    cloud7-openstack-rocky-testing: lz4-r131-2.el7
 - project: python-sphinx_rtd_theme
   name: python-sphinx_rtd_theme
   conf: fedora-dependency
@@ -5555,6 +5554,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-django-debreach-1.5.2-1.el7
     cloud7-openstack-rocky-testing: python-django-debreach-1.5.2-1.el7
     cloud7-openstack-stein-testing: python-django-debreach-1.5.2-1.el7
+    cloud7-openstack-rocky-release: python-django-debreach-1.5.2-1.el7
   name: python-django-debreach
   conf: fedora-dependency
   maintainers:
@@ -5565,6 +5565,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-rocky-testing: libvarlink-12-1.el7
     cloud7-openstack-stein-testing: libvarlink-12-1.el7
+    cloud7-openstack-rocky-release: libvarlink-12-1.el7
   maintainers:
   - hguemar@redhat.com
   - emilien@redhat.com
