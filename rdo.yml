@@ -2401,10 +2401,6 @@ packages:
   - apevec@redhat.com
   tags:
     stein-py3-uc:
-      distgit: https://github.com/openstack/rpm-packaging
-      distgit-path: /openstack/keystone
-      master-distgit: https://github.com/openstack/rpm-packaging
-      distro-branch: master
     stein-uc:
     stein:
     rocky:
@@ -2430,10 +2426,6 @@ packages:
   - cyril@redhat.com
   tags:
     stein-py3-uc:
-      distgit: https://github.com/openstack/rpm-packaging
-      distgit-path: /openstack/glance
-      master-distgit: https://github.com/openstack/rpm-packaging
-      distro-branch: master
     stein-uc:
     stein:
     rocky:
@@ -2534,6 +2526,7 @@ packages:
     # ceilometer has been added to u-c upstream as it's used as library dependency
     # for some other libraries but we don't want to pin it but chase the trunk.
     version-locked:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -2590,6 +2583,7 @@ packages:
     cloud7-openstack-pike-release: openstack-gnocchi-4.0.6-1.el7
 - project: aodh
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -2871,6 +2865,15 @@ packages:
     cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.0-1.el7
 - project: designate
   conf: rpmfactory-core
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
@@ -3727,6 +3730,8 @@ packages:
     cloud7-openstack-rocky-release: openstack-ironic-python-agent-3.3.0-1.el7
 - project: ironic-lib
   tags:
+    stein-py3-uc:
+      source-branch: 2.14.0
     stein-uc:
       source-branch: 2.14.0
     stein:
@@ -6574,6 +6579,7 @@ packages:
   - dougal@redhat.com
 - project: mistral
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6850,6 +6856,7 @@ packages:
     cloud7-openstack-rocky-release: python-muranoclient-1.1.1-1.el7
 - project: murano
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
