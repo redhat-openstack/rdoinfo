@@ -2401,10 +2401,6 @@ packages:
   - apevec@redhat.com
   tags:
     stein-py3-uc:
-      distgit: https://github.com/openstack/rpm-packaging
-      distgit-path: /openstack/keystone
-      master-distgit: https://github.com/openstack/rpm-packaging
-      distro-branch: master
     stein-uc:
     stein:
     rocky:
@@ -2430,10 +2426,6 @@ packages:
   - cyril@redhat.com
   tags:
     stein-py3-uc:
-      distgit: https://github.com/openstack/rpm-packaging
-      distgit-path: /openstack/glance
-      master-distgit: https://github.com/openstack/rpm-packaging
-      distro-branch: master
     stein-uc:
     stein:
     rocky:
@@ -2889,6 +2881,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3727,6 +3720,8 @@ packages:
     cloud7-openstack-rocky-release: openstack-ironic-python-agent-3.3.0-1.el7
 - project: ironic-lib
   tags:
+    stein-py3-uc:
+      source-branch: 2.14.0
     stein-uc:
       source-branch: 2.14.0
     stein:
@@ -6574,6 +6569,7 @@ packages:
   - dougal@redhat.com
 - project: mistral
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6850,6 +6846,7 @@ packages:
     cloud7-openstack-rocky-release: python-muranoclient-1.1.1-1.el7
 - project: murano
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
