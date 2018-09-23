@@ -2393,7 +2393,7 @@ packages:
     cloud7-openstack-pike-release: openstack-nova-16.1.4-2.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.5-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.5-1.el7
-    cloud7-openstack-rocky-testing: openstack-nova-18.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-nova-18.0.0-2.el7
     cloud7-openstack-rocky-release: openstack-nova-18.0.0-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -2421,7 +2421,7 @@ packages:
     cloud7-openstack-pike-release: openstack-keystone-12.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-keystone-13.0.1-1.el7
     cloud7-openstack-queens-release: openstack-keystone-13.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-keystone-14.0.0-2.el7
     cloud7-openstack-rocky-release: openstack-keystone-14.0.0-1.el7
 - project: glance
   conf: rpmfactory-core
@@ -2450,7 +2450,7 @@ packages:
     cloud7-openstack-pike-release: openstack-glance-15.0.1-1.el7
     cloud7-openstack-queens-testing: openstack-glance-16.0.1-1.el7
     cloud7-openstack-queens-release: openstack-glance-16.0.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-glance-17.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-glance-17.0.0-2.el7
     cloud7-openstack-rocky-release: openstack-glance-17.0.0-1.el7
 - project: glance_store
   conf: rpmfactory-core
@@ -6594,7 +6594,7 @@ packages:
     cloud7-openstack-pike-release: openstack-mistral-5.2.5-1.el7
     cloud7-openstack-queens-testing: openstack-mistral-6.0.3-1.el7
     cloud7-openstack-queens-release: openstack-mistral-6.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-mistral-7.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-mistral-7.0.2-1.el7
     cloud7-openstack-rocky-release: openstack-mistral-7.0.1-1.el7
 - project: mistral-lib
   tags:
@@ -6748,7 +6748,7 @@ packages:
     cloud7-openstack-pike-release: python-tooz-1.58.0-1.el7
     cloud7-openstack-queens-testing: python-tooz-1.60.1-1.el7
     cloud7-openstack-queens-release: python-tooz-1.60.1-1.el7
-    cloud7-openstack-rocky-testing: python-tooz-1.62.0-1.el7
+    cloud7-openstack-rocky-testing: python-tooz-1.62.0-2.el7
     cloud7-openstack-rocky-release: python-tooz-1.62.0-1.el7
 - project: magnumclient
   tags:
