@@ -8510,10 +8510,10 @@ packages:
   conf: rpmfactory-lib
   name: openstack-rally-plugins
   tags:
-    under-review:
-    # rocky-py3-uc:
-    # rocky-uc:
-    # rocky:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
   maintainers:
   - chkumar@redhat.com
 - project: ansible-role-tripleo-keystone
