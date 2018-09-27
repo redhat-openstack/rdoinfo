@@ -8567,6 +8567,16 @@ packages:
     # rocky:
   maintainers:
   - chkumar@redhat.com
+- project: ansible-role-chrony
+  conf: rpmfactory-lib
+  name: ansible-role-chrony
+  tags:
+    under-review:
+    # stein:
+    # stein-py3-uc:
+    # stein-uc:
+  maintainers:
+  - aschultz@next-development.com
 - project: ansible-role-tripleo-keystone
   conf: rpmfactory-lib
   name: ansible-role-tripleo-keystone
