@@ -1,0 +1,13 @@
+- project:
+    check:
+      jobs:
+        - legacy-validate-buildsys-tags
+        - rdoinfo-tripleo-pike-testing-centos-7-multinode-1ctlr-featureset006:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - rdoinfo-tripleo-pike-release-centos-7-multinode-1ctlr-featureset006:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+
