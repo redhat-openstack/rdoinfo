@@ -5568,3 +5568,8 @@ packages:
   maintainers:
   - hguemar@redhat.com
   - emilien@redhat.com
+- project: python-octavia-tests-golang
+  name: python-octavia-tests-golang
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-octavia-tests-golang-0.1.0-1.el7
