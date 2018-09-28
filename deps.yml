@@ -5568,3 +5568,10 @@ packages:
   maintainers:
   - hguemar@redhat.com
   - emilien@redhat.com
+# INFO(jpena): this package should never be tagged for release, since it is only
+# used to allow trunk builds to be used in ppc64le and aarch64
+- project: python-octavia-tests-golang
+  name: python-octavia-tests-golang
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-octavia-tests-golang-0.1.0-1.el7
