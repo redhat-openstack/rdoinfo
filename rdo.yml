@@ -3014,6 +3014,7 @@ packages:
 - project: watcher
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3079,6 +3080,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-vitrage-ui-1.6.1-1.el7
 - project: sahara
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3832,6 +3834,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-barbican-7.0.0-1.el7
 - project: cloudkitty
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3906,6 +3909,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-ec2-api-7.1.0-1.el7
 - project: magnum
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6524,6 +6528,8 @@ packages:
     cloud7-openstack-rocky-release: python-os-testr-1.0.0-1.el7
 - project: proliantutils
   tags:
+    stein-py3-uc:
+      source-branch: 2.5.0
     stein-uc:
       source-branch: 2.5.0
     stein:
@@ -7267,6 +7273,7 @@ packages:
 - project: novajoin
   name: python-novajoin
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
