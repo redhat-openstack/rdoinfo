@@ -2698,6 +2698,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-cinder-13.0.0-1.el7
 - project: ironic
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -2814,6 +2815,15 @@ packages:
     cloud7-openstack-rocky-release: python-neutron-tests-tempest-0.2.0-1.el7
 - project: neutron-fwaas
   conf: rpmfactory-core
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -2835,6 +2845,15 @@ packages:
     cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.0-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
+    newton:
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -2933,6 +2952,7 @@ packages:
     cloud7-openstack-rocky-release: python-designate-tests-tempest-0.5.0-1.el7
 - project: octavia
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3042,6 +3062,7 @@ packages:
 - project: vitrage
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3718,6 +3739,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-zaqar-7.0.0-1.el7
 - project: ironic-inspector
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6032,6 +6054,7 @@ packages:
   - michapma@redhat.com
   - jlibosva@redhat.com
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7421,6 +7444,7 @@ packages:
 - project: tacker
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7493,6 +7517,7 @@ packages:
 - project: congress
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7861,6 +7886,7 @@ packages:
 - project: glare
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
