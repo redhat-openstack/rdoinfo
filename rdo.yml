@@ -2794,6 +2794,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3084,6 +3085,7 @@ packages:
   name: openstack-vitrage-ui
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3453,6 +3455,7 @@ packages:
 - project: heat-dashboard
   name: openstack-heat-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3821,6 +3824,7 @@ packages:
 - project: ironic-ui
   name: openstack-ironic-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3893,6 +3897,7 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -3969,6 +3974,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-magnum-7.0.1-1.el7
 - project: manila-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -4047,6 +4053,7 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -4072,6 +4079,7 @@ packages:
 - project: sahara-dashboard
   name: openstack-sahara-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6242,6 +6250,7 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6764,6 +6773,7 @@ packages:
 - project: mistral-dashboard
   name: openstack-mistral-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6789,6 +6799,7 @@ packages:
 - project: magnum-ui
   name: openstack-magnum-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6993,6 +7004,7 @@ packages:
 - project: murano-dashboard
   name: openstack-murano-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7121,6 +7133,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-horizon-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -8413,6 +8426,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-cinder-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
