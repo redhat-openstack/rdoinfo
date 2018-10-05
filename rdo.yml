@@ -6609,9 +6609,9 @@ packages:
     stein-uc:
     stein:
     rocky:
-      source-branch: 1.5.0
+      source-branch: stable/queens
     queens:
-      source-branch: 1.5.0
+      source-branch: stable/queens
     pike:
       source-branch: 5e9b27ee97b40f87d2cf65a53fcea6860a7a4731
     ocata:
@@ -6622,6 +6622,7 @@ packages:
   maintainers:
   - ifarkas@redhat.com
   - trown@redhat.com
+  - christopher.dearborn@dell.com
   buildsys-tags:
     cloud7-openstack-newton-testing: python-dracclient-1.0.0-1.el7
     cloud7-openstack-newton-release: python-dracclient-1.0.0-1.el7
