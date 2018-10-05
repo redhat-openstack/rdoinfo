@@ -8630,10 +8630,9 @@ packages:
   conf: rpmfactory-lib
   name: ansible-role-chrony
   tags:
-    under-review:
-    # stein:
-    # stein-py3-uc:
-    # stein-uc:
+    stein:
+    stein-py3-uc:
+    stein-uc:
   maintainers:
   - aschultz@next-development.com
 - project: ansible-role-tripleo-keystone
