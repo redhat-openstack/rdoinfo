@@ -62,6 +62,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-google-auth-1.1.1-5.el7
+- project: python-icalendar
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-icalendar-4.0.3-1.el7
 - project: python-keyczar
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-keyczar-0.71c-12.el7
@@ -110,6 +113,9 @@ packages:
 - project: python-pymemcache
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pymemcache-2.1.1-2.el7
+- project: python-pymongo
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pymongo-3.7.2-1.el7
 - project: python-pytest-runner
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pytest-runner-4.0-3.el7
