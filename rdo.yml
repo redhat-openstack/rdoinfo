@@ -2402,7 +2402,7 @@ packages:
     cloud7-openstack-pike-release: openstack-nova-16.1.5-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.6-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.6-1.el7
-    cloud7-openstack-rocky-testing: openstack-nova-18.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-nova-18.0.2-1.el7
     cloud7-openstack-rocky-release: openstack-nova-18.0.0-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -2975,7 +2975,7 @@ packages:
     cloud7-openstack-pike-release: openstack-octavia-1.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-octavia-2.0.2-1.el7
     cloud7-openstack-queens-release: openstack-octavia-2.0.2-1.el7
-    cloud7-openstack-rocky-testing: openstack-octavia-3.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-octavia-3.0.1-1.el7
     cloud7-openstack-rocky-release: openstack-octavia-3.0.0-1.el7
 - project: octavia-dashboard
   name: openstack-octavia-ui
@@ -6276,7 +6276,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-ovn-3.0.1-1.el7
     cloud7-openstack-queens-testing: python-networking-ovn-4.0.3-1.el7
     cloud7-openstack-queens-release: python-networking-ovn-4.0.3-1.el7
-    cloud7-openstack-rocky-testing: python-networking-ovn-5.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-networking-ovn-5.0.1-1.el7
     cloud7-openstack-rocky-release: python-networking-ovn-5.0.0-1.el7
 - project: networking-cisco
   conf: rpmfactory-lib
@@ -6698,7 +6698,7 @@ packages:
     cloud7-openstack-pike-release: openstack-mistral-5.2.5-1.el7
     cloud7-openstack-queens-testing: openstack-mistral-6.0.4-1.el7
     cloud7-openstack-queens-release: openstack-mistral-6.0.4-1.el7
-    cloud7-openstack-rocky-testing: openstack-mistral-7.0.2-1.el7
+    cloud7-openstack-rocky-testing: openstack-mistral-7.0.3-1.el7
     cloud7-openstack-rocky-release: openstack-mistral-7.0.1-1.el7
 - project: mistral-lib
   tags:
@@ -7316,7 +7316,7 @@ packages:
     cloud7-openstack-pike-release: python-networking-bgpvpn-7.0.0-1.el7
     cloud7-openstack-queens-testing: python-networking-bgpvpn-8.0.1-1.el7
     cloud7-openstack-queens-release: python-networking-bgpvpn-8.0.1-1.el7
-    cloud7-openstack-rocky-testing: python-networking-bgpvpn-9.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-networking-bgpvpn-9.0.2-1.el7
     cloud7-openstack-rocky-release: python-networking-bgpvpn-9.0.0-1.el7
 - project: novajoin
   name: python-novajoin
@@ -7768,7 +7768,7 @@ packages:
     cloud7-openstack-pike-release: openstack-kuryr-kubernetes-0.2.0-1.el7
     cloud7-openstack-queens-testing: openstack-kuryr-kubernetes-0.4.5-1.el7
     cloud7-openstack-queens-release: openstack-kuryr-kubernetes-0.4.5-1.el7
-    cloud7-openstack-rocky-testing: openstack-kuryr-kubernetes-0.5.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-kuryr-kubernetes-0.5.1-1.el7
     cloud7-openstack-rocky-release: openstack-kuryr-kubernetes-0.5.0-1.el7
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
