@@ -1043,7 +1043,7 @@ packages:
     cloud7-openstack-queens-release: galera-25.3.16-3.el7
     cloud7-openstack-rocky-testing: galera-25.3.16-3.el7
     cloud7-openstack-rocky-release: galera-25.3.16-3.el7
-    cloud7-openstack-stein-testing: galera-25.3.16-3.el7
+    cloud7-openstack-stein-testing: galera-25.3.23-5.el7.0.0.rdo0
 - project: libdb4
   name: libdb4
   conf: fedora-dependency
@@ -1293,7 +1293,7 @@ packages:
     cloud7-openstack-queens-release: mariadb-10.1.20-2.el7
     cloud7-openstack-rocky-testing: mariadb-10.1.20-2.el7
     cloud7-openstack-rocky-release: mariadb-10.1.20-2.el7
-    cloud7-openstack-stein-testing: mariadb-10.1.20-2.el7
+    cloud7-openstack-stein-testing: mariadb-10.3.10-1.el7.0.0.rdo0
 - project: python-pyroute2
   name: python-pyroute2
   conf: rdo-dependency
@@ -4940,7 +4940,7 @@ packages:
     cloud7-openstack-queens-release: resource-agents-3.9.5-105.el7_4.8.rdo1
     cloud7-openstack-rocky-testing: resource-agents-3.9.5-105.el7_4.8.rdo1
     cloud7-openstack-rocky-release: resource-agents-3.9.5-105.el7_4.8.rdo1
-    cloud7-openstack-stein-testing: resource-agents-3.9.5-105.el7_4.8.rdo1
+    cloud7-openstack-stein-testing: resource-agents-3.9.5-124.el7.0.0.rdo1
 - project: pcs
   name: pcs
   conf: rdo-dependency
