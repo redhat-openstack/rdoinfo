@@ -1160,6 +1160,7 @@ packages:
     cloud7-openstack-common-release: boost159-1.59.0-2.el7
     cloud7-openstack-queens-testing: boost159-1.59.0-2.el7
     cloud7-openstack-queens-release: boost159-1.59.0-2.el7
+    cloud7-openstack-stein-el7-build: boost159-1.59.0-2.el7
 - project: python-pika
   name: python-pika
   conf: fedora-dependency
@@ -5578,3 +5579,14 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: python-octavia-tests-golang-0.1.0-1.el7
+# Build dependencies for galera
+- project: scons
+  name: scons
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: scons-2.3.3-1.el7
+- project: asio
+  name: asio
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: asio-1.10.8-3.el7
