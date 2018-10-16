@@ -5590,3 +5590,14 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: asio-1.10.8-3.el7
+# Build dependencies for MariaDB
+- project: Judy
+  name: Judy
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: Judy-1.0.5-8.el7
+- project: multilib-rpm-config
+  name: multilib-rpm-config
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: multilib-rpm-config-1-6.el7
