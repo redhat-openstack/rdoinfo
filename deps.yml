@@ -3980,6 +3980,7 @@ packages:
     cloud7-openstack-rocky-testing: python-certifi-2016.9.26-2.el7
     cloud7-openstack-rocky-release: python-certifi-2016.9.26-2.el7
     cloud7-openstack-stein-testing: python-certifi-2016.9.26-2.el7
+    cloud7-openstack-stein-candidate: python-certifi-2018.10.15-1.el7
 - project: lato-fonts
   name: lato-fonts
   conf: fedora-dependency
@@ -4614,6 +4615,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.24-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5601,3 +5603,8 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: multilib-rpm-config-1-6.el7
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-oslo-upgradecheck-0.1.0-1.el7
+  name: python-oslo-upgradecheck
+  conf: fedora-dependency
