@@ -8683,10 +8683,9 @@ packages:
 - project: oslo-upgradecheck
   upstream: git://git.openstack.org/openstack/oslo.upgradecheck
   tags:
-    under-review:
-    # stein:
-    # stein-py3-uc:
-    # stein-uc:
+    stein:
+    stein-py3-uc:
+    stein-uc:
   conf: rpmfactory-lib
   maintainers:
   - amoralej@redhat.com
