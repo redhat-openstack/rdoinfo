@@ -5,8 +5,6 @@
 # curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=master
 # * stable/ocata
 # curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=stable/ocata
-# * stable/newton
-# curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=stable/newton
 
 # USAGE
 #    update-uc.py [branch]
