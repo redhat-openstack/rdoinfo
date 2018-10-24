@@ -5553,3 +5553,12 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: multilib-rpm-config-1-6.el7
+# Let's add oslo-upgradecheck to deps until it's in promoted repo to avoid pinning many packages
+# (TODO) - amoralej - remove once oslo-upgradecheck is promoted
+# I'm setting -temp suffix to avoid collision with package definition in rdo.yml. It does not
+# affect to synchronization in deps repo.
+- project: python-oslo-upgradecheck-temp
+  name: python-oslo-upgradecheck-temp
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
