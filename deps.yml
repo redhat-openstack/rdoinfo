@@ -5553,3 +5553,10 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: multilib-rpm-config-1-6.el7
+# Let's add oslo-upgradecheck to deps until it's in promoted repo to avoid pinning many packages
+# (TODO) - amoralej - remove once oslo-upgradecheck is promoted
+- project: python-oslo-upgradecheck
+  name: python-oslo-upgradecheck
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
