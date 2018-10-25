@@ -6568,6 +6568,15 @@ packages:
     cloud7-openstack-queens-release: python-networking-l2gw-tests-tempest-0.0.1-0.1.8a8ec70git.el7
     cloud7-openstack-rocky-testing: python-networking-l2gw-tests-tempest-0.0.1-0.2.bf9ce3bgit.el7
     cloud7-openstack-rocky-release: python-networking-l2gw-tests-tempest-0.0.1-0.2.bf9ce3bgit.el7
+- project: tempest-tripleo-ui
+  conf: rpmfactory-tempest-plugin
+  name: python-tripleo-ui-tests-tempest
+  tags:
+    under-review:
+    #stein-uc:
+    #stein:
+  maintainers:
+  - hpokorny@redhat.com
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
