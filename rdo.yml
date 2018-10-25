@@ -3566,6 +3566,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-ui-5.0.0-1.el7
 - project: sahara-image-elements
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6340,6 +6341,7 @@ packages:
   conf: rpmfactory-lib
   name: openstack-sahara-tests
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7080,6 +7082,7 @@ packages:
   - panbalag@redhat.com
   - alee@redhat.com
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7099,6 +7102,7 @@ packages:
   name: openstack-senlin
   upstream: https://github.com/openstack/senlin
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7236,6 +7240,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-watcher-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7387,6 +7392,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-heat-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7404,6 +7410,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-murano-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7452,6 +7459,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-mistral-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7499,6 +7507,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-magnum-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7516,6 +7525,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-vitrage-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7533,6 +7543,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-trove-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7643,6 +7654,7 @@ packages:
 - project: designate-dashboard
   name: openstack-designate-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
