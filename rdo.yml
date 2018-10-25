@@ -2381,7 +2381,7 @@ packages:
     cloud7-openstack-pike-release: openstack-cinder-11.1.1-1.el7
     cloud7-openstack-queens-testing: openstack-cinder-12.0.3-1.el7
     cloud7-openstack-queens-release: openstack-cinder-12.0.3-1.el7
-    cloud7-openstack-rocky-testing: openstack-cinder-13.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-cinder-13.0.1-1.el7
     cloud7-openstack-rocky-release: openstack-cinder-13.0.0-1.el7
 - project: ironic
   tags:
@@ -2696,7 +2696,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
     cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
-    cloud7-openstack-rocky-testing: python-octavia-tests-tempest-0.1.0-1.el7
+    cloud7-openstack-rocky-testing: python-octavia-tests-tempest-0.1.0-2.el7
     cloud7-openstack-rocky-release: python-octavia-tests-tempest-0.1.0-1.el7
 - project: watcher
   conf: rpmfactory-core
@@ -2806,7 +2806,7 @@ packages:
     cloud7-openstack-pike-release: python-django-horizon-12.0.3-1.el7
     cloud7-openstack-queens-testing: python-django-horizon-13.0.1-1.el7
     cloud7-openstack-queens-release: python-django-horizon-13.0.1-1.el7
-    cloud7-openstack-rocky-testing: python-django-horizon-14.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-django-horizon-14.0.1-1.el7
     cloud7-openstack-rocky-release: python-django-horizon-14.0.0-1.el7
 - project: trove
   conf: rpmfactory-core
@@ -6783,7 +6783,7 @@ packages:
     cloud7-openstack-pike-release: openstack-kolla-5.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-kolla-6.1.0-1.el7
     cloud7-openstack-queens-release: openstack-kolla-6.1.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-kolla-7.0.0-0.2.0rc2.el7
+    cloud7-openstack-rocky-testing: openstack-kolla-7.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-kolla-7.0.0-0.2.0rc2.el7
 - project: openstack-selinux
   name: openstack-selinux
