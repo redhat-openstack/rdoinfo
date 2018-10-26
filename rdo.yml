@@ -295,6 +295,15 @@ packages:
     cloud7-openstack-queens-release: puppet-congress-12.4.0-1.el7
     cloud7-openstack-rocky-testing: puppet-congress-13.3.1-1.el7
     cloud7-openstack-rocky-release: puppet-congress-13.3.1-1.el7
+- project: puppet-crane
+  conf: rpmfactory-puppet
+  maintainers:
+  - dprince@redhat.com
+  tags:
+    under-review:
+    #stein-py3-uc:
+    #stein-uc:
+    #stein:
 - project: puppet-designate
   conf: rpmfactory-puppet
   buildsys-tags:
