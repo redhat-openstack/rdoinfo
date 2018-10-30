@@ -933,6 +933,7 @@ packages:
     cloud7-openstack-rocky-testing: python-dateutil-2.6.1-1.el7
     cloud7-openstack-rocky-release: python-dateutil-2.6.1-1.el7
     cloud7-openstack-stein-testing: python-dateutil-2.6.1-1.el7
+    cloud7-openstack-stein-candidate: python-dateutil-2.7.5-1.el7
 - project: python-cycler
   name: python-cycler
   conf: rdo-dependency
@@ -1219,6 +1220,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-rocky-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-stein-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-stein-candidate: python-keyring-16.0.0-1.el7
 - project: openvswitch
   name: openvswitch
   conf: rdo-dependency
@@ -2873,6 +2875,7 @@ packages:
     cloud7-openstack-rocky-testing: python-requests-2.19.1-4.el7
     cloud7-openstack-rocky-release: python-requests-2.19.1-4.el7
     cloud7-openstack-stein-testing: python-requests-2.19.1-4.el7
+    cloud7-openstack-stein-candidate: python-requests-2.20.0-1.fc30
 - project: python-idna
   name: python-idna
   conf: rdo-dependency
@@ -3083,6 +3086,7 @@ packages:
     cloud7-openstack-rocky-testing: python-urllib3-1.21.1-1.el7
     cloud7-openstack-rocky-release: python-urllib3-1.21.1-1.el7
     cloud7-openstack-stein-testing: python-urllib3-1.21.1-1.el7
+    cloud7-openstack-stein-candidate: python-urllib3-1.24-1.el7
 - project: python-lockfile
   name: python-lockfile
   conf: fedora-dependency
@@ -5562,3 +5566,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytest-3.9.3-1.el7
+  name: python-pytest
+  conf: fedora-dependency
