@@ -5562,3 +5562,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
+- project: os-ken
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-os-ken-0.1.0-1.el7
+  name: python-os-ken
+  conf: fedora-dependency
