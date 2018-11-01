@@ -3343,6 +3343,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-ironic-inspector-8.0.0-1.el7
 - project: ironic-python-agent
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7352,6 +7353,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-zaqar-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
