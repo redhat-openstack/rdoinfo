@@ -7841,3 +7841,11 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - amoralej@redhat.com
+- project: tripleo-ansible
+  name: tripleo-ansible
+  conf: rpmfactory-core
+  tags:
+    under-review:
+    #stein:
+  maintainers:
+  - jrouleau@redhat.com
