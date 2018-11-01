@@ -379,6 +379,7 @@ packages:
     cloud7-openstack-rocky-testing: python-psutil-5.2.2-2.el7
     cloud7-openstack-rocky-release: python-psutil-5.2.2-2.el7
     cloud7-openstack-stein-testing: python-psutil-5.2.2-2.el7
+    cloud7-openstack-stein-candidate: python-psutil-5.4.8-1.el7
 - project: python-pip
   name: python-pip
   conf: fedora-dependency
@@ -4579,6 +4580,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.34-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5562,3 +5564,13 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
+- project: pyparsing
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pyparsing-2.3.0-1.el7
+  name: python-pyparsing
+  conf: fedora-dependency
+- project: future
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-future-0.17.1-1.el7
+  name: python-future
+  conf: fedora-dependency
