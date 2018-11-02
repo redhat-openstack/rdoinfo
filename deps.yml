@@ -5562,3 +5562,13 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
+- project: mod_xsendfile
+  name: mod_xsendfile
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: mod_xsendfile-0.12-17.el7
+- project: python-crane
+  name: python-crane
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-crane-3.1.1-2.el7
