@@ -5591,3 +5591,8 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: rubygem-rspec-3.7.0-3.el7
+- project: rubygem-fakefs
+  name: rubygem-fakefs
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: rubygem-fakefs-0.13.1-2.el7
