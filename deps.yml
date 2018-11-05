@@ -5586,3 +5586,8 @@ packages:
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-crane-3.1.1-2.el7
     cloud7-openstack-stein-testing: python-crane-3.1.1-2.el7
+- project: rubygem-rspec
+  name: rubygem-rspec
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: rubygem-rspec-3.7.0-3.el7
