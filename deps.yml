@@ -3281,6 +3281,7 @@ packages:
     cloud7-openstack-rocky-candidate: numpy-1.14.5-1.el7
     cloud7-openstack-rocky-release: numpy-1.14.5-1.el7
     cloud7-openstack-stein-testing: numpy-1.14.5-1.el7
+    cloud7-openstack-stein-candidate: numpy-1.15.4-1.el7
 - project: python-dtopt
   name: python-dtopt
   conf: fedora-dependency
@@ -3817,6 +3818,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-cachetools-2.1.0-1.el7
     cloud7-openstack-rocky-release: python-cachetools-2.1.0-1.el7
     cloud7-openstack-stein-testing: python-cachetools-2.1.0-1.el7
+    cloud7-openstack-stein-candidate: python-cachetools-3.0.0-1.el7
 - project: python-pyglet
   name: python-pyglet
   conf: fedora-dependency
@@ -5591,3 +5593,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: rubygem-rspec-3.7.0-3.el7.1
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytest-3.10.0-1.el7
+  name: python-pytest
+  conf: fedora-dependency
