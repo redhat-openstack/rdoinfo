@@ -101,7 +101,7 @@ packages:
     cloud7-openstack-stein-el7-build: python-whoosh-2.5.7-4.el7
 - project: python-PyMySQL
   name: python-PyMySQL
-  conf: fedora-dependency
+  conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-pike-testing: python-PyMySQL-0.7.11-1.el7
     cloud7-openstack-pike-release: python-PyMySQL-0.7.11-1.el7
@@ -111,7 +111,7 @@ packages:
     cloud7-openstack-queens-release: python-PyMySQL-0.7.11-1.el7
     cloud7-openstack-rocky-testing: python-PyMySQL-0.7.11-1.el7
     cloud7-openstack-rocky-release: python-PyMySQL-0.7.11-1.el7
-    cloud7-openstack-stein-testing: python-PyMySQL-0.7.11-1.el7
+    cloud7-openstack-stein-testing: python-PyMySQL-0.9.2-2.el7
 - project: python-routes
   name: python-routes
   conf: fedora-dependency
