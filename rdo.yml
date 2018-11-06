@@ -6718,10 +6718,16 @@ packages:
 - project: shaker
   name: python-shaker
   tags:
+    # FIXME(jpena) once timeout-decorator is packaged, and
+    # https://review.rdoproject.org/r/17270 is merged, we can
+    # unpin the versions for stein and rocky
     stein-py3-uc:
+      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
     stein-uc:
+      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
     stein:
     rocky:
+      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
     queens:
     pike:
       source-branch: 6fc8d21b3baaf2ea1294e3429602c8ba97811848
