@@ -41,6 +41,9 @@ packages:
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-openstackdocstheme-1.29.0-2.el7
+- project: python-pbr
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pbr-5.1.2-2.el7
 - project: python-pifpaf
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pifpaf-2.2.2-3.el7
