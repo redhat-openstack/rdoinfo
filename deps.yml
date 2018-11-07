@@ -1219,6 +1219,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-rocky-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-stein-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-stein-candidate: python-keyring-16.0.1-1.el7
 - project: openvswitch
   name: openvswitch
   conf: rdo-dependency
@@ -1408,6 +1409,7 @@ packages:
     cloud7-openstack-rocky-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-rocky-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-stein-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-stein-candidate: python-autobahn-18.11.1-1.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -3658,6 +3660,7 @@ packages:
     cloud7-openstack-rocky-testing: python-dulwich-0.18.4-1.el7
     cloud7-openstack-rocky-release: python-dulwich-0.18.4-1.el7
     cloud7-openstack-stein-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-stein-candidate: python-dulwich-0.19.8-1.el7
 - project: pyflakes
   name: pyflakes
   conf: fedora-dependency
@@ -4591,6 +4594,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.39-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5591,3 +5595,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: rubygem-rspec-3.7.0-3.el7.1
+- project: openshift
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-openshift-0.8.1-1.el7
+  name: python-openshift
+  conf: fedora-dependency
