@@ -4255,9 +4255,9 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     stein-py3-uc:
-      source-branch: 0.17.2
+      source-branch: 0.19.0
     stein-uc:
-      source-branch: 0.17.2
+      source-branch: 0.19.0
     stein:
     rocky:
       source-branch: 0.17.2
@@ -4516,9 +4516,9 @@ packages:
 - project: oslo-cache
   tags:
     stein-py3-uc:
-      source-branch: 1.31.1
+      source-branch: 1.31.0
     stein-uc:
-      source-branch: 1.31.1
+      source-branch: 1.31.0
     stein:
     rocky:
       source-branch: 1.30.1
