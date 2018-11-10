@@ -2135,7 +2135,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-nova-17.0.7-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.7-1.el7
     cloud7-openstack-rocky-testing: openstack-nova-18.0.3-1.el7
-    cloud7-openstack-rocky-release: openstack-nova-18.0.2-1.el7
+    cloud7-openstack-rocky-release: openstack-nova-18.0.3-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -2449,7 +2449,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-neutron-12.0.4-1.el7
     cloud7-openstack-queens-release: openstack-neutron-12.0.4-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-13.0.2-1.el7
-    cloud7-openstack-rocky-release: openstack-neutron-13.0.1-2.el7
+    cloud7-openstack-rocky-release: openstack-neutron-13.0.2-1.el7
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
@@ -2537,7 +2537,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-neutron-fwaas-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-fwaas-12.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-fwaas-13.0.1-1.el7
-    cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.0-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.1-1.el7
 - project: neutron-lbaas
   conf: rpmfactory-core
   tags:
@@ -2587,7 +2587,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-neutron-vpnaas-12.0.0-1.el7
     cloud7-openstack-queens-release: openstack-neutron-vpnaas-12.0.0-1.el7
     cloud7-openstack-rocky-testing: openstack-neutron-vpnaas-13.0.1-1.el7
-    cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.0-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.1-1.el7
 - project: designate
   conf: rpmfactory-core
   tags:
@@ -3698,7 +3698,7 @@ packages:
     cloud7-openstack-queens-testing: python-glanceclient-2.10.0-1.el7
     cloud7-openstack-queens-release: python-glanceclient-2.10.0-1.el7
     cloud7-openstack-rocky-testing: python-glanceclient-2.13.0-1.el7
-    cloud7-openstack-rocky-release: python-glanceclient-2.12.1-1.el7
+    cloud7-openstack-rocky-release: python-glanceclient-2.13.0-1.el7
 - project: novaclient
   conf: rpmfactory-client
   tags:
@@ -5929,7 +5929,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-mistral-6.0.5-1.el7
     cloud7-openstack-queens-release: openstack-mistral-6.0.5-1.el7
     cloud7-openstack-rocky-testing: openstack-mistral-7.0.4-1.el7
-    cloud7-openstack-rocky-release: openstack-mistral-7.0.3-1.el7
+    cloud7-openstack-rocky-release: openstack-mistral-7.0.4-1.el7
 - project: mistral-lib
   tags:
     stein-py3-uc:
