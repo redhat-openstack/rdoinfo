@@ -1,0 +1,7 @@
+packages:
+- project: nova
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-nova-15.1.5-1.el7
+- project: oslo-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-config-3.22.2-1.el7

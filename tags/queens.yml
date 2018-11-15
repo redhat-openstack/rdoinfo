@@ -1,0 +1,10 @@
+packages:
+- project: nova
+  tags:
+    queens:
+- project: oslo-config
+  tags:
+    queens:
+      source-branch: 5.2.0
+
+
