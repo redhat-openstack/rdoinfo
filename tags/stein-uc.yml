@@ -1,0 +1,9 @@
+packages:
+- project: nova
+  tags:
+    stein-uc:
+- project: oslo-config
+  tags:
+    stein-uc:
+      source-branch: 6.7.0
+

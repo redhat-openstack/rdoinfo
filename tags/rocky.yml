@@ -1,0 +1,10 @@
+packages:
+- project: nova
+  tags:
+    rocky:
+- project: oslo-config
+  tags:
+    rocky:
+      source-branch: 6.4.0
+
+

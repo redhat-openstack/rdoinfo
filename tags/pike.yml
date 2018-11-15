@@ -1,0 +1,9 @@
+packages:
+- project: nova
+  tags:
+    pike:
+- project: oslo-config
+  tags:
+    pike:
+      source-branch: 4.11.1
+

@@ -1,0 +1,9 @@
+packages:
+- project: nova
+  tags:
+    ocata:
+- project: oslo-config
+  tags:
+    ocata:
+      source-branch: 3.22.2
+

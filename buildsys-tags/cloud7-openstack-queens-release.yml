@@ -1,0 +1,7 @@
+packages:
+- project: nova
+  buildsys-tags:
+    cloud7-openstack-queens-release: openstack-nova-17.0.7-1.el7
+- project: oslo-config
+  buildsys-tags:
+    cloud7-openstack-queens-release: python-oslo-config-5.2.0-1.el7

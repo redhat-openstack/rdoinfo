@@ -2119,23 +2119,6 @@ packages:
   maintainers:
   - sahid.ferdjaoui@redhat.com
   - sven@redhat.com
-  tags:
-    stein-py3-uc:
-    stein-uc:
-    stein:
-    rocky:
-    queens:
-    pike:
-    ocata:
-  buildsys-tags:
-    cloud7-openstack-ocata-testing: openstack-nova-15.1.5-1.el7
-    cloud7-openstack-ocata-release: openstack-nova-15.1.5-1.el7
-    cloud7-openstack-pike-testing: openstack-nova-16.1.6-1.el7
-    cloud7-openstack-pike-release: openstack-nova-16.1.6-1.el7
-    cloud7-openstack-queens-testing: openstack-nova-17.0.7-1.el7
-    cloud7-openstack-queens-release: openstack-nova-17.0.7-1.el7
-    cloud7-openstack-rocky-testing: openstack-nova-18.0.3-1.el7
-    cloud7-openstack-rocky-release: openstack-nova-18.0.3-1.el7
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -4542,29 +4525,6 @@ packages:
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
-  tags:
-    stein-py3-uc:
-      source-branch: 6.7.0
-    stein-uc:
-      source-branch: 6.7.0
-    stein:
-    rocky:
-      source-branch: 6.4.0
-    queens:
-      source-branch: 5.2.0
-    pike:
-      source-branch: 4.11.1
-    ocata:
-      source-branch: 3.22.2
-  buildsys-tags:
-    cloud7-openstack-ocata-testing: python-oslo-config-3.22.2-1.el7
-    cloud7-openstack-ocata-release: python-oslo-config-3.22.2-1.el7
-    cloud7-openstack-pike-testing: python-oslo-config-4.11.1-1.el7
-    cloud7-openstack-pike-release: python-oslo-config-4.11.1-1.el7
-    cloud7-openstack-queens-testing: python-oslo-config-5.2.0-1.el7
-    cloud7-openstack-queens-release: python-oslo-config-5.2.0-1.el7
-    cloud7-openstack-rocky-testing: python-oslo-config-6.4.0-1.el7
-    cloud7-openstack-rocky-release: python-oslo-config-6.4.0-1.el7
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency

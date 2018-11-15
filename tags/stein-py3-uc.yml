@@ -1,0 +1,10 @@
+packages:
+- project: nova
+  tags:
+    stein-py3-uc:
+- project: oslo-config
+  tags:
+    stein-py3-uc:
+      source-branch: 6.7.0
+
+
