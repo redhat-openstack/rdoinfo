@@ -2614,6 +2614,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -2700,6 +2701,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6571,6 +6573,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6943,6 +6946,8 @@ packages:
 - project: kuryr-tempest-plugin
   name: python-kuryr-tests-tempest
   tags:
+    stein-py3-uc:
+      source-branch: 22a7a3b09d7f1d3b92492377b00cfe8a51151778
     stein-uc:
       source-branch: 22a7a3b09d7f1d3b92492377b00cfe8a51151778
     stein:
@@ -7217,6 +7222,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-barbican-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7237,6 +7243,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-vmware-nsx-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7287,6 +7294,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-novajoin-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7509,6 +7517,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-tripleo-common-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7524,6 +7533,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-manila-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7591,6 +7601,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-telemetry-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7624,6 +7635,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-ironic-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7641,6 +7653,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-ec2api-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
