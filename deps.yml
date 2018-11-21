@@ -1219,6 +1219,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-rocky-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-stein-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-stein-candidate: python-keyring-16.1.0-1.el7
 - project: openvswitch
   name: openvswitch
   conf: rdo-dependency
@@ -1673,6 +1674,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-utils-0.32.12-3.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-utils-0.33.8-1.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -2266,6 +2268,7 @@ packages:
     cloud7-openstack-rocky-testing: python-redis-2.10.3-1.el7
     cloud7-openstack-rocky-release: python-redis-2.10.3-1.el7
     cloud7-openstack-stein-testing: python-redis-2.10.3-1.el7
+    cloud7-openstack-stein-candidate: python-redis-3.0.1-1.el7
 - project: python-waitress
   name: python-waitress
   conf: fedora-dependency
@@ -3660,6 +3663,7 @@ packages:
     cloud7-openstack-rocky-testing: python-dulwich-0.18.4-1.el7
     cloud7-openstack-rocky-release: python-dulwich-0.18.4-1.el7
     cloud7-openstack-stein-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-stein-candidate: python-dulwich-0.19.9-1.fc30
 - project: pyflakes
   name: pyflakes
   conf: fedora-dependency
@@ -4075,6 +4079,7 @@ packages:
     cloud7-openstack-rocky-testing: python-cryptography-2.1.4-2.el7
     cloud7-openstack-rocky-release: python-cryptography-2.1.4-2.el7
     cloud7-openstack-stein-testing: python-cryptography-2.1.4-2.el7
+    cloud7-openstack-stein-candidate: python-cryptography-2.4.2-1.el7
 - project: redis
   name: redis
   conf: fedora-dependency
@@ -4593,6 +4598,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.49-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4615,6 +4621,7 @@ packages:
     cloud7-openstack-rocky-testing: python-kazoo-2.2.1-1.el7
     cloud7-openstack-rocky-release: python-kazoo-2.2.1-1.el7
     cloud7-openstack-stein-testing: python-kazoo-2.2.1-1.el7
+    cloud7-openstack-stein-candidate: python-kazoo-2.6.0-1.el7
 - project: python-XStatic-termjs
   name: python-XStatic-termjs
   conf: fedora-dependency
@@ -4981,6 +4988,7 @@ packages:
     cloud7-openstack-rocky-testing: python-exabgp-4.0.1-3.el7
     cloud7-openstack-rocky-release: python-exabgp-4.0.1-3.el7
     cloud7-openstack-stein-testing: python-exabgp-4.0.1-3.el7
+    cloud7-openstack-stein-candidate: python-exabgp-4.0.10-1.el7
 - project: libtommath
   name: libtommath
   conf: fedora-dependency
@@ -5598,3 +5606,13 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: rubygem-fakefs-0.13.1-3.el7.1
+- project: pydot
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pydot-1.3.0-1.el7
+  name: python-pydot
+  conf: fedora-dependency
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytest-4.0.0-1.el7
+  name: python-pytest
+  conf: fedora-dependency
