@@ -1,0 +1,11 @@
+- project:
+    check:
+      jobs:
+        - legacy-rdoinfo-tripleo-queens-testing-centos-7-multinode-1ctlr-featureset016:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - legacy-rdoinfo-tripleo-rocky-testing-centos-7-multinode-1ctlr-featureset016:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
