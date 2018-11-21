@@ -44,6 +44,9 @@ packages:
 - project: python-docker-pycreds
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-docker-pycreds-0.4.0-2.el7
+- project: python-exabgp
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-exabgp-4.0.10-2.el7
 - project: python-freezegun
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-freezegun-0.3.11-4.el7
@@ -92,6 +95,9 @@ packages:
 - project: python-pytest-runner
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pytest-runner-4.0-3.el7
+- project: python-redis
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-redis-3.1.0-1.el7
 - project: python-rfc3986
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-rfc3986-1.2.0-1.el7
