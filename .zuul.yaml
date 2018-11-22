@@ -1,0 +1,6 @@
+- project:
+    check:
+      jobs:
+        - legacy-rdoinfo-tripleo-master-testing-centos-7-ovb-3ctlr_1comp-featureset030:
+            dependencies:
+              - legacy-validate-buildsys-tags
