@@ -1221,7 +1221,7 @@ packages:
     cloud7-openstack-stein-testing: python-keyring-5.7.1-1.el7
 - project: openvswitch
   name: openvswitch
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: openvswitch-2.6.1-4.1.git20161206.el7
     cloud7-openstack-common-release: openvswitch-2.6.1-4.1.git20161206.el7
@@ -1234,6 +1234,7 @@ packages:
     cloud7-openstack-rocky-testing: openvswitch-2.9.0-3.el7
     cloud7-openstack-rocky-release: openvswitch-2.9.0-3.el7
     cloud7-openstack-stein-testing: openvswitch-2.9.0-3.el7
+    cloud7-openstack-stein-candidate: openvswitch-2.10.0-4.el7
   maintainers:
   - dalvarez@redhat.com
   - majopela@redhat.com
