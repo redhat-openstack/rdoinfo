@@ -5628,3 +5628,58 @@ packages:
     cloud7-openstack-queens-testing: go-srpm-macros-2-17.el7
     cloud7-openstack-rocky-el7-build: go-srpm-macros-2-17.el7
     cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
+- project: golang-gopkg-yaml
+  name: golang-gopkg-yaml
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-gopkg-yaml-1-15.el7
+- project: golang-github-stretchr-objx
+  name: golang-github-stretchr-objx
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-stretchr-objx-0-0.12.git1a9d0bb.el7
+- project: golang-github-BurntSushi-toml
+  name: golang-github-BurntSushi-toml
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-BurntSushi-toml-0-0.10.git2ceedfe.el7
+- project: golang-github-davecgh-go-spew
+  name: golang-github-davecgh-go-spew
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-davecgh-go-spew-0-0.11.git6d21280.el7
+- project: golang-github-pmezard-go-difflib
+  name: golang-github-pmezard-go-difflib
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-pmezard-go-difflib-0-0.9.git792786c.el7
+- project: golang-github-golang-sys
+  name: golang-github-golang-sys
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-golang-sys-0-0.15.20181125git62eef0e.el7
+- project: golang-github-stretchr-testify
+  name: golang-github-stretchr-testify
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-stretchr-testify-1.2.2-1.el7
+- project: golang-googlecode-go-crypto
+  name: golang-googlecode-go-crypto
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-googlecode-go-crypto-0-0.14.20181125git3d3f9f4.el7
+- project: golang-github-urfave-cli
+  name: golang-github-urfave-cli
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-urfave-cli-1.20.0-1.el7
+- project: golang-github-Sirupsen-logrus
+  name: golang-github-Sirupsen-logrus
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-Sirupsen-logrus-1.1.1-2.el7
+- project: golang-github-vbatts-tar-split
+  name: golang-github-vbatts-tar-split
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
