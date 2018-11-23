@@ -5598,3 +5598,9 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-el7-build: rubygem-fakefs-0.13.1-3.el7.1
+- project: golang-github-vbatts-tar-split
+  name: golang-github-vbatts-tar-split
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: golang-github-vbatts-tar-split-0.9.13-3.el7
+    cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.9.13-3.el7
