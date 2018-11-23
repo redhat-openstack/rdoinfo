@@ -6750,6 +6750,7 @@ packages:
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/python-%(project)s
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7669,6 +7670,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-congress-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
