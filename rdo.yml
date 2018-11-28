@@ -273,7 +273,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-cinder-11.5.0-1.el7
     cloud7-openstack-pike-release: puppet-cinder-11.5.0-1.el7
     cloud7-openstack-queens-testing: puppet-cinder-12.4.1-1.el7
-    cloud7-openstack-queens-release: puppet-cinder-12.4.0-1.el7
+    cloud7-openstack-queens-release: puppet-cinder-12.4.1-1.el7
     cloud7-openstack-rocky-testing: puppet-cinder-13.3.2-1.el7
     cloud7-openstack-rocky-release: puppet-cinder-13.3.1-1.el7
 - project: puppet-congress
@@ -2154,7 +2154,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-keystone-12.0.2-1.el7
     cloud7-openstack-pike-release: openstack-keystone-12.0.2-1.el7
     cloud7-openstack-queens-testing: openstack-keystone-13.0.2-2.el7
-    cloud7-openstack-queens-release: openstack-keystone-13.0.2-1.el7
+    cloud7-openstack-queens-release: openstack-keystone-13.0.2-2.el7
     cloud7-openstack-rocky-testing: openstack-keystone-14.0.1-2.el7
     cloud7-openstack-rocky-release: openstack-keystone-14.0.1-2.el7
 - project: glance
@@ -2714,7 +2714,7 @@ packages:
   - bcafarel@redhat.com
   buildsys-tags:
     cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.3.51e91b4git.el7
-    cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.2.51e91b4git.el7
+    cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.3.51e91b4git.el7
     cloud7-openstack-rocky-testing: python-octavia-tests-tempest-0.1.0-2.el7
     cloud7-openstack-rocky-release: python-octavia-tests-tempest-0.1.0-2.el7
 - project: watcher
