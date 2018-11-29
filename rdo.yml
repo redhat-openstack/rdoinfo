@@ -1664,13 +1664,13 @@ packages:
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
   tags:
     stein-py3-uc:
-      source-branch: 8c1f7e5803bdb0998bc8184bbf71a07213da27e6
+      source-branch: stable/fluorine
     stein-uc:
-      source-branch: 8c1f7e5803bdb0998bc8184bbf71a07213da27e6
+      source-branch: stable/fluorine
     stein:
-      source-branch: master
+      source-branch: stable/fluorine
     rocky:
-      source-branch: 8c1f7e5803bdb0998bc8184bbf71a07213da27e6
+      source-branch: stable/oxygen
     queens:
       source-branch: stable/oxygen
     pike:
