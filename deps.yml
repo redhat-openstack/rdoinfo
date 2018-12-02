@@ -1232,7 +1232,7 @@ packages:
     cloud7-openstack-queens-testing: openvswitch-2.9.0-3.el7
     cloud7-openstack-queens-release: openvswitch-2.9.0-3.el7
     cloud7-openstack-rocky-testing: openvswitch-2.10.1-1.el7
-    cloud7-openstack-rocky-release: openvswitch-2.9.0-3.el7
+    cloud7-openstack-rocky-release: openvswitch-2.10.1-1.el7
     cloud7-openstack-rocky-candidate: openvswitch-2.10.1-1.el7
     cloud7-openstack-stein-testing: openvswitch-2.10.1-1.el7
   maintainers:
@@ -5231,6 +5231,7 @@ packages:
     cloud7-openstack-queens-release: python-ntlm3-1.0.2-4.el7
     cloud7-openstack-rocky-testing: python-ntlm3-1.0.2-4.el7
     cloud7-openstack-stein-testing: python-ntlm3-1.0.2-4.el7
+    cloud7-openstack-rocky-release: python-ntlm3-1.0.2-4.el7
 - project: python-requests_ntlm
   name: python-requests_ntlm
   conf: fedora-dependency
@@ -5241,6 +5242,7 @@ packages:
     cloud7-openstack-queens-release: python-requests_ntlm-0.3.0-4.el7
     cloud7-openstack-rocky-testing: python-requests_ntlm-0.3.0-4.el7
     cloud7-openstack-stein-testing: python-requests_ntlm-0.3.0-4.el7
+    cloud7-openstack-rocky-release: python-requests_ntlm-0.3.0-4.el7
 - project: python-winrm
   name: python-winrm
   conf: fedora-dependency
@@ -5251,6 +5253,7 @@ packages:
     cloud7-openstack-queens-release: python-winrm-0.2.2-3.el7
     cloud7-openstack-rocky-testing: python-winrm-0.2.2-3.el7
     cloud7-openstack-stein-testing: python-winrm-0.2.2-3.el7
+    cloud7-openstack-rocky-release: python-winrm-0.2.2-3.el7
 - project: python-defusedxml
   name: python-defusedxml
   conf: rdo-dependency
