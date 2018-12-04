@@ -5613,3 +5613,17 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: rubygem-pathspec-0.2.1-3.el7
+- project: golang
+  name: golang
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: golang-1.10.2-1.el7
+    cloud7-openstack-rocky-el7-build: golang-1.10.2-1.el7
+    cloud7-openstack-stein-el7-build: golang-1.10.2-1.el7
+- project: go-srpm-macros
+  name: go-srpm-macros
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: go-srpm-macros-2-17.el7
+    cloud7-openstack-rocky-el7-build: go-srpm-macros-2-17.el7
+    cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
