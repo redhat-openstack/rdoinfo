@@ -7142,8 +7142,12 @@ packages:
   name: openstack-senlin
   upstream: https://github.com/openstack/senlin
   tags:
+    #(TODO) amoralej - unpin stein when tenacity is updated to >=5.0.2
+    # https://bugzilla.redhat.com/show_bug.cgi?id=1655974
     stein-py3-uc:
+      source-branch: 0ddbc1146f6053a4757fc3c12a0f7bffe745e45e
     stein-uc:
+      source-branch: 0ddbc1146f6053a4757fc3c12a0f7bffe745e45e
     stein:
     rocky:
     queens:
