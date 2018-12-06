@@ -5617,9 +5617,9 @@ packages:
   name: golang
   conf: rdo-dependency
   buildsys-tags:
-    cloud7-openstack-queens-testing: golang-1.10.2-1.el7
-    cloud7-openstack-rocky-el7-build: golang-1.10.2-1.el7
-    cloud7-openstack-stein-el7-build: golang-1.10.2-1.el7
+    cloud7-openstack-queens-testing: golang-1.11.2-3.el7
+    cloud7-openstack-rocky-el7-build: golang-1.11.2-3.el7
+    cloud7-openstack-stein-el7-build: golang-1.11.2-3.el7
 - project: go-srpm-macros
   name: go-srpm-macros
   conf: rdo-dependency
