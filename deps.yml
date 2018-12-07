@@ -5627,3 +5627,8 @@ packages:
     cloud7-openstack-queens-testing: go-srpm-macros-2-17.el7
     cloud7-openstack-rocky-el7-build: go-srpm-macros-2-17.el7
     cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
+- project: os-ken
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-os-ken-0.3.0-1.el7
+  name: python-os-ken
+  conf: fedora-dependency
