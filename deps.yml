@@ -654,6 +654,7 @@ packages:
     cloud7-openstack-rocky-testing: python-paste-deploy-1.5.2-6.el7
     cloud7-openstack-rocky-release: python-paste-deploy-1.5.2-6.el7
     cloud7-openstack-stein-testing: python-paste-deploy-1.5.2-6.el7
+    cloud7-openstack-stein-candidate: python-paste-deploy-2.0.1-1.el7
 - project: hdf5
   name: hdf5
   conf: fedora-dependency
@@ -676,6 +677,7 @@ packages:
     cloud7-openstack-rocky-testing: python-pysaml2-4.5.0-4.el7
     cloud7-openstack-rocky-release: python-pysaml2-4.5.0-4.el7
     cloud7-openstack-stein-testing: python-pysaml2-4.5.0-4.el7
+    cloud7-openstack-stein-candidate: python-pysaml2-4.6.5-1.el7
 - project: nagios-plugins
   name: nagios-plugins
   conf: fedora-dependency
@@ -1674,6 +1676,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-utils-0.32.12-3.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-utils-0.33.9-1.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -2313,6 +2316,7 @@ packages:
     cloud7-openstack-rocky-testing: python-rfc3986-0.3.1-1.el7
     cloud7-openstack-rocky-release: python-rfc3986-0.3.1-1.el7
     cloud7-openstack-stein-testing: python-rfc3986-0.3.1-1.el7
+    cloud7-openstack-stein-candidate: python-rfc3986-1.2.0-1.el7
 - project: python-eventlet
   name: python-eventlet
   conf: rdo-dependency
@@ -4594,6 +4598,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.60-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5627,3 +5632,8 @@ packages:
     cloud7-openstack-queens-testing: go-srpm-macros-2-17.el7
     cloud7-openstack-rocky-el7-build: go-srpm-macros-2-17.el7
     cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
+- project: jaeger-client
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-jaeger-client-3.13.0-1.el7
+  name: python-jaeger-client
+  conf: fedora-dependency
