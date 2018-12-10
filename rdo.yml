@@ -5396,6 +5396,7 @@ packages:
 - project: networking-baremetal
   conf: rpmfactory-lib
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -5460,6 +5461,7 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-sfc
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6554,6 +6556,7 @@ packages:
 - project: networking-l2gw
   conf: rpmfactory-lib
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
