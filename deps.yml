@@ -1398,6 +1398,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-kombu-4.2.1-1.el7
     cloud7-openstack-rocky-release: python-kombu-4.2.1-1.el7
     cloud7-openstack-stein-testing: python-kombu-4.2.1-1.el7
+    cloud7-openstack-stein-candidate: python-kombu-4.2.2-1.el7
 - project: python-autobahn
   name: python-autobahn
   conf: rdo-dependency
@@ -1738,6 +1739,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-jwt-1.6.1-1.el7
     cloud7-openstack-rocky-release: python-jwt-1.6.1-1.el7
     cloud7-openstack-stein-testing: python-jwt-1.6.1-1.el7
+    cloud7-openstack-stein-candidate: python-jwt-1.7.1-1.el7
 - project: python-requests-kerberos
   name: python-requests-kerberos
   conf: fedora-dependency
@@ -2938,6 +2940,7 @@ packages:
     cloud7-openstack-common-release: python-influxdb-4.0.0-1.el7.1
     cloud7-openstack-queens-testing: python-influxdb-4.0.0-1.el7.1
     cloud7-openstack-queens-release: python-influxdb-4.0.0-1.el7.1
+    cloud7-openstack-stein-candidate: python-influxdb-5.2.1-1.el7
 - project: apiextractor
   name: apiextractor
   conf: fedora-dependency
@@ -4594,6 +4597,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.62-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4686,6 +4690,7 @@ packages:
     cloud7-openstack-rocky-testing: python-dns-1.15.0-5.el7
     cloud7-openstack-rocky-release: python-dns-1.15.0-5.el7
     cloud7-openstack-stein-testing: python-dns-1.15.0-5.el7
+    cloud7-openstack-stein-candidate: python-dns-1.16.0-1.el7
 - project: ruby-augeas
   name: ruby-augeas
   conf: fedora-dependency
@@ -5627,3 +5632,13 @@ packages:
     cloud7-openstack-queens-testing: go-srpm-macros-2-17.el7
     cloud7-openstack-rocky-el7-build: go-srpm-macros-2-17.el7
     cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
+- project: prometheus-client
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-prometheus-client-0.5.0-1.el7
+  name: python-prometheus-client
+  conf: fedora-dependency
+- project: google-api-python-client
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-google-api-client-1.7.6-1.el7
+  name: python-google-api-client
+  conf: fedora-dependency
