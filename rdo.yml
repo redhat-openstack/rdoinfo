@@ -7885,7 +7885,8 @@ packages:
   name: tripleo-ansible
   conf: rpmfactory-core
   tags:
-    under-review:
-    #stein:
+    stein:
+    stein-py3-uc:
+    stein-uc:
   maintainers:
   - jrouleau@redhat.com
