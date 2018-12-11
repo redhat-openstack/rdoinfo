@@ -2570,6 +2570,8 @@ packages:
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-13.0.0-1.el7
 - project: neutron-vpnaas
   conf: rpmfactory-core
+  tags:
+    stein-py3-uc:
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -7191,6 +7193,7 @@ packages:
   conf: rpmfactory-core
   upstream: https://github.com/openstack/neutron-dynamic-routing
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7698,6 +7701,7 @@ packages:
   tags:
     # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
     version-locked:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
