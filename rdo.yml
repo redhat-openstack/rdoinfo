@@ -5445,6 +5445,13 @@ packages:
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+    queens:
+    pike:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - mike.kolesnik@gmail.com
