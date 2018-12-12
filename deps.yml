@@ -2470,6 +2470,7 @@ packages:
     cloud7-openstack-rocky-testing: python-mpmath-0.19-2.el7
     cloud7-openstack-rocky-release: python-mpmath-0.19-2.el7
     cloud7-openstack-stein-testing: python-mpmath-0.19-2.el7
+    cloud7-openstack-stein-candidate: python-mpmath-1.1.0-1.el7
 - project: python-testresources
   name: python-testresources
   conf: fedora-dependency
@@ -2557,6 +2558,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.7-1.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-1.2.7-1.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-1.2.7-1.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-1.2.15-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -2888,6 +2890,7 @@ packages:
     cloud7-openstack-rocky-testing: python-requests-2.19.1-4.el7
     cloud7-openstack-rocky-release: python-requests-2.19.1-4.el7
     cloud7-openstack-stein-testing: python-requests-2.19.1-4.el7
+    cloud7-openstack-stein-candidate: python-requests-2.21.0-1.el7
 - project: python-idna
   name: python-idna
   conf: rdo-dependency
@@ -2919,6 +2922,7 @@ packages:
     cloud7-openstack-queens-release: python-pifpaf-0.12.0-1.el7
     cloud7-openstack-rocky-el7-build: python-pifpaf-0.12.0-1.el7
     cloud7-openstack-stein-el7-build: python-pifpaf-0.12.0-1.el7
+    cloud7-openstack-stein-candidate: python-pifpaf-2.2.0-1.el7
 - project: python-gunicorn
   name: python-gunicorn
   conf: rdo-dependency
@@ -3878,6 +3882,7 @@ packages:
     cloud7-openstack-rocky-testing: python-bcrypt-3.1.2-3.el7
     cloud7-openstack-rocky-release: python-bcrypt-3.1.2-3.el7
     cloud7-openstack-stein-testing: python-bcrypt-3.1.2-3.el7
+    cloud7-openstack-stein-candidate: python-bcrypt-3.1.5-1.el7
 - project: python-httplib2
   name: python-httplib2
   conf: fedora-dependency
@@ -4580,6 +4585,7 @@ packages:
     cloud7-openstack-rocky-testing: python-six-1.11.0-4.el7
     cloud7-openstack-rocky-release: python-six-1.11.0-4.el7
     cloud7-openstack-stein-testing: python-six-1.11.0-4.el7
+    cloud7-openstack-stein-candidate: python-six-1.12.0-1.el7
 - project: python-botocore
   name: python-botocore
   conf: fedora-dependency
@@ -4595,6 +4601,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.63-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4713,6 +4720,7 @@ packages:
     cloud7-openstack-rocky-testing: python-dogpile-cache-0.6.2-1.el7
     cloud7-openstack-rocky-release: python-dogpile-cache-0.6.2-1.el7
     cloud7-openstack-stein-testing: python-dogpile-cache-0.6.2-1.el7
+    cloud7-openstack-stein-candidate: python-dogpile-cache-0.7.1-1.el7
 - project: python-click
   name: python-click
   conf: fedora-dependency
