@@ -5529,6 +5529,14 @@ packages:
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+    queens:
+    pike:
+    ocata:
   upstream: git://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
