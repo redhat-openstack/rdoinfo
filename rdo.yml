@@ -7965,10 +7965,11 @@ packages:
   - lyarwood@redhat.com
 - project: os-ken
   tags:
-   #stein-py3-uc:
-   #stein-uc:
-   #stein:
-    under-review:
+    stein-py3-uc:
+      source-branch: 0.3.1
+    stein-uc:
+      source-branch: 0.3.1
+    stein:
   conf: rpmfactory-lib
   maintainers:
   - bcafarel@redhat.com
