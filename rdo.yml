@@ -3254,6 +3254,7 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-oswin-tests-tempest
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -5428,6 +5429,7 @@ packages:
 - project: networking-generic-switch
   conf: rpmfactory-lib
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -5727,6 +5729,7 @@ packages:
     cloud7-openstack-rocky-release: python-os-brick-2.5.4-1.el7
 - project: hardware
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6224,6 +6227,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-murano-6.0.0-1.el7
 - project: murano-agent
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6451,6 +6455,7 @@ packages:
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6548,6 +6553,7 @@ packages:
 - project: networking-fujitsu
   name: python-networking-fujitsu
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6575,6 +6581,7 @@ packages:
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
