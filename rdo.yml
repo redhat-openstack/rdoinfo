@@ -2399,7 +2399,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-cinder-12.0.3-1.el7
     cloud7-openstack-queens-release: openstack-cinder-12.0.3-1.el7
     cloud7-openstack-rocky-testing: openstack-cinder-13.0.2-1.el7
-    cloud7-openstack-rocky-release: openstack-cinder-13.0.1-1.el7
+    cloud7-openstack-rocky-release: openstack-cinder-13.0.2-1.el7
 - project: ironic
   tags:
     stein-py3-uc:
@@ -2724,7 +2724,7 @@ packages:
     cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.3.51e91b4git.el7
     cloud7-openstack-queens-release: python-octavia-tests-tempest-0.0.1-0.3.51e91b4git.el7
     cloud7-openstack-rocky-testing: python-octavia-tests-tempest-0.2.0-1.el7
-    cloud7-openstack-rocky-release: python-octavia-tests-tempest-0.1.0-2.el7
+    cloud7-openstack-rocky-release: python-octavia-tests-tempest-0.2.0-1.el7
 - project: watcher
   conf: rpmfactory-core
   tags:
@@ -2834,7 +2834,7 @@ packages:
     cloud7-openstack-queens-testing: python-django-horizon-13.0.1-1.el7
     cloud7-openstack-queens-release: python-django-horizon-13.0.1-1.el7
     cloud7-openstack-rocky-testing: python-django-horizon-14.0.2-1.el7
-    cloud7-openstack-rocky-release: python-django-horizon-14.0.1-1.el7
+    cloud7-openstack-rocky-release: python-django-horizon-14.0.2-1.el7
 - project: trove
   conf: rpmfactory-core
   maintainers:
@@ -4057,7 +4057,7 @@ packages:
     cloud7-openstack-queens-testing: python-barbicanclient-4.6.0-1.el7
     cloud7-openstack-queens-release: python-barbicanclient-4.6.0-1.el7
     cloud7-openstack-rocky-testing: python-barbicanclient-4.7.1-1.el7
-    cloud7-openstack-rocky-release: python-barbicanclient-4.7.0-1.el7
+    cloud7-openstack-rocky-release: python-barbicanclient-4.7.1-1.el7
 - project: cloudkittyclient
   tags:
     stein-py3-uc:
@@ -4157,7 +4157,7 @@ packages:
     cloud7-openstack-queens-testing: python-openstackclient-3.14.3-1.el7
     cloud7-openstack-queens-release: python-openstackclient-3.14.3-1.el7
     cloud7-openstack-rocky-testing: python-openstackclient-3.16.2-1.el7
-    cloud7-openstack-rocky-release: python-openstackclient-3.16.1-1.el7
+    cloud7-openstack-rocky-release: python-openstackclient-3.16.2-1.el7
 - project: shade
   conf: rpmfactory-client
   maintainers:
@@ -4549,7 +4549,7 @@ packages:
     cloud7-openstack-queens-testing: python-oslo-cache-1.28.0-1.el7
     cloud7-openstack-queens-release: python-oslo-cache-1.28.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-cache-1.30.2-1.el7
-    cloud7-openstack-rocky-release: python-oslo-cache-1.30.1-1.el7
+    cloud7-openstack-rocky-release: python-oslo-cache-1.30.2-1.el7
 - project: oslo-config
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.config
@@ -4575,7 +4575,7 @@ packages:
     cloud7-openstack-queens-testing: python-oslo-config-5.2.0-1.el7
     cloud7-openstack-queens-release: python-oslo-config-5.2.0-1.el7
     cloud7-openstack-rocky-testing: python-oslo-config-6.4.1-1.el7
-    cloud7-openstack-rocky-release: python-oslo-config-6.4.0-1.el7
+    cloud7-openstack-rocky-release: python-oslo-config-6.4.1-1.el7
 - project: oslo-concurrency
   conf: rpmfactory-lib
   upstream: git://git.openstack.org/openstack/oslo.concurrency
@@ -5389,7 +5389,7 @@ packages:
     rocky:
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-networking-ansible-1.0.5-1.el7
-    cloud7-openstack-rocky-release: python-networking-ansible-1.0.4-1.el7
+    cloud7-openstack-rocky-release: python-networking-ansible-1.0.5-1.el7
 - project: networking-arista
   conf: rpmfactory-lib
   tags:
@@ -6451,7 +6451,7 @@ packages:
     cloud7-openstack-queens-testing: python-os-faults-0.1.17-1.el7
     cloud7-openstack-queens-release: python-os-faults-0.1.17-1.el7
     cloud7-openstack-rocky-testing: python-os-faults-0.1.17-2.el7
-    cloud7-openstack-rocky-release: python-os-faults-0.1.17-1.el7
+    cloud7-openstack-rocky-release: python-os-faults-0.1.17-2.el7
 - project: networking-bagpipe
   name: python-networking-bagpipe
   tags:
