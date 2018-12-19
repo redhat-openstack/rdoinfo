@@ -2671,6 +2671,7 @@ packages:
   name: openstack-octavia-ui
   conf: rpmfactory-core
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -2949,10 +2950,12 @@ packages:
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
   tags:
+    stein-py3-uc:
+      source-branch: stable/rocky
     stein-uc:
-      source-branch: stable/queens
+      source-branch: stable/rocky
     stein:
-      source-branch: stable/queens
+      source-branch: stable/rocky
     rocky:
       source-branch: stable/queens
     queens:
@@ -3569,6 +3572,7 @@ packages:
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -5315,6 +5319,7 @@ packages:
     cloud7-openstack-rocky-release: openstack-tripleo-common-9.4.0-1.el7
 - project: tripleo-repos
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -5790,6 +5795,7 @@ packages:
     cloud7-openstack-rocky-release: python-keystoneauth1-3.10.0-1.el7
 - project: rally
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -6949,6 +6955,7 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/gnocchixyz/collectd-gnocchi
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7034,6 +7041,7 @@ packages:
   name: osops-tools-monitoring-oschecks
   upstream: https://github.com/openstack/osops-tools-monitoring
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7552,6 +7560,7 @@ packages:
   conf: rpmfactory-lib
   name: ansible-role-redhat-subscription
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
