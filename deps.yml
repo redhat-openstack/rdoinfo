@@ -5316,17 +5316,6 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-queens-candidate: pycryptopp-0.6.0.1206569328141510525648634803928199668821045408958-13.el7
-# TEMP for https://bugs.launchpad.net/tripleo/+bug/1744954
-# until Extras 7.4 update is released
-- project: docker
-  name: docker
-  conf: rdo-dependency
-  buildsys-tags:
-    cloud7-openstack-queens-testing: docker-1.13.1-47.2.gitf43d177.el7
-    cloud7-openstack-queens-release: docker-1.13.1-47.2.gitf43d177.el7
-    cloud7-openstack-rocky-testing: docker-1.13.1-47.2.gitf43d177.el7
-    cloud7-openstack-rocky-release: docker-1.13.1-47.2.gitf43d177.el7
-    cloud7-openstack-stein-testing: docker-1.13.1-47.2.gitf43d177.el7
 # Temporary until CentOS is updated to 7.5
 - project: python-backports-ssl_match_hostname
   name: python-backports-ssl_match_hostname
@@ -5724,3 +5713,73 @@ packages:
   maintainers:
   - jkim@redhat.com
   - dmellado@redhat.com
+- project: podman
+  name: podman
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: podman-1.0.0-1.git82e8011.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: buildah
+  name: buildah
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: buildah-1.5-1.gite94b4f9.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: atomic
+  name: atomic
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: atomic-1.22.1-27.gitb507039.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: container-storage-setup
+  name: container-storage-setup
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: container-storage-setup-0.11.0-2.git5eaf76c.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: containernetworking-plugins
+  name: containernetworking-plugins
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: containernetworking-plugins-0.7.3-2.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: container-selinux
+  name: container-selinux
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: container-selinux-2.77-1.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: docker
+  name: docker
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: docker-1.13.1-87.git07f3374.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: oci-systemd-hook
+  name: oci-systemd-hook
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: oci-systemd-hook-0.1.18-2.git3efe246.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: oci-umount
+  name: oci-umount
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: oci-umount-2.3.4-2.git87f9237.el7
+  maintainers:
+  - quique.llorente@gmail.com
+- project: runc
+  name: runc
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: runc-1.0.0-55.dev.git2abd837.el7
+  maintainers:
+  - quique.llorente@gmail.com
