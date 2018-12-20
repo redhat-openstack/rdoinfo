@@ -112,6 +112,7 @@ packages:
     cloud7-openstack-rocky-testing: python-PyMySQL-0.9.2-2.el7
     cloud7-openstack-rocky-release: python-PyMySQL-0.9.2-2.el7
     cloud7-openstack-stein-testing: python-PyMySQL-0.9.2-2.el7
+    cloud7-openstack-stein-candidate: python-PyMySQL-0.9.3-1.el7
 - project: python-routes
   name: python-routes
   conf: fedora-dependency
@@ -3508,6 +3509,7 @@ packages:
     cloud7-openstack-rocky-testing: python-ansible-runner-1.0.5-1.el7
     cloud7-openstack-rocky-release: python-ansible-runner-1.0.5-1.el7
     cloud7-openstack-stein-testing: python-ansible-runner-1.0.5-1.el7
+    cloud7-openstack-stein-candidate: python-ansible-runner-1.2.0-1.el7
 - project: python-ipaddress
   name: python-ipaddress
   conf: fedora-dependency
@@ -4595,6 +4597,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.69-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5062,6 +5065,7 @@ packages:
     cloud7-openstack-rocky-testing: python-daiquiri-1.2.1-1.el7
     cloud7-openstack-rocky-release: python-daiquiri-1.2.1-1.el7
     cloud7-openstack-stein-testing: python-daiquiri-1.2.1-1.el7
+    cloud7-openstack-stein-candidate: python-daiquiri-1.5.0-2.fc30
 - project: python-json-logger
   name: python-json-logger
   conf: fedora-dependency
@@ -5694,3 +5698,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: google-api-python-client
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-google-api-client-1.7.7-1.el7
+  name: python-google-api-client
+  conf: fedora-dependency
