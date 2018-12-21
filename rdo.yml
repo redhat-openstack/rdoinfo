@@ -2134,7 +2134,7 @@ packages:
     cloud7-openstack-pike-release: openstack-nova-16.1.6-1.el7
     cloud7-openstack-queens-testing: openstack-nova-17.0.7-1.el7
     cloud7-openstack-queens-release: openstack-nova-17.0.7-1.el7
-    cloud7-openstack-rocky-testing: openstack-nova-18.0.3-1.el7
+    cloud7-openstack-rocky-testing: openstack-nova-18.1.0-1.el7
     cloud7-openstack-rocky-release: openstack-nova-18.0.3-1.el7
 - project: keystone
   conf: rpmfactory-core
@@ -2665,7 +2665,7 @@ packages:
     cloud7-openstack-pike-release: openstack-octavia-1.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-octavia-2.0.2-1.el7
     cloud7-openstack-queens-release: openstack-octavia-2.0.2-1.el7
-    cloud7-openstack-rocky-testing: openstack-octavia-3.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-octavia-3.0.2-1.el7
     cloud7-openstack-rocky-release: openstack-octavia-3.0.1-1.el7
 - project: octavia-dashboard
   name: openstack-octavia-ui
@@ -2944,7 +2944,7 @@ packages:
     cloud7-openstack-pike-release: openstack-tripleo-heat-templates-7.0.17-1.el7
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.1.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.1.0-1.el7
-    cloud7-openstack-rocky-testing: openstack-tripleo-heat-templates-9.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-tripleo-heat-templates-9.1.0-1.el7
     cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-9.0.0-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
@@ -3359,7 +3359,7 @@ packages:
     cloud7-openstack-pike-release: openstack-ironic-inspector-6.0.3-1.el7
     cloud7-openstack-queens-testing: openstack-ironic-inspector-7.2.1-1.el7
     cloud7-openstack-queens-release: openstack-ironic-inspector-7.2.1-1.el7
-    cloud7-openstack-rocky-testing: openstack-ironic-inspector-8.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-ironic-inspector-8.0.1-1.el7
     cloud7-openstack-rocky-release: openstack-ironic-inspector-8.0.0-1.el7
 - project: ironic-python-agent
   tags:
@@ -3712,7 +3712,7 @@ packages:
     cloud7-openstack-pike-release: python-glanceclient-2.8.0-1.el7
     cloud7-openstack-queens-testing: python-glanceclient-2.10.1-1.el7
     cloud7-openstack-queens-release: python-glanceclient-2.10.1-1.el7
-    cloud7-openstack-rocky-testing: python-glanceclient-2.13.0-1.el7
+    cloud7-openstack-rocky-testing: python-glanceclient-2.13.1-1.el7
     cloud7-openstack-rocky-release: python-glanceclient-2.13.0-1.el7
 - project: novaclient
   conf: rpmfactory-client
