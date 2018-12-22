@@ -5624,6 +5624,7 @@ packages:
     cloud7-openstack-rocky-el7-build: golang-1.11.2-3.el7
     cloud7-openstack-stein-el7-build: golang-1.11.2-3.el7
     cloud7-openstack-queens-release: golang-1.11.2-3.el7
+    cloud7-openstack-pike-release: golang-1.11.2-3.el7
 - project: go-srpm-macros
   name: go-srpm-macros
   conf: rdo-dependency
@@ -5634,6 +5635,7 @@ packages:
     cloud7-openstack-rocky-el7-build: go-srpm-macros-2-17.el7
     cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
     cloud7-openstack-queens-release: go-srpm-macros-2-17.el7
+    cloud7-openstack-pike-release: go-srpm-macros-2-17.el7
 - project: golang-gopkg-yaml
   name: golang-gopkg-yaml
   conf: rdo-dependency
