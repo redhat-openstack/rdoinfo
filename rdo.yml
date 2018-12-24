@@ -6520,6 +6520,7 @@ packages:
 - project: networking-bgpvpn
   conf: rpmfactory-lib
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
@@ -7898,6 +7899,7 @@ packages:
   conf: rpmfactory-lib
   name: openstack-rally-plugins
   tags:
+    stein-py3-uc:
     stein-uc:
     stein:
     rocky:
