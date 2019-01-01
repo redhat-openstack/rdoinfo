@@ -39,6 +39,7 @@ packages:
     cloud7-openstack-queens-release: python-sphinx-1.6.2-3.el7
     cloud7-openstack-rocky-el7-build: python-sphinx-1.6.5-1.el7
     cloud7-openstack-stein-el7-build: python-sphinx-1.6.5-1.el7
+    cloud7-openstack-stein-candidate: python-sphinx-1.8.3-1.el7
 - project: python-sphinxcontrib-websupport
   name: python-sphinxcontrib-websupport
   conf: rdo-dependency
@@ -723,6 +724,7 @@ packages:
     cloud7-openstack-rocky-testing: python-ldap3-2.4.1-3.el7
     cloud7-openstack-rocky-release: python-ldap3-2.4.1-3.el7
     cloud7-openstack-stein-testing: python-ldap3-2.4.1-3.el7
+    cloud7-openstack-stein-candidate: python-ldap3-2.5.2-1.el7
 - project: python-cradox
   name: python-cradox
   conf: rdo-dependency
@@ -1219,6 +1221,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keyring-5.7.1-1.el7
     cloud7-openstack-rocky-release: python-keyring-5.7.1-1.el7
     cloud7-openstack-stein-testing: python-keyring-5.7.1-1.el7
+    cloud7-openstack-stein-candidate: python-keyring-17.1.1-1.el7
 - project: openvswitch
   name: openvswitch
   conf: fedora-dependency
@@ -1435,6 +1438,7 @@ packages:
     cloud7-openstack-rocky-testing: python-cotyledon-1.6.3-1.el7
     cloud7-openstack-rocky-release: python-cotyledon-1.6.3-1.el7
     cloud7-openstack-stein-testing: python-cotyledon-1.6.3-1.el7
+    cloud7-openstack-stein-candidate: python-cotyledon-1.7.3-1.el7
 - project: python-xmltodict
   name: python-xmltodict
   conf: rdo-dependency
@@ -1562,6 +1566,7 @@ packages:
     cloud7-openstack-rocky-testing: python-beautifulsoup4-4.6.0-1.el7
     cloud7-openstack-rocky-release: python-beautifulsoup4-4.6.0-1.el7
     cloud7-openstack-stein-testing: python-beautifulsoup4-4.6.0-1.el7
+    cloud7-openstack-stein-candidate: python-beautifulsoup4-4.7.0-1.el7
 - project: scipy
   name: scipy
   conf: rdo-dependency
@@ -1674,6 +1679,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-utils-0.32.12-3.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-utils-0.33.10-1.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -1882,6 +1888,7 @@ packages:
     cloud7-openstack-rocky-testing: python-kubernetes-6.0.0-1.el7
     cloud7-openstack-rocky-release: python-kubernetes-6.0.0-1.el7
     cloud7-openstack-stein-testing: python-kubernetes-6.0.0-1.el7
+    cloud7-openstack-stein-candidate: python-kubernetes-8.0.1-1.el7
 - project: openstack-utils
   name: openstack-utils
   conf: rdo-dependency
@@ -3303,6 +3310,7 @@ packages:
     cloud7-openstack-common-release: python-sphinxcontrib-programoutput-0.8-6.el7
     cloud7-openstack-queens-testing: python-sphinxcontrib-programoutput-0.8-6.el7
     cloud7-openstack-stein-el7-build: python-sphinxcontrib-programoutput-0.11-5.el7
+    cloud7-openstack-stein-candidate: python-sphinxcontrib-programoutput-0.13-1.el7
 - project: openpgm
   name: openpgm
   conf: fedora-dependency
@@ -4052,6 +4060,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-pyasn1-0.1.9-6.el7.1
     cloud7-openstack-common-release: python-pyasn1-0.1.9-6.el7.1
+    cloud7-openstack-stein-candidate: python-pyasn1-0.4.5-1.el7
 - project: python-asn1crypto
   name: python-asn1crypto
   conf: fedora-dependency
@@ -5360,6 +5369,7 @@ packages:
     cloud7-openstack-rocky-testing: python-more-itertools-4.1.0-1.el7
     cloud7-openstack-rocky-release: python-more-itertools-4.1.0-1.el7
     cloud7-openstack-stein-testing: python-more-itertools-4.1.0-1.el7
+    cloud7-openstack-stein-candidate: python-more-itertools-5.0.0-1.el7
   name: python-more-itertools
   conf: rdo-dependency
 - project: python-attrs
@@ -5698,3 +5708,18 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: backports-functools-lru-cache
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-backports-functools-lru-cache-1.5-1.el7
+  name: python-backports-functools-lru-cache
+  conf: fedora-dependency
+- project: pysnmp
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pysnmp-4.4.8-1.el7
+  name: python-pysnmp
+  conf: fedora-dependency
+- project: soupsieve
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-soupsieve-1.6-1.el7
+  name: python-soupsieve
+  conf: fedora-dependency
