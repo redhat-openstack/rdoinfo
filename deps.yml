@@ -1398,6 +1398,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-kombu-4.2.1-1.el7
     cloud7-openstack-rocky-release: python-kombu-4.2.1-1.el7
     cloud7-openstack-stein-testing: python-kombu-4.2.1-1.el7
+    cloud7-openstack-stein-candidate: python-kombu-4.2.2.post1-1.el7
 - project: python-autobahn
   name: python-autobahn
   conf: rdo-dependency
@@ -1803,6 +1804,7 @@ packages:
     cloud7-openstack-rocky-testing: python-pillow-4.0.0-2.el7
     cloud7-openstack-rocky-release: python-pillow-4.0.0-2.el7
     cloud7-openstack-stein-testing: python-pillow-4.0.0-2.el7
+    cloud7-openstack-stein-candidate: python-pillow-5.4.0-1.el7
 - project: python-termcolor
   name: python-termcolor
   conf: fedora-dependency
@@ -5698,3 +5700,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: soupsieve
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-soupsieve-1.6.1-1.el7
+  name: python-soupsieve
+  conf: fedora-dependency
