@@ -4270,9 +4270,9 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     stein-py3-uc:
-      source-branch: 0.17.2
+      source-branch: 0.22.0
     stein-uc:
-      source-branch: 0.17.2
+      source-branch: 0.22.0
     stein:
     rocky:
       source-branch: 0.17.2
@@ -4689,9 +4689,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.db
   tags:
     stein-py3-uc:
-      source-branch: 4.42.0
+      source-branch: 4.43.0
     stein-uc:
-      source-branch: 4.42.0
+      source-branch: 4.43.0
     stein:
     rocky:
       source-branch: 4.40.0
@@ -5356,9 +5356,9 @@ packages:
   - apevec@redhat.com
   tags:
     stein-py3-uc:
-      source-branch: 2.5.1
+      source-branch: 2.5.2
     stein-uc:
-      source-branch: 2.5.1
+      source-branch: 2.5.2
     stein:
     rocky:
       source-branch: 2.3.0
