@@ -762,6 +762,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-webob-1.8.2-1.el7
     cloud7-openstack-rocky-release: python-webob-1.8.2-1.el7
     cloud7-openstack-stein-testing: python-webob-1.8.2-1.el7
+    cloud7-openstack-stein-candidate: python-webob-1.8.5-1.el7
 - project: python-pycxx
   name: python-pycxx
   conf: rdo-dependency
@@ -2426,6 +2427,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-netifaces-0.10.4-1.el7
     cloud7-openstack-common-release: python-netifaces-0.10.4-1.el7
+    cloud7-openstack-stein-candidate: python-netifaces-0.10.9-1.el7
 - project: python-tempita
   name: python-tempita
   conf: fedora-dependency
@@ -4596,6 +4598,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.73-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5699,3 +5702,8 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: soupsieve
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-soupsieve-1.6.2-1.el7
+  name: python-soupsieve
+  conf: fedora-dependency
