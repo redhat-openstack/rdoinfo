@@ -8004,3 +8004,13 @@ packages:
       source-branch: 0.1.0
   maintainers:
   - lyarwood@redhat.com
+- project: ansible-role-atos-hsm
+  conf: rpmfactory-lib
+  tags:
+    under-review:
+    #stein:
+    #stein-py3-uc:
+    #stein-uc:
+  maintainers:
+  - alee@redhat.com
+  - dmendiza@redhat.com
