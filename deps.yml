@@ -1562,6 +1562,7 @@ packages:
     cloud7-openstack-rocky-testing: python-beautifulsoup4-4.6.0-1.el7
     cloud7-openstack-rocky-release: python-beautifulsoup4-4.6.0-1.el7
     cloud7-openstack-stein-testing: python-beautifulsoup4-4.6.0-1.el7
+    cloud7-openstack-stein-candidate: python-beautifulsoup4-4.7.1-1.el7
 - project: scipy
   name: scipy
   conf: rdo-dependency
@@ -1803,6 +1804,7 @@ packages:
     cloud7-openstack-rocky-testing: python-pillow-4.0.0-2.el7
     cloud7-openstack-rocky-release: python-pillow-4.0.0-2.el7
     cloud7-openstack-stein-testing: python-pillow-4.0.0-2.el7
+    cloud7-openstack-stein-candidate: python-pillow-5.4.1-1.fc30
 - project: python-termcolor
   name: python-termcolor
   conf: fedora-dependency
@@ -2920,6 +2922,7 @@ packages:
     cloud7-openstack-queens-release: python-pifpaf-0.12.0-1.el7
     cloud7-openstack-rocky-el7-build: python-pifpaf-0.12.0-1.el7
     cloud7-openstack-stein-el7-build: python-pifpaf-0.12.0-1.el7
+    cloud7-openstack-stein-candidate: python-pifpaf-2.2.2-1.el7
 - project: python-gunicorn
   name: python-gunicorn
   conf: rdo-dependency
@@ -4596,6 +4599,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.75-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4956,6 +4960,7 @@ packages:
     cloud7-openstack-rocky-testing: python-vine-1.1.3-2.el7
     cloud7-openstack-rocky-release: python-vine-1.1.3-2.el7
     cloud7-openstack-stein-testing: python-vine-1.1.3-2.el7
+    cloud7-openstack-stein-candidate: python-vine-1.2.0-1.el7
 - project: python-docker-pycreds
   name: python-docker-pycreds
   conf: rdo-dependency
@@ -5699,3 +5704,18 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: entrypoints
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-entrypoints-0.3-1.el7
+  name: python-entrypoints
+  conf: fedora-dependency
+- project: pytz
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytz-2018.9-1.el7
+  name: python-pytz
+  conf: fedora-dependency
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytest-4.1.0-1.el7
+  name: python-pytest
+  conf: fedora-dependency
