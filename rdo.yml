@@ -2945,7 +2945,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.2.0-1.el7
     cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.2.0-1.el7
     cloud7-openstack-rocky-testing: openstack-tripleo-heat-templates-9.2.0-1.el7
-    cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-9.1.0-1.el7
+    cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-9.2.0-1.el7
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: git://git.openstack.org/openstack/tripleo-heat-templates
@@ -6888,7 +6888,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-kolla-6.1.0-1.el7
     cloud7-openstack-queens-release: openstack-kolla-6.1.0-1.el7
     cloud7-openstack-rocky-testing: openstack-kolla-7.0.1-1.el7
-    cloud7-openstack-rocky-release: openstack-kolla-7.0.0-1.el7
+    cloud7-openstack-rocky-release: openstack-kolla-7.0.1-1.el7
 - project: openstack-selinux
   name: openstack-selinux
   conf: rpmfactory-core
