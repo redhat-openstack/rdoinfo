@@ -4270,9 +4270,9 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     stein-py3-uc:
-      source-branch: 0.17.2
+      source-branch: 0.22.0
     stein-uc:
-      source-branch: 0.17.2
+      source-branch: 0.22.0
     stein:
     rocky:
       source-branch: 0.17.2
@@ -4507,9 +4507,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     stein-py3-uc:
-      source-branch: 9.3.0
+      source-branch: 9.3.1
     stein-uc:
-      source-branch: 9.3.0
+      source-branch: 9.3.1
     stein:
     rocky:
       source-branch: 8.1.2
@@ -4715,9 +4715,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     stein-py3-uc:
-      source-branch: 3.39.0
+      source-branch: 3.39.1
     stein-uc:
-      source-branch: 3.39.0
+      source-branch: 3.39.1
     stein:
     rocky:
       source-branch: 3.36.4
@@ -7469,9 +7469,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     stein-py3-uc:
-      source-branch: 0.3.0
+      source-branch: 0.3.2
     stein-uc:
-      source-branch: 0.3.0
+      source-branch: 0.3.2
     stein:
     rocky:
       source-branch: 0.2.2
