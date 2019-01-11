@@ -3840,7 +3840,7 @@ packages:
     cloud7-openstack-stein-testing: python-pyglet-1.2.1-2.el7
 - project: python-tenacity
   name: python-tenacity
-  conf: rdo-dependency
+  conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-common-testing: python-tenacity-3.2.1-1.el7
     cloud7-openstack-common-release: python-tenacity-3.2.1-1.el7
@@ -3852,6 +3852,7 @@ packages:
     cloud7-openstack-rocky-testing: python-tenacity-4.12.0-1.el7
     cloud7-openstack-rocky-release: python-tenacity-4.12.0-1.el7
     cloud7-openstack-stein-testing: python-tenacity-4.12.0-1.el7
+    cloud7-openstack-stein-candidate: python-tenacity-5.0.2-2.el7
 - project: python-tornado
   name: python-tornado
   conf: rdo-dependency
