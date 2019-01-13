@@ -184,6 +184,7 @@ packages:
     cloud7-openstack-rocky-testing: python-pint-0.6-2.el7
     cloud7-openstack-rocky-release: python-pint-0.6-2.el7
     cloud7-openstack-stein-testing: python-pint-0.6-2.el7
+    cloud7-openstack-stein-candidate: python-pint-0.9-1.el7
 - project: python-nose-xcover
   name: python-nose-xcover
   conf: fedora-dependency
@@ -1409,6 +1410,7 @@ packages:
     cloud7-openstack-rocky-testing: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-rocky-release: python-autobahn-0.10.9-1.gitcf10233.el7
     cloud7-openstack-stein-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+    cloud7-openstack-stein-candidate: python-autobahn-19.1.1-1.el7
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -2558,6 +2560,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.7-1.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-1.2.7-1.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-1.2.7-1.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-1.2.16-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -4596,6 +4599,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.78-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -4928,6 +4932,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-docker-3.3.0-1.el7
     cloud7-openstack-rocky-release: python-docker-3.5.0-1.el7
     cloud7-openstack-stein-testing: python-docker-3.5.0-1.el7
+    cloud7-openstack-stein-candidate: python-docker-3.7.0-1.el7
 - project: corosync
   name: corosync
   conf: rdo-dependency
@@ -5699,3 +5704,18 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytest-4.1.1-1.el7
+  name: python-pytest
+  conf: fedora-dependency
+- project: soupsieve
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-soupsieve-1.7-1.el7
+  name: python-soupsieve
+  conf: fedora-dependency
+- project: openshift
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-openshift-0.8.4-1.el7
+  name: python-openshift
+  conf: fedora-dependency
