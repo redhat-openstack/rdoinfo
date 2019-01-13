@@ -38,6 +38,9 @@ packages:
 - project: python-dictdiffer
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-dictdiffer-0.7.1-2.el7
+- project: python-docker
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-docker-3.7.0-2.el7
 - project: python-freezegun
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-freezegun-0.3.11-4.el7
@@ -71,6 +74,9 @@ packages:
 - project: python-pifpaf
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pifpaf-2.2.2-3.el7
+- project: python-pint
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pint-0.9-1.el7
 - project: python-pluggy
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pluggy-0.8.1-1.el7
