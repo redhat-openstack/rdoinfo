@@ -2794,9 +2794,15 @@ packages:
     cloud7-openstack-rocky-release: openstack-vitrage-ui-1.6.2-1.el7
 - project: sahara
   tags:
+    # temporarily pin Sahara until the fall-out of the process
+    # of splitting the plugins is dealt with, see:
+    # http://lists.openstack.org/pipermail/openstack-discuss/2018-December/000812.html
     stein-py3-uc:
+      source-branch: ca032db94ccc531b798ee347262441bb241c56f8
     stein-uc:
+      source-branch: ca032db94ccc531b798ee347262441bb241c56f8
     stein:
+      source-branch: ca032db94ccc531b798ee347262441bb241c56f8
     rocky:
     queens:
     pike:
