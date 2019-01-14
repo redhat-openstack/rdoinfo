@@ -1015,6 +1015,7 @@ packages:
     cloud7-openstack-rocky-testing: python-alembic-0.9.7-1.el7
     cloud7-openstack-rocky-release: python-alembic-0.9.7-1.el7
     cloud7-openstack-stein-testing: python-alembic-0.9.7-1.el7
+    cloud7-openstack-stein-candidate: python-alembic-1.0.6-1.el7
 - project: python-statsd
   name: python-statsd
   conf: fedora-dependency
@@ -1082,6 +1083,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-amqp-2.3.2-1.el7
     cloud7-openstack-rocky-release: python-amqp-2.3.2-1.el7
     cloud7-openstack-stein-testing: python-amqp-2.3.2-1.el7
+    cloud7-openstack-stein-candidate: python-amqp-2.4.0-1.el7
 - project: python-logutils
   name: python-logutils
   conf: fedora-dependency
@@ -1674,6 +1676,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-utils-0.32.12-3.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-utils-0.32.12-3.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-utils-0.33.11-1.el7
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
@@ -3287,6 +3290,7 @@ packages:
     cloud7-openstack-rocky-candidate: numpy-1.14.5-1.el7
     cloud7-openstack-rocky-release: numpy-1.14.5-1.el7
     cloud7-openstack-stein-testing: numpy-1.14.5-1.el7
+    cloud7-openstack-stein-candidate: numpy-1.16.0-1.el7
 - project: python-dtopt
   name: python-dtopt
   conf: fedora-dependency
@@ -5700,3 +5704,13 @@ packages:
   conf: rdo-dependency
   buildsys-tags:
     cloud7-openstack-stein-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: soupsieve
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-soupsieve-1.7.1-1.el7
+  name: python-soupsieve
+  conf: fedora-dependency
+- project: pyparsing
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pyparsing-2.3.1-1.el7
+  name: python-pyparsing
+  conf: fedora-dependency
