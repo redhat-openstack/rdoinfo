@@ -2831,6 +2831,17 @@ packages:
   maintainers:
   - tenobreg@redhat.com
   - ltoscano@redhat.com
+- project: sahara-plugin-cdh
+  name: python-sahara-plugin-cdh
+  tags:
+    under-review:
+    #stein-py3-uc:
+    #stein-uc:
+    #stein:
+  conf: rpmfactory-core
+  maintainers:
+  - tenobreg@redhat.com
+  - ltoscano@redhat.com
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
