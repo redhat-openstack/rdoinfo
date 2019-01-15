@@ -3212,7 +3212,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-ptyprocess-0.4-1.el7
     cloud7-openstack-common-release: python-ptyprocess-0.4-1.el7
-    cloud7-openstack-queens-testing: python-ptyprocess-0.4-1.el7
+    cloud7-openstack-queens-testing: python-ptyprocess-0.5.2-3.el7
     cloud7-openstack-queens-release: python-ptyprocess-0.4-1.el7
     cloud7-openstack-rocky-testing: python-ptyprocess-0.5.2-3.el7
     cloud7-openstack-rocky-release: python-ptyprocess-0.5.2-3.el7
@@ -3510,6 +3510,7 @@ packages:
   name: python-ansible-runner
   conf: fedora-dependency
   buildsys-tags:
+    cloud7-openstack-queens-testing: python-ansible-runner-1.0.5-1.el7
     cloud7-openstack-rocky-candidate: python-ansible-runner-1.0.5-1.el7
     cloud7-openstack-rocky-testing: python-ansible-runner-1.0.5-1.el7
     cloud7-openstack-rocky-release: python-ansible-runner-1.0.5-1.el7
@@ -5388,6 +5389,7 @@ packages:
   conf: fedora-dependency
 - project: python-pexpect
   buildsys-tags:
+    cloud7-openstack-queens-testing: python-pexpect-4.6-1.el7
     cloud7-openstack-rocky-testing: python-pexpect-4.6-1.el7
     cloud7-openstack-rocky-release: python-pexpect-4.6-1.el7
     cloud7-openstack-stein-testing: python-pexpect-4.6-1.el7
