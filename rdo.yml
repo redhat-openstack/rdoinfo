@@ -2820,6 +2820,17 @@ packages:
     cloud7-openstack-queens-release: openstack-sahara-8.0.2-1.el7
     cloud7-openstack-rocky-testing: openstack-sahara-9.0.0-1.el7
     cloud7-openstack-rocky-release: openstack-sahara-9.0.0-1.el7
+- project: sahara-plugin-ambari
+  name: python-sahara-plugin-ambari
+  tags:
+    under-review:
+    #stein-py3-uc:
+    #stein-uc:
+    #stein:
+  conf: rpmfactory-core
+  maintainers:
+  - tenobreg@redhat.com
+  - ltoscano@redhat.com
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
