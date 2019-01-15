@@ -2864,6 +2864,17 @@ packages:
   maintainers:
   - tenobreg@redhat.com
   - ltoscano@redhat.com
+- project: sahara-plugin-storm
+  name: python-sahara-plugin-storm
+  tags:
+    under-review:
+    #stein-py3-uc:
+    #stein-uc:
+    #stein:
+  conf: rpmfactory-core
+  maintainers:
+  - tenobreg@redhat.com
+  - ltoscano@redhat.com
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
