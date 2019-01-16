@@ -206,6 +206,7 @@ packages:
   buildsys-tags:
     cloud7-openstack-common-testing: python-requests-oauthlib-0.5.0-4.el7
     cloud7-openstack-common-release: python-requests-oauthlib-0.5.0-4.el7
+    cloud7-openstack-stein-candidate: python-requests-oauthlib-1.2.0-1.el7
 - project: python-sure
   name: python-sure
   conf: fedora-dependency
@@ -1884,8 +1885,8 @@ packages:
     cloud7-openstack-stein-testing: python-kubernetes-6.0.0-1.el7
     cloud7-openstack-stein-candidate: python-kubernetes-8.0.0-3.el7
   maintainers:
-    - jmontleo@redhat.com
-    - dmellado@redhat.com
+  - jmontleo@redhat.com
+  - dmellado@redhat.com
 - project: openstack-utils
   name: openstack-utils
   conf: rdo-dependency
@@ -2282,6 +2283,7 @@ packages:
     cloud7-openstack-rocky-testing: python-waitress-0.8.9-5.el7
     cloud7-openstack-rocky-release: python-waitress-0.8.9-5.el7
     cloud7-openstack-stein-testing: python-waitress-0.8.9-5.el7
+    cloud7-openstack-stein-candidate: python-waitress-1.2.0-1.el7
 - project: python-unicodecsv
   name: python-unicodecsv
   conf: fedora-dependency
@@ -2827,6 +2829,7 @@ packages:
     cloud7-openstack-rocky-testing: python-marathon-0.8.7-1.el7
     cloud7-openstack-rocky-release: python-marathon-0.8.7-1.el7
     cloud7-openstack-stein-testing: python-marathon-0.8.7-1.el7
+    cloud7-openstack-stein-candidate: python-marathon-0.11.0-1.el7
 - project: python-XStatic-JQuery-Migrate
   name: python-XStatic-JQuery-Migrate
   conf: fedora-dependency
@@ -3668,6 +3671,7 @@ packages:
     cloud7-openstack-rocky-testing: python-dulwich-0.18.4-1.el7
     cloud7-openstack-rocky-release: python-dulwich-0.18.4-1.el7
     cloud7-openstack-stein-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-stein-candidate: python-dulwich-0.19.10-1.el7
 - project: pyflakes
   name: pyflakes
   conf: fedora-dependency
@@ -4601,6 +4605,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.79-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5289,8 +5294,8 @@ packages:
     cloud7-openstack-stein-testing: python-google-auth-1.3.0-1.el7
     cloud7-openstack-stein-candidate: python-google-auth-1.1.1-5.el7
   maintainers:
-    - jkim@redhat.com
-    - dmellado@redhat.com
+  - jkim@redhat.com
+  - dmellado@redhat.com
 - project: onigumura
   name: onigumura
   conf: fedora-dependency
