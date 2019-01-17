@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-ci-centos-7-scenario001-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+            vars:
+              rdoinfo_build_containers: true
