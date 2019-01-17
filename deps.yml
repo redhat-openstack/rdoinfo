@@ -2249,7 +2249,7 @@ packages:
     cloud7-openstack-queens-release: python-networkx-1.10-1.el7
     cloud7-openstack-rocky-testing: python-networkx-1.10-1.el7
     cloud7-openstack-rocky-release: python-networkx-1.10-1.el7
-    cloud7-openstack-stein-testing: python-networkx-1.10-1.el7
+    cloud7-openstack-stein-testing: python-networkx-2.2-2.el7
 - project: python-websocket-client
   name: python-websocket-client
   conf: fedora-dependency
@@ -2870,7 +2870,7 @@ packages:
     cloud7-openstack-common-release: pydot-1.0.28-11.el7
     cloud7-openstack-queens-testing: pydot-1.0.28-11.el7
     cloud7-openstack-queens-release: pydot-1.0.28-11.el7
-    cloud7-openstack-stein-testing: pydot-1.0.28-11.el7
+    cloud7-openstack-stein-testing: pydot-1.4.1-1.el7
 - project: python-APScheduler
   name: python-APScheduler
   conf: fedora-dependency
@@ -5715,6 +5715,7 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-string_utils-0.6.0-4.el7
+    cloud7-openstack-stein-testing: python-string_utils-0.6.0-4.el7
   maintainers:
   - jkim@redhat.com
   - dmellado@redhat.com
