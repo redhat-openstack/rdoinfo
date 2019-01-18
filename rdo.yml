@@ -2689,9 +2689,9 @@ packages:
   conf: rpmfactory-client
   tags:
     stein-py3-uc:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
     stein-uc:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
     stein:
     rocky:
       source-branch: 1.6.0
@@ -3458,9 +3458,9 @@ packages:
 - project: ironic-lib
   tags:
     stein-py3-uc:
-      source-branch: 2.16.0
+      source-branch: 2.16.1
     stein-uc:
-      source-branch: 2.16.0
+      source-branch: 2.16.1
     stein:
     rocky:
       source-branch: 2.14.0
@@ -3867,9 +3867,9 @@ packages:
   conf: rpmfactory-client
   tags:
     stein-py3-uc:
-      source-branch: 1.16.1
+      source-branch: 1.17.0
     stein-uc:
-      source-branch: 1.16.1
+      source-branch: 1.17.0
     stein:
     rocky:
       source-branch: 1.16.1
@@ -3920,9 +3920,9 @@ packages:
   - trown@redhat.com
   tags:
     stein-py3-uc:
-      source-branch: 2.5.0
+      source-branch: 2.6.0
     stein-uc:
-      source-branch: 2.5.0
+      source-branch: 2.6.0
     stein:
     rocky:
       source-branch: 2.5.0
@@ -4031,9 +4031,9 @@ packages:
   conf: rpmfactory-client
   tags:
     stein-py3-uc:
-      source-branch: 2.4.0
+      source-branch: 2.5.0
     stein-uc:
-      source-branch: 2.4.0
+      source-branch: 2.5.0
     stein:
     rocky:
       source-branch: 2.3.0
@@ -4342,9 +4342,9 @@ packages:
   upstream: git://git.openstack.org/openstack/%(project)s
   tags:
     stein-py3-uc:
-      source-branch: 0.17.2
+      source-branch: 0.23.0
     stein-uc:
-      source-branch: 0.17.2
+      source-branch: 0.23.0
     stein:
     rocky:
       source-branch: 0.17.2
@@ -4579,9 +4579,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.messaging
   tags:
     stein-py3-uc:
-      source-branch: 9.3.0
+      source-branch: 9.3.1
     stein-uc:
-      source-branch: 9.3.0
+      source-branch: 9.3.1
     stein:
     rocky:
       source-branch: 8.1.2
@@ -4787,9 +4787,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.utils
   tags:
     stein-py3-uc:
-      source-branch: 3.39.0
+      source-branch: 3.40.0
     stein-uc:
-      source-branch: 3.39.0
+      source-branch: 3.40.0
     stein:
     rocky:
       source-branch: 3.36.4
@@ -4891,9 +4891,9 @@ packages:
   upstream: git://git.openstack.org/openstack/oslo.policy
   tags:
     stein-py3-uc:
-      source-branch: 1.44.0
+      source-branch: 1.44.1
     stein-uc:
-      source-branch: 1.44.0
+      source-branch: 1.44.1
     stein:
     rocky:
       source-branch: 1.38.1
@@ -4993,9 +4993,9 @@ packages:
 - project: oslo-privsep
   tags:
     stein-py3-uc:
-      source-branch: 1.30.1
+      source-branch: 1.31.0
     stein-uc:
-      source-branch: 1.30.1
+      source-branch: 1.31.0
     stein:
     rocky:
       source-branch: 1.29.2
@@ -5020,9 +5020,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     stein-py3-uc:
-      source-branch: 0.13.0
+      source-branch: 0.14.0
     stein-uc:
-      source-branch: 0.13.0
+      source-branch: 0.14.0
     stein:
     rocky:
       source-branch: 0.12.2
@@ -5074,9 +5074,9 @@ packages:
 - project: castellan
   tags:
     stein-py3-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
     stein-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
     stein:
     rocky:
       source-branch: 0.19.0
@@ -5785,9 +5785,9 @@ packages:
 - project: os-brick
   tags:
     stein-py3-uc:
-      source-branch: 2.6.2
+      source-branch: 2.7.0
     stein-uc:
-      source-branch: 2.6.2
+      source-branch: 2.7.0
     stein:
     rocky:
       source-branch: 2.5.4
@@ -6178,9 +6178,9 @@ packages:
 - project: tooz
   tags:
     stein-py3-uc:
-      source-branch: 1.63.1
+      source-branch: 1.64.0
     stein-uc:
-      source-branch: 1.63.1
+      source-branch: 1.64.0
     stein:
     rocky:
       source-branch: 1.62.0
@@ -6414,9 +6414,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     stein-py3-uc:
-      source-branch: 1.11.1
+      source-branch: 1.12.0
     stein-uc:
-      source-branch: 1.11.1
+      source-branch: 1.12.0
     stein:
     rocky:
       source-branch: 1.11.1
@@ -6741,9 +6741,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     stein-py3-uc:
-      source-branch: 1.1.0
+      source-branch: 1.2.0
     stein-uc:
-      source-branch: 1.1.0
+      source-branch: 1.2.0
     stein:
     rocky:
       source-branch: 1.1.0
@@ -7542,9 +7542,9 @@ packages:
   conf: rpmfactory-lib
   tags:
     stein-py3-uc:
-      source-branch: 0.3.0
+      source-branch: 0.3.2
     stein-uc:
-      source-branch: 0.3.0
+      source-branch: 0.3.2
     stein:
     rocky:
       source-branch: 0.2.2
@@ -7904,9 +7904,9 @@ packages:
   name: python-metalsmith
   tags:
     stein-py3-uc:
-      source-branch: 0.8.0
+      source-branch: 0.9.0
     stein-uc:
-      source-branch: 0.8.0
+      source-branch: 0.9.0
     stein:
     rocky:
       source-branch: 0.5.0
