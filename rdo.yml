@@ -2710,8 +2710,12 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
   tags:
+    #FIXME(chkumar246): Once octavia-lib package is available in RDO
+    # We need to remove the pinning.
     stein-py3-uc:
+      source-branch: f3f25825c2419a05ab8f83f5c7df5fa28000e575
     stein-uc:
+      source-branch: f3f25825c2419a05ab8f83f5c7df5fa28000e575
     stein:
     rocky:
       source-branch: 0.2.0
