@@ -5788,3 +5788,10 @@ packages:
     cloud7-openstack-stein-testing: runc-1.0.0-55.dev.git2abd837.el7
   maintainers:
   - quique.llorente@gmail.com
+- project: python-confluent-kafka
+  name: python-confluent-kafka
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-2.fc30
+  maintainers:
+  - jpena@redhat.com
