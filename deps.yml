@@ -5788,3 +5788,8 @@ packages:
     cloud7-openstack-stein-testing: runc-1.0.0-55.dev.git2abd837.el7
   maintainers:
   - quique.llorente@gmail.com
+- project: python-decorator
+  name: python-decorator
+  conf: fedora-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-decorator-4.3.0-1.el7
