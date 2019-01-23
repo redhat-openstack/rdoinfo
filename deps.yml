@@ -364,6 +364,7 @@ packages:
     cloud7-openstack-common-release: python-packaging-16.8-2.el7
     cloud7-openstack-queens-testing: python-packaging-16.8-2.el7
     cloud7-openstack-queens-release: python-packaging-16.8-2.el7
+    cloud7-openstack-stein-candidate: python-packaging-19.0-1.el7
 - project: python-psutil
   name: python-psutil
   conf: rdo-dependency
@@ -4484,6 +4485,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-daemon-2.1.2-8.el7
     cloud7-openstack-rocky-release: python-daemon-2.1.2-8.el7
     cloud7-openstack-stein-testing: python-daemon-2.1.2-8.el7
+    cloud7-openstack-stein-candidate: python-daemon-2.2.3-1.el7
 - project: fontawesome-fonts
   name: fontawesome-fonts
   conf: fedora-dependency
