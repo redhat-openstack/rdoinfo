@@ -6737,9 +6737,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-tripleo-ui-tests-tempest
   tags:
-    under-review:
-    #stein-uc:
-    #stein:
+    stein-uc:
+    stein:
   maintainers:
   - hpokorny@redhat.com
 - project: heat-translator
