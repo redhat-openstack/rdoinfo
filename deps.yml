@@ -2152,6 +2152,7 @@ packages:
     cloud7-openstack-common-release: librdkafka-0.9.2-2.el7
     cloud7-openstack-queens-testing: librdkafka-0.9.2-2.el7
     cloud7-openstack-queens-release: librdkafka-0.9.2-2.el7
+    cloud7-openstack-stein-testing: librdkafka-0.11.6-1.el7    
     cloud7-openstack-stein-candidate: librdkafka-0.11.6-1.el7
 - project: python-tables
   name: python-tables
@@ -5792,6 +5793,7 @@ packages:
   name: python-confluent-kafka
   conf: fedora-dependency
   buildsys-tags:
+    cloud7-openstack-stein-testing: python-confluent-kafka-0.11.6-2.el7
     cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-2.fc30
   maintainers:
   - jpena@redhat.com
