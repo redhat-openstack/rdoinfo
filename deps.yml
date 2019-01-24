@@ -4514,7 +4514,7 @@ packages:
     cloud7-openstack-queens-testing: Cython-0.25.2-3.el7
     cloud7-openstack-queens-release: Cython-0.25.2-3.el7
     cloud7-openstack-rocky-el7-build: Cython-0.25.2-3.el7
-    cloud7-openstack-stein-el7-build: Cython-0.25.2-3.el7
+    cloud7-openstack-stein-el7-build: Cython-0.29.2-1.el7
 - project: supervisor
   name: supervisor
   conf: fedora-dependency
@@ -5793,5 +5793,12 @@ packages:
   conf: fedora-dependency
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-2.fc30
+  maintainers:
+  - jpena@redhat.com
+- project: python-fastavro
+  name: python-fastavro
+  conf: rdo-dependency
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-fastavro-0.21.13-1.el7
   maintainers:
   - jpena@redhat.com
