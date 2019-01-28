@@ -1,0 +1,12 @@
+packages:
+- project: openstack-tripleo-ui-deps
+  buildsys-tags:
+    version-locked:
+    - cloud7-openstack-ocata-release
+    - cloud7-openstack-pike-release
+    - cloud7-openstack-queens-release
+- project: phantomjs
+  buildsys-tags:
+    version-locked:
+    - cloud7-openstack-ocata-release
+    - cloud7-openstack-pike-release

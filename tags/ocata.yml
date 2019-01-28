@@ -1,0 +1,955 @@
+packages:
+- project: UcsSdk
+  tags:
+    ocata:
+      source-branch: bf6b07d6abeacb922c92b198352eda4eb9e4629b
+- project: ansible-pacemaker
+  tags:
+    ocata:
+      source-branch: 0e4d7c02f956af7d57d4c4e3b6827995b0a053a2
+- project: aodh
+  tags:
+    ocata:
+- project: aodhclient
+  tags:
+    ocata:
+      source-branch: 0.8.0
+- project: app-catalog-ui
+  tags:
+    ocata:
+      source-branch: 4f5e9f658b309b361f0148945a0a1ae63621090d
+- project: automaton
+  tags:
+    ocata:
+      source-branch: 1.7.1
+- project: barbican
+  tags:
+    ocata:
+- project: barbicanclient
+  tags:
+    ocata:
+      source-branch: 4.2.0
+- project: castellan
+  tags:
+    ocata:
+      source-branch: 0.5.0
+- project: ceilometer
+  tags:
+    ocata:
+- project: ceilometerclient
+  tags:
+    ocata:
+      source-branch: 2.8.1
+- project: ceilometermiddleware
+  tags:
+    ocata:
+      source-branch: 1.0.3
+- project: cinder
+  tags:
+    ocata:
+- project: cinderclient
+  tags:
+    ocata:
+      source-branch: 1.11.0
+- project: cliff
+  tags:
+    ocata:
+      source-branch: 2.4.1
+- project: cloudkitty
+  tags:
+    ocata:
+- project: cloudkitty-dashboard
+  tags:
+    ocata:
+- project: cloudkittyclient
+  tags:
+    ocata:
+- project: congress
+  tags:
+    ocata:
+- project: congressclient
+  tags:
+    ocata:
+      source-branch: 1.6.0
+- project: cursive
+  tags:
+    ocata:
+      source-branch: 0.1.1
+- project: debtcollector
+  tags:
+    ocata:
+      source-branch: 1.11.0
+- project: designate
+  tags:
+    ocata:
+- project: designate-tempest-plugin
+  tags:
+    ocata:
+      source-branch: 9c3c7a32ab9f13eb6f8773bac5668bce7b83a9de
+- project: designateclient
+  tags:
+    ocata:
+      source-branch: 2.6.0
+- project: dib-utils
+  tags:
+    ocata:
+      source-branch: 0.0.11
+- project: diskimage-builder
+  tags:
+    ocata:
+      source-branch: 1.28.0
+- project: django_openstack_auth
+  tags:
+    ocata:
+- project: dracclient
+  tags:
+    ocata:
+      source-branch: 5e9b27ee97b40f87d2cf65a53fcea6860a7a4731
+- project: ec2-api
+  tags:
+    ocata:
+- project: futurist
+  tags:
+    ocata:
+      source-branch: 0.21.1
+- project: glance
+  tags:
+    ocata:
+- project: glance_store
+  tags:
+    ocata:
+- project: glanceclient
+  tags:
+    ocata:
+      source-branch: 2.6.0
+- project: gnocchi-legacy
+  tags:
+    ocata:
+      source-branch: stable/3.1
+- project: gnocchiclient
+  tags:
+    ocata:
+      source-branch: 3.1.0
+- project: hacking
+  tags:
+    ocata:
+      source-branch: f733b3133e2c5371cd109485903405f15e0db21e
+- project: hardware
+  tags:
+    ocata:
+      source-branch: f6492106beca1ba4c2f824e7fc816e917f989aa1
+- project: heat
+  tags:
+    ocata:
+- project: heat-agents
+  tags:
+    ocata:
+- project: heat-translator
+  tags:
+    ocata:
+      source-branch: 0.7.0
+- project: heatclient
+  tags:
+    ocata:
+      source-branch: 1.8.2
+- project: horizon
+  tags:
+    ocata:
+- project: instack
+  tags:
+    ocata:
+- project: instack-undercloud
+  tags:
+    ocata:
+- project: ironic
+  tags:
+    ocata:
+- project: ironic-inspector
+  tags:
+    ocata:
+- project: ironic-inspector-client
+  tags:
+    ocata:
+      source-branch: 1.11.0
+- project: ironic-lib
+  tags:
+    ocata:
+      source-branch: 2.5.4
+- project: ironic-python-agent
+  tags:
+    ocata:
+- project: ironic-staging-drivers
+  tags:
+    ocata:
+- project: ironic-ui
+  tags:
+    ocata:
+- project: ironicclient
+  tags:
+    ocata:
+      source-branch: 1.11.2
+- project: keystone
+  tags:
+    ocata:
+- project: keystoneauth1
+  tags:
+    ocata:
+      source-branch: 2.18.0
+- project: keystoneclient
+  tags:
+    ocata:
+      source-branch: 3.10.0
+- project: keystonemiddleware
+  tags:
+    ocata:
+      source-branch: 4.14.0
+- project: kolla
+  tags:
+    ocata:
+- project: magnum
+  tags:
+    ocata:
+- project: magnum-ui
+  tags:
+    ocata:
+- project: magnumclient
+  tags:
+    ocata:
+      source-branch: 2.5.0
+- project: manila
+  tags:
+    ocata:
+- project: manila-ui
+  tags:
+    ocata:
+- project: manilaclient
+  tags:
+    ocata:
+      source-branch: 1.14.0
+- project: microversion-parse
+  tags:
+    ocata:
+      source-branch: 0.1.4
+- project: mistral
+  tags:
+    ocata:
+- project: mistral-dashboard
+  tags:
+    ocata:
+- project: mistralclient
+  tags:
+    ocata:
+      source-branch: 3.0.2
+- project: monascaclient
+  tags:
+    ocata:
+      source-branch: 1.5.1
+- project: mox3
+  tags:
+    ocata:
+      source-branch: 0.20.0
+- project: murano
+  tags:
+    ocata:
+- project: murano-agent
+  tags:
+    ocata:
+- project: murano-dashboard
+  tags:
+    ocata:
+- project: muranoclient
+  tags:
+    ocata:
+      source-branch: 0.12.0
+- project: networking-arista
+  tags:
+    ocata:
+- project: networking-bagpipe
+  tags:
+    ocata:
+- project: networking-bgpvpn
+  tags:
+    ocata:
+- project: networking-bigswitch
+  tags:
+    ocata:
+- project: networking-cisco
+  tags:
+    ocata:
+      source-branch: 5.5.2
+- project: networking-fujitsu
+  tags:
+    ocata:
+- project: networking-l2gw
+  tags:
+    ocata:
+- project: networking-mlnx
+  tags:
+    ocata:
+- project: networking-odl
+  tags:
+    ocata:
+- project: networking-ovn
+  tags:
+    ocata:
+- project: networking-sfc
+  tags:
+    ocata:
+- project: neutron
+  tags:
+    ocata:
+- project: neutron-fwaas
+  tags:
+    ocata:
+- project: neutron-lbaas
+  tags:
+    ocata:
+- project: neutron-lbaas-dashboard
+  tags:
+    ocata:
+- project: neutron-lib
+  tags:
+    ocata:
+      source-branch: 1.1.0
+- project: neutron-vpnaas
+  tags:
+    ocata:
+- project: neutronclient
+  tags:
+    ocata:
+      source-branch: 6.1.1
+- project: nova
+  tags:
+    ocata:
+- project: novaclient
+  tags:
+    ocata:
+      source-branch: 7.1.2
+- project: novajoin
+  tags:
+    ocata:
+      source-branch: 054c186b1e818cc9c9701d419dbc2618f98480e7
+- project: octavia
+  tags:
+    ocata:
+- project: openstack-macros
+  tags:
+    ocata:
+- project: openstack-puppet-modules
+  tags:
+    ocata:
+- project: openstack-selinux
+  tags:
+    ocata:
+      source-branch: master
+- project: openstackclient
+  tags:
+    ocata:
+      source-branch: 3.8.2
+- project: openstacksdk
+  tags:
+    ocata:
+      source-branch: 0.9.13
+- project: os-apply-config
+  tags:
+    ocata:
+- project: os-brick
+  tags:
+    ocata:
+      source-branch: 1.11.1
+- project: os-client-config
+  tags:
+    ocata:
+      source-branch: 1.26.0
+- project: os-cloud-config
+  tags:
+    ocata:
+      source-branch: 294a04e99eea6811b2847f9b31746f4255167c3a
+- project: os-collect-config
+  tags:
+    ocata:
+- project: os-faults
+  tags:
+    ocata:
+      source-branch: 0.1.11
+- project: os-net-config
+  tags:
+    ocata:
+- project: os-refresh-config
+  tags:
+    ocata:
+- project: os-testr
+  tags:
+    ocata:
+      source-branch: 0.8.0
+- project: os-vif
+  tags:
+    ocata:
+      source-branch: 1.4.1
+- project: os-win
+  tags:
+    ocata:
+      source-branch: 1.4.2
+- project: osc-lib
+  tags:
+    ocata:
+      source-branch: 1.3.1
+- project: oslo-cache
+  tags:
+    ocata:
+      source-branch: 1.17.0
+- project: oslo-concurrency
+  tags:
+    ocata:
+      source-branch: 3.18.1
+- project: oslo-config
+  tags:
+    ocata:
+      source-branch: 3.22.2
+- project: oslo-context
+  tags:
+    ocata:
+      source-branch: 2.12.2
+- project: oslo-db
+  tags:
+    ocata:
+      source-branch: 4.17.1
+- project: oslo-i18n
+  tags:
+    ocata:
+      source-branch: 3.12.0
+- project: oslo-log
+  tags:
+    ocata:
+      source-branch: 3.20.1
+- project: oslo-messaging
+  tags:
+    ocata:
+      source-branch: 5.17.4
+- project: oslo-middleware
+  tags:
+    ocata:
+      source-branch: 3.23.2
+- project: oslo-policy
+  tags:
+    ocata:
+      source-branch: 1.18.0
+- project: oslo-privsep
+  tags:
+    ocata:
+      source-branch: 1.16.0
+- project: oslo-reports
+  tags:
+    ocata:
+      source-branch: 1.17.1
+- project: oslo-rootwrap
+  tags:
+    ocata:
+      source-branch: 5.4.2
+- project: oslo-serialization
+  tags:
+    ocata:
+      source-branch: 2.16.1
+- project: oslo-service
+  tags:
+    ocata:
+      source-branch: 1.19.1
+- project: oslo-sphinx
+  tags:
+    ocata:
+- project: oslo-utils
+  tags:
+    ocata:
+      source-branch: 3.22.3
+- project: oslo-versionedobjects
+  tags:
+    ocata:
+      source-branch: 1.21.1
+- project: oslo-vmware
+  tags:
+    ocata:
+      source-branch: 2.17.1
+- project: oslotest
+  tags:
+    ocata:
+      source-branch: 2.13.1
+- project: osprofiler
+  tags:
+    ocata:
+      source-branch: 1.5.0
+- project: packstack
+  tags:
+    ocata:
+- project: panko
+  tags:
+    ocata:
+- project: proliantutils
+  tags:
+    ocata:
+      source-branch: 2.2.0
+- project: puppet-aodh
+  tags:
+    ocata:
+- project: puppet-apache
+  tags:
+    ocata:
+      source-branch: 58207d395c313f5cd44c3c9d5df0ef7e1fb648a3
+- project: puppet-auditd
+  tags:
+    ocata:
+      source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
+- project: puppet-barbican
+  tags:
+    ocata:
+- project: puppet-cassandra
+  tags:
+    ocata:
+      source-branch: fb0402c8b5a00f22b7bd6e3d2d11760d2deb3475
+- project: puppet-ceilometer
+  tags:
+    ocata:
+- project: puppet-ceph
+  tags:
+    ocata:
+      source-branch: stable/jewel
+- project: puppet-certmonger
+  tags:
+    ocata:
+      source-branch: 5c13ff81a5466b3ee8a23e3b910f8cc7a66995b6
+- project: puppet-cinder
+  tags:
+    ocata:
+- project: puppet-collectd
+  tags:
+    ocata:
+      source-branch: eb1e0a95cb62fc6cd41f0a2c60fcdf34e7eaf596
+- project: puppet-concat
+  tags:
+    ocata:
+      source-branch: 66022dc64068e2266a606225eec0b55d325ecddd
+- project: puppet-congress
+  tags:
+    ocata:
+- project: puppet-contrail
+  tags:
+    ocata:
+      source-branch: 9a890f368bee58efa4ea9f94fcfe6bdc3d82c592
+- project: puppet-corosync
+  tags:
+    ocata:
+      source-branch: f438aa583b59fe312347ff080a7ca99ba058c7e9
+- project: puppet-datacat
+  tags:
+    ocata:
+      source-branch: 93b88b78364ee35f2bf39ca98ad08b78f423c1d2
+- project: puppet-designate
+  tags:
+    ocata:
+- project: puppet-dns
+  tags:
+    ocata:
+      source-branch: 88fe0f0d71bc39fe080228d946fc256400a08531
+- project: puppet-ec2api
+  tags:
+    ocata:
+- project: puppet-elasticsearch
+  tags:
+    ocata:
+      source-branch: 4c5c58c400f575370fb61680e55fa298bfc67728
+- project: puppet-etcd
+  tags:
+    ocata:
+      source-branch: 81dd85b88104882fa1b44059aa210b11e27cfb02
+- project: puppet-fdio
+  tags:
+    ocata:
+      source-branch: 9326e4237f4d161f297dc4493ab4928ea6e2bf0f
+- project: puppet-firewall
+  tags:
+    ocata:
+      source-branch: 463ec1d0f5c50a719cb96e6479d90b8de8f41489
+- project: puppet-fluentd
+  tags:
+    ocata:
+      source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
+- project: puppet-git
+  tags:
+    ocata:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+- project: puppet-glance
+  tags:
+    ocata:
+- project: puppet-gnocchi
+  tags:
+    ocata:
+- project: puppet-haproxy
+  tags:
+    ocata:
+      source-branch: f6fed46e7a5c3f9e4791240eaffb1a115d8f0135
+- project: puppet-heat
+  tags:
+    ocata:
+- project: puppet-horizon
+  tags:
+    ocata:
+- project: puppet-inifile
+  tags:
+    ocata:
+      source-branch: 936ed07a85460fda127b2a542d3213efd19a8f2a
+- project: puppet-ipaclient
+  tags:
+    ocata:
+      source-branch: 052dd074420b6a2a494e86b2c03020be57940205
+- project: puppet-ironic
+  tags:
+    ocata:
+- project: puppet-java
+  tags:
+    ocata:
+      source-branch: 6605e34d71a3ddcd7da47eb462de94da4ab078b7
+- project: puppet-kafka
+  tags:
+    ocata:
+      source-branch: 066d7a5bb630a41296428d81d3c1a1232574d008
+- project: puppet-keepalived
+  tags:
+    ocata:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+- project: puppet-keystone
+  tags:
+    ocata:
+- project: puppet-kibana3
+  tags:
+    ocata:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+- project: puppet-kmod
+  tags:
+    ocata:
+      source-branch: 924ee8552bbd5540f96f549a1f4e497376e5b08e
+- project: puppet-lib-file_concat
+  tags:
+    ocata:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+- project: puppet-magnum
+  tags:
+    ocata:
+- project: puppet-manila
+  tags:
+    ocata:
+- project: puppet-memcached
+  tags:
+    ocata:
+      source-branch: v3.0.1
+- project: puppet-midonet
+  tags:
+    ocata:
+- project: puppet-mistral
+  tags:
+    ocata:
+- project: puppet-module-data
+  tags:
+    ocata:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+- project: puppet-mongodb
+  tags:
+    ocata:
+      source-branch: ed8d47bfe56433feae475aba61a12656c7ae61c2
+- project: puppet-mysql
+  tags:
+    ocata:
+      source-branch: aec738379fbb7a01043dbe65293165898713195e
+- project: puppet-n1k-vsm
+  tags:
+    ocata:
+      source-branch: 91772fa53dd3ed2686d2e8b0303c77ea6faefe68
+- project: puppet-neutron
+  tags:
+    ocata:
+- project: puppet-nova
+  tags:
+    ocata:
+- project: puppet-nssdb
+  tags:
+    ocata:
+      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+- project: puppet-ntp
+  tags:
+    ocata:
+      source-branch: 4.2.x
+- project: puppet-octavia
+  tags:
+    ocata:
+- project: puppet-opendaylight
+  tags:
+    ocata:
+      source-branch: stable/boron
+- project: puppet-openstack_extras
+  tags:
+    ocata:
+- project: puppet-openstacklib
+  tags:
+    ocata:
+- project: puppet-oslo
+  tags:
+    ocata:
+- project: puppet-ovn
+  tags:
+    ocata:
+- project: puppet-pacemaker
+  tags:
+    ocata:
+      source-branch: stable/0.6.x
+- project: puppet-panko
+  tags:
+    ocata:
+- project: puppet-powerdns
+  tags:
+    ocata:
+      source-branch: 899651549b6d57470d233321265ace862270e154
+- project: puppet-qdr
+  tags:
+    ocata:
+      source-branch: 1c4246458420abc0561c4e8edb233322c57c423b
+- project: puppet-rabbitmq
+  tags:
+    ocata:
+      source-branch: 5ac45dedd9b409c9efac654724bc74867cb9233b
+- project: puppet-redis
+  tags:
+    ocata:
+      source-branch: a2d63958ad8867585b0a01b9de3edffa43f9baa1
+- project: puppet-remote
+  tags:
+    ocata:
+      source-branch: 2d3a47780b95b337b8e84558fe11977ea033d051
+- project: puppet-rsync
+  tags:
+    ocata:
+      source-branch: 8cc3c6fa7bd95ce2cf47f0c079cb30854399af5b
+- project: puppet-sahara
+  tags:
+    ocata:
+- project: puppet-sensu
+  tags:
+    ocata:
+      source-branch: ca45853d7ab1268462bd152ec8fd17bebfeb1eb6
+- project: puppet-snmp
+  tags:
+    ocata:
+      source-branch: 7d4c97c5b6bf8756db8515355d4aac9ffd524569
+- project: puppet-ssh
+  tags:
+    ocata:
+      source-branch: v3.0.1
+- project: puppet-staging
+  tags:
+    ocata:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+- project: puppet-stdlib
+  tags:
+    ocata:
+      source-branch: db8c1fbb2394d93fe3156b17c840455f1b3e2c76
+- project: puppet-swift
+  tags:
+    ocata:
+- project: puppet-sysctl
+  tags:
+    ocata:
+      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
+- project: puppet-systemd
+  tags:
+    ocata:
+      source-branch: 70c418cfb49d5d13e68c0584f0a30464527f6bd1
+- project: puppet-tacker
+  tags:
+    ocata:
+- project: puppet-tempest
+  tags:
+    ocata:
+- project: puppet-timezone
+  tags:
+    ocata:
+      source-branch: v3.4.0
+- project: puppet-tomcat
+  tags:
+    ocata:
+      source-branch: 2b9e169f63bbc91360d84cf93415563bd0155155
+- project: puppet-tripleo
+  tags:
+    ocata:
+- project: puppet-trove
+  tags:
+    ocata:
+- project: puppet-uchiwa
+  tags:
+    ocata:
+      source-branch: 8095b7cc05b4d53a057213e0869dd8bea5b3b9cd
+- project: puppet-vcsrepo
+  tags:
+    ocata:
+      source-branch: 247c33c7994dda5811e5e24c3ad0c3cdef89b9ec
+- project: puppet-vlan
+  tags:
+    ocata:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+- project: puppet-vswitch
+  tags:
+    ocata:
+- project: puppet-xinetd
+  tags:
+    ocata:
+      source-branch: 9beb441c0c5433f6a1a42dd70aea173de5b800e4
+- project: puppet-zaqar
+  tags:
+    ocata:
+- project: puppet-zookeeper
+  tags:
+    ocata:
+      source-branch: 9383fdad877c2d70aead91283ddde14fe22144d8
+- project: pycadf
+  tags:
+    ocata:
+      source-branch: 2.5.0
+- project: rally
+  tags:
+    ocata:
+      source-branch: 0.9.1
+- project: reno
+  tags:
+    ocata:
+      source-branch: 2.2.1
+- project: requestsexceptions
+  tags:
+    ocata:
+      source-branch: 1.1.3
+- project: sahara
+  tags:
+    ocata:
+- project: sahara-dashboard
+  tags:
+    ocata:
+- project: sahara-image-elements
+  tags:
+    ocata:
+- project: sahara-tests
+  tags:
+    ocata:
+      source-branch: 0.4.1
+- project: saharaclient
+  tags:
+    ocata:
+      source-branch: 1.1.0
+- project: shaker
+  tags:
+    ocata:
+      source-branch: 6fc8d21b3baaf2ea1294e3429602c8ba97811848
+- project: stevedore
+  tags:
+    ocata:
+      source-branch: 1.20.1
+- project: swift
+  tags:
+    ocata:
+- project: swift3
+  tags:
+    ocata:
+      source-branch: 1fb6a30ee59a16cd4b6c49bab963ff9e3f974580
+- project: swiftclient
+  tags:
+    ocata:
+      source-branch: 3.3.0
+- project: tacker
+  tags:
+    ocata:
+- project: tackerclient
+  tags:
+    ocata:
+      source-branch: 0.9.0
+- project: taskflow
+  tags:
+    ocata:
+      source-branch: 2.9.1
+- project: tempest
+  tags:
+    ocata:
+      source-branch: 16.1.0
+- project: tempest-horizon
+  tags:
+    ocata:
+      source-branch: 86ac4f82ce7b01d2d841e633f99ff6599df54d06
+- project: tempestconf
+  tags:
+    ocata:
+      source-branch: 1.1.3
+- project: tooz
+  tags:
+    ocata:
+      source-branch: 1.48.2
+- project: tripleo-common
+  tags:
+    ocata:
+- project: tripleo-heat-templates
+  tags:
+    ocata:
+- project: tripleo-heat-templates-compat
+  tags:
+    ocata:
+      source-branch: newton-eol
+- project: tripleo-image-elements
+  tags:
+    ocata:
+- project: tripleo-puppet-elements
+  tags:
+    ocata:
+- project: tripleo-ui
+  tags:
+    ocata:
+- project: tripleo-validations
+  tags:
+    ocata:
+- project: tripleoclient
+  tags:
+    ocata:
+- project: trove
+  tags:
+    ocata:
+- project: trove-dashboard
+  tags:
+    ocata:
+- project: troveclient
+  tags:
+    ocata:
+      source-branch: 2.8.0
+- project: virtualbmc
+  tags:
+    ocata:
+      source-branch: 1.0.0
+- project: vitrage
+  tags:
+    ocata:
+- project: vitrage-dashboard
+  tags:
+    ocata:
+- project: vitrageclient
+  tags:
+    ocata:
+- project: vmware-nsx
+  tags:
+    ocata:
+- project: vmware-nsxlib
+  tags:
+    ocata:
+- project: watcher
+  tags:
+    ocata:
+- project: wsme
+  tags:
+    ocata:
+      source-branch: 9f84e4c7c59b172a09341af2ab496d07e29e01aa
+- project: zaqar
+  tags:
+    ocata:
+- project: zaqarclient
+  tags:
+    ocata:
+      source-branch: 1.4.0

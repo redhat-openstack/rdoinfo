@@ -1,0 +1,2368 @@
+packages:
+- project: Cython
+  buildsys-tags:
+    cloud7-openstack-queens-testing: Cython-0.25.2-3.el7
+- project: GitPython
+  buildsys-tags:
+    cloud7-openstack-queens-testing: GitPython-1.0.1-5.el7
+- project: PyQt4
+  buildsys-tags:
+    cloud7-openstack-queens-testing: PyQt4-4.12-1.el7
+- project: UcsSdk
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-UcsSdk-0.8.2.5-1.el7
+- project: Xaw3d
+  buildsys-tags:
+    cloud7-openstack-queens-testing: Xaw3d-1.6.2-4.el7
+- project: ansible
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ansible-2.6.11-1.el7.ans
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ansible-pacemaker-1.0.3-1.el7
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ansible-role-redhat-subscription-1.0.1-1.el7
+- project: aodh
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-aodh-6.0.1-1.el7
+- project: aodhclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-aodhclient-1.0.0-1.el7
+- project: apiextractor
+  buildsys-tags:
+    cloud7-openstack-queens-testing: apiextractor-0.10.10-11.el7
+- project: automaton
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-automaton-1.14.0-1.el7
+- project: babel
+  buildsys-tags:
+    cloud7-openstack-queens-testing: babel-2.3.4-1.el7
+- project: bakefile
+  buildsys-tags:
+    cloud7-openstack-queens-testing: bakefile-0.2.9-2.el7
+- project: bandit
+  buildsys-tags:
+    cloud7-openstack-queens-testing: bandit-0.13.2-1.el7
+- project: barbican
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-barbican-6.0.1-1.el7
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-barbican-tests-tempest-0.0.1-0.1.b79d2eagit.el7
+- project: barbicanclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-barbicanclient-4.6.1-1.el7
+- project: blosc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: blosc-1.11.1-3.el7
+- project: boost159
+  buildsys-tags:
+    cloud7-openstack-queens-testing: boost159-1.59.0-2.el7
+- project: castellan
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-castellan-0.17.0-1.el7
+- project: ceilometer
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ceilometer-10.0.1-1.el7
+- project: ceilometerclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ceilometerclient-2.9.0-1.el7
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ceilometermiddleware-1.2.0-1.el7
+- project: cinder
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-cinder-12.0.3-1.el7
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
+- project: cinderclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cinderclient-3.5.0-1.el7
+- project: cliff
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cliff-2.11.1-1.el7
+- project: cloudkitty
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-cloudkitty-7.0.0-1.el7
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-cloudkitty-ui-7.0.0-1.el7
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cloudkittyclient-1.2.0-1.el7
+- project: coin-or-Cbc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: coin-or-Cbc-2.9.8-1.el7
+- project: coin-or-Cgl
+  buildsys-tags:
+    cloud7-openstack-queens-testing: coin-or-Cgl-0.59.9-1.el7
+- project: coin-or-Clp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: coin-or-Clp-1.16.10-1.el7
+- project: coin-or-CoinUtils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: coin-or-CoinUtils-2.10.13-1.el7
+- project: coin-or-Osi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: coin-or-Osi-0.107.8-1.el7
+- project: coin-or-Sample
+  buildsys-tags:
+    cloud7-openstack-queens-testing: coin-or-Sample-1.2.10-5.el7
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-collectd-gnocchi-1.7.0-1.el7
+- project: congress
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-congress-7.0.1-1.el7
+- project: congress-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
+- project: congressclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-congressclient-1.9.0-1.el7
+- project: crudini
+  buildsys-tags:
+    cloud7-openstack-queens-testing: crudini-0.9-2.el7
+- project: cursive
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cursive-0.2.1-1.el7
+- project: debootstrap
+  buildsys-tags:
+    cloud7-openstack-queens-testing: debootstrap-1.0.81-1.el7
+- project: debtcollector
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-debtcollector-1.19.0-1.el7
+- project: designate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-designate-6.0.1-1.el7
+- project: designate-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-designate-ui-6.0.1-1.el7
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-designate-tests-tempest-0.4.0-1.el7
+- project: designateclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-designateclient-2.9.0-1.el7
+- project: dib-utils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: dib-utils-0.0.11-1.el7
+- project: dibbler
+  buildsys-tags:
+    cloud7-openstack-queens-testing: dibbler-1.0.1-0.RC1.2.el7
+- project: diskimage-builder
+  buildsys-tags:
+    cloud7-openstack-queens-testing: diskimage-builder-2.16.0-1.el7
+- project: dracclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dracclient-1.6.0-1.el7
+- project: ec2-api
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ec2-api-5.1.0-0.1.ec59a03git.el7
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ec2api-tests-tempest-0.0.1-0.1.16c5d96git.el7
+- project: erlang
+  buildsys-tags:
+    cloud7-openstack-queens-testing: erlang-19.3.6.4-1.el7
+- project: erlang-mustache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: erlang-mustache-0.1.0-5.el7
+- project: erlang-rpm-macros
+  buildsys-tags:
+    cloud7-openstack-queens-testing: erlang-rpm-macros-0.1.4-1.el7
+- project: erlang-sd_notify
+  buildsys-tags:
+    cloud7-openstack-queens-testing: erlang-sd_notify-1.0-2.el7
+- project: facter
+  buildsys-tags:
+    cloud7-openstack-queens-testing: facter-2.4.4-4.el7
+- project: fakeroot
+  buildsys-tags:
+    cloud7-openstack-queens-testing: fakeroot-1.20.2-4.el7
+- project: fdupes
+  buildsys-tags:
+    cloud7-openstack-queens-testing: fdupes-1.51-10.el7
+- project: fio
+  buildsys-tags:
+    cloud7-openstack-queens-testing: fio-2.2.10-1.el7
+- project: fontawesome-fonts
+  buildsys-tags:
+    cloud7-openstack-queens-testing: fontawesome-fonts-4.4.0-1.el7
+- project: fping
+  buildsys-tags:
+    cloud7-openstack-queens-testing: fping-3.5-3.el7
+- project: future
+  buildsys-tags:
+    cloud7-openstack-queens-testing: future-0.16.0-4.el7
+- project: futurist
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-futurist-1.6.0-1.el7
+- project: galera
+  buildsys-tags:
+    cloud7-openstack-queens-testing: galera-25.3.16-3.el7
+- project: generatorrunner
+  buildsys-tags:
+    cloud7-openstack-queens-testing: generatorrunner-0.6.16-10.el7
+- project: glance
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-glance-16.0.1-1.el7
+- project: glance_store
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-glance-store-0.23.0-1.el7
+- project: glanceclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-glanceclient-2.10.1-1.el7
+- project: glareclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-glareclient-0.5.2-1.el7
+- project: gnocchi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: gnocchi-4.2.3-1.el7
+- project: gnocchiclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gnocchiclient-7.0.1-1.el7
+- project: go-srpm-macros
+  buildsys-tags:
+    cloud7-openstack-queens-testing: go-srpm-macros-2-17.el7
+- project: golang
+  buildsys-tags:
+    cloud7-openstack-queens-testing: golang-1.11.2-3.el7
+- project: google-api-python-client
+  buildsys-tags:
+    cloud7-openstack-queens-testing: google-api-python-client-1.4.2-4.el7
+- project: google-roboto-slab-fonts
+  buildsys-tags:
+    cloud7-openstack-queens-testing: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
+- project: gperftools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: gperftools-2.4.91-1.el7
+- project: gv
+  buildsys-tags:
+    cloud7-openstack-queens-testing: gv-3.7.4-6.el7
+- project: hacking
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-hacking-1.0.0-1.865398fgit.el7
+- project: hardware
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-hardware-0.18-1.el7
+- project: hdf5
+  buildsys-tags:
+    cloud7-openstack-queens-testing: hdf5-1.8.13-7.el7
+- project: heat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-heat-10.0.2-1.el7
+- project: heat-agents
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-heat-agents-1.5.3-1.el7
+- project: heat-cfntools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: heat-cfntools-1.3.0-2.el7
+- project: heat-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-heat-ui-1.0.2-1.el7
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-heat-tests-tempest-0.0.1-0.1.9b02d1egit.el7
+- project: heat-translator
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-heat-translator-0.9.0-1.el7
+- project: heatclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-heatclient-1.14.0-1.el7
+- project: hiera
+  buildsys-tags:
+    cloud7-openstack-queens-testing: hiera-1.3.4-5.el7
+- project: horizon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-horizon-13.0.1-1.el7
+- project: instack
+  buildsys-tags:
+    cloud7-openstack-queens-testing: instack-8.1.0-1.el7
+- project: instack-undercloud
+  buildsys-tags:
+    cloud7-openstack-queens-testing: instack-undercloud-8.4.6-1.el7
+- project: ironic
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ironic-10.1.7-1.el7
+- project: ironic-inspector
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ironic-inspector-7.2.2-1.el7
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ironic-inspector-client-3.1.1-1.el7
+- project: ironic-lib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ironic-lib-2.12.1-1.el7
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ironic-python-agent-3.2.2-1.el7
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ironic-staging-drivers-0.9.1-1.el7
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ironic-tests-tempest-1.1.0-1.el7
+- project: ironic-ui
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-ironic-ui-3.1.2-1.el7
+- project: ironicclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ironicclient-2.2.1-1.el7
+- project: jemalloc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: jemalloc-3.6.0-1.el7
+- project: jq
+  buildsys-tags:
+    cloud7-openstack-queens-testing: jq-1.5-10.el7
+- project: jsoncpp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: jsoncpp-0.10.5-2.el7
+- project: keystone
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-keystone-13.0.2-2.el7
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-keystone-tests-tempest-0.0.1-0.1.12689f5git.el7
+- project: keystoneauth1
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-keystoneauth1-3.4.0-1.el7
+- project: keystoneclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-keystoneclient-3.15.0-1.el7
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-keystonemiddleware-4.21.0-1.el7
+- project: kolla
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-kolla-6.1.1-1.el7
+- project: kuryr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-kuryr-lib-0.7.0-1.el7
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-kuryr-kubernetes-0.4.6-1.el7
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-kuryr-tests-tempest-0.2.0-1.el7
+- project: lato-fonts
+  buildsys-tags:
+    cloud7-openstack-queens-testing: lato-fonts-2.015-1.el7
+- project: libdb4
+  buildsys-tags:
+    cloud7-openstack-queens-testing: libdb4-4.8.30-13.el7
+- project: liberasurecode
+  buildsys-tags:
+    cloud7-openstack-queens-testing: liberasurecode-1.5.0-1.el7
+- project: libimagequant
+  buildsys-tags:
+    cloud7-openstack-queens-testing: libimagequant-2.8.2-2.el7
+- project: librdkafka
+  buildsys-tags:
+    cloud7-openstack-queens-testing: librdkafka-0.9.2-2.el7
+- project: librx
+  buildsys-tags:
+    cloud7-openstack-queens-testing: librx-1.5-19.el7
+- project: libstemmer
+  buildsys-tags:
+    cloud7-openstack-queens-testing: libstemmer-0-2.585svn.el7
+- project: libtomcrypt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: libtomcrypt-1.17-33.20170623gitcd6e602.el7
+- project: libtommath
+  buildsys-tags:
+    cloud7-openstack-queens-testing: libtommath-1.0-8.el7
+- project: libuv
+  buildsys-tags:
+    cloud7-openstack-queens-testing: libuv-1.16.1-1.el7
+- project: lz4
+  buildsys-tags:
+    cloud7-openstack-queens-testing: lz4-r131-2.el7
+- project: magnum
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-magnum-6.3.0-1.el7
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-magnum-tests-tempest-0.0.1-0.1.418c238git.el7
+- project: magnum-ui
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-magnum-ui-4.0.1-1.el7
+- project: magnumclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-magnumclient-2.9.1-1.el7
+- project: manila
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-manila-6.0.2-1.el7
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
+- project: manila-ui
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-manila-ui-2.13.0-3.el7
+- project: manilaclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-manilaclient-1.21.1-1.el7
+- project: mariadb
+  buildsys-tags:
+    cloud7-openstack-queens-testing: mariadb-10.1.20-2.el7
+- project: memcached
+  buildsys-tags:
+    cloud7-openstack-queens-testing: memcached-1.5.6-1.el7
+- project: microversion-parse
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-microversion-parse-0.1.4-2.el7
+- project: mistral
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-mistral-6.0.6-1.el7
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-mistral-ui-6.0.4-1.el7
+- project: mistral-lib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mistral-lib-0.4.0-1.el7
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mistral-tests-tempest-0.0.1-0.1.8357183git.el7
+- project: mistralclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mistralclient-3.3.0-1.el7
+- project: monascaclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-monascaclient-1.10.0-1.el7
+- project: mox3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mox3-0.24.0-1.el7
+- project: murano
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-murano-5.0.0-1.el7
+- project: murano-agent
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-murano-agent-3.4.0-1.el7
+- project: murano-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-murano-ui-5.0.0-1.el7
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-murano-tests-tempest-0.0.1-0.1.5571736git.el7
+- project: muranoclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-muranoclient-1.0.1-1.el7
+- project: nagios
+  buildsys-tags:
+    cloud7-openstack-queens-testing: nagios-3.5.1-1.el7
+- project: networking-ansible
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-ansible-0.1.0-1.el7
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-bagpipe-8.0.1-1.el7
+- project: networking-baremetal
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-baremetal-1.0.0-1.el7
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-bgpvpn-8.0.1-1.el7
+- project: networking-bigswitch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-bigswitch-12.0.4-1.el7
+- project: networking-cisco
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-cisco-6.1.1-1.el7
+- project: networking-fujitsu
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-fujitsu-6.0.0-1.el7
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-generic-switch-1.0.0-1.el7
+- project: networking-l2gw
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-l2gw-12.0.1-1.el7
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-l2gw-tests-tempest-0.0.1-0.1.8a8ec70git.el7
+- project: networking-odl
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-odl-12.0.0-1.el7
+- project: networking-ovn
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-ovn-4.0.3-1.el7
+- project: networking-sfc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-sfc-6.0.0-1.el7
+- project: neutron
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-12.0.5-1.el7
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-dynamic-routing-12.0.1-2.el7
+- project: neutron-fwaas
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-fwaas-12.0.1-1.el7
+- project: neutron-lbaas
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-lbaas-12.0.0-1.el7
+- project: neutron-lbaas-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-lbaas-ui-4.0.0-1.el7
+- project: neutron-lib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-neutron-lib-1.13.0-1.el7
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-neutron-tests-tempest-0.0.1-0.1.028c312git.el7
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-neutron-vpnaas-12.0.1-1.el7
+- project: neutronclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-neutronclient-6.7.0-1.el7
+- project: nghttp2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: nghttp2-1.29.0-1.el7
+- project: nodejs
+  buildsys-tags:
+    cloud7-openstack-queens-testing: nodejs-8.9.4-2.el7
+- project: nodejs-packaging
+  buildsys-tags:
+    cloud7-openstack-queens-testing: nodejs-packaging-9-1.el7
+- project: nova
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-nova-17.0.9-1.el7
+- project: novaclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-novaclient-10.1.0-1.el7
+- project: novajoin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-novajoin-1.0.22-1.el7
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-novajoin-tests-tempest-0.0.1-0.1.59d7ba6git.el7
+- project: novnc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: novnc-0.5.1-2.el7
+- project: numpy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: numpy-1.11.2-2.el7
+- project: octavia
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-octavia-2.0.3-1.el7
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-octavia-ui-1.0.1-1.el7
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.3.51e91b4git.el7
+- project: octaviaclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-octaviaclient-1.4.0-1.el7
+- project: onigumura
+  buildsys-tags:
+    cloud7-openstack-queens-testing: oniguruma-6.7.0-1.el7
+- project: openjpeg2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openjpeg2-2.1.2-1.el7
+- project: openpgm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openpgm-5.2.122-2.el7
+- project: openstack-macros
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-macros-2018.1.2-0
+- project: openstack-selinux
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-selinux-0.8.13-1.el7
+- project: openstack-tripleo-ui-deps
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-ui-deps-8-6.el7
+- project: openstack-utils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-utils-2017.1-1.el7
+- project: openstackclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-openstackclient-3.14.3-1.el7
+- project: openstacksdk
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-openstacksdk-0.11.3-1.el7
+- project: openvswitch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openvswitch-2.9.0-3.el7
+- project: os-apply-config
+  buildsys-tags:
+    cloud7-openstack-queens-testing: os-apply-config-8.3.0-1.el7
+- project: os-brick
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-brick-2.3.4-2.el7
+- project: os-client-config
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-client-config-1.29.0-1.el7
+- project: os-collect-config
+  buildsys-tags:
+    cloud7-openstack-queens-testing: os-collect-config-8.3.0-1.el7
+- project: os-faults
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-faults-0.1.17-1.el7
+- project: os-net-config
+  buildsys-tags:
+    cloud7-openstack-queens-testing: os-net-config-8.4.3-1.el7
+- project: os-refresh-config
+  buildsys-tags:
+    cloud7-openstack-queens-testing: os-refresh-config-8.3.0-1.el7
+- project: os-service-types
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-service-types-1.1.0-1.el7
+- project: os-testr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-testr-1.0.0-1.el7
+- project: os-traits
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-traits-0.5.0-1.el7
+- project: os-vif
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-vif-1.9.1-1.el7
+- project: os-win
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-win-3.0.1-1.el7
+- project: os-xenapi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-os-xenapi-0.3.1-1.el7
+- project: osc-lib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-osc-lib-1.9.0-1.el7
+- project: osc-placement
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-osc-placement-1.0.0-1.el7
+- project: oslo-cache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-cache-1.28.0-1.el7
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-concurrency-3.25.1-1.el7
+- project: oslo-config
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-config-5.2.1-1.el7
+- project: oslo-context
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-context-2.20.0-1.el7
+- project: oslo-db
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-db-4.33.2-1.el7
+- project: oslo-i18n
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-i18n-3.19.0-1.el7
+- project: oslo-log
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-log-3.36.0-1.el7
+- project: oslo-messaging
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-messaging-5.35.4-1.el7
+- project: oslo-middleware
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-middleware-3.34.0-1.el7
+- project: oslo-policy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-policy-1.33.2-1.el7
+- project: oslo-privsep
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-privsep-1.27.0-1.el7
+- project: oslo-reports
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-reports-1.26.0-1.el7
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-rootwrap-5.13.0-1.el7
+- project: oslo-serialization
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-serialization-2.24.0-1.el7
+- project: oslo-service
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-service-1.29.0-1.el7
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-sphinx-4.18.0-1.el7
+- project: oslo-utils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-utils-3.35.1-1.el7
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-versionedobjects-1.31.3-1.el7
+- project: oslo-vmware
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslo-vmware-2.26.0-1.el7
+- project: oslotest
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oslotest-3.2.0-1.el7
+- project: osprofiler
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-osprofiler-1.15.2-1.el7
+- project: oswin-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
+- project: ovsdbapp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ovsdbapp-0.10.2-1.el7
+- project: pacemaker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
+- project: packstack
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-packstack-12.0.0-2.el7
+- project: panko
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-panko-4.0.2-1.el7
+- project: pankoclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pankoclient-0.4.1-1.el7
+- project: patrole
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-patrole-0.3.0-1.el7
+- project: paunch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-paunch-2.5.0-1.el7
+- project: phantomjs
+  buildsys-tags:
+    cloud7-openstack-queens-testing: phantomjs-1.9.7-3.el7
+- project: proliantutils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-proliantutils-2.5.0-1.el7
+- project: puppet
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-4.8.2-1.el7
+- project: puppet-aodh
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-aodh-12.4.0-1.el7
+- project: puppet-apache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-apache-2.3.1-1.e587f2agit.el7
+- project: puppet-archive
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-archive-2.2.1-0.10888dbgit.el7
+- project: puppet-auditd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-auditd-2.2.0-2.c0c1ccbgit.el7
+- project: puppet-barbican
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-barbican-12.4.0-1.el7
+- project: puppet-cassandra
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-cassandra-2.6.0-1.2454099git.el7
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ceilometer-12.5.0-1.el7
+- project: puppet-ceph
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ceph-2.5.0-1.el7
+- project: puppet-certmonger
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-certmonger-2.3.0-1.el7
+- project: puppet-cinder
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-cinder-12.4.1-1.el7
+- project: puppet-collectd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-collectd-8.0.2-0.93c8d0bgit.el7
+- project: puppet-concat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-concat-4.1.1-1.d4857dfgit.el7
+- project: puppet-congress
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-congress-12.4.0-1.el7
+- project: puppet-contrail
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-contrail-1.0.0-4.ecf700bgit.el7
+- project: puppet-corosync
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-corosync-6.0.1-0.9940eb9git.el7
+- project: puppet-datacat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-datacat-0.6.2-3.5cce8f2git.el7
+- project: puppet-designate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-designate-12.4.0-1.el7
+- project: puppet-dns
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-dns-5.1.1-1.99cd025git.el7
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ec2api-12.4.0-1.el7
+- project: puppet-elasticsearch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-elasticsearch-6.2.0-1.813c729git.el7
+- project: puppet-etcd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-etcd-1.12.2-1.el7
+- project: puppet-fdio
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-fdio-18.01-1.el7
+- project: puppet-firewall
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-firewall-1.12.0-1.3dc1990git.el7
+- project: puppet-fluentd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-fluentd-0.10.0-1.el7
+- project: puppet-git
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-git-0.4.0-3.4e4498egit.el7
+- project: puppet-glance
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-glance-12.5.0-1.el7
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-gnocchi-12.4.0-1.el7
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-haproxy-2.1.0-1.11ac7a2git.el7
+- project: puppet-heat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-heat-12.4.0-1.el7
+- project: puppet-horizon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-horizon-12.4.0-1.el7
+- project: puppet-inifile
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-inifile-2.2.0-1.d2c38b9git.el7
+- project: puppet-ipaclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ipaclient-2.5.2-1.el7
+- project: puppet-ironic
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ironic-12.4.0-1.el7
+- project: puppet-java
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-java-2.4.0-1.47afbd2git.el7
+- project: puppet-kafka
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-kafka-5.0.1-0.6419b44git.el7
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+- project: puppet-keystone
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-keystone-12.4.0-1.el7
+- project: puppet-kibana3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
+- project: puppet-kmod
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-kmod-2.2.0-1.ad51300git.el7
+- project: puppet-lib-file_concat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-lib-file_concat-1.0.1-1.813132bgit.el7
+- project: puppet-magnum
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-magnum-12.2.0-1.el7
+- project: puppet-manila
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-manila-12.5.0-1.el7
+- project: puppet-memcached
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-memcached-3.1.0-1.el7
+- project: puppet-midonet
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
+- project: puppet-mistral
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-mistral-12.4.0-1.el7
+- project: puppet-module-data
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
+- project: puppet-mongodb
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-mongodb-1.1.1-0.1.c60e4cagit.el7
+- project: puppet-murano
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-murano-12.4.0-1.el7
+- project: puppet-mysql
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-mysql-5.2.1-1.a5497b2git.el7
+- project: puppet-n1k-vsm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+- project: puppet-neutron
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-neutron-12.4.0-1.el7
+- project: puppet-nova
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-nova-12.4.0-1.el7
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-nssdb-1.0.1-1.el7
+- project: puppet-ntp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ntp-4.2.0-2.el7
+- project: puppet-octavia
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-octavia-12.4.0-1.el7
+- project: puppet-opendaylight
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-opendaylight-8.2.2-1.9126c8dgit.el7
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-openstack_extras-12.4.0-1.el7
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-openstacklib-12.4.0-1.el7
+- project: puppet-oslo
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-oslo-12.4.0-1.el7
+- project: puppet-ovn
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ovn-12.4.0-1.el7
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-pacemaker-0.7.1-1.el7
+- project: puppet-panko
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-panko-12.4.0-1.el7
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-powerdns-0.0.5-1.8996515git.el7
+- project: puppet-qdr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-qdr-1.0.0-1.el7
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-rabbitmq-8.1.1-0.d4b06b7git.el7
+- project: puppet-redis
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-redis-3.2.0-2.bfcc212git.el7
+- project: puppet-remote
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-remote-0.0.1-3.7420908git.el7
+- project: puppet-rsync
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-rsync-0.4.0-3.447685fgit.el7
+- project: puppet-sahara
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-sahara-12.4.0-1.el7
+- project: puppet-sensu
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-sensu-2.50.0-1.el7
+- project: puppet-snmp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-snmp-3.9.0-1.5d73485git.el7
+- project: puppet-ssh
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-ssh-3.0.1-4.fb2de75git.el7
+- project: puppet-staging
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-staging-1.0.4-1.b466d93git.el7
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-stdlib-4.24.0-1.b0d99adgit.el7
+- project: puppet-swift
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-swift-12.4.0-1.el7
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-sysctl-0.0.11-1.el7
+- project: puppet-systemd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-systemd-1.1.1-1.el7
+- project: puppet-tacker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-tacker-12.4.0-1.el7
+- project: puppet-tempest
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-tempest-12.5.0-1.el7
+- project: puppet-timezone
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-timezone-4.1.1-1.el7
+- project: puppet-tomcat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-tomcat-2.2.0-1.c6d9954git.el7
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-tripleo-8.3.5-1.el7
+- project: puppet-trove
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-trove-12.4.0-1.el7
+- project: puppet-uchiwa
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-uchiwa-2.0.0-1.92c7f71git.el7
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-vcsrepo-2.3.0-1.bb1209egit.el7
+- project: puppet-veritas_hyperscale
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-veritas_hyperscale-1.1.1-1.el7
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-vitrage-2.4.0-1.el7
+- project: puppet-vlan
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-vlan-0.1.0-1.el7
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-vswitch-8.4.0-1.el7
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-xinetd-3.0.0-1.b95c79cgit.el7
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-zaqar-12.4.0-1.el7
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud7-openstack-queens-testing: puppet-zookeeper-0.7.7-1.88b4ceagit.el7
+- project: pyOpenSSL
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pyOpenSSL-17.3.0-3.el7
+- project: pycadf
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pycadf-2.7.0-1.el7
+- project: pydot
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pydot-1.0.28-11.el7
+- project: pyflakes
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pyflakes-0.9.2-1.el7
+- project: pyparsing
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pyparsing-2.1.10-3.el7
+- project: pysendfile
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pysendfile-2.0.0-5.el7
+- project: pysnmp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pysnmp-4.3.2-3.el7
+- project: pystache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pystache-0.5.3-2.el7
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pytest-3.0.6-2.el7
+- project: python-APScheduler
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-APScheduler-3.0.5-2.el7
+- project: python-BeautifulSoup
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-BeautifulSoup-3.2.1-8.el7
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-Bottleneck-0.6.0-4.el7
+- project: python-ImcSdk
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ImcSdk-0.7.2-3.el7
+- project: python-PuLP
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-PuLP-1.6.1-5.el7
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-PyMySQL-0.7.11-1.el7
+- project: python-XStatic
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-1.0.1-8.el7
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-1.5.8.0-1.el7
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-FileUpload-12.0.4.0-1.el7
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
+- project: python-XStatic-Angular-Mock
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-Mock-1.2.1.1-2.el7
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-2.el7
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-1.el7
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-D3-3.5.17.0-1.el7
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Font-Awesome-4.7.0.0-3.el7
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Hogan-2.0.0.2-2.el7
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-JQuery-Migrate-1.2.1.1-2.el7
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-2.el7
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-2.el7
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-JSEncrypt-2.3.1.1-1.el7
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Jasmine-2.4.1.1-1.el7
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Magic-Search-0.2.0.1-2.el7
+- project: python-XStatic-QUnit
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-QUnit-1.14.0.2-2.el7
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Rickshaw-1.5.0.0-4.el7
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-Spin-1.2.5.2-2.el7
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-bootswatch-3.3.7.0-1.el7
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-jQuery-1.10.2.1-1.el7
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-jquery-ui-1.10.4.1-1.el7
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-mdi-1.4.57.0-4.el7
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-objectpath-1.2.1.0-0.1.pre_review.el7
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-roboto-fontface-0.5.0.0-1.el7
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-smart-table-1.4.13.2-1.el7
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-termjs-0.0.7.0-1.el7
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
+- project: python-abclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-abclient-0.2.3-2.el7
+- project: python-actdiag
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-actdiag-0.5.4-6.el7
+- project: python-alembic
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-alembic-0.9.7-1.el7
+- project: python-amqp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-amqp-2.1.4-3.el7
+- project: python-amqplib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-amqplib-1.0.2-7.el7
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ansible-runner-1.0.5-1.el7
+- project: python-anyjson
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-anyjson-0.3.3-3.el7
+- project: python-appdirs
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-appdirs-1.4.0-4.el7
+- project: python-asn1crypto
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-asn1crypto-0.23.0-2.el7
+- project: python-astroid
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-astroid-1.2.1-2.el7
+- project: python-autobahn
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-autobahn-0.10.9-1.gitcf10233.el7
+- project: python-backports-ssl_match_hostname
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: python-backports_abc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-backports_abc-0.5-2.el7
+- project: python-bashate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-bashate-0.5.1-1.el7
+- project: python-bcrypt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-bcrypt-3.1.2-3.el7
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-beautifulsoup4-4.6.0-1.el7
+- project: python-betamax
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-betamax-0.7.0-1.el7
+- project: python-bitmath
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-bitmath-1.3.1-1.el7
+- project: python-blinker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-blinker-1.3-6.el7
+- project: python-blist
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-blist-1.3.6-9.el7
+- project: python-blockdiag
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-blockdiag-1.5.3-9.el7
+- project: python-boto
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-boto-2.34.0-4.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-botocore-1.8.33-1.el7
+- project: python-bottle
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-bottle-0.12.9-1.el7
+- project: python-cachetools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cachetools-2.0.1-3.el7
+- project: python-cachez
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cachez-0.1.0-2.el7
+- project: python-cairocffi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cairocffi-0.7.2-7.el7
+- project: python-cairosvg
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cairosvg-1.0.20-3.el7
+- project: python-cassandra-driver
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cassandra-driver-3.7.1-4.el7
+- project: python-certifi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-certifi-2016.9.26-2.el7
+- project: python-cffi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cffi-1.11.2-1.el7
+- project: python-characteristic
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-characteristic-14.3.0-4.el7
+- project: python-click
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-click-6.3-1.el7
+- project: python-cliff-tablib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cliff-tablib-1.1-3.el7
+- project: python-cmd2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cmd2-0.6.8-8.el7
+- project: python-colorama
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-colorama-0.3.7-2.el7
+- project: python-construct
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-construct-2.8.10-1.el7
+- project: python-contextlib2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-contextlib2-0.4.0-1.el7
+- project: python-cotyledon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cotyledon-1.6.3-1.el7
+- project: python-cov-core
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cov-core-1.7-4.el7
+- project: python-coverage
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-coverage-4.4.1-1.el7
+- project: python-cradox
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cradox-2.1.0-1.el7
+- project: python-croniter
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-croniter-0.3.19-1.el7
+- project: python-cryptography
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cryptography-2.1.4-2.el7
+- project: python-cryptography-vectors
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cryptography-vectors-2.1.4-1.el7
+- project: python-cssselect
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cssselect-0.9.1-5.el7
+- project: python-cycler
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-cycler-0.10.0-2.el7
+- project: python-d2to1
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-d2to1-0.2.11-1.el7
+- project: python-daemon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-daemon-1.6-4.el7
+- project: python-daiquiri
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-daiquiri-1.2.1-1.el7
+- project: python-dateutil
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dateutil-2.6.1-1.el7
+- project: python-ddt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ddt-1.0.1-2.el7
+- project: python-defusedxml
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-defusedxml-0.5.0-2.el7
+- project: python-demjson
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-demjson-2.2.4-3.el7
+- project: python-deprecation
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-deprecation-1.0-3.el7
+- project: python-django
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-1.11.10-1.el7
+- project: python-django-appconf
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-appconf-1.0.1-4.el7
+- project: python-django-babel
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-babel-0.6.2-1.el7
+- project: python-django-compressor
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-compressor-2.1-5.el7
+- project: python-django-discover-runner
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-discover-runner-1.0-5.el7
+- project: python-django-formtools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-formtools-2.1-1.el7
+- project: python-django-nose
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-nose-1.4.5-1.el7
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-django-pyscss-2.0.2-1.el7
+- project: python-dns
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dns-1.15.0-5.el7
+- project: python-docker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-docker-2.4.2-1.2.el7
+- project: python-docker-pycreds
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-docker-pycreds-0.2.1-4.el7
+- project: python-docopt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-docopt-0.6.2-4.el7
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dogpile-cache-0.6.2-1.el7
+- project: python-dogpile-core
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dogpile-core-0.4.1-2.el7
+- project: python-dtopt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dtopt-0.1-16.el7
+- project: python-dulwich
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-dulwich-0.18.4-1.el7
+- project: python-editor
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-editor-0.4-4.el7
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-elasticsearch-1.4.0-2.el7
+- project: python-empy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-empy-3.3.2-2.el7
+- project: python-enum
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-enum-0.4.4-9.el7
+- project: python-epi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-epi-0.1-4.el7
+- project: python-etcd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-etcd-0.4.3-5.el7
+- project: python-eventlet
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-eventlet-0.20.1-5.el7
+- project: python-exabgp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-exabgp-4.0.1-3.el7
+- project: python-extras
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-extras-1.0.0-2.el7
+- project: python-falcon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-falcon-1.0.0-4.el7
+- project: python-fastcache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-fastcache-1.0.2-9.el7
+- project: python-fasteners
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-fasteners-0.14.1-6.el7
+- project: python-fixtures
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-fixtures-3.0.0-7.el7
+- project: python-flake8
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-flake8-2.6.2-1.el7
+- project: python-flask-babel
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-flask-babel-0.9-1.el7
+- project: python-freezegun
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-freezegun-0.3.8-2.el7
+- project: python-funcparserlib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-funcparserlib-0.3.6-13.el7
+- project: python-funcsigs
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-funcsigs-1.0.2-1.el7
+- project: python-functools32
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-functools32-3.2.3.2-1.el7
+- project: python-futures
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-futures-3.1.1-2.el7
+- project: python-gabbi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gabbi-1.42.1-2.el7
+- project: python-gevent
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gevent-1.1.2-2.el7
+- project: python-gflags
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gflags-2.0-5.el7
+- project: python-gitdb
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gitdb-0.6.4-4.el7
+- project: python-gmpy2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gmpy2-2.0.5-1.el7
+- project: python-google-auth
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-google-auth-1.3.0-1.el7
+- project: python-greenlet
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-greenlet-0.4.12-1.el7
+- project: python-gunicorn
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-gunicorn-19.7.1-1.el7
+- project: python-html5lib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-html5lib-0.999-5.el7
+- project: python-http-parser
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-http-parser-0.8.3-3.el7
+- project: python-httpretty
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-httpretty-0.8.14-6.20161011git70af1f8.el7
+- project: python-hypothesis
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-hypothesis-2.0.0-1.el7
+- project: python-icalendar
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-icalendar-3.11.5-1.el7
+- project: python-idna
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-idna-2.5-1.el7
+- project: python-imagesize
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-imagesize-0.7.1-5.el7
+- project: python-influxdb
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-influxdb-4.0.0-1.el7.1
+- project: python-ipaddress
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ipaddress-1.0.16-3.el7
+- project: python-iso8601
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-iso8601-0.1.11-1.el7
+- project: python-isodate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-isodate-0.5.0-3.el7
+- project: python-jinja2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jinja2-2.10-2.el7
+- project: python-jmespath
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jmespath-0.9.0-5.el7
+- project: python-json-logger
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-json-logger-0.1.7-1.el7
+- project: python-jsonmodels
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonmodels-2.2-1.el7
+- project: python-jsonpatch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonpatch-1.21-1.el7
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonpath-rw-1.2.3-2.el7
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonpath-rw-ext-1.0.0-1.el7
+- project: python-jsonpointer
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonpointer-1.10-4.el7
+- project: python-jsonrpclib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonrpclib-0.1.3-2.el7
+- project: python-jsonschema
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jsonschema-2.6.0-2.el7
+- project: python-junitxml
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-junitxml-0.7-1.el7
+- project: python-jwt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-jwt-1.4.0-3.el7
+- project: python-kafka
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-kafka-1.3.1-1.el7
+- project: python-kazoo
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-kazoo-2.2.1-1.el7
+- project: python-keyczar
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-keyczar-0.71c-2.el7
+- project: python-keyring
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-keyring-5.7.1-1.el7
+- project: python-kombu
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-kombu-4.0.2-5.el7
+- project: python-kubernetes
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-kubernetes-4.0.0-1.el7
+- project: python-ldap3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ldap3-2.4.1-3.el7
+- project: python-ldappool
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ldappool-1.0-4.el7
+- project: python-lesscpy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-lesscpy-0.9j-4.el7
+- project: python-linecache2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-linecache2-1.0.0-1.el7
+- project: python-logilab-common
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-logilab-common-0.62.1-1.el7
+- project: python-logutils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-logutils-0.3.3-3.el7
+- project: python-lz4
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-lz4-0.9.0-1.el7
+- project: python-marathon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-marathon-0.8.7-1.el7
+- project: python-markupsafe
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-markupsafe-0.23-16.el7
+- project: python-matplotlib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-matplotlib-2.0.0-3.el7
+- project: python-mccabe
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mccabe-0.2.1-4.el7
+- project: python-meld3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-meld3-1.0.2-4.el7
+- project: python-memcached
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-memcached-1.58-1.el7
+- project: python-migrate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-migrate-0.11.0-1.el7
+- project: python-mimeparse
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mimeparse-0.1.4-1.el7
+- project: python-mock
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mock-2.0.0-1.el7
+- project: python-monotonic
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-monotonic-0.6-1.el7
+- project: python-mox
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mox-0.5.3-15.el7
+- project: python-mpmath
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-mpmath-0.19-2.el7
+- project: python-msgpack
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-msgpack-0.4.6-3.el7
+- project: python-munch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-munch-2.2.0-2.el7
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-murano-pkg-check-0.3.0-2.el7
+- project: python-ncclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ncclient-0.4.7-5.el7
+- project: python-netaddr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-netaddr-0.7.19-5.el7
+- project: python-netmiko
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
+- project: python-networkx
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networkx-1.10-1.el7
+- project: python-nose
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-nose-1.3.7-7.el7
+- project: python-nose-cov
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-nose-cov-1.6-7.el7
+- project: python-nose-exclude
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-nose-exclude-0.1.9-3.el7
+- project: python-nose-xcover
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-nose-xcover-1.0.7-4.el7
+- project: python-ntlm3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ntlm3-1.0.2-4.el7
+- project: python-numexpr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-numexpr-2.6.1-3.el7
+- project: python-oauth2client
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-oauth2client-1.5.2-3.el7.1
+- project: python-olefile
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-olefile-0.44-1.el7
+- project: python-openstack-doc-tools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-openstack-doc-tools-1.3.0-2.el7
+- project: python-openstack-nose-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-openstack-nose-plugin-0.11-4.el7
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-openstackdocstheme-1.18.1-1.el7
+- project: python-ordereddict
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ordereddict-1.1-6.el7
+- project: python-packaging
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-packaging-16.8-2.el7
+- project: python-pandas
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pandas-0.19.1-2.el7.2
+- project: python-paramiko
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-paramiko-2.1.1-3.el7
+- project: python-passlib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-passlib-1.7.0-4.el7
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-paste-deploy-1.5.2-6.el7
+- project: python-pathlib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pathlib-1.0.1-1.el7
+- project: python-pbr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pbr-3.1.1-8.el7
+- project: python-pecan
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pecan-1.1.2-1.el7
+- project: python-pep8
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pep8-1.5.7-2.el7
+- project: python-persist-queue
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-persist-queue-0.1.4-1.el7
+- project: python-pexpect
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pexpect-4.6-1.el7
+- project: python-pifpaf
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pifpaf-0.12.0-1.el7
+- project: python-pika
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pika-0.10.0-3.el7
+- project: python-pika_pool
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pika_pool-0.1.3-3.el7
+- project: python-pillow
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pillow-4.0.0-1.el7
+- project: python-pint
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pint-0.6-2.el7
+- project: python-pip
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pip-8.1.2-1.el7
+- project: python-positional
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-positional-1.1.1-2.el7
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-posix_ipc-0.9.8-1.el7
+- project: python-pretend
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pretend-1.0.8-2.el7
+- project: python-process-tests
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-process-tests-1.0.0-7.el7
+- project: python-psutil
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-psutil-5.2.2-2.el7
+- project: python-ptyprocess
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ptyprocess-0.5.2-3.el7
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pycodestyle-2.0.0-5.el7
+- project: python-pycxx
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pycxx-6.2.8-3.el7
+- project: python-pydotplus
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pydotplus-2.0.2-2.el7
+- project: python-pyeclib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pyeclib-1.5.0-3.el7
+- project: python-pygal
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pygal-2.3.0-2.el7
+- project: python-pyghmi
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pyghmi-1.0.22-1.el7
+- project: python-pyglet
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pyglet-1.2.1-2.el7
+- project: python-pygments
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pygments-2.2.0-7.el7
+- project: python-pykafka
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pykafka-2.6.0-0.1.dev2.el7
+- project: python-pykmip
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pykmip-0.5.0-1.el7
+- project: python-pykwalify
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pykwalify-1.5.1-2.el7
+- project: python-pymemcache
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pymemcache-1.2.5-2.el7
+- project: python-pymongo
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pymongo-3.0.3-1.el7
+- project: python-pyngus
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pyngus-2.0.3-3.el7
+- project: python-pyroute2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pyroute2-0.4.21-1.el7
+- project: python-pysaml2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pysaml2-3.0.2-2.el7
+- project: python-pyside
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pyside-1.2.2-6.el7.1
+- project: python-pysocks
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pysocks-1.5.6-3.el7
+- project: python-pytest-cov
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pytest-cov-2.5.1-1.el7
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-pytimeparse-1.1.5-1.el7
+- project: python-qpid
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-qpid-1.37.0-4.el7.1
+- project: python-queuelib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-queuelib-1.4.2-4.el7
+- project: python-rcssmin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rcssmin-1.0.6-2.el7
+- project: python-rdflib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rdflib-4.1.2-2.el7
+- project: python-redis
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-redis-2.10.3-1.el7
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-repoze-lru-0.4-3.el7
+- project: python-repoze-who
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-repoze-who-2.1-1.el7
+- project: python-requests
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-requests-2.14.2-1.el7
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-requests-kerberos-0.8.0-3.el7
+- project: python-requests-mock
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-requests-mock-1.3.0-1.el7
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-requests_ntlm-0.3.0-4.el7
+- project: python-restkit
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-restkit-4.2.2-2.el7
+- project: python-retrying
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-retrying-1.2.3-4.el7
+- project: python-retryz
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-retryz-0.1.8-1.el7
+- project: python-rfc3986
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rfc3986-0.3.1-1.el7
+- project: python-rjsmin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rjsmin-1.0.12-2.el7
+- project: python-routes
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-routes-2.4.1-1.el7
+- project: python-rsa
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rsa-3.3-2.el7
+- project: python-ryu
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ryu-4.15-1.el7
+- project: python-scales
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-scales-1.0.5-8.el7
+- project: python-scp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-scp-0.10.2-6.el7
+- project: python-scripttest
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-scripttest-1.0.4-7.el7
+- project: python-scrypt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-scrypt-0.8.0-2.el7
+- project: python-scss
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-scss-1.3.4-6.el7
+- project: python-selenium
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-selenium-2.42.1-3.el7
+- project: python-semantic_version
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-semantic_version-2.4.2-1.el7
+- project: python-seqdiag
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-seqdiag-0.9.5-10.el7
+- project: python-service-identity
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-service-identity-14.0.0-4.el7
+- project: python-setproctitle
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-setproctitle-1.1.9-4.el7
+- project: python-setuptools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-setuptools-22.0.5-1.el7
+- project: python-setuptools_scm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-setuptools_scm-1.10.1-1.el7
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-simplegeneric-0.8-7.el7
+- project: python-simplejson
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-simplejson-3.5.3-5.el7
+- project: python-singledispatch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-singledispatch-3.4.0.3-4.el7
+- project: python-six
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-six-1.10.0-9.el7
+- project: python-smmap
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-smmap-0.9.0-5.el7
+- project: python-snappy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-snappy-0.5-8.el7
+- project: python-snowballstemmer
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-snowballstemmer-1.2.0-2.el7
+- project: python-socketpool
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-socketpool-0.5.3-2.el7
+- project: python-speaklater
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-speaklater-1.3-1.el7
+- project: python-sphinx
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinx-1.6.5-1.el7
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinx-argparse-0.2.2-3.el7
+- project: python-sphinx-testing
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinx-testing-0.7.2-1.el7
+- project: python-sphinx-theme-alabaster
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinx-theme-alabaster-0.7.9-4.el7
+- project: python-sphinx_rtd_theme
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinx_rtd_theme-0.2.4-1.el7
+- project: python-sphinxcontrib-actdiag
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-actdiag-0.8.5-1.el7
+- project: python-sphinxcontrib-blockdiag
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-blockdiag-1.5.5-1.el7
+- project: python-sphinxcontrib-httpdomain
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-httpdomain-1.1.8-4.el7
+- project: python-sphinxcontrib-napoleon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-napoleon-0.2.9-1.el7
+- project: python-sphinxcontrib-pecanwsme
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-pecanwsme-0.8.0-3.el7
+- project: python-sphinxcontrib-programoutput
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-programoutput-0.8-6.el7
+- project: python-sphinxcontrib-seqdiag
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-seqdiag-0.8.4-5.el7
+- project: python-sphinxcontrib-websupport
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sphinxcontrib-websupport-1.0.1-1.el7
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sqlalchemy-1.2.2-2.el7
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sqlalchemy-utils-0.31.3-2.el7
+- project: python-sqlite3dbm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sqlite3dbm-0.1.4-6.el7
+- project: python-sqlparse
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sqlparse-0.1.18-5.el7
+- project: python-statsd
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-statsd-3.2.1-5.el7
+- project: python-stestr
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-stestr-2.1.0-1.el7
+- project: python-subprocess32
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-subprocess32-3.2.6-4.el7
+- project: python-subunit2sql
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-subunit2sql-1.8.0-6.1.el7
+- project: python-suds
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-suds-0.7-0.4.94664ddd46a6.el7
+- project: python-sure
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sure-1.4.0-1.el7
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sysv_ipc-0.7.0-4.el7
+- project: python-tables
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tables-3.3.0-4.el7
+- project: python-tablib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tablib-0.10.0-1.el7
+- project: python-tabulate
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tabulate-0.7.5-7.el7
+- project: python-tempita
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tempita-0.5.1-8.el7
+- project: python-tenacity
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tenacity-4.8.0-1.el7
+- project: python-termcolor
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-termcolor-1.1.0-4.el7
+- project: python-testrepository
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-testrepository-0.0.20-12.el7
+- project: python-testresources
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-testresources-1.0.0-6.el7
+- project: python-testscenarios
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-testscenarios-0.5.0-8.el7
+- project: python-testtools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-testtools-1.8.0-2.el7
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tinyrpc-0.5-4.20170523git1f38ac.el7
+- project: python-tornado
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tornado-4.4.2-2.el7
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tosca-parser-0.8.1-1.el7
+- project: python-traceback2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-traceback2-1.4.0-2.el7
+- project: python-trollius
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-trollius-2.0-3.el7
+- project: python-twisted
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-twisted-16.1.1-3.el7
+- project: python-txaio
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-txaio-2.0.4-3.el7
+- project: python-tzlocal
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tzlocal-1.2-4.el7
+- project: python-ucsmsdk
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ucsmsdk-0.9.3.2-1.el7
+- project: python-ujson
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-ujson-1.35-1.el7
+- project: python-unicodecsv
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-unicodecsv-0.14.1-1.el7
+- project: python-unittest2
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-unittest2-1.0.1-1.el7
+- project: python-uri-templates
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-uri-templates-0.6-5.el7
+- project: python-urllib3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-urllib3-1.21.1-1.el7
+- project: python-versiontools
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-versiontools-1.9.1-4.el7
+- project: python-vine
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-vine-1.1.3-2.el7
+- project: python-voluptuous
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-voluptuous-0.10.5-2.el7
+- project: python-waitress
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-waitress-0.8.9-5.el7
+- project: python-warlock
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-warlock-1.0.1-1.el7
+- project: python-weakrefmethod
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-weakrefmethod-1.0.2-3.el7
+- project: python-webcolors
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-webcolors-1.7-4.el7
+- project: python-webob
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-webob-1.7.2-1.el7
+- project: python-websocket-client
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-websocket-client-0.34.0-3.el7
+- project: python-websockify
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-websockify-0.8.0-1.el7
+- project: python-webtest
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-webtest-2.0.23-1.el7
+- project: python-wheel
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-wheel-0.26.0-2.el7
+- project: python-whoosh
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-whoosh-2.5.7-4.el7
+- project: python-winrm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-winrm-0.2.2-3.el7
+- project: python-wrapt
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-wrapt-1.10.8-2.el7
+- project: python-wsaccel
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-wsaccel-0.6.2-8.el7
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-wsgi_intercept-1.2.2-1.el7
+- project: python-xcffib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-xcffib-0.4.2-2.el7
+- project: python-xmltodict
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-xmltodict-0.10.1-1.el7
+- project: python-yaql
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-yaql-1.1.3-2.el7
+- project: python-zake
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-zake-0.2.2-2.el7
+- project: python-zmq
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-zmq-14.7.0-2.el7
+- project: python2-typing
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python2-typing-3.6.1-1.el7
+- project: qhull
+  buildsys-tags:
+    cloud7-openstack-queens-testing: qhull-2015.2-1.el7
+- project: qpid-cpp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: qpid-cpp-1.38.0-1.el7
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud7-openstack-queens-testing: qpid-dispatch-1.1.0-1.el7
+- project: qpid-proton
+  buildsys-tags:
+    cloud7-openstack-queens-testing: qpid-proton-0.22.0-1.el7
+- project: qpid-qmf
+  buildsys-tags:
+    cloud7-openstack-queens-testing: qpid-qmf-0.32-1.el7
+- project: qstat
+  buildsys-tags:
+    cloud7-openstack-queens-testing: qstat-2.11-13.20080912svn311.el7
+- project: rabbitmq-server
+  buildsys-tags:
+    cloud7-openstack-queens-testing: rabbitmq-server-3.6.5-1.el7
+- project: radiusclient-ng
+  buildsys-tags:
+    cloud7-openstack-queens-testing: radiusclient-ng-0.5.6-9.el7
+- project: rally
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-rally-0.11.0-2.el7
+- project: redis
+  buildsys-tags:
+    cloud7-openstack-queens-testing: redis-3.2.8-1.el7
+- project: reno
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-reno-2.7.0-1.el7
+- project: requestsexceptions
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-requestsexceptions-1.4.0-1.el7
+- project: resource-agents
+  buildsys-tags:
+    cloud7-openstack-queens-testing: resource-agents-3.9.5-105.el7_4.8.rdo1
+- project: rsd-lib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rsd-lib-0.1.1-1.el7
+- project: rsdclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-rsdclient-0.1.1-1.el7
+- project: ruby-augeas
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ruby-augeas-0.5.0-1.el7
+- project: ruby-shadow
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ruby-shadow-1.4.1-23.el7
+- project: rubygem-nokogiri
+  buildsys-tags:
+    cloud7-openstack-queens-testing: rubygem-nokogiri-1.6.1-1.el7.1
+- project: rubygem-rgen
+  buildsys-tags:
+    cloud7-openstack-queens-testing: rubygem-rgen-0.6.6-2.el7
+- project: sahara
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-sahara-8.0.2-1.el7
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-sahara-ui-8.0.1-1.el7
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud7-openstack-queens-testing: sahara-image-elements-8.0.1-1.el7
+- project: sahara-tests
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-sahara-tests-0.6.0-2.el7
+- project: saharaclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-saharaclient-1.5.0-1.el7
+- project: scciclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-scciclient-0.6.1-1.el7
+- project: scipy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: scipy-0.18.0-3.el7
+- project: senlin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-senlin-5.0.1-1.el7
+- project: senlinclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-senlinclient-1.7.0-1.el7
+- project: shade
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-shade-1.27.2-1.el7
+- project: shaker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-shaker-1.1.1-1.el7
+- project: shiboken
+  buildsys-tags:
+    cloud7-openstack-queens-testing: shiboken-1.2.4-2.el7
+- project: sip
+  buildsys-tags:
+    cloud7-openstack-queens-testing: sip-4.19-1.el7
+- project: sparsehash
+  buildsys-tags:
+    cloud7-openstack-queens-testing: sparsehash-2.0.2-4.el7
+- project: stevedore
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-stevedore-1.28.0-1.el7
+- project: subunit
+  buildsys-tags:
+    cloud7-openstack-queens-testing: subunit-1.2.0-14.el7
+- project: supervisor
+  buildsys-tags:
+    cloud7-openstack-queens-testing: supervisor-3.3.1-2.el7
+- project: sushy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-sushy-1.3.3-1.el7
+- project: swift
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-swift-2.17.0-1.el7
+- project: swift3
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-swift-plugin-swift3-1.12.0-1.el7
+- project: swiftclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-swiftclient-3.5.0-1.el7
+- project: sympy
+  buildsys-tags:
+    cloud7-openstack-queens-testing: sympy-0.7.6-2.el7
+- project: sysbench
+  buildsys-tags:
+    cloud7-openstack-queens-testing: sysbench-0.4.12-12.el7
+- project: tacker
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tacker-0.9.0-1.el7
+- project: tackerclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tackerclient-0.11.0-1.el7
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tap-as-a-service-3.0.0-1.el7
+- project: taskflow
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-taskflow-3.1.0-1.el7
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-telemetry-tests-tempest-0.0.1-0.1.dbd432egit.el7
+- project: tempest
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tempest-18.0.0-2.el7
+- project: tempest-horizon
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-horizon-tests-tempest-0.0.1-0.1.a23f407git.el7
+- project: tempestconf
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tempestconf-1.1.4-2.el7
+- project: tooz
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tooz-1.60.1-1.el7
+- project: tripleo-common
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-common-8.6.6-1.el7
+- project: tripleo-common-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tripleo-common-tests-tempest-0.0.1-0.1.0eb31c3git.el7
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-heat-templates-8.2.0-1.el7
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-image-elements-8.0.1-1.el7
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ansible-tripleo-ipsec-8.1.0-1.el7
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-puppet-elements-8.0.1-1.el7
+- project: tripleo-ui
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-ui-8.3.2-1.el7
+- project: tripleo-validations
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-tripleo-validations-8.4.4-1.el7
+- project: tripleoclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-tripleoclient-9.2.6-1.el7
+- project: trove
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-trove-9.0.0-1.el7
+- project: trove-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-trove-ui-10.0.0-1.el7
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-trove-tests-tempest-0.0.1-0.1.ac887d2git.el7
+- project: troveclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-troveclient-2.14.0-1.el7
+- project: ttembed
+  buildsys-tags:
+    cloud7-openstack-queens-testing: ttembed-1.1-3.el7
+- project: v8
+  buildsys-tags:
+    cloud7-openstack-queens-testing: v8-3.14.5.10-14.el7
+- project: virtualbmc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-virtualbmc-1.2.0-1.el7
+- project: vitrage
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-vitrage-2.3.0-1.el7
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-vitrage-ui-1.4.2-1.el7
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-vitrage-tests-tempest-1.0.0-1.el7
+- project: vitrageclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-vitrageclient-2.1.0-1.el7
+- project: vmware-nsx
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-vmware-nsx-12.0.1-1.el7
+- project: vmware-nsx-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-vmware-nsx-tests-tempest-0.0.1-0.1.2e3185agit.el7
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-vmware-nsxlib-12.0.1-1.el7
+- project: watcher
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-watcher-1.8.0-1.el7
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-watcher-tests-tempest-0.0.1-0.1.168c024git.el7
+- project: web-assets
+  buildsys-tags:
+    cloud7-openstack-queens-testing: web-assets-5-1.el7
+- project: wsme
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-wsme-0.9.3-1.el7
+- project: wxGTK
+  buildsys-tags:
+    cloud7-openstack-queens-testing: wxGTK-2.8.12-8.el7
+- project: xemacs-packages-base
+  buildsys-tags:
+    cloud7-openstack-queens-testing: xemacs-packages-base-20140715-1.el7
+- project: xemacs-packages-extra
+  buildsys-tags:
+    cloud7-openstack-queens-testing: xemacs-packages-extra-20140715-1.el7
+- project: xqc
+  buildsys-tags:
+    cloud7-openstack-queens-testing: xqc-1.0-0.6.20101120svn7.el7
+- project: xqilla
+  buildsys-tags:
+    cloud7-openstack-queens-testing: xqilla-2.2.4-7.el7
+- project: yaml-cpp
+  buildsys-tags:
+    cloud7-openstack-queens-testing: yaml-cpp-0.5.1-6.el7
+- project: zaqar
+  buildsys-tags:
+    cloud7-openstack-queens-testing: openstack-zaqar-6.0.1-1.el7
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-zaqar-tests-tempest-0.0.1-0.1.92d57f5git.el7
+- project: zaqarclient
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-zaqarclient-1.9.0-1.el7
+- project: zeromq
+  buildsys-tags:
+    cloud7-openstack-queens-testing: zeromq-4.0.5-4.el7

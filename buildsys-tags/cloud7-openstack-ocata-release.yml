@@ -1,0 +1,910 @@
+packages:
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud7-openstack-ocata-release: ansible-pacemaker-1.0.0-1.el7
+- project: aodh
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-aodh-4.0.3-1.el7
+- project: aodhclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-aodhclient-0.8.0-1.el7
+- project: app-catalog-ui
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-app-catalog-ui-1.0.0-1.el7
+- project: automaton
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-automaton-1.7.1-1.el7
+- project: barbican
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-barbican-4.0.0-1.el7
+- project: barbicanclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-barbicanclient-4.2.0-1.el7
+- project: castellan
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-castellan-0.5.0-1.el7
+- project: ceilometer
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ceilometer-8.1.5-1.el7
+- project: ceilometerclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-ceilometerclient-2.8.1-1.el7
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-ceilometermiddleware-1.0.3-1.el7
+- project: cinder
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-cinder-10.0.8-1.el7
+- project: cinderclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cinderclient-1.11.0-1.el7
+- project: cliff
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cliff-2.4.1-1.el7
+- project: cloudkitty
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-cloudkitty-5.0.1-1.el7
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-cloudkitty-ui-5.0.0-1.el7
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cloudkittyclient-1.0.0-1.el7
+- project: congress
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-congress-5.0.0-3.el7
+- project: congressclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-congressclient-1.6.0-1.el7
+- project: cursive
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cursive-0.1.1-1.el7
+- project: debtcollector
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-debtcollector-1.11.0-1.el7
+- project: designate
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-designate-4.0.0-1.el7
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-designate-tests-tempest-0.2.0-1.el7
+- project: designateclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-designateclient-2.6.0-1.el7
+- project: dib-utils
+  buildsys-tags:
+    cloud7-openstack-ocata-release: dib-utils-0.0.11-1.el7
+- project: diskimage-builder
+  buildsys-tags:
+    cloud7-openstack-ocata-release: diskimage-builder-1.28.0-2.el7
+- project: django_openstack_auth
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-django-openstack-auth-3.1.1-1.el7
+- project: dracclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-dracclient-1.1.1-1.el7
+- project: ec2-api
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ec2-api-4.0.0-1.el7
+- project: futurist
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-futurist-0.21.1-1.el7
+- project: glance
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-glance-14.0.1-1.el7
+- project: glance_store
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-glance-store-0.20.0-1.el7
+- project: glanceclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-glanceclient-2.6.0-1.el7
+- project: gnocchi-legacy
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-gnocchi-3.1.16-1.el7
+- project: gnocchiclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-gnocchiclient-3.1.0-1.el7
+- project: go-srpm-macros
+  buildsys-tags:
+    cloud7-openstack-ocata-release: go-srpm-macros-2-17.el7
+- project: golang
+  buildsys-tags:
+    cloud7-openstack-ocata-release: golang-1.11.2-3.el7
+- project: hacking
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-hacking-0.13.0-1.el7
+- project: hardware
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-hardware-0.18-1.el7
+- project: heat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-heat-8.0.7-1.el7
+- project: heat-agents
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-heat-agents-1.0.1-1.el7
+- project: heat-translator
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-heat-translator-0.7.0-1.el7
+- project: heatclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-heatclient-1.8.2-1.el7
+- project: horizon
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-django-horizon-11.0.4-1.el7
+- project: instack
+  buildsys-tags:
+    cloud7-openstack-ocata-release: instack-6.1.0-1.el7
+- project: instack-undercloud
+  buildsys-tags:
+    cloud7-openstack-ocata-release: instack-undercloud-6.1.8-1.el7
+- project: ironic
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ironic-7.0.6-1.el7
+- project: ironic-inspector
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ironic-inspector-5.0.2-1.el7
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-ironic-inspector-client-1.11.0-1.el7
+- project: ironic-lib
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-ironic-lib-2.5.4-1.el7
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ironic-python-agent-2.0.3-1.el7
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ironic-staging-drivers-0.6.0-1.el7
+- project: ironic-ui
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-ironic-ui-2.2.2-1.el7
+- project: ironicclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-ironicclient-1.11.2-1.el7
+- project: keystone
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-keystone-11.0.4-1.el7
+- project: keystoneauth1
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-keystoneauth1-2.18.0-1.el7
+- project: keystoneclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-keystoneclient-3.10.0-1.el7
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-keystonemiddleware-4.14.0-1.el7
+- project: kolla
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-kolla-4.0.5-1.el7
+- project: magnum
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-magnum-4.1.4-1.el7
+- project: magnum-ui
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-magnum-ui-2.2.0-1.el7
+- project: magnumclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-magnumclient-2.5.0-1.el7
+- project: manila
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-manila-4.0.2-1.el7
+- project: manila-ui
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-manila-ui-2.7.1-1.el7
+- project: manilaclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-manilaclient-1.14.0-1.el7
+- project: microversion-parse
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-microversion-parse-0.1.4-1.el7
+- project: mistral
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-mistral-4.0.2-1.el7
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-mistral-ui-4.0.0-1.el7
+- project: mistralclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-mistralclient-3.0.2-1.el7
+- project: monascaclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-monascaclient-1.5.1-1.el7
+- project: mox3
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-mox3-0.20.0-1.el7
+- project: murano
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-murano-3.2.0-1.el7
+- project: murano-agent
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-murano-agent-3.2.0-1.el7
+- project: murano-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-murano-ui-3.2.0-1.el7
+- project: muranoclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-muranoclient-0.12.0-1.el7
+- project: networking-arista
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-arista-2017.1.3-1.el7
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-bagpipe-6.0.0-1.el7
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-bgpvpn-6.0.0-1.el7
+- project: networking-bigswitch
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-bigswitch-10.0.4-1.el7
+- project: networking-cisco
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-cisco-5.5.2-2.el7
+- project: networking-fujitsu
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-fujitsu-4.0.1-1.el7
+- project: networking-l2gw
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-l2gw-10.0.0-1.el7
+- project: networking-mlnx
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-mlnx-10.0.0-1.el7
+- project: networking-odl
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-odl-4.0.0-1.el7
+- project: networking-ovn
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-ovn-2.0.1-1.el7
+- project: networking-sfc
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-sfc-4.0.0-1.el7
+- project: neutron
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-neutron-10.0.7-1.el7
+- project: neutron-fwaas
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-neutron-fwaas-10.1.0-1.el7
+- project: neutron-lbaas
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-neutron-lbaas-10.0.1-1.el7
+- project: neutron-lbaas-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-neutron-lbaas-ui-2.0.0-2.el7
+- project: neutron-lib
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-neutron-lib-1.1.0-1.el7
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-neutron-vpnaas-10.0.0-1.el7
+- project: neutronclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-neutronclient-6.1.1-1.el7
+- project: nova
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-nova-15.1.5-1.el7
+- project: novaclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-novaclient-7.1.2-1.el7
+- project: novajoin
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-novajoin-1.0.11-1.el7
+- project: octavia
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-octavia-0.10.0-1.el7
+- project: openstack-puppet-modules
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-puppet-modules-10.0.0-1.el7
+- project: openstack-tripleo-ui-deps
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-ui-deps-3-4.el7
+- project: openstackclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-openstackclient-3.8.2-1.el7
+- project: openstacksdk
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-openstacksdk-0.9.13-1.el7
+- project: openvswitch
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openvswitch-2.9.0-3.el7
+- project: os-apply-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: os-apply-config-6.1.3-1.el7
+- project: os-brick
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-os-brick-1.11.1-1.el7
+- project: os-client-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-os-client-config-1.26.0-1.el7
+- project: os-cloud-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: os-cloud-config-6.0.0-1.el7
+- project: os-collect-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: os-collect-config-6.1.3-1.el7
+- project: os-faults
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-os-faults-0.1.11-1.el7
+- project: os-net-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: os-net-config-6.1.5-1.el7
+- project: os-refresh-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: os-refresh-config-6.1.1-1.el7
+- project: os-testr
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-os-testr-0.8.0-1.el7
+- project: os-vif
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-os-vif-1.4.1-1.el7
+- project: os-win
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-os-win-1.4.2-1.el7
+- project: osc-lib
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-osc-lib-1.3.1-1.el7
+- project: oslo-cache
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-cache-1.17.0-1.el7
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-concurrency-3.18.1-1.el7
+- project: oslo-config
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-config-3.22.2-1.el7
+- project: oslo-context
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-context-2.12.2-1.el7
+- project: oslo-db
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-db-4.17.1-1.el7
+- project: oslo-i18n
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-i18n-3.12.0-1.el7
+- project: oslo-log
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-log-3.20.1-2.el7
+- project: oslo-messaging
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-messaging-5.17.4-1.el7
+- project: oslo-middleware
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-middleware-3.23.2-1.el7
+- project: oslo-policy
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-policy-1.18.0-1.el7
+- project: oslo-privsep
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-privsep-1.16.0-1.el7
+- project: oslo-reports
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-reports-1.17.1-1.el7
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-rootwrap-5.4.2-1.el7
+- project: oslo-serialization
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-serialization-2.16.1-1.el7
+- project: oslo-service
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-service-1.19.1-1.el7
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-sphinx-4.10.1-1.el7
+- project: oslo-utils
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-utils-3.22.3-1.el7
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-versionedobjects-1.21.1-1.el7
+- project: oslo-vmware
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslo-vmware-2.17.1-1.el7
+- project: oslotest
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-oslotest-2.13.1-1.el7
+- project: osprofiler
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-osprofiler-1.5.0-1.el7
+- project: packstack
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-packstack-10.0.1-1.el7
+- project: panko
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-panko-2.0.3-1.el7
+- project: proliantutils
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-proliantutils-2.2.0-1.el7
+- project: puppet
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-4.6.2-2.el7
+- project: puppet-aodh
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-aodh-10.4.1-1.el7
+- project: puppet-apache
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-apache-1.11.0-1.58207d3git.el7
+- project: puppet-auditd
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-auditd-2.2.0-1.el7
+- project: puppet-barbican
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-barbican-10.4.0-1.el7
+- project: puppet-cassandra
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-cassandra-2.3.0-1.fb0402cgit.el7
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ceilometer-10.4.0-1.el7
+- project: puppet-ceph
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ceph-2.4.1-1.el7
+- project: puppet-certmonger
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-certmonger-1.1.1-2.el7
+- project: puppet-cinder
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-cinder-10.4.0-1.el7
+- project: puppet-collectd
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-collectd-5.3.0-1.eb1e0a9git.el7
+- project: puppet-concat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-concat-2.2.0-3.66022dcgit.el7
+- project: puppet-congress
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-congress-10.4.0-1.el7
+- project: puppet-contrail
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-contrail-1.0.0-2.9a890f3git.el7
+- project: puppet-corosync
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-corosync-5.0.0-3.f438aa5git.el7
+- project: puppet-datacat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-datacat-0.6.2-2.93b88b7git.el7
+- project: puppet-designate
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-designate-10.4.0-1.el7
+- project: puppet-dns
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-dns-4.0.0-1.88fe0f0git.el7
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ec2api-10.4.0-1.el7
+- project: puppet-elasticsearch
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-elasticsearch-0.15.1-1.4c5c58cgit.el7
+- project: puppet-etcd
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-etcd-1.10.0-1.81dd85bgit.el7
+- project: puppet-fdio
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-fdio-0.0.1-1.9326e42git.el7
+- project: puppet-firewall
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-firewall-1.8.2-1.463ec1dgit.el7
+- project: puppet-fluentd
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-fluentd-0.9.0-1.el7
+- project: puppet-git
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-git-0.4.0-3.4e4498egit.el7
+- project: puppet-glance
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-glance-10.4.0-1.el7
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-gnocchi-10.4.0-1.el7
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-haproxy-1.5.0-3.f6fed46git.el7
+- project: puppet-heat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-heat-10.4.0-1.el7
+- project: puppet-horizon
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-horizon-10.6.0-1.el7
+- project: puppet-inifile
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-inifile-1.6.0-3.936ed07git.el7
+- project: puppet-ipaclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ipaclient-2.5.1-1.el7
+- project: puppet-ironic
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ironic-10.5.0-1.el7
+- project: puppet-java
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-java-1.6.0-3.6605e34git.el7
+- project: puppet-kafka
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-kafka-2.2.0-1.066d7a5git.el7
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+- project: puppet-keystone
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-keystone-10.4.0-1.el7
+- project: puppet-kibana3
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
+- project: puppet-kmod
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-kmod-2.1.1-3.924ee85git.el7
+- project: puppet-lib-file_concat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-lib-file_concat-1.0.1-1.813132bgit.el7
+- project: puppet-magnum
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-magnum-10.4.0-1.el7
+- project: puppet-manila
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-manila-10.4.0-1.el7
+- project: puppet-memcached
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-memcached-3.0.1-1.el7
+- project: puppet-midonet
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-midonet-1.1.0-1.el7
+- project: puppet-mistral
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-mistral-10.4.0-1.el7
+- project: puppet-module-data
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-module-data-0.5.1-1.28dafcegit.el7
+- project: puppet-mongodb
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-mongodb-0.17.0-1.ed8d47bgit.el7
+- project: puppet-mysql
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-mysql-3.10.0-2.aec7383git.el7
+- project: puppet-n1k-vsm
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+- project: puppet-neutron
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-neutron-10.4.0-1.el7
+- project: puppet-nova
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-nova-10.5.0-1.el7
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-nssdb-1.0.1-1.el7
+- project: puppet-ntp
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ntp-4.2.0-2.el7
+- project: puppet-octavia
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-octavia-10.4.0-1.el7
+- project: puppet-opendaylight
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-opendaylight-4.0.0-1.el7
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-openstack_extras-10.4.0-1.el7
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-openstacklib-10.5.0-1.el7
+- project: puppet-oslo
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-oslo-10.4.0-1.el7
+- project: puppet-ovn
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ovn-10.5.0-1.el7
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-pacemaker-0.5.0-2.7403757git.el7
+- project: puppet-panko
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-panko-10.4.0-1.el7
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-powerdns-0.0.5-1.8996515git.el7
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-rabbitmq-5.6.0-4.5ac45degit.el7
+- project: puppet-redis
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-redis-1.2.4-1.a2d6395git.el7
+- project: puppet-remote
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-remote-0.0.1-2.2d3a477git.el7
+- project: puppet-rsync
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-rsync-0.4.0-1.8cc3c6fgit.el7
+- project: puppet-sahara
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-sahara-10.4.0-1.el7
+- project: puppet-sensu
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-sensu-2.2.0-1.ca45853git.el7
+- project: puppet-snmp
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-snmp-3.6.0-1.7d4c97cgit.el7
+- project: puppet-ssh
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-ssh-3.0.1-2.el7
+- project: puppet-staging
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-staging-1.0.4-1.b466d93git.el7
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-stdlib-4.14.0-1.db8c1fbgit.el7
+- project: puppet-swift
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-swift-10.4.0-1.el7
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-sysctl-0.0.11-1.el7
+- project: puppet-systemd
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-systemd-0.4.0-2.70c418cgit.el7
+- project: puppet-tacker
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-tacker-10.4.0-1.el7
+- project: puppet-tempest
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-tempest-10.4.0-1.el7
+- project: puppet-timezone
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-timezone-3.4.0-1.el7
+- project: puppet-tomcat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-tomcat-1.6.1-1.2b9e169git.el7
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-tripleo-6.5.15-1.el7
+- project: puppet-trove
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-trove-10.4.0-1.el7
+- project: puppet-uchiwa
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-uchiwa-1.0.1-2.8095b7cgit.el7
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-vcsrepo-1.5.0-1.247c33cgit.el7
+- project: puppet-vlan
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-vlan-0.1.0-1.el7
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-vswitch-6.4.0-1.el7
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-xinetd-2.0.0-3.9beb441git.el7
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-zaqar-10.4.0-1.el7
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud7-openstack-ocata-release: puppet-zookeeper-0.7.1-1.9383fdagit.el7
+- project: pyOpenSSL
+  buildsys-tags:
+    cloud7-openstack-ocata-release: pyOpenSSL-16.2.0-3.el7
+- project: pycadf
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-pycadf-2.5.0-1.el7
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-Angular-1.5.8.0-1.el7
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-1.el7
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-D3-3.5.17.0-1.el7
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-Font-Awesome-4.7.0.0-3.el7
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-JSEncrypt-2.3.1.1-1.el7
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-bootswatch-3.3.7.0-1.el7
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-XStatic-roboto-fontface-0.5.0.0-1.el7
+- project: python-alembic
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-alembic-0.8.10-1.el7
+- project: python-cachetools
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cachetools-1.1.6-2.el7
+- project: python-cotyledon
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cotyledon-1.6.3-1.el7
+- project: python-cryptography
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cryptography-1.7.2-1.el7
+- project: python-cryptography-vectors
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-cryptography-vectors-1.7.2-1.el7
+- project: python-django-compressor
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-django-compressor-2.0-1.el7
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-django-pyscss-2.0.2-1.el7
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-dogpile-cache-0.6.2-1.el7
+- project: python-eventlet
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-eventlet-0.18.4-2.el7
+- project: python-falcon
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-falcon-0.3.0-5.el7
+- project: python-funcsigs
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-funcsigs-1.0.2-1.el7
+- project: python-kafka
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-kafka-1.3.1-1.el7
+- project: python-mock
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-mock-2.0.0-1.el7
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-murano-pkg-check-0.3.0-2.el7
+- project: python-paramiko
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-paramiko-2.0.0-1.el7
+- project: python-pbr
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-pbr-1.10.0-1.el7
+- project: python-pecan
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-pecan-1.1.2-1.el7
+- project: python-positional
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-positional-1.1.1-2.el7
+- project: python-psutil
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-psutil-5.0.1-2.el7
+- project: python-pysocks
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-pysocks-1.5.6-3.el7
+- project: python-rcssmin
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-rcssmin-1.0.6-2.el7
+- project: python-requests-mock
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-requests-mock-1.1.0-1.el7
+- project: python-rjsmin
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-rjsmin-1.0.12-2.el7
+- project: python-ryu
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-ryu-4.9-2.el7
+- project: python-scss
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-scss-1.3.4-1.el7
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-tosca-parser-0.7.0-1.el7
+- project: python-webob
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-webob-1.6.1-2.el7
+- project: rally
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-rally-0.9.1-1.el7
+- project: reno
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-reno-2.2.1-1.el7
+- project: sahara
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-sahara-6.0.3-1.el7
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-sahara-ui-6.0.3-1.el7
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud7-openstack-ocata-release: sahara-image-elements-6.0.3-1.el7
+- project: sahara-tests
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-sahara-tests-0.4.1-1.el7
+- project: saharaclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-saharaclient-1.1.0-1.el7
+- project: shaker
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-shaker-0.0.17-1.el7
+- project: stevedore
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-stevedore-1.20.1-1.el7
+- project: swift
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-swift-2.13.1-1.el7
+- project: swift3
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-swift-plugin-swift3-1.11.0-1.el7
+- project: swiftclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-swiftclient-3.3.0-1.el7
+- project: tacker
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tacker-0.7.0-1.el7
+- project: tackerclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-tackerclient-0.9.0-1.el7
+- project: taskflow
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-taskflow-2.9.1-1.el7
+- project: tempest
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tempest-16.1.0-4.el7
+- project: tempest-horizon
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-horizon-tests-tempest-0.0.1-0.2.b6f352dgit.el7
+- project: tempestconf
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-tempestconf-1.1.2-1.el7
+- project: tooz
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-tooz-1.48.2-1.el7
+- project: tripleo-common
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-common-6.1.7-1.el7
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-6.2.16-1.el7
+- project: tripleo-heat-templates-compat
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-heat-templates-compat-5.2.0-1.el7
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-image-elements-6.1.3-1.el7
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-puppet-elements-6.2.5-1.el7
+- project: tripleo-ui
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-ui-3.2.2-1.el7
+- project: tripleo-validations
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-tripleo-validations-5.6.4-1.el7
+- project: tripleoclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-tripleoclient-6.2.5-1.el7
+- project: trove
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-trove-7.0.0-1.el7
+- project: trove-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-trove-ui-8.0.0-1.el7
+- project: troveclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-troveclient-2.8.0-1.el7
+- project: virtualbmc
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-virtualbmc-1.0.0-1.el7
+- project: vitrage
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-vitrage-1.5.2-1.el7
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-vitrage-ui-1.1.1-1.el7
+- project: vitrageclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-vitrageclient-1.1.2-1.el7
+- project: vmware-nsx
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-networking-vmware-nsx-10.0.0-1.el7
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-vmware-nsxlib-0.7.0-1.el7
+- project: watcher
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-watcher-1.0.1-1.el7
+- project: zaqar
+  buildsys-tags:
+    cloud7-openstack-ocata-release: openstack-zaqar-4.0.0-1.el7
+- project: zaqarclient
+  buildsys-tags:
+    cloud7-openstack-ocata-release: python-zaqarclient-1.4.0-1.el7
