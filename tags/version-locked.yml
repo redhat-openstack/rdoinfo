@@ -1,0 +1,16 @@
+packages:
+- project: ceilometer
+  tags:
+    version-locked:
+- project: ceilometerclient
+  tags:
+    version-locked:
+- project: gnocchiclient
+  tags:
+    version-locked:
+- project: os-cloud-config
+  tags:
+    version-locked:
+- project: tap-as-a-service
+  tags:
+    version-locked:

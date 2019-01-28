@@ -1,0 +1,1042 @@
+packages:
+- project: UcsSdk
+  tags:
+    pike:
+      source-branch: bf6b07d6abeacb922c92b198352eda4eb9e4629b
+- project: ansible-pacemaker
+  tags:
+    pike:
+      source-branch: 0e4d7c02f956af7d57d4c4e3b6827995b0a053a2
+- project: ansible-role-redhat-subscription
+  tags:
+    pike:
+      source-branch: master
+- project: aodh
+  tags:
+    pike:
+- project: aodhclient
+  tags:
+    pike:
+      source-branch: 0.9.0
+- project: app-catalog-ui
+  tags:
+    pike:
+      source-branch: 4f5e9f658b309b361f0148945a0a1ae63621090d
+- project: automaton
+  tags:
+    pike:
+      source-branch: 1.12.1
+- project: barbican
+  tags:
+    pike:
+- project: barbican-tempest-plugin
+  tags:
+    pike:
+- project: barbicanclient
+  tags:
+    pike:
+      source-branch: 4.5.3
+- project: castellan
+  tags:
+    pike:
+      source-branch: 0.12.2
+- project: ceilometer
+  tags:
+    pike:
+- project: ceilometerclient
+  tags:
+    pike:
+      source-branch: 2.9.0
+- project: ceilometermiddleware
+  tags:
+    pike:
+      source-branch: 1.1.0
+- project: cinder
+  tags:
+    pike:
+- project: cinderclient
+  tags:
+    pike:
+      source-branch: 3.1.0
+- project: cliff
+  tags:
+    pike:
+      source-branch: 2.8.2
+- project: cloudkitty
+  tags:
+    pike:
+- project: cloudkitty-dashboard
+  tags:
+    pike:
+- project: cloudkittyclient
+  tags:
+    pike:
+- project: congress
+  tags:
+    pike:
+- project: congressclient
+  tags:
+    pike:
+      source-branch: 1.8.0
+- project: cursive
+  tags:
+    pike:
+      source-branch: 0.1.2
+- project: debtcollector
+  tags:
+    pike:
+      source-branch: 1.17.1
+- project: designate
+  tags:
+    pike:
+- project: designate-dashboard
+  tags:
+    pike:
+- project: designate-tempest-plugin
+  tags:
+    pike:
+      source-branch: 0.3.0
+- project: designateclient
+  tags:
+    pike:
+      source-branch: 2.7.0
+- project: dib-utils
+  tags:
+    pike:
+      source-branch: 0.0.11
+- project: diskimage-builder
+  tags:
+    pike:
+      source-branch: 8f025691bacd6e945fb522697f17461dd31c0330
+- project: django_openstack_auth
+  tags:
+    pike:
+- project: dracclient
+  tags:
+    pike:
+      source-branch: 5e9b27ee97b40f87d2cf65a53fcea6860a7a4731
+- project: ec2-api
+  tags:
+    pike:
+- project: futurist
+  tags:
+    pike:
+      source-branch: 1.3.1
+- project: glance
+  tags:
+    pike:
+- project: glance_store
+  tags:
+    pike:
+- project: glanceclient
+  tags:
+    pike:
+      source-branch: 2.8.0
+- project: glare
+  tags:
+    pike:
+- project: glareclient
+  tags:
+    pike:
+      source-branch: 0.4.3
+- project: gnocchi-legacy
+  tags:
+    pike:
+      source-branch: stable/4.0
+- project: gnocchiclient
+  tags:
+    pike:
+      source-branch: 3.3.1
+- project: hacking
+  tags:
+    pike:
+      source-branch: 59c9c41394b28df4f5670eacec57f5ab79fc85da
+- project: hardware
+  tags:
+    pike:
+      source-branch: f6492106beca1ba4c2f824e7fc816e917f989aa1
+- project: heat
+  tags:
+    pike:
+- project: heat-agents
+  tags:
+    pike:
+- project: heat-translator
+  tags:
+    pike:
+      source-branch: 0.9.0
+- project: heatclient
+  tags:
+    pike:
+      source-branch: 1.11.1
+- project: horizon
+  tags:
+    pike:
+- project: instack
+  tags:
+    pike:
+- project: instack-undercloud
+  tags:
+    pike:
+- project: ironic
+  tags:
+    pike:
+- project: ironic-inspector
+  tags:
+    pike:
+- project: ironic-inspector-client
+  tags:
+    pike:
+      source-branch: 2.1.0
+- project: ironic-lib
+  tags:
+    pike:
+      source-branch: 2.10.1
+- project: ironic-python-agent
+  tags:
+    pike:
+- project: ironic-staging-drivers
+  tags:
+    pike:
+- project: ironic-ui
+  tags:
+    pike:
+- project: ironicclient
+  tags:
+    pike:
+      source-branch: 1.17.0
+- project: keystone
+  tags:
+    pike:
+- project: keystone-tempest-plugin
+  tags:
+    pike:
+- project: keystoneauth1
+  tags:
+    pike:
+      source-branch: 3.1.0
+- project: keystoneclient
+  tags:
+    pike:
+      source-branch: 3.13.0
+- project: keystonemiddleware
+  tags:
+    pike:
+      source-branch: 4.17.0
+- project: kolla
+  tags:
+    pike:
+- project: kuryr
+  tags:
+    pike:
+      source-branch: da736d115bfeb10c9adf8d019696203bba5cbf8d
+- project: kuryr-kubernetes
+  tags:
+    pike:
+- project: kuryr-tempest-plugin
+  tags:
+    pike:
+- project: magnum
+  tags:
+    pike:
+- project: magnum-ui
+  tags:
+    pike:
+- project: magnumclient
+  tags:
+    pike:
+      source-branch: 2.7.0
+- project: manila
+  tags:
+    pike:
+- project: manila-ui
+  tags:
+    pike:
+- project: manilaclient
+  tags:
+    pike:
+      source-branch: 1.17.3
+- project: microversion-parse
+  tags:
+    pike:
+      source-branch: 0.1.4
+- project: mistral
+  tags:
+    pike:
+- project: mistral-dashboard
+  tags:
+    pike:
+- project: mistral-lib
+  tags:
+    pike:
+      source-branch: 0.3.3
+- project: mistralclient
+  tags:
+    pike:
+      source-branch: 3.1.4
+- project: monascaclient
+  tags:
+    pike:
+      source-branch: 1.7.1
+- project: mox3
+  tags:
+    pike:
+      source-branch: 0.23.0
+- project: murano
+  tags:
+    pike:
+- project: murano-agent
+  tags:
+    pike:
+- project: murano-dashboard
+  tags:
+    pike:
+- project: muranoclient
+  tags:
+    pike:
+      source-branch: 0.14.0
+- project: networking-arista
+  tags:
+    pike:
+- project: networking-bagpipe
+  tags:
+    pike:
+- project: networking-bgpvpn
+  tags:
+    pike:
+- project: networking-bigswitch
+  tags:
+    pike:
+- project: networking-cisco
+  tags:
+    pike:
+      source-branch: 6.1.0
+- project: networking-fujitsu
+  tags:
+    pike:
+- project: networking-l2gw
+  tags:
+    pike:
+- project: networking-mlnx
+  tags:
+    pike:
+- project: networking-odl
+  tags:
+    pike:
+- project: networking-ovn
+  tags:
+    pike:
+- project: networking-sfc
+  tags:
+    pike:
+- project: neutron
+  tags:
+    pike:
+- project: neutron-fwaas
+  tags:
+    pike:
+- project: neutron-lbaas
+  tags:
+    pike:
+- project: neutron-lbaas-dashboard
+  tags:
+    pike:
+- project: neutron-lib
+  tags:
+    pike:
+      source-branch: 1.9.1
+- project: neutron-vpnaas
+  tags:
+    pike:
+- project: neutronclient
+  tags:
+    pike:
+      source-branch: 6.5.0
+- project: nova
+  tags:
+    pike:
+- project: novaclient
+  tags:
+    pike:
+      source-branch: 9.1.2
+- project: novajoin
+  tags:
+    pike:
+      source-branch: 4d997dddc6f5c2b6a3592f1ffedba3c286e9152b
+- project: octavia
+  tags:
+    pike:
+- project: openstack-macros
+  tags:
+    pike:
+- project: openstack-puppet-modules
+  tags:
+    pike:
+- project: openstack-selinux
+  tags:
+    pike:
+      source-branch: master
+- project: openstackclient
+  tags:
+    pike:
+      source-branch: 3.12.1
+- project: openstacksdk
+  tags:
+    pike:
+      source-branch: 0.9.17
+- project: os-apply-config
+  tags:
+    pike:
+- project: os-brick
+  tags:
+    pike:
+      source-branch: 1.15.6
+- project: os-client-config
+  tags:
+    pike:
+      source-branch: 1.28.0
+- project: os-collect-config
+  tags:
+    pike:
+- project: os-faults
+  tags:
+    pike:
+- project: os-net-config
+  tags:
+    pike:
+- project: os-refresh-config
+  tags:
+    pike:
+- project: os-testr
+  tags:
+    pike:
+      source-branch: 1.0.0
+- project: os-traits
+  tags:
+    pike:
+      source-branch: 0.3.3
+- project: os-vif
+  tags:
+    pike:
+      source-branch: 1.7.1
+- project: os-win
+  tags:
+    pike:
+      source-branch: 2.2.0
+- project: os-xenapi
+  tags:
+    pike:
+      source-branch: 0.2.0
+- project: osc-lib
+  tags:
+    pike:
+      source-branch: 1.7.0
+- project: oslo-cache
+  tags:
+    pike:
+      source-branch: 1.25.1
+- project: oslo-concurrency
+  tags:
+    pike:
+      source-branch: 3.21.1
+- project: oslo-config
+  tags:
+    pike:
+      source-branch: 4.11.1
+- project: oslo-context
+  tags:
+    pike:
+      source-branch: 2.17.1
+- project: oslo-db
+  tags:
+    pike:
+      source-branch: 4.25.2
+- project: oslo-i18n
+  tags:
+    pike:
+      source-branch: 3.17.1
+- project: oslo-log
+  tags:
+    pike:
+      source-branch: 3.30.2
+- project: oslo-messaging
+  tags:
+    pike:
+      source-branch: 5.30.7
+- project: oslo-middleware
+  tags:
+    pike:
+      source-branch: 3.30.1
+- project: oslo-policy
+  tags:
+    pike:
+      source-branch: 1.25.3
+- project: oslo-privsep
+  tags:
+    pike:
+      source-branch: 1.22.1
+- project: oslo-reports
+  tags:
+    pike:
+      source-branch: 1.22.1
+- project: oslo-rootwrap
+  tags:
+    pike:
+      source-branch: 5.9.2
+- project: oslo-serialization
+  tags:
+    pike:
+      source-branch: 2.20.2
+- project: oslo-service
+  tags:
+    pike:
+      source-branch: 1.25.1
+- project: oslo-sphinx
+  tags:
+    pike:
+- project: oslo-utils
+  tags:
+    pike:
+      source-branch: 3.28.3
+- project: oslo-versionedobjects
+  tags:
+    pike:
+      source-branch: 1.26.2
+- project: oslo-vmware
+  tags:
+    pike:
+      source-branch: 2.23.1
+- project: oslotest
+  tags:
+    pike:
+      source-branch: 2.17.1
+- project: osops-tools-monitoring-oschecks
+  tags:
+    pike:
+- project: osprofiler
+  tags:
+    pike:
+      source-branch: 1.11.0
+- project: ovsdbapp
+  tags:
+    pike:
+      source-branch: 0.4.3
+- project: packstack
+  tags:
+    pike:
+- project: panko
+  tags:
+    pike:
+- project: pankoclient
+  tags:
+    pike:
+      source-branch: 0.3.0
+- project: patrole
+  tags:
+    pike:
+- project: paunch
+  tags:
+    pike:
+      source-branch: 1.5.5
+- project: proliantutils
+  tags:
+    pike:
+      source-branch: 2.4.0
+- project: puppet-aodh
+  tags:
+    pike:
+- project: puppet-apache
+  tags:
+    pike:
+      source-branch: e31a6825eb394f4cdf77cffa5fe7dadba89bc7b0
+- project: puppet-archive
+  tags:
+    pike:
+      source-branch: v2.2.0
+- project: puppet-auditd
+  tags:
+    pike:
+      source-branch: cbeda30952eaa244785082be5fdcd85f47c2f0bf
+- project: puppet-barbican
+  tags:
+    pike:
+- project: puppet-cassandra
+  tags:
+    pike:
+      source-branch: d180a6c4c2842c06acbb4ab15856cf0f866062bc
+- project: puppet-ceilometer
+  tags:
+    pike:
+- project: puppet-ceph
+  tags:
+    pike:
+      source-branch: stable/jewel
+- project: puppet-certmonger
+  tags:
+    pike:
+      source-branch: ef9457ca650b652547fa99644b8a27de01b3db50
+- project: puppet-cinder
+  tags:
+    pike:
+- project: puppet-collectd
+  tags:
+    pike:
+      source-branch: b995bdacb244c0416f74ff2414475def8d573e95
+- project: puppet-concat
+  tags:
+    pike:
+      source-branch: b783e1e99def0bf45a391a2ebce5a39bd4174e11
+- project: puppet-congress
+  tags:
+    pike:
+- project: puppet-contrail
+  tags:
+    pike:
+      source-branch: 90128d1703d025c8d09bc8839382332f0c7fdae9
+- project: puppet-corosync
+  tags:
+    pike:
+      source-branch: 527cda5b119803b5fa7cb3605ad7c98c78ec18cb
+- project: puppet-datacat
+  tags:
+    pike:
+      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+- project: puppet-designate
+  tags:
+    pike:
+- project: puppet-dns
+  tags:
+    pike:
+      source-branch: d0c02af491cc2341607ca4bb068115ffc1eb0565
+- project: puppet-ec2api
+  tags:
+    pike:
+- project: puppet-elasticsearch
+  tags:
+    pike:
+      source-branch: 36c01db5b37837a474051e16c97db4950f8ed4ce
+- project: puppet-etcd
+  tags:
+    pike:
+      source-branch: f43e1292a9554766f799cd5a14b67cc19ce5b00e
+- project: puppet-fdio
+  tags:
+    pike:
+      source-branch: d9ad6d211b86111bdca6b78891808a1bbdec86d2
+- project: puppet-firewall
+  tags:
+    pike:
+      source-branch: 2f892e904162117e45daeb2ddaa955135b5c1c6b
+- project: puppet-fluentd
+  tags:
+    pike:
+      source-branch: b34d2bef2193e08dd5e44c5f04e6a83ab5553e8b
+- project: puppet-git
+  tags:
+    pike:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+- project: puppet-glance
+  tags:
+    pike:
+- project: puppet-gnocchi
+  tags:
+    pike:
+- project: puppet-haproxy
+  tags:
+    pike:
+      source-branch: 6ffcb071cce02735a831bf1b9bc4f7e83f3e53c5
+- project: puppet-heat
+  tags:
+    pike:
+- project: puppet-horizon
+  tags:
+    pike:
+- project: puppet-inifile
+  tags:
+    pike:
+      source-branch: 16fd47d7c74e9bf44ec6f6a9197f16e9a3f57092
+- project: puppet-ipaclient
+  tags:
+    pike:
+      source-branch: 052dd074420b6a2a494e86b2c03020be57940205
+- project: puppet-ironic
+  tags:
+    pike:
+- project: puppet-java
+  tags:
+    pike:
+      source-branch: 43aa9af1b258abfb671b640867dbafc67681565e
+- project: puppet-kafka
+  tags:
+    pike:
+      source-branch: 8da0480b9a1bcc8adcdaa6e309978c0e4aff49ef
+- project: puppet-keepalived
+  tags:
+    pike:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+- project: puppet-keystone
+  tags:
+    pike:
+- project: puppet-kibana3
+  tags:
+    pike:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+- project: puppet-kmod
+  tags:
+    pike:
+      source-branch: b4d8db2a92fb9aaa98c0d68dcfd3795cc7b5249b
+- project: puppet-lib-file_concat
+  tags:
+    pike:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+- project: puppet-magnum
+  tags:
+    pike:
+- project: puppet-manila
+  tags:
+    pike:
+- project: puppet-memcached
+  tags:
+    pike:
+      source-branch: adf8b634759d4ff9fc43e723a35698bc6f2c3e2f
+- project: puppet-midonet
+  tags:
+    pike:
+- project: puppet-mistral
+  tags:
+    pike:
+- project: puppet-module-data
+  tags:
+    pike:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+- project: puppet-mongodb
+  tags:
+    pike:
+      source-branch: 2feae027bcee4c3cf5957d81b7edc6fd5905b3c0
+- project: puppet-murano
+  tags:
+    pike:
+- project: puppet-mysql
+  tags:
+    pike:
+      source-branch: 920dd76214d87d9b26f0db105886ee89ac266c4e
+- project: puppet-n1k-vsm
+  tags:
+    pike:
+      source-branch: 91772fa53dd3ed2686d2e8b0303c77ea6faefe68
+- project: puppet-neutron
+  tags:
+    pike:
+- project: puppet-nova
+  tags:
+    pike:
+- project: puppet-nssdb
+  tags:
+    pike:
+      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+- project: puppet-ntp
+  tags:
+    pike:
+      source-branch: 4.2.x
+- project: puppet-octavia
+  tags:
+    pike:
+- project: puppet-opendaylight
+  tags:
+    pike:
+      source-branch: stable/carbon
+- project: puppet-openstack_extras
+  tags:
+    pike:
+- project: puppet-openstacklib
+  tags:
+    pike:
+- project: puppet-oslo
+  tags:
+    pike:
+- project: puppet-ovn
+  tags:
+    pike:
+- project: puppet-pacemaker
+  tags:
+    pike:
+      source-branch: b21823aa86f80511b63fdd59533b7a7077c8ac56
+- project: puppet-panko
+  tags:
+    pike:
+- project: puppet-powerdns
+  tags:
+    pike:
+      source-branch: 899651549b6d57470d233321265ace862270e154
+- project: puppet-qdr
+  tags:
+    pike:
+      source-branch: 1c4246458420abc0561c4e8edb233322c57c423b
+- project: puppet-rabbitmq
+  tags:
+    pike:
+      source-branch: 0ec48b31d4ac2b0dda44ace71abc9b8b6f5f4c66
+- project: puppet-redis
+  tags:
+    pike:
+      source-branch: 8c61533fb8224edce02c633f28bf5eee1aa9b8c6
+- project: puppet-remote
+  tags:
+    pike:
+      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+- project: puppet-rsync
+  tags:
+    pike:
+      source-branch: 295cfce277ce6e7efb5589fa7238927886aba43f
+- project: puppet-sahara
+  tags:
+    pike:
+- project: puppet-sensu
+  tags:
+    pike:
+      source-branch: c99f0d261fcf68edbd27706cc391f06a3006c4f5
+- project: puppet-snmp
+  tags:
+    pike:
+      source-branch: df91395cd829134c53d61d6878232aff1b999905
+- project: puppet-ssh
+  tags:
+    pike:
+      source-branch: 3fb5405d021322e428777c3806c8a8bb568fc6eb
+- project: puppet-staging
+  tags:
+    pike:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+- project: puppet-stdlib
+  tags:
+    pike:
+      source-branch: 4.18.0
+- project: puppet-swift
+  tags:
+    pike:
+- project: puppet-sysctl
+  tags:
+    pike:
+      source-branch: 65ffe839a4ce785bc3901452488197a0ef158cd8
+- project: puppet-systemd
+  tags:
+    pike:
+      source-branch: 047b31db32f5b6ed2555fedb1bf0cfd02d19e23d
+- project: puppet-tacker
+  tags:
+    pike:
+- project: puppet-tempest
+  tags:
+    pike:
+- project: puppet-timezone
+  tags:
+    pike:
+      source-branch: 62ba3ccadf13ee8dbd786b7ade29096fc3ab40b6
+- project: puppet-tomcat
+  tags:
+    pike:
+      source-branch: 9fed47bdbf6cc86b15be10c4fe0e7559540eeaef
+- project: puppet-tripleo
+  tags:
+    pike:
+- project: puppet-trove
+  tags:
+    pike:
+- project: puppet-uchiwa
+  tags:
+    pike:
+      source-branch: b6140883a5cb2de2b3d36c86a217a862f9ca5894
+- project: puppet-vcsrepo
+  tags:
+    pike:
+      source-branch: e3d28c6f7aa3b1daf7e9d30b55494592a65a2264
+- project: puppet-veritas_hyperscale
+  tags:
+    pike:
+      source-branch: 1.1.1
+- project: puppet-vitrage
+  tags:
+    pike:
+- project: puppet-vlan
+  tags:
+    pike:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+- project: puppet-vswitch
+  tags:
+    pike:
+- project: puppet-xinetd
+  tags:
+    pike:
+      source-branch: 1d1e6d43a1eea48e402ef79e6bb81a516564038e
+- project: puppet-zaqar
+  tags:
+    pike:
+- project: puppet-zookeeper
+  tags:
+    pike:
+      source-branch: da686b4da03a64ec30c210189f98a774e40b62ac
+- project: pycadf
+  tags:
+    pike:
+      source-branch: 2.6.0
+- project: rally
+  tags:
+    pike:
+      source-branch: 0.10.0
+- project: reno
+  tags:
+    pike:
+      source-branch: 2.5.0
+- project: requestsexceptions
+  tags:
+    pike:
+      source-branch: 1.3.0
+- project: sahara
+  tags:
+    pike:
+- project: sahara-dashboard
+  tags:
+    pike:
+- project: sahara-image-elements
+  tags:
+    pike:
+- project: sahara-tests
+  tags:
+    pike:
+      source-branch: 0.5.0
+- project: saharaclient
+  tags:
+    pike:
+      source-branch: 1.3.0
+- project: scciclient
+  tags:
+    pike:
+- project: senlin
+  tags:
+    pike:
+- project: senlinclient
+  tags:
+    pike:
+      source-branch: 1.4.0
+- project: shade
+  tags:
+    pike:
+      source-branch: 1.22.2
+- project: shaker
+  tags:
+    pike:
+      source-branch: 6fc8d21b3baaf2ea1294e3429602c8ba97811848
+- project: stevedore
+  tags:
+    pike:
+      source-branch: 1.25.1
+- project: sushy
+  tags:
+    pike:
+      source-branch: 1.1.1
+- project: swift
+  tags:
+    pike:
+- project: swift3
+  tags:
+    pike:
+      source-branch: 1fb6a30ee59a16cd4b6c49bab963ff9e3f974580
+- project: swiftclient
+  tags:
+    pike:
+      source-branch: 3.4.0
+- project: tacker
+  tags:
+    pike:
+- project: tackerclient
+  tags:
+    pike:
+      source-branch: 0.10.1
+- project: taskflow
+  tags:
+    pike:
+      source-branch: 2.14.1
+- project: tempest
+  tags:
+    pike:
+      source-branch: 17.2.0
+- project: tempest-horizon
+  tags:
+    pike:
+- project: tempestconf
+  tags:
+    pike:
+      source-branch: 1.1.3
+- project: tooz
+  tags:
+    pike:
+      source-branch: 1.58.0
+- project: tripleo-common
+  tags:
+    pike:
+- project: tripleo-heat-templates
+  tags:
+    pike:
+- project: tripleo-heat-templates-compat
+  tags:
+    pike:
+      source-branch: stable/ocata
+- project: tripleo-image-elements
+  tags:
+    pike:
+- project: tripleo-puppet-elements
+  tags:
+    pike:
+- project: tripleo-ui
+  tags:
+    pike:
+- project: tripleo-validations
+  tags:
+    pike:
+- project: tripleoclient
+  tags:
+    pike:
+- project: trove
+  tags:
+    pike:
+- project: trove-dashboard
+  tags:
+    pike:
+- project: troveclient
+  tags:
+    pike:
+      source-branch: 2.12.0
+- project: virtualbmc
+  tags:
+    pike:
+      source-branch: 1.2.0
+- project: vitrage
+  tags:
+    pike:
+- project: vitrage-dashboard
+  tags:
+    pike:
+- project: vitrageclient
+  tags:
+    pike:
+      source-branch: 1.4.0
+- project: vmware-nsx
+  tags:
+    pike:
+- project: vmware-nsxlib
+  tags:
+    pike:
+- project: watcher
+  tags:
+    pike:
+- project: wsme
+  tags:
+    pike:
+      source-branch: 9f84e4c7c59b172a09341af2ab496d07e29e01aa
+- project: zaqar
+  tags:
+    pike:
+- project: zaqarclient
+  tags:
+    pike:
+      source-branch: 1.7.0

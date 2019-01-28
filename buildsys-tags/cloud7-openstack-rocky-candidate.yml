@@ -1,0 +1,133 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: GitPython-2.1.10-1.el7
+- project: numpy
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: numpy-1.14.5-1.el7
+- project: openvswitch
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: openvswitch-2.10.1-1.el7
+- project: pyparsing
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: pyparsing-2.1.10-7.el7
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-XStatic-Angular-UUID-0.0.4.0-3.el7
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-XStatic-Angular-Vis-4.16.0.0-1.el7
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-XStatic-FileSaver-1.3.2.0-1.el7
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-XStatic-JS-Yaml-3.8.1.0-1.el7
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-XStatic-Json2yaml-0.1.1.0-1.el7
+- project: python-amqp
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-amqp-2.3.2-1.el7
+- project: python-aniso8601
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-aniso8601-0.82-3.el7
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-ansible-runner-1.0.5-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
+- project: python-cachetools
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-cachetools-2.1.0-1.el7
+- project: python-contextlib2
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-contextlib2-0.5.5-8.el7
+- project: python-cradox
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-cradox-2.1.0-1.el7
+- project: python-daemon
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-daemon-2.1.2-8.el7
+- project: python-distro
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-distro-1.3.0-3.el7
+- project: python-django
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-django-1.11.13-2.el7
+- project: python-django-debreach
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-django-debreach-1.5.2-1.el7
+- project: python-docker
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-docker-3.3.0-1.el7
+- project: python-flask-restful
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-flask-restful-0.3.6-7.el7
+- project: python-google-auth
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-google-auth-1.1.1-1.el7
+- project: python-ipaddress
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-ipaddress-1.0.18-5.el7
+- project: python-itsdangerous
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-itsdangerous-0.24-14.el7
+- project: python-jwt
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-jwt-1.6.1-1.el7
+- project: python-kombu
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-kombu-4.2.1-1.el7
+- project: python-kubernetes
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-kubernetes-6.0.0-1.el7
+- project: python-ldappool
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-ldappool-2.1.0-1.el7
+- project: python-mimeparse
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-mimeparse-1.6.0-2.el7
+- project: python-monotonic
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-monotonic-1.5-1.el7
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-openstackdocstheme-1.20.1-1.el7
+- project: python-pyperclip
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pyperclip-1.6.4-1.el7
+- project: python-sphinxcontrib-httpdomain
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-sphinxcontrib-httpdomain-1.6.1-1.el7
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.7-1.el7
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-sqlalchemy-utils-0.32.12-3.el7
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-tinyrpc-0.9.1-1.el7
+- project: python-traceback2
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-traceback2-1.4.0-14.el7
+- project: python-trollius
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-trollius-2.1-7.el7
+- project: python-wcwidth
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-wcwidth-0.1.7-8.el7
+- project: python-webob
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-webob-1.8.2-1.el7
+- project: qpid-qmf
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: qpid-qmf-1.35.0-1.el7
+- project: rabbitmq-server
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: rabbitmq-server-3.6.16-1.el7
+- project: sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-sphinxcontrib-apidoc-0.2.1-6.el7
