@@ -1,0 +1,37 @@
+packages:
+- project: librdkafka
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: librdkafka-0.11.6-1.el7
+- project: mod_xsendfile
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: mod_xsendfile-0.12-17.el7
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-2.fc30
+- project: python-crane
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-crane-3.1.1-2.el7
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-dictdiffer-0.7.1-2.el7
+- project: python-google-auth
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-google-auth-1.1.1-5.el7
+- project: python-kubernetes
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-kubernetes-8.0.0-3.el7
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-openstackdocstheme-1.23.2-1.el7
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pytest-runner-4.0-3.el7
+- project: python-rfc3986
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-rfc3986-1.2.0-1.el7
+- project: python-sqlalchemy-collectd
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-sqlalchemy-collectd-0.0.3-3.el7
+- project: python-string_utils
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-string_utils-0.6.0-4.el7
