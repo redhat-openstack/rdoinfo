@@ -1,0 +1,22 @@
+packages:
+# ceilometer has been added to u-c upstream as it's used as library dependency
+# for some other libraries but we don't want to pin it but chase the trunk.
+- project: ceilometer
+  tags:
+    version-locked:
+- project: ceilometerclient
+  tags:
+    version-locked:
+#(TODO) remove version-locked when 7.0.4 is in u-c.
+- project: gnocchiclient
+  tags:
+    version-locked:
+# This project was removed in Pike and locked to the commit before
+# retirement.
+- project: os-cloud-config
+  tags:
+    version-locked:
+# FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
+- project: tap-as-a-service
+  tags:
+    version-locked:

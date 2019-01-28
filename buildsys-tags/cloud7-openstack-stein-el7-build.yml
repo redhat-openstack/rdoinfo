@@ -1,0 +1,274 @@
+packages:
+- project: Cython
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: Cython-0.29.2-1.el7
+- project: asio
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: asio-1.10.8-3.el7
+- project: boost159
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: boost159-1.59.0-2.el7
+- project: go-srpm-macros
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: go-srpm-macros-2-17.el7
+- project: golang
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-1.11.2-3.el7
+- project: golang-github-BurntSushi-toml
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-BurntSushi-toml-0-0.10.git2ceedfe.el7
+- project: golang-github-Sirupsen-logrus
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-Sirupsen-logrus-1.1.1-2.el7
+- project: golang-github-davecgh-go-spew
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-davecgh-go-spew-0-0.11.git6d21280.el7
+- project: golang-github-golang-sys
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-golang-sys-0-0.15.20181125git62eef0e.el7
+- project: golang-github-pmezard-go-difflib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-pmezard-go-difflib-0-0.9.git792786c.el7
+- project: golang-github-stretchr-objx
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-stretchr-objx-0-0.12.git1a9d0bb.el7
+- project: golang-github-stretchr-testify
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-stretchr-testify-1.2.2-1.el7
+- project: golang-github-urfave-cli
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-github-urfave-cli-1.20.0-1.el7
+- project: golang-googlecode-go-crypto
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-googlecode-go-crypto-0-0.14.20181125git3d3f9f4.el7
+- project: golang-gopkg-check
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-gopkg-check-1-13.el7
+- project: golang-gopkg-yaml
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: golang-gopkg-yaml-1-15.el7
+- project: google-roboto-slab-fonts
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
+- project: lato-fonts
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: lato-fonts-2.015-1.el7
+- project: libuv
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: libuv-1.16.1-1.el7
+- project: multilib-rpm-config
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: multilib-rpm-config-1-6.el7
+- project: nghttp2
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: nghttp2-1.29.0-1.el7
+- project: nodejs
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: nodejs-8.9.4-2.el7
+- project: nodejs-packaging
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: nodejs-packaging-9-1.el7
+- project: openstack-macros
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: openstack-macros-2018.2.3-0.el7
+- project: openstack-tripleo-ui-deps
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: openstack-tripleo-ui-deps-10-2.el7
+- project: python-actdiag
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-actdiag-0.5.4-6.el7
+- project: python-backports_abc
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-backports_abc-0.5-2.el7
+- project: python-betamax
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-betamax-0.7.0-1.el7
+- project: python-blist
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-blist-1.3.6-9.el7
+- project: python-blockdiag
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-blockdiag-1.5.3-9.el7
+- project: python-cairocffi
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-cairocffi-0.7.2-7.el7
+- project: python-cairosvg
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-cairosvg-1.0.20-3.el7
+- project: python-cliff-tablib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-cliff-tablib-1.1-3.el7
+- project: python-coverage
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-coverage-4.4.1-1.el7
+- project: python-cryptography-vectors
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-cryptography-vectors-2.1.4-1.el7
+- project: python-d2to1
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-d2to1-0.2.11-1.el7
+- project: python-demjson
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-demjson-2.2.4-3.el7
+- project: python-django-discover-runner
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-django-discover-runner-1.0-5.el7
+- project: python-django-nose
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-django-nose-1.4.5-1.el7
+- project: python-dtopt
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-dtopt-0.1-16.el7
+- project: python-freezegun
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-freezegun-0.3.8-2.el7
+- project: python-funcparserlib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-funcparserlib-0.3.6-13.el7
+- project: python-html5lib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-html5lib-0.999-5.el7
+- project: python-hypothesis
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-hypothesis-2.0.0-1.el7
+- project: python-imagesize
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-imagesize-0.7.1-5.el7
+- project: python-isodate
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-isodate-0.5.0-3.el7
+- project: python-nose-exclude
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-nose-exclude-0.1.9-3.el7
+- project: python-openstack-doc-tools
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-openstack-doc-tools-1.3.0-2.el7
+- project: python-openstack-nose-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-openstack-nose-plugin-0.11-4.el7
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-openstackdocstheme-1.23.2-1.el7
+- project: python-pifpaf
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pifpaf-0.12.0-1.el7
+- project: python-pip
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pip-8.1.2-1.el7
+- project: python-pretend
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pretend-1.0.8-2.el7
+- project: python-process-tests
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-process-tests-1.0.0-7.el7
+- project: python-pycxx
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pycxx-6.2.8-3.el7
+- project: python-pygments
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pygments-2.2.0-7.el7
+- project: python-pykmip
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pykmip-0.5.0-1.el7
+- project: python-pytest-cov
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-pytest-cov-2.5.1-1.el7
+- project: python-rdflib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-rdflib-4.1.2-2.el7
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-requests-kerberos-0.8.0-3.el7
+- project: python-scripttest
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-scripttest-1.0.4-7.el7
+- project: python-selenium
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-selenium-2.42.1-3.el7
+- project: python-seqdiag
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-seqdiag-0.9.5-10.el7
+- project: python-setuptools_scm
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-setuptools_scm-1.10.1-1.el7
+- project: python-snowballstemmer
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-snowballstemmer-1.2.0-2.el7
+- project: python-sphinx
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinx-1.6.5-1.el7
+- project: python-sphinx-theme-alabaster
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinx-theme-alabaster-0.7.9-4.el7
+- project: python-sphinx_rtd_theme
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinx_rtd_theme-0.2.4-1.el7
+- project: python-sphinxcontrib-actdiag
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-actdiag-0.8.5-1.el7
+- project: python-sphinxcontrib-blockdiag
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-blockdiag-1.5.5-1.el7
+- project: python-sphinxcontrib-httpdomain
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-httpdomain-1.6.1-1.el7
+- project: python-sphinxcontrib-pecanwsme
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-pecanwsme-0.8.0-3.el7
+- project: python-sphinxcontrib-programoutput
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-programoutput-0.11-5.el7
+- project: python-sphinxcontrib-seqdiag
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-seqdiag-0.8.4-5.el7
+- project: python-sphinxcontrib-websupport
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-websupport-1.0.1-1.el7
+- project: python-sure
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sure-1.4.0-1.el7
+- project: python-tablib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-tablib-0.10.0-1.el7
+- project: python-termcolor
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-termcolor-1.1.0-4.el7
+- project: python-tornado
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-tornado-4.4.2-2.el7
+- project: python-webcolors
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-webcolors-1.7-4.el7
+- project: python-wheel
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-wheel-0.26.0-2.el7
+- project: python-whoosh
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-whoosh-2.5.7-4.el7
+- project: python-xcffib
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-xcffib-0.4.2-2.el7
+- project: python2-typing
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python2-typing-3.6.1-1.el7
+- project: rubygem-fakefs
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: rubygem-fakefs-0.13.1-3.el7.1
+- project: rubygem-rspec
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: rubygem-rspec-3.7.0-3.el7.1
+- project: scons
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: scons-2.3.3-1.el7
+- project: sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-sphinxcontrib-apidoc-0.2.1-6.el7
+- project: ttembed
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: ttembed-1.1-3.el7
+- project: xapian-bindings
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: xapian-bindings-1.2.22-1.el7
+- project: xapian-core
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: xapian-core-1.2.22-1.el7
