@@ -442,6 +442,7 @@ packages:
     cloud7-openstack-common-release: python-sphinx-testing-0.7.2-1.el7
     cloud7-openstack-queens-testing: python-sphinx-testing-0.7.2-1.el7
     cloud7-openstack-queens-release: python-sphinx-testing-0.7.2-1.el7
+    cloud7-openstack-stein-candidate: python-sphinx-testing-1.0.0-1.fc30
 - project: PyQt4
   name: PyQt4
   conf: fedora-dependency
@@ -1015,6 +1016,7 @@ packages:
     cloud7-openstack-rocky-testing: python-alembic-0.9.7-1.el7
     cloud7-openstack-rocky-release: python-alembic-0.9.7-1.el7
     cloud7-openstack-stein-testing: python-alembic-0.9.7-1.el7
+    cloud7-openstack-stein-candidate: python-alembic-1.0.7-1.el7
 - project: python-statsd
   name: python-statsd
   conf: fedora-dependency
@@ -2283,6 +2285,7 @@ packages:
     cloud7-openstack-rocky-testing: python-waitress-0.8.9-5.el7
     cloud7-openstack-rocky-release: python-waitress-0.8.9-5.el7
     cloud7-openstack-stein-testing: python-waitress-0.8.9-5.el7
+    cloud7-openstack-stein-candidate: python-waitress-1.2.1-1.el7
 - project: python-unicodecsv
   name: python-unicodecsv
   conf: fedora-dependency
@@ -2373,6 +2376,7 @@ packages:
     cloud7-openstack-rocky-testing: python-msgpack-0.5.6-1.el7
     cloud7-openstack-rocky-release: python-msgpack-0.5.6-1.el7
     cloud7-openstack-stein-testing: python-msgpack-0.5.6-1.el7
+    cloud7-openstack-stein-candidate: python-msgpack-0.6.1-1.fc30
 - project: python-smmap
   name: python-smmap
   conf: fedora-dependency
@@ -2563,6 +2567,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-sqlalchemy-1.2.7-1.el7
     cloud7-openstack-rocky-release: python-sqlalchemy-1.2.7-1.el7
     cloud7-openstack-stein-testing: python-sqlalchemy-1.2.7-1.el7
+    cloud7-openstack-stein-candidate: python-sqlalchemy-1.2.17-1.el7
 - project: qpid-qmf
   name: qpid-qmf
   conf: fedora-dependency
@@ -4604,6 +4609,7 @@ packages:
     cloud7-openstack-rocky-candidate: python-botocore-1.9.1-1.el7
     cloud7-openstack-rocky-release: python-botocore-1.9.1-1.el7
     cloud7-openstack-stein-testing: python-botocore-1.9.1-1.el7
+    cloud7-openstack-stein-candidate: python-botocore-1.12.86-1.el7
 - project: python-XStatic-tv4
   name: python-XStatic-tv4
   conf: fedora-dependency
@@ -5795,3 +5801,8 @@ packages:
     cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-2.fc30
   maintainers:
   - jpena@redhat.com
+- project: configparser
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-configparser-3.7.1-1.el7
+  name: python-configparser
+  conf: fedora-dependency
