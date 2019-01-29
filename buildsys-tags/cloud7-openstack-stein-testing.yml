@@ -116,6 +116,9 @@ packages:
 - project: libimagequant
   buildsys-tags:
     cloud7-openstack-stein-testing: libimagequant-2.8.2-2.el7
+- project: librdkafka
+  buildsys-tags:
+    cloud7-openstack-stein-testing: librdkafka-0.11.6-1.el7
 - project: libvarlink
   buildsys-tags:
     cloud7-openstack-stein-testing: libvarlink-12-1.el7
@@ -374,6 +377,9 @@ packages:
 - project: python-colorama
   buildsys-tags:
     cloud7-openstack-stein-testing: python-colorama-0.3.7-2.el7
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-confluent-kafka-0.11.6-3.el7
 - project: python-construct
   buildsys-tags:
     cloud7-openstack-stein-testing: python-construct-2.8.10-1.el7
