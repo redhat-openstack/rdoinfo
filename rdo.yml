@@ -675,6 +675,12 @@ packages:
   - nmagnezi@redhat.com
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
+- project: octavia-lib
+  conf: rpmfactory-core
+  maintainers:
+  - nmagnezi@redhat.com
+  - cgoncalves@redhat.com
+  - bcafarel@redhat.com
 - project: octavia-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
