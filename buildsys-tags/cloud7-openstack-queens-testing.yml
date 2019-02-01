@@ -73,7 +73,7 @@ packages:
     cloud7-openstack-queens-testing: python-ceilometermiddleware-1.2.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-cinder-12.0.3-1.el7
+    cloud7-openstack-queens-testing: openstack-cinder-12.0.5-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
@@ -286,16 +286,16 @@ packages:
     cloud7-openstack-queens-testing: instack-undercloud-8.4.6-1.el7
 - project: ironic
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-ironic-10.1.7-1.el7
+    cloud7-openstack-queens-testing: openstack-ironic-10.1.8-1.el7
 - project: ironic-inspector
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-ironic-inspector-7.2.2-1.el7
+    cloud7-openstack-queens-testing: openstack-ironic-inspector-7.2.3-1.el7
 - project: ironic-inspector-client
   buildsys-tags:
     cloud7-openstack-queens-testing: python-ironic-inspector-client-3.1.1-1.el7
 - project: ironic-lib
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-ironic-lib-2.12.1-1.el7
+    cloud7-openstack-queens-testing: python-ironic-lib-2.12.2-1.el7
 - project: ironic-python-agent
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-ironic-python-agent-3.2.2-1.el7
@@ -394,19 +394,19 @@ packages:
     cloud7-openstack-queens-testing: python-magnumclient-2.9.1-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-manila-6.0.2-1.el7
+    cloud7-openstack-queens-testing: openstack-manila-6.1.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
 - project: manila-ui
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-manila-ui-2.13.0-3.el7
+    cloud7-openstack-queens-testing: openstack-manila-ui-2.13.0-4.el7
 - project: manilaclient
   buildsys-tags:
     cloud7-openstack-queens-testing: python-manilaclient-1.21.1-1.el7
 - project: mariadb
   buildsys-tags:
-    cloud7-openstack-queens-testing: mariadb-10.1.20-2.el7
+    cloud7-openstack-queens-testing: mariadb-10.1.30-2.1.el7
 - project: memcached
   buildsys-tags:
     cloud7-openstack-queens-testing: memcached-1.5.6-1.el7
@@ -574,7 +574,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-selinux-0.8.13-1.el7
 - project: openstack-tripleo-ui-deps
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-tripleo-ui-deps-8-6.el7
+    cloud7-openstack-queens-testing: openstack-tripleo-ui-deps-8-7.el7
 - project: openstack-utils
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-utils-2017.1-1.el7
@@ -586,7 +586,7 @@ packages:
     cloud7-openstack-queens-testing: python-openstacksdk-0.11.3-1.el7
 - project: openvswitch
   buildsys-tags:
-    cloud7-openstack-queens-testing: openvswitch-2.9.0-3.el7
+    cloud7-openstack-queens-testing: openvswitch-2.9.3-1.el7
 - project: os-apply-config
   buildsys-tags:
     cloud7-openstack-queens-testing: os-apply-config-8.3.0-1.el7
@@ -1022,6 +1022,9 @@ packages:
 - project: pysendfile
   buildsys-tags:
     cloud7-openstack-queens-testing: pysendfile-2.0.0-5.el7
+- project: pyserial
+  buildsys-tags:
+    cloud7-openstack-queens-testing: pyserial-3.1.1-7.el7
 - project: pysnmp
   buildsys-tags:
     cloud7-openstack-queens-testing: pysnmp-4.3.2-3.el7
@@ -1030,7 +1033,7 @@ packages:
     cloud7-openstack-queens-testing: pystache-0.5.3-2.el7
 - project: pytest
   buildsys-tags:
-    cloud7-openstack-queens-testing: pytest-3.0.6-2.el7
+    cloud7-openstack-queens-testing: pytest-3.2.3-3.el7
 - project: python-APScheduler
   buildsys-tags:
     cloud7-openstack-queens-testing: python-APScheduler-3.0.5-2.el7
@@ -1072,10 +1075,10 @@ packages:
     cloud7-openstack-queens-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-9.el7
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-1.el7
+    cloud7-openstack-queens-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-9.el7
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
     cloud7-openstack-queens-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
@@ -1087,16 +1090,16 @@ packages:
     cloud7-openstack-queens-testing: python-XStatic-Font-Awesome-4.7.0.0-3.el7
 - project: python-XStatic-Hogan
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-Hogan-2.0.0.2-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-Hogan-2.0.0.2-10.el7
 - project: python-XStatic-JQuery-Migrate
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-JQuery-Migrate-1.2.1.1-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-JQuery-Migrate-1.2.1.1-10.el7
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-10.el7
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-10.el7
 - project: python-XStatic-JSEncrypt
   buildsys-tags:
     cloud7-openstack-queens-testing: python-XStatic-JSEncrypt-2.3.1.1-1.el7
@@ -1105,22 +1108,22 @@ packages:
     cloud7-openstack-queens-testing: python-XStatic-Jasmine-2.4.1.1-1.el7
 - project: python-XStatic-Magic-Search
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-Magic-Search-0.2.0.1-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-Magic-Search-0.2.5.1-5.el7
 - project: python-XStatic-QUnit
   buildsys-tags:
     cloud7-openstack-queens-testing: python-XStatic-QUnit-1.14.0.2-2.el7
 - project: python-XStatic-Rickshaw
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-Rickshaw-1.5.0.0-4.el7
+    cloud7-openstack-queens-testing: python-XStatic-Rickshaw-1.5.0.0-12.el7
 - project: python-XStatic-Spin
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-Spin-1.2.5.2-2.el7
+    cloud7-openstack-queens-testing: python-XStatic-Spin-1.2.5.2-11.el7
 - project: python-XStatic-bootswatch
   buildsys-tags:
     cloud7-openstack-queens-testing: python-XStatic-bootswatch-3.3.7.0-1.el7
 - project: python-XStatic-jQuery
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-XStatic-jQuery-1.10.2.1-1.el7
+    cloud7-openstack-queens-testing: python-XStatic-jQuery-1.10.2.1-9.el7.2
 - project: python-XStatic-jquery-ui
   buildsys-tags:
     cloud7-openstack-queens-testing: python-XStatic-jquery-ui-1.10.4.1-1.el7
@@ -1276,7 +1279,7 @@ packages:
     cloud7-openstack-queens-testing: python-cryptography-2.1.4-2.el7
 - project: python-cryptography-vectors
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-cryptography-vectors-2.1.4-1.el7
+    cloud7-openstack-queens-testing: python-cryptography-vectors-1.9-2.el7
 - project: python-cssselect
   buildsys-tags:
     cloud7-openstack-queens-testing: python-cssselect-0.9.1-5.el7
@@ -1354,7 +1357,7 @@ packages:
     cloud7-openstack-queens-testing: python-dtopt-0.1-16.el7
 - project: python-dulwich
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-dulwich-0.18.4-1.el7
+    cloud7-openstack-queens-testing: python-dulwich-0.18.6-1.el7
 - project: python-editor
   buildsys-tags:
     cloud7-openstack-queens-testing: python-editor-0.4-4.el7
@@ -1600,7 +1603,7 @@ packages:
     cloud7-openstack-queens-testing: python-netaddr-0.7.19-5.el7
 - project: python-netmiko
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-netmiko-1.4.1-1.el7
+    cloud7-openstack-queens-testing: python-netmiko-2.1.0-1.el7
 - project: python-networkx
   buildsys-tags:
     cloud7-openstack-queens-testing: python-networkx-1.10-1.el7
@@ -1684,7 +1687,7 @@ packages:
     cloud7-openstack-queens-testing: python-pika_pool-0.1.3-3.el7
 - project: python-pillow
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-pillow-4.0.0-1.el7
+    cloud7-openstack-queens-testing: python-pillow-4.0.0-0.1.el7
 - project: python-pint
   buildsys-tags:
     cloud7-openstack-queens-testing: python-pint-0.6-2.el7
@@ -1700,6 +1703,9 @@ packages:
 - project: python-pretend
   buildsys-tags:
     cloud7-openstack-queens-testing: python-pretend-1.0.8-2.el7
+- project: python-prettytable
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-prettytable-0.7.2-12.el7
 - project: python-process-tests
   buildsys-tags:
     cloud7-openstack-queens-testing: python-process-tests-1.0.0-7.el7
@@ -1709,6 +1715,9 @@ packages:
 - project: python-ptyprocess
   buildsys-tags:
     cloud7-openstack-queens-testing: python-ptyprocess-0.5.2-3.el7
+- project: python-py
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-py-1.4.34-1.el7
 - project: python-pycodestyle
   buildsys-tags:
     cloud7-openstack-queens-testing: python-pycodestyle-2.0.0-5.el7
@@ -1867,7 +1876,7 @@ packages:
     cloud7-openstack-queens-testing: python-simplegeneric-0.8-7.el7
 - project: python-simplejson
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-simplejson-3.5.3-5.el7
+    cloud7-openstack-queens-testing: python-simplejson-3.10.0-7.el7
 - project: python-singledispatch
   buildsys-tags:
     cloud7-openstack-queens-testing: python-singledispatch-3.4.0.3-4.el7
@@ -1991,6 +2000,9 @@ packages:
 - project: python-testtools
   buildsys-tags:
     cloud7-openstack-queens-testing: python-testtools-1.8.0-2.el7
+- project: python-textfsm
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-textfsm-0.3.2-1.el7
 - project: python-tinyrpc
   buildsys-tags:
     cloud7-openstack-queens-testing: python-tinyrpc-0.5-4.20170523git1f38ac.el7
