@@ -598,7 +598,7 @@ packages:
     cloud7-openstack-stein-testing: python-kombu-4.2.1-1.el7
 - project: python-kubernetes
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-kubernetes-6.0.0-1.el7
+    cloud7-openstack-stein-testing: python-kubernetes-8.0.0-8.el7
 - project: python-ldap3
   buildsys-tags:
     cloud7-openstack-stein-testing: python-ldap3-2.4.1-3.el7
@@ -692,6 +692,9 @@ packages:
 - project: python-olefile
   buildsys-tags:
     cloud7-openstack-stein-testing: python-olefile-0.44-1.el7
+- project: python-openshift
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-openshift-0.8.4-2.el7
 - project: python-oslo-upgradecheck-temp
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
