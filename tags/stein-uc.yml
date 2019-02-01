@@ -387,7 +387,7 @@ packages:
 - project: neutron-lib
   tags:
     stein-uc:
-      source-branch: 1.22.0
+      source-branch: 1.23.0
 - project: neutron-tempest-plugin
   tags:
     stein-uc:
@@ -535,7 +535,7 @@ packages:
 - project: oslo-messaging
   tags:
     stein-uc:
-      source-branch: 9.3.1
+      source-branch: 9.4.0
 - project: oslo-middleware
   tags:
     stein-uc:
@@ -543,11 +543,11 @@ packages:
 - project: oslo-policy
   tags:
     stein-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: oslo-privsep
   tags:
     stein-uc:
-      source-branch: 1.31.1
+      source-branch: 1.32.0
 - project: oslo-reports
   tags:
     stein-uc:
@@ -563,7 +563,7 @@ packages:
 - project: oslo-service
   tags:
     stein-uc:
-      source-branch: 1.34.0
+      source-branch: 1.36.0
 - project: oslo-sphinx
   tags:
     stein-uc:
@@ -600,7 +600,7 @@ packages:
 - project: ovsdbapp
   tags:
     stein-uc:
-      source-branch: 0.14.0
+      source-branch: 0.15.0
 - project: packstack
   tags:
     stein-uc:
@@ -1144,7 +1144,7 @@ packages:
 - project: vitrageclient
   tags:
     stein-uc:
-      source-branch: 2.4.0
+      source-branch: 2.5.0
 - project: vmware-nsx
   tags:
     stein-uc:
