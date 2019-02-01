@@ -684,6 +684,14 @@ packages:
 - project: octavia-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
+  tags:
+    stein-py3-uc:
+    stein-uc:
+    stein:
+    rocky:
+      source-branch: 0.2.0
+    queens:
+      source-branch: 0.2.0
   maintainers:
   - nmagnezi@redhat.com
   - cgoncalves@redhat.com
