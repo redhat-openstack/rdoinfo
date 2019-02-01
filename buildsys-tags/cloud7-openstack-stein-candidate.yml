@@ -38,3 +38,6 @@ packages:
 - project: python-string_utils
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-string_utils-0.6.0-4.el7
+- project: python-pyghmi
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pyghmi-1.2.16-1.el7
