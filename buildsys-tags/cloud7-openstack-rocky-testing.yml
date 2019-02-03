@@ -247,16 +247,16 @@ packages:
     cloud7-openstack-rocky-testing: instack-undercloud-9.4.0-1.el7
 - project: ironic
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-ironic-11.1.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-ironic-11.1.2-1.el7
 - project: ironic-inspector
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-ironic-inspector-8.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-ironic-inspector-8.0.2-1.el7
 - project: ironic-inspector-client
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-ironic-inspector-client-3.3.0-1.el7
 - project: ironic-lib
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-ironic-lib-2.14.0-1.el7
+    cloud7-openstack-rocky-testing: python-ironic-lib-2.14.1-1.el7
 - project: ironic-python-agent
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-ironic-python-agent-3.3.1-1.el7
@@ -271,7 +271,7 @@ packages:
     cloud7-openstack-rocky-testing: openstack-ironic-ui-3.3.0-1.el7
 - project: ironicclient
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-ironicclient-2.5.0-1.el7
+    cloud7-openstack-rocky-testing: python-ironicclient-2.5.1-1.el7
 - project: jemalloc
   buildsys-tags:
     cloud7-openstack-rocky-testing: jemalloc-3.6.0-1.el7
@@ -331,13 +331,13 @@ packages:
     cloud7-openstack-rocky-testing: python-magnumclient-2.10.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-manila-7.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-manila-7.1.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-manila-tests-tempest-0.1.0-1.el7
 - project: manila-ui
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-manila-ui-2.16.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-manila-ui-2.16.0-2.el7
 - project: manilaclient
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-manilaclient-1.24.1-1.el7
@@ -514,7 +514,7 @@ packages:
     cloud7-openstack-rocky-testing: os-apply-config-9.1.0-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-os-brick-2.5.4-2.el7
+    cloud7-openstack-rocky-testing: python-os-brick-2.5.5-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-os-client-config-1.31.2-1.el7
@@ -556,7 +556,7 @@ packages:
     cloud7-openstack-rocky-testing: python-osc-placement-1.3.0-1.el7
 - project: oslo-cache
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-oslo-cache-1.30.2-1.el7
+    cloud7-openstack-rocky-testing: python-oslo-cache-1.30.3-1.el7
 - project: oslo-concurrency
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-oslo-concurrency-3.27.0-1.el7
