@@ -32,6 +32,12 @@ packages:
 - project: python-rfc3986
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-rfc3986-1.2.0-1.el7
+- project: python-ruamel-ordereddict
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-ruamel-ordereddict-0.4.9-2.el7
+- project: python-ruamel-yaml
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-ruamel-yaml-0.13.14-1.el7
 - project: python-sqlalchemy-collectd
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-sqlalchemy-collectd-0.0.3-3.el7
