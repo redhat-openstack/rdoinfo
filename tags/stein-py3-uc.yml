@@ -987,6 +987,24 @@ packages:
 - project: sahara-image-elements
   tags:
     stein-py3-uc:
+- project: sahara-plugin-ambari
+  tags:
+    stein-py3-uc:
+- project: sahara-plugin-cdh
+  tags:
+    stein-py3-uc:
+- project: sahara-plugin-mapr
+  tags:
+    stein-py3-uc:
+- project: sahara-plugin-spark
+  tags:
+    stein-py3-uc:
+- project: sahara-plugin-storm
+  tags:
+    stein-py3-uc:
+- project: sahara-plugin-vanilla
+  tags:
+    stein-py3-uc:
 - project: sahara-tests
   tags:
     stein-py3-uc:

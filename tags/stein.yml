@@ -856,6 +856,24 @@ packages:
 - project: sahara-image-elements
   tags:
     stein:
+- project: sahara-plugin-ambari
+  tags:
+    stein:
+- project: sahara-plugin-cdh
+  tags:
+    stein:
+- project: sahara-plugin-mapr
+  tags:
+    stein:
+- project: sahara-plugin-spark
+  tags:
+    stein:
+- project: sahara-plugin-storm
+  tags:
+    stein:
+- project: sahara-plugin-vanilla
+  tags:
+    stein:
 - project: sahara-tests
   tags:
     stein:
