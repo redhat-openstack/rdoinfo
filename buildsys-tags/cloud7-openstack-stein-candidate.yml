@@ -5,6 +5,9 @@ packages:
 - project: mod_xsendfile
   buildsys-tags:
     cloud7-openstack-stein-candidate: mod_xsendfile-0.12-17.el7
+- project: python-alembic
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-alembic-1.0.7-1.el7
 - project: python-confluent-kafka
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-3.el7
@@ -41,6 +44,9 @@ packages:
 - project: python-ruamel-ordereddict
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-ruamel-ordereddict-0.4.9-2.el7
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-sqlalchemy-1.2.17-2.el7
 - project: python-sqlalchemy-collectd
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-sqlalchemy-collectd-0.0.3-3.el7
