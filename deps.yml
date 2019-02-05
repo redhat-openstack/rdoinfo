@@ -1862,3 +1862,18 @@ packages:
 - project: python-yappi
   name: python-yappi
   conf: fedora-dependency
+- project: ceph-ansible
+  name: ceph-ansible
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: ceph
+  name: ceph
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: python-notario
+  name: python-notario
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
