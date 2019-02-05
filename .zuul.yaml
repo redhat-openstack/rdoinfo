@@ -1,0 +1,35 @@
+#DNM
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-stein-centos-7-scenario004-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+
+- job:
+    name: rdoinfo-tripleo-stein-centos-7-scenario004-standalone
+    parent: tripleo-ci-base-standalone-rdo
+    run: playbooks/run-rdoinfo.yaml
+    vars:
+      featureset: '052'
+      rdoinfo_release: stein
+      rdoinfo_phase: testing
+      standalone_ceph: true
+      branch_override: "stable/stein"
+      featureset_override:
+        standalone_environment_files:
+          - 'environments/low-memory-usage.yaml'
+          - 'ci/environments/scenario004-standalone.yaml'
+        tempest_plugins:
+          - python2-manila-tests-tempest
+        test_white_regex: ''
+        tempest_workers: 1
+        tempest_extra_config:
+          'share.multitenancy_enabled': 'False'
+          'share.enable_protocols': 'cephfs'
+          'share.capability_snapshot_support': 'False'
+          'share.capability_create_share_from_snapshot_support': 'False'
+        tempest_whitelist:
+          - 'tempest.scenario.test_network_basic_ops.TestNetworkBasicOps.test_network_basic_ops'
+          - 'manila_tempest_tests.tests.api.test_shares.SharesCephFSTest.test_create_get_delete_share'
