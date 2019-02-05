@@ -16,19 +16,28 @@ packages:
     cloud7-openstack-stein-testing: Xaw3d-1.6.2-4.el7
 - project: ansible
   buildsys-tags:
-    cloud7-openstack-stein-testing: ansible-2.6.14-1.el7.ans
+    cloud7-openstack-stein-testing: ansible-2.7.8-1.el7.ans
 - project: atomic
   buildsys-tags:
     cloud7-openstack-stein-testing: atomic-1.22.1-27.gitb507039.el7
 - project: babel
   buildsys-tags:
     cloud7-openstack-stein-testing: babel-2.6.0-4.el7
+- project: babeltrace
+  buildsys-tags:
+    cloud7-openstack-stein-testing: babeltrace-1.2.4-3.1.el7
 - project: blosc
   buildsys-tags:
     cloud7-openstack-stein-testing: blosc-1.11.1-3.el7
 - project: buildah
   buildsys-tags:
     cloud7-openstack-stein-testing: buildah-1.7-2.git873f001.el7
+- project: ceph
+  buildsys-tags:
+    cloud7-openstack-stein-testing: ceph-14.2.0-1.el7
+- project: ceph-ansible
+  buildsys-tags:
+    cloud7-openstack-stein-testing: ceph-ansible-4.0.0-0.beta1.77.g676b4c9.el7
 - project: coin-or-Cbc
   buildsys-tags:
     cloud7-openstack-stein-testing: coin-or-Cbc-2.9.8-1.el7
@@ -113,6 +122,9 @@ packages:
 - project: jq
   buildsys-tags:
     cloud7-openstack-stein-testing: jq-1.5-10.el7
+- project: leveldb
+  buildsys-tags:
+    cloud7-openstack-stein-testing: leveldb-1.12.0-5.el7.1
 - project: liberasurecode
   buildsys-tags:
     cloud7-openstack-stein-testing: liberasurecode-1.5.0-1.el7
@@ -128,6 +140,9 @@ packages:
 - project: libvarlink
   buildsys-tags:
     cloud7-openstack-stein-testing: libvarlink-12-1.el7
+- project: lttng-ust
+  buildsys-tags:
+    cloud7-openstack-stein-testing: lttng-ust-2.10.0-1.el7
 - project: mariadb
   buildsys-tags:
     cloud7-openstack-stein-testing: mariadb-10.3.10-1.el7.0.0.rdo2
@@ -143,6 +158,9 @@ packages:
 - project: numpy
   buildsys-tags:
     cloud7-openstack-stein-testing: numpy-1.14.5-1.el7
+- project: oath-toolkit
+  buildsys-tags:
+    cloud7-openstack-stein-testing: oath-toolkit-2.4.1-9.el7
 - project: oci-systemd-hook
   buildsys-tags:
     cloud7-openstack-stein-testing: oci-systemd-hook-0.1.18-2.git3efe246.el7
@@ -692,6 +710,9 @@ packages:
 - project: python-nose
   buildsys-tags:
     cloud7-openstack-stein-testing: python-nose-1.3.7-7.el7
+- project: python-notario
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-notario-0.0.16-1.el7
 - project: python-ntlm3
   buildsys-tags:
     cloud7-openstack-stein-testing: python-ntlm3-1.0.2-4.el7
@@ -1121,12 +1142,18 @@ packages:
 - project: sysbench
   buildsys-tags:
     cloud7-openstack-stein-testing: sysbench-0.4.12-12.el7
+- project: userspace-rcu
+  buildsys-tags:
+    cloud7-openstack-stein-testing: userspace-rcu-0.10.0-3.el7
 - project: uwsgi
   buildsys-tags:
     cloud7-openstack-stein-testing: uwsgi-2.0.16-1.el7
 - project: web-assets
   buildsys-tags:
     cloud7-openstack-stein-testing: web-assets-5-1.el7
+- project: xmlstarlet
+  buildsys-tags:
+    cloud7-openstack-stein-testing: xmlstarlet-1.6.1-6.el7
 - project: xqc
   buildsys-tags:
     cloud7-openstack-stein-testing: xqc-1.0-0.6.20101120svn7.el7
