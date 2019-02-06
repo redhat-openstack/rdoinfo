@@ -11,6 +11,9 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-amqp-2.4.1-1.el7
+- project: python-colorama
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-colorama-0.4.1-1.el7
 - project: python-crane
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-crane-3.1.1-2.el7
