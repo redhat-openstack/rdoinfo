@@ -252,7 +252,8 @@ packages:
 - project: puppet-ec2api
   conf: rpmfactory-puppet
   maintainers:
-  - sven@redhat.com
+  - lyarwood@redhat.com
+  - mschuppert@redhat.com
 - project: puppet-glance
   conf: rpmfactory-puppet
 - project: puppet-gnocchi
@@ -277,7 +278,8 @@ packages:
 - project: puppet-nova
   conf: rpmfactory-puppet
   maintainers:
-  - sven@redhat.com
+  - lyarwood@redhat.com
+  - mschuppert@redhat.com
 - project: puppet-octavia
   conf: rpmfactory-puppet
 - project: puppet-oslo
@@ -500,8 +502,9 @@ packages:
 - project: nova
   conf: rpmfactory-core
   maintainers:
-  - sahid.ferdjaoui@redhat.com
-  - sven@redhat.com
+  - lyarwood@redhat.com
+  - mbooth@redhat.com
+  - stephenfin@redhat.com
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -909,7 +912,9 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - marcos.fermin.lobo@cern.ch
-  - sven@redhat.com
+  - lyarwood@redhat.com
+  - mbooth@redhat.com
+  - stephenfin@redhat.com
 - project: magnum
   conf: rpmfactory-core
   maintainers:
@@ -1860,6 +1865,8 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - lyarwood@redhat.com
+  - mbooth@redhat.com
+  - stephenfin@redhat.com
 - project: ansible-role-openstack-operations
   conf: rpmfactory-lib
   name: ansible-role-openstack-operations
@@ -1884,6 +1891,7 @@ packages:
   conf: rpmfactory-puppet
   maintainers:
   - lyarwood@redhat.com
+  - mschuppert@redhat.com
 - project: os-ken
   conf: rpmfactory-lib
   maintainers:
@@ -1899,6 +1907,8 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - lyarwood@redhat.com
+  - mbooth@redhat.com
+  - stephenfin@redhat.com
 - project: ansible-role-atos-hsm
   upstream: git://github.com/dmend/ansible-role-atos-hsm
   conf: rpmfactory-lib
