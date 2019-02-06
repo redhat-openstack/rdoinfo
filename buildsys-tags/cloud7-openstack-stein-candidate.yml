@@ -20,6 +20,9 @@ packages:
 - project: python-crane
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-crane-3.1.1-2.el7
+- project: python-deprecation
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-deprecation-2.0.6-1.el7
 - project: python-dictdiffer
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-dictdiffer-0.7.1-2.el7
