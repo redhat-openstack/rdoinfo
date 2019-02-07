@@ -984,11 +984,7 @@ packages:
       source-branch: 0.1.3
 - project: sahara
   tags:
-    # temporarily pin Sahara until the fall-out of the process
-    # of splitting the plugins is dealt with, see:
-    # http://lists.openstack.org/pipermail/openstack-discuss/2018-December/000812.html
     stein-uc:
-      source-branch: ca032db94ccc531b798ee347262441bb241c56f8
 - project: sahara-dashboard
   tags:
     stein-uc:
