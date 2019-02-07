@@ -194,6 +194,8 @@ packages:
 - project: ironic
   tags:
     stein-uc:
+      # FIXME(ykarel) remove pin once https://storyboard.openstack.org/#!/story/2004953 clears
+      source-branch: d9ed28b596c0a5ffe459f94435795054020a076a
 - project: ironic-inspector
   tags:
     stein-uc:
