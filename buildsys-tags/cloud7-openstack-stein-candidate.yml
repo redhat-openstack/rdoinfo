@@ -41,6 +41,9 @@ packages:
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-openstackdocstheme-1.29.0-2.el7
+- project: python-pifpaf
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pifpaf-2.2.2-2.el7
 - project: python-pytest-runner
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pytest-runner-4.0-3.el7
