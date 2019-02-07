@@ -417,6 +417,10 @@ packages:
 - project: octavia-dashboard
   tags:
     stein-uc:
+- project: octavia-lib
+  tags:
+    stein-uc:
+      source-branch: 1.0.0
 - project: octavia-tempest-plugin
   tags:
     #FIXME(chkumar246): Once octavia-lib package is available in RDO

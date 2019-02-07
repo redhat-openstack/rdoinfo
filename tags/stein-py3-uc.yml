@@ -414,6 +414,10 @@ packages:
 - project: octavia-dashboard
   tags:
     stein-py3-uc:
+- project: octavia-lib
+  tags:
+    stein-py3-uc:
+      source-branch: 1.0.0
 - project: octavia-tempest-plugin
   tags:
     stein-py3-uc:
