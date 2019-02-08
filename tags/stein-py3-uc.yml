@@ -11,6 +11,9 @@ packages:
 - project: ansible-role-container-registry
   tags:
     stein-py3-uc:
+- project: ansible-role-openstack-operations
+  tags:
+    stein-py3-uc:
 - project: ansible-role-redhat-subscription
   tags:
     stein-py3-uc:
