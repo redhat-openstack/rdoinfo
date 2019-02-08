@@ -5,6 +5,9 @@ packages:
 - project: mod_xsendfile
   buildsys-tags:
     cloud7-openstack-stein-candidate: mod_xsendfile-0.12-17.el7
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-atomicwrites-1.3.0-1.el7
 - project: python-confluent-kafka
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-confluent-kafka-0.11.6-3.el7
@@ -50,6 +53,9 @@ packages:
 - project: python-pifpaf
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pifpaf-2.2.2-3.el7
+- project: python-pluggy
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pluggy-0.8.1-1.el7
 - project: python-pytest-runner
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pytest-runner-4.0-3.el7
