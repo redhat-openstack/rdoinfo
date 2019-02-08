@@ -71,6 +71,9 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pyghmi-1.2.16-1.el7
+- project: python-vine
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-vine-1.2.0-2.el7
 - project: python-wrapt
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-wrapt-1.11.1-1.el7
