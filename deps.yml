@@ -101,7 +101,7 @@ packages:
   conf: fedora-dependency
 - project: python-setuptools
   name: python-setuptools
-  conf: fedora-dependency
+  conf: rdo-dependency
 - project: python-falcon
   name: python-falcon
   conf: fedora-dependency
@@ -1836,3 +1836,9 @@ packages:
 - project: python-atomicwrites
   name: python-atomicwrites
   conf: fedora-dependency
+- project: python-scandir
+  name: python-scandir
+  conf: rdo-dependency
+- project: python-pathlib2
+  name: python-pathlib2
+  conf: rdo-dependency
