@@ -193,7 +193,7 @@ packages:
     cloud7-openstack-stein-testing: pystache-0.5.3-2.el7
 - project: pytest
   buildsys-tags:
-    cloud7-openstack-stein-testing: pytest-3.5.1-1.el7
+    cloud7-openstack-stein-testing: pytest-3.9.3-2.el7
 - project: python-APScheduler
   buildsys-tags:
     cloud7-openstack-stein-testing: python-APScheduler-3.0.5-2.el7
@@ -332,6 +332,9 @@ packages:
 - project: python-asn1crypto
   buildsys-tags:
     cloud7-openstack-stein-testing: python-asn1crypto-0.23.0-2.el7
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-atomicwrites-1.3.0-1.el7
 - project: python-attrs
   buildsys-tags:
     cloud7-openstack-stein-testing: python-attrs-17.4.0-4.el7
@@ -397,7 +400,7 @@ packages:
     cloud7-openstack-stein-testing: python-crane-3.1.1-2.el7
 - project: python-croniter
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-croniter-0.3.19-1.el7
+    cloud7-openstack-stein-testing: python-croniter-0.3.27-1.el7
 - project: python-cryptography
   buildsys-tags:
     cloud7-openstack-stein-testing: python-cryptography-2.1.4-2.el7
@@ -716,6 +719,9 @@ packages:
 - project: python-pathlib
   buildsys-tags:
     cloud7-openstack-stein-testing: python-pathlib-1.0.1-1.el7
+- project: python-pathlib2
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-pathlib2-2.3.2-3.el7
 - project: python-pbr
   buildsys-tags:
     cloud7-openstack-stein-testing: python-pbr-4.1.0-2.el7
@@ -742,7 +748,7 @@ packages:
     cloud7-openstack-stein-testing: python-pint-0.6-2.el7
 - project: python-pluggy
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-pluggy-0.6.0-2.el7
+    cloud7-openstack-stein-testing: python-pluggy-0.8.1-1.el7
 - project: python-posix_ipc
   buildsys-tags:
     cloud7-openstack-stein-testing: python-posix_ipc-0.9.8-1.el7
@@ -845,6 +851,9 @@ packages:
 - project: python-ryu
   buildsys-tags:
     cloud7-openstack-stein-testing: python-ryu-4.26-1.el7
+- project: python-scandir
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-scandir-1.9.0-4.el7
 - project: python-scp
   buildsys-tags:
     cloud7-openstack-stein-testing: python-scp-0.10.2-6.el7
@@ -865,7 +874,7 @@ packages:
     cloud7-openstack-stein-testing: python-setproctitle-1.1.9-4.el7
 - project: python-setuptools
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-setuptools-38.4.0-3.el7
+    cloud7-openstack-stein-testing: python-setuptools-40.8.0-1.el7
 - project: python-simplegeneric
   buildsys-tags:
     cloud7-openstack-stein-testing: python-simplegeneric-0.8-7.el7
