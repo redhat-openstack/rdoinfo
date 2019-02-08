@@ -14,6 +14,9 @@ packages:
 - project: ansible-role-container-registry
   tags:
     stein:
+- project: ansible-role-openstack-operations
+  tags:
+    stein:
 - project: ansible-role-redhat-subscription
   tags:
     stein:
