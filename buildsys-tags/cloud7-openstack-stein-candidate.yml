@@ -38,6 +38,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-google-auth-1.1.1-5.el7
+- project: python-keyczar
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-keyczar-0.71c-12.el7
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-kombu-4.2.2-1.el7
