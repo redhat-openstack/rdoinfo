@@ -2,6 +2,9 @@ packages:
 - project: librdkafka
   buildsys-tags:
     cloud7-openstack-stein-candidate: librdkafka-0.11.6-1.el7
+- project: pysnmp
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: pysnmp-4.4.9-1.el7
 - project: mod_xsendfile
   buildsys-tags:
     cloud7-openstack-stein-candidate: mod_xsendfile-0.12-17.el7
