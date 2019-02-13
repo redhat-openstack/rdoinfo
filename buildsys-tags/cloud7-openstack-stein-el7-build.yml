@@ -121,7 +121,7 @@ packages:
     cloud7-openstack-stein-el7-build: python-dtopt-0.1-16.el7
 - project: python-freezegun
   buildsys-tags:
-    cloud7-openstack-stein-el7-build: python-freezegun-0.3.8-2.el7
+    cloud7-openstack-stein-el7-build: python-freezegun-0.3.11-4.el7
 - project: python-funcparserlib
   buildsys-tags:
     cloud7-openstack-stein-el7-build: python-funcparserlib-0.3.6-13.el7
@@ -149,6 +149,9 @@ packages:
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud7-openstack-stein-el7-build: python-openstackdocstheme-1.29.0-2.el7
+- project: python-packaging
+  buildsys-tags:
+    cloud7-openstack-stein-el7-build: python-packaging-16.8-2.el7
 - project: python-pifpaf
   buildsys-tags:
     cloud7-openstack-stein-el7-build: python-pifpaf-2.2.2-3.el7
@@ -196,7 +199,7 @@ packages:
     cloud7-openstack-stein-el7-build: python-snowballstemmer-1.2.0-2.el7
 - project: python-sphinx
   buildsys-tags:
-    cloud7-openstack-stein-el7-build: python-sphinx-1.6.5-1.el7
+    cloud7-openstack-stein-el7-build: python-sphinx-1.8.4-1.el7
 - project: python-sphinx-theme-alabaster
   buildsys-tags:
     cloud7-openstack-stein-el7-build: python-sphinx-theme-alabaster-0.7.9-4.el7
