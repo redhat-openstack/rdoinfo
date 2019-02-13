@@ -35,6 +35,9 @@ packages:
 - project: python-dictdiffer
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-dictdiffer-0.7.1-2.el7
+- project: python-freezegun
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-freezegun-0.3.11-4.el7
 - project: python-google-auth
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-google-auth-1.1.1-5.el7
