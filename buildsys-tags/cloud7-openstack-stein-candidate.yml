@@ -71,6 +71,9 @@ packages:
 - project: python-pretend
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pretend-1.0.8-15.el7
+- project: python-pykmip
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-pykmip-0.8.0-1.el7
 - project: python-pytest-runner
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-pytest-runner-4.0-3.el7
