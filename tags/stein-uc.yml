@@ -186,7 +186,7 @@ packages:
 - project: heat-translator
   tags:
     stein-uc:
-      source-branch: 1.2.0
+      source-branch: 1.3.0
 - project: heatclient
   tags:
     stein-uc:
@@ -582,7 +582,7 @@ packages:
 - project: oslo-versionedobjects
   tags:
     stein-uc:
-      source-branch: 1.34.1
+      source-branch: 1.35.0
 - project: oslo-vmware
   tags:
     stein-uc:
@@ -860,7 +860,6 @@ packages:
 - project: puppet-rabbitmq
   tags:
     stein-uc:
-      source-branch: 1ccddad57e4d53bb3861754a1712b78f3a0fb13f
 - project: puppet-redis
   tags:
     stein-uc:

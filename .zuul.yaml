@@ -1,0 +1,45 @@
+- job:
+    name: distgit-tripleo-master-testing-centos-7-standalone-featureset016
+    parent: tripleo-ci-base-standalone-rdo
+    run: playbooks/run-distgit.yaml
+    vars:
+      featureset: '052'
+      rdoinfo_release: master
+      rdoinfo_phase: testing
+      rdoinfo_build_containers: true
+      standalone_ceph: true
+      featureset_override:
+        standalone_container_cli: docker
+        standalone_environment_files:
+          - 'environments/low-memory-usage.yaml'
+          - 'ci/environments/scenario001-standalone.yaml'
+        tempest_plugins:
+          - python-telemetry-tests-tempest
+          - python-heat-tests-tempest
+        test_white_regex: ''
+        tempest_workers: 1
+        tempest_extra_config: {'telemetry.alarm_granularity': '60'}
+        tempest_whitelist:
+          - 'tempest.api.identity.v3'
+          - 'tempest.scenario.test_volume_boot_pattern.TestVolumeBootPattern.test_volume_boot_pattern'
+          - 'telemetry_tempest_plugin.scenario.test_telemetry_integration.TestTelemetryIntegration'
+
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset052:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset016:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
