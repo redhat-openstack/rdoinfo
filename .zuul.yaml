@@ -1,0 +1,43 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset052:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset016:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset017:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset018:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
+        - distgit-tripleo-master-testing-centos-7-standalone-featureset019:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein-uc.yml$
+            vars:
+              repo_create_job: "legacy-rdoinfo-DLRN-check"
