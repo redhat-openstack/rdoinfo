@@ -1842,3 +1842,8 @@ packages:
 - project: python-pathlib2
   name: python-pathlib2
   conf: rdo-dependency
+- project: python-etcd3gw
+  name: python-etcd3gw
+  conf: fedora-dependency
+  maintainers:
+  - jeckersb@redhat.com
