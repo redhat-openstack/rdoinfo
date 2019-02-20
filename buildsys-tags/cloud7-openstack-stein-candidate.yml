@@ -50,6 +50,9 @@ packages:
 - project: python-kubernetes
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-kubernetes-8.0.0-8.el7
+- project: python-ldappool
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-ldappool-2.4.0-1.el7
 - project: python-openshift
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-openshift-0.8.4-2.el7
