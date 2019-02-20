@@ -41,6 +41,9 @@ packages:
 - project: python-docker
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-docker-3.7.0-2.el7
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-etcd3gw-0.2.4-2.el7
 - project: python-freezegun
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-freezegun-0.3.11-4.el7
