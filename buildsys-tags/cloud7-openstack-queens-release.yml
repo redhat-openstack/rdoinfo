@@ -589,7 +589,7 @@ packages:
     cloud7-openstack-queens-release: os-apply-config-8.3.0-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-queens-release: python-os-brick-2.3.4-2.el7
+    cloud7-openstack-queens-release: python-os-brick-2.3.5-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-queens-release: python-os-client-config-1.29.0-1.el7
@@ -694,7 +694,7 @@ packages:
     cloud7-openstack-queens-release: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
 - project: ovsdbapp
   buildsys-tags:
-    cloud7-openstack-queens-release: python-ovsdbapp-0.10.2-1.el7
+    cloud7-openstack-queens-release: python-ovsdbapp-0.10.3-1.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-queens-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
@@ -874,7 +874,7 @@ packages:
     cloud7-openstack-queens-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
 - project: puppet-neutron
   buildsys-tags:
-    cloud7-openstack-queens-release: puppet-neutron-12.4.0-1.el7
+    cloud7-openstack-queens-release: puppet-neutron-12.4.1-1.el7
 - project: puppet-nova
   buildsys-tags:
     cloud7-openstack-queens-release: puppet-nova-12.4.0-1.el7
@@ -967,7 +967,7 @@ packages:
     cloud7-openstack-queens-release: puppet-tomcat-2.2.0-1.c6d9954git.el7
 - project: puppet-tripleo
   buildsys-tags:
-    cloud7-openstack-queens-release: puppet-tripleo-8.3.5-1.el7
+    cloud7-openstack-queens-release: puppet-tripleo-8.4.0-1.el7
 - project: puppet-trove
   buildsys-tags:
     cloud7-openstack-queens-release: puppet-trove-12.4.0-1.el7
@@ -2233,13 +2233,13 @@ packages:
     cloud7-openstack-queens-release: python-tooz-1.60.1-1.el7
 - project: tripleo-common
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.6-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-common-8.6.7-1.el7
 - project: tripleo-common-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-tripleo-common-tests-tempest-0.0.1-0.1.0eb31c3git.el7
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.2.0-1.el7
+    cloud7-openstack-queens-release: openstack-tripleo-heat-templates-8.3.0-1.el7
 - project: tripleo-image-elements
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-tripleo-image-elements-8.0.1-1.el7
