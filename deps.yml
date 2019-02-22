@@ -65,7 +65,7 @@ packages:
   conf: fedora-dependency
 - project: python-txaio
   name: python-txaio
-  conf: fedora-dependency
+  conf: rdo-dependency
 - project: python-pint
   name: python-pint
   conf: fedora-dependency
@@ -875,6 +875,9 @@ packages:
   conf: fedora-dependency
 - project: python-selenium
   name: python-selenium
+  conf: rdo-dependency
+- project: python-enchant
+  name: python-enchant
   conf: rdo-dependency
 - project: python-enum34
   name: python-enum34
