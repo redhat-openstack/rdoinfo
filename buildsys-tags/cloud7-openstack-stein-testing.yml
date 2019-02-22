@@ -313,7 +313,7 @@ packages:
     cloud7-openstack-stein-testing: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
 - project: python-alembic
   buildsys-tags:
-    cloud7-openstack-stein-testing:  python-alembic-1.0.7-1.el7
+    cloud7-openstack-stein-testing: python-alembic-1.0.7-1.el7
 - project: python-amqp
   buildsys-tags:
     cloud7-openstack-stein-testing: python-amqp-2.4.1-1.el7
@@ -971,9 +971,6 @@ packages:
 - project: python-txaio
   buildsys-tags:
     cloud7-openstack-stein-testing: python-txaio-2.0.4-3.el7
-- project: python2-typing
-  buildsys-tags:
-    cloud7-openstack-stein-testing: python2-typing-3.6.1-1.el7
 - project: python-tzlocal
   buildsys-tags:
     cloud7-openstack-stein-testing: python-tzlocal-1.2-4.el7
@@ -1055,6 +1052,9 @@ packages:
 - project: python-zmq
   buildsys-tags:
     cloud7-openstack-stein-testing: python-zmq-14.7.0-2.el7
+- project: python2-typing
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python2-typing-3.6.1-1.el7
 - project: qhull
   buildsys-tags:
     cloud7-openstack-stein-testing: qhull-2015.2-1.el7

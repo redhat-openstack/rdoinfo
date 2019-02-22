@@ -143,6 +143,9 @@ packages:
 - project: diskimage-builder
   buildsys-tags:
     cloud7-openstack-rocky-release: diskimage-builder-2.16.0-1.el7
+- project: docker
+  buildsys-tags:
+    cloud7-openstack-rocky-release: docker-1.13.1-93.gitb2f74b2.el7
 - project: dracclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-dracclient-1.5.0-1.el7
@@ -619,7 +622,7 @@ packages:
     cloud7-openstack-rocky-release: python-oswin-tests-tempest-0.1.0-1.el7
 - project: ovsdbapp
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-ovsdbapp-0.12.2-1.el7
+    cloud7-openstack-rocky-release: python-ovsdbapp-0.12.3-1.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-rocky-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
