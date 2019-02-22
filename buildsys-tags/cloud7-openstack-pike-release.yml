@@ -43,7 +43,7 @@ packages:
     cloud7-openstack-pike-release: openstack-cinder-11.1.1-1.el7
 - project: cinderclient
   buildsys-tags:
-    cloud7-openstack-pike-release: python-cinderclient-3.1.0-1.el7
+    cloud7-openstack-pike-release: python-cinderclient-3.1.1-1.el7
 - project: cliff
   buildsys-tags:
     cloud7-openstack-pike-release: python-cliff-2.8.2-1.el7
@@ -355,7 +355,7 @@ packages:
     cloud7-openstack-pike-release: os-apply-config-7.2.3-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-pike-release: python-os-brick-1.15.6-1.el7
+    cloud7-openstack-pike-release: python-os-brick-1.15.7-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-pike-release: python-os-client-config-1.28.0-1.el7
