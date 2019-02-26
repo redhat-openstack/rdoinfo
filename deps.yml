@@ -1845,3 +1845,8 @@ packages:
 - project: python-pathlib2
   name: python-pathlib2
   conf: rdo-dependency
+- project: UcsSdk
+  conf: rdo-dependency
+  maintainers:
+  - openstack-networking@cisco.com
+  - sam@code-smash.net
