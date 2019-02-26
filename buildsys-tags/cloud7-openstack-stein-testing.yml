@@ -8,6 +8,9 @@ packages:
 - project: PyQt4
   buildsys-tags:
     cloud7-openstack-stein-testing: PyQt4-4.12-1.el7
+- project: UcsSdk
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-UcsSdk-0.8.2.5-1.el7
 - project: Xaw3d
   buildsys-tags:
     cloud7-openstack-stein-testing: Xaw3d-1.6.2-4.el7
