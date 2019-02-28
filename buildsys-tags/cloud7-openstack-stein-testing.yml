@@ -1046,6 +1046,9 @@ packages:
 - project: python-xmltodict
   buildsys-tags:
     cloud7-openstack-stein-testing: python-xmltodict-0.10.1-1.el7
+- project: python-yappi
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-yappi-1.0-1.el7
 - project: python-yaql
   buildsys-tags:
     cloud7-openstack-stein-testing: python-yaql-1.1.3-2.el7
