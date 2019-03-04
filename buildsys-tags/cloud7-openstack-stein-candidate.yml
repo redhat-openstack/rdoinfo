@@ -74,6 +74,9 @@ packages:
 - project: python-mpmath
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-mpmath-1.1.0-1.el7
+- project: python-netmiko
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-netmiko-2.3.0-1.el7
 - project: python-openshift
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-openshift-0.8.4-2.el7
