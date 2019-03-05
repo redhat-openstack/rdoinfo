@@ -44,6 +44,9 @@ packages:
 - project: python-dictdiffer
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-dictdiffer-0.7.1-2.el7
+- project: python-django
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-django-1.11.20-1.el7
 - project: python-docker
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-docker-3.7.0-2.el7
