@@ -33,7 +33,7 @@ packages:
 - project: automaton
   tags:
     stein-uc:
-      source-branch: 1.15.0
+      source-branch: 1.16.0
 - project: barbican
   tags:
     stein-uc:
@@ -47,7 +47,7 @@ packages:
 - project: castellan
   tags:
     stein-uc:
-      source-branch: 1.2.0
+      source-branch: 1.2.2
 - project: ceilometer
   tags:
     stein-uc:
@@ -58,7 +58,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     stein-uc:
-      source-branch: 1.3.0
+      source-branch: 1.4.0
 - project: cinder
   tags:
     stein-uc:
@@ -102,7 +102,7 @@ packages:
 - project: debtcollector
   tags:
     stein-uc:
-      source-branch: 1.20.0
+      source-branch: 1.21.0
 - project: designate
   tags:
     stein-uc:
@@ -135,7 +135,7 @@ packages:
 - project: futurist
   tags:
     stein-uc:
-      source-branch: 1.8.0
+      source-branch: 1.8.1
 - project: glance
   tags:
     stein-uc:
@@ -204,7 +204,7 @@ packages:
 - project: ironic-lib
   tags:
     stein-uc:
-      source-branch: 2.16.1
+      source-branch: 2.16.2
 - project: ironic-python-agent
   tags:
     stein-uc:
@@ -230,15 +230,15 @@ packages:
 - project: keystoneauth1
   tags:
     stein-uc:
-      source-branch: 3.11.2
+      source-branch: 3.13.0
 - project: keystoneclient
   tags:
     stein-uc:
-      source-branch: 3.18.0
+      source-branch: 3.19.0
 - project: keystonemiddleware
   tags:
     stein-uc:
-      source-branch: 5.3.0
+      source-branch: 6.0.0
 - project: kolla
   tags:
     stein-uc:
@@ -280,7 +280,7 @@ packages:
 - project: metalsmith
   tags:
     stein-uc:
-      source-branch: 0.10.0
+      source-branch: 0.11.0
 - project: microversion-parse
   tags:
     stein-uc:
@@ -294,7 +294,7 @@ packages:
 - project: mistral-lib
   tags:
     stein-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
 - project: mistral-tempest-plugin
   tags:
     stein-uc:
@@ -309,7 +309,7 @@ packages:
 - project: mox3
   tags:
     stein-uc:
-      source-branch: 0.26.0
+      source-branch: 0.27.0
 - project: murano
   tags:
     stein-uc:
@@ -386,7 +386,7 @@ packages:
 - project: neutron-lib
   tags:
     stein-uc:
-      source-branch: 1.24.0
+      source-branch: 1.25.0
 - project: neutron-tempest-plugin
   tags:
     stein-uc:
@@ -419,7 +419,7 @@ packages:
 - project: octavia-lib
   tags:
     stein-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
 - project: octavia-tempest-plugin
   tags:
     stein-uc:
@@ -440,7 +440,7 @@ packages:
 - project: openstacksdk
   tags:
     stein-uc:
-      source-branch: 0.24.0
+      source-branch: 0.25.0
 - project: os-apply-config
   tags:
     stein-uc:
@@ -471,11 +471,11 @@ packages:
 - project: os-resource-classes
   tags:
     stein-uc:
-      source-branch: 0.2.0
+      source-branch: 0.3.0
 - project: os-service-types
   tags:
     stein-uc:
-      source-branch: 1.5.0
+      source-branch: 1.6.0
 - project: os-testr
   tags:
     stein-uc:
@@ -487,7 +487,7 @@ packages:
 - project: os-vif
   tags:
     stein-uc:
-      source-branch: 1.14.0
+      source-branch: 1.15.1
 - project: os-win
   tags:
     stein-uc:
@@ -499,7 +499,7 @@ packages:
 - project: osc-lib
   tags:
     stein-uc:
-      source-branch: 1.12.0
+      source-branch: 1.12.1
 - project: osc-placement
   tags:
     stein-uc:
@@ -507,19 +507,19 @@ packages:
 - project: oslo-cache
   tags:
     stein-uc:
-      source-branch: 1.33.0
+      source-branch: 1.33.2
 - project: oslo-concurrency
   tags:
     stein-uc:
-      source-branch: 3.29.0
+      source-branch: 3.29.1
 - project: oslo-config
   tags:
     stein-uc:
-      source-branch: 6.8.0
+      source-branch: 6.8.1
 - project: oslo-context
   tags:
     stein-uc:
-      source-branch: 2.22.0
+      source-branch: 2.22.1
 - project: oslo-db
   tags:
     stein-uc:
@@ -527,66 +527,66 @@ packages:
 - project: oslo-i18n
   tags:
     stein-uc:
-      source-branch: 3.23.0
+      source-branch: 3.23.1
 - project: oslo-log
   tags:
     stein-uc:
-      source-branch: 3.42.2
+      source-branch: 3.42.3
 - project: oslo-messaging
   tags:
     stein-uc:
-      source-branch: 9.4.0
+      source-branch: 9.5.0
 - project: oslo-middleware
   tags:
     stein-uc:
-      source-branch: 3.37.0
+      source-branch: 3.37.1
 - project: oslo-policy
   tags:
     stein-uc:
-      source-branch: 2.1.0
+      source-branch: 2.1.1
 - project: oslo-privsep
   tags:
     stein-uc:
-      source-branch: 1.32.0
+      source-branch: 1.32.1
 - project: oslo-reports
   tags:
     stein-uc:
-      source-branch: 1.29.1
+      source-branch: 1.29.2
 - project: oslo-rootwrap
   tags:
     stein-uc:
-      source-branch: 5.15.1
+      source-branch: 5.15.2
 - project: oslo-serialization
   tags:
     stein-uc:
-      source-branch: 2.28.1
+      source-branch: 2.28.2
 - project: oslo-service
   tags:
     stein-uc:
-      source-branch: 1.36.0
+      source-branch: 1.38.0
 - project: oslo-sphinx
   tags:
     stein-uc:
 - project: oslo-upgradecheck
   tags:
     stein-uc:
-      source-branch: 0.2.0
+      source-branch: 0.2.1
 - project: oslo-utils
   tags:
     stein-uc:
-      source-branch: 3.40.2
+      source-branch: 3.40.3
 - project: oslo-versionedobjects
   tags:
     stein-uc:
-      source-branch: 1.35.0
+      source-branch: 1.35.1
 - project: oslo-vmware
   tags:
     stein-uc:
-      source-branch: 2.32.1
+      source-branch: 2.32.2
 - project: oslotest
   tags:
     stein-uc:
-      source-branch: 3.7.0
+      source-branch: 3.7.1
 - project: osops-tools-monitoring-oschecks
   tags:
     stein-uc:
@@ -979,7 +979,7 @@ packages:
 - project: senlinclient
   tags:
     stein-uc:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
 - project: shade
   tags:
     stein-uc:
@@ -994,18 +994,18 @@ packages:
 - project: sphinx-feature-classification
   tags:
     stein-uc:
-      source-branch: 0.3.1
+      source-branch: 0.3.2
 - project: stackviz
   tags:
     stein-uc:
 - project: stevedore
   tags:
     stein-uc:
-      source-branch: 1.30.0
+      source-branch: 1.30.1
 - project: sushy
   tags:
     stein-uc:
-      source-branch: 1.7.0
+      source-branch: 1.8.0
 - project: swift
   tags:
     stein-uc:
@@ -1045,7 +1045,7 @@ packages:
 - project: tooz
   tags:
     stein-uc:
-      source-branch: 1.64.1
+      source-branch: 1.64.2
 - project: tripleo-ansible
   tags:
     stein-uc:
@@ -1112,7 +1112,7 @@ packages:
 - project: vitrageclient
   tags:
     stein-uc:
-      source-branch: 2.5.0
+      source-branch: 2.6.0
 - project: vmware-nsx
   tags:
     stein-uc:
