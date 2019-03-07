@@ -5,6 +5,9 @@ packages:
 - project: mod_xsendfile
   buildsys-tags:
     cloud7-openstack-stein-candidate: mod_xsendfile-0.12-17.el7
+- project: openvswitch
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: openvswitch-2.11.0-1.el7
 - project: python-ansible-runner
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-ansible-runner-1.2.0-2.el7
