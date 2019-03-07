@@ -234,6 +234,9 @@ packages:
 - project: python-pycxx
   name: python-pycxx
   conf: rdo-dependency
+- project: python-pynacl
+  name: python-pynacl
+  conf: rdo-dependency
 - project: python-pyngus
   name: python-pyngus
   conf: fedora-dependency
@@ -522,6 +525,9 @@ packages:
 - project: python-XStatic-objectpath
   name: python-XStatic-objectpath
   conf: fedora-dependency
+- project: libsodium
+  name: libsodium
+  conf: rdo-dependency
 - project: libstemmer
   name: libstemmer
   conf: fedora-dependency
