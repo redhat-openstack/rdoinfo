@@ -122,6 +122,9 @@ packages:
 - project: librdkafka
   buildsys-tags:
     cloud7-openstack-stein-testing: librdkafka-0.11.6-1.el7
+- project: libsodium
+  buildsys-tags:
+    cloud7-openstack-stein-testing: libsodium-1.0.16-1.el7
 - project: libvarlink
   buildsys-tags:
     cloud7-openstack-stein-testing: libvarlink-12-1.el7
@@ -682,7 +685,7 @@ packages:
     cloud7-openstack-stein-testing: python-netaddr-0.7.19-5.el7
 - project: python-netmiko
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-netmiko-2.1.0-1.el7
+    cloud7-openstack-stein-testing: python-netmiko-2.3.0-1.el7
 - project: python-networkx
   buildsys-tags:
     cloud7-openstack-stein-testing: python-networkx-2.2-3.el7
@@ -715,7 +718,7 @@ packages:
     cloud7-openstack-stein-testing: python-pandas-0.19.1-2.el7.2
 - project: python-paramiko
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-paramiko-2.1.1-3.el7
+    cloud7-openstack-stein-testing: python-paramiko-2.4.2-2.el7
 - project: python-passlib
   buildsys-tags:
     cloud7-openstack-stein-testing: python-passlib-1.7.0-4.el7
@@ -788,6 +791,9 @@ packages:
 - project: python-pymongo
   buildsys-tags:
     cloud7-openstack-stein-testing: python-pymongo-3.7.2-1.el7
+- project: python-pynacl
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-pynacl-1.3.0-1.el7
 - project: python-pyngus
   buildsys-tags:
     cloud7-openstack-stein-testing: python-pyngus-2.0.3-3.el7
