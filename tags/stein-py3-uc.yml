@@ -29,7 +29,7 @@ packages:
 - project: aodhclient
   tags:
     stein-py3-uc:
-      source-branch: 1.1.1
+      source-branch: 1.2.0
 - project: automaton
   tags:
     stein-py3-uc:
@@ -72,7 +72,7 @@ packages:
 - project: cliff
   tags:
     stein-py3-uc:
-      source-branch: 2.14.0
+      source-branch: 2.14.1
 - project: cloudkitty
   tags:
     stein-py3-uc:
@@ -145,7 +145,7 @@ packages:
 - project: glanceclient
   tags:
     stein-py3-uc:
-      source-branch: 2.15.0
+      source-branch: 2.16.0
 - project: glare
   tags:
     stein-py3-uc:
@@ -200,7 +200,7 @@ packages:
 - project: ironic-inspector-client
   tags:
     stein-py3-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: ironic-lib
   tags:
     stein-py3-uc:
@@ -220,7 +220,7 @@ packages:
 - project: ironicclient
   tags:
     stein-py3-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
 - project: keystone
   tags:
     stein-py3-uc:
@@ -263,7 +263,7 @@ packages:
 - project: magnumclient
   tags:
     stein-py3-uc:
-      source-branch: 2.11.0
+      source-branch: 2.12.0
 - project: manila
   tags:
     stein-py3-uc:
@@ -276,7 +276,7 @@ packages:
 - project: manilaclient
   tags:
     stein-py3-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
 - project: metalsmith
   tags:
     stein-py3-uc:
@@ -305,7 +305,7 @@ packages:
 - project: monascaclient
   tags:
     stein-py3-uc:
-      source-branch: 1.13.0
+      source-branch: 1.14.0
 - project: mox3
   tags:
     stein-py3-uc:
@@ -396,14 +396,14 @@ packages:
 - project: neutronclient
   tags:
     stein-py3-uc:
-      source-branch: 6.11.0
+      source-branch: 6.12.0
 - project: nova
   tags:
     stein-py3-uc:
 - project: novaclient
   tags:
     stein-py3-uc:
-      source-branch: 12.0.0
+      source-branch: 13.0.0
 - project: novajoin
   tags:
     stein-py3-uc:
@@ -419,14 +419,14 @@ packages:
 - project: octavia-lib
   tags:
     stein-py3-uc:
-      source-branch: 1.1.0
+      source-branch: 1.1.1
 - project: octavia-tempest-plugin
   tags:
     stein-py3-uc:
 - project: octaviaclient
   tags:
     stein-py3-uc:
-      source-branch: 1.7.0
+      source-branch: 1.8.0
 - project: openstack-macros
   tags:
     stein-py3-uc:
@@ -436,7 +436,7 @@ packages:
 - project: openstackclient
   tags:
     stein-py3-uc:
-      source-branch: 3.17.0
+      source-branch: 3.18.0
 - project: openstacksdk
   tags:
     stein-py3-uc:
@@ -447,11 +447,11 @@ packages:
 - project: os-brick
   tags:
     stein-py3-uc:
-      source-branch: 2.7.0
+      source-branch: 2.8.0
 - project: os-client-config
   tags:
     stein-py3-uc:
-      source-branch: 1.31.2
+      source-branch: 1.32.0
 - project: os-collect-config
   tags:
     stein-py3-uc:
@@ -503,7 +503,7 @@ packages:
 - project: osc-placement
   tags:
     stein-py3-uc:
-      source-branch: 1.4.0
+      source-branch: 1.5.0
 - project: oslo-cache
   tags:
     stein-py3-uc:
@@ -969,7 +969,7 @@ packages:
 - project: saharaclient
   tags:
     stein-py3-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: scciclient
   tags:
     stein-py3-uc:
@@ -979,11 +979,11 @@ packages:
 - project: senlinclient
   tags:
     stein-py3-uc:
-      source-branch: 1.10.0
+      source-branch: 1.10.1
 - project: shade
   tags:
     stein-py3-uc:
-      source-branch: 1.30.0
+      source-branch: 1.31.0
 - project: shaker
   tags:
     stein-py3-uc:
@@ -1016,7 +1016,7 @@ packages:
 - project: tackerclient
   tags:
     stein-py3-uc:
-      source-branch: 0.14.0
+      source-branch: 0.15.0
 - project: tap-as-a-service
   tags:
     stein-py3-uc:
@@ -1109,7 +1109,7 @@ packages:
 - project: vitrageclient
   tags:
     stein-py3-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
 - project: vmware-nsx
   tags:
     stein-py3-uc:
