@@ -247,7 +247,7 @@ packages:
     cloud7-openstack-rocky-release: instack-9.1.0-1.el7
 - project: instack-undercloud
   buildsys-tags:
-    cloud7-openstack-rocky-release: instack-undercloud-9.4.0-1.el7
+    cloud7-openstack-rocky-release: instack-undercloud-9.5.0-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-rocky-release: openstack-ironic-11.1.2-1.el7
@@ -511,7 +511,7 @@ packages:
     cloud7-openstack-rocky-release: openvswitch-2.10.1-3.el7
 - project: os-apply-config
   buildsys-tags:
-    cloud7-openstack-rocky-release: os-apply-config-9.1.0-1.el7
+    cloud7-openstack-rocky-release: os-apply-config-9.1.1-1.el7
 - project: os-brick
   buildsys-tags:
     cloud7-openstack-rocky-release: python-os-brick-2.5.5-1.el7
@@ -520,16 +520,16 @@ packages:
     cloud7-openstack-rocky-release: python-os-client-config-1.31.2-1.el7
 - project: os-collect-config
   buildsys-tags:
-    cloud7-openstack-rocky-release: os-collect-config-9.2.0-1.el7
+    cloud7-openstack-rocky-release: os-collect-config-9.2.1-1.el7
 - project: os-faults
   buildsys-tags:
     cloud7-openstack-rocky-release: python-os-faults-0.1.17-2.el7
 - project: os-net-config
   buildsys-tags:
-    cloud7-openstack-rocky-release: os-net-config-9.2.0-1.el7
+    cloud7-openstack-rocky-release: os-net-config-9.3.0-1.el7
 - project: os-refresh-config
   buildsys-tags:
-    cloud7-openstack-rocky-release: os-refresh-config-9.1.0-1.el7
+    cloud7-openstack-rocky-release: os-refresh-config-9.1.1-1.el7
 - project: os-service-types
   buildsys-tags:
     cloud7-openstack-rocky-release: python-os-service-types-1.3.0-1.el7
@@ -892,7 +892,7 @@ packages:
     cloud7-openstack-rocky-release: puppet-tomcat-2.3.0-1.8d1f348git.el7
 - project: puppet-tripleo
   buildsys-tags:
-    cloud7-openstack-rocky-release: puppet-tripleo-9.3.0-1.el7
+    cloud7-openstack-rocky-release: puppet-tripleo-9.4.0-1.el7
 - project: puppet-trove
   buildsys-tags:
     cloud7-openstack-rocky-release: puppet-trove-13.3.1-1.el7
@@ -1894,34 +1894,34 @@ packages:
     cloud7-openstack-rocky-release: python-tooz-1.62.0-2.el7
 - project: tripleo-common
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-tripleo-common-9.4.0-1.el7
+    cloud7-openstack-rocky-release: openstack-tripleo-common-9.5.0-1.el7
 - project: tripleo-common-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-tripleo-common-tests-tempest-0.0.1-0.2.e3c05aagit.el7
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-9.2.0-1.el7
+    cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-9.3.0-1.el7
 - project: tripleo-heat-templates-compat
   buildsys-tags:
     cloud7-openstack-rocky-release: openstack-tripleo-heat-templates-compat-9.0.0-0.1.0rc1.el7
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-tripleo-image-elements-9.0.0-1.el7
+    cloud7-openstack-rocky-release: openstack-tripleo-image-elements-9.1.0-1.el7
 - project: tripleo-ipsec
   buildsys-tags:
     cloud7-openstack-rocky-release: ansible-tripleo-ipsec-9.0.0-1.el7
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-tripleo-puppet-elements-9.0.0-1.el7
+    cloud7-openstack-rocky-release: openstack-tripleo-puppet-elements-9.0.1-1.el7
 - project: tripleo-ui
   buildsys-tags:
     cloud7-openstack-rocky-release: openstack-tripleo-ui-9.3.0-1.el7
 - project: tripleo-validations
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-tripleo-validations-9.3.0-1.el7
+    cloud7-openstack-rocky-release: openstack-tripleo-validations-9.3.1-1.el7
 - project: tripleoclient
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-tripleoclient-10.6.0-1.el7
+    cloud7-openstack-rocky-release: python-tripleoclient-10.6.1-1.el7
 - project: trove
   buildsys-tags:
     cloud7-openstack-rocky-release: openstack-trove-10.0.0-1.el7
