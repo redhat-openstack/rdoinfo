@@ -710,9 +710,6 @@ packages:
 - project: python-openshift
   buildsys-tags:
     cloud7-openstack-stein-testing: python-openshift-0.8.4-2.el7
-- project: python-oslo-upgradecheck-temp
-  buildsys-tags:
-    cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.1.0-1.el7
 - project: python-pandas
   buildsys-tags:
     cloud7-openstack-stein-testing: python-pandas-0.19.1-2.el7.2
