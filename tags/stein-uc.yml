@@ -876,6 +876,9 @@ packages:
     stein-uc:
 - project: puppet-sensu
   tags:
+    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
+    # clients to Go language, which we don't provide and will not provide in future,
+    # because Sensu is being deprecated.
     stein-uc:
       source-branch: 20361a4043d2881359551510ada0817caee3bc05
 - project: puppet-snmp
