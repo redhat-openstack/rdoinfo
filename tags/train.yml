@@ -1,1195 +1,1038 @@
 packages:
 - project: ansible-pacemaker
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-atos-hsm
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-chrony
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-container-registry
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-openstack-operations
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-redhat-subscription
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-thales-hsm
   tags:
-    stein-uc:
+    train:
 - project: ansible-role-tripleo-modify-image
   tags:
-    stein-uc:
+    train:
 - project: aodh
   tags:
-    stein-uc:
+    train:
 - project: aodhclient
   tags:
-    stein-uc:
-      source-branch: 1.2.0
+    train:
 - project: automaton
   tags:
-    stein-uc:
-      source-branch: 1.16.0
+    train:
 - project: barbican
   tags:
-    stein-uc:
+    train:
 - project: barbican-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: barbicanclient
   tags:
-    stein-uc:
-      source-branch: 4.8.1
+    train:
 - project: castellan
   tags:
-    stein-uc:
-      source-branch: 1.2.2
+    train:
 - project: ceilometer
   tags:
-    stein-uc:
+    train:
 - project: ceilometerclient
   tags:
-    stein-uc:
-      source-branch: 2.9.0
+    train:
+      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
 - project: ceilometermiddleware
   tags:
-    stein-uc:
-      source-branch: 1.4.0
+    train:
 - project: cinder
   tags:
-    stein-uc:
+    train:
 - project: cinder-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: cinderclient
   tags:
-    stein-uc:
-      source-branch: 4.1.0
+    train:
 - project: cliff
   tags:
-    stein-uc:
-      source-branch: 2.14.1
+    train:
 - project: cloudkitty
   tags:
-    stein-uc:
+    train:
 - project: cloudkitty-dashboard
   tags:
-    stein-uc:
+    train:
 - project: cloudkittyclient
   tags:
-    stein-uc:
+    train:
 - project: collectd-gnocchi
   tags:
-    stein-uc:
+    train:
 - project: congress
   tags:
-    stein-uc:
+    train:
 - project: congress-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: congressclient
   tags:
-    stein-uc:
-      source-branch: 1.12.0
+    train:
 - project: cursive
   tags:
-    stein-uc:
-      source-branch: 0.2.2
+    train:
 - project: debtcollector
   tags:
-    stein-uc:
-      source-branch: 1.21.0
+    train:
 - project: designate
   tags:
-    stein-uc:
+    train:
 - project: designate-dashboard
   tags:
-    stein-uc:
+    train:
 - project: designate-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: designateclient
   tags:
-    stein-uc:
-      source-branch: 2.11.0
+    train:
 - project: dib-utils
   tags:
-    stein-uc:
-      source-branch: 0.0.11
+    train:
 - project: diskimage-builder
   tags:
-    stein-uc:
+    train:
 - project: dracclient
   tags:
-    stein-uc:
+    train:
 - project: ec2-api
   tags:
-    stein-uc:
+    train:
 - project: ec2api-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: futurist
   tags:
-    stein-uc:
-      source-branch: 1.8.1
+    train:
 - project: glance
   tags:
-    stein-uc:
+    train:
 - project: glance_store
   tags:
-    stein-uc:
+    train:
 - project: glanceclient
   tags:
-    stein-uc:
-      source-branch: 2.16.0
+    train:
 - project: glare
   tags:
-    stein-uc:
+    train:
 - project: glareclient
   tags:
-    stein-uc:
-      source-branch: 0.5.3
+    train:
 - project: gnocchi
   tags:
-    stein-uc:
+    train:
       source-branch: stable/4.3
 - project: gnocchiclient
   tags:
-    stein-uc:
-      source-branch: 7.0.4
+    train:
 - project: hacking
   tags:
-    stein-uc:
-      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    train:
 - project: hardware
   tags:
-    stein-uc:
+    train:
 - project: heat
   tags:
-    stein-uc:
+    train:
 - project: heat-agents
   tags:
-    stein-uc:
+    train:
 - project: heat-dashboard
   tags:
-    stein-uc:
+    train:
 - project: heat-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: heat-translator
   tags:
-    stein-uc:
-      source-branch: 1.3.0
+    train:
 - project: heatclient
   tags:
-    stein-uc:
-      source-branch: 1.17.0
+    train:
 - project: horizon
   tags:
-    stein-uc:
+    train:
 - project: ironic
   tags:
-    stein-uc:
+    train:
 - project: ironic-inspector
   tags:
-    stein-uc:
+    train:
 - project: ironic-inspector-client
   tags:
-    stein-uc:
-      source-branch: 3.5.0
+    train:
 - project: ironic-lib
   tags:
-    stein-uc:
-      source-branch: 2.16.2
+    train:
 - project: ironic-python-agent
   tags:
-    stein-uc:
+    train:
 - project: ironic-staging-drivers
   tags:
-    stein-uc:
+    train:
 - project: ironic-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: ironic-ui
   tags:
-    stein-uc:
+    train:
 - project: ironicclient
   tags:
-    stein-uc:
-      source-branch: 2.7.0
+    train:
 - project: keystone
   tags:
-    stein-uc:
+    train:
 - project: keystone-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: keystoneauth1
   tags:
-    stein-uc:
-      source-branch: 3.13.1
+    train:
 - project: keystoneclient
   tags:
-    stein-uc:
-      source-branch: 3.19.0
+    train:
 - project: keystonemiddleware
   tags:
-    stein-uc:
-      source-branch: 6.0.0
+    train:
 - project: kolla
   tags:
-    stein-uc:
+    train:
 - project: kuryr
   tags:
-    stein-uc:
+    train:
 - project: kuryr-kubernetes
   tags:
-    stein-uc:
+    train:
 - project: kuryr-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: magnum
   tags:
-    stein-uc:
+    train:
 - project: magnum-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: magnum-ui
   tags:
-    stein-uc:
+    train:
 - project: magnumclient
   tags:
-    stein-uc:
-      source-branch: 2.12.0
+    train:
 - project: manila
   tags:
-    stein-uc:
+    train:
 - project: manila-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: manila-ui
   tags:
-    stein-uc:
+    train:
 - project: manilaclient
   tags:
-    stein-uc:
-      source-branch: 1.27.0
+    train:
 - project: metalsmith
   tags:
-    stein-uc:
-      source-branch: 0.11.0
+    train:
 - project: microversion-parse
   tags:
-    stein-uc:
-      source-branch: 0.2.1
+    train:
 - project: mistral
   tags:
-    stein-uc:
+    train:
 - project: mistral-dashboard
   tags:
-    stein-uc:
+    train:
 - project: mistral-lib
   tags:
-    stein-uc:
-      source-branch: 1.1.0
+    train:
 - project: mistral-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: mistralclient
   tags:
-    stein-uc:
-      source-branch: 0cd6b282920214d2995d1203aa0ad7d33c825b10
+    train:
 - project: monascaclient
   tags:
-    stein-uc:
-      source-branch: 1.14.0
+    train:
 - project: mox3
   tags:
-    stein-uc:
-      source-branch: 0.27.0
+    train:
 - project: murano
   tags:
-    stein-uc:
+    train:
 - project: murano-agent
   tags:
-    stein-uc:
+    train:
 - project: murano-dashboard
   tags:
-    stein-uc:
+    train:
 - project: murano-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: muranoclient
   tags:
-    stein-uc:
-      source-branch: 1.2.0
+    train:
 - project: networking-ansible
   tags:
-    stein-uc:
+    train:
 - project: networking-arista
   tags:
-    stein-uc:
+    train:
 - project: networking-bagpipe
   tags:
-    stein-uc:
+    train:
 - project: networking-baremetal
   tags:
-    stein-uc:
+    train:
 - project: networking-bgpvpn
   tags:
-    stein-uc:
+    train:
 - project: networking-bigswitch
   tags:
-    stein-uc:
+    train:
 - project: networking-fujitsu
   tags:
-    stein-uc:
+    train:
 - project: networking-generic-switch
   tags:
-    stein-uc:
+    train:
 - project: networking-l2gw
   tags:
-    stein-uc:
+    train:
 - project: networking-l2gw-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: networking-mlnx
   tags:
-    stein-uc:
+    train:
 - project: networking-odl
   tags:
-    stein-uc:
+    train:
 - project: networking-ovn
   tags:
-    stein-uc:
+    train:
 - project: networking-sfc
   tags:
-    stein-uc:
+    train:
 - project: neutron
   tags:
-    stein-uc:
+    train:
 - project: neutron-dynamic-routing
   tags:
-    stein-uc:
+    train:
 - project: neutron-fwaas
   tags:
-    stein-uc:
+    train:
 - project: neutron-lbaas
   tags:
-    stein-uc:
+    train:
 - project: neutron-lbaas-dashboard
   tags:
-    stein-uc:
+    train:
 - project: neutron-lib
   tags:
-    stein-uc:
-      source-branch: 1.25.0
+    train:
 - project: neutron-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: neutron-vpnaas
   tags:
-    stein-uc:
+    train:
 - project: neutronclient
   tags:
-    stein-uc:
-      source-branch: 6.12.0
+    train:
 - project: nova
   tags:
-    stein-uc:
+    train:
 - project: novaclient
   tags:
-    stein-uc:
-      source-branch: 13.0.0
+    train:
 - project: novajoin
   tags:
-    stein-uc:
+    train:
 - project: novajoin-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: octavia
   tags:
-    stein-uc:
+    train:
 - project: octavia-dashboard
   tags:
-    stein-uc:
+    train:
 - project: octavia-lib
   tags:
-    stein-uc:
-      source-branch: 1.1.1
+    train:
 - project: octavia-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: octaviaclient
   tags:
-    stein-uc:
-      source-branch: 1.8.0
+    train:
 - project: openstack-macros
   tags:
-    stein-uc:
+    train:
 - project: openstack-selinux
   tags:
-    stein-uc:
+    train:
 - project: openstackclient
   tags:
-    stein-uc:
-      source-branch: 3.18.0
+    train:
 - project: openstacksdk
   tags:
-    stein-uc:
-      source-branch: 0.26.0
+    train:
 - project: os-apply-config
   tags:
-    stein-uc:
+    train:
 - project: os-brick
   tags:
-    stein-uc:
-      source-branch: 2.8.1
+    train:
 - project: os-client-config
   tags:
-    stein-uc:
-      source-branch: 1.32.0
+    train:
 - project: os-collect-config
   tags:
-    stein-uc:
+    train:
 - project: os-faults
   tags:
-    stein-uc:
+    train:
 - project: os-ken
   tags:
-    stein-uc:
-      source-branch: 0.3.1
+    train:
 - project: os-net-config
   tags:
-    stein-uc:
+    train:
 - project: os-refresh-config
   tags:
-    stein-uc:
+    train:
 - project: os-resource-classes
   tags:
-    stein-uc:
-      source-branch: 0.3.0
+    train:
 - project: os-service-types
   tags:
-    stein-uc:
-      source-branch: 1.6.0
+    train:
 - project: os-testr
   tags:
-    stein-uc:
-      source-branch: 1.0.0
+    train:
 - project: os-traits
   tags:
-    stein-uc:
-      source-branch: 0.11.0
+    train:
 - project: os-vif
   tags:
-    stein-uc:
-      source-branch: 1.15.1
+    train:
 - project: os-win
   tags:
-    stein-uc:
-      source-branch: 4.2.0
+    train:
 - project: os-xenapi
   tags:
-    stein-uc:
-      source-branch: 0.3.4
+    train:
 - project: osc-lib
   tags:
-    stein-uc:
-      source-branch: 1.12.1
+    train:
 - project: osc-placement
   tags:
-    stein-uc:
-      source-branch: 1.5.0
+    train:
 - project: oslo-cache
   tags:
-    stein-uc:
-      source-branch: 1.33.2
+    train:
 - project: oslo-concurrency
   tags:
-    stein-uc:
-      source-branch: 3.29.1
+    train:
 - project: oslo-config
   tags:
-    stein-uc:
-      source-branch: 6.8.1
+    train:
 - project: oslo-context
   tags:
-    stein-uc:
-      source-branch: 2.22.1
+    train:
 - project: oslo-db
   tags:
-    stein-uc:
-      source-branch: 4.45.0
+    train:
 - project: oslo-i18n
   tags:
-    stein-uc:
-      source-branch: 3.23.1
+    train:
 - project: oslo-log
   tags:
-    stein-uc:
-      source-branch: 3.42.3
+    train:
 - project: oslo-messaging
   tags:
-    stein-uc:
-      source-branch: 9.5.0
+    train:
 - project: oslo-middleware
   tags:
-    stein-uc:
-      source-branch: 3.37.1
+    train:
 - project: oslo-policy
   tags:
-    stein-uc:
-      source-branch: 2.1.1
+    train:
 - project: oslo-privsep
   tags:
-    stein-uc:
-      source-branch: 1.32.1
+    train:
 - project: oslo-reports
   tags:
-    stein-uc:
-      source-branch: 1.29.2
+    train:
 - project: oslo-rootwrap
   tags:
-    stein-uc:
-      source-branch: 5.15.2
+    train:
 - project: oslo-serialization
   tags:
-    stein-uc:
-      source-branch: 2.28.2
+    train:
 - project: oslo-service
   tags:
-    stein-uc:
-      source-branch: 1.38.0
+    train:
 - project: oslo-sphinx
   tags:
-    stein-uc:
+    train:
 - project: oslo-upgradecheck
   tags:
-    stein-uc:
-      source-branch: 0.2.1
+    train:
 - project: oslo-utils
   tags:
-    stein-uc:
-      source-branch: 3.40.3
+    train:
 - project: oslo-versionedobjects
   tags:
-    stein-uc:
-      source-branch: 1.35.1
+    train:
 - project: oslo-vmware
   tags:
-    stein-uc:
-      source-branch: 2.32.2
+    train:
 - project: oslotest
   tags:
-    stein-uc:
-      source-branch: 3.7.1
+    train:
 - project: osops-tools-monitoring-oschecks
   tags:
-    stein-uc:
+    train:
 - project: osprofiler
   tags:
-    stein-uc:
-      source-branch: 2.6.0
+    train:
 - project: oswin-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: ovsdbapp
   tags:
-    stein-uc:
-      source-branch: 0.15.0
+    train:
 - project: packstack
   tags:
-    stein-uc:
+    train:
 - project: panko
   tags:
-    stein-uc:
+    train:
 - project: pankoclient
   tags:
-    stein-uc:
-      source-branch: 0.5.0
+    train:
 - project: patrole
   tags:
-    stein-uc:
+    train:
 - project: paunch
   tags:
-    stein-uc:
+    train:
 - project: placement
   tags:
-    stein-uc:
+    train:
 - project: proliantutils
   tags:
-    stein-uc:
-      source-branch: 2.7.0
+    train:
 - project: puppet-aodh
   tags:
-    stein-uc:
+    train:
 - project: puppet-apache
   tags:
-    stein-uc:
-      source-branch: 7a33327f7b649f6dfa48aedd972036bfa23a399b
+    train:
 - project: puppet-archive
   tags:
-    stein-uc:
-      source-branch: 56eedaf13617f1880ce5b1b268db53a774f453c1
+    train:
 - project: puppet-auditd
   tags:
-    stein-uc:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
+    train:
 - project: puppet-barbican
   tags:
-    stein-uc:
+    train:
 - project: puppet-cassandra
   tags:
-    stein-uc:
-      source-branch: a371404eb9342a6c3973b0414a98167049c3f43c
+    train:
 - project: puppet-ceilometer
   tags:
-    stein-uc:
+    train:
 - project: puppet-ceph
   tags:
-    stein-uc:
+    train:
 - project: puppet-certmonger
   tags:
-    stein-uc:
-      source-branch: a19887066c4978ad2567c881d60c14fcf0737bb2
+    train:
 - project: puppet-cinder
   tags:
-    stein-uc:
+    train:
 - project: puppet-collectd
   tags:
-    stein-uc:
-      source-branch: d7b6b8c493e808534bdd4b1e500065ce46e40434
+    train:
 - project: puppet-concat
   tags:
-    stein-uc:
-      source-branch: 912d2ccb602d959f7f12dce98b000ddffbc7c403
+    train:
 - project: puppet-congress
   tags:
-    stein-uc:
+    train:
 - project: puppet-contrail
   tags:
-    stein-uc:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
+    train:
 - project: puppet-corosync
   tags:
-    stein-uc:
-      source-branch: fe3b8a8fc12ac8708f727df0441e494d06f3a540
+    train:
 - project: puppet-datacat
   tags:
-    stein-uc:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+    train:
 - project: puppet-designate
   tags:
-    stein-uc:
+    train:
 - project: puppet-dns
   tags:
-    stein-uc:
-      source-branch: f9adb122a53a8a312330cd2596d534c778bf8aa4
+    train:
 - project: puppet-ec2api
   tags:
-    stein-uc:
+    train:
 - project: puppet-elasticsearch
   tags:
-    stein-uc:
-      source-branch: 835e67991f47b1cf089b3e7254c48d8c6f49b08c
+    train:
 - project: puppet-etcd
   tags:
-    stein-uc:
-      source-branch: 7555287ddd784c4689bf8fe7c83598ea8deff80d
+    train:
 - project: puppet-fdio
   tags:
-    stein-uc:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
+    train:
 - project: puppet-firewall
   tags:
-    stein-uc:
-      source-branch: 50f019603fafd53d29db27f61789c506c306fa37
+    train:
 - project: puppet-fluentd
   tags:
-    stein-uc:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
+    train:
 - project: puppet-git
   tags:
-    stein-uc:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    train:
 - project: puppet-glance
   tags:
-    stein-uc:
+    train:
 - project: puppet-gnocchi
   tags:
-    stein-uc:
+    train:
 - project: puppet-haproxy
   tags:
-    stein-uc:
-      source-branch: cf72e5eb0cff0d012c24c45ae785bfbbc35e446b
+    train:
 - project: puppet-heat
   tags:
-    stein-uc:
+    train:
 - project: puppet-horizon
   tags:
-    stein-uc:
+    train:
 - project: puppet-inifile
   tags:
-    stein-uc:
-      source-branch: 6b16db66137ccbf4d76d0668b5bc779167a5abe4
+    train:
 - project: puppet-ipaclient
   tags:
-    stein-uc:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
+    train:
 - project: puppet-ironic
   tags:
-    stein-uc:
+    train:
 - project: puppet-java
   tags:
-    stein-uc:
-      source-branch: b99814281724860dddf796190b8133ec3fbcb4e6
+    train:
 - project: puppet-kafka
   tags:
-    stein-uc:
-      source-branch: 0dbae7467a59808a81710fe2664b948c5369f432
+    train:
 - project: puppet-keepalived
   tags:
-    stein-uc:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    train:
 - project: puppet-keystone
   tags:
-    stein-uc:
+    train:
 - project: puppet-kibana3
   tags:
-    stein-uc:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    train:
 - project: puppet-kmod
   tags:
-    stein-uc:
-      source-branch: e015d2b82dc95e1f9e25278442b24e74e1802478
+    train:
 - project: puppet-lib-file_concat
   tags:
-    stein-uc:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    train:
 - project: puppet-magnum
   tags:
-    stein-uc:
+    train:
 - project: puppet-manila
   tags:
-    stein-uc:
+    train:
 - project: puppet-memcached
   tags:
-    stein-uc:
-      source-branch: 66d3a667d4e7e0253949f9d83c230b5f8ccca596
+    train:
 - project: puppet-midonet
   tags:
-    stein-uc:
+    train:
 - project: puppet-mistral
   tags:
-    stein-uc:
+    train:
 - project: puppet-module-data
   tags:
-    stein-uc:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    train:
 - project: puppet-mongodb
   tags:
-    stein-uc:
-      source-branch: 66c0f6a3e8b2a167012db8663aee86713c4017f5
+    train:
 - project: puppet-murano
   tags:
-    stein-uc:
+    train:
 - project: puppet-mysql
   tags:
-    stein-uc:
-      # We can't bump to > 6.2.0 - https://tickets.puppetlabs.com/browse/MODULES-7487
-      # Related to https://jira.mariadb.org/browse/MDEV-16774
-      source-branch: 6.2.0
+    train:
 - project: puppet-n1k-vsm
   tags:
-    stein-uc:
+    train:
 - project: puppet-neutron
   tags:
-    stein-uc:
+    train:
 - project: puppet-nova
   tags:
-    stein-uc:
+    train:
 - project: puppet-nssdb
   tags:
-    stein-uc:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    train:
 - project: puppet-ntp
   tags:
-    stein-uc:
+    train:
       source-branch: 4.2.x
 - project: puppet-octavia
   tags:
-    stein-uc:
+    train:
 - project: puppet-opendaylight
   tags:
-    stein-uc:
+    train:
       source-branch: stable/fluorine
 - project: puppet-openstack_extras
   tags:
-    stein-uc:
+    train:
 - project: puppet-openstacklib
   tags:
-    stein-uc:
+    train:
 - project: puppet-oslo
   tags:
-    stein-uc:
+    train:
 - project: puppet-ovn
   tags:
-    stein-uc:
+    train:
 - project: puppet-pacemaker
   tags:
-    stein-uc:
+    train:
 - project: puppet-panko
   tags:
-    stein-uc:
+    train:
 - project: puppet-placement
   tags:
-    stein-uc:
+    train:
 - project: puppet-powerdns
   tags:
-    stein-uc:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
+    train:
 - project: puppet-qdr
   tags:
-    stein-uc:
+    train:
 - project: puppet-rabbitmq
   tags:
-    stein-uc:
-      source-branch: 5477e69eccc009e3685d8eb7715e6dcae29966e6
+    train:
 - project: puppet-redis
   tags:
-    stein-uc:
-      source-branch: 5464b335f9bd05fc0dd412bdd9dad97d4539a1f6
+    train:
 - project: puppet-remote
   tags:
-    stein-uc:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    train:
 - project: puppet-rsync
   tags:
-    stein-uc:
-      source-branch: a7d4f8487cf9492106690637d3e7d484876943e6
+    train:
 - project: puppet-sahara
   tags:
-    stein-uc:
+    train:
 - project: puppet-sensu
   tags:
-    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
-    # clients to Go language, which we don't provide and will not provide in future,
-    # because Sensu is being deprecated.
-    stein-uc:
-      source-branch: 20361a4043d2881359551510ada0817caee3bc05
+    train:
 - project: puppet-snmp
   tags:
-    stein-uc:
-      # New versions of puppet-snmp require facter > 3.
-      source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
+    train:
 - project: puppet-ssh
   tags:
-    stein-uc:
-      source-branch: fc0d31c74579ce44e8b85020aaa94d4cfdbecf2d
+    train:
 - project: puppet-staging
   tags:
-    stein-uc:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    train:
 - project: puppet-stdlib
   tags:
-    stein-uc:
-      source-branch: b0dd4c131441603f2a72ab838cf7de39a97840df
+    train:
 - project: puppet-swift
   tags:
-    stein-uc:
+    train:
 - project: puppet-sysctl
   tags:
-    stein-uc:
-      source-branch: a3d160d7c79cc905fc1d10a4fd8b4c1488e017b4
+    train:
 - project: puppet-systemd
   tags:
-    stein-uc:
-      source-branch: 4d97305fed6d9d6e51ab2468cd4e9f26ecc72237
+    train:
 - project: puppet-tacker
   tags:
-    stein-uc:
+    train:
 - project: puppet-tempest
   tags:
-    stein-uc:
+    train:
 - project: puppet-timezone
   tags:
-    stein-uc:
-      source-branch: e44be603765a247369504182b0c3af045d56f6f1
+    train:
 - project: puppet-tomcat
   tags:
-    stein-uc:
-      source-branch: 5366908b1b86e9ba6d112b1dcc6eaf08118b4d7d
+    train:
 - project: puppet-tripleo
   tags:
-    stein-uc:
+    train:
 - project: puppet-trove
   tags:
-    stein-uc:
+    train:
 - project: puppet-uchiwa
   tags:
-    stein-uc:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
+    train:
 - project: puppet-vcsrepo
   tags:
-    stein-uc:
-      source-branch: a2ea398f5c774dcb2022e36fe4a27d403fe4d9b0
+    train:
 - project: puppet-veritas_hyperscale
   tags:
-    stein-uc:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
+    train:
 - project: puppet-vitrage
   tags:
-    stein-uc:
+    train:
 - project: puppet-vlan
   tags:
-    stein-uc:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    train:
 - project: puppet-vswitch
   tags:
-    stein-uc:
+    train:
 - project: puppet-xinetd
   tags:
-    stein-uc:
-      source-branch: 98b42317468df18c202e4153a0176b3ed4636e0e
+    train:
 - project: puppet-zaqar
   tags:
-    stein-uc:
+    train:
 - project: puppet-zookeeper
   tags:
-    stein-uc:
-      source-branch: eb6d2d0d8e7c3bcfa17ae6a1c81d85018d2b9a4b
+    train:
 - project: pycadf
   tags:
-    stein-uc:
-      source-branch: 2.9.0
+    train:
 - project: rally
   tags:
-    stein-uc:
+    train:
 - project: rally-openstack
   tags:
-    stein-uc:
+    train:
 - project: reno
   tags:
-    stein-uc:
-      source-branch: 2.11.2
+    train:
 - project: requestsexceptions
   tags:
-    stein-uc:
-      source-branch: 1.4.0
+    train:
 - project: rsd-lib
   tags:
-    stein-uc:
-      source-branch: 0.4.0
+    train:
 - project: rsdclient
   tags:
-    stein-uc:
-      source-branch: 0.1.3
+    train:
 - project: sahara
   tags:
-    stein-uc:
+    train:
 - project: sahara-dashboard
   tags:
-    stein-uc:
+    train:
 - project: sahara-image-elements
   tags:
-    stein-uc:
+    train:
 - project: sahara-plugin-ambari
   tags:
-    stein-uc:
+    train:
 - project: sahara-plugin-cdh
   tags:
-    stein-uc:
+    train:
 - project: sahara-plugin-mapr
   tags:
-    stein-uc:
+    train:
 - project: sahara-plugin-spark
   tags:
-    stein-uc:
+    train:
 - project: sahara-plugin-storm
   tags:
-    stein-uc:
+    train:
 - project: sahara-plugin-vanilla
   tags:
-    stein-uc:
+    train:
 - project: sahara-tests
   tags:
-    stein-uc:
+    train:
 - project: saharaclient
   tags:
-    stein-uc:
-      source-branch: 2.2.0
+    train:
 - project: scciclient
   tags:
-    stein-uc:
+    train:
 - project: senlin
   tags:
-    stein-uc:
+    train:
 - project: senlinclient
   tags:
-    stein-uc:
-      source-branch: 1.10.1
+    train:
 - project: shade
   tags:
-    stein-uc:
-      source-branch: 1.31.0
+    train:
 - project: shaker
   tags:
-    # FIXME(jpena) once timeout-decorator is packaged, and
-    # https://review.rdoproject.org/r/17270 is merged, we can
-    # unpin the versions for stein and rocky
-    stein-uc:
-      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
+    train:
 - project: sphinx-feature-classification
   tags:
-    stein-uc:
-      source-branch: 0.3.2
+    train:
 - project: stackviz
   tags:
-    stein-uc:
+    train:
 - project: stevedore
   tags:
-    stein-uc:
-      source-branch: 1.30.1
+    train:
 - project: sushy
   tags:
-    stein-uc:
-      source-branch: 1.8.1
+    train:
 - project: swift
   tags:
-    stein-uc:
+    train:
 - project: swiftclient
   tags:
-    stein-uc:
-      source-branch: 3.7.0
+    train:
 - project: tacker
   tags:
-    stein-uc:
+    train:
 - project: tackerclient
   tags:
-    stein-uc:
-      source-branch: 0.15.0
+    train:
 - project: tap-as-a-service
   tags:
-    stein-uc:
+    train:
 - project: taskflow
   tags:
-    stein-uc:
-      source-branch: 3.4.0
+    train:
 - project: telemetry-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: tempest
   tags:
-    stein-uc:
+    train:
 - project: tempest-horizon
   tags:
-    stein-uc:
+    train:
 - project: tempest-tripleo-ui
   tags:
-    stein-uc:
+    train:
 - project: tempestconf
   tags:
-    stein-uc:
+    train:
 - project: tooz
   tags:
-    stein-uc:
-      source-branch: 1.64.2
+    train:
 - project: tripleo-ansible
   tags:
-    stein-uc:
+    train:
 - project: tripleo-common
   tags:
-    stein-uc:
+    train:
 - project: tripleo-common-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: tripleo-heat-templates
   tags:
-    stein-uc:
+    train:
 - project: tripleo-heat-templates-compat
   tags:
-    stein-uc:
+    train:
       source-branch: stable/rocky
 - project: tripleo-image-elements
   tags:
-    stein-uc:
+    train:
 - project: tripleo-ipsec
   tags:
-    stein-uc:
+    train:
 - project: tripleo-puppet-elements
   tags:
-    stein-uc:
+    train:
 - project: tripleo-repos
   tags:
-    stein-uc:
+    train:
 - project: tripleo-ui
   tags:
-    stein-uc:
+    train:
 - project: tripleo-validations
   tags:
-    stein-uc:
+    train:
 - project: tripleoclient
   tags:
-    stein-uc:
+    train:
 - project: trove
   tags:
-    stein-uc:
+    train:
 - project: trove-dashboard
   tags:
-    stein-uc:
+    train:
 - project: trove-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: troveclient
   tags:
-    stein-uc:
-      source-branch: 2.17.0
+    train:
 - project: virtualbmc
   tags:
-    stein-uc:
-      source-branch: 1.4.0
+    train:
 - project: vitrage
   tags:
-    stein-uc:
+    train:
 - project: vitrage-dashboard
   tags:
-    stein-uc:
+    train:
 - project: vitrage-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: vitrageclient
   tags:
-    stein-uc:
-      source-branch: 2.7.0
+    train:
 - project: vmware-nsx
   tags:
-    stein-uc:
+    train:
 - project: vmware-nsx-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: vmware-nsxlib
   tags:
-    stein-uc:
+    train:
 - project: watcher
   tags:
-    stein-uc:
+    train:
 - project: watcher-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: wsme
   tags:
-    stein-uc:
+    train:
 - project: zaqar
   tags:
-    stein-uc:
+    train:
 - project: zaqar-tempest-plugin
   tags:
-    stein-uc:
+    train:
 - project: zaqarclient
   tags:
-    stein-uc:
-      source-branch: 1.11.0
+    train:
