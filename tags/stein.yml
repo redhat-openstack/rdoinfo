@@ -29,9 +29,11 @@ packages:
 - project: aodhclient
   tags:
     stein:
+      source-branch: 1.2.0
 - project: automaton
   tags:
     stein:
+      source-branch: 1.16.0
 - project: barbican
   tags:
     stein:
@@ -41,19 +43,22 @@ packages:
 - project: barbicanclient
   tags:
     stein:
+      source-branch: 4.8.1
 - project: castellan
   tags:
     stein:
+      source-branch: 1.2.2
 - project: ceilometer
   tags:
     stein:
 - project: ceilometerclient
   tags:
     stein:
-      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
+      source-branch: 2.9.0
 - project: ceilometermiddleware
   tags:
     stein:
+      source-branch: 1.4.0
 - project: cinder
   tags:
     stein:
@@ -63,9 +68,11 @@ packages:
 - project: cinderclient
   tags:
     stein:
+      source-branch: 4.1.0
 - project: cliff
   tags:
     stein:
+      source-branch: 2.14.1
 - project: cloudkitty
   tags:
     stein:
@@ -87,12 +94,15 @@ packages:
 - project: congressclient
   tags:
     stein:
+      source-branch: 1.12.0
 - project: cursive
   tags:
     stein:
+      source-branch: 0.2.2
 - project: debtcollector
   tags:
     stein:
+      source-branch: 1.21.0
 - project: designate
   tags:
     stein:
@@ -105,9 +115,11 @@ packages:
 - project: designateclient
   tags:
     stein:
+      source-branch: 2.11.0
 - project: dib-utils
   tags:
     stein:
+      source-branch: 0.0.11
 - project: diskimage-builder
   tags:
     stein:
@@ -123,6 +135,7 @@ packages:
 - project: futurist
   tags:
     stein:
+      source-branch: 1.8.1
 - project: glance
   tags:
     stein:
@@ -132,12 +145,14 @@ packages:
 - project: glanceclient
   tags:
     stein:
+      source-branch: 2.16.0
 - project: glare
   tags:
     stein:
 - project: glareclient
   tags:
     stein:
+      source-branch: 0.5.3
 - project: gnocchi
   tags:
     stein:
@@ -145,9 +160,11 @@ packages:
 - project: gnocchiclient
   tags:
     stein:
+      source-branch: 7.0.4
 - project: hacking
   tags:
     stein:
+      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
 - project: hardware
   tags:
     stein:
@@ -166,9 +183,11 @@ packages:
 - project: heat-translator
   tags:
     stein:
+      source-branch: 1.3.0
 - project: heatclient
   tags:
     stein:
+      source-branch: 1.17.0
 - project: horizon
   tags:
     stein:
@@ -181,9 +200,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     stein:
+      source-branch: 3.5.0
 - project: ironic-lib
   tags:
     stein:
+      source-branch: 2.16.2
 - project: ironic-python-agent
   tags:
     stein:
@@ -199,6 +220,7 @@ packages:
 - project: ironicclient
   tags:
     stein:
+      source-branch: 2.7.0
 - project: keystone
   tags:
     stein:
@@ -208,12 +230,15 @@ packages:
 - project: keystoneauth1
   tags:
     stein:
+      source-branch: 3.13.1
 - project: keystoneclient
   tags:
     stein:
+      source-branch: 3.19.0
 - project: keystonemiddleware
   tags:
     stein:
+      source-branch: 6.0.0
 - project: kolla
   tags:
     stein:
@@ -238,6 +263,7 @@ packages:
 - project: magnumclient
   tags:
     stein:
+      source-branch: 2.12.0
 - project: manila
   tags:
     stein:
@@ -250,12 +276,15 @@ packages:
 - project: manilaclient
   tags:
     stein:
+      source-branch: 1.27.0
 - project: metalsmith
   tags:
     stein:
+      source-branch: 0.11.0
 - project: microversion-parse
   tags:
     stein:
+      source-branch: 0.2.1
 - project: mistral
   tags:
     stein:
@@ -265,18 +294,22 @@ packages:
 - project: mistral-lib
   tags:
     stein:
+      source-branch: 1.1.0
 - project: mistral-tempest-plugin
   tags:
     stein:
 - project: mistralclient
   tags:
     stein:
+      source-branch: 0cd6b282920214d2995d1203aa0ad7d33c825b10
 - project: monascaclient
   tags:
     stein:
+      source-branch: 1.14.0
 - project: mox3
   tags:
     stein:
+      source-branch: 0.27.0
 - project: murano
   tags:
     stein:
@@ -292,6 +325,7 @@ packages:
 - project: muranoclient
   tags:
     stein:
+      source-branch: 1.2.0
 - project: networking-ansible
   tags:
     stein:
@@ -352,6 +386,7 @@ packages:
 - project: neutron-lib
   tags:
     stein:
+      source-branch: 1.25.0
 - project: neutron-tempest-plugin
   tags:
     stein:
@@ -361,12 +396,14 @@ packages:
 - project: neutronclient
   tags:
     stein:
+      source-branch: 6.12.0
 - project: nova
   tags:
     stein:
 - project: novaclient
   tags:
     stein:
+      source-branch: 13.0.0
 - project: novajoin
   tags:
     stein:
@@ -382,12 +419,14 @@ packages:
 - project: octavia-lib
   tags:
     stein:
+      source-branch: 1.1.1
 - project: octavia-tempest-plugin
   tags:
     stein:
 - project: octaviaclient
   tags:
     stein:
+      source-branch: 1.8.0
 - project: openstack-macros
   tags:
     stein:
@@ -397,18 +436,22 @@ packages:
 - project: openstackclient
   tags:
     stein:
+      source-branch: 3.18.0
 - project: openstacksdk
   tags:
     stein:
+      source-branch: 0.26.0
 - project: os-apply-config
   tags:
     stein:
 - project: os-brick
   tags:
     stein:
+      source-branch: 2.8.1
 - project: os-client-config
   tags:
     stein:
+      source-branch: 1.32.0
 - project: os-collect-config
   tags:
     stein:
@@ -418,6 +461,7 @@ packages:
 - project: os-ken
   tags:
     stein:
+      source-branch: 0.3.1
 - project: os-net-config
   tags:
     stein:
@@ -427,105 +471,136 @@ packages:
 - project: os-resource-classes
   tags:
     stein:
+      source-branch: 0.3.0
 - project: os-service-types
   tags:
     stein:
+      source-branch: 1.6.0
 - project: os-testr
   tags:
     stein:
+      source-branch: 1.0.0
 - project: os-traits
   tags:
     stein:
+      source-branch: 0.11.0
 - project: os-vif
   tags:
     stein:
+      source-branch: 1.15.1
 - project: os-win
   tags:
     stein:
+      source-branch: 4.2.0
 - project: os-xenapi
   tags:
     stein:
+      source-branch: 0.3.4
 - project: osc-lib
   tags:
     stein:
+      source-branch: 1.12.1
 - project: osc-placement
   tags:
     stein:
+      source-branch: 1.5.0
 - project: oslo-cache
   tags:
     stein:
+      source-branch: 1.33.2
 - project: oslo-concurrency
   tags:
     stein:
+      source-branch: 3.29.1
 - project: oslo-config
   tags:
     stein:
+      source-branch: 6.8.1
 - project: oslo-context
   tags:
     stein:
+      source-branch: 2.22.1
 - project: oslo-db
   tags:
     stein:
+      source-branch: 4.44.0
 - project: oslo-i18n
   tags:
     stein:
+      source-branch: 3.23.1
 - project: oslo-log
   tags:
     stein:
+      source-branch: 3.42.3
 - project: oslo-messaging
   tags:
     stein:
+      source-branch: 9.5.0
 - project: oslo-middleware
   tags:
     stein:
+      source-branch: 3.37.1
 - project: oslo-policy
   tags:
     stein:
+      source-branch: 2.1.1
 - project: oslo-privsep
   tags:
     stein:
+      source-branch: 1.32.1
 - project: oslo-reports
   tags:
     stein:
+      source-branch: 1.29.2
 - project: oslo-rootwrap
   tags:
     stein:
+      source-branch: 5.15.2
 - project: oslo-serialization
   tags:
     stein:
+      source-branch: 2.28.2
 - project: oslo-service
   tags:
     stein:
+      source-branch: 1.38.0
 - project: oslo-sphinx
   tags:
     stein:
 - project: oslo-upgradecheck
   tags:
     stein:
+      source-branch: 0.2.1
 - project: oslo-utils
   tags:
     stein:
+      source-branch: 3.40.3
 - project: oslo-versionedobjects
   tags:
     stein:
+      source-branch: 1.35.1
 - project: oslo-vmware
   tags:
     stein:
+      source-branch: 2.32.2
 - project: oslotest
   tags:
     stein:
+      source-branch: 3.7.1
 - project: osops-tools-monitoring-oschecks
   tags:
     stein:
 - project: osprofiler
   tags:
     stein:
+      source-branch: 2.6.0
 - project: oswin-tempest-plugin
   tags:
     stein:
 - project: ovsdbapp
   tags:
     stein:
+      source-branch: 0.15.0
 - project: packstack
   tags:
     stein:
@@ -535,6 +610,7 @@ packages:
 - project: pankoclient
   tags:
     stein:
+      source-branch: 0.5.0
 - project: patrole
   tags:
     stein:
@@ -547,24 +623,29 @@ packages:
 - project: proliantutils
   tags:
     stein:
+      source-branch: 2.7.0
 - project: puppet-aodh
   tags:
     stein:
 - project: puppet-apache
   tags:
     stein:
+      source-branch: 7a33327f7b649f6dfa48aedd972036bfa23a399b
 - project: puppet-archive
   tags:
     stein:
+      source-branch: 56eedaf13617f1880ce5b1b268db53a774f453c1
 - project: puppet-auditd
   tags:
     stein:
+      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
 - project: puppet-barbican
   tags:
     stein:
 - project: puppet-cassandra
   tags:
     stein:
+      source-branch: a371404eb9342a6c3973b0414a98167049c3f43c
 - project: puppet-ceilometer
   tags:
     stein:
@@ -574,54 +655,67 @@ packages:
 - project: puppet-certmonger
   tags:
     stein:
+      source-branch: a19887066c4978ad2567c881d60c14fcf0737bb2
 - project: puppet-cinder
   tags:
     stein:
 - project: puppet-collectd
   tags:
     stein:
+      source-branch: d7b6b8c493e808534bdd4b1e500065ce46e40434
 - project: puppet-concat
   tags:
     stein:
+      source-branch: 912d2ccb602d959f7f12dce98b000ddffbc7c403
 - project: puppet-congress
   tags:
     stein:
 - project: puppet-contrail
   tags:
     stein:
+      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
 - project: puppet-corosync
   tags:
     stein:
+      source-branch: fe3b8a8fc12ac8708f727df0441e494d06f3a540
 - project: puppet-datacat
   tags:
     stein:
+      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
 - project: puppet-designate
   tags:
     stein:
 - project: puppet-dns
   tags:
     stein:
+      source-branch: f9adb122a53a8a312330cd2596d534c778bf8aa4
 - project: puppet-ec2api
   tags:
     stein:
 - project: puppet-elasticsearch
   tags:
     stein:
+      source-branch: 835e67991f47b1cf089b3e7254c48d8c6f49b08c
 - project: puppet-etcd
   tags:
     stein:
+      source-branch: 7555287ddd784c4689bf8fe7c83598ea8deff80d
 - project: puppet-fdio
   tags:
     stein:
+      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
 - project: puppet-firewall
   tags:
     stein:
+      source-branch: 50f019603fafd53d29db27f61789c506c306fa37
 - project: puppet-fluentd
   tags:
     stein:
+      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
 - project: puppet-git
   tags:
     stein:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
 - project: puppet-glance
   tags:
     stein:
@@ -631,6 +725,7 @@ packages:
 - project: puppet-haproxy
   tags:
     stein:
+      source-branch: cf72e5eb0cff0d012c24c45ae785bfbbc35e446b
 - project: puppet-heat
   tags:
     stein:
@@ -640,33 +735,41 @@ packages:
 - project: puppet-inifile
   tags:
     stein:
+      source-branch: 6b16db66137ccbf4d76d0668b5bc779167a5abe4
 - project: puppet-ipaclient
   tags:
     stein:
+      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 - project: puppet-ironic
   tags:
     stein:
 - project: puppet-java
   tags:
     stein:
+      source-branch: b99814281724860dddf796190b8133ec3fbcb4e6
 - project: puppet-kafka
   tags:
     stein:
+      source-branch: 0dbae7467a59808a81710fe2664b948c5369f432
 - project: puppet-keepalived
   tags:
     stein:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-keystone
   tags:
     stein:
 - project: puppet-kibana3
   tags:
     stein:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-kmod
   tags:
     stein:
+      source-branch: e015d2b82dc95e1f9e25278442b24e74e1802478
 - project: puppet-lib-file_concat
   tags:
     stein:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
 - project: puppet-magnum
   tags:
     stein:
@@ -676,6 +779,7 @@ packages:
 - project: puppet-memcached
   tags:
     stein:
+      source-branch: 66d3a667d4e7e0253949f9d83c230b5f8ccca596
 - project: puppet-midonet
   tags:
     stein:
@@ -685,15 +789,20 @@ packages:
 - project: puppet-module-data
   tags:
     stein:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mongodb
   tags:
     stein:
+      source-branch: 66c0f6a3e8b2a167012db8663aee86713c4017f5
 - project: puppet-murano
   tags:
     stein:
 - project: puppet-mysql
   tags:
     stein:
+      # We can't bump to > 6.2.0 - https://tickets.puppetlabs.com/browse/MODULES-7487
+      # Related to https://jira.mariadb.org/browse/MDEV-16774
+      source-branch: 6.2.0
 - project: puppet-n1k-vsm
   tags:
     stein:
@@ -706,6 +815,7 @@ packages:
 - project: puppet-nssdb
   tags:
     stein:
+      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-ntp
   tags:
     stein:
@@ -741,48 +851,64 @@ packages:
 - project: puppet-powerdns
   tags:
     stein:
+      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
 - project: puppet-qdr
   tags:
     stein:
 - project: puppet-rabbitmq
   tags:
     stein:
+      source-branch: 5477e69eccc009e3685d8eb7715e6dcae29966e6
 - project: puppet-redis
   tags:
     stein:
+      source-branch: 5464b335f9bd05fc0dd412bdd9dad97d4539a1f6
 - project: puppet-remote
   tags:
     stein:
+      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
     stein:
+      source-branch: a7d4f8487cf9492106690637d3e7d484876943e6
 - project: puppet-sahara
   tags:
     stein:
 - project: puppet-sensu
   tags:
+    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
+    # clients to Go language, which we don't provide and will not provide in future,
+    # because Sensu is being deprecated.
     stein:
+      source-branch: 20361a4043d2881359551510ada0817caee3bc05
 - project: puppet-snmp
   tags:
     stein:
+      # New versions of puppet-snmp require facter > 3.
+      source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
 - project: puppet-ssh
   tags:
     stein:
+      source-branch: fc0d31c74579ce44e8b85020aaa94d4cfdbecf2d
 - project: puppet-staging
   tags:
     stein:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-stdlib
   tags:
     stein:
+      source-branch: b0dd4c131441603f2a72ab838cf7de39a97840df
 - project: puppet-swift
   tags:
     stein:
 - project: puppet-sysctl
   tags:
     stein:
+      source-branch: a3d160d7c79cc905fc1d10a4fd8b4c1488e017b4
 - project: puppet-systemd
   tags:
     stein:
+      source-branch: 4d97305fed6d9d6e51ab2468cd4e9f26ecc72237
 - project: puppet-tacker
   tags:
     stein:
@@ -792,9 +918,11 @@ packages:
 - project: puppet-timezone
   tags:
     stein:
+      source-branch: e44be603765a247369504182b0c3af045d56f6f1
 - project: puppet-tomcat
   tags:
     stein:
+      source-branch: 5366908b1b86e9ba6d112b1dcc6eaf08118b4d7d
 - project: puppet-tripleo
   tags:
     stein:
@@ -804,33 +932,40 @@ packages:
 - project: puppet-uchiwa
   tags:
     stein:
+      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
     stein:
+      source-branch: a2ea398f5c774dcb2022e36fe4a27d403fe4d9b0
 - project: puppet-veritas_hyperscale
   tags:
     stein:
+      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
 - project: puppet-vitrage
   tags:
     stein:
 - project: puppet-vlan
   tags:
     stein:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-vswitch
   tags:
     stein:
 - project: puppet-xinetd
   tags:
     stein:
+      source-branch: 98b42317468df18c202e4153a0176b3ed4636e0e
 - project: puppet-zaqar
   tags:
     stein:
 - project: puppet-zookeeper
   tags:
     stein:
+      source-branch: eb6d2d0d8e7c3bcfa17ae6a1c81d85018d2b9a4b
 - project: pycadf
   tags:
     stein:
+      source-branch: 2.9.0
 - project: rally
   tags:
     stein:
@@ -840,15 +975,19 @@ packages:
 - project: reno
   tags:
     stein:
+      source-branch: 2.11.2
 - project: requestsexceptions
   tags:
     stein:
+      source-branch: 1.4.0
 - project: rsd-lib
   tags:
     stein:
+      source-branch: 0.4.0
 - project: rsdclient
   tags:
     stein:
+      source-branch: 0.1.3
 - project: sahara
   tags:
     stein:
@@ -882,6 +1021,7 @@ packages:
 - project: saharaclient
   tags:
     stein:
+      source-branch: 2.2.0
 - project: scciclient
   tags:
     stein:
@@ -891,42 +1031,54 @@ packages:
 - project: senlinclient
   tags:
     stein:
+      source-branch: 1.10.1
 - project: shade
   tags:
     stein:
+      source-branch: 1.31.0
 - project: shaker
   tags:
+    # FIXME(jpena) once timeout-decorator is packaged, and
+    # https://review.rdoproject.org/r/17270 is merged, we can
+    # unpin the versions for stein and rocky
     stein:
+      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
 - project: sphinx-feature-classification
   tags:
     stein:
+      source-branch: 0.3.2
 - project: stackviz
   tags:
     stein:
 - project: stevedore
   tags:
     stein:
+      source-branch: 1.30.1
 - project: sushy
   tags:
     stein:
+      source-branch: 1.8.1
 - project: swift
   tags:
     stein:
 - project: swiftclient
   tags:
     stein:
+      source-branch: 3.7.0
 - project: tacker
   tags:
     stein:
 - project: tackerclient
   tags:
     stein:
+      source-branch: 0.15.0
 - project: tap-as-a-service
   tags:
     stein:
 - project: taskflow
   tags:
     stein:
+      source-branch: 3.4.0
 - project: telemetry-tempest-plugin
   tags:
     stein:
@@ -945,6 +1097,7 @@ packages:
 - project: tooz
   tags:
     stein:
+      source-branch: 1.64.2
 - project: tripleo-ansible
   tags:
     stein:
@@ -994,9 +1147,11 @@ packages:
 - project: troveclient
   tags:
     stein:
+      source-branch: 2.17.0
 - project: virtualbmc
   tags:
     stein:
+      source-branch: 1.4.0
 - project: vitrage
   tags:
     stein:
@@ -1009,6 +1164,7 @@ packages:
 - project: vitrageclient
   tags:
     stein:
+      source-branch: 2.7.0
 - project: vmware-nsx
   tags:
     stein:
@@ -1036,3 +1192,4 @@ packages:
 - project: zaqarclient
   tags:
     stein:
+      source-branch: 1.11.0
