@@ -1,6 +1,24 @@
 import:
 - tags.yml
 releases:
+- name: train
+  branch: rpm-master
+  tags_map: separated_buildreqs
+  repos:
+  - name: el7
+    buildsys: cbs/cloud7-openstack-train-el7
+    buildsys-tags:
+    - cloud7-openstack-train-el7-build
+    - cloud7-openstack-train-candidate
+    - cloud7-openstack-train-testing
+    distrepos:
+    - name: RDO Stein el7
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-train/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
 - name: stein
   branch: rpm-master
   tags_map: separated_buildreqs
