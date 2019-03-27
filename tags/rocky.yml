@@ -5,6 +5,9 @@ packages:
 - project: ansible-role-container-registry
   tags:
     rocky:
+- project: ansible-role-openstack-operations
+  tags:
+    rocky:
 - project: ansible-role-redhat-subscription
   tags:
     rocky:
