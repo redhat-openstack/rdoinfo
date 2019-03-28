@@ -148,7 +148,7 @@ package-configs:
   # templates using rpmfactory's repositories
   rpmfactory-core:
     name: openstack-%(project)s
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://git.openstack.org/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -161,7 +161,7 @@ package-configs:
     - hguemar@fedoraproject.org
   rpmfactory-client:
     name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/python-%(project)s
+    upstream: https://git.openstack.org/openstack/python-%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -174,7 +174,7 @@ package-configs:
     - hguemar@fedoraproject.org
   rpmfactory-lib:
     name: python-%(project)s
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://git.openstack.org/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -188,7 +188,7 @@ package-configs:
     - lbezdick@redhat.com
   rpmfactory-puppet:
     name: '%(project)s'
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://git.openstack.org/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/puppet/%(project)s.git
@@ -212,7 +212,7 @@ package-configs:
   rpmfactory-tempest-plugin:
 # Name and Project will be defined.
     name: '%(project)s'
-    upstream: git://git.openstack.org/openstack/%(project)s
+    upstream: https://git.openstack.org/openstack/%(project)s
 #   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
@@ -232,7 +232,7 @@ package-configs:
       pike:
   rpm-packaging:
     name: '%(project)s'
-    upstream: git://git.openstack.org/openstack/%(project)s.git
+    upstream: https://git.openstack.org/openstack/%(project)s.git
     distgit: https://github.com/openstack/rpm-packaging
     distgit-path: /openstack/%(project)s
     master-distgit: https://github.com/openstack/rpm-packaging
@@ -442,7 +442,7 @@ packages:
   upstream: git://github.com/saz/%(project)s
 - project: puppet-midonet
   conf: rpmfactory-puppet
-  upstream: git://github.com/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - alejandroandreu@openmailbox.org
 - project: puppet-midonet_openstack
@@ -467,7 +467,7 @@ packages:
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
 - project: puppet-pacemaker
   conf: rpmfactory-puppet
-  upstream: git://github.com/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
 - project: puppet-powerdns
   conf: rpmfactory-puppet
   upstream: git://github.com/antonlindstrom/%(project)s
@@ -802,7 +802,7 @@ packages:
   - aschultz@next-development.com
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
-  upstream: git://git.openstack.org/openstack/tripleo-heat-templates
+  upstream: https://git.openstack.org/openstack/tripleo-heat-templates
   maintainers:
   - mburns@redhat.com
   - jslagle@redhat.com
@@ -870,7 +870,7 @@ packages:
 - project: os-win
   name: python-os-win
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
 - project: oswin-tempest-plugin
@@ -1038,10 +1038,10 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: rpmfactory-client
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
   conf: rpmfactory-client
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -1050,7 +1050,7 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - tdecacqu@redhat.com
-  upstream: git://git.openstack.org/openstack-infra/%(project)s
+  upstream: https://git.openstack.org/openstack-infra/%(project)s
 - project: ironic-inspector-client
   conf: rpmfactory-client
   maintainers:
@@ -1069,7 +1069,7 @@ packages:
   - fpercoco@redhat.com
   - therve@redhat.com
 - project: openstacksdk
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   conf: rpmfactory-client
 - project: gnocchiclient
   conf: rpmfactory-client
@@ -1091,69 +1091,69 @@ packages:
 # openstack libraries
 - project: mox3
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/mox3
+  upstream: https://git.openstack.org/openstack/mox3
 - project: oslotest
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslotest
+  upstream: https://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslosphinx
+  upstream: https://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.i18n
+  upstream: https://git.openstack.org/openstack/oslo.i18n
   maintainers:
   - panemade@gmail.com
 - project: oslo-messaging
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.messaging
+  upstream: https://git.openstack.org/openstack/oslo.messaging
 - project: oslo-cache
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.cache
+  upstream: https://git.openstack.org/openstack/oslo.cache
 - project: oslo-config
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.config
+  upstream: https://git.openstack.org/openstack/oslo.config
 - project: oslo-concurrency
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.concurrency
+  upstream: https://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.rootwrap
+  upstream: https://git.openstack.org/openstack/oslo.rootwrap
 - project: oslo-serialization
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.serialization
+  upstream: https://git.openstack.org/openstack/oslo.serialization
 - project: oslo-middleware
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.middleware
+  upstream: https://git.openstack.org/openstack/oslo.middleware
 - project: oslo-db
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.db
+  upstream: https://git.openstack.org/openstack/oslo.db
 - project: oslo-utils
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.utils
+  upstream: https://git.openstack.org/openstack/oslo.utils
 - project: oslo-vmware
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.vmware
+  upstream: https://git.openstack.org/openstack/oslo.vmware
 - project: oslo-context
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.context
+  upstream: https://git.openstack.org/openstack/oslo.context
 - project: oslo-log
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.log
+  upstream: https://git.openstack.org/openstack/oslo.log
 - project: oslo-policy
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.policy
+  upstream: https://git.openstack.org/openstack/oslo.policy
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.versionedobjects
+  upstream: https://git.openstack.org/openstack/oslo.versionedobjects
 - project: oslo-service
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.service
+  upstream: https://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.reports
+  upstream: https://git.openstack.org/openstack/oslo.reports
 - project: oslo-privsep
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/oslo.privsep
+  upstream: https://git.openstack.org/openstack/oslo.privsep
 - project: ovsdbapp
   conf: rpmfactory-lib
   maintainers:
@@ -1185,14 +1185,14 @@ packages:
   conf: rpmfactory-lib
 - project: hacking
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack-dev/hacking
+  upstream: https://git.openstack.org/openstack-dev/hacking
 - project: wsme
   conf: rpmfactory-lib
 # deps
 - project: packstack
   conf: rpmfactory-core
   name: openstack-packstack
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - mmagr@redhat.com
   - amoralej@redhat.com
@@ -1228,7 +1228,7 @@ packages:
 - project: networking-ansible
   conf: rpmfactory-lib
   name: python-networking-ansible
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - dradez@redhat.com
   - michapma@redhat.com
@@ -1236,7 +1236,7 @@ packages:
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - shashank@arista.com
   - openstack-dev@arista.com
@@ -1253,7 +1253,7 @@ packages:
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - lennybe@gmail.com
   - bcafarel@redhat.com
@@ -1264,13 +1264,13 @@ packages:
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - mike.kolesnik@gmail.com
 - project: networking-sfc
   conf: rpmfactory-lib
   name: python-networking-sfc
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
 - project: networking-vsphere
@@ -1282,7 +1282,7 @@ packages:
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -1296,7 +1296,7 @@ packages:
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - wolverine.av@gmail.com
   - sarath.kutty@bigswitch.com
@@ -1310,7 +1310,7 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   name: python-networking-ovn
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - dalvarez@redhat.com
   - majopela@redhat.com
@@ -1321,7 +1321,7 @@ packages:
 - project: networking-cisco
   conf: rpmfactory-lib
   name: python-networking-cisco
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - openstack-networking@cisco.com
   - sambetts@cisco.com
@@ -1340,7 +1340,7 @@ packages:
 - project: os-brick
   name: python-os-brick
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/%(project)s
+  upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - eharney@redhat.com
   - jpena@redhat.com
@@ -1352,7 +1352,7 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   conf: rpmfactory-lib
-  upstream: git://github.com/openstack/keystoneauth
+  upstream: https://git.openstack.org/openstack/keystoneauth
 - project: rally
   conf: rpmfactory-core
   maintainers:
@@ -1573,7 +1573,7 @@ packages:
   - chkumar@redhat.com
 - project: tempestconf
   conf: rpmfactory-lib
-  upstream: git://git.openstack.org/openstack/python-%(project)s
+  upstream: https://git.openstack.org/openstack/python-%(project)s
   maintainers:
   - chkumar@redhat.com
   - ltoscano@redhat.com
@@ -1899,7 +1899,7 @@ packages:
   maintainers:
   - majopela@redhat.com
 - project: oslo-upgradecheck
-  upstream: git://git.openstack.org/openstack/oslo.upgradecheck
+  upstream: https://git.openstack.org/openstack/oslo.upgradecheck
   conf: rpmfactory-lib
   maintainers:
   - amoralej@redhat.com
@@ -1909,7 +1909,7 @@ packages:
   maintainers:
   - jrouleau@redhat.com
 - project: puppet-placement
-  upstream: git://github.com/openstack/puppet-placement
+  upstream: https://git.openstack.org/openstack/puppet-placement
   conf: rpmfactory-puppet
   maintainers:
   - lyarwood@redhat.com
