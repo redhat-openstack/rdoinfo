@@ -227,6 +227,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: keystoneauth1
   tags:
     stein:
@@ -390,6 +391,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     stein:
+      source-branch: 0.3.0
 - project: neutron-vpnaas
   tags:
     stein:
