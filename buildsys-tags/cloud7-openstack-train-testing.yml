@@ -395,6 +395,9 @@ packages:
 - project: python-cotyledon
   buildsys-tags:
     cloud7-openstack-train-testing: python-cotyledon-1.6.3-1.el7
+- project: python-coverage
+  buildsys-tags:
+    cloud7-openstack-train-el7-build: python-coverage-4.4.1-1.el7
 - project: python-cradox
   buildsys-tags:
     cloud7-openstack-train-testing: python-cradox-2.1.0-1.el7
