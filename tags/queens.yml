@@ -2,6 +2,9 @@ packages:
 - project: ansible-pacemaker
   tags:
     queens:
+- project: ansible-role-openstack-operations
+  tags:
+    queens:
 - project: ansible-role-redhat-subscription
   tags:
     queens:
