@@ -596,6 +596,12 @@ packages:
   - eharney@redhat.com
   - apevec@redhat.com
   - hguemar@fedoraproject.org
+- project: cinderlib
+  conf: rpmfactory-lib
+  upstream: https://git.openstack.org/openstack/%(project)s
+  maintainers:
+  - geguileo@redhat.com
+  - eharney@redhat.com
 - project: ironic
   conf: rpmfactory-core
   maintainers:
