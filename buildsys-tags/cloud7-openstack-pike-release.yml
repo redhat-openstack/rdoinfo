@@ -40,7 +40,7 @@ packages:
     cloud7-openstack-pike-release: python-ceilometermiddleware-1.1.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-cinder-11.2.0-1.el7
+    cloud7-openstack-pike-release: openstack-cinder-11.2.1-1.el7
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-pike-release: python-cinderclient-3.1.1-1.el7
@@ -142,7 +142,7 @@ packages:
     cloud7-openstack-pike-release: openstack-heat-9.0.5-1.el7
 - project: heat-agents
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-heat-agents-1.4.0-1.el7
+    cloud7-openstack-pike-release: openstack-heat-agents-1.4.1-1.el7
 - project: heat-translator
   buildsys-tags:
     cloud7-openstack-pike-release: python-heat-translator-0.9.0-1.el7
@@ -355,7 +355,7 @@ packages:
     cloud7-openstack-pike-release: os-apply-config-7.2.3-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-pike-release: python-os-brick-1.15.7-1.el7
+    cloud7-openstack-pike-release: python-os-brick-1.15.8-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-pike-release: python-os-client-config-1.28.0-1.el7
