@@ -64,7 +64,7 @@ packages:
     cloud7-openstack-rocky-release: python-ceilometermiddleware-1.3.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-cinder-13.0.3-2.el7
+    cloud7-openstack-rocky-release: openstack-cinder-13.0.4-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-cinder-tests-tempest-0.1.0-1.el7
@@ -235,7 +235,7 @@ packages:
     cloud7-openstack-rocky-release: python-heat-translator-1.1.0-1.el7
 - project: heatclient
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-heatclient-1.16.1-1.el7
+    cloud7-openstack-rocky-release: python-heatclient-1.16.2-1.el7
 - project: hiera
   buildsys-tags:
     cloud7-openstack-rocky-release: hiera-1.3.4-5.el7
@@ -331,7 +331,7 @@ packages:
     cloud7-openstack-rocky-release: python-magnumclient-2.10.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-manila-7.1.0-1.el7
+    cloud7-openstack-rocky-release: openstack-manila-7.2.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-manila-tests-tempest-0.1.0-1.el7
@@ -457,7 +457,7 @@ packages:
     cloud7-openstack-rocky-release: python-neutronclient-6.9.1-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-nova-18.1.0-1.el7
+    cloud7-openstack-rocky-release: openstack-nova-18.2.0-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-novaclient-11.0.0-1.el7
@@ -514,7 +514,7 @@ packages:
     cloud7-openstack-rocky-release: os-apply-config-9.1.1-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-os-brick-2.5.5-1.el7
+    cloud7-openstack-rocky-release: python-os-brick-2.5.6-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-rocky-release: python-os-client-config-1.31.2-1.el7
