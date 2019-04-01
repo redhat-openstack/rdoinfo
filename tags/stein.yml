@@ -112,6 +112,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     stein:
+      source-branch: 0.6.0
 - project: designateclient
   tags:
     stein:
@@ -180,6 +181,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     stein:
+      source-branch: 0.3.0
 - project: heat-translator
   tags:
     stein:
@@ -214,6 +216,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     stein:
+      source-branch: 1.3.0
 - project: ironic-ui
   tags:
     stein:
@@ -252,6 +255,7 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     stein:
+      source-branch: 0.4.1
 - project: magnum
   tags:
     stein:
@@ -271,6 +275,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: manila-ui
   tags:
     stein:
@@ -425,6 +430,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     stein:
+      source-branch: 1.0.0
 - project: octaviaclient
   tags:
     stein:
@@ -1091,6 +1097,7 @@ packages:
 - project: tempest-horizon
   tags:
     stein:
+      source-branch: 0.1.0
 - project: tempest-tripleo-ui
   tags:
     stein:
@@ -1192,6 +1199,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: zaqarclient
   tags:
     stein:
