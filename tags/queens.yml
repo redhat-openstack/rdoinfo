@@ -5,6 +5,7 @@ packages:
 - project: ansible-role-openstack-operations
   tags:
     queens:
+      source-branch: master
 - project: ansible-role-redhat-subscription
   tags:
     queens:
