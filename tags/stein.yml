@@ -252,6 +252,7 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     stein:
+      source-branch: 0.4.1
 - project: magnum
   tags:
     stein:
@@ -425,6 +426,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     stein:
+      source-branch: 1.0.0
 - project: octaviaclient
   tags:
     stein:
