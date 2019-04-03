@@ -73,7 +73,7 @@ packages:
     cloud7-openstack-queens-testing: python-ceilometermiddleware-1.2.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-cinder-12.0.5-1.el7
+    cloud7-openstack-queens-testing: openstack-cinder-12.0.6-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
@@ -271,7 +271,7 @@ packages:
     cloud7-openstack-queens-testing: python-heat-translator-0.9.0-1.el7
 - project: heatclient
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-heatclient-1.14.0-1.el7
+    cloud7-openstack-queens-testing: python-heatclient-1.14.1-1.el7
 - project: hiera
   buildsys-tags:
     cloud7-openstack-queens-testing: hiera-1.3.4-5.el7
@@ -394,7 +394,7 @@ packages:
     cloud7-openstack-queens-testing: python-magnumclient-2.9.1-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-manila-6.1.0-1.el7
+    cloud7-openstack-queens-testing: openstack-manila-6.2.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
@@ -529,7 +529,7 @@ packages:
     cloud7-openstack-queens-testing: nodejs-packaging-9-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-nova-17.0.9-1.el7
+    cloud7-openstack-queens-testing: openstack-nova-17.0.10-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-queens-testing: python-novaclient-10.1.0-1.el7
@@ -592,7 +592,7 @@ packages:
     cloud7-openstack-queens-testing: os-apply-config-8.3.1-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-os-brick-2.3.5-1.el7
+    cloud7-openstack-queens-testing: python-os-brick-2.3.6-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-queens-testing: python-os-client-config-1.29.0-1.el7
