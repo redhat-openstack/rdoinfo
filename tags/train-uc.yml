@@ -62,9 +62,6 @@ packages:
 - project: cinder
   tags:
     train-uc:
-- project: cinderlib
-  tags:
-    train-uc:
 - project: cinder-tempest-plugin
   tags:
     train-uc:
@@ -72,6 +69,9 @@ packages:
   tags:
     train-uc:
       source-branch: 4.1.0
+- project: cinderlib
+  tags:
+    train-uc:
 - project: cliff
   tags:
     train-uc:
