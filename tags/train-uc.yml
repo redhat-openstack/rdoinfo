@@ -62,9 +62,6 @@ packages:
 - project: cinder
   tags:
     train-uc:
-- project: cinderlib
-  tags:
-    train-uc:
 - project: cinder-tempest-plugin
   tags:
     train-uc:
@@ -72,6 +69,9 @@ packages:
   tags:
     train-uc:
       source-branch: 4.1.0
+- project: cinderlib
+  tags:
+    train-uc:
 - project: cliff
   tags:
     train-uc:
@@ -304,7 +304,7 @@ packages:
 - project: mistralclient
   tags:
     train-uc:
-      source-branch: 0cd6b282920214d2995d1203aa0ad7d33c825b10
+      source-branch: 3.8.0
 - project: monascaclient
   tags:
     train-uc:
@@ -986,11 +986,11 @@ packages:
 - project: rsd-lib
   tags:
     train-uc:
-      source-branch: 0.4.0
+      source-branch: 0.5.1
 - project: rsdclient
   tags:
     train-uc:
-      source-branch: 0.1.3
+      source-branch: 0.2.0
 - project: sahara
   tags:
     train-uc:
