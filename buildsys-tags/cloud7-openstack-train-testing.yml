@@ -755,6 +755,9 @@ packages:
 - project: python-psutil
   buildsys-tags:
     cloud7-openstack-train-testing: python-psutil-5.5.1-1.el7
+- project: python-psycopg2
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-psycopg2-2.7.7-1.el7
 - project: python-ptyprocess
   buildsys-tags:
     cloud7-openstack-train-testing: python-ptyprocess-0.6.0-5.el7
