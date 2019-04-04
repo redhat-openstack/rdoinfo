@@ -1,2 +1,1999 @@
----
 packages:
+- project: GitPython
+  buildsys-tags:
+    cloud7-openstack-stein-release: GitPython-1.0.1-5.el7
+- project: Judy
+  buildsys-tags:
+    cloud7-openstack-stein-release: Judy-1.0.5-8.el7
+- project: PyQt4
+  buildsys-tags:
+    cloud7-openstack-stein-release: PyQt4-4.12-1.el7
+- project: UcsSdk
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-UcsSdk-0.8.2.5-1.el7
+- project: Xaw3d
+  buildsys-tags:
+    cloud7-openstack-stein-release: Xaw3d-1.6.2-4.el7
+- project: ansible
+  buildsys-tags:
+    cloud7-openstack-stein-release: ansible-2.6.14-1.el7.ans
+- project: aodh
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-aodh-8.0.0-0.1.0rc1.el7
+- project: aodhclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-aodhclient-1.2.0-1.el7
+- project: atomic
+  buildsys-tags:
+    cloud7-openstack-stein-release: atomic-1.22.1-27.gitb507039.el7
+- project: automaton
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-automaton-1.16.0-1.el7
+- project: babel
+  buildsys-tags:
+    cloud7-openstack-stein-release: babel-2.6.0-4.el7
+- project: barbican
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-barbican-8.0.0-0.1.0rc1.el7
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-barbican-tests-tempest-0.2.0-1.el7
+- project: barbicanclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-barbicanclient-4.8.1-1.el7
+- project: blosc
+  buildsys-tags:
+    cloud7-openstack-stein-release: blosc-1.11.1-3.el7
+- project: buildah
+  buildsys-tags:
+    cloud7-openstack-stein-release: buildah-1.7-2.git873f001.el7
+- project: castellan
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-castellan-1.2.2-1.el7
+- project: ceilometer
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ceilometer-12.0.0-0.1.0rc1.el7
+- project: ceilometerclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ceilometerclient-2.9.0-1.el7
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ceilometermiddleware-1.4.0-1.el7
+- project: cinder
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-cinder-14.0.0-0.2.0rc2.el7
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cinder-tests-tempest-0.2.0-1.el7
+- project: cinderclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cinderclient-4.1.0-1.el7
+- project: cliff
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cliff-2.14.1-1.el7
+- project: cloudkitty
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-cloudkitty-9.0.0-0.1.0rc1.el7
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-cloudkitty-ui-8.1.0-1.el7
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cloudkittyclient-2.1.0-1.el7
+- project: coin-or-Cbc
+  buildsys-tags:
+    cloud7-openstack-stein-release: coin-or-Cbc-2.9.8-1.el7
+- project: coin-or-Cgl
+  buildsys-tags:
+    cloud7-openstack-stein-release: coin-or-Cgl-0.59.9-1.el7
+- project: coin-or-Clp
+  buildsys-tags:
+    cloud7-openstack-stein-release: coin-or-Clp-1.16.10-1.el7
+- project: coin-or-CoinUtils
+  buildsys-tags:
+    cloud7-openstack-stein-release: coin-or-CoinUtils-2.10.13-1.el7
+- project: coin-or-Osi
+  buildsys-tags:
+    cloud7-openstack-stein-release: coin-or-Osi-0.107.8-1.el7
+- project: coin-or-Sample
+  buildsys-tags:
+    cloud7-openstack-stein-release: coin-or-Sample-1.2.10-5.el7
+- project: congress
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-congress-9.0.0-0.1.0rc1.el7
+- project: congressclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-congressclient-1.12.0-1.el7
+- project: container-selinux
+  buildsys-tags:
+    cloud7-openstack-stein-release: container-selinux-2.77-1.el7
+- project: container-storage-setup
+  buildsys-tags:
+    cloud7-openstack-stein-release: container-storage-setup-0.11.0-2.git5eaf76c.el7
+- project: containernetworking-plugins
+  buildsys-tags:
+    cloud7-openstack-stein-release: containernetworking-plugins-0.7.3-2.el7
+- project: crudini
+  buildsys-tags:
+    cloud7-openstack-stein-release: crudini-0.9-2.el7
+- project: cursive
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cursive-0.2.2-1.el7
+- project: debtcollector
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-debtcollector-1.21.0-1.el7
+- project: designate
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-designate-8.0.0-0.1.0rc1.el7
+- project: designate-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-designate-ui-8.0.0-0.1.0rc1.el7
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-designate-tests-tempest-0.6.0-1.el7
+- project: designateclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-designateclient-2.11.0-1.el7
+- project: dib-utils
+  buildsys-tags:
+    cloud7-openstack-stein-release: dib-utils-0.0.11-1.el7
+- project: dibbler
+  buildsys-tags:
+    cloud7-openstack-stein-release: dibbler-1.0.1-0.RC1.2.el7
+- project: diskimage-builder
+  buildsys-tags:
+    cloud7-openstack-stein-release: diskimage-builder-2.20.3-1.el7
+- project: docker
+  buildsys-tags:
+    cloud7-openstack-stein-release: docker-1.13.1-93.gitb2f74b2.el7
+- project: dracclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-dracclient-2.0.0-1.el7
+- project: ec2-api
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ec2-api-8.0.0-1.el7
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ec2api-tests-tempest-0.2.0-1.el7
+- project: erlang
+  buildsys-tags:
+    cloud7-openstack-stein-release: erlang-19.3.6.4-1.el7
+- project: erlang-sd_notify
+  buildsys-tags:
+    cloud7-openstack-stein-release: erlang-sd_notify-1.0-2.el7
+- project: facter
+  buildsys-tags:
+    cloud7-openstack-stein-release: facter-2.4.4-4.el7
+- project: fio
+  buildsys-tags:
+    cloud7-openstack-stein-release: fio-2.2.10-1.el7
+- project: fontawesome-fonts
+  buildsys-tags:
+    cloud7-openstack-stein-release: fontawesome-fonts-4.4.0-1.el7
+- project: future
+  buildsys-tags:
+    cloud7-openstack-stein-release: future-0.16.0-4.el7
+- project: futurist
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-futurist-1.8.1-1.el7
+- project: galera
+  buildsys-tags:
+    cloud7-openstack-stein-release: galera-25.3.23-5.el7.0.0.rdo0
+- project: glance
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-glance-18.0.0-0.1.0rc1.el7
+- project: glance_store
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-glance-store-0.28.0-1.el7
+- project: glanceclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-glanceclient-2.16.0-1.el7
+- project: glareclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-glareclient-0.5.3-1.el7
+- project: gnocchi
+  buildsys-tags:
+    cloud7-openstack-stein-release: gnocchi-4.3.2-1.el7
+- project: gnocchiclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gnocchiclient-7.0.4-1.el7
+- project: golang-github-vbatts-tar-split
+  buildsys-tags:
+    cloud7-openstack-stein-release: golang-github-vbatts-tar-split-0.11.1-1.el7
+- project: google-api-python-client
+  buildsys-tags:
+    cloud7-openstack-stein-release: google-api-python-client-1.4.2-4.el7
+- project: gperftools
+  buildsys-tags:
+    cloud7-openstack-stein-release: gperftools-2.4.91-1.el7
+- project: gv
+  buildsys-tags:
+    cloud7-openstack-stein-release: gv-3.7.4-6.el7
+- project: hacking
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-hacking-1.1.0-1.el7
+- project: hdf5
+  buildsys-tags:
+    cloud7-openstack-stein-release: hdf5-1.8.13-7.el7
+- project: heat
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-heat-12.0.0-0.1.0rc1.el7
+- project: heat-cfntools
+  buildsys-tags:
+    cloud7-openstack-stein-release: heat-cfntools-1.3.0-2.el7
+- project: heat-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-heat-ui-1.5.0-1.el7
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-heat-tests-tempest-0.3.0-1.el7
+- project: heat-translator
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-heat-translator-1.3.0-1.el7
+- project: heatclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-heatclient-1.17.0-1.el7
+- project: hiera
+  buildsys-tags:
+    cloud7-openstack-stein-release: hiera-1.3.4-5.el7
+- project: horizon
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-horizon-15.0.0-0.1.0rc1.el7
+- project: ironic
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ironic-12.1.0-1.el7
+- project: ironic-inspector
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ironic-inspector-8.2.0-1.el7
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ironic-inspector-client-3.5.0-1.el7
+- project: ironic-lib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ironic-lib-2.16.2-1.el7
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ironic-python-agent-3.6.0-1.el7
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ironic-staging-drivers-0.11.0-1.el7
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ironic-tests-tempest-1.3.0-1.el7
+- project: ironic-ui
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-ironic-ui-3.4.0-1.el7
+- project: ironicclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ironicclient-2.7.0-1.el7
+- project: jemalloc
+  buildsys-tags:
+    cloud7-openstack-stein-release: jemalloc-3.6.0-1.el7
+- project: jq
+  buildsys-tags:
+    cloud7-openstack-stein-release: jq-1.5-10.el7
+- project: keystone
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-keystone-15.0.0-0.2.0rc2.el7
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-keystone-tests-tempest-0.2.0-1.el7
+- project: keystoneauth1
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-keystoneauth1-3.13.1-1.el7
+- project: keystoneclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-keystoneclient-3.19.0-1.el7
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-keystonemiddleware-6.0.0-1.el7
+- project: kuryr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-kuryr-lib-0.9.0-1.el7
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-kuryr-kubernetes-1.0.0-1.el7
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-kuryr-tests-tempest-0.4.1-1.el7
+- project: liberasurecode
+  buildsys-tags:
+    cloud7-openstack-stein-release: liberasurecode-1.5.0-1.el7
+- project: libimagequant
+  buildsys-tags:
+    cloud7-openstack-stein-release: libimagequant-2.8.2-2.el7
+- project: librdkafka
+  buildsys-tags:
+    cloud7-openstack-stein-release: librdkafka-0.11.6-1.el7
+- project: libsodium
+  buildsys-tags:
+    cloud7-openstack-stein-release: libsodium-1.0.16-1.el7
+- project: libvarlink
+  buildsys-tags:
+    cloud7-openstack-stein-release: libvarlink-12-1.el7
+- project: magnum
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-magnum-8.0.0-0.1.0rc1.el7
+- project: magnum-ui
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-magnum-ui-5.1.0-1.el7
+- project: magnumclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-magnumclient-2.12.0-1.el7
+- project: manila
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-manila-8.0.0-0.1.0rc1.el7
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-manila-tests-tempest-0.2.0-1.el7
+- project: manilaclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-manilaclient-1.27.0-1.el7
+- project: mariadb
+  buildsys-tags:
+    cloud7-openstack-stein-release: mariadb-10.3.10-1.el7.0.0.rdo2
+- project: memcached
+  buildsys-tags:
+    cloud7-openstack-stein-release: memcached-1.5.6-1.el7
+- project: metalsmith
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-metalsmith-0.11.0-1.el7
+- project: microversion-parse
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-microversion-parse-0.2.1-1.el7
+- project: mistral
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-mistral-8.0.0-0.1.0rc1.el7
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-mistral-ui-8.0.0-0.1.0rc1.el7
+- project: mistral-lib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mistral-lib-1.1.0-1.el7
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mistral-tests-tempest-0.2.0-1.el7
+- project: mistralclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mistralclient-3.8.0-1.el7
+- project: mod_xsendfile
+  buildsys-tags:
+    cloud7-openstack-stein-release: mod_xsendfile-0.12-17.el7
+- project: monascaclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-monascaclient-1.14.0-1.el7
+- project: mox3
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mox3-0.27.0-1.el7
+- project: murano
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-murano-7.0.0-0.1.0rc1.el7
+- project: murano-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-murano-ui-7.0.0-0.1.0rc1.el7
+- project: muranoclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-muranoclient-1.2.0-1.el7
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-bagpipe-10.0.0-0.1.0rc1.el7
+- project: networking-baremetal
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-baremetal-1.3.0-1.el7
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-bgpvpn-10.0.0-0.1.0rc1.el7
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-generic-switch-1.3.1-1.el7
+- project: networking-l2gw
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-l2gw-14.0.0-1.el7
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-l2gw-tests-tempest-0.1.0-1.el7
+- project: networking-odl
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-odl-14.0.0-0.1.0rc1.el7
+- project: networking-ovn
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-ovn-6.0.0-0.1.0rc1.el7
+- project: networking-sfc
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-sfc-8.0.0-0.1.0rc1.el7
+- project: neutron
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-neutron-14.0.0-0.1.0rc1.el7
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-neutron-dynamic-routing-14.0.0-0.1.0rc1.el7
+- project: neutron-fwaas
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-neutron-fwaas-14.0.0-0.1.0rc1.el7
+- project: neutron-lbaas
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-neutron-lbaas-14.0.0-0.1.0rc1.el7
+- project: neutron-lbaas-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-neutron-lbaas-ui-6.0.0-0.1.0rc1.el7
+- project: neutron-lib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-neutron-lib-1.25.0-1.el7
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-neutron-tests-tempest-0.3.0-1.el7
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-neutron-vpnaas-14.0.0-0.1.0rc1.el7
+- project: neutronclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-neutronclient-6.12.0-1.el7
+- project: nova
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-nova-19.0.0-0.1.0rc1.el7
+- project: novaclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-novaclient-13.0.0-1.el7
+- project: novajoin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-novajoin-1.1.1-2.el7
+- project: novnc
+  buildsys-tags:
+    cloud7-openstack-stein-release: novnc-0.5.1-2.el7
+- project: numpy
+  buildsys-tags:
+    cloud7-openstack-stein-release: numpy-1.14.5-1.el7
+- project: oci-systemd-hook
+  buildsys-tags:
+    cloud7-openstack-stein-release: oci-systemd-hook-0.1.18-2.git3efe246.el7
+- project: oci-umount
+  buildsys-tags:
+    cloud7-openstack-stein-release: oci-umount-2.3.4-2.git87f9237.el7
+- project: octavia
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-octavia-4.0.0-0.1.0rc1.el7
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-octavia-ui-3.0.0-0.1.0rc1.el7
+- project: octavia-lib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-octavia-lib-1.1.1-1.el7
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-octavia-tests-tempest-1.0.0-1.el7
+- project: octaviaclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-octaviaclient-1.8.0-1.el7
+- project: oniguruma
+  buildsys-tags:
+    cloud7-openstack-stein-release: oniguruma-6.7.0-1.el7
+- project: openjpeg2
+  buildsys-tags:
+    cloud7-openstack-stein-release: openjpeg2-2.1.2-1.el7
+- project: openpgm
+  buildsys-tags:
+    cloud7-openstack-stein-release: openpgm-5.2.122-2.el7
+- project: openstack-selinux
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-selinux-0.8.18-1.el7
+- project: openstack-utils
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-utils-2017.1-1.el7
+- project: openstackclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-openstackclient-3.18.0-1.el7
+- project: openstacksdk
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-openstacksdk-0.26.0-1.el7
+- project: openvswitch
+  buildsys-tags:
+    cloud7-openstack-stein-release: openvswitch-2.11.0-4.el7
+- project: os-apply-config
+  buildsys-tags:
+    cloud7-openstack-stein-release: os-apply-config-10.2.0-1.el7
+- project: os-brick
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-brick-2.8.1-1.el7
+- project: os-client-config
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-client-config-1.32.0-1.el7
+- project: os-collect-config
+  buildsys-tags:
+    cloud7-openstack-stein-release: os-collect-config-10.2.0-1.el7
+- project: os-faults
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-faults-0.2.1-1.el7
+- project: os-ken
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-ken-0.3.1-1.el7
+- project: os-net-config
+  buildsys-tags:
+    cloud7-openstack-stein-release: os-net-config-10.3.0-1.el7
+- project: os-refresh-config
+  buildsys-tags:
+    cloud7-openstack-stein-release: os-refresh-config-10.2.0-1.el7
+- project: os-resource-classes
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-resource-classes-0.3.0-1.el7
+- project: os-service-types
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-service-types-1.6.0-2.el7
+- project: os-testr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-testr-1.0.0-1.el7
+- project: os-traits
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-traits-0.11.0-1.el7
+- project: os-vif
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-vif-1.15.1-1.el7
+- project: os-win
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-win-4.2.0-1.el7
+- project: os-xenapi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-os-xenapi-0.3.4-1.el7
+- project: osc-lib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-osc-lib-1.12.1-1.el7
+- project: osc-placement
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-osc-placement-1.5.0-1.el7
+- project: oslo-cache
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-cache-1.33.2-1.el7
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-concurrency-3.29.1-1.el7
+- project: oslo-config
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-config-6.8.1-1.el7
+- project: oslo-context
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-context-2.22.1-1.el7
+- project: oslo-db
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-db-4.45.0-1.el7
+- project: oslo-i18n
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-i18n-3.23.1-1.el7
+- project: oslo-log
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-log-3.42.3-1.el7
+- project: oslo-messaging
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-messaging-9.5.0-1.el7
+- project: oslo-middleware
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-middleware-3.37.1-1.el7
+- project: oslo-policy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-policy-2.1.1-1.el7
+- project: oslo-privsep
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-privsep-1.32.1-1.el7
+- project: oslo-reports
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-reports-1.29.2-1.el7
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-rootwrap-5.15.2-1.el7
+- project: oslo-serialization
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-serialization-2.28.2-1.el7
+- project: oslo-service
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-service-1.38.0-1.el7
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-sphinx-4.18.0-1.el7
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-upgradecheck-0.2.1-1.el7
+- project: oslo-utils
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-utils-3.40.3-1.el7
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-versionedobjects-1.35.1-1.el7
+- project: oslo-vmware
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslo-vmware-2.32.2-1.el7
+- project: oslotest
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oslotest-3.7.1-1.el7
+- project: osprofiler
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-osprofiler-2.6.0-1.el7
+- project: oswin-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oswin-tests-tempest-0.2.0-1.el7
+- project: ovsdbapp
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ovsdbapp-0.15.0-1.el7
+- project: pacemaker
+  buildsys-tags:
+    cloud7-openstack-stein-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
+- project: packstack
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-packstack-14.0.0-0.1.0rc1.el7
+- project: panko
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-panko-6.0.0-0.1.0rc1.el7
+- project: pankoclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pankoclient-0.6.0-1.el7
+- project: placement
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-placement-1.0.0-0.3.0rc3.el7
+- project: podman
+  buildsys-tags:
+    cloud7-openstack-stein-release: podman-1.0.0-3.git921f98f.el7
+- project: proliantutils
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-proliantutils-2.8.2-1.el7
+- project: puppet
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-5.5.6-1.el7
+- project: puppet-aodh
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-aodh-14.4.0-1.el7
+- project: puppet-apache
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-apache-4.0.0-1.7a33327git.el7
+- project: puppet-archive
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-archive-3.2.2-0.1.0rc0.56eedafgit.el7
+- project: puppet-auditd
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-auditd-2.2.0-3.189b22bgit.el7
+- project: puppet-barbican
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-barbican-14.4.0-1.el7
+- project: puppet-cassandra
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-cassandra-2.7.4-0.1.a371404git.el7
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ceilometer-14.4.0-1.el7
+- project: puppet-ceph
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ceph-2.5.1-1.el7
+- project: puppet-certmonger
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-certmonger-2.4.0-1.a198870git.el7
+- project: puppet-cinder
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-cinder-14.4.0-1.el7
+- project: puppet-collectd
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-collectd-10.1.1-0.1.0rc0.d7b6b8cgit.el7
+- project: puppet-concat
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-concat-5.3.0-1.912d2ccgit.el7
+- project: puppet-congress
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-congress-14.4.0-1.el7
+- project: puppet-contrail
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-contrail-1.0.0-5.6f87929git.el7
+- project: puppet-corosync
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-corosync-6.0.2-0.1.0rc0.fe3b8a8git.el7
+- project: puppet-datacat
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-datacat-0.6.2-1.5cce8f2git.el7
+- project: puppet-designate
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-designate-14.4.0-1.el7
+- project: puppet-dns
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-dns-5.4.0-1.el7
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ec2api-14.4.0-1.el7
+- project: puppet-elasticsearch
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-elasticsearch-6.3.3-1.835e679git.el7
+- project: puppet-etcd
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-etcd-1.12.2-2.7555287git.el7
+- project: puppet-fdio
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-fdio-18.01-3.6fd1c8egit.el7
+- project: puppet-firewall
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-firewall-1.15.1-1.50f0196git.el7
+- project: puppet-fluentd
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-fluentd-0.10.0-2.4dfc15agit.el7
+- project: puppet-git
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-git-0.5.0-1.4e4498egit.el7
+- project: puppet-glance
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-glance-14.4.0-1.el7
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-gnocchi-14.4.0-1.el7
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-haproxy-3.0.1-1.cf72e5egit.el7
+- project: puppet-heat
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-heat-14.4.0-1.el7
+- project: puppet-horizon
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-horizon-14.4.0-1.el7
+- project: puppet-inifile
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-inifile-2.5.0-1.6b16db6git.el7
+- project: puppet-ipaclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ipaclient-2.5.2-1.el7
+- project: puppet-ironic
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ironic-14.4.0-1.el7
+- project: puppet-java
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-java-3.3.0-1.b998142git.el7
+- project: puppet-kafka
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-kafka-5.3.1-0.1.0dbae74git.el7
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
+- project: puppet-keystone
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-keystone-14.4.0-1.el7
+- project: puppet-kibana3
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
+- project: puppet-kmod
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-kmod-2.3.0-1.el7
+- project: puppet-lib-file_concat
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-lib-file_concat-1.0.1-2.el7
+- project: puppet-magnum
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-magnum-14.4.0-1.el7
+- project: puppet-manila
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-manila-14.4.0-1.el7
+- project: puppet-memcached
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-memcached-3.4.0-1.66d3a66git.el7
+- project: puppet-midonet
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-midonet-1.1.0-2.4a44c33git.el7
+- project: puppet-mistral
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-mistral-14.4.0-1.el7
+- project: puppet-module-data
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-module-data-0.5.1-1.28dafcegit.el7
+- project: puppet-mongodb
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-mongodb-2.4.2-0.1.0rc0.66c0f6agit.el7
+- project: puppet-murano
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-murano-14.4.0-1.el7
+- project: puppet-mysql
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-mysql-6.2.0-1.el7
+- project: puppet-n1k-vsm
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
+- project: puppet-neutron
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-neutron-14.4.0-1.el7
+- project: puppet-nova
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-nova-14.4.0-1.el7
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
+- project: puppet-ntp
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ntp-4.2.0-1.4.2.xgit.el7
+- project: puppet-octavia
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-octavia-14.4.0-1.el7
+- project: puppet-opendaylight
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-opendaylight-8.4.3-1.bbe7ce5git.el7
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-openstack_extras-14.4.0-1.el7
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-openstacklib-14.4.0-1.el7
+- project: puppet-oslo
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-oslo-14.4.0-1.el7
+- project: puppet-ovn
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ovn-14.4.0-1.el7
+- project: puppet-panko
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-panko-14.4.0-1.el7
+- project: puppet-placement
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-placement-1.2.0-1.el7
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-powerdns-0.0.5-2.d3d9b3agit.el7
+- project: puppet-qdr
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-qdr-3.4.0-1.el7
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-rabbitmq-9.0.1-0.1.5477e69git.el7
+- project: puppet-redis
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-redis-4.0.1-0.1.0rc0.5464b33git.el7
+- project: puppet-remote
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-remote-10.0.0-1.7420908git.el7
+- project: puppet-rsync
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-rsync-1.1.1-1.a7d4f84git.el7
+- project: puppet-sahara
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-sahara-14.4.0-1.el7
+- project: puppet-sensu
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-sensu-2.62.3-1.20361a4git.el7
+- project: puppet-snmp
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-snmp-3.9.0-1.5d73485git.el7
+- project: puppet-ssh
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-ssh-5.0.0-1.fc0d31cgit.el7
+- project: puppet-staging
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-staging-1.0.4-1.b466d93git.el7
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-stdlib-5.2.0-1.b0dd4c1git.el7
+- project: puppet-swift
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-swift-14.4.0-1.el7
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-sysctl-0.0.12-2.a3d160dgit.el7
+- project: puppet-systemd
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-systemd-2.2.0-1.el7
+- project: puppet-tacker
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-tacker-14.4.0-1.el7
+- project: puppet-tempest
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-tempest-14.4.0-1.el7
+- project: puppet-timezone
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-timezone-5.1.1-1.el7
+- project: puppet-tomcat
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-tomcat-2.5.0-1.5366908git.el7
+- project: puppet-trove
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-trove-14.4.0-1.el7
+- project: puppet-uchiwa
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-uchiwa-2.1.1-2.837c669git.el7
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-vcsrepo-2.4.0-1.a2ea398git.el7
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-vitrage-4.4.0-1.el7
+- project: puppet-vlan
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-vlan-0.1.0-1.el7
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-vswitch-10.4.0-1.el7
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-xinetd-3.2.0-1.98b4231git.el7
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-zaqar-14.4.0-1.el7
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud7-openstack-stein-release: puppet-zookeeper-0.8.5-1.eb6d2d0git.el7
+- project: pyOpenSSL
+  buildsys-tags:
+    cloud7-openstack-stein-release: pyOpenSSL-19.0.0-1.el7
+- project: pycadf
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pycadf-2.9.0-1.el7
+- project: pydot
+  buildsys-tags:
+    cloud7-openstack-stein-release: pydot-1.4.1-1.el7
+- project: pyflakes
+  buildsys-tags:
+    cloud7-openstack-stein-release: pyflakes-0.9.2-1.el7
+- project: pyparsing
+  buildsys-tags:
+    cloud7-openstack-stein-release: pyparsing-2.3.1-1.el7
+- project: pysendfile
+  buildsys-tags:
+    cloud7-openstack-stein-release: pysendfile-2.0.0-5.el7
+- project: pyserial
+  buildsys-tags:
+    cloud7-openstack-stein-release: pyserial-3.1.1-7.el7
+- project: pysnmp
+  buildsys-tags:
+    cloud7-openstack-stein-release: pysnmp-4.3.2-3.el7
+- project: pystache
+  buildsys-tags:
+    cloud7-openstack-stein-release: pystache-0.5.3-2.el7
+- project: pytest
+  buildsys-tags:
+    cloud7-openstack-stein-release: pytest-3.9.3-2.el7
+- project: python-APScheduler
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-APScheduler-3.0.5-2.el7
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-Bottleneck-0.6.0-4.el7
+- project: python-ImcSdk
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ImcSdk-0.7.2-3.el7
+- project: python-PuLP
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-PuLP-1.6.1-5.el7
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-PyMySQL-0.9.2-2.el7
+- project: python-XStatic
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-1.0.1-8.el7
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-1.5.8.0-1.el7
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-Bootstrap-2.2.0.0-1.el7
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-FileUpload-12.0.4.0-1.el7
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el7
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-Schema-Form-0.8.13.0-0.1.pre_review.el7
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-UUID-0.0.4.0-3.el7
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-Vis-4.16.0.0-1.el7
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-2.el7
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-1.el7
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-2.el7
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-D3-3.5.17.0-1.el7
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-FileSaver-1.3.2.0-1.el7
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Font-Awesome-4.7.0.0-3.el7
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Hogan-2.0.0.2-2.el7
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-JQuery-Migrate-1.2.1.1-2.el7
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-JQuery-TableSorter-2.14.5.1-2.el7
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-JQuery-quicksearch-2.0.3.1-2.el7
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-JS-Yaml-3.8.1.0-1.el7
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-JSEncrypt-2.3.1.1-1.el7
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Jasmine-2.4.1.1-1.el7
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Json2yaml-0.1.1.0-1.el7
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Magic-Search-0.2.0.1-2.el7
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Rickshaw-1.5.0.0-4.el7
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-Spin-1.2.5.2-2.el7
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-bootswatch-3.3.7.0-1.el7
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-jQuery-1.10.2.1-1.el7
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-jquery-ui-1.10.4.1-1.el7
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-mdi-1.4.57.0-4.el7
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-objectpath-1.2.1.0-0.1.pre_review.el7
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-roboto-fontface-0.5.0.0-1.el7
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-smart-table-1.4.13.2-1.el7
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-termjs-0.0.7.0-1.el7
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-XStatic-tv4-1.2.7.0-0.1.pre_review.el7
+- project: python-alembic
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-alembic-1.0.7-1.el7
+- project: python-amqp
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-amqp-2.4.1-1.el7
+- project: python-aniso8601
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-aniso8601-0.82-3.el7
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ansible-runner-1.2.0-2.el7
+- project: python-anyjson
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-anyjson-0.3.3-3.el7
+- project: python-appdirs
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-appdirs-1.4.0-4.el7
+- project: python-asn1crypto
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-asn1crypto-0.23.0-2.el7
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-atomicwrites-1.3.0-1.el7
+- project: python-attrs
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-attrs-17.4.0-4.el7
+- project: python-autobahn
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-autobahn-19.1.1-2.el7
+- project: python-backports-ssl_match_hostname
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-backports-ssl_match_hostname-3.5.0.1-1.el7
+- project: python-bcrypt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-bcrypt-3.1.6-1.el7
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-beautifulsoup4-4.6.0-1.el7
+- project: python-boto
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-boto-2.34.0-4.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-botocore-1.12.75-1.el7
+- project: python-cachetools
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cachetools-3.1.0-1.el7
+- project: python-certifi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-certifi-2016.9.26-2.el7
+- project: python-cffi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cffi-1.11.2-1.el7
+- project: python-characteristic
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-characteristic-14.3.0-4.el7
+- project: python-chardet
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-chardet-3.0.4-7.el7
+- project: python-click
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-click-6.3-1.el7
+- project: python-cmd2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cmd2-0.8.8-5.el7
+- project: python-colorama
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-colorama-0.4.1-1.el7
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-confluent-kafka-0.11.6-3.el7
+- project: python-construct
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-construct-2.8.10-1.el7
+- project: python-contextlib2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-contextlib2-0.5.5-8.el7
+- project: python-cotyledon
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cotyledon-1.6.3-1.el7
+- project: python-coverage
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-coverage-4.4.1-1.el7
+- project: python-cradox
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cradox-2.1.0-1.el7
+- project: python-crane
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-crane-3.1.1-2.el7
+- project: python-croniter
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-croniter-0.3.27-1.el7
+- project: python-cryptography
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cryptography-2.5-1.el7
+- project: python-cycler
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cycler-0.10.0-2.el7
+- project: python-daemon
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-daemon-2.2.3-1.el7
+- project: python-daiquiri
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-daiquiri-1.5.0-1.el7
+- project: python-dateutil
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-dateutil-2.8.0-1.el7
+- project: python-ddt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ddt-1.2.0-2.el7
+- project: python-defusedxml
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-defusedxml-0.5.0-2.el7
+- project: python-deprecation
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-deprecation-2.0.6-1.el7
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-dictdiffer-0.7.1-2.el7
+- project: python-distro
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-distro-1.3.0-3.el7
+- project: python-django
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-1.11.20-1.el7
+- project: python-django-appconf
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-appconf-1.0.1-4.el7
+- project: python-django-babel
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-babel-0.6.2-1.el7
+- project: python-django-compressor
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-compressor-2.1-5.el7
+- project: python-django-debreach
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-debreach-1.5.2-1.el7
+- project: python-django-formtools
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-formtools-2.1-1.el7
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-django-pyscss-2.0.2-1.el7
+- project: python-dns
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-dns-1.15.0-5.el7
+- project: python-docker
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-docker-3.7.0-2.el7
+- project: python-docker-pycreds
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-docker-pycreds-0.4.0-2.el7
+- project: python-docopt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-docopt-0.6.2-4.el7
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-dogpile-cache-0.6.8-1.el7
+- project: python-dulwich
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-dulwich-0.19.11-1.el7
+- project: python-editor
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-editor-0.4-4.el7
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-elasticsearch-1.4.0-2.el7
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-etcd3gw-0.2.4-6.el7
+- project: python-eventlet
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-eventlet-0.24.1-3.el7
+- project: python-exabgp
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-exabgp-4.0.10-2.el7
+- project: python-extras
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-extras-1.0.0-2.el7
+- project: python-falcon
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-falcon-1.0.0-4.el7
+- project: python-fastavro
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-fastavro-0.21.13-1.el7
+- project: python-fastcache
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-fastcache-1.0.2-9.el7
+- project: python-fasteners
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-fasteners-0.14.1-6.el7
+- project: python-fixtures
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-fixtures-3.0.0-7.el7
+- project: python-flake8
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-flake8-2.6.2-1.el7
+- project: python-flask
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-flask-1.0.2-1.el7
+- project: python-flask-restful
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-flask-restful-0.3.6-7.el7
+- project: python-funcsigs
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-funcsigs-1.0.2-1.el7
+- project: python-functools32
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-functools32-3.2.3.2-1.el7
+- project: python-futures
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-futures-3.1.1-2.el7
+- project: python-gabbi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gabbi-1.42.1-2.el7
+- project: python-gevent
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gevent-1.1.2-2.el7
+- project: python-gflags
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gflags-2.0-5.el7
+- project: python-gitdb
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gitdb-0.6.4-4.el7
+- project: python-gmpy2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gmpy2-2.0.5-1.el7
+- project: python-google-auth
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-google-auth-1.3.0-1.el7
+- project: python-greenlet
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-greenlet-0.4.12-1.el7
+- project: python-gunicorn
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-gunicorn-19.7.1-1.el7
+- project: python-idna
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-idna-2.5-1.el7
+- project: python-influxdb
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-influxdb-4.0.0-1.el7.1
+- project: python-ipaddress
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ipaddress-1.0.18-5.el7
+- project: python-iso8601
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-iso8601-0.1.11-1.el7
+- project: python-itsdangerous
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-itsdangerous-0.24-14.el7
+- project: python-jinja2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jinja2-2.10-2.el7
+- project: python-jmespath
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jmespath-0.9.0-5.el7
+- project: python-json-logger
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-json-logger-0.1.7-1.el7
+- project: python-jsonpatch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jsonpatch-1.21-1.el7
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jsonpath-rw-1.2.3-2.el7
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jsonpath-rw-ext-1.0.0-1.el7
+- project: python-jsonpointer
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jsonpointer-1.10-4.el7
+- project: python-jsonschema
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jsonschema-2.6.0-2.el7
+- project: python-junitxml
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-junitxml-0.7-1.el7
+- project: python-jwt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-jwt-1.6.1-1.el7
+- project: python-kafka
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-kafka-1.3.1-1.el7
+- project: python-kazoo
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-kazoo-2.2.1-1.el7
+- project: python-keyring
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-keyring-5.7.1-1.el7
+- project: python-kombu
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-kombu-4.2.2-1.el7
+- project: python-kubernetes
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-kubernetes-8.0.0-8.el7
+- project: python-ldap3
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ldap3-2.4.1-3.el7
+- project: python-ldappool
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ldappool-2.4.0-2.el7
+- project: python-lesscpy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-lesscpy-0.9j-4.el7
+- project: python-linecache2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-linecache2-1.0.0-1.el7
+- project: python-logutils
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-logutils-0.3.3-3.el7
+- project: python-lz4
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-lz4-0.9.0-1.el7
+- project: python-marathon
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-marathon-0.8.7-1.el7
+- project: python-markupsafe
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-markupsafe-1.1.0-2.el7
+- project: python-matplotlib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-matplotlib-2.0.0-3.el7
+- project: python-mccabe
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mccabe-0.2.1-4.el7
+- project: python-memcached
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-memcached-1.58-1.el7
+- project: python-migrate
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-migrate-0.11.0-1.el7
+- project: python-mimeparse
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mimeparse-1.6.0-2.el7
+- project: python-mock
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mock-2.0.0-1.el7
+- project: python-monotonic
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-monotonic-1.5-1.el7
+- project: python-more-itertools
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-more-itertools-4.1.0-1.el7
+- project: python-mox
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mox-0.5.3-15.el7
+- project: python-mpmath
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-mpmath-1.1.0-1.el7
+- project: python-msgpack
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-msgpack-0.6.1-2.el7
+- project: python-munch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-munch-2.2.0-2.el7
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-murano-pkg-check-0.3.0-2.el7
+- project: python-ncclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ncclient-0.4.7-5.el7
+- project: python-netaddr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-netaddr-0.7.19-5.el7
+- project: python-netmiko
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-netmiko-2.3.0-1.el7
+- project: python-networkx
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networkx-2.2-3.el7
+- project: python-nose
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-nose-1.3.7-7.el7
+- project: python-ntlm3
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ntlm3-1.0.2-4.el7
+- project: python-numexpr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-numexpr-2.6.1-3.el7
+- project: python-oauth2client
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-oauth2client-1.5.2-3.el7.1
+- project: python-octavia-tests-golang
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-octavia-tests-golang-0.1.0-2.el7
+- project: python-olefile
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-olefile-0.44-1.el7
+- project: python-openshift
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-openshift-0.8.4-2.el7
+- project: python-pandas
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pandas-0.19.1-2.el7.2
+- project: python-paramiko
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-paramiko-2.4.2-2.el7
+- project: python-passlib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-passlib-1.7.0-4.el7
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-paste-deploy-1.5.2-6.el7
+- project: python-pathlib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pathlib-1.0.1-1.el7
+- project: python-pathlib2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pathlib2-2.3.2-3.el7
+- project: python-pbr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pbr-5.1.2-2.el7
+- project: python-pecan
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pecan-1.3.2-1.el7
+- project: python-pep8
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pep8-1.5.7-2.el7
+- project: python-pexpect
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pexpect-4.6-1.el7
+- project: python-pika
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pika-0.10.0-3.el7
+- project: python-pika_pool
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pika_pool-0.1.3-3.el7
+- project: python-pillow
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pillow-5.4.1-3.el7
+- project: python-pint
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pint-0.9-1.el7
+- project: python-pluggy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pluggy-0.8.1-1.el7
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-posix_ipc-0.9.8-1.el7
+- project: python-psutil
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-psutil-5.5.1-1.el7
+- project: python-ptyprocess
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ptyprocess-0.6.0-5.el7
+- project: python-py
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-py-1.5.3-2.el7
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pycodestyle-2.0.0-5.el7
+- project: python-pyeclib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pyeclib-1.5.0-3.el7
+- project: python-pygal
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pygal-2.3.0-2.el7
+- project: python-pyghmi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pyghmi-1.2.16-1.el7
+- project: python-pyglet
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pyglet-1.2.1-2.el7
+- project: python-pykwalify
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pykwalify-1.5.1-2.el7
+- project: python-pymongo
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pymongo-3.7.2-1.el7
+- project: python-pynacl
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pynacl-1.3.0-1.el7
+- project: python-pyngus
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pyngus-2.0.3-3.el7
+- project: python-pyperclip
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pyperclip-1.6.4-1.el7
+- project: python-pyroute2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pyroute2-0.5.3-3.el7
+- project: python-pysaml2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pysaml2-4.6.5-1.el7
+- project: python-pysocks
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pysocks-1.5.6-3.el7
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pytest-runner-4.0-3.el7
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-pytimeparse-1.1.5-1.el7
+- project: python-qpid
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-qpid-1.37.0-4.el7.1
+- project: python-rcssmin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-rcssmin-1.0.6-2.el7
+- project: python-redis
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-redis-3.1.0-1.el7
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-repoze-lru-0.4-3.el7
+- project: python-repoze-who
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-repoze-who-2.1-1.el7
+- project: python-requests
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-requests-2.21.0-2.el7
+- project: python-requests-mock
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-requests-mock-1.5.2-3.el7
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-requests_ntlm-0.3.0-4.el7
+- project: python-retrying
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-retrying-1.2.3-4.el7
+- project: python-rfc3986
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-rfc3986-1.2.0-1.el7
+- project: python-rjsmin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-rjsmin-1.0.12-2.el7
+- project: python-routes
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-routes-2.4.1-1.el7
+- project: python-rsa
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-rsa-3.3-2.el7
+- project: python-ruamel-ordereddict
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ruamel-ordereddict-0.4.9-2.el7
+- project: python-ruamel-yaml
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ruamel-yaml-0.13.14-1.el7
+- project: python-ryu
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ryu-4.26-1.el7
+- project: python-scandir
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-scandir-1.9.0-4.el7
+- project: python-scp
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-scp-0.10.2-6.el7
+- project: python-scrypt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-scrypt-0.8.0-2.el7
+- project: python-scss
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-scss-1.3.4-6.el7
+- project: python-semantic_version
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-semantic_version-2.4.2-1.el7
+- project: python-service-identity
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-service-identity-14.0.0-4.el7
+- project: python-setproctitle
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-setproctitle-1.1.9-4.el7
+- project: python-setuptools
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-setuptools-40.8.0-1.el7
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-simplegeneric-0.8-7.el7
+- project: python-simplejson
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-simplejson-3.10.0-7.el7
+- project: python-singledispatch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-singledispatch-3.4.0.3-4.el7
+- project: python-six
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-six-1.12.0-1.el7
+- project: python-smmap
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-smmap-0.9.0-5.el7
+- project: python-snappy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-snappy-0.5-8.el7
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sphinx-argparse-0.2.2-3.el7
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sqlalchemy-1.2.17-2.el7
+- project: python-sqlalchemy-collectd
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sqlalchemy-collectd-0.0.3-3.el7
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sqlalchemy-utils-0.32.12-3.el7
+- project: python-sqlparse
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sqlparse-0.1.18-5.el7
+- project: python-statsd
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-statsd-3.2.1-5.el7
+- project: python-stestr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-stestr-1.1.0-1.el7
+- project: python-string_utils
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-string_utils-0.6.0-4.el7
+- project: python-subunit2sql
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-subunit2sql-1.8.0-6.1.el7
+- project: python-suds
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-suds-0.7-0.4.94664ddd46a6.el7
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sysv_ipc-0.7.0-4.el7
+- project: python-tables
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tables-3.3.0-4.el7
+- project: python-tempita
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tempita-0.5.1-8.el7
+- project: python-tenacity
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tenacity-5.0.2-2.el7
+- project: python-testrepository
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-testrepository-0.0.20-12.el7
+- project: python-testresources
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-testresources-1.0.0-6.el7
+- project: python-testscenarios
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-testscenarios-0.5.0-8.el7
+- project: python-testtools
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-testtools-1.8.0-2.el7
+- project: python-textfsm
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-textfsm-0.3.2-1.el7
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tinyrpc-0.5-4.20170523git1f38ac.el7
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tosca-parser-0.8.1-1.el7
+- project: python-traceback2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-traceback2-1.4.0-14.el7
+- project: python-trollius
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-trollius-2.1-7.el7
+- project: python-twisted
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-twisted-16.1.1-3.el7
+- project: python-txaio
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-txaio-18.8.1-1.el7
+- project: python-tzlocal
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tzlocal-1.2-4.el7
+- project: python-ucsmsdk
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ucsmsdk-0.9.3.2-1.el7
+- project: python-ujson
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-ujson-1.35-1.el7
+- project: python-unicodecsv
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-unicodecsv-0.14.1-1.el7
+- project: python-unittest2
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-unittest2-1.1.0-15.el7
+- project: python-uri-templates
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-uri-templates-0.6-5.el7
+- project: python-urllib3
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-urllib3-1.24.1-3.el7
+- project: python-versiontools
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-versiontools-1.9.1-4.el7
+- project: python-vine
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-vine-1.2.0-2.el7
+- project: python-voluptuous
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-voluptuous-0.10.5-2.el7
+- project: python-waitress
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-waitress-0.8.9-5.el7
+- project: python-warlock
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-warlock-1.0.1-1.el7
+- project: python-wcwidth
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-wcwidth-0.1.7-8.el7
+- project: python-weakrefmethod
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-weakrefmethod-1.0.2-3.el7
+- project: python-webob
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-webob-1.8.5-1.el7
+- project: python-websocket-client
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-websocket-client-0.54.0-1.el7
+- project: python-websockify
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-websockify-0.8.0-1.el7
+- project: python-webtest
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-webtest-2.0.23-1.el7
+- project: python-werkzeug
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-werkzeug-0.14.1-3.el7
+- project: python-winrm
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-winrm-0.2.2-3.el7
+- project: python-wrapt
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-wrapt-1.11.1-1.el7
+- project: python-wsaccel
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-wsaccel-0.6.2-8.el7
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-wsgi_intercept-1.2.2-1.el7
+- project: python-xmltodict
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-xmltodict-0.10.1-1.el7
+- project: python-yappi
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-yappi-1.0-1.el7
+- project: python-yaql
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-yaql-1.1.3-2.el7
+- project: python-zake
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-zake-0.2.2-2.el7
+- project: python-zmq
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-zmq-14.7.0-2.el7
+- project: python2-typing
+  buildsys-tags:
+    cloud7-openstack-stein-release: python2-typing-3.6.1-1.el7
+- project: qhull
+  buildsys-tags:
+    cloud7-openstack-stein-release: qhull-2015.2-1.el7
+- project: qpid-cpp
+  buildsys-tags:
+    cloud7-openstack-stein-release: qpid-cpp-1.38.0-1.el7
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud7-openstack-stein-release: qpid-dispatch-1.1.0-1.el7
+- project: qpid-proton
+  buildsys-tags:
+    cloud7-openstack-stein-release: qpid-proton-0.22.0-1.el7
+- project: rabbitmq-server
+  buildsys-tags:
+    cloud7-openstack-stein-release: rabbitmq-server-3.6.16-1.el7
+- project: redis
+  buildsys-tags:
+    cloud7-openstack-stein-release: redis-3.2.8-1.el7
+- project: reno
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-reno-2.11.2-1.el7
+- project: requestsexceptions
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-requestsexceptions-1.4.0-1.el7
+- project: resource-agents
+  buildsys-tags:
+    cloud7-openstack-stein-release: resource-agents-3.9.5-124.el7.0.0.rdo1
+- project: ruby-augeas
+  buildsys-tags:
+    cloud7-openstack-stein-release: ruby-augeas-0.5.0-1.el7
+- project: ruby-shadow
+  buildsys-tags:
+    cloud7-openstack-stein-release: ruby-shadow-1.4.1-23.el7
+- project: rubygem-pathspec
+  buildsys-tags:
+    cloud7-openstack-stein-release: rubygem-pathspec-0.2.1-3.el7
+- project: rubygem-rgen
+  buildsys-tags:
+    cloud7-openstack-stein-release: rubygem-rgen-0.6.6-2.el7
+- project: runc
+  buildsys-tags:
+    cloud7-openstack-stein-release: runc-1.0.0-60.dev.git2abd837.el7
+- project: sahara
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-sahara-10.0.0-0.2.0rc1.el7
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-sahara-ui-10.0.0-0.1.0rc1.el7
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud7-openstack-stein-release: sahara-image-elements-10.0.0-0.1.0rc1.el7
+- project: sahara-plugin-ambari
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sahara-plugin-ambari-1.0.0-0.1.0rc1.el7
+- project: sahara-plugin-cdh
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sahara-plugin-cdh-1.0.0-0.1.0rc1.el7
+- project: sahara-plugin-mapr
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sahara-plugin-mapr-1.0.0-0.1.0rc1.el7
+- project: sahara-plugin-spark
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sahara-plugin-spark-1.0.0-0.1.0rc1.el7
+- project: sahara-plugin-storm
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sahara-plugin-storm-1.0.0-0.1.0rc1.el7
+- project: sahara-plugin-vanilla
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sahara-plugin-vanilla-1.0.0-0.1.0rc1.el7
+- project: sahara-tests
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-sahara-tests-0.8.0-1.el7
+- project: saharaclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-saharaclient-2.2.0-1.el7
+- project: scciclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-scciclient-0.8.0-1.el7
+- project: scipy
+  buildsys-tags:
+    cloud7-openstack-stein-release: scipy-0.18.0-3.el7
+- project: senlin
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-senlin-7.0.0-0.1.0rc1.el7
+- project: senlinclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-senlinclient-1.10.1-1.el7
+- project: shade
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-shade-1.31.0-1.el7
+- project: sip
+  buildsys-tags:
+    cloud7-openstack-stein-release: sip-4.19-1.el7
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sphinx-feature-classification-0.3.2-1.el7
+- project: stevedore
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-stevedore-1.30.1-1.el7
+- project: subunit
+  buildsys-tags:
+    cloud7-openstack-stein-release: subunit-1.2.0-14.el7
+- project: sushy
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-sushy-1.8.1-1.el7
+- project: swift
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-swift-2.21.0-1.el7
+- project: swiftclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-swiftclient-3.7.0-1.el7
+- project: sympy
+  buildsys-tags:
+    cloud7-openstack-stein-release: sympy-0.7.6-2.el7
+- project: sysbench
+  buildsys-tags:
+    cloud7-openstack-stein-release: sysbench-0.4.12-12.el7
+- project: tacker
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-tacker-1.0.0-0.1.0rc1.el7
+- project: tackerclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tackerclient-0.15.0-1.el7
+- project: taskflow
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-taskflow-3.4.0-1.el7
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-telemetry-tests-tempest-0.3.0-1.el7
+- project: tempest
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-tempest-20.0.0-1.el7
+- project: tempest-horizon
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-horizon-tests-tempest-0.1.0-1.el7
+- project: tooz
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tooz-1.64.2-1.el7
+- project: trove
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-trove-11.0.0-0.1.0rc1.el7
+- project: trove-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-trove-ui-12.0.0-0.1.0rc1.el7
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-trove-tests-tempest-0.2.0-1.el7
+- project: troveclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-troveclient-2.17.0-1.el7
+- project: uwsgi
+  buildsys-tags:
+    cloud7-openstack-stein-release: uwsgi-2.0.16-1.el7
+- project: virtualbmc
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-virtualbmc-1.4.0-2.el7
+- project: vitrage
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-vitrage-4.3.1-1.el7
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-vitrage-ui-1.9.1-1.el7
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-vitrage-tests-tempest-2.2.1-1.el7
+- project: vitrageclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-vitrageclient-2.7.0-1.el7
+- project: watcher
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-watcher-2.0.0-0.1.0rc1.el7
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-watcher-tests-tempest-1.1.0-1.el7
+- project: web-assets
+  buildsys-tags:
+    cloud7-openstack-stein-release: web-assets-5-1.el7
+- project: wsme
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-wsme-0.9.3-1.el7
+- project: xqc
+  buildsys-tags:
+    cloud7-openstack-stein-release: xqc-1.0-0.6.20101120svn7.el7
+- project: xqilla
+  buildsys-tags:
+    cloud7-openstack-stein-release: xqilla-2.2.4-7.el7
+- project: zaqar
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-zaqar-8.0.0-0.1.0rc1.el7
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-zaqar-tests-tempest-0.2.0-1.el7
+- project: zaqarclient
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-zaqarclient-1.11.0-1.el7
+- project: zeromq
+  buildsys-tags:
+    cloud7-openstack-stein-release: zeromq-4.0.5-4.el7
