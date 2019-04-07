@@ -364,6 +364,12 @@ packages:
   maintainers:
   - dalvarez@redhat.com
   - majopela@redhat.com
+- project: ovn
+  name: ovn
+  conf: fedora-dependency
+  maintainers:
+  - nusiddiq@redhat.com
+  - majopela@redhat.com
 - project: python-pykafka
   name: python-pykafka
   conf: fedora-dependency
