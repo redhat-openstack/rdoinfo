@@ -100,7 +100,10 @@ packages:
     cloud7-openstack-stein-release: coin-or-Sample-1.2.10-5.el7
 - project: congress
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-congress-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-release: openstack-congress-9.0.0-0.2.0rc2.el7
+- project: congress-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-congress-tests-tempest-0.2.0-1.el7
 - project: congressclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-congressclient-1.12.0-1.el7
@@ -371,9 +374,15 @@ packages:
 - project: murano
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-murano-7.0.0-0.2.0rc2.el7
+- project: murano-agent
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-murano-agent-3.6.0-1.el7
 - project: murano-dashboard
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-murano-ui-7.0.0-0.1.0rc1.el7
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-murano-tests-tempest-1.0.0-1.el7
 - project: muranoclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-muranoclient-1.2.0-1.el7
@@ -386,6 +395,9 @@ packages:
 - project: networking-bgpvpn
   buildsys-tags:
     cloud7-openstack-stein-release: python-networking-bgpvpn-10.0.0-0.1.0rc1.el7
+- project: networking-fujitsu
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-fujitsu-8.0.0-1.el7
 - project: networking-generic-switch
   buildsys-tags:
     cloud7-openstack-stein-release: python-networking-generic-switch-1.3.1-1.el7
@@ -454,7 +466,7 @@ packages:
     cloud7-openstack-stein-release: oci-umount-2.3.4-2.git87f9237.el7
 - project: octavia
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-octavia-4.0.0-0.1.0rc1.el7
+    cloud7-openstack-stein-release: openstack-octavia-4.0.0-0.2.0rc3.el7
 - project: octavia-dashboard
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-octavia-ui-3.0.0-0.1.0rc1.el7
@@ -1817,6 +1829,9 @@ packages:
 - project: rabbitmq-server
   buildsys-tags:
     cloud7-openstack-stein-release: rabbitmq-server-3.6.16-1.el7
+- project: rally
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-rally-1.4.1-1.el7
 - project: redis
   buildsys-tags:
     cloud7-openstack-stein-release: redis-3.2.8-1.el7
