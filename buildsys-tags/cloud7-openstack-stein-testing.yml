@@ -290,6 +290,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud7-openstack-stein-testing: python-keystonemiddleware-6.0.0-1.el7
+- project: kolla
+  buildsys-tags:
+    cloud7-openstack-stein-testing: openstack-kolla-8.0.0-0.1.0rc1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-stein-testing: python-kuryr-lib-0.9.0-1.el7
@@ -1841,6 +1844,9 @@ packages:
 - project: rally
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-rally-1.4.1-1.el7
+- project: rally-openstack
+  buildsys-tags:
+    cloud7-openstack-stein-testing: openstack-rally-plugins-1.4.0-1.el7
 - project: redis
   buildsys-tags:
     cloud7-openstack-stein-testing: redis-3.2.8-1.el7
@@ -1853,6 +1859,12 @@ packages:
 - project: resource-agents
   buildsys-tags:
     cloud7-openstack-stein-testing: resource-agents-3.9.5-124.el7.0.0.rdo1
+- project: rsd-lib
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-rsd-lib-0.5.1-1.el7
+- project: rsdclient
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-rsdclient-0.2.0-1.el7
 - project: ruby-augeas
   buildsys-tags:
     cloud7-openstack-stein-testing: ruby-augeas-0.5.0-1.el7
