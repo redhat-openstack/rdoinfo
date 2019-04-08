@@ -588,7 +588,6 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - zbitter@redhat.com
-  - therve@redhat.com
   - ramishra@redhat.com
   - sbaker@redhat.com
 - project: cinder
@@ -836,14 +835,13 @@ packages:
 - project: heat-agents
   conf: rpmfactory-core
   maintainers:
-  - therve@redhat.com
   - sbaker@redhat.com
   - zbitter@redhat.com
 - project: heat-dashboard
   name: openstack-heat-ui
   conf: rpmfactory-core
   maintainers:
-  - therve@redhat.com
+  - ramishra@redhat.com
 - project: os-apply-config
   conf: rpmfactory-core
   name: os-apply-config
@@ -897,8 +895,6 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - hguemar@fedoraproject.org
-  - fpercoco@redhat.com
-  - therve@redhat.com
 - project: ironic-inspector
   conf: rpmfactory-core
   maintainers:
@@ -1072,8 +1068,6 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - hguemar@fedoraproject.org
-  - fpercoco@redhat.com
-  - therve@redhat.com
 - project: openstacksdk
   upstream: https://git.openstack.org/openstack/%(project)s
   conf: rpmfactory-client
@@ -1753,8 +1747,6 @@ packages:
 - project: zaqar-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-zaqar-tests-tempest
-  maintainers:
-  - therve@redhat.com
 - project: rsd-lib
   conf: rpmfactory-lib
   maintainers:
