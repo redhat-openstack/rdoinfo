@@ -1855,3 +1855,49 @@ packages:
 - project: python-yappi
   name: python-yappi
   conf: fedora-dependency
+# DNM Test ceph bump
+- project: ceph-ansible
+  name: ceph-ansible
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: ceph
+  name: ceph
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: python-notario
+  name: python-notario
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: oath-toolkit
+  name: oath-toolkit
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: lttng-ust
+  name: lttng-ust
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: babeltrace
+  name: babeltrace
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: xmlstarlet
+  name: xmlstarlet
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: leveldb
+  name: leveldb
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
+- project: userspace-rcu
+  name: userspace-rcu
+  conf: fedora-dependency
+  maintainers:
+  - gfidente@redhat.com
