@@ -98,6 +98,9 @@ packages:
 - project: coin-or-Sample
   buildsys-tags:
     cloud7-openstack-stein-testing: coin-or-Sample-1.2.10-5.el7
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-collectd-gnocchi-1.7.1-1.el7
 - project: congress
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-congress-9.0.0-0.2.0rc2.el7
@@ -215,6 +218,9 @@ packages:
 - project: hacking
   buildsys-tags:
     cloud7-openstack-stein-testing: python-hacking-1.1.0-1.el7
+- project: hardware
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-hardware-0.20.0-1.el7
 - project: hdf5
   buildsys-tags:
     cloud7-openstack-stein-testing: hdf5-1.8.13-7.el7
@@ -644,6 +650,9 @@ packages:
 - project: pankoclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-pankoclient-0.6.0-1.el7
+- project: patrole
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-patrole-0.5.0-1.el7
 - project: placement
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-placement-1.0.0-0.3.0rc3.el7
@@ -836,6 +845,9 @@ packages:
 - project: puppet-ovn
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-ovn-14.4.0-1.el7
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud7-openstack-stein-testing: puppet-pacemaker-0.7.2-1.el7
 - project: puppet-panko
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-panko-14.4.0-1.el7
