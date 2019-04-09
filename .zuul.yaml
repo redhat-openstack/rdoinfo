@@ -1,0 +1,8 @@
+#DNM
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-stein-centos-7-scenario004-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
