@@ -150,6 +150,3 @@ texinfo_documents = [
      author, 'RDO', 'RDO packaging metadata.',
      'Miscellaneous'),
 ]
-
-
-
