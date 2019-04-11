@@ -110,6 +110,9 @@ packages:
 - project: jq
   buildsys-tags:
     cloud7-openstack-train-testing: jq-1.5-10.el7
+- project: jsoncpp
+  buildsys-tags:
+    cloud7-openstack-train-testing: jsoncpp-0.10.5-2.el7
 - project: liberasurecode
   buildsys-tags:
     cloud7-openstack-train-testing: liberasurecode-1.5.0-1.el7
@@ -122,9 +125,15 @@ packages:
 - project: libsodium
   buildsys-tags:
     cloud7-openstack-train-testing: libsodium-1.0.16-1.el7
+- project: libuv
+  buildsys-tags:
+    cloud7-openstack-train-testing: libuv-1.16.1-1.el7
 - project: libvarlink
   buildsys-tags:
     cloud7-openstack-train-testing: libvarlink-12-1.el7
+- project: libwebsockets
+  buildsys-tags:
+    cloud7-openstack-train-testing: libwebsockets-3.0.1-2.el7
 - project: mariadb
   buildsys-tags:
     cloud7-openstack-train-testing: mariadb-10.3.10-1.el7.0.0.rdo2
@@ -1066,13 +1075,13 @@ packages:
     cloud7-openstack-train-testing: qhull-2015.2-1.el7
 - project: qpid-cpp
   buildsys-tags:
-    cloud7-openstack-train-testing: qpid-cpp-1.38.0-1.el7
+    cloud7-openstack-train-testing: qpid-cpp-1.39.0-3.el7
 - project: qpid-dispatch
   buildsys-tags:
-    cloud7-openstack-train-testing: qpid-dispatch-1.1.0-1.el7
+    cloud7-openstack-train-testing: qpid-dispatch-1.5.0-1.el7
 - project: qpid-proton
   buildsys-tags:
-    cloud7-openstack-train-testing: qpid-proton-0.22.0-1.el7
+    cloud7-openstack-train-testing: qpid-proton-0.26.0-2.el7
 - project: rabbitmq-server
   buildsys-tags:
     cloud7-openstack-train-testing: rabbitmq-server-3.6.16-1.el7
