@@ -161,6 +161,9 @@ packages:
 - project: openvswitch
   buildsys-tags:
     cloud7-openstack-train-testing: openvswitch-2.11.0-4.el7
+- project: ovn
+  buildsys-tags:
+    cloud7-openstack-train-testing: ovn-2.11.0-9.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-train-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
