@@ -40,6 +40,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: barbicanclient
   tags:
     stein:
@@ -65,6 +66,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: cinderclient
   tags:
     stein:
@@ -94,6 +96,7 @@ packages:
 - project: congress-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: congressclient
   tags:
     stein:
@@ -265,6 +268,7 @@ packages:
 - project: magnum-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: magnum-ui
   tags:
     stein:
@@ -307,6 +311,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: mistralclient
   tags:
     stein:
@@ -331,6 +336,7 @@ packages:
 - project: murano-tempest-plugin
   tags:
     stein:
+      source-branch: 1.0.0
 - project: muranoclient
   tags:
     stein:
@@ -1093,6 +1099,7 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     stein:
+      source-branch: 0.3.0
 - project: tempest
   tags:
     stein:
@@ -1157,6 +1164,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     stein:
+      source-branch: 0.2.0
 - project: troveclient
   tags:
     stein:
@@ -1193,6 +1201,7 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     stein:
+      source-branch: 1.1.0
 - project: wsme
   tags:
     stein:
