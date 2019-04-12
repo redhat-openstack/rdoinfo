@@ -46,7 +46,7 @@ packages:
     cloud7-openstack-stein-testing: blosc-1.11.1-3.el7
 - project: buildah
   buildsys-tags:
-    cloud7-openstack-stein-testing: buildah-1.7-2.git873f001.el7
+    cloud7-openstack-stein-testing: buildah-1.7.1-2.git93747b1.el7
 - project: castellan
   buildsys-tags:
     cloud7-openstack-stein-testing: python-castellan-1.2.2-1.el7
@@ -658,7 +658,7 @@ packages:
     cloud7-openstack-stein-testing: openstack-placement-1.0.0-1.el7
 - project: podman
   buildsys-tags:
-    cloud7-openstack-stein-testing: podman-1.0.0-3.git921f98f.el7
+    cloud7-openstack-stein-testing: podman-1.2-2.git3bd528e.el7
 - project: proliantutils
   buildsys-tags:
     cloud7-openstack-stein-testing: python-proliantutils-2.8.2-1.el7
