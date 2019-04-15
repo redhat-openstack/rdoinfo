@@ -140,6 +140,9 @@ packages:
 - project: python-sqlalchemy-collectd
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-sqlalchemy-collectd-0.0.3-3.el7
+- project: python-stestr
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: python-stestr-2.2.0-1.el7
 - project: python-string_utils
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-string_utils-0.6.0-4.el7
