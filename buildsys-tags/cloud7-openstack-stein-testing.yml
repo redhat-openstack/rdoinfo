@@ -2018,6 +2018,12 @@ packages:
 - project: vitrageclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-vitrageclient-2.7.0-1.el7
+- project: vmware-nsx
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-networking-vmware-nsx-14.0.0-1.el7
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-vmware-nsxlib-14.0.0-1.el7
 - project: watcher
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-watcher-2.0.0-1.el7
