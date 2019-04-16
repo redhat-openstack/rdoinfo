@@ -1687,7 +1687,7 @@ packages:
     cloud7-openstack-stein-release: python-statsd-3.2.1-5.el7
 - project: python-stestr
   buildsys-tags:
-    cloud7-openstack-stein-release: python-stestr-1.1.0-1.el7
+    cloud7-openstack-stein-release: python-stestr-2.1.0-1.el7
 - project: python-string_utils
   buildsys-tags:
     cloud7-openstack-stein-release: python-string_utils-0.6.0-4.el7
@@ -2009,6 +2009,12 @@ packages:
 - project: vitrageclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-vitrageclient-2.7.0-1.el7
+- project: vmware-nsx
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-vmware-nsx-14.0.0-1.el7
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-vmware-nsxlib-14.0.0-1.el7
 - project: watcher
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-watcher-2.0.0-1.el7
