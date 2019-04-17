@@ -40,7 +40,7 @@ packages:
     cloud7-openstack-pike-testing: python-ceilometermiddleware-1.1.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-cinder-11.2.1-1.el7
+    cloud7-openstack-pike-testing: openstack-cinder-11.2.2-1.el7
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-pike-testing: python-cinderclient-3.1.1-1.el7
@@ -58,7 +58,7 @@ packages:
     cloud7-openstack-pike-testing: python-cloudkittyclient-1.1.0-1.el7
 - project: congress
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-congress-6.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-congress-6.0.2-1.el7
 - project: congressclient
   buildsys-tags:
     cloud7-openstack-pike-testing: python-congressclient-1.8.0-1.el7
@@ -226,7 +226,7 @@ packages:
     cloud7-openstack-pike-testing: python-magnumclient-2.7.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-manila-5.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-manila-5.1.0-1.el7
 - project: manila-ui
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-manila-ui-2.10.2-1.el7
@@ -304,7 +304,7 @@ packages:
     cloud7-openstack-pike-testing: python-networking-sfc-5.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-neutron-11.0.6-1.el7
+    cloud7-openstack-pike-testing: openstack-neutron-11.0.7-1.el7
 - project: neutron-fwaas
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-neutron-fwaas-11.0.2-1.el7
@@ -358,7 +358,7 @@ packages:
     cloud7-openstack-pike-testing: os-apply-config-7.2.3-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-os-brick-1.15.8-1.el7
+    cloud7-openstack-pike-testing: python-os-brick-1.15.9-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-pike-testing: python-os-client-config-1.28.0-1.el7
@@ -997,10 +997,10 @@ packages:
     cloud7-openstack-pike-testing: resource-agents-3.9.5-105.el7.0.0.rdo1
 - project: sahara
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-sahara-7.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-sahara-7.0.4-1.el7
 - project: sahara-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-sahara-ui-7.0.3-1.el7
+    cloud7-openstack-pike-testing: openstack-sahara-ui-7.0.4-1.el7
 - project: sahara-image-elements
   buildsys-tags:
     cloud7-openstack-pike-testing: sahara-image-elements-7.0.3-1.el7
