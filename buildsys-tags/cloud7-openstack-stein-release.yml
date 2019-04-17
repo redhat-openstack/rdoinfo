@@ -68,6 +68,9 @@ packages:
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-cinderclient-4.1.0-1.el7
+- project: cinderlib
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-cinderlib-0.9.0-1.el7
 - project: cliff
   buildsys-tags:
     cloud7-openstack-stein-release: python-cliff-2.14.1-1.el7
