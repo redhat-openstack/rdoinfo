@@ -106,7 +106,7 @@ packages:
     cloud7-openstack-rocky-testing: python-collectd-gnocchi-1.7.1-1.el7
 - project: congress
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-congress-8.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-congress-8.0.1-1.el7
 - project: congress-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-congress-tests-tempest-0.1.0-1.el7
@@ -298,7 +298,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keystonemiddleware-5.2.0-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-kolla-7.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-kolla-7.0.2-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-kuryr-lib-0.8.0-1.el7
@@ -433,7 +433,7 @@ packages:
     cloud7-openstack-rocky-testing: python-networking-sfc-7.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-neutron-13.0.2-1.el7
+    cloud7-openstack-rocky-testing: openstack-neutron-13.0.3-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-neutron-dynamic-routing-13.0.1-1.el7
@@ -478,7 +478,7 @@ packages:
     cloud7-openstack-rocky-testing: numpy-1.14.5-1.el7
 - project: octavia
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-octavia-3.0.2-1.el7
+    cloud7-openstack-rocky-testing: openstack-octavia-3.1.0-1.el7
 - project: octavia-dashboard
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-octavia-ui-2.0.0-1.el7
