@@ -79,7 +79,7 @@ packages:
     cloud7-openstack-stein-testing: openstack-cloudkitty-ui-8.1.0-1.el7
 - project: cloudkittyclient
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-cloudkittyclient-2.1.0-1.el7
+    cloud7-openstack-stein-testing: python-cloudkittyclient-2.1.1-1.el7
 - project: coin-or-Cbc
   buildsys-tags:
     cloud7-openstack-stein-testing: coin-or-Cbc-2.9.8-1.el7
@@ -1973,6 +1973,9 @@ packages:
 - project: tackerclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-tackerclient-0.15.0-1.el7
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-tap-as-a-service-5.0.0-1.el7
 - project: taskflow
   buildsys-tags:
     cloud7-openstack-stein-testing: python-taskflow-3.4.0-1.el7
