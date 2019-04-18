@@ -115,7 +115,7 @@ packages:
     cloud7-openstack-queens-release: python-collectd-gnocchi-1.7.0-1.el7
 - project: congress
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-congress-7.0.1-1.el7
+    cloud7-openstack-queens-release: openstack-congress-7.0.2-1.el7
 - project: congress-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-congress-tests-tempest-0.0.1-0.1.396bfe9git.el7
@@ -337,7 +337,7 @@ packages:
     cloud7-openstack-queens-release: python-keystonemiddleware-4.21.0-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-kolla-6.2.0-1.el7
+    cloud7-openstack-queens-release: openstack-kolla-6.2.1-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-queens-release: python-kuryr-lib-0.7.0-1.el7
@@ -493,7 +493,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-sfc-6.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-neutron-12.0.5-1.el7
+    cloud7-openstack-queens-release: openstack-neutron-12.0.6-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-neutron-dynamic-routing-12.0.1-2.el7
@@ -547,7 +547,7 @@ packages:
     cloud7-openstack-queens-release: numpy-1.11.2-2.el7
 - project: octavia
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-octavia-2.0.4-1.el7
+    cloud7-openstack-queens-release: openstack-octavia-2.1.0-1.el7
 - project: octavia-dashboard
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-octavia-ui-1.0.1-1.el7
@@ -883,7 +883,7 @@ packages:
     cloud7-openstack-queens-release: puppet-nssdb-1.0.1-1.el7
 - project: puppet-ntp
   buildsys-tags:
-    cloud7-openstack-queens-release: puppet-ntp-4.2.0-2.el7
+    cloud7-openstack-queens-release: puppet-ntp-4.2.0-1.el7
 - project: puppet-octavia
   buildsys-tags:
     cloud7-openstack-queens-release: puppet-octavia-12.4.0-1.el7
