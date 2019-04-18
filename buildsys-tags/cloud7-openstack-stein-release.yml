@@ -46,7 +46,7 @@ packages:
     cloud7-openstack-stein-release: blosc-1.11.1-3.el7
 - project: buildah
   buildsys-tags:
-    cloud7-openstack-stein-release: buildah-1.7-2.git873f001.el7
+    cloud7-openstack-stein-release: buildah-1.7.1-2.git93747b1.el7
 - project: castellan
   buildsys-tags:
     cloud7-openstack-stein-release: python-castellan-1.2.2-1.el7
@@ -68,6 +68,9 @@ packages:
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-cinderclient-4.1.0-1.el7
+- project: cinderlib
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-cinderlib-0.9.0-1.el7
 - project: cliff
   buildsys-tags:
     cloud7-openstack-stein-release: python-cliff-2.14.1-1.el7
@@ -79,7 +82,7 @@ packages:
     cloud7-openstack-stein-release: openstack-cloudkitty-ui-8.1.0-1.el7
 - project: cloudkittyclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-cloudkittyclient-2.1.0-1.el7
+    cloud7-openstack-stein-release: python-cloudkittyclient-2.1.1-1.el7
 - project: coin-or-Cbc
   buildsys-tags:
     cloud7-openstack-stein-release: coin-or-Cbc-2.9.8-1.el7
@@ -655,7 +658,7 @@ packages:
     cloud7-openstack-stein-release: openstack-placement-1.0.0-1.el7
 - project: podman
   buildsys-tags:
-    cloud7-openstack-stein-release: podman-1.0.0-3.git921f98f.el7
+    cloud7-openstack-stein-release: podman-1.2-2.git3bd528e.el7
 - project: proliantutils
   buildsys-tags:
     cloud7-openstack-stein-release: python-proliantutils-2.8.2-1.el7
@@ -1964,6 +1967,9 @@ packages:
 - project: tackerclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-tackerclient-0.15.0-1.el7
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-tap-as-a-service-5.0.0-1.el7
 - project: taskflow
   buildsys-tags:
     cloud7-openstack-stein-release: python-taskflow-3.4.0-1.el7
