@@ -334,13 +334,13 @@ packages:
     cloud7-openstack-rocky-testing: python-magnumclient-2.10.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-manila-7.2.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-manila-7.3.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-manila-tests-tempest-0.1.0-1.el7
 - project: manila-ui
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-manila-ui-2.16.0-2.el7
+    cloud7-openstack-rocky-testing: openstack-manila-ui-2.16.1-1.el7
 - project: manilaclient
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-manilaclient-1.24.1-1.el7
