@@ -28,7 +28,7 @@ packages:
     cloud7-openstack-pike-release: python-barbicanclient-4.5.3-1.el7
 - project: castellan
   buildsys-tags:
-    cloud7-openstack-pike-release: python-castellan-0.12.2-1.el7
+    cloud7-openstack-pike-release: python-castellan-0.12.3-1.el7
 - project: ceilometer
   buildsys-tags:
     cloud7-openstack-pike-release: openstack-ceilometer-9.0.6-1.el7
@@ -49,13 +49,13 @@ packages:
     cloud7-openstack-pike-release: python-cliff-2.8.2-1.el7
 - project: cloudkitty
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-cloudkitty-6.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-cloudkitty-6.0.1-1.el7
 - project: cloudkitty-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-cloudkitty-ui-6.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-cloudkitty-ui-6.0.1-1.el7
 - project: cloudkittyclient
   buildsys-tags:
-    cloud7-openstack-pike-release: python-cloudkittyclient-1.1.0-1.el7
+    cloud7-openstack-pike-release: python-cloudkittyclient-1.1.1-1.el7
 - project: congress
   buildsys-tags:
     cloud7-openstack-pike-release: openstack-congress-6.0.2-1.el7
@@ -103,7 +103,7 @@ packages:
     cloud7-openstack-pike-release: future-0.16.0-4.el7
 - project: futurist
   buildsys-tags:
-    cloud7-openstack-pike-release: python-futurist-1.3.1-1.el7
+    cloud7-openstack-pike-release: python-futurist-1.3.2-1.el7
 - project: glance
   buildsys-tags:
     cloud7-openstack-pike-release: openstack-glance-15.0.1-1.el7
@@ -184,7 +184,7 @@ packages:
     cloud7-openstack-pike-release: python-ironicclient-1.17.0-1.el7
 - project: keystone
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-keystone-12.0.2-1.el7
+    cloud7-openstack-pike-release: openstack-keystone-12.0.3-1.el7
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud7-openstack-pike-release: python-keystone-tests-tempest-0.0.1-0.1.fe269f2git.el7
@@ -199,13 +199,13 @@ packages:
     cloud7-openstack-pike-release: python-keystonemiddleware-4.17.0-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-kolla-5.0.4-1.el7
+    cloud7-openstack-pike-release: openstack-kolla-5.0.5-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-pike-release: python-kuryr-lib-0.6.0-1.el7
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-kuryr-kubernetes-0.2.0-1.el7
+    cloud7-openstack-pike-release: openstack-kuryr-kubernetes-0.2.1-1.el7
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud7-openstack-pike-release: python-kuryr-tests-tempest-0.1.0-1.el7
@@ -217,10 +217,10 @@ packages:
     cloud7-openstack-pike-release: libqb-1.0.1-3.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-magnum-5.0.1-1.el7
+    cloud7-openstack-pike-release: openstack-magnum-5.0.2-1.el7
 - project: magnum-ui
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-magnum-ui-3.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-magnum-ui-3.0.1-1.el7
 - project: magnumclient
   buildsys-tags:
     cloud7-openstack-pike-release: python-magnumclient-2.7.0-1.el7
@@ -229,10 +229,10 @@ packages:
     cloud7-openstack-pike-release: openstack-manila-5.1.0-1.el7
 - project: manila-ui
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-manila-ui-2.10.2-1.el7
+    cloud7-openstack-pike-release: openstack-manila-ui-2.10.3-1.el7
 - project: manilaclient
   buildsys-tags:
-    cloud7-openstack-pike-release: python-manilaclient-1.17.3-1.el7
+    cloud7-openstack-pike-release: python-manilaclient-1.17.4-1.el7
 - project: mariadb
   buildsys-tags:
     cloud7-openstack-pike-release: mariadb-10.1.20-2.el7
@@ -256,16 +256,16 @@ packages:
     cloud7-openstack-pike-release: python-monascaclient-1.7.1-1.el7
 - project: mox3
   buildsys-tags:
-    cloud7-openstack-pike-release: python-mox3-0.23.0-1.el7
+    cloud7-openstack-pike-release: python-mox3-0.23.1-1.el7
 - project: murano
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-murano-4.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-murano-4.0.1-1.el7
 - project: murano-agent
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-murano-agent-3.3.0-1.el7
+    cloud7-openstack-pike-release: openstack-murano-agent-3.3.1-1.el7
 - project: murano-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-murano-ui-4.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-murano-ui-4.0.1-1.el7
 - project: muranoclient
   buildsys-tags:
     cloud7-openstack-pike-release: python-muranoclient-0.14.0-1.el7
@@ -310,10 +310,10 @@ packages:
     cloud7-openstack-pike-release: openstack-neutron-fwaas-11.0.2-1.el7
 - project: neutron-lbaas
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-neutron-lbaas-11.0.3-1.el7
+    cloud7-openstack-pike-release: openstack-neutron-lbaas-11.0.4-1.el7
 - project: neutron-lbaas-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-neutron-lbaas-ui-3.0.2-1.el7
+    cloud7-openstack-pike-release: openstack-neutron-lbaas-ui-3.0.3-1.el7
 - project: neutron-lib
   buildsys-tags:
     cloud7-openstack-pike-release: python-neutron-lib-1.9.1-1.el7
@@ -334,7 +334,7 @@ packages:
     cloud7-openstack-pike-release: python-novajoin-1.0.17-1.el7
 - project: octavia
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-octavia-1.0.4-1.el7
+    cloud7-openstack-pike-release: openstack-octavia-1.0.5-1.el7
 - project: openstack-macros
   buildsys-tags:
     cloud7-openstack-pike-release: openstack-macros-2018.1.2-0
@@ -343,7 +343,7 @@ packages:
     cloud7-openstack-pike-release: openstack-puppet-modules-11.0.0-0.1.0rc1.el7
 - project: openstackclient
   buildsys-tags:
-    cloud7-openstack-pike-release: python-openstackclient-3.12.1-1.el7
+    cloud7-openstack-pike-release: python-openstackclient-3.12.2-1.el7
 - project: openstacksdk
   buildsys-tags:
     cloud7-openstack-pike-release: python-openstacksdk-0.9.17-1.el7
@@ -388,19 +388,19 @@ packages:
     cloud7-openstack-pike-release: python-os-xenapi-0.2.0-1.el7
 - project: osc-lib
   buildsys-tags:
-    cloud7-openstack-pike-release: python-osc-lib-1.7.0-1.el7
+    cloud7-openstack-pike-release: python-osc-lib-1.7.1-1.el7
 - project: oslo-cache
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-cache-1.25.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-cache-1.25.2-1.el7
 - project: oslo-concurrency
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-concurrency-3.21.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-concurrency-3.21.2-1.el7
 - project: oslo-config
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-config-4.11.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-config-4.11.2-1.el7
 - project: oslo-context
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-context-2.17.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-context-2.17.2-1.el7
 - project: oslo-db
   buildsys-tags:
     cloud7-openstack-pike-release: python-oslo-db-4.25.2-1.el7
@@ -409,22 +409,22 @@ packages:
     cloud7-openstack-pike-release: python-oslo-i18n-3.17.1-1.el7
 - project: oslo-log
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-log-3.30.2-1.el7
+    cloud7-openstack-pike-release: python-oslo-log-3.30.3-1.el7
 - project: oslo-messaging
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-messaging-5.30.7-1.el7
+    cloud7-openstack-pike-release: python-oslo-messaging-5.30.8-1.el7
 - project: oslo-middleware
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-middleware-3.30.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-middleware-3.30.2-1.el7
 - project: oslo-policy
   buildsys-tags:
     cloud7-openstack-pike-release: python-oslo-policy-1.25.3-1.el7
 - project: oslo-privsep
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-privsep-1.22.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-privsep-1.22.2-1.el7
 - project: oslo-reports
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-reports-1.22.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-reports-1.22.2-1.el7
 - project: oslo-rootwrap
   buildsys-tags:
     cloud7-openstack-pike-release: python-oslo-rootwrap-5.9.1-1.el7
@@ -439,22 +439,22 @@ packages:
     cloud7-openstack-pike-release: python-oslo-sphinx-4.15.2-1.el7
 - project: oslo-utils
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-utils-3.28.3-1.el7
+    cloud7-openstack-pike-release: python-oslo-utils-3.28.4-1.el7
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud7-openstack-pike-release: python-oslo-versionedobjects-1.26.2-1.el7
 - project: oslo-vmware
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslo-vmware-2.23.1-1.el7
+    cloud7-openstack-pike-release: python-oslo-vmware-2.23.2-1.el7
 - project: oslotest
   buildsys-tags:
-    cloud7-openstack-pike-release: python-oslotest-2.17.1-1.el7
+    cloud7-openstack-pike-release: python-oslotest-2.17.2-1.el7
 - project: osops-tools-monitoring-oschecks
   buildsys-tags:
     cloud7-openstack-pike-release: osops-tools-monitoring-oschecks-0.0.1-0.1.1a3ca01git.el7
 - project: osprofiler
   buildsys-tags:
-    cloud7-openstack-pike-release: python-osprofiler-1.11.0-1.el7
+    cloud7-openstack-pike-release: python-osprofiler-1.11.1-1.el7
 - project: ovsdbapp
   buildsys-tags:
     cloud7-openstack-pike-release: python-ovsdbapp-0.4.3-1.el7
@@ -1012,7 +1012,7 @@ packages:
     cloud7-openstack-pike-release: python-scciclient-0.5.0-1.el7
 - project: senlin
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-senlin-4.0.0-1.el7
+    cloud7-openstack-pike-release: openstack-senlin-4.0.1-1.el7
 - project: senlinclient
   buildsys-tags:
     cloud7-openstack-pike-release: python-senlinclient-1.4.0-1.el7
@@ -1021,7 +1021,7 @@ packages:
     cloud7-openstack-pike-release: python-shade-1.22.2-1.el7
 - project: stevedore
   buildsys-tags:
-    cloud7-openstack-pike-release: python-stevedore-1.25.1-1.el7
+    cloud7-openstack-pike-release: python-stevedore-1.25.2-1.el7
 - project: subunit
   buildsys-tags:
     cloud7-openstack-pike-release: subunit-1.2.0-14.el7
@@ -1036,7 +1036,7 @@ packages:
     cloud7-openstack-pike-release: openstack-swift-plugin-swift3-1.11.0-1.el7
 - project: swiftclient
   buildsys-tags:
-    cloud7-openstack-pike-release: python-swiftclient-3.4.0-1.el7
+    cloud7-openstack-pike-release: python-swiftclient-3.4.1-1.el7
 - project: tacker
   buildsys-tags:
     cloud7-openstack-pike-release: openstack-tacker-0.8.1-1.el7
@@ -1045,7 +1045,7 @@ packages:
     cloud7-openstack-pike-release: python-tackerclient-0.10.1-1.el7
 - project: taskflow
   buildsys-tags:
-    cloud7-openstack-pike-release: python-taskflow-2.14.1-1.el7
+    cloud7-openstack-pike-release: python-taskflow-2.14.2-1.el7
 - project: tempest
   buildsys-tags:
     cloud7-openstack-pike-release: openstack-tempest-17.2.0-4.el7
@@ -1093,13 +1093,13 @@ packages:
     cloud7-openstack-pike-release: python-virtualbmc-1.2.0-1.el7
 - project: vitrage
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-vitrage-1.8.2-1.el7
+    cloud7-openstack-pike-release: openstack-vitrage-1.8.3-1.el7
 - project: vitrage-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-vitrage-ui-1.3.1-1.el7
+    cloud7-openstack-pike-release: openstack-vitrage-ui-1.3.2-1.el7
 - project: vitrageclient
   buildsys-tags:
-    cloud7-openstack-pike-release: python-vitrageclient-1.4.0-1.el7
+    cloud7-openstack-pike-release: python-vitrageclient-1.4.1-1.el7
 - project: vmware-nsx
   buildsys-tags:
     cloud7-openstack-pike-release: python-networking-vmware-nsx-11.0.0-1.el7
@@ -1108,7 +1108,7 @@ packages:
     cloud7-openstack-pike-release: python-vmware-nsxlib-11.0.0-1.el7
 - project: watcher
   buildsys-tags:
-    cloud7-openstack-pike-release: openstack-watcher-1.4.1-1.el7
+    cloud7-openstack-pike-release: openstack-watcher-1.4.2-1.el7
 - project: wsme
   buildsys-tags:
     cloud7-openstack-pike-release: python-wsme-0.9.2-1.el7
