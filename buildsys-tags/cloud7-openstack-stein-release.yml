@@ -407,6 +407,9 @@ packages:
 - project: networking-bgpvpn
   buildsys-tags:
     cloud7-openstack-stein-release: python-networking-bgpvpn-10.0.0-1.el7
+- project: networking-bigswitch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-networking-bigswitch-14.0.0-1.el7
 - project: networking-fujitsu
   buildsys-tags:
     cloud7-openstack-stein-release: python-networking-fujitsu-8.0.0-1.el7
@@ -430,7 +433,7 @@ packages:
     cloud7-openstack-stein-release: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-neutron-14.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-neutron-14.0.1-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-neutron-dynamic-routing-14.0.0-1.el7
@@ -517,7 +520,7 @@ packages:
     cloud7-openstack-stein-release: openvswitch-2.11.0-4.el7
 - project: os-apply-config
   buildsys-tags:
-    cloud7-openstack-stein-release: os-apply-config-10.2.0-1.el7
+    cloud7-openstack-stein-release: os-apply-config-10.3.0-1.el7
 - project: os-brick
   buildsys-tags:
     cloud7-openstack-stein-release: python-os-brick-2.8.1-1.el7
@@ -526,7 +529,7 @@ packages:
     cloud7-openstack-stein-release: python-os-client-config-1.32.0-1.el7
 - project: os-collect-config
   buildsys-tags:
-    cloud7-openstack-stein-release: os-collect-config-10.2.0-1.el7
+    cloud7-openstack-stein-release: os-collect-config-10.3.0-1.el7
 - project: os-faults
   buildsys-tags:
     cloud7-openstack-stein-release: python-os-faults-0.2.1-1.el7
@@ -535,7 +538,7 @@ packages:
     cloud7-openstack-stein-release: python-os-ken-0.3.1-1.el7
 - project: os-net-config
   buildsys-tags:
-    cloud7-openstack-stein-release: os-net-config-10.3.0-1.el7
+    cloud7-openstack-stein-release: os-net-config-10.4.0-1.el7
 - project: os-refresh-config
   buildsys-tags:
     cloud7-openstack-stein-release: os-refresh-config-10.2.0-1.el7
@@ -653,6 +656,9 @@ packages:
 - project: patrole
   buildsys-tags:
     cloud7-openstack-stein-release: python-patrole-0.5.0-1.el7
+- project: paunch
+  buildsys-tags:
+    cloud7-openstack-stein-release: python-paunch-4.4.0-1.el7
 - project: placement
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-placement-1.0.0-1.el7
@@ -1985,6 +1991,15 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud7-openstack-stein-release: python-tooz-1.64.2-1.el7
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-tripleo-image-elements-10.4.0-1.el7
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-tripleo-puppet-elements-10.3.0-1.el7
+- project: tripleo-ui
+  buildsys-tags:
+    cloud7-openstack-stein-release: openstack-tripleo-ui-10.3.0-1.el7
 - project: trove
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-trove-11.0.0-1.el7
