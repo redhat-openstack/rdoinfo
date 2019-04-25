@@ -947,6 +947,9 @@ packages:
 - project: puppet-tomcat
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-tomcat-2.5.0-1.5366908git.el7
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud7-openstack-stein-testing: puppet-tripleo-10.4.1-2.el7
 - project: puppet-trove
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-trove-14.4.0-1.el7
@@ -956,6 +959,9 @@ packages:
 - project: puppet-vcsrepo
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-vcsrepo-2.4.0-1.a2ea398git.el7
+- project: puppet-veritas_hyperscale
+  buildsys-tags:
+    cloud7-openstack-stein-testing: puppet-veritas_hyperscale-1.1.1-1.el7
 - project: puppet-vitrage
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-vitrage-4.4.0-1.el7
@@ -2032,7 +2038,7 @@ packages:
     cloud7-openstack-stein-testing: tripleo-ansible-0.1.0-1.el7
 - project: tripleo-common
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-tripleo-common-10.7.0-1.el7
+    cloud7-openstack-stein-testing: openstack-tripleo-common-10.7.0-2.el7
 - project: tripleo-heat-templates
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-tripleo-heat-templates-10.5.0-1.el7
@@ -2051,6 +2057,9 @@ packages:
 - project: tripleo-validations
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-tripleo-validations-10.4.0-1.el7
+- project: tripleoclient
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-tripleoclient-11.4.0-1.el7
 - project: trove
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-trove-11.0.0-1.el7
