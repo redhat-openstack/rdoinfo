@@ -233,7 +233,7 @@ packages:
 - project: keystoneauth1
   tags:
     train-uc:
-      source-branch: 3.13.1
+      source-branch: 3.14.0
 - project: keystoneclient
   tags:
     train-uc:
@@ -266,7 +266,7 @@ packages:
 - project: magnumclient
   tags:
     train-uc:
-      source-branch: 2.12.0
+      source-branch: 2.13.0
 - project: manila
   tags:
     train-uc:
@@ -304,7 +304,7 @@ packages:
 - project: mistralclient
   tags:
     train-uc:
-      source-branch: 0cd6b282920214d2995d1203aa0ad7d33c825b10
+      source-branch: 3.8.0
 - project: monascaclient
   tags:
     train-uc:
@@ -389,7 +389,7 @@ packages:
 - project: neutron-lib
   tags:
     train-uc:
-      source-branch: 1.25.0
+      source-branch: 1.26.0
 - project: neutron-tempest-plugin
   tags:
     train-uc:
@@ -518,7 +518,7 @@ packages:
 - project: oslo-config
   tags:
     train-uc:
-      source-branch: 6.8.1
+      source-branch: 6.9.0
 - project: oslo-context
   tags:
     train-uc:
@@ -546,11 +546,11 @@ packages:
 - project: oslo-policy
   tags:
     train-uc:
-      source-branch: 2.1.1
+      source-branch: 2.2.0
 - project: oslo-privsep
   tags:
     train-uc:
-      source-branch: 1.32.1
+      source-branch: 1.33.0
 - project: oslo-reports
   tags:
     train-uc:
@@ -586,7 +586,7 @@ packages:
 - project: oslo-vmware
   tags:
     train-uc:
-      source-branch: 2.32.2
+      source-branch: 2.33.0
 - project: oslotest
   tags:
     train-uc:
@@ -597,7 +597,7 @@ packages:
 - project: osprofiler
   tags:
     train-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
 - project: oswin-tempest-plugin
   tags:
     train-uc:
@@ -1050,7 +1050,7 @@ packages:
 - project: sphinx-feature-classification
   tags:
     train-uc:
-      source-branch: 0.3.2
+      source-branch: 0.4.0
 - project: stackviz
   tags:
     train-uc:
