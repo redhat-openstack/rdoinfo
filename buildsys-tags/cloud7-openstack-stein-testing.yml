@@ -428,6 +428,12 @@ packages:
 - project: muranoclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-muranoclient-1.2.0-1.el7
+- project: networking-ansible
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-networking-ansible-0.2.0-1.el7
+- project: networking-arista
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-networking-arista-2018.2.2-1.el7
 - project: networking-bagpipe
   buildsys-tags:
     cloud7-openstack-stein-testing: python-networking-bagpipe-10.0.0-1.el7
@@ -898,7 +904,7 @@ packages:
     cloud7-openstack-stein-testing: puppet-qdr-3.4.0-1.el7
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud7-openstack-stein-testing: puppet-rabbitmq-9.0.1-0.1.5477e69git.el7
+    cloud7-openstack-stein-testing: puppet-rabbitmq-9.0.1-0.2.7613f08git.el7
 - project: puppet-redis
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-redis-4.0.1-0.1.0rc0.5464b33git.el7
@@ -2093,6 +2099,9 @@ packages:
 - project: vmware-nsx
   buildsys-tags:
     cloud7-openstack-stein-testing: python-networking-vmware-nsx-14.0.0-1.el7
+- project: vmware-nsx-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el7
 - project: vmware-nsxlib
   buildsys-tags:
     cloud7-openstack-stein-testing: python-vmware-nsxlib-14.0.0-1.el7
