@@ -2,3 +2,6 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud7-openstack-train-candidate: ovn-2.11.0-9.el7
+- project: puppet
+  buildsys-tags:
+    cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
