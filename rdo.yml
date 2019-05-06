@@ -333,6 +333,10 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-vswitch
   conf: rpmfactory-puppet
+- project: puppet-watcher
+  conf: rpmfactory-puppet
+  maintainers:
+  - ykarel@redhat.com
 - project: puppet-ceph
   conf: rpmfactory-puppet
 - project: puppet-n1k-vsm
