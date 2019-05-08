@@ -634,22 +634,18 @@ packages:
 - project: puppet-apache
   tags:
     train-uc:
-      source-branch: 7a33327f7b649f6dfa48aedd972036bfa23a399b
 - project: puppet-archive
   tags:
     train-uc:
-      source-branch: 56eedaf13617f1880ce5b1b268db53a774f453c1
 - project: puppet-auditd
   tags:
     train-uc:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
 - project: puppet-barbican
   tags:
     train-uc:
 - project: puppet-cassandra
   tags:
     train-uc:
-      source-branch: a371404eb9342a6c3973b0414a98167049c3f43c
 - project: puppet-ceilometer
   tags:
     train-uc:
@@ -659,67 +655,54 @@ packages:
 - project: puppet-certmonger
   tags:
     train-uc:
-      source-branch: a19887066c4978ad2567c881d60c14fcf0737bb2
 - project: puppet-cinder
   tags:
     train-uc:
 - project: puppet-collectd
   tags:
     train-uc:
-      source-branch: d7b6b8c493e808534bdd4b1e500065ce46e40434
 - project: puppet-concat
   tags:
     train-uc:
-      source-branch: 912d2ccb602d959f7f12dce98b000ddffbc7c403
 - project: puppet-congress
   tags:
     train-uc:
 - project: puppet-contrail
   tags:
     train-uc:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
 - project: puppet-corosync
   tags:
     train-uc:
-      source-branch: fe3b8a8fc12ac8708f727df0441e494d06f3a540
 - project: puppet-datacat
   tags:
     train-uc:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
 - project: puppet-designate
   tags:
     train-uc:
 - project: puppet-dns
   tags:
     train-uc:
-      source-branch: f9adb122a53a8a312330cd2596d534c778bf8aa4
 - project: puppet-ec2api
   tags:
     train-uc:
 - project: puppet-elasticsearch
   tags:
     train-uc:
-      source-branch: 835e67991f47b1cf089b3e7254c48d8c6f49b08c
 - project: puppet-etcd
   tags:
     train-uc:
-      source-branch: 7555287ddd784c4689bf8fe7c83598ea8deff80d
 - project: puppet-fdio
   tags:
     train-uc:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
 - project: puppet-firewall
   tags:
     train-uc:
-      source-branch: 7ce51498335a5077e88f88faad7f1f38d6f9a9f3
 - project: puppet-fluentd
   tags:
     train-uc:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
 - project: puppet-git
   tags:
     train-uc:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
 - project: puppet-glance
   tags:
     train-uc:
@@ -729,7 +712,6 @@ packages:
 - project: puppet-haproxy
   tags:
     train-uc:
-      source-branch: cf72e5eb0cff0d012c24c45ae785bfbbc35e446b
 - project: puppet-heat
   tags:
     train-uc:
@@ -739,41 +721,33 @@ packages:
 - project: puppet-inifile
   tags:
     train-uc:
-      source-branch: 6b16db66137ccbf4d76d0668b5bc779167a5abe4
 - project: puppet-ipaclient
   tags:
     train-uc:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 - project: puppet-ironic
   tags:
     train-uc:
 - project: puppet-java
   tags:
     train-uc:
-      source-branch: b99814281724860dddf796190b8133ec3fbcb4e6
 - project: puppet-kafka
   tags:
     train-uc:
-      source-branch: 0dbae7467a59808a81710fe2664b948c5369f432
 - project: puppet-keepalived
   tags:
     train-uc:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-keystone
   tags:
     train-uc:
 - project: puppet-kibana3
   tags:
     train-uc:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-kmod
   tags:
     train-uc:
-      source-branch: e015d2b82dc95e1f9e25278442b24e74e1802478
 - project: puppet-lib-file_concat
   tags:
     train-uc:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
 - project: puppet-magnum
   tags:
     train-uc:
@@ -783,7 +757,6 @@ packages:
 - project: puppet-memcached
   tags:
     train-uc:
-      source-branch: 66d3a667d4e7e0253949f9d83c230b5f8ccca596
 - project: puppet-midonet
   tags:
     train-uc:
@@ -793,11 +766,9 @@ packages:
 - project: puppet-module-data
   tags:
     train-uc:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mongodb
   tags:
     train-uc:
-      source-branch: 66c0f6a3e8b2a167012db8663aee86713c4017f5
 - project: puppet-murano
   tags:
     train-uc:
@@ -819,7 +790,6 @@ packages:
 - project: puppet-nssdb
   tags:
     train-uc:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-ntp
   tags:
     train-uc:
@@ -855,7 +825,6 @@ packages:
 - project: puppet-powerdns
   tags:
     train-uc:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
 - project: puppet-qdr
   tags:
     train-uc:
@@ -865,15 +834,12 @@ packages:
 - project: puppet-redis
   tags:
     train-uc:
-      source-branch: 5464b335f9bd05fc0dd412bdd9dad97d4539a1f6
 - project: puppet-remote
   tags:
     train-uc:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
     train-uc:
-      source-branch: a7d4f8487cf9492106690637d3e7d484876943e6
 - project: puppet-sahara
   tags:
     train-uc:
@@ -892,26 +858,21 @@ packages:
 - project: puppet-ssh
   tags:
     train-uc:
-      source-branch: fc0d31c74579ce44e8b85020aaa94d4cfdbecf2d
 - project: puppet-staging
   tags:
     train-uc:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-stdlib
   tags:
     train-uc:
-      source-branch: b0dd4c131441603f2a72ab838cf7de39a97840df
 - project: puppet-swift
   tags:
     train-uc:
 - project: puppet-sysctl
   tags:
     train-uc:
-      source-branch: a3d160d7c79cc905fc1d10a4fd8b4c1488e017b4
 - project: puppet-systemd
   tags:
     train-uc:
-      source-branch: 4d97305fed6d9d6e51ab2468cd4e9f26ecc72237
 - project: puppet-tacker
   tags:
     train-uc:
@@ -921,11 +882,9 @@ packages:
 - project: puppet-timezone
   tags:
     train-uc:
-      source-branch: e44be603765a247369504182b0c3af045d56f6f1
 - project: puppet-tomcat
   tags:
     train-uc:
-      source-branch: 5366908b1b86e9ba6d112b1dcc6eaf08118b4d7d
 - project: puppet-tripleo
   tags:
     train-uc:
@@ -935,22 +894,18 @@ packages:
 - project: puppet-uchiwa
   tags:
     train-uc:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
     train-uc:
-      source-branch: a2ea398f5c774dcb2022e36fe4a27d403fe4d9b0
 - project: puppet-veritas_hyperscale
   tags:
     train-uc:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
 - project: puppet-vitrage
   tags:
     train-uc:
 - project: puppet-vlan
   tags:
     train-uc:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-vswitch
   tags:
     train-uc:
@@ -960,14 +915,12 @@ packages:
 - project: puppet-xinetd
   tags:
     train-uc:
-      source-branch: 98b42317468df18c202e4153a0176b3ed4636e0e
 - project: puppet-zaqar
   tags:
     train-uc:
 - project: puppet-zookeeper
   tags:
     train-uc:
-      source-branch: eb6d2d0d8e7c3bcfa17ae6a1c81d85018d2b9a4b
 - project: pycadf
   tags:
     train-uc:
