@@ -503,6 +503,9 @@ packages:
 - project: novajoin
   buildsys-tags:
     cloud7-openstack-stein-testing: python-novajoin-1.1.1-2.el7
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-novajoin-tests-tempest-0.0.1-0.3.3f51bbegit.el7
 - project: novnc
   buildsys-tags:
     cloud7-openstack-stein-testing: novnc-0.5.1-2.el7
@@ -2036,6 +2039,9 @@ packages:
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-stein-testing: python-horizon-tests-tempest-0.1.0-1.el7
+- project: tempestconf
+  buildsys-tags:
+    cloud7-openstack-stein-testing: python-tempestconf-2.2.0-1.el7
 - project: tooz
   buildsys-tags:
     cloud7-openstack-stein-testing: python-tooz-1.64.2-1.el7
