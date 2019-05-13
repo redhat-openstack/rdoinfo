@@ -5,3 +5,6 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-3parclient
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-3parclient-4.2.9-1.el7
