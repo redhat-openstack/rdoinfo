@@ -73,7 +73,7 @@ packages:
     cloud7-openstack-queens-release: python-ceilometermiddleware-1.2.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-cinder-12.0.6-1.el7
+    cloud7-openstack-queens-release: openstack-cinder-12.0.7-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
@@ -277,7 +277,7 @@ packages:
     cloud7-openstack-queens-release: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-queens-release: python-django-horizon-13.0.1-1.el7
+    cloud7-openstack-queens-release: python-django-horizon-13.0.2-1.el7
 - project: instack
   buildsys-tags:
     cloud7-openstack-queens-release: instack-8.1.0-1.el7
