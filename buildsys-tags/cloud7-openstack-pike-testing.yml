@@ -157,7 +157,7 @@ packages:
     cloud7-openstack-pike-testing: instack-7.0.2-1.el7
 - project: instack-undercloud
   buildsys-tags:
-    cloud7-openstack-pike-testing: instack-undercloud-7.4.14-1.el7
+    cloud7-openstack-pike-testing: instack-undercloud-7.4.15-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-ironic-9.1.6-1.el7
@@ -241,7 +241,7 @@ packages:
     cloud7-openstack-pike-testing: python-microversion-parse-0.1.4-2.el7
 - project: mistral
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-mistral-5.2.7-1.el7
+    cloud7-openstack-pike-testing: openstack-mistral-5.2.8-1.el7
 - project: mistral-dashboard
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-mistral-ui-5.2.4-1.el7
@@ -355,7 +355,7 @@ packages:
     cloud7-openstack-pike-testing: openvswitch-2.9.0-3.el7
 - project: os-apply-config
   buildsys-tags:
-    cloud7-openstack-pike-testing: os-apply-config-7.2.3-1.el7
+    cloud7-openstack-pike-testing: os-apply-config-7.2.4-1.el7
 - project: os-brick
   buildsys-tags:
     cloud7-openstack-pike-testing: python-os-brick-1.15.9-1.el7
@@ -364,13 +364,13 @@ packages:
     cloud7-openstack-pike-testing: python-os-client-config-1.28.1-1.el7
 - project: os-collect-config
   buildsys-tags:
-    cloud7-openstack-pike-testing: os-collect-config-7.2.2-1.el7
+    cloud7-openstack-pike-testing: os-collect-config-7.2.3-1.el7
 - project: os-faults
   buildsys-tags:
     cloud7-openstack-pike-testing: python-os-faults-0.1.14-1.el7
 - project: os-net-config
   buildsys-tags:
-    cloud7-openstack-pike-testing: os-net-config-7.3.8-1.el7
+    cloud7-openstack-pike-testing: os-net-config-7.3.9-1.el7
 - project: os-refresh-config
   buildsys-tags:
     cloud7-openstack-pike-testing: os-refresh-config-7.1.0-1.el7
@@ -1063,31 +1063,31 @@ packages:
     cloud7-openstack-pike-testing: python-tooz-1.58.1-1.el7
 - project: tripleo-common
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.17-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-common-7.6.18-1.el7
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.17-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-heat-templates-7.0.18-1.el7
 - project: tripleo-image-elements
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-tripleo-image-elements-7.0.5-1.el7
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.8-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-puppet-elements-7.0.9-1.el7
 - project: tripleo-ui
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-tripleo-ui-7.4.7-1.el7
 - project: tripleo-validations
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.9-1.el7
+    cloud7-openstack-pike-testing: openstack-tripleo-validations-7.4.11-1.el7
 - project: tripleoclient
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-tripleoclient-7.3.14-1.el7
+    cloud7-openstack-pike-testing: python-tripleoclient-7.3.15-1.el7
 - project: trove
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-trove-8.0.1-1.el7
 - project: trove-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-trove-ui-9.0.0-1.el7
+    cloud7-openstack-pike-testing: openstack-trove-ui-9.0.1-1.el7
 - project: troveclient
   buildsys-tags:
     cloud7-openstack-pike-testing: python-troveclient-2.12.0-1.el7
