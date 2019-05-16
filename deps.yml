@@ -1864,3 +1864,33 @@ packages:
 - project: libwebsockets
   name: libwebsockets
   conf: rdo-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
+- project: python-storops
+  name: python-storops
+  conf: fedora-dependency
+- project: python-pulp
+  name: python-pulp
+  conf: fedora-dependency
+- project: python-thriftpy2
+  name: python-thriftpy2
+  conf: fedora-dependency
+- project: python-pytest
+  name: python-pytest
+  conf: fedora-dependency
+- project: python-3parclient
+  name: python-3parclient
+  conf: fedora-dependency
+- project: python-opentracing
+  name: python-opentracing
+  conf: fedora-dependency
+- project: python-faker
+  name: python-faker
+  conf: fedora-dependency
+- project: python-pyrsistent
+  name: python-pyrsistent
+  conf: fedora-dependency
+- project: python-joblib
+  name: python-joblib
+  conf: fedora-dependency
