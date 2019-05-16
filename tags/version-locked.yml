@@ -20,3 +20,7 @@ packages:
 - project: tap-as-a-service
   tags:
     version-locked:
+# Until we have a new release in u-c.
+- project: wsme
+  tags:
+    version-locked:
