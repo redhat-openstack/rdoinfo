@@ -202,6 +202,7 @@ packages:
 - project: ironicclient
   tags:
     train:
+      source-branch: 2.7.0 #TODO(marios)bugs.launchpad.net/tripleo/+bug/1829468
 - project: keystone
   tags:
     train:
