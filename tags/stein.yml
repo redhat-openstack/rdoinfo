@@ -70,7 +70,7 @@ packages:
 - project: cinderclient
   tags:
     stein:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: cinderlib
   tags:
     stein:
@@ -526,7 +526,7 @@ packages:
 - project: oslo-cache
   tags:
     stein:
-      source-branch: 1.33.2
+      source-branch: 1.33.3
 - project: oslo-concurrency
   tags:
     stein:
@@ -1099,7 +1099,7 @@ packages:
 - project: taskflow
   tags:
     stein:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: telemetry-tempest-plugin
   tags:
     stein:
