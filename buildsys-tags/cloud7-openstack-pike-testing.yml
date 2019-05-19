@@ -7,7 +7,7 @@ packages:
     cloud7-openstack-pike-testing: ansible-role-redhat-subscription-1.0.1-1.el7
 - project: aodh
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-aodh-5.1.0-1.el7
+    cloud7-openstack-pike-testing: openstack-aodh-5.1.1-1.el7
 - project: aodhclient
   buildsys-tags:
     cloud7-openstack-pike-testing: python-aodhclient-0.9.0-1.el7
@@ -76,7 +76,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-designate-5.0.2-1.el7
 - project: designate-dashboard
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-designate-ui-5.0.1-1.el7
+    cloud7-openstack-pike-testing: openstack-designate-ui-5.0.2-1.el7
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud7-openstack-pike-testing: python-designate-tests-tempest-0.3.0-1.el7
@@ -112,7 +112,7 @@ packages:
     cloud7-openstack-pike-testing: python-glance-store-0.22.0-1.el7
 - project: glanceclient
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-glanceclient-2.8.0-1.el7
+    cloud7-openstack-pike-testing: python-glanceclient-2.8.1-1.el7
 - project: glare
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-glare-0.4.1-1.el7
@@ -145,13 +145,13 @@ packages:
     cloud7-openstack-pike-testing: openstack-heat-agents-1.4.1-1.el7
 - project: heat-translator
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-heat-translator-0.9.0-1.el7
+    cloud7-openstack-pike-testing: python-heat-translator-0.9.1-1.el7
 - project: heatclient
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-heatclient-1.11.1-1.el7
+    cloud7-openstack-pike-testing: python-heatclient-1.11.2-1.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-django-horizon-12.0.3-1.el7
+    cloud7-openstack-pike-testing: python-django-horizon-12.0.4-1.el7
 - project: instack
   buildsys-tags:
     cloud7-openstack-pike-testing: instack-7.0.2-1.el7
@@ -172,7 +172,7 @@ packages:
     cloud7-openstack-pike-testing: python-ironic-lib-2.10.2-1.el7
 - project: ironic-python-agent
   buildsys-tags:
-    cloud7-openstack-pike-testing: openstack-ironic-python-agent-2.2.3-1.el7
+    cloud7-openstack-pike-testing: openstack-ironic-python-agent-2.2.4-1.el7
 - project: ironic-staging-drivers
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-ironic-staging-drivers-0.7.0-1.el7
@@ -247,10 +247,10 @@ packages:
     cloud7-openstack-pike-testing: openstack-mistral-ui-5.2.4-1.el7
 - project: mistral-lib
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-mistral-lib-0.3.3-1.el7
+    cloud7-openstack-pike-testing: python-mistral-lib-0.3.4-1.el7
 - project: mistralclient
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-mistralclient-3.1.4-1.el7
+    cloud7-openstack-pike-testing: python-mistralclient-3.1.5-1.el7
 - project: monascaclient
   buildsys-tags:
     cloud7-openstack-pike-testing: python-monascaclient-1.7.1-1.el7
@@ -316,13 +316,13 @@ packages:
     cloud7-openstack-pike-testing: openstack-neutron-lbaas-ui-3.0.3-1.el7
 - project: neutron-lib
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-neutron-lib-1.9.1-1.el7
+    cloud7-openstack-pike-testing: python-neutron-lib-1.9.2-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-neutron-vpnaas-11.0.0-0.1.0rc1.el7
 - project: neutronclient
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-neutronclient-6.5.0-1.el7
+    cloud7-openstack-pike-testing: python-neutronclient-6.5.1-1.el7
 - project: nova
   buildsys-tags:
     cloud7-openstack-pike-testing: openstack-nova-16.1.7-1.el7
@@ -460,7 +460,7 @@ packages:
     cloud7-openstack-pike-testing: python-osprofiler-1.11.1-1.el7
 - project: ovsdbapp
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-ovsdbapp-0.4.3-1.el7
+    cloud7-openstack-pike-testing: python-ovsdbapp-0.4.4-1.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-pike-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
@@ -493,7 +493,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-4.8.2-1.el7
 - project: puppet-aodh
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-aodh-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-aodh-11.6.0-1.el7
 - project: puppet-apache
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-apache-2.0.0-1.e31a682git.el7
@@ -505,13 +505,13 @@ packages:
     cloud7-openstack-pike-testing: puppet-auditd-2.2.0-1.el7
 - project: puppet-barbican
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-barbican-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-barbican-11.6.0-1.el7
 - project: puppet-cassandra
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-cassandra-2.5.0-1.d180a6cgit.el7
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-ceilometer-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-ceilometer-11.6.0-1.el7
 - project: puppet-ceph
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-ceph-2.4.1-1.el7
@@ -520,7 +520,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-certmonger-1.1.1-2.d09f0f2git.el7
 - project: puppet-cinder
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-cinder-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-cinder-11.6.0-1.el7
 - project: puppet-collectd
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-collectd-5.3.1-0.1.b995bdagit.el7
@@ -541,13 +541,13 @@ packages:
     cloud7-openstack-pike-testing: puppet-datacat-0.6.2-3.5cce8f2git.el7
 - project: puppet-designate
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-designate-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-designate-11.6.0-1.el7
 - project: puppet-dns
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-dns-5.0.1-1.d0c02afgit.el7
 - project: puppet-ec2api
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-ec2api-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-ec2api-11.6.0-1.el7
 - project: puppet-elasticsearch
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-elasticsearch-5.3.1-1.36c01dbgit.el7
@@ -568,7 +568,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-git-0.4.0-3.4e4498egit.el7
 - project: puppet-glance
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-glance-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-glance-11.6.0-1.el7
 - project: puppet-gnocchi
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-gnocchi-11.5.0-1.el7
@@ -577,10 +577,10 @@ packages:
     cloud7-openstack-pike-testing: puppet-haproxy-1.5.0-4.6ffcb07git.el7
 - project: puppet-heat
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-heat-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-heat-11.6.0-1.el7
 - project: puppet-horizon
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-horizon-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-horizon-11.6.0-1.el7
 - project: puppet-inifile
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-inifile-2.0.0-1.16fd47dgit.el7
@@ -601,7 +601,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
 - project: puppet-keystone
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-keystone-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-keystone-11.6.0-1.el7
 - project: puppet-kibana3
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
@@ -613,10 +613,10 @@ packages:
     cloud7-openstack-pike-testing: puppet-lib-file_concat-1.0.1-1.813132bgit.el7
 - project: puppet-magnum
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-magnum-11.3.2-1.el7
+    cloud7-openstack-pike-testing: puppet-magnum-11.6.0-1.el7
 - project: puppet-manila
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-manila-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-manila-11.6.0-1.el7
 - project: puppet-memcached
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-memcached-3.0.2-1.adf8b63git.el7
@@ -625,7 +625,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
 - project: puppet-mistral
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-mistral-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-mistral-11.6.0-1.el7
 - project: puppet-module-data
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
@@ -661,22 +661,22 @@ packages:
     cloud7-openstack-pike-testing: puppet-opendaylight-4.1.0-1.3768d5egit.el7
 - project: puppet-openstack_extras
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-openstack_extras-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-openstack_extras-11.6.0-1.el7
 - project: puppet-openstacklib
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-openstacklib-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-openstacklib-11.6.0-1.el7
 - project: puppet-oslo
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-oslo-11.4.0-1.el7
 - project: puppet-ovn
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-ovn-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-ovn-11.6.0-1.el7
 - project: puppet-pacemaker
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-pacemaker-0.6.0-1.e0f9c42git.el7
 - project: puppet-panko
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-panko-11.6.0-1.el7
+    cloud7-openstack-pike-testing: puppet-panko-11.6.1-1.el7
 - project: puppet-powerdns
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-powerdns-0.0.5-1.8996515git.el7
@@ -697,7 +697,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-rsync-0.4.0-2.295cfcegit.el7
 - project: puppet-sahara
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-sahara-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-sahara-11.6.0-1.el7
 - project: puppet-sensu
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-sensu-2.30.1-2.el7
@@ -727,7 +727,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-tacker-11.4.0-1.el7
 - project: puppet-tempest
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-tempest-11.5.0-1.el7
+    cloud7-openstack-pike-testing: puppet-tempest-11.6.0-1.el7
 - project: puppet-timezone
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-timezone-3.5.0-1.62ba3ccgit.el7
@@ -736,10 +736,10 @@ packages:
     cloud7-openstack-pike-testing: puppet-tomcat-1.7.0-1.9fed47bgit.el7
 - project: puppet-tripleo
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-tripleo-7.4.15-1.el7
+    cloud7-openstack-pike-testing: puppet-tripleo-7.4.18-1.el7
 - project: puppet-trove
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-trove-11.4.0-1.el7
+    cloud7-openstack-pike-testing: puppet-trove-11.6.0-1.el7
 - project: puppet-uchiwa
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-uchiwa-1.0.1-3.b614088git.el7
@@ -751,7 +751,7 @@ packages:
     cloud7-openstack-pike-testing: puppet-veritas_hyperscale-1.1.1-1.el7
 - project: puppet-vitrage
   buildsys-tags:
-    cloud7-openstack-pike-testing: puppet-vitrage-1.1.0-1.el7
+    cloud7-openstack-pike-testing: puppet-vitrage-1.2.0-1.el7
 - project: puppet-vlan
   buildsys-tags:
     cloud7-openstack-pike-testing: puppet-vlan-0.1.0-1.el7
@@ -1090,7 +1090,7 @@ packages:
     cloud7-openstack-pike-testing: openstack-trove-ui-9.0.1-1.el7
 - project: troveclient
   buildsys-tags:
-    cloud7-openstack-pike-testing: python-troveclient-2.12.0-1.el7
+    cloud7-openstack-pike-testing: python-troveclient-2.12.1-1.el7
 - project: virtualbmc
   buildsys-tags:
     cloud7-openstack-pike-testing: python-virtualbmc-1.2.0-1.el7
