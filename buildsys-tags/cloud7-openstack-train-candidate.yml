@@ -5,3 +5,12 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-docker
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-docker-4.0.1-1.el7
+- project: python-m2crypto
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-m2crypto-0.33.0-1.el7
+- project: python-pywbem
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pywbem-0.14.1-1.el7
