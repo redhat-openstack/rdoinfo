@@ -1864,3 +1864,9 @@ packages:
 - project: libwebsockets
   name: libwebsockets
   conf: rdo-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
+- project: python-purestorage
+  name: python-purestorage
+  conf: fedora-dependency
