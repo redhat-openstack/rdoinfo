@@ -91,7 +91,7 @@ packages:
     cloud7-openstack-stein-release: python-cinder-tests-tempest-0.2.0-1.el7
 - project: cinderclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-cinderclient-4.1.0-1.el7
+    cloud7-openstack-stein-release: python-cinderclient-4.2.0-1.el7
 - project: cinderlib
   buildsys-tags:
     cloud7-openstack-stein-release: python-cinderlib-0.9.0-1.el7
@@ -265,7 +265,7 @@ packages:
     cloud7-openstack-stein-release: python-heat-tests-tempest-0.3.0-1.el7
 - project: heat-translator
   buildsys-tags:
-    cloud7-openstack-stein-release: python-heat-translator-1.3.0-1.el7
+    cloud7-openstack-stein-release: python-heat-translator-1.3.1-1.el7
 - project: heatclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-heatclient-1.17.0-1.el7
@@ -301,7 +301,7 @@ packages:
     cloud7-openstack-stein-release: openstack-ironic-ui-3.4.0-1.el7
 - project: ironicclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-ironicclient-2.7.0-1.el7
+    cloud7-openstack-stein-release: python-ironicclient-2.7.1-1.el7
 - project: jemalloc
   buildsys-tags:
     cloud7-openstack-stein-release: jemalloc-3.6.0-1.el7
@@ -400,13 +400,13 @@ packages:
     cloud7-openstack-stein-release: python-mistral-tests-tempest-0.2.0-1.el7
 - project: mistralclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-mistralclient-3.8.0-2.el7
+    cloud7-openstack-stein-release: python-mistralclient-3.8.1-1.el7
 - project: mod_xsendfile
   buildsys-tags:
     cloud7-openstack-stein-release: mod_xsendfile-0.12-17.el7
 - project: monascaclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-monascaclient-1.14.0-1.el7
+    cloud7-openstack-stein-release: python-monascaclient-1.15.0-1.el7
 - project: mox3
   buildsys-tags:
     cloud7-openstack-stein-release: python-mox3-0.27.0-1.el7
@@ -607,7 +607,7 @@ packages:
     cloud7-openstack-stein-release: python-osc-placement-1.5.0-1.el7
 - project: oslo-cache
   buildsys-tags:
-    cloud7-openstack-stein-release: python-oslo-cache-1.33.2-1.el7
+    cloud7-openstack-stein-release: python-oslo-cache-1.33.3-1.el7
 - project: oslo-concurrency
   buildsys-tags:
     cloud7-openstack-stein-release: python-oslo-concurrency-3.29.1-1.el7
@@ -2020,7 +2020,7 @@ packages:
     cloud7-openstack-stein-release: python-tap-as-a-service-5.0.0-1.el7
 - project: taskflow
   buildsys-tags:
-    cloud7-openstack-stein-release: python-taskflow-3.4.0-1.el7
+    cloud7-openstack-stein-release: python-taskflow-3.5.0-1.el7
 - project: telemetry-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-telemetry-tests-tempest-0.3.0-1.el7
