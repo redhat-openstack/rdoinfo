@@ -381,14 +381,6 @@ packages:
 - project: neutron-fwaas
   tags:
     train-uc:
-- project: neutron-lbaas
-  tags:
-    train-uc:
-      source-branch: a486af8f70368b64598abaebfade5e865d5be346
-- project: neutron-lbaas-dashboard
-  tags:
-    train-uc:
-      source-branch: 5eed736df13c3b2dae0a1e51c93c998854af5c51
 - project: neutron-lib
   tags:
     train-uc:
