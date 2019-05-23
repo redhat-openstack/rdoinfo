@@ -5,3 +5,9 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.153-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.153-1.el7
