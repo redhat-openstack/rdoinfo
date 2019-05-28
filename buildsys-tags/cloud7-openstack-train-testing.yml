@@ -179,6 +179,9 @@ packages:
 - project: podman
   buildsys-tags:
     cloud7-openstack-train-testing: podman-1.2-2.git3bd528e.el7
+- project: protobuf
+  buildsys-tags:
+    cloud7-openstack-train-testing: protobuf-3.6.1-4.el7
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-5.5.10-4.el7
