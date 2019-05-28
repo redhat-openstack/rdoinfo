@@ -86,12 +86,18 @@ packages:
 - project: galera
   buildsys-tags:
     cloud7-openstack-train-testing: galera-25.3.23-5.el7.0.0.rdo0
+- project: gflags
+  buildsys-tags:
+    cloud7-openstack-train-testing: gflags-2.2.1-1.el7
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
     cloud7-openstack-train-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
 - project: google-api-python-client
   buildsys-tags:
     cloud7-openstack-train-testing: google-api-python-client-1.4.2-4.el7
+- project: grpc
+  buildsys-tags:
+    cloud7-openstack-train-testing: grpc-1.20.1-1.el7
 - project: gv
   buildsys-tags:
     cloud7-openstack-train-testing: gv-3.7.4-6.el7
