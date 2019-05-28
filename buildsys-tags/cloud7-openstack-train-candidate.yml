@@ -5,3 +5,9 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-grpcio
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-grpcio-1.17.1-1.el7
+- project: protobuf
+  buildsys-tags:
+    cloud7-openstack-train-candidate: protobuf-3.6.1-3.el7
