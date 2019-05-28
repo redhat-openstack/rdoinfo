@@ -5,3 +5,6 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: grpc
+  buildsys-tags:
+    cloud7-openstack-train-candidate: grpc-1.20.1-1.el7
