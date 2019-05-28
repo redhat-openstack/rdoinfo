@@ -1873,3 +1873,9 @@ packages:
 - project: gflags
   name: gflags
   conf: fedora-dependency
+- project: gtest
+  name: gtest
+  conf: rdo-dependency
+- project: grpc
+  name: grpc
+  conf: rdo-dependency

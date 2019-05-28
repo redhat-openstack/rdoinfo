@@ -50,6 +50,9 @@ packages:
 - project: google-roboto-slab-fonts
   buildsys-tags:
     cloud7-openstack-train-el7-build: google-roboto-slab-fonts-1.100263-0.5.20150923git.el7
+- project: gtest
+  buildsys-tags:
+    cloud7-openstack-train-el7-build: gtest-1.6.0-2.el7
 - project: lato-fonts
   buildsys-tags:
     cloud7-openstack-train-el7-build: lato-fonts-2.015-1.el7
