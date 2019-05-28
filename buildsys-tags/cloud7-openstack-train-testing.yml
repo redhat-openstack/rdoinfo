@@ -92,6 +92,9 @@ packages:
 - project: google-api-python-client
   buildsys-tags:
     cloud7-openstack-train-testing: google-api-python-client-1.4.2-4.el7
+- project: grpc
+  buildsys-tags:
+    cloud7-openstack-train-testing: grpc-1.20.1-1.el7
 - project: gv
   buildsys-tags:
     cloud7-openstack-train-testing: gv-3.7.4-6.el7
