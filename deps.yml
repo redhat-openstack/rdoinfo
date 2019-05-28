@@ -1864,3 +1864,9 @@ packages:
 - project: libwebsockets
   name: libwebsockets
   conf: rdo-dependency
+- project: python-grpcio
+  name: python-grpcio
+  conf: fedora-dependency
+- project: protobuf
+  name: protobuf
+  conf: fedora-dependency
