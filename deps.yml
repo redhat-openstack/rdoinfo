@@ -1867,3 +1867,12 @@ packages:
 - project: python-zeroconf
   name: python-zeroconf
   conf: rdo-dependency
+- project: python-babel
+  name: python-babel
+  conf: fedora-dependency
+- project: python-importlib-metadata
+  name: python-importlib-metadata
+  conf: fedora-dependency
+- project: python-zipp
+  name: python-zipp
+  conf: fedora-dependency

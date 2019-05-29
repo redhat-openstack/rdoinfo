@@ -5,3 +5,18 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-babel
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-babel-2.7.0-1.el7
+- project: python-cassandra-driver
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-cassandra-driver-3.18.0-1.el7
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-importlib-metadata-0.15-1.el7
+- project: python-pyroute2
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pyroute2-0.5.6-1.el7
+- project: python-zipp
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-zipp-0.5.1-1.el7
