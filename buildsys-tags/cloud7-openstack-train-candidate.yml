@@ -1,4 +1,7 @@
 packages:
+- project: gflags
+  buildsys-tags:
+    cloud7-openstack-train-candidate: gflags-2.2.1-1.el7
 - project: ovn
   buildsys-tags:
     cloud7-openstack-train-candidate: ovn-2.11.0-9.el7
