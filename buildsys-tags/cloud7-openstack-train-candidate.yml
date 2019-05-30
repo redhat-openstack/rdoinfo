@@ -8,3 +8,18 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.158-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.158-1.el7
+- project: python-freezegun
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-freezegun-0.3.12-1.el7
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-importlib-metadata-0.17-1.el7
+- project: python-openshift
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-openshift-0.8.9-1.el7

@@ -1879,3 +1879,9 @@ packages:
 - project: grpc
   name: grpc
   conf: rdo-dependency
+- project: python-importlib-metadata
+  name: python-importlib-metadata
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
