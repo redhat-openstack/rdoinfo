@@ -8,3 +8,6 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-pbr
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pbr-5.2.1-1.el7
