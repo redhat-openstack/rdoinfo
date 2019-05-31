@@ -1879,3 +1879,12 @@ packages:
 - project: grpc
   name: grpc
   conf: rdo-dependency
+- project: python-pywbem
+  name: python-pywbem
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
+- project: python-m2crypto
+  name: python-m2crypto
+  conf: fedora-dependency

@@ -8,3 +8,30 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-amqp
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-amqp-2.5.0-1.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.159-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.159-1.el7
+- project: python-cryptography
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-cryptography-2.7-1.el7
+- project: python-django-compressor
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-django-compressor-2.3-1.el7
+- project: python-kombu
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-kombu-4.6.0-1.el7
+- project: python-m2crypto
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-m2crypto-0.34.0-1.el7
+- project: python-pywbem
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pywbem-0.14.3-1.el7
+- project: python-rjsmin
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-rjsmin-1.1.0-1.el7
