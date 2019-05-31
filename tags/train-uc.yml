@@ -541,7 +541,7 @@ packages:
 - project: oslo-messaging
   tags:
     train-uc:
-      source-branch: 9.7.0
+      source-branch: 9.7.1
 - project: oslo-middleware
   tags:
     train-uc:
@@ -553,7 +553,7 @@ packages:
 - project: oslo-privsep
   tags:
     train-uc:
-      source-branch: 1.33.0
+      source-branch: 1.33.1
 - project: oslo-reports
   tags:
     train-uc:
@@ -1041,7 +1041,7 @@ packages:
 - project: taskflow
   tags:
     train-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: telemetry-tempest-plugin
   tags:
     train-uc:
