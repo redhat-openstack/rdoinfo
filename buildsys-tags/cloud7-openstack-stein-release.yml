@@ -274,13 +274,13 @@ packages:
     cloud7-openstack-stein-release: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-stein-release: python-django-horizon-15.0.0-1.el7
+    cloud7-openstack-stein-release: python-django-horizon-15.1.0-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-ironic-12.1.0-1.el7
 - project: ironic-inspector
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-ironic-inspector-8.2.0-1.el7
+    cloud7-openstack-stein-release: openstack-ironic-inspector-8.2.1-1.el7
 - project: ironic-inspector-client
   buildsys-tags:
     cloud7-openstack-stein-release: python-ironic-inspector-client-3.5.0-1.el7
@@ -301,7 +301,7 @@ packages:
     cloud7-openstack-stein-release: openstack-ironic-ui-3.4.0-1.el7
 - project: ironicclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-ironicclient-2.7.0-1.el7
+    cloud7-openstack-stein-release: python-ironicclient-2.7.2-1.el7
 - project: jemalloc
   buildsys-tags:
     cloud7-openstack-stein-release: jemalloc-3.6.0-1.el7
@@ -520,7 +520,7 @@ packages:
     cloud7-openstack-stein-release: openstack-octavia-4.0.0-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-octavia-ui-3.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-octavia-ui-3.0.1-1.el7
 - project: octavia-lib
   buildsys-tags:
     cloud7-openstack-stein-release: python-octavia-lib-1.1.1-1.el7
