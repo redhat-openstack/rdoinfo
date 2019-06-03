@@ -764,6 +764,12 @@ packages:
 - project: python-process-tests
   name: python-process-tests
   conf: fedora-dependency
+- project: python-prometheus_client
+  name: python-prometheus_client
+  conf: fedora-dependency
+  maintainers:
+  - imelofer@redhat.com
+  - dtantsur@redhat.com
 - project: perl-Net-SNMP
   name: perl-Net-SNMP
   conf: fedora-dependency
