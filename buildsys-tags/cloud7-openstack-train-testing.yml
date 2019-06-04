@@ -773,6 +773,9 @@ packages:
 - project: python-posix_ipc
   buildsys-tags:
     cloud7-openstack-train-testing: python-posix_ipc-0.9.8-1.el7
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-prometheus_client-0.6.0-1.el7
 - project: python-psutil
   buildsys-tags:
     cloud7-openstack-train-testing: python-psutil-5.5.1-1.el7
