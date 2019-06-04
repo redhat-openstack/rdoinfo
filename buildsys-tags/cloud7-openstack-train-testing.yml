@@ -227,6 +227,9 @@ packages:
 - project: python-ImcSdk
   buildsys-tags:
     cloud7-openstack-train-testing: python-ImcSdk-0.7.2-3.el7
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud7-opeenstack-train-testing: python-prometheus_client-0.6.0-1.el7
 - project: python-PuLP
   buildsys-tags:
     cloud7-openstack-train-testing: python-PuLP-1.6.1-5.el7
