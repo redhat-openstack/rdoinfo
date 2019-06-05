@@ -8,6 +8,15 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-arrow
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-arrow-0.14.0-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-pytest
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pytest-4.6.1-1.el7
+- project: python-webcolors
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-webcolors-1.9-1.el7

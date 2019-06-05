@@ -1885,3 +1885,9 @@ packages:
 - project: grpc
   name: grpc
   conf: rdo-dependency
+- project: python-pytest
+  name: python-pytest
+  conf: fedora-dependency
+- project: python-arrow
+  name: python-arrow
+  conf: fedora-dependency
