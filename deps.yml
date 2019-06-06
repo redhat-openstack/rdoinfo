@@ -1885,3 +1885,15 @@ packages:
 - project: grpc
   name: grpc
   conf: rdo-dependency
+- project: python-s3transfer
+  name: python-s3transfer
+  conf: fedora-dependency
+- project: python-pytest
+  name: python-pytest
+  conf: fedora-dependency
+- project: python-arrow
+  name: python-arrow
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
