@@ -319,6 +319,7 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-rsyslog
   conf: rpmfactory-puppet
+  upstream: git://github.com/voxpupuli/%(project)s
 - project: puppet-sahara
   conf: rpmfactory-puppet
 - project: puppet-swift
