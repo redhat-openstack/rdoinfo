@@ -225,8 +225,7 @@ packages:
 - project: ironicclient
   tags:
     rocky:
-      # TODO(marios)bugs.launchpad.net/tripleo/+bug/1829468
-      source-branch: 2.5.1
+      source-branch: 2.5.3
 - project: keystone
   tags:
     rocky:
