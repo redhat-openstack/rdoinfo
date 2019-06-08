@@ -286,7 +286,7 @@ packages:
     cloud7-openstack-queens-release: instack-undercloud-8.4.7-1.el7
 - project: ironic
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-ironic-10.1.8-1.el7
+    cloud7-openstack-queens-release: openstack-ironic-10.1.9-1.el7
 - project: ironic-inspector
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-ironic-inspector-7.2.4-1.el7
@@ -298,7 +298,7 @@ packages:
     cloud7-openstack-queens-release: python-ironic-lib-2.12.2-1.el7
 - project: ironic-python-agent
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-ironic-python-agent-3.2.2-1.el7
+    cloud7-openstack-queens-release: openstack-ironic-python-agent-3.2.3-1.el7
 - project: ironic-staging-drivers
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-ironic-staging-drivers-0.9.1-1.el7
@@ -628,7 +628,7 @@ packages:
     cloud7-openstack-queens-release: python-osc-lib-1.9.0-1.el7
 - project: oslo-cache
   buildsys-tags:
-    cloud7-openstack-queens-release: python-oslo-cache-1.28.0-1.el7
+    cloud7-openstack-queens-release: python-oslo-cache-1.28.1-1.el7
 - project: oslo-concurrency
   buildsys-tags:
     cloud7-openstack-queens-release: python-oslo-concurrency-3.25.1-1.el7
@@ -640,7 +640,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-context-2.20.0-1.el7
 - project: oslo-db
   buildsys-tags:
-    cloud7-openstack-queens-release: python-oslo-db-4.33.3-1.el7
+    cloud7-openstack-queens-release: python-oslo-db-4.33.4-1.el7
 - project: oslo-i18n
   buildsys-tags:
     cloud7-openstack-queens-release: python-oslo-i18n-3.19.0-1.el7
@@ -649,7 +649,7 @@ packages:
     cloud7-openstack-queens-release: python-oslo-log-3.36.0-1.el7
 - project: oslo-messaging
   buildsys-tags:
-    cloud7-openstack-queens-release: python-oslo-messaging-5.35.4-1.el7
+    cloud7-openstack-queens-release: python-oslo-messaging-5.35.5-1.el7
 - project: oslo-middleware
   buildsys-tags:
     cloud7-openstack-queens-release: python-oslo-middleware-3.34.0-1.el7
@@ -2227,7 +2227,7 @@ packages:
     cloud7-openstack-queens-release: python-horizon-tests-tempest-0.0.1-0.1.a23f407git.el7
 - project: tempestconf
   buildsys-tags:
-    cloud7-openstack-queens-release: python-tempestconf-2.2.0-2.el7
+    cloud7-openstack-queens-release: python-tempestconf-2.2.0-4.el7
 - project: tooz
   buildsys-tags:
     cloud7-openstack-queens-release: python-tooz-1.60.1-1.el7
