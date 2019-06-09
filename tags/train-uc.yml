@@ -207,7 +207,7 @@ packages:
 - project: ironic-lib
   tags:
     train-uc:
-      source-branch: 2.17.0
+      source-branch: 2.17.1
 - project: ironic-python-agent
   tags:
     train-uc:
@@ -223,7 +223,7 @@ packages:
 - project: ironicclient
   tags:
     train-uc:
-      source-branch: 2.7.2
+      source-branch: 2.8.0
 - project: keystone
   tags:
     train-uc:
@@ -392,7 +392,7 @@ packages:
 - project: neutron-lib
   tags:
     train-uc:
-      source-branch: 1.26.0
+      source-branch: 1.27.0
 - project: neutron-tempest-plugin
   tags:
     train-uc:
@@ -432,7 +432,7 @@ packages:
 - project: octaviaclient
   tags:
     train-uc:
-      source-branch: 1.8.0
+      source-branch: 1.9.0
 - project: openstack-macros
   tags:
     train-uc:
@@ -446,7 +446,7 @@ packages:
 - project: openstacksdk
   tags:
     train-uc:
-      source-branch: 0.29.0
+      source-branch: 0.30.0
 - project: os-apply-config
   tags:
     train-uc:
@@ -489,15 +489,15 @@ packages:
 - project: os-traits
   tags:
     train-uc:
-      source-branch: 0.12.0
+      source-branch: 0.14.0
 - project: os-vif
   tags:
     train-uc:
-      source-branch: 1.15.1
+      source-branch: 1.16.0
 - project: os-win
   tags:
     train-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: os-xenapi
   tags:
     train-uc:
@@ -569,7 +569,7 @@ packages:
 - project: oslo-service
   tags:
     train-uc:
-      source-branch: 1.39.0
+      source-branch: 1.40.0
 - project: oslo-sphinx
   tags:
     train-uc:
@@ -1114,7 +1114,7 @@ packages:
 - project: troveclient
   tags:
     train-uc:
-      source-branch: 2.17.0
+      source-branch: 2.18.0
 - project: virtualbmc
   tags:
     train-uc:
