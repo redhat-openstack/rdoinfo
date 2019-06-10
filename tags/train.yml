@@ -187,6 +187,9 @@ packages:
 - project: ironic-lib
   tags:
     train:
+- project: ironic-prometheus-exporter
+  tags:
+    train:
 - project: ironic-python-agent
   tags:
     train:

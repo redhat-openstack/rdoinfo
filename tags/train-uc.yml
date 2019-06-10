@@ -208,6 +208,9 @@ packages:
   tags:
     train-uc:
       source-branch: 2.17.1
+  - project: ironic-prometheus-exporter
+    tags:
+      train-uc:
 - project: ironic-python-agent
   tags:
     train-uc:
