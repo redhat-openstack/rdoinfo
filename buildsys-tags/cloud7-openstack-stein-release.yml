@@ -286,7 +286,7 @@ packages:
     cloud7-openstack-stein-release: python-ironic-inspector-client-3.5.0-1.el7
 - project: ironic-lib
   buildsys-tags:
-    cloud7-openstack-stein-release: python-ironic-lib-2.16.2-1.el7
+    cloud7-openstack-stein-release: python-ironic-lib-2.16.3-1.el7
 - project: ironic-python-agent
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-ironic-python-agent-3.6.1-1.el7
@@ -2026,7 +2026,7 @@ packages:
     cloud7-openstack-stein-release: python-telemetry-tests-tempest-0.3.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-tempest-20.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-tempest-20.0.0-2.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-stein-release: python-horizon-tests-tempest-0.1.0-1.el7
