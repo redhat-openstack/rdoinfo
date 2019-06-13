@@ -1885,3 +1885,9 @@ packages:
 - project: grpc
   name: grpc
   conf: rdo-dependency
+- project: cmake3
+  name: cmake3
+  conf: fedora-dependency
+- project: boost-nowide
+  name: boost-nowide
+  conf: fedora-dependency
