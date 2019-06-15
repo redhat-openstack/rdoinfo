@@ -244,7 +244,7 @@ packages:
 - project: keystonemiddleware
   tags:
     train-uc:
-      source-branch: 6.0.0
+      source-branch: 6.1.0
 - project: kolla
   tags:
     train-uc:
@@ -448,14 +448,14 @@ packages:
 - project: openstacksdk
   tags:
     train-uc:
-      source-branch: 0.31.0
+      source-branch: 0.31.1
 - project: os-apply-config
   tags:
     train-uc:
 - project: os-brick
   tags:
     train-uc:
-      source-branch: 2.8.1
+      source-branch: 2.9.0
 - project: os-client-config
   tags:
     train-uc:
@@ -543,7 +543,7 @@ packages:
 - project: oslo-messaging
   tags:
     train-uc:
-      source-branch: 9.7.1
+      source-branch: 9.7.2
 - project: oslo-middleware
   tags:
     train-uc:
@@ -609,7 +609,7 @@ packages:
 - project: ovsdbapp
   tags:
     train-uc:
-      source-branch: 0.15.0
+      source-branch: 0.16.0
 - project: packstack
   tags:
     train-uc:
@@ -1065,7 +1065,7 @@ packages:
 - project: tooz
   tags:
     train-uc:
-      source-branch: 1.64.2
+      source-branch: 1.65.0
 - project: tripleo-ansible
   tags:
     train-uc:
