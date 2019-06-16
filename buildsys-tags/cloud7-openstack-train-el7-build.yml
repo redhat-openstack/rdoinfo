@@ -5,12 +5,12 @@ packages:
 - project: asio
   buildsys-tags:
     cloud7-openstack-train-el7-build: asio-1.10.8-3.el7
-- project: boost159
-  buildsys-tags:
-    cloud7-openstack-train-el7-build: boost159-1.59.0-2.el7
 - project: boost-nowide
   buildsys-tags:
     cloud7-openstack-train-el7-build: boost-nowide-0-20171026.gitec9672b.el7
+- project: boost159
+  buildsys-tags:
+    cloud7-openstack-train-el7-build: boost159-1.59.0-2.el7
 - project: cmake3
   buildsys-tags:
     cloud7-openstack-train-el7-build: cmake3-3.6.1-2.el7

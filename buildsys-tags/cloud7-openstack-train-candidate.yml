@@ -8,6 +8,42 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.169-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.169-1.el7
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-confluent-kafka-1.0.1-1.el7
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-importlib-metadata-0.18-1.el7
+- project: python-kombu
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-kombu-4.6.3-1.el7
+- project: python-m2crypto
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-m2crypto-0.35.2-1.el7
+- project: python-paramiko
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-paramiko-2.5.0-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-psutil
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-psutil-5.6.3-1.el7
+- project: python-pytest
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pytest-4.6.3-1.el7
+- project: python-sphinx
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-sphinx-2.1.1-1.el7
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-sqlalchemy-utils-0.34.0-1.el7
+- project: python-thriftpy2
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-thriftpy2-0.4.4-1.el7
