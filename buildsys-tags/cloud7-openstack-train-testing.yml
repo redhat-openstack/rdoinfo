@@ -404,6 +404,9 @@ packages:
 - project: python-colorama
   buildsys-tags:
     cloud7-openstack-train-testing: python-colorama-0.4.1-1.el7
+- project: python-configparser
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-configparser-3.7.1-2.el7
 - project: python-confluent-kafka
   buildsys-tags:
     cloud7-openstack-train-testing: python-confluent-kafka-0.11.6-3.el7
