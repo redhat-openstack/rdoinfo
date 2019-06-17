@@ -1822,6 +1822,12 @@ packages:
   conf: rdo-dependency
   maintainers:
   - quique.llorente@gmail.com
+- project: python-configparser
+  name: python-configparser
+  conf: fedora-dependency
+  maintainers:
+  - imelofer@redhat.com
+  - dtantsur@redhat.com
 - project: python-confluent-kafka
   name: python-confluent-kafka
   conf: fedora-dependency
