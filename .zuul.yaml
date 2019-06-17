@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-stein-release-centos-7-scenario001-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+            files:
+              - ^buildsys-tags/cloud7-openstack-stein-release-cloudsig.yml$
