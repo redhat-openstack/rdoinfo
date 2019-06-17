@@ -365,6 +365,9 @@ packages:
 - project: python-autobahn
   buildsys-tags:
     cloud7-openstack-train-testing: python-autobahn-19.1.1-2.el7
+- project: python-backports
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-backports-1.0-16.el7
 - project: python-backports-ssl_match_hostname
   buildsys-tags:
     cloud7-openstack-train-testing: python-backports-ssl_match_hostname-3.5.0.1-1.el7
@@ -404,6 +407,9 @@ packages:
 - project: python-colorama
   buildsys-tags:
     cloud7-openstack-train-testing: python-colorama-0.4.1-1.el7
+- project: python-configparser
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-configparser-3.7.1-2.el7
 - project: python-confluent-kafka
   buildsys-tags:
     cloud7-openstack-train-testing: python-confluent-kafka-0.11.6-3.el7
