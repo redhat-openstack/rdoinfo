@@ -325,6 +325,11 @@ packages:
 - project: sip
   name: sip
   conf: fedora-dependency
+- project: slirp4netns
+  name: slirp4netns
+  conf: rdo-dependency
+  maintainers:
+  - quique.llorente@gmail.com
 - project: python-django-compressor
   name: python-django-compressor
   conf: fedora-dependency
