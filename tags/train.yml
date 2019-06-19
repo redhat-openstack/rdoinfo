@@ -943,9 +943,6 @@ packages:
 - project: tempest-horizon
   tags:
     train:
-- project: tempest-tripleo-ui
-  tags:
-    train:
 - project: tempestconf
   tags:
     train:
@@ -980,10 +977,6 @@ packages:
 - project: tripleo-repos
   tags:
     train:
-- project: tripleo-ui
-  tags:
-    train:
-      source-branch: d1baef537f0746efceacfddd2fc671e3efa478d0
 - project: tripleo-validations
   tags:
     train:

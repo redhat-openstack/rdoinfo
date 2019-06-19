@@ -1048,9 +1048,6 @@ packages:
 - project: tempest-horizon
   tags:
     train-uc:
-- project: tempest-tripleo-ui
-  tags:
-    train-uc:
 - project: tempestconf
   tags:
     train-uc:
@@ -1086,10 +1083,6 @@ packages:
 - project: tripleo-repos
   tags:
     train-uc:
-- project: tripleo-ui
-  tags:
-    train-uc:
-      source-branch: d1baef537f0746efceacfddd2fc671e3efa478d0
 - project: tripleo-validations
   tags:
     train-uc:
