@@ -1,4 +1,7 @@
 packages:
+- project: dumb-init
+  buildsys-tags:
+    cloud7-openstack-train-candidate: dumb-init-1.1.3-17.el7
 - project: gflags
   buildsys-tags:
     cloud7-openstack-train-candidate: gflags-2.2.1-1.el7
