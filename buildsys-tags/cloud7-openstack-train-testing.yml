@@ -74,6 +74,9 @@ packages:
 - project: docker
   buildsys-tags:
     cloud7-openstack-train-testing: docker-1.13.1-93.gitb2f74b2.el7
+- project: dumb-init
+  buildsys-tags:
+    cloud7-openstack-train-testing: dumb-init-1.1.3-17.el7
 - project: erlang
   buildsys-tags:
     cloud7-openstack-train-testing: erlang-19.3.6.4-1.el7
