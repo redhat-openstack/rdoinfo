@@ -16,7 +16,7 @@ packages:
     cloud7-openstack-stein-release: Xaw3d-1.6.2-4.el7
 - project: ansible
   buildsys-tags:
-    cloud7-openstack-stein-release: ansible-2.7.10-1.el7.ans
+    cloud7-openstack-stein-release: ansible-2.8.0-1.el7.ans
 - project: ansible-pacemaker
   buildsys-tags:
     cloud7-openstack-stein-release: ansible-pacemaker-1.0.3-1.el7
@@ -496,7 +496,7 @@ packages:
     cloud7-openstack-stein-release: openstack-nova-19.0.1-1.el7
 - project: novaclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-novaclient-13.0.0-1.el7
+    cloud7-openstack-stein-release: python-novaclient-13.0.1-1.el7
 - project: novajoin
   buildsys-tags:
     cloud7-openstack-stein-release: python-novajoin-1.1.1-2.el7
@@ -529,7 +529,7 @@ packages:
     cloud7-openstack-stein-release: python-octavia-tests-tempest-1.0.0-1.el7
 - project: octaviaclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-octaviaclient-1.8.0-2.el7
+    cloud7-openstack-stein-release: python-octaviaclient-1.8.1-1.el7
 - project: oniguruma
   buildsys-tags:
     cloud7-openstack-stein-release: oniguruma-6.7.0-1.el7
@@ -832,7 +832,7 @@ packages:
     cloud7-openstack-stein-release: puppet-magnum-14.4.0-1.el7
 - project: puppet-manila
   buildsys-tags:
-    cloud7-openstack-stein-release: puppet-manila-14.4.0-1.el7
+    cloud7-openstack-stein-release: puppet-manila-14.4.1-1.el7
 - project: puppet-memcached
   buildsys-tags:
     cloud7-openstack-stein-release: puppet-memcached-3.4.0-1.66d3a66git.el7
