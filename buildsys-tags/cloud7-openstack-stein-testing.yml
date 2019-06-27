@@ -182,6 +182,9 @@ packages:
 - project: dracclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-dracclient-2.0.0-1.el7
+- project: dumb-init
+  buildsys-tags:
+    cloud7-openstack-stein-testing: dumb-init-1.1.3-17.el7
 - project: ec2-api
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-ec2-api-8.0.0-1.el7
