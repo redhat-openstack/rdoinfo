@@ -98,6 +98,9 @@ packages:
 - project: python-pyperclip
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-pyperclip-1.6.4-1.el7
+- project: python-pyroute2
+  buildsys-tags:
+    cloud7-openstack-rocky-candidate: python-pyroute2-0.5.2-3.el7
 - project: python-sphinxcontrib-httpdomain
   buildsys-tags:
     cloud7-openstack-rocky-candidate: python-sphinxcontrib-httpdomain-1.6.1-1.el7
