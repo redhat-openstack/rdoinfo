@@ -199,7 +199,7 @@ packages:
     cloud7-openstack-train-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: podman
   buildsys-tags:
-    cloud7-openstack-train-testing: podman-1.2-2.git3bd528e.el7
+    cloud7-openstack-train-testing: podman-1.4.0-2.el7
 - project: protobuf
   buildsys-tags:
     cloud7-openstack-train-testing: protobuf-3.6.1-4.el7
@@ -1148,6 +1148,9 @@ packages:
 - project: sip
   buildsys-tags:
     cloud7-openstack-train-testing: sip-4.19-1.el7
+- project: slirp4netns
+  buildsys-tags:
+    cloud7-openstack-train-testing: slirp4netns-0.3.0-2.git4992082.el7
 - project: subunit
   buildsys-tags:
     cloud7-openstack-train-testing: subunit-1.2.0-14.el7
