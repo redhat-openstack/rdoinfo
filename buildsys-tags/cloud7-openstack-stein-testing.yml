@@ -1984,7 +1984,7 @@ packages:
     cloud7-openstack-stein-testing: python-sahara-plugin-vanilla-1.0.0-1.el7
 - project: sahara-tests
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-sahara-tests-0.8.0-1.el7
+    cloud7-openstack-stein-testing: openstack-sahara-tests-0.9.0-1.el7
 - project: saharaclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-saharaclient-2.2.1-1.el7
@@ -2047,7 +2047,7 @@ packages:
     cloud7-openstack-stein-testing: python-telemetry-tests-tempest-0.3.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-tempest-20.0.0-2.el7
+    cloud7-openstack-stein-testing: openstack-tempest-20.0.0-3.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-stein-testing: python-horizon-tests-tempest-0.1.0-1.el7
