@@ -386,7 +386,7 @@ packages:
 - project: neutron-lib
   tags:
     train-uc:
-      source-branch: 1.27.0
+      source-branch: 1.28.0
 - project: neutron-tempest-plugin
   tags:
     train-uc:
@@ -515,7 +515,7 @@ packages:
 - project: oslo-config
   tags:
     train-uc:
-      source-branch: 6.10.0
+      source-branch: 6.11.0
 - project: oslo-context
   tags:
     train-uc:
@@ -571,7 +571,7 @@ packages:
 - project: oslo-upgradecheck
   tags:
     train-uc:
-      source-branch: 0.2.1
+      source-branch: 0.3.0
 - project: oslo-utils
   tags:
     train-uc:
@@ -587,14 +587,14 @@ packages:
 - project: oslotest
   tags:
     train-uc:
-      source-branch: 3.7.1
+      source-branch: 3.8.0
 - project: osops-tools-monitoring-oschecks
   tags:
     train-uc:
 - project: osprofiler
   tags:
     train-uc:
-      source-branch: 2.8.0
+      source-branch: 2.8.1
 - project: oswin-tempest-plugin
   tags:
     train-uc:
