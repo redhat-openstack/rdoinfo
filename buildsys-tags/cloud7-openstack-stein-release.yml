@@ -191,6 +191,9 @@ packages:
 - project: dracclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-dracclient-2.0.0-1.el7
+- project: dumb-init
+  buildsys-tags:
+    cloud7-openstack-stein-release: dumb-init-1.1.3-17.el7
 - project: ec2-api
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-ec2-api-8.0.0-1.el7
@@ -478,7 +481,7 @@ packages:
     cloud7-openstack-stein-release: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-neutron-14.0.1-1.el7
+    cloud7-openstack-stein-release: openstack-neutron-14.0.2-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-neutron-dynamic-routing-14.0.0-1.el7
@@ -967,7 +970,7 @@ packages:
     cloud7-openstack-stein-release: puppet-tomcat-2.5.0-1.5366908git.el7
 - project: puppet-tripleo
   buildsys-tags:
-    cloud7-openstack-stein-release: puppet-tripleo-10.4.1-2.el7
+    cloud7-openstack-stein-release: puppet-tripleo-10.4.1-3.el7
 - project: puppet-trove
   buildsys-tags:
     cloud7-openstack-stein-release: puppet-trove-14.4.0-1.el7
@@ -1975,10 +1978,10 @@ packages:
     cloud7-openstack-stein-release: python-sahara-plugin-vanilla-1.0.0-1.el7
 - project: sahara-tests
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-sahara-tests-0.8.0-1.el7
+    cloud7-openstack-stein-release: openstack-sahara-tests-0.9.0-1.el7
 - project: saharaclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-saharaclient-2.2.0-1.el7
+    cloud7-openstack-stein-release: python-saharaclient-2.2.1-1.el7
 - project: scciclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-scciclient-0.8.0-1.el7
@@ -2038,7 +2041,7 @@ packages:
     cloud7-openstack-stein-release: python-telemetry-tests-tempest-0.3.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-tempest-20.0.0-2.el7
+    cloud7-openstack-stein-release: openstack-tempest-20.0.0-3.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-stein-release: python-horizon-tests-tempest-0.1.0-1.el7
