@@ -125,6 +125,9 @@ packages:
 - project: python-pyeclib
   buildsys-tags:
     cloud7-openstack-queens-candidate: python-pyeclib-1.5.0-3.el7
+- project: python-pyroute2
+  buildsys-tags:
+    cloud7-openstack-queens-candidate: python-pyroute2-0.5.2-3.el7
 - project: python-sqlalchemy
   buildsys-tags:
     cloud7-openstack-queens-candidate: python-sqlalchemy-1.2.2-2.el7
