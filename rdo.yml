@@ -1551,11 +1551,6 @@ packages:
   name: python-networking-l2gw-tests-tempest
   maintainers:
   - rnoriega@redhat.com
-- project: tempest-tripleo-ui
-  conf: rpmfactory-tempest-plugin
-  name: python-tripleo-ui-tests-tempest
-  maintainers:
-  - hpokorny@redhat.com
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
