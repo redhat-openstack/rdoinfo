@@ -1920,3 +1920,9 @@ packages:
 - project: python-pyudev
   name: python-pyudev
   conf: rdo-dependency
+- project: python-typing-extensions
+  name: python-typing-extensions
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency

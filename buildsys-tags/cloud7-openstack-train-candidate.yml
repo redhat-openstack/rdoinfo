@@ -14,9 +14,24 @@ packages:
 - project: python-backports
   buildsys-tags:
     cloud7-openstack-train-candidate: python-backports-1.0-16.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.188-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.188-1.el7
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-exabgp
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-exabgp-4.1.2-1.el7
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-jsonpath-rw-ext-1.2.2-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-typing-extensions-3.7.4-1.el7
