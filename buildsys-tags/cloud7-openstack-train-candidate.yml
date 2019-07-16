@@ -17,6 +17,18 @@ packages:
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-confluent-kafka-1.1.0-1.el7
+- project: python-faker
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-faker-2.0.0-1.el7
+- project: python-futures
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-futures-3.3.0-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-sqlalchemy-utils-0.34.1-1.el7
