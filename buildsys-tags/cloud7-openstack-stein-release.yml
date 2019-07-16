@@ -91,13 +91,13 @@ packages:
     cloud7-openstack-stein-release: python-ceilometermiddleware-1.4.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-cinder-14.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-cinder-14.0.1-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-cinder-tests-tempest-0.2.0-1.el7
 - project: cinderclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-cinderclient-4.2.0-1.el7
+    cloud7-openstack-stein-release: python-cinderclient-4.2.1-1.el7
 - project: cinderlib
   buildsys-tags:
     cloud7-openstack-stein-release: python-cinderlib-0.9.0-1.el7
@@ -574,7 +574,7 @@ packages:
     cloud7-openstack-stein-release: os-apply-config-10.3.0-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-stein-release: python-os-brick-2.8.1-1.el7
+    cloud7-openstack-stein-release: python-os-brick-2.8.2-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-stein-release: python-os-client-config-1.32.0-2.el7
