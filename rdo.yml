@@ -1564,6 +1564,11 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - dradez@redhat.com
+- project: ansible-config_template
+  conf: rpmfactory-lib
+  name: ansible-config_template
+  maintainers:
+  - kecarter@redhat.com
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
