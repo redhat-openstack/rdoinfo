@@ -8,6 +8,9 @@ packages:
 - project: ansible-role-chrony
   tags:
     train-uc:
+- project: ansible-config_template
+  tags:
+    train-uc:
 - project: ansible-role-container-registry
   tags:
     train-uc:
