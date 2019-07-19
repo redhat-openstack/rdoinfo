@@ -1,4 +1,7 @@
 packages:
+- project: ansible-config_template
+  tags:
+    train:
 - project: ansible-pacemaker
   tags:
     train:
@@ -6,9 +9,6 @@ packages:
   tags:
     train:
 - project: ansible-role-chrony
-  tags:
-    train:
-- project: ansible-config_template
   tags:
     train:
 - project: ansible-role-container-registry
