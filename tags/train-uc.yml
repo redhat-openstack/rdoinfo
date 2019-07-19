@@ -1,4 +1,7 @@
 packages:
+- project: ansible-config_template
+  tags:
+    train-uc:
 - project: ansible-pacemaker
   tags:
     train-uc:
@@ -6,9 +9,6 @@ packages:
   tags:
     train-uc:
 - project: ansible-role-chrony
-  tags:
-    train-uc:
-- project: ansible-config_template
   tags:
     train-uc:
 - project: ansible-role-container-registry
@@ -474,7 +474,7 @@ packages:
 - project: os-resource-classes
   tags:
     train-uc:
-      source-branch: 0.4.0
+      source-branch: 0.5.0
 - project: os-service-types
   tags:
     train-uc:
@@ -538,7 +538,7 @@ packages:
 - project: oslo-messaging
   tags:
     train-uc:
-      source-branch: 9.7.2
+      source-branch: 9.8.0
 - project: oslo-middleware
   tags:
     train-uc:
@@ -574,7 +574,7 @@ packages:
 - project: oslo-upgradecheck
   tags:
     train-uc:
-      source-branch: 0.3.0
+      source-branch: 0.3.1
 - project: oslo-utils
   tags:
     train-uc:
@@ -1057,7 +1057,7 @@ packages:
 - project: tooz
   tags:
     train-uc:
-      source-branch: 1.65.0
+      source-branch: 1.66.0
 - project: tripleo-ansible
   tags:
     train-uc:
