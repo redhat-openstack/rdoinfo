@@ -11,12 +11,30 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-APScheduler
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-APScheduler-3.6.1-1.el7
 - project: python-backports
   buildsys-tags:
     cloud7-openstack-train-candidate: python-backports-1.0-16.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.191-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.191-1.el7
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-hvac
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-hvac-0.9.5-1.el7
+- project: python-pika
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pika-1.1.0-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-stestr
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-stestr-2.4.0-1.el7
