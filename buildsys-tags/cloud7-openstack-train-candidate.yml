@@ -20,3 +20,6 @@ packages:
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-stestr
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-stestr-2.4.0-1.el7
