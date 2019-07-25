@@ -340,7 +340,7 @@ packages:
     cloud7-openstack-stein-testing: python-keystonemiddleware-6.0.0-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-kolla-8.0.0-0.2.0rc2.el7
+    cloud7-openstack-stein-testing: openstack-kolla-8.0.0-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-stein-testing: python-kuryr-lib-0.9.0-1.el7
@@ -382,7 +382,7 @@ packages:
     cloud7-openstack-stein-testing: python-magnumclient-2.12.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-manila-8.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-manila-8.0.1-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-testing: python-manila-tests-tempest-0.3.0-1.el7
@@ -544,7 +544,7 @@ packages:
     cloud7-openstack-stein-testing: python-octavia-lib-1.1.1-1.el7
 - project: octavia-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-octavia-tests-tempest-1.0.0-1.el7
+    cloud7-openstack-stein-testing: python-octavia-tests-tempest-1.1.0-1.el7
 - project: octaviaclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-octaviaclient-1.8.1-1.el7
