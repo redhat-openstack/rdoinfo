@@ -1920,3 +1920,12 @@ packages:
 - project: python-pyudev
   name: python-pyudev
   conf: rdo-dependency
+- project: python-ruamel-yaml-clib
+  name: python-ruamel-yaml-clib
+  conf: fedora-dependency
+- project: python-pyparsing
+  name: python-pyparsing
+  conf: fedora-dependency
+- project: python-google-api-client
+  name: python-google-api-client
+  conf: fedora-dependency
