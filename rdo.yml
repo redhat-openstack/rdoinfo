@@ -1286,12 +1286,6 @@ packages:
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
-- project: networking-vsphere
-  conf: rpmfactory-lib
-  name: python-networking-vsphere
-  maintainers:
-  - odivlad@gmail.com
-  - gm.mephisto@gmail.com
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
