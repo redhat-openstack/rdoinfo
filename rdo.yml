@@ -453,11 +453,6 @@ packages:
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - alejandroandreu@openmailbox.org
-- project: puppet-midonet_openstack
-  conf: rpmfactory-puppet
-  upstream: git://github.com/midonet/%(project)s
-  maintainers:
-  - alejandroandreu@openmailbox.org
 - project: puppet-collectd
   conf: rpmfactory-puppet
   upstream: git://github.com/voxpupuli/%(project)s
