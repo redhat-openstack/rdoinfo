@@ -17,6 +17,9 @@ packages:
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-pbr
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pbr-5.4.2-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
