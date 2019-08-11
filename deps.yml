@@ -1923,3 +1923,21 @@ packages:
 - project: python-ldap
   name: python-ldap
   conf: rdo-dependency
+- project: python-yaml
+  name: python-yaml
+  conf: fedora-dependency
+- project: python-pytz
+  name: python-pytz
+  conf: fedora-dependency
+- project: python-infinisdk
+  name: python-infinisdk
+  conf: fedora-dependency
+- project: python-pytest
+  name: python-pytest
+  conf: fedora-dependency
+- project: python-arrow
+  name: python-arrow
+  conf: fedora-dependency
+- project: python-pysnmp
+  name: python-pysnmp
+  conf: fedora-dependency
