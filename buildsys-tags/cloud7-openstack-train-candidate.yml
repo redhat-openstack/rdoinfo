@@ -11,12 +11,30 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-3parclient
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-3parclient-4.2.10-1.el7
+- project: python-arrow
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-arrow-0.14.5-1.el7
 - project: python-backports
   buildsys-tags:
     cloud7-openstack-train-candidate: python-backports-1.0-16.el7
 - project: python-configparser
   buildsys-tags:
-    cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+    cloud7-openstack-train-candidate: python-configparser-3.7.5-1.el7
+- project: python-gabbi
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-gabbi-1.49.0-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-ruamel-yaml-clib
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-ruamel-yaml-clib-0.1.2-1.el7
+- project: python-scipy
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-scipy-1.3.1-1.el7
+- project: python-zmq
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-zmq-18.1.0-1.el7

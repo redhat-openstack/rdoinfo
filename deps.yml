@@ -1923,3 +1923,15 @@ packages:
 - project: python-ldap
   name: python-ldap
   conf: rdo-dependency
+- project: python-ruamel-yaml-clib
+  name: python-ruamel-yaml-clib
+  conf: fedora-dependency
+- project: python-scipy
+  name: python-scipy
+  conf: fedora-dependency
+- project: python-arrow
+  name: python-arrow
+  conf: fedora-dependency
+- project: python-3parclient
+  name: python-3parclient
+  conf: fedora-dependency
