@@ -509,11 +509,6 @@ packages:
 - project: puppet-systemd
   conf: rpmfactory-puppet
   upstream: git://github.com/camptocamp/%(project)s
-- project: puppet-logstash
-  conf: rpmfactory-puppet
-  upstream: git://github.com/elastic/%(project)s
-  maintainers:
-  - alejandroandreu@openmailbox.org
 - project: puppet-lib-file_concat
   conf: rpmfactory-puppet
   upstream: git://github.com/electrical/%(project)s
