@@ -1713,10 +1713,6 @@ packages:
 - project: vmware-nsx-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-vmware-nsx-tests-tempest
-- project: karborclient
-  conf: rpmfactory-client
-  maintainers:
-  - liujiong63@163.com
 - project: karbor
   conf: rpmfactory-core
   maintainers:
