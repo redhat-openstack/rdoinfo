@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset020-stein:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein.yml$
