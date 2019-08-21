@@ -538,7 +538,7 @@ packages:
     cloud7-openstack-queens-testing: nodejs-packaging-9-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-nova-17.0.11-1.el7
+    cloud7-openstack-queens-testing: openstack-nova-17.0.12-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-queens-testing: python-novaclient-10.1.0-1.el7
@@ -559,7 +559,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-octavia-2.1.1-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-octavia-ui-1.0.1-1.el7
+    cloud7-openstack-queens-testing: openstack-octavia-ui-1.0.2-1.el7
 - project: octavia-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-octavia-tests-tempest-0.0.1-0.3.51e91b4git.el7
