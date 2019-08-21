@@ -536,7 +536,7 @@ packages:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: glance_store
-  conf: rpmfactory-core
+  conf: rpmfactory-lib
   name: python-glance-store
   maintainers:
   - hguemar@fedoraproject.org
@@ -1046,10 +1046,10 @@ packages:
   maintainers:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
-  conf: rpmfactory-client
+  conf: rpmfactory-lib
   upstream: https://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
-  conf: rpmfactory-client
+  conf: rpmfactory-lib
   upstream: https://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: rpmfactory-client
@@ -1079,7 +1079,7 @@ packages:
   - therve@redhat.com
 - project: openstacksdk
   upstream: https://git.openstack.org/openstack/%(project)s
-  conf: rpmfactory-client
+  conf: rpmfactory-lib
 - project: gnocchiclient
   conf: rpmfactory-client
   upstream: https://github.com/gnocchixyz/python-%(project)s
@@ -1483,7 +1483,7 @@ packages:
   - lyarwood@redhat.com
   - smooney@redhat.com
 - project: sahara-tests
-  conf: rpmfactory-lib
+  conf: rpmfactory-tempest-plugin
   name: openstack-sahara-tests
   maintainers:
   - chkumar@redhat.com
@@ -1655,7 +1655,7 @@ packages:
   maintainers:
   - sbaker@redhat.com
 - project: scciclient
-  conf: rpmfactory-lib
+  conf: rpmfactory-client
   upstream: https://git.openstack.org/openstack/python-scciclient
   maintainers:
   - okado.hiroaki@jp.fujitsu.com
@@ -1861,7 +1861,7 @@ packages:
   maintainers:
   - amoralej@redhat.com
 - project: osc-placement
-  conf: rpmfactory-lib
+  conf: rpmfactory-client
   maintainers:
   - mbooth@redhat.com
 - project: stackviz
