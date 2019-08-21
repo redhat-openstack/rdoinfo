@@ -26,6 +26,9 @@ packages:
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-sphinxcontrib-svg2pdfconverter-0.1.0-3.el7
 - project: python-testtools
   buildsys-tags:
     cloud7-openstack-train-candidate: python-testtools-2.3.0-7.el7
