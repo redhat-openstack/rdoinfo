@@ -536,7 +536,7 @@ packages:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: glance_store
-  conf: rpmfactory-core
+  conf: rpmfactory-lib
   name: python-glance-store
   maintainers:
   - hguemar@fedoraproject.org
@@ -1046,10 +1046,10 @@ packages:
   maintainers:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
-  conf: rpmfactory-client
+  conf: rpmfactory-lib
   upstream: https://git.openstack.org/openstack/%(project)s
 - project: ceilometermiddleware
-  conf: rpmfactory-client
+  conf: rpmfactory-lib
   upstream: https://git.openstack.org/openstack/%(project)s
 - project: openstackclient
   conf: rpmfactory-client
@@ -1079,7 +1079,7 @@ packages:
   - therve@redhat.com
 - project: openstacksdk
   upstream: https://git.openstack.org/openstack/%(project)s
-  conf: rpmfactory-client
+  conf: rpmfactory-lib
 - project: gnocchiclient
   conf: rpmfactory-client
   upstream: https://github.com/gnocchixyz/python-%(project)s
@@ -1235,7 +1235,7 @@ packages:
   maintainers:
   - apevec@redhat.com
 - project: networking-ansible
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-ansible
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -1243,24 +1243,26 @@ packages:
   - michapma@redhat.com
   - jlibosva@redhat.com
 - project: networking-arista
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-arista
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - shashank@arista.com
   - openstack-dev@arista.com
 - project: networking-baremetal
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
+  name: python-networking-baremetal
   maintainers:
   - divius.inside@gmail.com
   - harald.jensas@gmail.com
 - project: networking-generic-switch
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
+  name: python-networking-generic-switch
   maintainers:
   - divius.inside@gmail.com
   - harald.jensas@gmail.com
 - project: networking-mlnx
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-mlnx
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -1271,19 +1273,19 @@ packages:
   - ralonsoh@redhat.com
   - skaplons@redhat.com
 - project: networking-odl
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-odl
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - mike.kolesnik@gmail.com
 - project: networking-sfc
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-sfc
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
 - project: vmware-nsx
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-vmware-nsx
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -1297,7 +1299,7 @@ packages:
   maintainers:
   - jpena@redhat.com
 - project: networking-bigswitch
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-bigswitch
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -1311,7 +1313,7 @@ packages:
   - ralonsoh@redhat.com
   - skaplons@redhat.com
 - project: networking-ovn
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-ovn
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -1322,7 +1324,7 @@ packages:
   - russell@russellbryant.net
   - rbanerje@redhat.com
 - project: networking-cisco
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   name: python-networking-cisco
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
@@ -1483,7 +1485,7 @@ packages:
   - lyarwood@redhat.com
   - smooney@redhat.com
 - project: sahara-tests
-  conf: rpmfactory-lib
+  conf: rpmfactory-tempest-plugin
   name: openstack-sahara-tests
   maintainers:
   - chkumar@redhat.com
@@ -1496,7 +1498,7 @@ packages:
   - chkumar@redhat.com
 - project: networking-bagpipe
   name: python-networking-bagpipe
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   upstream: https://git.openstack.org/openstack/networking-bagpipe
   maintainers:
   - lhinds@redhat.com
@@ -1506,7 +1508,8 @@ packages:
   maintainers:
   - lucasagomes@gmail.com
 - project: networking-bgpvpn
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
+  name: python-networking-bgpvpn
   maintainers:
   - rnoriega@redhat.com
 - project: novajoin
@@ -1517,7 +1520,7 @@ packages:
   - alee@redhat.com
 - project: networking-fujitsu
   name: python-networking-fujitsu
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
   upstream: https://git.openstack.org/openstack/networking-fujitsu
   maintainers:
   - sanagi.koki@jp.fujitsu.com
@@ -1533,7 +1536,8 @@ packages:
   - divius.inside@gmail.com
   - lucasagomes@gmail.com
 - project: networking-l2gw
-  conf: rpmfactory-lib
+  conf: rpmfactory-core
+  name: python-networking-l2gw
   maintainers:
   - rnoriega@redhat.com
 - project: networking-l2gw-tempest-plugin
@@ -1655,7 +1659,7 @@ packages:
   maintainers:
   - sbaker@redhat.com
 - project: scciclient
-  conf: rpmfactory-lib
+  conf: rpmfactory-client
   upstream: https://git.openstack.org/openstack/python-scciclient
   maintainers:
   - okado.hiroaki@jp.fujitsu.com
@@ -1861,7 +1865,7 @@ packages:
   maintainers:
   - amoralej@redhat.com
 - project: osc-placement
-  conf: rpmfactory-lib
+  conf: rpmfactory-client
   maintainers:
   - mbooth@redhat.com
 - project: stackviz
