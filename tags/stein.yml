@@ -638,6 +638,8 @@ packages:
 - project: paunch
   tags:
     stein:
+      # https://bugzilla.redhat.com/show_bug.cgi?id=1739224
+      source-branch: 210c0d662ec9c748629cfaf7a1e1d451f84bc894
 - project: placement
   tags:
     stein:
