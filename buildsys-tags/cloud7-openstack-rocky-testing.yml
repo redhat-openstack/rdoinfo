@@ -304,7 +304,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keystoneclient-3.17.0-1.el7
 - project: keystonemiddleware
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-keystonemiddleware-5.2.0-1.el7
+    cloud7-openstack-rocky-testing: python-keystonemiddleware-5.2.1-1.el7
 - project: kolla
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-kolla-7.0.3-1.el7
@@ -493,7 +493,7 @@ packages:
     cloud7-openstack-rocky-testing: openstack-octavia-3.1.0-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-octavia-ui-2.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-octavia-ui-2.0.1-1.el7
 - project: octavia-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-octavia-tests-tempest-0.2.0-1.el7
