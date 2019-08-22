@@ -1923,3 +1923,15 @@ packages:
 - project: python-ldap
   name: python-ldap
   conf: rdo-dependency
+- project: python-psycopg2-binary
+  name: python-psycopg2-binary
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
+- project: python-network-runner
+  name: python-network-runner
+  conf: fedora-dependency
+- project: python-soupsieve
+  name: python-soupsieve
+  conf: fedora-dependency
