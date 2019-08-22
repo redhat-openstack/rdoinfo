@@ -239,7 +239,7 @@ packages:
 - project: keystoneauth1
   tags:
     train-uc:
-      source-branch: 3.16.0
+      source-branch: 3.17.0
 - project: keystoneclient
   tags:
     train-uc:
@@ -285,7 +285,7 @@ packages:
 - project: manilaclient
   tags:
     train-uc:
-      source-branch: 1.27.0
+      source-branch: 1.28.0
 - project: metalsmith
   tags:
     train-uc:
@@ -389,7 +389,7 @@ packages:
 - project: neutron-lib
   tags:
     train-uc:
-      source-branch: 1.28.0
+      source-branch: 1.29.0
 - project: neutron-tempest-plugin
   tags:
     train-uc:
