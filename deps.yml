@@ -1923,3 +1923,21 @@ packages:
 - project: python-ldap
   name: python-ldap
   conf: rdo-dependency
+- project: python-purestorage
+  name: python-purestorage
+  conf: fedora-dependency
+- project: python-sphinxcontrib-svg2pdfconverter
+  name: python-sphinxcontrib-svg2pdfconverter
+  conf: fedora-dependency
+- project: python-faker
+  name: python-faker
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
+- project: python-pytest
+  name: python-pytest
+  conf: fedora-dependency
+- project: python-logbook
+  name: python-logbook
+  conf: fedora-dependency
