@@ -502,7 +502,7 @@ packages:
     cloud7-openstack-stein-testing: python-neutron-lib-1.25.0-1.el7
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-neutron-tests-tempest-0.4.0-1.el7
+    cloud7-openstack-stein-testing: python-neutron-tests-tempest-0.5.0-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-neutron-vpnaas-14.0.0-1.el7
@@ -1993,7 +1993,7 @@ packages:
     cloud7-openstack-stein-testing: python-sahara-plugin-vanilla-1.0.0-1.el7
 - project: sahara-tests
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-sahara-tests-0.9.0-1.el7
+    cloud7-openstack-stein-testing: openstack-sahara-tests-0.9.1-1.el7
 - project: saharaclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-saharaclient-2.2.1-1.el7
