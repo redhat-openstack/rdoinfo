@@ -1923,3 +1923,9 @@ packages:
 - project: python-ldap
   name: python-ldap
   conf: rdo-dependency
+- project: python-thriftpy2
+  name: python-thriftpy2
+  conf: fedora-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency

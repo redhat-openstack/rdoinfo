@@ -8,18 +8,36 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud7-openstack-train-candidate: novnc-1.1.0-6.el7
+- project: numpy
+  buildsys-tags:
+    cloud7-openstack-train-candidate: numpy-1.17.1-1.el7
 - project: ovn
   buildsys-tags:
     cloud7-openstack-train-candidate: ovn-2.11.0-9.el7
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
+- project: python-alembic
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-alembic-1.1.0-1.el7
 - project: python-backports
   buildsys-tags:
     cloud7-openstack-train-candidate: python-backports-1.0-16.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.216-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.216-1.el7
+- project: python-cassandra-driver
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-cassandra-driver-3.19.0-1.el7
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-influxdb
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-influxdb-5.2.3-1.el7
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-train-candidate: python-kombu-4.6.3-3.el7
@@ -29,3 +47,6 @@ packages:
 - project: python-testtools
   buildsys-tags:
     cloud7-openstack-train-candidate: python-testtools-2.3.0-7.el7
+- project: python-thriftpy2
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-thriftpy2-0.4.5-1.el7
