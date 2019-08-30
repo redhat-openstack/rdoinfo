@@ -230,6 +230,9 @@ packages:
 - project: python-sphinxcontrib-seqdiag
   buildsys-tags:
     cloud7-openstack-train-el7-build: python-sphinxcontrib-seqdiag-0.8.4-5.el7
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud7-openstack-train-el7-build: python-sphinxcontrib-svg2pdfconverter-0.1.0-4.el7
 - project: python-sphinxcontrib-websupport
   buildsys-tags:
     cloud7-openstack-train-el7-build: python-sphinxcontrib-websupport-1.0.1-1.el7
