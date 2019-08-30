@@ -91,6 +91,9 @@ packages:
 - project: libimagequant
   name: libimagequant
   conf: fedora-dependency
+- project: libseccomp
+  name: libseccomp
+  conf: rdo-dependency
 - project: python-blinker
   name: python-blinker
   conf: fedora-dependency
