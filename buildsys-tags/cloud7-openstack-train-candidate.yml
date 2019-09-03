@@ -20,12 +20,24 @@ packages:
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-django
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-django-1.11.24-1.el7
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-importlib-metadata-0.20-1.el7
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-train-candidate: python-kombu-4.6.3-3.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-pyasn1
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pyasn1-0.4.7-1.el7
+- project: python-requests-mock
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-requests-mock-1.7.0-1.el7
 - project: python-testtools
   buildsys-tags:
     cloud7-openstack-train-candidate: python-testtools-2.3.0-7.el7
