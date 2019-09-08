@@ -50,7 +50,7 @@ packages:
 - project: castellan
   tags:
     train-uc:
-      source-branch: 1.3.0
+      source-branch: 1.3.1
 - project: ceilometer
   tags:
     train-uc:
@@ -61,7 +61,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     train-uc:
-      source-branch: 1.4.0
+      source-branch: 1.5.0
 - project: cinder
   tags:
     train-uc:
@@ -78,7 +78,7 @@ packages:
 - project: cliff
   tags:
     train-uc:
-      source-branch: 2.15.0
+      source-branch: 2.16.0
 - project: cloudkitty
   tags:
     train-uc:
@@ -189,7 +189,7 @@ packages:
 - project: heat-translator
   tags:
     train-uc:
-      source-branch: 1.4.0
+      source-branch: 1.4.1
 - project: heatclient
   tags:
     train-uc:
@@ -206,11 +206,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     train-uc:
-      source-branch: 3.6.1
+      source-branch: 3.7.0
 - project: ironic-lib
   tags:
     train-uc:
-      source-branch: 2.20.0
+      source-branch: 2.21.0
 - project: ironic-prometheus-exporter
   tags:
     train-uc:
@@ -242,7 +242,7 @@ packages:
 - project: keystoneauth1
   tags:
     train-uc:
-      source-branch: 3.17.0
+      source-branch: 3.17.1
 - project: keystoneclient
   tags:
     train-uc:
@@ -250,7 +250,7 @@ packages:
 - project: keystonemiddleware
   tags:
     train-uc:
-      source-branch: 7.0.0
+      source-branch: 7.0.1
 - project: kolla
   tags:
     train-uc:
@@ -392,7 +392,7 @@ packages:
 - project: neutron-lib
   tags:
     train-uc:
-      source-branch: 1.29.0
+      source-branch: 1.29.1
 - project: neutron-tempest-plugin
   tags:
     train-uc:
@@ -425,7 +425,7 @@ packages:
 - project: octavia-lib
   tags:
     train-uc:
-      source-branch: 1.3.1
+      source-branch: 1.4.0
 - project: octavia-tempest-plugin
   tags:
     train-uc:
@@ -453,7 +453,7 @@ packages:
 - project: os-brick
   tags:
     train-uc:
-      source-branch: 2.9.1
+      source-branch: 2.10.0
 - project: os-client-config
   tags:
     train-uc:
@@ -467,7 +467,7 @@ packages:
 - project: os-ken
   tags:
     train-uc:
-      source-branch: 0.4.0
+      source-branch: 0.4.1
 - project: os-net-config
   tags:
     train-uc:
@@ -493,11 +493,11 @@ packages:
 - project: os-vif
   tags:
     train-uc:
-      source-branch: 1.16.0
+      source-branch: 1.17.0
 - project: os-win
   tags:
     train-uc:
-      source-branch: 4.3.0
+      source-branch: 4.3.1
 - project: os-xenapi
   tags:
     train-uc:
@@ -509,7 +509,7 @@ packages:
 - project: osc-placement
   tags:
     train-uc:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
 - project: oslo-cache
   tags:
     train-uc:
@@ -561,7 +561,7 @@ packages:
 - project: oslo-rootwrap
   tags:
     train-uc:
-      source-branch: 5.16.0
+      source-branch: 5.16.1
 - project: oslo-serialization
   tags:
     train-uc:
@@ -930,7 +930,7 @@ packages:
 - project: pycadf
   tags:
     train-uc:
-      source-branch: 2.9.0
+      source-branch: 2.10.0
 - project: rally
   tags:
     train-uc:
@@ -1011,18 +1011,18 @@ packages:
 - project: sphinx-feature-classification
   tags:
     train-uc:
-      source-branch: 0.4.0
+      source-branch: 0.4.1
 - project: stackviz
   tags:
     train-uc:
 - project: stevedore
   tags:
     train-uc:
-      source-branch: 1.30.1
+      source-branch: 1.31.0
 - project: sushy
   tags:
     train-uc:
-      source-branch: 1.9.0
+      source-branch: 2.0.0
 - project: swift
   tags:
     train-uc:
@@ -1110,7 +1110,7 @@ packages:
 - project: virtualbmc
   tags:
     train-uc:
-      source-branch: 1.5.0
+      source-branch: 1.6.0
 - project: vitrage
   tags:
     train-uc:
@@ -1152,4 +1152,4 @@ packages:
 - project: zaqarclient
   tags:
     train-uc:
-      source-branch: 1.11.0
+      source-branch: 1.12.0
