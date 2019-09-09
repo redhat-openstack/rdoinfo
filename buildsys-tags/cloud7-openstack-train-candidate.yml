@@ -8,6 +8,9 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud7-openstack-train-candidate: novnc-1.1.0-6.el7
+- project: numpy
+  buildsys-tags:
+    cloud7-openstack-train-candidate: numpy-1.17.2-1.el7
 - project: ovn
   buildsys-tags:
     cloud7-openstack-train-candidate: ovn-2.11.0-9.el7
@@ -17,15 +20,36 @@ packages:
 - project: python-backports
   buildsys-tags:
     cloud7-openstack-train-candidate: python-backports-1.0-16.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.224-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.224-1.el7
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-jsonschema
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-jsonschema-3.0.2-1.el7
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-train-candidate: python-kombu-4.6.3-3.el7
+- project: python-ldap3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-ldap3-2.6.1-1.el7
+- project: python-netmiko
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-netmiko-2.4.2-1.el7
+- project: python-oauthlib
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-oauthlib-3.1.0-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-snowballstemmer
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-snowballstemmer-1.9.1-1.el7
 - project: python-testtools
   buildsys-tags:
     cloud7-openstack-train-candidate: python-testtools-2.3.0-7.el7
