@@ -1929,3 +1929,18 @@ packages:
 - project: python-sphinxcontrib-svg2pdfconverter
   name: python-sphinxcontrib-svg2pdfconverter
   conf: rdo-dependency
+- project: python-boto3
+  name: python-boto3
+  conf: fedora-dependency
+- project: python-confget
+  name: python-confget
+  conf: fedora-dependency
+- project: python-arrow
+  name: python-arrow
+  conf: fedora-dependency
+- project: python-semantic-version
+  name: python-semantic-version
+  conf: fedora-dependency
+- project: python-3parclient
+  name: python-3parclient
+  conf: fedora-dependency
