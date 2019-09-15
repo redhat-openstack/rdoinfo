@@ -343,7 +343,7 @@ packages:
     cloud7-openstack-queens-testing: python-keystonemiddleware-4.21.0-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-kolla-6.2.2-1.el7
+    cloud7-openstack-queens-testing: openstack-kolla-6.2.3-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-queens-testing: python-kuryr-lib-0.7.0-1.el7
@@ -464,6 +464,9 @@ packages:
 - project: networking-ansible
   buildsys-tags:
     cloud7-openstack-queens-testing: python-networking-ansible-0.1.0-1.el7
+- project: networking-arista
+  buildsys-tags:
+    cloud7-openstack-queens-testing: python-networking-arista-2018.1.7-1.el7
 - project: networking-bagpipe
   buildsys-tags:
     cloud7-openstack-queens-testing: python-networking-bagpipe-8.0.1-1.el7
@@ -715,7 +718,7 @@ packages:
     cloud7-openstack-queens-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: packstack
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-packstack-12.0.0-2.el7
+    cloud7-openstack-queens-testing: openstack-packstack-12.0.1-1.el7
 - project: panko
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-panko-4.0.2-1.el7
@@ -892,7 +895,7 @@ packages:
     cloud7-openstack-queens-testing: puppet-neutron-12.4.1-1.el7
 - project: puppet-nova
   buildsys-tags:
-    cloud7-openstack-queens-testing: puppet-nova-12.4.0-1.el7
+    cloud7-openstack-queens-testing: puppet-nova-12.5.0-1.el7
 - project: puppet-nssdb
   buildsys-tags:
     cloud7-openstack-queens-testing: puppet-nssdb-1.0.1-1.el7
@@ -931,7 +934,7 @@ packages:
     cloud7-openstack-queens-testing: puppet-qdr-1.0.0-1.el7
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud7-openstack-queens-testing: puppet-rabbitmq-8.1.1-0.d4b06b7git.el7
+    cloud7-openstack-queens-testing: puppet-rabbitmq-9.0.1-0.2.7613f08git.el7
 - project: puppet-redis
   buildsys-tags:
     cloud7-openstack-queens-testing: puppet-redis-3.2.0-2.bfcc212git.el7
@@ -2260,7 +2263,7 @@ packages:
     cloud7-openstack-queens-testing: python-horizon-tests-tempest-0.0.1-0.1.a23f407git.el7
 - project: tempestconf
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-tempestconf-2.2.1-1.el7
+    cloud7-openstack-queens-testing: python-tempestconf-2.2.1-2.el7
 - project: tooz
   buildsys-tags:
     cloud7-openstack-queens-testing: python-tooz-1.60.1-1.el7
