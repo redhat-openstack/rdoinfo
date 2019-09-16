@@ -46,7 +46,7 @@ packages:
 - project: barbicanclient
   tags:
     train-uc:
-      source-branch: 4.8.1
+      source-branch: 4.9.0
 - project: castellan
   tags:
     train-uc:
@@ -71,7 +71,7 @@ packages:
 - project: cinderclient
   tags:
     train-uc:
-      source-branch: 4.3.0
+      source-branch: 5.0.0
 - project: cinderlib
   tags:
     train-uc:
@@ -100,7 +100,7 @@ packages:
 - project: congressclient
   tags:
     train-uc:
-      source-branch: 1.12.0
+      source-branch: 1.13.0
 - project: cursive
   tags:
     train-uc:
@@ -151,7 +151,7 @@ packages:
 - project: glanceclient
   tags:
     train-uc:
-      source-branch: 2.16.0
+      source-branch: 2.17.0
 - project: glare
   tags:
     train-uc:
@@ -246,7 +246,7 @@ packages:
 - project: keystoneclient
   tags:
     train-uc:
-      source-branch: 3.20.0
+      source-branch: 3.21.0
 - project: keystonemiddleware
   tags:
     train-uc:
@@ -313,11 +313,11 @@ packages:
 - project: mistralclient
   tags:
     train-uc:
-      source-branch: 3.9.0
+      source-branch: 3.10.0
 - project: monascaclient
   tags:
     train-uc:
-      source-branch: 1.15.0
+      source-branch: 1.16.0
 - project: mox3
   tags:
     train-uc:
@@ -402,7 +402,7 @@ packages:
 - project: neutronclient
   tags:
     train-uc:
-      source-branch: 6.13.0
+      source-branch: 6.14.0
 - project: nova
   tags:
     train-uc:
@@ -432,7 +432,7 @@ packages:
 - project: octaviaclient
   tags:
     train-uc:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
 - project: openstack-macros
   tags:
     train-uc:
@@ -442,7 +442,7 @@ packages:
 - project: openstackclient
   tags:
     train-uc:
-      source-branch: 3.19.0
+      source-branch: 4.0.0
 - project: openstacksdk
   tags:
     train-uc:
@@ -505,7 +505,7 @@ packages:
 - project: osc-lib
   tags:
     train-uc:
-      source-branch: 1.14.0
+      source-branch: 1.14.1
 - project: osc-placement
   tags:
     train-uc:
@@ -549,11 +549,11 @@ packages:
 - project: oslo-policy
   tags:
     train-uc:
-      source-branch: 2.3.1
+      source-branch: 2.3.2
 - project: oslo-privsep
   tags:
     train-uc:
-      source-branch: 1.33.2
+      source-branch: 1.33.3
 - project: oslo-reports
   tags:
     train-uc:
@@ -569,7 +569,7 @@ packages:
 - project: oslo-service
   tags:
     train-uc:
-      source-branch: 1.40.1
+      source-branch: 1.40.2
 - project: oslo-sphinx
   tags:
     train-uc:
@@ -986,7 +986,7 @@ packages:
 - project: saharaclient
   tags:
     train-uc:
-      source-branch: 2.2.1
+      source-branch: 2.3.0
 - project: scciclient
   tags:
     train-uc:
@@ -1029,14 +1029,14 @@ packages:
 - project: swiftclient
   tags:
     train-uc:
-      source-branch: 3.8.0
+      source-branch: 3.8.1
 - project: tacker
   tags:
     train-uc:
 - project: tackerclient
   tags:
     train-uc:
-      source-branch: 0.15.0
+      source-branch: 0.16.0
 - project: tap-as-a-service
   tags:
     train-uc:
@@ -1106,7 +1106,7 @@ packages:
 - project: troveclient
   tags:
     train-uc:
-      source-branch: 2.19.0
+      source-branch: 3.0.0
 - project: virtualbmc
   tags:
     train-uc:
