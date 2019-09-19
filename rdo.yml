@@ -526,6 +526,7 @@ packages:
   - lyarwood@redhat.com
   - mbooth@redhat.com
   - stephenfin@redhat.com
+  component: nova
 - project: keystone
   conf: rpmfactory-core
   maintainers:
@@ -801,6 +802,7 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-heat-templates
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - jslagle@redhat.com
   - dprince@redhat.com
@@ -814,10 +816,12 @@ packages:
   - aschultz@next-development.com
 - project: tripleo-image-elements
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-validations
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - gchamoul@redhat.com
 - project: instack
@@ -1960,3 +1964,8 @@ packages:
   maintainers:
   - skaplons@redhat.com
   - abregman@redhat.com
+
+components:
+- name: nova
+- name: tripleo
+- name: neutron
