@@ -177,6 +177,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     maintainers:
     - jruzicka@redhat.com
     - hguemar@fedoraproject.org
@@ -190,6 +191,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: clients
     maintainers:
     - jruzicka@redhat.com
     - hguemar@fedoraproject.org
@@ -203,6 +205,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     maintainers:
     - apevec@redhat.com
     - hguemar@fedoraproject.org
@@ -217,6 +220,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/puppet/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/puppet/%(project)s-distgit.git
+    component: tripleo
     maintainers:
     - lbezdick@redhat.com
     - jguiditt@redhat.com
@@ -242,6 +246,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: tempest
     maintainers:
     - chkumar@redhat.com
     - ltoscano@redhat.com
@@ -262,6 +267,7 @@ package-configs:
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     distro-branch: master
     maintainers:
     - jpena@redhat.com
@@ -550,30 +556,37 @@ packages:
   - lyarwood@redhat.com
   - mbooth@redhat.com
   - stephenfin@redhat.com
+  component: compute
 - project: keystone
   conf: rpmfactory-core
+  component: keystone
   maintainers:
   - apevec@redhat.com
 - project: glance
   conf: rpmfactory-core
+  component: glance
   maintainers:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: glance_store
   conf: rpmfactory-lib
+  component: glance
   name: python-glance-store
   maintainers:
   - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: swift
   conf: rpmfactory-core
+  component: swift
   maintainers:
   - zaitcev@redhat.com
 - project: swift3
   name: openstack-swift-plugin-swift3
   conf: rpmfactory-core
+  component: swift
 - project: ceilometer
   conf: rpmfactory-core
+  component: cloudops
   maintainers:
   - eglynn@redhat.com
   - pkilambi@redhat.com
@@ -581,6 +594,7 @@ packages:
 - project: gnocchi
   name: gnocchi
   conf: rpmfactory-core
+  component: cloudops
   upstream: https://github.com/gnocchixyz/%(project)s
   maintainers:
   - pkilambi@redhat.com
@@ -588,6 +602,7 @@ packages:
 - project: gnocchi-legacy
   name: openstack-gnocchi
   conf: rpmfactory-core
+  component: cloudops
   upstream: https://github.com/gnocchixyz/gnocchi
   distgit: https://github.com/rdo-packages/gnocchi-distgit.git
   patches: http://review.rdoproject.org/r/p/openstack/gnocchi.git
@@ -599,15 +614,18 @@ packages:
   - mabaakou@redhat.com
 - project: aodh
   conf: rpmfactory-core
+  component: cloudops
   maintainers:
   - pkilambi@redhat.com
   - mabaakou@redhat.com
 - project: panko
   conf: rpmfactory-core
+  component: cloudops
   maintainers:
   - pkilambi@redhat.com
 - project: heat
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - zbitter@redhat.com
   - therve@redhat.com
@@ -615,22 +633,26 @@ packages:
   - sbaker@redhat.com
 - project: cinder
   conf: rpmfactory-core
+  component: cinder
   maintainers:
   - eharney@redhat.com
   - apevec@redhat.com
   - hguemar@fedoraproject.org
 - project: cinderlib
   conf: rpmfactory-lib
+  component: cinder
   maintainers:
   - geguileo@redhat.com
   - eharney@redhat.com
 - project: ironic
   conf: rpmfactory-core
+  component: ironic
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
 - project: neutron
   conf: rpmfactory-core
+  component: neutron
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -642,6 +664,7 @@ packages:
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
+  component: neutron
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -663,6 +686,7 @@ packages:
   - twilson@redhat.com
 - project: neutron-fwaas
   conf: rpmfactory-core
+  component: neutron
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -673,6 +697,7 @@ packages:
   - twilson@redhat.com
 - project: neutron-lbaas
   conf: rpmfactory-core
+  component: neutron
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -687,6 +712,7 @@ packages:
   - johnsomor@gmail.com
 - project: neutron-vpnaas
   conf: rpmfactory-core
+  component: neutron
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -697,6 +723,7 @@ packages:
   - twilson@redhat.com
 - project: designate
   conf: rpmfactory-core
+  component: neutron
   maintainers:
   - ihrachys@redhat.com
   - majopela@redhat.com
@@ -707,6 +734,7 @@ packages:
   - amoralej@redhat.com
 - project: octavia
   conf: rpmfactory-core
+  component: octavia
   maintainers:
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
@@ -715,6 +743,7 @@ packages:
 - project: octavia-dashboard
   name: openstack-octavia-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
@@ -729,6 +758,7 @@ packages:
   - johnsomor@gmail.com
 - project: octavia-lib
   conf: rpmfactory-lib
+  component: octavia
   maintainers:
   - cgoncalves@redhat.com
   - bcafarel@redhat.com
@@ -755,6 +785,7 @@ packages:
 - project: vitrage-dashboard
   name: openstack-vitrage-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - eyal.bar-ilan@nokia.com
 - project: sahara
@@ -801,6 +832,7 @@ packages:
 - project: horizon
   conf: rpmfactory-core
   name: python-django-horizon
+  component: ui
   maintainers:
   - github@sheep.art.pl
 - project: trove
@@ -811,6 +843,7 @@ packages:
 - project: django_openstack_auth
   conf: rpmfactory-lib
   name: python-django-openstack-auth
+  component: ui
   maintainers:
   - github@sheep.art.pl
 - project: diskimage-builder
@@ -825,6 +858,7 @@ packages:
   - jruzicka@redhat.com
 - project: tripleo-heat-templates
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - jslagle@redhat.com
   - dprince@redhat.com
@@ -832,32 +866,38 @@ packages:
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: https://git.openstack.org/openstack/tripleo-heat-templates
+  component: tripleo
   maintainers:
   - mburns@redhat.com
   - jslagle@redhat.com
   - aschultz@next-development.com
 - project: tripleo-image-elements
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - jruzicka@redhat.com
 - project: tripleo-validations
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - gchamoul@redhat.com
 - project: instack
   conf: rpmfactory-core
   name: instack
+  component: tripleo
   maintainers:
   - jslagle@redhat.com
   - aschultz@next-development.com
 - project: instack-undercloud
   conf: rpmfactory-core
   name: instack-undercloud
+  component: tripleo
   maintainers:
   - jslagle@redhat.com
   - aschultz@next-development.com
 - project: heat-agents
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - therve@redhat.com
   - sbaker@redhat.com
@@ -865,40 +905,48 @@ packages:
 - project: heat-dashboard
   name: openstack-heat-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - therve@redhat.com
 - project: os-apply-config
   conf: rpmfactory-core
   name: os-apply-config
+  component: clients
   maintainers:
   - jruzicka@redhat.com
 - project: os-collect-config
   conf: rpmfactory-core
   name: os-collect-config
+  component: clients
   maintainers:
   - jruzicka@redhat.com
 - project: os-net-config
   conf: rpmfactory-core
   name: os-net-config
+  component: clients
   maintainers:
   - dprince@redhat.com
 - project: os-refresh-config
   conf: rpmfactory-core
   name: os-refresh-config
+  component: clients
   maintainers:
   - jruzicka@redhat.com
 - project: os-cloud-config
   conf: rpmfactory-core
   name: os-cloud-config
+  component: clients
   maintainers:
   - jruzicka@redhat.com
 - project: os-client-config
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - jruzicka@redhat.com
 - project: os-win
   name: python-os-win
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - jpena@redhat.com
@@ -909,47 +957,56 @@ packages:
   - mkopec@redhat.com
 - project: os-xenapi
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - jpena@redhat.com
 - project: manila
   conf: rpmfactory-core
+  component: manila
   maintainers:
   - hguemar@fedoraproject.org
   - tbarron@redhat.com
 - project: zaqar
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - hguemar@fedoraproject.org
   - fpercoco@redhat.com
   - therve@redhat.com
 - project: ironic-inspector
   conf: rpmfactory-core
+  component: ironic
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
 - project: ironic-python-agent
   conf: rpmfactory-core
+  component: ironic
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
 - project: ironic-python-agent-builder
   conf: rpmfactory-core
+  component: ironic
   maintainers:
   - divius.inside@gmail.com
   - jkreger@gmail.com
 - project: ironic-lib
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
 - project: ironic-ui
   name: openstack-ironic-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - trown@redhat.com
   - divius.inside@gmail.com
 - project: barbican
   conf: rpmfactory-core
+  component: keystone
   maintainers:
   - greg.swift@rackspace.net
   - msm@redhat.com
@@ -961,11 +1018,13 @@ packages:
 - project: cloudkitty-dashboard
   name: openstack-cloudkitty-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - gauvain.pocentek@objectif-libre.com
   - luka.peschke@objectif-libre.com
 - project: ec2-api
   conf: rpmfactory-core
+  component: compute
   maintainers:
   - marcos.fermin.lobo@cern.ch
   - lyarwood@redhat.com
@@ -980,12 +1039,14 @@ packages:
   - ykarel@redhat.com
 - project: manila-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - hguemar@fedoraproject.org
   - tbarron@redhat.com
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - github@sheep.art.pl
   - cgoncalves@redhat.com
@@ -1001,12 +1062,14 @@ packages:
 - project: trove-dashboard
   name: openstack-trove-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - vimartin@redhat.com
   - pmackinn@redhat.com
 - project: sahara-dashboard
   name: openstack-sahara-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - tenobreg@redhat.com
   - ltoscano@redhat.com
@@ -1072,8 +1135,10 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: rpmfactory-lib
+  component: keystone
 - project: ceilometermiddleware
   conf: rpmfactory-lib
+  component: cloudops
 - project: openstackclient
   conf: rpmfactory-client
   maintainers:
@@ -1089,6 +1154,7 @@ packages:
   - divius.inside@gmail.com
 - project: tripleoclient
   conf: rpmfactory-client
+  component: tripleo
   maintainers:
   - brad@redhat.com
   - dprince@redhat.com
@@ -1102,6 +1168,7 @@ packages:
   - therve@redhat.com
 - project: openstacksdk
   conf: rpmfactory-lib
+  component: clients
 - project: gnocchiclient
   conf: rpmfactory-client
   upstream: https://github.com/gnocchixyz/python-%(project)s
@@ -1125,68 +1192,88 @@ packages:
   upstream: https://git.openstack.org/openstack/mox3
 - project: oslotest
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslotest
 - project: oslo-sphinx
   conf: rpmfactory-lib
   upstream: https://git.openstack.org/openstack/oslosphinx
 - project: oslo-i18n
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.i18n
   maintainers:
   - panemade@gmail.com
 - project: oslo-messaging
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.messaging
 - project: oslo-cache
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.cache
 - project: oslo-config
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.config
 - project: oslo-concurrency
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.concurrency
 - project: oslo-rootwrap
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.rootwrap
 - project: oslo-serialization
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.serialization
 - project: oslo-middleware
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.middleware
 - project: oslo-db
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.db
 - project: oslo-utils
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.utils
 - project: oslo-vmware
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.vmware
 - project: oslo-context
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.context
 - project: oslo-log
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.log
 - project: oslo-policy
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.policy
 - project: oslo-versionedobjects
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.versionedobjects
 - project: oslo-service
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.service
 - project: oslo-reports
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.reports
 - project: oslo-privsep
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/oslo.privsep
 - project: ovsdbapp
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - twilson@redhat.com
   - dalvarez@redhat.com
@@ -1195,8 +1282,10 @@ packages:
   - rbanerje@redhat.com
   - rbryant@rehdat.com
 - project: stevedore
+  component: clients
   conf: rpmfactory-lib
 - project: castellan
+  component: keystone
   conf: rpmfactory-lib
 - project: taskflow
   conf: rpmfactory-lib
@@ -1239,16 +1328,19 @@ packages:
   - aschultz@next-development.com
 - project: tripleo-common
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - trown@redhat.com
   - mburns@redhat.com
 - project: tripleo-repos
   conf: rpmfactory-core
   name: tripleo-repos
+  component: tripleo
   maintainers:
   - bnemec@redhat.com
 - project: tripleo-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - honza@redhat.com
 - project: osprofiler
@@ -1259,6 +1351,7 @@ packages:
 - project: networking-ansible
   conf: rpmfactory-lib
   name: python-networking-ansible
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - dradez@redhat.com
@@ -1267,23 +1360,27 @@ packages:
 - project: networking-arista
   conf: rpmfactory-lib
   name: python-networking-arista
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - shashank@arista.com
   - openstack-dev@arista.com
 - project: networking-baremetal
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - divius.inside@gmail.com
   - harald.jensas@gmail.com
 - project: networking-generic-switch
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - divius.inside@gmail.com
   - harald.jensas@gmail.com
 - project: networking-mlnx
   conf: rpmfactory-lib
   name: python-networking-mlnx
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - lennybe@gmail.com
@@ -1295,18 +1392,21 @@ packages:
 - project: networking-odl
   conf: rpmfactory-lib
   name: python-networking-odl
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - mike.kolesnik@gmail.com
 - project: networking-sfc
   conf: rpmfactory-lib
   name: python-networking-sfc
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
 - project: vmware-nsx
   conf: rpmfactory-lib
   name: python-networking-vmware-nsx
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - bcafarel@redhat.com
@@ -1316,11 +1416,13 @@ packages:
   - skaplons@redhat.com
 - project: vmware-nsxlib
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - jpena@redhat.com
 - project: networking-bigswitch
   conf: rpmfactory-lib
   name: python-networking-bigswitch
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - wolverine.av@gmail.com
@@ -1335,6 +1437,7 @@ packages:
 - project: networking-ovn
   conf: rpmfactory-lib
   name: python-networking-ovn
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - dalvarez@redhat.com
@@ -1346,6 +1449,7 @@ packages:
 - project: networking-cisco
   conf: rpmfactory-lib
   name: python-networking-cisco
+  component: neutron
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - openstack-networking@cisco.com
@@ -1359,12 +1463,14 @@ packages:
   - skaplons@redhat.com
 - project: tripleo-puppet-elements
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - jslagle@redhat.com
   - aschultz@next-development.com
 - project: os-brick
   name: python-os-brick
   conf: rpmfactory-lib
+  component: clients
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
   - eharney@redhat.com
@@ -1377,6 +1483,7 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   conf: rpmfactory-lib
+  component: keystone
   upstream: https://git.openstack.org/openstack/keystoneauth
 - project: rally
   conf: rpmfactory-core
@@ -1386,6 +1493,7 @@ packages:
   - chkumar@redhat.com
 - project: tempest
   conf: rpmfactory-core
+  component: tempest
   maintainers:
   - chkumar@redhat.com
   - slinaber@redhat.com
@@ -1397,11 +1505,13 @@ packages:
   - afazekas@redhat.com
 - project: proliantutils
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - divius.inside@gmail.com
   - trown@redhat.com
 - project: dracclient
   conf: rpmfactory-client
+  component: ironic
   maintainers:
   - divius.inside@gmail.com
   - trown@redhat.com
@@ -1413,16 +1523,19 @@ packages:
   - dougal@redhat.com
 - project: mistral-extra
   conf: rpmfactory-lib
+  component: tripleo
   maintainers:
   - tdunnon@redhat.com
   - dougal@redhat.com
 - project: mistral
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - hguemar@fedoraproject.org
   - dougal@redhat.com
 - project: mistral-lib
   conf: rpmfactory-lib
+  component: tripleo
   maintainers:
   - dougal@redhat.com
 - project: requestsexceptions
@@ -1432,17 +1545,20 @@ packages:
   - jpena@redhat.com
 - project: app-catalog-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - Kevin.Fox@pnnl.gov
 - project: mistral-dashboard
   name: openstack-mistral-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - marcos.fermin.lobo@cern.ch
   - dougal@redhat.com
 - project: magnum-ui
   name: openstack-magnum-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - strigazi@gmail.com
   - marcos.fermin.lobo@cern.ch
@@ -1481,6 +1597,7 @@ packages:
 - project: murano-dashboard
   name: openstack-murano-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - atsamutali@mirantis.com
   - iyozhikov@mirantis.com
@@ -1493,13 +1610,16 @@ packages:
   conf: rpmfactory-lib
 - project: osc-lib
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - amoralej@redhat.com
 - project: tempest-horizon
   conf: rpmfactory-tempest-plugin
   name: python-horizon-tests-tempest
+  component: ui
 - project: os-vif
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - amoralej@redhat.com
   - lyarwood@redhat.com
@@ -1519,27 +1639,32 @@ packages:
 - project: networking-bagpipe
   name: python-networking-bagpipe
   conf: rpmfactory-lib
+  component: neutron
   upstream: https://git.openstack.org/openstack/networking-bagpipe
   maintainers:
   - lhinds@redhat.com
 - project: virtualbmc
   name: python-virtualbmc
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - lucasagomes@gmail.com
 - project: networking-bgpvpn
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - rnoriega@redhat.com
 - project: novajoin
   name: python-novajoin
   conf: rpmfactory-lib
+  component: compute
   maintainers:
   - rcritten@redhat.com
   - alee@redhat.com
 - project: networking-fujitsu
   name: python-networking-fujitsu
   conf: rpmfactory-lib
+  component: neutron
   upstream: https://git.openstack.org/openstack/networking-fujitsu
   maintainers:
   - sanagi.koki@jp.fujitsu.com
@@ -1551,21 +1676,25 @@ packages:
 - project: ironic-staging-drivers
   name: openstack-ironic-staging-drivers
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - divius.inside@gmail.com
   - lucasagomes@gmail.com
 - project: networking-l2gw
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - rnoriega@redhat.com
 - project: networking-l2gw-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
+  component: neutron
   maintainers:
   - rnoriega@redhat.com
 - project: heat-translator
   name: python-heat-translator
   conf: rpmfactory-lib
+  component: tripleo
   maintainers:
   - dradez@redhat.com
 - project: tacker
@@ -1579,11 +1708,13 @@ packages:
 - project: ansible-config_template
   conf: rpmfactory-lib
   name: ansible-config_template
+  component: tripleo
   maintainers:
   - kecarter@redhat.com
 - project: ansible-pacemaker
   name: ansible-pacemaker
   conf: rpmfactory-lib
+  component: tripleo
   upstream: https://github.com/redhat-openstack/ansible-pacemaker
   maintainers:
   - mbultel@redhat.com
@@ -1598,6 +1729,7 @@ packages:
   - chkumar@redhat.com
 - project: tempestconf
   conf: rpmfactory-lib
+  component: tempest
   upstream: https://git.openstack.org/openstack/python-%(project)s
   maintainers:
   - chkumar@redhat.com
@@ -1609,6 +1741,7 @@ packages:
   - lhinds@redhat.com
 - project: kolla
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - sbaker@redhat.com
 - project: openstack-selinux
@@ -1622,18 +1755,21 @@ packages:
 - project: sushy
   name: python-sushy
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - lucasagomes@gmail.com
   - divius.inside@gmail.com
 - project: collectd-ceilometer-plugin
   name: collectd-ceilometer-plugin
   conf: rpmfactory-lib
+  component: cloudops
   upstream: https://git.openstack.org/openstack/collectd-ceilometer-plugin
   maintainers:
   - mrunge@redhat.com
 - project: collectd-gnocchi
   name: python-collectd-gnocchi
   conf: rpmfactory-lib
+  component: cloudops
   upstream: https://github.com/gnocchixyz/collectd-gnocchi
   maintainers:
   - lars@redhat.com
@@ -1668,6 +1804,7 @@ packages:
   name: osops-tools-monitoring-oschecks
   upstream: https://git.openstack.org/openstack/osops-tools-monitoring
   conf: rpmfactory-lib
+  component: cloudops
   maintainers:
   - mmagr@redhat.com
   - mrunge@redhat.com
@@ -1675,10 +1812,12 @@ packages:
   - lars@redhat.com
 - project: paunch
   conf: rpmfactory-lib
+  component: tripleo
   maintainers:
   - sbaker@redhat.com
 - project: scciclient
   conf: rpmfactory-client
+  component: ironic
   maintainers:
   - okado.hiroaki@jp.fujitsu.com
   - sanagi.koki@jp.fujitsu.com
@@ -1724,6 +1863,7 @@ packages:
   - DL-VTAS-ENG-SDIO-HyperScale-Opensource@veritas.com
 - project: neutron-dynamic-routing
   conf: rpmfactory-core
+  component: neutron
   upstream: https://git.openstack.org/openstack/neutron-dynamic-routing
   maintainers:
   - mosonkonrad@gmail.com
@@ -1751,6 +1891,7 @@ packages:
 - project: karbor-dashboard
   name: openstack-karbor-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - liujiong63@163.com
 - project: watcher-tempest-plugin
@@ -1770,6 +1911,7 @@ packages:
   upstream: git://github.com/voxpupuli/%(project)s
 - project: os-service-types
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - ykarel@redhat.com
 - project: zaqar-tempest-plugin
@@ -1779,6 +1921,7 @@ packages:
   - therve@redhat.com
 - project: rsd-lib
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - nathaniel.potter@intel.com
   - lin.a.yang@intel.com
@@ -1800,11 +1943,13 @@ packages:
 - project: tripleo-ipsec
   conf: rpmfactory-lib
   name: ansible-tripleo-ipsec
+  component: tripleo
   maintainers:
   - jaosorior@gmail.com
 - project: ansible-role-redhat-subscription
   conf: rpmfactory-lib
   name: ansible-role-redhat-subscription
+  component: tripleo
   maintainers:
   - sdoran@redhat.com
 - project: mistral-tempest-plugin
@@ -1852,6 +1997,7 @@ packages:
   name: python-congress-tests-tempest
 - project: tap-as-a-service
   conf: rpmfactory-lib
+  component: neutron
   name: python-tap-as-a-service
   maintainers:
   - rnoriega@redhat.com
@@ -1859,22 +2005,26 @@ packages:
 - project: designate-dashboard
   name: openstack-designate-ui
   conf: rpmfactory-core
+  component: ui
   maintainers:
   - kevintibi@hotmail.com
   - rod2a@hotmail.com
 - project: ansible-role-container-registry
   conf: rpmfactory-lib
   name: ansible-role-container-registry
+  component: tripleo
   maintainers:
   - emilien@redhat.com
 - project: ansible-role-tripleo-modify-image
   conf: rpmfactory-lib
   name: ansible-role-tripleo-modify-image
+  component: tripleo
   maintainers:
   - sbaker@redhat.com
 - project: metalsmith
   name: python-metalsmith
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - divius.inside@gmail.com
 - project: sphinx-feature-classification
@@ -1905,15 +2055,18 @@ packages:
 - project: ansible-role-chrony
   conf: rpmfactory-lib
   name: ansible-role-chrony
+  component: tripleo
   maintainers:
   - aschultz@next-development.com
 - project: ansible-role-tripleo-keystone
   conf: rpmfactory-lib
   name: ansible-role-tripleo-keystone
+  component: tripleo
   maintainers:
   - jrouleau@redhat.com
 - project: placement
   conf: rpmfactory-core
+  component: compute
   maintainers:
   - lyarwood@redhat.com
   - mbooth@redhat.com
@@ -1921,6 +2074,7 @@ packages:
 - project: ansible-role-openstack-operations
   conf: rpmfactory-lib
   name: ansible-role-openstack-operations
+  component: tripleo
   maintainers:
   - jrouleau@redhat.com
 - project: os-log-merger
@@ -1930,11 +2084,13 @@ packages:
 - project: oslo-upgradecheck
   upstream: https://git.openstack.org/openstack/oslo.upgradecheck
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - amoralej@redhat.com
 - project: tripleo-ansible
   name: tripleo-ansible
   conf: rpmfactory-core
+  component: tripleo
   maintainers:
   - jrouleau@redhat.com
 - project: puppet-placement
@@ -1945,6 +2101,7 @@ packages:
   - mschuppert@redhat.com
 - project: os-ken
   conf: rpmfactory-lib
+  component: neutron
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
@@ -1955,6 +2112,7 @@ packages:
   - twilson@redhat.com
 - project: os-resource-classes
   conf: rpmfactory-lib
+  component: clients
   maintainers:
   - lyarwood@redhat.com
   - mbooth@redhat.com
@@ -1962,6 +2120,7 @@ packages:
 - project: ansible-role-atos-hsm
   conf: rpmfactory-lib
   name: ansible-role-atos-hsm
+  component: tripleo
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
@@ -1969,12 +2128,14 @@ packages:
 - project: ansible-role-thales-hsm
   conf: rpmfactory-lib
   name: ansible-role-thales-hsm
+  component: tripleo
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
   - jaosorior@gmail.com
 - project: ironic-prometheus-exporter
   conf: rpmfactory-lib
+  component: ironic
   maintainers:
   - imelofer@redhat.com
   - dtantsur@redhat.com
@@ -1984,3 +2145,20 @@ packages:
   maintainers:
   - skaplons@redhat.com
   - abregman@redhat.com
+
+components:
+- name: common
+- name: compute
+- name: tripleo
+- name: neutron
+- name: octavia
+- name: glance
+- name: manila
+- name: swift
+- name: cinder
+- name: keystone
+- name: clients
+- name: ironic
+- name: cloudops
+- name: ui
+- name: tempest
