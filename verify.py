@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 from __future__ import print_function
-import rdoinfo
+from distroinfo import info
 import yaml
 
 
 def verify(fn, include_fns=[]):
-    info = rdoinfo.parse_info_file(fn, include_fns=include_fns)
-    print(yaml.dump(info))
-    buildsystags = list_buildsys_tags(info)
-    for pkg in info['packages']:
+    inforepo = info.DistroInfo(
+               info_files=[fn] + include_fns,
+               local_info='.').get_info()
+    print(yaml.dump(inforepo))
+    buildsystags = list_buildsys_tags(inforepo)
+    for pkg in inforepo['packages']:
         verify_buildsys_tags(pkg, buildsystags)
     print("\n%s looks OK" % fn)
 
