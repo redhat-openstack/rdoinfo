@@ -526,7 +526,7 @@ packages:
     cloud7-openstack-queens-release: python-neutron-lib-1.13.0-1.el7
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-queens-release: python-neutron-tests-tempest-0.0.1-0.1.028c312git.el7
+    cloud7-openstack-queens-release: python-neutron-tests-tempest-0.5.0-0.1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-neutron-vpnaas-12.0.1-1.el7
@@ -709,7 +709,7 @@ packages:
     cloud7-openstack-queens-release: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
 - project: ovsdbapp
   buildsys-tags:
-    cloud7-openstack-queens-release: python-ovsdbapp-0.10.3-1.el7
+    cloud7-openstack-queens-release: python-ovsdbapp-0.10.4-1.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-queens-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
