@@ -1,0 +1,7 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-testing-centos-7-ovb-1ctlr_1comp-featureset001:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
