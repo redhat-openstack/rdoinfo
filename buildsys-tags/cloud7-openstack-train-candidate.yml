@@ -10,7 +10,10 @@ packages:
     cloud7-openstack-train-candidate: novnc-1.1.0-6.el7
 - project: ovn
   buildsys-tags:
-    cloud7-openstack-train-candidate: ovn-2.11.0-9.el7
+    cloud7-openstack-train-candidate: openvswitch-2.12.0-1.el7
+- project: ovn
+  buildsys-tags:
+    cloud7-openstack-train-candidate: ovn-2.12.0-1.el7
 - project: puppet
   buildsys-tags:
     cloud7-openstack-train-candidate: puppet-5.5.10-4.el7
