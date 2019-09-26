@@ -1,1 +1,7 @@
 packages:
+- project: openvswitch
+  buildsys-tags:
+    cloud7-openstack-train-candidate: openvswitch-2.12.0-1.el7
+- project: ovn
+  buildsys-tags:
+    cloud7-openstack-train-candidate: ovn-2.12.0-1.el7
