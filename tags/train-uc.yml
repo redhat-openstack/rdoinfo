@@ -111,7 +111,10 @@ packages:
       source-branch: 1.22.0
 - project: designate
   tags:
+    # FIXME(ykarel) once FTBFS https://review.rdoproject.org/r/#/c/22584/
+    # is fixed.
     train-uc:
+      source-branch: 4d47719b2638a96f0f2b5f71ddb0e94619fa3980
 - project: designate-dashboard
   tags:
     train-uc:
