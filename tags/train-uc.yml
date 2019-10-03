@@ -43,6 +43,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: barbicanclient
   tags:
     train-uc:
@@ -68,6 +69,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: cinderclient
   tags:
     train-uc:
@@ -97,6 +99,7 @@ packages:
 - project: congress-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: congressclient
   tags:
     train-uc:
@@ -121,6 +124,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.7.0
 - project: designateclient
   tags:
     train-uc:
@@ -141,6 +145,7 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: futurist
   tags:
     train-uc:
@@ -189,6 +194,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.4.0
 - project: heat-translator
   tags:
     train-uc:
@@ -229,6 +235,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     train-uc:
+      source-branch: 1.5.1
 - project: ironic-ui
   tags:
     train-uc:
@@ -242,6 +249,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: keystoneauth1
   tags:
     train-uc:
@@ -266,12 +274,14 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.5.0
 - project: magnum
   tags:
     train-uc:
 - project: magnum-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: magnum-ui
   tags:
     train-uc:
@@ -285,6 +295,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.4.0
 - project: manila-ui
   tags:
     train-uc:
@@ -313,6 +324,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: mistralclient
   tags:
     train-uc:
@@ -337,6 +349,7 @@ packages:
 - project: murano-tempest-plugin
   tags:
     train-uc:
+      source-branch: 1.1.0
 - project: muranoclient
   tags:
     train-uc:
@@ -371,6 +384,7 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     train-uc:
+      source-branch: a3af33b319e5605791b0c95b7bbfdd81a814877c
 - project: networking-mlnx
   tags:
     train-uc:
@@ -399,6 +413,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.6.0
 - project: neutron-vpnaas
   tags:
     train-uc:
@@ -432,6 +447,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     train-uc:
+      source-branch: 1.2.0
 - project: octaviaclient
   tags:
     train-uc:
@@ -607,6 +623,7 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: ovsdbapp
   tags:
     train-uc:
@@ -624,6 +641,7 @@ packages:
 - project: patrole
   tags:
     train-uc:
+      source-branch: 0.7.0
 - project: paunch
   tags:
     train-uc:
@@ -1035,6 +1053,7 @@ packages:
 - project: sahara-tests
   tags:
     train-uc:
+      source-branch: 0.9.1
 - project: saharaclient
   tags:
     train-uc:
@@ -1099,15 +1118,18 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.4.0
 - project: tempest
   tags:
     train-uc:
 - project: tempest-horizon
   tags:
     train-uc:
+      source-branch: 0.2.0
 - project: tempestconf
   tags:
     train-uc:
+      source-branch: 2.3.0
 - project: tobiko
   tags:
     train-uc:
@@ -1158,6 +1180,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: troveclient
   tags:
     train-uc:
@@ -1175,6 +1198,7 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     train-uc:
+      source-branch: 3.0.0
 - project: vitrageclient
   tags:
     train-uc:
@@ -1185,6 +1209,7 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     train-uc:
+      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     train-uc:
@@ -1194,6 +1219,7 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     train-uc:
+      source-branch: 1.2.0
 - project: wsme
   tags:
     train-uc:
@@ -1204,6 +1230,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     train-uc:
+      source-branch: 0.3.0
 - project: zaqarclient
   tags:
     train-uc:
