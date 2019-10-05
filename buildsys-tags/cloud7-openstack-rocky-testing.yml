@@ -70,7 +70,7 @@ packages:
     cloud7-openstack-rocky-testing: python-ceilometermiddleware-1.3.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-cinder-13.0.6-1.el7
+    cloud7-openstack-rocky-testing: openstack-cinder-13.0.7-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-cinder-tests-tempest-0.1.0-1.el7
@@ -649,7 +649,7 @@ packages:
     cloud7-openstack-rocky-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: packstack
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-packstack-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-rocky-testing: openstack-packstack-13.0.0-1.el7
 - project: panko
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-panko-5.0.0-1.el7
