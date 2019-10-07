@@ -1,1237 +1,1051 @@
 packages:
 - project: ansible-config_template
   tags:
-    train:
+    ussuri:
 - project: ansible-pacemaker
   tags:
-    train:
+    ussuri:
 - project: ansible-role-atos-hsm
   tags:
-    train:
+    ussuri:
 - project: ansible-role-chrony
   tags:
-    train:
+    ussuri:
 - project: ansible-role-container-registry
   tags:
-    train:
+    ussuri:
 - project: ansible-role-openstack-operations
   tags:
-    train:
+    ussuri:
 - project: ansible-role-redhat-subscription
   tags:
-    train:
+    ussuri:
 - project: ansible-role-thales-hsm
   tags:
-    train:
+    ussuri:
 - project: ansible-role-tripleo-modify-image
   tags:
-    train:
+    ussuri:
 - project: aodh
   tags:
-    train:
+    ussuri:
 - project: aodhclient
   tags:
-    train:
-      source-branch: 1.3.0
+    ussuri:
 - project: automaton
   tags:
-    train:
-      source-branch: 1.17.0
+    ussuri:
 - project: barbican
   tags:
-    train:
+    ussuri:
 - project: barbican-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: barbicanclient
   tags:
-    train:
-      source-branch: 4.9.0
+    ussuri:
 - project: castellan
   tags:
-    train:
-      source-branch: 1.3.1
+    ussuri:
 - project: ceilometer
   tags:
-    train:
+    ussuri:
 - project: ceilometerclient
   tags:
-    train:
-      source-branch: 2.9.0
+    ussuri:
+      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
 - project: ceilometermiddleware
   tags:
-    train:
-      source-branch: 1.5.0
+    ussuri:
 - project: cinder
   tags:
-    train:
+    ussuri:
 - project: cinder-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: cinderclient
   tags:
-    train:
-      source-branch: 5.0.0
+    ussuri:
 - project: cinderlib
   tags:
-    train:
+    ussuri:
 - project: cliff
   tags:
-    train:
-      source-branch: 2.16.0
+    ussuri:
 - project: cloudkitty
   tags:
-    train:
+    ussuri:
 - project: cloudkitty-dashboard
   tags:
-    train:
+    ussuri:
 - project: cloudkittyclient
   tags:
-    train:
+    ussuri:
 - project: collectd-gnocchi
   tags:
-    train:
+    ussuri:
 - project: congress
   tags:
-    train:
+    ussuri:
 - project: congress-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: congressclient
   tags:
-    train:
-      source-branch: 1.13.0
+    ussuri:
 - project: cursive
   tags:
-    train:
-      source-branch: 0.2.2
+    ussuri:
 - project: debtcollector
   tags:
-    train:
-      source-branch: 1.22.0
+    ussuri:
 - project: designate
   tags:
     # FIXME(ykarel) once FTBFS https://review.rdoproject.org/r/#/c/22584/
     # is fixed.
-    train:
+    ussuri:
       source-branch: 4d47719b2638a96f0f2b5f71ddb0e94619fa3980
 - project: designate-dashboard
   tags:
-    train:
+    ussuri:
 - project: designate-tempest-plugin
   tags:
-    train:
-      source-branch: 0.7.0
+    ussuri:
 - project: designateclient
   tags:
-    train:
-      source-branch: 3.0.0
+    ussuri:
 - project: dib-utils
   tags:
-    train:
-      source-branch: 0.0.11
+    ussuri:
 - project: diskimage-builder
   tags:
-    train:
+    ussuri:
 - project: dracclient
   tags:
-    train:
+    ussuri:
 - project: ec2-api
   tags:
-    train:
+    ussuri:
 - project: ec2api-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: futurist
   tags:
-    train:
-      source-branch: 1.9.0
+    ussuri:
 - project: glance
   tags:
-    train:
+    ussuri:
 - project: glance_store
   tags:
-    train:
+    ussuri:
 - project: glanceclient
   tags:
-    train:
-      source-branch: 2.17.0
+    ussuri:
 - project: glare
   tags:
-    train:
+    ussuri:
 - project: glareclient
   tags:
-    train:
-      source-branch: 0.5.3
+    ussuri:
 - project: gnocchi
   tags:
-    train:
+    ussuri:
       source-branch: stable/4.3
 - project: gnocchiclient
   tags:
-    train:
-      source-branch: 7.0.4
+    ussuri:
 - project: hacking
   tags:
-    train:
-      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    ussuri:
 - project: hardware
   tags:
-    train:
+    ussuri:
 - project: heat
   tags:
-    train:
+    ussuri:
 - project: heat-agents
   tags:
-    train:
+    ussuri:
 - project: heat-dashboard
   tags:
-    train:
+    ussuri:
 - project: heat-tempest-plugin
   tags:
-    train:
-      source-branch: 0.4.0
+    ussuri:
 - project: heat-translator
   tags:
-    train:
-      source-branch: 1.4.1
+    ussuri:
 - project: heatclient
   tags:
-    train:
-      source-branch: 1.18.0
+    ussuri:
 - project: horizon
   tags:
-    train:
+    ussuri:
 - project: ironic
   tags:
-    train:
+    ussuri:
 - project: ironic-inspector
   tags:
-    train:
+    ussuri:
 - project: ironic-inspector-client
   tags:
-    train:
-      source-branch: 3.7.0
+    ussuri:
 - project: ironic-lib
   tags:
-    train:
-      source-branch: 2.21.0
+    ussuri:
 - project: ironic-prometheus-exporter
   tags:
-    train:
+    ussuri:
 - project: ironic-python-agent
   tags:
-    train:
+    ussuri:
 - project: ironic-python-agent-builder
   tags:
-    train:
+    ussuri:
 - project: ironic-staging-drivers
   tags:
-    train:
+    ussuri:
 - project: ironic-tempest-plugin
   tags:
-    train:
-      source-branch: 1.5.1
+    ussuri:
 - project: ironic-ui
   tags:
-    train:
+    ussuri:
 - project: ironicclient
   tags:
-    train:
-      source-branch: 3.1.0
+    ussuri:
 - project: keystone
   tags:
-    train:
+    ussuri:
 - project: keystone-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: keystoneauth1
   tags:
-    train:
-      source-branch: 3.17.1
+    ussuri:
 - project: keystoneclient
   tags:
-    train:
-      source-branch: 3.21.0
+    ussuri:
 - project: keystonemiddleware
   tags:
-    train:
-      source-branch: 7.0.1
+    ussuri:
 - project: kolla
   tags:
-    train:
+    ussuri:
 - project: kuryr
   tags:
-    train:
+    ussuri:
 - project: kuryr-kubernetes
   tags:
-    train:
+    ussuri:
 - project: kuryr-tempest-plugin
   tags:
-    train:
-      source-branch: 0.5.0
+    ussuri:
 - project: magnum
   tags:
-    train:
+    ussuri:
 - project: magnum-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: magnum-ui
   tags:
-    train:
+    ussuri:
 - project: magnumclient
   tags:
-    train:
-      source-branch: 2.15.0
+    ussuri:
 - project: manila
   tags:
-    train:
+    ussuri:
 - project: manila-tempest-plugin
   tags:
-    train:
-      source-branch: 0.4.0
+    ussuri:
 - project: manila-ui
   tags:
-    train:
+    ussuri:
 - project: manilaclient
   tags:
-    train:
-      source-branch: 1.29.0
+    ussuri:
 - project: metalsmith
   tags:
-    train:
-      source-branch: 0.15.0
+    ussuri:
 - project: microversion-parse
   tags:
-    train:
-      source-branch: 0.2.1
+    ussuri:
 - project: mistral
   tags:
-    train:
+    ussuri:
 - project: mistral-dashboard
   tags:
-    train:
+    ussuri:
 - project: mistral-lib
   tags:
-    train:
-      source-branch: 1.2.0
+    ussuri:
 - project: mistral-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: mistralclient
   tags:
-    train:
-      source-branch: 3.10.0
+    ussuri:
 - project: monascaclient
   tags:
-    train:
-      source-branch: 1.16.0
+    ussuri:
 - project: mox3
   tags:
-    train:
-      source-branch: 0.28.0
+    ussuri:
 - project: murano
   tags:
-    train:
+    ussuri:
 - project: murano-agent
   tags:
-    train:
+    ussuri:
 - project: murano-dashboard
   tags:
-    train:
+    ussuri:
 - project: murano-tempest-plugin
   tags:
-    train:
-      source-branch: 1.1.0
+    ussuri:
 - project: muranoclient
   tags:
-    train:
-      source-branch: 1.3.0
+    ussuri:
 - project: networking-ansible
   tags:
-    train:
+    ussuri:
 - project: networking-arista
   tags:
-    train:
+    ussuri:
 - project: networking-bagpipe
   tags:
-    train:
+    ussuri:
 - project: networking-baremetal
   tags:
-    train:
+    ussuri:
 - project: networking-bgpvpn
   tags:
-    train:
+    ussuri:
 - project: networking-bigswitch
   tags:
-    train:
+    ussuri:
 - project: networking-fujitsu
   tags:
-    train:
+    ussuri:
 - project: networking-generic-switch
   tags:
-    train:
+    ussuri:
 - project: networking-l2gw
   tags:
-    train:
+    ussuri:
 - project: networking-l2gw-tempest-plugin
   tags:
-    train:
-      source-branch: a3af33b319e5605791b0c95b7bbfdd81a814877c
+    ussuri:
 - project: networking-mlnx
   tags:
-    train:
+    ussuri:
 - project: networking-odl
   tags:
-    train:
+    ussuri:
 - project: networking-ovn
   tags:
-    train:
+    ussuri:
 - project: networking-sfc
   tags:
-    train:
+    ussuri:
 - project: neutron
   tags:
-    train:
+    ussuri:
 - project: neutron-dynamic-routing
   tags:
-    train:
+    ussuri:
 - project: neutron-fwaas
   tags:
-    train:
+    ussuri:
 - project: neutron-lib
   tags:
-    train:
-      source-branch: 1.29.1
+    ussuri:
 - project: neutron-tempest-plugin
   tags:
-    train:
-      source-branch: 0.6.0
+    ussuri:
 - project: neutron-vpnaas
   tags:
-    train:
+    ussuri:
 - project: neutronclient
   tags:
-    train:
-      source-branch: 6.14.0
+    ussuri:
 - project: nova
   tags:
-    train:
+    ussuri:
 - project: novaclient
   tags:
-    train:
-      source-branch: 15.1.0
+    ussuri:
 - project: novajoin
   tags:
-    train:
+    ussuri:
 - project: novajoin-tempest-plugin
   tags:
-    train:
+    ussuri:
 - project: octavia
   tags:
-    train:
+    ussuri:
 - project: octavia-dashboard
   tags:
-    train:
+    ussuri:
 - project: octavia-lib
   tags:
-    train:
-      source-branch: 1.4.0
+    ussuri:
 - project: octavia-tempest-plugin
   tags:
-    train:
-      source-branch: 1.2.0
+    ussuri:
 - project: octaviaclient
   tags:
-    train:
-      source-branch: 1.10.0
+    ussuri:
 - project: openstack-macros
   tags:
-    train:
+    ussuri:
 - project: openstack-selinux
   tags:
-    train:
+    ussuri:
 - project: openstackclient
   tags:
-    train:
-      source-branch: 4.0.0
+    ussuri:
 - project: openstacksdk
   tags:
-    train:
-      source-branch: 0.36.0
+    ussuri:
 - project: os-apply-config
   tags:
-    train:
+    ussuri:
 - project: os-brick
   tags:
-    train:
-      source-branch: 2.10.0
+    ussuri:
 - project: os-client-config
   tags:
-    train:
-      source-branch: 1.33.0
+    ussuri:
 - project: os-collect-config
   tags:
-    train:
+    ussuri:
 - project: os-faults
   tags:
-    train:
+    ussuri:
 - project: os-ken
   tags:
-    train:
-      source-branch: 0.4.1
+    ussuri:
 - project: os-net-config
   tags:
-    train:
+    ussuri:
 - project: os-refresh-config
   tags:
-    train:
+    ussuri:
 - project: os-resource-classes
   tags:
-    train:
-      source-branch: 0.5.0
+    ussuri:
 - project: os-service-types
   tags:
-    train:
-      source-branch: 1.7.0
+    ussuri:
 - project: os-testr
   tags:
-    train:
-      source-branch: 1.1.0
+    ussuri:
 - project: os-traits
   tags:
-    train:
-      source-branch: 0.16.0
+    ussuri:
 - project: os-vif
   tags:
-    train:
-      source-branch: 1.17.0
+    ussuri:
 - project: os-win
   tags:
-    train:
-      source-branch: 4.3.2
+    ussuri:
 - project: os-xenapi
   tags:
-    train:
-      source-branch: 0.3.4
+    ussuri:
 - project: osc-lib
   tags:
-    train:
-      source-branch: 1.14.1
+    ussuri:
 - project: osc-placement
   tags:
-    train:
-      source-branch: 1.7.0
+    ussuri:
 - project: oslo-cache
   tags:
-    train:
-      source-branch: 1.37.0
+    ussuri:
 - project: oslo-concurrency
   tags:
-    train:
-      source-branch: 3.30.0
+    ussuri:
 - project: oslo-config
   tags:
-    train:
-      source-branch: 6.11.1
+    ussuri:
 - project: oslo-context
   tags:
-    train:
-      source-branch: 2.23.0
+    ussuri:
 - project: oslo-db
   tags:
-    train:
-      source-branch: 5.0.2
+    ussuri:
 - project: oslo-i18n
   tags:
-    train:
-      source-branch: 3.24.0
+    ussuri:
 - project: oslo-log
   tags:
-    train:
-      source-branch: 3.44.1
+    ussuri:
 - project: oslo-messaging
   tags:
-    train:
-      source-branch: 10.2.0
+    ussuri:
 - project: oslo-middleware
   tags:
-    train:
-      source-branch: 3.38.1
+    ussuri:
 - project: oslo-policy
   tags:
-    train:
-      source-branch: 2.3.2
+    ussuri:
 - project: oslo-privsep
   tags:
-    train:
-      source-branch: 1.33.3
+    ussuri:
 - project: oslo-reports
   tags:
-    train:
-      source-branch: 1.30.0
+    ussuri:
 - project: oslo-rootwrap
   tags:
-    train:
-      source-branch: 5.16.1
+    ussuri:
 - project: oslo-serialization
   tags:
-    train:
-      source-branch: 2.29.2
+    ussuri:
 - project: oslo-service
   tags:
-    train:
-      source-branch: 1.40.2
+    ussuri:
 - project: oslo-sphinx
   tags:
-    train:
+    ussuri:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    train:
-      source-branch: 0.3.2
+    ussuri:
 - project: oslo-utils
   tags:
-    train:
-      source-branch: 3.41.1
+    ussuri:
 - project: oslo-versionedobjects
   tags:
-    train:
-      source-branch: 1.36.1
+    ussuri:
 - project: oslo-vmware
   tags:
-    train:
-      source-branch: 2.34.1
+    ussuri:
 - project: oslotest
   tags:
-    train:
-      source-branch: 3.8.1
+    ussuri:
 - project: osops-tools-monitoring-oschecks
   tags:
-    train:
+    ussuri:
 - project: osprofiler
   tags:
-    train:
-      source-branch: 2.8.2
+    ussuri:
 - project: oswin-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: ovsdbapp
   tags:
-    train:
-      source-branch: 0.17.0
+    ussuri:
 - project: packstack
   tags:
-    train:
+    ussuri:
 - project: panko
   tags:
-    train:
+    ussuri:
 - project: pankoclient
   tags:
-    train:
-      source-branch: 0.5.0
+    ussuri:
 - project: patrole
   tags:
-    train:
-      source-branch: 0.7.0
+    ussuri:
 - project: paunch
   tags:
-    train:
+    ussuri:
 - project: placement
   tags:
-    train:
+    ussuri:
 - project: proliantutils
   tags:
-    train:
-      source-branch: 2.7.0
+    ussuri:
 - project: puppet-aodh
   tags:
-    train:
+    ussuri:
 - project: puppet-apache
   tags:
-    train:
-      source-branch: 1fa9b1cdece0044186465883ecc940dd3b69827c
+    ussuri:
 - project: puppet-archive
   tags:
-    train:
-      source-branch: 053816361ea7104711f3927431d0d8264ab41835
+    ussuri:
 - project: puppet-auditd
   tags:
-    train:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
+    ussuri:
 - project: puppet-barbican
   tags:
-    train:
+    ussuri:
 - project: puppet-cassandra
   tags:
-    train:
-      source-branch: 9954256a6767d51c9dec30b7e7f755bb9734c8d8
+    ussuri:
 - project: puppet-ceilometer
   tags:
-    train:
+    ussuri:
 - project: puppet-ceph
   tags:
-    train:
+    ussuri:
 - project: puppet-certmonger
   tags:
-    train:
-      source-branch: a19887066c4978ad2567c881d60c14fcf0737bb2
+    ussuri:
 - project: puppet-cinder
   tags:
-    train:
+    ussuri:
 - project: puppet-collectd
   tags:
-    train:
-      source-branch: 785a71bd4be0d0e7e96aa6acea3c2120430058fc
+    ussuri:
 - project: puppet-concat
   tags:
-    train:
-      source-branch: 9baa8fcbd1ab68cd32916bd5d90255f816bb9519
+    ussuri:
 - project: puppet-congress
   tags:
-    train:
+    ussuri:
 - project: puppet-contrail
   tags:
-    train:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
+    ussuri:
 - project: puppet-corosync
   tags:
-    train:
-      source-branch: 961add3035fa4b57bf8cbd733a887e8b42d4dada
+    ussuri:
 - project: puppet-datacat
   tags:
-    train:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+    ussuri:
 - project: puppet-designate
   tags:
-    train:
+    ussuri:
 - project: puppet-dns
   tags:
-    train:
-      source-branch: 2ae1cd70184f64c42d0a3df9a64f90891e8b01aa
+    ussuri:
 - project: puppet-ec2api
   tags:
-    train:
+    ussuri:
 - project: puppet-elasticsearch
   tags:
-    train:
-      source-branch: 725afd6ccaa7707b387428d5cddf2ecbc8311d2c
+    ussuri:
 - project: puppet-etcd
   tags:
-    train:
-      source-branch: 39faa948f68c8e8ac0337ea74c1406da776cd71b
+    ussuri:
 - project: puppet-fdio
   tags:
-    train:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
+    ussuri:
 - project: puppet-firewall
   tags:
-    train:
-      source-branch: 4f4437ad800d5697bafc8346c1627e1c4b5b607f
+    ussuri:
 - project: puppet-fluentd
   tags:
-    train:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
+    ussuri:
 - project: puppet-git
   tags:
-    train:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    ussuri:
 - project: puppet-glance
   tags:
-    train:
+    ussuri:
 - project: puppet-gnocchi
   tags:
-    train:
+    ussuri:
 - project: puppet-haproxy
   tags:
-    train:
-      source-branch: df96ffc5276ee316be925f9423612e9190055d8f
+    ussuri:
 - project: puppet-heat
   tags:
-    train:
+    ussuri:
 - project: puppet-horizon
   tags:
-    train:
+    ussuri:
 - project: puppet-inifile
   tags:
-    train:
-      source-branch: 91efced79bb9011e162eea35e4a0d9ad12e267a1
+    ussuri:
 - project: puppet-ipaclient
   tags:
-    train:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
+    ussuri:
 - project: puppet-ironic
   tags:
-    train:
+    ussuri:
 - project: puppet-java
   tags:
-    train:
-      source-branch: e57cbc84ec8d77cee708afbc4e53274d0352f5ba
+    ussuri:
 - project: puppet-kafka
   tags:
-    train:
-      source-branch: 88aa8669a77a87d518df308ec86177c04acc7b4b
+    ussuri:
 - project: puppet-keepalived
   tags:
-    train:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    ussuri:
 - project: puppet-keystone
   tags:
-    train:
+    ussuri:
 - project: puppet-kibana3
   tags:
-    train:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    ussuri:
 - project: puppet-kmod
   tags:
-    train:
-      source-branch: 41e2a2bcbe30cfb48bb061ac9ad6d74527fe87c1
+    ussuri:
 - project: puppet-lib-file_concat
   tags:
-    train:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    ussuri:
 - project: puppet-magnum
   tags:
-    train:
+    ussuri:
 - project: puppet-manila
   tags:
-    train:
+    ussuri:
 - project: puppet-memcached
   tags:
-    train:
-      source-branch: 66d3a667d4e7e0253949f9d83c230b5f8ccca596
+    ussuri:
 - project: puppet-midonet
   tags:
-    train:
+    ussuri:
 - project: puppet-mistral
   tags:
-    train:
+    ussuri:
 - project: puppet-module-data
   tags:
-    train:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    ussuri:
 - project: puppet-mongodb
   tags:
-    train:
-      source-branch: 041bd39b010d3db4134f3ed8e23c3e5d06bcbaaf
+    ussuri:
 - project: puppet-murano
   tags:
-    train:
+    ussuri:
 - project: puppet-mysql
   tags:
-    train:
-      # We can't bump to > 6.2.0 - https://tickets.puppetlabs.com/browse/MODULES-7487
-      # Related to https://jira.mariadb.org/browse/MDEV-16774
-      source-branch: 6.2.0
+    ussuri:
 - project: puppet-n1k-vsm
   tags:
-    train:
+    ussuri:
 - project: puppet-neutron
   tags:
-    train:
+    ussuri:
 - project: puppet-nova
   tags:
-    train:
+    ussuri:
 - project: puppet-nssdb
   tags:
-    train:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    ussuri:
 - project: puppet-ntp
   tags:
-    train:
+    ussuri:
       source-branch: 4.2.0
 - project: puppet-octavia
   tags:
-    train:
+    ussuri:
 - project: puppet-opendaylight
   tags:
-    train:
+    ussuri:
       source-branch: stable/fluorine
 - project: puppet-openstack_extras
   tags:
-    train:
+    ussuri:
 - project: puppet-openstacklib
   tags:
-    train:
+    ussuri:
 - project: puppet-oslo
   tags:
-    train:
+    ussuri:
 - project: puppet-ovn
   tags:
-    train:
+    ussuri:
 - project: puppet-pacemaker
   tags:
-    train:
+    ussuri:
 - project: puppet-panko
   tags:
-    train:
+    ussuri:
 - project: puppet-placement
   tags:
-    train:
+    ussuri:
 - project: puppet-powerdns
   tags:
-    train:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
+    ussuri:
 - project: puppet-qdr
   tags:
-    train:
+    ussuri:
 - project: puppet-rabbitmq
   tags:
-    train:
-      source-branch: 75574b8f4a921cacda86ff30d378308084afa0d4
+    ussuri:
 - project: puppet-redis
   tags:
-    train:
-      source-branch: be8d097f849afaca6c381d105a4bf80bbd691a40
+    ussuri:
 - project: puppet-remote
   tags:
-    train:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    ussuri:
 - project: puppet-rsync
   tags:
-    train:
-      source-branch: a7d4f8487cf9492106690637d3e7d484876943e6
+    ussuri:
 - project: puppet-rsyslog
   tags:
-    train:
-      source-branch: 0c2b6c8d6ef5401e069a7ba2d69d33aedb295fd1
+    ussuri:
 - project: puppet-sahara
   tags:
-    train:
+    ussuri:
 - project: puppet-sensu
   tags:
-    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
-    # clients to Go language, which we don't provide and will not provide in future,
-    # because Sensu is being deprecated.
-    train:
-      source-branch: 20361a4043d2881359551510ada0817caee3bc05
+    ussuri:
 - project: puppet-snmp
   tags:
-    train:
-      # New versions of puppet-snmp require facter > 3.
-      source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
+    ussuri:
 - project: puppet-ssh
   tags:
-    train:
-      source-branch: 65570a311e1303d8084d12ee82868e6d0f411e8a
+    ussuri:
 - project: puppet-staging
   tags:
-    train:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    ussuri:
 - project: puppet-stdlib
   tags:
-    train:
-      source-branch: 5aa891c2ef8efce6eb6d1ff12e976b4753b3c4d9
+    ussuri:
 - project: puppet-swift
   tags:
-    train:
+    ussuri:
 - project: puppet-sysctl
   tags:
-    train:
-      source-branch: a3d160d7c79cc905fc1d10a4fd8b4c1488e017b4
+    ussuri:
 - project: puppet-systemd
   tags:
-    train:
-      source-branch: f0ce6f04aa89c002cd9ba721c6f5d91177f32afc
+    ussuri:
 - project: puppet-tacker
   tags:
-    train:
+    ussuri:
 - project: puppet-tempest
   tags:
-    train:
+    ussuri:
 - project: puppet-timezone
   tags:
-    train:
-      source-branch: 21b4a581ff226b7945c2a5e43d060d1d57667352
+    ussuri:
 - project: puppet-tomcat
   tags:
-    train:
-      source-branch: a3f92d1f1e2fcd0bb773e4ebe37c5a205b55ac72
+    ussuri:
 - project: puppet-tripleo
   tags:
-    train:
+    ussuri:
 - project: puppet-trove
   tags:
-    train:
+    ussuri:
 - project: puppet-uchiwa
   tags:
-    train:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
+    ussuri:
 - project: puppet-vcsrepo
   tags:
-    train:
-      source-branch: b06d5d378e80d03c5dea40a89e83449191064ddc
+    ussuri:
 - project: puppet-veritas_hyperscale
   tags:
-    train:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
+    ussuri:
 - project: puppet-vitrage
   tags:
-    train:
+    ussuri:
 - project: puppet-vlan
   tags:
-    train:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    ussuri:
 - project: puppet-vswitch
   tags:
-    train:
+    ussuri:
 - project: puppet-watcher
   tags:
-    train:
+    ussuri:
 - project: puppet-xinetd
   tags:
-    train:
-      source-branch: d768da2f645001395ef1c796bb03d0b9bcc733f5
+    ussuri:
 - project: puppet-zaqar
   tags:
-    train:
+    ussuri:
 - project: puppet-zookeeper
   tags:
-    train:
-      source-branch: 5877cbf66372dba04d3a1b84016b83d4e06320bc
+    ussuri:
 - project: pycadf
   tags:
-    train:
-      source-branch: 2.10.0
+    ussuri:
 - project: rally
   tags:
-    train:
+    ussuri:
 - project: rally-openstack
   tags:
-    train:
+    ussuri:
 - project: reno
   tags:
-    train:
-      source-branch: 2.11.3
+    ussuri:
 - project: requestsexceptions
   tags:
-    train:
-      source-branch: 1.4.0
+    ussuri:
 - project: rsd-lib
   tags:
-    train:
-      source-branch: 1.1.0
+    ussuri:
 - project: rsdclient
   tags:
-    train:
-      source-branch: 0.2.0
+    ussuri:
 - project: sahara
   tags:
-    train:
+    ussuri:
 - project: sahara-dashboard
   tags:
-    train:
+    ussuri:
 - project: sahara-image-elements
   tags:
-    train:
+    ussuri:
 - project: sahara-plugin-ambari
   tags:
-    train:
+    ussuri:
 - project: sahara-plugin-cdh
   tags:
-    train:
+    ussuri:
 - project: sahara-plugin-mapr
   tags:
-    train:
+    ussuri:
 - project: sahara-plugin-spark
   tags:
-    train:
+    ussuri:
 - project: sahara-plugin-storm
   tags:
-    train:
+    ussuri:
 - project: sahara-plugin-vanilla
   tags:
-    train:
+    ussuri:
 - project: sahara-tests
   tags:
-    train:
-      source-branch: 0.9.1
+    ussuri:
 - project: saharaclient
   tags:
-    train:
-      source-branch: 2.3.0
+    ussuri:
 - project: scciclient
   tags:
-    train:
+    ussuri:
 - project: senlin
   tags:
-    train:
+    ussuri:
 - project: senlinclient
   tags:
-    train:
-      source-branch: 1.11.0
+    ussuri:
 - project: shade
   tags:
-    train:
-      source-branch: 1.32.0
+    ussuri:
 - project: shaker
   tags:
-    # FIXME(jpena) once timeout-decorator is packaged, and
-    # https://review.rdoproject.org/r/17270 is merged, we can
-    # unpin the versions for train, stein and rocky
-    train:
-      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
+    ussuri:
 - project: sphinx-feature-classification
   tags:
-    train:
-      source-branch: 0.4.1
+    ussuri:
 - project: stackviz
   tags:
-    train:
+    ussuri:
 - project: stevedore
   tags:
-    train:
-      source-branch: 1.31.0
+    ussuri:
 - project: sushy
   tags:
-    train:
-      source-branch: 2.0.0
+    ussuri:
 - project: swift
   tags:
-    train:
+    ussuri:
 - project: swiftclient
   tags:
-    train:
-      source-branch: 3.8.1
+    ussuri:
 - project: tacker
   tags:
-    train:
+    ussuri:
 - project: tackerclient
   tags:
-    train:
-      source-branch: 0.16.1
+    ussuri:
 - project: tap-as-a-service
   tags:
-    train:
+    ussuri:
 - project: taskflow
   tags:
-    train:
-      source-branch: 3.7.1
+    ussuri:
 - project: telemetry-tempest-plugin
   tags:
-    train:
-      source-branch: 0.4.0
+    ussuri:
 - project: tempest
   tags:
-    train:
+    ussuri:
 - project: tempest-horizon
   tags:
-    train:
-      source-branch: 0.2.0
+    ussuri:
 - project: tempestconf
   tags:
-    train:
-      source-branch: 2.3.0
+    ussuri:
 - project: tobiko
   tags:
-    train:
+    ussuri:
 - project: tooz
   tags:
-    train:
-      source-branch: 1.66.2
+    ussuri:
 - project: tripleo-ansible
   tags:
-    train:
+    ussuri:
 - project: tripleo-common
   tags:
-    train:
+    ussuri:
 - project: tripleo-common-tempest-plugin
   tags:
-    train:
+    ussuri:
 - project: tripleo-heat-templates
   tags:
-    train:
+    ussuri:
 - project: tripleo-heat-templates-compat
   tags:
-    train:
+    ussuri:
       source-branch: stable/rocky
 - project: tripleo-image-elements
   tags:
-    train:
+    ussuri:
 - project: tripleo-ipsec
   tags:
-    train:
+    ussuri:
 - project: tripleo-puppet-elements
   tags:
-    train:
+    ussuri:
 - project: tripleo-repos
   tags:
-    train:
+    ussuri:
 - project: tripleo-validations
   tags:
-    train:
+    ussuri:
 - project: tripleoclient
   tags:
-    train:
+    ussuri:
 - project: trove
   tags:
-    train:
+    ussuri:
 - project: trove-dashboard
   tags:
-    train:
+    ussuri:
 - project: trove-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: troveclient
   tags:
-    train:
-      source-branch: 3.0.0
+    ussuri:
 - project: virtualbmc
   tags:
-    train:
-      source-branch: 1.6.0
+    ussuri:
 - project: vitrage
   tags:
-    train:
+    ussuri:
 - project: vitrage-dashboard
   tags:
-    train:
+    ussuri:
 - project: vitrage-tempest-plugin
   tags:
-    train:
-      source-branch: 3.0.0
+    ussuri:
 - project: vitrageclient
   tags:
-    train:
-      source-branch: 3.0.0
+    ussuri:
 - project: vmware-nsx
   tags:
-    train:
+    ussuri:
 - project: vmware-nsx-tempest-plugin
   tags:
-    train:
-      source-branch: 2.0.0.0
+    ussuri:
 - project: vmware-nsxlib
   tags:
-    train:
+    ussuri:
 - project: watcher
   tags:
-    train:
+    ussuri:
 - project: watcher-tempest-plugin
   tags:
-    train:
-      source-branch: 1.2.0
+    ussuri:
 - project: wsme
   tags:
-    train:
-      source-branch: bff9624cbc96bfd04e8d1ed5ee2e586b22a2ba51
+    ussuri:
 - project: zaqar
   tags:
-    train:
+    ussuri:
 - project: zaqar-tempest-plugin
   tags:
-    train:
-      source-branch: 0.3.0
+    ussuri:
 - project: zaqarclient
   tags:
-    train:
-      source-branch: 1.12.0
+    ussuri:
