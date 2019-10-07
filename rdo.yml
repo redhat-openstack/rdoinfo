@@ -1,6 +1,24 @@
 import:
 - tags.yml
 releases:
+- name: ussuri
+  branch: rpm-master
+  tags_map: separated_buildreqs
+  repos:
+  - name: el7
+    buildsys: cbs/cloud7-openstack-ussuri-el7
+    buildsys-tags:
+    - cloud7-openstack-ussuri-el7-build
+    - cloud7-openstack-ussuri-candidate
+    - cloud7-openstack-ussuri-testing
+    distrepos:
+    - name: RDO Ussuri el7
+      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-ussuri/
+    - name: CentOS 7 Base
+      url: http://mirror.centos.org/centos/7/os/x86_64/
+    - name: CentOS 7 Updates
+      url: http://mirror.centos.org/centos/7/updates/x86_64/
+    - name: CentOS 7 Extras
 - name: train
   branch: rpm-master
   tags_map: separated_buildreqs
@@ -12,7 +30,7 @@ releases:
     - cloud7-openstack-train-candidate
     - cloud7-openstack-train-testing
     distrepos:
-    - name: RDO Stein el7
+    - name: RDO Train el7
       url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-train/
     - name: CentOS 7 Base
       url: http://mirror.centos.org/centos/7/os/x86_64/
@@ -133,7 +151,8 @@ package-default:
 # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
   master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
   tags:
-    train-uc:
+    ussuri-uc:
+    ussuri:
     train:
     stein:
     rocky:
@@ -203,7 +222,8 @@ package-configs:
     - gchamoul@redhat.com
     # Only building puppet modules on newton and later
     tags:
-      train-uc:
+      ussuri-uc:
+      ussuri:
       train:
       stein:
       rocky:
@@ -225,7 +245,8 @@ package-configs:
     - chkumar@redhat.com
     - ltoscano@redhat.com
     tags:
-      train-uc:
+      ussuri-uc:
+      ussuri:
       train:
       stein:
       rocky:
@@ -244,7 +265,9 @@ package-configs:
     maintainers:
     - jpena@redhat.com
     tags:
-      train-uc:
+      ussuri-uc:
+        distro-branch: master
+      ussuri:
         distro-branch: master
       train:
         distro-branch: master
