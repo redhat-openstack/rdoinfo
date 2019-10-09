@@ -59,6 +59,9 @@ packages:
 - project: ceilometer
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-ceilometer-13.0.0-0.1.0rc1.el7
+- project: ceilometerclient
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-ceilometerclient-2.9.0-1.el7
 - project: ceilometermiddleware
   buildsys-tags:
     cloud7-openstack-train-testing: python-ceilometermiddleware-1.5.0-2.el7
@@ -125,6 +128,9 @@ packages:
 - project: crudini
   buildsys-tags:
     cloud7-openstack-train-testing: crudini-0.9-2.el7
+- project: cursive
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-cursive-0.2.2-1.el7
 - project: debtcollector
   buildsys-tags:
     cloud7-openstack-train-testing: python-debtcollector-1.22.0-2.el7
@@ -140,6 +146,9 @@ packages:
 - project: designateclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-designateclient-3.0.0-1.el7
+- project: dib-utils
+  buildsys-tags:
+    cloud7-openstack-train-testing: dib-utils-0.0.11-1.el7
 - project: dibbler
   buildsys-tags:
     cloud7-openstack-train-testing: dibbler-1.0.1-0.RC1.2.el7
@@ -197,9 +206,15 @@ packages:
 - project: glanceclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-glanceclient-2.17.0-1.el7
+- project: glareclient
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-glareclient-0.5.3-1.el7
 - project: gnocchi
   buildsys-tags:
     cloud7-openstack-train-testing: gnocchi-4.3.4-1.el7
+- project: gnocchiclient
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-gnocchiclient-7.0.4-1.el7
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
     cloud7-openstack-train-testing: golang-github-vbatts-tar-split-0.11.1-1.el7
@@ -212,6 +227,9 @@ packages:
 - project: gv
   buildsys-tags:
     cloud7-openstack-train-testing: gv-3.7.4-6.el7
+- project: hacking
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-hacking-1.1.0-1.el7
 - project: hardware
   buildsys-tags:
     cloud7-openstack-train-testing: python-hardware-0.21.1-1.el7
@@ -356,6 +374,9 @@ packages:
 - project: metalsmith
   buildsys-tags:
     cloud7-openstack-train-testing: python-metalsmith-0.15.0-1.el7
+- project: microversion-parse
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-microversion-parse-0.2.1-1.el7
 - project: mistral
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-mistral-9.0.0-0.1.0rc1.el7
@@ -509,12 +530,18 @@ packages:
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-client-config-1.33.0-2.el7
+- project: os-collect-config
+  buildsys-tags:
+    cloud7-openstack-train-testing: os-collect-config-10.3.0-1.el7
 - project: os-faults
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-faults-0.2.5-1.el7
 - project: os-ken
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-ken-0.4.1-1.el7
+- project: os-refresh-config
+  buildsys-tags:
+    cloud7-openstack-train-testing: os-refresh-config-10.2.1-1.el7
 - project: os-resource-classes
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-resource-classes-0.5.0-1.el7
@@ -533,6 +560,9 @@ packages:
 - project: os-win
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-win-4.3.2-1.el7
+- project: os-xenapi
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-os-xenapi-0.3.4-1.el7
 - project: osc-lib
   buildsys-tags:
     cloud7-openstack-train-testing: python-osc-lib-1.14.1-2.el7
@@ -584,6 +614,9 @@ packages:
 - project: oslo-service
   buildsys-tags:
     cloud7-openstack-train-testing: python-oslo-service-1.40.2-2.el7
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-oslo-sphinx-4.18.0-1.el7
 - project: oslo-upgradecheck
   buildsys-tags:
     cloud7-openstack-train-testing: python-oslo-upgradecheck-0.3.2-1.el7
@@ -1838,6 +1871,9 @@ packages:
 - project: reno
   buildsys-tags:
     cloud7-openstack-train-testing: python-reno-2.11.3-1.el7
+- project: requestsexceptions
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-requestsexceptions-1.4.0-1.el7
 - project: resource-agents
   buildsys-tags:
     cloud7-openstack-train-testing: resource-agents-3.9.5-124.el7.0.0.rdo1
@@ -2003,6 +2039,9 @@ packages:
 - project: web-assets
   buildsys-tags:
     cloud7-openstack-train-testing: web-assets-5-1.el7
+- project: wsme
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-wsme-0.9.3-1.el7
 - project: xqc
   buildsys-tags:
     cloud7-openstack-train-testing: xqc-1.0-0.6.20101120svn7.el7
