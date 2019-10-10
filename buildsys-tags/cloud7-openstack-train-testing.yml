@@ -199,7 +199,7 @@ packages:
     cloud7-openstack-train-testing: gflags-2.2.1-1.el7
 - project: glance
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-glance-19.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-glance-19.0.0-0.2.0rc1.el7
 - project: glance_store
   buildsys-tags:
     cloud7-openstack-train-testing: python-glance-store-1.0.1-1.el7
@@ -278,6 +278,12 @@ packages:
 - project: ironic-python-agent
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-ironic-python-agent-5.0.0-1.el7
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud7-openstack-train-testing: openstack-ironic-python-agent-builder-1.0.0-1.el7
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud7-openstack-train-testing: openstack-ironic-staging-drivers-0.12.0-1.el7
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironic-tests-tempest-1.5.1-1.el7
@@ -362,6 +368,9 @@ packages:
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-manila-tests-tempest-0.4.0-1.el7
+- project: manila-ui
+  buildsys-tags:
+    cloud7-openstack-train-testing: openstack-manila-ui-2.19.0-1.el7
 - project: manilaclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-manilaclient-1.29.0-1.el7
@@ -470,6 +479,9 @@ packages:
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-novaclient-15.1.0-1.el7
+- project: novajoin
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-novajoin-1.2.0-1.el7
 - project: novajoin-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-novajoin-tests-tempest-0.0.1-0.4.80dd51agit.el7
@@ -653,6 +665,9 @@ packages:
 - project: panko
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-panko-7.0.0-0.1.0rc1.el7
+- project: pankoclient
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-pankoclient-0.7.0-1.el7
 - project: patrole
   buildsys-tags:
     cloud7-openstack-train-testing: python-patrole-0.7.0-1.el7
@@ -1865,6 +1880,12 @@ packages:
 - project: rabbitmq-server
   buildsys-tags:
     cloud7-openstack-train-testing: rabbitmq-server-3.6.16-1.el7
+- project: rally
+  buildsys-tags:
+    cloud7-openstack-train-testing: openstack-rally-2.0.0-1.el7
+- project: rally-openstack
+  buildsys-tags:
+    cloud7-openstack-train-testing: openstack-rally-plugins-1.5.0-1.el7
 - project: redis
   buildsys-tags:
     cloud7-openstack-train-testing: redis-3.2.8-1.el7
@@ -1943,6 +1964,9 @@ packages:
 - project: senlinclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-senlinclient-1.11.0-1.el7
+- project: shade
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-shade-1.32.0-1.el7
 - project: sip
   buildsys-tags:
     cloud7-openstack-train-testing: sip-4.19-1.el7
@@ -2027,9 +2051,15 @@ packages:
 - project: vitrageclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-vitrageclient-3.0.0-1.el7
+- project: vmware-nsx
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-networking-vmware-nsx-14.0.0-1.el7
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el7
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-vmware-nsxlib-14.0.3-1.el7
 - project: watcher
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-watcher-3.0.0-0.1.0rc1.el7
