@@ -58,7 +58,7 @@ packages:
     cloud7-openstack-train-testing: python-castellan-1.3.1-2.el7
 - project: ceilometer
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ceilometer-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-ceilometer-13.0.0-0.2.0rc2.el7
 - project: ceilometerclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-ceilometerclient-2.9.0-1.el7
@@ -104,6 +104,9 @@ packages:
 - project: coin-or-Sample
   buildsys-tags:
     cloud7-openstack-train-testing: coin-or-Sample-1.2.10-5.el7
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-collectd-gnocchi-1.7.1-1.el7
 - project: congress
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-congress-10.0.0-0.1.0rc1.el7
@@ -136,7 +139,7 @@ packages:
     cloud7-openstack-train-testing: python-debtcollector-1.22.0-2.el7
 - project: designate
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-designate-8.0.0-2.4d47719git.el7
+    cloud7-openstack-train-testing: openstack-designate-9.0.0-0.2.0rc1.el7
 - project: designate-dashboard
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-designate-ui-9.0.0-0.1.0rc1.el7
@@ -199,7 +202,7 @@ packages:
     cloud7-openstack-train-testing: gflags-2.2.1-1.el7
 - project: glance
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-glance-19.0.0-0.2.0rc1.el7
+    cloud7-openstack-train-testing: openstack-glance-19.0.0-0.3.0rc2.el7
 - project: glance_store
   buildsys-tags:
     cloud7-openstack-train-testing: python-glance-store-1.0.1-1.el7
@@ -238,7 +241,7 @@ packages:
     cloud7-openstack-train-testing: hdf5-1.8.13-7.el7
 - project: heat
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-heat-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-heat-13.0.0-0.2.0rc2.el7
 - project: heat-cfntools
   buildsys-tags:
     cloud7-openstack-train-testing: heat-cfntools-1.3.0-2.el7
@@ -259,10 +262,10 @@ packages:
     cloud7-openstack-train-testing: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-train-testing: python-django-horizon-16.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-django-horizon-16.0.0-0.2.0rc2.el7
 - project: ironic
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ironic-13.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-ironic-13.0.1-1.el7
 - project: ironic-inspector
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-ironic-inspector-9.2.0-1.el7
@@ -289,7 +292,7 @@ packages:
     cloud7-openstack-train-testing: python-ironic-tests-tempest-1.5.1-1.el7
 - project: ironic-ui
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ironic-ui-3.5.2-1.el7
+    cloud7-openstack-train-testing: openstack-ironic-ui-3.5.3-1.el7
 - project: ironicclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironicclient-3.1.0-1.el7
@@ -304,7 +307,7 @@ packages:
     cloud7-openstack-train-testing: jsoncpp-0.10.5-2.el7
 - project: keystone
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-keystone-16.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-keystone-16.0.0-0.2.0rc2.el7
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-keystone-tests-tempest-0.3.0-1.el7
@@ -352,7 +355,7 @@ packages:
     cloud7-openstack-train-testing: libwebsockets-3.0.1-2.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-magnum-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-magnum-9.0.0-0.2.0rc2.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-magnum-tests-tempest-0.3.0-1.el7
@@ -388,10 +391,10 @@ packages:
     cloud7-openstack-train-testing: python-microversion-parse-0.2.1-1.el7
 - project: mistral
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-mistral-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-mistral-9.0.0-0.2.0rc2.el7
 - project: mistral-dashboard
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-mistral-ui-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-mistral-ui-9.0.0-0.2.0rc2.el7
 - project: mistral-lib
   buildsys-tags:
     cloud7-openstack-train-testing: python-mistral-lib-1.2.0-1.el7
@@ -418,7 +421,7 @@ packages:
     cloud7-openstack-train-testing: openstack-murano-agent-4.0.0-0.1.0rc1.el7
 - project: murano-dashboard
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-murano-ui-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-murano-ui-8.0.0-0.2.0rc2.el7
 - project: murano-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-murano-tests-tempest-1.1.0-1.el7
@@ -448,13 +451,13 @@ packages:
     cloud7-openstack-train-testing: python-networking-odl-15.0.0-0.1.0rc1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-train-testing: python-networking-ovn-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-networking-ovn-7.0.0-0.2.0rc2.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-sfc-9.0.0-0.1.0rc1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-neutron-15.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-neutron-15.0.0-0.2.0rc2.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-neutron-dynamic-routing-15.0.0-0.1.0rc1.el7
@@ -475,7 +478,7 @@ packages:
     cloud7-openstack-train-testing: python-neutronclient-6.14.0-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-nova-20.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-nova-20.0.0-0.2.0rc2.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-novaclient-15.1.0-1.el7
@@ -502,7 +505,7 @@ packages:
     cloud7-openstack-train-testing: openstack-octavia-5.0.0-0.2.0rc2.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-octavia-ui-4.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-octavia-ui-4.0.0-0.2.0rc2.el7
 - project: octavia-lib
   buildsys-tags:
     cloud7-openstack-train-testing: python-octavia-lib-1.4.0-1.el7
@@ -673,7 +676,7 @@ packages:
     cloud7-openstack-train-testing: python-patrole-0.7.0-1.el7
 - project: placement
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-placement-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-placement-2.0.0-0.2.0rc2.el7
 - project: podman
   buildsys-tags:
     cloud7-openstack-train-testing: podman-1.5.1-3.el7
@@ -736,7 +739,7 @@ packages:
     cloud7-openstack-train-testing: puppet-datacat-0.6.2-1.5cce8f2git.el7
 - project: puppet-designate
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-designate-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-designate-15.5.0-1.el7
 - project: puppet-dns
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-dns-6.2.0-1.2ae1cd7git.el7
@@ -1921,7 +1924,7 @@ packages:
     cloud7-openstack-train-testing: runc-1.0.0-60.dev.git2abd837.el7
 - project: sahara
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-sahara-11.0.0-0.2.0rc1.el7
+    cloud7-openstack-train-testing: openstack-sahara-11.0.0-0.3.0rc2.el7
 - project: sahara-dashboard
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-sahara-ui-11.0.0-0.1.0rc1.el7
@@ -1930,22 +1933,22 @@ packages:
     cloud7-openstack-train-testing: sahara-image-elements-11.0.0-0.1.0rc1.el7
 - project: sahara-plugin-ambari
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sahara-plugin-ambari-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-sahara-plugin-ambari-2.0.0-0.2.0rc2.el7
 - project: sahara-plugin-cdh
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sahara-plugin-cdh-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-sahara-plugin-cdh-2.0.0-0.2.0rc2.el7
 - project: sahara-plugin-mapr
   buildsys-tags:
     cloud7-openstack-train-testing: python-sahara-plugin-mapr-2.0.0-0.1.0rc1.el7
 - project: sahara-plugin-spark
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sahara-plugin-spark-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-sahara-plugin-spark-2.0.0-0.2.0rc2.el7
 - project: sahara-plugin-storm
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sahara-plugin-storm-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-sahara-plugin-storm-2.0.0-0.2.0rc2.el7
 - project: sahara-plugin-vanilla
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sahara-plugin-vanilla-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: python-sahara-plugin-vanilla-2.0.0-0.2.0rc2.el7
 - project: sahara-tests
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-sahara-tests-0.9.1-1.el7
@@ -2023,7 +2026,7 @@ packages:
     cloud7-openstack-train-testing: python-tooz-1.66.2-1.el7
 - project: trove
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-trove-12.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-trove-12.0.0-0.2.0rc2.el7
 - project: trove-dashboard
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-trove-ui-13.0.0-0.1.0rc1.el7
@@ -2062,7 +2065,7 @@ packages:
     cloud7-openstack-train-testing: python-vmware-nsxlib-14.0.3-1.el7
 - project: watcher
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-watcher-3.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-watcher-3.0.0-0.2.0rc2.el7
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-watcher-tests-tempest-1.2.0-1.el7
