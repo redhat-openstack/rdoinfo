@@ -825,9 +825,7 @@ packages:
 - project: puppet-mysql
   tags:
     ussuri-uc:
-      # We can't bump to > 6.2.0 - https://tickets.puppetlabs.com/browse/MODULES-7487
-      # Related to https://jira.mariadb.org/browse/MDEV-16774
-      source-branch: 6.2.0
+      source-branch: v10.2.0
 - project: puppet-n1k-vsm
   tags:
     ussuri-uc:
