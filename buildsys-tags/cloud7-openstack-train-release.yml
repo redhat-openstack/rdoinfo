@@ -16,10 +16,10 @@ packages:
     cloud7-openstack-train-release: Xaw3d-1.6.2-4.el7
 - project: ansible
   buildsys-tags:
-    cloud7-openstack-train-release: ansible-2.8.4-1.el7.ans
+    cloud7-openstack-train-release: ansible-2.8.5-1.el7.ans
 - project: aodh
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-aodh-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-aodh-9.0.0-1.el7
 - project: aodhclient
   buildsys-tags:
     cloud7-openstack-train-release: python-aodhclient-1.3.0-1.el7
@@ -34,7 +34,7 @@ packages:
     cloud7-openstack-train-release: babel-2.6.0-4.el7
 - project: barbican
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-barbican-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-barbican-9.0.0-1.el7
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-barbican-tests-tempest-0.3.0-1.el7
@@ -58,7 +58,7 @@ packages:
     cloud7-openstack-train-release: python-castellan-1.3.1-2.el7
 - project: ceilometer
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-ceilometer-13.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-ceilometer-13.0.0-1.el7
 - project: ceilometerclient
   buildsys-tags:
     cloud7-openstack-train-release: python-ceilometerclient-2.9.0-1.el7
@@ -67,7 +67,7 @@ packages:
     cloud7-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-cinder-15.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-cinder-15.0.0-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-cinder-tests-tempest-0.3.0-1.el7
@@ -82,7 +82,7 @@ packages:
     cloud7-openstack-train-release: openstack-cloudkitty-11.0.0-1.el7
 - project: cloudkitty-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-cloudkitty-ui-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-cloudkitty-ui-9.0.0-1.el7
 - project: cloudkittyclient
   buildsys-tags:
     cloud7-openstack-train-release: python-cloudkittyclient-3.1.0-1.el7
@@ -109,7 +109,7 @@ packages:
     cloud7-openstack-train-release: python-collectd-gnocchi-1.7.1-1.el7
 - project: congress
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-congress-10.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-congress-10.0.0-1.el7
 - project: congress-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-congress-tests-tempest-0.3.0-1.el7
@@ -139,10 +139,10 @@ packages:
     cloud7-openstack-train-release: python-debtcollector-1.22.0-2.el7
 - project: designate
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-designate-9.0.0-0.2.0rc1.el7
+    cloud7-openstack-train-release: openstack-designate-9.0.0-1.el7
 - project: designate-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-designate-ui-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-designate-ui-9.0.0-1.el7
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-designate-tests-tempest-0.7.0-1.el7
@@ -202,7 +202,7 @@ packages:
     cloud7-openstack-train-release: gflags-2.2.1-1.el7
 - project: glance
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-glance-19.0.0-0.3.0rc2.el7
+    cloud7-openstack-train-release: openstack-glance-19.0.0-1.el7
 - project: glance_store
   buildsys-tags:
     cloud7-openstack-train-release: python-glance-store-1.0.1-1.el7
@@ -241,13 +241,13 @@ packages:
     cloud7-openstack-train-release: hdf5-1.8.13-7.el7
 - project: heat
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-heat-13.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-heat-13.0.0-1.el7
 - project: heat-cfntools
   buildsys-tags:
     cloud7-openstack-train-release: heat-cfntools-1.3.0-2.el7
 - project: heat-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-heat-ui-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-heat-ui-2.0.0-1.el7
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-heat-tests-tempest-0.4.0-1.el7
@@ -262,7 +262,7 @@ packages:
     cloud7-openstack-train-release: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-train-release: python-django-horizon-16.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-django-horizon-16.0.0-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-train-release: openstack-ironic-13.0.1-1.el7
@@ -307,7 +307,7 @@ packages:
     cloud7-openstack-train-release: jsoncpp-0.10.5-2.el7
 - project: keystone
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-keystone-16.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-keystone-16.0.0-1.el7
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-keystone-tests-tempest-0.3.0-1.el7
@@ -323,6 +323,9 @@ packages:
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-train-release: python-kuryr-lib-1.1.1-1.el7
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud7-openstack-train-release: openstack-kuryr-kubernetes-1.1.0-1.el7
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-kuryr-tests-tempest-0.5.0-1.el7
@@ -355,7 +358,7 @@ packages:
     cloud7-openstack-train-release: libwebsockets-3.0.1-2.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-magnum-9.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-magnum-9.0.0-1.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-magnum-tests-tempest-0.3.0-1.el7
@@ -367,7 +370,7 @@ packages:
     cloud7-openstack-train-release: python-magnumclient-2.15.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-manila-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-manila-9.0.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-manila-tests-tempest-0.4.0-1.el7
@@ -391,10 +394,10 @@ packages:
     cloud7-openstack-train-release: python-microversion-parse-0.2.1-1.el7
 - project: mistral
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-mistral-9.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-mistral-9.0.0-1.el7
 - project: mistral-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-mistral-ui-9.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-mistral-ui-9.0.0-1.el7
 - project: mistral-lib
   buildsys-tags:
     cloud7-openstack-train-release: python-mistral-lib-1.2.0-1.el7
@@ -415,13 +418,13 @@ packages:
     cloud7-openstack-train-release: python-mox3-0.28.0-2.el7
 - project: murano
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-murano-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-murano-8.0.0-1.el7
 - project: murano-agent
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-murano-agent-4.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-murano-agent-4.0.0-1.el7
 - project: murano-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-murano-ui-8.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-murano-ui-8.0.0-1.el7
 - project: murano-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-murano-tests-tempest-1.1.0-1.el7
@@ -430,13 +433,13 @@ packages:
     cloud7-openstack-train-release: python-muranoclient-1.3.0-1.el7
 - project: networking-bagpipe
   buildsys-tags:
-    cloud7-openstack-train-release: python-networking-bagpipe-11.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: python-networking-bagpipe-11.0.0-1.el7
 - project: networking-baremetal
   buildsys-tags:
     cloud7-openstack-train-release: python-networking-baremetal-1.4.0-1.el7
 - project: networking-bgpvpn
   buildsys-tags:
-    cloud7-openstack-train-release: python-networking-bgpvpn-11.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: python-networking-bgpvpn-11.0.0-1.el7
 - project: networking-generic-switch
   buildsys-tags:
     cloud7-openstack-train-release: python-networking-generic-switch-2.1.0-1.el7
@@ -448,22 +451,22 @@ packages:
     cloud7-openstack-train-release: python-networking-l2gw-tests-tempest-0.1.0-1.a3af33bgit.el7
 - project: networking-odl
   buildsys-tags:
-    cloud7-openstack-train-release: python-networking-odl-15.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: python-networking-odl-15.0.0-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-train-release: python-networking-ovn-7.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-networking-ovn-7.0.0-1.el7
 - project: networking-sfc
   buildsys-tags:
-    cloud7-openstack-train-release: python-networking-sfc-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: python-networking-sfc-9.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-neutron-15.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-neutron-15.0.0-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-neutron-dynamic-routing-15.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-neutron-dynamic-routing-15.0.0-1.el7
 - project: neutron-fwaas
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-neutron-fwaas-15.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-neutron-fwaas-15.0.0-1.el7
 - project: neutron-lib
   buildsys-tags:
     cloud7-openstack-train-release: python-neutron-lib-1.29.1-1.el7
@@ -472,13 +475,13 @@ packages:
     cloud7-openstack-train-release: python-neutron-tests-tempest-0.6.0-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-neutron-vpnaas-15.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-neutron-vpnaas-15.0.0-1.el7
 - project: neutronclient
   buildsys-tags:
     cloud7-openstack-train-release: python-neutronclient-6.14.0-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-nova-20.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-nova-20.0.0-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-release: python-novaclient-15.1.0-1.el7
@@ -502,10 +505,10 @@ packages:
     cloud7-openstack-train-release: oci-umount-2.3.4-2.git87f9237.el7
 - project: octavia
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-octavia-5.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-octavia-5.0.0-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-octavia-ui-4.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-octavia-ui-4.0.0-1.el7
 - project: octavia-lib
   buildsys-tags:
     cloud7-openstack-train-release: python-octavia-lib-1.4.0-1.el7
@@ -667,7 +670,7 @@ packages:
     cloud7-openstack-train-release: openstack-packstack-15.0.0-0.1.0rc1.el7
 - project: panko
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-panko-7.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-panko-7.0.0-1.el7
 - project: pankoclient
   buildsys-tags:
     cloud7-openstack-train-release: python-pankoclient-0.7.0-1.el7
@@ -676,7 +679,7 @@ packages:
     cloud7-openstack-train-release: python-patrole-0.7.0-1.el7
 - project: placement
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-placement-2.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-placement-2.0.0-1.el7
 - project: podman
   buildsys-tags:
     cloud7-openstack-train-release: podman-1.5.1-3.el7
@@ -1924,31 +1927,31 @@ packages:
     cloud7-openstack-train-release: runc-1.0.0-60.dev.git2abd837.el7
 - project: sahara
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-sahara-11.0.0-0.3.0rc2.el7
+    cloud7-openstack-train-release: openstack-sahara-11.0.0-1.el7
 - project: sahara-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-sahara-ui-11.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-sahara-ui-11.0.0-1.el7
 - project: sahara-image-elements
   buildsys-tags:
-    cloud7-openstack-train-release: sahara-image-elements-11.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: sahara-image-elements-11.0.0-1.el7
 - project: sahara-plugin-ambari
   buildsys-tags:
-    cloud7-openstack-train-release: python-sahara-plugin-ambari-2.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-sahara-plugin-ambari-2.0.0-1.el7
 - project: sahara-plugin-cdh
   buildsys-tags:
-    cloud7-openstack-train-release: python-sahara-plugin-cdh-2.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-sahara-plugin-cdh-2.0.0-1.el7
 - project: sahara-plugin-mapr
   buildsys-tags:
-    cloud7-openstack-train-release: python-sahara-plugin-mapr-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: python-sahara-plugin-mapr-2.0.0-1.el7
 - project: sahara-plugin-spark
   buildsys-tags:
-    cloud7-openstack-train-release: python-sahara-plugin-spark-2.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-sahara-plugin-spark-2.0.0-1.el7
 - project: sahara-plugin-storm
   buildsys-tags:
-    cloud7-openstack-train-release: python-sahara-plugin-storm-2.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-sahara-plugin-storm-2.0.0-1.el7
 - project: sahara-plugin-vanilla
   buildsys-tags:
-    cloud7-openstack-train-release: python-sahara-plugin-vanilla-2.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: python-sahara-plugin-vanilla-2.0.0-1.el7
 - project: sahara-tests
   buildsys-tags:
     cloud7-openstack-train-release: openstack-sahara-tests-0.9.1-1.el7
@@ -1963,7 +1966,7 @@ packages:
     cloud7-openstack-train-release: scipy-0.18.0-3.el7
 - project: senlin
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-senlin-8.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-senlin-8.0.0-1.el7
 - project: senlinclient
   buildsys-tags:
     cloud7-openstack-train-release: python-senlinclient-1.11.0-1.el7
@@ -2002,7 +2005,7 @@ packages:
     cloud7-openstack-train-release: sysbench-0.4.12-12.el7
 - project: tacker
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tacker-2.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-tacker-2.0.0-1.el7
 - project: tackerclient
   buildsys-tags:
     cloud7-openstack-train-release: python-tackerclient-0.16.1-1.el7
@@ -2014,7 +2017,7 @@ packages:
     cloud7-openstack-train-release: python-telemetry-tests-tempest-0.4.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tempest-22.0.0-1.el7
+    cloud7-openstack-train-release: openstack-tempest-22.1.0-1.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-train-release: python-horizon-tests-tempest-0.2.0-1.el7
@@ -2026,10 +2029,10 @@ packages:
     cloud7-openstack-train-release: python-tooz-1.66.2-1.el7
 - project: trove
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-trove-12.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-trove-12.0.0-1.el7
 - project: trove-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-trove-ui-13.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-trove-ui-13.0.0-1.el7
 - project: trove-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-trove-tests-tempest-0.3.0-1.el7
@@ -2065,7 +2068,7 @@ packages:
     cloud7-openstack-train-release: python-vmware-nsxlib-14.0.3-1.el7
 - project: watcher
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-watcher-3.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-watcher-3.0.0-1.el7
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-watcher-tests-tempest-1.2.0-1.el7
@@ -2086,7 +2089,7 @@ packages:
     cloud7-openstack-train-release: yaml-cpp-0.5.1-6.el7
 - project: zaqar
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-zaqar-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-zaqar-9.0.0-1.el7
 - project: zaqar-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-zaqar-tests-tempest-0.3.0-1.el7
