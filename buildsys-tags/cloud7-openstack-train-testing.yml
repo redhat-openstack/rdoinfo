@@ -169,7 +169,7 @@ packages:
     cloud7-openstack-train-testing: dumb-init-1.1.3-17.el7
 - project: ec2-api
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ec2-api-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-ec2-api-9.0.0-1.el7
 - project: ec2api-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-ec2api-tests-tempest-0.3.0-1.el7
@@ -376,7 +376,7 @@ packages:
     cloud7-openstack-train-testing: python-manila-tests-tempest-0.4.0-1.el7
 - project: manila-ui
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-manila-ui-2.19.0-1.el7
+    cloud7-openstack-train-testing: openstack-manila-ui-2.19.1-1.el7
 - project: manilaclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-manilaclient-1.29.0-1.el7
@@ -821,6 +821,9 @@ packages:
 - project: puppet-memcached
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-memcached-3.4.0-1.66d3a66git.el7
+- project: puppet-midonet
+  buildsys-tags:
+    cloud7-openstack-train-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
 - project: puppet-mistral
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-mistral-15.4.0-1.el7
@@ -836,6 +839,9 @@ packages:
 - project: puppet-mysql
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-mysql-6.2.0-1.el7
+- project: puppet-n1k-vsm
+  buildsys-tags:
+    cloud7-openstack-train-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
 - project: puppet-neutron
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-neutron-15.4.0-1.el7
@@ -866,6 +872,9 @@ packages:
 - project: puppet-ovn
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-ovn-15.4.0-1.el7
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud7-openstack-train-testing: puppet-pacemaker-0.7.2-2.a09f5ddgit.el7
 - project: puppet-panko
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-panko-15.4.0-1.el7
@@ -890,6 +899,9 @@ packages:
 - project: puppet-rsync
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-rsync-1.1.1-1.a7d4f84git.el7
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud7-openstack-train-testing: puppet-rsyslog-3.3.1-0.1.0rc0.0c2b6c8git.el7
 - project: puppet-sahara
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-sahara-15.4.0-1.el7
@@ -938,6 +950,9 @@ packages:
 - project: puppet-vcsrepo
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-vcsrepo-3.0.0-1.b06d5d3git.el7
+- project: puppet-veritas_hyperscale
+  buildsys-tags:
+    cloud7-openstack-train-testing: puppet-veritas_hyperscale-1.1.1-1.el7
 - project: puppet-vitrage
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-vitrage-5.4.0-1.el7
@@ -956,6 +971,9 @@ packages:
 - project: puppet-zaqar
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-zaqar-15.4.0-1.el7
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud7-openstack-train-testing: puppet-zookeeper-0.9.0-0.1.5877cbfgit.el7
 - project: pyOpenSSL
   buildsys-tags:
     cloud7-openstack-train-testing: pyOpenSSL-19.0.0-1.el7
@@ -2047,7 +2065,7 @@ packages:
     cloud7-openstack-train-testing: python-virtualbmc-1.6.0-1.el7
 - project: vitrage
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-vitrage-5.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-vitrage-5.0.1-1.el7
 - project: vitrage-dashboard
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-vitrage-ui-2.0.0-1.el7
