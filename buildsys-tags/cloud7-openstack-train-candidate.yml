@@ -17,12 +17,21 @@ packages:
 - project: python-backports
   buildsys-tags:
     cloud7-openstack-train-candidate: python-backports-1.0-16.el7
+- project: python-boto3
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-boto3-1.9.251-1.el7
+- project: python-botocore
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-botocore-1.12.251-1.el7
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-train-candidate: python-kombu-4.6.3-3.el7
+- project: python-logbook
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-logbook-1.5.3-1.el7
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
