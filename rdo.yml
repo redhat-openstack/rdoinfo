@@ -166,6 +166,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     maintainers:
     - jruzicka@redhat.com
     - hguemar@fedoraproject.org
@@ -179,6 +180,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     maintainers:
     - jruzicka@redhat.com
     - hguemar@fedoraproject.org
@@ -192,6 +194,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     maintainers:
     - apevec@redhat.com
     - hguemar@fedoraproject.org
@@ -206,6 +209,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/puppet/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/puppet/%(project)s-distgit.git
+    component: common
     maintainers:
     - lbezdick@redhat.com
     - jguiditt@redhat.com
@@ -231,6 +235,7 @@ package-configs:
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     maintainers:
     - chkumar@redhat.com
     - ltoscano@redhat.com
@@ -251,6 +256,7 @@ package-configs:
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
+    component: common
     distro-branch: master
     maintainers:
     - jpena@redhat.com
@@ -535,6 +541,7 @@ packages:
 # core openstack projects
 - project: nova
   conf: rpmfactory-core
+  component: compute
   maintainers:
   - lyarwood@redhat.com
   - mbooth@redhat.com
@@ -955,6 +962,7 @@ packages:
   - luka.peschke@objectif-libre.com
 - project: ec2-api
   conf: rpmfactory-core
+  component: compute
   maintainers:
   - marcos.fermin.lobo@cern.ch
   - lyarwood@redhat.com
@@ -1523,6 +1531,7 @@ packages:
 - project: novajoin
   name: python-novajoin
   conf: rpmfactory-lib
+  component: compute
   maintainers:
   - rcritten@redhat.com
   - alee@redhat.com
@@ -1903,6 +1912,7 @@ packages:
   - jrouleau@redhat.com
 - project: placement
   conf: rpmfactory-core
+  component: compute
   maintainers:
   - lyarwood@redhat.com
   - mbooth@redhat.com
@@ -1973,3 +1983,6 @@ packages:
   maintainers:
   - skaplons@redhat.com
   - abregman@redhat.com
+components:
+- name: common
+- name: compute
