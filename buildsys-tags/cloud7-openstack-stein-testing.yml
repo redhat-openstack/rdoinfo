@@ -91,7 +91,7 @@ packages:
     cloud7-openstack-stein-testing: python-ceilometermiddleware-1.4.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-cinder-14.0.2-1.el7
+    cloud7-openstack-stein-testing: openstack-cinder-14.0.2-2.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-testing: python-cinder-tests-tempest-0.2.0-1.el7
@@ -307,7 +307,7 @@ packages:
     cloud7-openstack-stein-testing: openstack-ironic-python-agent-3.6.2-1.el7
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-ironic-staging-drivers-0.11.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ironic-staging-drivers-0.11.0-2.el7
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-testing: python-ironic-tests-tempest-1.3.0-1.el7
