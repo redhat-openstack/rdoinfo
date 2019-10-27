@@ -76,7 +76,7 @@ packages:
     cloud7-openstack-queens-testing: python-ceilometermiddleware-1.2.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-cinder-12.0.9-1.el7
+    cloud7-openstack-queens-testing: openstack-cinder-12.0.10-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
@@ -295,7 +295,7 @@ packages:
     cloud7-openstack-queens-testing: instack-undercloud-8.4.9-1.el7
 - project: ironic
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-ironic-10.1.9-1.el7
+    cloud7-openstack-queens-testing: openstack-ironic-10.1.10-1.el7
 - project: ironic-inspector
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-ironic-inspector-7.2.4-1.el7
@@ -307,7 +307,7 @@ packages:
     cloud7-openstack-queens-testing: python-ironic-lib-2.12.3-1.el7
 - project: ironic-python-agent
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-ironic-python-agent-3.2.3-1.el7
+    cloud7-openstack-queens-testing: openstack-ironic-python-agent-3.2.4-1.el7
 - project: ironic-staging-drivers
   buildsys-tags:
     cloud7-openstack-queens-testing: openstack-ironic-staging-drivers-0.9.1-1.el7
@@ -316,7 +316,7 @@ packages:
     cloud7-openstack-queens-testing: python-ironic-tests-tempest-1.1.0-1.el7
 - project: ironic-ui
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-ironic-ui-3.1.2-1.el7
+    cloud7-openstack-queens-testing: openstack-ironic-ui-3.1.3-1.el7
 - project: ironicclient
   buildsys-tags:
     cloud7-openstack-queens-testing: python-ironicclient-2.2.2-1.el7
@@ -406,7 +406,7 @@ packages:
     cloud7-openstack-queens-testing: python-magnumclient-2.9.1-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-manila-6.3.1-1.el7
+    cloud7-openstack-queens-testing: openstack-manila-6.3.2-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
@@ -442,7 +442,7 @@ packages:
     cloud7-openstack-queens-testing: python-mistralclient-3.3.0-1.el7
 - project: monascaclient
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-monascaclient-1.10.0-1.el7
+    cloud7-openstack-queens-testing: python-monascaclient-1.10.1-1.el7
 - project: mox3
   buildsys-tags:
     cloud7-openstack-queens-testing: python-mox3-0.24.0-1.el7
@@ -490,7 +490,7 @@ packages:
     cloud7-openstack-queens-testing: python-networking-fujitsu-6.0.0-1.el7
 - project: networking-generic-switch
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-networking-generic-switch-1.0.0-1.el7
+    cloud7-openstack-queens-testing: python-networking-generic-switch-1.0.1-1.el7
 - project: networking-l2gw
   buildsys-tags:
     cloud7-openstack-queens-testing: python-networking-l2gw-12.0.1-1.el7
@@ -598,7 +598,7 @@ packages:
     cloud7-openstack-queens-testing: python-openstackclient-3.14.3-1.el7
 - project: openstacksdk
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-openstacksdk-0.11.3-1.el7
+    cloud7-openstack-queens-testing: python-openstacksdk-0.11.4-1.el7
 - project: openvswitch
   buildsys-tags:
     cloud7-openstack-queens-testing: openvswitch-2.11.0-4.el7
@@ -607,7 +607,7 @@ packages:
     cloud7-openstack-queens-testing: os-apply-config-8.3.2-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-os-brick-2.3.8-1.el7
+    cloud7-openstack-queens-testing: python-os-brick-2.3.9-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-queens-testing: python-os-client-config-1.29.0-1.el7
@@ -715,7 +715,7 @@ packages:
     cloud7-openstack-queens-testing: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
 - project: ovsdbapp
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-ovsdbapp-0.10.4-1.el7
+    cloud7-openstack-queens-testing: python-ovsdbapp-0.10.5-1.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-queens-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
