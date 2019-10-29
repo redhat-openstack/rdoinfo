@@ -37,4 +37,4 @@ def list_buildsys_tags(info):
     return tags
 
 if __name__ == '__main__':
-    verify('rdo.yml', include_fns=['deps.yml'])
+    verify('rdo-full.yml')
