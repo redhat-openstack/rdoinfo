@@ -91,7 +91,7 @@ packages:
     cloud7-openstack-stein-release: python-ceilometermiddleware-1.4.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-cinder-14.0.2-1.el7
+    cloud7-openstack-stein-release: openstack-cinder-14.0.2-2.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-cinder-tests-tempest-0.2.0-1.el7
@@ -286,7 +286,7 @@ packages:
     cloud7-openstack-stein-release: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-stein-release: python-django-horizon-15.1.0-1.el7
+    cloud7-openstack-stein-release: python-django-horizon-15.1.1-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-ironic-12.1.2-1.el7
@@ -304,7 +304,7 @@ packages:
     cloud7-openstack-stein-release: openstack-ironic-python-agent-3.6.2-1.el7
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-ironic-staging-drivers-0.11.0-1.el7
+    cloud7-openstack-stein-release: openstack-ironic-staging-drivers-0.11.0-2.el7
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-ironic-tests-tempest-1.3.0-1.el7
@@ -481,7 +481,7 @@ packages:
     cloud7-openstack-stein-release: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-neutron-14.0.2-1.el7
+    cloud7-openstack-stein-release: openstack-neutron-14.0.3-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-neutron-dynamic-routing-14.0.0-1.el7
@@ -784,7 +784,7 @@ packages:
     cloud7-openstack-stein-release: puppet-elasticsearch-6.3.3-1.835e679git.el7
 - project: puppet-etcd
   buildsys-tags:
-    cloud7-openstack-stein-release: puppet-etcd-1.12.2-2.7555287git.el7
+    cloud7-openstack-stein-release: puppet-etcd-1.12.3-1.el7
 - project: puppet-fdio
   buildsys-tags:
     cloud7-openstack-stein-release: puppet-fdio-18.01-3.6fd1c8egit.el7
@@ -1957,22 +1957,22 @@ packages:
     cloud7-openstack-stein-release: runc-1.0.0-60.dev.git2abd837.el7
 - project: sahara
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-sahara-10.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-sahara-10.0.1-1.el7
 - project: sahara-dashboard
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-sahara-ui-10.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-sahara-ui-10.0.1-1.el7
 - project: sahara-image-elements
   buildsys-tags:
-    cloud7-openstack-stein-release: sahara-image-elements-10.0.0-1.el7
+    cloud7-openstack-stein-release: sahara-image-elements-10.0.1-1.el7
 - project: sahara-plugin-ambari
   buildsys-tags:
     cloud7-openstack-stein-release: python-sahara-plugin-ambari-1.0.0-1.el7
 - project: sahara-plugin-cdh
   buildsys-tags:
-    cloud7-openstack-stein-release: python-sahara-plugin-cdh-1.0.0-1.el7
+    cloud7-openstack-stein-release: python-sahara-plugin-cdh-1.0.1-1.el7
 - project: sahara-plugin-mapr
   buildsys-tags:
-    cloud7-openstack-stein-release: python-sahara-plugin-mapr-1.0.0-1.el7
+    cloud7-openstack-stein-release: python-sahara-plugin-mapr-1.0.1-1.el7
 - project: sahara-plugin-spark
   buildsys-tags:
     cloud7-openstack-stein-release: python-sahara-plugin-spark-1.0.0-1.el7
