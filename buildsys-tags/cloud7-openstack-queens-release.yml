@@ -76,7 +76,7 @@ packages:
     cloud7-openstack-queens-release: python-ceilometermiddleware-1.2.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-cinder-12.0.9-1.el7
+    cloud7-openstack-queens-release: openstack-cinder-12.0.10-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
@@ -295,7 +295,7 @@ packages:
     cloud7-openstack-queens-release: instack-undercloud-8.4.9-1.el7
 - project: ironic
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-ironic-10.1.9-1.el7
+    cloud7-openstack-queens-release: openstack-ironic-10.1.10-1.el7
 - project: ironic-inspector
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-ironic-inspector-7.2.4-1.el7
@@ -304,10 +304,10 @@ packages:
     cloud7-openstack-queens-release: python-ironic-inspector-client-3.1.2-1.el7
 - project: ironic-lib
   buildsys-tags:
-    cloud7-openstack-queens-release: python-ironic-lib-2.12.3-1.el7
+    cloud7-openstack-queens-release: python-ironic-lib-2.12.4-1.el7
 - project: ironic-python-agent
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-ironic-python-agent-3.2.3-1.el7
+    cloud7-openstack-queens-release: openstack-ironic-python-agent-3.2.4-1.el7
 - project: ironic-staging-drivers
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-ironic-staging-drivers-0.9.1-1.el7
@@ -316,7 +316,7 @@ packages:
     cloud7-openstack-queens-release: python-ironic-tests-tempest-1.1.0-1.el7
 - project: ironic-ui
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-ironic-ui-3.1.2-1.el7
+    cloud7-openstack-queens-release: openstack-ironic-ui-3.1.3-1.el7
 - project: ironicclient
   buildsys-tags:
     cloud7-openstack-queens-release: python-ironicclient-2.2.2-1.el7
@@ -346,7 +346,7 @@ packages:
     cloud7-openstack-queens-release: python-keystonemiddleware-4.21.0-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-kolla-6.2.3-1.el7
+    cloud7-openstack-queens-release: openstack-kolla-6.2.4-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-queens-release: python-kuryr-lib-0.7.0-1.el7
@@ -406,7 +406,7 @@ packages:
     cloud7-openstack-queens-release: python-magnumclient-2.9.1-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-manila-6.3.1-1.el7
+    cloud7-openstack-queens-release: openstack-manila-6.3.2-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-manila-tests-tempest-0.0.1-0.1.d23abafgit.el7
@@ -442,7 +442,7 @@ packages:
     cloud7-openstack-queens-release: python-mistralclient-3.3.0-1.el7
 - project: monascaclient
   buildsys-tags:
-    cloud7-openstack-queens-release: python-monascaclient-1.10.0-1.el7
+    cloud7-openstack-queens-release: python-monascaclient-1.10.1-1.el7
 - project: mox3
   buildsys-tags:
     cloud7-openstack-queens-release: python-mox3-0.24.0-1.el7
@@ -490,7 +490,7 @@ packages:
     cloud7-openstack-queens-release: python-networking-fujitsu-6.0.0-1.el7
 - project: networking-generic-switch
   buildsys-tags:
-    cloud7-openstack-queens-release: python-networking-generic-switch-1.0.0-1.el7
+    cloud7-openstack-queens-release: python-networking-generic-switch-1.0.1-1.el7
 - project: networking-l2gw
   buildsys-tags:
     cloud7-openstack-queens-release: python-networking-l2gw-12.0.1-1.el7
@@ -499,10 +499,10 @@ packages:
     cloud7-openstack-queens-release: python-networking-l2gw-tests-tempest-0.0.1-0.1.8a8ec70git.el7
 - project: networking-odl
   buildsys-tags:
-    cloud7-openstack-queens-release: python-networking-odl-12.0.0-1.el7
+    cloud7-openstack-queens-release: python-networking-odl-12.0.1-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-queens-release: python-networking-ovn-4.0.3-1.el7
+    cloud7-openstack-queens-release: python-networking-ovn-4.0.4-1.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-queens-release: python-networking-sfc-6.0.0-1.el7
@@ -514,7 +514,7 @@ packages:
     cloud7-openstack-queens-release: openstack-neutron-dynamic-routing-12.0.1-2.el7
 - project: neutron-fwaas
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-neutron-fwaas-12.0.1-1.el7
+    cloud7-openstack-queens-release: openstack-neutron-fwaas-12.0.2-1.el7
 - project: neutron-lbaas
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-neutron-lbaas-12.0.0-1.el7
@@ -595,7 +595,7 @@ packages:
     cloud7-openstack-queens-release: python-openstackclient-3.14.3-1.el7
 - project: openstacksdk
   buildsys-tags:
-    cloud7-openstack-queens-release: python-openstacksdk-0.11.3-1.el7
+    cloud7-openstack-queens-release: python-openstacksdk-0.11.4-1.el7
 - project: openvswitch
   buildsys-tags:
     cloud7-openstack-queens-release: openvswitch-2.11.0-4.el7
@@ -604,7 +604,7 @@ packages:
     cloud7-openstack-queens-release: os-apply-config-8.3.2-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-queens-release: python-os-brick-2.3.8-1.el7
+    cloud7-openstack-queens-release: python-os-brick-2.3.9-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-queens-release: python-os-client-config-1.29.0-1.el7
@@ -709,7 +709,7 @@ packages:
     cloud7-openstack-queens-release: python-oswin-tests-tempest-0.0.1-0.1.e1ebf08git.el7
 - project: ovsdbapp
   buildsys-tags:
-    cloud7-openstack-queens-release: python-ovsdbapp-0.10.4-1.el7
+    cloud7-openstack-queens-release: python-ovsdbapp-0.10.5-1.el7
 - project: pacemaker
   buildsys-tags:
     cloud7-openstack-queens-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
@@ -2203,7 +2203,7 @@ packages:
     cloud7-openstack-queens-release: supervisor-3.3.1-2.el7
 - project: sushy
   buildsys-tags:
-    cloud7-openstack-queens-release: python-sushy-1.3.3-1.el7
+    cloud7-openstack-queens-release: python-sushy-1.3.4-1.el7
 - project: swift
   buildsys-tags:
     cloud7-openstack-queens-release: openstack-swift-2.17.1-1.el7
@@ -2212,7 +2212,7 @@ packages:
     cloud7-openstack-queens-release: openstack-swift-plugin-swift3-1.12.0-1.el7
 - project: swiftclient
   buildsys-tags:
-    cloud7-openstack-queens-release: python-swiftclient-3.5.0-1.el7
+    cloud7-openstack-queens-release: python-swiftclient-3.5.1-1.el7
 - project: sympy
   buildsys-tags:
     cloud7-openstack-queens-release: sympy-0.7.6-2.el7
@@ -2317,7 +2317,7 @@ packages:
     cloud7-openstack-queens-release: python-vmware-nsxlib-12.0.1-1.el7
 - project: watcher
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-watcher-1.8.0-1.el7
+    cloud7-openstack-queens-release: openstack-watcher-1.8.1-1.el7
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-watcher-tests-tempest-0.0.1-0.1.168c024git.el7
