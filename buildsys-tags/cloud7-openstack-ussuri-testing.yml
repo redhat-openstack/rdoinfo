@@ -725,6 +725,9 @@ packages:
 - project: python-netmiko
   buildsys-tags:
     cloud7-openstack-ussuri-testing: python-netmiko-2.3.0-1.el7
+- project: python-network-runner
+  buildsys-tags:
+    cloud7-openstack-ussuri-testing: python-network-runner-0.1.7-3.el7
 - project: python-networkx
   buildsys-tags:
     cloud7-openstack-ussuri-testing: python-networkx-2.2-3.el7
