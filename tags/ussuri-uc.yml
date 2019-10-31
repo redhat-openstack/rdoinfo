@@ -655,22 +655,18 @@ packages:
 - project: puppet-apache
   tags:
     ussuri-uc:
-      source-branch: 1fa9b1cdece0044186465883ecc940dd3b69827c
 - project: puppet-archive
   tags:
     ussuri-uc:
-      source-branch: 053816361ea7104711f3927431d0d8264ab41835
 - project: puppet-auditd
   tags:
     ussuri-uc:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
 - project: puppet-barbican
   tags:
     ussuri-uc:
 - project: puppet-cassandra
   tags:
     ussuri-uc:
-      source-branch: 9954256a6767d51c9dec30b7e7f755bb9734c8d8
 - project: puppet-ceilometer
   tags:
     ussuri-uc:
@@ -680,67 +676,54 @@ packages:
 - project: puppet-certmonger
   tags:
     ussuri-uc:
-      source-branch: a19887066c4978ad2567c881d60c14fcf0737bb2
 - project: puppet-cinder
   tags:
     ussuri-uc:
 - project: puppet-collectd
   tags:
     ussuri-uc:
-      source-branch: 785a71bd4be0d0e7e96aa6acea3c2120430058fc
 - project: puppet-concat
   tags:
     ussuri-uc:
-      source-branch: 9baa8fcbd1ab68cd32916bd5d90255f816bb9519
 - project: puppet-congress
   tags:
     ussuri-uc:
 - project: puppet-contrail
   tags:
     ussuri-uc:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
 - project: puppet-corosync
   tags:
     ussuri-uc:
-      source-branch: 961add3035fa4b57bf8cbd733a887e8b42d4dada
 - project: puppet-datacat
   tags:
     ussuri-uc:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
 - project: puppet-designate
   tags:
     ussuri-uc:
 - project: puppet-dns
   tags:
     ussuri-uc:
-      source-branch: 2ae1cd70184f64c42d0a3df9a64f90891e8b01aa
 - project: puppet-ec2api
   tags:
     ussuri-uc:
 - project: puppet-elasticsearch
   tags:
     ussuri-uc:
-      source-branch: 725afd6ccaa7707b387428d5cddf2ecbc8311d2c
 - project: puppet-etcd
   tags:
     ussuri-uc:
-      source-branch: 39faa948f68c8e8ac0337ea74c1406da776cd71b
 - project: puppet-fdio
   tags:
     ussuri-uc:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
 - project: puppet-firewall
   tags:
     ussuri-uc:
-      source-branch: 4f4437ad800d5697bafc8346c1627e1c4b5b607f
 - project: puppet-fluentd
   tags:
     ussuri-uc:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
 - project: puppet-git
   tags:
     ussuri-uc:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
 - project: puppet-glance
   tags:
     ussuri-uc:
@@ -750,7 +733,6 @@ packages:
 - project: puppet-haproxy
   tags:
     ussuri-uc:
-      source-branch: df96ffc5276ee316be925f9423612e9190055d8f
 - project: puppet-heat
   tags:
     ussuri-uc:
@@ -760,41 +742,33 @@ packages:
 - project: puppet-inifile
   tags:
     ussuri-uc:
-      source-branch: 91efced79bb9011e162eea35e4a0d9ad12e267a1
 - project: puppet-ipaclient
   tags:
     ussuri-uc:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 - project: puppet-ironic
   tags:
     ussuri-uc:
 - project: puppet-java
   tags:
     ussuri-uc:
-      source-branch: e57cbc84ec8d77cee708afbc4e53274d0352f5ba
 - project: puppet-kafka
   tags:
     ussuri-uc:
-      source-branch: 88aa8669a77a87d518df308ec86177c04acc7b4b
 - project: puppet-keepalived
   tags:
     ussuri-uc:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-keystone
   tags:
     ussuri-uc:
 - project: puppet-kibana3
   tags:
     ussuri-uc:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-kmod
   tags:
     ussuri-uc:
-      source-branch: 41e2a2bcbe30cfb48bb061ac9ad6d74527fe87c1
 - project: puppet-lib-file_concat
   tags:
     ussuri-uc:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
 - project: puppet-magnum
   tags:
     ussuri-uc:
@@ -804,7 +778,6 @@ packages:
 - project: puppet-memcached
   tags:
     ussuri-uc:
-      source-branch: 66d3a667d4e7e0253949f9d83c230b5f8ccca596
 - project: puppet-midonet
   tags:
     ussuri-uc:
@@ -814,11 +787,9 @@ packages:
 - project: puppet-module-data
   tags:
     ussuri-uc:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mongodb
   tags:
     ussuri-uc:
-      source-branch: 041bd39b010d3db4134f3ed8e23c3e5d06bcbaaf
 - project: puppet-murano
   tags:
     ussuri-uc:
@@ -840,7 +811,6 @@ packages:
 - project: puppet-nssdb
   tags:
     ussuri-uc:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-ntp
   tags:
     ussuri-uc:
@@ -876,30 +846,24 @@ packages:
 - project: puppet-powerdns
   tags:
     ussuri-uc:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
 - project: puppet-qdr
   tags:
     ussuri-uc:
 - project: puppet-rabbitmq
   tags:
     ussuri-uc:
-      source-branch: 75574b8f4a921cacda86ff30d378308084afa0d4
 - project: puppet-redis
   tags:
     ussuri-uc:
-      source-branch: be8d097f849afaca6c381d105a4bf80bbd691a40
 - project: puppet-remote
   tags:
     ussuri-uc:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
     ussuri-uc:
-      source-branch: a7d4f8487cf9492106690637d3e7d484876943e6
 - project: puppet-rsyslog
   tags:
     ussuri-uc:
-      source-branch: 0c2b6c8d6ef5401e069a7ba2d69d33aedb295fd1
 - project: puppet-sahara
   tags:
     ussuri-uc:
@@ -918,26 +882,21 @@ packages:
 - project: puppet-ssh
   tags:
     ussuri-uc:
-      source-branch: 65570a311e1303d8084d12ee82868e6d0f411e8a
 - project: puppet-staging
   tags:
     ussuri-uc:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-stdlib
   tags:
     ussuri-uc:
-      source-branch: 5aa891c2ef8efce6eb6d1ff12e976b4753b3c4d9
 - project: puppet-swift
   tags:
     ussuri-uc:
 - project: puppet-sysctl
   tags:
     ussuri-uc:
-      source-branch: a3d160d7c79cc905fc1d10a4fd8b4c1488e017b4
 - project: puppet-systemd
   tags:
     ussuri-uc:
-      source-branch: f0ce6f04aa89c002cd9ba721c6f5d91177f32afc
 - project: puppet-tacker
   tags:
     ussuri-uc:
@@ -947,11 +906,9 @@ packages:
 - project: puppet-timezone
   tags:
     ussuri-uc:
-      source-branch: 21b4a581ff226b7945c2a5e43d060d1d57667352
 - project: puppet-tomcat
   tags:
     ussuri-uc:
-      source-branch: a3f92d1f1e2fcd0bb773e4ebe37c5a205b55ac72
 - project: puppet-tripleo
   tags:
     ussuri-uc:
@@ -961,22 +918,18 @@ packages:
 - project: puppet-uchiwa
   tags:
     ussuri-uc:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
     ussuri-uc:
-      source-branch: b06d5d378e80d03c5dea40a89e83449191064ddc
 - project: puppet-veritas_hyperscale
   tags:
     ussuri-uc:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
 - project: puppet-vitrage
   tags:
     ussuri-uc:
 - project: puppet-vlan
   tags:
     ussuri-uc:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-vswitch
   tags:
     ussuri-uc:
@@ -986,14 +939,12 @@ packages:
 - project: puppet-xinetd
   tags:
     ussuri-uc:
-      source-branch: d768da2f645001395ef1c796bb03d0b9bcc733f5
 - project: puppet-zaqar
   tags:
     ussuri-uc:
 - project: puppet-zookeeper
   tags:
     ussuri-uc:
-      source-branch: 5877cbf66372dba04d3a1b84016b83d4e06320bc
 - project: pycadf
   tags:
     ussuri-uc:
