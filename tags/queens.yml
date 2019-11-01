@@ -232,11 +232,11 @@ packages:
 - project: keystoneauth1
   tags:
     queens:
-      source-branch: 3.4.0
+      source-branch: 3.4.1
 - project: keystoneclient
   tags:
     queens:
-      source-branch: 3.15.0
+      source-branch: 3.15.1
 - project: keystonemiddleware
   tags:
     queens:
@@ -412,7 +412,7 @@ packages:
 - project: novaclient
   tags:
     queens:
-      source-branch: 10.1.0
+      source-branch: 10.1.1
 - project: novajoin
   tags:
     queens:
@@ -488,7 +488,7 @@ packages:
 - project: os-vif
   tags:
     queens:
-      source-branch: 1.9.1
+      source-branch: 1.9.2
 - project: os-win
   tags:
     queens:
