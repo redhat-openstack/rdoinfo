@@ -331,7 +331,7 @@ packages:
     cloud7-openstack-queens-testing: jsoncpp-0.10.5-2.el7
 - project: keystone
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-keystone-13.0.2-2.el7
+    cloud7-openstack-queens-testing: openstack-keystone-13.0.3-1.el7
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-keystone-tests-tempest-0.0.1-0.1.12689f5git.el7
@@ -544,7 +544,7 @@ packages:
     cloud7-openstack-queens-testing: nodejs-packaging-9-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-nova-17.0.12-1.el7
+    cloud7-openstack-queens-testing: openstack-nova-17.0.13-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-queens-testing: python-novaclient-10.1.0-1.el7
