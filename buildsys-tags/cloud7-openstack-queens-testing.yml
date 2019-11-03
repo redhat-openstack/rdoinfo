@@ -331,16 +331,16 @@ packages:
     cloud7-openstack-queens-testing: jsoncpp-0.10.5-2.el7
 - project: keystone
   buildsys-tags:
-    cloud7-openstack-queens-testing: openstack-keystone-13.0.3-1.el7
+    cloud7-openstack-queens-testing: openstack-keystone-13.0.4-1.el7
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-keystone-tests-tempest-0.0.1-0.1.12689f5git.el7
 - project: keystoneauth1
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-keystoneauth1-3.4.0-1.el7
+    cloud7-openstack-queens-testing: python-keystoneauth1-3.4.1-1.el7
 - project: keystoneclient
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-keystoneclient-3.15.0-1.el7
+    cloud7-openstack-queens-testing: python-keystoneclient-3.15.1-1.el7
 - project: keystonemiddleware
   buildsys-tags:
     cloud7-openstack-queens-testing: python-keystonemiddleware-4.21.0-1.el7
@@ -547,7 +547,7 @@ packages:
     cloud7-openstack-queens-testing: openstack-nova-17.0.13-1.el7
 - project: novaclient
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-novaclient-10.1.0-1.el7
+    cloud7-openstack-queens-testing: python-novaclient-10.1.1-1.el7
 - project: novajoin
   buildsys-tags:
     cloud7-openstack-queens-testing: python-novajoin-1.1.1-2.el7
@@ -634,7 +634,7 @@ packages:
     cloud7-openstack-queens-testing: python-os-traits-0.5.0-1.el7
 - project: os-vif
   buildsys-tags:
-    cloud7-openstack-queens-testing: python-os-vif-1.9.1-1.el7
+    cloud7-openstack-queens-testing: python-os-vif-1.9.2-1.el7
 - project: os-win
   buildsys-tags:
     cloud7-openstack-queens-testing: python-os-win-3.0.1-1.el7
