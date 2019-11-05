@@ -1013,6 +1013,9 @@ packages:
 - project: python-textfsm
   buildsys-tags:
     cloud7-openstack-ussuri-testing: python-textfsm-0.3.2-1.el7
+- project: python-timeout-decorator
+  buildsys-tags:
+    cloud7-openstack-ussuri-testing: python-timeout-decorator-0.4.1-2.el7
 - project: python-tinyrpc
   buildsys-tags:
     cloud7-openstack-ussuri-testing: python-tinyrpc-0.5-4.20170523git1f38ac.el7
