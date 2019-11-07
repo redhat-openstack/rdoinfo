@@ -352,7 +352,7 @@ packages:
     cloud7-openstack-train-testing: python-keystonemiddleware-7.0.1-2.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-kolla-8.0.1-1.1.98fb7dcgit.el7
+    cloud7-openstack-train-testing: openstack-kolla-9.0.0-0.1.0rc1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-train-testing: python-kuryr-lib-1.1.1-1.el7
@@ -391,7 +391,7 @@ packages:
     cloud7-openstack-train-testing: libwebsockets-3.0.1-2.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-magnum-9.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-magnum-9.1.0-1.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-magnum-tests-tempest-0.3.0-1.el7
@@ -682,7 +682,7 @@ packages:
     cloud7-openstack-train-testing: python-oslo-upgradecheck-0.3.2-1.el7
 - project: oslo-utils
   buildsys-tags:
-    cloud7-openstack-train-testing: python-oslo-utils-3.41.1-2.el7
+    cloud7-openstack-train-testing: python-oslo-utils-3.41.2-1.el7
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud7-openstack-train-testing: python-oslo-versionedobjects-1.36.1-1.el7
