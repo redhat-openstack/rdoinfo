@@ -403,7 +403,7 @@ packages:
     cloud7-openstack-train-release: python-magnumclient-2.15.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-manila-9.0.0-1.el7
+    cloud7-openstack-train-release: openstack-manila-9.1.0-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-manila-tests-tempest-0.4.0-1.el7
@@ -520,7 +520,7 @@ packages:
     cloud7-openstack-train-release: python-neutronclient-6.14.0-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-nova-20.0.0-1.el7
+    cloud7-openstack-train-release: openstack-nova-20.0.1-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-release: python-novaclient-15.1.0-1.el7
