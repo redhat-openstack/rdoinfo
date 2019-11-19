@@ -1,0 +1,19 @@
+- job:
+    name: weirdo-dlrn-master-puppet-scenario001
+    parent: legacy-weirdo-dlrn-master-puppet-scenario001
+
+- job:
+    name: new-tripleo-ci-centos-7-multinode-1ctlr-featureset016
+    parent: tripleo-ci-centos-7-multinode-1ctlr-featureset016
+
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check
+        - weirdo-dlrn-master-puppet-scenario001:
+            dependencies:
+              - rdoinfo-DLRN-check
+        - new-tripleo-ci-centos-7-multinode-1ctlr-featureset016:
+            dependencies:
+              - rdoinfo-DLRN-check
+
