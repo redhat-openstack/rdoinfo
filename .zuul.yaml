@@ -1,0 +1,19 @@
+- job:
+    name: weirdo-dlrn-master-puppet-scenario001
+    parent: legacy-weirdo-dlrn-master-puppet-scenario001
+
+- job:
+    name: new-distgit-tripleo-master-testing-centos-7-standalone-featureset016
+    parent: distgit-tripleo-master-testing-centos-7-standalone-featureset016
+
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check
+        - weirdo-dlrn-master-puppet-scenario001:
+            dependencies:
+              - rdoinfo-DLRN-check
+        - new-distgit-tripleo-master-testing-centos-7-standalone-featureset016:
+            dependencies:
+              - rdoinfo-DLRN-check
+
