@@ -8,3 +8,6 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: ovn-2.12.0-3.el7
+- project: python-amqp
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: python-amqp-2.5.2-2.el7
