@@ -70,7 +70,7 @@ packages:
     cloud7-openstack-rocky-testing: python-ceilometermiddleware-1.3.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-cinder-13.0.7-1.el7
+    cloud7-openstack-rocky-testing: openstack-cinder-13.0.7-2.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-cinder-tests-tempest-0.1.0-1.el7
@@ -379,7 +379,7 @@ packages:
     cloud7-openstack-rocky-testing: openstack-mistral-ui-7.0.1-1.el7
 - project: mistral-lib
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-mistral-lib-1.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-mistral-lib-1.0.1-1.el7
 - project: mistral-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-mistral-tests-tempest-0.1.0-1.el7
@@ -481,7 +481,7 @@ packages:
     cloud7-openstack-rocky-testing: openstack-nova-18.2.3-1.el7
 - project: novaclient
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-novaclient-11.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-novaclient-11.0.1-1.el7
 - project: novajoin
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-novajoin-1.1.1-2.el7
@@ -562,7 +562,7 @@ packages:
     cloud7-openstack-rocky-testing: python-os-traits-0.9.0-1.el7
 - project: os-vif
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-os-vif-1.11.1-1.el7
+    cloud7-openstack-rocky-testing: python-os-vif-1.11.2-1.el7
 - project: os-win
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-os-win-4.0.1-1.el7
