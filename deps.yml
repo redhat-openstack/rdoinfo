@@ -514,6 +514,7 @@ packages:
 - project: python-pandas
   name: python-pandas
   conf: rdo-dependency
+  upstream: https://github.com/pandas-dev/pandas.git
 - project: radiusclient-ng
   name: radiusclient-ng
   conf: fedora-dependency
