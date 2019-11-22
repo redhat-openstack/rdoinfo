@@ -76,7 +76,7 @@ packages:
     cloud7-openstack-queens-release: python-ceilometermiddleware-1.2.0-1.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-queens-release: openstack-cinder-12.0.10-1.el7
+    cloud7-openstack-queens-release: openstack-cinder-12.0.10-2.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-queens-release: python-cinder-tests-tempest-0.0.1-0.1.46b433fgit.el7
@@ -958,7 +958,7 @@ packages:
     cloud7-openstack-queens-release: puppet-staging-1.0.4-1.b466d93git.el7
 - project: puppet-stdlib
   buildsys-tags:
-    cloud7-openstack-queens-release: puppet-stdlib-4.24.0-1.b0d99adgit.el7
+    cloud7-openstack-queens-release: puppet-stdlib-4.25.1-1.2f85336git.el7
 - project: puppet-swift
   buildsys-tags:
     cloud7-openstack-queens-release: puppet-swift-12.4.0-1.el7
