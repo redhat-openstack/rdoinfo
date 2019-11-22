@@ -94,7 +94,7 @@ packages:
     cloud7-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-cinder-15.0.0-1.el7
+    cloud7-openstack-train-release: openstack-cinder-15.0.0-2.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-cinder-tests-tempest-0.3.0-1.el7
@@ -433,7 +433,7 @@ packages:
     cloud7-openstack-train-release: openstack-mistral-ui-9.0.0-1.el7
 - project: mistral-lib
   buildsys-tags:
-    cloud7-openstack-train-release: python-mistral-lib-1.2.0-1.el7
+    cloud7-openstack-train-release: python-mistral-lib-1.2.1-1.el7
 - project: mistral-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-mistral-tests-tempest-0.3.0-1.el7
@@ -685,7 +685,7 @@ packages:
     cloud7-openstack-train-release: python-oslo-upgradecheck-0.3.2-1.el7
 - project: oslo-utils
   buildsys-tags:
-    cloud7-openstack-train-release: python-oslo-utils-3.41.2-1.el7
+    cloud7-openstack-train-release: python-oslo-utils-3.41.3-1.el7
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud7-openstack-train-release: python-oslo-versionedobjects-1.36.1-1.el7
