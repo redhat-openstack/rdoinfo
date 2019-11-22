@@ -409,7 +409,7 @@ packages:
     cloud7-openstack-stein-release: openstack-mistral-ui-8.0.0-1.el7
 - project: mistral-lib
   buildsys-tags:
-    cloud7-openstack-stein-release: python-mistral-lib-1.1.0-1.el7
+    cloud7-openstack-stein-release: python-mistral-lib-1.1.1-1.el7
 - project: mistral-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-mistral-tests-tempest-0.2.0-1.el7
@@ -511,7 +511,7 @@ packages:
     cloud7-openstack-stein-release: openstack-nova-19.0.3-1.el7
 - project: novaclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-novaclient-13.0.1-1.el7
+    cloud7-openstack-stein-release: python-novaclient-13.0.2-1.el7
 - project: novajoin
   buildsys-tags:
     cloud7-openstack-stein-release: python-novajoin-1.1.1-2.el7
