@@ -11,3 +11,6 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: python-amqp-2.5.2-2.el7
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud7-openstack-ussuri-testing: python-ansible-runner-1.4.4-1.el7
