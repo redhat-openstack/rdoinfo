@@ -403,10 +403,10 @@ packages:
     cloud7-openstack-stein-release: python-microversion-parse-0.2.1-1.el7
 - project: mistral
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-mistral-8.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-mistral-8.1.0-1.el7
 - project: mistral-dashboard
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-mistral-ui-8.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-mistral-ui-8.1.0-1.el7
 - project: mistral-lib
   buildsys-tags:
     cloud7-openstack-stein-release: python-mistral-lib-1.1.1-1.el7
@@ -562,7 +562,7 @@ packages:
     cloud7-openstack-stein-release: openstack-utils-2017.1-1.el7
 - project: openstackclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-openstackclient-3.18.0-1.el7
+    cloud7-openstack-stein-release: python-openstackclient-3.18.1-1.el7
 - project: openstacksdk
   buildsys-tags:
     cloud7-openstack-stein-release: python-openstacksdk-0.27.0-1.el7
