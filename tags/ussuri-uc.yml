@@ -206,6 +206,7 @@ packages:
 - project: ironic
   tags:
     ussuri-uc:
+      source-branch: 6efcfd8c5fa6abded715abbd7aaaeb019ed364ed
 - project: ironic-inspector
   tags:
     ussuri-uc:
@@ -230,6 +231,7 @@ packages:
 - project: ironic-staging-drivers
   tags:
     ussuri-uc:
+      source-branch: 77de3d5bb9cb049c39247a7892c99a7cacc11417
 - project: ironic-tempest-plugin
   tags:
     ussuri-uc:
@@ -365,6 +367,7 @@ packages:
 - project: networking-baremetal
   tags:
     ussuri-uc:
+      source-branch: 8a8034c766a385035eaefb6bb2818d4e2d41e59f
 - project: networking-bgpvpn
   tags:
     ussuri-uc:
