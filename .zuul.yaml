@@ -1,0 +1,16 @@
+- project:
+    check:
+      jobs:
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset017-queens:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/queens.yml$
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset020-queens:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/queens.yml$
+
