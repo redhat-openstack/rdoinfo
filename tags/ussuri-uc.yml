@@ -380,6 +380,7 @@ packages:
 - project: networking-generic-switch
   tags:
     ussuri-uc:
+      source-branch: d42a3fcf9ceabf9d2e2d44d89180c4a150099ba9
 - project: networking-l2gw
   tags:
     ussuri-uc:
@@ -403,6 +404,7 @@ packages:
 - project: neutron
   tags:
     ussuri-uc:
+      source-branch: 8375f4cc1c0001d271faa39361882599daa873fe
 - project: neutron-dynamic-routing
   tags:
     ussuri-uc:
