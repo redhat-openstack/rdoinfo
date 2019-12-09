@@ -1,0 +1,17 @@
+- project:
+    check:
+      jobs:
+        - legacy-rdoinfo-DLRN-check
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset017-train:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein.yml$
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset020-train:
+            dependencies:
+              - legacy-rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+
