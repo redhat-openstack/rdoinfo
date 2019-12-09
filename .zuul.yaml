@@ -1,0 +1,12 @@
+- project:
+    check:
+      jobs:
+        - periodic-tripleo-ci-centos-7-scenario002-standalone-master:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            vars:
+              release: train
+              branch_override: "stable/train"
+            files:
+              - ^tags/train.yml$
