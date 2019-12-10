@@ -871,7 +871,11 @@ packages:
     ussuri-uc:
 - project: puppet-rsyslog
   tags:
+    # NOTE(aschultz): rsyslog broke backwards compatibility with
+    # # https://github.com/voxpupuli/puppet-rsyslog/pull/136
     ussuri-uc:
+      source-branch: f0c000314d6ad5b1a5051c7cd251cdbd44ee98ef
+
 - project: puppet-sahara
   tags:
     ussuri-uc:
