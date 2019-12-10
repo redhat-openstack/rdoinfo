@@ -2,6 +2,7 @@ import:
 - tags.yml
 releases:
 - name: ussuri
+  status: development
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -20,6 +21,7 @@ releases:
       url: http://mirror.centos.org/centos/7/updates/x86_64/
     - name: CentOS 7 Extras
 - name: train
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -39,6 +41,7 @@ releases:
       url: http://mirror.centos.org/centos/7/updates/x86_64/
     - name: CentOS 7 Extras
 - name: stein
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -59,6 +62,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: rocky
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -79,6 +83,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: queens
+  status: extended maintenance
   branch: queens-rdo
   repos:
   - name: el7
@@ -97,6 +102,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: pike
+  status: extended maintenance
   branch: pike-rdo
   repos:
   - name: el7
@@ -115,6 +121,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: ocata
+  status: extended maintenance
   branch: ocata-rdo
   repos:
   - name: el7
