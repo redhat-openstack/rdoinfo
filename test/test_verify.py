@@ -1,14 +1,63 @@
 from __future__ import print_function
 import pytest
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from distroinfo import info
 
 
-# TODO(ssbarnea): Remove xfail as soon we resolve the broken URLs
-@pytest.mark.xfail
+retry_strategy = Retry(
+    total=3,
+    backoff_factor=5,
+    status_forcelist=[429, 500, 502, 503, 504],
+    method_whitelist=["HEAD", "GET", "OPTIONS"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session = requests.Session()
+session.mount("https://", adapter)
+session.mount("http://", adapter)
+
+
+broken_urls = """
+https://github.com/rdo-common/UcsSdk
+https://github.com/rdo-common/atomic
+https://github.com/rdo-common/buildah
+https://github.com/rdo-common/container-selinux
+https://github.com/rdo-common/container-storage-setup
+https://github.com/rdo-common/containernetworking-plugins
+https://github.com/rdo-common/etcd
+https://github.com/rdo-common/go-srpm-macros
+https://github.com/rdo-common/golang
+https://github.com/rdo-common/gtest
+https://github.com/rdo-common/libseccomp
+https://github.com/rdo-common/libsodium
+https://github.com/rdo-common/libwebsockets
+https://github.com/rdo-common/oci-systemd-hook
+https://github.com/rdo-common/oci-umount
+https://github.com/rdo-common/podman
+https://github.com/rdo-common/python-backports-ssl_match_hostname
+https://github.com/rdo-common/python-chardet
+https://github.com/rdo-common/runc
+https://github.com/rdo-common/slirp4netns
+https://github.com/rdo-packages/os-log-merger-distgit
+https://src.fedoraproject.org/rpms/python-XStatic-Angular-Schema-Form
+https://src.fedoraproject.org/rpms/python-XStatic-objectpath
+https://src.fedoraproject.org/rpms/python-XStatic-tv4
+https://src.fedoraproject.org/rpms/python-appdirs
+https://src.fedoraproject.org/rpms/python-django-discover-runner
+https://src.fedoraproject.org/rpms/python-edengrid
+https://src.fedoraproject.org/rpms/python-string_utils
+https://src.fedoraproject.org/rpms/rdo-rpm-macros
+https://src.fedoraproject.org/rpms/sphinxcontrib-apidoc
+""".split()
+
+
 def test_url(url):
-    r = requests.head(url)
+    """Checks that URL returns 200 error code."""
+    r = session.head(url)
     if r.status_code not in [200, 301, 302]:
+        if url in broken_urls:
+            pytest.skip("Fix known broken url: %s" % url)
         raise Exception(
             "ERROR: %s returned %s\n%s\n%s",
             url, r, r.headers, r.content)
