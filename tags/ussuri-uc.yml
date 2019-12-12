@@ -90,6 +90,7 @@ packages:
 - project: cloudkittyclient
   tags:
     ussuri-uc:
+      source-branch: 3.1.0
 - project: collectd-gnocchi
   tags:
     ussuri-uc:
@@ -414,7 +415,7 @@ packages:
 - project: neutron-lib
   tags:
     ussuri-uc:
-      source-branch: 1.29.1
+      source-branch: 1.30.0
 - project: neutron-tempest-plugin
   tags:
     ussuri-uc:
@@ -541,7 +542,7 @@ packages:
 - project: oslo-concurrency
   tags:
     ussuri-uc:
-      source-branch: 3.30.0
+      source-branch: 3.31.0
 - project: oslo-config
   tags:
     ussuri-uc:
@@ -565,7 +566,7 @@ packages:
 - project: oslo-messaging
   tags:
     ussuri-uc:
-      source-branch: 10.3.0
+      source-branch: 10.4.0
 - project: oslo-middleware
   tags:
     ussuri-uc:
@@ -605,7 +606,7 @@ packages:
 - project: oslo-utils
   tags:
     ussuri-uc:
-      source-branch: 3.42.0
+      source-branch: 3.42.1
 - project: oslo-versionedobjects
   tags:
     ussuri-uc:
