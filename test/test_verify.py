@@ -4,11 +4,43 @@ import requests
 from distroinfo import info
 
 
-# TODO(ssbarnea): Remove xfail as soon we resolve the broken URLs
-@pytest.mark.xfail
+broken_urls = """
+https://github.com/rdo-common/UcsSdk
+https://github.com/rdo-common/atomic
+https://github.com/rdo-common/buildah
+https://github.com/rdo-common/container-selinux
+https://github.com/rdo-common/container-storage-setup
+https://github.com/rdo-common/containernetworking-plugins
+https://github.com/rdo-common/go-srpm-macros
+https://github.com/rdo-common/golang
+https://github.com/rdo-common/gtest
+https://github.com/rdo-common/libseccomp
+https://github.com/rdo-common/libsodium
+https://github.com/rdo-common/libwebsockets
+https://github.com/rdo-common/oci-systemd-hook
+https://github.com/rdo-common/oci-umount
+https://github.com/rdo-common/podman
+https://github.com/rdo-common/python-backports-ssl_match_hostname
+https://github.com/rdo-common/python-chardet
+https://github.com/rdo-common/runc
+https://github.com/rdo-common/slirp4netns
+https://github.com/rdo-packages/os-log-merger-distgit
+https://src.fedoraproject.org/rpms/python-XStatic-Angular-Schema-Form
+https://src.fedoraproject.org/rpms/python-XStatic-objectpath
+https://src.fedoraproject.org/rpms/python-XStatic-tv4
+https://src.fedoraproject.org/rpms/python-django-discover-runner
+https://src.fedoraproject.org/rpms/python-string_utils
+https://src.fedoraproject.org/rpms/rdo-rpm-macros
+https://src.fedoraproject.org/rpms/sphinxcontrib-apidoc
+""".split()
+
+
 def test_url(url):
+    """Checks that URL returns 200 error code."""
     r = requests.head(url)
     if r.status_code not in [200]:
+        if url in broken_urls:
+            pytest.skip("Fix known broken url: %s" % url)
         raise Exception(
             "ERROR: %s returned %s\n%s\n%s",
             url, r, r.headers, r.content)
