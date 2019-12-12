@@ -2,9 +2,9 @@ package-configs:
   fedora-dependency:
      # This is the conf for dependencies rebuilt from Fedora distgit
      # and using cbs-tags for automatic tagging
-    distgit: https://src.fedoraproject.org/git/rpms/%(project)s.git
+    distgit: https://src.fedoraproject.org/rpms/%(project)s
     patches:
-    master-distgit: https://src.fedoraproject.org/git/rpms/%(project)s.git
+    master-distgit: https://src.fedoraproject.org/rpms/%(project)s
     review-patches:
     review-origin:
     tags:
@@ -14,9 +14,9 @@ package-configs:
   rdo-dependency:
      # This is the conf for dependencies in rdo-common not being entirely managed
      # in review.r.o but using cbs-tags for automatic tagging
-    distgit: https://github.com/rdo-common/%(project)s.git
+    distgit: https://github.com/rdo-common/%(project)s
     patches:
-    master-distgit: https://github.com/rdo-common/%(project)s.git
+    master-distgit: https://github.com/rdo-common/%(project)s
     review-patches:
     review-origin:
     tags:
@@ -1825,6 +1825,7 @@ packages:
   - quique.llorente@gmail.com
 - project: oci-systemd-hook
   name: oci-systemd-hook
+  upstream: https://github.com/projectatomic/oci-systemd-hook
   conf: rdo-dependency
   maintainers:
   - quique.llorente@gmail.com
