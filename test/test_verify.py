@@ -1,0 +1,71 @@
+from __future__ import print_function
+import logging
+import os
+import pytest
+import requests
+import subprocess
+import shlex
+import sys
+from pipes import quote
+import yaml
+import warnings
+from distroinfo import info
+
+
+def test_foo():
+    pass
+
+
+def test_url(url):
+    r = requests.head(url)
+    if r.status_code not in [200]:
+        raise Exception("ERROR: %s returned %s\n%s\n%s", url, r, r.headers, r.content)
+
+
+def pytest_generate_tests(metafunc):
+
+    if 'url' in metafunc.fixturenames:
+
+        fn='rdo-full.yml'
+        include_fns = []
+
+        inforepo = info.DistroInfo(
+                info_files=[fn] + include_fns,
+                local_info='.').get_info()
+        buildsystags = list_buildsys_tags(inforepo)
+
+        urls = set()
+        for pkg in inforepo['packages']:
+            verify_buildsys_tags(pkg, buildsystags)
+            for x in ['distgit', 'master-distgit']:
+                if x in pkg:
+                    urls.add(pkg[x])
+        metafunc.parametrize("url", urls)
+
+
+def verify_buildsys_tags(pkg, buildsystags):
+    if 'buildsys-tags' in pkg.keys():
+        btags = pkg['buildsys-tags']
+        for btag in btags.keys():
+            if btag in buildsystags:
+                value = btags[btag]
+                if value is None and btag != 'version-locked':
+                    raise Exception("buildsys-tag %s for package %s is empty" %
+                                    (btag, pkg['name']))
+            else:
+                raise Exception("buildsys-tag %s for package %s does not exist" %
+                                (btag, pkg['name']))
+    return True
+
+
+
+def list_buildsys_tags(info):
+    tags = ['version-locked']
+    for release in info['releases']:
+        for repo in release['repos']:
+            if 'buildsys-tags' in repo.keys():
+                tags = tags + repo['buildsys-tags']
+    return tags
+
+# if __name__ == '__main__':
+#     verify('rdo-full.yml')
