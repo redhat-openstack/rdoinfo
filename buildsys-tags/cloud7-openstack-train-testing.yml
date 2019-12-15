@@ -491,6 +491,9 @@ packages:
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-l2gw-tests-tempest-0.1.0-1.a3af33bgit.el7
+- project: networking-mlnx
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-networking-mlnx-15.0.1-1.el7
 - project: networking-odl
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-odl-15.0.0-1.el7
