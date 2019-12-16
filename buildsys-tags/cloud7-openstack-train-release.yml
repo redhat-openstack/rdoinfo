@@ -101,6 +101,9 @@ packages:
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-train-release: python-cinderclient-5.0.0-1.el7
+- project: cinderlib
+  buildsys-tags:
+    cloud7-openstack-train-release: python-cinderlib-1.0.0-1.el7
 - project: cliff
   buildsys-tags:
     cloud7-openstack-train-release: python-cliff-2.16.0-2.el7
@@ -352,7 +355,7 @@ packages:
     cloud7-openstack-train-release: python-keystonemiddleware-7.0.1-2.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-kolla-9.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-release: openstack-kolla-9.0.0-0.2.0rc2.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-train-release: python-kuryr-lib-1.1.1-1.el7
