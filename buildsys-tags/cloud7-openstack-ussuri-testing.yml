@@ -995,6 +995,9 @@ packages:
 - project: python-tables
   buildsys-tags:
     cloud7-openstack-ussuri-testing: python-tables-3.3.0-4.el7
+- project: python-tabulate
+  buildsys-tags:
+    cloud7-openstack-ussuri-testing: python-tabulate-0.8.5-2.el7
 - project: python-tempita
   buildsys-tags:
     cloud7-openstack-ussuri-testing: python-tempita-0.5.1-8.el7
