@@ -2079,6 +2079,12 @@ packages:
   component: tripleo
   maintainers:
   - jrouleau@redhat.com
+- project: tripleo-operator-ansible
+  name: tripleo-operator-ansible
+  conf: rpmfactory-core
+  component: tripleo
+  maintainers:
+  - aschultz@next-development.com
 - project: puppet-placement
   upstream: https://git.openstack.org/openstack/puppet-placement
   conf: rpmfactory-puppet
