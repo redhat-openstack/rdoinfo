@@ -14,3 +14,6 @@ packages:
 - project: python-ansible-runner
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: python-ansible-runner-1.4.4-1.el7
+- project: python-kombu
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: python-kombu-4.6.6-2.el7
