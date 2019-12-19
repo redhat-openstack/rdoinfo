@@ -8,6 +8,9 @@ releases:
   - name: el7
     buildsys: cbs/cloud7-openstack-ussuri-el7
     buildsys-tags:
+    - cloud8-openstack-ussuri-el7-build
+    - cloud8-openstack-ussuri-candidate
+    - cloud8-openstack-ussuri-testing
     - cloud7-openstack-ussuri-el7-build
     - cloud7-openstack-ussuri-candidate
     - cloud7-openstack-ussuri-testing
