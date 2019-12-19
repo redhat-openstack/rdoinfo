@@ -1,0 +1,199 @@
+packages:
+- project: asio
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: asio-1.10.8-10.el8
+- project: golang-github-BurntSushi-toml
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-BurntSushi-toml-0.3.1-2.el8
+- project: golang-github-Sirupsen-logrus
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-Sirupsen-logrus-1.0.4-4.20180305gitd682213.el8
+- project: golang-github-davecgh-go-spew
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-davecgh-go-spew-1.1.0-3.el8
+- project: golang-github-golang-sys
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-golang-sys-0-0.24.20190302gitb688937.el8
+- project: golang-github-pmezard-go-difflib
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-pmezard-go-difflib-0-0.11.20180621git792786c.el8
+- project: golang-github-stretchr-objx
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-stretchr-objx-0-0.14.git1a9d0bb.el8
+- project: golang-github-stretchr-testify
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-stretchr-testify-1.2.1-2.el8
+- project: golang-github-urfave-cli
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-github-urfave-cli-1.20.0-1.el8
+- project: golang-googlecode-go-crypto
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-googlecode-go-crypto-0-0.24.20180716gita49355c.el8
+- project: golang-gopkg-check
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-gopkg-check-1-20.20190303git788fd78.el8
+- project: golang-gopkg-yaml
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: golang-gopkg-yaml-1-27.20190219git51d6538.el8
+- project: google-roboto-slab-fonts
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: google-roboto-slab-fonts-1.100263-0.10.20150923git.el8
+- project: gtest
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: gtest-1.8.1-4.el8
+- project: openstack-macros
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: openstack-macros-2019.2.3-1.el8
+- project: python-actdiag
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-actdiag-0.5.4-18.el8
+- project: python-betamax
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-betamax-0.8.1-8.el8
+- project: python-blist
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-blist-1.3.6-23.el8
+- project: python-blockdiag
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-blockdiag-1.5.4-8.el8
+- project: python-cairocffi
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-cairocffi-1.1.0-1.el8
+- project: python-cairosvg
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-cairosvg-2.4.2-2.el8
+- project: python-cliff-tablib
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-cliff-tablib-1.1-19.el8
+- project: python-coverage
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-coverage-4.5.4-5.el8
+- project: python-cryptography-vectors
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-cryptography-vectors-2.8-1.el8
+- project: python-d2to1
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-d2to1-0.2.12-15.post1.el8
+- project: python-demjson
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-demjson-2.2.4-16.el8
+- project: python-django-nose
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-django-nose-1.4.5-10.el8
+- project: python-dtopt
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-dtopt-0.1-34.el8
+- project: python-freezegun
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-freezegun-0.3.12-4.el8
+- project: python-funcparserlib
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-funcparserlib-0.3.6-22.el8
+- project: python-hypothesis
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-hypothesis-4.23.8-6.el8
+- project: python-isodate
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-isodate-0.6.0-4.el8
+- project: python-nose-exclude
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-nose-exclude-0.5.0-7.el8
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-openstackdocstheme-1.29.0-6.el8
+- project: python-pifpaf
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-pifpaf-2.2.2-6.el8
+- project: python-pretend
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-pretend-1.0.8-19.el8
+- project: python-process-tests
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-process-tests-2.0.2-5.el8
+- project: python-pycxx
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-pycxx-7.1.3-4.el8
+- project: python-pykmip
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-pykmip-0.8.0-4.el8
+- project: python-pytest-cov
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-pytest-cov-2.8.1-2.el8
+- project: python-rdflib
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-rdflib-4.2.1-13.el8
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-requests-kerberos-0.12.0-8.el8
+- project: python-selenium
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-selenium-3.12.0-8.el8
+- project: python-seqdiag
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-seqdiag-0.9.6-6.el8
+- project: python-snowballstemmer
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-snowballstemmer-1.9.0-4.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinx-1:2.1.2-6.el8
+- project: python-sphinx-theme-alabaster
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinx-theme-alabaster-0.7.12-7.el8
+- project: python-sphinx_rtd_theme
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinx_rtd_theme-0.4.3-7.el8
+- project: python-sphinxcontrib-actdiag
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-actdiag-0.8.5-10.el8
+- project: python-sphinxcontrib-blockdiag
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-blockdiag-1.5.5-13.el8
+- project: python-sphinxcontrib-httpdomain
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-httpdomain-1.7.0-7.el8
+- project: python-sphinxcontrib-pecanwsme
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-pecanwsme-0.10.0-1.el8
+- project: python-sphinxcontrib-programoutput
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-programoutput-0.14-4.el8
+- project: python-sphinxcontrib-seqdiag
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-seqdiag-0.8.4-20.el8
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-sphinxcontrib-svg2pdfconverter-1.0.1-1.el8
+- project: python-termcolor
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-termcolor-1.1.0-20.el8
+- project: python-tornado
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-tornado-4.5.2-5.el8
+- project: python-webcolors
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-webcolors-1.10-1.el8
+- project: python-whoosh
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-whoosh-2.7.4-17.el8
+- project: python-xcffib
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: python-xcffib-0.8.1-3.el8
+- project: rubygem-fakefs
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: rubygem-fakefs-0.13.1-4.el8
+- project: rubygem-rspec
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: rubygem-rspec-3.8.0-3.el8
+- project: scons
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: scons-3.1.1-4.el8
+- project: ttembed
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: ttembed-1.1-12.el8
+- project: xapian-bindings
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: xapian-bindings-1.4.13-2.el8
+- project: xapian-core
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: xapian-core-1.4.13-2.el8
