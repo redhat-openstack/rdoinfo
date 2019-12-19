@@ -1,0 +1,9 @@
+- job:
+    name: legacy-validate-buildsys-tags-centos8
+    parent: legacy-validate-buildsys-tags
+    nodeset: rdo-centos-8
+
+- project:
+    check:
+      jobs:
+        - legacy-validate-buildsys-tags-centos8
