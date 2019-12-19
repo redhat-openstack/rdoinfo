@@ -1,0 +1,108 @@
+- hosts: all
+  name: Autoconverted job legacy-update-buildsys-tags from old job update-buildsys-tags
+  tasks:
+
+    - name: Ensure legacy workspace directory
+      file:
+        path: '{{ ansible_user_dir }}/workspace'
+        state: directory
+
+    - name: clone
+      shell:
+        cmd: |
+          echo "[DEBUG]: JJB template name: {template-name}"
+
+          # If this is called in a periodic job, these will not be set
+          echo "Use default for ZUUL_BRANCH and ZUUL_REF if needed"
+          export ZUUL_BRANCH=${ZUUL_BRANCH:-master}
+          export ZUUL_REF=${ZUUL_REF:-None}
+
+          # In the post pipeline ZUUL_REF is master but does not behave as we want
+          # So fall back on None
+          [ "$ZUUL_REF" = "master" ] && ZUUL_REF=None
+          echo "Clean workspace"
+          rm -Rf ./*
+
+          echo "Clone $ZUUL_PROJECT"
+          # zuul-cloner is installed as /usr/zuul-env/bin/zuul-cloner
+          # in upstream images
+          export PATH=$PATH:/usr/zuul-env/bin
+
+          # Note (dmsimard): If we are running for a periodic job, there is no
+          # incentive in using Zuul cloner because the jobs are not going to
+          # potentially depend on things from the zuul context (ex: depends-on)
+          # The zuul git namespace (where the job was triggered from) is also
+          # wonky for periodic jobs. A periodic pipeline targetted at an
+          # upstream project would still end up trying to clone from review.rdo.
+          # This should be revisited in Zuul v3 which is supposedly not a
+          # problem
+
+          # We can receive reviews from review.openstack.org.
+          # Builds that are run as third party for review.o.o are in the Zuul
+          # pipelines prefixed by "openstack-".
+          GIT_SOURCE="https://review.rdoproject.org/r"
+          if [[ "${ZUUL_PIPELINE}" =~ "openstack-" ]]; then
+              GIT_SOURCE="https://opendev.org"
+          fi
+
+          git config --global http.postBuffer 524288000
+          git config --global https.postBuffer 524288000
+
+          if [[ "${ZUUL_PIPELINE}" =~ "periodic" ]]; then
+          # Note (trown): we need to make sure we clone this to the same
+          # location as zuul-cloner will so that manual and periodic jobs
+          # can share builders
+              git clone --depth=1 $GIT_SOURCE/$ZUUL_PROJECT $ZUUL_PROJECT
+          else
+              /usr/zuul-env/bin/zuul-cloner -v $GIT_SOURCE $ZUUL_PROJECT
+          fi
+        chdir: '{{ ansible_user_dir }}/workspace'
+      environment: '{{ zuul | zuul_legacy_vars }}'
+      changed_when: true
+
+    - name: graffiti
+      shell:
+        cmd: |
+          set +e
+          FAILED=0
+          # Install requirements
+          sudo yum install -y createrepo mock git centos-packager yum-utils
+          virtualenv --system-site-packages .venv
+          . .venv/bin/activate
+          pip install ruamel.yaml rdopkg
+          pushd {{ ansible_user_dir }}/{{ zuul.projects['review.rdoproject.org/gating_scripts'].src_dir }}/buildsys-tags/
+          # create_temporary_repos.sh will create input files for graffiti
+          bash ./create_temporary_repos.sh $WORKSPACE/rdoinfo $WORKSPACE/logs
+          popd
+          pushd {{ ansible_user_dir }}/{{ zuul.projects['softwarefactory-project.io/graffiti'].src_dir }}
+          pip install .
+          popd
+          # Files cbs_actions.txt, register.yaml and tags.yaml are created under $WORKSPACE/logs/info/
+          # by create_temporary_repos.sh script
+          # If there are register actions, they are executed first
+          pushd $WORKSPACE/rdoinfo
+          if [ -s $WORKSPACE/logs/info/register.yaml ]; then
+              echo "INFO: Executing CBS register actions"
+              cat $WORKSPACE/logs/info/register.yaml
+              graffiti --centos-release 8 --config-file={{ ansible_user_dir }}/{{ zuul.projects['review.rdoproject.org/gating_scripts'].src_dir }}/buildsys-tags/graffiti_config.yaml register -f $WORKSPACE/logs/info/register.yaml  # noqa 204
+              if [ $? -ne 0 ]; then
+                  FAILED=1
+                  echo "ERROR: Executing CBS register actions"
+              fi
+          fi
+          # If there are tag actions, they are executed
+          if [ -s $WORKSPACE/logs/info/tags.yaml ]; then
+              echo "INFO: Executing CBS tag actions"
+              cat $WORKSPACE/logs/info/tags.yaml
+              graffiti --centos-release 8 --config-file={{ ansible_user_dir }}/{{ zuul.projects['review.rdoproject.org/gating_scripts'].src_dir }}/buildsys-tags/graffiti_config.yaml tag -f $WORKSPACE/logs/info/tags.yaml  # noqa 204
+              if [ $? -ne 0 ]; then
+                  FAILED=1
+                  echo "ERROR: Executing CBS tag actions"
+              fi
+          fi
+          popd
+
+          exit $FAILED
+        chdir: '{{ ansible_user_dir }}/workspace'
+      environment: '{{ zuul | zuul_legacy_vars }}'
+      changed_when: true

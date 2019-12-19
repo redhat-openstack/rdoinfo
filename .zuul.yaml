@@ -1,0 +1,9 @@
+- job:
+    name: legacy-validate-buildsys-tags-centos8
+    parent: legacy-validate-buildsys-tags
+    run: playbooks/legacy-update-buildsys-tags.yaml
+
+- project:
+    check:
+      jobs:
+        - legacy-validate-buildsys-tags-centos8
