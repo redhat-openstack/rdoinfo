@@ -19,6 +19,20 @@ releases:
     - name: CentOS 7 Updates
       url: http://mirror.centos.org/centos/7/updates/x86_64/
     - name: CentOS 7 Extras
+  - name: el8
+    buildsys: cbs/cloud8-openstack-ussuri-el8
+    buildsys-tags:
+    - cloud8-openstack-ussuri-el8-build
+    - cloud8-openstack-ussuri-candidate
+    - cloud8-openstack-ussuri-testing
+    distrepos:
+    - name: RDO Ussuri el8
+      url: http://mirror.centos.org/centos/8/cloud/x86_64/openstack-ussuri/
+    - name: CentOS 8 BaseOS
+      url: http://mirror.centos.org/centos/8/BaseOS/x86_64/os/
+    - name: CentOS 8 AppStreams
+      url: http://mirror.centos.org/centos/8/AppStream/x86_64/os/
+
 - name: train
   branch: rpm-master
   tags_map: separated_buildreqs
