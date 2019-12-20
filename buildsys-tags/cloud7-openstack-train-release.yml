@@ -355,7 +355,7 @@ packages:
     cloud7-openstack-train-release: python-keystonemiddleware-7.0.1-2.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-kolla-9.0.0-0.2.0rc2.el7
+    cloud7-openstack-train-release: openstack-kolla-9.0.0-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-train-release: python-kuryr-lib-1.1.1-1.el7
@@ -532,7 +532,7 @@ packages:
     cloud7-openstack-train-release: python-novaclient-15.1.0-1.el7
 - project: novajoin
   buildsys-tags:
-    cloud7-openstack-train-release: python-novajoin-1.2.0-1.el7
+    cloud7-openstack-train-release: python-novajoin-1.3.0-1.el7
 - project: novajoin-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-novajoin-tests-tempest-0.0.1-0.4.80dd51agit.el7
@@ -2101,7 +2101,7 @@ packages:
     cloud7-openstack-train-release: python-horizon-tests-tempest-0.2.0-1.el7
 - project: tempestconf
   buildsys-tags:
-    cloud7-openstack-train-release: python-tempestconf-2.3.0-2.el7
+    cloud7-openstack-train-release: python-tempestconf-2.4.0-1.el7
 - project: tobiko
   buildsys-tags:
     cloud7-openstack-train-release: openstack-tobiko-0.2.0-1.el7
