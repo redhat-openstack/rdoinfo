@@ -24,3 +24,7 @@ packages:
 - project: wsme
   tags:
     version-locked:
+# Until we move to CentOS8 completely
+- project: ironic-lib
+  tags:
+    version-locked:
