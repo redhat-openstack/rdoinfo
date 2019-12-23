@@ -1,0 +1,12 @@
+- project:
+    check:
+      jobs:
+        - distgit-test-tripleo-ci-centos-7-multinode-1ctlr-featureset020-base:
+            dependencies:
+              - rdoinfo-DLRN-check
+        - distgit-test-tripleo-ci-centos-7-multinode-1ctlr-featureset020-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+        - distgit-test-tripleo-ci-centos-7-multinode-1ctlr-featureset020-stein:
+            dependencies:
+              - rdoinfo-DLRN-check
