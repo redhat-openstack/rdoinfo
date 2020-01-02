@@ -1,0 +1,11 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-centos-7-scenario001-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+            vars:
+              buildcontainers_venv: false
+            files:
+              - ^buildsys-tags/cloud7-openstack-ussuri-testing-kombu.yml$
