@@ -205,6 +205,7 @@ packages:
 - project: horizon
   tags:
     ussuri-uc:
+      source-branch: ee36da77f5d639ed985421d1a615dc497bb0ec7d
 - project: ironic
   tags:
     ussuri-uc:
@@ -432,6 +433,7 @@ packages:
 - project: nova
   tags:
     ussuri-uc:
+      source-branch: 65aae518f81c2754e30429a3547c5cf62a3cf598
 - project: novaclient
   tags:
     ussuri-uc:
