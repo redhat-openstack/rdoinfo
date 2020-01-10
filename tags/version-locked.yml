@@ -28,3 +28,11 @@ packages:
 - project: ironic-lib
   tags:
     version-locked:
+# We want to pull latest commits from neutron instead of u-c pinned version
+- project: neutron
+  tags:
+    version-locked:
+# We want to pull latest commits from horizon instead of u-c pinned version
+- project: horizon
+  tags:
+    version-locked:
