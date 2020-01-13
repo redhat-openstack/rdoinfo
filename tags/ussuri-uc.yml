@@ -43,7 +43,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: barbicanclient
   tags:
     ussuri-uc:
@@ -70,7 +69,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.1
 - project: cinderclient
   tags:
     ussuri-uc:
@@ -101,7 +99,6 @@ packages:
 - project: congress-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: congressclient
   tags:
     ussuri-uc:
@@ -123,7 +120,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.7.0
 - project: designateclient
   tags:
     ussuri-uc:
@@ -144,7 +140,6 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: futurist
   tags:
     ussuri-uc:
@@ -194,7 +189,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.4.0
 - project: heat-translator
   tags:
     ussuri-uc:
@@ -240,7 +234,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 1.5.1
 - project: ironic-ui
   tags:
     ussuri-uc:
@@ -254,7 +247,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: keystoneauth1
   tags:
     ussuri-uc:
@@ -280,14 +272,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.5.0
 - project: magnum
   tags:
     ussuri-uc:
 - project: magnum-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: magnum-ui
   tags:
     ussuri-uc:
@@ -301,7 +291,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.4.0
 - project: manila-ui
   tags:
     ussuri-uc:
@@ -330,7 +319,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: mistralclient
   tags:
     ussuri-uc:
@@ -355,7 +343,6 @@ packages:
 - project: murano-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 1.1.0
 - project: muranoclient
   tags:
     ussuri-uc:
@@ -392,7 +379,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: a3af33b319e5605791b0c95b7bbfdd81a814877c
 - project: networking-mlnx
   tags:
     ussuri-uc:
@@ -633,7 +619,6 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: ovsdbapp
   tags:
     ussuri-uc:
@@ -1018,7 +1003,6 @@ packages:
 - project: sahara-tests
   tags:
     ussuri-uc:
-      source-branch: 0.9.1
 - project: saharaclient
   tags:
     ussuri-uc:
@@ -1086,18 +1070,15 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.4.0
 - project: tempest
   tags:
     ussuri-uc:
 - project: tempest-horizon
   tags:
     ussuri-uc:
-      source-branch: 0.2.0
 - project: tempestconf
   tags:
     ussuri-uc:
-      source-branch: 2.4.0
 - project: tobiko
   tags:
     ussuri-uc:
@@ -1149,7 +1130,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: troveclient
   tags:
     ussuri-uc:
@@ -1167,7 +1147,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 3.0.0
 - project: vitrageclient
   tags:
     ussuri-uc:
@@ -1178,7 +1157,6 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     ussuri-uc:
@@ -1188,7 +1166,6 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 1.2.0
 - project: wsme
   tags:
     ussuri-uc:
@@ -1199,7 +1176,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0.3.0
 - project: zaqarclient
   tags:
     ussuri-uc:
