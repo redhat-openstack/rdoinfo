@@ -36,3 +36,7 @@ packages:
 - project: horizon
   tags:
     version-locked:
+# Until we move to CentOS8 completely
+- project: neutron-lib
+  tags:
+    version-locked:
