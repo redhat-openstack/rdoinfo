@@ -54,5 +54,6 @@ def update_puppet_uc():
     update_uc = sh.Command('./update-uc.py')
     update_uc(UC_RELEASE)
 
+
 if __name__ == '__main__':
     update_puppet_uc()

@@ -1,0 +1,10 @@
+---
+# Extra jobs are defined in zuul config repository
+- project:
+    name: rdoinfo
+    check:
+      jobs:
+        - tox-linters
+    gate:
+      jobs:
+        - tox-linters

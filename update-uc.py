@@ -2,9 +2,9 @@
 #
 # Update OpenStack Oslo and Clients libraries versions in rdoinfo from:
 # * master branch (default)
-# curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=master
+# curl -OJ https://opendev.org/openstack/requirements/raw/branch/master/upper-constraints.txt
 # * stable/ocata
-# curl -OJ http://git.openstack.org/cgit/openstack/requirements/plain/upper-constraints.txt?h=stable/ocata
+# curl -OJ https://opendev.org/openstack/requirements/raw/branch/stable/ocata/upper-constraints.txt
 
 # USAGE
 #    update-uc.py [branch]
@@ -25,9 +25,9 @@ else:
 
 # filter for Oslo and clients
 def filter_oslo_clients(project):
-    return project.startswith('oslo') or \
-           project.endswith('client') or \
-           project == 'osc-lib'
+    return (
+        project.startswith('oslo') or project.endswith('client') or project == 'osc-lib'
+    )
 
 
 def filter_all(project):
@@ -36,16 +36,16 @@ def filter_all(project):
 
 def filter_all_minus_tripleo(project):
     TRIPLEO_PROJECTS = [
-      'diskimage-builder',
-      'os-apply-config',
-      'os-collect-config',
-      'os-net-config',
-      'os-refresh-config',
-      'tripleo-common',
-      'mistral',
-      'tempest',
-      'instack-undercloud',
-      'paunch',
+        'diskimage-builder',
+        'os-apply-config',
+        'os-collect-config',
+        'os-net-config',
+        'os-refresh-config',
+        'tripleo-common',
+        'mistral',
+        'tempest',
+        'instack-undercloud',
+        'paunch',
     ]
     return project not in TRIPLEO_PROJECTS
 
@@ -83,8 +83,10 @@ def update_uc():
             if 'tags' in pkg:
                 tags = pkg['tags']
                 if 'version-locked' in tags or 'under-review' in tags:
-                    print("Not updating %s, it is version-locked or under"
-                          " review" % project)
+                    print(
+                        "Not updating %s, it is version-locked or under"
+                        " review" % project
+                    )
                     continue
                 prev_version = tags.get(UC_RELEASE)
                 if prev_version:
@@ -96,20 +98,22 @@ def update_uc():
                     tags = copy.copy(DEFAULT_RELEASES)
                 prev_version = None
             if 'tags' in pkg and UC_RELEASE not in pkg['tags']:
-                print("Not updating %s, it is not included in release %s"
-                      % (project, UC_RELEASE))
+                print(
+                    "Not updating %s, it is not included in release %s"
+                    % (project, UC_RELEASE)
+                )
                 continue
             tags[UC_RELEASE] = {SOURCE_BRANCH: new_version}
             if prev_version:
                 if prev_version != new_version:
-                    print("%s updated from %s to %s" %
-                          (project, prev_version, new_version))
+                    print(
+                        "%s updated from %s to %s"
+                        % (project, prev_version, new_version)
+                    )
                 else:
-                    print("%s %s already up to date" %
-                          (project, new_version))
+                    print("%s %s already up to date" % (project, new_version))
             else:
-                print("%s first time pin to %s" %
-                      (project, new_version))
+                print("%s first time pin to %s" % (project, new_version))
 
             pkg['tags'] = tags
             uc_projects.remove(project)
@@ -125,4 +129,3 @@ def update_uc():
 
 if __name__ == '__main__':
     update_uc()
-

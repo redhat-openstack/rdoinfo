@@ -21,8 +21,8 @@ class RdoinfoException(Exception):
         if not msg:
             try:
                 msg = self.msg_fmt % kwargs
-            except Exception as e:
-                message = self.msg_fmt
+            except Exception:
+                self.message = self.msg_fmt
         super(RdoinfoException, self).__init__(msg)
 
 
@@ -76,6 +76,7 @@ def parse_info_file(fn, apply_tag=None, include_fns=['deps.yml']):
     parse_info(info, apply_tag=apply_tag)
     return info
 
+
 def parse_info(info, apply_tag=None):
     parse_releases(info)
     parse_packages(info, apply_tag=apply_tag)
@@ -100,9 +101,7 @@ def parse_releases(info):
     if not isinstance(releases, collections.Iterable):
         raise InvalidInfoFormat(msg="'releases' section must be a list")
     for rls in releases:
-        try:
-            rls_name = rls['name']
-        except KeyError:
+        if 'name' not in rls:
             raise MissingRequiredItem(item='release.name')
         try:
             repos = rls['repos']
@@ -160,24 +159,25 @@ def parse_package(pkg, info, apply_tag=None):
     except KeyError:
         raise MissingRequiredItem(item='package.name')
     if 'project' not in pkg:
-        raise MissingRequiredItem(
-            item="project for '%s' package" % name)
+        raise MissingRequiredItem(item="project for '%s' package" % name)
     try:
         maints = pkg['maintainers']
-    except:
-        raise MissingRequiredItem(
-            item="maintainers for '%s' package" % name)
+    except Exception:
+        raise MissingRequiredItem(item="maintainers for '%s' package" % name)
     if not maints:
         raise MissingRequiredItem(
-            item="at least one maintainer for '%s' package" % name)
+            item="at least one maintainer for '%s' package" % name
+        )
     try:
         for maint in maints:
             if '@' not in maint:
                 raise InvalidInfoFormat(
-                    msg="'%s' doesn't look like maintainer's email." % maint)
+                    msg="'%s' doesn't look like maintainer's email." % maint
+                )
     except TypeError:
         raise InvalidInfoFormat(
-            msg='package.maintainers must be a list of email addresses')
+            msg='package.maintainers must be a list of email addresses'
+        )
 
     return pkg
 
