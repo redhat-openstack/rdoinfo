@@ -20,39 +20,40 @@ import sys
 if len(sys.argv) > 1:
     UC_RELEASE = sys.argv[1]
 else:
-    UC_RELEASE = 'ussuri-uc'
+    UC_RELEASE = "ussuri-uc"
 
 
 def update_puppet_uc():
     if os.path.exists(os.path.join(".", "modules")):
         shutil.rmtree("./modules")
 
-    info = rdoinfo.parse_info_file('rdo.yml')
+    info = rdoinfo.parse_info_file("rdo.yml")
 
     puppet_info = []
-    for package in info['packages']:
-        if package['name'].startswith('puppet'):
-            puppet_info.append([package['name'], package['upstream']])
+    for package in info["packages"]:
+        if package["name"].startswith("puppet"):
+            puppet_info.append([package["name"], package["upstream"]])
 
     for package in puppet_info:
         url = package[1]
-        if 'openstack' in url:  # Do not bump OpenStack modules
+        if "openstack" in url:  # Do not bump OpenStack modules
             continue
         module = package[0]
         gitpath = os.path.join("modules", module)
         sh.git.clone(url, gitpath)
         git = sh.git.bake(_cwd=gitpath, _tty_out=False)
         try:
-            rev_list = str(git('rev-list', '--tags', '--max-count=1')).strip()
-            tag = str(git.describe('--tags', rev_list)).strip()
-            with open('upper-constraints.txt', 'a') as fp:
+            rev_list = str(git("rev-list", "--tags", "--max-count=1")).strip()
+            tag = str(git.describe("--tags", rev_list)).strip()
+            with open("upper-constraints.txt", "a") as fp:
                 fp.write("%s===%s\n" % (module, tag))
         except Exception:
             continue
         shutil.rmtree(gitpath)
 
-    update_uc = sh.Command('./update-uc.py')
+    update_uc = sh.Command("./update-uc.py")
     update_uc(UC_RELEASE)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     update_puppet_uc()
