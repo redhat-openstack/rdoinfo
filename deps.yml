@@ -1940,3 +1940,10 @@ packages:
 - project: python-timeout-decorator
   name: python-timeout-decorator
   conf: rdo-dependency
+# Only for the "ara" and "python3-ara" packages.
+# -server, -docs and -tests subpackages are not yet available for EL8
+- project: ara
+  name: ara
+  conf: fedora-dependency
+  maintainers:
+  - dmsimard@redhat.com
