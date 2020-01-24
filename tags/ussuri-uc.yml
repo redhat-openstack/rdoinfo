@@ -187,6 +187,7 @@ packages:
 - project: heat-dashboard
   tags:
     ussuri-uc:
+      source-branch: 994eeb58f9005c19eb8664b8829e7aa167c2b946
 - project: heat-tempest-plugin
   tags:
     ussuri-uc:
@@ -310,6 +311,7 @@ packages:
 - project: mistral
   tags:
     ussuri-uc:
+      source-branch: fef538cce793518f4e7bfe645f0ccbd6dc55ad0a
 - project: mistral-dashboard
   tags:
     ussuri-uc:
