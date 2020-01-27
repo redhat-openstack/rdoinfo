@@ -1,0 +1,15 @@
+- project:
+    check:
+      jobs:
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset021-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset020-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
