@@ -412,7 +412,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     train:
-      source-branch: 0.6.0
+      source-branch: 4b58524ab1e49a49c73ef2a5e24d087fc0cfa758
 - project: neutron-vpnaas
   tags:
     train:
@@ -1124,7 +1124,7 @@ packages:
 - project: tempest
   tags:
     train:
-      source-branch: 22.1.0
+      source-branch: 23.0.0
 - project: tempest-horizon
   tags:
     train:
