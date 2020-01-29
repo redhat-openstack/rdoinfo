@@ -13,3 +13,9 @@
             voting: false
             files:
               - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-standalone-featureset052-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
