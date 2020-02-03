@@ -310,7 +310,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keystonemiddleware-5.2.1-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-kolla-7.0.4-1.el7
+    cloud7-openstack-rocky-testing: openstack-kolla-7.1.0-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-kuryr-lib-0.8.0-1.el7
@@ -1837,13 +1837,13 @@ packages:
     cloud7-openstack-rocky-testing: rubygem-rgen-0.6.6-2.el7
 - project: sahara
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-sahara-9.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-sahara-9.0.2-1.el7
 - project: sahara-dashboard
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.1-1.el7
+    cloud7-openstack-rocky-testing: openstack-sahara-ui-9.0.2-1.el7
 - project: sahara-image-elements
   buildsys-tags:
-    cloud7-openstack-rocky-testing: sahara-image-elements-9.0.1-1.el7
+    cloud7-openstack-rocky-testing: sahara-image-elements-9.0.2-1.el7
 - project: sahara-tests
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-sahara-tests-0.7.0-1.el7
