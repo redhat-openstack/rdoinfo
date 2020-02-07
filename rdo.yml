@@ -1302,7 +1302,7 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - trown@redhat.com
+  - aschultz@next-development.com
   - mburns@redhat.com
 - project: tripleo-repos
   conf: rpmfactory-core
@@ -1310,6 +1310,7 @@ packages:
   component: tripleo
   maintainers:
   - bnemec@redhat.com
+  - aschultz@next-development.com
 - project: tripleo-ui
   conf: rpmfactory-core
   component: ui
@@ -2009,6 +2010,7 @@ packages:
   component: tripleo
   maintainers:
   - sbaker@redhat.com
+  - aschultz@next-development.com
 - project: metalsmith
   name: python-metalsmith
   conf: rpmfactory-lib
@@ -2078,7 +2080,8 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - jrouleau@redhat.com
+  - kecarter@redhat.com
+  - aschultz@next-development.com
 - project: tripleo-operator-ansible
   name: tripleo-operator-ansible
   conf: rpmfactory-core
