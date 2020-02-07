@@ -355,7 +355,7 @@ packages:
     cloud7-openstack-train-testing: python-keystonemiddleware-7.0.1-2.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-kolla-9.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-kolla-9.0.1-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-train-testing: python-kuryr-lib-1.1.1-1.el7
@@ -517,7 +517,7 @@ packages:
     cloud7-openstack-train-testing: python-neutron-lib-1.29.1-1.el7
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-train-testing: python-neutron-tests-tempest-0.6.0-1.el7
+    cloud7-openstack-train-testing: python-neutron-tests-tempest-0.8.0-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-neutron-vpnaas-15.0.0-1.el7
@@ -2095,7 +2095,7 @@ packages:
     cloud7-openstack-train-testing: python-telemetry-tests-tempest-0.4.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tempest-22.1.0-1.el7
+    cloud7-openstack-train-testing: openstack-tempest-23.0.0-1.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-train-testing: python-horizon-tests-tempest-0.2.0-1.el7
