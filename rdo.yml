@@ -662,6 +662,14 @@ packages:
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+- project: whitebox-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-whitebox-tests-tempest
+  component: compute
+  tags:
+    under-review
+  maintainers:
+  - alifshit@redhat.com
 - project: neutron-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
