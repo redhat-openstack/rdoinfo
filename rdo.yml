@@ -662,6 +662,13 @@ packages:
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+- project: whitebox-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  upstream: https://opendev.org/x/whitebox-tempest-plugin
+  name: python-whitebox-tests-tempest
+  component: compute
+  maintainers:
+  - alifshit@redhat.com
 - project: neutron-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
