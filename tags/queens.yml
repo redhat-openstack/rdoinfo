@@ -762,7 +762,8 @@ packages:
 - project: puppet-kmod
   tags:
     queens:
-      source-branch: ad513009a503842bece35953943ce12a0e1503ee
+      # https://bugzilla.redhat.com/show_bug.cgi?id=1800438
+      source-branch: 2.4.0
 - project: puppet-lib-file_concat
   tags:
     queens:
