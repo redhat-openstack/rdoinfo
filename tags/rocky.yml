@@ -768,7 +768,8 @@ packages:
 - project: puppet-kmod
   tags:
     rocky:
-      source-branch: 42b27ae5f0c8a2650759e132d4d4372c224f0579
+      # https://bugzilla.redhat.com/show_bug.cgi?id=1800438
+      source-branch: 2.4.0
 - project: puppet-lib-file_concat
   tags:
     rocky:
