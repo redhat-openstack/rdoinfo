@@ -191,6 +191,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     ussuri-uc:
+      source-branch: 0ee85bb04603ddce5128a4858aac629deecc62d6
 - project: heat-translator
   tags:
     ussuri-uc:
@@ -450,6 +451,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     ussuri-uc:
+      source-branch: 94c0b7a19f17ac6ee1cb3344e7aa39b7022173ad
 - project: octaviaclient
   tags:
     ussuri-uc:
