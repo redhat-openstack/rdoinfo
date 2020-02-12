@@ -674,6 +674,8 @@ packages:
 - project: puppet-kmod
   tags:
     ussuri:
+      # https://bugzilla.redhat.com/show_bug.cgi?id=1800438
+      source-branch: 2.4.0
 - project: puppet-lib-file_concat
   tags:
     ussuri:
