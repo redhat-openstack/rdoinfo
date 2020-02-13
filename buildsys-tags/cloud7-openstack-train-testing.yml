@@ -325,7 +325,7 @@ packages:
     cloud7-openstack-train-testing: python-ironic-tests-tempest-1.5.1-1.el7
 - project: ironic-ui
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ironic-ui-3.5.3-1.el7
+    cloud7-openstack-train-testing: openstack-ironic-ui-3.5.4-1.el7
 - project: ironicclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironicclient-3.1.1-1.el7
@@ -526,7 +526,7 @@ packages:
     cloud7-openstack-train-testing: python-neutronclient-6.14.0-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-nova-20.1.0-1.el7
+    cloud7-openstack-train-testing: openstack-nova-20.1.1-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-novaclient-15.1.0-1.el7
@@ -2068,7 +2068,7 @@ packages:
     cloud7-openstack-train-testing: subunit-1.2.0-14.el7
 - project: sushy
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sushy-2.0.0-1.el7
+    cloud7-openstack-train-testing: python-sushy-2.0.1-1.el7
 - project: swift
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-swift-2.23.1-1.el7
