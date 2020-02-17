@@ -17,3 +17,6 @@ packages:
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: python-kombu-4.6.6-2.el7
+- project: python36-urllib-gssapi
+  buildsys-tags:
+    cloud7-opensatck-ussuri-candidate: python36-urllib-gssapi-1.0.1-10.el7
