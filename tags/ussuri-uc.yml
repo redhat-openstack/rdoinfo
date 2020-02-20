@@ -32,11 +32,11 @@ packages:
 - project: aodhclient
   tags:
     ussuri-uc:
-      source-branch: 1.5.0
+      source-branch: 2.0.0
 - project: automaton
   tags:
     ussuri-uc:
-      source-branch: 1.17.0
+      source-branch: 2.0.0
 - project: barbican
   tags:
     ussuri-uc:
@@ -46,11 +46,11 @@ packages:
 - project: barbicanclient
   tags:
     ussuri-uc:
-      source-branch: 4.9.0
+      source-branch: 4.10.0
 - project: castellan
   tags:
     ussuri-uc:
-      source-branch: 1.4.0
+      source-branch: 2.0.0
 - project: ceilometer
   tags:
     ussuri-uc:
@@ -72,7 +72,7 @@ packages:
 - project: cinderclient
   tags:
     ussuri-uc:
-      source-branch: 5.0.0
+      source-branch: 6.0.0
 - project: cinderlib
   tags:
     ussuri-uc:
@@ -89,7 +89,7 @@ packages:
 - project: cloudkittyclient
   tags:
     ussuri-uc:
-      source-branch: 3.1.0
+      source-branch: 4.0.0
 - project: collectd-gnocchi
   tags:
     ussuri-uc:
@@ -102,7 +102,7 @@ packages:
 - project: congressclient
   tags:
     ussuri-uc:
-      source-branch: 1.13.0
+      source-branch: 2.0.0
 - project: cursive
   tags:
     ussuri-uc:
@@ -110,7 +110,7 @@ packages:
 - project: debtcollector
   tags:
     ussuri-uc:
-      source-branch: 1.22.0
+      source-branch: 2.0.0
 - project: designate
   tags:
     ussuri-uc:
@@ -123,7 +123,7 @@ packages:
 - project: designateclient
   tags:
     ussuri-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
 - project: dib-utils
   tags:
     ussuri-uc:
@@ -143,7 +143,7 @@ packages:
 - project: futurist
   tags:
     ussuri-uc:
-      source-branch: 1.10.0
+      source-branch: 2.0.0
 - project: glance
   tags:
     ussuri-uc:
@@ -199,7 +199,7 @@ packages:
 - project: heatclient
   tags:
     ussuri-uc:
-      source-branch: 1.18.0
+      source-branch: 2.0.0
 - project: horizon
   tags:
     ussuri-uc:
@@ -215,7 +215,7 @@ packages:
 - project: ironic-inspector-client
   tags:
     ussuri-uc:
-      source-branch: 3.7.0
+      source-branch: 4.0.0
 - project: ironic-lib
   tags:
     ussuri-uc:
@@ -243,7 +243,7 @@ packages:
 - project: ironicclient
   tags:
     ussuri-uc:
-      source-branch: 3.1.1
+      source-branch: 4.0.0
 - project: keystone
   tags:
     ussuri-uc:
@@ -288,7 +288,7 @@ packages:
 - project: magnumclient
   tags:
     ussuri-uc:
-      source-branch: 2.16.0
+      source-branch: 2.17.0
 - project: manila
   tags:
     ussuri-uc:
@@ -301,7 +301,7 @@ packages:
 - project: manilaclient
   tags:
     ussuri-uc:
-      source-branch: 1.29.0
+      source-branch: 2.0.0
 - project: metalsmith
   tags:
     ussuri-uc:
@@ -309,7 +309,7 @@ packages:
 - project: microversion-parse
   tags:
     ussuri-uc:
-      source-branch: 0.2.1
+      source-branch: 1.0.0
 - project: mistral
   tags:
     ussuri-uc:
@@ -328,15 +328,15 @@ packages:
 - project: mistralclient
   tags:
     ussuri-uc:
-      source-branch: 3.10.0
+      source-branch: 4.0.0
 - project: monascaclient
   tags:
     ussuri-uc:
-      source-branch: 1.16.0
+      source-branch: 2.0.0
 - project: mox3
   tags:
     ussuri-uc:
-      source-branch: 0.28.0
+      source-branch: 1.0.0
 - project: murano
   tags:
     ussuri-uc:
@@ -353,7 +353,7 @@ packages:
 - project: muranoclient
   tags:
     ussuri-uc:
-      source-branch: 1.3.0
+      source-branch: 2.0.0
 - project: networking-ansible
   tags:
     ussuri-uc:
@@ -423,7 +423,7 @@ packages:
 - project: neutronclient
   tags:
     ussuri-uc:
-      source-branch: 6.14.0
+      source-branch: 7.0.0
 - project: nova
   tags:
     ussuri-uc:
@@ -469,7 +469,7 @@ packages:
 - project: openstacksdk
   tags:
     ussuri-uc:
-      source-branch: 0.40.0
+      source-branch: 0.41.0
 - project: os-apply-config
   tags:
     ussuri-uc:
@@ -490,7 +490,7 @@ packages:
 - project: os-ken
   tags:
     ussuri-uc:
-      source-branch: 0.4.1
+      source-branch: 1.0.0
 - project: os-net-config
   tags:
     ussuri-uc:
@@ -516,11 +516,11 @@ packages:
 - project: os-vif
   tags:
     ussuri-uc:
-      source-branch: 1.17.0
+      source-branch: 2.0.0
 - project: os-win
   tags:
     ussuri-uc:
-      source-branch: 4.3.2
+      source-branch: 5.0.0
 - project: os-xenapi
   tags:
     ussuri-uc:
@@ -536,39 +536,39 @@ packages:
 - project: oslo-cache
   tags:
     ussuri-uc:
-      source-branch: 1.38.1
+      source-branch: 2.0.0
 - project: oslo-concurrency
   tags:
     ussuri-uc:
-      source-branch: 3.31.0
+      source-branch: 4.0.0
 - project: oslo-config
   tags:
     ussuri-uc:
-      source-branch: 6.12.0
+      source-branch: 8.0.0
 - project: oslo-context
   tags:
     ussuri-uc:
-      source-branch: 2.23.0
+      source-branch: 3.0.0
 - project: oslo-db
   tags:
     ussuri-uc:
-      source-branch: 6.0.0
+      source-branch: 7.0.0
 - project: oslo-i18n
   tags:
     ussuri-uc:
-      source-branch: 3.25.1
+      source-branch: 4.0.0
 - project: oslo-log
   tags:
     ussuri-uc:
-      source-branch: 3.45.2
+      source-branch: 4.0.0
 - project: oslo-messaging
   tags:
     ussuri-uc:
-      source-branch: 10.5.0
+      source-branch: 11.0.0
 - project: oslo-middleware
   tags:
     ussuri-uc:
-      source-branch: 3.38.1
+      source-branch: 4.0.0
 - project: oslo-policy
   tags:
     ussuri-uc:
@@ -576,23 +576,23 @@ packages:
 - project: oslo-privsep
   tags:
     ussuri-uc:
-      source-branch: 1.33.3
+      source-branch: 2.0.0
 - project: oslo-reports
   tags:
     ussuri-uc:
-      source-branch: 1.31.1
+      source-branch: 2.0.0
 - project: oslo-rootwrap
   tags:
     ussuri-uc:
-      source-branch: 5.17.1
+      source-branch: 6.0.0
 - project: oslo-serialization
   tags:
     ussuri-uc:
-      source-branch: 2.29.2
+      source-branch: 3.0.0
 - project: oslo-service
   tags:
     ussuri-uc:
-      source-branch: 1.41.1
+      source-branch: 2.0.0
 - project: oslo-sphinx
   tags:
     ussuri-uc:
@@ -600,19 +600,19 @@ packages:
 - project: oslo-upgradecheck
   tags:
     ussuri-uc:
-      source-branch: 0.3.2
+      source-branch: 1.0.0
 - project: oslo-utils
   tags:
     ussuri-uc:
-      source-branch: 3.42.1
+      source-branch: 4.0.0
 - project: oslo-versionedobjects
   tags:
     ussuri-uc:
-      source-branch: 1.37.0
+      source-branch: 2.0.0
 - project: oslo-vmware
   tags:
     ussuri-uc:
-      source-branch: 2.35.0
+      source-branch: 3.0.0
 - project: oslotest
   tags:
     ussuri-uc:
@@ -623,7 +623,7 @@ packages:
 - project: osprofiler
   tags:
     ussuri-uc:
-      source-branch: 2.9.0
+      source-branch: 3.0.0
 - project: oswin-tempest-plugin
   tags:
     ussuri-uc:
@@ -958,7 +958,7 @@ packages:
 - project: pycadf
   tags:
     ussuri-uc:
-      source-branch: 2.10.0
+      source-branch: 3.0.0
 - project: rally
   tags:
     ussuri-uc:
@@ -969,7 +969,7 @@ packages:
 - project: reno
   tags:
     ussuri-uc:
-      source-branch: 2.11.3
+      source-branch: 3.0.0
 - project: requestsexceptions
   tags:
     ussuri-uc:
@@ -1015,7 +1015,7 @@ packages:
 - project: saharaclient
   tags:
     ussuri-uc:
-      source-branch: 2.3.0
+      source-branch: 3.0.0
 - project: scciclient
   tags:
     ussuri-uc:
@@ -1026,11 +1026,11 @@ packages:
 - project: senlinclient
   tags:
     ussuri-uc:
-      source-branch: 1.11.0
+      source-branch: 2.0.0
 - project: shade
   tags:
     ussuri-uc:
-      source-branch: 1.32.0
+      source-branch: 1.33.0
 - project: shaker
   tags:
     # FIXME(jpena) once timeout-decorator is packaged, and
@@ -1048,11 +1048,11 @@ packages:
 - project: stevedore
   tags:
     ussuri-uc:
-      source-branch: 1.31.0
+      source-branch: 1.32.0
 - project: sushy
   tags:
     ussuri-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
 - project: sushy-oem-idrac
   tags:
     ussuri-uc:
@@ -1062,21 +1062,21 @@ packages:
 - project: swiftclient
   tags:
     ussuri-uc:
-      source-branch: 3.8.1
+      source-branch: 3.9.0
 - project: tacker
   tags:
     ussuri-uc:
 - project: tackerclient
   tags:
     ussuri-uc:
-      source-branch: 0.16.1
+      source-branch: 1.0.0
 - project: tap-as-a-service
   tags:
     ussuri-uc:
 - project: taskflow
   tags:
     ussuri-uc:
-      source-branch: 3.8.0
+      source-branch: 4.0.0
 - project: telemetry-tempest-plugin
   tags:
     ussuri-uc:
@@ -1096,7 +1096,7 @@ packages:
 - project: tooz
   tags:
     ussuri-uc:
-      source-branch: 1.67.2
+      source-branch: 2.0.0
 - project: tripleo-ansible
   tags:
     ussuri-uc:
@@ -1160,7 +1160,7 @@ packages:
 - project: vitrageclient
   tags:
     ussuri-uc:
-      source-branch: 3.0.0
+      source-branch: 4.0.0
 - project: vmware-nsx
   tags:
     ussuri-uc:
@@ -1190,4 +1190,4 @@ packages:
 - project: zaqarclient
   tags:
     ussuri-uc:
-      source-branch: 1.12.0
+      source-branch: 1.13.0
