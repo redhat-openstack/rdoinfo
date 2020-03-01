@@ -82,7 +82,7 @@ packages:
     cloud7-openstack-stein-testing: python-castellan-1.2.2-1.el7
 - project: ceilometer
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-ceilometer-12.0.0-1.el7
+    cloud7-openstack-stein-testing: openstack-ceilometer-12.1.0-1.el7
 - project: ceilometerclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-ceilometerclient-2.9.0-1.el7
@@ -508,7 +508,7 @@ packages:
     cloud7-openstack-stein-testing: openstack-neutron-vpnaas-14.0.1-1.el7
 - project: neutronclient
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-neutronclient-6.12.0-1.el7
+    cloud7-openstack-stein-testing: python-neutronclient-6.12.1-1.el7
 - project: nova
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-nova-19.1.0-1.el7
@@ -841,7 +841,7 @@ packages:
     cloud7-openstack-stein-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
 - project: puppet-kmod
   buildsys-tags:
-    cloud7-openstack-stein-testing: puppet-kmod-2.3.0-1.el7
+    cloud7-openstack-stein-testing: puppet-kmod-2.4.0-1.el7
 - project: puppet-lib-file_concat
   buildsys-tags:
     cloud7-openstack-stein-testing: puppet-lib-file_concat-1.0.1-2.el7
