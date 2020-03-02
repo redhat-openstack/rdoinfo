@@ -1,0 +1,25 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check-centos8:
+            timeout: 15000
+        - distgit-tripleo-master-testing-centos-8-standalone-featureset052:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-featureset016:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-featureset017:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-featureset018:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-featureset019:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
