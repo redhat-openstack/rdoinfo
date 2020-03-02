@@ -54,7 +54,6 @@ packages:
 - project: ceilometer
   tags:
     ussuri-uc:
-      source-branch: 8770b9223005a52c5270556606be43909895b9f3
 - project: ceilometerclient
   tags:
     ussuri-uc:
@@ -66,7 +65,6 @@ packages:
 - project: cinder
   tags:
     ussuri-uc:
-      source-branch: 3b386377c0322a258975ef553b1aa35cce55195b
 - project: cinder-tempest-plugin
   tags:
     ussuri-uc:
@@ -148,7 +146,6 @@ packages:
 - project: glance
   tags:
     ussuri-uc:
-      source-branch: 517ff4fbe4694adc95460ca209e2229a3255edb8
 - project: glance_store
   tags:
     ussuri-uc:
@@ -188,11 +185,9 @@ packages:
 - project: heat-dashboard
   tags:
     ussuri-uc:
-      source-branch: 994eeb58f9005c19eb8664b8829e7aa167c2b946
 - project: heat-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 0ee85bb04603ddce5128a4858aac629deecc62d6
 - project: heat-translator
   tags:
     ussuri-uc:
@@ -204,7 +199,6 @@ packages:
 - project: horizon
   tags:
     ussuri-uc:
-      source-branch: ee36da77f5d639ed985421d1a615dc497bb0ec7d
 - project: ironic
   tags:
     ussuri-uc:
@@ -248,7 +242,6 @@ packages:
 - project: keystone
   tags:
     ussuri-uc:
-      source-branch: 7bb26ffd1596778b731c6904ad7fc7eb62f3a6d0
 - project: keystone-tempest-plugin
   tags:
     ussuri-uc:
@@ -267,14 +260,12 @@ packages:
 - project: kolla
   tags:
     ussuri-uc:
-      source-branch: 1b0884af8a4dc90b459c2557acdf987ad0a7df75
 - project: kuryr
   tags:
     ussuri-uc:
 - project: kuryr-kubernetes
   tags:
     ussuri-uc:
-      source-branch: bd138691568a667bfb7b5cca041f48924dba4f8e
 - project: kuryr-tempest-plugin
   tags:
     ussuri-uc:
@@ -315,7 +306,7 @@ packages:
 - project: mistral
   tags:
     ussuri-uc:
-      source-branch: fef538cce793518f4e7bfe645f0ccbd6dc55ad0a
+      source-branch: de633d5d48f48258bac214089391e4cda5b51f34
 - project: mistral-dashboard
   tags:
     ussuri-uc:
@@ -329,7 +320,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: 77470a9c4740547a57feff9aabba2b232310fe5b
 - project: mistralclient
   tags:
     ussuri-uc:
@@ -351,7 +341,6 @@ packages:
 - project: murano-dashboard
   tags:
     ussuri-uc:
-      source-branch: 8ab6fbd0cf75b4e0ac14129e6fa3198df2e99059
 - project: murano-tempest-plugin
   tags:
     ussuri-uc:
@@ -371,7 +360,6 @@ packages:
 - project: networking-baremetal
   tags:
     ussuri-uc:
-      source-branch: 8a8034c766a385035eaefb6bb2818d4e2d41e59f
 - project: networking-bgpvpn
   tags:
     ussuri-uc:
@@ -384,7 +372,6 @@ packages:
 - project: networking-generic-switch
   tags:
     ussuri-uc:
-      source-branch: d42a3fcf9ceabf9d2e2d44d89180c4a150099ba9
 - project: networking-l2gw
   tags:
     ussuri-uc:
@@ -397,7 +384,6 @@ packages:
 - project: networking-odl
   tags:
     ussuri-uc:
-      source-branch: 30d82eeee71d8a23a5fa5eeaee63cecf7214abed
 - project: networking-ovn
   tags:
     ussuri-uc:
@@ -417,14 +403,13 @@ packages:
 - project: neutron-lib
   tags:
     ussuri-uc:
-      source-branch: 1.31.0
+      source-branch: 2.1.0
 - project: neutron-tempest-plugin
   tags:
     ussuri-uc:
 - project: neutron-vpnaas
   tags:
     ussuri-uc:
-      source-branch: b30acb02bbabbb2d08fc8c94ff90bc760e05f80c
 - project: neutronclient
   tags:
     ussuri-uc:
@@ -432,7 +417,6 @@ packages:
 - project: nova
   tags:
     ussuri-uc:
-      source-branch: 65aae518f81c2754e30429a3547c5cf62a3cf598
 - project: novaclient
   tags:
     ussuri-uc:
@@ -446,7 +430,6 @@ packages:
 - project: octavia
   tags:
     ussuri-uc:
-      source-branch: 47e0ef31bcfd34838fac4c619b699edd65e20223
 - project: octavia-dashboard
   tags:
     ussuri-uc:
@@ -967,7 +950,6 @@ packages:
 - project: rally
   tags:
     ussuri-uc:
-      source-branch: 000052f67a38579666cc9c446675de148c4f0b4d
 - project: rally-openstack
   tags:
     ussuri-uc:
@@ -1027,7 +1009,6 @@ packages:
 - project: senlin
   tags:
     ussuri-uc:
-      source-branch: c83e79644adb3945787b1d3c7ddc1e078e883e4e
 - project: senlinclient
   tags:
     ussuri-uc:
@@ -1097,7 +1078,6 @@ packages:
 - project: tobiko
   tags:
     ussuri-uc:
-      source-branch: 5ee2ba5f4f365c5b15dcfbf615e61b16e75e9914
 - project: tooz
   tags:
     ussuri-uc:
@@ -1194,7 +1174,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     ussuri-uc:
-      source-branch: ad91e171db3f052af3087c01aca0e6d91bff3265
 - project: zaqarclient
   tags:
     ussuri-uc:
