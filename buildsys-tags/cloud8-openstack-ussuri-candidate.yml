@@ -2,3 +2,6 @@ packages:
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-ussuri-candidate: python-pbr-5.4.3-3.el8
+- project: ovn
+  buildsys-tags:
+    cloud8-openstack-ussuri-candidate: ovn-20.03.0-0.el8
