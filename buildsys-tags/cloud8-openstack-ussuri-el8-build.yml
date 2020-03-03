@@ -98,6 +98,9 @@ packages:
 - project: openstack-macros
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: openstack-macros-2019.2.3-1.el8
+- project: ovn
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ovn-20.03.0-0.el8
 - project: parallel
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: parallel-20190922-1.el8
