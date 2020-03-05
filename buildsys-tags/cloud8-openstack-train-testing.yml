@@ -1,0 +1,1039 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud8-openstack-train-testing: GitPython-3.0.2-2.el8
+- project: MUMPS
+  buildsys-tags:
+    cloud8-openstack-train-testing: MUMPS-5.2.1-4.el8
+- project: ansible
+  buildsys-tags:
+    cloud8-openstack-train-testing: ansible-2.8.8-1.el8
+- project: blosc
+  buildsys-tags:
+    cloud8-openstack-train-testing: blosc-1.17.0-1.el8
+- project: boost-nowide
+  buildsys-tags:
+    cloud8-openstack-train-testing: boost-nowide-0-20190813.gitec9672b.el8
+- project: bridge-utils
+  buildsys-tags:
+    cloud8-openstack-train-testing: bridge-utils-1.6-4.el8
+- project: ck
+  buildsys-tags:
+    cloud8-openstack-train-testing: ck-0.6.0-10.el8
+- project: coin-or-Cbc
+  buildsys-tags:
+    cloud8-openstack-train-testing: coin-or-Cbc-2.10.3-2.el8
+- project: coin-or-Cgl
+  buildsys-tags:
+    cloud8-openstack-train-testing: coin-or-Cgl-0.60.2-2.el8
+- project: coin-or-Clp
+  buildsys-tags:
+    cloud8-openstack-train-testing: coin-or-Clp-1.17.3-3.el8
+- project: coin-or-CoinUtils
+  buildsys-tags:
+    cloud8-openstack-train-testing: coin-or-CoinUtils-2.11.3-2.el8
+- project: coin-or-Osi
+  buildsys-tags:
+    cloud8-openstack-train-testing: coin-or-Osi-0.108.5-1.el8
+- project: coin-or-Sample
+  buildsys-tags:
+    cloud8-openstack-train-testing: coin-or-Sample-1.2.11-3.el8
+- project: cpp-hocon
+  buildsys-tags:
+    cloud8-openstack-train-testing: cpp-hocon-0.2.1-1.el8
+- project: crudini
+  buildsys-tags:
+    cloud8-openstack-train-testing: crudini-0.9.3-1.el8
+- project: dibbler
+  buildsys-tags:
+    cloud8-openstack-train-testing: dibbler-1.0.1-10.el8
+- project: dumb-init
+  buildsys-tags:
+    cloud8-openstack-train-testing: dumb-init-1.2.2-6.el8
+- project: environment-modules
+  buildsys-tags:
+    cloud8-openstack-train-testing: environment-modules-4.4.1-1.el8
+- project: etcd
+  buildsys-tags:
+    cloud8-openstack-train-testing: etcd-3.2.21-2.el8
+- project: facter
+  buildsys-tags:
+    cloud8-openstack-train-testing: facter-3.14.2-2.el8
+- project: future
+  buildsys-tags:
+    cloud8-openstack-train-testing: future-0.18.2-3.el8
+- project: gflags
+  buildsys-tags:
+    cloud8-openstack-train-testing: gflags-2.2.2-3.el8
+- project: glpk
+  buildsys-tags:
+    cloud8-openstack-train-testing: glpk-4.65-4.el8
+- project: golang-github-vbatts-tar-split
+  buildsys-tags:
+    cloud8-openstack-train-testing: golang-github-vbatts-tar-split-0.11.1-1.el8
+- project: google-api-python-client
+  buildsys-tags:
+    cloud8-openstack-train-testing: google-api-python-client-1.6.7-10.el8
+- project: gperftools
+  buildsys-tags:
+    cloud8-openstack-train-testing: gperftools-2.7-6.el8
+- project: grpc
+  buildsys-tags:
+    cloud8-openstack-train-testing: grpc-1.26.0-1.el8
+- project: gv
+  buildsys-tags:
+    cloud8-openstack-train-testing: gv-3.7.4-21.el8
+- project: hdf5
+  buildsys-tags:
+    cloud8-openstack-train-testing: hdf5-1.10.5-5.el8
+- project: heat-cfntools
+  buildsys-tags:
+    cloud8-openstack-train-testing: heat-cfntools-1.4.2-11.el8
+- project: hiera
+  buildsys-tags:
+    cloud8-openstack-train-testing: hiera-3.6.0-1.el8
+- project: jemalloc
+  buildsys-tags:
+    cloud8-openstack-train-testing: jemalloc-5.2.1-2.el8
+- project: jsoncpp
+  buildsys-tags:
+    cloud8-openstack-train-testing: jsoncpp-1.9.2-1.el8
+- project: leatherman
+  buildsys-tags:
+    cloud8-openstack-train-testing: leatherman-1.6.1-2.el8
+- project: liberasurecode
+  buildsys-tags:
+    cloud8-openstack-train-testing: liberasurecode-1.6.0-4.el8
+- project: libimagequant
+  buildsys-tags:
+    cloud8-openstack-train-testing: libimagequant-2.12.6-1.el8
+- project: librdkafka
+  buildsys-tags:
+    cloud8-openstack-train-testing: librdkafka-1.3.0-2.el8
+- project: libsodium
+  buildsys-tags:
+    cloud8-openstack-train-testing: libsodium-1.0.18-2.el8
+- project: libunwind
+  buildsys-tags:
+    cloud8-openstack-train-testing: libunwind-1.3.1-3.el8
+- project: libuv
+  buildsys-tags:
+    cloud8-openstack-train-testing: libuv-1.23.1-1.el8
+- project: libwebsockets
+  buildsys-tags:
+    cloud8-openstack-train-testing: libwebsockets-3.2.2-1.el8
+- project: luajit
+  buildsys-tags:
+    cloud8-openstack-train-testing: luajit-2.1.0-0.16beta3.el8
+- project: mod_xsendfile
+  buildsys-tags:
+    cloud8-openstack-train-testing: mod_xsendfile-0.12-19.el8
+- project: mp
+  buildsys-tags:
+    cloud8-openstack-train-testing: mp-3.1.0-24.20161124git1f39801.el8
+- project: nauty
+  buildsys-tags:
+    cloud8-openstack-train-testing: nauty-2.6.12-1.el8
+- project: novnc
+  buildsys-tags:
+    cloud8-openstack-train-testing: novnc-1.1.0-6.el8
+- project: openpgm
+  buildsys-tags:
+    cloud8-openstack-train-testing: openpgm-5.2.122-21.el8
+- project: openvswitch
+  buildsys-tags:
+    cloud8-openstack-train-testing: openvswitch-2.12.0-1.el8
+- project: ovn
+  buildsys-tags:
+    cloud8-openstack-train-testing: ovn-2.12.0-10.el8
+- project: protobuf
+  buildsys-tags:
+    cloud8-openstack-train-testing: protobuf-3.11.2-2.el8
+- project: puppet
+  buildsys-tags:
+    cloud8-openstack-train-testing: puppet-5.5.10-9.el8
+- project: PyYAML
+  buildsys-tags:
+    cloud8-openstack-train-testing: PyYAML-5.3-2.el8
+- project: pydot
+  buildsys-tags:
+    cloud8-openstack-train-testing: pydot-1.4.1-1.el8
+- project: pyflakes
+  buildsys-tags:
+    cloud8-openstack-train-testing: pyflakes-2.1.1-5.el8
+- project: pyparsing
+  buildsys-tags:
+    cloud8-openstack-train-testing: pyparsing-2.4.6-1.el8
+- project: pysendfile
+  buildsys-tags:
+    cloud8-openstack-train-testing: pysendfile-2.0.1-15.el8
+- project: pysnmp
+  buildsys-tags:
+    cloud8-openstack-train-testing: pysnmp-4.4.12-1.el8
+- project: pystache
+  buildsys-tags:
+    cloud8-openstack-train-testing: pystache-0.5.4-13.el8
+- project: pytest
+  buildsys-tags:
+    cloud8-openstack-train-testing: pytest-4.6.9-1.el8
+- project: python-APScheduler
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-APScheduler-3.5.3-3.el8
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-Bottleneck-1.2.1-13.el8
+- project: python-PuLP
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-PuLP-1.6.5-1.el8
+- project: python-SecretStorage
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-SecretStorage-2.3.1-7.el8
+- project: python-XStatic
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-1.0.1-19.el8
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-1.5.8.0-10.el8
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-UUID-0.0.4.0-9.el8
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-Vis-4.16.0.0-6.el8
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-D3-3.5.17.0-10.el8
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-FileSaver-1.3.2.0-6.el8
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Font-Awesome-4.7.0.0-10.el8
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Hogan-2.0.0.2-17.el8
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-JS-Yaml-3.8.1.0-7.el8
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-JSEncrypt-2.3.1.1-9.el8
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Jasmine-2.4.1.1-9.el8
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Json2yaml-0.1.1.0-6.el8
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Magic-Search-0.2.5.1-12.el8
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Rickshaw-1.5.0.0-19.el8
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-Spin-1.2.5.2-18.el8
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-bootswatch-3.3.7.0-11.el8
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-jQuery-1.10.2.1-1.el8
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-jquery-ui-1.12.0.1-9.el8
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-mdi-1.4.57.0-13.el8
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-objectpath-1.2.1.0-2.el8
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-smart-table-1.4.13.2-9.el8
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-termjs-0.0.7.0-9.el8
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-XStatic-tv4-1.2.7.0-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-alembic-1.3.1-1.el8
+- project: python-amqp
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-amqp-2.5.2-2.el8
+- project: python-aniso8601
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-aniso8601-8.0.0-1.el8
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ansible-runner-1.4.4-2.el8
+- project: python-anyjson
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-anyjson-0.3.3-24.el8
+- project: python-appdirs
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-appdirs-1.4.3-12.el8
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-atomicwrites-1.3.0-6.el8
+- project: python-autobahn
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-autobahn-19.10.1-1.el8
+- project: python-bcrypt
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-bcrypt-3.1.7-3.el8
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-beautifulsoup4-4.8.2-1.el8
+- project: python-boto
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-boto-2.49.0-4.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-botocore-1.9.1-2.el8
+- project: python-cachetools
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cachetools-4.0.0-1.el8
+- project: python-certifi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-certifi-2018.10.15-8.el8
+- project: python-cffi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cffi-1.13.2-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cmd2-0.9.16-2.el8
+- project: python-colorama
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-colorama-0.4.1-4.el8
+- project: python-configparser
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-configparser-3.7.1-6.el8
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-confluent-kafka-0.11.6-8.el8
+- project: python-construct
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-construct-2.8.22-1.el8
+- project: python-contextlib2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-contextlib2-0.5.5-12.el8
+- project: python-cotyledon
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cotyledon-1.7.3-4.el8
+- project: python-cradox
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cradox-2.1.0-7.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-croniter-0.3.27-4.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cryptography-2.8-2.el8
+- project: python-cycler
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-cycler-0.10.0-13.el8
+- project: python-daemon
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-daemon-2.2.3-7.el8
+- project: python-daiquiri
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-daiquiri-1.5.0-6.el8
+- project: python-ddt
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ddt-1.2.1-4.el8
+- project: python-decorator
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-decorator-4.4.0-5.el8
+- project: python-defusedxml
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-defusedxml-0.6.0-4.el8
+- project: python-deprecation
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-deprecation-2.0.6-5.el8
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-dictdiffer-0.8.1-2.el8
+- project: python-distro
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-distro-1.4.0-4.el8
+- project: python-django
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-2.2.9-1.el8
+- project: python-django-appconf
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-appconf-1.0.3-1.el8
+- project: python-django-babel
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-babel-0.6.2-10.el8
+- project: python-django-compressor
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-compressor-2.2-8.el8
+- project: python-django-debreach
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-debreach-2.0.1-1.el8
+- project: python-django-formtools
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-formtools-2.1-11.el8
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-django-pyscss-2.0.2-14.el8
+- project: python-docker
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-docker-4.0.2-2.el8
+- project: python-docker-pycreds
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-docker-pycreds-0.4.0-5.el8
+- project: python-docopt
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-docopt-0.6.2-15.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-dogpile-cache-0.9.0-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-dulwich-0.19.14-1.el8
+- project: python-edengrid
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-edgegrid-1.1.1-6.el8
+- project: python-editor
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-editor-1.0.4-4.el8
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-elasticsearch-7.5.1-1.el8
+- project: python-entrypoints
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-entrypoints-0.3-4.el8
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-etcd3gw-0.2.4-11.el8
+- project: python-eventlet
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-eventlet-0.25.1-2.el8
+- project: python-exabgp
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-exabgp-4.0.10-4.el8
+- project: python-extras
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-extras-1.0.0-10.el8
+- project: python-falcon
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-falcon-2.0.0-1.el8
+- project: python-fastavro
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-fastavro-0.19.8-2.el8
+- project: python-fastcache
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-fastcache-1.1.0-5.el8
+- project: python-fasteners
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-fasteners-0.14.1-20.el8
+- project: python-fixtures
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-fixtures-3.0.0-16.el8
+- project: python-flake8
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-flake8-3.7.7-6.el8
+- project: python-flask
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-flask-1.1.1-1.el8
+- project: python-flask-restful
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-flask-restful-0.3.7-5.el8
+- project: python-fluidity-sm
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-fluidity-sm-0.2.0-16.el8
+- project: python-funcsigs
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-funcsigs-1.0.2-17.el8
+- project: python-gabbi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-gabbi-1.49.0-1.el8
+- project: python-gitdb
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-gitdb-2.0.3-10.el8
+- project: python-gmpy2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-gmpy2-2.0.8-7.el8
+- project: python-google-auth
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-google-auth-1.10.1-1.el8
+- project: python-gunicorn
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-gunicorn-20.0.4-1.el8
+- project: python-ifaddr
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ifaddr-0.1.6-5.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-importlib-metadata-0.23-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-importlib-resources-1.0.2-1.el8
+- project: python-influxdb
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-influxdb-5.2.0-6.el8
+- project: python-invoke
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-invoke-1.4.0-1.el8
+- project: python-iso8601
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-iso8601-0.1.11-16.el8
+- project: python-jeepney
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-jeepney-0.4.1-1.el8
+- project: python-json-logger
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-json-logger-0.1.7-11.el8
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-jsonpath-rw-1.2.3-22.el8
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-jsonpath-rw-ext-1.2.0-5.el8
+- project: python-junitxml
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-junitxml-0.7-20.el8
+- project: python-kafka
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-kafka-1.4.3-3.el8
+- project: python-kazoo
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-kazoo-2.5.0-7.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-keyring-21.0.0-1.el8
+- project: python-kiwisolver
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-kiwisolver-1.1.0-4.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-kombu-4.6.6-2.el8
+- project: python-kubernetes
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-kubernetes-10.0.1-1.el8
+- project: python-ldap3
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ldap3-2.6.1-2.el8
+- project: python-ldappool
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ldappool-2.4.0-5.el8
+- project: python-lesscpy
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-lesscpy-0.13.0-12.el8
+- project: python-lexicon
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-lexicon-1.0.0-9.el8
+- project: python-linecache2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-linecache2-1.0.0-25.el8
+- project: python-lockfile
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-lockfile-0.11.0-16.el8
+- project: python-logutils
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-logutils-0.3.5-11.el8
+- project: python-lz4
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-lz4-2.1.2-6.el8
+- project: python-marathon
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-marathon-0.8.8-12.el8
+- project: python-matplotlib
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-matplotlib-3.1.1-2.el8
+- project: python-mccabe
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-mccabe-0.6.1-14.el8
+- project: python-memcached
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-memcached-1.58-11.el8
+- project: python-migrate
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-migrate-0.13.0-1.el8
+- project: python-mimeparse
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-mimeparse-1.6.0-11.el8
+- project: python-mock
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-mock-3.0.5-7.el8
+- project: python-monotonic
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-monotonic-1.5-5.el8
+- project: python-more-itertools
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-more-itertools-7.2.0-3.el8
+- project: python-mpmath
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-mpmath-1.1.0-6.el8
+- project: python-msgpack
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-msgpack-0.6.2-1.el8
+- project: python-munch
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-munch-2.3.2-6.el8
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-murano-pkg-check-0.3.0-15.el8
+- project: python-ndg_httpsclient
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ndg_httpsclient-0.5.1-5.el8
+- project: python-netmiko
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-netmiko-3.0.0-1.el8
+- project: python-network-runner
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-network-runner-0.1.7-3.el8
+- project: python-networkx
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-networkx-2.3-5.el8
+- project: python-ntlm-auth
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ntlm-auth-1.1.0-8.el8
+- project: python-numexpr
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-numexpr-2.7.1-1.el8
+- project: python-oauth2client
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-oauth2client-4.1.3-8.el8
+- project: python-olefile
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-olefile-0.46-8.el8
+- project: python-openshift
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-openshift-0.10.1-3.el8
+- project: python-pandas
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pandas-0.25.3-1.el8
+- project: python-paramiko
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-paramiko-2.7.1-1.el8
+- project: python-passlib
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-passlib-1.7.1-6.el8
+- project: python-paste
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-paste-3.2.4-1.el8
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-paste-deploy-2.0.1-4.el8
+- project: python-pathlib2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pathlib2-2.3.5-1.el8
+- project: python-pbr
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pbr-5.4.3-2.el8
+- project: python-pecan
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pecan-1.3.2-9.el8
+- project: python-pexpect
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pexpect-4.7.0-4.el8
+- project: python-pint
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pint-0.10.1-1.el8
+- project: python-pluggy
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pluggy-0.13.0-1.el8
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-posix_ipc-0.9.8-22.el8
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-prometheus_client-0.7.1-2.el8
+- project: python-psutil
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-psutil-5.6.3-5.el8
+- project: python-pyasn1
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyasn1-0.4.6-3.el8
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pycodestyle-2.5.0-6.el8
+- project: python-pyeclib
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyeclib-1.5.0-12.el8
+- project: python-pygal
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pygal-2.4.0-12.el8
+- project: python-pyghmi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyghmi-1.2.16-4.el8
+- project: python-pyglet
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyglet-1.4.6-1.el8
+- project: python-pykwalify
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pykwalify-1.7.0-5.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pymemcache-2.1.1-6.el8
+- project: python-pynacl
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pynacl-1.3.0-5.el8
+- project: python-pyngus
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyngus-2.3.0-4.el8
+- project: python-pyperclip
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyperclip-1.6.4-6.el8
+- project: python-pyroute2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pyroute2-0.5.6-1.el8
+- project: python-pysaml2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pysaml2-4.5.0-9.el8
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pytest-runner-4.0-8.el8
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-pytimeparse-1.1.8-4.el8
+- project: python-rcssmin
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-rcssmin-1.0.6-18.el8
+- project: python-redis
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-redis-3.3.8-1.el8
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-repoze-lru-0.7-6.el8
+- project: python-requests
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-requests-2.22.0-7.el8
+- project: python-requests-mock
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-requests-mock-1.7.0-1.el8
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-requests_ntlm-1.1.0-9.el8
+- project: python-retrying
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-retrying-1.2.3-21.el8
+- project: python-rfc3986
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-rfc3986-1.2.0-6.el8
+- project: python-rjsmin
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-rjsmin-1.0.12-17.el8
+- project: python-routes
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-routes-2.4.1-12.el8
+- project: python-rsa
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-rsa-3.4.2-13.el8
+- project: python-ruamel-yaml
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ruamel-yaml-0.16.5-3.el8
+- project: python-ruamel-yaml-clib
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ruamel-yaml-clib-0.1.2-1.el8
+- project: python-scandir
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-scandir-1.9.0-9.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-scp-0.13.2-4.el8
+- project: python-scrypt
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-scrypt-0.8.0-11.el8
+- project: python-scss
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-scss-1.3.5-9.el8
+- project: python-service-identity
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-service-identity-18.1.0-5.el8
+- project: python-setproctitle
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-setproctitle-1.1.10-16.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-setuptools-41.6.0-1.el8
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-simplegeneric-0.8.1-17.el8
+- project: python-simplejson
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-simplejson-3.17.0-1.el8
+- project: python-singledispatch
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-singledispatch-3.4.0.3-18.el8
+- project: python-six
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-six-1.14.0-2.el8
+- project: python-smi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-smi-0.3.4-6.el8
+- project: python-smmap
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-smmap-2.0.3-9.el8
+- project: python-snappy
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-snappy-0.5.4-5.el8
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-sortedcontainers-2.1.0-5.el8
+- project: python-soupsieve
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-soupsieve-1.9.2-3.el8
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-sphinx-argparse-0.2.2-8.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-sqlalchemy-utils-0.34.2-2.el8
+- project: python-sqlparse
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-sqlparse-0.2.4-9.el8
+- project: python-sseclient
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-sseclient-0.0.18-9.el8
+- project: python-statsd
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-statsd-3.2.1-16.el8
+- project: python-stestr
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-stestr-2.6.0-4.el8
+- project: python-string_utils
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-string_utils-0.6.0-10.el8
+- project: python-subunit2sql
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-subunit2sql-1.9.0-3.el8
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-sysv_ipc-1.0.0-3.el8
+- project: python-tables
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tables-3.5.2-6.el8
+- project: python-tabulate
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tabulate-0.8.6-1.el8
+- project: python-tempita
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tempita-0.5.1-25.el8
+- project: python-tenacity
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tenacity-5.1.1-3.el8
+- project: python-testrepository
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-testrepository-0.0.20-20.el8
+- project: python-testresources
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-testresources-1.0.0-14.el8
+- project: python-testscenarios
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-testscenarios-0.5.0-17.el8
+- project: python-testtools
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-testtools-2.3.0-15.el8
+- project: python-textfsm
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-textfsm-0.3.2-9.el8
+- project: python-timeout-decorator
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-timeout-decorator-0.4.1-2.el8
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tinyrpc-1.0.3-1.el8
+- project: python-tornado
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tornado-4.5.2-5.el8
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tosca-parser-1.4.0-4.el8
+- project: python-traceback2
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-traceback2-1.4.0-25.el8
+- project: python-trollius
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-trollius-2.1-14.el8
+- project: python-txaio
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-txaio-18.8.1-7.el8
+- project: python-tzlocal
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-tzlocal-1.5.1-9.el8
+- project: python-ujson
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-ujson-2.0-0.2.20170206git2f1d487.el8
+- project: python-unicodecsv
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-unicodecsv-0.14.1-19.el8
+- project: python-uritemplate
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-uritemplate-3.0.0-10.el8
+- project: python-urllib-gssapi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-urllib-gssapi-1.0.1-10.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-urllib3-1.25.7-2.el8
+- project: python-versiontools
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-versiontools-1.9.1-24.el8
+- project: python-vine
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-vine-1.3.0-4.el8
+- project: python-voluptuous
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-voluptuous-0.11.7-2.el8
+- project: python-waitress
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-waitress-1.4.2-1.el8
+- project: python-warlock
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-warlock-1.3.3-1.el8
+- project: python-wcwidth
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-wcwidth-0.1.7-14.el8
+- project: python-webob
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-webob-1.8.5-5.el8
+- project: python-websocket-client
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-websocket-client-0.56.0-5.el8
+- project: python-websockify
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-websockify-0.8.0-15.el8
+- project: python-webtest
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-webtest-2.0.33-4.el8
+- project: python-werkzeug
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-werkzeug-0.16.0-1.el8
+- project: python-winrm
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-winrm-0.3.0-8.el8
+- project: python-wrapt
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-wrapt-1.11.2-4.el8
+- project: python-wsaccel
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-wsaccel-0.6.2-20.el8
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-wsgi_intercept-1.9.2-1.el8
+- project: python-xmltodict
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-xmltodict-0.12.0-6.el8
+- project: python-yappi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-yappi-1.0-4.el8
+- project: python-yaql
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-yaql-1.1.3-10.el8
+- project: python-zake
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-zake-0.2.2-18.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-zeroconf-0.24.4-1.el8
+- project: python-zipp
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-zipp-0.5.1-2.el8
+- project: python-zmq
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-zmq-18.1.0-2.el8
+- project: python-zope-event
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-zope-event-4.2.0-16.el8
+- project: python-zope-interface
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-zope-interface-4.7.1-1.el8
+- project: python2-typing
+  buildsys-tags:
+    cloud8-openstack-train-testing: python2-typing-3.7.4.1-1.el8
+- project: qhull
+  buildsys-tags:
+    cloud8-openstack-train-testing: qhull-7.2.1-2.el8
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud8-openstack-train-testing: qpid-dispatch-1.9.0-2.el8
+- project: qpid-proton
+  buildsys-tags:
+    cloud8-openstack-train-testing: qpid-proton-0.30.0-1.el8
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud8-openstack-train-testing: rdo-openvswitch-2.12-1.el8
+- project: ruby-augeas
+  buildsys-tags:
+    cloud8-openstack-train-testing: ruby-augeas-0.5.0-23.el8
+- project: rubygem-multi_json
+  buildsys-tags:
+    cloud8-openstack-train-testing: rubygem-multi_json-1.13.1-4.el8
+- project: rubygem-pathspec
+  buildsys-tags:
+    cloud8-openstack-train-testing: rubygem-pathspec-0.2.1-5.el8
+- project: rubygem-rgen
+  buildsys-tags:
+    cloud8-openstack-train-testing: rubygem-rgen-0.8.4-2.el8
+- project: rubygem-ruby-shadow
+  buildsys-tags:
+    cloud8-openstack-train-testing: rubygem-ruby-shadow-2.5.0-12.el8
+- project: sshpass
+  buildsys-tags:
+    cloud8-openstack-train-testing: sshpass-1.06-8.el8
+- project: subunit
+  buildsys-tags:
+    cloud8-openstack-train-testing: subunit-1.3.0-16.el8
+- project: sympy
+  buildsys-tags:
+    cloud8-openstack-train-testing: sympy-1.4-6.el8
+- project: sysbench
+  buildsys-tags:
+    cloud8-openstack-train-testing: sysbench-1.0.17-3.el8
+- project: uwsgi
+  buildsys-tags:
+    cloud8-openstack-train-testing: uwsgi-2.0.18-4.el8
+- project: web-assets
+  buildsys-tags:
+    cloud8-openstack-train-testing: web-assets-5-10.el8
+- project: xqc
+  buildsys-tags:
+    cloud8-openstack-train-testing: xqc-1.0-0.16.20101120svn7.el8
+- project: yaml-cpp
+  buildsys-tags:
+    cloud8-openstack-train-testing: yaml-cpp-0.6.3-1.el8
+- project: zeromq
+  buildsys-tags:
+    cloud8-openstack-train-testing: zeromq-4.3.2-1.el8
+- project: zstd
+  buildsys-tags:
+    cloud8-openstack-train-testing: zstd-1.4.4-1.el8
