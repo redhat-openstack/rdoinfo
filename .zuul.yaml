@@ -1,0 +1,14 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check-centos8:
+            timeout: 18000
+        - distgit-tripleo-master-testing-centos-8-ovb-3ctlr_1comp-featureset001-master:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            vars:
+              force_periodic: true
+              promote_source: tripleo-ci-testing
+              featureset_override:
+                to_build: false

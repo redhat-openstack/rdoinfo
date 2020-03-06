@@ -24,10 +24,6 @@ packages:
 - project: wsme
   tags:
     version-locked:
-# Until we move to CentOS8 completely
-- project: ironic-lib
-  tags:
-    version-locked:
 # We want to pull latest commits from neutron instead of u-c pinned version
 - project: neutron
   tags:
