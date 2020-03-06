@@ -61,7 +61,7 @@ packages:
     cloud7-openstack-rocky-release: python-castellan-0.19.0-1.el7
 - project: ceilometer
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-ceilometer-11.0.1-1.el7
+    cloud7-openstack-rocky-release: openstack-ceilometer-11.1.0-1.el7
 - project: ceilometerclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-ceilometerclient-2.9.0-1.el7
@@ -295,19 +295,19 @@ packages:
     cloud7-openstack-rocky-release: jq-1.5-10.el7
 - project: keystone
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-keystone-14.1.0-1.el7
+    cloud7-openstack-rocky-release: openstack-keystone-14.2.0-1.el7
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-keystone-tests-tempest-0.1.0-1.el7
 - project: keystoneauth1
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-keystoneauth1-3.10.0-1.el7
+    cloud7-openstack-rocky-release: python-keystoneauth1-3.10.1-1.el7
 - project: keystoneclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-keystoneclient-3.17.0-1.el7
 - project: keystonemiddleware
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-keystonemiddleware-5.2.1-1.el7
+    cloud7-openstack-rocky-release: python-keystonemiddleware-5.2.2-1.el7
 - project: kolla
   buildsys-tags:
     cloud7-openstack-rocky-release: openstack-kolla-7.1.0-1.el7
@@ -316,7 +316,7 @@ packages:
     cloud7-openstack-rocky-release: python-kuryr-lib-0.8.0-1.el7
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-kuryr-kubernetes-0.5.3-1.el7
+    cloud7-openstack-rocky-release: openstack-kuryr-kubernetes-0.5.4-1.el7
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-kuryr-tests-tempest-0.3.0-1.el7
@@ -439,28 +439,28 @@ packages:
     cloud7-openstack-rocky-release: python-networking-mlnx-12.0.0-1.el7
 - project: networking-odl
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-networking-odl-13.0.0-1.el7
+    cloud7-openstack-rocky-release: python-networking-odl-13.0.1-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-networking-ovn-5.0.1-1.el7
+    cloud7-openstack-rocky-release: python-networking-ovn-5.1.0-1.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-rocky-release: python-networking-sfc-7.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-neutron-13.0.6-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-13.0.7-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-neutron-dynamic-routing-13.0.1-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-dynamic-routing-13.1.0-1.el7
 - project: neutron-fwaas
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.2-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-fwaas-13.0.3-1.el7
 - project: neutron-lbaas
   buildsys-tags:
     cloud7-openstack-rocky-release: openstack-neutron-lbaas-13.0.1-1.el7
 - project: neutron-lbaas-dashboard
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-neutron-lbaas-ui-5.0.0-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-lbaas-ui-5.0.1-1.el7
 - project: neutron-lib
   buildsys-tags:
     cloud7-openstack-rocky-release: python-neutron-lib-1.18.0-1.el7
@@ -469,13 +469,13 @@ packages:
     cloud7-openstack-rocky-release: python-neutron-tests-tempest-0.5.0-0.2.el7
 - project: neutron-vpnaas
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.1-1.el7
+    cloud7-openstack-rocky-release: openstack-neutron-vpnaas-13.0.2-1.el7
 - project: neutronclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-neutronclient-6.9.1-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-nova-18.2.3-1.el7
+    cloud7-openstack-rocky-release: openstack-nova-18.3.0-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-novaclient-11.0.1-1.el7
@@ -493,10 +493,10 @@ packages:
     cloud7-openstack-rocky-release: numpy-1.14.5-1.el7
 - project: octavia
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-octavia-3.2.1-1.el7
+    cloud7-openstack-rocky-release: openstack-octavia-3.2.2-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-octavia-ui-2.0.1-1.el7
+    cloud7-openstack-rocky-release: openstack-octavia-ui-2.0.2-1.el7
 - project: octavia-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-octavia-tests-tempest-0.2.0-1.el7
@@ -781,7 +781,7 @@ packages:
     cloud7-openstack-rocky-release: puppet-kibana3-0.0.4-1.6ca9631git.el7
 - project: puppet-kmod
   buildsys-tags:
-    cloud7-openstack-rocky-release: puppet-kmod-2.2.0-2.42b27aegit.el7
+    cloud7-openstack-rocky-release: puppet-kmod-2.4.0-1.42b27aegit.el7
 - project: puppet-lib-file_concat
   buildsys-tags:
     cloud7-openstack-rocky-release: puppet-lib-file_concat-1.0.1-2.el7
@@ -1987,7 +1987,7 @@ packages:
     cloud7-openstack-rocky-release: python-vmware-nsxlib-13.0.0-1.el7
 - project: watcher
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-watcher-1.12.0-1.el7
+    cloud7-openstack-rocky-release: openstack-watcher-1.12.1-1.el7
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-watcher-tests-tempest-1.0.0-1.el7
