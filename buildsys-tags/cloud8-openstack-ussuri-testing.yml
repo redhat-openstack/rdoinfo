@@ -7,6 +7,7 @@ packages:
     cloud8-openstack-ussuri-testing: MUMPS-5.2.1-4.el8
 - project: ansible
   buildsys-tags:
+    # !2.8.9 https://github.com/ansible/ansible/issues/68042
     cloud8-openstack-ussuri-testing: ansible-2.8.8-1.el8
 - project: blosc
   buildsys-tags:
