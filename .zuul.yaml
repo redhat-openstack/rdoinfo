@@ -3,43 +3,7 @@
       jobs:
         - rdoinfo-DLRN-check-centos8:
             timeout: 18000
-        - distgit-tripleo-master-testing-centos-8-standalone:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-scenario001:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-scenario002:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-scenario003:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-scenario004:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-full-temepst:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-scenario007:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-standalone-scenario010:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-singlenode-featureset027:
-            dependencies:
-              - rdoinfo-DLRN-check-centos8
-            voting: false
-        - distgit-tripleo-master-testing-centos-8-multinode-1ctlr-featureset010:
+        - distgit-tripleo-master-testing-centos-8-ovb-3ctlr_1comp-featureset001-master:
             dependencies:
               - rdoinfo-DLRN-check-centos8
             voting: false
