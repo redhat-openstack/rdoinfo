@@ -2188,6 +2188,15 @@ packages:
   upstream: https://opendev.org/x/networking-omnipath
   maintainers:
   - xubo.zhang@intel.com
+- project: validations-libs
+  component: tripleo
+  conf: rpmfactory-lib
+  maintainers:
+    - cjeanner@redhat.com
+    - gchamoul@redhat.com
+    - mbultel@redhat.com
+  name: validations-libs
+  upstream: https://opendev.org/openstack/validations-libs
 components:
 - name: common
 - name: compute
