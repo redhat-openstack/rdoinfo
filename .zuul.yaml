@@ -1,0 +1,19 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-testing-centos-8-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - rdoinfo-tripleo-master-testing-centos-8-scenario001-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - rdoinfo-tripleo-master-testing-centos-8-scenario007-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
+        - rdoinfo-tripleo-master-testing-centos-8-containers-multinode:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
