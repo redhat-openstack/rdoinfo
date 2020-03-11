@@ -1,0 +1,7 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-testing-centos-8-scenario001-standalone:
+            dependencies:
+              - legacy-validate-buildsys-tags
+            voting: false
