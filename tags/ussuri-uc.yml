@@ -175,7 +175,6 @@ packages:
 - project: hardware
   tags:
     ussuri-uc:
-      source-branch: 0.23.0
 - project: heat
   tags:
     ussuri-uc:
@@ -202,11 +201,9 @@ packages:
 - project: ironic
   tags:
     ussuri-uc:
-      source-branch: 6efcfd8c5fa6abded715abbd7aaaeb019ed364ed
 - project: ironic-inspector
   tags:
     ussuri-uc:
-      source-branch: b2c0c52a9570ce821367f097f806dd7e5a8bfa10
 - project: ironic-inspector-client
   tags:
     ussuri-uc:
@@ -221,7 +218,6 @@ packages:
 - project: ironic-python-agent
   tags:
     ussuri-uc:
-      source-branch: 8e246f4482151ebbce4de552a6bad403aa0f37ea
 - project: ironic-python-agent-builder
   tags:
     ussuri-uc:
