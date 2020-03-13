@@ -1,0 +1,43 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-8-standalone:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario001:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario003:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario004:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-full-temepst:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario007:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario010:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-undercloud-containers:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+        - distgit-tripleo-master-testing-centos-8-multinode-1ctlr-featureset010:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
