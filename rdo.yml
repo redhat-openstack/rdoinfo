@@ -2124,6 +2124,16 @@ packages:
   maintainers:
   - kecarter@redhat.com
   - aschultz@next-development.com
+- project: tripleo-ipa
+  name: tripleo-ipa
+  conf: rpmfactory-core
+  component: security
+  maintainers:
+  - alee@redhat.com
+  - cdwilde@gmail.com
+  - kevin@cloudnull.com
+  - lbragstad@gmail.com
+  - xek@redhat.com
 - project: tripleo-operator-ansible
   name: tripleo-operator-ansible
   conf: rpmfactory-core
