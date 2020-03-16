@@ -1060,7 +1060,7 @@ packages:
   conf: fedora-dependency
 - project: ansible
   name: ansible
-  conf: fedora-dependency
+  conf: rdo-dependency
 - project: python-ansible-runner
   name: python-ansible-runner
   conf: rdo-dependency
@@ -2414,3 +2414,6 @@ packages:
 - project: rubygem-yard
   name: rubygem-yard
   conf: fedora-dependency
+- project: ceph-ansible
+  name: ceph-ansible
+  conf: rdo-dependency
