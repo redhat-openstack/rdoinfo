@@ -2203,6 +2203,13 @@ packages:
     - cjeanner@redhat.com
     - gchamoul@redhat.com
     - mbultel@redhat.com
+- project: ovn-octavia-provider
+  component: network
+  conf: rpmfactory-lib
+  maintainers:
+    - mjozefcz@redhat.com
+    - bhaley@redat.com
+    - flaviof@redhat.com
 components:
 - name: common
 - name: compute
