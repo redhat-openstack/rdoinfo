@@ -2203,6 +2203,15 @@ packages:
     - cjeanner@redhat.com
     - gchamoul@redhat.com
     - mbultel@redhat.com
+- project: ovn-octavia-provider
+  component: network
+  conf: rpmfactory-lib
+  name: python-ovn-octavia-provider
+  upstream: https://opendev.org/openstack/ovn-octavia-provider
+  maintainers:
+    - mjozefcz@redhat.com
+    - bhaley@redat.com
+    - flaviof@redhat.com
 components:
 - name: common
 - name: compute
