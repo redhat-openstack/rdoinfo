@@ -133,7 +133,7 @@ packages:
     cloud7-openstack-rocky-testing: python-debtcollector-1.20.0-1.el7
 - project: designate
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-designate-7.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-designate-7.0.1-1.el7
 - project: designate-dashboard
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-designate-ui-7.0.0-1.el7
@@ -193,10 +193,10 @@ packages:
     cloud7-openstack-rocky-testing: galera-25.3.16-3.el7
 - project: glance
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-glance-17.0.0-2.el7
+    cloud7-openstack-rocky-testing: openstack-glance-17.0.1-1.el7
 - project: glance_store
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-glance-store-0.26.1-1.el7
+    cloud7-openstack-rocky-testing: python-glance-store-0.26.2-1.el7
 - project: glanceclient
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-glanceclient-2.13.1-1.el7
