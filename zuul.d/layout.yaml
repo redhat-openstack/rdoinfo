@@ -1,0 +1,7 @@
+- project:
+    check:
+      jobs: &jobs
+        - tox-py36
+        - tox-docs
+    gate:
+      jobs: *jobs
