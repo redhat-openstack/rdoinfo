@@ -211,7 +211,7 @@ packages:
 - project: ironic-lib
   tags:
     ussuri-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: ironic-prometheus-exporter
   tags:
     ussuri-uc:
@@ -310,7 +310,7 @@ packages:
 - project: mistral-lib
   tags:
     ussuri-uc:
-      source-branch: 237a10d22e4dc4965c553489fe3d24e8c75d308d
+      source-branch: 1.4.0
 - project: mistral-tempest-plugin
   tags:
     ussuri-uc:
@@ -396,7 +396,7 @@ packages:
 - project: neutron-lib
   tags:
     ussuri-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: neutron-tempest-plugin
   tags:
     ussuri-uc:
@@ -489,7 +489,7 @@ packages:
 - project: os-testr
   tags:
     ussuri-uc:
-      source-branch: 1.1.0
+      source-branch: 2.0.0
 - project: os-traits
   tags:
     ussuri-uc:
@@ -541,7 +541,7 @@ packages:
 - project: oslo-log
   tags:
     ussuri-uc:
-      source-branch: 4.0.1
+      source-branch: 4.1.0
 - project: oslo-messaging
   tags:
     ussuri-uc:
@@ -553,7 +553,7 @@ packages:
 - project: oslo-policy
   tags:
     ussuri-uc:
-      source-branch: 2.4.1
+      source-branch: 3.0.1
 - project: oslo-privsep
   tags:
     ussuri-uc:
@@ -573,7 +573,7 @@ packages:
 - project: oslo-service
   tags:
     ussuri-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: oslo-sphinx
   tags:
     ussuri-uc:
@@ -589,11 +589,11 @@ packages:
 - project: oslo-versionedobjects
   tags:
     ussuri-uc:
-      source-branch: 2.0.0
+      source-branch: 2.0.1
 - project: oslo-vmware
   tags:
     ussuri-uc:
-      source-branch: 3.2.0
+      source-branch: 3.2.1
 - project: oslotest
   tags:
     ussuri-uc:
@@ -1052,7 +1052,7 @@ packages:
 - project: taskflow
   tags:
     ussuri-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: telemetry-tempest-plugin
   tags:
     ussuri-uc:
@@ -1071,7 +1071,7 @@ packages:
 - project: tooz
   tags:
     ussuri-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: tripleo-ansible
   tags:
     ussuri-uc:
@@ -1121,7 +1121,7 @@ packages:
 - project: troveclient
   tags:
     ussuri-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: validations-common
   tags:
     ussuri-uc:
