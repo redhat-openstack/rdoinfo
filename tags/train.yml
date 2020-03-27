@@ -827,9 +827,8 @@ packages:
 - project: puppet-mysql
   tags:
     train:
-      # We can't bump to > 6.2.0 - https://tickets.puppetlabs.com/browse/MODULES-7487
-      # Related to https://jira.mariadb.org/browse/MDEV-16774
-      source-branch: 6.2.0
+      # TODO: switch to a tag once a newer release than v10.4.0 is pushed
+      source-branch: 95f9b982ef55a257b5641d3ae5289c3b37c70254
 - project: puppet-n1k-vsm
   tags:
     train:
