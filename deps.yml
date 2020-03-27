@@ -1,7 +1,7 @@
 package-configs:
   fedora-dependency:
-     # This is the conf for dependencies rebuilt from Fedora distgit
-     # and using cbs-tags for automatic tagging
+    # This is the conf for dependencies rebuilt from Fedora distgit
+    # and using cbs-tags for automatic tagging
     distgit: https://src.fedoraproject.org/git/rpms/%(project)s.git
     patches:
     master-distgit: https://src.fedoraproject.org/git/rpms/%(project)s.git
@@ -12,8 +12,8 @@ package-configs:
     maintainers:
     - nobody@rdoproject.org
   rdo-dependency:
-     # This is the conf for dependencies in rdo-common not being entirely managed
-     # in review.r.o but using cbs-tags for automatic tagging
+    # This is the conf for dependencies in rdo-common not being entirely managed
+    # in review.r.o but using cbs-tags for automatic tagging
     distgit: https://github.com/rdo-common/%(project)s.git
     patches:
     master-distgit: https://github.com/rdo-common/%(project)s.git
