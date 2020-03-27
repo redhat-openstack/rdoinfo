@@ -1,0 +1,9 @@
+---
+# Based on ansible-lint config
+extends: default
+
+rules:
+  document-start: disable
+  # TODO: fix indentation in follow-up change
+  indentation: disable
+  line-length: disable
