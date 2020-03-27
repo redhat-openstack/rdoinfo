@@ -196,7 +196,7 @@ package-default:
   name: python-%(project)s
   distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
   patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-# master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+  # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
   master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
   tags:
     ussuri-uc:
@@ -217,10 +217,10 @@ package-configs:
   rpmfactory-core:
     name: openstack-%(project)s
     upstream: https://git.openstack.org/openstack/%(project)s
-#   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-#   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
@@ -231,10 +231,10 @@ package-configs:
   rpmfactory-client:
     name: python-%(project)s
     upstream: https://git.openstack.org/openstack/python-%(project)s
-#   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-#   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
@@ -245,10 +245,10 @@ package-configs:
   rpmfactory-lib:
     name: python-%(project)s
     upstream: https://git.openstack.org/openstack/%(project)s
-#   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-#   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
@@ -260,10 +260,10 @@ package-configs:
   rpmfactory-puppet:
     name: '%(project)s'
     upstream: https://git.openstack.org/openstack/%(project)s
-#   distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
+    # distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/puppet/%(project)s.git
-#   master-distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
+    # master-distgit: http://review.rdoproject.org/r/p/puppet/%(project)s-distgit.git
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/puppet/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/puppet/%(project)s-distgit.git
@@ -283,13 +283,13 @@ package-configs:
       pike:
       ocata:
   rpmfactory-tempest-plugin:
-# Name and Project will be defined.
+    # Name and Project will be defined.
     name: '%(project)s'
     upstream: https://git.openstack.org/openstack/%(project)s
-#   distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
-#   master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
+    # master-distgit: http://review.rdoproject.org/r/p/openstack/%(project)s-distgit.git
     master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
     review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
