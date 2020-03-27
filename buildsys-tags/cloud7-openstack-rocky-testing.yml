@@ -82,13 +82,13 @@ packages:
     cloud7-openstack-rocky-testing: python-cliff-2.13.0-1.el7
 - project: cloudkitty
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-cloudkitty-8.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-cloudkitty-8.0.1-1.el7
 - project: cloudkitty-dashboard
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-cloudkitty-ui-8.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-cloudkitty-ui-8.0.1-1.el7
 - project: cloudkittyclient
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-cloudkittyclient-2.0.0-1.el7
+    cloud7-openstack-rocky-testing: python-cloudkittyclient-2.0.1-1.el7
 - project: coin-or-Cbc
   buildsys-tags:
     cloud7-openstack-rocky-testing: coin-or-Cbc-2.9.8-1.el7
@@ -133,7 +133,7 @@ packages:
     cloud7-openstack-rocky-testing: python-debtcollector-1.20.0-1.el7
 - project: designate
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-designate-7.0.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-designate-7.0.1-1.el7
 - project: designate-dashboard
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-designate-ui-7.0.0-1.el7
@@ -193,10 +193,10 @@ packages:
     cloud7-openstack-rocky-testing: galera-25.3.16-3.el7
 - project: glance
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-glance-17.0.0-2.el7
+    cloud7-openstack-rocky-testing: openstack-glance-17.0.1-1.el7
 - project: glance_store
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-glance-store-0.26.1-1.el7
+    cloud7-openstack-rocky-testing: python-glance-store-0.26.2-1.el7
 - project: glanceclient
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-glanceclient-2.13.1-1.el7
@@ -310,7 +310,7 @@ packages:
     cloud7-openstack-rocky-testing: python-keystonemiddleware-5.2.2-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-rocky-testing: openstack-kolla-7.1.0-1.el7
+    cloud7-openstack-rocky-testing: openstack-kolla-7.1.1-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-rocky-testing: python-kuryr-lib-0.8.0-1.el7
@@ -469,7 +469,7 @@ packages:
     cloud7-openstack-rocky-testing: python-neutron-lib-1.18.0-1.el7
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-rocky-testing: python-neutron-tests-tempest-0.5.0-0.2.el7
+    cloud7-openstack-rocky-testing: python-neutron-tests-tempest-0.9.0-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-rocky-testing: openstack-neutron-vpnaas-13.0.2-1.el7
