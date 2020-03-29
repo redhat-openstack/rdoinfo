@@ -97,7 +97,7 @@ packages:
     cloud7-openstack-stein-testing: python-cinder-tests-tempest-0.2.0-1.el7
 - project: cinderclient
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-cinderclient-4.2.1-1.el7
+    cloud7-openstack-stein-testing: python-cinderclient-4.2.2-1.el7
 - project: cinderlib
   buildsys-tags:
     cloud7-openstack-stein-testing: python-cinderlib-0.9.0-2.el7
@@ -331,13 +331,13 @@ packages:
     cloud7-openstack-stein-testing: python-keystone-tests-tempest-0.2.0-1.el7
 - project: keystoneauth1
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-keystoneauth1-3.13.1-1.el7
+    cloud7-openstack-stein-testing: python-keystoneauth1-3.13.2-1.el7
 - project: keystoneclient
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-keystoneclient-3.19.0-1.el7
+    cloud7-openstack-stein-testing: python-keystoneclient-3.19.1-1.el7
 - project: keystonemiddleware
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-keystonemiddleware-6.0.0-1.el7
+    cloud7-openstack-stein-testing: python-keystonemiddleware-6.0.1-1.el7
 - project: kolla
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-kolla-8.0.2-1.el7
@@ -382,7 +382,7 @@ packages:
     cloud7-openstack-stein-testing: python-magnumclient-2.12.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-manila-8.1.0-1.el7
+    cloud7-openstack-stein-testing: openstack-manila-8.1.1-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-testing: python-manila-tests-tempest-0.3.0-1.el7
@@ -502,7 +502,7 @@ packages:
     cloud7-openstack-stein-testing: python-neutron-lib-1.25.1-1.el7
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-neutron-tests-tempest-0.5.0-1.el7
+    cloud7-openstack-stein-testing: python-neutron-tests-tempest-0.9.0-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-neutron-vpnaas-14.0.1-1.el7
@@ -577,7 +577,7 @@ packages:
     cloud7-openstack-stein-testing: os-apply-config-10.3.0-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-os-brick-2.8.3-1.el7
+    cloud7-openstack-stein-testing: python-os-brick-2.8.4-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-stein-testing: python-os-client-config-1.32.0-2.el7
