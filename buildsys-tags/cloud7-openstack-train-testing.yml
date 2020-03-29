@@ -100,7 +100,7 @@ packages:
     cloud7-openstack-train-testing: python-cinder-tests-tempest-0.3.1-1.el7
 - project: cinderclient
   buildsys-tags:
-    cloud7-openstack-train-testing: python-cinderclient-5.0.0-1.el7
+    cloud7-openstack-train-testing: python-cinderclient-5.0.1-1.el7
 - project: cinderlib
   buildsys-tags:
     cloud7-openstack-train-testing: python-cinderlib-1.0.1-1.el7
@@ -406,7 +406,7 @@ packages:
     cloud7-openstack-train-testing: python-magnumclient-2.16.0-1.el7
 - project: manila
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-manila-9.1.0-1.el7
+    cloud7-openstack-train-testing: openstack-manila-9.1.1-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-manila-tests-tempest-0.4.0-1.el7
@@ -517,7 +517,7 @@ packages:
     cloud7-openstack-train-testing: python-neutron-lib-1.29.1-1.el7
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-train-testing: python-neutron-tests-tempest-0.8.0-1.el7
+    cloud7-openstack-train-testing: python-neutron-tests-tempest-0.9.0-1.el7
 - project: neutron-vpnaas
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-neutron-vpnaas-15.0.0-1.el7
@@ -592,7 +592,7 @@ packages:
     cloud7-openstack-train-testing: os-apply-config-10.5.1-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-train-testing: python-os-brick-2.10.1-1.el7
+    cloud7-openstack-train-testing: python-os-brick-2.10.2-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-client-config-1.33.0-2.el7
