@@ -5,6 +5,9 @@ packages:
 - project: gflags
   buildsys-tags:
     cloud7-openstack-train-candidate: gflags-2.2.1-1.el7
+- project: libsodium
+  buildsys-tags:
+    cloud7-openstack-train-candidate: libsodium-1.0.18-2.el7
 - project: novnc
   buildsys-tags:
     cloud7-openstack-train-candidate: novnc-1.1.0-6.el7
