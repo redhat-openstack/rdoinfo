@@ -17,3 +17,6 @@ packages:
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: python-kombu-4.6.6-2.el7
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: python-etcd3gw-0.2.5-1.fc32
