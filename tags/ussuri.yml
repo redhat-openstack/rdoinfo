@@ -26,6 +26,9 @@ packages:
 - project: ansible-role-tripleo-modify-image
   tags:
     ussuri:
+- project: ansible-tripleo-ipa
+  tags:
+    ussuri:
 - project: aodh
   tags:
     ussuri:
