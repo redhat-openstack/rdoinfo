@@ -26,6 +26,9 @@ packages:
 - project: ansible-role-tripleo-modify-image
   tags:
     train:
+- project: ansible-tripleo-ipa
+  tags:
+    train:
 - project: aodh
   tags:
     train:
