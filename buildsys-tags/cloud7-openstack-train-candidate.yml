@@ -35,3 +35,6 @@ packages:
 - project: python-etcd3gw
   buildsys-tags:
     cloud7-openstack-train-candidate: python-etcd3gw-0.2.5-1.fc32
+- project: ansible-freeipa
+  buildsys-tags:
+    cloud7-openstack-train-candidate: ansible-freeipa-0.1.9-1.el7

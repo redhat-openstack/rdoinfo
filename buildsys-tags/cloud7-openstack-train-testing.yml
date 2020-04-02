@@ -2204,3 +2204,6 @@ packages:
 - project: zeromq
   buildsys-tags:
     cloud7-openstack-train-testing: zeromq-4.0.5-4.el7
+- project: python-urllib-gssapi
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-urllib-gssapi-1.0.1-11.el7
