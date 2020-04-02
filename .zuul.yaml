@@ -1,0 +1,5 @@
+- project:
+    check:
+      jobs:
+        - legacy-validate-dependencies-rebuilds:
+            nodeset: rdo-centos-8
