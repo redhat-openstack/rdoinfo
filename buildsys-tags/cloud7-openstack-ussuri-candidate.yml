@@ -17,3 +17,6 @@ packages:
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: python-kombu-4.6.6-2.el7
+- project: haveged
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: haveged-1.9.1-1.el7
