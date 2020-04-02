@@ -17,3 +17,17 @@ packages:
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-ussuri-candidate: python-kombu-4.6.6-2.el7
+- project: haveged
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: haveged-1.9.1-1.el7
+- project: atop
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: atop-2.4.0-4.el7
+    cloud7-openstack-train-candidate: atop-2.4.0-4.el7
+    cloud7-openstack-stein-candidate: atop-2.4.0-4.el7
+- project: mock
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: mock-2.2-1.el7
+- project: mock-core-configs
+  buildsys-tags:
+    cloud7-openstack-ussuri-candidate: mock-core-configs-32.6-1.el7

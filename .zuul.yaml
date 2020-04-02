@@ -1,0 +1,15 @@
+- job:
+    name: legacy-validate-dependencies-rebuilds-test
+    parent: distgit-cbs-validate
+    run: playbooks/legacy-validate-dependencies-rebuilds.yaml
+    post-run: playbooks/legacy-validate-dependencies-rebuilds-post.yaml
+    required-projects:
+      - name: gating_scripts
+      - name: rdoinfo
+    nodeset: rdo-centos-8
+    timeout: 10800
+
+- project:
+    check:
+      jobs:
+        - legacy-validate-dependencies-rebuilds-test
