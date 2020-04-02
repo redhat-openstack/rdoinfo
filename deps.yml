@@ -2311,7 +2311,7 @@ packages:
   conf: fedora-dependency
 - project: python-urllib-gssapi
   name: python-urllib-gssapi
-  conf: fedora-dependency
+  conf: rdo-dependency
 - project: etcd
   name: etcd
   conf: rdo-dependency
@@ -2350,4 +2350,7 @@ packages:
   conf: fedora-dependency
 - project: PyYAML
   name: PyYAML
+  conf: fedora-dependency
+- project: ansible-freeipa
+  name: ansible-freeipa
   conf: fedora-dependency
