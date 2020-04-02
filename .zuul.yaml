@@ -1,0 +1,10 @@
+- job:
+    name: legacy-validate-dependencies-rebuilds-test
+    parent: legacy-validate-dependencies-rebuilds
+    run: playbooks/legacy-validate-dependencies-rebuilds.yaml
+    nodeset: rdo-centos-8
+
+- project:
+    check:
+      jobs:
+        - legacy-validate-dependencies-rebuilds-test
