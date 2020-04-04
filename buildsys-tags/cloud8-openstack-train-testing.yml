@@ -914,6 +914,9 @@ packages:
 - project: python-urllib-gssapi
   buildsys-tags:
     cloud8-openstack-train-testing: python-urllib-gssapi-1.0.1-10.el8
+- project: python-urllib-gssapi
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-urllib-gssapi-1.0.1-10.el8
 - project: python-urllib3
   buildsys-tags:
     cloud8-openstack-train-testing: python-urllib3-1.25.7-2.el8
@@ -1049,6 +1052,3 @@ packages:
 - project: zstd
   buildsys-tags:
     cloud8-openstack-train-testing: zstd-1.4.4-1.el8
-- project: python-urllib-gssapi
-  buildsys-tags:
-    cloud8-openstack-train-testing: python-urllib-gssapi-1.0.1-10.el8

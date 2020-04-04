@@ -1,4 +1,7 @@
 packages:
+- project: ansible-freeipa
+  buildsys-tags:
+    cloud7-openstack-train-candidate: ansible-freeipa-0.1.9-1.el7
 - project: dumb-init
   buildsys-tags:
     cloud7-openstack-train-candidate: dumb-init-1.1.3-17.el7
@@ -23,6 +26,9 @@ packages:
 - project: python-configparser
   buildsys-tags:
     cloud7-openstack-train-candidate: python-configparser-3.7.1-2.el7
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-etcd3gw-0.2.5-1.fc32
 - project: python-kombu
   buildsys-tags:
     cloud7-openstack-train-candidate: python-kombu-4.6.3-3.el7
@@ -32,9 +38,3 @@ packages:
 - project: python-testtools
   buildsys-tags:
     cloud7-openstack-train-candidate: python-testtools-2.3.0-7.el7
-- project: python-etcd3gw
-  buildsys-tags:
-    cloud7-openstack-train-candidate: python-etcd3gw-0.2.5-1.fc32
-- project: ansible-freeipa
-  buildsys-tags:
-    cloud7-openstack-train-candidate: ansible-freeipa-0.1.9-1.el7
