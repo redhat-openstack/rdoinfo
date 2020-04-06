@@ -188,6 +188,9 @@ packages:
 - project: python-PuLP
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-PuLP-1.6.5-1.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-PyMySQL-0.9.3-2.el8.rdo.1
 - project: python-SecretStorage
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-SecretStorage-3.1.1-4.el8
@@ -715,7 +718,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-pymemcache-2.1.1-6.el8
 - project: python-pynacl
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-pynacl-1.3.0-5.el8
+    cloud8-openstack-ussuri-testing: python-pynacl-1.3.0-6.el8.rdo.1
 - project: python-pyngus
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-pyngus-2.3.0-4.el8
