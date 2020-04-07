@@ -157,7 +157,7 @@ packages:
     cloud8-openstack-ussuri-testing: protobuf-3.11.2-2.el8
 - project: puppet
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: puppet-5.5.10-9.el8
+    cloud8-openstack-ussuri-testing: puppet-6.14.0-1.el8
 - project: pydot
   buildsys-tags:
     cloud8-openstack-ussuri-testing: pydot-1.4.1-1.el8
@@ -1004,18 +1004,60 @@ packages:
 - project: ruby-augeas
   buildsys-tags:
     cloud8-openstack-ussuri-testing: ruby-augeas-0.5.0-23.el8
+- project: rubygem-cane
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-cane-3.0.0-1.el8
+- project: rubygem-concurrent-ruby
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-concurrent-ruby-1.1.5-2.el8
+- project: rubygem-deep_merge
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-deep_merge-1.2.1-4.el8
+- project: rubygem-docile
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-docile-1.1.5-10.el8
+- project: rubygem-fast_gettext
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-fast_gettext-1.2.0-9.el8
+- project: rubygem-hocon
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-hocon-1.3.0-1.el8
 - project: rubygem-multi_json
   buildsys-tags:
     cloud8-openstack-ussuri-testing: rubygem-multi_json-1.13.1-4.el8
+- project: rubygem-parallel
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-parallel-1.12.1-5.el8
 - project: rubygem-pathspec
   buildsys-tags:
     cloud8-openstack-ussuri-testing: rubygem-pathspec-0.2.1-5.el8
+- project: rubygem-puppet-resource_api
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-puppet-resource_api-1.8.12-1.el8
+- project: rubygem-redcarpet
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-redcarpet-3.3.2-16.1.el8
 - project: rubygem-rgen
   buildsys-tags:
     cloud8-openstack-ussuri-testing: rubygem-rgen-0.8.4-2.el8
+- project: rubygem-rspec-fire
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-rspec-fire-1.3.0-1.el8
 - project: rubygem-ruby-shadow
   buildsys-tags:
     cloud8-openstack-ussuri-testing: rubygem-ruby-shadow-2.5.0-12.el8
+- project: rubygem-semantic_puppet
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-semantic_puppet-1.0.2-1.el8
+- project: rubygem-simplecov
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-simplecov-0.13.0-7.el8.1
+- project: rubygem-simplecov-html
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-simplecov-html-0.10.0-8.el8
+- project: rubygem-yard
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: rubygem-yard-0.9.12-8.el8
 - project: sshpass
   buildsys-tags:
     cloud8-openstack-ussuri-testing: sshpass-1.06-8.el8
