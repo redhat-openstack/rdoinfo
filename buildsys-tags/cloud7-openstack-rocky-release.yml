@@ -199,7 +199,7 @@ packages:
     cloud7-openstack-rocky-release: python-glance-store-0.26.2-1.el7
 - project: glanceclient
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-glanceclient-2.13.1-1.el7
+    cloud7-openstack-rocky-release: python-glanceclient-2.13.2-1.el7
 - project: glareclient
   buildsys-tags:
     cloud7-openstack-rocky-release: python-glareclient-0.5.3-1.el7
@@ -229,25 +229,25 @@ packages:
     cloud7-openstack-rocky-release: hdf5-1.8.13-7.el7
 - project: heat
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-heat-11.0.2-1.el7
+    cloud7-openstack-rocky-release: openstack-heat-11.0.3-1.el7
 - project: heat-agents
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-heat-agents-1.7.0-1.el7
+    cloud7-openstack-rocky-release: openstack-heat-agents-1.7.1-1.el7
 - project: heat-cfntools
   buildsys-tags:
     cloud7-openstack-rocky-release: heat-cfntools-1.3.0-2.el7
 - project: heat-dashboard
   buildsys-tags:
-    cloud7-openstack-rocky-release: openstack-heat-ui-1.4.0-1.el7
+    cloud7-openstack-rocky-release: openstack-heat-ui-1.4.2-1.el7
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud7-openstack-rocky-release: python-heat-tests-tempest-0.2.0-1.el7
 - project: heat-translator
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-heat-translator-1.1.0-1.el7
+    cloud7-openstack-rocky-release: python-heat-translator-1.1.1-1.el7
 - project: heatclient
   buildsys-tags:
-    cloud7-openstack-rocky-release: python-heatclient-1.16.2-1.el7
+    cloud7-openstack-rocky-release: python-heatclient-1.16.3-1.el7
 - project: hiera
   buildsys-tags:
     cloud7-openstack-rocky-release: hiera-1.3.4-5.el7
