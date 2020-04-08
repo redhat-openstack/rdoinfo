@@ -97,7 +97,7 @@ packages:
     cloud7-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-cinder-15.0.1-1.el7
+    cloud7-openstack-train-release: openstack-cinder-15.1.0-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-cinder-tests-tempest-0.3.1-1.el7
@@ -529,7 +529,7 @@ packages:
     cloud7-openstack-train-release: python-neutronclient-6.14.0-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-nova-20.1.1-1.el7
+    cloud7-openstack-train-release: openstack-nova-20.1.1-2.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-release: python-novaclient-15.1.0-1.el7
@@ -1357,7 +1357,7 @@ packages:
     cloud7-openstack-train-release: python-elasticsearch-1.4.0-2.el7
 - project: python-etcd3gw
   buildsys-tags:
-    cloud7-openstack-train-release: python-etcd3gw-0.2.4-6.el7
+    cloud7-openstack-train-release: python-etcd3gw-0.2.5-1.el7
 - project: python-eventlet
   buildsys-tags:
     cloud7-openstack-train-release: python-eventlet-0.25.1-1.el7
