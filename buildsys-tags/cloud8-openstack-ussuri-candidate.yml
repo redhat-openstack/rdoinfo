@@ -5,6 +5,9 @@ packages:
 - project: python-XStatic-mdi
   buildsys-tags:
     cloud8-openstack-ussuri-candidate: python-XStatic-mdi-1.6.50.2-1.fc33
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud8-openstack-ussuri-candidate: python-ansible-runner-1.4.5-1.el8
 - project: python-etcd3gw
   buildsys-tags:
     cloud8-openstack-ussuri-candidate: python-etcd3gw-0.2.5-1.fc32
