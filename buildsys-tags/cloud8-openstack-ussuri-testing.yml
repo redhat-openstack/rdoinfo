@@ -383,6 +383,9 @@ packages:
 - project: python-daiquiri
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-daiquiri-1.5.0-6.el8
+- project: python-dataclasses
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-dataclasses-0.7-1.el8
 - project: python-ddt
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-ddt-1.2.1-4.el8
