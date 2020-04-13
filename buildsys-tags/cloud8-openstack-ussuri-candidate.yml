@@ -2,6 +2,9 @@ packages:
 - project: atop
   buildsys-tags:
     cloud8-openstack-ussuri-candidate: atop-2.4.0-4.el8
+- project: distribution-gpg-keys
+  buildsys-tags:
+    cloud8-openstack-ussuri-candidate: distribution-gpg-keys-1.37-1.el8
 - project: haveged
   buildsys-tags:
     cloud8-openstack-ussuri-candidate: haveged-1.9.8-1.el8
