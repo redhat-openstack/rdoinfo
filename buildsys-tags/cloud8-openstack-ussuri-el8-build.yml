@@ -5,6 +5,9 @@ packages:
 - project: asio
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: asio-1.10.8-10.el8
+- project: atop
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: atop-2.4.0-4.el8
 - project: brotli
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: brotli-1.0.6-1.el8
@@ -83,6 +86,9 @@ packages:
 - project: gtest
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: gtest-1.8.1-4.el8
+- project: haveged
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: haveged-1.9.8-1.el8
 - project: ipa-pgothic-fonts
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: ipa-pgothic-fonts-003.03-15.el8
@@ -95,6 +101,12 @@ packages:
 - project: librsvg2
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: librsvg2-2.42.7-2.el8
+- project: mock
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: mock-2.2-1.el8
+- project: mock-core-configs
+  buildsys-tags:
+    cloud8-openstack-ussuri-el8-build: mock-core-configs-32.6-1.el8
 - project: openstack-macros
   buildsys-tags:
     cloud8-openstack-ussuri-el8-build: openstack-macros-2019.2.3-1.el8
