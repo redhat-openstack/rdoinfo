@@ -328,7 +328,7 @@ packages:
     cloud7-openstack-train-testing: python-ironic-tests-tempest-1.5.1-1.el7
 - project: ironic-ui
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ironic-ui-3.5.4-1.el7
+    cloud7-openstack-train-testing: openstack-ironic-ui-3.5.5-1.el7
 - project: ironicclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironicclient-3.1.1-1.el7
@@ -2116,7 +2116,7 @@ packages:
     cloud7-openstack-train-testing: python-tooz-1.66.2-1.el7
 - project: tripleo-ansible
   buildsys-tags:
-    cloud7-openstack-train-testing: tripleo-ansible-0.4.1-1.el7
+    cloud7-openstack-train-testing: tripleo-ansible-0.5.0-1.el7
 - project: tripleo-common
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-tripleo-common-11.3.2-1.el7
