@@ -47,6 +47,9 @@ packages:
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-role-tripleo-modify-image-1.1.0-1.el7
+- project: ansible-tripleo-ipa
+  buildsys-tags:
+    cloud7-openstack-train-testing: ansible-tripleo-ipa-0.1.1-1.el7
 - project: aodh
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-aodh-9.0.0-1.el7
@@ -274,7 +277,7 @@ packages:
     cloud7-openstack-train-testing: hdf5-1.8.13-7.el7
 - project: heat
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-heat-13.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-heat-13.0.1-1.el7
 - project: heat-agents
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-heat-agents-1.10.0-1.el7
@@ -397,7 +400,7 @@ packages:
     cloud7-openstack-train-testing: libwebsockets-3.0.1-2.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-magnum-9.2.0-1.el7
+    cloud7-openstack-train-testing: openstack-magnum-9.3.0-1.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-magnum-tests-tempest-0.3.0-1.el7
@@ -721,7 +724,7 @@ packages:
     cloud7-openstack-train-testing: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: packstack
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-packstack-15.0.0-0.1.0rc1.el7
+    cloud7-openstack-train-testing: openstack-packstack-15.0.1-1.el7
 - project: panko
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-panko-7.0.0-1.el7
@@ -904,7 +907,7 @@ packages:
     cloud7-openstack-train-testing: puppet-neutron-15.4.0-1.el7
 - project: puppet-nova
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-nova-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-nova-15.5.0-1.el7
 - project: puppet-nssdb
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
@@ -2126,9 +2129,6 @@ packages:
 - project: tripleo-image-elements
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-tripleo-image-elements-10.6.1-1.el7
-- project: ansible-tripleo-ipa
-  buildsys-tags:
-    cloud7-openstack-train-testing: ansible-tripleo-ipa-0.1.1-1.el7
 - project: tripleo-ipsec
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-tripleo-ipsec-9.2.0-1.el7
