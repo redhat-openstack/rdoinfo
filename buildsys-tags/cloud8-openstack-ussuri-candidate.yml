@@ -1,4 +1,7 @@
 packages:
+- project: ansible-freeipa
+  buildsys-tags:
+    cloud8-openstack-ussuri-candidate: ansible-freeipa-0.1.8-2.el8
 - project: atop
   buildsys-tags:
     cloud8-openstack-ussuri-candidate: atop-2.4.0-4.el8
