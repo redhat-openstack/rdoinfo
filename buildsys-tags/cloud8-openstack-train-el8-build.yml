@@ -221,9 +221,6 @@ packages:
 - project: python-isodate
   buildsys-tags:
     cloud8-openstack-train-el8-build: python-isodate-0.6.0-4.el8
-- project: python-kerberos
-  buildsys-tags:
-    cloud8-openstack-train-el8-build: python-kerberos-1.3.0-7.el8
 - project: python-nose-cover3
   buildsys-tags:
     cloud8-openstack-train-el8-build: python-nose-cover3-0.1.0-27.el8
@@ -299,9 +296,6 @@ packages:
 - project: python-rdflib
   buildsys-tags:
     cloud8-openstack-train-el8-build: python-rdflib-4.2.1-13.el8
-- project: python-requests-kerberos
-  buildsys-tags:
-    cloud8-openstack-train-el8-build: python-requests-kerberos-0.12.0-8.el8
 - project: python-selenium
   buildsys-tags:
     cloud8-openstack-train-el8-build: python-selenium-3.14.0-1.el8

@@ -1346,6 +1346,9 @@ packages:
 - project: python-kazoo
   buildsys-tags:
     cloud8-openstack-train-testing: python-kazoo-2.5.0-7.el8
+- project: python-kerberos
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-kerberos-1.3.0-7.el8
 - project: python-keyring
   buildsys-tags:
     cloud8-openstack-train-testing: python-keyring-21.0.0-1.el8
@@ -1553,6 +1556,9 @@ packages:
 - project: python-requests
   buildsys-tags:
     cloud8-openstack-train-testing: python-requests-2.22.0-7.el8
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-requests-kerberos-0.12.0-8.el8
 - project: python-requests-mock
   buildsys-tags:
     cloud8-openstack-train-testing: python-requests-mock-1.7.0-1.el8
@@ -2003,6 +2009,9 @@ packages:
 - project: vitrageclient
   buildsys-tags:
     cloud8-openstack-train-testing: python-vitrageclient-3.0.0-1.el8
+- project: vmware-nsx
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-networking-vmware-nsx-14.0.0-2.3321751git.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
