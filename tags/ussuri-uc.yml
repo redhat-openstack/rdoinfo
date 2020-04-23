@@ -26,9 +26,6 @@ packages:
 - project: ansible-role-tripleo-modify-image
   tags:
     ussuri-uc:
-- project: ansible-tripleo-ipa
-  tags:
-    ussuri-uc:
 - project: aodh
   tags:
     ussuri-uc:
@@ -1092,6 +1089,9 @@ packages:
     ussuri-uc:
       source-branch: stable/train
 - project: tripleo-image-elements
+  tags:
+    ussuri-uc:
+- project: tripleo-ipa
   tags:
     ussuri-uc:
 - project: tripleo-ipsec
