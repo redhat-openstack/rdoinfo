@@ -47,7 +47,7 @@ packages:
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-role-tripleo-modify-image-1.1.0-1.el7
-- project: ansible-tripleo-ipa
+- project: tripleo-ipa
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-tripleo-ipa-0.1.1-1.el7
 - project: aodh

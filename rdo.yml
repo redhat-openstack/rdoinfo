@@ -2125,10 +2125,10 @@ packages:
   maintainers:
   - kecarter@redhat.com
   - aschultz@next-development.com
-- project: ansible-tripleo-ipa
-  upstream: https://opendev.org/x/tripleo-ipa
-  name: ansible-tripleo-ipa
+- project: tripleo-ipa
   conf: rpmfactory-lib
+  name: ansible-tripleo-ipa
+  upstream: https://opendev.org/x/tripleo-ipa
   component: security
   maintainers:
   - alee@redhat.com
