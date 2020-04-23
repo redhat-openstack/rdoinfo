@@ -47,9 +47,6 @@ packages:
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud7-openstack-train-release: ansible-role-tripleo-modify-image-1.1.0-1.el7
-- project: ansible-tripleo-ipa
-  buildsys-tags:
-    cloud7-openstack-train-release: ansible-tripleo-ipa-0.1.1-1.el7
 - project: aodh
   buildsys-tags:
     cloud7-openstack-train-release: openstack-aodh-9.0.0-1.el7
@@ -2129,6 +2126,9 @@ packages:
 - project: tripleo-image-elements
   buildsys-tags:
     cloud7-openstack-train-release: openstack-tripleo-image-elements-10.6.1-1.el7
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud7-openstack-train-release: ansible-tripleo-ipa-0.1.1-1.el7
 - project: tripleo-ipsec
   buildsys-tags:
     cloud7-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el7

@@ -26,9 +26,6 @@ packages:
 - project: ansible-role-tripleo-modify-image
   tags:
     train:
-- project: ansible-tripleo-ipa
-  tags:
-    train:
 - project: aodh
   tags:
     train:
@@ -1162,6 +1159,9 @@ packages:
     train:
       source-branch: stable/stein
 - project: tripleo-image-elements
+  tags:
+    train:
+- project: tripleo-ipa
   tags:
     train:
 - project: tripleo-ipsec
