@@ -1,0 +1,75 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-testing-centos-8-scenario001-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-8-scenario002-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-8-scenario003-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-8-scenario004-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-8-scenario007-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-8-scenario010-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-scenario001-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-scenario002-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-scenario003-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-scenario004-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-scenario007-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - rdoinfo-tripleo-master-testing-centos-7-scenario010-standalone-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
