@@ -1,6 +1,27 @@
 import:
 - tags.yml
 releases:
+- name: victoria
+  branch: rpm-master
+  tags_map: separated_buildreqs
+  repos:
+  - name: el8
+    buildsys: cbs/cloud8-openstack-victoria-el8
+    buildsys-tags:
+    - cloud8-openstack-victoria-el8-build
+    - cloud8-openstack-victoria-candidate
+    - cloud8-openstack-victoria-testing
+    distrepos:
+    - name: RDO Ussuri el8
+      url: http://mirror.centos.org/centos/8/cloud/x86_64/openstack-ussuri/
+    - name: CentOS 8 BaseOS
+      url: http://mirror.centos.org/centos/8/BaseOS/x86_64/os/
+    - name: CentOS 8 AppStreams
+      url: http://mirror.centos.org/centos/8/AppStream/x86_64/os/
+    - name: CentOS 8 HighAvailability
+      url: http://mirror.centos.org/centos/8/HighAvailability/x86_64/os/
+    - name: CentOS 8 PowerTools
+      url: http://mirror.centos.org/centos/8/PowerTools/x86_64/os/
 - name: ussuri
   branch: rpm-master
   tags_map: separated_buildreqs
