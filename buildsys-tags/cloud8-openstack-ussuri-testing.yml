@@ -332,6 +332,9 @@ packages:
 - project: python-boto
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-boto-2.49.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-boto3-1.6.1-2.el8
 - project: python-botocore
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-botocore-1.9.1-2.el8
