@@ -41,3 +41,9 @@ packages:
 - project: python-setproctitle
   buildsys-tags:
     cloud7-openstack-train-candidate: python-setproctitle-1.1.10-12.el7
+- project: python-simplejson
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-tenacity-5.1.1-4.el7
+- project: python-tornado
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-tornado-5.1.1-1.el7
