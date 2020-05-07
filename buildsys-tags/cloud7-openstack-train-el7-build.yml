@@ -239,6 +239,9 @@ packages:
 - project: python-tablib
   buildsys-tags:
     cloud7-openstack-train-el7-build: python-tablib-0.10.0-1.el7
+- project: python-tenacity
+  buildsys-tags:
+    cloud7-openstack-train-el7-build: python-tenacity-5.1.1-4.el7
 - project: python-termcolor
   buildsys-tags:
     cloud7-openstack-train-el7-build: python-termcolor-1.1.0-4.el7
