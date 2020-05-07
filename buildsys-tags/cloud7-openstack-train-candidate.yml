@@ -44,3 +44,6 @@ packages:
 - project: python-tornado
   buildsys-tags:
     cloud7-openstack-train-candidate: python-tornado-5.1.1-1.el7
+- project: python-tenacity
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-tenacity-5.1.1-4.el7
