@@ -76,7 +76,7 @@ packages:
     cloud8-openstack-victoria-testing: glpk-4.65-4.el8
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
-    cloud8-openstack-victoria-testing: golang-github-vbatts-tar-split-0.11.1-1.el8
+    cloud8-openstack-victoria-testing: golang-github-vbatts-tar-split-0.11.1-2.el8
 - project: google-api-python-client
   buildsys-tags:
     cloud8-openstack-victoria-testing: google-api-python-client-1.6.7-10.el8
@@ -332,6 +332,9 @@ packages:
 - project: python-boto
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-boto-2.49.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-boto3-1.6.1-2.el8
 - project: python-botocore
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-botocore-1.9.1-2.el8
@@ -782,6 +785,9 @@ packages:
 - project: python-ruamel-yaml-clib
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-ruamel-yaml-clib-0.1.2-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-s3transfer-0.1.13-1.el8
 - project: python-scandir
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-scandir-1.9.0-9.el8
