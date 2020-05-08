@@ -1,0 +1,2047 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: GitPython-3.0.2-2.el8
+- project: MUMPS
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: MUMPS-5.2.1-4.el8
+- project: PyYAML
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: PyYAML-5.3-2.el8
+- project: ansible
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-2.9.7-1.el8
+- project: ansible-freeipa
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-freeipa-0.1.8-2.el8
+- project: aodh
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-aodh-10.0.0-0.1.0rc1.el8
+- project: aodhclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-aodhclient-2.0.1-1.el8
+- project: automaton
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-automaton-2.0.1-1.el8
+- project: barbican
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-barbican-10.0.0-0.1.0rc1.el8
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-barbican-tests-tempest-1.0.0-1.el8
+- project: barbicanclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-barbicanclient-4.10.0-1.el8
+- project: blosc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: blosc-1.17.0-1.el8
+- project: boost-nowide
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: boost-nowide-0-20190813.gitec9672b.el8
+- project: bridge-utils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: bridge-utils-1.6-4.el8
+- project: castellan
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-castellan-3.0.1-1.el8
+- project: ceilometer
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ceilometer-14.0.0-0.1.0rc1.el8
+- project: ceilometerclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ceilometerclient-2.9.0-1.el8
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ceilometermiddleware-2.0.0-1.el8
+- project: cinder
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-cinder-16.0.0-0.2.0rc2.el8
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cinder-tests-tempest-1.0.0-1.el8
+- project: cinderclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cinderclient-7.0.0-1.el8
+- project: cinderlib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cinderlib-1.0.1-1.el8
+- project: ck
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ck-0.6.0-10.el8
+- project: cliff
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cliff-3.1.0-1.el8
+- project: cloudkitty
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-cloudkitty-12.0.0-1.el8
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-cloudkitty-ui-10.0.0-0.1.0rc1.el8
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cloudkittyclient-4.0.0-1.el8
+- project: coin-or-Cbc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: coin-or-Cbc-2.10.3-2.el8
+- project: coin-or-Cgl
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: coin-or-Cgl-0.60.2-2.el8
+- project: coin-or-Clp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: coin-or-Clp-1.17.3-3.el8
+- project: coin-or-CoinUtils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: coin-or-CoinUtils-2.11.3-2.el8
+- project: coin-or-Osi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: coin-or-Osi-0.108.5-1.el8
+- project: coin-or-Sample
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: coin-or-Sample-1.2.11-3.el8
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-collectd-gnocchi-1.7.1-1.el8
+- project: congress
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-congress-11.0.0-0.1.0rc1.el8
+- project: congress-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-congress-tests-tempest-1.0.0-1.el8
+- project: congressclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-congressclient-2.0.1-1.el8
+- project: cpp-hocon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: cpp-hocon-0.2.1-1.el8
+- project: crudini
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: crudini-0.9.3-1.el8
+- project: cursive
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cursive-0.2.2-1.el8
+- project: debtcollector
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-debtcollector-2.0.1-1.el8
+- project: designate
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-designate-10.0.0-0.2.0rc2.el8
+- project: designate-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-designate-ui-10.0.0-0.1.0rc1.el8
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-designate-tests-tempest-0.8.0-1.el8
+- project: designateclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-designateclient-4.0.0-1.el8
+- project: dib-utils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: dib-utils-0.0.11-1.el8
+- project: dibbler
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: dibbler-1.0.1-10.el8
+- project: diskimage-builder
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: diskimage-builder-2.36.0-1.el8
+- project: dracclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-dracclient-3.1.1-1.el8
+- project: dumb-init
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: dumb-init-1.2.2-6.el8
+- project: ec2-api
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ec2-api-10.0.0-0.1.0rc1.el8
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ec2api-tests-tempest-1.0.0-1.el8
+- project: environment-modules
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: environment-modules-4.4.1-1.el8
+- project: etcd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: etcd-3.2.21-2.el8
+- project: facter
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: facter-3.14.2-2.el8
+- project: future
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: future-0.18.2-3.el8
+- project: futurist
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-futurist-2.1.1-1.el8
+- project: gflags
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: gflags-2.2.2-3.el8
+- project: glance
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-glance-20.0.0-0.2.0rc2.el8
+- project: glance_store
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-glance-store-2.0.0-1.el8
+- project: glanceclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-glanceclient-3.1.1-1.el8
+- project: glareclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-glareclient-0.5.3-1.el8
+- project: glpk
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: glpk-4.65-4.el8
+- project: gnocchi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: gnocchi-4.3.4-1.el8
+- project: gnocchiclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-gnocchiclient-7.0.4-1.el8
+- project: golang-github-vbatts-tar-split
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: golang-github-vbatts-tar-split-0.11.1-2.el8
+- project: google-api-python-client
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: google-api-python-client-1.6.7-10.el8
+- project: gperftools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: gperftools-2.7-6.el8
+- project: grpc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: grpc-1.26.0-1.el8
+- project: gv
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: gv-3.7.4-21.el8
+- project: hacking
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-hacking-1.1.0-1.el8
+- project: hardware
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-hardware-0.25.0-1.el8
+- project: hdf5
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: hdf5-1.10.5-5.el8
+- project: heat
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-heat-14.0.0-0.1.0rc1.el8
+- project: heat-cfntools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: heat-cfntools-1.4.2-11.el8
+- project: heat-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-heat-ui-3.0.0-0.1.0rc1.el8
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-heat-tests-tempest-1.0.0-1.el8
+- project: heat-translator
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-heat-translator-2.0.0-1.el8
+- project: heatclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-heatclient-2.1.0-1.el8
+- project: hiera
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: hiera-3.6.0-1.el8
+- project: horizon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-horizon-18.3.2-1.el8
+- project: ironic
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ironic-14.0.0-1.el8
+- project: ironic-inspector
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ironic-inspector-10.1.0-1.el8
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ironic-inspector-client-4.1.0-1.el8
+- project: ironic-lib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ironic-lib-4.2.0-1.el8
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ironic-prometheus-exporter-2.0.0-1.el8
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ironic-python-agent-6.1.0-1.el8
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ironic-python-agent-builder-1.1.0-1.el8
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ironic-staging-drivers-0.13.1-1.el8
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ironic-tests-tempest-2.0.0-1.el8
+- project: ironic-ui
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-ironic-ui-4.0.0-1.el8
+- project: ironicclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ironicclient-4.1.0-1.el8
+- project: jemalloc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: jemalloc-5.2.1-2.el8
+- project: jsoncpp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: jsoncpp-1.9.2-1.el8
+- project: keystone
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-keystone-17.0.0-0.1.0rc1.el8
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-keystone-tests-tempest-0.4.0-1.el8
+- project: keystoneauth1
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-keystoneauth1-4.0.0-1.el8
+- project: keystoneclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-keystoneclient-4.0.0-1.el8
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-keystonemiddleware-9.0.0-1.el8
+- project: kuryr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kuryr-lib-2.0.0-1.el8
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-kuryr-kubernetes-2.0.0-0.1.0rc1.el8
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kuryr-tests-tempest-0.5.0-1.el8
+- project: leatherman
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: leatherman-1.6.1-2.el8
+- project: liberasurecode
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: liberasurecode-1.6.0-4.el8
+- project: libimagequant
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: libimagequant-2.12.6-1.el8
+- project: librdkafka
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: librdkafka-1.3.0-2.el8
+- project: libsodium
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: libsodium-1.0.18-2.el8
+- project: libunwind
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: libunwind-1.3.1-3.el8
+- project: libuv
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: libuv-1.23.1-1.el8
+- project: libwebsockets
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: libwebsockets-3.2.2-1.el8
+- project: luajit
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: luajit-2.1.0-0.16beta3.el8
+- project: magnum
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-magnum-10.0.0-0.1.0rc1.el8
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-magnum-tests-tempest-1.0.0-1.el8
+- project: magnum-ui
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-magnum-ui-6.0.0-1.el8
+- project: magnumclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-magnumclient-3.0.0-1.el8
+- project: manila
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-manila-10.0.0-0.2.0rc2.el8
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-manila-tests-tempest-1.0.0-1.el8
+- project: manila-ui
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-manila-ui-3.0.0-1.el8
+- project: manilaclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-manilaclient-2.1.0-1.el8
+- project: metalsmith
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-metalsmith-1.0.0-1.el8
+- project: microversion-parse
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-microversion-parse-1.0.1-1.el8
+- project: mistral
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-mistral-10.0.0-0.1.0rc1.el8
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-mistral-ui-10.0.0-0.1.0rc1.el8
+- project: mistral-extra
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mistral-extra-10.0.1-1.el8
+- project: mistral-lib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mistral-lib-2.1.0-1.el8
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mistral-tests-tempest-1.0.0-1.el8
+- project: mistralclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mistralclient-4.0.1-1.el8
+- project: mod_xsendfile
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: mod_xsendfile-0.12-19.el8
+- project: monascaclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-monascaclient-2.1.0-1.el8
+- project: mox3
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mox3-1.0.0-1.el8
+- project: mp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: mp-3.1.0-24.20161124git1f39801.el8
+- project: murano
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-murano-9.0.0-0.1.0rc1.el8
+- project: murano-agent
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-murano-agent-5.0.0-0.1.0rc1.el8
+- project: murano-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-murano-ui-9.0.0-0.1.0rc1.el8
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-murano-tests-tempest-2.0.0-1.el8
+- project: muranoclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-muranoclient-2.0.1-1.el8
+- project: nauty
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: nauty-2.6.12-1.el8
+- project: ndisc6
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ndisc6-1.0.3-9.el8
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-bagpipe-12.0.0-0.1.0rc1.el8
+- project: networking-baremetal
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-baremetal-2.0.0-1.el8
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-bgpvpn-12.0.0-0.1.0rc1.el8
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-generic-switch-3.0.0-1.el8
+- project: networking-l2gw
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-l2gw-15.0.0-1.el8
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-l2gw-tests-tempest-0.1.0-2.2e265b5git.el8
+- project: networking-odl
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-odl-16.0.0-0.1.0rc1.el8
+- project: networking-sfc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-sfc-10.0.0-0.1.0rc1.el8
+- project: neutron
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-neutron-16.0.0-0.2.0rc2.el8
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-neutron-dynamic-routing-16.0.0-0.2.0rc2.el8
+- project: neutron-fwaas
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-neutron-fwaas-16.0.0-0.1.0rc1.el8
+- project: neutron-lib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-neutron-lib-2.3.0-1.el8
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-neutron-tests-tempest-1.1.0-1.el8
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-neutron-vpnaas-16.0.0-0.2.0rc2.el8
+- project: neutronclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-neutronclient-7.1.1-1.el8
+- project: nova
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-nova-21.0.0-0.1.0rc2.el8
+- project: novaclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-novaclient-17.0.0-1.el8
+- project: novajoin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-novajoin-1.3.0-1.el8
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-novajoin-tests-tempest-0.0.1-0.5.cb81f53git.el8
+- project: novnc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: novnc-1.1.0-6.el8
+- project: octavia
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-octavia-6.0.0-0.1.0rc1.el8
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-octavia-ui-5.0.0-0.2.0rc2.el8
+- project: octavia-lib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-octavia-lib-2.0.0-1.el8
+- project: octaviaclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-octaviaclient-2.0.1-1.el8
+- project: openpgm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openpgm-5.2.122-21.el8
+- project: openstack-selinux
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-selinux-0.8.20-1.el8
+- project: openstackclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-openstackclient-5.2.0-1.el8
+- project: openstacksdk
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-openstacksdk-0.46.0-1.el8
+- project: openvswitch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openvswitch-2.12.0-1.el8
+- project: os-apply-config
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: os-apply-config-11.1.0-1.el8
+- project: os-brick
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-brick-3.0.1-2.el8
+- project: os-client-config
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-client-config-2.1.0-1.el8
+- project: os-collect-config
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: os-collect-config-11.0.0-1.el8
+- project: os-faults
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-faults-0.2.6-1.el8
+- project: os-ken
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-ken-1.0.0-1.el8
+- project: os-net-config
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: os-net-config-12.2.0-1.el8
+- project: os-refresh-config
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: os-refresh-config-10.4.0-1.el8
+- project: os-resource-classes
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-resource-classes-1.0.0-1.el8
+- project: os-service-types
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-service-types-1.7.0-1.el8
+- project: os-testr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-testr-2.0.0-1.el8
+- project: os-traits
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-traits-2.3.0-1.el8
+- project: os-vif
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-vif-2.0.0-1.el8
+- project: os-win
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-win-5.0.1-1.el8
+- project: os-xenapi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-os-xenapi-0.3.4-1.el8
+- project: osc-lib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-osc-lib-2.0.0-1.el8
+- project: osc-placement
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-osc-placement-2.0.0-1.el8
+- project: oslo-cache
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-cache-2.3.0-1.el8
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-concurrency-4.0.2-1.el8
+- project: oslo-config
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-config-8.0.2-1.el8
+- project: oslo-context
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-context-3.0.2-1.el8
+- project: oslo-db
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-db-8.1.0-1.el8
+- project: oslo-i18n
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-i18n-4.0.1-1.el8
+- project: oslo-log
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-log-4.1.1-1.el8
+- project: oslo-messaging
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-messaging-12.1.0-1.el8
+- project: oslo-middleware
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-middleware-4.0.2-1.el8
+- project: oslo-policy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-policy-3.1.0-1.el8
+- project: oslo-privsep
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-privsep-2.1.1-1.el8
+- project: oslo-reports
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-reports-2.0.1-1.el8
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-rootwrap-6.0.2-1.el8
+- project: oslo-serialization
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-serialization-3.1.1-1.el8
+- project: oslo-service
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-service-2.1.1-1.el8
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-sphinx-4.18.0-1.el8
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-upgradecheck-1.0.1-1.el8
+- project: oslo-utils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-utils-4.1.1-1.el8
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-versionedobjects-2.0.2-1.el8
+- project: oslo-vmware
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslo-vmware-3.3.1-1.el8
+- project: oslotest
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oslotest-4.2.0-1.el8
+- project: osprofiler
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-osprofiler-3.1.0-1.el8
+- project: oswin-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oswin-tests-tempest-1.0.0-1.el8
+- project: ovn
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ovn-20.03.0-2.el8
+- project: ovn-octavia-provider
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ovn-octavia-provider-0.1.0-1.el8
+- project: ovsdbapp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ovsdbapp-1.1.0-1.el8
+- project: packstack
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-packstack-16.0.0-0.2.0rc1.el8
+- project: panko
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-panko-8.0.0-0.1.0rc1.el8
+- project: pankoclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pankoclient-1.0.1-1.el8
+- project: patrole
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-patrole-0.9.0-1.el8
+- project: placement
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-placement-3.0.0-0.1.0rc1.el8
+- project: proliantutils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-proliantutils-2.9.4-1.el8
+- project: protobuf
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: protobuf-3.11.2-2.el8
+- project: puppet
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-6.14.0-2.el8
+- project: puppet-aodh
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-aodh-16.3.0-1.el8
+- project: puppet-apache
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-apache-5.4.0-1.420605fgit.el8
+- project: puppet-archive
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-archive-4.4.0-1.474ea01git.el8
+- project: puppet-auditd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-auditd-2.2.0-3.189b22bgit.el8
+- project: puppet-barbican
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-barbican-16.3.0-1.el8
+- project: puppet-cassandra
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-cassandra-2.7.4-0.1.0rc0.c2c6007git.el8
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ceilometer-16.3.0-1.el8
+- project: puppet-ceph
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ceph-3.0.0-1.el8
+- project: puppet-certmonger
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-certmonger-2.4.0-1.a198870git.el8
+- project: puppet-cinder
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-cinder-16.3.0-1.el8
+- project: puppet-collectd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-collectd-12.1.0-1.4125abdgit.el8
+- project: puppet-concat
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-concat-6.2.0-1.596d8ccgit.el8
+- project: puppet-congress
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-congress-16.3.0-1.el8
+- project: puppet-contrail
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-contrail-1.0.0-5.6f87929git.el8
+- project: puppet-corosync
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-corosync-6.0.2-0.1.0rc0.2a27f93git.el8
+- project: puppet-datacat
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-datacat-0.6.2-1.5cce8f2git.el8
+- project: puppet-designate
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-designate-16.3.0-1.el8
+- project: puppet-dns
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-dns-7.0.0-1.ad11babgit.el8
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ec2api-16.3.0-1.el8
+- project: puppet-elasticsearch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-elasticsearch-6.4.0-2.d6d3bb6git.el8
+- project: puppet-etcd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-etcd-1.12.3-1.el8
+- project: puppet-fdio
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-fdio-18.01-3.6fd1c8egit.el8
+- project: puppet-firewall
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-firewall-2.3.0-1.233f841git.el8
+- project: puppet-fluentd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-fluentd-0.10.0-2.4dfc15agit.el8
+- project: puppet-git
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-git-0.5.0-1.4e4498egit.el8
+- project: puppet-glance
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-glance-16.3.0-1.el8
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-gnocchi-16.3.0-1.el8
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-haproxy-4.2.0-1.c93d8degit.el8
+- project: puppet-heat
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-heat-16.3.0-1.el8
+- project: puppet-horizon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-horizon-16.3.0-1.el8
+- project: puppet-inifile
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-inifile-4.2.0-1.el8
+- project: puppet-ipaclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ipaclient-2.5.2-1.el8
+- project: puppet-ironic
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ironic-16.3.0-2.el8
+- project: puppet-java
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-java-6.2.0-1.5a0d540git.el8
+- project: puppet-kafka
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-kafka-6.0.1-0.1.0rc0.5c407b3git.el8
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
+- project: puppet-keystone
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-keystone-16.3.0-1.el8
+- project: puppet-kibana3
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-kibana3-0.0.4-1.6ca9631git.el8
+- project: puppet-kmod
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-kmod-2.5.0-1.52e31e3git.el8
+- project: puppet-lib-file_concat
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-lib-file_concat-1.0.1-1.el8
+- project: puppet-magnum
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-magnum-16.3.0-1.el8
+- project: puppet-manila
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-manila-16.3.0-1.el8
+- project: puppet-memcached
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-memcached-3.4.0-2.1f307b8git.el8
+- project: puppet-midonet
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-midonet-1.1.0-2.4a44c33git.el8
+- project: puppet-mistral
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-mistral-16.3.0-1.el8
+- project: puppet-module-data
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-module-data-0.5.1-1.28dafcegit.el8
+- project: puppet-mongodb
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-mongodb-3.1.1-0.1.0rc0.d9402c9git.el8
+- project: puppet-murano
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-murano-16.3.0-1.el8
+- project: puppet-mysql
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-mysql-10.4.0-1.fff2c82git.el8
+- project: puppet-n1k-vsm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
+- project: puppet-neutron
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-neutron-16.3.0-1.el8
+- project: puppet-nova
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-nova-16.3.0-1.el8
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
+- project: puppet-ntp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ntp-4.2.0-1.el8
+- project: puppet-octavia
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-octavia-16.3.0-1.el8
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-openstack_extras-16.3.0-1.el8
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-openstacklib-16.3.0-1.el8
+- project: puppet-oslo
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-oslo-16.3.0-1.el8
+- project: puppet-ovn
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ovn-16.3.0-1.el8
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-pacemaker-0.8.0-1.el8
+- project: puppet-panko
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-panko-16.3.0-1.el8
+- project: puppet-placement
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-placement-3.3.0-1.el8
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
+- project: puppet-qdr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-qdr-5.3.0-1.el8
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-rabbitmq-10.0.2-0.1.0rc0.eafe833git.el8
+- project: puppet-redis
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-redis-5.0.1-0.1.0rc0.8e48eeegit.el8
+- project: puppet-remote
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-remote-10.0.0-1.7420908git.el8
+- project: puppet-rsync
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-rsync-1.1.1-2.db5f8b5git.el8
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
+- project: puppet-sahara
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-sahara-16.3.0-1.el8
+- project: puppet-sensu
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-sensu-2.62.3-1.20361a4git.el8
+- project: puppet-snmp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-snmp-3.9.0-1.5d73485git.el8
+- project: puppet-ssh
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-ssh-6.1.0-1.29a9ae7git.el8
+- project: puppet-staging
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-staging-1.0.4-1.b466d93git.el8
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-stdlib-6.3.0-1.93eee77git.el8
+- project: puppet-swift
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-swift-16.3.0-1.el8
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-sysctl-0.0.12-2.a3d160dgit.el8
+- project: puppet-systemd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-systemd-2.9.0-1.1e15600git.el8
+- project: puppet-tacker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-tacker-16.3.0-1.el8
+- project: puppet-tempest
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-tempest-16.3.0-1.el8
+- project: puppet-timezone
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-timezone-5.2.2-1.855de65git.el8
+- project: puppet-tomcat
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-tomcat-4.0.0-1.69a6bebgit.el8
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-tripleo-12.2.0-1.el8
+- project: puppet-trove
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-trove-16.3.0-1.el8
+- project: puppet-uchiwa
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-uchiwa-2.1.1-2.837c669git.el8
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-vcsrepo-3.1.0-1.d285592git.el8
+- project: puppet-veritas_hyperscale
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-veritas_hyperscale-1.1.1-1.el8
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-vitrage-6.3.0-1.el8
+- project: puppet-vlan
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-vlan-0.1.0-1.el8
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-vswitch-12.3.0-1.el8
+- project: puppet-watcher
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-watcher-16.3.0-1.el8
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-xinetd-3.3.0-2.8d460c4git.el8
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-zaqar-16.3.0-1.el8
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: puppet-zookeeper-1.0.0-1.becf07cgit.el8
+- project: pycadf
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pycadf-3.0.0-1.el8
+- project: pydot
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pydot-1.4.1-1.el8
+- project: pyflakes
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pyflakes-2.1.1-5.el8
+- project: pyparsing
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pyparsing-2.4.6-1.el8
+- project: pysendfile
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pysendfile-2.0.1-15.el8
+- project: pysnmp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pysnmp-4.4.12-1.el8
+- project: pystache
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pystache-0.5.4-13.el8
+- project: pytest
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: pytest-4.6.9-1.el8
+- project: python-APScheduler
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-APScheduler-3.5.3-3.el8
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-Bottleneck-1.2.1-13.el8
+- project: python-PuLP
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-PuLP-1.6.5-1.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-PyMySQL-0.9.3-2.el8.rdo.1
+- project: python-SecretStorage
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-SecretStorage-3.1.1-4.el8
+- project: python-XStatic
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-1.0.1-19.el8
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-1.5.8.0-10.el8
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-UUID-0.0.4.0-9.el8
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-Vis-4.16.0.0-6.el8
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-D3-3.5.17.0-10.el8
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-FileSaver-1.3.2.0-6.el8
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Font-Awesome-4.7.0.0-10.el8
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Hogan-2.0.0.2-17.el8
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-JS-Yaml-3.8.1.0-7.el8
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-JSEncrypt-2.3.1.1-9.el8
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Jasmine-2.4.1.1-9.el8
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Json2yaml-0.1.1.0-6.el8
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Magic-Search-0.2.5.1-12.el8
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Rickshaw-1.5.0.0-19.el8
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-Spin-1.2.5.2-18.el8
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-bootswatch-3.3.7.0-11.el8
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-jQuery-1.10.2.1-1.el8
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-jquery-ui-1.12.0.1-9.el8
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-mdi-1.6.50.2-1.el8
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-objectpath-1.2.1.0-2.el8
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-smart-table-1.4.13.2-9.el8
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-termjs-0.0.7.0-9.el8
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-XStatic-tv4-1.2.7.0-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-alembic-1.3.1-1.el8
+- project: python-amqp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-amqp-2.5.2-2.el8
+- project: python-aniso8601
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-aniso8601-8.0.0-1.el8
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ansible-runner-1.4.5-1.1.el8
+- project: python-anyjson
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-anyjson-0.3.3-24.el8
+- project: python-appdirs
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-appdirs-1.4.3-12.el8
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-atomicwrites-1.3.0-6.el8
+- project: python-autobahn
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-autobahn-19.10.1-1.el8
+- project: python-bcrypt
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-bcrypt-3.1.7-3.el8
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-beautifulsoup4-4.8.2-1.el8
+- project: python-boto
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-boto-2.49.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-boto3-1.6.1-2.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-botocore-1.9.1-2.el8
+- project: python-cachetools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cachetools-4.0.0-1.el8
+- project: python-certifi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-certifi-2018.10.15-8.el8
+- project: python-cffi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cffi-1.13.2-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cmd2-0.9.16-2.el8
+- project: python-colorama
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-colorama-0.4.1-4.el8
+- project: python-configparser
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-configparser-3.7.1-6.el8
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-confluent-kafka-0.11.6-8.el8
+- project: python-construct
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-construct-2.8.22-1.el8
+- project: python-contextlib2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-contextlib2-0.5.5-12.el8
+- project: python-cotyledon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cotyledon-1.7.3-4.el8
+- project: python-cradox
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cradox-2.1.0-7.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-croniter-0.3.27-4.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cryptography-2.8-2.el8
+- project: python-cssselect
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cssselect-0.9.2-13.el8
+- project: python-cycler
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-cycler-0.10.0-13.el8
+- project: python-daemon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-daemon-2.2.3-7.el8
+- project: python-daiquiri
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-daiquiri-1.5.0-6.el8
+- project: python-dataclasses
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-dataclasses-0.7-1.el8
+- project: python-ddt
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ddt-1.2.1-4.el8
+- project: python-decorator
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-decorator-4.4.0-5.el8
+- project: python-defusedxml
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-defusedxml-0.6.0-4.el8
+- project: python-deprecation
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-deprecation-2.0.6-5.el8
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-dictdiffer-0.8.1-2.el8
+- project: python-distro
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-distro-1.4.0-4.el8
+- project: python-django
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-2.2.9-1.el8
+- project: python-django-appconf
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-appconf-1.0.3-1.el8
+- project: python-django-babel
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-babel-0.6.2-10.el8
+- project: python-django-compressor
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-compressor-2.2-8.el8
+- project: python-django-debreach
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-debreach-2.0.1-1.el8
+- project: python-django-formtools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-formtools-2.1-11.el8
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-django-pyscss-2.0.2-14.el8
+- project: python-docker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-docker-4.0.2-2.el8
+- project: python-docker-pycreds
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-docker-pycreds-0.4.0-5.el8
+- project: python-docopt
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-docopt-0.6.2-15.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-dogpile-cache-0.9.0-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-dulwich-0.19.14-1.el8
+- project: python-edengrid
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-edgegrid-1.1.1-6.el8
+- project: python-editor
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-editor-1.0.4-4.el8
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-elasticsearch-7.5.1-1.el8
+- project: python-entrypoints
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-entrypoints-0.3-4.el8
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-etcd3gw-0.2.5-1.el8
+- project: python-eventlet
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-eventlet-0.25.1-2.el8
+- project: python-exabgp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-exabgp-4.0.10-4.el8
+- project: python-extras
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-extras-1.0.0-10.el8
+- project: python-falcon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-falcon-2.0.0-1.el8
+- project: python-fastavro
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-fastavro-0.19.8-2.el8
+- project: python-fastcache
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-fastcache-1.1.0-5.el8
+- project: python-fasteners
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-fasteners-0.14.1-20.el8
+- project: python-fixtures
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-fixtures-3.0.0-16.el8
+- project: python-flake8
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-flake8-3.7.7-6.el8
+- project: python-flask
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-flask-1.1.1-1.el8
+- project: python-flask-restful
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-flask-restful-0.3.7-5.el8
+- project: python-fluidity-sm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-fluidity-sm-0.2.0-16.el8
+- project: python-funcsigs
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-funcsigs-1.0.2-17.el8
+- project: python-gabbi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-gabbi-1.49.0-1.el8
+- project: python-gitdb
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-gitdb-2.0.3-10.el8
+- project: python-gmpy2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-gmpy2-2.0.8-7.el8
+- project: python-google-auth
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-google-auth-1.10.1-1.el8
+- project: python-gunicorn
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-gunicorn-20.0.4-1.el8
+- project: python-ifaddr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ifaddr-0.1.6-5.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-importlib-metadata-0.23-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-importlib-resources-1.0.2-1.el8
+- project: python-influxdb
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-influxdb-5.2.0-6.el8
+- project: python-invoke
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-invoke-1.4.0-1.el8
+- project: python-iso8601
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-iso8601-0.1.11-16.el8
+- project: python-jeepney
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-jeepney-0.4.3-1.el8
+- project: python-json-logger
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-json-logger-0.1.7-11.el8
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-jsonpath-rw-1.2.3-22.el8
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-jsonpath-rw-ext-1.2.0-5.el8
+- project: python-junitxml
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-junitxml-0.7-20.el8
+- project: python-kafka
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kafka-1.4.3-3.el8
+- project: python-kazoo
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kazoo-2.7.0-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-keyring-21.0.0-1.el8
+- project: python-kiwisolver
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kiwisolver-1.1.0-4.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kombu-4.6.6-2.el8
+- project: python-kubernetes
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kubernetes-10.0.1-1.el8
+- project: python-ldap3
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ldap3-2.6.1-2.el8
+- project: python-ldappool
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ldappool-2.4.0-5.el8
+- project: python-lesscpy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-lesscpy-0.13.0-12.el8
+- project: python-lexicon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-lexicon-1.0.0-9.el8
+- project: python-linecache2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-linecache2-1.0.0-25.el8
+- project: python-lockfile
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-lockfile-0.11.0-16.el8
+- project: python-logutils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-logutils-0.3.5-11.el8
+- project: python-lz4
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-lz4-2.1.2-6.el8
+- project: python-marathon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-marathon-0.8.8-12.el8
+- project: python-matplotlib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-matplotlib-3.1.1-2.el8
+- project: python-mccabe
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mccabe-0.6.1-14.el8
+- project: python-memcached
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-memcached-1.58-11.el8
+- project: python-migrate
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-migrate-0.13.0-1.el8
+- project: python-mimeparse
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mimeparse-1.6.0-11.el8
+- project: python-mock
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mock-3.0.5-7.el8
+- project: python-monotonic
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-monotonic-1.5-5.el8
+- project: python-more-itertools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-more-itertools-7.2.0-3.el8
+- project: python-mpmath
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-mpmath-1.1.0-6.el8
+- project: python-msgpack
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-msgpack-0.6.2-1.el8
+- project: python-munch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-munch-2.3.2-6.el8
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-murano-pkg-check-0.3.0-15.el8
+- project: python-ndg_httpsclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ndg_httpsclient-0.5.1-5.el8
+- project: python-netmiko
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-netmiko-3.0.0-1.el8
+- project: python-network-runner
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-network-runner-0.1.7-3.el8
+- project: python-networkx
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networkx-2.3-5.el8
+- project: python-ntlm-auth
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ntlm-auth-1.1.0-8.el8
+- project: python-numexpr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-numexpr-2.7.1-1.el8
+- project: python-oauth2client
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-oauth2client-4.1.3-8.el8
+- project: python-olefile
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-olefile-0.46-8.el8
+- project: python-openshift
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-openshift-0.10.1-3.el8
+- project: python-pandas
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pandas-0.25.3-1.el8
+- project: python-paramiko
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-paramiko-2.7.1-1.el8
+- project: python-passlib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-passlib-1.7.1-6.el8
+- project: python-paste
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-paste-3.2.4-1.el8
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-paste-deploy-2.0.1-4.el8
+- project: python-pathlib2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pathlib2-2.3.5-1.el8
+- project: python-pbr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pbr-5.4.3-2.el8
+- project: python-pecan
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pecan-1.3.2-9.el8
+- project: python-pexpect
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pexpect-4.7.0-4.el8
+- project: python-pint
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pint-0.10.1-1.el8
+- project: python-pluggy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pluggy-0.13.0-1.el8
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-posix_ipc-0.9.8-22.el8
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-prometheus_client-0.7.1-2.el8
+- project: python-psutil
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-psutil-5.6.3-5.el8
+- project: python-pyasn1
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyasn1-0.4.6-3.el8
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pycodestyle-2.5.0-6.el8
+- project: python-pyeclib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyeclib-1.5.0-12.el8
+- project: python-pygal
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pygal-2.4.0-12.el8
+- project: python-pyghmi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyghmi-1.2.16-4.el8
+- project: python-pyglet
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyglet-1.4.6-1.el8
+- project: python-pygraphviz
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pygraphviz-1.5-9.el8
+- project: python-pykwalify
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pykwalify-1.7.0-5.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pymemcache-2.1.1-6.el8
+- project: python-pynacl
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pynacl-1.3.0-6.el8.rdo.1
+- project: python-pyngus
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyngus-2.3.0-4.el8
+- project: python-pyperclip
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyperclip-1.6.4-6.el8
+- project: python-pyroute2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pyroute2-0.5.6-2.el8
+- project: python-pysaml2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pysaml2-4.5.0-9.el8
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pytest-runner-4.0-8.el8
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-pytimeparse-1.1.8-4.el8
+- project: python-rcssmin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-rcssmin-1.0.6-18.el8
+- project: python-redis
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-redis-3.3.8-1.el8
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-repoze-lru-0.7-6.el8
+- project: python-requests
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-requests-2.22.0-7.el8
+- project: python-requests-mock
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-requests-mock-1.7.0-1.el8
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-requests_ntlm-1.1.0-9.el8
+- project: python-retrying
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-retrying-1.2.3-21.el8
+- project: python-rfc3986
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-rfc3986-1.2.0-6.el8
+- project: python-rjsmin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-rjsmin-1.0.12-17.el8
+- project: python-routes
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-routes-2.4.1-12.el8
+- project: python-rsa
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-rsa-3.4.2-13.el8
+- project: python-ruamel-yaml
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ruamel-yaml-0.16.5-3.el8
+- project: python-ruamel-yaml-clib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ruamel-yaml-clib-0.1.2-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-s3transfer-0.1.13-1.el8
+- project: python-scandir
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-scandir-1.9.0-9.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-scp-0.13.2-4.el8
+- project: python-scrypt
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-scrypt-0.8.0-11.el8
+- project: python-scss
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-scss-1.3.5-9.el8
+- project: python-service-identity
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-service-identity-18.1.0-5.el8
+- project: python-setproctitle
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-setproctitle-1.1.10-16.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-setuptools-41.6.0-1.el8
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-simplegeneric-0.8.1-17.el8
+- project: python-simplejson
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-simplejson-3.17.0-1.el8
+- project: python-singledispatch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-singledispatch-3.4.0.3-18.el8
+- project: python-six
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-six-1.14.0-2.el8
+- project: python-smi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-smi-0.3.4-6.el8
+- project: python-smmap
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-smmap-2.0.3-9.el8
+- project: python-snappy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-snappy-0.5.4-5.el8
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sortedcontainers-2.1.0-5.el8
+- project: python-soupsieve
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-soupsieve-1.9.2-3.el8
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sphinx-argparse-0.2.2-8.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sqlalchemy-utils-0.34.2-2.el8
+- project: python-sqlparse
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sqlparse-0.2.4-9.el8
+- project: python-sseclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sseclient-0.0.18-9.el8
+- project: python-statsd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-statsd-3.2.1-16.el8
+- project: python-stestr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-stestr-2.6.0-4.el8
+- project: python-string_utils
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-string_utils-0.6.0-10.el8
+- project: python-subunit2sql
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-subunit2sql-1.9.0-3.el8
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sysv_ipc-1.0.0-3.el8
+- project: python-tables
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tables-3.5.2-6.el8
+- project: python-tabulate
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tabulate-0.8.6-1.el8
+- project: python-tempita
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tempita-0.5.1-25.el8
+- project: python-tenacity
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tenacity-5.1.1-3.el8
+- project: python-testrepository
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-testrepository-0.0.20-20.el8
+- project: python-testresources
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-testresources-1.0.0-14.el8
+- project: python-testscenarios
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-testscenarios-0.5.0-17.el8
+- project: python-testtools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-testtools-2.3.0-15.el8
+- project: python-textfsm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-textfsm-0.3.2-9.el8
+- project: python-timeout-decorator
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-timeout-decorator-0.4.1-2.el8
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tinyrpc-1.0.3-1.el8
+- project: python-tornado
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tornado-4.5.2-5.el8
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tosca-parser-1.4.0-4.el8
+- project: python-traceback2
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-traceback2-1.4.0-25.el8
+- project: python-trollius
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-trollius-2.1-14.el8
+- project: python-txaio
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-txaio-18.8.1-7.el8
+- project: python-tzlocal
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tzlocal-1.5.1-9.el8
+- project: python-ujson
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-ujson-2.0-0.2.20170206git2f1d487.el8
+- project: python-unicodecsv
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-unicodecsv-0.14.1-19.el8
+- project: python-uritemplate
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-uritemplate-3.0.0-10.el8
+- project: python-urllib-gssapi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-urllib-gssapi-1.0.1-10.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-urllib3-1.25.7-2.el8
+- project: python-versiontools
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-versiontools-1.9.1-24.el8
+- project: python-vine
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-vine-1.3.0-4.el8
+- project: python-voluptuous
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-voluptuous-0.11.7-2.el8
+- project: python-waitress
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-waitress-1.4.2-1.el8
+- project: python-warlock
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-warlock-1.3.3-1.el8
+- project: python-wcwidth
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-wcwidth-0.1.7-14.el8
+- project: python-webob
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-webob-1.8.5-5.el8
+- project: python-websocket-client
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-websocket-client-0.56.0-5.el8
+- project: python-websockify
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-websockify-0.9.0-1.el8
+- project: python-webtest
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-webtest-2.0.33-4.el8
+- project: python-werkzeug
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-werkzeug-0.16.0-1.el8
+- project: python-winrm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-winrm-0.3.0-8.el8
+- project: python-wrapt
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-wrapt-1.11.2-4.el8
+- project: python-wsaccel
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-wsaccel-0.6.2-20.el8
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-wsgi_intercept-1.9.2-1.el8
+- project: python-xmltodict
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-xmltodict-0.12.0-6.el8
+- project: python-yappi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-yappi-1.0-4.el8
+- project: python-yaql
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-yaql-1.1.3-10.el8
+- project: python-zake
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zake-0.2.2-18.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zeroconf-0.24.4-1.el8
+- project: python-zipp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zipp-0.5.1-2.el8
+- project: python-zmq
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zmq-18.1.0-2.el8
+- project: python-zope-event
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zope-event-4.2.0-16.el8
+- project: python-zope-interface
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zope-interface-4.7.1-1.el8
+- project: python2-typing
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python2-typing-3.7.4.1-1.el8
+- project: qhull
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: qhull-7.2.1-2.el8
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: qpid-dispatch-1.9.0-2.el8
+- project: qpid-proton
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: qpid-proton-0.30.0-1.el8
+- project: rally
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-rally-3.0.0-1.el8
+- project: rally-openstack
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-rally-plugins-1.7.0-1.el8
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rdo-openvswitch-2.12-1.el8
+- project: reno
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-reno-3.0.1-1.el8
+- project: requestsexceptions
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-requestsexceptions-1.4.0-2.el8
+- project: rsd-lib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-rsd-lib-1.2.0-1.el8
+- project: rsdclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-rsdclient-1.0.2-1.el8
+- project: ruby-augeas
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ruby-augeas-0.5.0-23.el8
+- project: rubygem-cane
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-cane-3.0.0-1.el8
+- project: rubygem-concurrent-ruby
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-concurrent-ruby-1.1.5-2.el8
+- project: rubygem-deep_merge
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-deep_merge-1.2.1-4.el8
+- project: rubygem-docile
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-docile-1.1.5-10.el8
+- project: rubygem-fast_gettext
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-fast_gettext-1.2.0-9.el8
+- project: rubygem-hocon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-hocon-1.3.0-1.el8
+- project: rubygem-multi_json
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-multi_json-1.13.1-4.el8
+- project: rubygem-parallel
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-parallel-1.12.1-5.el8
+- project: rubygem-pathspec
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-pathspec-0.2.1-5.el8
+- project: rubygem-puppet-resource_api
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-puppet-resource_api-1.8.12-1.el8
+- project: rubygem-redcarpet
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-redcarpet-3.3.2-16.1.el8
+- project: rubygem-rgen
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-rgen-0.8.4-2.el8
+- project: rubygem-rspec-fire
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-rspec-fire-1.3.0-1.el8
+- project: rubygem-ruby-shadow
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-ruby-shadow-2.5.0-12.el8
+- project: rubygem-semantic_puppet
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-semantic_puppet-1.0.2-1.el8
+- project: rubygem-simplecov
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-simplecov-0.13.0-7.el8.1
+- project: rubygem-simplecov-html
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-simplecov-html-0.10.0-8.el8
+- project: rubygem-yard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: rubygem-yard-0.9.12-8.el8
+- project: sahara
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-sahara-12.0.0-0.2.0rc2.el8
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-sahara-ui-12.0.0-0.2.0rc2.el8
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: sahara-image-elements-12.0.0-0.1.0rc1.el8
+- project: sahara-plugin-ambari
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sahara-plugin-ambari-3.0.0-0.1.0rc1.el8
+- project: sahara-plugin-cdh
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sahara-plugin-cdh-3.0.0-0.1.0rc1.el8
+- project: sahara-plugin-mapr
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sahara-plugin-mapr-3.0.0-0.1.0rc1.el8
+- project: sahara-plugin-spark
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sahara-plugin-spark-3.0.0-0.1.0rc1.el8
+- project: sahara-plugin-storm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sahara-plugin-storm-3.0.0-0.1.0rc1.el8
+- project: sahara-plugin-vanilla
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sahara-plugin-vanilla-3.0.0-0.1.0rc1.el8
+- project: sahara-tests
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-sahara-tests-0.10.0-1.el8
+- project: saharaclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-saharaclient-3.1.0-1.el8
+- project: scciclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-scciclient-0.8.1-1.el8
+- project: senlin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-senlin-9.0.0-0.2.0rc2.el8
+- project: senlinclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-senlinclient-2.0.1-1.el8
+- project: shade
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-shade-1.33.0-1.el8
+- project: shaker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-shaker-1.1.3-1.el8
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sphinx-feature-classification-1.0.1-1.el8
+- project: sshpass
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: sshpass-1.06-8.el8
+- project: stevedore
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-stevedore-1.32.0-1.el8
+- project: subunit
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: subunit-1.4.0-1.el8
+- project: sushy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sushy-3.2.0-1.el8
+- project: sushy-oem-idrac
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-sushy-oem-idrac-0.0.2-1.el8
+- project: swift
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-swift-2.25.0-1.el8
+- project: swiftclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-swiftclient-3.9.0-1.el8
+- project: sympy
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: sympy-1.4-6.el8
+- project: sysbench
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: sysbench-1.0.17-3.el8
+- project: tacker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tacker-3.0.0-0.2.0rc2.el8
+- project: tackerclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tackerclient-1.1.0-1.el8
+- project: taskflow
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-taskflow-4.1.0-1.el8
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-telemetry-tests-tempest-1.0.0-1.el8
+- project: tempest
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tempest-24.0.0-1.el8
+- project: tempest-horizon
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-horizon-tests-tempest-1.0.0-1.el8
+- project: tempestconf
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tempestconf-2.5.0-1.el8
+- project: tobiko
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tobiko-0.2.0-1.el8
+- project: tooz
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tooz-2.3.0-1.el8
+- project: trove
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-trove-13.0.0-0.1.0rc1.el8
+- project: trove-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-trove-ui-14.0.0-0.1.0rc1.el8
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-trove-tests-tempest-1.0.0-1.el8
+- project: troveclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-troveclient-3.3.1-1.el8
+- project: uwsgi
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: uwsgi-2.0.18-4.el8
+- project: virtualbmc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-virtualbmc-2.0.0-1.el8
+- project: vitrage
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-vitrage-7.1.0-1.el8
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-vitrage-ui-3.0.0-1.el8
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-vitrage-tests-tempest-4.0.0-1.el8
+- project: vitrageclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-vitrageclient-4.0.1-1.el8
+- project: vmware-nsx
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-vmware-nsx-15.0.0-1.el8
+- project: vmware-nsx-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-vmware-nsxlib-15.0.7-1.el8
+- project: watcher
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-watcher-4.0.0-0.1.0rc1.el8
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-watcher-tests-tempest-2.0.0-1.el8
+- project: web-assets
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: web-assets-5-10.el8
+- project: wsme
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-wsme-0.9.3-1.el8
+- project: xqc
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: xqc-1.0-0.16.20101120svn7.el8
+- project: yaml-cpp
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: yaml-cpp-0.6.3-1.el8
+- project: zaqar
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-zaqar-10.0.0-0.1.0rc1.el8
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zaqar-tests-tempest-1.0.0-1.el8
+- project: zaqarclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-zaqarclient-1.13.1-1.el8
+- project: zeromq
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: zeromq-4.3.2-1.el8
+- project: zstd
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: zstd-1.4.4-1.el8
