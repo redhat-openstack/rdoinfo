@@ -14,6 +14,9 @@ packages:
 - project: ansible-role-container-registry
   tags:
     train:
+- project: ansible-role-lunasa-hsm
+  tags:
+    train:
 - project: ansible-role-openstack-operations
   tags:
     train:
