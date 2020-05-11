@@ -55,7 +55,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-ceilometermiddleware-2.0.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-cinder-16.0.0-0.2.0rc2.el8
+    cloud8-openstack-ussuri-testing: openstack-cinder-16.0.0-0.3.0rc3.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-cinder-tests-tempest-1.0.0-1.el8
@@ -283,7 +283,7 @@ packages:
     cloud8-openstack-ussuri-testing: jsoncpp-1.9.2-1.el8
 - project: keystone
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-keystone-17.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-keystone-17.0.0-0.2.0rc2.el8
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-keystone-tests-tempest-0.4.0-1.el8
@@ -301,7 +301,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-kuryr-lib-2.0.0-1.el8
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-kuryr-kubernetes-2.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-kuryr-kubernetes-2.0.0-0.2.0rc2.el8
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-kuryr-tests-tempest-0.5.0-1.el8
@@ -334,7 +334,7 @@ packages:
     cloud8-openstack-ussuri-testing: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-magnum-10.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-magnum-10.0.0-0.2.0rc2.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-magnum-tests-tempest-1.0.0-1.el8
@@ -394,10 +394,10 @@ packages:
     cloud8-openstack-ussuri-testing: mp-3.1.0-24.20161124git1f39801.el8
 - project: murano
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-murano-9.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-murano-9.0.0-0.2.0rc2.el8
 - project: murano-agent
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-murano-agent-5.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-murano-agent-5.0.0-0.2.0rc2.el8
 - project: murano-dashboard
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-murano-ui-9.0.0-0.1.0rc1.el8
@@ -2014,7 +2014,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-vmware-nsxlib-15.0.7-1.el8
 - project: watcher
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-watcher-4.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-watcher-4.0.0-0.2.0rc2.el8
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-watcher-tests-tempest-2.0.0-1.el8
