@@ -79,7 +79,7 @@ packages:
     cloud8-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-cinder-15.1.0-1.el8
+    cloud8-openstack-train-release: openstack-cinder-15.1.0-2.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-cinder-tests-tempest-0.3.1-1.el8
@@ -367,7 +367,7 @@ packages:
     cloud8-openstack-train-release: python-magnumclient-2.16.0-1.el8
 - project: manila
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-manila-9.1.1-1.el8
+    cloud8-openstack-train-release: openstack-manila-9.1.2-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-manila-tests-tempest-0.4.0-1.el8
@@ -385,7 +385,7 @@ packages:
     cloud8-openstack-train-release: python-microversion-parse-0.2.1-1.el8
 - project: mistral
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-mistral-9.0.1-1.el8
+    cloud8-openstack-train-release: openstack-mistral-9.1.0-1.el8
 - project: mistral-dashboard
   buildsys-tags:
     cloud8-openstack-train-release: openstack-mistral-ui-9.0.1-1.el8
@@ -478,7 +478,7 @@ packages:
     cloud8-openstack-train-release: python-neutronclient-6.14.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-nova-20.1.1-2.el8
+    cloud8-openstack-train-release: openstack-nova-20.2.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8-openstack-train-release: python-novaclient-15.1.0-1.el8
@@ -508,13 +508,13 @@ packages:
     cloud8-openstack-train-release: openpgm-5.2.122-21.el8
 - project: openstack-selinux
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-selinux-0.8.19-1.el8
+    cloud8-openstack-train-release: openstack-selinux-0.8.20-1.el8
 - project: openstackclient
   buildsys-tags:
     cloud8-openstack-train-release: python-openstackclient-4.0.0-1.el8
 - project: openstacksdk
   buildsys-tags:
-    cloud8-openstack-train-release: python-openstacksdk-0.36.2-1.el8
+    cloud8-openstack-train-release: python-openstacksdk-0.36.3-1.el8
 - project: openvswitch
   buildsys-tags:
     cloud8-openstack-train-release: openvswitch-2.12.0-1.el8
@@ -700,7 +700,7 @@ packages:
     cloud8-openstack-train-release: puppet-cinder-15.4.0-1.el8
 - project: puppet-collectd
   buildsys-tags:
-    cloud8-openstack-train-release: puppet-collectd-11.0.0-1.785a71bgit.el8
+    cloud8-openstack-train-release: puppet-collectd-12.0.0-1.4686e16git.el8
 - project: puppet-concat
   buildsys-tags:
     cloud8-openstack-train-release: puppet-concat-6.1.0-1.9baa8fcgit.el8
@@ -820,7 +820,7 @@ packages:
     cloud8-openstack-train-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
 - project: puppet-neutron
   buildsys-tags:
-    cloud8-openstack-train-release: puppet-neutron-15.4.0-1.el8
+    cloud8-openstack-train-release: puppet-neutron-15.5.0-1.el8
 - project: puppet-nova
   buildsys-tags:
     cloud8-openstack-train-release: puppet-nova-15.5.0-1.el8
@@ -1957,7 +1957,7 @@ packages:
     cloud8-openstack-train-release: python-tooz-1.66.2-1.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8-openstack-train-release: tripleo-ansible-0.4.1-1.el8
+    cloud8-openstack-train-release: tripleo-ansible-0.5.0-1.el8
 - project: tripleo-common
   buildsys-tags:
     cloud8-openstack-train-release: openstack-tripleo-common-11.3.2-1.el8
@@ -1967,6 +1967,9 @@ packages:
 - project: tripleo-image-elements
   buildsys-tags:
     cloud8-openstack-train-release: openstack-tripleo-image-elements-10.6.1-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8-openstack-train-release: ansible-tripleo-ipa-0.2.0-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el8
