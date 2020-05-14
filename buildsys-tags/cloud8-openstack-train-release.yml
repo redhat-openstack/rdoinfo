@@ -10,7 +10,7 @@ packages:
     cloud8-openstack-train-release: PyYAML-5.3-2.el8
 - project: ansible
   buildsys-tags:
-    cloud8-openstack-train-release: ansible-2.8.8-1.el8
+    cloud8-openstack-train-release: ansible-2.9.7-1.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8-openstack-train-release: ansible-config_template-1.0.0-1.faf60ddgit.el8
@@ -67,7 +67,7 @@ packages:
     cloud8-openstack-train-release: bridge-utils-1.6-4.el8
 - project: castellan
   buildsys-tags:
-    cloud8-openstack-train-release: python-castellan-1.3.1-2.el8
+    cloud8-openstack-train-release: python-castellan-1.3.2-1.el8
 - project: ceilometer
   buildsys-tags:
     cloud8-openstack-train-release: openstack-ceilometer-13.1.0-1.el8
@@ -301,7 +301,7 @@ packages:
     cloud8-openstack-train-release: jsoncpp-1.9.2-1.el8
 - project: keystone
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-keystone-16.0.0-1.el8
+    cloud8-openstack-train-release: openstack-keystone-16.0.1-1.el8
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-keystone-tests-tempest-0.3.0-1.el8
@@ -1327,7 +1327,7 @@ packages:
     cloud8-openstack-train-release: python-iso8601-0.1.11-16.el8
 - project: python-jeepney
   buildsys-tags:
-    cloud8-openstack-train-release: python-jeepney-0.4.1-1.el8
+    cloud8-openstack-train-release: python-jeepney-0.4.3-1.el8
 - project: python-json-logger
   buildsys-tags:
     cloud8-openstack-train-release: python-json-logger-0.1.7-11.el8
