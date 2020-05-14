@@ -2,3 +2,6 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-construct
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-construct-2.10.56-1.el8
