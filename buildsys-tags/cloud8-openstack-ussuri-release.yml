@@ -413,6 +413,9 @@ packages:
 - project: ndisc6
   buildsys-tags:
     cloud8-openstack-ussuri-release: ndisc6-1.0.3-9.el8
+- project: networking-ansible
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-ansible-4.0.0-1.el8
 - project: networking-bagpipe
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-networking-bagpipe-12.0.0-1.el8
@@ -431,6 +434,9 @@ packages:
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-networking-l2gw-tests-tempest-0.1.0-2.2e265b5git.el8
+- project: networking-mlnx
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-networking-mlnx-16.0.0-1.el8
 - project: networking-odl
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-networking-odl-16.0.0-1.el8
@@ -676,7 +682,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-ceilometer-16.3.0-1.el8
 - project: puppet-ceph
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-ceph-3.1.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-ceph-3.1.1-1.el8
 - project: puppet-certmonger
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-certmonger-2.4.0-1.a198870git.el8
@@ -1331,6 +1337,9 @@ packages:
 - project: python-kazoo
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-kazoo-2.7.0-1.el8
+- project: python-kerberos
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-kerberos-1.3.0-7.el8
 - project: python-keyring
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-keyring-21.0.0-1.el8
@@ -1489,7 +1498,7 @@ packages:
     cloud8-openstack-ussuri-release: python-pygal-2.4.0-12.el8
 - project: python-pyghmi
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-pyghmi-1.2.16-4.el8
+    cloud8-openstack-ussuri-release: python-pyghmi-1.5.14-2.1.el8
 - project: python-pyglet
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-pyglet-1.4.6-1.el8
@@ -1535,6 +1544,9 @@ packages:
 - project: python-requests
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-requests-2.22.0-7.el8
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-requests-kerberos-0.12.0-8.el8
 - project: python-requests-mock
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-requests-mock-1.7.0-1.el8
@@ -1988,6 +2000,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud8-openstack-ussuri-release: uwsgi-2.0.18-4.el8
+- project: validations-common
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: validations-common-1.0.0-1.el8
+- project: validations-libs
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-validations-libs-1.0.0-1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-virtualbmc-2.0.0-1.el8
@@ -2005,7 +2023,7 @@ packages:
     cloud8-openstack-ussuri-release: python-vitrageclient-4.0.1-1.el8
 - project: vmware-nsx
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-networking-vmware-nsx-15.0.0-1.el8
+    cloud8-openstack-ussuri-release: python-networking-vmware-nsx-16.0.0-1.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
