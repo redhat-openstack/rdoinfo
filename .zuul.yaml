@@ -1,0 +1,10 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-ussuri-release-centos-7-scenario001-standalone:
+            nodeset: single-centos-8-node-vexxhost
+            dependencies:
+              - legacy-validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-ussuri-release.yml$
+            voting: false
