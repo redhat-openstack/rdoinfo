@@ -214,11 +214,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     train:
-      source-branch: 3.7.0
+      source-branch: 3.7.1
 - project: ironic-lib
   tags:
     train:
-      source-branch: 2.21.0
+      source-branch: 2.21.1
 - project: ironic-prometheus-exporter
   tags:
     train:
@@ -241,7 +241,7 @@ packages:
 - project: ironicclient
   tags:
     train:
-      source-branch: 3.1.1
+      source-branch: 3.1.2
 - project: keystone
   tags:
     train:
@@ -1093,7 +1093,7 @@ packages:
 - project: sushy
   tags:
     train:
-      source-branch: 2.0.2
+      source-branch: 2.0.3
 - project: sushy-oem-idrac
   tags:
     train:
