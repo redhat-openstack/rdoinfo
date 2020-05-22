@@ -14,6 +14,15 @@ packages:
 - project: ansible-freeipa
   buildsys-tags:
     cloud8-openstack-ussuri-testing: ansible-freeipa-0.1.8-2.el8
+- project: ansible-role-container-registry
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-role-container-registry-1.2.0-1.el8
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-role-redhat-subscription-1.1.0-1.el8
+- project: ansible-role-tripleo-modify-image
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-role-tripleo-modify-image-1.2.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-aodh-10.0.0-1.el8
@@ -547,7 +556,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-os-vif-2.0.0-1.el8
 - project: os-win
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-os-win-5.0.1-1.el8
+    cloud8-openstack-ussuri-testing: python-os-win-5.0.2-1.el8
 - project: os-xenapi
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-os-xenapi-0.3.4-1.el8
@@ -838,7 +847,7 @@ packages:
     cloud8-openstack-ussuri-testing: puppet-ovn-16.3.0-1.el8
 - project: puppet-pacemaker
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: puppet-pacemaker-0.8.0-1.el8
+    cloud8-openstack-ussuri-testing: puppet-pacemaker-1.0.0-1.el8
 - project: puppet-panko
   buildsys-tags:
     cloud8-openstack-ussuri-testing: puppet-panko-16.3.0-1.el8
@@ -1985,6 +1994,12 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-tooz-2.3.0-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-tripleo-ipa-0.2.0-1.el8
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-tripleo-ipsec-9.3.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-trove-13.0.0-1.el8
