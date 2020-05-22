@@ -851,10 +851,6 @@ packages:
 - project: puppet-octavia
   tags:
     ussuri:
-- project: puppet-opendaylight
-  tags:
-    ussuri:
-      source-branch: stable/fluorine
 - project: puppet-openstack_extras
   tags:
     ussuri:
@@ -1148,16 +1144,9 @@ packages:
 - project: tripleo-common
   tags:
     ussuri:
-- project: tripleo-common-tempest-plugin
-  tags:
-    ussuri:
 - project: tripleo-heat-templates
   tags:
     ussuri:
-- project: tripleo-heat-templates-compat
-  tags:
-    ussuri:
-      source-branch: stable/train
 - project: tripleo-image-elements
   tags:
     ussuri:

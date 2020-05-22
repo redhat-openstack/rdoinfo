@@ -833,10 +833,6 @@ packages:
 - project: puppet-octavia
   tags:
     victoria-uc:
-- project: puppet-opendaylight
-  tags:
-    victoria-uc:
-      source-branch: stable/fluorine
 - project: puppet-openstack_extras
   tags:
     victoria-uc:
@@ -1126,16 +1122,9 @@ packages:
 - project: tripleo-common
   tags:
     victoria-uc:
-- project: tripleo-common-tempest-plugin
-  tags:
-    victoria-uc:
 - project: tripleo-heat-templates
   tags:
     victoria-uc:
-- project: tripleo-heat-templates-compat
-  tags:
-    victoria-uc:
-      source-branch: stable/train
 - project: tripleo-image-elements
   tags:
     victoria-uc:
