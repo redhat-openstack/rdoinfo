@@ -265,19 +265,19 @@ packages:
     cloud8-openstack-train-release: openstack-ironic-13.0.3-1.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-ironic-inspector-9.2.1-1.el8
+    cloud8-openstack-train-release: openstack-ironic-inspector-9.2.2-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
-    cloud8-openstack-train-release: python-ironic-inspector-client-3.7.0-1.el8
+    cloud8-openstack-train-release: python-ironic-inspector-client-3.7.1-1.el8
 - project: ironic-lib
   buildsys-tags:
-    cloud8-openstack-train-release: python-ironic-lib-2.21.0-1.el8
+    cloud8-openstack-train-release: python-ironic-lib-2.21.1-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8-openstack-train-release: python-ironic-prometheus-exporter-1.1.0-1.el8
+    cloud8-openstack-train-release: python-ironic-prometheus-exporter-1.1.1-1.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-ironic-python-agent-5.0.1-1.el8
+    cloud8-openstack-train-release: openstack-ironic-python-agent-5.0.2-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8-openstack-train-release: openstack-ironic-python-agent-builder-1.0.0-1.el8
@@ -292,7 +292,7 @@ packages:
     cloud8-openstack-train-release: openstack-ironic-ui-3.5.5-1.el8
 - project: ironicclient
   buildsys-tags:
-    cloud8-openstack-train-release: python-ironicclient-3.1.1-1.el8
+    cloud8-openstack-train-release: python-ironicclient-3.1.2-1.el8
 - project: jemalloc
   buildsys-tags:
     cloud8-openstack-train-release: jemalloc-5.2.1-2.el8
@@ -316,7 +316,7 @@ packages:
     cloud8-openstack-train-release: python-keystonemiddleware-7.0.1-2.el8
 - project: kolla
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-kolla-9.0.1-1.el8
+    cloud8-openstack-train-release: openstack-kolla-9.1.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8-openstack-train-release: python-kuryr-lib-1.1.1-1.el8
@@ -370,7 +370,7 @@ packages:
     cloud8-openstack-train-release: openstack-manila-9.1.2-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-train-release: python-manila-tests-tempest-0.4.0-1.el8
+    cloud8-openstack-train-release: python-manila-tests-tempest-1.0.0-1.el8
 - project: manila-ui
   buildsys-tags:
     cloud8-openstack-train-release: openstack-manila-ui-2.19.1-1.el8
@@ -1912,7 +1912,7 @@ packages:
     cloud8-openstack-train-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8-openstack-train-release: python-sushy-2.0.2-1.el8
+    cloud8-openstack-train-release: python-sushy-2.0.3-1.el8
 - project: swift
   buildsys-tags:
     cloud8-openstack-train-release: openstack-swift-2.23.1-1.el8
