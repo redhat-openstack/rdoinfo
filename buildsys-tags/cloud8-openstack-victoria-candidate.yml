@@ -2,3 +2,6 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-network-runner
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
