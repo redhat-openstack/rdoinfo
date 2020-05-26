@@ -382,7 +382,7 @@ packages:
     cloud7-openstack-stein-release: openstack-manila-8.1.2-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-stein-release: python-manila-tests-tempest-0.3.0-1.el7
+    cloud7-openstack-stein-release: python-manila-tests-tempest-1.0.0-1.el7
 - project: manila-ui
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-manila-ui-2.18.1-1.el7
@@ -2047,7 +2047,7 @@ packages:
     cloud7-openstack-stein-release: python-telemetry-tests-tempest-0.3.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-tempest-21.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-tempest-23.0.0-1.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-stein-release: python-horizon-tests-tempest-0.1.0-1.el7
