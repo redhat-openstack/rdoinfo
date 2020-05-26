@@ -1229,7 +1229,6 @@ packages:
 - project: openstacksdk
   conf: rpmfactory-lib
   component: clients
-- project: gnocchiclient
   conf: rpmfactory-client
   upstream: https://github.com/gnocchixyz/python-%(project)s
   maintainers:
@@ -2259,6 +2258,13 @@ packages:
     - mjozefcz@redhat.com
     - bhaley@redat.com
     - flaviof@redhat.com
+- project: ibmcclient
+  name: python-%(project)s
+  conf: rpmfactory-client
+  upstream: https://github.com/IamFive/python-%(project)s
+  component: baremetal
+  maintainers:
+    - iampurse@vip.qq.com
 components:
 - name: common
 - name: compute
