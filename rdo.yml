@@ -2259,6 +2259,11 @@ packages:
     - mjozefcz@redhat.com
     - bhaley@redat.com
     - flaviof@redhat.com
+- project: python-ibmcclient
+  component: baremetal
+  conf: rpmfactory-client
+  maintainers:
+    - iampurse@vip.qq.com
 components:
 - name: common
 - name: compute
