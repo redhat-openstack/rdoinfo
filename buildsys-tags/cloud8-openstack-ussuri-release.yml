@@ -11,15 +11,33 @@ packages:
 - project: ansible
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-2.9.7-1.el8
+- project: ansible-config_template
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-config_template-1.1.0-1.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-freeipa-0.1.8-2.el8
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-pacemaker-1.0.3-2.5847167git.el8
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-role-atos-hsm-0.1.0-2.e51c244git.el8
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-role-chrony-1.0.1-1.el8
 - project: ansible-role-container-registry
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-role-container-registry-1.2.0-1.el8
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
 - project: ansible-role-redhat-subscription
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-role-redhat-subscription-1.1.0-1.el8
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: ansible-role-thales-hsm-0.2.0-2.99b3d39git.el8
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-role-tripleo-modify-image-1.2.0-1.el8
@@ -230,6 +248,9 @@ packages:
 - project: heat
   buildsys-tags:
     cloud8-openstack-ussuri-release: openstack-heat-14.0.0-1.el8
+- project: heat-agents
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-heat-agents-2.0.0-1.el8
 - project: heat-cfntools
   buildsys-tags:
     cloud8-openstack-ussuri-release: heat-cfntools-1.4.2-11.el8
@@ -520,7 +541,7 @@ packages:
     cloud8-openstack-ussuri-release: openvswitch-2.12.0-1.el8
 - project: os-apply-config
   buildsys-tags:
-    cloud8-openstack-ussuri-release: os-apply-config-11.1.0-1.el8
+    cloud8-openstack-ussuri-release: os-apply-config-11.2.0-1.el8
 - project: os-brick
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-os-brick-3.0.1-2.el8
@@ -538,7 +559,7 @@ packages:
     cloud8-openstack-ussuri-release: python-os-ken-1.0.0-1.el8
 - project: os-net-config
   buildsys-tags:
-    cloud8-openstack-ussuri-release: os-net-config-12.2.0-1.el8
+    cloud8-openstack-ussuri-release: os-net-config-12.3.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
     cloud8-openstack-ussuri-release: os-refresh-config-10.4.0-1.el8
@@ -659,6 +680,9 @@ packages:
 - project: patrole
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-patrole-0.9.0-1.el8
+- project: paunch
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-paunch-7.0.0-1.el8
 - project: placement
   buildsys-tags:
     cloud8-openstack-ussuri-release: openstack-placement-3.0.0-1.el8
@@ -919,7 +943,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-tomcat-4.0.0-1.69a6bebgit.el8
 - project: puppet-tripleo
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-tripleo-12.2.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-tripleo-12.3.0-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-trove-16.3.0-1.el8
@@ -1997,12 +2021,33 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-tooz-2.3.0-1.el8
+- project: tripleo-ansible
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: tripleo-ansible-1.4.0-1.el8
+- project: tripleo-common
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tripleo-common-12.4.0-1.el8
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tripleo-heat-templates-12.3.0-1.el8
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tripleo-image-elements-12.0.0-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-tripleo-ipa-0.2.0-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-tripleo-ipsec-9.3.0-1.el8
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tripleo-puppet-elements-12.3.0-1.el8
+- project: tripleo-validations
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: openstack-tripleo-validations-12.3.0-1.el8
+- project: tripleoclient
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: python-tripleoclient-13.3.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8-openstack-ussuri-release: openstack-trove-13.0.0-1.el8
