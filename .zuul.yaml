@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - validate-buildsys-tags-ussuri-testing-packstack-scenario002-centos8:
+            files:
+              - ^buildsys-tags/cloud7-openstack-ussuri-testing.yml$
+        - validate-buildsys-tags-victoria-testing-puppet-scenario001-centos8:
+            files:
+              - ^buildsys-tags/cloud7-openstack-victoria-testing.yml$
