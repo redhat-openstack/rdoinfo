@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - validate-buildsys-tags-ussuri-testing-packstack-scenario002-centos8:
+            nodeset:
+              name: rdo-centos-stream
+              nodes:
+                - name: rdo-centos-stream
+                  label: rdo-centos-stream
