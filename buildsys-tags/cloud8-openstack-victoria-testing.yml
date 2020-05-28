@@ -1103,3 +1103,6 @@ packages:
 - project: zstd
   buildsys-tags:
     cloud8-openstack-victoria-testing: zstd-1.4.4-1.el8
+- project: python-responses
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-responses-0.10.14-1.el8
