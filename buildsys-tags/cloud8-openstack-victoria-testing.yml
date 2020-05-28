@@ -637,7 +637,7 @@ packages:
     cloud8-openstack-victoria-testing: python-netmiko-3.0.0-1.el8
 - project: python-network-runner
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-network-runner-0.2.1-1.el8
+    cloud8-openstack-victoria-testing: python-network-runner-0.2.1-3.el8
 - project: python-networkx
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-networkx-2.3-5.el8
@@ -764,6 +764,9 @@ packages:
 - project: python-requests_ntlm
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-requests_ntlm-1.1.0-9.el8
+- project: python-responses
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-responses-0.10.14-1.el8
 - project: python-retrying
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-retrying-1.2.3-21.el8
@@ -1103,6 +1106,3 @@ packages:
 - project: zstd
   buildsys-tags:
     cloud8-openstack-victoria-testing: zstd-1.4.4-1.el8
-- project: python-responses
-  buildsys-tags:
-    cloud8-openstack-victoria-testing: python-responses-0.10.14-1.el8
