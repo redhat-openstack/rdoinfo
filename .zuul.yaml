@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - weirdo-dlrn-master-packstack-scenario001-centos8:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+        - weirdo-dlrn-master-puppet-scenario002-centos8:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
