@@ -2048,6 +2048,9 @@ packages:
 - project: scipy
   buildsys-tags:
     cloud7-openstack-train-testing: scipy-0.18.0-3.el7
+- project: scons
+  buildsys-tags:
+    cloud7-openstack-train-testing: scons-2.3.3-1.el7
 - project: senlin
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-senlin-8.0.0-1.el7
