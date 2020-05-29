@@ -185,6 +185,9 @@ packages:
 - project: future
   buildsys-tags:
     cloud8-openstack-train-testing: future-0.18.2-3.el8
+- project: futurist
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-futurist-1.9.0-2.el8
 - project: gflags
   buildsys-tags:
     cloud8-openstack-train-testing: gflags-2.2.2-3.el8
@@ -1289,9 +1292,6 @@ packages:
 - project: python-funcsigs
   buildsys-tags:
     cloud8-openstack-train-testing: python-funcsigs-1.0.2-17.el8
-- project: futurist
-  buildsys-tags:
-    cloud8-openstack-train-testing: python-futurist-1.9.0-2.el8
 - project: python-gabbi
   buildsys-tags:
     cloud8-openstack-train-testing: python-gabbi-1.49.0-1.el8
