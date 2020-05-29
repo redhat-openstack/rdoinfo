@@ -185,6 +185,9 @@ packages:
 - project: future
   buildsys-tags:
     cloud8-openstack-train-testing: future-0.18.2-3.el8
+- project: futurist
+  buildsys-tags:
+    cloud8-openstack-train-testing: python-futurist-1.9.0-2.el8
 - project: gflags
   buildsys-tags:
     cloud8-openstack-train-testing: gflags-2.2.2-3.el8
@@ -640,7 +643,7 @@ packages:
     cloud8-openstack-train-testing: ovn-2.12.0-10.el8
 - project: ovsdbapp
   buildsys-tags:
-    cloud8-openstack-train-testing: python-ovsdbapp-0.17.2-1.el8
+    cloud8-openstack-train-testing: python-ovsdbapp-0.17.3-1.el8
 - project: packstack
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-packstack-15.0.1-1.el8
@@ -655,7 +658,7 @@ packages:
     cloud8-openstack-train-testing: python-patrole-0.7.0-1.el8
 - project: paunch
   buildsys-tags:
-    cloud8-openstack-train-testing: python-paunch-5.3.1-1.el8
+    cloud8-openstack-train-testing: python-paunch-5.3.2-1.el8
 - project: placement
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-placement-2.0.0-1.el8
@@ -1289,9 +1292,6 @@ packages:
 - project: python-funcsigs
   buildsys-tags:
     cloud8-openstack-train-testing: python-funcsigs-1.0.2-17.el8
-- project: futurist
-  buildsys-tags:
-    cloud8-openstack-train-testing: python-futurist-1.9.0-2.el8
 - project: python-gabbi
   buildsys-tags:
     cloud8-openstack-train-testing: python-gabbi-1.49.0-1.el8
