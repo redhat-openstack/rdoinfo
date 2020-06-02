@@ -1,0 +1,39 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario001-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario003-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario004-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario007-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario010-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
