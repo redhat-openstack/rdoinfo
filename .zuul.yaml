@@ -1,0 +1,27 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-ussuri-testing-centos-8-standalone:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-ussuri-testing.yml$
+            voting: false
+        - rdoinfo-tripleo-ussuri-testing-centos-8-scenario001-standalone:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-ussuri-testing.yml$
+            voting: false
+        - rdoinfo-tripleo-ussuri-testing-centos-8-scenario007-standalone:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-ussuri-testing.yml$
+            voting: false
+        - rdoinfo-tripleo-ussuri-testing-centos-8-containers-multinode:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-ussuri-testing.yml$
+            voting: false
