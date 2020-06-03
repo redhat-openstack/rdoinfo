@@ -229,7 +229,7 @@ packages:
     cloud7-openstack-stein-testing: openstack-glance-18.0.1-1.el7
 - project: glance_store
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-glance-store-0.28.0-2.el7
+    cloud7-openstack-stein-testing: python-glance-store-0.28.1-1.el7
 - project: glanceclient
   buildsys-tags:
     cloud7-openstack-stein-testing: python-glanceclient-2.16.0-1.el7
@@ -643,7 +643,7 @@ packages:
     cloud7-openstack-stein-testing: python-oslo-i18n-3.23.1-1.el7
 - project: oslo-log
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-oslo-log-3.42.3-1.el7
+    cloud7-openstack-stein-testing: python-oslo-log-3.42.4-1.el7
 - project: oslo-messaging
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-messaging-9.5.1-1.el7
@@ -2065,7 +2065,7 @@ packages:
     cloud7-openstack-stein-testing: python-tempestconf-2.3.0-1.el7
 - project: tooz
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-tooz-1.64.2-1.el7
+    cloud7-openstack-stein-testing: python-tooz-1.64.3-1.el7
 - project: tripleo-ansible
   buildsys-tags:
     cloud7-openstack-stein-testing: tripleo-ansible-0.1.0-1.el7
