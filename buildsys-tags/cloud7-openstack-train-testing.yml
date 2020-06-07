@@ -502,13 +502,13 @@ packages:
     cloud7-openstack-train-testing: python-networking-odl-15.0.0-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-train-testing: python-networking-ovn-7.1.0-1.el7
+    cloud7-openstack-train-testing: python-networking-ovn-7.2.0-1.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-sfc-9.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-neutron-15.0.2-1.el7
+    cloud7-openstack-train-testing: openstack-neutron-15.1.0-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-neutron-dynamic-routing-15.0.0-1.el7
@@ -595,7 +595,7 @@ packages:
     cloud7-openstack-train-testing: os-apply-config-10.5.1-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-train-testing: python-os-brick-2.10.2-1.el7
+    cloud7-openstack-train-testing: python-os-brick-2.10.3-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-client-config-1.33.0-2.el7
