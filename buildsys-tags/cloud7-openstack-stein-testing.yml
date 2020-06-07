@@ -340,7 +340,7 @@ packages:
     cloud7-openstack-stein-testing: python-keystonemiddleware-6.0.1-1.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-kolla-8.0.2-1.el7
+    cloud7-openstack-stein-testing: openstack-kolla-8.0.3-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-stein-testing: python-kuryr-lib-0.9.0-1.el7
@@ -478,13 +478,13 @@ packages:
     cloud7-openstack-stein-testing: python-networking-odl-14.0.1-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-networking-ovn-6.0.1-1.el7
+    cloud7-openstack-stein-testing: python-networking-ovn-6.1.0-1.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-stein-testing: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-neutron-14.1.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-14.2.0-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-neutron-dynamic-routing-14.0.0-1.el7
@@ -577,7 +577,7 @@ packages:
     cloud7-openstack-stein-testing: os-apply-config-10.3.0-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-os-brick-2.8.4-1.el7
+    cloud7-openstack-stein-testing: python-os-brick-2.8.5-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-stein-testing: python-os-client-config-1.32.0-2.el7
