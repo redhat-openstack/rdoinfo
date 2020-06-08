@@ -152,7 +152,7 @@ Following attributes are assigned to `rdo.yaml` file:
     * *name:* Openstack release name
     * *branch:* project distgit branch
     * *tags_map:* possible value `separated_buildreqs` and `unified_buildreqs``;
-                  option helps to build legacy pacakges before Rocky OS release
+                  option helps to build legacy packages before Rocky OS release
                   with proper tag. More info [9]_
     * *repos* defines main repo name, CBS [2]_ build target tags, repository url for built packages
 
@@ -235,7 +235,7 @@ For `buildsys-tags/*` file:
       buildsys-tags:
         cloud7-openstack-train-testing: ansible-role-chrony-1.0.1-1.el7
 
-Following attribues are assigned for e.g. `buildsys-tags/cloud7-openstack-train-testing.yml`
+Following attributes are assigned for e.g. `buildsys-tags/cloud7-openstack-train-testing.yml`
 
 * *project* package project name
 * *buildsys-tags* name of CBS [3]_ build tag
@@ -250,7 +250,7 @@ For `tags/train.yaml` file:
         train:
     ...
 
- Following attribues are assinged for e.g.: train.yaml file:
+ Following attributes are assigned for e.g.: train.yaml file:
 
 * *project:* package project name
 * *tags:* Openstack release name
@@ -301,7 +301,7 @@ have up-to-date RDO information.
 See `rdoinfo/__init__.py:parse_info_file` function or `verify.py` script to
 get an idea what's going on.
 
-All `rdoinfo` tools are using another tool: `distroinfo` which is a pythom module
+All `rdoinfo` tools are using another tool: `distroinfo` which is a python module
 for parsing, validating and querying distribution/packaging metadata stored in
 human readable and reviewable text/YAML files [11]_.
 Earlier, RDO project was using a tool called `rdopkg` [5]_.
