@@ -10,7 +10,7 @@ packages:
     cloud8-openstack-train-release: PyYAML-5.3-2.el8
 - project: ansible
   buildsys-tags:
-    cloud8-openstack-train-release: ansible-2.9.7-1.el8
+    cloud8-openstack-train-release: ansible-2.9.9-2.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8-openstack-train-release: ansible-config_template-1.0.0-1.faf60ddgit.el8
@@ -592,7 +592,7 @@ packages:
     cloud8-openstack-train-release: python-oslo-i18n-3.24.0-2.el8
 - project: oslo-log
   buildsys-tags:
-    cloud8-openstack-train-release: python-oslo-log-3.44.1-2.el8
+    cloud8-openstack-train-release: python-oslo-log-3.44.2-1.el8
 - project: oslo-messaging
   buildsys-tags:
     cloud8-openstack-train-release: python-oslo-messaging-10.2.0-2.el8
