@@ -79,7 +79,7 @@ packages:
     cloud8-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-cinder-15.1.0-2.el8
+    cloud8-openstack-train-release: openstack-cinder-15.2.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-cinder-tests-tempest-0.3.1-1.el8
@@ -454,13 +454,13 @@ packages:
     cloud8-openstack-train-release: python-networking-odl-15.0.0-1.el8
 - project: networking-ovn
   buildsys-tags:
-    cloud8-openstack-train-release: python-networking-ovn-7.1.0-1.el8
+    cloud8-openstack-train-release: python-networking-ovn-7.2.0-1.el8
 - project: networking-sfc
   buildsys-tags:
     cloud8-openstack-train-release: python-networking-sfc-9.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-neutron-15.0.2-1.el8
+    cloud8-openstack-train-release: openstack-neutron-15.1.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8-openstack-train-release: openstack-neutron-dynamic-routing-15.0.0-1.el8
@@ -526,7 +526,7 @@ packages:
     cloud8-openstack-train-release: os-apply-config-10.5.1-1.el8
 - project: os-brick
   buildsys-tags:
-    cloud8-openstack-train-release: python-os-brick-2.10.2-1.el8
+    cloud8-openstack-train-release: python-os-brick-2.10.3-1.el8
 - project: os-client-config
   buildsys-tags:
     cloud8-openstack-train-release: python-os-client-config-1.33.0-2.el8
