@@ -97,7 +97,7 @@ packages:
     cloud7-openstack-train-testing: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-cinder-15.1.0-2.el7
+    cloud7-openstack-train-testing: openstack-cinder-15.2.0-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-cinder-tests-tempest-0.3.1-1.el7
@@ -190,7 +190,7 @@ packages:
     cloud7-openstack-train-testing: dibbler-1.0.1-0.RC1.2.el7
 - project: diskimage-builder
   buildsys-tags:
-    cloud7-openstack-train-testing: diskimage-builder-2.27.2-1.el7
+    cloud7-openstack-train-testing: diskimage-builder-2.38.0-1.el7
 - project: docker
   buildsys-tags:
     cloud7-openstack-train-testing: docker-1.13.1-93.gitb2f74b2.el7
@@ -652,7 +652,7 @@ packages:
     cloud7-openstack-train-testing: python-oslo-config-6.11.2-1.el7
 - project: oslo-context
   buildsys-tags:
-    cloud7-openstack-train-testing: python-oslo-context-2.23.0-2.el7
+    cloud7-openstack-train-testing: python-oslo-context-2.23.1-1.el7
 - project: oslo-db
   buildsys-tags:
     cloud7-openstack-train-testing: python-oslo-db-5.0.2-2.el7
@@ -661,7 +661,7 @@ packages:
     cloud7-openstack-train-testing: python-oslo-i18n-3.24.0-2.el7
 - project: oslo-log
   buildsys-tags:
-    cloud7-openstack-train-testing: python-oslo-log-3.44.2-1.el7
+    cloud7-openstack-train-testing: python-oslo-log-3.44.3-1.el7
 - project: oslo-messaging
   buildsys-tags:
     cloud7-openstack-train-testing: python-oslo-messaging-10.2.0-2.el7
