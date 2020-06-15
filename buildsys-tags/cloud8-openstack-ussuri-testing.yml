@@ -82,7 +82,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-ceilometermiddleware-2.0.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-cinder-16.0.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-cinder-16.1.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-cinder-tests-tempest-1.0.0-1.el8
@@ -376,7 +376,7 @@ packages:
     cloud8-openstack-ussuri-testing: openstack-magnum-ui-6.0.0-1.el8
 - project: magnumclient
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-magnumclient-3.0.0-1.el8
+    cloud8-openstack-ussuri-testing: python-magnumclient-3.0.0-2.el8
 - project: manila
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-manila-10.0.0-1.el8
@@ -631,7 +631,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-oslo-rootwrap-6.0.2-1.el8
 - project: oslo-serialization
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-oslo-serialization-3.1.1-1.el8
+    cloud8-openstack-ussuri-testing: python-oslo-serialization-3.1.1-2.el8
 - project: oslo-service
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-oslo-service-2.1.1-1.el8
@@ -670,7 +670,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-ovsdbapp-1.2.0-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-packstack-16.0.0-0.2.0rc1.el8
+    cloud8-openstack-ussuri-testing: openstack-packstack-16.0.0-1.el8
 - project: panko
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-panko-8.0.0-1.el8
