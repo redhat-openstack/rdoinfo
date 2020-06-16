@@ -1,0 +1,18 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-stein-centos-7-scenario001-standalone:
+            nodeset: single-centos-7-node-vexxhost
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud7-openstack-stein-testing-test.yml$
+            voting: false
+        - rdoinfo-tripleo-train-centos-7-scenario001-standalone:
+            nodeset: single-centos-7-node-vexxhost
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud7-openstack-train-testing-test.yml$
+            voting: false
+
