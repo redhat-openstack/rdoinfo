@@ -262,13 +262,13 @@ packages:
     cloud8-openstack-train-testing: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8-openstack-train-testing: python-django-horizon-16.1.0-1.el8
+    cloud8-openstack-train-testing: python-django-horizon-16.2.0-1.el8
 - project: ironic
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-ironic-13.0.3-1.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-ironic-inspector-9.2.2-1.el8
+    cloud8-openstack-train-testing: openstack-ironic-inspector-9.2.3-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
     cloud8-openstack-train-testing: python-ironic-inspector-client-3.7.1-1.el8
@@ -412,7 +412,7 @@ packages:
     cloud8-openstack-train-testing: mp-3.1.0-24.20161124git1f39801.el8
 - project: murano
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-murano-8.0.0-1.el8
+    cloud8-openstack-train-testing: openstack-murano-8.1.0-1.el8
 - project: murano-agent
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-murano-agent-4.0.0-1.el8
@@ -481,7 +481,7 @@ packages:
     cloud8-openstack-train-testing: python-neutronclient-6.14.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-nova-20.2.0-1.el8
+    cloud8-openstack-train-testing: openstack-nova-20.3.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8-openstack-train-testing: python-novaclient-15.1.0-1.el8
@@ -1984,7 +1984,7 @@ packages:
     cloud8-openstack-train-testing: python-tripleoclient-12.3.1-1.el8
 - project: trove
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-trove-12.0.0-1.el8
+    cloud8-openstack-train-testing: openstack-trove-12.1.0-1.el8
 - project: trove-dashboard
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-trove-ui-13.0.0-1.el8
@@ -2023,7 +2023,7 @@ packages:
     cloud8-openstack-train-testing: python-vmware-nsxlib-14.0.3-1.el8
 - project: watcher
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-watcher-3.0.0-1.el8
+    cloud8-openstack-train-testing: openstack-watcher-3.0.1-1.el8
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-testing: python-watcher-tests-tempest-1.2.0-1.el8
