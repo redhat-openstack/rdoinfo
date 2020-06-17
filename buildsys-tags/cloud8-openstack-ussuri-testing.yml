@@ -529,7 +529,7 @@ packages:
     cloud8-openstack-ussuri-testing: openpgm-5.2.122-21.el8
 - project: openstack-selinux
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-selinux-0.8.20-1.el8
+    cloud8-openstack-ussuri-testing: openstack-selinux-0.8.21-1.el8
 - project: openstackclient
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-openstackclient-5.2.0-1.el8
@@ -850,7 +850,7 @@ packages:
     cloud8-openstack-ussuri-testing: puppet-neutron-16.3.0-1.el8
 - project: puppet-nova
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: puppet-nova-16.3.0-1.el8
+    cloud8-openstack-ussuri-testing: puppet-nova-16.4.0-0.1.0d7f13fgit.el8
 - project: puppet-nssdb
   buildsys-tags:
     cloud8-openstack-ussuri-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
