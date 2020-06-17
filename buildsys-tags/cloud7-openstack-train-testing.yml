@@ -298,13 +298,13 @@ packages:
     cloud7-openstack-train-testing: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-train-testing: python-django-horizon-16.1.0-1.el7
+    cloud7-openstack-train-testing: python-django-horizon-16.2.0-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-ironic-13.0.3-1.el7
 - project: ironic-inspector
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-ironic-inspector-9.2.2-1.el7
+    cloud7-openstack-train-testing: openstack-ironic-inspector-9.2.3-1.el7
 - project: ironic-inspector-client
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironic-inspector-client-3.7.1-1.el7
@@ -457,7 +457,7 @@ packages:
     cloud7-openstack-train-testing: python-mox3-0.28.0-2.el7
 - project: murano
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-murano-8.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-murano-8.1.0-1.el7
 - project: murano-agent
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-murano-agent-4.0.0-1.el7
@@ -529,7 +529,7 @@ packages:
     cloud7-openstack-train-testing: python-neutronclient-6.14.0-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-nova-20.2.0-1.el7
+    cloud7-openstack-train-testing: openstack-nova-20.3.0-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-novaclient-15.1.0-1.el7
@@ -577,7 +577,7 @@ packages:
     cloud7-openstack-train-testing: openpgm-5.2.122-2.el7
 - project: openstack-selinux
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-selinux-0.8.20-1.el7
+    cloud7-openstack-train-testing: openstack-selinux-0.8.21-1.el7
 - project: openstack-utils
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-utils-2017.1-1.el7
@@ -2101,7 +2101,7 @@ packages:
     cloud7-openstack-train-testing: python-telemetry-tests-tempest-0.4.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tempest-23.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-tempest-24.0.0-1.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-train-testing: python-horizon-tests-tempest-0.2.0-1.el7
@@ -2143,7 +2143,7 @@ packages:
     cloud7-openstack-train-testing: python-tripleoclient-12.3.1-1.el7
 - project: trove
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-trove-12.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-trove-12.1.0-1.el7
 - project: trove-dashboard
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-trove-ui-13.0.0-1.el7
@@ -2182,7 +2182,7 @@ packages:
     cloud7-openstack-train-testing: python-vmware-nsxlib-14.0.3-1.el7
 - project: watcher
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-watcher-3.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-watcher-3.0.1-1.el7
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-watcher-tests-tempest-1.2.0-1.el7
