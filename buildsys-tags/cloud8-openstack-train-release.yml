@@ -262,13 +262,13 @@ packages:
     cloud8-openstack-train-release: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8-openstack-train-release: python-django-horizon-16.1.0-1.el8
+    cloud8-openstack-train-release: python-django-horizon-16.2.0-1.el8
 - project: ironic
   buildsys-tags:
     cloud8-openstack-train-release: openstack-ironic-13.0.3-1.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-ironic-inspector-9.2.2-1.el8
+    cloud8-openstack-train-release: openstack-ironic-inspector-9.2.3-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
     cloud8-openstack-train-release: python-ironic-inspector-client-3.7.1-1.el8
@@ -412,7 +412,7 @@ packages:
     cloud8-openstack-train-release: mp-3.1.0-24.20161124git1f39801.el8
 - project: murano
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-murano-8.0.0-1.el8
+    cloud8-openstack-train-release: openstack-murano-8.1.0-1.el8
 - project: murano-agent
   buildsys-tags:
     cloud8-openstack-train-release: openstack-murano-agent-4.0.0-1.el8
@@ -481,7 +481,7 @@ packages:
     cloud8-openstack-train-release: python-neutronclient-6.14.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-nova-20.2.0-1.el8
+    cloud8-openstack-train-release: openstack-nova-20.3.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8-openstack-train-release: python-novaclient-15.1.0-1.el8
@@ -520,7 +520,7 @@ packages:
     cloud8-openstack-train-release: python-openstacksdk-0.36.3-1.el8
 - project: openvswitch
   buildsys-tags:
-    cloud8-openstack-train-release: openvswitch-2.12.0-1.el8
+    cloud8-openstack-train-release: openvswitch-2.12.0-1.1.el8
 - project: os-apply-config
   buildsys-tags:
     cloud8-openstack-train-release: os-apply-config-10.5.1-1.el8
@@ -826,7 +826,7 @@ packages:
     cloud8-openstack-train-release: puppet-neutron-15.5.0-1.el8
 - project: puppet-nova
   buildsys-tags:
-    cloud8-openstack-train-release: puppet-nova-15.5.0-1.el8
+    cloud8-openstack-train-release: puppet-nova-15.6.0-0.1.6550270git.el8
 - project: puppet-nssdb
   buildsys-tags:
     cloud8-openstack-train-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
@@ -1984,7 +1984,7 @@ packages:
     cloud8-openstack-train-release: python-tripleoclient-12.3.1-1.el8
 - project: trove
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-trove-12.0.0-1.el8
+    cloud8-openstack-train-release: openstack-trove-12.1.0-1.el8
 - project: trove-dashboard
   buildsys-tags:
     cloud8-openstack-train-release: openstack-trove-ui-13.0.0-1.el8
@@ -2023,7 +2023,7 @@ packages:
     cloud8-openstack-train-release: python-vmware-nsxlib-14.0.3-1.el8
 - project: watcher
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-watcher-3.0.0-1.el8
+    cloud8-openstack-train-release: openstack-watcher-3.0.1-1.el8
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-watcher-tests-tempest-1.2.0-1.el8
