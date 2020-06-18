@@ -682,16 +682,20 @@ packages:
   conf: rpmfactory-core
   component: cinder
   maintainers:
+  - abishop@redhat.com
   - eharney@redhat.com
   - geguileo@redhat.com
   - ltoscano@redhat.com
+  - rosmaita.fossdev@gmail.com
 - project: cinderlib
   conf: rpmfactory-lib
   component: cinder
   maintainers:
+  - abishop@redhat.com
   - eharney@redhat.com
   - geguileo@redhat.com
   - ltoscano@redhat.com
+  - rosmaita.fossdev@gmail.com
 - project: ironic
   conf: rpmfactory-core
   component: baremetal
@@ -1149,9 +1153,11 @@ packages:
 - project: cinderclient
   conf: rpmfactory-client
   maintainers:
+  - abishop@redhat.com
   - eharney@redhat.com
   - geguileo@redhat.com
   - ltoscano@redhat.com
+  - rosmaita.fossdev@gmail.com
 - project: ironicclient
   conf: rpmfactory-client
   maintainers:
@@ -1516,9 +1522,11 @@ packages:
   component: clients
   upstream: https://git.openstack.org/openstack/%(project)s
   maintainers:
+  - abishop@redhat.com
   - eharney@redhat.com
   - geguileo@redhat.com
   - ltoscano@redhat.com
+  - rosmaita.fossdev@gmail.com
 - project: hardware
   conf: rpmfactory-lib
   upstream: git://github.com/redhat-cip/hardware.git
@@ -2041,8 +2049,10 @@ packages:
   name: python-cinder-tests-tempest
   component: cinder
   maintainers:
+  - abishop@redhat.com
   - eharney@redhat.com
   - geguileo@redhat.com
+  - rosmaita.fossdev@gmail.com
 - project: ironic-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-ironic-tests-tempest
