@@ -310,7 +310,7 @@ packages:
     cloud7-openstack-train-testing: python-ironic-inspector-client-3.7.1-1.el7
 - project: ironic-lib
   buildsys-tags:
-    cloud7-openstack-train-testing: python-ironic-lib-2.21.1-1.el7
+    cloud7-openstack-train-testing: python-ironic-lib-2.21.2-1.el7
 - project: ironic-prometheus-exporter
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironic-prometheus-exporter-1.1.1-1.el7
@@ -904,7 +904,7 @@ packages:
     cloud7-openstack-train-testing: puppet-neutron-15.5.0-1.el7
 - project: puppet-nova
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-nova-15.5.0-1.el7
+    cloud7-openstack-train-testing: puppet-nova-15.6.0-0.1.6550270git.el7
 - project: puppet-nssdb
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
