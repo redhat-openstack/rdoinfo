@@ -28,9 +28,11 @@ def pytest_generate_tests(metafunc):
         urls = set()
         for pkg in inforepo['packages']:
             verify_buildsys_tags(pkg, buildsystags)
-            for x in ['distgit', 'master-distgit']:
-                if x in pkg:
-                    urls.add(pkg[x])
+# NOTE(jpena): as of 2020-06-19, this is causing issues with GitHub. so
+#              we are disabling it temporarily
+#            for x in ['distgit', 'master-distgit']:
+#                if x in pkg:
+#                    urls.add(pkg[x])
         metafunc.parametrize("url", urls)
         verify_components(inforepo)
 
