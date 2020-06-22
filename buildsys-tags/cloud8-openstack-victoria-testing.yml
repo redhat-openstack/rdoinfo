@@ -1106,3 +1106,15 @@ packages:
 - project: zstd
   buildsys-tags:
     cloud8-openstack-victoria-testing: zstd-1.4.4-1.el8
+- project: rabbitmq-server
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: rabbitmq-server-3.8.3-1.el8
+- project: erlang
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: erlang-22.3.4.1-1.el8
+- project: erlang-sd_notify
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: erlang-sd_notify-1.0-14.1.el8
+- project: wxGTK3
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: wxGTK3-3.0.5.1-1.el8
