@@ -95,18 +95,6 @@ packages:
 - project: collectd-gnocchi
   tags:
     victoria-uc:
-- project: congress
-  tags:
-    victoria-uc:
-      source-branch: 11.0.0
-- project: congress-tempest-plugin
-  tags:
-    victoria-uc:
-      source-branch: 1.0.0
-- project: congressclient
-  tags:
-    victoria-uc:
-      source-branch: 2.0.1
 - project: cursive
   tags:
     victoria-uc:
@@ -680,9 +668,6 @@ packages:
   tags:
     victoria-uc:
 - project: puppet-concat
-  tags:
-    victoria-uc:
-- project: puppet-congress
   tags:
     victoria-uc:
 - project: puppet-contrail
