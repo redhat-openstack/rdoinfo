@@ -87,17 +87,6 @@ packages:
 - project: collectd-gnocchi
   tags:
     victoria:
-- project: congress
-  tags:
-    victoria:
-      source-branch: 11.0.0
-- project: congress-tempest-plugin
-  tags:
-    victoria:
-      source-branch: 1.0.0
-- project: congressclient
-  tags:
-    victoria:
 - project: cursive
   tags:
     victoria:
@@ -602,9 +591,6 @@ packages:
   tags:
     victoria:
 - project: puppet-concat
-  tags:
-    victoria:
-- project: puppet-congress
   tags:
     victoria:
 - project: puppet-contrail
