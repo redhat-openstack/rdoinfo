@@ -97,7 +97,7 @@ packages:
     cloud7-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-cinder-15.2.0-1.el7
+    cloud7-openstack-train-release: openstack-cinder-15.3.0-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-cinder-tests-tempest-0.3.1-1.el7
@@ -274,7 +274,7 @@ packages:
     cloud7-openstack-train-release: hdf5-1.8.13-7.el7
 - project: heat
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-heat-13.0.2-1.el7
+    cloud7-openstack-train-release: openstack-heat-13.0.2-2.el7
 - project: heat-agents
   buildsys-tags:
     cloud7-openstack-train-release: openstack-heat-agents-1.10.0-1.el7
@@ -403,7 +403,7 @@ packages:
     cloud7-openstack-train-release: python-magnum-tests-tempest-0.3.0-1.el7
 - project: magnum-ui
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-magnum-ui-5.3.0-1.el7
+    cloud7-openstack-train-release: openstack-magnum-ui-5.3.0-2.el7
 - project: magnumclient
   buildsys-tags:
     cloud7-openstack-train-release: python-magnumclient-2.16.0-1.el7
@@ -556,7 +556,7 @@ packages:
     cloud7-openstack-train-release: openstack-octavia-5.0.1-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-octavia-ui-4.0.0-1.el7
+    cloud7-openstack-train-release: openstack-octavia-ui-4.0.0-2.el7
 - project: octavia-lib
   buildsys-tags:
     cloud7-openstack-train-release: python-octavia-lib-1.4.0-1.el7
