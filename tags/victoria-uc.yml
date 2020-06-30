@@ -35,7 +35,7 @@ packages:
 - project: aodhclient
   tags:
     victoria-uc:
-      source-branch: 2.0.1
+      source-branch: 2.1.0
 - project: automaton
   tags:
     victoria-uc:
@@ -49,11 +49,11 @@ packages:
 - project: barbicanclient
   tags:
     victoria-uc:
-      source-branch: 4.10.0
+      source-branch: 5.0.0
 - project: castellan
   tags:
     victoria-uc:
-      source-branch: 3.1.0
+      source-branch: 3.1.1
 - project: ceilometer
   tags:
     victoria-uc:
@@ -64,7 +64,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: cinder
   tags:
     victoria-uc:
@@ -74,7 +74,7 @@ packages:
 - project: cinderclient
   tags:
     victoria-uc:
-      source-branch: 7.0.0
+      source-branch: 7.1.0
 - project: cinderlib
   tags:
     victoria-uc:
@@ -145,7 +145,7 @@ packages:
 - project: glanceclient
   tags:
     victoria-uc:
-      source-branch: 3.1.1
+      source-branch: 3.2.0
 - project: glare
   tags:
     victoria-uc:
@@ -183,11 +183,11 @@ packages:
 - project: heat-translator
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: heatclient
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: horizon
   tags:
     victoria-uc:
@@ -203,7 +203,7 @@ packages:
 - project: ironic-inspector-client
   tags:
     victoria-uc:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: ironic-lib
   tags:
     victoria-uc:
@@ -229,7 +229,7 @@ packages:
 - project: ironicclient
   tags:
     victoria-uc:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: keystone
   tags:
     victoria-uc:
@@ -239,11 +239,11 @@ packages:
 - project: keystoneauth1
   tags:
     victoria-uc:
-      source-branch: 4.0.0
+      source-branch: 4.2.0
 - project: keystoneclient
   tags:
     victoria-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: keystonemiddleware
   tags:
     victoria-uc:
@@ -285,7 +285,7 @@ packages:
 - project: manilaclient
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: metalsmith
   tags:
     victoria-uc:
@@ -306,18 +306,18 @@ packages:
 - project: mistral-lib
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: mistral-tempest-plugin
   tags:
     victoria-uc:
 - project: mistralclient
   tags:
     victoria-uc:
-      source-branch: 4.0.1
+      source-branch: 4.1.0
 - project: monascaclient
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: mox3
   tags:
     victoria-uc:
@@ -400,14 +400,14 @@ packages:
 - project: neutronclient
   tags:
     victoria-uc:
-      source-branch: 7.1.1
+      source-branch: 7.2.0
 - project: nova
   tags:
     victoria-uc:
 - project: novaclient
   tags:
     victoria-uc:
-      source-branch: 17.0.0
+      source-branch: 17.1.0
 - project: novajoin
   tags:
     victoria-uc:
@@ -431,7 +431,7 @@ packages:
 - project: octaviaclient
   tags:
     victoria-uc:
-      source-branch: 2.0.1
+      source-branch: 2.1.0
 - project: openstack-macros
   tags:
     victoria-uc:
@@ -441,11 +441,11 @@ packages:
 - project: openstackclient
   tags:
     victoria-uc:
-      source-branch: 5.2.0
+      source-branch: 5.2.1
 - project: openstacksdk
   tags:
     victoria-uc:
-      source-branch: 0.46.0
+      source-branch: 0.47.0
 - project: os-apply-config
   tags:
     victoria-uc:
@@ -492,11 +492,11 @@ packages:
 - project: os-vif
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: os-win
   tags:
     victoria-uc:
-      source-branch: 5.0.2
+      source-branch: 5.1.0
 - project: os-xenapi
   tags:
     victoria-uc:
@@ -520,7 +520,7 @@ packages:
 - project: oslo-config
   tags:
     victoria-uc:
-      source-branch: 8.1.0
+      source-branch: 8.2.0
 - project: oslo-context
   tags:
     victoria-uc:
@@ -548,11 +548,11 @@ packages:
 - project: oslo-policy
   tags:
     victoria-uc:
-      source-branch: 3.2.0
+      source-branch: 3.2.1
 - project: oslo-privsep
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.2.1
 - project: oslo-reports
   tags:
     victoria-uc:
@@ -568,7 +568,7 @@ packages:
 - project: oslo-service
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.3.0
 - project: oslo-sphinx
   tags:
     victoria-uc:
@@ -584,7 +584,7 @@ packages:
 - project: oslo-versionedobjects
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: oslo-vmware
   tags:
     victoria-uc:
@@ -599,7 +599,7 @@ packages:
 - project: osprofiler
   tags:
     victoria-uc:
-      source-branch: 3.2.0
+      source-branch: 3.2.1
 - project: oswin-tempest-plugin
   tags:
     victoria-uc:
@@ -609,7 +609,7 @@ packages:
 - project: ovsdbapp
   tags:
     victoria-uc:
-      source-branch: 1.3.0
+      source-branch: 1.4.0
 - project: packstack
   tags:
     victoria-uc:
@@ -926,7 +926,7 @@ packages:
 - project: pycadf
   tags:
     victoria-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
 - project: rally
   tags:
     victoria-uc:
@@ -982,7 +982,7 @@ packages:
 - project: saharaclient
   tags:
     victoria-uc:
-      source-branch: 3.1.0
+      source-branch: 3.2.0
 - project: scciclient
   tags:
     victoria-uc:
@@ -992,7 +992,7 @@ packages:
 - project: senlinclient
   tags:
     victoria-uc:
-      source-branch: 2.0.1
+      source-branch: 2.1.0
 - project: shade
   tags:
     victoria-uc:
@@ -1014,11 +1014,11 @@ packages:
 - project: stevedore
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.0.1
 - project: sushy
   tags:
     victoria-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: sushy-oem-idrac
   tags:
     victoria-uc:
@@ -1028,14 +1028,14 @@ packages:
 - project: swiftclient
   tags:
     victoria-uc:
-      source-branch: 3.9.0
+      source-branch: 3.10.0
 - project: tacker
   tags:
     victoria-uc:
 - project: tackerclient
   tags:
     victoria-uc:
-      source-branch: 1.1.0
+      source-branch: 1.2.0
 - project: tap-as-a-service
   tags:
     victoria-uc:
@@ -1061,7 +1061,7 @@ packages:
 - project: tooz
   tags:
     victoria-uc:
-      source-branch: 2.5.1
+      source-branch: 2.6.0
 - project: tripleo-ansible
   tags:
     victoria-uc:
@@ -1114,7 +1114,7 @@ packages:
 - project: validations-libs
   tags:
     victoria-uc:
-      source-branch: 1.0.0
+      source-branch: 1.0.1
 - project: virtualbmc
   tags:
     victoria-uc:
@@ -1132,7 +1132,7 @@ packages:
 - project: vitrageclient
   tags:
     victoria-uc:
-      source-branch: 4.0.1
+      source-branch: 4.1.0
 - project: vmware-nsx
   tags:
     victoria-uc:
@@ -1161,4 +1161,4 @@ packages:
 - project: zaqarclient
   tags:
     victoria-uc:
-      source-branch: 1.13.1
+      source-branch: 2.0.0
