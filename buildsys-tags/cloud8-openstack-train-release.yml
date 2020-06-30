@@ -79,7 +79,7 @@ packages:
     cloud8-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-cinder-15.2.0-1.el8
+    cloud8-openstack-train-release: openstack-cinder-15.3.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-cinder-tests-tempest-0.3.1-1.el8
@@ -238,7 +238,7 @@ packages:
     cloud8-openstack-train-release: hdf5-1.10.5-5.el8
 - project: heat
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-heat-13.0.2-1.el8
+    cloud8-openstack-train-release: openstack-heat-13.0.2-2.el8
 - project: heat-agents
   buildsys-tags:
     cloud8-openstack-train-release: openstack-heat-agents-1.10.0-1.el8
@@ -364,7 +364,7 @@ packages:
     cloud8-openstack-train-release: python-magnum-tests-tempest-0.3.0-1.el8
 - project: magnum-ui
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-magnum-ui-5.3.0-1.el8
+    cloud8-openstack-train-release: openstack-magnum-ui-5.3.0-2.el8
 - project: magnumclient
   buildsys-tags:
     cloud8-openstack-train-release: python-magnumclient-2.16.0-1.el8
@@ -499,7 +499,7 @@ packages:
     cloud8-openstack-train-release: openstack-octavia-5.0.1-1.el8
 - project: octavia-dashboard
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-octavia-ui-4.0.0-1.el8
+    cloud8-openstack-train-release: openstack-octavia-ui-4.0.0-2.el8
 - project: octavia-lib
   buildsys-tags:
     cloud8-openstack-train-release: python-octavia-lib-1.4.0-1.el8
@@ -1732,7 +1732,7 @@ packages:
     cloud8-openstack-train-release: python-urllib-gssapi-1.0.1-10.el8
 - project: python-urllib3
   buildsys-tags:
-    cloud8-openstack-train-release: python-urllib3-1.25.7-2.el8
+    cloud8-openstack-train-release: python-urllib3-1.25.7-3.el8
 - project: python-versiontools
   buildsys-tags:
     cloud8-openstack-train-release: python-versiontools-1.9.1-24.el8
