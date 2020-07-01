@@ -1,4 +1,7 @@
 packages:
+- project: ovn
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: ovn-20.03.0-4.el8
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
