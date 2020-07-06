@@ -328,7 +328,7 @@ packages:
     cloud8-openstack-ussuri-release: python-keystonemiddleware-9.0.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-kolla-10.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-release: openstack-kolla-10.0.0-0.2.0rc2.el8
 - project: kuryr
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-kuryr-lib-2.0.0-1.el8
@@ -661,7 +661,7 @@ packages:
     cloud8-openstack-ussuri-release: python-oswin-tests-tempest-1.0.0-1.el8
 - project: ovn
   buildsys-tags:
-    cloud8-openstack-ussuri-release: ovn-20.03.0-2.el8
+    cloud8-openstack-ussuri-release: ovn-20.03.0-4.el8
 - project: ovn-octavia-provider
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-ovn-octavia-provider-0.1.0-1.el8
