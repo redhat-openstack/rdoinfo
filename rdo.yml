@@ -2296,7 +2296,7 @@ packages:
   maintainers:
   - xubo.zhang@intel.com
 - project: validations-common
-  component: tripleo
+  component: validation
   conf: rpmfactory-lib
   maintainers:
     - cjeanner@redhat.com
@@ -2304,7 +2304,7 @@ packages:
     - mbultel@redhat.com
   name: validations-common
 - project: validations-libs
-  component: tripleo
+  component: validation
   conf: rpmfactory-lib
   maintainers:
     - cjeanner@redhat.com
@@ -2339,3 +2339,4 @@ components:
 - name: cloudops
 - name: ui
 - name: tempest
+- name: validation
