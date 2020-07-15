@@ -1,0 +1,114 @@
+---
+- hosts: primary
+  vars:
+    master_release: victoria
+  tasks:
+    - name: Run pre-quickstart role
+      import_role:
+        name: common
+
+    - name: check for correct import
+      debug:
+        var: tripleo_root
+
+    - name: set workspace
+      set_fact:
+        workspace: "{{ ansible_user_dir }}/workspace"
+
+    - name: ensure workspace presence
+      file:
+        path: "{{ workspace }}"
+        state: directory
+
+    - name: Check whether to run or skip jobs
+      changed_when: true
+      shell:
+        cmd: |
+          # This builder, when run from a child job of validate-buildsys-tags
+          # configures the temporary repositories created by it
+          # This allows to install the packages in that repository and test
+          # them.
+          set +e -x
+          # This job requires variables 'rdoinfo_release' and 'rdoinfo_phase' to be defined.
+
+          CREPOS_FILE=changed_repos.txt
+
+          if [ -z "{{ rdoinfo_phase|default("") }}" -o -z "{{ rdoinfo_release|default("") }}" ]; then
+              echo "ERROR in job definition"
+              exit 1
+          fi
+
+          if [ "{{ rdoinfo_release }}" = "master" ]; then
+              RELEASE="{{ master_release }}"
+          else
+              RELEASE="{{ rdoinfo_release }}"
+          fi
+
+          # Re-construct the expected repository URL
+          ZUUL_REF=$(echo $ZUUL_REF |cut -f4 -d /)
+          job="validate-buildsys-tags"
+          LOG_PATH="$BASE_LOG_PATH/$ZUUL_PIPELINE/$job/$ZUUL_REF"
+          logs="https://logserver.rdoproject.org/$LOG_PATH/"
+
+          # NOTE(pabelanger): Override logs for zuulv3 jobs.
+          if [[ -d /home/zuul ]]; then
+              logs={{ buildset_artifacts_url }}
+          fi
+
+          # If we could not find a working repository, give up
+          curl -o $CREPOS_FILE -sf "$logs/repos/changed_repos.txt" || exit 1
+
+          if ! grep -q -E "$RELEASE-{{ rdoinfo_phase }}" $CREPOS_FILE; then
+              echo "INFO: this test is not required"| tee not_required
+              exit 0
+          fi
+
+        chdir: '{{ ansible_user_dir }}/workspace'
+      environment: '{{ zuul | zuul_legacy_vars }}'
+
+    - name: Detect if we created the file to stop quickstart run
+      stat:
+        path: "{{ workspace }}/not_required"
+      register: stop_file
+
+    - name: Set facts based on jobs
+      when:
+        - not stop_file.stat.exists
+      block:
+        - name: Set buildsys tag fact
+          set_fact:
+            buildsys_tag: "cloud{{ ansible_distribution_major_version }}-openstack-{{ master_release if rdoinfo_release == 'master' else rdoinfo_release }}-{{ rdoinfo_phase }}"  # noqa 204
+        - name: set url
+          set_fact:
+            extra_repo_url: "{{ buildset_artifacts_url | default('') }}/repos/{{ buildsys_tag }}/temp-{{ buildsys_tag }}.repo"
+          when: buildset_artifacts_url is defined
+
+    - name: set role variables
+      set_fact:
+        role_vars:
+          add_repos:
+            - type: file
+              filename: delorean-0.repo
+              down_url: "{{ extra_repo_url }}"
+          container_prep_additional_repos: temp-*
+          update_containers: "{{ false if build_container_images|default(false)|bool else true }}"
+          standalone_container_prep_updates: "{{ false if build_container_images|default(false)|bool else true }}"
+          artg_skipped_projects:
+            - rdoinfo
+      when: not stop_file.stat.exists
+
+    - name: Execute mirror info role
+      import_role:
+        name: mirror-info-fork
+      vars:
+        mirror_fqdn: "mirror.{{ nodepool.region | lower }}.{{ nodepool.cloud | lower }}.rdoproject.org"
+      when:
+        - ansible_distribution != "Fedora" or (ansible_distribution == "Fedora" and ansible_distribution_major_version|int > 28)
+
+    - name: Run quickstart
+      include_role:
+        name: run-test
+      vars:
+        release: "{{ rdoinfo_release }}"
+        run_test_role_vars: "{{ role_vars }}"
+      when: not stop_file.stat.exists
