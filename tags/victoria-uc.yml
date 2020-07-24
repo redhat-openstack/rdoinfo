@@ -989,13 +989,6 @@ packages:
   tags:
     victoria-uc:
       source-branch: 1.33.0
-- project: shaker
-  tags:
-    # FIXME(jpena) once timeout-decorator is packaged, and
-    # https://review.rdoproject.org/r/17270 is merged, we can
-    # unpin the versions for train, stein and rocky
-    victoria-uc:
-      source-branch: f5c3a09535dd724f2db9e843e3578ebc5008302f
 - project: sphinx-feature-classification
   tags:
     victoria-uc:
