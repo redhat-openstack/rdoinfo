@@ -8,6 +8,9 @@ packages:
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-openstackdocstheme-2.2.1-1.el8
+- project: python-packaging
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-packaging-20.4-1.el8
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
