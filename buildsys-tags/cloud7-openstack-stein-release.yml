@@ -58,7 +58,7 @@ packages:
     cloud7-openstack-stein-release: babel-2.6.0-4.el7
 - project: barbican
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-barbican-8.0.0-1.el7
+    cloud7-openstack-stein-release: openstack-barbican-8.0.1-1.el7
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-barbican-tests-tempest-0.2.0-1.el7
@@ -79,7 +79,7 @@ packages:
     cloud7-openstack-stein-release: buildah-1.8.1-1.git57b4288.el7
 - project: castellan
   buildsys-tags:
-    cloud7-openstack-stein-release: python-castellan-1.2.2-1.el7
+    cloud7-openstack-stein-release: python-castellan-1.2.3-1.el7
 - project: ceilometer
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-ceilometer-12.1.0-1.el7
@@ -367,7 +367,7 @@ packages:
     cloud7-openstack-stein-release: libvarlink-12-1.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-magnum-8.2.0-1.el7
+    cloud7-openstack-stein-release: openstack-magnum-8.2.1-1.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-magnum-tests-tempest-0.2.0-1.el7
@@ -481,7 +481,7 @@ packages:
     cloud7-openstack-stein-release: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-neutron-14.2.0-1.el7
+    cloud7-openstack-stein-release: openstack-neutron-14.3.0-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-neutron-dynamic-routing-14.0.0-1.el7
@@ -535,7 +535,7 @@ packages:
     cloud7-openstack-stein-release: openstack-octavia-4.1.2-1.el7
 - project: octavia-dashboard
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-octavia-ui-3.0.1-1.el7
+    cloud7-openstack-stein-release: openstack-octavia-ui-3.1.0-1.el7
 - project: octavia-lib
   buildsys-tags:
     cloud7-openstack-stein-release: python-octavia-lib-1.1.1-1.el7
