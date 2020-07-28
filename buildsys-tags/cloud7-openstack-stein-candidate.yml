@@ -161,3 +161,6 @@ packages:
 - project: python-yappi
   buildsys-tags:
     cloud7-openstack-stein-candidate: python-yappi-1.0-1.el7
+- project: redis
+  buildsys-tags:
+    cloud7-openstack-stein-candidate: redis-3.2.13-1.el7
