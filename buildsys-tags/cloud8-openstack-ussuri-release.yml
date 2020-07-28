@@ -91,7 +91,7 @@ packages:
     cloud8-openstack-ussuri-release: python-cinderclient-7.0.0-1.el8
 - project: cinderlib
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-cinderlib-1.0.1-1.el8
+    cloud8-openstack-ussuri-release: python-cinderlib-2.0.0-1.el8
 - project: ck
   buildsys-tags:
     cloud8-openstack-ussuri-release: ck-0.6.0-10.el8
@@ -328,7 +328,7 @@ packages:
     cloud8-openstack-ussuri-release: python-keystonemiddleware-9.0.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-kolla-10.0.0-0.1.0rc1.el8
+    cloud8-openstack-ussuri-release: openstack-kolla-10.1.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-kuryr-lib-2.0.0-1.el8
