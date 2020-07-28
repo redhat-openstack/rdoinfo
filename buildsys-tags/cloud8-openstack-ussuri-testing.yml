@@ -382,7 +382,7 @@ packages:
     cloud8-openstack-ussuri-testing: openstack-manila-10.0.0-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-manila-tests-tempest-1.0.0-1.el8
+    cloud8-openstack-ussuri-testing: python-manila-tests-tempest-1.1.0-1.el8
 - project: manila-ui
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-manila-ui-3.0.0-1.el8
@@ -541,7 +541,7 @@ packages:
     cloud8-openstack-ussuri-testing: openvswitch-2.12.0-1.1.el8
 - project: os-apply-config
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: os-apply-config-11.2.0-1.el8
+    cloud8-openstack-ussuri-testing: os-apply-config-11.2.1-1.el8
 - project: os-brick
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-os-brick-3.0.2-1.el8
@@ -559,7 +559,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-os-ken-1.0.0-1.el8
 - project: os-net-config
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: os-net-config-12.3.0-1.el8
+    cloud8-openstack-ussuri-testing: os-net-config-12.3.1-1.el8
 - project: os-refresh-config
   buildsys-tags:
     cloud8-openstack-ussuri-testing: os-refresh-config-10.4.0-1.el8
@@ -682,7 +682,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-patrole-0.9.0-1.el8
 - project: paunch
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-paunch-7.0.0-1.el8
+    cloud8-openstack-ussuri-testing: python-paunch-7.0.1-1.el8
 - project: placement
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-placement-3.0.0-1.el8
@@ -943,7 +943,7 @@ packages:
     cloud8-openstack-ussuri-testing: puppet-tomcat-4.0.0-1.69a6bebgit.el8
 - project: puppet-tripleo
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: puppet-tripleo-12.3.0-1.el8
+    cloud8-openstack-ussuri-testing: puppet-tripleo-12.4.0-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8-openstack-ussuri-testing: puppet-trove-16.3.0-1.el8
@@ -2023,16 +2023,16 @@ packages:
     cloud8-openstack-ussuri-testing: python-tooz-2.3.0-1.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: tripleo-ansible-1.4.0-1.el8
+    cloud8-openstack-ussuri-testing: tripleo-ansible-1.5.0-1.el8
 - project: tripleo-common
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-tripleo-common-12.4.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-tripleo-common-12.4.1-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-tripleo-heat-templates-12.3.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-tripleo-heat-templates-12.4.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-tripleo-image-elements-12.0.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-tripleo-image-elements-12.0.1-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8-openstack-ussuri-testing: ansible-tripleo-ipa-0.2.0-1.el8
@@ -2041,13 +2041,13 @@ packages:
     cloud8-openstack-ussuri-testing: ansible-tripleo-ipsec-9.3.0-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-tripleo-puppet-elements-12.3.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-tripleo-puppet-elements-12.3.1-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-tripleo-validations-12.3.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-tripleo-validations-12.3.1-1.el8
 - project: tripleoclient
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-tripleoclient-13.3.0-1.el8
+    cloud8-openstack-ussuri-testing: python-tripleoclient-13.4.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-trove-13.0.0-1.el8
