@@ -17,3 +17,6 @@ packages:
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-werkzeug
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-werkzeug-1.0.1-1.el8
