@@ -1,0 +1,10 @@
+packages:
+- project: ansible
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: ansible-2.9.11-1.el8
+- project: python-werkzeug
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-werkzeug-1.0.1-3.el8
+- project: python-psutil
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-psutil-5.7.2-1.el8
