@@ -20,6 +20,9 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-rbd-iscsi-client
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-rbd-iscsi-client-0.1.7-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
