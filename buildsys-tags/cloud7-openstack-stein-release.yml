@@ -382,7 +382,7 @@ packages:
     cloud7-openstack-stein-release: openstack-manila-8.1.3-1.el7
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-stein-release: python-manila-tests-tempest-1.0.0-1.el7
+    cloud7-openstack-stein-release: python-manila-tests-tempest-1.1.0-1.el7
 - project: manila-ui
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-manila-ui-2.18.1-1.el7
@@ -475,7 +475,7 @@ packages:
     cloud7-openstack-stein-release: python-networking-odl-14.0.1-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-stein-release: python-networking-ovn-6.1.0-1.el7
+    cloud7-openstack-stein-release: python-networking-ovn-6.1.1-1.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-stein-release: python-networking-sfc-8.0.0-1.el7
@@ -508,7 +508,7 @@ packages:
     cloud7-openstack-stein-release: python-neutronclient-6.12.1-1.el7
 - project: nova
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-nova-19.2.0-1.el7
+    cloud7-openstack-stein-release: openstack-nova-19.3.0-1.el7
 - project: novaclient
   buildsys-tags:
     cloud7-openstack-stein-release: python-novaclient-13.0.2-1.el7
@@ -565,7 +565,7 @@ packages:
     cloud7-openstack-stein-release: python-openstackclient-3.18.1-1.el7
 - project: openstacksdk
   buildsys-tags:
-    cloud7-openstack-stein-release: python-openstacksdk-0.27.0-1.el7
+    cloud7-openstack-stein-release: python-openstacksdk-0.27.1-1.el7
 - project: openvswitch
   buildsys-tags:
     cloud7-openstack-stein-release: openvswitch-2.11.0-4.el7
@@ -1402,7 +1402,7 @@ packages:
     cloud7-openstack-stein-release: python-itsdangerous-0.24-14.el7
 - project: python-jinja2
   buildsys-tags:
-    cloud7-openstack-stein-release: python-jinja2-2.10-2.el7
+    cloud7-openstack-stein-release: python-jinja2-2.10.1-1.el7
 - project: python-jmespath
   buildsys-tags:
     cloud7-openstack-stein-release: python-jmespath-0.9.0-5.el7
@@ -1924,7 +1924,7 @@ packages:
     cloud7-openstack-stein-release: openstack-rally-plugins-1.4.0-1.el7
 - project: redis
   buildsys-tags:
-    cloud7-openstack-stein-release: redis-3.2.8-1.el7
+    cloud7-openstack-stein-release: redis-3.2.13-2.el7
 - project: reno
   buildsys-tags:
     cloud7-openstack-stein-release: python-reno-2.11.2-1.el7
