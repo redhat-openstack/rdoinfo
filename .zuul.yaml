@@ -1,0 +1,34 @@
+- project:
+    check:
+      jobs:
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset017-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/stein.yml$
+        - distgit-periodic-tripleo-ci-centos-7-multinode-1ctlr-featureset020-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - periodic-tripleo-ci-centos-7-scenario002-standalone-master:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            vars:
+              release: train
+              branch_override: "stable/train"
+            files:
+              - ^tags/train.yml$
+        - periodic-tripleo-ci-centos-8-scenario002-standalone-master:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            vars:
+              release: train
+              branch_override: "stable/train"
+            files:
+              - ^tags/train.yml$
+
