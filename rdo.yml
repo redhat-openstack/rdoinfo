@@ -2309,6 +2309,13 @@ packages:
   component: baremetal
   maintainers:
     - iampurse@vip.qq.com
+- project: ansible-collections-openstack
+  conf: rpmfactory-lib
+  upstream: https://opendev.org/openstack/ansible-collections-openstack
+  name: ansible-collections-openstack
+  component: clients
+  maintainers:
+  - sshnaidm@redhat.com
 components:
 - name: common
 - name: compute
