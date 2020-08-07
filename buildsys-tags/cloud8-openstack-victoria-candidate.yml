@@ -14,6 +14,9 @@ packages:
 - project: python-packaging
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-packaging-20.4-1.el8
+- project: python-pecan
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pecan-1.4.0-1.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-psutil-5.7.2-1.el8
