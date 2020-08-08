@@ -2,12 +2,33 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-boto3-1.14.38-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.38-1.el8
+- project: python-custom-inherit
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-custom-inherit-2.2.2-1.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-dogpile-cache-1.0.2-1.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-msgpack
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-msgpack-1.0.0-2.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
+- project: python-nocasedict
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-nocasedict-0.5.0-1.el8
+- project: python-nocaselist
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-nocaselist-1.0.1-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-openstackdocstheme-2.2.1-1.el8
@@ -17,12 +38,24 @@ packages:
 - project: python-pecan
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pecan-1.4.0-1.el8
+- project: python-pifpaf
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pifpaf-2.6.0-1.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-psutil-5.7.2-1.el8
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-pywbem
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pywbem-1.0.0-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-salt
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-salt-3001.1-1.el8
+- project: python-yamlloader
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-yamlloader-0.5.5-1.el8
