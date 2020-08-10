@@ -10,7 +10,7 @@ packages:
     cloud8-openstack-ussuri-release: PyYAML-5.3-2.el8
 - project: ansible
   buildsys-tags:
-    cloud8-openstack-ussuri-release: ansible-2.9.10-1.el8
+    cloud8-openstack-ussuri-release: ansible-2.9.11-1.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-config_template-1.1.0-1.el8
@@ -613,7 +613,7 @@ packages:
     cloud8-openstack-ussuri-release: python-oslo-log-4.1.3-1.el8
 - project: oslo-messaging
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-oslo-messaging-12.1.0-1.el8
+    cloud8-openstack-ussuri-release: python-oslo-messaging-12.1.2-1.el8
 - project: oslo-middleware
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-oslo-middleware-4.0.2-1.el8
