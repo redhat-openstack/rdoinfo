@@ -5,6 +5,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-ldap3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-ldap3-2.8-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
@@ -23,6 +26,15 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-pywbem
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pywbem-1.0.1-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinx-3.2.0-1.el8
+- project: sympy
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: sympy-1.6.2-1.el8
