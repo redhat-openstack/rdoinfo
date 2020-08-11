@@ -23,6 +23,9 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-pysaml2
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
