@@ -2,6 +2,9 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-PyMySQL-0.10.0-2.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
