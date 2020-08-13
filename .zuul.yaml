@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-testing-centos-8-scenario010-standalone:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-victoria-testing-test.yml$
+            voting: false
