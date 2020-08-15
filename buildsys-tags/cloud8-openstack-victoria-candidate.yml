@@ -2,6 +2,12 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-boto3-1.14.42-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.42-1.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
