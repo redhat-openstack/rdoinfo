@@ -2,6 +2,18 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-boto3-1.14.43-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.43-1.el8
+- project: python-cffi
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-cffi-1.14.2-1.el8
+- project: python-exabgp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-exabgp-4.2.11-1.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
@@ -26,6 +38,12 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pytest-xdist-2.0.0-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinx-3.2.1-1.el8
