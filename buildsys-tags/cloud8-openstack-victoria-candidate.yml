@@ -2,6 +2,15 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-bcrypt
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-bcrypt-3.2.0-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-boto3-1.14.44-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.44-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
@@ -29,6 +38,15 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
+- project: python-pywbem
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pywbem-1.0.2-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sqlalchemy-1.3.19-1.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-zeroconf-0.28.1-1.el8
