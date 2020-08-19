@@ -152,9 +152,18 @@ packages:
 - project: openvswitch
   buildsys-tags:
     cloud8-openstack-victoria-testing: openvswitch-2.12.0-1.1.el8
+- project: openvswitch2.13
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: openvswitch2.13-2.13.0-39.el8
+- project: openvswitch-selinux-extra-policy
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: openvswitch-selinux-extra-policy-1.0-22.el8
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-testing: ovn-20.03.0-4.el8
+- project: ovn2.13
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: ovn2.13-2.13.0-39.el8
 - project: protobuf
   buildsys-tags:
     cloud8-openstack-victoria-testing: protobuf-3.11.2-2.el8
@@ -1021,7 +1030,7 @@ packages:
     cloud8-openstack-victoria-testing: qpid-proton-0.30.0-1.el8
 - project: rdo-openvswitch
   buildsys-tags:
-    cloud8-openstack-victoria-testing: rdo-openvswitch-2.12-1.el8
+    cloud8-openstack-victoria-testing: rdo-openvswitch-2.13-0.2.el8
 - project: ruby-augeas
   buildsys-tags:
     cloud8-openstack-victoria-testing: ruby-augeas-0.5.0-23.el8
