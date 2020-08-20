@@ -2,6 +2,15 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-binary-memcached
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-binary-memcached-0.30.0-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-boto3-1.14.45-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.45-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
