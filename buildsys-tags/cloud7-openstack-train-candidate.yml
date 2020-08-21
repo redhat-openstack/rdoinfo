@@ -35,6 +35,9 @@ packages:
 - project: python-prometheus_client
   buildsys-tags:
     cloud7-openstack-train-candidate: python-prometheus_client-0.6.0-1.el7
+- project: python-pyOpenSSL
+  buildsys-tags:
+    cloud7-openstack-train-candidate: python-pyOpenSSL-19.1.0-1.el7
 - project: python-setproctitle
   buildsys-tags:
     cloud7-openstack-train-candidate: python-setproctitle-1.1.10-12.el7
