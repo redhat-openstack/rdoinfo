@@ -2,12 +2,30 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-boto3-1.14.47-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.47-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-cmd2-1.3.4-1.el8
+- project: python-django-nose
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-django-nose-1.4.7-1.el8
+- project: python-docker
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-docker-4.3.1-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-marathon
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-marathon-0.13.0-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
@@ -20,12 +38,18 @@ packages:
 - project: python-pecan
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pecan-1.4.0-1.el8
+- project: python-pifpaf
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pifpaf-3.0.0-1.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-psutil-5.7.2-1.el8
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pymemcache-3.3.0-1.el8
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
