@@ -8,9 +8,15 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-keyring-21.3.1-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
+- project: python-networkx
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-networkx-2.5-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-openstackdocstheme-2.2.1-1.el8
@@ -20,6 +26,9 @@ packages:
 - project: python-pecan
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pecan-1.4.0-1.el8
+- project: python-pint
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pint-0.15-1.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-psutil-5.7.2-1.el8
