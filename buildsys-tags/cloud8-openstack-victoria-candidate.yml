@@ -2,12 +2,18 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-arrow
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-arrow-0.16.0-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-kombu-5.0.1-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
@@ -32,3 +38,6 @@ packages:
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
