@@ -8,6 +8,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-httpx-0.14.2-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
