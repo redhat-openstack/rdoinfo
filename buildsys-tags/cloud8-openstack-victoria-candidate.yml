@@ -2,6 +2,9 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-confspirator
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-confspirator-0.2.2-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
