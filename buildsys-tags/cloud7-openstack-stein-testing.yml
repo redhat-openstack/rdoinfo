@@ -484,7 +484,7 @@ packages:
     cloud7-openstack-stein-testing: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-testing: openstack-neutron-14.3.0-1.el7
+    cloud7-openstack-stein-testing: openstack-neutron-14.3.1-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-neutron-dynamic-routing-14.0.0-1.el7
@@ -676,7 +676,7 @@ packages:
     cloud7-openstack-stein-testing: python-oslo-upgradecheck-0.2.1-1.el7
 - project: oslo-utils
   buildsys-tags:
-    cloud7-openstack-stein-testing: python-oslo-utils-3.40.6-1.el7
+    cloud7-openstack-stein-testing: python-oslo-utils-3.40.7-1.el7
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud7-openstack-stein-testing: python-oslo-versionedobjects-1.35.1-1.el7
