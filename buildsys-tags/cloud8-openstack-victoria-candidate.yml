@@ -2,6 +2,9 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-PyMySQL-0.10.0-2.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
@@ -26,6 +29,9 @@ packages:
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
+- project: python-pynacl
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pynacl-1.4.0-1.el8
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
