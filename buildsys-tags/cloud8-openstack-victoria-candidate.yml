@@ -32,3 +32,9 @@ packages:
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-PyMySQL-0.10.0-2.el8
+- project: python-pynacl
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-pynacl-1.4.0-1.el8
