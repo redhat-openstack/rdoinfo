@@ -89,6 +89,9 @@ packages:
 - project: gv
   buildsys-tags:
     cloud8-openstack-victoria-testing: gv-3.7.4-21.el8
+- project: haproxy
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: haproxy-2.2.2-1.el8
 - project: hdf5
   buildsys-tags:
     cloud8-openstack-victoria-testing: hdf5-1.10.5-5.el8
