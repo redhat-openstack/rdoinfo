@@ -32,3 +32,7 @@ packages:
 - project: horizon
   tags:
     version-locked:
+# Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
+- project: validations-libs
+  tags:
+    version-locked:
