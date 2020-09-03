@@ -2,6 +2,21 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-actdiag
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-actdiag-2.0.0-4.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-alembic-1.4.2-5.el8
+- project: python-amqp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-amqp-2.6.1-1.el8
+- project: python-appdirs
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-appdirs-1.4.3-15.el8
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-beautifulsoup4-4.9.1-2.fc33
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
