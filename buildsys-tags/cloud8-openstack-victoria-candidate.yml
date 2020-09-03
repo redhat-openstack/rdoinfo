@@ -2,6 +2,18 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-blockdiag
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-blockdiag-2.0.1-3.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-botocore-1.17.52-1.el8
+- project: python-cachetools
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-cachetools-4.1.1-2.el8
+- project: python-colorama
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-colorama-0.4.3-3.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
