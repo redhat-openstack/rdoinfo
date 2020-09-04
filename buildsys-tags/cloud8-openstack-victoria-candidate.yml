@@ -26,12 +26,39 @@ packages:
 - project: python-colorama
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-colorama-0.4.3-3.el8
+- project: python-decorator
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-decorator-4.4.2-3.el8
+- project: python-distro
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-distro-1.5.0-4.el8
 - project: python-django
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-django-2.2.16-1.el8
 - project: python-docker
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-docker-4.2.1-3.fc33
+- project: python-flask-restful
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-flask-restful-0.3.8-4.el8
+- project: python-ifaddr
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-ifaddr-0.1.7-2.el8
+- project: python-iso8601
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-iso8601-0.1.12-3.el8
+- project: python-jeepney
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-jeepney-0.4.3-3.el8
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-jsonpath-rw-1.4.0-3.el8
+- project: python-kazoo
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-kazoo-2.8.0-1.el8
+- project: python-kubernetes
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-kubernetes-11.0.0-4.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
