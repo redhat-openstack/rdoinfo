@@ -50,6 +50,21 @@ packages:
 - project: python-kubernetes
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kubernetes-11.0.0-4.el8
+- project: python-munch
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-munch-2.5.0-3.el8
+- project: python-passlib
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-passlib-1.7.2-3.el8
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-paste-deploy-2.1.0-3.el8
+- project: python-pyeclib
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pyeclib-1.6.0-2.el8
+- project: python-pyperclip
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pyperclip-1.8.0-2.el8
 - project: python-PyMySQL
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-PyMySQL-0.10.0-2.el8
