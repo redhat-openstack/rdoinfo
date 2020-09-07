@@ -86,12 +86,24 @@ packages:
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-s3transfer-0.3.3-3.el8
+- project: python-six
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-six-1.15.0-2.el8
+- project: python-tabulate
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-tabulate-0.8.7-4.el8
 - project: python-tenacity
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-tenacity-6.2.0-1.el8
 - project: python-typing-extensions
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
+- project: python-txaio
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
 - project: python-zmq
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-zmq-19.0.0-3.el8
