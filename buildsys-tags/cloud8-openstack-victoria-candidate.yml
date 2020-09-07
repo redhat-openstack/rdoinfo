@@ -2,6 +2,9 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-PyMySQL-0.10.0-2.el8
 - project: python-actdiag
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-actdiag-2.0.0-4.el8
@@ -32,9 +35,15 @@ packages:
 - project: python-docker
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-docker-4.2.1-3.fc33
+- project: python-eventlet
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
 - project: python-flask-restful
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-flask-restful-0.3.8-4.el8
+- project: python-google-auth
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
 - project: python-ifaddr
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-ifaddr-0.1.7-2.el8
@@ -140,12 +149,12 @@ packages:
 - project: python-tenacity
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-tenacity-6.2.0-1.el8
-- project: python-typing-extensions
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
 - project: python-txaio
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
 - project: python-zmq
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-zmq-19.0.0-3.el8
