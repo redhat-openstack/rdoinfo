@@ -1756,12 +1756,14 @@ packages:
 - project: networking-l2gw
   conf: rpmfactory-lib
   component: network
+  upstream: https://opendev.org/x/%(project)s
   maintainers:
   - rnoriega@redhat.com
 - project: networking-l2gw-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-networking-l2gw-tests-tempest
   component: network
+  upstream: https://opendev.org/x/%(project)s
   maintainers:
   - rnoriega@redhat.com
 - project: heat-translator
