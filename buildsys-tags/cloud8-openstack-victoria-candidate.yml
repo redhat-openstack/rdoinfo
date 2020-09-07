@@ -86,6 +86,21 @@ packages:
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-sphinxcontrib-applehelp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-applehelp-1.0.2-2.el8
+- project: python-sphinxcontrib-blockdiag
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-blockdiag-2.0.0-3.el8
+- project: python-sphinxcontrib-devhelp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-devhelp-1.0.2-2.el8
+- project: python-sphinxcontrib-htmlhelp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-htmlhelp-1.0.3-2.el8
+- project: python-sphinxcontrib-qthelp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-qthelp-1.0.3-2.el8
 - project: python-tenacity
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-tenacity-6.2.0-1.el8
