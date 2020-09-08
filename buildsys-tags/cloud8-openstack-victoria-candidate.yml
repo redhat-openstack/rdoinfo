@@ -59,6 +59,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-msgpack
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-msgpack-1.0.0-2.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
@@ -68,9 +71,15 @@ packages:
 - project: python-packaging
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-packaging-20.4-1.el8
+- project: python-paramiko
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-paramiko-2.7.2-1.el8
 - project: python-pecan
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pecan-1.4.0-1.el8
+- project: python-pexpect
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pexpect-4.8.0-4.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-psutil-5.7.2-1.el8
@@ -83,6 +92,9 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
+- project: python-requests
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-requests-2.23.0-5.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
