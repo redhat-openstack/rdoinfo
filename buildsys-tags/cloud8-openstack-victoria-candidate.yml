@@ -47,6 +47,9 @@ packages:
 - project: python-kazoo
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kazoo-2.8.0-1.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-kombu-4.6.11-2.el8
 - project: python-kubernetes
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kubernetes-11.0.0-4.el8
