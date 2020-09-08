@@ -2,6 +2,9 @@ packages:
 - project: ovn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: ovn-20.03.0-4.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-PyMySQL-0.10.0-2.el8
 - project: python-actdiag
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-actdiag-2.0.0-4.el8
@@ -32,9 +35,15 @@ packages:
 - project: python-docker
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-docker-4.2.1-3.fc33
+- project: python-eventlet
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
 - project: python-flask-restful
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-flask-restful-0.3.8-4.el8
+- project: python-google-auth
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
 - project: python-ifaddr
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-ifaddr-0.1.7-2.el8
@@ -56,27 +65,6 @@ packages:
 - project: python-munch
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-munch-2.5.0-3.el8
-- project: python-passlib
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-passlib-1.7.2-3.el8
-- project: python-paste-deploy
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-paste-deploy-2.1.0-3.el8
-- project: python-pyeclib
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-pyeclib-1.6.0-2.el8
-- project: python-pyperclip
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-pyperclip-1.8.0-2.el8
-- project: python-PyMySQL
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-PyMySQL-0.10.0-2.el8
-- project: python-eventlet
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-eventlet-0.25.2-3.el8
-- project: python-google-auth
-  buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
@@ -86,18 +74,30 @@ packages:
 - project: python-packaging
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-packaging-20.4-1.el8
+- project: python-passlib
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-passlib-1.7.2-3.el8
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-paste-deploy-2.1.0-3.el8
 - project: python-pecan
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pecan-1.4.0-1.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-psutil-5.7.2-1.el8
+- project: python-pyeclib
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pyeclib-1.6.0-2.el8
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyghmi-1.5.14-2.el8
 - project: python-pynacl
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pynacl-1.4.0-1.el8
+- project: python-pyperclip
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pyperclip-1.8.0-2.el8
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
@@ -143,12 +143,15 @@ packages:
 - project: python-testtools
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-testtools-2.4.0-7.el8
-- project: python-typing-extensions
+- project: python-tosca-parser
   buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
+    cloud8-openstack-victoria-candidate: python-tosca-parser-2.1.1-1.el8
 - project: python-txaio
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
 - project: python-uritemplate
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-uritemplate-3.0.1-3.el8
