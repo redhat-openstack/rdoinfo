@@ -47,6 +47,9 @@ packages:
 - project: python-kazoo
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kazoo-2.8.0-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-keyring-21.3.1-1.el8
 - project: python-kubernetes
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kubernetes-11.0.0-4.el8
@@ -74,6 +77,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-netmiko
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-netmiko-3.2.0-1.el8
 - project: python-network-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-network-runner-0.2.1-1.el8
@@ -98,6 +104,9 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pytest-xdist-2.1.0-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
@@ -134,6 +143,9 @@ packages:
 - project: python-txaio
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
+- project: python-yappi
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-yappi-1.2.5-1.el8
 - project: python-zmq
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-zmq-19.0.0-3.el8
