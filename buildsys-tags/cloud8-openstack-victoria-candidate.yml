@@ -98,12 +98,33 @@ packages:
 - project: python-tenacity
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-tenacity-6.2.0-1.el8
+- project: python-testtools
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-testtools-2.4.0-7.el8
 - project: python-typing-extensions
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
 - project: python-txaio
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
+- project: python-uritemplate
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-uritemplate-3.0.1-3.el8
+- project: python-wcwidth
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-wcwidth-0.2.5-2.el8
+- project: python-webcolors
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-webcolors-1.11.1-3.el8
+- project: python-webob
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-webob-1.8.6-3.el8
+- project: python-webtest
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-webtest-2.0.35-3.el8
+- project: python-wrapt
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-wrapt-1.12.1-3.el8
 - project: python-zmq
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-zmq-19.0.0-3.el8
