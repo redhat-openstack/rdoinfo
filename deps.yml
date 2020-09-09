@@ -431,7 +431,7 @@ packages:
   conf: fedora-dependency
 - project: python-autobahn
   name: python-autobahn
-  conf: rdo-dependency
+  conf: fedora-dependency
 - project: python-lz4
   name: python-lz4
   conf: rdo-dependency
@@ -1064,7 +1064,7 @@ packages:
   conf: rdo-dependency
 - project: python-ansible-runner
   name: python-ansible-runner
-  conf: rdo-dependency
+  conf: fedora-dependency
 - project: python-ipaddress
   name: python-ipaddress
   conf: fedora-dependency
@@ -1339,7 +1339,7 @@ packages:
   conf: fedora-dependency
 - project: python-daemon
   name: python-daemon
-  conf: rdo-dependency
+  conf: fedora-dependency
 - project: fontawesome-fonts
   name: fontawesome-fonts
   conf: fedora-dependency
@@ -2421,7 +2421,7 @@ packages:
   conf: fedora-dependency
 - project: python-boto3
   name: python-boto3
-  conf: rdo-dependency
+  conf: fedora-dependency
 - project: python-s3transfer
   name: python-s3transfer
   conf: fedora-dependency
@@ -2433,4 +2433,7 @@ packages:
   conf: fedora-dependency
 - project: python-typeguard
   name: python-typeguard
+  conf: rdo-dependency
+- project: python-sphinx-epytext
+  name: python-sphinx-epytext
   conf: rdo-dependency
