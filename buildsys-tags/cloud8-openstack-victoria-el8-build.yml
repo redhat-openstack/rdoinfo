@@ -1,4 +1,7 @@
 packages:
+- project: Cython
+  buildsys-tags:
+    cloud8-openstack-victoria-el8-build: Cython-0.29.2-1.el8
 - project: ImageMagick
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: ImageMagick-6.7.8.9-18.el8
@@ -130,7 +133,7 @@ packages:
     cloud8-openstack-victoria-el8-build: python-Pallets-Sphinx-Themes-1.2.2-3.el8
 - project: python-actdiag
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-actdiag-0.5.4-18.el8
+    cloud8-openstack-victoria-el8-build: python-actdiag-2.0.0-4.el8
 - project: python-apipkg
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-apipkg-1.5-6.el8
@@ -151,7 +154,7 @@ packages:
     cloud8-openstack-victoria-el8-build: python-blist-1.3.6-23.el8
 - project: python-blockdiag
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-blockdiag-1.5.4-8.el8
+    cloud8-openstack-victoria-el8-build: python-blockdiag-2.0.1-3.el8
 - project: python-breathe
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-breathe-4.14.1-1.el8
@@ -178,7 +181,7 @@ packages:
     cloud8-openstack-victoria-el8-build: python-cram-0.7-4.el8
 - project: python-cryptography-vectors
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-cryptography-vectors-2.8-1.el8
+    cloud8-openstack-victoria-el8-build: python-cryptography-vectors-3.1-1.el8
 - project: python-cssselect2
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-cssselect2-0.2.2-2.2.el8
@@ -325,7 +328,7 @@ packages:
     cloud8-openstack-victoria-el8-build: python-selenium-3.14.0-1.el8
 - project: python-seqdiag
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-seqdiag-0.9.6-6.el8
+    cloud8-openstack-victoria-el8-build: python-seqdiag-2.0.0-4.el8
 - project: python-snowballstemmer
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-snowballstemmer-1.9.0-4.el8
@@ -335,6 +338,9 @@ packages:
 - project: python-sphinx
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-sphinx-2.2.2-1.el8
+- project: python-sphinx-epytext
+  buildsys-tags:
+    cloud8-openstack-victoria-el8-build: python-sphinx-epytext-0.0.4-4.el8
 - project: python-sphinx-issues
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-sphinx-issues-1.2.0-4.el8
@@ -361,13 +367,13 @@ packages:
     cloud8-openstack-victoria-el8-build: python-sphinxcontrib-applehelp-1.0.1-5.el8
 - project: python-sphinxcontrib-blockdiag
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-sphinxcontrib-blockdiag-1.5.5-13.el8
+    cloud8-openstack-victoria-el8-build: python-sphinxcontrib-blockdiag-2.0.0-3.el8
 - project: python-sphinxcontrib-devhelp
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-sphinxcontrib-devhelp-1.0.1-5.el8
 - project: python-sphinxcontrib-htmlhelp
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-sphinxcontrib-htmlhelp-1.0.1-5.el8
+    cloud8-openstack-victoria-el8-build: python-sphinxcontrib-htmlhelp-1.0.3-2.el8
 - project: python-sphinxcontrib-httpdomain
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-sphinxcontrib-httpdomain-1.7.0-7.el8
@@ -415,7 +421,7 @@ packages:
     cloud8-openstack-victoria-el8-build: python-typing-extensions-3.7.4.3-1.el8
 - project: python-webcolors
   buildsys-tags:
-    cloud8-openstack-victoria-el8-build: python-webcolors-1.10-1.el8
+    cloud8-openstack-victoria-el8-build: python-webcolors-1.11.1-3.el8
 - project: python-whoosh
   buildsys-tags:
     cloud8-openstack-victoria-el8-build: python-whoosh-2.7.4-17.el8
