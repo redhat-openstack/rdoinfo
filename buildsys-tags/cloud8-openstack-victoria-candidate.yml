@@ -20,6 +20,9 @@ packages:
 - project: python-autobahn
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-autobahn-20.7.1-2.el8
+- project: python-appdirs
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-appdirs-1.4.4-1.fc34
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-beautifulsoup4-4.9.1-2.fc33
@@ -53,6 +56,9 @@ packages:
 - project: python-django-formtools
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-django-formtools-2.2-1.el8
+- project: python-django-nose
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-django-nose-1.4.7-2.fc34
 - project: python-docker
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-docker-4.2.1-3.fc33
@@ -62,6 +68,12 @@ packages:
 - project: python-flask-restful
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-flask-restful-0.3.8-4.el8
+- project: python-freezegun
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-freezegun-0.3.15-1.fc34
+- project: python-gabbi
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-gabbi-2.0.4-1.fc34
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
@@ -131,6 +143,9 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pytest-xdist-2.1.0-1.fc34
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
