@@ -2329,6 +2329,14 @@ packages:
   component: clients
   maintainers:
   - sshnaidm@redhat.com
+- project: tripleo-powerflex
+  name: ansible-tripleo-powerflex
+  upstream: https://github.com/dell/tripleo-powerflex
+  name: tripleo
+  conf: rpmfactory-lib
+  maintainers:
+  - rajini_karthik@dell.com
+  - jeanpierre_roquesalane@dell.com
 components:
 - name: common
 - name: compute
