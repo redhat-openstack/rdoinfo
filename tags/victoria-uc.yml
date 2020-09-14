@@ -38,7 +38,7 @@ packages:
 - project: aodhclient
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.1.1
 - project: automaton
   tags:
     victoria-uc:
@@ -52,11 +52,11 @@ packages:
 - project: barbicanclient
   tags:
     victoria-uc:
-      source-branch: 5.0.0
+      source-branch: 5.0.1
 - project: castellan
   tags:
     victoria-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: ceilometer
   tags:
     victoria-uc:
@@ -94,7 +94,7 @@ packages:
 - project: cloudkittyclient
   tags:
     victoria-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: collectd-gnocchi
   tags:
     victoria-uc:
@@ -138,7 +138,7 @@ packages:
 - project: futurist
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.3.0
 - project: glance
   tags:
     victoria-uc:
@@ -148,7 +148,7 @@ packages:
 - project: glanceclient
   tags:
     victoria-uc:
-      source-branch: 3.2.1
+      source-branch: 3.2.2
 - project: glare
   tags:
     victoria-uc:
@@ -190,7 +190,7 @@ packages:
 - project: heatclient
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.2.1
 - project: horizon
   tags:
     victoria-uc:
@@ -206,11 +206,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     victoria-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: ironic-lib
   tags:
     victoria-uc:
-      source-branch: 4.3.1
+      source-branch: 4.4.0
 - project: ironic-prometheus-exporter
   tags:
     victoria-uc:
@@ -232,7 +232,7 @@ packages:
 - project: ironicclient
   tags:
     victoria-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: keystone
   tags:
     victoria-uc:
@@ -275,7 +275,7 @@ packages:
 - project: magnumclient
   tags:
     victoria-uc:
-      source-branch: 3.2.0
+      source-branch: 3.2.1
 - project: manila
   tags:
     victoria-uc:
@@ -288,7 +288,7 @@ packages:
 - project: manilaclient
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.3.0
 - project: metalsmith
   tags:
     victoria-uc:
@@ -316,11 +316,11 @@ packages:
 - project: mistralclient
   tags:
     victoria-uc:
-      source-branch: 4.1.0
+      source-branch: 4.1.1
 - project: monascaclient
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.2.1
 - project: mox3
   tags:
     victoria-uc:
@@ -340,7 +340,7 @@ packages:
 - project: muranoclient
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.1.1
 - project: networking-ansible
   tags:
     victoria-uc:
@@ -399,14 +399,14 @@ packages:
 - project: neutronclient
   tags:
     victoria-uc:
-      source-branch: 7.2.0
+      source-branch: 7.2.1
 - project: nova
   tags:
     victoria-uc:
 - project: novaclient
   tags:
     victoria-uc:
-      source-branch: 17.2.0
+      source-branch: 17.2.1
 - project: novajoin
   tags:
     victoria-uc:
@@ -429,7 +429,7 @@ packages:
 - project: octaviaclient
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: openstack-macros
   tags:
     victoria-uc:
@@ -450,7 +450,7 @@ packages:
 - project: os-brick
   tags:
     victoria-uc:
-      source-branch: 3.2.1
+      source-branch: 4.0.1
 - project: os-client-config
   tags:
     victoria-uc:
@@ -506,31 +506,31 @@ packages:
 - project: osc-placement
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: oslo-cache
   tags:
     victoria-uc:
-      source-branch: 2.6.0
+      source-branch: 2.6.1
 - project: oslo-concurrency
   tags:
     victoria-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: oslo-config
   tags:
     victoria-uc:
-      source-branch: 8.3.1
+      source-branch: 8.3.2
 - project: oslo-context
   tags:
     victoria-uc:
-      source-branch: 3.1.0
+      source-branch: 3.1.1
 - project: oslo-db
   tags:
     victoria-uc:
-      source-branch: 8.3.0
+      source-branch: 8.4.0
 - project: oslo-i18n
   tags:
     victoria-uc:
-      source-branch: 5.0.0
+      source-branch: 5.0.1
 - project: oslo-log
   tags:
     victoria-uc:
@@ -538,35 +538,35 @@ packages:
 - project: oslo-messaging
   tags:
     victoria-uc:
-      source-branch: 12.4.0
+      source-branch: 12.5.0
 - project: oslo-middleware
   tags:
     victoria-uc:
-      source-branch: 4.1.0
+      source-branch: 4.1.1
 - project: oslo-policy
   tags:
     victoria-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: oslo-privsep
   tags:
     victoria-uc:
-      source-branch: 2.3.0
+      source-branch: 2.4.0
 - project: oslo-reports
   tags:
     victoria-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: oslo-rootwrap
   tags:
     victoria-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
 - project: oslo-serialization
   tags:
     victoria-uc:
-      source-branch: 4.0.0
+      source-branch: 4.0.1
 - project: oslo-service
   tags:
     victoria-uc:
-      source-branch: 2.3.2
+      source-branch: 2.4.0
 - project: oslo-sphinx
   tags:
     victoria-uc:
@@ -574,30 +574,30 @@ packages:
 - project: oslo-upgradecheck
   tags:
     victoria-uc:
-      source-branch: 1.1.0
+      source-branch: 1.1.1
 - project: oslo-utils
   tags:
     victoria-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: oslo-versionedobjects
   tags:
     victoria-uc:
-      source-branch: 2.2.0
+      source-branch: 2.3.0
 - project: oslo-vmware
   tags:
     victoria-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: oslotest
   tags:
     victoria-uc:
-      source-branch: 4.4.0
+      source-branch: 4.4.1
 - project: osops-tools-monitoring-oschecks
   tags:
     victoria-uc:
 - project: osprofiler
   tags:
     victoria-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: oswin-tempest-plugin
   tags:
     victoria-uc:
@@ -920,7 +920,7 @@ packages:
 - project: pycadf
   tags:
     victoria-uc:
-      source-branch: 3.1.0
+      source-branch: 3.1.1
 - project: rally
   tags:
     victoria-uc:
@@ -994,14 +994,14 @@ packages:
 - project: sphinx-feature-classification
   tags:
     victoria-uc:
-      source-branch: 1.0.1
+      source-branch: 1.1.0
 - project: stackviz
   tags:
     victoria-uc:
 - project: stevedore
   tags:
     victoria-uc:
-      source-branch: 3.2.1
+      source-branch: 3.2.2
 - project: sushy
   tags:
     victoria-uc:
@@ -1015,7 +1015,7 @@ packages:
 - project: swiftclient
   tags:
     victoria-uc:
-      source-branch: 3.10.0
+      source-branch: 3.10.1
 - project: tacker
   tags:
     victoria-uc:
@@ -1029,7 +1029,7 @@ packages:
 - project: taskflow
   tags:
     victoria-uc:
-      source-branch: 4.4.0
+      source-branch: 4.5.0
 - project: telemetry-tempest-plugin
   tags:
     victoria-uc:
@@ -1094,7 +1094,7 @@ packages:
 - project: troveclient
   tags:
     victoria-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: validations-common
   tags:
     victoria-uc:
@@ -1119,7 +1119,7 @@ packages:
 - project: vitrageclient
   tags:
     victoria-uc:
-      source-branch: 4.1.0
+      source-branch: 4.1.1
 - project: vmware-nsx
   tags:
     victoria-uc:
@@ -1148,4 +1148,4 @@ packages:
 - project: zaqarclient
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.0.1
