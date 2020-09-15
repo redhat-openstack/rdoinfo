@@ -1,0 +1,56 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check-centos8
+        - tripleo-ci-centos-8-content-provider:
+            nodeset: single-centos-8-node
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario001:
+            nodeset: single-centos-8-node
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002:
+            nodeset: single-centos-8-node
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario003:
+            nodeset: single-centos-8-node
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario004:
+            nodeset: single-centos-8-node
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-undercloud-containers:
+            nodeset: single-centos-8-node
+            dependencies:
+              - tripleo-ci-centos-8-content-provider
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-multinode-1ctlr-featureset010:
+            nodeset: single-centos-8-node
+            dependencies:
+              - tripleo-ci-centos-8-content-provider
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
