@@ -1,0 +1,49 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check-centos8
+        - distgit-tripleo-ci-centos-8-content-provider:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario001:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - distgit-tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - distgit-tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario003:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - distgit-tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario004:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+              - distgit-tripleo-ci-centos-8-content-provider
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-undercloud-containers:
+            dependencies:
+              - distgit-tripleo-ci-centos-8-content-provider
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
+        - distgit-tripleo-master-testing-centos-8-multinode-1ctlr-featureset010:
+            dependencies:
+              - distgit-tripleo-ci-centos-8-content-provider
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/victoria-uc.yml$
