@@ -233,3 +233,9 @@ packages:
 - project: python-zmq
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-zmq-19.0.0-3.el8
+- project: python-zstd
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-zstd-1.4.5.1-1.el8
+- project: zstd
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: zstd-1.4.5-6.el8
