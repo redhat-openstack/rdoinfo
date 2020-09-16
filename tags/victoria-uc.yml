@@ -32,6 +32,9 @@ packages:
 - project: ansible-role-tripleo-modify-image
   tags:
     victoria-uc:
+- project: ansible-tripleo-ipa-server
+  tags:
+    victoria-uc:
 - project: aodh
   tags:
     victoria-uc:
