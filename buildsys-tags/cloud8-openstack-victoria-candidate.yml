@@ -176,6 +176,9 @@ packages:
 - project: python-sphinx-epytext
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sphinx-epytext-0.0.4-4.el8
+- project: python-sphinxcontrib-actdiag
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-actdiag-2.0.0-1.el8
 - project: python-sphinxcontrib-blockdiag
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sphinxcontrib-blockdiag-2.0.0-3.el8
