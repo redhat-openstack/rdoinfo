@@ -83,6 +83,9 @@ packages:
 - project: python-jsonpath-rw
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-jsonpath-rw-1.4.0-3.el8
+- project: python-jsonschema
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-jsonschema-3.2.0-5.el8
 - project: python-kazoo
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kazoo-2.8.0-1.el8
