@@ -143,6 +143,9 @@ packages:
 - project: python-pyperclip
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pyperclip-1.8.0-2.el8
+- project: python-pyrsistent
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pyrsistent-0.16.0-3.el8
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
