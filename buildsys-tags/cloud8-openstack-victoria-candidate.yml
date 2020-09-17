@@ -203,6 +203,9 @@ packages:
 - project: python-testtools
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-testtools-2.4.0-7.el8
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-tosca-parser-2.1.0-1.el8
 - project: python-txaio
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
