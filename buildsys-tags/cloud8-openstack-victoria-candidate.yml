@@ -203,6 +203,9 @@ packages:
 - project: python-txaio
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-txaio-20.4.1-2.el8
+- project: python-twisted
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-twisted-20.3.0-3.el8
 - project: python-typing-extensions
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-typing-extensions-3.7.4.3-1.el8
