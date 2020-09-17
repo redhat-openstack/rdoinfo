@@ -545,6 +545,9 @@ packages:
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-jsonpath-rw-ext-1.2.0-5.el8
+- project: python-jsonschema
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-jsonschema-3.2.0-5.el8
 - project: python-junitxml
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-junitxml-0.7-20.el8
@@ -740,6 +743,9 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-pyroute2-0.5.13-1.1.el8
+- project: python-pyrsistent
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-pyrsistent-0.16.0-3.el8
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-pysaml2-6.1.0-1.el8
