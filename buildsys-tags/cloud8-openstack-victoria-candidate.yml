@@ -68,6 +68,9 @@ packages:
 - project: python-flask-restful
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-flask-restful-0.3.8-4.el8
+- project: python-futures
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-futures-3.3.0-1.el8
 - project: python-gabbi
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-gabbi-2.0.4-1.el8
