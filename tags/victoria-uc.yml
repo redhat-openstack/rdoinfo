@@ -834,6 +834,7 @@ packages:
 - project: puppet-rsync
   tags:
     victoria-uc:
+      source-branch: b3ee352a0bffbfa521c93ab1aa9e80861c4533d9
 - project: puppet-rsyslog
   tags:
     # NOTE(aschultz): rsyslog broke backwards compatibility with
