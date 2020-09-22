@@ -376,7 +376,7 @@ packages:
     cloud8-openstack-victoria-testing: python-croniter-0.3.27-4.el8
 - project: python-cryptography
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-cryptography-2.8-2.el8
+    cloud8-openstack-victoria-testing: python-cryptography-3.1-1.el8
 - project: python-cssselect
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-cssselect-0.9.2-13.el8
@@ -445,7 +445,7 @@ packages:
     cloud8-openstack-victoria-testing: python-dogpile-cache-0.9.0-1.el8
 - project: python-dulwich
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-dulwich-0.19.14-1.el8
+    cloud8-openstack-victoria-testing: python-dulwich-0.20.6-1.el8
 - project: python-edengrid
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-edgegrid-1.1.1-6.el8
@@ -1013,6 +1013,9 @@ packages:
 - project: python-zope-interface
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-zope-interface-4.7.1-1.el8
+- project: python-zstd
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-zstd-1.4.5.1-1.el8
 - project: python2-typing
   buildsys-tags:
     cloud8-openstack-victoria-testing: python2-typing-3.7.4.1-1.el8
