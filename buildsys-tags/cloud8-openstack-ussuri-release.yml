@@ -499,7 +499,7 @@ packages:
     cloud8-openstack-ussuri-release: python-neutronclient-7.1.1-1.el8
 - project: nova
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-nova-21.1.0-1.el8
+    cloud8-openstack-ussuri-release: openstack-nova-21.1.0-2.el8
 - project: novaclient
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-novaclient-17.0.0-1.el8
@@ -2059,7 +2059,7 @@ packages:
     cloud8-openstack-ussuri-release: python-trove-tests-tempest-1.0.0-1.el8
 - project: troveclient
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-troveclient-3.3.1-1.el8
+    cloud8-openstack-ussuri-release: python-troveclient-3.3.2-1.el8
 - project: uwsgi
   buildsys-tags:
     cloud8-openstack-ussuri-release: uwsgi-2.0.18-4.el8
