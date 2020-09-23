@@ -47,6 +47,9 @@ packages:
 - project: python-daemon
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-daemon-2.2.4-3.el8
+- project: python-ddt
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-ddt-1.4.1-2.el8
 - project: python-deprecation
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-deprecation-2.1.0-1.el8
@@ -101,6 +104,9 @@ packages:
 - project: python-lockfile
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-lockfile-0.12.2-1.el8
+- project: python-more-itertools
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-more-itertools-8.5.0-1.el8
 - project: python-msgpack
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-msgpack-1.0.0-2.el8
@@ -155,9 +161,15 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-pysaml2-6.1.0-1.el8
+- project: python-pytest-forked
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-pytest-forked-1.3.0-1.el8
 - project: python-responses
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-responses-0.10.14-1.el8
+- project: python-rfc3986
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-rfc3986-1.4.0-3.el8
 - project: python-rjsmin
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-rjsmin-1.1.0-1.el8
@@ -188,6 +200,9 @@ packages:
 - project: python-sphinxcontrib-actdiag
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sphinxcontrib-actdiag-2.0.0-1.el8
+- project: python-sphinxcontrib-applehelp
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sphinxcontrib-applehelp-1.0.2-1.el8
 - project: python-sphinxcontrib-blockdiag
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sphinxcontrib-blockdiag-2.0.0-3.el8
