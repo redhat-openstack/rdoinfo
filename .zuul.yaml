@@ -1,0 +1,39 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario001-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario003-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario004-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario007-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario010-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
