@@ -1,0 +1,39 @@
+- project:
+    check:
+      jobs:
+        - periodic-tripleo-ci-centos-8-scenario001-standalone-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - periodic-tripleo-ci-centos-8-scenario002-standalone-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - periodic-tripleo-ci-centos-8-scenario003-standalone-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - periodic-tripleo-ci-centos-8-scenario004-standalone-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - periodic-tripleo-ci-centos-8-scenario007-standalone-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - periodic-tripleo-ci-centos-8-scenario010-standalone-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
