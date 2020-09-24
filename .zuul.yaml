@@ -1,0 +1,6 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check:
+            vars:
+              centos_version: centos7
