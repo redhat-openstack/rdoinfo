@@ -1,0 +1,11 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-DLRN-check-mine
+
+
+- job:
+    name: rdoinfo-DLRN-check-mine
+    parent: rdoinfo-DLRN-check
+    vars:
+      centos_version: centos7
