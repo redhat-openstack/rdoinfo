@@ -851,6 +851,9 @@ packages:
 - project: python-sphinx-argparse
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-sphinx-argparse-0.2.2-8.el8
+- project: python-sqlalchemy-filters
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-sqlalchemy-filters-0.12.0-2.el8
 - project: python-sqlalchemy-utils
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-sqlalchemy-utils-0.34.2-2.el8
