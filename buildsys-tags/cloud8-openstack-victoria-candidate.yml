@@ -212,6 +212,9 @@ packages:
 - project: python-sphinxcontrib-seqdiag
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sphinxcontrib-seqdiag-2.0.0-1.el8
+- project: python-sqlalchemy-filters
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sqlalchemy-filters-0.12.0-2.el8
 - project: python-sqlparse
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sqlparse-0.3.1-3.el8
