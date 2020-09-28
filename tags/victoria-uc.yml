@@ -77,6 +77,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.2.0
 - project: cinderclient
   tags:
     victoria-uc:
@@ -138,6 +139,7 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: futurist
   tags:
     victoria-uc:
@@ -229,6 +231,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 2.1.0
 - project: ironic-ui
   tags:
     victoria-uc:
@@ -266,12 +269,14 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 0.7.0
 - project: magnum
   tags:
     victoria-uc:
 - project: magnum-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: magnum-ui
   tags:
     victoria-uc:
@@ -371,6 +376,7 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 2e265b5e1e4cd1ffb9b48f7a9b3c0119a3da77c6
 - project: networking-mlnx
   tags:
     victoria-uc:
@@ -396,6 +402,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.2.0
 - project: neutron-vpnaas
   tags:
     victoria-uc:
@@ -416,6 +423,7 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 0.0.3
 - project: octavia
   tags:
     victoria-uc:
@@ -429,6 +437,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.5.0
 - project: octaviaclient
   tags:
     victoria-uc:
@@ -605,6 +614,7 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.0.0
 - project: ovn-octavia-provider
   tags:
     victoria-uc:
@@ -1089,9 +1099,11 @@ packages:
 - project: tempest
   tags:
     victoria-uc:
+      source-branch: 25.0.0
 - project: tempest-horizon
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: tempestconf
   tags:
     victoria-uc:
@@ -1147,6 +1159,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: troveclient
   tags:
     victoria-uc:
@@ -1171,6 +1184,7 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 5.1.0
 - project: vitrageclient
   tags:
     victoria-uc:
@@ -1181,6 +1195,7 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     victoria-uc:
@@ -1190,6 +1205,7 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 2.0.0
 - project: wsme
   tags:
     victoria-uc:
@@ -1200,6 +1216,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: zaqarclient
   tags:
     victoria-uc:
