@@ -52,6 +52,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: barbicanclient
   tags:
     victoria-uc:
@@ -119,6 +120,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 0.9.0
 - project: designateclient
   tags:
     victoria-uc:
@@ -188,6 +190,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: heat-translator
   tags:
     victoria-uc:
@@ -245,6 +248,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 0.5.0
 - project: keystoneauth1
   tags:
     victoria-uc:
@@ -290,6 +294,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.2.0
 - project: manila-ui
   tags:
     victoria-uc:
@@ -321,6 +326,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: mistralclient
   tags:
     victoria-uc:
@@ -345,6 +351,7 @@ packages:
 - project: murano-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 2.1.0
 - project: muranoclient
   tags:
     victoria-uc:
@@ -614,7 +621,7 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     victoria-uc:
-      source-branch: 1.0.0
+      source-branch: 1.1.0
 - project: ovn-octavia-provider
   tags:
     victoria-uc:
@@ -1036,6 +1043,7 @@ packages:
 - project: sahara-tests
   tags:
     victoria-uc:
+      source-branch: 0.11.0
 - project: saharaclient
   tags:
     victoria-uc:
@@ -1096,6 +1104,7 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     victoria-uc:
+      source-branch: 1.1.0
 - project: tempest
   tags:
     victoria-uc:
@@ -1205,7 +1214,7 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     victoria-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: wsme
   tags:
     victoria-uc:
