@@ -5,6 +5,12 @@ packages:
 - project: python-dulwich
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-httpcore-0.9.1-2.el8
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
@@ -23,6 +29,9 @@ packages:
 - project: python-setuptools
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-setuptools-50.3.0-1.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sniffio-1.1.0-7.el8
 - project: python-tornado
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-tornado-6.1.0-1.el8

@@ -2452,3 +2452,21 @@ packages:
 - project: ara
   name: ara
   conf: rdo-dependency
+- project: python-immutables
+  name: python-immutables
+  conf: rdo-dependency
+- project: python-contextvars
+  name: python-contextvars
+  conf: rdo-dependency
+- project: python-curio
+  name: python-curio
+  conf: rdo-dependency
+- project: python-sniffio
+  name: python-sniffio
+  conf: fedora-dependency
+- project: python-hstspreload
+  name: python-hstspreload
+  conf: fedora-dependency
+- project: python-httpcore
+  name: python-httpcore
+  conf: fedora-dependency
