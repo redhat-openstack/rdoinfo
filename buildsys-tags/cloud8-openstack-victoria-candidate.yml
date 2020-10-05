@@ -83,6 +83,12 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-google-auth-1.19.1-1.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-httpcore-0.9.1-2.el8
 - project: python-httpx
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-httpx-0.14.3-1.el8
@@ -191,6 +197,9 @@ packages:
 - project: python-six
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-six-1.15.0-2.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-sniffio-1.1.0-7.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-sortedcontainers-2.2.2-2.el8
