@@ -931,6 +931,9 @@ packages:
   component: validation
   maintainers:
   - gchamoul@redhat.com
+  - cjeanner@redhat.com
+  - mat.bultel@gmail.com
+  - david.j.peacock@gmail.com
 - project: instack
   conf: rpmfactory-core
   name: instack
@@ -2300,7 +2303,8 @@ packages:
   maintainers:
     - cjeanner@redhat.com
     - gchamoul@redhat.com
-    - mbultel@redhat.com
+    - mat.bultel@gmail.com
+    - david.j.peacock@gmail.com
   name: validations-common
 - project: validations-libs
   component: validation
@@ -2308,7 +2312,8 @@ packages:
   maintainers:
     - cjeanner@redhat.com
     - gchamoul@redhat.com
-    - mbultel@redhat.com
+    - mat.bultel@gmail.com
+    - david.j.peacock@gmail.com
 - project: ovn-octavia-provider
   component: network
   conf: rpmfactory-lib
