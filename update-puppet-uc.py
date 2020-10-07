@@ -20,7 +20,7 @@ import sys
 if len(sys.argv) > 1:
     UC_RELEASE = sys.argv[1]
 else:
-    UC_RELEASE = 'victoria-uc'
+    UC_RELEASE = 'wallaby-uc'
 
 
 def update_puppet_uc():
