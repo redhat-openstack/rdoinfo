@@ -1,1232 +1,1054 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    victoria:
+    wallaby:
 - project: ansible-config_template
   tags:
-    victoria:
+    wallaby:
 - project: ansible-pacemaker
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-atos-hsm
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-chrony
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-container-registry
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-lunasa-hsm
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-openstack-operations
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-redhat-subscription
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-thales-hsm
   tags:
-    victoria:
+    wallaby:
 - project: ansible-role-tripleo-modify-image
   tags:
-    victoria:
+    wallaby:
 - project: ansible-tripleo-ipa-server
   tags:
-    victoria:
+    wallaby:
 - project: aodh
   tags:
-    victoria:
+    wallaby:
 - project: aodhclient
   tags:
-    victoria:
-      source-branch: 2.1.1
+    wallaby:
 - project: automaton
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: barbican
   tags:
-    victoria:
+    wallaby:
 - project: barbican-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: barbicanclient
   tags:
-    victoria:
-      source-branch: 5.0.1
+    wallaby:
 - project: castellan
   tags:
-    victoria:
-      source-branch: 3.6.0
+    wallaby:
 - project: ceilometer
   tags:
-    victoria:
+    wallaby:
 - project: ceilometerclient
   tags:
-    victoria:
-      source-branch: 2.9.0
+    wallaby:
+      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
 - project: ceilometermiddleware
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: cinder
   tags:
-    victoria:
+    wallaby:
 - project: cinder-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.2.0
+    wallaby:
 - project: cinderclient
   tags:
-    victoria:
-      source-branch: 7.2.0
+    wallaby:
 - project: cinderlib
   tags:
-    victoria:
+    wallaby:
 - project: cliff
   tags:
-    victoria:
-      source-branch: 3.4.0
+    wallaby:
 - project: cloudkitty
   tags:
-    victoria:
+    wallaby:
 - project: cloudkitty-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: cloudkittyclient
   tags:
-    victoria:
-      source-branch: 4.1.0
+    wallaby:
 - project: collectd-gnocchi
   tags:
-    victoria:
+    wallaby:
 - project: cursive
   tags:
-    victoria:
-      source-branch: 0.2.2
+    wallaby:
 - project: debtcollector
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: designate
   tags:
-    victoria:
+    wallaby:
 - project: designate-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: designate-tempest-plugin
   tags:
-    victoria:
-      source-branch: 0.9.0
+    wallaby:
 - project: designateclient
   tags:
-    victoria:
-      source-branch: 4.1.0
+    wallaby:
 - project: dib-utils
   tags:
-    victoria:
-      source-branch: 0.0.11
+    wallaby:
 - project: diskimage-builder
   tags:
-    victoria:
+    wallaby:
 - project: dracclient
   tags:
-    victoria:
+    wallaby:
 - project: ec2-api
   tags:
-    victoria:
+    wallaby:
 - project: ec2api-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: futurist
   tags:
-    victoria:
-      source-branch: 2.3.0
+    wallaby:
 - project: glance
   tags:
-    victoria:
+    wallaby:
 - project: glance_store
   tags:
-    victoria:
+    wallaby:
 - project: glanceclient
   tags:
-    victoria:
-      source-branch: 3.2.2
+    wallaby:
 - project: glare
   tags:
-    victoria:
+    wallaby:
 - project: glareclient
   tags:
-    victoria:
-      source-branch: 0.5.3
+    wallaby:
 - project: gnocchi
   tags:
-    victoria:
+    wallaby:
       source-branch: stable/4.3
 - project: gnocchiclient
   tags:
-    victoria:
-      source-branch: 7.0.4
+    wallaby:
 - project: hacking
   tags:
-    victoria:
-      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    wallaby:
 - project: hardware
   tags:
-    victoria:
+    wallaby:
 - project: heat
   tags:
-    victoria:
+    wallaby:
 - project: heat-agents
   tags:
-    victoria:
+    wallaby:
 - project: heat-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: heat-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: heat-translator
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: heatclient
   tags:
-    victoria:
-      source-branch: 2.2.1
+    wallaby:
 - project: horizon
   tags:
-    victoria:
+    wallaby:
 - project: ibmcclient
   tags:
-    victoria:
+    wallaby:
 - project: ironic
   tags:
-    victoria:
+    wallaby:
 - project: ironic-inspector
   tags:
-    victoria:
+    wallaby:
 - project: ironic-inspector-client
   tags:
-    victoria:
-      source-branch: 4.3.0
+    wallaby:
 - project: ironic-lib
   tags:
-    victoria:
-      source-branch: 4.4.0
+    wallaby:
 - project: ironic-prometheus-exporter
   tags:
-    victoria:
+    wallaby:
 - project: ironic-python-agent
   tags:
-    victoria:
+    wallaby:
 - project: ironic-python-agent-builder
   tags:
-    victoria:
+    wallaby:
 - project: ironic-staging-drivers
   tags:
-    victoria:
+    wallaby:
 - project: ironic-tempest-plugin
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: ironic-ui
   tags:
-    victoria:
+    wallaby:
 - project: ironicclient
   tags:
-    victoria:
-      source-branch: 4.3.0
+    wallaby:
 - project: keystone
   tags:
-    victoria:
+    wallaby:
 - project: keystone-tempest-plugin
   tags:
-    victoria:
-      source-branch: 0.5.0
+    wallaby:
 - project: keystoneauth1
   tags:
-    victoria:
-      source-branch: 4.2.1
+    wallaby:
 - project: keystoneclient
   tags:
-    victoria:
-      source-branch: 4.1.1
+    wallaby:
 - project: keystonemiddleware
   tags:
-    victoria:
-      source-branch: 9.1.0
+    wallaby:
 - project: kolla
   tags:
-    victoria:
+    wallaby:
 - project: kuryr
   tags:
-    victoria:
+    wallaby:
 - project: kuryr-kubernetes
   tags:
-    victoria:
+    wallaby:
 - project: kuryr-tempest-plugin
   tags:
-    victoria:
-      source-branch: 0.7.0
+    wallaby:
 - project: magnum
   tags:
-    victoria:
+    wallaby:
 - project: magnum-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: magnum-ui
   tags:
-    victoria:
+    wallaby:
 - project: magnumclient
   tags:
-    victoria:
-      source-branch: 3.2.1
+    wallaby:
 - project: manila
   tags:
-    victoria:
+    wallaby:
 - project: manila-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.2.0
+    wallaby:
 - project: manila-ui
   tags:
-    victoria:
+    wallaby:
 - project: manilaclient
   tags:
-    victoria:
-      source-branch: 2.3.0
+    wallaby:
 - project: metalsmith
   tags:
-    victoria:
-      source-branch: 1.2.0
+    wallaby:
 - project: microversion-parse
   tags:
-    victoria:
-      source-branch: 1.0.1
+    wallaby:
 - project: mistral
   tags:
-    victoria:
+    wallaby:
 - project: mistral-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: mistral-extra
   tags:
-    victoria:
+    wallaby:
 - project: mistral-lib
   tags:
-    victoria:
-      source-branch: 2.3.0
+    wallaby:
 - project: mistral-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: mistralclient
   tags:
-    victoria:
-      source-branch: 4.1.1
+    wallaby:
 - project: monascaclient
   tags:
-    victoria:
-      source-branch: 2.2.1
+    wallaby:
 - project: mox3
   tags:
-    victoria:
+    wallaby:
       source-branch: 1.1.0
 - project: murano
   tags:
-    victoria:
+    wallaby:
 - project: murano-agent
   tags:
-    victoria:
+    wallaby:
 - project: murano-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: murano-tempest-plugin
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: muranoclient
   tags:
-    victoria:
-      source-branch: 2.1.1
+    wallaby:
 - project: networking-ansible
   tags:
-    victoria:
+    wallaby:
 - project: networking-arista
   tags:
-    victoria:
+    wallaby:
 - project: networking-bagpipe
   tags:
-    victoria:
+    wallaby:
 - project: networking-baremetal
   tags:
-    victoria:
+    wallaby:
 - project: networking-bgpvpn
   tags:
-    victoria:
+    wallaby:
 - project: networking-bigswitch
   tags:
-    victoria:
+    wallaby:
 - project: networking-generic-switch
   tags:
-    victoria:
+    wallaby:
 - project: networking-l2gw
   tags:
-    victoria:
+    wallaby:
 - project: networking-l2gw-tempest-plugin
   tags:
-    victoria:
-      source-branch: 2e265b5e1e4cd1ffb9b48f7a9b3c0119a3da77c6
+    wallaby:
 - project: networking-mlnx
   tags:
-    victoria:
+    wallaby:
 - project: networking-odl
   tags:
-    victoria:
+    wallaby:
 - project: networking-omnipath
   tags:
-    victoria:
+    wallaby:
 - project: networking-sfc
   tags:
-    victoria:
+    wallaby:
 - project: neutron
   tags:
-    victoria:
+    wallaby:
 - project: neutron-dynamic-routing
   tags:
-    victoria:
+    wallaby:
 - project: neutron-lib
   tags:
-    victoria:
-      source-branch: 2.6.1
+    wallaby:
 - project: neutron-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.2.0
+    wallaby:
 - project: neutron-vpnaas
   tags:
-    victoria:
+    wallaby:
 - project: neutronclient
   tags:
-    victoria:
-      source-branch: 7.2.1
+    wallaby:
 - project: nova
   tags:
-    victoria:
+    wallaby:
 - project: novaclient
   tags:
-    victoria:
-      source-branch: 17.2.1
+    wallaby:
 - project: novajoin
   tags:
-    victoria:
+    wallaby:
 - project: novajoin-tempest-plugin
   tags:
-    victoria:
-      source-branch: 0.0.3
+    wallaby:
 - project: octavia
   tags:
-    victoria:
+    wallaby:
 - project: octavia-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: octavia-lib
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: octavia-tempest-plugin
   tags:
-    victoria:
-      source-branch: a80a185abef3234b035ec5d09e1748b743bc69e2
+    wallaby:
 - project: octaviaclient
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: openstack-macros
   tags:
-    victoria:
+    wallaby:
 - project: openstack-selinux
   tags:
-    victoria:
+    wallaby:
 - project: openstackclient
   tags:
-    victoria:
-      source-branch: 5.4.0
+    wallaby:
 - project: openstacksdk
   tags:
-    victoria:
-      source-branch: 0.50.0
+    wallaby:
 - project: os-apply-config
   tags:
-    victoria:
+    wallaby:
 - project: os-brick
   tags:
-    victoria:
-      source-branch: 4.0.1
+    wallaby:
 - project: os-client-config
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: os-collect-config
   tags:
-    victoria:
+    wallaby:
 - project: os-faults
   tags:
-    victoria:
+    wallaby:
 - project: os-ken
   tags:
-    victoria:
-      source-branch: 1.2.0
+    wallaby:
 - project: os-net-config
   tags:
-    victoria:
+    wallaby:
 - project: os-refresh-config
   tags:
-    victoria:
+    wallaby:
 - project: os-resource-classes
   tags:
-    victoria:
-      source-branch: 1.0.0
+    wallaby:
 - project: os-service-types
   tags:
-    victoria:
-      source-branch: 1.7.0
+    wallaby:
 - project: os-testr
   tags:
-    victoria:
-      source-branch: 2.0.0
+    wallaby:
 - project: os-traits
   tags:
-    victoria:
-      source-branch: 2.4.0
+    wallaby:
 - project: os-vif
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: os-win
   tags:
-    victoria:
-      source-branch: 5.1.0
+    wallaby:
 - project: os-xenapi
   tags:
-    victoria:
-      source-branch: 0.3.4
+    wallaby:
 - project: osc-lib
   tags:
-    victoria:
-      source-branch: 2.2.1
+    wallaby:
 - project: osc-placement
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: oslo-cache
   tags:
-    victoria:
-      source-branch: 2.6.1
+    wallaby:
 - project: oslo-concurrency
   tags:
-    victoria:
-      source-branch: 4.3.0
+    wallaby:
 - project: oslo-config
   tags:
-    victoria:
-      source-branch: 8.3.2
+    wallaby:
 - project: oslo-context
   tags:
-    victoria:
-      source-branch: 3.1.1
+    wallaby:
 - project: oslo-db
   tags:
-    victoria:
-      source-branch: 8.4.0
+    wallaby:
 - project: oslo-i18n
   tags:
-    victoria:
-      source-branch: 5.0.1
+    wallaby:
 - project: oslo-log
   tags:
-    victoria:
-      source-branch: 4.4.0
+    wallaby:
 - project: oslo-messaging
   tags:
-    victoria:
-      source-branch: 12.5.0
+    wallaby:
 - project: oslo-middleware
   tags:
-    victoria:
-      source-branch: 4.1.1
+    wallaby:
 - project: oslo-policy
   tags:
-    victoria:
-      source-branch: 3.5.0
+    wallaby:
 - project: oslo-privsep
   tags:
-    victoria:
-      source-branch: 2.4.0
+    wallaby:
 - project: oslo-reports
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: oslo-rootwrap
   tags:
-    victoria:
-      source-branch: 6.2.0
+    wallaby:
 - project: oslo-serialization
   tags:
-    victoria:
-      source-branch: 4.0.1
+    wallaby:
 - project: oslo-service
   tags:
-    victoria:
-      source-branch: 2.4.0
+    wallaby:
 - project: oslo-sphinx
   tags:
-    victoria:
+    wallaby:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    victoria:
-      source-branch: 1.1.1
+    wallaby:
 - project: oslo-utils
   tags:
-    victoria:
-      source-branch: 4.6.0
+    wallaby:
 - project: oslo-versionedobjects
   tags:
-    victoria:
-      source-branch: 2.3.0
+    wallaby:
 - project: oslo-vmware
   tags:
-    victoria:
-      source-branch: 3.7.0
+    wallaby:
 - project: oslotest
   tags:
-    victoria:
-      source-branch: 4.4.1
+    wallaby:
 - project: osops-tools-monitoring-oschecks
   tags:
-    victoria:
+    wallaby:
       source-branch: bafe3f0d2f7f319a91dd79cb032aaeccb6f2d82f
 - project: osprofiler
   tags:
-    victoria:
-      source-branch: 3.4.0
+    wallaby:
 - project: oswin-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: ovn-octavia-provider
   tags:
-    victoria:
+    wallaby:
 - project: ovsdbapp
   tags:
-    victoria:
-      source-branch: 1.5.0
+    wallaby:
 - project: packstack
   tags:
-    victoria:
+    wallaby:
 - project: panko
   tags:
-    victoria:
+    wallaby:
 - project: pankoclient
   tags:
-    victoria:
-      source-branch: 0.5.0
+    wallaby:
 - project: patrole
   tags:
-    victoria:
+    wallaby:
 - project: placement
   tags:
-    victoria:
+    wallaby:
 - project: proliantutils
   tags:
-    victoria:
-      source-branch: 2.9.4
+    wallaby:
 - project: puppet-aodh
   tags:
-    victoria:
+    wallaby:
 - project: puppet-apache
   tags:
-    victoria:
-      source-branch: afbaf1981abcdd052e7ec9056b5d5a5a78eec576
+    wallaby:
 - project: puppet-archive
   tags:
-    victoria:
-      source-branch: 49f66f90984a5d6a5dc07be104c7933e70d6ec1e
+    wallaby:
 - project: puppet-auditd
   tags:
-    victoria:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
+    wallaby:
 - project: puppet-barbican
   tags:
-    victoria:
+    wallaby:
 - project: puppet-cassandra
   tags:
-    victoria:
-      source-branch: 584d7d0df04be108f499276ac0bb9157300f84c2
+    wallaby:
 - project: puppet-ceilometer
   tags:
-    victoria:
+    wallaby:
 - project: puppet-ceph
   tags:
-    victoria:
+    wallaby:
 - project: puppet-certmonger
   tags:
-    victoria:
-      source-branch: a19887066c4978ad2567c881d60c14fcf0737bb2
+    wallaby:
 - project: puppet-cinder
   tags:
-    victoria:
+    wallaby:
 - project: puppet-collectd
   tags:
-    victoria:
-      source-branch: f9f2e7d37e2d0d5669acc1908f764eb62d0ff792
+    wallaby:
 - project: puppet-concat
   tags:
-    victoria:
-      source-branch: dfeabb98d6493a647e1ffab333d0b64ba3c5df35
+    wallaby:
 - project: puppet-contrail
   tags:
-    victoria:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
+    wallaby:
 - project: puppet-corosync
   tags:
-    victoria:
-      source-branch: 3d620764b79f9a4dd33753e598cc54b6366b234d
+    wallaby:
 - project: puppet-datacat
   tags:
-    victoria:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+    wallaby:
 - project: puppet-designate
   tags:
-    victoria:
+    wallaby:
 - project: puppet-dns
   tags:
-    victoria:
-      source-branch: 820cb719907aac3eb7e28a506eac72a236f846e3
+    wallaby:
 - project: puppet-ec2api
   tags:
-    victoria:
+    wallaby:
 - project: puppet-elasticsearch
   tags:
-    victoria:
-      source-branch: 873058e780901229ce0e8500c635d171c95053b6
+    wallaby:
 - project: puppet-etcd
   tags:
-    victoria:
-      source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
+    wallaby:
 - project: puppet-fdio
   tags:
-    victoria:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
+    wallaby:
 - project: puppet-firewall
   tags:
-    victoria:
-      source-branch: 71a1773be37d30dd7ad4cd51172161dd28542c89
+    wallaby:
 - project: puppet-fluentd
   tags:
-    victoria:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
+    wallaby:
 - project: puppet-git
   tags:
-    victoria:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    wallaby:
 - project: puppet-glance
   tags:
-    victoria:
+    wallaby:
 - project: puppet-gnocchi
   tags:
-    victoria:
+    wallaby:
 - project: puppet-haproxy
   tags:
-    victoria:
-      source-branch: a797b8ccc7441199e22f151d439e85f03f3fa6ce
+    wallaby:
 - project: puppet-heat
   tags:
-    victoria:
+    wallaby:
 - project: puppet-horizon
   tags:
-    victoria:
+    wallaby:
 - project: puppet-inifile
   tags:
-    victoria:
-      source-branch: df46d2a0293687a157c70dab128bb5f2a53ef837
+    wallaby:
 - project: puppet-ipaclient
   tags:
-    victoria:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
+    wallaby:
 - project: puppet-ironic
   tags:
-    victoria:
+    wallaby:
 - project: puppet-java
   tags:
-    victoria:
-      source-branch: f9913171310e99f579532fb3be373d784a02f44e
+    wallaby:
 - project: puppet-kafka
   tags:
-    victoria:
-      source-branch: 70ec701dbe4de76a376bca3023101cf228fc5832
+    wallaby:
 - project: puppet-keepalived
   tags:
-    victoria:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    wallaby:
 - project: puppet-keystone
   tags:
-    victoria:
+    wallaby:
 - project: puppet-kibana3
   tags:
-    victoria:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    wallaby:
 - project: puppet-kmod
   tags:
-    victoria:
-      source-branch: 52e31e3e9ede38841f1035a1d0690088863fa6a2
+    wallaby:
 - project: puppet-lib-file_concat
   tags:
-    victoria:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    wallaby:
 - project: puppet-magnum
   tags:
-    victoria:
+    wallaby:
 - project: puppet-manila
   tags:
-    victoria:
+    wallaby:
 - project: puppet-memcached
   tags:
-    victoria:
-      source-branch: 39d052bed3a5f07889ba6a19398ec3c1fa344adb
+    wallaby:
 - project: puppet-midonet
   tags:
-    victoria:
+    wallaby:
 - project: puppet-mistral
   tags:
-    victoria:
+    wallaby:
 - project: puppet-module-data
   tags:
-    victoria:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    wallaby:
 - project: puppet-mongodb
   tags:
-    victoria:
-      source-branch: 9e3dc4d822df72b63521dd4a39dc8a399b21a820
+    wallaby:
 - project: puppet-murano
   tags:
-    victoria:
+    wallaby:
 - project: puppet-mysql
   tags:
-    victoria:
-      source-branch: 937d0443c6da5a4080ef977f8979f7d10fdb0253
+    wallaby:
 - project: puppet-n1k-vsm
   tags:
-    victoria:
+    wallaby:
 - project: puppet-neutron
   tags:
-    victoria:
+    wallaby:
 - project: puppet-nova
   tags:
-    victoria:
+    wallaby:
 - project: puppet-nssdb
   tags:
-    victoria:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    wallaby:
 - project: puppet-ntp
   tags:
-    victoria:
+    wallaby:
       source-branch: 4.2.0
 - project: puppet-octavia
   tags:
-    victoria:
+    wallaby:
 - project: puppet-openstack_extras
   tags:
-    victoria:
+    wallaby:
 - project: puppet-openstacklib
   tags:
-    victoria:
+    wallaby:
 - project: puppet-oslo
   tags:
-    victoria:
+    wallaby:
 - project: puppet-ovn
   tags:
-    victoria:
+    wallaby:
 - project: puppet-pacemaker
   tags:
-    victoria:
+    wallaby:
 - project: puppet-panko
   tags:
-    victoria:
+    wallaby:
 - project: puppet-placement
   tags:
-    victoria:
+    wallaby:
 - project: puppet-powerdns
   tags:
-    victoria:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
+    wallaby:
 - project: puppet-qdr
   tags:
-    victoria:
+    wallaby:
 - project: puppet-rabbitmq
   tags:
-    victoria:
-      source-branch: f6b3a8f25b31b46139e94de49c109e5d0ccdd964
+    wallaby:
 - project: puppet-redis
   tags:
-    victoria:
-      source-branch: d44386133a7c524ba0f31d375cf91533f78db1cc
+    wallaby:
 - project: puppet-remote
   tags:
-    victoria:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    wallaby:
 - project: puppet-rsync
   tags:
-    victoria:
-      source-branch: b3ee352a0bffbfa521c93ab1aa9e80861c4533d9
+    wallaby:
 - project: puppet-rsyslog
   tags:
     # NOTE(aschultz): rsyslog broke backwards compatibility with
     # # https://github.com/voxpupuli/puppet-rsyslog/pull/136
-    victoria:
+    wallaby:
       source-branch: 2548a0d95c1549b506b7bb2314dd149b028fc04b
 - project: puppet-sahara
   tags:
-    victoria:
+    wallaby:
 - project: puppet-sensu
   tags:
-    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
-    # clients to Go language, which we don't provide and will not provide in future,
-    # because Sensu is being deprecated.
-    victoria:
-      source-branch: 20361a4043d2881359551510ada0817caee3bc05
+    wallaby:
 - project: puppet-snmp
   tags:
-    victoria:
-      # New versions of puppet-snmp require facter > 3.
-      source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
+    wallaby:
 - project: puppet-ssh
   tags:
-    victoria:
-      source-branch: 6e0f430034cf349c8b613d16cf9e3a52f63183e0
+    wallaby:
 - project: puppet-staging
   tags:
-    victoria:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    wallaby:
 - project: puppet-stdlib
   tags:
-    victoria:
-      source-branch: 7c1ae256a70045473ebf2f50a61c8c082b926f29
+    wallaby:
 - project: puppet-swift
   tags:
-    victoria:
+    wallaby:
 - project: puppet-sysctl
   tags:
-    victoria:
-      source-branch: a3d160d7c79cc905fc1d10a4fd8b4c1488e017b4
+    wallaby:
 - project: puppet-systemd
   tags:
-    victoria:
-      source-branch: 415d84a9f5ee2c041ec7787c5ae5ef0ae714abb7
+    wallaby:
 - project: puppet-tacker
   tags:
-    victoria:
+    wallaby:
 - project: puppet-tempest
   tags:
-    victoria:
+    wallaby:
 - project: puppet-timezone
   tags:
-    victoria:
-      source-branch: 74946be5552028855d5e9197a0942b5f463368d0
+    wallaby:
 - project: puppet-tomcat
   tags:
-    victoria:
-      source-branch: 6add7e4c3b3742da3e8aa04f909b25d9e4d0662d
+    wallaby:
 - project: puppet-tripleo
   tags:
-    victoria:
+    wallaby:
 - project: puppet-trove
   tags:
-    victoria:
+    wallaby:
 - project: puppet-uchiwa
   tags:
-    victoria:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
+    wallaby:
 - project: puppet-vcsrepo
   tags:
-    victoria:
-      source-branch: a36ee18f8f70343f22c7c9471f27e1b3efec99ee
+    wallaby:
 - project: puppet-veritas_hyperscale
   tags:
-    victoria:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
+    wallaby:
 - project: puppet-vitrage
   tags:
-    victoria:
+    wallaby:
 - project: puppet-vlan
   tags:
-    victoria:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    wallaby:
 - project: puppet-vswitch
   tags:
-    victoria:
+    wallaby:
 - project: puppet-watcher
   tags:
-    victoria:
+    wallaby:
 - project: puppet-xinetd
   tags:
-    victoria:
-      source-branch: 8d460c4b64e357bd0ba0f2ca78509d999b59b21c
+    wallaby:
 - project: puppet-zaqar
   tags:
-    victoria:
+    wallaby:
 - project: puppet-zookeeper
   tags:
-    victoria:
-      source-branch: 76096571a3ec2630570fb183a5851ed58a33e932
+    wallaby:
 - project: pycadf
   tags:
-    victoria:
-      source-branch: 3.1.1
+    wallaby:
 - project: rally
   tags:
-    victoria:
+    wallaby:
 - project: rally-openstack
   tags:
-    victoria:
+    wallaby:
 - project: reno
   tags:
-    victoria:
-      source-branch: 3.2.0
+    wallaby:
 - project: requestsexceptions
   tags:
-    victoria:
-      source-branch: 1.4.0
+    wallaby:
 - project: rsd-lib
   tags:
-    victoria:
-      source-branch: 1.2.0
+    wallaby:
 - project: rsdclient
   tags:
-    victoria:
-      source-branch: 1.0.2
+    wallaby:
 - project: sahara
   tags:
-    victoria:
+    wallaby:
 - project: sahara-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: sahara-image-elements
   tags:
-    victoria:
+    wallaby:
 - project: sahara-plugin-ambari
   tags:
-    victoria:
+    wallaby:
 - project: sahara-plugin-cdh
   tags:
-    victoria:
+    wallaby:
 - project: sahara-plugin-mapr
   tags:
-    victoria:
+    wallaby:
 - project: sahara-plugin-spark
   tags:
-    victoria:
+    wallaby:
 - project: sahara-plugin-storm
   tags:
-    victoria:
+    wallaby:
 - project: sahara-plugin-vanilla
   tags:
-    victoria:
+    wallaby:
 - project: sahara-tests
   tags:
-    victoria:
-      source-branch: 0.11.0
+    wallaby:
 - project: saharaclient
   tags:
-    victoria:
-      source-branch: 3.2.1
+    wallaby:
 - project: scciclient
   tags:
-    victoria:
+    wallaby:
 - project: senlin
   tags:
-    victoria:
+    wallaby:
 - project: senlinclient
   tags:
-    victoria:
-      source-branch: 2.1.1
+    wallaby:
 - project: shade
   tags:
-    victoria:
-      source-branch: 1.33.0
+    wallaby:
 - project: sphinx-feature-classification
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: stackviz
   tags:
-    victoria:
+    wallaby:
 - project: stevedore
   tags:
-    victoria:
-      source-branch: 3.2.2
+    wallaby:
 - project: sushy
   tags:
-    victoria:
-      source-branch: 3.4.1
+    wallaby:
 - project: sushy-oem-idrac
   tags:
-    victoria:
+    wallaby:
 - project: swift
   tags:
-    victoria:
+    wallaby:
 - project: swiftclient
   tags:
-    victoria:
-      source-branch: 3.10.1
+    wallaby:
 - project: tacker
   tags:
-    victoria:
+    wallaby:
 - project: tackerclient
   tags:
-    victoria:
-      source-branch: 1.3.0
+    wallaby:
 - project: tap-as-a-service
   tags:
-    victoria:
+    wallaby:
 - project: taskflow
   tags:
-    victoria:
-      source-branch: 4.5.0
+    wallaby:
 - project: telemetry-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: tempest
   tags:
-    victoria:
-      source-branch: 25.0.0
+    wallaby:
 - project: tempest-horizon
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: tempestconf
   tags:
-    victoria:
+    wallaby:
 - project: tobiko
   tags:
-    victoria:
+    wallaby:
 - project: tooz
   tags:
-    victoria:
-      source-branch: 2.7.1
+    wallaby:
 - project: tripleo-ansible
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-common
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-heat-templates
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-image-elements
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-ipa
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-ipsec
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-operator-ansible
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-powerflex
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-puppet-elements
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-repos
   tags:
-    victoria:
+    wallaby:
 - project: tripleo-validations
   tags:
-    victoria:
+    wallaby:
 - project: tripleoclient
   tags:
-    victoria:
+    wallaby:
 - project: trove
   tags:
-    victoria:
+    wallaby:
 - project: trove-dashboard
   tags:
-    victoria:
+    wallaby:
 - project: trove-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: troveclient
   tags:
-    victoria:
-      source-branch: 5.1.1
+    wallaby:
 - project: validations-common
   tags:
-    victoria:
+    wallaby:
 - project: validations-libs
   tags:
-    victoria:
+    wallaby:
 - project: virtualbmc
   tags:
-    victoria:
-      source-branch: 2.2.0
+    wallaby:
 - project: vitrage
   tags:
-    victoria:
+    wallaby:
 - project: vitrage-dashboard
   tags:
-    victoria:
-      source-branch: 3.0.0
+    wallaby:
 - project: vitrage-tempest-plugin
   tags:
-    victoria:
-      source-branch: 5.1.0
+    wallaby:
 - project: vitrageclient
   tags:
-    victoria:
-      source-branch: 4.1.1
+    wallaby:
 - project: vmware-nsx
   tags:
-    victoria:
+    wallaby:
 - project: vmware-nsx-tempest-plugin
   tags:
-    victoria:
-      source-branch: 2.0.0.0
+    wallaby:
 - project: vmware-nsxlib
   tags:
-    victoria:
+    wallaby:
 - project: watcher
   tags:
-    victoria:
+    wallaby:
 - project: watcher-tempest-plugin
   tags:
-    victoria:
-      source-branch: 2.1.0
+    wallaby:
 - project: wsme
   tags:
-    victoria:
-      source-branch: bff9624cbc96bfd04e8d1ed5ee2e586b22a2ba51
+    wallaby:
 - project: zaqar
   tags:
-    victoria:
+    wallaby:
 - project: zaqar-tempest-plugin
   tags:
-    victoria:
-      source-branch: 1.1.0
+    wallaby:
 - project: zaqarclient
   tags:
-    victoria:
-      source-branch: 2.0.1
+    wallaby:

@@ -20,7 +20,7 @@ UC = 'upper-constraints.txt'
 if len(sys.argv) > 1:
     UC_RELEASE = sys.argv[1]
 else:
-    UC_RELEASE = 'victoria-uc'
+    UC_RELEASE = 'wallaby-uc'
 
 
 # filter for Oslo and clients
