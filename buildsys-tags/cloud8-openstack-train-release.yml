@@ -79,7 +79,7 @@ packages:
     cloud8-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-cinder-15.3.0-1.el8
+    cloud8-openstack-train-release: openstack-cinder-15.4.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-cinder-tests-tempest-0.3.1-1.el8
@@ -604,7 +604,7 @@ packages:
     cloud8-openstack-train-release: python-oslo-policy-2.3.4-1.el8
 - project: oslo-privsep
   buildsys-tags:
-    cloud8-openstack-train-release: python-oslo-privsep-1.33.3-1.el8
+    cloud8-openstack-train-release: python-oslo-privsep-1.33.4-1.el8
 - project: oslo-reports
   buildsys-tags:
     cloud8-openstack-train-release: python-oslo-reports-1.30.0-1.el8
