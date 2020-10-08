@@ -491,6 +491,9 @@ packages:
 - project: openstacksdk
   buildsys-tags:
     cloud8-openstack-victoria-release: python-openstacksdk-0.50.0-1.el8
+- project: openvswitch
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openvswitch-2.12.0-1.1.el8
 - project: os-apply-config
   buildsys-tags:
     cloud8-openstack-victoria-release: os-apply-config-11.3.0-1.el8
@@ -611,6 +614,9 @@ packages:
 - project: oswin-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-release: python-oswin-tests-tempest-1.1.0-1.el8
+- project: ovn
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ovn-20.03.0-4.el8
 - project: ovn-octavia-provider
   buildsys-tags:
     cloud8-openstack-victoria-release: python-ovn-octavia-provider-0.3.0-1.el8
