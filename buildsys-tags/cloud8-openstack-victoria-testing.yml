@@ -55,7 +55,7 @@ packages:
     cloud8-openstack-victoria-testing: python-ceilometermiddleware-2.1.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-cinder-17.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-cinder-17.0.0-0.2.0rc2.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-cinder-tests-tempest-1.2.0-1.el8
@@ -211,7 +211,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-heat-15.0.0-0.1.0rc1.el8
 - project: heat-agents
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-heat-agents-2.1.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-heat-agents-2.1.1-1.el8
 - project: heat-cfntools
   buildsys-tags:
     cloud8-openstack-victoria-testing: heat-cfntools-1.4.2-11.el8
@@ -436,7 +436,7 @@ packages:
     cloud8-openstack-victoria-testing: python-networking-sfc-11.0.0-0.1.0rc1.el8
 - project: neutron
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-neutron-17.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-neutron-17.0.0-0.2.0rc2.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-neutron-dynamic-routing-17.0.0-0.1.0rc1.el8
@@ -472,7 +472,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-octavia-7.0.0-0.1.0rc1.el8
 - project: octavia-dashboard
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-octavia-ui-6.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-octavia-ui-6.0.0-0.2.0rc2.el8
 - project: octavia-lib
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-octavia-lib-2.2.0-1.el8
@@ -1963,10 +1963,13 @@ packages:
     cloud8-openstack-victoria-testing: python-telemetry-tests-tempest-1.1.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-tempest-25.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-tempest-25.0.0-2.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-horizon-tests-tempest-1.1.0-1.el8
+- project: tempestconf
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-tempestconf-2.5.0-1.el8
 - project: tooz
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-tooz-2.7.1-1.el8
