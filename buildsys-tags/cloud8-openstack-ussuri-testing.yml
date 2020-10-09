@@ -250,7 +250,7 @@ packages:
     cloud8-openstack-ussuri-testing: hdf5-1.10.5-5.el8
 - project: heat
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-heat-14.0.0-2.el8
+    cloud8-openstack-ussuri-testing: openstack-heat-14.1.0-1.el8
 - project: heat-agents
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-heat-agents-2.0.0-1.el8
@@ -259,7 +259,7 @@ packages:
     cloud8-openstack-ussuri-testing: heat-cfntools-1.4.2-11.el8
 - project: heat-dashboard
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-heat-ui-3.0.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-heat-ui-3.0.1-1.el8
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-heat-tests-tempest-1.0.0-1.el8
@@ -481,7 +481,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-networking-sfc-10.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-neutron-16.0.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-neutron-16.2.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-neutron-dynamic-routing-16.0.0-1.el8
@@ -625,7 +625,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-oslo-policy-3.1.1-1.el8
 - project: oslo-privsep
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-oslo-privsep-2.1.1-1.el8
+    cloud8-openstack-ussuri-testing: python-oslo-privsep-2.1.2-1.el8
 - project: oslo-reports
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-oslo-reports-2.0.1-1.el8
@@ -2014,7 +2014,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-telemetry-tests-tempest-1.0.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-tempest-24.0.0-1.el8
+    cloud8-openstack-ussuri-testing: openstack-tempest-25.0.0-1.1.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-horizon-tests-tempest-1.0.0-1.el8
