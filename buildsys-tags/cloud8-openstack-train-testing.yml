@@ -238,7 +238,7 @@ packages:
     cloud8-openstack-train-testing: hdf5-1.10.5-5.el8
 - project: heat
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-heat-13.0.2-2.el8
+    cloud8-openstack-train-testing: openstack-heat-13.1.0-1.el8
 - project: heat-agents
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-heat-agents-1.10.0-1.el8
@@ -247,7 +247,7 @@ packages:
     cloud8-openstack-train-testing: heat-cfntools-1.4.2-11.el8
 - project: heat-dashboard
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-heat-ui-2.0.0-1.el8
+    cloud8-openstack-train-testing: openstack-heat-ui-2.0.2-1.el8
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-testing: python-heat-tests-tempest-0.4.0-1.el8
@@ -256,7 +256,7 @@ packages:
     cloud8-openstack-train-testing: python-heat-translator-1.4.1-1.el8
 - project: heatclient
   buildsys-tags:
-    cloud8-openstack-train-testing: python-heatclient-1.18.0-1.el8
+    cloud8-openstack-train-testing: python-heatclient-1.18.1-1.el8
 - project: hiera
   buildsys-tags:
     cloud8-openstack-train-testing: hiera-3.6.0-1.el8
@@ -460,7 +460,7 @@ packages:
     cloud8-openstack-train-testing: python-networking-sfc-9.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-neutron-15.1.0-1.el8
+    cloud8-openstack-train-testing: openstack-neutron-15.3.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-neutron-dynamic-routing-15.0.0-1.el8
