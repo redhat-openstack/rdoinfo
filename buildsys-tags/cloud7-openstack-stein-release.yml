@@ -262,7 +262,7 @@ packages:
     cloud7-openstack-stein-release: hdf5-1.8.13-7.el7
 - project: heat
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-heat-12.1.0-1.el7
+    cloud7-openstack-stein-release: openstack-heat-12.2.0-1.el7
 - project: heat-agents
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-heat-agents-1.8.0-1.el7
@@ -271,7 +271,7 @@ packages:
     cloud7-openstack-stein-release: heat-cfntools-1.3.0-2.el7
 - project: heat-dashboard
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-heat-ui-1.5.0-1.el7
+    cloud7-openstack-stein-release: openstack-heat-ui-1.5.1-1.el7
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud7-openstack-stein-release: python-heat-tests-tempest-0.3.0-1.el7
@@ -280,7 +280,7 @@ packages:
     cloud7-openstack-stein-release: python-heat-translator-1.3.1-1.el7
 - project: heatclient
   buildsys-tags:
-    cloud7-openstack-stein-release: python-heatclient-1.17.0-1.el7
+    cloud7-openstack-stein-release: python-heatclient-1.17.1-1.el7
 - project: hiera
   buildsys-tags:
     cloud7-openstack-stein-release: hiera-1.3.4-5.el7
@@ -481,7 +481,7 @@ packages:
     cloud7-openstack-stein-release: python-networking-sfc-8.0.0-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-stein-release: openstack-neutron-14.3.1-1.el7
+    cloud7-openstack-stein-release: openstack-neutron-14.4.0-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-stein-release: openstack-neutron-dynamic-routing-14.0.0-1.el7
