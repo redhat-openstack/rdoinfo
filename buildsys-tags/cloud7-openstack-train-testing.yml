@@ -35,6 +35,9 @@ packages:
 - project: ansible-role-container-registry
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-role-container-registry-1.1.0-1.el7
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud7-openstack-train-testing: ansible-role-lunasa-hsm-1.0.0-0.1.el7
 - project: ansible-role-openstack-operations
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el7
@@ -2077,7 +2080,7 @@ packages:
     cloud7-openstack-train-testing: python-sushy-2.0.3-1.el7
 - project: swift
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-swift-2.23.1-1.el7
+    cloud7-openstack-train-testing: openstack-swift-2.23.2-1.el7
 - project: swiftclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-swiftclient-3.8.1-1.el7
@@ -2156,6 +2159,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud7-openstack-train-testing: uwsgi-2.0.16-1.el7
+- project: validations-common
+  buildsys-tags:
+    cloud7-openstack-train-testing: validations-common-1.1.1-0.1.el7
+- project: validations-libs
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-validations-libs-1.0.4-0.1.el7
 - project: virtualbmc
   buildsys-tags:
     cloud7-openstack-train-testing: python-virtualbmc-1.6.0-1.el7
