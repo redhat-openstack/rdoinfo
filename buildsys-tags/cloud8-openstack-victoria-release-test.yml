@@ -1,0 +1,76 @@
+packages:
+- project: ansible-config_template
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-config_template-1.1.1-1.el8
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-pacemaker-1.0.4-0.1.5847167git.el8
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-atos-hsm-0.1.0-2.e51c244git.el8
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-chrony-1.0.1-1.el8
+- project: ansible-role-container-registry
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-container-registry-1.2.0-1.el8
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-redhat-subscription-1.1.0-1.el8
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-thales-hsm-0.2.0-2.99b3d39git.el8
+- project: ansible-role-tripleo-modify-image
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-role-tripleo-modify-image-1.2.0-1.el8
+- project: networking-ansible
+  buildsys-tags:
+    cloud8-openstack-victoria-release: python-networking-ansible-4.0.0-1.el8
+- project: openstack-selinux
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openstack-selinux-0.8.24-1.el8
+- project: os-net-config
+  buildsys-tags:
+    cloud8-openstack-victoria-release: os-net-config-13.0.0-1.el8
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud8-openstack-victoria-release: puppet-tripleo-13.4.0-1.el8
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud8-openstack-victoria-release: python-tap-as-a-service-7.0.0-1.el8
+- project: tripleo-ansible
+  buildsys-tags:
+    cloud8-openstack-victoria-release: tripleo-ansible-2.0.0-1.el8
+- project: tripleo-common
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openstack-tripleo-common-13.0.0-1.el8
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openstack-tripleo-heat-templates-13.0.0-1.el8
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openstack-tripleo-image-elements-12.1.0-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-tripleo-ipa-0.2.0-1.el8
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-tripleo-ipsec-9.3.0-1.el8
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openstack-tripleo-puppet-elements-13.0.0-1.el8
+- project: tripleo-validations
+  buildsys-tags:
+    cloud8-openstack-victoria-release: openstack-tripleo-validations-13.0.0-1.el8
+- project: tripleoclient
+  buildsys-tags:
+    cloud8-openstack-victoria-release: python-tripleoclient-14.0.0-1.el8
+- project: vmware-nsx
+  buildsys-tags:
+    cloud8-openstack-victoria-release: python-networking-vmware-nsx-17.0.0-1.el8
+- project: vmware-nsxlib
+  buildsys-tags:
+    cloud8-openstack-victoria-release: python-vmware-nsxlib-17.0.0-1.el8
