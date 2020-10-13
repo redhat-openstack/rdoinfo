@@ -14,6 +14,9 @@ packages:
 - project: ansible-freeipa
   buildsys-tags:
     cloud8-openstack-victoria-testing: ansible-freeipa-0.1.8-2.el8
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: ansible-role-lunasa-hsm-1.0.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-aodh-11.0.0-0.1.0rc1.el8
@@ -232,7 +235,7 @@ packages:
     cloud8-openstack-victoria-testing: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-django-horizon-18.6.0-1.el8
+    cloud8-openstack-victoria-testing: python-django-horizon-18.6.1-1.el8
 - project: ibmcclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-ibmcclient-0.2.5.1-1.el8
@@ -1951,7 +1954,7 @@ packages:
     cloud8-openstack-victoria-testing: sysbench-1.0.17-3.el8
 - project: tacker
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-tacker-4.0.0-0.2.0rc2.el8
+    cloud8-openstack-victoria-testing: openstack-tacker-4.0.0-0.3.0rc3.el8
 - project: tackerclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-tackerclient-1.3.0-1.el8
