@@ -26,6 +26,9 @@ packages:
 - project: ansible-role-container-registry
   buildsys-tags:
     cloud8-openstack-train-release: ansible-role-container-registry-1.1.0-1.el8
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud8-openstack-train-release: ansible-role-lunasa-hsm-1.0.0-0.1.el8
 - project: ansible-role-openstack-operations
   buildsys-tags:
     cloud8-openstack-train-release: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
@@ -1915,7 +1918,7 @@ packages:
     cloud8-openstack-train-release: python-sushy-2.0.3-1.el8
 - project: swift
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-swift-2.23.1-1.el8
+    cloud8-openstack-train-release: openstack-swift-2.23.2-1.el8
 - project: swiftclient
   buildsys-tags:
     cloud8-openstack-train-release: python-swiftclient-3.8.1-1.el8
@@ -1997,6 +2000,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud8-openstack-train-release: uwsgi-2.0.18-4.el8
+- project: validations-common
+  buildsys-tags:
+    cloud8-openstack-train-release: validations-common-1.1.1-0.1.el8
+- project: validations-libs
+  buildsys-tags:
+    cloud8-openstack-train-release: python-validations-libs-1.0.4-0.1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8-openstack-train-release: python-virtualbmc-1.6.0-1.el8
