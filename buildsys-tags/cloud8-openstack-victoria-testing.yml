@@ -19,7 +19,7 @@ packages:
     cloud8-openstack-victoria-testing: ansible-role-lunasa-hsm-1.0.0-1.el8
 - project: aodh
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-aodh-11.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-aodh-11.0.0-0.2.0rc1.el8
 - project: aodhclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-aodhclient-2.1.1-1.el8
@@ -28,7 +28,7 @@ packages:
     cloud8-openstack-victoria-testing: python-automaton-2.2.0-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-barbican-11.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-barbican-11.0.0-0.2.0rc1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-barbican-tests-tempest-1.1.0-1.el8
@@ -49,7 +49,7 @@ packages:
     cloud8-openstack-victoria-testing: python-castellan-3.6.0-1.el8
 - project: ceilometer
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-ceilometer-15.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-ceilometer-15.0.0-0.2.0rc1.el8
 - project: ceilometerclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-ceilometerclient-2.9.0-1.el8
@@ -241,7 +241,7 @@ packages:
     cloud8-openstack-victoria-testing: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-ironic-16.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-ironic-16.0.1-1.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-ironic-inspector-10.4.0-1.el8
@@ -256,7 +256,7 @@ packages:
     cloud8-openstack-victoria-testing: python-ironic-prometheus-exporter-2.1.1-1.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-ironic-python-agent-6.4.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-ironic-python-agent-6.4.1-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-ironic-python-agent-builder-2.2.0-1.el8
@@ -1882,10 +1882,10 @@ packages:
     cloud8-openstack-victoria-testing: openstack-sahara-13.0.0-0.1.0rc1.el8
 - project: sahara-dashboard
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-sahara-ui-13.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: openstack-sahara-ui-13.0.0-1.el8
 - project: sahara-image-elements
   buildsys-tags:
-    cloud8-openstack-victoria-testing: sahara-image-elements-13.0.0-0.1.0rc1.el8
+    cloud8-openstack-victoria-testing: sahara-image-elements-13.0.0-1.el8
 - project: sahara-plugin-ambari
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-sahara-plugin-ambari-4.0.0-0.1.0rc1.el8
@@ -1930,7 +1930,7 @@ packages:
     cloud8-openstack-victoria-testing: sshpass-1.06-8.el8
 - project: stevedore
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-stevedore-3.2.2-1.el8
+    cloud8-openstack-victoria-testing: python-stevedore-3.2.2-2.el8
 - project: subunit
   buildsys-tags:
     cloud8-openstack-victoria-testing: subunit-1.4.0-1.el8
