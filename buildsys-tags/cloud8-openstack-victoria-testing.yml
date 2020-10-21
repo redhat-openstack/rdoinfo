@@ -136,7 +136,7 @@ packages:
     cloud8-openstack-victoria-testing: dibbler-1.0.1-10.el8
 - project: diskimage-builder
   buildsys-tags:
-    cloud8-openstack-victoria-testing: diskimage-builder-3.3.1-1.el8
+    cloud8-openstack-victoria-testing: diskimage-builder-3.3.1-2.el8
 - project: dracclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-dracclient-4.0.0-1.el8
@@ -217,7 +217,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-heat-15.0.0-1.el8
 - project: heat-agents
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-heat-agents-2.1.1-1.el8
+    cloud8-openstack-victoria-testing: openstack-heat-agents-2.1.1-2.el8
 - project: heat-cfntools
   buildsys-tags:
     cloud8-openstack-victoria-testing: heat-cfntools-1.4.2-11.el8
@@ -271,7 +271,7 @@ packages:
     cloud8-openstack-victoria-testing: python-ironic-tests-tempest-2.1.0-1.el8
 - project: ironic-ui
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-ironic-ui-4.2.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-ironic-ui-4.2.0-2.el8
 - project: ironicclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-ironicclient-4.3.0-1.el8
@@ -397,7 +397,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-murano-10.0.0-1.el8
 - project: murano-agent
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-murano-agent-6.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-murano-agent-6.0.0-2.el8
 - project: murano-dashboard
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-murano-ui-10.0.0-1.el8
@@ -445,7 +445,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-neutron-17.0.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-neutron-dynamic-routing-17.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-neutron-dynamic-routing-17.0.0-2.el8
 - project: neutron-lib
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-neutron-lib-2.6.1-1.el8
@@ -454,7 +454,7 @@ packages:
     cloud8-openstack-victoria-testing: python-neutron-tests-tempest-1.2.0-1.el8
 - project: neutron-vpnaas
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-neutron-vpnaas-17.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-neutron-vpnaas-17.0.0-2.el8
 - project: neutronclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-neutronclient-7.2.1-1.el8
@@ -502,7 +502,7 @@ packages:
     cloud8-openstack-victoria-testing: openvswitch-2.12.0-1.1.el8
 - project: os-apply-config
   buildsys-tags:
-    cloud8-openstack-victoria-testing: os-apply-config-11.3.0-1.el8
+    cloud8-openstack-victoria-testing: os-apply-config-11.3.0-2.el8
 - project: os-brick
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-os-brick-4.0.1-1.el8
@@ -520,7 +520,7 @@ packages:
     cloud8-openstack-victoria-testing: python-os-ken-1.2.0-1.el8
 - project: os-net-config
   buildsys-tags:
-    cloud8-openstack-victoria-testing: os-net-config-12.6.0-1.el8
+    cloud8-openstack-victoria-testing: os-net-config-12.6.0-2.el8
 - project: os-refresh-config
   buildsys-tags:
     cloud8-openstack-victoria-testing: os-refresh-config-10.4.0-1.el8
@@ -655,7 +655,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-6.14.0-2.el8
 - project: puppet-aodh
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-aodh-17.5.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-aodh-17.5.0-2.el8
 - project: puppet-apache
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-apache-5.5.0-1.afbaf19git.el8
@@ -667,13 +667,13 @@ packages:
     cloud8-openstack-victoria-testing: puppet-auditd-2.2.0-3.189b22bgit.el8
 - project: puppet-barbican
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-barbican-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-barbican-17.4.0-2.el8
 - project: puppet-cassandra
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-cassandra-3.1.1-0.1.0rc0.584d7d0git.el8
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-ceilometer-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-ceilometer-17.4.0-2.el8
 - project: puppet-ceph
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-ceph-3.1.1-1.el8
@@ -682,7 +682,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-certmonger-2.4.0-1.a198870git.el8
 - project: puppet-cinder
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-cinder-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-cinder-17.4.0-2.el8
 - project: puppet-collectd
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-collectd-12.2.1-0.1.0rc0.f9f2e7dgit.el8
@@ -706,7 +706,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-dns-8.0.0-1.820cb71git.el8
 - project: puppet-ec2api
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-ec2api-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-ec2api-17.4.0-2.el8
 - project: puppet-elasticsearch
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-elasticsearch-6.4.0-3.873058egit.el8
@@ -727,19 +727,19 @@ packages:
     cloud8-openstack-victoria-testing: puppet-git-0.5.0-1.4e4498egit.el8
 - project: puppet-glance
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-glance-17.5.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-glance-17.5.0-2.el8
 - project: puppet-gnocchi
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-gnocchi-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-gnocchi-17.4.0-2.el8
 - project: puppet-haproxy
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-haproxy-4.2.1-1.a797b8cgit.el8
 - project: puppet-heat
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-heat-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-heat-17.4.0-2.el8
 - project: puppet-horizon
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-horizon-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-horizon-17.4.0-2.el8
 - project: puppet-inifile
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-inifile-4.2.0-1.df46d2agit.el8
@@ -748,7 +748,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-ipaclient-2.5.2-1.b086731git.el8
 - project: puppet-ironic
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-ironic-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-ironic-17.4.0-2.el8
 - project: puppet-java
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-java-6.3.0-1.f991317git.el8
@@ -760,7 +760,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
 - project: puppet-keystone
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-keystone-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-keystone-17.4.0-2.el8
 - project: puppet-kibana3
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-kibana3-0.0.4-1.6ca9631git.el8
@@ -772,10 +772,10 @@ packages:
     cloud8-openstack-victoria-testing: puppet-lib-file_concat-1.0.1-1.el8
 - project: puppet-magnum
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-magnum-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-magnum-17.4.0-2.el8
 - project: puppet-manila
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-manila-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-manila-17.4.0-2.el8
 - project: puppet-memcached
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-memcached-3.7.0-1.39d052bgit.el8
@@ -784,7 +784,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-midonet-1.1.0-2.4a44c33git.el8
 - project: puppet-mistral
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-mistral-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-mistral-17.4.0-2.el8
 - project: puppet-module-data
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-module-data-0.5.1-1.28dafcegit.el8
@@ -793,7 +793,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-mongodb-3.1.1-0.2.0rc0.9e3dc4dgit.el8
 - project: puppet-murano
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-murano-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-murano-17.4.0-2.el8
 - project: puppet-mysql
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-mysql-10.6.0-1.937d044git.el8
@@ -802,7 +802,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
 - project: puppet-neutron
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-neutron-17.5.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-neutron-17.5.0-2.el8
 - project: puppet-nova
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-nova-17.5.0-1.el8
@@ -814,34 +814,34 @@ packages:
     cloud8-openstack-victoria-testing: puppet-ntp-4.2.0-1.el8
 - project: puppet-octavia
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-octavia-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-octavia-17.4.0-2.el8
 - project: puppet-openstack_extras
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-openstack_extras-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-openstack_extras-17.4.0-2.el8
 - project: puppet-openstacklib
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-openstacklib-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-openstacklib-17.4.0-2.el8
 - project: puppet-oslo
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-oslo-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-oslo-17.4.0-2.el8
 - project: puppet-ovn
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-ovn-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-ovn-17.4.0-2.el8
 - project: puppet-pacemaker
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-pacemaker-1.1.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-pacemaker-1.1.0-2.el8
 - project: puppet-panko
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-panko-17.5.0-1.el8
 - project: puppet-placement
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-placement-4.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-placement-4.4.0-2.el8
 - project: puppet-powerdns
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
 - project: puppet-qdr
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-qdr-6.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-qdr-6.4.0-2.el8
 - project: puppet-rabbitmq
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-rabbitmq-10.1.2-0.1.0rc0.f6b3a8fgit.el8
@@ -859,7 +859,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
 - project: puppet-sahara
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-sahara-17.4.1-1.el8
+    cloud8-openstack-victoria-testing: puppet-sahara-17.4.1-2.el8
 - project: puppet-sensu
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-sensu-2.62.3-1.20361a4git.el8
@@ -877,7 +877,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-stdlib-6.3.0-2.7c1ae25git.el8
 - project: puppet-swift
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-swift-17.4.1-1.el8
+    cloud8-openstack-victoria-testing: puppet-swift-17.4.1-2.el8
 - project: puppet-sysctl
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-sysctl-0.0.12-1.a3d160dgit.el8
@@ -886,10 +886,10 @@ packages:
     cloud8-openstack-victoria-testing: puppet-systemd-2.10.0-1.el8
 - project: puppet-tacker
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-tacker-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-tacker-17.4.0-2.el8
 - project: puppet-tempest
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-tempest-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-tempest-17.4.0-2.el8
 - project: puppet-timezone
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-timezone-6.0.0-1.74946begit.el8
@@ -898,7 +898,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-tomcat-4.1.0-1.6add7e4git.el8
 - project: puppet-trove
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-trove-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-trove-17.4.0-2.el8
 - project: puppet-uchiwa
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-uchiwa-2.1.1-2.837c669git.el8
@@ -910,22 +910,22 @@ packages:
     cloud8-openstack-victoria-testing: puppet-veritas_hyperscale-1.1.1-1.el8
 - project: puppet-vitrage
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-vitrage-7.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-vitrage-7.4.0-2.el8
 - project: puppet-vlan
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-vlan-0.1.0-1.el8
 - project: puppet-vswitch
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-vswitch-13.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-vswitch-13.4.0-2.el8
 - project: puppet-watcher
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-watcher-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-watcher-17.4.0-2.el8
 - project: puppet-xinetd
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-xinetd-3.3.0-2.8d460c4git.el8
 - project: puppet-zaqar
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-zaqar-17.4.0-1.el8
+    cloud8-openstack-victoria-testing: puppet-zaqar-17.4.0-2.el8
 - project: puppet-zookeeper
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-zookeeper-1.0.0-2.7609657git.el8
@@ -2005,7 +2005,7 @@ packages:
     cloud8-openstack-victoria-testing: python-virtualbmc-2.2.0-1.el8
 - project: vitrage
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-vitrage-7.3.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-vitrage-7.3.0-2.el8
 - project: vitrage-dashboard
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-vitrage-ui-3.0.0-1.el8
