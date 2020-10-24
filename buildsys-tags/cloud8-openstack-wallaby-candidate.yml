@@ -1,1 +1,37 @@
 packages:
+- project: GitPython
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: GitPython-3.1.11-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.4-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.4-1.el8
+- project: python-eventlet
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-eventlet-0.29.1-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-google-api-client-1.12.5-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-google-api-core-1.23.0-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-importlib-resources-3.1.1-1.el8
+- project: python-pillow
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pillow-8.0.1-1.el8
+- project: python-pytest-django
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pytest-django-4.1.0-1.el8
+- project: python-salt
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-salt-3002-1.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-urllib3-1.25.11-1.el8
+- project: python-zipp
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-zipp-3.3.2-1.el8
