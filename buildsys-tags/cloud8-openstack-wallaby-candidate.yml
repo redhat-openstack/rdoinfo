@@ -1,4 +1,7 @@
 packages:
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
