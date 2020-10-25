@@ -1976,6 +1976,9 @@ packages:
 - project: tempestconf
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-tempestconf-2.5.0-1.el8
+- project: tobiko
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: openstack-tobiko-0.2.0-1.el8
 - project: tooz
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-tooz-2.7.1-2.el8
