@@ -1,1 +1,16 @@
 packages:
+- project: python-cryptography
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-cryptography-3.2-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-importlib-resources-3.2.0-1.el8
+- project: python-psutil
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-psutil-5.7.3-1.el8
+- project: python-pygments
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pygments-2.7.2-1.el8
+- project: python-zipp
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-zipp-3.4.0-1.el8
