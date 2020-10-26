@@ -52,7 +52,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: barbicanclient
   tags:
     wallaby-uc:
@@ -78,7 +77,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.2.0
 - project: cinderclient
   tags:
     wallaby-uc:
@@ -120,7 +118,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 0.9.0
 - project: designateclient
   tags:
     wallaby-uc:
@@ -141,7 +138,6 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: futurist
   tags:
     wallaby-uc:
@@ -190,7 +186,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: heat-translator
   tags:
     wallaby-uc:
@@ -234,7 +229,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 2.1.0
 - project: ironic-ui
   tags:
     wallaby-uc:
@@ -248,7 +242,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 0.5.0
 - project: keystoneauth1
   tags:
     wallaby-uc:
@@ -273,14 +266,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 0.7.0
 - project: magnum
   tags:
     wallaby-uc:
 - project: magnum-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: magnum-ui
   tags:
     wallaby-uc:
@@ -294,7 +285,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.2.0
 - project: manila-ui
   tags:
     wallaby-uc:
@@ -326,7 +316,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: mistralclient
   tags:
     wallaby-uc:
@@ -351,7 +340,6 @@ packages:
 - project: murano-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 2.1.0
 - project: muranoclient
   tags:
     wallaby-uc:
@@ -383,7 +371,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 2e265b5e1e4cd1ffb9b48f7a9b3c0119a3da77c6
 - project: networking-mlnx
   tags:
     wallaby-uc:
@@ -409,7 +396,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.2.0
 - project: neutron-vpnaas
   tags:
     wallaby-uc:
@@ -430,7 +416,6 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 0.0.3
 - project: octavia
   tags:
     wallaby-uc:
@@ -444,7 +429,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: a80a185abef3234b035ec5d09e1748b743bc69e2
 - project: octaviaclient
   tags:
     wallaby-uc:
@@ -617,7 +601,6 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: ovn-octavia-provider
   tags:
     wallaby-uc:
@@ -1039,7 +1022,6 @@ packages:
 - project: sahara-tests
   tags:
     wallaby-uc:
-      source-branch: 0.11.0
 - project: saharaclient
   tags:
     wallaby-uc:
@@ -1100,15 +1082,12 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: tempest
   tags:
     wallaby-uc:
-      source-branch: 25.0.0
 - project: tempest-horizon
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: tempestconf
   tags:
     wallaby-uc:
@@ -1164,7 +1143,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: troveclient
   tags:
     wallaby-uc:
@@ -1189,7 +1167,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 5.1.0
 - project: vitrageclient
   tags:
     wallaby-uc:
@@ -1200,7 +1177,6 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     wallaby-uc:
@@ -1210,7 +1186,6 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 2.1.0
 - project: wsme
   tags:
     wallaby-uc:
@@ -1221,7 +1196,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     wallaby-uc:
-      source-branch: 1.1.0
 - project: zaqarclient
   tags:
     wallaby-uc:
