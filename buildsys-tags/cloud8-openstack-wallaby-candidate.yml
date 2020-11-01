@@ -1,4 +1,22 @@
 packages:
+- project: numpy
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: numpy-1.19.3-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.8-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.8-1.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-cryptography-3.2.1-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-dulwich-0.20.8-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-importlib-resources-3.3.0-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
@@ -8,6 +26,12 @@ packages:
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
+- project: python-pytest
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pytest-6.1.2-1.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-scp-0.13.3-1.el8
 - project: python-setuptools
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-setuptools-50.3.0-1.el8
+    cloud8-openstack-wallaby-candidate: python-setuptools-50.3.2-1.el8
