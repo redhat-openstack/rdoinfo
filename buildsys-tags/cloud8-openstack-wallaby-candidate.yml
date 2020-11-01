@@ -1,7 +1,7 @@
 packages:
-- project: python-cryptography-vectors
+- project: python-importlib-resources
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2-1.el8
+    cloud8-openstack-wallaby-candidate: python-importlib-resources-3.3.0-1.el8
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
@@ -17,6 +17,9 @@ packages:
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
 - project: python-setuptools
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-setuptools-50.3.0-1.el8
+    cloud8-openstack-wallaby-candidate: python-setuptools-50.3.2-1.el8
