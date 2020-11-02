@@ -13,7 +13,7 @@ packages:
     cloud8-openstack-victoria-candidate: python-alembic-1.4.2-5.el8
 - project: python-amqp
   buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-amqp-2.6.1-1.el8
+    cloud8-openstack-victoria-candidate: python-amqp-5.0.1-1.el8
 - project: python-ansible-runner
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-ansible-runner-1.4.6-3.el8
@@ -100,7 +100,7 @@ packages:
     cloud8-openstack-victoria-candidate: python-kazoo-2.8.0-1.el8
 - project: python-kombu
   buildsys-tags:
-    cloud8-openstack-victoria-candidate: python-kombu-4.6.11-2.el8
+    cloud8-openstack-victoria-candidate: python-kombu-5.0.2-1.el8
 - project: python-kubernetes
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-kubernetes-11.0.0-4.el8
@@ -239,6 +239,9 @@ packages:
 - project: python-uritemplate
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-uritemplate-3.0.1-3.el8
+- project: python-vine
+  buildsys-tags:
+    cloud8-openstack-victoria-candidate: python-vine-5.0.0-2.el8
 - project: python-waitress
   buildsys-tags:
     cloud8-openstack-victoria-candidate: python-waitress-1.4.4-1.el8
