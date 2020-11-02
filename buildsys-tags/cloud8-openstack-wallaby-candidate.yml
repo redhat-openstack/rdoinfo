@@ -1,7 +1,13 @@
 packages:
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
+- project: python-paste
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-paste-3.4.4-1.el8
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
