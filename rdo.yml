@@ -1872,13 +1872,6 @@ packages:
   - iurygregory@gmail.com
   - jkreger@gmail.com
   - etingof@gmail.com
-- project: collectd-ceilometer-plugin
-  name: collectd-ceilometer-plugin
-  conf: rpmfactory-lib
-  component: cloudops
-  upstream: https://git.openstack.org/openstack/collectd-ceilometer-plugin
-  maintainers:
-  - mrunge@redhat.com
 - project: collectd-gnocchi
   name: python-collectd-gnocchi
   conf: rpmfactory-lib
