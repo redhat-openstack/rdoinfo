@@ -1,4 +1,13 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.9-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.9-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
@@ -8,6 +17,18 @@ packages:
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
+- project: python-pysaml2
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pysaml2-6.3.0-1.el8
+- project: python-pytz
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pytz-2020.4-1.el8
+- project: python-pywbem
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pywbem-1.1.2-1.el8
 - project: python-setuptools
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-setuptools-50.3.0-1.el8
+- project: python-tornado
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-tornado-6.1-1.el8
