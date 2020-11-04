@@ -1,4 +1,7 @@
 packages:
+- project: python-cryptography-vectors
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2-1.el8
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
