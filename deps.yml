@@ -2452,3 +2452,21 @@ packages:
 - project: ara
   name: ara
   conf: rdo-dependency
+- project: openvswitch2.13
+  name: openvswitch2.13
+  conf: rdo-dependency
+  maintainers:
+  - dalvarez@redhat.com
+  - majopela@redhat.com
+- project: openvswitch-selinux-extra-policy
+  name: openvswitch-selinux-extra-policy
+  conf: rdo-dependency
+  maintainers:
+  - nusiddiq@redhat.com
+  - majopela@redhat.com
+- project: ovn2.13
+  name: ovn2.13
+  conf: rdo-dependency
+  maintainers:
+  - nusiddiq@redhat.com
+  - majopela@redhat.com
