@@ -359,6 +359,9 @@ packages:
 - project: python-contextlib2
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-contextlib2-0.5.5-12.el8
+- project: python-contextvars
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-contextvars-2.4-1.el8
 - project: python-cotyledon
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-cotyledon-1.7.3-4.el8
@@ -374,6 +377,9 @@ packages:
 - project: python-cssselect
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-cssselect-0.9.2-13.el8
+- project: python-curio
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-curio-1.4-1.el8
 - project: python-cycler
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-cycler-0.10.0-13.el8
@@ -509,9 +515,21 @@ packages:
 - project: python-gunicorn
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-gunicorn-20.0.4-1.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-httpcore-0.9.1-2.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-httpx-0.14.3-1.el8
 - project: python-ifaddr
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-ifaddr-0.1.7-2.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-immutables-0.14-1.el8
 - project: python-importlib-metadata
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-importlib-metadata-1.7.0-1.el8
@@ -836,6 +854,9 @@ packages:
 - project: python-snappy
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-snappy-0.5.4-5.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-sniffio-1.1.0-7.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8-openstack-wallaby-testing: python-sortedcontainers-2.2.2-2.el8
