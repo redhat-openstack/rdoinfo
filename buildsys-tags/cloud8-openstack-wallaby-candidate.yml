@@ -1,4 +1,7 @@
 packages:
+- project: python-cryptography
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-cryptography-3.2.1-1.el8
 - project: python-cryptography-vectors
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2.1-1.el8
@@ -23,12 +26,15 @@ packages:
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
+- project: python-psutil
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-psutil-5.7.3-1.el8
+- project: python-pygments
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pygments-2.7.2-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
-- project: python-setuptools
-  buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-setuptools-50.3.0-1.el8
 - project: python-tornado
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-tornado-6.1.0-1.el8
