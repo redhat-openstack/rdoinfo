@@ -323,6 +323,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-keystonemiddleware-9.1.0-2.el8
+- project: kolla
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: openstack-kolla-11.0.0-0.1.0rc1.el8
 - project: kuryr
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-kuryr-lib-2.1.0-2.el8
