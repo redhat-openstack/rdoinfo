@@ -1,7 +1,16 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.13-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.13-1.el8
 - project: python-cryptography-vectors
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2.1-1.el8
+- project: python-daiquiri
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-daiquiri-3.0.0-1.el8
 - project: python-dulwich
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
@@ -16,13 +25,16 @@ packages:
     cloud8-openstack-wallaby-candidate: python-hstspreload-2020.9.29-1.el8
 - project: python-httpcore
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-httpcore-0.9.1-2.el8
+    cloud8-openstack-wallaby-candidate: python-httpcore-0.12.1-1.el8
 - project: python-hyperframe
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-hyperframe-5.2.0-7.el8
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-keyring-21.5.0-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
@@ -35,6 +47,9 @@ packages:
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
+- project: python-scipy
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-scipy-1.5.4-1.el8
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
