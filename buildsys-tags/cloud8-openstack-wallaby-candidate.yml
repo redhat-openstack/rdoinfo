@@ -1,4 +1,10 @@
 packages:
+- project: python-amqp
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-amqp-5.0.2-1.el8
+- project: python-certifi
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-certifi-2020.11.8-1.el8
 - project: python-cryptography-vectors
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2.1-1.el8
@@ -32,6 +38,9 @@ packages:
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
+- project: python-persist-queue
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-persist-queue-0.5.1-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
