@@ -1,0 +1,19 @@
+- project:
+    check:
+      jobs:
+        - rdoinfo-tripleo-master-testing-centos-8-scenario010-standalone:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-wallaby-testing-test.yml$
+            voting: false
+            vars:
+              add_repos:
+                - type: generic
+                  reponame: "octavia"
+                  filename: "octavia-component.repo"
+                  priority: 1
+                  baseurl: "https://trunk.rdoproject.org/centos8-master/component/octavia/consistent/"
+                  includepkgs:
+                    - python3-octavia-tests-tempest
+                    - python3-octavia-tests-tempest-golang
