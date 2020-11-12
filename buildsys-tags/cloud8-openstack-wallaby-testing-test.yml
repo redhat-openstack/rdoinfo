@@ -1,0 +1,7 @@
+packages:
+- project: python-httpcore
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-httpcore-0.12.1-1.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8-openstack-wallaby-testing: python-httpx-0.16.1-1.1.el8
