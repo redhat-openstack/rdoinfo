@@ -2356,6 +2356,13 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - rajini.karthik@dell.com
+- project: ansible-role-collect-logs
+  name: ansible-role-collect-logs
+  upstream: https://opendev.org/openstack/ansible-role-collect-logs
+  component: common
+  conf: rpmfactory-lib
+  maintainers:
+  - whayutin@redhat.com
 components:
 - name: common
 - name: compute
