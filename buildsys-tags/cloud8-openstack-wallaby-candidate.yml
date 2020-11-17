@@ -50,6 +50,9 @@ packages:
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
+- project: python-sphinx-removed-in
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sphinx-removed-in-0.2.1-4.el8
 - project: python-tornado
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-tornado-6.1.0-1.el8
