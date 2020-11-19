@@ -2,6 +2,9 @@ packages:
 - project: librdkafka
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: librdkafka-1.5.0-1.el8
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-beautifulsoup4-4.9.3-1.el8
 - project: python-cryptography
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-3.2.1-1.el8
@@ -11,6 +14,9 @@ packages:
 - project: python-dulwich
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
+- project: python-flask
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-flask-1.1.2-4.el8
 - project: python-h11
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-h11-0.9.0-7.el8
