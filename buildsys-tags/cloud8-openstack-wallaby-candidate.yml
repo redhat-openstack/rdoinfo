@@ -1,13 +1,31 @@
 packages:
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-beautifulsoup4-4.9.3-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.13-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.13-1.el8
 - project: python-cryptography
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-3.2.1-1.el8
 - project: python-cryptography-vectors
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2.1-1.el8
+- project: python-decorator
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-decorator-4.4.2-3.el8
+- project: python-distro
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-distro-1.5.0-4.el8
 - project: python-dulwich
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
+- project: python-flask
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-flask-1.1.2-4.el8
 - project: python-h11
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-h11-0.9.0-7.el8
