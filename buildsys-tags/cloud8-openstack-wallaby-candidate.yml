@@ -1,4 +1,7 @@
 packages:
+- project: librdkafka
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: librdkafka-1.5.0-1.el8
 - project: python-cryptography
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-3.2.1-1.el8
