@@ -11,12 +11,18 @@ packages:
 - project: python-cryptography-vectors
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-vectors-3.2.1-1.el8
+- project: python-django-nose
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-django-nose-1.4.7-2.el8
 - project: python-dulwich
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
 - project: python-flask
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-flask-1.1.2-4.el8
+- project: python-gabbi
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-gabbi-2.0.4-1.el8
 - project: python-h11
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-h11-0.9.0-7.el8
@@ -47,6 +53,9 @@ packages:
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
+- project: python-pluggy
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pluggy-0.13.1-2.el8
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-psutil-5.7.3-1.el8
@@ -56,6 +65,9 @@ packages:
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
+- project: python-pyrsistent
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pyrsistent-0.17.3-1.el8
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
