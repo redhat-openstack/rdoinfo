@@ -2,6 +2,9 @@ packages:
 - project: librdkafka
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: librdkafka-1.5.0-1.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-python-alembic-1.4.3-1.el8
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-beautifulsoup4-4.9.3-1.el8
@@ -53,6 +56,9 @@ packages:
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
+- project: python-pecan
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pecan-1.3.3-2.el8
 - project: python-pluggy
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pluggy-0.13.1-2.el8
@@ -68,6 +74,12 @@ packages:
 - project: python-pyrsistent
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pyrsistent-0.17.3-1.el8
+- project: python-redis
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-redis-3.5.3-1.el8
+- project: python-retrying
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-retrying-1.3.3-1.el8
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
@@ -77,6 +89,18 @@ packages:
 - project: python-tornado
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-tornado-6.1.0-1.el8
+- project: python-uritemplate
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-uritemplate-3.0.1-3.el8
 - project: python-vine
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-vine-5.0.0-2.el8
+- project: python-voluptuous
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-voluptuous-0.12.0-1.el8
+- project: python-websocket-client
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-websocket-client-0.57.0-1.el8
+- project: python-yappi
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-yappi-1.3.0-1.el8
