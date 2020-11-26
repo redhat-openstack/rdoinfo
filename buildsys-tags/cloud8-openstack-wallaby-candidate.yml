@@ -53,6 +53,9 @@ packages:
 - project: python-paste
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-paste-3.5.0-1.el8
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-paste-deploy-2.1.1-1.el8
 - project: python-pbr
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pbr-5.5.1-1.el8
@@ -83,9 +86,18 @@ packages:
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sortedcontainers-2.3.0-1.el8
 - project: python-sphinx-removed-in
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sphinx-removed-in-0.2.1-4.el8
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sysv_ipc-1.0.1-1.el8
+- project: python-testtools
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-testtools-2.4.0-7.el8
 - project: python-tornado
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-tornado-6.1.0-1.el8
