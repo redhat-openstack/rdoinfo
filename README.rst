@@ -123,7 +123,7 @@ For `rdo.yaml` file:
     package-configs:
       somepackage:
         name: openstack-%(project)s
-        upstream: https://git.openstack.org/openstack/%(project)s
+        upstream: https://opendev.org/openstack/%(project)s
         distgit: https://github.com/rdo-packages/%(project)s-distgit.git
         patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
         master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
