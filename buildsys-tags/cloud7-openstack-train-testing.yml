@@ -32,6 +32,9 @@ packages:
 - project: ansible-role-chrony
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-role-chrony-1.0.1-1.el7
+- project: ansible-role-collect-logs
+  buildsys-tags:
+    cloud7-openstack-train-testing: ansible-role-collect-logs-1.2.0-1.el7
 - project: ansible-role-container-registry
   buildsys-tags:
     cloud7-openstack-train-testing: ansible-role-container-registry-1.1.0-1.el7
