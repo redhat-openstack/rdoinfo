@@ -1,4 +1,7 @@
 packages:
+- project: blosc
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: blosc-1.20.1-1.el8
 - project: librdkafka
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: librdkafka-1.5.0-1.el8
