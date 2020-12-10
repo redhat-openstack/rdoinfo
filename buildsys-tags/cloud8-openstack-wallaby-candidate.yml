@@ -17,6 +17,9 @@ packages:
 - project: python-django-nose
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-django-nose-1.4.7-2.el8
+- project: python-django-pymemcache
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-django-pymemcache-1.0.0-1.el8
 - project: python-dulwich
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dulwich-0.20.11-1.el8
