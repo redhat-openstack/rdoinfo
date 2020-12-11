@@ -50,6 +50,9 @@ packages:
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
+- project: python-oslo-metrics
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-oslo-metrics-0.1.0-1.el8
 - project: python-paste
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-paste-3.5.0-1.el8
