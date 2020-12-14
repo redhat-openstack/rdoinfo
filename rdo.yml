@@ -1332,6 +1332,9 @@ packages:
 - project: oslo-log
   conf: rpmfactory-lib
   upstream: https://opendev.org/openstack/oslo.log
+- project: oslo-metrics
+  conf: rpmfactory-lib
+  upstream: https://opendev.org/openstack/oslo.metrics
 - project: oslo-policy
   conf: rpmfactory-lib
   upstream: https://opendev.org/openstack/oslo.policy
