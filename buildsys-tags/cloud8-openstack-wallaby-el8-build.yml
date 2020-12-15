@@ -181,7 +181,7 @@ packages:
     cloud8-openstack-wallaby-el8-build: python-cram-0.7-4.el8
 - project: python-cryptography-vectors
   buildsys-tags:
-    cloud8-openstack-wallaby-el8-build: python-cryptography-vectors-3.1-1.el8
+    cloud8-openstack-wallaby-el8-build: python-cryptography-vectors-3.2.1-1.el8
 - project: python-cssselect2
   buildsys-tags:
     cloud8-openstack-wallaby-el8-build: python-cssselect2-0.2.2-2.2.el8
@@ -338,6 +338,9 @@ packages:
 - project: python-sphinx-issues
   buildsys-tags:
     cloud8-openstack-wallaby-el8-build: python-sphinx-issues-1.2.0-4.el8
+- project: python-sphinx-removed-in
+  buildsys-tags:
+    cloud8-openstack-wallaby-el8-build: python-sphinx-removed-in-0.2.1-4.el8
 - project: python-sphinx-testing
   buildsys-tags:
     cloud8-openstack-wallaby-el8-build: python-sphinx-testing-1.0.1-7.el8
