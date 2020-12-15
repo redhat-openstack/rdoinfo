@@ -1441,10 +1441,13 @@ packages:
   conf: rpmfactory-lib
   name: python-networking-arista
   component: network
-  upstream: https://opendev.org/openstack/%(project)s
+  upstream: https://opendev.org/x/%(project)s
   maintainers:
-  - shashank@arista.com
+  - mark@mcclain.xyz
+  - mitchell@arista.com
   - openstack-dev@arista.com
+  - nlahouti@arista.com
+  - shashank@arista.com
 - project: networking-baremetal
   conf: rpmfactory-lib
   component: baremetal
