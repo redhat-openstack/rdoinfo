@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eb46120f_19401648",
+        "filename": "rdo.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-12-21T11:27:08Z",
+      "side": 1,
+      "message": "approach is fine.\nlet\u0027s add a verify_status function in verify.py to ensure status: is always defined for a release and is one of [\u0027maintained\u0027, \u0027unmaintained\u0027, \u0027development\u0027, \u0027extended maintenance\u0027]\n\nI also noticed tests are not running likely since https://review.rdoproject.org/r/#/c/24108/ so that needs to be fixed too.",
+      "revId": "8179f3ffd255f227ad2e654e855f16af06e765d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
