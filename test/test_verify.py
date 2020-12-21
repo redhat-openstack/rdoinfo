@@ -3,6 +3,8 @@ import pytest
 import requests
 from distroinfo import info
 
+import verify
+
 
 # TODO(ssbarnea): Remove xfail as soon we resolve the broken URLs
 @pytest.mark.xfail
@@ -12,6 +14,9 @@ def test_url(url):
         raise Exception(
             "ERROR: %s returned %s\n%s\n%s",
             url, r, r.headers, r.content)
+
+def test_verify():
+    verify.verify('rdo-full.yml')
 
 
 def pytest_generate_tests(metafunc):
