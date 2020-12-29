@@ -8,6 +8,12 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-beautifulsoup4-4.9.3-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.44-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.44-1.el8
 - project: python-cryptography
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cryptography-3.2.1-1.el8
@@ -44,6 +50,9 @@ packages:
 - project: python-hyperframe
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-hyperframe-5.2.0-7.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-importlib-resources-4.1.1-1.el8
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
@@ -68,6 +77,9 @@ packages:
 - project: python-psutil
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-psutil-5.7.3-1.el8
+- project: python-ptyprocess
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-ptyprocess-0.7.0-1.el8
 - project: python-pyghmi
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pyghmi-1.5.19-1.el8
@@ -86,6 +98,9 @@ packages:
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-setuptools-51.1.1-1.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sortedcontainers-2.3.0-1.el8
