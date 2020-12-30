@@ -10,7 +10,7 @@ packages:
     cloud8-openstack-victoria-release: PyYAML-5.3-2.el8
 - project: ansible
   buildsys-tags:
-    cloud8-openstack-victoria-release: ansible-2.9.13-1.el8
+    cloud8-openstack-victoria-release: ansible-2.9.16-1.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8-openstack-victoria-release: ansible-config_template-1.1.1-1.el8
@@ -2008,7 +2008,7 @@ packages:
     cloud8-openstack-victoria-release: python-telemetry-tests-tempest-1.1.0-2.el8
 - project: tempest
   buildsys-tags:
-    cloud8-openstack-victoria-release: openstack-tempest-25.0.0-3.el8
+    cloud8-openstack-victoria-release: openstack-tempest-26.0.0-1.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8-openstack-victoria-release: python-horizon-tests-tempest-1.1.0-2.el8
