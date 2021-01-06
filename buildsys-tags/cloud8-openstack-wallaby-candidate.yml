@@ -46,7 +46,7 @@ packages:
     cloud8-openstack-wallaby-candidate: python-google-auth-1.24.0-1.el8
 - project: python-h11
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-h11-0.9.0-7.el8
+    cloud8-openstack-wallaby-candidate: python-h11-0.12.0-1.el8
 - project: python-hpack
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-hpack-3.0.0-11.el8
@@ -65,9 +65,21 @@ packages:
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-kombu-5.0.2-1.el8
+- project: python-ldap3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-ldap3-2.8.1-1.el8
+- project: python-msgpack
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-msgpack-1.0.2-1.el8
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-openstackdocstheme-2.2.6-1.el8
+- project: python-passlib
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-passlib-1.7.4-1.el8
 - project: python-paste
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-paste-3.5.0-1.el8
