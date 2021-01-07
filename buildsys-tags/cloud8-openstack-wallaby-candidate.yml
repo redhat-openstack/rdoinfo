@@ -116,6 +116,12 @@ packages:
 - project: python-scp
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-scp-0.13.3-2.el8
+- project: python-semver
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-semver-2.13.0-1.el8
+- project: python-smmap
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-smmap-3.0.1-3.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sortedcontainers-2.3.0-1.el8
