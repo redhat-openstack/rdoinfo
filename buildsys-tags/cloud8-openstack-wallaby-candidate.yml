@@ -5,6 +5,9 @@ packages:
 - project: librdkafka
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: librdkafka-1.5.0-1.el8
+- project: python-PyMySQL
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-PyMySQL-1.0.1-1.el8
 - project: python-alembic
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-alembic-1.4.3-1.el8
@@ -17,6 +20,12 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-beautifulsoup4-4.9.3-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.51-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.51-1.el8
 - project: python-cachetools
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cachetools-4.2.0-1.el8
@@ -62,6 +71,9 @@ packages:
 - project: python-hyperframe
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-hyperframe-5.2.0-7.el8
+- project: python-hyperlink
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-hyperlink-21.0.0-1.el8
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-jsonpath-rw-ext-1.2.2-1.el8
@@ -134,12 +146,18 @@ packages:
 - project: python-soupsieve
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-soupsieve-2.1.0-1.el8
-- project: python-sphinxcontrib-svg2pdfconverter
+- project: python-sphinx
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-sphinxcontrib-svg2pdfconverter-1.1.0-2.el8
+    cloud8-openstack-wallaby-candidate: python-sphinx-3.4.3-1.el8
 - project: python-sphinx-removed-in
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sphinx-removed-in-0.2.1-4.el8
+- project: python-sphinxcontrib-rsvgconverter
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sphinxcontrib-rsvgconverter-1.1.1-1.el8
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sphinxcontrib-svg2pdfconverter-1.1.0-2.el8
 - project: python-sysv_ipc
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sysv_ipc-1.0.1-1.el8
