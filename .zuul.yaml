@@ -1,0 +1,5 @@
+- project:
+    check:
+      jobs: &jobs
+        - periodic-tripleo-ci-centos-7-ovb-3ctlr_1comp-featureset001-train:
+            override-checkout: master
