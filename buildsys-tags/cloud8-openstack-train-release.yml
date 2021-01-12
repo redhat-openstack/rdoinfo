@@ -325,7 +325,7 @@ packages:
     cloud8-openstack-train-release: python-keystonemiddleware-7.0.1-2.el8
 - project: kolla
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-kolla-9.2.0-1.el8
+    cloud8-openstack-train-release: openstack-kolla-9.3.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8-openstack-train-release: python-kuryr-lib-1.1.1-1.el8
@@ -1948,7 +1948,7 @@ packages:
     cloud8-openstack-train-release: python-telemetry-tests-tempest-0.4.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-tempest-23.0.0-1.el8
+    cloud8-openstack-train-release: openstack-tempest-26.0.0-1.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8-openstack-train-release: python-horizon-tests-tempest-0.2.0-1.el8
