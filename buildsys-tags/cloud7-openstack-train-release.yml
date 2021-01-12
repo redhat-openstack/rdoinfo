@@ -364,7 +364,7 @@ packages:
     cloud7-openstack-train-release: python-keystonemiddleware-7.0.1-2.el7
 - project: kolla
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-kolla-9.2.0-1.el7
+    cloud7-openstack-train-release: openstack-kolla-9.3.0-1.el7
 - project: kuryr
   buildsys-tags:
     cloud7-openstack-train-release: python-kuryr-lib-1.1.1-1.el7
@@ -2107,7 +2107,7 @@ packages:
     cloud7-openstack-train-release: python-telemetry-tests-tempest-0.4.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tempest-24.0.0-1.el7
+    cloud7-openstack-train-release: openstack-tempest-26.0.0-1.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-train-release: python-horizon-tests-tempest-0.2.0-1.el7
