@@ -20,6 +20,9 @@ packages:
 - project: python-cachetools
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cachetools-4.2.0-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-cmd2-1.4.0-1.el8
 - project: python-croniter
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-croniter-0.3.35-1.el8
