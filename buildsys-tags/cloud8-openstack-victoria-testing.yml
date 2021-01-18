@@ -1199,6 +1199,9 @@ packages:
 - project: python-dataclasses
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-dataclasses-0.7-1.el8
+- project: python-dateutil
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-dateutil-2.8.1-2.el8
 - project: python-ddt
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-ddt-1.2.1-4.el8
