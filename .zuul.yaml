@@ -1,0 +1,8 @@
+- project:
+    experimental:
+      jobs:
+        - distgit-tripleo-ci-centos-8-content-provider:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            files:
+              - ^tags/wallaby-uc.yml$
