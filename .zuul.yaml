@@ -1,0 +1,6 @@
+- project:
+    check:
+      jobs: &jobs
+        - rdoinfo-tripleo-ussuri-release-centos-8-scenario001-standalone:
+            dependencies:
+              - validate-buildsys-tags
