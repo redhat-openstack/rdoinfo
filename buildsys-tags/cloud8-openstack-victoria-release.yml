@@ -11,12 +11,15 @@ packages:
 - project: ansible
   buildsys-tags:
     cloud8-openstack-victoria-release: ansible-2.9.16-1.el8
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud8-openstack-victoria-release: ansible-collections-openstack-1.2.1-1.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8-openstack-victoria-release: ansible-config_template-1.1.1-1.el8
 - project: ansible-freeipa
   buildsys-tags:
-    cloud8-openstack-victoria-release: ansible-freeipa-0.1.8-2.el8
+    cloud8-openstack-victoria-release: ansible-freeipa-0.3.1-1.el8
 - project: ansible-pacemaker
   buildsys-tags:
     cloud8-openstack-victoria-release: ansible-pacemaker-1.0.4-0.1.5847167git.el8
@@ -94,7 +97,7 @@ packages:
     cloud8-openstack-victoria-release: python-cinderclient-7.2.0-2.el8
 - project: cinderlib
   buildsys-tags:
-    cloud8-openstack-victoria-release: python-cinderlib-2.0.0-1.el8
+    cloud8-openstack-victoria-release: python-cinderlib-3.0.0-1.el8
 - project: ck
   buildsys-tags:
     cloud8-openstack-victoria-release: ck-0.6.0-10.el8
@@ -271,7 +274,7 @@ packages:
     cloud8-openstack-victoria-release: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8-openstack-victoria-release: openstack-ironic-16.0.2-1.el8
+    cloud8-openstack-victoria-release: openstack-ironic-16.0.3-1.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8-openstack-victoria-release: openstack-ironic-inspector-10.4.1-1.el8
@@ -286,7 +289,7 @@ packages:
     cloud8-openstack-victoria-release: python-ironic-prometheus-exporter-2.1.1-2.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8-openstack-victoria-release: openstack-ironic-python-agent-6.4.2-1.el8
+    cloud8-openstack-victoria-release: openstack-ironic-python-agent-6.4.3-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8-openstack-victoria-release: openstack-ironic-python-agent-builder-2.2.0-2.el8
@@ -541,7 +544,7 @@ packages:
     cloud8-openstack-victoria-release: python-os-client-config-2.1.0-1.el8
 - project: os-collect-config
   buildsys-tags:
-    cloud8-openstack-victoria-release: os-collect-config-11.0.0-1.el8
+    cloud8-openstack-victoria-release: os-collect-config-12.0.0-1.el8
 - project: os-faults
   buildsys-tags:
     cloud8-openstack-victoria-release: python-os-faults-0.2.7-1.el8
@@ -553,7 +556,7 @@ packages:
     cloud8-openstack-victoria-release: os-net-config-13.1.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
-    cloud8-openstack-victoria-release: os-refresh-config-10.4.0-1.el8
+    cloud8-openstack-victoria-release: os-refresh-config-12.0.0-1.el8
 - project: os-resource-classes
   buildsys-tags:
     cloud8-openstack-victoria-release: python-os-resource-classes-1.0.0-1.el8
@@ -2038,7 +2041,7 @@ packages:
     cloud8-openstack-victoria-release: ansible-tripleo-ipa-0.2.0-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
-    cloud8-openstack-victoria-release: ansible-tripleo-ipsec-9.3.0-1.el8
+    cloud8-openstack-victoria-release: ansible-tripleo-ipsec-10.0.0-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
     cloud8-openstack-victoria-release: openstack-tripleo-puppet-elements-13.1.0-1.el8
