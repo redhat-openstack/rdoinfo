@@ -1,0 +1,10 @@
+packages:
+- project: Cython
+  buildsys-tags:
+    cloud8s-openstack-wallaby-el8-build: Cython-0.29.2-1.el8
+- project: ImageMagick
+  buildsys-tags:
+    cloud8s-openstack-wallaby-el8-build: ImageMagick-6.7.8.9-18.el8
+- project: ara
+  buildsys-tags:
+    cloud8s-openstack-wallaby-el8-build: ara-1.5.3-1.el8

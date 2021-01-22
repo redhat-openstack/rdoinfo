@@ -1,0 +1,10 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: GitPython-3.0.2-2.el8
+- project: MUMPS
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: MUMPS-5.2.1-4.el8
+- project: PyYAML
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: PyYAML-5.3-2.el8
