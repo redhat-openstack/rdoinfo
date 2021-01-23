@@ -20,6 +20,12 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-beautifulsoup4-4.9.3-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-boto3-1.16.59-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-botocore-1.19.59-1.el8
 - project: python-cachetools
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cachetools-4.2.0-1.el8
@@ -140,12 +146,18 @@ packages:
 - project: python-semver
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-semver-2.13.0-1.el8
+- project: python-setproctitle
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-setproctitle-1.2.2-1.el8
 - project: python-smmap
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-smmap-3.0.1-3.el8
+    cloud8-openstack-wallaby-candidate: python-smmap-3.0.5-1.el8
 - project: python-sniffio
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sniffio-1.2.0-1.el8
+- project: python-snowballstemmer
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-snowballstemmer-2.1.0-1.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sortedcontainers-2.3.0-1.el8
@@ -170,6 +182,9 @@ packages:
 - project: python-tornado
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-tornado-6.1.0-1.el8
+- project: python-ujson
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-ujson-4.0.2-1.el8
 - project: python-vine
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-vine-5.0.0-2.el8
