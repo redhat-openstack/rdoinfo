@@ -1,4 +1,25 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-boto3-1.16.60-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-botocore-1.19.60-1.el8
+- project: python-coverage
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-coverage-5.4-1.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-dogpile-cache-1.1.2-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-keyring-22.0.1-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-urllib3-1.26.3-1.el8
+- project: python-zmq
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-zmq-21.0.2-1.el8
