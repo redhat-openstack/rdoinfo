@@ -23,6 +23,9 @@ packages:
 - project: python-cachetools
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-cachetools-4.2.0-1.el8
+- project: python-cfn-lint
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-cfn-lint-0.44.5-1.el8
 - project: python-croniter
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-croniter-0.3.35-1.el8
@@ -35,6 +38,9 @@ packages:
 - project: python-dateutil
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-dateutil-2.8.1-2.el8
+- project: python-dfs-sdk
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-dfs-sdk-1.2.27-1.el8
 - project: python-django
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-django-2.2.17-1.el8
@@ -50,6 +56,9 @@ packages:
 - project: python-gitdb
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-gitdb-4.0.5-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-google-api-core-1.25.1-1.el8
 - project: python-google-auth
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-google-auth-1.24.0-1.el8
@@ -118,13 +127,16 @@ packages:
     cloud8-openstack-wallaby-candidate: python-psutil-5.7.3-1.el8
 - project: python-pyghmi
   buildsys-tags:
-    cloud8-openstack-wallaby-candidate: python-pyghmi-1.5.19-1.el8
+    cloud8-openstack-wallaby-candidate: python-pyghmi-1.5.21-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pymemcache-3.3.0-1.el8
 - project: python-pyrsistent
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-pyrsistent-0.17.3-1.el8
+- project: python-pytest
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-pytest-6.2.2-1.el8
 - project: python-redis
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-redis-3.5.3-1.el8
@@ -158,6 +170,9 @@ packages:
 - project: python-sphinxcontrib-svg2pdfconverter
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sphinxcontrib-svg2pdfconverter-1.1.0-2.el8
+- project: python-sshpubkeys
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-sshpubkeys-3.3.0-1.el8
 - project: python-sysv_ipc
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-sysv_ipc-1.0.1-1.el8
@@ -179,6 +194,9 @@ packages:
 - project: python-winrm
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-winrm-0.4.1-1.el8
+- project: python-xmlschema
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-xmlschema-1.4.2-1.el8
 - project: python-yappi
   buildsys-tags:
     cloud8-openstack-wallaby-candidate: python-yappi-1.3.0-1.el8
