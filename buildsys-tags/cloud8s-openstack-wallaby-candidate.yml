@@ -1,4 +1,7 @@
 packages:
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-dogpile-cache-1.1.2-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
