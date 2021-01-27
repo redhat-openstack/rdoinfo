@@ -1,1 +1,5 @@
 packages:
+- project: python-memcached
+  buildsys-tags:
+    cloud8-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+
