@@ -1,4 +1,7 @@
 packages:
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-XStatic-JQuery-Migrate-3.3.2.1-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
