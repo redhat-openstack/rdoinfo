@@ -2395,6 +2395,13 @@ packages:
   maintainers:
   - whayutin@redhat.com
   - chkumar@redhat.com
+- project: ansible-role-collectd-config
+  name: ansible-role-collectd-config
+  component: cloudops
+  conf: rpmfactory-lib
+  upstream: https://github.com/infrawatch/collectd-config-ansible-role
+  maintainers:
+  - efoley@redhat.com
 components:
 - name: common
 - name: compute
