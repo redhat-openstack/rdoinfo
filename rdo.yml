@@ -2395,6 +2395,14 @@ packages:
   maintainers:
   - whayutin@redhat.com
   - chkumar@redhat.com
+- project: ansible-role-qdr-config
+  name: ansible-role-qdr-config
+  component: cloudops
+  conf: rpmfactory-lib
+  upstream: https://github.com/infrawatch/qdr-config-ansible-role
+  maintainers:
+  - csibbit@redhat.com
+  - efoley@redhat.com
 components:
 - name: common
 - name: compute
