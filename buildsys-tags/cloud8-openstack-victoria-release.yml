@@ -379,7 +379,7 @@ packages:
     cloud8-openstack-victoria-release: python-magnumclient-3.2.1-2.el8
 - project: manila
   buildsys-tags:
-    cloud8-openstack-victoria-release: openstack-manila-11.0.0-1.el8
+    cloud8-openstack-victoria-release: openstack-manila-11.0.1-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-release: python-manila-tests-tempest-1.2.0-2.el8
@@ -1978,7 +1978,7 @@ packages:
     cloud8-openstack-victoria-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8-openstack-victoria-release: python-sushy-3.4.1-2.el8
+    cloud8-openstack-victoria-release: python-sushy-3.4.2-1.el8
 - project: sushy-oem-idrac
   buildsys-tags:
     cloud8-openstack-victoria-release: python-sushy-oem-idrac-0.0.2-1.el8
