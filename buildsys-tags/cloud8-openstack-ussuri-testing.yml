@@ -452,6 +452,9 @@ packages:
 - project: networking-ansible
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-networking-ansible-4.0.0-1.el8
+- project: networking-arista
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-networking-arista-2020.1.2-1.el8
 - project: networking-bagpipe
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-networking-bagpipe-12.0.0-1.el8
@@ -502,7 +505,7 @@ packages:
     cloud8-openstack-ussuri-testing: python-neutronclient-7.1.1-1.el8
 - project: nova
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-nova-21.1.1-1.el8
+    cloud8-openstack-ussuri-testing: openstack-nova-21.1.2-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-novaclient-17.0.0-1.el8
