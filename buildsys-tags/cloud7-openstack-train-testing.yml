@@ -304,7 +304,7 @@ packages:
     cloud7-openstack-train-testing: hiera-1.3.4-5.el7
 - project: horizon
   buildsys-tags:
-    cloud7-openstack-train-testing: python-django-horizon-16.2.0-1.el7
+    cloud7-openstack-train-testing: python-django-horizon-16.2.1-1.el7
 - project: ironic
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-ironic-13.0.6-1.el7
@@ -316,7 +316,7 @@ packages:
     cloud7-openstack-train-testing: python-ironic-inspector-client-3.7.1-1.el7
 - project: ironic-lib
   buildsys-tags:
-    cloud7-openstack-train-testing: python-ironic-lib-2.21.2-1.el7
+    cloud7-openstack-train-testing: python-ironic-lib-2.21.3-1.el7
 - project: ironic-prometheus-exporter
   buildsys-tags:
     cloud7-openstack-train-testing: python-ironic-prometheus-exporter-1.1.2-1.el7
@@ -482,6 +482,9 @@ packages:
 - project: networking-ansible
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-ansible-3.0.0-1.el7
+- project: networking-arista
+  buildsys-tags:
+    cloud7-openstack-train-testing: python-networking-arista-2019.2.6-1.el7
 - project: networking-bagpipe
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-bagpipe-11.0.2-1.el7
@@ -514,7 +517,7 @@ packages:
     cloud7-openstack-train-testing: python-networking-sfc-9.0.1-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-neutron-15.3.1-1.el7
+    cloud7-openstack-train-testing: openstack-neutron-15.3.2-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-neutron-dynamic-routing-15.0.0-1.el7
@@ -589,10 +592,10 @@ packages:
     cloud7-openstack-train-testing: openstack-utils-2017.1-1.el7
 - project: openstackclient
   buildsys-tags:
-    cloud7-openstack-train-testing: python-openstackclient-4.0.1-1.el7
+    cloud7-openstack-train-testing: python-openstackclient-4.0.2-1.el7
 - project: openstacksdk
   buildsys-tags:
-    cloud7-openstack-train-testing: python-openstacksdk-0.36.4-1.el7
+    cloud7-openstack-train-testing: python-openstacksdk-0.36.5-1.el7
 - project: openvswitch
   buildsys-tags:
     cloud7-openstack-train-testing: openvswitch-2.12.0-1.el7
@@ -2080,7 +2083,7 @@ packages:
     cloud7-openstack-train-testing: subunit-1.4.0-1.1.el7
 - project: sushy
   buildsys-tags:
-    cloud7-openstack-train-testing: python-sushy-2.0.3-1.el7
+    cloud7-openstack-train-testing: python-sushy-2.0.4-1.el7
 - project: swift
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-swift-2.23.2-1.el7
