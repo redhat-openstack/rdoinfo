@@ -334,7 +334,7 @@ packages:
     cloud8-openstack-train-testing: python-kuryr-lib-1.1.1-1.el8
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-kuryr-kubernetes-1.1.0-1.el8
+    cloud8-openstack-train-testing: openstack-kuryr-kubernetes-1.1.2-1.el8
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-testing: python-kuryr-tests-tempest-0.5.0-1.el8
@@ -661,7 +661,7 @@ packages:
     cloud8-openstack-train-testing: openstack-packstack-15.0.1-1.el8
 - project: panko
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-panko-7.0.0-1.el8
+    cloud8-openstack-train-testing: openstack-panko-7.1.0-1.el8
 - project: pankoclient
   buildsys-tags:
     cloud8-openstack-train-testing: python-pankoclient-0.7.0-1.el8
@@ -2041,7 +2041,7 @@ packages:
     cloud8-openstack-train-testing: python-vmware-nsxlib-14.0.3-1.el8
 - project: watcher
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-watcher-3.0.1-1.el8
+    cloud8-openstack-train-testing: openstack-watcher-3.0.2-1.el8
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-testing: python-watcher-tests-tempest-1.2.0-1.el8
