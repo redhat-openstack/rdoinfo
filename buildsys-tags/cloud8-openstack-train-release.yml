@@ -271,7 +271,7 @@ packages:
     cloud8-openstack-train-release: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8-openstack-train-release: python-django-horizon-16.2.0-1.el8
+    cloud8-openstack-train-release: python-django-horizon-16.2.1-1.el8
 - project: ironic
   buildsys-tags:
     cloud8-openstack-train-release: openstack-ironic-13.0.6-1.el8
@@ -283,7 +283,7 @@ packages:
     cloud8-openstack-train-release: python-ironic-inspector-client-3.7.1-1.el8
 - project: ironic-lib
   buildsys-tags:
-    cloud8-openstack-train-release: python-ironic-lib-2.21.2-1.el8
+    cloud8-openstack-train-release: python-ironic-lib-2.21.3-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
     cloud8-openstack-train-release: python-ironic-prometheus-exporter-1.1.2-1.el8
@@ -440,6 +440,9 @@ packages:
 - project: networking-ansible
   buildsys-tags:
     cloud8-openstack-train-release: python-networking-ansible-3.0.0-1.el8
+- project: networking-arista
+  buildsys-tags:
+    cloud8-openstack-train-release: python-networking-arista-2019.2.6-1.el8
 - project: networking-bagpipe
   buildsys-tags:
     cloud8-openstack-train-release: python-networking-bagpipe-11.0.2-1.el8
@@ -469,7 +472,7 @@ packages:
     cloud8-openstack-train-release: python-networking-sfc-9.0.1-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-neutron-15.3.1-1.el8
+    cloud8-openstack-train-release: openstack-neutron-15.3.2-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8-openstack-train-release: openstack-neutron-dynamic-routing-15.0.0-1.el8
@@ -523,10 +526,10 @@ packages:
     cloud8-openstack-train-release: openstack-selinux-0.8.24-1.el8
 - project: openstackclient
   buildsys-tags:
-    cloud8-openstack-train-release: python-openstackclient-4.0.1-1.el8
+    cloud8-openstack-train-release: python-openstackclient-4.0.2-1.el8
 - project: openstacksdk
   buildsys-tags:
-    cloud8-openstack-train-release: python-openstacksdk-0.36.4-1.el8
+    cloud8-openstack-train-release: python-openstacksdk-0.36.5-1.el8
 - project: openvswitch
   buildsys-tags:
     cloud8-openstack-train-release: openvswitch-2.12.0-1.1.el8
@@ -1921,7 +1924,7 @@ packages:
     cloud8-openstack-train-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8-openstack-train-release: python-sushy-2.0.3-1.el8
+    cloud8-openstack-train-release: python-sushy-2.0.4-1.el8
 - project: swift
   buildsys-tags:
     cloud8-openstack-train-release: openstack-swift-2.23.2-1.el8
