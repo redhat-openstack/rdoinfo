@@ -1,7 +1,22 @@
 packages:
+- project: numpy
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: numpy-1.20.1-1.el8
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-cryptography-3.4.1-1.el8
+- project: python-jsonpickle
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-jsonpickle-2.0.0-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-more-itertools
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-more-itertools-8.7.0-1.el8
+- project: python-setuptools-rust
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-setuptools-rust-0.11.6-2.el8
