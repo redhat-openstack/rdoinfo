@@ -2,9 +2,30 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-boto3-1.17.4-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-botocore-1.20.4-1.el8
+- project: python-cfn-lint
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-cfn-lint-0.44.7-1.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-cryptography-3.4.3-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-google-api-core-1.26.0-1.el8
+- project: python-hvac
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-hvac-0.10.8-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
+- project: python-setuptools-rust
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-setuptools-rust-0.11.6-2.el8
