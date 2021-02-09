@@ -14,6 +14,9 @@ packages:
 - project: ansible-role-chrony
   tags:
     wallaby-uc:
+- project: ansible-role-collectd-config
+  tags:
+    wallaby-uc:
 - project: ansible-role-collect-logs
   tags:
     wallaby-uc:
