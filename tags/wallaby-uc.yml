@@ -26,6 +26,9 @@ packages:
 - project: ansible-role-openstack-operations
   tags:
     wallaby-uc:
+- project: ansible-role-qdr-config
+  tags:
+    wallaby-uc:
 - project: ansible-role-redhat-subscription
   tags:
     wallaby-uc:
