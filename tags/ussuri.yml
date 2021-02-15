@@ -1161,6 +1161,7 @@ packages:
 - project: tripleo-ipsec
   tags:
     ussuri:
+      source-branch: stable/ussuri  # vs 9.3.0 https://github.com/openstack/tripleo-ipsec/compare/9.3.0...stable/ussuri
 - project: tripleo-operator-ansible
   tags:
     ussuri:

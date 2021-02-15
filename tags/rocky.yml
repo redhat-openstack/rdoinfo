@@ -1096,6 +1096,7 @@ packages:
 - project: tripleo-ipsec
   tags:
     rocky:
+       source-branch: stable/rocky  # newer than latest rocky tag @ 9.0.0 https://github.com/openstack/tripleo-ipsec/compare/9.0.0...stable/rocky
 - project: tripleo-puppet-elements
   tags:
     rocky:

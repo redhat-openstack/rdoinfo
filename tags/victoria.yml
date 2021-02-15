@@ -1140,6 +1140,7 @@ packages:
 - project: tripleo-ipsec
   tags:
     victoria:
+      source-branch: 10.0.0  # same as stable/victoria https://github.com/openstack/tripleo-ipsec/compare/stable/victoria...10.0.0
 - project: tripleo-operator-ansible
   tags:
     victoria:
