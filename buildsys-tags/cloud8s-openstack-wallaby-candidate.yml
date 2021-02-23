@@ -5,6 +5,9 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-futures
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-futures-3.3.0-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
