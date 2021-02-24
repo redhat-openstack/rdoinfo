@@ -14,10 +14,10 @@ packages:
 - project: ansible-role-chrony
   tags:
     wallaby:
-- project: ansible-role-collectd-config
+- project: ansible-role-collect-logs
   tags:
     wallaby:
-- project: ansible-role-collect-logs
+- project: ansible-role-collectd-config
   tags:
     wallaby:
 - project: ansible-role-container-registry

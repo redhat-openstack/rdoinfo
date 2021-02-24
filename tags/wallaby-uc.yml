@@ -14,10 +14,10 @@ packages:
 - project: ansible-role-chrony
   tags:
     wallaby-uc:
-- project: ansible-role-collectd-config
+- project: ansible-role-collect-logs
   tags:
     wallaby-uc:
-- project: ansible-role-collect-logs
+- project: ansible-role-collectd-config
   tags:
     wallaby-uc:
 - project: ansible-role-container-registry
@@ -254,7 +254,7 @@ packages:
 - project: keystoneauth1
   tags:
     wallaby-uc:
-      source-branch: 4.3.0
+      source-branch: 4.3.1
 - project: keystoneclient
   tags:
     wallaby-uc:
@@ -1110,7 +1110,7 @@ packages:
 - project: troveclient
   tags:
     wallaby-uc:
-      source-branch: 6.0.1
+      source-branch: 7.0.0
 - project: validations-common
   tags:
     wallaby-uc:
