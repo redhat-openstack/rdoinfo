@@ -882,6 +882,8 @@ packages:
 - project: puppet-systemd
   tags:
     wallaby-uc:
+      # puppet systemd introduced a backwards incompatible change breaking puppet-rabbitmq
+      source-branch: 8f68b0dcf3bbbafc60c025879a28004fc9815aab
 - project: puppet-tacker
   tags:
     wallaby-uc:
