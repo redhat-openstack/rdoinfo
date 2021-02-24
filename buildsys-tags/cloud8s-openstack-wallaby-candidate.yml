@@ -5,9 +5,51 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-aws-sam-translator
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-aws-sam-translator-1.34.0-1.el8
+- project: python-aws-xray-sdk
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-aws-xray-sdk-2.6.0-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-boto3-1.17.14-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-botocore-1.20.14-1.el8
+- project: python-cfn-lint
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-cfn-lint-0.45.0-1.el8
+- project: python-gabbi
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-gabbi-2.2.0-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-importlib-metadata-3.6.0-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-importlib-resources-5.1.0-1.el8
+- project: python-jose
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-jose-3.2.0-2.el8
+- project: python-jsondiff
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-jsondiff-1.2.0-1.el8
+- project: python-jsonpickle
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-jsonpickle-2.0.0-1.el8
+- project: python-junit-xml
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-junit-xml-1.9-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-moto-2.0.0-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
+- project: python-sshpubkeys
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-sshpubkeys-3.3.1-1.el8
