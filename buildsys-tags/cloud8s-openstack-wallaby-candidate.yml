@@ -5,9 +5,24 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-boto3-1.17.18-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-botocore-1.20.18-1.el8
+- project: python-elementpath
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-elementpath-2.2.0-1.el8
+- project: python-futures
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-futures-3.3.0-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-pillow
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-pillow-8.1.1-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
