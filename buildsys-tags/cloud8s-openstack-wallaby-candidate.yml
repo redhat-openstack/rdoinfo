@@ -5,9 +5,27 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-autobahn
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-autobahn-21.3.1-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-boto3-1.17.19-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-botocore-1.20.19-1.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-croniter-1.0.7-1.el8
+- project: python-jsonpatch
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-jsonpatch-1.30-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-pyghmi
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-pyghmi-1.5.23-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
