@@ -25,10 +25,10 @@ packages:
     cloud8-openstack-ussuri-release: ansible-role-atos-hsm-0.1.0-2.e51c244git.el8
 - project: ansible-role-chrony
   buildsys-tags:
-    cloud8-openstack-ussuri-release: ansible-role-chrony-1.0.1-1.el8
+    cloud8-openstack-ussuri-release: ansible-role-chrony-1.0.3-1.el8
 - project: ansible-role-container-registry
   buildsys-tags:
-    cloud8-openstack-ussuri-release: ansible-role-container-registry-1.2.0-1.el8
+    cloud8-openstack-ussuri-release: ansible-role-container-registry-1.3.0-1.el8
 - project: ansible-role-lunasa-hsm
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-role-lunasa-hsm-1.0.0-1.el8
@@ -37,7 +37,7 @@ packages:
     cloud8-openstack-ussuri-release: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
 - project: ansible-role-redhat-subscription
   buildsys-tags:
-    cloud8-openstack-ussuri-release: ansible-role-redhat-subscription-1.1.0-1.el8
+    cloud8-openstack-ussuri-release: ansible-role-redhat-subscription-1.1.2-1.el8
 - project: ansible-role-thales-hsm
   buildsys-tags:
     cloud8-openstack-ussuri-release: ansible-role-thales-hsm-0.2.0-2.99b3d39git.el8
@@ -598,7 +598,7 @@ packages:
     cloud8-openstack-ussuri-release: python-osc-placement-2.0.0-1.el8
 - project: oslo-cache
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-oslo-cache-2.3.0-1.el8
+    cloud8-openstack-ussuri-release: python-oslo-cache-2.3.1-1.el8
 - project: oslo-concurrency
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-oslo-concurrency-4.0.3-1.el8
