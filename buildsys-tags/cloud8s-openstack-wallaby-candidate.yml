@@ -14,3 +14,6 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-tosca-parser-2.3.0-1.el8
