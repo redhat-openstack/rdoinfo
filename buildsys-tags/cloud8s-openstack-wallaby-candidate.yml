@@ -5,6 +5,15 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-croniter-1.0.8-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-importlib-metadata-3.7.0-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-keyring-23.0.0-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
@@ -14,3 +23,6 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-sphinx-3.5.2-1.el8
