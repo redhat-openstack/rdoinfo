@@ -5,12 +5,24 @@ packages:
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-arrow
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-arrow-1.0.3-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-importlib-metadata-3.7.2-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-pygments
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-pygments-2.8.1-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-setuptools-54.1.1-1.el8
