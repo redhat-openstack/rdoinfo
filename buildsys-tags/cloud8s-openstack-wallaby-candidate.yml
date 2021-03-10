@@ -14,3 +14,6 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-urllib3-1.25.10-4.el8
