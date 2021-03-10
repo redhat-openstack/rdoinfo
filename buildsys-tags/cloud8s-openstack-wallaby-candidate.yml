@@ -17,3 +17,6 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: novnc-1.2.0-2.el8
+- project: sysbench
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: sysbench-1.0.20-5.el8
