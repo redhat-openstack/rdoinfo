@@ -2,21 +2,33 @@ packages:
 - project: PyYAML
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: PyYAML-5.4.1-2.el8
+- project: novnc
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: novnc-1.2.0-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-alembic-1.5.7-1.el8
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-boto3-1.17.26-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-botocore-1.20.26-1.el8
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-ntc-templates
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-ntc-templates-1.7.0-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
-- project: novnc
-  buildsys-tags:
-    cloud8s-openstack-wallaby-candidate: novnc-1.2.0-2.el8
 - project: sysbench
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: sysbench-1.0.20-5.el8
