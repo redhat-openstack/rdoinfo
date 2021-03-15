@@ -108,7 +108,7 @@ For `rdo.yaml` file:
     package-default:
       name: python-%(project)s
       distgit: ssh://pkgs.fedoraproject.org/python-%(project)s.git
-      patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
+      patches: http://review.rdoproject.org/r/openstack/%(project)s.git
       master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
       tags:
         ussuri-uc:
@@ -125,7 +125,7 @@ For `rdo.yaml` file:
         name: openstack-%(project)s
         upstream: https://opendev.org/openstack/%(project)s
         distgit: https://github.com/rdo-packages/%(project)s-distgit.git
-        patches: http://review.rdoproject.org/r/p/openstack/%(project)s.git
+        patches: http://review.rdoproject.org/r/openstack/%(project)s.git
         master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
         review-patches: ssh://review.rdoproject.org:29418/openstack/%(project)s.git
         review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
