@@ -20,3 +20,12 @@ packages:
 - project: sysbench
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: sysbench-1.0.20-5.el8
+- project: cpp-hocon
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: cpp-hocon-0.3.0-4.el8
+- project: yaml-cpp
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: yaml-cpp-0.6.3-4.el8
+- project: leatherman
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: leatherman-1.12.0-6.el8
