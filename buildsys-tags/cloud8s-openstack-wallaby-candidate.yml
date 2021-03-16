@@ -20,3 +20,6 @@ packages:
 - project: sysbench
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: sysbench-1.0.20-5.el8
+- project: catch1
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: catch1-1.12.2-8.el8
