@@ -1,0 +1,27 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002-victoria:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/victoria.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002-ussuri:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/ussuri.yml$
+        - distgit-tripleo-master-testing-centos-8-standalone-scenario002-train:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            voting: false
+            files:
+              - ^tags/train.yml$
+        - distgit-tripleo-master-testing-centos-7-standalone-scenario002-train:
+            dependencies:
+              - rdoinfo-DLRN-check
+            voting: false
+            files:
+              - ^tags/train.yml$
