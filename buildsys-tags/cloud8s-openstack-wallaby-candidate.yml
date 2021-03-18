@@ -29,3 +29,6 @@ packages:
 - project: yaml-cpp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: yaml-cpp-0.6.3-4.el8
+- project: facter
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: facter-3.14.7-7.el8
