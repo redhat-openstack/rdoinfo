@@ -1,0 +1,4 @@
+- project:
+    check:
+      jobs: &jobs
+        - cloudsig-victoria-release-centos-8-scenario001-standalone
