@@ -1370,6 +1370,9 @@ packages:
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-jsonpath-rw-ext-1.2.0-5.el8
+- project: python-jsonschema
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-jsonschema-3.2.0-5.el8
 - project: python-junitxml
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-junitxml-0.7-20.el8
@@ -1565,6 +1568,9 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-pyroute2-0.5.6-2.el8
+- project: python-pyrsistent
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-pyrsistent-0.16.0-3.el8
 - project: python-pysaml2
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-pysaml2-4.5.0-9.el8
