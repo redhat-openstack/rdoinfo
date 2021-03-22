@@ -1370,6 +1370,9 @@ packages:
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-jsonpath-rw-ext-1.2.0-5.el8
+- project: python-jsonschema
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: python-jsonschema-3.2.0-5.el8
 - project: python-junitxml
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-junitxml-0.7-20.el8
