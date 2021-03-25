@@ -106,7 +106,7 @@ packages:
     cloud7-openstack-train-testing: openstack-cinder-15.4.1-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-train-testing: python-cinder-tests-tempest-1.1.0-1.el7
+    cloud7-openstack-train-testing: python-cinder-tests-tempest-1.4.0-1.el7
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-train-testing: python-cinderclient-5.0.1-1.el7
@@ -403,7 +403,7 @@ packages:
     cloud7-openstack-train-testing: libwebsockets-3.0.1-2.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-magnum-9.4.0-1.el7
+    cloud7-openstack-train-testing: openstack-magnum-9.4.1-1.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-magnum-tests-tempest-0.3.0-1.el7
@@ -994,7 +994,7 @@ packages:
     cloud7-openstack-train-testing: puppet-sysctl-0.0.12-2.a3d160dgit.el7
 - project: puppet-systemd
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-systemd-2.6.0-1.f0ce6f0git.el7
+    cloud7-openstack-train-testing: puppet-systemd-2.10.0-1.el7
 - project: puppet-tacker
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-tacker-15.4.0-1.el7
