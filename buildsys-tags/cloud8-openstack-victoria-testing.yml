@@ -61,7 +61,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-barbican-11.0.0-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-barbican-tests-tempest-1.1.0-2.el8
+    cloud8-openstack-victoria-testing: python-barbican-tests-tempest-1.2.1-1.el8
 - project: barbicanclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-barbicanclient-5.0.1-2.el8
@@ -91,7 +91,7 @@ packages:
     cloud8-openstack-victoria-testing: openstack-cinder-17.0.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-victoria-testing: python-cinder-tests-tempest-1.2.0-2.el8
+    cloud8-openstack-victoria-testing: python-cinder-tests-tempest-1.4.0-1.el8
 - project: cinderclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-cinderclient-7.2.0-2.el8
@@ -880,7 +880,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-qdr-6.4.0-2.el8
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-rabbitmq-10.1.2-0.1.0rc0.f6b3a8fgit.el8
+    cloud8-openstack-victoria-testing: puppet-rabbitmq-10.1.2-1.el8
 - project: puppet-redis
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-redis-6.1.1-0.1.0rc0.d443861git.el8
@@ -2017,7 +2017,7 @@ packages:
     cloud8-openstack-victoria-testing: python-telemetry-tests-tempest-1.1.0-2.el8
 - project: tempest
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-tempest-26.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-tempest-26.1.0-2.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-horizon-tests-tempest-1.1.0-2.el8
