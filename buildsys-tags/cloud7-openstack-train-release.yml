@@ -106,7 +106,7 @@ packages:
     cloud7-openstack-train-release: openstack-cinder-15.4.1-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-train-release: python-cinder-tests-tempest-1.1.0-1.el7
+    cloud7-openstack-train-release: python-cinder-tests-tempest-1.4.0-1.el7
 - project: cinderclient
   buildsys-tags:
     cloud7-openstack-train-release: python-cinderclient-5.0.1-1.el7
@@ -253,7 +253,7 @@ packages:
     cloud7-openstack-train-release: python-glareclient-0.5.3-1.el7
 - project: gnocchi
   buildsys-tags:
-    cloud7-openstack-train-release: gnocchi-4.3.4-1.el7
+    cloud7-openstack-train-release: gnocchi-4.3.5-1.el7
 - project: gnocchiclient
   buildsys-tags:
     cloud7-openstack-train-release: python-gnocchiclient-7.0.4-1.el7
@@ -403,7 +403,7 @@ packages:
     cloud7-openstack-train-release: libwebsockets-3.0.1-2.el7
 - project: magnum
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-magnum-9.4.0-1.el7
+    cloud7-openstack-train-release: openstack-magnum-9.4.1-1.el7
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-magnum-tests-tempest-0.3.0-1.el7
@@ -955,7 +955,7 @@ packages:
     cloud7-openstack-train-release: puppet-qdr-4.4.0-1.el7
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud7-openstack-train-release: puppet-rabbitmq-10.0.0-1.el7
+    cloud7-openstack-train-release: puppet-rabbitmq-10.1.2-1.el7
 - project: puppet-redis
   buildsys-tags:
     cloud7-openstack-train-release: puppet-redis-4.2.2-0.1.0rc1.be8d097git.el7
@@ -994,7 +994,7 @@ packages:
     cloud7-openstack-train-release: puppet-sysctl-0.0.12-2.a3d160dgit.el7
 - project: puppet-systemd
   buildsys-tags:
-    cloud7-openstack-train-release: puppet-systemd-2.6.0-1.f0ce6f0git.el7
+    cloud7-openstack-train-release: puppet-systemd-2.10.0-1.el7
 - project: puppet-tacker
   buildsys-tags:
     cloud7-openstack-train-release: puppet-tacker-15.4.0-1.el7
