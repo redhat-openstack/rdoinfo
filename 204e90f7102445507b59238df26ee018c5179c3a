@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "81b7bf2e_4db3cb7c",
+        "filename": "buildsys-tags/cloud8s-openstack-wallaby-el8-build.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-03-29T13:27:43Z",
+      "side": 1,
+      "message": "need to add to cloud8s-openstack-wallaby-candidate.yml\n- project: double-conversion\n  buildsys-tags:\n    cloud8s-openstack-wallaby-candidate: double-conversion-3.1.5-4.el8\n\nAdding to el8-build or testing is next step based on it\u0027s BR only or requires.",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 70
+      },
+      "revId": "204e90f7102445507b59238df26ee018c5179c3a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
