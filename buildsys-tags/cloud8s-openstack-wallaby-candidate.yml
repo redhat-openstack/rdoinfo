@@ -26,6 +26,9 @@ packages:
 - project: cpp-hocon
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: cpp-hocon-0.3.0-4.el8
+- project: double-conversion
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: double-conversion-3.1.5-4.el8
 - project: yaml-cpp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: yaml-cpp-0.6.3-4.el8
