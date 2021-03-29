@@ -14,6 +14,9 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
+- project: python-ujson
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-ujson-2.0.3-2.el8
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: novnc-1.2.0-2.el8
