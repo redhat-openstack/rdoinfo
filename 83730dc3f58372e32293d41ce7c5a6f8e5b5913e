@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb6a174a_c56f3507",
+        "filename": "buildsys-tags/cloud8s-openstack-wallaby-candidate.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-03-30T05:17:33Z",
+      "side": 1,
+      "message": "since you already built it in CBS https://cbs.centos.org/koji/buildinfo?buildID\u003d32460, now it can be promoted to -testing and keep it as a rdo-dependency.",
+      "range": {
+        "startLine": 19,
+        "startChar": 41,
+        "endLine": 19,
+        "endChar": 65
+      },
+      "revId": "83730dc3f58372e32293d41ce7c5a6f8e5b5913e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
