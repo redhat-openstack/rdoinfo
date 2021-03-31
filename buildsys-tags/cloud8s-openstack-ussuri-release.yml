@@ -220,7 +220,7 @@ packages:
     cloud8s-openstack-ussuri-release: glpk-4.65-4.el8
 - project: gnocchi
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: gnocchi-4.3.4-2.el8
+    cloud8s-openstack-ussuri-release: gnocchi-4.3.5-1.el8
 - project: gnocchiclient
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-gnocchiclient-7.0.4-1.el8
@@ -505,7 +505,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-neutronclient-7.1.1-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-nova-21.1.2-1.el8
+    cloud8s-openstack-ussuri-release: openstack-nova-21.2.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-novaclient-17.0.0-1.el8
@@ -670,7 +670,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-ovsdbapp-1.2.2-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-packstack-16.0.2-1.el8
+    cloud8s-openstack-ussuri-release: openstack-packstack-16.0.2-2.el8
 - project: panko
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-panko-8.0.0-1.el8
@@ -2017,7 +2017,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-telemetry-tests-tempest-1.0.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-tempest-26.0.0-1.el8
+    cloud8s-openstack-ussuri-release: openstack-tempest-26.1.0-1.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-horizon-tests-tempest-1.0.0-1.el8
