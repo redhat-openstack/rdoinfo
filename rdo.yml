@@ -2208,6 +2208,13 @@ packages:
   - elfosardo@gmail.com
   - iurygregory@gmail.com
   - jkreger@gmail.com
+- project: glance-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  upstream: https://opendev.org/openstack/glance-tempest-plugin
+  name: python-glance-tests-tempest
+  component: glance
+  maintainers:
+  - pdeore@redhat.com
 - project: ec2api-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-ec2api-tests-tempest
