@@ -167,6 +167,9 @@ packages:
 - project: diskimage-builder
   buildsys-tags:
     cloud8s-openstack-victoria-testing: diskimage-builder-3.3.1-2.el8
+- project: double-conversion
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: double-conversion-3.1.5-4.el8
 - project: dracclient
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-dracclient-5.1.0-1.el8
@@ -1741,7 +1744,7 @@ packages:
     cloud8s-openstack-victoria-testing: python-tzlocal-1.5.1-9.el8
 - project: python-ujson
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-ujson-2.0-0.2.20170206git2f1d487.el8
+    cloud8s-openstack-victoria-testing: python-ujson-2.0.3-2.el8
 - project: python-unicodecsv
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-unicodecsv-0.14.1-19.el8
