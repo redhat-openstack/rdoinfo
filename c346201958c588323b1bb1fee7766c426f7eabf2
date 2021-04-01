@@ -46,6 +46,30 @@
       "revId": "c346201958c588323b1bb1fee7766c426f7eabf2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84c4904a_50199cc7",
+        "filename": "tags/train.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 642
+      },
+      "writtenOn": "2021-04-01T11:39:36Z",
+      "side": 1,
+      "message": "1.4.0 is the last release that supports python2\n\nafter discussion within the Octavia squad, dropping scenario010-centos7 jobs is something we could consider, so using 1.7.0 or 1.6.0 should not be a pbl for train",
+      "parentUuid": "54ee3285_67bf5a97",
+      "range": {
+        "startLine": 456,
+        "startChar": 21,
+        "endLine": 456,
+        "endChar": 26
+      },
+      "revId": "c346201958c588323b1bb1fee7766c426f7eabf2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
