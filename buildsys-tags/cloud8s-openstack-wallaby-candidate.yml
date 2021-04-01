@@ -32,3 +32,6 @@ packages:
 - project: yaml-cpp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: yaml-cpp-0.6.3-4.el8
+- project: ansible-collection-community-kubernetes
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: ansible-collection-community-kubernetes-1.1.1-4.el8
