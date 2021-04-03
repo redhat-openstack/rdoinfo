@@ -1,1 +1,7 @@
 packages:
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-victoria-candidate: python-importlib-metadata-1.7.0-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8s-openstack-victoria-candidate: python-importlib-resources-3.0.0-1.el8
