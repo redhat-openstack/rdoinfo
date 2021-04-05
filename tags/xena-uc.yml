@@ -1,1244 +1,1244 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-config_template
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-pacemaker
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-atos-hsm
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-chrony
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-collect-logs
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-collectd-config
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-container-registry
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-lunasa-hsm
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-openstack-operations
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-qdr-config
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-redhat-subscription
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-thales-hsm
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-role-tripleo-modify-image
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ansible-tripleo-ipa-server
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: aodh
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: aodhclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: automaton
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.0
 - project: barbican
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: barbican-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.3.0
 - project: barbicanclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 5.1.0
 - project: castellan
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.7.1
 - project: ceilometer
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ceilometerclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.9.0
 - project: ceilometermiddleware
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: cinder
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: cinder-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.4.0
 - project: cinderclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7.4.0
 - project: cinderlib
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: cliff
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.7.0
 - project: cloudkitty
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: cloudkitty-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: cloudkittyclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.2.0
 - project: collectd-gnocchi
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: cursive
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.2.2
 - project: debtcollector
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: designate
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: designate-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: designate-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.11.0
 - project: designateclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.2.0
 - project: dib-utils
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.0.11
 - project: diskimage-builder
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: dracclient
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ec2-api
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ec2api-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.1
 - project: futurist
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.0
 - project: glance
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: glance_store
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: glanceclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.3.0
 - project: glare
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: glareclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.5.3
 - project: glean
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: gnocchi
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: stable/4.3
 - project: gnocchiclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7.0.4
 - project: hacking
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
 - project: hardware
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: heat
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: heat-agents
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: heat-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: heat-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.0
 - project: heat-translator
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.0
 - project: heatclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.0
 - project: horizon
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ibmcclient
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic-inspector
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic-inspector-client
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.5.0
 - project: ironic-lib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.6.1
 - project: ironic-prometheus-exporter
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic-python-agent
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic-python-agent-builder
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic-staging-drivers
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironic-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: ironic-ui
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ironicclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.6.1
 - project: keystone
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: keystone-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.7.0
 - project: keystoneauth1
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.3.1
 - project: keystoneclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.2.0
 - project: keystonemiddleware
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 9.2.0
 - project: kolla
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: kuryr
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: kuryr-kubernetes
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: kuryr-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.9.0
 - project: magnum
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: magnum-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.3.0
 - project: magnum-ui
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: magnumclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.4.0
 - project: manila
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: manila-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.4.0
 - project: manila-ui
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: manilaclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.6.0
 - project: metalsmith
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.4.2
 - project: microversion-parse
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.0.1
 - project: mistral
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: mistral-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: mistral-extra
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: mistral-lib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.4.0
 - project: mistral-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.0
 - project: mistralclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.2.0
 - project: monascaclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.0
 - project: mox3
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.1.0
 - project: murano
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: murano-agent
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: murano-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: murano-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: muranoclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: networking-ansible
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-arista
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-bagpipe
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-baremetal
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-bgpvpn
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-bigswitch
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-generic-switch
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-l2gw
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-l2gw-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-odl
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-omnipath
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: networking-sfc
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: neutron
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: neutron-dynamic-routing
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: neutron-lib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.10.1
 - project: neutron-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.4.0
 - project: neutron-vpnaas
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: neutronclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7.3.0
 - project: nova
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: novaclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 17.4.0
 - project: novajoin
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: novajoin-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 468b968bb3bb042c6db3159246af224f2042d5c1
 - project: octavia
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: octavia-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: octavia-lib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.1
 - project: octavia-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.7.0
 - project: octaviaclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.0
 - project: openstack-macros
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: openstack-selinux
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: openstackclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 5.5.0
 - project: openstacksdk
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.55.0
 - project: os-apply-config
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: os-brick
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.3.1
 - project: os-client-config
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.1.0
 - project: os-collect-config
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: os-faults
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: os-ken
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.4.0
 - project: os-net-config
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: os-refresh-config
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: os-resource-classes
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.0.0
 - project: os-service-types
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.7.0
 - project: os-testr
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.0.0
 - project: os-traits
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.5.0
 - project: os-vif
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.4.0
 - project: os-win
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 5.4.0
 - project: os-xenapi
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.3.4
 - project: osc-lib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.3.1
 - project: osc-placement
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: oslo-cache
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.7.0
 - project: oslo-concurrency
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.4.0
 - project: oslo-config
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 8.5.0
 - project: oslo-context
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.2.0
 - project: oslo-db
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 8.5.0
 - project: oslo-i18n
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 5.0.1
 - project: oslo-log
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.4.0
 - project: oslo-messaging
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 12.7.1
 - project: oslo-metrics
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.2.1
 - project: oslo-middleware
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.2.0
 - project: oslo-policy
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.7.0
 - project: oslo-privsep
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.5.0
 - project: oslo-reports
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: oslo-rootwrap
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6.2.0
 - project: oslo-serialization
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.1.0
 - project: oslo-service
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.5.0
 - project: oslo-sphinx
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.3.0
 - project: oslo-utils
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.8.0
 - project: oslo-versionedobjects
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.4.0
 - project: oslo-vmware
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.8.0
 - project: oslotest
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.4.1
 - project: osprofiler
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.4.0
 - project: oswin-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.0
 - project: ovn-octavia-provider
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: ovsdbapp
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.9.0
 - project: packstack
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: panko
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: pankoclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.5.0
 - project: patrole
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0.12.0
 - project: placement
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: proliantutils
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.9.4
 - project: puppet-aodh
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-apache
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 0c19106e19e2001c5ef98a0c290376ee1a30864e
 - project: puppet-archive
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: bc7e4ff556a57efec58d423a30a0eac25c3cf7a5
 - project: puppet-auditd
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
 - project: puppet-barbican
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-cassandra
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 542df57c7f5db932fee80041998aa57d5fcc0cba
 - project: puppet-ceilometer
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-ceph
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-certmonger
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
 - project: puppet-cinder
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-collectd
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 60d656ab1063b30f7617caf6e4115cc0050ca2eb
 - project: puppet-concat
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: dfeabb98d6493a647e1ffab333d0b64ba3c5df35
 - project: puppet-contrail
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
 - project: puppet-corosync
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6a9da9ae5d3b981dbd7ae85cc4e715a9f13582d5
 - project: puppet-datacat
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
 - project: puppet-designate
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-dns
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 43e446a9d517a336b07b0304633bb1380d0422fc
 - project: puppet-ec2api
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-elasticsearch
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 62cf708eda8f2074c6233c301a947a3289ca91d6
 - project: puppet-etcd
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
 - project: puppet-fdio
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
 - project: puppet-firewall
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6e08f9678d8c4a80e96888a1a82b5fabd647efec
 - project: puppet-fluentd
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
 - project: puppet-git
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
 - project: puppet-glance
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-gnocchi
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-haproxy
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: a797b8ccc7441199e22f151d439e85f03f3fa6ce
 - project: puppet-heat
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-horizon
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-inifile
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: df46d2a0293687a157c70dab128bb5f2a53ef837
 - project: puppet-ipaclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 - project: puppet-ironic
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-java
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: f9913171310e99f579532fb3be373d784a02f44e
 - project: puppet-kafka
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 35468206e7cdf6abdf86cc7481281b6597cd9f68
 - project: puppet-keepalived
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-keystone
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-kibana3
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-kmod
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 52e31e3e9ede38841f1035a1d0690088863fa6a2
 - project: puppet-lib-file_concat
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
 - project: puppet-magnum
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-manila
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-memcached
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4c70dbd69fd00fe5ee10128e42abce96920faa91
 - project: puppet-midonet
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-mistral
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-module-data
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mongodb
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: a59b99ed9df3796b64c42bc4e499fdef53b3c39a
 - project: puppet-murano
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-mysql
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 937d0443c6da5a4080ef977f8979f7d10fdb0253
 - project: puppet-n1k-vsm
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-neutron
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-nova
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-nssdb
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-ntp
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.2.0
 - project: puppet-octavia
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-openstack_extras
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-openstacklib
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-oslo
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-ovn
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-pacemaker
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-panko
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-placement
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-powerdns
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
 - project: puppet-qdr
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-rabbitmq
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 63fee2c701e78f61d0612738d849176ad862729c
 - project: puppet-redis
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 547105ef0756abb82642232c09ebd3f092ed8ab6
 - project: puppet-remote
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: b3ee352a0bffbfa521c93ab1aa9e80861c4533d9
 - project: puppet-rsyslog
   tags:
     # NOTE(aschultz): rsyslog broke backwards compatibility with
     # # https://github.com/voxpupuli/puppet-rsyslog/pull/136
-    wallaby-uc:
+    xena-uc:
       source-branch: 2548a0d95c1549b506b7bb2314dd149b028fc04b
 - project: puppet-sahara
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-sensu
   tags:
     # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
     # clients to Go language, which we don't provide and will not provide in future,
     # because Sensu is being deprecated.
-    wallaby-uc:
+    xena-uc:
       source-branch: 20361a4043d2881359551510ada0817caee3bc05
 - project: puppet-snmp
   tags:
-    wallaby-uc:
+    xena-uc:
       # New versions of puppet-snmp require facter > 3.
       source-branch: 5d73485b9d0c42f8131fc0c761406ac8f0c88152
 - project: puppet-ssh
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6e0f430034cf349c8b613d16cf9e3a52f63183e0
 - project: puppet-staging
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-stdlib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7c1ae256a70045473ebf2f50a61c8c082b926f29
 - project: puppet-swift
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-sysctl
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
-    wallaby-uc:
+    xena-uc:
       # puppet systemd introduced a backwards incompatible change breaking puppet-rabbitmq
       source-branch: 8f68b0dcf3bbbafc60c025879a28004fc9815aab
 - project: puppet-tacker
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-tempest
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-timezone
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 13ece6b14033d9defdddec3c3535568f58bb1750
 - project: puppet-tomcat
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 6add7e4c3b3742da3e8aa04f909b25d9e4d0662d
 - project: puppet-tripleo
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-trove
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-uchiwa
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: a36ee18f8f70343f22c7c9471f27e1b3efec99ee
 - project: puppet-veritas_hyperscale
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
 - project: puppet-vitrage
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-vlan
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-vswitch
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-watcher
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-xinetd
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 8d460c4b64e357bd0ba0f2ca78509d999b59b21c
 - project: puppet-zaqar
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: puppet-zookeeper
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 18a5101a9619cba9b82d6ec3de49af4363db8b5d
 - project: pycadf
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.1.1
 - project: rally
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: rally-openstack
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: reno
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.3.0
 - project: requestsexceptions
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.4.0
 - project: rsd-lib
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.0
 - project: rsdclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.0.2
 - project: sahara
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-image-elements
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-plugin-ambari
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-plugin-cdh
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-plugin-mapr
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-plugin-spark
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-plugin-storm
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-plugin-vanilla
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sahara-tests
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: saharaclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.3.0
 - project: scciclient
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: senlin
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: senlinclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.1
 - project: shade
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.33.0
 - project: sphinx-feature-classification
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.1.0
 - project: stackviz
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: stevedore
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.3.0
 - project: sushy
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.7.0
 - project: sushy-oem-idrac
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: sushy-tools
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: swift
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: swiftclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.11.1
 - project: tacker
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tackerclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.6.0
 - project: tap-as-a-service
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: taskflow
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.6.0
 - project: telemetry-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.3.0
 - project: tempest
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 27.0.0
 - project: tempestconf
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tobiko
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tooz
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.8.0
 - project: tripleo-ansible
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-common
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-heat-templates
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-image-elements
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-ipa
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-ipsec
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-operator-ansible
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-powerflex
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-puppet-elements
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-repos
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleo-validations
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: tripleoclient
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: trove
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: trove-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: trove-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.0
 - project: troveclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 7.0.0
 - project: validations-common
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: validations-libs
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: virtualbmc
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: vitrage
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: vitrage-dashboard
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 3.0.0
 - project: vitrage-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 5.3.0
 - project: vitrageclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 4.3.0
 - project: vmware-nsx
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: vmware-nsx-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: watcher
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: watcher-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.2.0
 - project: wsme
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: bff9624cbc96bfd04e8d1ed5ee2e586b22a2ba51
 - project: zaqar
   tags:
-    wallaby-uc:
+    xena-uc:
 - project: zaqar-tempest-plugin
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 1.2.1
 - project: zaqarclient
   tags:
-    wallaby-uc:
+    xena-uc:
       source-branch: 2.1.0
