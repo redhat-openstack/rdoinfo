@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8d26bab7_92494d14",
+        "filename": "tags/train.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-04-05T08:36:47Z",
+      "side": 1,
+      "message": "https://review.rdoproject.org/r/c/rdo-jobs/+/32967 review stats that 1.7.0 don\u0027t support python2, but train is both python2 and python3 supported release using same tag(train) for building for centos7 and centos8, bumping to python2 unsupported version can create issues in c7-train, can it be fixed in spec to get py2 support like u did for tempestconf in train?",
+      "range": {
+        "startLine": 456,
+        "startChar": 6,
+        "endLine": 456,
+        "endChar": 26
+      },
+      "revId": "e4b3c1319e3d757f0344bebf63cfdff9a81d6695",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
