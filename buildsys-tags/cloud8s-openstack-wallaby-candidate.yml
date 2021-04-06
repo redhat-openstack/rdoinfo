@@ -2,6 +2,18 @@ packages:
 - project: PyYAML
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: PyYAML-5.4.1-2.el8
+- project: catch1
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: catch1-1.12.2-8.el8
+- project: cpp-hocon
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: cpp-hocon-0.3.0-4.el8
+- project: double-conversion
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: double-conversion-3.1.5-4.el8
+- project: novnc
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: novnc-1.2.0-2.el8
 - project: python-amqp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-amqp-5.0.5-1.el8
@@ -14,21 +26,9 @@ packages:
 - project: python-pyroute2
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pyroute2-0.5.14-1.el8
-- project: novnc
-  buildsys-tags:
-    cloud8s-openstack-wallaby-candidate: novnc-1.2.0-2.el8
 - project: sysbench
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: sysbench-1.0.20-5.el8
-- project: catch1
-  buildsys-tags:
-    cloud8s-openstack-wallaby-candidate: catch1-1.12.2-8.el8
-- project: cpp-hocon
-  buildsys-tags:
-    cloud8s-openstack-wallaby-candidate: cpp-hocon-0.3.0-4.el8
-- project: double-conversion
-  buildsys-tags:
-    cloud8s-openstack-wallaby-candidate: double-conversion-3.1.5-4.el8
 - project: yaml-cpp
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: yaml-cpp-0.6.3-4.el8
