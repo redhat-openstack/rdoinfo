@@ -173,6 +173,9 @@ packages:
 - project: diskimage-builder
   buildsys-tags:
     cloud8-openstack-ussuri-release: diskimage-builder-2.36.0-1.el8
+- project: double-conversion
+  buildsys-tags:
+    cloud8-openstack-ussuri-release: double-conversion-3.1.5-4.el8
 - project: dracclient
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-dracclient-3.1.1-1.el8
@@ -1756,7 +1759,7 @@ packages:
     cloud8-openstack-ussuri-release: python-tzlocal-1.5.1-9.el8
 - project: python-ujson
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-ujson-2.0-0.2.20170206git2f1d487.el8
+    cloud8-openstack-ussuri-release: python-ujson-2.0.3-2.el8
 - project: python-unicodecsv
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-unicodecsv-0.14.1-19.el8
