@@ -22,6 +22,30 @@
       "revId": "e4b3c1319e3d757f0344bebf63cfdff9a81d6695",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9fcda78_6a6eee99",
+        "filename": "tags/train.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 456,
+      "author": {
+        "id": 432
+      },
+      "writtenOn": "2021-04-07T07:12:41Z",
+      "side": 1,
+      "message": "IIRC the idea is to:\n1. Drop periodic-tripleo-ci-centos-7-scenario010-standalone-train (see https://review.rdoproject.org/r/c/rdo-jobs/+/32967)\n2. Bump octavia-tempest-plugin to 1.7.0 in all supported versions (\u003e\u003d train, where train is now py3 only)",
+      "parentUuid": "8d26bab7_92494d14",
+      "range": {
+        "startLine": 456,
+        "startChar": 6,
+        "endLine": 456,
+        "endChar": 26
+      },
+      "revId": "e4b3c1319e3d757f0344bebf63cfdff9a81d6695",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
