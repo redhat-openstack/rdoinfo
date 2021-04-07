@@ -20,6 +20,9 @@ packages:
 - project: python-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-memcached-1.59-1.el8
+- project: python-pycdlib
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: python-pycdlib-1.11.0-1.el8
 - project: python-pymemcache
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: python-pymemcache-3.4.0-1.el8
