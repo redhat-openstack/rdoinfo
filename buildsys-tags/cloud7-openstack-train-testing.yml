@@ -601,7 +601,7 @@ packages:
     cloud7-openstack-train-testing: openvswitch-2.12.0-1.el7
 - project: os-apply-config
   buildsys-tags:
-    cloud7-openstack-train-testing: os-apply-config-10.5.2-1.el7
+    cloud7-openstack-train-testing: os-apply-config-10.6.0-1.el7
 - project: os-brick
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-brick-2.10.4-3.el7
@@ -610,7 +610,7 @@ packages:
     cloud7-openstack-train-testing: python-os-client-config-1.33.0-2.el7
 - project: os-collect-config
   buildsys-tags:
-    cloud7-openstack-train-testing: os-collect-config-10.5.1-1.el7
+    cloud7-openstack-train-testing: os-collect-config-10.6.0-1.el7
 - project: os-faults
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-faults-0.2.5-1.el7
@@ -619,7 +619,7 @@ packages:
     cloud7-openstack-train-testing: python-os-ken-0.4.1-1.el7
 - project: os-net-config
   buildsys-tags:
-    cloud7-openstack-train-testing: os-net-config-11.4.0-1.el7
+    cloud7-openstack-train-testing: os-net-config-11.5.0-1.el7
 - project: os-refresh-config
   buildsys-tags:
     cloud7-openstack-train-testing: os-refresh-config-10.4.1-1.el7
@@ -742,7 +742,7 @@ packages:
     cloud7-openstack-train-testing: python-patrole-0.7.0-1.el7
 - project: paunch
   buildsys-tags:
-    cloud7-openstack-train-testing: python-paunch-5.4.0-1.el7
+    cloud7-openstack-train-testing: python-paunch-5.5.0-1.el7
 - project: placement
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-placement-2.0.1-1.el7
@@ -2125,13 +2125,13 @@ packages:
     cloud7-openstack-train-testing: python-tooz-1.66.3-1.el7
 - project: tripleo-ansible
   buildsys-tags:
-    cloud7-openstack-train-testing: tripleo-ansible-0.6.0-1.el7
+    cloud7-openstack-train-testing: tripleo-ansible-0.7.0-1.el7
 - project: tripleo-common
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tripleo-common-11.5.0-1.el7
+    cloud7-openstack-train-testing: openstack-tripleo-common-11.6.0-1.el7
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tripleo-heat-templates-11.4.0-1.el7
+    cloud7-openstack-train-testing: openstack-tripleo-heat-templates-11.5.0-1.el7
 - project: tripleo-image-elements
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-tripleo-image-elements-10.6.2-1.el7
@@ -2143,13 +2143,13 @@ packages:
     cloud7-openstack-train-testing: ansible-tripleo-ipsec-9.2.0-1.el7
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tripleo-puppet-elements-11.2.2-1.el7
+    cloud7-openstack-train-testing: openstack-tripleo-puppet-elements-11.3.0-1.el7
 - project: tripleo-validations
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tripleo-validations-11.4.0-1.el7
+    cloud7-openstack-train-testing: openstack-tripleo-validations-11.5.0-1.el7
 - project: tripleoclient
   buildsys-tags:
-    cloud7-openstack-train-testing: python-tripleoclient-12.4.0-1.el7
+    cloud7-openstack-train-testing: python-tripleoclient-12.5.0-1.el7
 - project: trove
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-trove-12.1.0-1.el7
