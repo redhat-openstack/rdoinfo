@@ -535,7 +535,7 @@ packages:
     cloud8-openstack-train-release: openvswitch-2.12.0-1.1.el8
 - project: os-apply-config
   buildsys-tags:
-    cloud8-openstack-train-release: os-apply-config-10.5.2-1.el8
+    cloud8-openstack-train-release: os-apply-config-10.6.0-1.el8
 - project: os-brick
   buildsys-tags:
     cloud8-openstack-train-release: python-os-brick-2.10.4-3.el8
@@ -544,7 +544,7 @@ packages:
     cloud8-openstack-train-release: python-os-client-config-1.33.0-2.el8
 - project: os-collect-config
   buildsys-tags:
-    cloud8-openstack-train-release: os-collect-config-10.5.1-1.el8
+    cloud8-openstack-train-release: os-collect-config-10.6.0-1.el8
 - project: os-faults
   buildsys-tags:
     cloud8-openstack-train-release: python-os-faults-0.2.5-1.el8
@@ -553,7 +553,7 @@ packages:
     cloud8-openstack-train-release: python-os-ken-0.4.1-1.el8
 - project: os-net-config
   buildsys-tags:
-    cloud8-openstack-train-release: os-net-config-11.4.0-1.el8
+    cloud8-openstack-train-release: os-net-config-11.5.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
     cloud8-openstack-train-release: os-refresh-config-10.4.1-1.el8
@@ -670,7 +670,7 @@ packages:
     cloud8-openstack-train-release: python-patrole-0.7.0-1.el8
 - project: paunch
   buildsys-tags:
-    cloud8-openstack-train-release: python-paunch-5.4.0-1.el8
+    cloud8-openstack-train-release: python-paunch-5.5.0-1.el8
 - project: placement
   buildsys-tags:
     cloud8-openstack-train-release: openstack-placement-2.0.1-1.el8
@@ -1969,13 +1969,13 @@ packages:
     cloud8-openstack-train-release: python-tooz-1.66.3-1.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8-openstack-train-release: tripleo-ansible-0.6.0-1.el8
+    cloud8-openstack-train-release: tripleo-ansible-0.7.0-1.el8
 - project: tripleo-common
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-tripleo-common-11.5.0-1.el8
+    cloud8-openstack-train-release: openstack-tripleo-common-11.6.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-tripleo-heat-templates-11.4.0-1.el8
+    cloud8-openstack-train-release: openstack-tripleo-heat-templates-11.5.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
     cloud8-openstack-train-release: openstack-tripleo-image-elements-10.6.2-1.el8
@@ -1987,10 +1987,10 @@ packages:
     cloud8-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-tripleo-puppet-elements-11.2.2-1.el8
+    cloud8-openstack-train-release: openstack-tripleo-puppet-elements-11.3.0-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-tripleo-validations-11.4.0-1.el8
+    cloud8-openstack-train-release: openstack-tripleo-validations-11.5.0-1.el8
 - project: tripleoclient
   buildsys-tags:
     cloud8-openstack-train-release: python-tripleoclient-12.4.0-1.el8
