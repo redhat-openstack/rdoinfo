@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ac087bd5_19f9de63",
+        "filename": "buildsys-tags/cloud8s-openstack-wallaby-release.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 958,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-04-08T04:26:58Z",
+      "side": 1,
+      "message": "need to remove it as 0.10.1 coming from c8-stream, so will remove it from testing in this review itself and untag it from -testing",
+      "range": {
+        "startLine": 956,
+        "startChar": 0,
+        "endLine": 958,
+        "endChar": 66
+      },
+      "revId": "745534a8c42875f6d765eef32336bf9f2a57c5a6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
