@@ -25,7 +25,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-automaton-2.3.0-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-barbican-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-barbican-12.0.0-0.2.0rc2.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-barbican-tests-tempest-1.3.0-1.el8
@@ -55,7 +55,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-ceilometermiddleware-2.2.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-cinder-18.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-cinder-18.0.0-0.2.0rc2.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-cinder-tests-tempest-1.4.0-1.el8
@@ -244,7 +244,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-ironic-17.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-ironic-17.0.1-1.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-ironic-inspector-10.6.0-1.el8
@@ -334,7 +334,7 @@ packages:
     cloud8s-openstack-wallaby-release: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-magnum-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-magnum-12.0.0-0.2.0rc2.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-magnum-tests-tempest-1.3.0-1.el8
@@ -439,7 +439,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-networking-sfc-12.0.0-0.1.0rc1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-neutron-18.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-neutron-18.0.0-0.2.0rc2.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-neutron-dynamic-routing-18.0.0-0.1.0rc1.el8
@@ -457,7 +457,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-neutronclient-7.3.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-nova-23.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-nova-23.0.0-0.2.0rc2.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-novaclient-17.4.0-1.el8
