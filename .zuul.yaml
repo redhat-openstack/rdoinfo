@@ -1,0 +1,9 @@
+- project:
+    check:
+      jobs: &jobs
+        - rdoinfo-tripleo-victoria-release-centos-8-scenario001-standalone:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-victoria-release-test.yml$
+
