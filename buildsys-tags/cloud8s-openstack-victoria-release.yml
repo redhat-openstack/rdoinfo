@@ -2035,7 +2035,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-tripleo-common-13.2.0-2.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-tripleo-heat-templates-13.1.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-tripleo-heat-templates-13.2.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-tripleo-image-elements-12.2.0-1.el8
@@ -2044,13 +2044,13 @@ packages:
     cloud8s-openstack-victoria-release: ansible-tripleo-ipa-0.2.0-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
-    cloud8s-openstack-victoria-release: ansible-tripleo-ipsec-10.0.0-1.el8
+    cloud8s-openstack-victoria-release: ansible-tripleo-ipsec-10.0.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-tripleo-puppet-elements-13.1.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-tripleo-puppet-elements-13.1.1-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-tripleo-validations-13.1.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-tripleo-validations-13.2.0-1.el8
 - project: tripleoclient
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-tripleoclient-14.2.0-1.el8
