@@ -16,7 +16,10 @@ packages:
     cloud7-openstack-train-release: Xaw3d-1.6.2-4.el7
 - project: ansible
   buildsys-tags:
-    cloud7-openstack-train-release: ansible-2.9.16-1.el7
+    cloud7-openstack-train-release: ansible-2.9.19-1.el7
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud7-openstack-train-release: ansible-collections-openstack-1.3.0-1.el7
 - project: ansible-config_template
   buildsys-tags:
     cloud7-openstack-train-release: ansible-config_template-1.0.0-1.faf60ddgit.el7
@@ -103,7 +106,7 @@ packages:
     cloud7-openstack-train-release: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-cinder-15.4.1-1.el7
+    cloud7-openstack-train-release: openstack-cinder-15.5.0-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-release: python-cinder-tests-tempest-1.4.0-1.el7
@@ -601,7 +604,7 @@ packages:
     cloud7-openstack-train-release: openvswitch-2.12.0-1.el7
 - project: os-apply-config
   buildsys-tags:
-    cloud7-openstack-train-release: os-apply-config-10.5.2-1.el7
+    cloud7-openstack-train-release: os-apply-config-10.6.0-1.el7
 - project: os-brick
   buildsys-tags:
     cloud7-openstack-train-release: python-os-brick-2.10.4-3.el7
@@ -610,7 +613,7 @@ packages:
     cloud7-openstack-train-release: python-os-client-config-1.33.0-2.el7
 - project: os-collect-config
   buildsys-tags:
-    cloud7-openstack-train-release: os-collect-config-10.5.1-1.el7
+    cloud7-openstack-train-release: os-collect-config-10.6.0-1.el7
 - project: os-faults
   buildsys-tags:
     cloud7-openstack-train-release: python-os-faults-0.2.5-1.el7
@@ -619,7 +622,7 @@ packages:
     cloud7-openstack-train-release: python-os-ken-0.4.1-1.el7
 - project: os-net-config
   buildsys-tags:
-    cloud7-openstack-train-release: os-net-config-11.4.0-1.el7
+    cloud7-openstack-train-release: os-net-config-11.5.0-1.el7
 - project: os-refresh-config
   buildsys-tags:
     cloud7-openstack-train-release: os-refresh-config-10.4.1-1.el7
@@ -742,7 +745,7 @@ packages:
     cloud7-openstack-train-release: python-patrole-0.7.0-1.el7
 - project: paunch
   buildsys-tags:
-    cloud7-openstack-train-release: python-paunch-5.4.0-1.el7
+    cloud7-openstack-train-release: python-paunch-5.5.0-1.el7
 - project: placement
   buildsys-tags:
     cloud7-openstack-train-release: openstack-placement-2.0.1-1.el7
@@ -1009,7 +1012,7 @@ packages:
     cloud7-openstack-train-release: puppet-tomcat-3.1.0-1.a3f92d1git.el7
 - project: puppet-tripleo
   buildsys-tags:
-    cloud7-openstack-train-release: puppet-tripleo-11.5.0-1.el7
+    cloud7-openstack-train-release: puppet-tripleo-11.6.1-1.el7
 - project: puppet-trove
   buildsys-tags:
     cloud7-openstack-train-release: puppet-trove-15.4.0-1.el7
@@ -2125,13 +2128,13 @@ packages:
     cloud7-openstack-train-release: python-tooz-1.66.3-1.el7
 - project: tripleo-ansible
   buildsys-tags:
-    cloud7-openstack-train-release: tripleo-ansible-0.6.0-1.el7
+    cloud7-openstack-train-release: tripleo-ansible-0.7.0-1.el7
 - project: tripleo-common
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tripleo-common-11.5.0-1.el7
+    cloud7-openstack-train-release: openstack-tripleo-common-11.6.0-1.el7
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tripleo-heat-templates-11.4.0-1.el7
+    cloud7-openstack-train-release: openstack-tripleo-heat-templates-11.5.0-1.el7
 - project: tripleo-image-elements
   buildsys-tags:
     cloud7-openstack-train-release: openstack-tripleo-image-elements-10.6.2-1.el7
@@ -2143,13 +2146,13 @@ packages:
     cloud7-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el7
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tripleo-puppet-elements-11.2.2-1.el7
+    cloud7-openstack-train-release: openstack-tripleo-puppet-elements-11.3.0-1.el7
 - project: tripleo-validations
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-tripleo-validations-11.4.0-1.el7
+    cloud7-openstack-train-release: openstack-tripleo-validations-11.5.0-1.el7
 - project: tripleoclient
   buildsys-tags:
-    cloud7-openstack-train-release: python-tripleoclient-12.4.0-1.el7
+    cloud7-openstack-train-release: python-tripleoclient-12.5.0-1.el7
 - project: trove
   buildsys-tags:
     cloud7-openstack-train-release: openstack-trove-12.1.0-1.el7
