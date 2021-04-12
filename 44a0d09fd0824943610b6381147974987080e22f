@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "010ba05d_556e22d3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-04-12T06:37:35Z",
+      "side": 1,
+      "message": "Let\u0027s avoid chasing master(since tempestconf is branchless, not setting source-branch will lead to package each and every commit from tempestconf master branch) for stable branches, whenever needed(after testing) against the branch, pin can be moved forward. These helps in avoid brekaging stable releases with master commits. Also the issues mentioned by Martin are valid.\n\nNOTE: tempest and other tempest plugins are also pinned in stable/releases.",
+      "revId": "44a0d09fd0824943610b6381147974987080e22f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
