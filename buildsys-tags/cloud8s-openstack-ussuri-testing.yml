@@ -1190,6 +1190,9 @@ packages:
 - project: python-contextlib2
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-contextlib2-0.5.5-12.el8
+- project: python-contextvars
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-contextvars-2.4-1.el8
 - project: python-cotyledon
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-cotyledon-1.7.3-4.el8
@@ -1205,6 +1208,9 @@ packages:
 - project: python-cssselect
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-cssselect-0.9.2-13.el8
+- project: python-curio
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-curio-1.4-1.el8
 - project: python-cycler
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-cycler-0.10.0-13.el8
@@ -1340,9 +1346,33 @@ packages:
 - project: python-gunicorn
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-gunicorn-20.0.4-1.el8
+- project: python-h11
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-h11-0.12.0-1.el8
+- project: python-h2
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-h2-3.2.0-4.el8
+- project: python-hpack
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-hpack-3.0.0-11.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-httpcore-0.12.2-1.2.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-httpx-0.16.1-1.1.el8
+- project: python-hyperframe
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-hyperframe-5.2.0-7.el8
 - project: python-ifaddr
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-ifaddr-0.1.6-5.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-immutables-0.14-1.el8
 - project: python-importlib-metadata
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-importlib-metadata-0.23-1.el8
@@ -1606,7 +1636,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-retrying-1.2.3-21.el8
 - project: python-rfc3986
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-rfc3986-1.2.0-6.el8
+    cloud8s-openstack-ussuri-testing: python-rfc3986-1.4.0-3.el8
 - project: python-rjsmin
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-rjsmin-1.0.12-17.el8
@@ -1670,6 +1700,9 @@ packages:
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-sortedcontainers-2.1.0-5.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8s-openstack-ussuri-testing: python-sniffio-1.2.0-1.el8
 - project: python-soupsieve
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-soupsieve-1.9.2-3.el8

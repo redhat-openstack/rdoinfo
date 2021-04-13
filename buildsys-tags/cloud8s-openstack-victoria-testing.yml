@@ -1172,6 +1172,9 @@ packages:
 - project: python-contextlib2
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-contextlib2-0.5.5-12.el8
+- project: python-contextvars
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-contextvars-2.4-1.el8
 - project: python-cotyledon
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-cotyledon-1.7.3-4.el8
@@ -1187,6 +1190,9 @@ packages:
 - project: python-cssselect
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-cssselect-0.9.2-13.el8
+- project: python-curio
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-curio-1.4-1.el8
 - project: python-cycler
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-cycler-0.10.0-13.el8
@@ -1322,6 +1328,27 @@ packages:
 - project: python-gunicorn
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-gunicorn-20.0.4-1.el8
+- project: python-h11
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-h11-0.12.0-1.el8
+- project: python-h2
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-h2-3.2.0-4.el8
+- project: python-hpack
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-hpack-3.0.0-11.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-httpcore-0.12.2-1.2.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-hstspreload-2020.9.29-1.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-httpx-0.16.1-1.1.el8
+- project: python-hyperframe
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-hyperframe-5.2.0-7.el8
 - project: python-ifaddr
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-ifaddr-0.1.7-2.el8
@@ -1331,6 +1358,9 @@ packages:
 - project: python-importlib-resources
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-importlib-resources-3.0.0-1.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-immutables-0.14-1.el8
 - project: python-influxdb
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-influxdb-5.2.0-6.el8
@@ -1594,7 +1624,7 @@ packages:
     cloud8s-openstack-victoria-testing: python-retrying-1.2.3-21.el8
 - project: python-rfc3986
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-rfc3986-1.2.0-6.el8
+    cloud8s-openstack-victoria-testing: python-rfc3986-1.4.0-3.el8
 - project: python-rjsmin
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-rjsmin-1.1.0-1.el8
@@ -1655,6 +1685,9 @@ packages:
 - project: python-snappy
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-snappy-0.5.4-5.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8s-openstack-victoria-testing: python-sniffio-1.2.0-1.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-sortedcontainers-2.2.2-2.el8
