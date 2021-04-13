@@ -1,1 +1,169 @@
 packages:
+- project: numpy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: numpy-1.20.2-1.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-alembic-1.5.8-1.el8
+- project: python-amqp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-amqp-5.0.6-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.49-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.49-1.el8
+- project: python-cassandra-driver
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-cassandra-driver-3.25.0-1.el8
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-confluent-kafka-1.6.1-1.el8
+- project: python-construct
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-construct-2.10.66-1.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-croniter-1.0.11-1.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-cryptography-3.4.7-1.el8
+- project: python-ddt
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-ddt-1.4.2-1.el8
+- project: python-django
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-django-2.2.20-1.el8
+- project: python-docker
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-docker-5.0.0-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dulwich-0.20.21-1.el8
+- project: python-elementpath
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-elementpath-2.2.1-1.el8
+- project: python-exabgp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-exabgp-4.2.13-1.el8
+- project: python-falcon
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-falcon-3.0.0-1.el8
+- project: python-gitdb
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-gitdb-4.0.7-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.1.0-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-core-1.26.3-1.el8
+- project: python-gunicorn
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-gunicorn-20.1.0-1.el8
+- project: python-httplib2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-httplib2-0.19.1-1.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-httpx-0.17.1-1.el8
+- project: python-hvac
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-hvac-0.10.9-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-importlib-metadata-3.10.0-1.el8
+- project: python-infinisdk
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-infinisdk-185.1.1-1.el8
+- project: python-jsonpatch
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-jsonpatch-1.32-1.el8
+- project: python-jsonpointer
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-jsonpointer-2.1-1.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-keyring-23.0.1-1.el8
+- project: python-monotonic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-monotonic-1.6-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.0.5-1.el8
+- project: python-natsort
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-natsort-7.1.1-1.el8
+- project: python-networkx
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-networkx-2.5.1-1.el8
+- project: python-ntc-templates
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-ntc-templates-2.0.0-1.el8
+- project: python-openvswitch
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-openvswitch-2.13.3-1.el8
+- project: python-persist-queue
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-persist-queue-0.6.0-1.el8
+- project: python-pillow
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pillow-8.2.0-1.el8
+- project: python-pint
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pint-0.17-1.el8
+- project: python-prometheus-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-prometheus-client-0.10.1-1.el8
+- project: python-pyghmi
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyghmi-1.5.25-1.el8
+- project: python-pyroute2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-0.5.17-1.el8
+- project: python-pytest
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pytest-6.2.3-1.el8
+- project: python-pytest-django
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pytest-django-4.2.0-1.el8
+- project: python-responses
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-responses-0.13.2-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-s3transfer-0.3.6-1.el8
+- project: python-salt
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-salt-3003-1.el8
+- project: python-scipy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scipy-1.6.2-1.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-setuptools-56.0.0-1.el8
+- project: python-smmap
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-smmap-4.0.0-1.el8
+- project: python-soupsieve
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-soupsieve-2.2.1-1.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sphinx-3.5.4-1.el8
+- project: python-sphinxcontrib-programoutput
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sphinxcontrib-programoutput-0.17-1.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-urllib3-1.26.4-1.el8
+- project: python-xmlschema
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-xmlschema-1.6.1-1.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zeroconf-0.29.0-1.el8
+- project: sympy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: sympy-1.8-1.el8

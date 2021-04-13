@@ -1343,12 +1343,12 @@ packages:
 - project: python-hpack
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-hpack-3.0.0-11.el8
-- project: python-httpcore
-  buildsys-tags:
-    cloud8-openstack-victoria-testing: python-httpcore-0.12.2-1.2.el8
 - project: python-hstspreload
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-httpcore-0.12.2-1.2.el8
 - project: python-httpx
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-httpx-0.16.1-1.1.el8
@@ -1358,15 +1358,15 @@ packages:
 - project: python-ifaddr
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-ifaddr-0.1.7-2.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: python-immutables-0.14-1.el8
 - project: python-importlib-metadata
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-importlib-metadata-1.7.0-1.el8
 - project: python-importlib-resources
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-importlib-resources-3.0.0-1.el8
-- project: python-immutables
-  buildsys-tags:
-    cloud8-openstack-victoria-testing: python-immutables-0.14-1.el8
 - project: python-influxdb
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-influxdb-5.2.0-6.el8
