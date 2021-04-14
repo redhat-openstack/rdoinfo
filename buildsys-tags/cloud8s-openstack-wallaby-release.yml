@@ -16,7 +16,7 @@ packages:
     cloud8s-openstack-wallaby-release: ansible-freeipa-0.3.1-1.el8
 - project: aodh
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-aodh-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-aodh-12.0.0-1.el8
 - project: aodhclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-aodhclient-2.2.0-1.el8
@@ -25,7 +25,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-automaton-2.3.0-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-barbican-12.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-barbican-12.0.0-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-barbican-tests-tempest-1.3.0-1.el8
@@ -46,7 +46,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-castellan-3.7.1-1.el8
 - project: ceilometer
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-ceilometer-16.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-ceilometer-16.0.0-1.el8
 - project: ceilometerclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-ceilometerclient-2.9.0-1.el8
@@ -55,7 +55,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-ceilometermiddleware-2.2.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-cinder-18.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-cinder-18.0.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-cinder-tests-tempest-1.4.0-1.el8
@@ -73,10 +73,10 @@ packages:
     cloud8s-openstack-wallaby-release: python-cliff-3.7.0-1.el8
 - project: cloudkitty
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-cloudkitty-14.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-cloudkitty-14.0.0-1.el8
 - project: cloudkitty-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-cloudkitty-ui-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-cloudkitty-ui-12.0.0-1.el8
 - project: cloudkittyclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-cloudkittyclient-4.2.0-1.el8
@@ -115,10 +115,10 @@ packages:
     cloud8s-openstack-wallaby-release: python-debtcollector-2.2.0-1.el8
 - project: designate
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-designate-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-designate-12.0.0-1.el8
 - project: designate-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-designate-ui-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-designate-ui-12.0.0-1.el8
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-designate-tests-tempest-0.11.0-1.el8
@@ -145,7 +145,7 @@ packages:
     cloud8s-openstack-wallaby-release: dumb-init-1.2.2-6.el8
 - project: ec2-api
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-ec2-api-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-ec2-api-12.0.0-1.el8
 - project: ec2api-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-ec2api-tests-tempest-1.2.1-1.el8
@@ -169,7 +169,7 @@ packages:
     cloud8s-openstack-wallaby-release: gflags-2.2.2-3.el8
 - project: glance
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-glance-22.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-glance-22.0.0-1.el8
 - project: glance_store
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-glance-store-2.5.0-1.el8
@@ -214,7 +214,7 @@ packages:
     cloud8s-openstack-wallaby-release: hdf5-1.10.5-5.el8
 - project: heat
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-heat-16.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-heat-16.0.0-1.el8
 - project: heat-agents
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-heat-agents-2.2.0-1.el8
@@ -223,7 +223,7 @@ packages:
     cloud8s-openstack-wallaby-release: heat-cfntools-1.4.2-11.el8
 - project: heat-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-heat-ui-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-heat-ui-5.0.0-1.el8
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-heat-tests-tempest-1.2.0-1.el8
@@ -238,7 +238,7 @@ packages:
     cloud8s-openstack-wallaby-release: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-django-horizon-19.1.0-1.el8
+    cloud8s-openstack-wallaby-release: python-django-horizon-19.2.0-1.el8
 - project: ibmcclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-ibmcclient-0.2.5.1-1.el8
@@ -283,7 +283,7 @@ packages:
     cloud8s-openstack-wallaby-release: jsoncpp-1.9.2-1.el8
 - project: keystone
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-keystone-19.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-keystone-19.0.0-1.el8
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-keystone-tests-tempest-0.7.0-1.el8
@@ -301,7 +301,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-kuryr-lib-2.3.0-1.el8
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-kuryr-kubernetes-4.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-kuryr-kubernetes-4.0.0-1.el8
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-kuryr-tests-tempest-0.9.0-1.el8
@@ -334,25 +334,25 @@ packages:
     cloud8s-openstack-wallaby-release: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-magnum-12.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-magnum-12.0.0-1.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-magnum-tests-tempest-1.3.0-1.el8
 - project: magnum-ui
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-magnum-ui-8.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-magnum-ui-8.0.0-1.el8
 - project: magnumclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-magnumclient-3.4.0-1.el8
 - project: manila
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-manila-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-manila-12.0.0-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-manila-tests-tempest-1.4.0-1.el8
 - project: manila-ui
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-manila-ui-5.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-manila-ui-5.0.0-1.el8
 - project: manilaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-manilaclient-2.6.0-1.el8
@@ -361,10 +361,10 @@ packages:
     cloud8s-openstack-wallaby-release: python-microversion-parse-1.0.1-1.el8
 - project: mistral
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-mistral-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-mistral-12.0.0-1.el8
 - project: mistral-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-mistral-ui-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-mistral-ui-12.0.0-1.el8
 - project: mistral-extra
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-mistral-extra-11.0.0-1.el8
@@ -391,13 +391,13 @@ packages:
     cloud8s-openstack-wallaby-release: mp-3.1.0-24.20161124git1f39801.el8
 - project: murano
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-murano-11.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-murano-11.0.0-1.el8
 - project: murano-agent
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-murano-agent-7.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-murano-agent-7.0.0-1.el8
 - project: murano-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-murano-ui-11.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-murano-ui-11.0.0-1.el8
 - project: murano-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-murano-tests-tempest-2.2.0-1.el8
@@ -412,16 +412,16 @@ packages:
     cloud8s-openstack-wallaby-release: ndisc6-1.0.3-9.el8
 - project: networking-bagpipe
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-bagpipe-14.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-networking-bagpipe-14.0.0-1.el8
 - project: networking-baremetal
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-baremetal-4.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-networking-baremetal-4.0.0-1.el8
 - project: networking-bgpvpn
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-bgpvpn-14.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-networking-bgpvpn-14.0.0-1.el8
 - project: networking-generic-switch
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-generic-switch-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-networking-generic-switch-5.0.0-1.el8
 - project: networking-l2gw
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-networking-l2gw-17.0.1-1.el8
@@ -433,16 +433,16 @@ packages:
     cloud8s-openstack-wallaby-release: python-networking-mlnx-16.0.0-1.el8
 - project: networking-odl
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-odl-18.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-networking-odl-18.0.0-1.el8
 - project: networking-sfc
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-sfc-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-networking-sfc-12.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-neutron-18.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-neutron-18.0.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-neutron-dynamic-routing-18.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-neutron-dynamic-routing-18.0.0-1.el8
 - project: neutron-lib
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-neutron-lib-2.10.1-1.el8
@@ -451,13 +451,13 @@ packages:
     cloud8s-openstack-wallaby-release: python-neutron-tests-tempest-1.4.0-1.el8
 - project: neutron-vpnaas
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-neutron-vpnaas-18.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-neutron-vpnaas-18.0.0-1.el8
 - project: neutronclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-neutronclient-7.3.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-nova-23.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-nova-23.0.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-novaclient-17.4.0-1.el8
@@ -472,10 +472,10 @@ packages:
     cloud8s-openstack-wallaby-release: novnc-1.2.0-2.el8
 - project: octavia
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-octavia-8.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-octavia-8.0.0-1.el8
 - project: octavia-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-octavia-ui-7.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-octavia-ui-7.0.0-1.el8
 - project: octavia-lib
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-octavia-lib-2.3.1-1.el8
@@ -625,7 +625,7 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-packstack-18.0.0-0.1.0rc1.el8
 - project: panko
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-panko-10.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-panko-10.0.0-1.el8
 - project: pankoclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-pankoclient-1.2.0-1.el8
@@ -634,7 +634,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-patrole-0.12.0-1.el8
 - project: placement
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-placement-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-placement-5.0.0-1.el8
 - project: proliantutils
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-proliantutils-2.9.4-1.el8
@@ -1915,31 +1915,31 @@ packages:
     cloud8s-openstack-wallaby-release: rubygem-yard-0.9.12-8.el8
 - project: sahara
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-sahara-14.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-sahara-14.0.0-1.el8
 - project: sahara-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-sahara-ui-14.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-sahara-ui-14.0.0-1.el8
 - project: sahara-image-elements
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: sahara-image-elements-14.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: sahara-image-elements-14.0.0-1.el8
 - project: sahara-plugin-ambari
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sahara-plugin-ambari-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-sahara-plugin-ambari-5.0.0-1.el8
 - project: sahara-plugin-cdh
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sahara-plugin-cdh-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-sahara-plugin-cdh-5.0.0-1.el8
 - project: sahara-plugin-mapr
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sahara-plugin-mapr-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-sahara-plugin-mapr-5.0.0-1.el8
 - project: sahara-plugin-spark
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sahara-plugin-spark-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-sahara-plugin-spark-5.0.0-1.el8
 - project: sahara-plugin-storm
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sahara-plugin-storm-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-sahara-plugin-storm-5.0.0-1.el8
 - project: sahara-plugin-vanilla
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sahara-plugin-vanilla-5.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: python-sahara-plugin-vanilla-5.0.0-1.el8
 - project: sahara-tests
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-sahara-tests-0.13.0-1.el8
@@ -1951,7 +1951,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-scciclient-0.9.0-1.el8
 - project: senlin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-senlin-11.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-senlin-11.0.0-1.el8
 - project: senlinclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-senlinclient-2.2.1-1.el8
@@ -1990,7 +1990,7 @@ packages:
     cloud8s-openstack-wallaby-release: sysbench-1.0.20-5.el8
 - project: tacker
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tacker-5.0.0-0.2.0rc3.el8
+    cloud8s-openstack-wallaby-release: openstack-tacker-5.0.0-1.el8
 - project: tackerclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-tackerclient-1.6.0-1.el8
@@ -2014,10 +2014,10 @@ packages:
     cloud8s-openstack-wallaby-release: python-tooz-2.8.0-1.el8
 - project: trove
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-trove-15.0.0-0.2.0rc2.el8
+    cloud8s-openstack-wallaby-release: openstack-trove-15.0.0-1.el8
 - project: trove-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-trove-ui-16.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-trove-ui-16.0.0-1.el8
 - project: trove-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-trove-tests-tempest-1.2.0-1.el8
@@ -2047,7 +2047,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
 - project: watcher
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-watcher-6.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-watcher-6.0.0-1.el8
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-watcher-tests-tempest-2.2.0-1.el8
@@ -2065,7 +2065,7 @@ packages:
     cloud8s-openstack-wallaby-release: yaml-cpp-0.6.3-4.el8
 - project: zaqar
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-zaqar-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-zaqar-12.0.0-1.el8
 - project: zaqar-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-zaqar-tests-tempest-1.2.1-1.el8
