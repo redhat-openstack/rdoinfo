@@ -370,7 +370,7 @@ packages:
     cloud8-openstack-victoria-testing: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-magnum-11.0.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-magnum-11.1.0-1.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-magnum-tests-tempest-1.1.0-2.el8
@@ -766,7 +766,7 @@ packages:
     cloud8-openstack-victoria-testing: puppet-git-0.5.0-1.4e4498egit.el8
 - project: puppet-glance
   buildsys-tags:
-    cloud8-openstack-victoria-testing: puppet-glance-17.5.0-2.el8
+    cloud8-openstack-victoria-testing: puppet-glance-17.6.0-1.el8
 - project: puppet-gnocchi
   buildsys-tags:
     cloud8-openstack-victoria-testing: puppet-gnocchi-17.4.0-2.el8
