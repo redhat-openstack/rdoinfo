@@ -490,7 +490,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-networking-sfc-10.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-neutron-16.3.0-1.el8
+    cloud8s-openstack-ussuri-release: openstack-neutron-16.3.1-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-neutron-dynamic-routing-16.0.0-1.el8
@@ -853,7 +853,7 @@ packages:
     cloud8s-openstack-ussuri-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
 - project: puppet-neutron
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: puppet-neutron-16.3.0-1.el8
+    cloud8s-openstack-ussuri-release: puppet-neutron-16.4.0-1.el8
 - project: puppet-nova
   buildsys-tags:
     cloud8s-openstack-ussuri-release: puppet-nova-16.5.0-1.el8
@@ -1190,6 +1190,9 @@ packages:
 - project: python-contextlib2
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-contextlib2-0.5.5-12.el8
+- project: python-contextvars
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-contextvars-2.4-1.el8
 - project: python-cotyledon
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-cotyledon-1.7.3-4.el8
@@ -1205,6 +1208,9 @@ packages:
 - project: python-cssselect
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-cssselect-0.9.2-13.el8
+- project: python-curio
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-curio-1.4-1.el8
 - project: python-cycler
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-cycler-0.10.0-13.el8
@@ -1340,9 +1346,33 @@ packages:
 - project: python-gunicorn
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-gunicorn-20.0.4-1.el8
+- project: python-h11
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-h11-0.12.0-1.el8
+- project: python-h2
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-h2-3.2.0-4.el8
+- project: python-hpack
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-hpack-3.0.0-11.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-httpcore-0.12.2-1.2.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-httpx-0.16.1-1.1.el8
+- project: python-hyperframe
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-hyperframe-5.2.0-7.el8
 - project: python-ifaddr
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-ifaddr-0.1.6-5.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-immutables-0.14-1.el8
 - project: python-importlib-metadata
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-importlib-metadata-0.23-1.el8
@@ -1606,7 +1636,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-retrying-1.2.3-21.el8
 - project: python-rfc3986
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: python-rfc3986-1.2.0-6.el8
+    cloud8s-openstack-ussuri-release: python-rfc3986-1.4.0-3.el8
 - project: python-rjsmin
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-rjsmin-1.0.12-17.el8
@@ -1667,6 +1697,9 @@ packages:
 - project: python-snappy
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-snappy-0.5.4-5.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: python-sniffio-1.2.0-1.el8
 - project: python-sortedcontainers
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-sortedcontainers-2.1.0-5.el8
