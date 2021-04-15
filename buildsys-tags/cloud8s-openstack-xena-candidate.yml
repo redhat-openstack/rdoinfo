@@ -1,1 +1,25 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.51-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.51-1.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-croniter-1.0.12-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.2.0-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-importlib-metadata-3.10.1-1.el8
+- project: python-pyroute2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-0.5.18-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-s3transfer-0.3.7-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.0-1.el8
