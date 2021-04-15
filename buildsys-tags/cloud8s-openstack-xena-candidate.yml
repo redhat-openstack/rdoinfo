@@ -1,1 +1,16 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.52-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.52-1.el8
+- project: python-contextvars
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-contextvars-2.4-1.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-immutables-0.15-1.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pymemcache-3.4.2-1.el8
