@@ -64,7 +64,7 @@ packages:
     cloud8-openstack-train-release: openstack-barbican-9.0.0-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-train-release: python-barbican-tests-tempest-0.3.0-1.el8
+    cloud8-openstack-train-release: python-barbican-tests-tempest-1.2.1-1.el8
 - project: barbicanclient
   buildsys-tags:
     cloud8-openstack-train-release: python-barbicanclient-4.9.0-2.el8
@@ -157,7 +157,7 @@ packages:
     cloud8-openstack-train-release: openstack-designate-9.0.2-1.el8
 - project: designate-dashboard
   buildsys-tags:
-    cloud8-openstack-train-release: openstack-designate-ui-9.0.0-1.el8
+    cloud8-openstack-train-release: openstack-designate-ui-9.0.1-1.el8
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-release: python-designate-tests-tempest-0.7.0-1.el8
@@ -1966,7 +1966,7 @@ packages:
     cloud8-openstack-train-release: python-horizon-tests-tempest-0.2.0-1.el8
 - project: tempestconf
   buildsys-tags:
-    cloud8-openstack-train-release: python-tempestconf-3.1.0-1.el8
+    cloud8-openstack-train-release: python-tempestconf-3.2.0-1.el8
 - project: tobiko
   buildsys-tags:
     cloud8-openstack-train-release: openstack-tobiko-0.2.0-1.el8
@@ -1987,7 +1987,7 @@ packages:
     cloud8-openstack-train-release: openstack-tripleo-image-elements-10.6.2-1.el8
 - project: tripleo-ipa
   buildsys-tags:
-    cloud8-openstack-train-release: ansible-tripleo-ipa-0.2.0-1.el8
+    cloud8-openstack-train-release: ansible-tripleo-ipa-0.2.1-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el8
