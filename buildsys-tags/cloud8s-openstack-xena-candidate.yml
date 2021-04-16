@@ -1,1 +1,10 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.53-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.53-1.el8
+- project: python-uhashring
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-uhashring-2.1-1.el8
