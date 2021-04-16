@@ -1,0 +1,8 @@
+- project:
+    check:
+      jobs: &jobs
+        - rdoinfo-tripleo-ussuri-release-centos-8-undercloud-containers:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8-openstack-ussuri-release.yml$
