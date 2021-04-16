@@ -76,7 +76,7 @@ packages:
     cloud7-openstack-train-release: openstack-barbican-9.0.0-1.el7
 - project: barbican-tempest-plugin
   buildsys-tags:
-    cloud7-openstack-train-release: python-barbican-tests-tempest-0.3.0-1.el7
+    cloud7-openstack-train-release: python-barbican-tests-tempest-1.2.1-1.el7
 - project: barbicanclient
   buildsys-tags:
     cloud7-openstack-train-release: python-barbicanclient-4.9.0-2.el7
@@ -2119,7 +2119,7 @@ packages:
     cloud7-openstack-train-release: python-horizon-tests-tempest-0.2.0-1.el7
 - project: tempestconf
   buildsys-tags:
-    cloud7-openstack-train-release: python-tempestconf-3.1.0-1.el7
+    cloud7-openstack-train-release: python-tempestconf-3.2.0-1.el7
 - project: tobiko
   buildsys-tags:
     cloud7-openstack-train-release: openstack-tobiko-0.2.0-1.el7
@@ -2140,7 +2140,7 @@ packages:
     cloud7-openstack-train-release: openstack-tripleo-image-elements-10.6.2-1.el7
 - project: tripleo-ipa
   buildsys-tags:
-    cloud7-openstack-train-release: ansible-tripleo-ipa-0.2.0-1.el7
+    cloud7-openstack-train-release: ansible-tripleo-ipa-0.2.1-1.el7
 - project: tripleo-ipsec
   buildsys-tags:
     cloud7-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el7
