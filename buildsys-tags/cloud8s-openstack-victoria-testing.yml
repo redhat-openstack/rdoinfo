@@ -811,7 +811,7 @@ packages:
     cloud8s-openstack-victoria-testing: puppet-manila-17.4.0-2.el8
 - project: puppet-memcached
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: puppet-memcached-3.7.0-1.39d052bgit.el8
+    cloud8s-openstack-victoria-testing: puppet-memcached-6.0.0-1.el8
 - project: puppet-midonet
   buildsys-tags:
     cloud8s-openstack-victoria-testing: puppet-midonet-1.1.0-2.4a44c33git.el8
@@ -2074,7 +2074,7 @@ packages:
     cloud8s-openstack-victoria-testing: openstack-tripleo-image-elements-12.2.0-1.el8
 - project: tripleo-ipa
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: ansible-tripleo-ipa-0.2.0-1.el8
+    cloud8s-openstack-victoria-testing: ansible-tripleo-ipa-0.2.1-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8s-openstack-victoria-testing: ansible-tripleo-ipsec-10.0.1-1.el8
