@@ -112,7 +112,7 @@ packages:
     cloud7-openstack-train-testing: python-cinder-tests-tempest-1.4.0-1.el7
 - project: cinderclient
   buildsys-tags:
-    cloud7-openstack-train-testing: python-cinderclient-5.0.1-1.el7
+    cloud7-openstack-train-testing: python-cinderclient-5.0.2-1.el7
 - project: cinderlib
   buildsys-tags:
     cloud7-openstack-train-testing: python-cinderlib-1.0.1-1.el7
@@ -184,7 +184,7 @@ packages:
     cloud7-openstack-train-testing: openstack-designate-9.0.2-1.el7
 - project: designate-dashboard
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-designate-ui-9.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-designate-ui-9.0.1-1.el7
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-designate-tests-tempest-0.7.0-1.el7
@@ -607,7 +607,7 @@ packages:
     cloud7-openstack-train-testing: os-apply-config-10.6.0-1.el7
 - project: os-brick
   buildsys-tags:
-    cloud7-openstack-train-testing: python-os-brick-2.10.4-3.el7
+    cloud7-openstack-train-testing: python-os-brick-2.10.6-1.el7
 - project: os-client-config
   buildsys-tags:
     cloud7-openstack-train-testing: python-os-client-config-1.33.0-2.el7
@@ -889,7 +889,7 @@ packages:
     cloud7-openstack-train-testing: puppet-manila-15.4.0-1.el7
 - project: puppet-memcached
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-memcached-3.4.0-1.66d3a66git.el7
+    cloud7-openstack-train-testing: puppet-memcached-6.0.0-1.el7
 - project: puppet-midonet
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
