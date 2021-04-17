@@ -97,7 +97,7 @@ packages:
     cloud8s-openstack-train-testing: python-cinder-tests-tempest-1.1.0-1.el8
 - project: cinderclient
   buildsys-tags:
-    cloud8s-openstack-train-testing: python-cinderclient-5.0.1-1.el8
+    cloud8s-openstack-train-testing: python-cinderclient-5.0.2-1.el8
 - project: cinderlib
   buildsys-tags:
     cloud8s-openstack-train-testing: python-cinderlib-1.0.1-1.el8
@@ -544,7 +544,7 @@ packages:
     cloud8s-openstack-train-testing: os-apply-config-10.6.0-1.el8
 - project: os-brick
   buildsys-tags:
-    cloud8s-openstack-train-testing: python-os-brick-2.10.4-3.el8
+    cloud8s-openstack-train-testing: python-os-brick-2.10.6-1.el8
 - project: os-client-config
   buildsys-tags:
     cloud8s-openstack-train-testing: python-os-client-config-1.33.0-2.el8
@@ -817,7 +817,7 @@ packages:
     cloud8s-openstack-train-testing: puppet-manila-15.4.0-1.el8
 - project: puppet-memcached
   buildsys-tags:
-    cloud8s-openstack-train-testing: puppet-memcached-3.4.0-1.66d3a66git.el8
+    cloud8s-openstack-train-testing: puppet-memcached-6.0.0-1.el8
 - project: puppet-midonet
   buildsys-tags:
     cloud8s-openstack-train-testing: puppet-midonet-1.1.0-2.4a44c33git.el8
