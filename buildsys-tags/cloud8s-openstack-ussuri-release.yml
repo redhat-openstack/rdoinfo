@@ -376,7 +376,7 @@ packages:
     cloud8s-openstack-ussuri-release: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-magnum-10.0.0-1.el8
+    cloud8s-openstack-ussuri-release: openstack-magnum-10.1.0-1.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-magnum-tests-tempest-1.0.0-1.el8
@@ -778,7 +778,7 @@ packages:
     cloud8s-openstack-ussuri-release: puppet-git-0.5.0-1.4e4498egit.el8
 - project: puppet-glance
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: puppet-glance-16.3.0-1.el8
+    cloud8s-openstack-ussuri-release: puppet-glance-16.4.0-1.el8
 - project: puppet-gnocchi
   buildsys-tags:
     cloud8s-openstack-ussuri-release: puppet-gnocchi-16.3.0-1.el8
@@ -2026,7 +2026,7 @@ packages:
     cloud8s-openstack-ussuri-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: python-sushy-3.2.0-1.el8
+    cloud8s-openstack-ussuri-release: python-sushy-3.2.1-1.el8
 - project: sushy-oem-idrac
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-sushy-oem-idrac-0.0.2-1.el8
