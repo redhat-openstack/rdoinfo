@@ -1,1 +1,40 @@
 packages:
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.57-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.57-1.el8
+- project: python-construct
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-construct-2.10.67-1.el8
+- project: python-django-compressor
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-django-compressor-2.4.1-1.el8
+- project: python-django-formtools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-django-formtools-2.3-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-importlib-metadata-4.0.1-1.el8
+- project: python-netmiko
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-netmiko-3.4.0-1.el8
+- project: python-qpid-proton
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-qpid-proton-0.34.0-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-s3transfer-0.4.2-1.el8
+- project: python-scipy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scipy-1.6.3-1.el8
+- project: python-scrypt
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scrypt-0.8.18-1.el8
+- project: python-stestr
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-stestr-3.2.0-1.el8
+- project: python-zstd
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zstd-1.4.9.1-1.el8
