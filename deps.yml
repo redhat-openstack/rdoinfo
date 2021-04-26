@@ -2497,3 +2497,8 @@ packages:
 - project: catch1
   name: catch1
   conf: fedora-dependency
+- project: ansible-collection-containers-podman
+  name: ansible-collection-containers-podman
+  conf: fedora-dependency
+  maintainers:
+  - sshnaidm@redhat.com
