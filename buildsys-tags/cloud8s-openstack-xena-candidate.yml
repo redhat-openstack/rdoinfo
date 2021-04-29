@@ -1,7 +1,4 @@
 packages:
-- project: ansible-collection-ansible-netcommon
-  buildsys-tags:
-    cloud8s-openstack-xena-candidate: ansible-collection-ansible-netcommon-1.5.0-1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-ansible-posix-1.2.0-1.el8
@@ -11,3 +8,6 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: ansible-collection-ansible-netcommon
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: ansible-collection-ansible-netcommon-1.5.0-1.el8
