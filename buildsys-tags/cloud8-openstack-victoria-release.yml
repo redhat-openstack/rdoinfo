@@ -277,7 +277,7 @@ packages:
     cloud8-openstack-victoria-release: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8-openstack-victoria-release: openstack-ironic-16.0.3-1.el8
+    cloud8-openstack-victoria-release: openstack-ironic-16.0.3-2.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8-openstack-victoria-release: openstack-ironic-inspector-10.4.1-1.el8
@@ -2053,7 +2053,7 @@ packages:
     cloud8-openstack-victoria-release: python-horizon-tests-tempest-1.1.0-2.el8
 - project: tempestconf
   buildsys-tags:
-    cloud8-openstack-victoria-release: python-tempestconf-2.5.0-1.el8
+    cloud8-openstack-victoria-release: python-tempestconf-3.2.0-1.el8
 - project: tobiko
   buildsys-tags:
     cloud8-openstack-victoria-release: openstack-tobiko-0.2.0-1.el8
@@ -2074,7 +2074,7 @@ packages:
     cloud8-openstack-victoria-release: openstack-tripleo-image-elements-12.2.0-1.el8
 - project: tripleo-ipa
   buildsys-tags:
-    cloud8-openstack-victoria-release: ansible-tripleo-ipa-0.2.1-1.el8
+    cloud8-openstack-victoria-release: ansible-tripleo-ipa-0.2.2-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8-openstack-victoria-release: ansible-tripleo-ipsec-10.0.1-1.el8
