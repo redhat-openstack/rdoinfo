@@ -902,6 +902,9 @@ packages:
 - project: python-sphinx-argparse
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-sphinx-argparse-0.2.2-8.el8
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sqlalchemy-1.3.23-1.el8
 - project: python-sqlalchemy-filters
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-sqlalchemy-filters-0.12.0-2.el8
