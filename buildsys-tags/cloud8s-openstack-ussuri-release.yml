@@ -283,7 +283,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-django-horizon-18.3.2-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-ironic-15.0.1-1.el8
+    cloud8s-openstack-ussuri-release: openstack-ironic-15.0.1-2.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-ironic-inspector-10.1.1-1.el8
@@ -2062,7 +2062,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-horizon-tests-tempest-1.0.0-1.el8
 - project: tempestconf
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: python-tempestconf-2.5.0-1.el8
+    cloud8s-openstack-ussuri-release: python-tempestconf-3.2.0-1.el8
 - project: tobiko
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-tobiko-0.2.0-1.el8
@@ -2083,7 +2083,7 @@ packages:
     cloud8s-openstack-ussuri-release: openstack-tripleo-image-elements-12.0.1-1.el8
 - project: tripleo-ipa
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: ansible-tripleo-ipa-0.2.1-1.el8
+    cloud8s-openstack-ussuri-release: ansible-tripleo-ipa-0.2.2-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8s-openstack-ussuri-release: ansible-tripleo-ipsec-9.3.2-1.el8
