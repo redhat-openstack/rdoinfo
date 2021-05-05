@@ -11,6 +11,18 @@ packages:
 - project: ansible
   buildsys-tags:
     cloud8-openstack-ussuri-testing: ansible-2.9.19-1.el8
+- project: ansible-collection-ansible-netcommon
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-collection-ansible-netcommon-1.5.0-1.el8
+- project: ansible-collection-ansible-posix
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-collection-ansible-posix-1.2.0-1.el8
+- project: ansible-collection-community-general
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-collection-community-general-2.5.1-1.el8
+- project: ansible-collection-containers-podman
+  buildsys-tags:
+    cloud8-openstack-ussuri-testing: ansible-collection-containers-podman-1.4.1-2.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8-openstack-ussuri-testing: ansible-collections-openstack-1.3.0-1.el8
