@@ -11,9 +11,45 @@ packages:
 - project: ansible
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-2.9.19-1.el8
+- project: ansible-collection-ansible-netcommon
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-collection-ansible-netcommon-1.5.0-1.el8
+- project: ansible-collection-ansible-posix
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-collection-ansible-posix-1.2.0-1.el8
+- project: ansible-collection-community-general
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-collection-community-general-2.5.1-1.el8
+- project: ansible-collection-containers-podman
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-collection-containers-podman-1.4.1-2.el8
+- project: ansible-config_template
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-config_template-1.1.1-1.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-freeipa-0.3.1-1.el8
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-pacemaker-1.0.4-0.1.5847167git.el8
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-role-atos-hsm-1.0.0-1.el8
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-role-chrony-1.0.3-1.el8
+- project: ansible-role-container-registry
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-role-container-registry-1.3.0-1.el8
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-role-lunasa-hsm-1.1.0-1.el8
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
+- project: ansible-role-tripleo-modify-image
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-role-tripleo-modify-image-1.2.1-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-aodh-12.0.0-1.el8
@@ -356,6 +392,9 @@ packages:
 - project: manilaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-manilaclient-2.6.0-1.el8
+- project: metalsmith
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: python-metalsmith-1.4.2-1.el8
 - project: microversion-parse
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-microversion-parse-1.0.1-1.el8
@@ -512,6 +551,9 @@ packages:
 - project: os-ken
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-os-ken-1.4.0-1.el8
+- project: os-net-config
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: os-net-config-14.1.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
     cloud8s-openstack-wallaby-release: os-refresh-config-12.0.0-1.el8
@@ -887,6 +929,9 @@ packages:
 - project: puppet-tomcat
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-tomcat-4.1.0-1.6add7e4git.el8
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: puppet-tripleo-14.1.0-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-trove-18.4.0-1.el8
@@ -2012,6 +2057,24 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-tooz-2.8.0-1.el8
+- project: tripleo-common
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: openstack-tripleo-common-15.1.0-1.el8
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: openstack-tripleo-image-elements-13.1.0-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-tripleo-ipa-0.2.2-1.el8
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: ansible-tripleo-ipsec-10.0.1-1.el8
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: openstack-tripleo-puppet-elements-14.1.0-1.el8
+- project: tripleo-validations
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: openstack-tripleo-validations-14.1.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-trove-15.0.0-1.el8
@@ -2027,6 +2090,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud8s-openstack-wallaby-release: uwsgi-2.0.18-4.el8
+- project: validations-common
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: validations-common-1.1.1-1.el8
+- project: validations-libs
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: python-validations-libs-1.1.0-1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-virtualbmc-2.2.0-2.el8
