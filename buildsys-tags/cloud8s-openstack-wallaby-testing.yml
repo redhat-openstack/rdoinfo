@@ -59,6 +59,9 @@ packages:
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ansible-role-tripleo-modify-image-1.2.1-1.el8
+- project: ansible-tripleo-ipa-server
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: ansible-tripleo-ipa-server-0.1.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-aodh-12.0.0-1.el8
