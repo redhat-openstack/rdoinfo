@@ -1174,6 +1174,9 @@ packages:
   tags:
     train:
       source-branch: 9.2.0   # https://github.com/openstack/tripleo-ipsec/releases/tag/9.2.0
+- project: tripleo-operator-ansible
+  tags:
+    train:
 - project: tripleo-powerflex
   tags:
     train:
