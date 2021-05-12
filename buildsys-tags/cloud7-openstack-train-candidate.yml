@@ -8,7 +8,7 @@ packages:
 - project: ansible-collection-community-general
   buildsys-tags:
     cloud7-openstack-train-candidate: ansible-collection-community-general-2.5.1-1.el7
-- project: ansible-collection-containers-podman
+- project: ansible-podman-collections
   buildsys-tags:
     cloud7-openstack-train-candidate: ansible-collection-containers-podman-1.4.1-2.el7
 - project: ansible-collections-openstack

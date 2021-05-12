@@ -20,7 +20,7 @@ packages:
 - project: ansible-collection-community-general
   buildsys-tags:
     cloud8-openstack-train-release: ansible-collection-community-general-2.5.1-1.el8
-- project: ansible-collection-containers-podman
+- project: ansible-podman-collections
   buildsys-tags:
     cloud8-openstack-train-release: ansible-collection-containers-podman-1.4.1-2.el8
 - project: ansible-collections-openstack
