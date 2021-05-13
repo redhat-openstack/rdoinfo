@@ -382,7 +382,7 @@ packages:
     cloud8-openstack-victoria-testing: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-magnum-11.1.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-magnum-11.1.1-1.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-magnum-tests-tempest-1.1.0-2.el8
@@ -493,7 +493,7 @@ packages:
     cloud8-openstack-victoria-testing: python-networking-sfc-11.0.0-2.el8
 - project: neutron
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-neutron-17.1.0-1.el8
+    cloud8-openstack-victoria-testing: openstack-neutron-17.1.2-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-neutron-dynamic-routing-17.0.0-2.el8
