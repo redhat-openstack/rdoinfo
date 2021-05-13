@@ -118,7 +118,7 @@ packages:
     cloud7-openstack-train-testing: python-ceilometermiddleware-1.5.0-2.el7
 - project: cinder
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-cinder-15.5.0-1.el7
+    cloud7-openstack-train-testing: openstack-cinder-15.6.0-1.el7
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud7-openstack-train-testing: python-cinder-tests-tempest-1.4.0-1.el7
@@ -526,13 +526,13 @@ packages:
     cloud7-openstack-train-testing: python-networking-odl-15.0.0-1.el7
 - project: networking-ovn
   buildsys-tags:
-    cloud7-openstack-train-testing: python-networking-ovn-7.4.0-1.el7
+    cloud7-openstack-train-testing: python-networking-ovn-7.4.1-1.el7
 - project: networking-sfc
   buildsys-tags:
     cloud7-openstack-train-testing: python-networking-sfc-9.0.1-1.el7
 - project: neutron
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-neutron-15.3.2-1.el7
+    cloud7-openstack-train-testing: openstack-neutron-15.3.4-1.el7
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-neutron-dynamic-routing-15.0.0-1.el7
@@ -2125,7 +2125,7 @@ packages:
     cloud7-openstack-train-testing: python-telemetry-tests-tempest-0.4.0-1.el7
 - project: tempest
   buildsys-tags:
-    cloud7-openstack-train-testing: openstack-tempest-26.0.0-1.el7
+    cloud7-openstack-train-testing: openstack-tempest-26.1.0-1.el7
 - project: tempest-horizon
   buildsys-tags:
     cloud7-openstack-train-testing: python-horizon-tests-tempest-0.2.0-1.el7
