@@ -61,7 +61,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.3.0
 - project: barbicanclient
   tags:
     xena-uc:
@@ -87,7 +86,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.4.0
 - project: cinderclient
   tags:
     xena-uc:
@@ -129,7 +127,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 0.11.0
 - project: designateclient
   tags:
     xena-uc:
@@ -150,7 +147,6 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.2.1
 - project: futurist
   tags:
     xena-uc:
@@ -202,7 +198,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.2.0
 - project: heat-translator
   tags:
     xena-uc:
@@ -246,7 +241,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 2.2.0
 - project: ironic-ui
   tags:
     xena-uc:
@@ -260,7 +254,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 0.7.0
 - project: keystoneauth1
   tags:
     xena-uc:
@@ -285,14 +278,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 0.9.0
 - project: magnum
   tags:
     xena-uc:
 - project: magnum-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.3.0
 - project: magnum-ui
   tags:
     xena-uc:
@@ -306,7 +297,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.4.0
 - project: manila-ui
   tags:
     xena-uc:
@@ -338,7 +328,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.2.0
 - project: mistralclient
   tags:
     xena-uc:
@@ -363,7 +352,6 @@ packages:
 - project: murano-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 2.2.0
 - project: muranoclient
   tags:
     xena-uc:
@@ -395,7 +383,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     xena-uc:
@@ -421,7 +408,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.4.0
 - project: neutron-vpnaas
   tags:
     xena-uc:
@@ -442,7 +428,6 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 468b968bb3bb042c6db3159246af224f2042d5c1
 - project: octavia
   tags:
     xena-uc:
@@ -456,7 +441,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.7.0
 - project: octaviaclient
   tags:
     xena-uc:
@@ -633,7 +617,6 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.2.0
 - project: ovn-octavia-provider
   tags:
     xena-uc:
@@ -1072,11 +1055,9 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.3.0
 - project: tempest
   tags:
     xena-uc:
-      source-branch: 27.0.0
 - project: tempestconf
   tags:
     xena-uc:
@@ -1132,7 +1113,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.2.0
 - project: troveclient
   tags:
     xena-uc:
@@ -1157,7 +1137,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 5.3.0
 - project: vitrageclient
   tags:
     xena-uc:
@@ -1168,7 +1147,6 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     xena-uc:
@@ -1178,7 +1156,6 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 2.2.0
 - project: wsme
   tags:
     xena-uc:
@@ -1189,7 +1166,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     xena-uc:
-      source-branch: 1.2.1
 - project: zaqarclient
   tags:
     xena-uc:
