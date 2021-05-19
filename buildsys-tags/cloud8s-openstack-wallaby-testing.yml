@@ -59,6 +59,9 @@ packages:
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ansible-role-tripleo-modify-image-1.2.1-1.el8
+- project: ansible-tripleo-ipa-server
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: ansible-tripleo-ipa-server-0.1.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-aodh-12.0.0-1.el8
@@ -511,7 +514,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-neutronclient-7.3.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-nova-23.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-nova-23.0.1-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-novaclient-17.4.0-1.el8
@@ -691,7 +694,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-patrole-0.12.0-1.el8
 - project: placement
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-placement-5.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-placement-5.0.1-1.el8
 - project: proliantutils
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-proliantutils-2.9.4-1.el8
@@ -2080,7 +2083,7 @@ packages:
     cloud8s-openstack-wallaby-testing: tripleo-ansible-3.1.0-1.el8
 - project: tripleo-common
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-tripleo-common-15.1.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-tripleo-common-15.2.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-tripleo-heat-templates-14.1.0-1.el8
