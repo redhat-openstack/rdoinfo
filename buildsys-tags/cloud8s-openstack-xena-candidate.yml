@@ -11,3 +11,99 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-alembic-1.6.3-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.78-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.78-1.el8
+- project: python-click
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-click-8.0.1-1.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dogpile-cache-1.1.3-1.el8
+- project: python-futures
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-futures-3.1.1-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.5.0-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-core-1.28.0-1.el8
+- project: python-hvac
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-hvac-0.10.14-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-importlib-resources-5.1.4-1.el8
+- project: python-jaeger-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-jaeger-client-4.5.0-1.el8
+- project: python-jinja2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-jinja2-3.0.1-1.el8
+- project: python-linstor
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-linstor-1.7.1-1.el8
+- project: python-markupsafe
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-markupsafe-2.0.1-1.el8
+- project: python-more-itertools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-more-itertools-8.8.0-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.0.8-1.el8
+- project: python-pyroute2-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-core-0.6.1-1.el8
+- project: python-pyroute2-ethtool
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ethtool-0.6.1-1.el8
+- project: python-pyroute2-ipdb
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ipdb-0.6.1-1.el8
+- project: python-pyroute2-ipset
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ipset-0.6.1-1.el8
+- project: python-pyroute2-ndb
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ndb-0.6.1-1.el8
+- project: python-pyroute2-nftables
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-nftables-0.6.1-1.el8
+- project: python-pyroute2-nslink
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-nslink-0.6.1-1.el8
+- project: python-pysaml2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pysaml2-7.0.1-1.el8
+- project: python-pytest-django
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pytest-django-4.3.0-1.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-setuptools-57.0.0-1.el8
+- project: python-sphinxcontrib-htmlhelp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sphinxcontrib-htmlhelp-2.0.0-1.el8
+- project: python-sphinxcontrib-serializinghtml
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sphinxcontrib-serializinghtml-1.1.5-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.3-1.el8
+- project: python-websocket-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-websocket-client-1.0.1-1.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zeroconf-0.31.0-1.el8
+- project: python-zstd
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zstd-1.5.0.2-1.el8
