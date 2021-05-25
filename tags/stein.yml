@@ -434,9 +434,11 @@ packages:
 - project: octavia
   tags:
     stein:
+      source-branch: stein-eol
 - project: octavia-dashboard
   tags:
     stein:
+      source-branch: stein-eol
 - project: octavia-lib
   tags:
     stein:
@@ -1144,7 +1146,7 @@ packages:
 - project: tripleo-heat-templates-compat
   tags:
     stein:
-      source-branch: stable/rocky
+      source-branch: rocky-eol
 - project: tripleo-image-elements
   tags:
     stein:
