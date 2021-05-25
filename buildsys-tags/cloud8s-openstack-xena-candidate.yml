@@ -11,3 +11,6 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-alembic-1.6.2-1.el8
