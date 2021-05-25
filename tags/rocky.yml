@@ -430,9 +430,11 @@ packages:
 - project: octavia
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: octavia-dashboard
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: octavia-tempest-plugin
   tags:
     rocky:
@@ -469,6 +471,7 @@ packages:
 - project: os-collect-config
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: os-faults
   tags:
     rocky:
@@ -476,6 +479,7 @@ packages:
 - project: os-net-config
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: os-refresh-config
   tags:
     rocky:
@@ -924,6 +928,7 @@ packages:
 - project: puppet-tripleo
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: puppet-trove
   tags:
     rocky:
@@ -1079,6 +1084,7 @@ packages:
 - project: tripleo-common
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: tripleo-common-tempest-plugin
   tags:
     rocky:
@@ -1086,6 +1092,7 @@ packages:
 - project: tripleo-heat-templates
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: tripleo-heat-templates-compat
   tags:
     rocky:
@@ -1093,12 +1100,15 @@ packages:
 - project: tripleo-image-elements
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: tripleo-ipsec
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: tripleo-puppet-elements
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: tripleo-repos
   tags:
     rocky:
@@ -1109,9 +1119,11 @@ packages:
 - project: tripleo-validations
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: tripleoclient
   tags:
     rocky:
+      source-branch: rocky-eol
 - project: trove
   tags:
     rocky:
