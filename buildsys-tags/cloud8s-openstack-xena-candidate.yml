@@ -11,3 +11,24 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-alembic-1.6.4-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.79-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.79-1.el8
+- project: python-cached-property
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-cached-property-1.5.2-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dulwich-0.20.23-1.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-kombu-5.1.0-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.4-1.el8
