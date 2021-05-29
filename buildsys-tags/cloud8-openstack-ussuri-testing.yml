@@ -403,7 +403,7 @@ packages:
     cloud8-openstack-ussuri-testing: openstack-manila-10.0.2-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: python-manila-tests-tempest-1.2.0-1.el8
+    cloud8-openstack-ussuri-testing: python-manila-tests-tempest-1.4.0-1.el8
 - project: manila-ui
   buildsys-tags:
     cloud8-openstack-ussuri-testing: openstack-manila-ui-3.0.0-1.el8
@@ -553,7 +553,7 @@ packages:
     cloud8-openstack-ussuri-testing: openpgm-5.2.122-21.el8
 - project: openstack-selinux
   buildsys-tags:
-    cloud8-openstack-ussuri-testing: openstack-selinux-0.8.24-1.el8
+    cloud8-openstack-ussuri-testing: openstack-selinux-0.8.26-1.el8
 - project: openstackclient
   buildsys-tags:
     cloud8-openstack-ussuri-testing: python-openstackclient-5.2.0-1.el8
