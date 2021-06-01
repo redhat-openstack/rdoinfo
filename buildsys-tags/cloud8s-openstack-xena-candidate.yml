@@ -11,3 +11,72 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-alembic-1.6.5-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.84-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.84-1.el8
+- project: python-certifi
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-certifi-2021.5.30-1.el8
+- project: python-distlib
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-distlib-0.3.2-1.el8
+- project: python-execnet
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-execnet-1.8.1-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.6.0-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-importlib-metadata-4.4.0-1.el8
+- project: python-netifaces
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-netifaces-0.11.0-1.el8
+- project: python-pyghmi
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyghmi-1.5.26-1.el8
+- project: python-pyroute2-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-core-0.6.3-1.el8
+- project: python-pyroute2-ethtool
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ethtool-0.6.3-1.el8
+- project: python-pyroute2-ipdb
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ipdb-0.6.3-1.el8
+- project: python-pyroute2-ipset
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ipset-0.6.3-1.el8
+- project: python-pyroute2-ndb
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-ndb-0.6.3-1.el8
+- project: python-pyroute2-nftables
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-nftables-0.6.3-1.el8
+- project: python-pyroute2-nslink
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-nslink-0.6.3-1.el8
+- project: python-requests-mock
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-requests-mock-1.9.3-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.5-1.el8
+- project: python-storops
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-storops-1.2.10-1.el8
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-tosca-parser-2.4.0-1.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-urllib3-1.26.5-1.el8
+- project: python-zmq
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zmq-22.1.0-1.el8
