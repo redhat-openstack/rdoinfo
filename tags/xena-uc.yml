@@ -627,13 +627,6 @@ packages:
 - project: packstack
   tags:
     xena-uc:
-- project: panko
-  tags:
-    xena-uc:
-- project: pankoclient
-  tags:
-    xena-uc:
-      source-branch: 0.5.0
 - project: patrole
   tags:
     xena-uc:
@@ -824,9 +817,6 @@ packages:
   tags:
     xena-uc:
 - project: puppet-pacemaker
-  tags:
-    xena-uc:
-- project: puppet-panko
   tags:
     xena-uc:
 - project: puppet-placement
