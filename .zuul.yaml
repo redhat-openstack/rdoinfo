@@ -1,0 +1,8 @@
+- project:
+    check:
+      jobs: &jobs
+        - rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8s-openstack-wallaby-testing-test.yml$
