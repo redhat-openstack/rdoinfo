@@ -11,3 +11,6 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: python-pyroute2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyroute2-0.6.3-1.el8
