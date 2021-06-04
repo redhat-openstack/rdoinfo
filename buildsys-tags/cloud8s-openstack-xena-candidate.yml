@@ -11,3 +11,24 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.4.1-2.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.86-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.86-1.el8
+- project: python-django
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-django-2.2.24-1.el8
+- project: python-linstor
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-linstor-1.7.3-1.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pymemcache-3.4.4-1.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sphinx-3.4.3-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.6-1.el8
