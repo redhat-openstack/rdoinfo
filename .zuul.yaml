@@ -1,0 +1,21 @@
+- job:
+    name: rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode-1
+    parent: rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode
+
+- job:
+    name: rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode-2
+    parent: rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode
+
+- project:
+    check:
+      jobs: &jobs
+        - rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode-1:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8s-openstack-wallaby-testing.yml$
+        - rdoinfo-tripleo-wallaby-testing-centos-8-containers-multinode-2:
+            dependencies:
+              - validate-buildsys-tags
+            files:
+              - ^buildsys-tags/cloud8s-openstack-wallaby-testing.yml$
