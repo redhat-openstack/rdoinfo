@@ -11,3 +11,21 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.90-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.90-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.8.0-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-core-1.30.0-1.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scp-0.13.4-1.el8
+- project: python-xmlschema
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-xmlschema-1.6.3-1.el8

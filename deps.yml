@@ -1593,7 +1593,6 @@ packages:
 - project: pycryptopp
   name: pycrytopp
   conf: fedora-dependency
-# Temporary until CentOS is updated to 7.5
 - project: python-backports-ssl_match_hostname
   name: python-backports-ssl_match_hostname
   conf: rdo-dependency
@@ -1712,14 +1711,12 @@ packages:
 - project: python-octavia-tests-golang
   name: python-octavia-tests-golang
   conf: rdo-dependency
-# Build dependencies for galera
 - project: scons
   name: scons
   conf: fedora-dependency
 - project: asio
   name: asio
   conf: fedora-dependency
-# Build dependencies for MariaDB
 - project: Judy
   name: Judy
   conf: fedora-dependency
@@ -2517,3 +2514,12 @@ packages:
   conf: fedora-dependency
   maintainers:
   - sshnaidm@redhat.com
+- project: python-google-api-core
+  name: python-google-api-core
+  conf: fedora-dependency
+- project: python-google-api-client
+  name: python-google-api-client
+  conf: fedora-dependency
+- project: python-xmlschema
+  name: python-xmlschema
+  conf: fedora-dependency
