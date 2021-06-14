@@ -550,7 +550,7 @@ packages:
     cloud8s-openstack-victoria-release: python-openstacksdk-0.50.0-1.el8
 - project: os-apply-config
   buildsys-tags:
-    cloud8s-openstack-victoria-release: os-apply-config-12.0.0-1.el8
+    cloud8s-openstack-victoria-release: os-apply-config-12.0.1-1.el8
 - project: os-brick
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-os-brick-4.0.3-1.el8
@@ -559,7 +559,7 @@ packages:
     cloud8s-openstack-victoria-release: python-os-client-config-2.1.0-1.el8
 - project: os-collect-config
   buildsys-tags:
-    cloud8s-openstack-victoria-release: os-collect-config-12.0.0-1.el8
+    cloud8s-openstack-victoria-release: os-collect-config-12.0.2-1.el8
 - project: os-faults
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-os-faults-0.2.7-1.el8
@@ -571,7 +571,7 @@ packages:
     cloud8s-openstack-victoria-release: os-net-config-13.2.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
-    cloud8s-openstack-victoria-release: os-refresh-config-12.0.0-1.el8
+    cloud8s-openstack-victoria-release: os-refresh-config-12.0.1-1.el8
 - project: os-resource-classes
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-os-resource-classes-1.0.0-1.el8
@@ -847,7 +847,7 @@ packages:
     cloud8s-openstack-victoria-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
 - project: puppet-neutron
   buildsys-tags:
-    cloud8s-openstack-victoria-release: puppet-neutron-17.5.0-2.el8
+    cloud8s-openstack-victoria-release: puppet-neutron-17.6.0-1.el8
 - project: puppet-nova
   buildsys-tags:
     cloud8s-openstack-victoria-release: puppet-nova-17.6.0-1.el8
@@ -943,7 +943,7 @@ packages:
     cloud8s-openstack-victoria-release: puppet-tomcat-4.1.0-1.6add7e4git.el8
 - project: puppet-tripleo
   buildsys-tags:
-    cloud8s-openstack-victoria-release: puppet-tripleo-13.6.1-1.el8
+    cloud8s-openstack-victoria-release: puppet-tripleo-13.6.2-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8s-openstack-victoria-release: puppet-trove-17.4.0-2.el8
@@ -2074,16 +2074,16 @@ packages:
     cloud8s-openstack-victoria-release: python-tooz-2.7.1-2.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8s-openstack-victoria-release: tripleo-ansible-2.2.0-1.el8
+    cloud8s-openstack-victoria-release: tripleo-ansible-2.3.0-1.el8
 - project: tripleo-common
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-tripleo-common-13.2.0-2.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-tripleo-heat-templates-13.2.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-tripleo-heat-templates-13.3.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-tripleo-image-elements-12.2.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-tripleo-image-elements-12.2.1-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-victoria-release: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2095,10 +2095,10 @@ packages:
     cloud8s-openstack-victoria-release: openstack-tripleo-puppet-elements-13.1.1-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-tripleo-validations-13.2.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-tripleo-validations-13.3.0-1.el8
 - project: tripleoclient
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-tripleoclient-14.2.0-1.el8
+    cloud8s-openstack-victoria-release: python-tripleoclient-14.2.1-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-trove-14.0.0-1.el8
