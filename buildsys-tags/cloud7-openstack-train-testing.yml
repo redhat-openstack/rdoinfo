@@ -757,7 +757,7 @@ packages:
     cloud7-openstack-train-testing: python-patrole-0.7.0-1.el7
 - project: paunch
   buildsys-tags:
-    cloud7-openstack-train-testing: python-paunch-5.5.0-1.el7
+    cloud7-openstack-train-testing: python-paunch-5.5.1-1.el7
 - project: placement
   buildsys-tags:
     cloud7-openstack-train-testing: openstack-placement-2.0.1-1.el7
@@ -775,7 +775,7 @@ packages:
     cloud7-openstack-train-testing: puppet-5.5.10-5.el7
 - project: puppet-aodh
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-aodh-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-aodh-15.5.0-1.el7
 - project: puppet-apache
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-apache-5.1.0-1.1fa9b1cgit.el7
@@ -787,13 +787,13 @@ packages:
     cloud7-openstack-train-testing: puppet-auditd-2.2.0-3.189b22bgit.el7
 - project: puppet-barbican
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-barbican-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-barbican-15.5.0-1.el7
 - project: puppet-cassandra
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-cassandra-2.7.4-0.2.0rc0.9954256git.el7
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-ceilometer-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-ceilometer-15.5.0-1.el7
 - project: puppet-ceph
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-ceph-3.0.0-1.el7
@@ -802,7 +802,7 @@ packages:
     cloud7-openstack-train-testing: puppet-certmonger-2.6.0-1.el7
 - project: puppet-cinder
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-cinder-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-cinder-15.5.0-1.el7
 - project: puppet-collectd
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-collectd-12.0.0-1.4686e16git.el7
@@ -823,7 +823,7 @@ packages:
     cloud7-openstack-train-testing: puppet-datacat-0.6.2-1.5cce8f2git.el7
 - project: puppet-designate
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-designate-15.5.0-1.el7
+    cloud7-openstack-train-testing: puppet-designate-15.6.0-1.el7
 - project: puppet-dns
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-dns-6.2.0-1.2ae1cd7git.el7
@@ -850,19 +850,19 @@ packages:
     cloud7-openstack-train-testing: puppet-git-0.5.0-1.4e4498egit.el7
 - project: puppet-glance
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-glance-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-glance-15.5.0-1.el7
 - project: puppet-gnocchi
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-gnocchi-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-gnocchi-15.5.0-1.el7
 - project: puppet-haproxy
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-haproxy-4.1.0-1.df96ffcgit.el7
 - project: puppet-heat
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-heat-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-heat-15.5.0-1.el7
 - project: puppet-horizon
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-horizon-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-horizon-15.5.0-1.el7
 - project: puppet-inifile
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-inifile-3.1.0-1.91efcedgit.el7
@@ -871,7 +871,7 @@ packages:
     cloud7-openstack-train-testing: puppet-ipaclient-2.5.2-1.el7
 - project: puppet-ironic
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-ironic-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-ironic-15.5.0-1.el7
 - project: puppet-java
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-java-5.0.1-1.e57cbc8git.el7
@@ -883,7 +883,7 @@ packages:
     cloud7-openstack-train-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el7
 - project: puppet-keystone
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-keystone-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-keystone-15.5.0-1.el7
 - project: puppet-kibana3
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-kibana3-0.0.4-1.6ca9631git.el7
@@ -898,7 +898,7 @@ packages:
     cloud7-openstack-train-testing: puppet-magnum-15.5.0-1.el7
 - project: puppet-manila
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-manila-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-manila-15.5.0-1.el7
 - project: puppet-memcached
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-memcached-6.0.0-1.el7
@@ -907,7 +907,7 @@ packages:
     cloud7-openstack-train-testing: puppet-midonet-1.1.0-2.4a44c33git.el7
 - project: puppet-mistral
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-mistral-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-mistral-15.5.0-1.el7
 - project: puppet-module-data
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-module-data-0.5.1-1.28dafcegit.el7
@@ -925,7 +925,7 @@ packages:
     cloud7-openstack-train-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el7
 - project: puppet-neutron
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-neutron-15.5.0-1.el7
+    cloud7-openstack-train-testing: puppet-neutron-15.6.0-1.el7
 - project: puppet-nova
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-nova-15.7.0-1.el7
@@ -937,31 +937,31 @@ packages:
     cloud7-openstack-train-testing: puppet-ntp-4.2.0-1.el7
 - project: puppet-octavia
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-octavia-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-octavia-15.5.0-1.el7
 - project: puppet-opendaylight
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-opendaylight-8.4.3-1.bbe7ce5git.el7
 - project: puppet-openstack_extras
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-openstack_extras-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-openstack_extras-15.4.1-1.el7
 - project: puppet-openstacklib
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-openstacklib-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-openstacklib-15.5.0-1.el7
 - project: puppet-oslo
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-oslo-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-oslo-15.5.0-1.el7
 - project: puppet-ovn
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-ovn-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-ovn-15.5.0-1.el7
 - project: puppet-pacemaker
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-pacemaker-0.8.0-1.el7
 - project: puppet-panko
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-panko-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-panko-15.5.0-1.el7
 - project: puppet-placement
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-placement-2.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-placement-2.5.0-1.el7
 - project: puppet-powerdns
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-powerdns-0.0.5-2.d3d9b3agit.el7
@@ -985,7 +985,7 @@ packages:
     cloud7-openstack-train-testing: puppet-rsyslog-3.3.1-0.1.0rc0.0c2b6c8git.el7
 - project: puppet-sahara
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-sahara-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-sahara-15.4.1-1.el7
 - project: puppet-sensu
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-sensu-2.62.3-1.20361a4git.el7
@@ -1003,7 +1003,7 @@ packages:
     cloud7-openstack-train-testing: puppet-stdlib-6.1.0-1.5aa891cgit.el7
 - project: puppet-swift
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-swift-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-swift-15.5.0-1.el7
 - project: puppet-sysctl
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-sysctl-0.0.12-2.a3d160dgit.el7
@@ -1012,10 +1012,10 @@ packages:
     cloud7-openstack-train-testing: puppet-systemd-2.10.0-1.el7
 - project: puppet-tacker
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-tacker-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-tacker-15.4.1-1.el7
 - project: puppet-tempest
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-tempest-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-tempest-15.4.1-1.el7
 - project: puppet-timezone
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-timezone-5.1.1-2.21b4a58git.el7
@@ -1027,7 +1027,7 @@ packages:
     cloud7-openstack-train-testing: puppet-tripleo-11.7.0-1.el7
 - project: puppet-trove
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-trove-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-trove-15.4.1-1.el7
 - project: puppet-uchiwa
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-uchiwa-2.1.1-2.837c669git.el7
@@ -1045,10 +1045,10 @@ packages:
     cloud7-openstack-train-testing: puppet-vlan-0.1.0-1.el7
 - project: puppet-vswitch
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-vswitch-11.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-vswitch-11.5.0-1.el7
 - project: puppet-watcher
   buildsys-tags:
-    cloud7-openstack-train-testing: puppet-watcher-15.4.0-1.el7
+    cloud7-openstack-train-testing: puppet-watcher-15.4.1-1.el7
 - project: puppet-xinetd
   buildsys-tags:
     cloud7-openstack-train-testing: puppet-xinetd-3.3.0-1.d768da2git.el7
