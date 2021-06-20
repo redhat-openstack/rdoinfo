@@ -1593,7 +1593,6 @@ packages:
 - project: pycryptopp
   name: pycrytopp
   conf: fedora-dependency
-# Temporary until CentOS is updated to 7.5
 - project: python-backports-ssl_match_hostname
   name: python-backports-ssl_match_hostname
   conf: rdo-dependency
@@ -1712,14 +1711,12 @@ packages:
 - project: python-octavia-tests-golang
   name: python-octavia-tests-golang
   conf: rdo-dependency
-# Build dependencies for galera
 - project: scons
   name: scons
   conf: fedora-dependency
 - project: asio
   name: asio
   conf: fedora-dependency
-# Build dependencies for MariaDB
 - project: Judy
   name: Judy
   conf: fedora-dependency
@@ -2520,3 +2517,33 @@ packages:
 - project: ansible-macros
   name: ansible-macros
   conf: rdo-dependency
+- project: python-types-enum34
+  name: python-types-enum34
+  conf: fedora-dependency
+- project: python-moto
+  name: python-moto
+  conf: fedora-dependency
+- project: python-types-paramiko
+  name: python-types-paramiko
+  conf: fedora-dependency
+- project: python-psycopg2-binary
+  name: python-psycopg2-binary
+  conf: fedora-dependency
+- project: python-google-api-client
+  name: python-google-api-client
+  conf: fedora-dependency
+- project: python-types-ipaddress
+  name: python-types-ipaddress
+  conf: fedora-dependency
+- project: python-elementpath
+  name: python-elementpath
+  conf: fedora-dependency
+- project: python-types-cryptography
+  name: python-types-cryptography
+  conf: fedora-dependency
+- project: python-anyio
+  name: python-anyio
+  conf: fedora-dependency
+- project: python-linstor
+  name: python-linstor
+  conf: fedora-dependency

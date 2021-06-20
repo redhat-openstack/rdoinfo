@@ -1,4 +1,7 @@
 packages:
+- project: GitPython
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: GitPython-3.1.18-1.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-ansible-netcommon-1.5.0-1.el8
@@ -11,3 +14,60 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-anyio
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-anyio-3.2.0-1.el8
+- project: python-apipkg
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-apipkg-1.5-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.97-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.97-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-cmd2-2.1.1-1.el8
+- project: python-elementpath
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-elementpath-2.2.3-1.el8
+- project: python-execnet
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-execnet-1.9.0-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.9.0-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-httpcore-0.13.6-1.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-httpx-0.18.2-1.el8
+- project: python-linstor
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-linstor-1.8.0-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.0.9-1.el8
+- project: python-psycopg2-binary
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-psycopg2-binary-2.9.1-1.el8
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pytest-xdist-2.3.0-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.7-1.el8
+- project: python-types-cryptography
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-types-cryptography-3.3.3-1.el8
+- project: python-types-enum34
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-types-enum34-0.1.6-1.el8
+- project: python-types-ipaddress
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-types-ipaddress-0.1.3-1.el8
+- project: python-types-paramiko
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-types-paramiko-0.1.7-1.el8
