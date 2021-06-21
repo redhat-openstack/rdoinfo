@@ -11,3 +11,9 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.0.10-1.el8
+- project: python-scipy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scipy-1.7.0-1.el8
