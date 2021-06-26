@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80261164_705e62fd",
+        "filename": "tags/train.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1214,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2021-06-26T10:33:07Z",
+      "side": 1,
+      "message": "Is  validations-common branchless? It does not have stable/train but it does have stable/ussuri.\n\nLatest RDO Train trunk build is https://trunk.rdoproject.org/centos8-train/component/validation/36/a2/36a2a11205ae3296cae71c381191e9e6a865c33e_25252426/\nand in order to revert to this upstream commit in the past, you will need to trigger trunk rebuild by a dummy commit in https://review.rdoproject.org/r/q/project:openstack%252Fvalidations-common-distgit+branch:train-rdo",
+      "revId": "837add9112c757ec4d3db3c2d79d75d3966531e7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
