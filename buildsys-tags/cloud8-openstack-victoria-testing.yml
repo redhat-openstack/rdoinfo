@@ -682,7 +682,7 @@ packages:
     cloud8-openstack-victoria-testing: python-ovsdbapp-1.6.0-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-packstack-17.0.0-0.3.0rc2.el8
+    cloud8-openstack-victoria-testing: openstack-packstack-17.0.0-1.el8
 - project: panko
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-panko-9.0.0-1.el8
@@ -2096,6 +2096,9 @@ packages:
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8-openstack-victoria-testing: ansible-tripleo-ipsec-10.0.1-1.el8
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud8-openstack-victoria-testing: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
     cloud8-openstack-victoria-testing: openstack-tripleo-puppet-elements-13.1.1-1.el8
