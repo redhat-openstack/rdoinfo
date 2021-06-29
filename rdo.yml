@@ -2517,6 +2517,9 @@ packages:
   upstream: https://github.com/infrawatch/collectd-config-ansible-role
   maintainers:
   - efoley@redhat.com
+- project: oslo-limit
+  conf: rpmfactory-lib
+  upstream: https://opendev.org/openstack/oslo.limit
 components:
 - name: common
 - name: compute
