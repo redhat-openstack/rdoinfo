@@ -11,3 +11,6 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: rubygem-semantic_puppet
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: rubygem-semantic_puppet-1.0.4-2.el8
