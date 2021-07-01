@@ -2081,6 +2081,9 @@ packages:
 - project: tripleo-ipsec
   buildsys-tags:
     cloud7-openstack-stein-testing: ansible-tripleo-ipsec-9.1.0-1.el7
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud7-openstack-stein-testing: tripleo-operator-ansible-0.5.1-1.el7
 - project: tripleo-puppet-elements
   buildsys-tags:
     cloud7-openstack-stein-testing: openstack-tripleo-puppet-elements-10.3.3-1.el7
