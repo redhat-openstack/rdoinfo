@@ -688,7 +688,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-ovsdbapp-1.2.2-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-packstack-16.0.2-2.el8
+    cloud8s-openstack-ussuri-release: openstack-packstack-16.1.0-1.el8
 - project: panko
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-panko-8.0.0-1.el8
@@ -2099,6 +2099,9 @@ packages:
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8s-openstack-ussuri-release: ansible-tripleo-ipsec-9.3.2-1.el8
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud8s-openstack-ussuri-release: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-tripleo-puppet-elements-12.3.4-1.el8
