@@ -31,7 +31,7 @@ packages:
     cloud7-openstack-train-release: ansible-collection-containers-podman-1.4.1-2.el7
 - project: ansible-collections-openstack
   buildsys-tags:
-    cloud7-openstack-train-release: ansible-collections-openstack-1.3.0-1.el7
+    cloud7-openstack-train-release: ansible-collections-openstack-1.5.0-1.el7
 - project: ansible-config_template
   buildsys-tags:
     cloud7-openstack-train-release: ansible-config_template-1.0.0-1.faf60ddgit.el7
@@ -745,7 +745,7 @@ packages:
     cloud7-openstack-train-release: pacemaker-1.1.16-12.el7_4.2.0.0.rdo1
 - project: packstack
   buildsys-tags:
-    cloud7-openstack-train-release: openstack-packstack-15.0.1-2.el7
+    cloud7-openstack-train-release: openstack-packstack-15.1.0-1.el7
 - project: panko
   buildsys-tags:
     cloud7-openstack-train-release: openstack-panko-7.1.0-1.el7
@@ -916,7 +916,7 @@ packages:
     cloud7-openstack-train-release: puppet-mongodb-3.0.1-0.1.0rc0.041bd39git.el7
 - project: puppet-murano
   buildsys-tags:
-    cloud7-openstack-train-release: puppet-murano-15.4.0-1.el7
+    cloud7-openstack-train-release: puppet-murano-15.5.1-1.el7
 - project: puppet-mysql
   buildsys-tags:
     cloud7-openstack-train-release: puppet-mysql-6.2.0-1.el7
@@ -928,7 +928,7 @@ packages:
     cloud7-openstack-train-release: puppet-neutron-15.6.0-1.el7
 - project: puppet-nova
   buildsys-tags:
-    cloud7-openstack-train-release: puppet-nova-15.7.0-1.el7
+    cloud7-openstack-train-release: puppet-nova-15.8.1-1.el7
 - project: puppet-nssdb
   buildsys-tags:
     cloud7-openstack-train-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el7
@@ -2156,6 +2156,9 @@ packages:
 - project: tripleo-ipsec
   buildsys-tags:
     cloud7-openstack-train-release: ansible-tripleo-ipsec-9.2.0-1.el7
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud7-openstack-train-release: tripleo-operator-ansible-0.5.1-1.el7
 - project: tripleo-puppet-elements
   buildsys-tags:
     cloud7-openstack-train-release: openstack-tripleo-puppet-elements-11.3.1-1.el7
