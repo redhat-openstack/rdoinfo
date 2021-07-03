@@ -11,6 +11,39 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-ansible-runner-2.0.1-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.105-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.105-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.11.0-1.el8
+- project: python-pillow
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pillow-8.3.0-1.el8
+- project: python-pyrsistent
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pyrsistent-0.18.0-1.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scp-0.13.5-1.el8
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-1.4.20-1.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.8-1.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zeroconf-0.32.0-1.el8
+- project: python-zipp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zipp-3.5.0-1.el8
 - project: rubygem-semantic_puppet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: rubygem-semantic_puppet-1.0.4-2.el8
