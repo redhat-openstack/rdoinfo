@@ -25,7 +25,7 @@ packages:
     cloud8s-openstack-wallaby-release: ansible-collection-containers-podman-1.4.1-2.el8
 - project: ansible-collections-openstack
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-collections-openstack-1.4.0-1.el8
+    cloud8s-openstack-wallaby-release: ansible-collections-openstack-1.5.0-1.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-config_template-1.1.1-1.el8
@@ -289,7 +289,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-ironic-17.0.2-1.el8
+    cloud8s-openstack-wallaby-release: openstack-ironic-17.0.3-1.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-ironic-inspector-10.6.0-1.el8
@@ -343,7 +343,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-keystonemiddleware-9.2.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-kolla-12.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-kolla-12.0.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-kuryr-lib-2.3.0-1.el8
@@ -391,7 +391,7 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-magnum-ui-8.0.0-1.el8
 - project: magnumclient
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-magnumclient-3.4.0-1.el8
+    cloud8s-openstack-wallaby-release: python-magnumclient-3.4.1-1.el8
 - project: manila
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-manila-12.0.0-1.el8
@@ -511,7 +511,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-neutronclient-7.3.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-nova-23.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-nova-23.0.1-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-novaclient-17.4.0-1.el8
@@ -541,7 +541,7 @@ packages:
     cloud8s-openstack-wallaby-release: openpgm-5.2.122-21.el8
 - project: openstack-selinux
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-selinux-0.8.25-1.el8
+    cloud8s-openstack-wallaby-release: openstack-selinux-0.8.27-1.el8
 - project: openstackclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-openstackclient-5.5.0-1.el8
@@ -679,7 +679,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-ovsdbapp-1.9.0-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-packstack-18.0.0-0.1.0rc1.el8
+    cloud8s-openstack-wallaby-release: openstack-packstack-18.0.0-1.el8
 - project: panko
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-panko-10.0.0-1.el8
@@ -691,7 +691,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-patrole-0.12.0-1.el8
 - project: placement
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-placement-5.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-placement-5.0.1-1.el8
 - project: proliantutils
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-proliantutils-2.9.4-1.el8
@@ -2032,7 +2032,7 @@ packages:
     cloud8s-openstack-wallaby-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sushy-3.7.1-1.el8
+    cloud8s-openstack-wallaby-release: python-sushy-3.7.2-1.el8
 - project: sushy-tools
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-sushy-tools-0.15.0-1.el8
@@ -2074,34 +2074,37 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-tobiko-0.4.1-1.el8
 - project: tooz
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-tooz-2.8.0-1.el8
+    cloud8s-openstack-wallaby-release: python-tooz-2.8.1-1.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: tripleo-ansible-3.1.0-1.el8
+    cloud8s-openstack-wallaby-release: tripleo-ansible-3.1.2-1.el8
 - project: tripleo-common
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-common-15.1.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-tripleo-common-15.2.1-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-heat-templates-14.1.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-tripleo-heat-templates-14.1.2-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-image-elements-13.1.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-tripleo-image-elements-13.1.1-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-tripleo-ipa-0.2.2-1.el8
 - project: tripleo-ipsec
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-tripleo-ipsec-10.0.1-1.el8
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud8s-openstack-wallaby-release: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-puppet-elements-14.1.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-tripleo-puppet-elements-14.1.1-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-validations-14.1.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-tripleo-validations-14.1.1-1.el8
 - project: tripleoclient
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-tripleoclient-16.1.0-1.el8
+    cloud8s-openstack-wallaby-release: python-tripleoclient-16.2.1-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-trove-15.0.0-1.el8
