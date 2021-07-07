@@ -533,6 +533,9 @@ packages:
 - project: octavia-lib
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-octavia-lib-2.3.1-1.el8
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: python-octavia-tests-tempest-1.7.0-1.el8
 - project: octaviaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-octaviaclient-2.3.0-1.el8
