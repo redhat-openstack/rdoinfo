@@ -749,6 +749,9 @@ packages:
 - project: python-pyasn1
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-pyasn1-0.4.6-3.el8
+- project: python-pycdlib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-pycdlib-1.11.0-3.el8
 - project: python-pycodestyle
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-pycodestyle-2.5.0-6.el8
