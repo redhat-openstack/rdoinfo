@@ -14,9 +14,63 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.17.109-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.20.109-1.el8
+- project: python-cffi
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-cffi-1.14.6-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-cmd2-2.1.2-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.12.0-1.el8
+- project: python-google-api-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-core-1.31.0-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-importlib-metadata-4.6.1-1.el8
+- project: python-jeepney
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-jeepney-0.7.0-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.0.11-1.el8
+- project: python-packaging
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-packaging-21.0-1.el8
+- project: python-pillow
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pillow-8.3.1-1.el8
 - project: python-pycdlib
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-pycdlib-1.11.0-3.el8
+- project: python-qpid-proton
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-qpid-proton-0.35.0-1.el8
+- project: python-ruamel-yaml-clib
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-ruamel-yaml-clib-0.2.6-1.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-scp-0.13.6-1.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-setuptools-57.1.0-1.el8
+- project: python-simplejson
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-simplejson-3.17.3-1.el8
+- project: python-threadpoolctl
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-threadpoolctl-2.2.0-1.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zeroconf-0.32.1-1.el8
 - project: rubygem-semantic_puppet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: rubygem-semantic_puppet-1.0.4-2.el8
