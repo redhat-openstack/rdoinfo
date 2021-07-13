@@ -17,6 +17,9 @@ packages:
 - project: ansible-collection-ansible-posix
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-collection-ansible-posix-1.2.0-1.el8
+- project: ansible-collection-ansible-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-collection-ansible-utils-2.3.0-1.el8
 - project: ansible-collection-community-general
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-collection-community-general-2.5.1-1.el8
