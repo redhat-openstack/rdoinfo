@@ -14,9 +14,90 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: numpy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: numpy-1.21.1-1.el8
+- project: python-anyio
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-anyio-3.3.0-1.el8
+- project: python-backports-entry-points-selectable
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-backports-entry-points-selectable-1.1.0-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.18.6-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.21.6-1.el8
+- project: python-charset-normalizer
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-charset-normalizer-2.0.3-1.el8
+- project: python-dateutil
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dateutil-2.8.2-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dulwich-0.20.24-1.el8
+- project: python-google-api-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-google-api-client-2.14.0-1.el8
+- project: python-hvac
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-hvac-0.11.0-1.el8
+- project: python-idna
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-idna-3.2-1.el8
+- project: python-iso8601
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-iso8601-0.1.16-1.el8
+- project: python-jaeger-client
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-jaeger-client-4.6.0-1.el8
+- project: python-ldap3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-ldap3-2.9.1-1.el8
+- project: python-mimeparse
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-mimeparse-1.6.0-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.1.0-1.el8
+- project: python-platformdirs
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-platformdirs-2.0.2-1.el8
 - project: python-pycdlib
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-pycdlib-1.11.0-3.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pymemcache-3.5.0-1.el8
+- project: python-pymongo
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pymongo-3.12.0-1.el8
+- project: python-requests
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-requests-2.26.0-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-s3transfer-0.5.0-1.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-setuptools-57.4.0-1.el8
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-sqlalchemy-1.4.22-1.el8
+- project: python-testtools
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-testtools-2.5.0-1.el8
+- project: python-websockify
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-websockify-0.10.0-1.el8
+- project: python-yamlloader
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-yamlloader-1.1.0-1.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-zeroconf-0.33.1-1.el8
 - project: rubygem-semantic_puppet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: rubygem-semantic_puppet-1.0.4-2.el8
