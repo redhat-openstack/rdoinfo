@@ -1,4 +1,7 @@
 packages:
+- project: ansible-collection-ansible-utils
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: ansible-collection-ansible-utils-2.3.0-1.el8
 - project: PyYAML
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: PyYAML-5.4.1-2.el8
