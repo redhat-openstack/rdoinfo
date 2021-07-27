@@ -118,7 +118,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-cliff-3.1.0-1.el8
 - project: cloudkitty
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-cloudkitty-12.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-cloudkitty-12.1.1-1.el8
 - project: cloudkitty-dashboard
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-cloudkitty-ui-10.0.0-1.el8
@@ -169,7 +169,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-debtcollector-2.0.1-1.el8
 - project: designate
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-designate-10.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-designate-10.0.1-1.el8
 - project: designate-dashboard
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-designate-ui-10.0.0-1.el8
@@ -226,7 +226,7 @@ packages:
     cloud8s-openstack-ussuri-testing: openstack-glance-20.0.1-1.el8
 - project: glance_store
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-glance-store-2.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-glance-store-2.0.1-1.el8
 - project: glanceclient
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-glanceclient-3.1.2-1.el8
@@ -298,7 +298,7 @@ packages:
     cloud8s-openstack-ussuri-testing: openstack-ironic-15.0.1-2.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-ironic-inspector-10.1.1-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-ironic-inspector-10.1.2-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-ironic-inspector-client-4.1.0-1.el8
@@ -307,7 +307,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-ironic-lib-4.2.2-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-ironic-prometheus-exporter-2.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-ironic-prometheus-exporter-2.0.1-1.el8
 - project: ironic-python-agent
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-ironic-python-agent-6.1.1-1.el8
@@ -400,13 +400,13 @@ packages:
     cloud8s-openstack-ussuri-testing: python-magnumclient-3.0.1-1.el8
 - project: manila
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-manila-10.0.2-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-manila-10.1.0-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-manila-tests-tempest-1.4.0-1.el8
 - project: manila-ui
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-manila-ui-3.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-manila-ui-3.1.0-1.el8
 - project: manilaclient
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-manilaclient-2.1.0-1.el8
@@ -541,7 +541,7 @@ packages:
     cloud8s-openstack-ussuri-testing: openstack-octavia-6.2.0-1.el8
 - project: octavia-dashboard
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-octavia-ui-5.0.0-2.el8
+    cloud8s-openstack-ussuri-testing: openstack-octavia-ui-5.0.1-1.el8
 - project: octavia-lib
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-octavia-lib-2.0.0-1.el8
@@ -1996,7 +1996,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-sahara-plugin-mapr-3.0.0-1.el8
 - project: sahara-plugin-spark
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-sahara-plugin-spark-3.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-sahara-plugin-spark-3.0.1-1.el8
 - project: sahara-plugin-storm
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-sahara-plugin-storm-3.0.0-1.el8
@@ -2113,10 +2113,10 @@ packages:
     cloud8s-openstack-ussuri-testing: python-tripleoclient-13.4.4-1.el8
 - project: trove
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-trove-13.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-trove-13.0.1-1.el8
 - project: trove-dashboard
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-trove-ui-14.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-trove-ui-14.1.0-1.el8
 - project: trove-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-trove-tests-tempest-1.0.0-1.el8
