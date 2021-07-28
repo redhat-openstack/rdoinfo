@@ -1,4 +1,7 @@
 packages:
+- project: ansible-core
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: ansible-core-2.11.3-1.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-ansible-netcommon-2.2.0-1.el8

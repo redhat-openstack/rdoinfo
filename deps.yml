@@ -2528,3 +2528,8 @@ packages:
 - project: python-pycdlib
   name: python-pycdlib
   conf: fedora-dependency
+- project: ansible-core
+  name: ansible-core
+  conf: fedora-dependency
+  maintainers:
+  - sshnaidm@redhat.com
