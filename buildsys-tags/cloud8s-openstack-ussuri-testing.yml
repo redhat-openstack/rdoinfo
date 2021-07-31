@@ -100,7 +100,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-ceilometermiddleware-2.0.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-cinder-16.3.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-cinder-16.4.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-cinder-tests-tempest-1.1.0-1.el8
@@ -295,7 +295,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-django-horizon-18.3.2-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-ironic-15.0.1-2.el8
+    cloud8s-openstack-ussuri-testing: openstack-ironic-15.0.2-1.el8
 - project: ironic-inspector
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-ironic-inspector-10.1.2-1.el8
@@ -310,7 +310,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-ironic-prometheus-exporter-2.0.1-1.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-ironic-python-agent-6.1.1-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-ironic-python-agent-6.1.2-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-ironic-python-agent-builder-1.1.0-1.el8
@@ -349,13 +349,13 @@ packages:
     cloud8s-openstack-ussuri-testing: python-keystonemiddleware-9.0.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-kolla-10.2.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-kolla-10.3.0-1.el8
 - project: kuryr
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-kuryr-lib-2.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-kuryr-lib-2.0.1-1.el8
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-kuryr-kubernetes-2.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-kuryr-kubernetes-2.1.0-1.el8
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-kuryr-tests-tempest-0.5.0-1.el8
@@ -394,7 +394,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-magnum-tests-tempest-1.0.0-1.el8
 - project: magnum-ui
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-magnum-ui-6.0.0-2.el8
+    cloud8s-openstack-ussuri-testing: openstack-magnum-ui-6.0.1-1.el8
 - project: magnumclient
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-magnumclient-3.0.1-1.el8
@@ -499,7 +499,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-networking-odl-16.0.0-1.el8
 - project: networking-sfc
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-networking-sfc-10.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-networking-sfc-10.0.1-1.el8
 - project: neutron
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-neutron-16.4.0-1.el8
@@ -538,7 +538,7 @@ packages:
     cloud8s-openstack-ussuri-testing: novnc-1.1.0-6.el8
 - project: octavia
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-octavia-6.2.0-1.el8
+    cloud8s-openstack-ussuri-testing: openstack-octavia-6.2.1-1.el8
 - project: octavia-dashboard
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-octavia-ui-5.0.1-1.el8
@@ -2056,10 +2056,10 @@ packages:
     cloud8s-openstack-ussuri-testing: sysbench-1.0.17-3.el8
 - project: tacker
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-tacker-3.0.0-2.el8
+    cloud8s-openstack-ussuri-testing: openstack-tacker-3.0.1-1.el8
 - project: tackerclient
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-tackerclient-1.1.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-tackerclient-1.1.1-1.el8
 - project: taskflow
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-taskflow-4.1.0-1.el8
@@ -2182,7 +2182,7 @@ packages:
     cloud8s-openstack-ussuri-testing: python-zaqar-tests-tempest-1.0.0-1.el8
 - project: zaqarclient
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-zaqarclient-1.13.1-1.el8
+    cloud8s-openstack-ussuri-testing: python-zaqarclient-1.13.2-1.el8
 - project: zeromq
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: zeromq-4.3.2-1.el8
