@@ -14,6 +14,9 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-networkx
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-networkx-2.6.2-1.el8
 - project: python-pycdlib
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-pycdlib-1.11.0-3.el8
