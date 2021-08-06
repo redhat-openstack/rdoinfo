@@ -292,7 +292,7 @@ packages:
     cloud8-openstack-ussuri-release: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-django-horizon-18.3.3-1.el8
+    cloud8-openstack-ussuri-release: python-django-horizon-18.3.4-1.el8
 - project: ironic
   buildsys-tags:
     cloud8-openstack-ussuri-release: openstack-ironic-15.0.2-1.el8
@@ -697,7 +697,7 @@ packages:
     cloud8-openstack-ussuri-release: openstack-packstack-16.0.2-2.el8
 - project: panko
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-panko-8.0.0-1.el8
+    cloud8-openstack-ussuri-release: openstack-panko-8.1.0-1.el8
 - project: pankoclient
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-pankoclient-1.0.1-1.el8
