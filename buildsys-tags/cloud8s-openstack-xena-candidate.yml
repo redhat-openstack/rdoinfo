@@ -17,6 +17,9 @@ packages:
 - project: python-pycdlib
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-pycdlib-1.11.0-3.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-pymemcache-3.5.0-1.el8
 - project: python-sqlalchemy-utils
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.8-1.el8
