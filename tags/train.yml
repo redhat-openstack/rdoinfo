@@ -1162,10 +1162,6 @@ packages:
 - project: tripleo-heat-templates
   tags:
     train:
-- project: tripleo-heat-templates-compat
-  tags:
-    train:
-      source-branch: stable/stein
 - project: tripleo-image-elements
   tags:
     train:
