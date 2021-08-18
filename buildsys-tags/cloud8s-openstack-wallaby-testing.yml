@@ -44,6 +44,9 @@ packages:
 - project: ansible-role-chrony
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ansible-role-chrony-1.0.3-1.el8
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: ansible-role-collectd-config-0.0.1-1.el8
 - project: ansible-role-container-registry
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ansible-role-container-registry-1.3.0-1.el8
@@ -53,6 +56,9 @@ packages:
 - project: ansible-role-openstack-operations
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
+- project: ansible-role-qdr-config
+  buildsys-tags:
+    cloud8s-openstack-wallaby-testing: ansible-role-qdr-config-0.0.1-1.el8
 - project: ansible-role-redhat-subscription
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ansible-role-redhat-subscription-1.1.4-1.el8
@@ -112,7 +118,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-cinderclient-7.4.0-1.el8
 - project: cinderlib
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-cinderlib-3.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-cinderlib-4.0.0-1.el8
 - project: ck
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: ck-0.6.0-10.el8
@@ -2083,7 +2089,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-tooz-2.8.1-1.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: tripleo-ansible-3.1.2-1.el8
+    cloud8s-openstack-wallaby-testing: tripleo-ansible-3.3.0-1.el8
 - project: tripleo-common
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-tripleo-common-15.3.0-1.el8
@@ -2110,7 +2116,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-tripleo-validations-14.2.1-1.el8
 - project: tripleoclient
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-tripleoclient-16.3.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-tripleoclient-16.4.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-trove-15.0.0-1.el8
@@ -2131,7 +2137,7 @@ packages:
     cloud8s-openstack-wallaby-testing: validations-common-1.2.0-1.el8
 - project: validations-libs
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-validations-libs-1.2.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-validations-libs-1.3.0-1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-virtualbmc-2.2.0-2.el8
