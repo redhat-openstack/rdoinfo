@@ -622,7 +622,7 @@ packages:
     cloud8-openstack-ussuri-release: python-oslo-concurrency-4.0.3-1.el8
 - project: oslo-config
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-oslo-config-8.0.4-1.el8
+    cloud8-openstack-ussuri-release: python-oslo-config-8.0.5-1.el8
 - project: oslo-context
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-oslo-context-3.0.2-1.el8
@@ -1312,7 +1312,7 @@ packages:
     cloud8-openstack-ussuri-release: python-etcd3gw-0.2.5-1.el8
 - project: python-eventlet
   buildsys-tags:
-    cloud8-openstack-ussuri-release: python-eventlet-0.25.1-2.el8
+    cloud8-openstack-ussuri-release: python-eventlet-0.25.2-3.el8
 - project: python-exabgp
   buildsys-tags:
     cloud8-openstack-ussuri-release: python-exabgp-4.0.10-4.el8
@@ -2092,10 +2092,10 @@ packages:
     cloud8-openstack-ussuri-release: tripleo-ansible-1.5.5-1.el8
 - project: tripleo-common
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-tripleo-common-12.4.6-1.el8
+    cloud8-openstack-ussuri-release: openstack-tripleo-common-12.4.6-2.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-tripleo-heat-templates-12.4.5-1.el8
+    cloud8-openstack-ussuri-release: openstack-tripleo-heat-templates-12.4.5-2.el8
 - project: tripleo-image-elements
   buildsys-tags:
     cloud8-openstack-ussuri-release: openstack-tripleo-image-elements-12.0.1-1.el8
