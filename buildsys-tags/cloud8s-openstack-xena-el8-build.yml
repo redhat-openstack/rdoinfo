@@ -314,6 +314,9 @@ packages:
 - project: python-pytest-xdist
   buildsys-tags:
     cloud8s-openstack-xena-el8-build: python-pytest-xdist-1.31.0-1.el8
+- project: python-pytest-xprocess
+  buildsys-tags:
+    cloud8s-openstack-xena-el8-build: python-pytest-xprocess-0.18.1-1.el8
 - project: python-raven
   buildsys-tags:
     cloud8s-openstack-xena-el8-build: python-raven-6.10.0-5.el8
