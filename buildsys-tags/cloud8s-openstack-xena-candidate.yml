@@ -26,6 +26,9 @@ packages:
 - project: python-sqlalchemy-utils
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-sqlalchemy-utils-0.37.8-1.el8
+- project: python-werkzeug
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-werkzeug-2.0.1-2.el8
 - project: rubygem-semantic_puppet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: rubygem-semantic_puppet-1.0.4-2.el8
