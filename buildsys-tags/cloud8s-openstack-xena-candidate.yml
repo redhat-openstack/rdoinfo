@@ -14,9 +14,21 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-boto3-1.18.27-1.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-botocore-1.21.27-1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dulwich-0.20.25-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-eventlet-0.31.1-1.el8
+- project: python-moto
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-moto-2.2.4-1.el8
 - project: python-pycdlib
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-pycdlib-1.11.0-3.el8
