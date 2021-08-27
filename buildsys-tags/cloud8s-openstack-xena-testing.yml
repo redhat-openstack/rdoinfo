@@ -332,6 +332,9 @@ packages:
 - project: python-autobahn
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-autobahn-20.7.1-2.el8
+- project: python-autopage
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-autopage-0.4.0-1.el8
 - project: python-bcrypt
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-bcrypt-3.1.7-3.el8
