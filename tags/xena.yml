@@ -766,6 +766,7 @@ packages:
 - project: puppet-rsync
   tags:
     xena:
+      source-branch: main
 - project: puppet-rsyslog
   tags:
     # NOTE(aschultz): rsyslog broke backwards compatibility with
