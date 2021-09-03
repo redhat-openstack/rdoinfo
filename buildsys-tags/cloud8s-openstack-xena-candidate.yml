@@ -17,6 +17,9 @@ packages:
 - project: python-autopage
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-autopage-0.4.0-1.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-dogpile-cache-1.1.4-1.el8
 - project: python-eventlet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-eventlet-0.31.1-1.el8
