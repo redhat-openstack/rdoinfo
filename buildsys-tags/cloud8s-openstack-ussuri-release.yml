@@ -70,7 +70,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-automaton-2.0.1-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-barbican-10.0.0-1.el8
+    cloud8s-openstack-ussuri-release: openstack-barbican-10.1.0-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-barbican-tests-tempest-1.0.0-1.el8
@@ -268,7 +268,7 @@ packages:
     cloud8s-openstack-ussuri-release: hdf5-1.10.5-5.el8
 - project: heat
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-heat-14.1.0-1.el8
+    cloud8s-openstack-ussuri-release: openstack-heat-14.2.0-1.el8
 - project: heat-agents
   buildsys-tags:
     cloud8s-openstack-ussuri-release: openstack-heat-agents-2.0.0-1.el8
@@ -334,7 +334,7 @@ packages:
     cloud8s-openstack-ussuri-release: jsoncpp-1.9.2-1.el8
 - project: keystone
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-keystone-17.0.0-1.el8
+    cloud8s-openstack-ussuri-release: openstack-keystone-17.0.1-1.el8
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-keystone-tests-tempest-0.4.0-1.el8
@@ -2044,7 +2044,7 @@ packages:
     cloud8s-openstack-ussuri-release: python-sushy-oem-idrac-0.0.2-1.el8
 - project: swift
   buildsys-tags:
-    cloud8s-openstack-ussuri-release: openstack-swift-2.25.1-1.el8
+    cloud8s-openstack-ussuri-release: openstack-swift-2.25.2-1.el8
 - project: swiftclient
   buildsys-tags:
     cloud8s-openstack-ussuri-release: python-swiftclient-3.9.1-1.el8
