@@ -3,6 +3,9 @@ import:
 releases:
 - name: xena
   branch: rpm-master
+  dlrn_graphql:
+  - https://trunk.rdoproject.org/api-centos8-master/api/graphql
+  # - https://trunk.rdoproject.org/api-centos9-master/api/graphql
   tags_map: separated_buildreqs
   repos:
   - name: el8s
@@ -24,6 +27,8 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 - name: wallaby
   branch: rpm-master
+  dlrn_graphql:
+  - https://trunk.rdoproject.org/api-centos8-wallaby/api/graphql
   tags_map: separated_buildreqs
   repos:
   - name: el8
@@ -63,6 +68,8 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 - name: victoria
   branch: rpm-master
+  dlrn_graphql:
+  - https://trunk.rdoproject.org/api-centos8-victoria/api/graphql
   tags_map: separated_buildreqs
   repos:
   - name: el8
@@ -104,6 +111,8 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 - name: ussuri
   branch: rpm-master
+  dlrn_graphql:
+  - https://trunk.rdoproject.org/api-centos8-ussuri/api/graphql
   tags_map: separated_buildreqs
   repos:
   - name: el8
@@ -146,6 +155,8 @@ releases:
 
 - name: train
   branch: rpm-master
+  dlrn_graphql:
+  - https://trunk.rdoproject.org/api-centos8-train/api/graphql
   tags_map: separated_buildreqs
   repos:
   - name: el7
