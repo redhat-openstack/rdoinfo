@@ -14,6 +14,9 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-candidate: ansible-collection-containers-podman-1.6.1-1.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-xena-candidate: python-alembic.1.7.1-3.el8
 - project: python-autopage
   buildsys-tags:
     cloud8s-openstack-xena-candidate: python-autopage-0.4.0-1.el8
