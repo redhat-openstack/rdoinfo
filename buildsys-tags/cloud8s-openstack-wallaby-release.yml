@@ -502,7 +502,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-networking-sfc-12.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-neutron-18.1.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-neutron-18.1.1-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-neutron-dynamic-routing-18.0.0-1.el8
@@ -1300,7 +1300,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-etcd3gw-0.2.5-1.el8
 - project: python-eventlet
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-eventlet-0.30.0-1.el8
+    cloud8s-openstack-wallaby-release: python-eventlet-0.30.0-1.1.el8
 - project: python-exabgp
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-exabgp-4.0.10-4.el8
@@ -2077,7 +2077,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-telemetry-tests-tempest-1.3.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tempest-27.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-tempest-28.1.0-1.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-tempestconf-3.1.0-1.el8
