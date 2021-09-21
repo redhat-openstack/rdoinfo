@@ -767,8 +767,8 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - lyarwood@redhat.com
-  - mbooth@redhat.com
-  - stephenfin@redhat.com
+  - kchamart@redhat.com
+  - smooney@redhat.com
   component: compute
 - project: keystone
   conf: rpmfactory-core
@@ -1304,8 +1304,8 @@ packages:
   maintainers:
   - marcos.fermin.lobo@cern.ch
   - lyarwood@redhat.com
-  - mbooth@redhat.com
-  - stephenfin@redhat.com
+  - kchamart@redhat.com
+  - smooney@redhat.com
 - project: magnum
   conf: rpmfactory-core
   maintainers:
@@ -1358,8 +1358,8 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - lyarwood@redhat.com
-  - mbooth@redhat.com
-  - stephenfin@redhat.com
+  - kchamart@redhat.com
+  - smooney@redhat.com
 - project: swiftclient
   conf: rpmfactory-client
 - project: ceilometerclient
@@ -2391,7 +2391,7 @@ packages:
   conf: rpmfactory-client
   upstream: https://opendev.org/openstack/osc-placement
   maintainers:
-  - mbooth@redhat.com
+  - kchamart@redhat.com
 - project: stackviz
   conf: rpmfactory-lib
   name: python-stackviz
@@ -2421,8 +2421,8 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - lyarwood@redhat.com
-  - mbooth@redhat.com
-  - stephenfin@redhat.com
+  - kchamart@redhat.com
+  - smooney@redhat.com
 - project: ansible-role-openstack-operations
   conf: rpmfactory-lib
   name: ansible-role-openstack-operations
@@ -2500,8 +2500,8 @@ packages:
   component: clients
   maintainers:
   - lyarwood@redhat.com
-  - mbooth@redhat.com
-  - stephenfin@redhat.com
+  - kchamart@redhat.com
+  - smooney@redhat.com
 - project: ansible-role-atos-hsm
   conf: rpmfactory-lib
   name: ansible-role-atos-hsm
