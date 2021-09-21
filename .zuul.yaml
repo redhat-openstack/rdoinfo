@@ -1,0 +1,17 @@
+- job:
+    name: validate-dependencies-rebuilds-test
+    parent: distgit-cbs-validate
+    description: |
+      This job does scratch build from fedora srpm in CBS.
+    run: playbooks/run.yaml
+    post-run: playbooks/post.yaml
+    timeout: 10800
+    required-projects:
+      - name: rdoinfo
+      - name: gating_scripts
+    nodeset: rdo-centos-8
+
+- project:
+    check:
+      jobs:
+        - validate-dependencies-rebuilds-test
