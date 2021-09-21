@@ -23,6 +23,9 @@ packages:
 - project: libwmf
   buildsys-tags:
     cloud9s-openstack-xena-el9s-build: libwmf-0.2.12-6.el9s
+- project: openstack-macros
+  buildsys-tags:
+    cloud9s-openstack-xena-el9s-build: openstack-macros-2020.1.2-1.el9s
 - project: parallel
   buildsys-tags:
     cloud9s-openstack-xena-el9s-build: parallel-20201222-2.el9s
