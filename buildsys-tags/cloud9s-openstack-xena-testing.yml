@@ -254,6 +254,9 @@ packages:
 - project: python-aniso8601
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-aniso8601-9.0.1-1.el9s
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: python-ansible-runner-2.0.0a1-3.el9s
 - project: python-anyjson
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-anyjson-0.3.3-29.el9s
@@ -278,6 +281,9 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-beautifulsoup4-4.9.3-2.el9s
+- project: python-boto
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: python-boto-2.49.0-8.el9s
 - project: python-boto3
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-boto3-1.17.66-1.el9s
@@ -950,6 +956,9 @@ packages:
 - project: qpid-proton
   buildsys-tags:
     cloud9s-openstack-xena-testing: qpid-proton-0.35.0-2.el9s
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: python-ansible-runner-2.0.0a1-3.el9s
 - project: ruby-augeas
   buildsys-tags:
     cloud9s-openstack-xena-testing: ruby-augeas-0.5.0-27.el9s
