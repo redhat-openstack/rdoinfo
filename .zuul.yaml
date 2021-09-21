@@ -1,0 +1,17 @@
+- job:
+    name: rebuild-fedora-dependencies-test
+    parent: distgit-cbs-validate
+    description: |
+      This job rebuilds srpm from fedora in CBS.
+    run: playbooks/run.yaml
+    post-run: playbooks/post.yaml
+    timeout: 10800
+    required-projects:
+      - name: rdoinfo
+      - name: gating_scripts
+    nodeset: rdo-centos-8
+
+- project:
+    check:
+      jobs:
+        - rebuild-fedora-dependencies-test
