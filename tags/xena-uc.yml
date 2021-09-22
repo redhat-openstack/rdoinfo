@@ -649,19 +649,22 @@ packages:
 - project: puppet-apache
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: e4a1532b26e57917ea8307f3e0edd0c59a56d410
 - project: puppet-archive
   tags:
     xena-uc:
+      source-branch: 2f4cb0fb9e557da6e0e63d631045d2d4c8fec730
 - project: puppet-auditd
   tags:
     xena-uc:
+      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
 - project: puppet-barbican
   tags:
     xena-uc:
 - project: puppet-cassandra
   tags:
     xena-uc:
+      source-branch: 39d88160c7d569b1a78c358c0b6ac2ee32864da3
 - project: puppet-ceilometer
   tags:
     xena-uc:
@@ -671,53 +674,64 @@ packages:
 - project: puppet-certmonger
   tags:
     xena-uc:
+      source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
 - project: puppet-cinder
   tags:
     xena-uc:
 - project: puppet-collectd
   tags:
     xena-uc:
+      source-branch: acd970c429ebbdc0d3e2e11c7c66979eae63d3c6
 - project: puppet-concat
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: 5b86b60b4b3790a035cec11cb5052a15ea15a94d
 - project: puppet-contrail
   tags:
     xena-uc:
+      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
 - project: puppet-corosync
   tags:
     xena-uc:
+      source-branch: cd23c0ad7f3f18d981e33a936cc271dc11169684
 - project: puppet-datacat
   tags:
     xena-uc:
+      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
 - project: puppet-designate
   tags:
     xena-uc:
 - project: puppet-dns
   tags:
     xena-uc:
+      source-branch: e2cfa2d091a1fb7a239bfd4ed41fed241a4fe90d
 - project: puppet-ec2api
   tags:
     xena-uc:
 - project: puppet-elasticsearch
   tags:
     xena-uc:
+      source-branch: a46f52e9b1ea8f2f62d61d8084d025e5fc90dd31
 - project: puppet-etcd
   tags:
     xena-uc:
+      source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
 - project: puppet-fdio
   tags:
     xena-uc:
+      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
 - project: puppet-firewall
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: 760196f4d46bc74837b95c452ca1c67c6305b9f5
 - project: puppet-fluentd
   tags:
     xena-uc:
+      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
 - project: puppet-git
   tags:
     xena-uc:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
 - project: puppet-glance
   tags:
     xena-uc:
@@ -727,7 +741,7 @@ packages:
 - project: puppet-haproxy
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: ad776e4047370c93b978d7ec6f539e1cbb73961d
 - project: puppet-heat
   tags:
     xena-uc:
@@ -737,35 +751,41 @@ packages:
 - project: puppet-inifile
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: 76f036d5187731b8dbe9f0cda710fd4f2278e28b
 - project: puppet-ipaclient
   tags:
     xena-uc:
+      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 - project: puppet-ironic
   tags:
     xena-uc:
 - project: puppet-java
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: ae3e12ed5eb6e5b56eae28b7377f107eac22cea6
 - project: puppet-kafka
   tags:
     xena-uc:
+      source-branch: f8142612f690fa29e0ca3af412fde7886fe4b8c4
 - project: puppet-keepalived
   tags:
     xena-uc:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-keystone
   tags:
     xena-uc:
 - project: puppet-kibana3
   tags:
     xena-uc:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-kmod
   tags:
     xena-uc:
+      source-branch: c3d90861081864c2e7d4a53d474a605e6f2ac70d
 - project: puppet-lib-file_concat
   tags:
     xena-uc:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
 - project: puppet-magnum
   tags:
     xena-uc:
@@ -775,6 +795,7 @@ packages:
 - project: puppet-memcached
   tags:
     xena-uc:
+      source-branch: d1d88b02a610d8578cdb7a3d352f4ba7b850a23f
 - project: puppet-midonet
   tags:
     xena-uc:
@@ -784,16 +805,18 @@ packages:
 - project: puppet-module-data
   tags:
     xena-uc:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mongodb
   tags:
     xena-uc:
+      source-branch: 0190f9d3c131bf0e7b066ffe3c7db7374c96d88f
 - project: puppet-murano
   tags:
     xena-uc:
 - project: puppet-mysql
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: 857e1f0b0961756fabfa44bcb58a46bc8a38fde1
 - project: puppet-n1k-vsm
   tags:
     xena-uc:
@@ -806,6 +829,7 @@ packages:
 - project: puppet-nssdb
   tags:
     xena-uc:
+      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-octavia
   tags:
     xena-uc:
@@ -830,25 +854,30 @@ packages:
 - project: puppet-powerdns
   tags:
     xena-uc:
+      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
 - project: puppet-qdr
   tags:
     xena-uc:
 - project: puppet-rabbitmq
   tags:
     xena-uc:
+      source-branch: f69bfa0019c2a31700f691f30025a3feb74cb537
 - project: puppet-redis
   tags:
     xena-uc:
+      source-branch: 8990a32eb29fd6eddf3744f040acd9ba59f7d578
 - project: puppet-remote
   tags:
     xena-uc:
+      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: ebc7ecdf03e08587b19ea78ce5302edecc02d688
 - project: puppet-rsyslog
   tags:
     xena-uc:
+      source-branch: 2ae3c6419d89057511d9da603b48f45b4c327ea2
 - project: puppet-sahara
   tags:
     xena-uc:
@@ -858,28 +887,34 @@ packages:
     # clients to Go language, which we don't provide and will not provide in future,
     # because Sensu is being deprecated.
     xena-uc:
+      source-branch: c7707642a0e2e0c7f7a64d1765c1b0160768737f
 - project: puppet-snmp
   tags:
     xena-uc:
+      source-branch: 7116b196da1e0dc7a6ae5313489e7d59b671d4e4
 - project: puppet-ssh
   tags:
     xena-uc:
+      source-branch: b84d4dcea802ce0a12e7d1d96bd71e993cd579bd
 - project: puppet-staging
   tags:
     xena-uc:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-stdlib
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: 21132c835ae7dad55759389ad5b6e96efe4f292e
 - project: puppet-swift
   tags:
     xena-uc:
 - project: puppet-sysctl
   tags:
     xena-uc:
+      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
     xena-uc:
+      source-branch: 65af359246f2ae2dae277797a0133f49ba7979aa
 - project: puppet-tacker
   tags:
     xena-uc:
@@ -889,10 +924,11 @@ packages:
 - project: puppet-timezone
   tags:
     xena-uc:
+      source-branch: 16fc3aff6a15573bedf49ee127cde406103a54a0
 - project: puppet-tomcat
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: 67c3ad8d34ecd3187f763cd17d5166ab0c2e04ca
 - project: puppet-tripleo
   tags:
     xena-uc:
@@ -902,19 +938,22 @@ packages:
 - project: puppet-uchiwa
   tags:
     xena-uc:
+      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
     xena-uc:
-      source-branch: main
+      source-branch: c5d736ccbaa1d65f2d5fbf7d22aa414fdcfa05a7
 - project: puppet-veritas_hyperscale
   tags:
     xena-uc:
+      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
 - project: puppet-vitrage
   tags:
     xena-uc:
 - project: puppet-vlan
   tags:
     xena-uc:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-vswitch
   tags:
     xena-uc:
@@ -924,12 +963,14 @@ packages:
 - project: puppet-xinetd
   tags:
     xena-uc:
+      source-branch: e742608dccdf42236144acf9f05e483b47c576f1
 - project: puppet-zaqar
   tags:
     xena-uc:
 - project: puppet-zookeeper
   tags:
     xena-uc:
+      source-branch: 76fc0b0a53a3a83f3322ee81fc01661e375c4d4e
 - project: pycadf
   tags:
     xena-uc:
