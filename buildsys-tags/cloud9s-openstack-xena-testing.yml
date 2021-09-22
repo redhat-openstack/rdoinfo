@@ -605,6 +605,9 @@ packages:
 - project: python-munch
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-munch-2.5.0-4.el9s
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: python-murano-pkg-check-0.3.0-20.el9s
 - project: python-natsort
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-natsort-7.1.1-2.el9s
