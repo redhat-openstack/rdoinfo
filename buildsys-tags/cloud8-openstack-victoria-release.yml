@@ -100,13 +100,13 @@ packages:
     cloud8-openstack-victoria-release: python-ceilometermiddleware-2.1.0-2.el8
 - project: cinder
   buildsys-tags:
-    cloud8-openstack-victoria-release: openstack-cinder-17.1.0-1.el8
+    cloud8-openstack-victoria-release: openstack-cinder-17.2.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-release: python-cinder-tests-tempest-1.4.0-1.el8
 - project: cinderclient
   buildsys-tags:
-    cloud8-openstack-victoria-release: python-cinderclient-7.2.0-2.el8
+    cloud8-openstack-victoria-release: python-cinderclient-7.2.2-1.el8
 - project: cinderlib
   buildsys-tags:
     cloud8-openstack-victoria-release: python-cinderlib-3.0.0-1.el8
@@ -553,7 +553,7 @@ packages:
     cloud8-openstack-victoria-release: os-apply-config-12.0.1-1.el8
 - project: os-brick
   buildsys-tags:
-    cloud8-openstack-victoria-release: python-os-brick-4.0.3-2.el8
+    cloud8-openstack-victoria-release: python-os-brick-4.0.4-1.el8
 - project: os-client-config
   buildsys-tags:
     cloud8-openstack-victoria-release: python-os-client-config-2.1.0-1.el8
