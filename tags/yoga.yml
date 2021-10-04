@@ -1,1232 +1,1066 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    xena:
+    yoga:
 - project: ansible-config_template
   tags:
-    xena:
+    yoga:
 - project: ansible-pacemaker
   tags:
-    xena:
+    yoga:
 - project: ansible-role-atos-hsm
   tags:
-    xena:
+    yoga:
 - project: ansible-role-chrony
   tags:
-    xena:
+    yoga:
 - project: ansible-role-collect-logs
   tags:
-    xena:
+    yoga:
 - project: ansible-role-collectd-config
   tags:
-    xena:
+    yoga:
 - project: ansible-role-container-registry
   tags:
-    xena:
+    yoga:
 - project: ansible-role-lunasa-hsm
   tags:
-    xena:
+    yoga:
 - project: ansible-role-openstack-operations
   tags:
-    xena:
+    yoga:
 - project: ansible-role-qdr-config
   tags:
-    xena:
+    yoga:
 - project: ansible-role-redhat-subscription
   tags:
-    xena:
+    yoga:
 - project: ansible-role-thales-hsm
   tags:
-    xena:
+    yoga:
 - project: ansible-role-tripleo-modify-image
   tags:
-    xena:
+    yoga:
 - project: ansible-tripleo-ipa-server
   tags:
-    xena:
+    yoga:
 - project: aodh
   tags:
-    xena:
+    yoga:
 - project: aodhclient
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: automaton
   tags:
-    xena:
-      source-branch: 2.4.0
+    yoga:
 - project: barbican
   tags:
-    xena:
+    yoga:
 - project: barbican-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.5.0
+    yoga:
 - project: barbicanclient
   tags:
-    xena:
-      source-branch: 5.2.0
+    yoga:
 - project: castellan
   tags:
-    xena:
-      source-branch: 3.9.1
+    yoga:
 - project: ceilometer
   tags:
-    xena:
+    yoga:
 - project: ceilometerclient
   tags:
-    xena:
-      source-branch: 2.9.0
+    yoga:
+      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
 - project: ceilometermiddleware
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: cinder
   tags:
-    xena:
+    yoga:
 - project: cinder-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.5.0
+    yoga:
 - project: cinderclient
   tags:
-    xena:
-      source-branch: 8.1.0
+    yoga:
 - project: cinderlib
   tags:
-    xena:
+    yoga:
 - project: cliff
   tags:
-    xena:
-      source-branch: 3.9.0
+    yoga:
 - project: cloudkitty
   tags:
-    xena:
+    yoga:
 - project: cloudkitty-dashboard
   tags:
-    xena:
+    yoga:
 - project: cloudkittyclient
   tags:
-    xena:
-      source-branch: 4.3.0
+    yoga:
 - project: collectd-gnocchi
   tags:
-    xena:
+    yoga:
 - project: cursive
   tags:
-    xena:
-      source-branch: 0.2.2
+    yoga:
 - project: debtcollector
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: designate
   tags:
-    xena:
+    yoga:
 - project: designate-dashboard
   tags:
-    xena:
+    yoga:
 - project: designate-tempest-plugin
   tags:
-    xena:
-      source-branch: 0.12.0
+    yoga:
 - project: designateclient
   tags:
-    xena:
-      source-branch: 4.3.0
+    yoga:
 - project: dib-utils
   tags:
-    xena:
-      source-branch: 0.0.11
+    yoga:
 - project: diskimage-builder
   tags:
-    xena:
+    yoga:
 - project: dracclient
   tags:
-    xena:
+    yoga:
 - project: ec2-api
   tags:
-    xena:
+    yoga:
 - project: ec2api-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.3.0
+    yoga:
 - project: futurist
   tags:
-    xena:
-      source-branch: 2.4.0
+    yoga:
 - project: glance
   tags:
-    xena:
+    yoga:
 - project: glance_store
   tags:
-    xena:
-      source-branch: 2.7.0
+    yoga:
 - project: glanceclient
   tags:
-    xena:
-      source-branch: 3.5.0
+    yoga:
 - project: glare
   tags:
-    xena:
+    yoga:
 - project: glareclient
   tags:
-    xena:
-      source-branch: 0.5.3
+    yoga:
 - project: glean
   tags:
-    xena:
+    yoga:
 - project: gnocchi
   tags:
-    xena:
+    yoga:
       source-branch: stable/4.3
 - project: gnocchiclient
   tags:
-    xena:
-      source-branch: 7.0.4
+    yoga:
 - project: hacking
   tags:
-    xena:
-      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    yoga:
 - project: hardware
   tags:
-    xena:
+    yoga:
 - project: heat
   tags:
-    xena:
+    yoga:
 - project: heat-agents
   tags:
-    xena:
+    yoga:
 - project: heat-dashboard
   tags:
-    xena:
+    yoga:
 - project: heat-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.4.0
+    yoga:
 - project: heat-translator
   tags:
-    xena:
-      source-branch: 2.4.1
+    yoga:
 - project: heatclient
   tags:
-    xena:
-      source-branch: 2.4.0
+    yoga:
 - project: horizon
   tags:
-    xena:
+    yoga:
 - project: ibmcclient
   tags:
-    xena:
+    yoga:
 - project: ironic
   tags:
-    xena:
+    yoga:
 - project: ironic-inspector
   tags:
-    xena:
+    yoga:
 - project: ironic-inspector-client
   tags:
-    xena:
-      source-branch: 4.6.0
+    yoga:
 - project: ironic-lib
   tags:
-    xena:
-      source-branch: 5.0.0
+    yoga:
 - project: ironic-prometheus-exporter
   tags:
-    xena:
+    yoga:
 - project: ironic-python-agent
   tags:
-    xena:
+    yoga:
 - project: ironic-python-agent-builder
   tags:
-    xena:
+    yoga:
 - project: ironic-staging-drivers
   tags:
-    xena:
+    yoga:
 - project: ironic-tempest-plugin
   tags:
-    xena:
-      source-branch: 2.3.1
+    yoga:
 - project: ironic-ui
   tags:
-    xena:
+    yoga:
 - project: ironicclient
   tags:
-    xena:
-      source-branch: 4.8.0
+    yoga:
 - project: keystone
   tags:
-    xena:
+    yoga:
 - project: keystone-tempest-plugin
   tags:
-    xena:
-      source-branch: 0.8.0
+    yoga:
 - project: keystoneauth1
   tags:
-    xena:
-      source-branch: 4.4.0
+    yoga:
 - project: keystoneclient
   tags:
-    xena:
-      source-branch: 4.3.0
+    yoga:
 - project: keystonemiddleware
   tags:
-    xena:
-      source-branch: 9.3.0
+    yoga:
 - project: kolla
   tags:
-    xena:
+    yoga:
 - project: kuryr
   tags:
-    xena:
+    yoga:
 - project: kuryr-kubernetes
   tags:
-    xena:
+    yoga:
 - project: kuryr-tempest-plugin
   tags:
-    xena:
-      source-branch: 0.11.0
+    yoga:
 - project: magnum
   tags:
-    xena:
+    yoga:
 - project: magnum-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.5.0
+    yoga:
 - project: magnum-ui
   tags:
-    xena:
+    yoga:
 - project: magnumclient
   tags:
-    xena:
-      source-branch: 3.5.0
+    yoga:
 - project: manila
   tags:
-    xena:
+    yoga:
 - project: manila-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.6.0
+    yoga:
 - project: manila-ui
   tags:
-    xena:
+    yoga:
 - project: manilaclient
   tags:
-    xena:
-      source-branch: 3.0.0
+    yoga:
 - project: metalsmith
   tags:
-    xena:
-      source-branch: 1.5.1
+    yoga:
 - project: microversion-parse
   tags:
-    xena:
-      source-branch: 1.0.1
+    yoga:
 - project: mistral
   tags:
-    xena:
+    yoga:
 - project: mistral-dashboard
   tags:
-    xena:
+    yoga:
 - project: mistral-extra
   tags:
-    xena:
+    yoga:
 - project: mistral-lib
   tags:
-    xena:
-      source-branch: 2.5.0
+    yoga:
 - project: mistral-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.3.0
+    yoga:
 - project: mistralclient
   tags:
-    xena:
-      source-branch: 4.3.0
+    yoga:
 - project: monascaclient
   tags:
-    xena:
-      source-branch: 2.4.0
+    yoga:
 - project: mox3
   tags:
-    xena:
+    yoga:
       source-branch: 1.1.0
 - project: murano
   tags:
-    xena:
+    yoga:
 - project: murano-agent
   tags:
-    xena:
+    yoga:
 - project: murano-dashboard
   tags:
-    xena:
+    yoga:
 - project: murano-tempest-plugin
   tags:
-    xena:
-      source-branch: 2.3.1
+    yoga:
 - project: muranoclient
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: networking-ansible
   tags:
-    xena:
+    yoga:
 - project: networking-arista
   tags:
-    xena:
+    yoga:
 - project: networking-bagpipe
   tags:
-    xena:
+    yoga:
 - project: networking-baremetal
   tags:
-    xena:
+    yoga:
 - project: networking-bgpvpn
   tags:
-    xena:
+    yoga:
 - project: networking-bigswitch
   tags:
-    xena:
+    yoga:
 - project: networking-generic-switch
   tags:
-    xena:
+    yoga:
 - project: networking-l2gw
   tags:
-    xena:
+    yoga:
 - project: networking-l2gw-tempest-plugin
   tags:
-    xena:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
+    yoga:
 - project: networking-mlnx
   tags:
-    xena:
+    yoga:
 - project: networking-odl
   tags:
-    xena:
+    yoga:
 - project: networking-omnipath
   tags:
-    xena:
+    yoga:
 - project: networking-sfc
   tags:
-    xena:
+    yoga:
 - project: neutron
   tags:
-    xena:
+    yoga:
 - project: neutron-dynamic-routing
   tags:
-    xena:
+    yoga:
 - project: neutron-lib
   tags:
-    xena:
-      source-branch: 2.15.0
+    yoga:
 - project: neutron-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.7.0
+    yoga:
 - project: neutron-vpnaas
   tags:
-    xena:
+    yoga:
 - project: neutronclient
   tags:
-    xena:
-      source-branch: 7.6.0
+    yoga:
 - project: nova
   tags:
-    xena:
+    yoga:
 - project: novaclient
   tags:
-    xena:
-      source-branch: 17.6.0
+    yoga:
 - project: novajoin
   tags:
-    xena:
+    yoga:
 - project: novajoin-tempest-plugin
   tags:
-    xena:
-      source-branch: 0.0.3
+    yoga:
 - project: octavia
   tags:
-    xena:
+    yoga:
 - project: octavia-dashboard
   tags:
-    xena:
+    yoga:
 - project: octavia-lib
   tags:
-    xena:
-      source-branch: 2.4.1
+    yoga:
 - project: octavia-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.8.1
+    yoga:
 - project: octaviaclient
   tags:
-    xena:
-      source-branch: 2.4.0
+    yoga:
 - project: openstack-macros
   tags:
-    xena:
+    yoga:
 - project: openstack-selinux
   tags:
-    xena:
+    yoga:
 - project: openstackclient
   tags:
-    xena:
-      source-branch: 5.6.0
+    yoga:
 - project: openstacksdk
   tags:
-    xena:
-      source-branch: 0.59.0
+    yoga:
 - project: os-apply-config
   tags:
-    xena:
+    yoga:
 - project: os-brick
   tags:
-    xena:
-      source-branch: 5.0.1
+    yoga:
 - project: os-client-config
   tags:
-    xena:
-      source-branch: 2.1.0
+    yoga:
 - project: os-collect-config
   tags:
-    xena:
+    yoga:
 - project: os-faults
   tags:
-    xena:
+    yoga:
 - project: os-ken
   tags:
-    xena:
-      source-branch: 2.1.0
+    yoga:
 - project: os-net-config
   tags:
-    xena:
+    yoga:
 - project: os-refresh-config
   tags:
-    xena:
+    yoga:
 - project: os-resource-classes
   tags:
-    xena:
-      source-branch: 1.1.0
+    yoga:
 - project: os-service-types
   tags:
-    xena:
-      source-branch: 1.7.0
+    yoga:
 - project: os-testr
   tags:
-    xena:
-      source-branch: 2.0.1
+    yoga:
 - project: os-traits
   tags:
-    xena:
-      source-branch: 2.6.0
+    yoga:
 - project: os-vif
   tags:
-    xena:
-      source-branch: 2.6.0
+    yoga:
 - project: os-win
   tags:
-    xena:
-      source-branch: 5.5.0
-- project: os-xenapi
+    yoga:
+- project: os-yogapi
   tags:
-    xena:
-      source-branch: 0.3.4
+    yoga:
 - project: osc-lib
   tags:
-    xena:
-      source-branch: 2.4.2
+    yoga:
 - project: osc-placement
   tags:
-    xena:
-      source-branch: 3.1.1
+    yoga:
 - project: oslo-cache
   tags:
-    xena:
-      source-branch: 2.8.1
+    yoga:
 - project: oslo-concurrency
   tags:
-    xena:
-      source-branch: 4.4.1
+    yoga:
 - project: oslo-config
   tags:
-    xena:
-      source-branch: 8.7.1
+    yoga:
 - project: oslo-context
   tags:
-    xena:
-      source-branch: 3.3.1
+    yoga:
 - project: oslo-db
   tags:
-    xena:
-      source-branch: 11.0.0
+    yoga:
 - project: oslo-i18n
   tags:
-    xena:
-      source-branch: 5.1.0
+    yoga:
 - project: oslo-limit
   tags:
-    xena:
-      source-branch: 1.4.0
+    yoga:
 - project: oslo-log
   tags:
-    xena:
-      source-branch: 4.6.0
+    yoga:
 - project: oslo-messaging
   tags:
-    xena:
-      source-branch: 12.9.1
+    yoga:
 - project: oslo-metrics
   tags:
-    xena:
-      source-branch: 0.3.0
+    yoga:
 - project: oslo-middleware
   tags:
-    xena:
-      source-branch: 4.4.0
+    yoga:
 - project: oslo-policy
   tags:
-    xena:
-      source-branch: 3.8.2
+    yoga:
 - project: oslo-privsep
   tags:
-    xena:
-      source-branch: 2.6.2
+    yoga:
 - project: oslo-reports
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: oslo-rootwrap
   tags:
-    xena:
-      source-branch: 6.3.0
+    yoga:
 - project: oslo-serialization
   tags:
-    xena:
-      source-branch: 4.2.0
+    yoga:
 - project: oslo-service
   tags:
-    xena:
-      source-branch: 2.6.0
+    yoga:
 - project: oslo-sphinx
   tags:
-    xena:
+    yoga:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    xena:
-      source-branch: 1.4.0
+    yoga:
 - project: oslo-utils
   tags:
-    xena:
-      source-branch: 4.10.0
+    yoga:
 - project: oslo-versionedobjects
   tags:
-    xena:
-      source-branch: 2.5.0
+    yoga:
 - project: oslo-vmware
   tags:
-    xena:
-      source-branch: 3.9.1
+    yoga:
 - project: oslotest
   tags:
-    xena:
-      source-branch: 4.5.0
+    yoga:
 - project: osprofiler
   tags:
-    xena:
-      source-branch: 3.4.2
+    yoga:
 - project: oswin-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.3.0
+    yoga:
 - project: ovn-octavia-provider
   tags:
-    xena:
+    yoga:
 - project: ovsdbapp
   tags:
-    xena:
-      source-branch: 1.12.0
+    yoga:
 - project: packstack
   tags:
-    xena:
+    yoga:
 - project: patrole
   tags:
-    xena:
-      source-branch: 0.12.0
+    yoga:
 - project: placement
   tags:
-    xena:
+    yoga:
 - project: proliantutils
   tags:
-    xena:
-      source-branch: 2.9.4
+    yoga:
 - project: puppet-aodh
   tags:
-    xena:
+    yoga:
 - project: puppet-apache
   tags:
-    xena:
-      source-branch: e4a1532b26e57917ea8307f3e0edd0c59a56d410
+    yoga:
+      source-branch: main
 - project: puppet-archive
   tags:
-    xena:
-      source-branch: 2f4cb0fb9e557da6e0e63d631045d2d4c8fec730
+    yoga:
 - project: puppet-auditd
   tags:
-    xena:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
+    yoga:
 - project: puppet-barbican
   tags:
-    xena:
+    yoga:
 - project: puppet-cassandra
   tags:
-    xena:
-      source-branch: 39d88160c7d569b1a78c358c0b6ac2ee32864da3
+    yoga:
 - project: puppet-ceilometer
   tags:
-    xena:
+    yoga:
 - project: puppet-ceph
   tags:
-    xena:
+    yoga:
 - project: puppet-certmonger
   tags:
-    xena:
-      source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
+    yoga:
 - project: puppet-cinder
   tags:
-    xena:
+    yoga:
 - project: puppet-collectd
   tags:
-    xena:
-      source-branch: acd970c429ebbdc0d3e2e11c7c66979eae63d3c6
+    yoga:
 - project: puppet-concat
   tags:
-    xena:
-      source-branch: 5b86b60b4b3790a035cec11cb5052a15ea15a94d
+    yoga:
+      source-branch: main
 - project: puppet-contrail
   tags:
-    xena:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
+    yoga:
 - project: puppet-corosync
   tags:
-    xena:
-      source-branch: cd23c0ad7f3f18d981e33a936cc271dc11169684
+    yoga:
 - project: puppet-datacat
   tags:
-    xena:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+    yoga:
 - project: puppet-designate
   tags:
-    xena:
+    yoga:
 - project: puppet-dns
   tags:
-    xena:
-      source-branch: e2cfa2d091a1fb7a239bfd4ed41fed241a4fe90d
+    yoga:
 - project: puppet-ec2api
   tags:
-    xena:
+    yoga:
 - project: puppet-elasticsearch
   tags:
-    xena:
-      source-branch: a46f52e9b1ea8f2f62d61d8084d025e5fc90dd31
+    yoga:
 - project: puppet-etcd
   tags:
-    xena:
-      source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
+    yoga:
 - project: puppet-fdio
   tags:
-    xena:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
+    yoga:
 - project: puppet-firewall
   tags:
-    xena:
-      source-branch: 760196f4d46bc74837b95c452ca1c67c6305b9f5
+    yoga:
+      source-branch: main
 - project: puppet-fluentd
   tags:
-    xena:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
+    yoga:
 - project: puppet-git
   tags:
-    xena:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    yoga:
 - project: puppet-glance
   tags:
-    xena:
+    yoga:
 - project: puppet-gnocchi
   tags:
-    xena:
+    yoga:
 - project: puppet-haproxy
   tags:
-    xena:
-      source-branch: ad776e4047370c93b978d7ec6f539e1cbb73961d
+    yoga:
+      source-branch: main
 - project: puppet-heat
   tags:
-    xena:
+    yoga:
 - project: puppet-horizon
   tags:
-    xena:
+    yoga:
 - project: puppet-inifile
   tags:
-    xena:
-      source-branch: 76f036d5187731b8dbe9f0cda710fd4f2278e28b
+    yoga:
+      source-branch: main
 - project: puppet-ipaclient
   tags:
-    xena:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
+    yoga:
 - project: puppet-ironic
   tags:
-    xena:
+    yoga:
 - project: puppet-java
   tags:
-    xena:
-      source-branch: ae3e12ed5eb6e5b56eae28b7377f107eac22cea6
+    yoga:
+      source-branch: main
 - project: puppet-kafka
   tags:
-    xena:
-      source-branch: f8142612f690fa29e0ca3af412fde7886fe4b8c4
+    yoga:
 - project: puppet-keepalived
   tags:
-    xena:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    yoga:
 - project: puppet-keystone
   tags:
-    xena:
+    yoga:
 - project: puppet-kibana3
   tags:
-    xena:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    yoga:
 - project: puppet-kmod
   tags:
-    xena:
-      source-branch: c3d90861081864c2e7d4a53d474a605e6f2ac70d
+    yoga:
 - project: puppet-lib-file_concat
   tags:
-    xena:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    yoga:
 - project: puppet-magnum
   tags:
-    xena:
+    yoga:
 - project: puppet-manila
   tags:
-    xena:
+    yoga:
 - project: puppet-memcached
   tags:
-    xena:
-      source-branch: d1d88b02a610d8578cdb7a3d352f4ba7b850a23f
+    yoga:
 - project: puppet-midonet
   tags:
-    xena:
+    yoga:
 - project: puppet-mistral
   tags:
-    xena:
+    yoga:
 - project: puppet-module-data
   tags:
-    xena:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    yoga:
 - project: puppet-mongodb
   tags:
-    xena:
-      source-branch: 0190f9d3c131bf0e7b066ffe3c7db7374c96d88f
+    yoga:
 - project: puppet-murano
   tags:
-    xena:
+    yoga:
 - project: puppet-mysql
   tags:
-    xena:
-      source-branch: 857e1f0b0961756fabfa44bcb58a46bc8a38fde1
+    yoga:
+      source-branch: main
 - project: puppet-n1k-vsm
   tags:
-    xena:
+    yoga:
 - project: puppet-neutron
   tags:
-    xena:
+    yoga:
 - project: puppet-nova
   tags:
-    xena:
+    yoga:
 - project: puppet-nssdb
   tags:
-    xena:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    yoga:
 - project: puppet-octavia
   tags:
-    xena:
+    yoga:
 - project: puppet-openstack_extras
   tags:
-    xena:
+    yoga:
 - project: puppet-openstacklib
   tags:
-    xena:
+    yoga:
 - project: puppet-oslo
   tags:
-    xena:
+    yoga:
 - project: puppet-ovn
   tags:
-    xena:
+    yoga:
 - project: puppet-pacemaker
   tags:
-    xena:
+    yoga:
 - project: puppet-placement
   tags:
-    xena:
+    yoga:
 - project: puppet-powerdns
   tags:
-    xena:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
+    yoga:
 - project: puppet-qdr
   tags:
-    xena:
+    yoga:
 - project: puppet-rabbitmq
   tags:
-    xena:
-      source-branch: f69bfa0019c2a31700f691f30025a3feb74cb537
+    yoga:
 - project: puppet-redis
   tags:
-    xena:
-      source-branch: 8990a32eb29fd6eddf3744f040acd9ba59f7d578
+    yoga:
 - project: puppet-remote
   tags:
-    xena:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    yoga:
 - project: puppet-rsync
   tags:
-    xena:
-      source-branch: ea6397ef55273b7e20d8eccece493cceb795f5eb
+    yoga:
+      source-branch: main
 - project: puppet-rsyslog
   tags:
-    xena:
-      source-branch: 2ae3c6419d89057511d9da603b48f45b4c327ea2
+    # NOTE(aschultz): rsyslog broke backwards compatibility with
+    # # https://github.com/voxpupuli/puppet-rsyslog/pull/136
+    yoga:
+      source-branch: 2548a0d95c1549b506b7bb2314dd149b028fc04b
 - project: puppet-sahara
   tags:
-    xena:
+    yoga:
 - project: puppet-sensu
   tags:
-    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
-    # clients to Go language, which we don't provide and will not provide in future,
-    # because Sensu is being deprecated.
-    xena:
-      source-branch: c7707642a0e2e0c7f7a64d1765c1b0160768737f
+    yoga:
 - project: puppet-snmp
   tags:
-    xena:
-      source-branch: 7116b196da1e0dc7a6ae5313489e7d59b671d4e4
+    yoga:
 - project: puppet-ssh
   tags:
-    xena:
-      source-branch: b84d4dcea802ce0a12e7d1d96bd71e993cd579bd
+    yoga:
 - project: puppet-staging
   tags:
-    xena:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    yoga:
 - project: puppet-stdlib
   tags:
-    xena:
-      source-branch: 21132c835ae7dad55759389ad5b6e96efe4f292e
+    yoga:
+      source-branch: main
 - project: puppet-swift
   tags:
-    xena:
+    yoga:
 - project: puppet-sysctl
   tags:
-    xena:
-      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
+    yoga:
 - project: puppet-systemd
   tags:
-    xena:
-      source-branch: 65af359246f2ae2dae277797a0133f49ba7979aa
+    yoga:
 - project: puppet-tacker
   tags:
-    xena:
+    yoga:
 - project: puppet-tempest
   tags:
-    xena:
+    yoga:
 - project: puppet-timezone
   tags:
-    xena:
-      source-branch: 16fc3aff6a15573bedf49ee127cde406103a54a0
+    yoga:
 - project: puppet-tomcat
   tags:
-    xena:
-      source-branch: 67c3ad8d34ecd3187f763cd17d5166ab0c2e04ca
+    yoga:
+      source-branch: main
 - project: puppet-tripleo
   tags:
-    xena:
+    yoga:
 - project: puppet-trove
   tags:
-    xena:
+    yoga:
 - project: puppet-uchiwa
   tags:
-    xena:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
+    yoga:
 - project: puppet-vcsrepo
   tags:
-    xena:
-      source-branch: c5d736ccbaa1d65f2d5fbf7d22aa414fdcfa05a7
+    yoga:
+      source-branch: main
 - project: puppet-veritas_hyperscale
   tags:
-    xena:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
+    yoga:
 - project: puppet-vitrage
   tags:
-    xena:
+    yoga:
 - project: puppet-vlan
   tags:
-    xena:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    yoga:
 - project: puppet-vswitch
   tags:
-    xena:
+    yoga:
 - project: puppet-watcher
   tags:
-    xena:
+    yoga:
 - project: puppet-xinetd
   tags:
-    xena:
-      source-branch: e742608dccdf42236144acf9f05e483b47c576f1
+    yoga:
 - project: puppet-zaqar
   tags:
-    xena:
+    yoga:
 - project: puppet-zookeeper
   tags:
-    xena:
-      source-branch: 76fc0b0a53a3a83f3322ee81fc01661e375c4d4e
+    yoga:
 - project: pycadf
   tags:
-    xena:
-      source-branch: 3.1.1
+    yoga:
 - project: rally
   tags:
-    xena:
+    yoga:
 - project: rally-openstack
   tags:
-    xena:
+    yoga:
 - project: reno
   tags:
-    xena:
-      source-branch: 3.4.0
+    yoga:
 - project: requestsexceptions
   tags:
-    xena:
-      source-branch: 1.4.0
+    yoga:
 - project: rsd-lib
   tags:
-    xena:
-      source-branch: 1.2.0
+    yoga:
 - project: rsdclient
   tags:
-    xena:
-      source-branch: 1.0.2
+    yoga:
 - project: sahara
   tags:
-    xena:
+    yoga:
 - project: sahara-dashboard
   tags:
-    xena:
+    yoga:
 - project: sahara-image-elements
   tags:
-    xena:
+    yoga:
 - project: sahara-plugin-ambari
   tags:
-    xena:
+    yoga:
 - project: sahara-plugin-cdh
   tags:
-    xena:
+    yoga:
 - project: sahara-plugin-mapr
   tags:
-    xena:
+    yoga:
 - project: sahara-plugin-spark
   tags:
-    xena:
+    yoga:
 - project: sahara-plugin-storm
   tags:
-    xena:
+    yoga:
 - project: sahara-plugin-vanilla
   tags:
-    xena:
+    yoga:
 - project: sahara-tests
   tags:
-    xena:
-      source-branch: 0.14.0
+    yoga:
 - project: saharaclient
   tags:
-    xena:
-      source-branch: 3.4.0
+    yoga:
 - project: scciclient
   tags:
-    xena:
+    yoga:
 - project: senlin
   tags:
-    xena:
+    yoga:
 - project: senlinclient
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: shade
   tags:
-    xena:
-      source-branch: 1.33.0
+    yoga:
 - project: sphinx-feature-classification
   tags:
-    xena:
-      source-branch: 1.1.0
+    yoga:
 - project: stackviz
   tags:
-    xena:
+    yoga:
 - project: stevedore
   tags:
-    xena:
-      source-branch: 3.4.0
+    yoga:
 - project: sushy
   tags:
-    xena:
-      source-branch: 3.12.0
+    yoga:
 - project: sushy-oem-idrac
   tags:
-    xena:
+    yoga:
 - project: sushy-tools
   tags:
-    xena:
+    yoga:
 - project: swift
   tags:
-    xena:
+    yoga:
 - project: swiftclient
   tags:
-    xena:
-      source-branch: 3.12.0
+    yoga:
 - project: tacker
   tags:
-    xena:
+    yoga:
 - project: tackerclient
   tags:
-    xena:
-      source-branch: 1.8.0
+    yoga:
 - project: tap-as-a-service
   tags:
-    xena:
+    yoga:
 - project: taskflow
   tags:
-    xena:
-      source-branch: 4.6.2
+    yoga:
 - project: telemetry-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.5.0
+    yoga:
 - project: tempest
   tags:
-    xena:
-      source-branch: 29.0.0
+    yoga:
 - project: tempestconf
   tags:
-    xena:
+    yoga:
 - project: tobiko
   tags:
-    xena:
+    yoga:
 - project: tooz
   tags:
-    xena:
-      source-branch: 2.9.0
+    yoga:
 - project: tripleo-ansible
   tags:
-    xena:
+    yoga:
 - project: tripleo-common
   tags:
-    xena:
+    yoga:
 - project: tripleo-heat-templates
   tags:
-    xena:
+    yoga:
 - project: tripleo-image-elements
   tags:
-    xena:
+    yoga:
 - project: tripleo-ipa
   tags:
-    xena:
+    yoga:
 - project: tripleo-ipsec
   tags:
-    xena:
+    yoga:
 - project: tripleo-operator-ansible
   tags:
-    xena:
+    yoga:
 - project: tripleo-powerflex
   tags:
-    xena:
+    yoga:
 - project: tripleo-puppet-elements
   tags:
-    xena:
+    yoga:
 - project: tripleo-repos
   tags:
-    xena:
+    yoga:
 - project: tripleo-validations
   tags:
-    xena:
+    yoga:
 - project: tripleoclient
   tags:
-    xena:
+    yoga:
 - project: trove
   tags:
-    xena:
+    yoga:
 - project: trove-dashboard
   tags:
-    xena:
+    yoga:
 - project: trove-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.3.0
+    yoga:
 - project: troveclient
   tags:
-    xena:
-      source-branch: 7.1.1
+    yoga:
 - project: validations-common
   tags:
-    xena:
+    yoga:
 - project: validations-libs
   tags:
-    xena:
+    yoga:
 - project: virtualbmc
   tags:
-    xena:
-      source-branch: 2.2.1
+    yoga:
 - project: vitrage
   tags:
-    xena:
+    yoga:
 - project: vitrage-dashboard
   tags:
-    xena:
-      source-branch: 3.0.0
+    yoga:
 - project: vitrage-tempest-plugin
   tags:
-    xena:
-      source-branch: 5.4.0
+    yoga:
 - project: vitrageclient
   tags:
-    xena:
-      source-branch: 4.4.0
+    yoga:
 - project: vmware-nsx
   tags:
-    xena:
+    yoga:
 - project: vmware-nsx-tempest-plugin
   tags:
-    xena:
-      source-branch: 2.0.0.0
+    yoga:
 - project: vmware-nsxlib
   tags:
-    xena:
+    yoga:
 - project: watcher
   tags:
-    xena:
+    yoga:
 - project: watcher-tempest-plugin
   tags:
-    xena:
-      source-branch: 2.3.0
+    yoga:
 - project: wsme
   tags:
-    xena:
-      source-branch: 0.10.1
+    yoga:
 - project: zaqar
   tags:
-    xena:
+    yoga:
 - project: zaqar-tempest-plugin
   tags:
-    xena:
-      source-branch: 1.3.1
+    yoga:
 - project: zaqarclient
   tags:
-    xena:
-      source-branch: 2.2.0
+    yoga:
