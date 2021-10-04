@@ -158,6 +158,10 @@ packages:
 - project: glance
   tags:
     yoga-uc:
+- project: glance-tempest-plugin
+  tags:
+    yoga-uc:
+      source-branch: 0.2.0
 - project: glance_store
   tags:
     yoga-uc:

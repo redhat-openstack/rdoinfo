@@ -158,6 +158,10 @@ packages:
 - project: glance
   tags:
     wallaby:
+- project: glance-tempest-plugin
+  tags:
+    wallaby:
+      source-branch: 0.1.0
 - project: glance_store
   tags:
     wallaby:
