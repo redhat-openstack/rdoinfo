@@ -158,6 +158,10 @@ packages:
 - project: glance
   tags:
     xena:
+- project: glance-tempest-plugin
+  tags:
+    xena:
+      source-branch: 0.2.0
 - project: glance_store
   tags:
     xena:
