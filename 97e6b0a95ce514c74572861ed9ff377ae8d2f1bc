@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "aac0a621_1b009286",
+        "filename": "tags/wallaby.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-10-05T07:00:03Z",
+      "side": 1,
+      "message": "i see for wallaby 0.1.0 was released so good to start with that https://github.com/openstack/releases/blob/master/deliverables/wallaby/glance-tempest-plugin.yaml\n  so add    source-branch: 0.1.0",
+      "revId": "97e6b0a95ce514c74572861ed9ff377ae8d2f1bc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5026d62_9d7b26e0",
+        "filename": "tags/xena.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-10-05T07:00:03Z",
+      "side": 1,
+      "message": "for xena 0.2.0 https://github.com/openstack/releases/blob/master/deliverables/xena/glance-tempest-plugin.yaml#L12 so add       source-branch: 0.2.0",
+      "revId": "97e6b0a95ce514c74572861ed9ff377ae8d2f1bc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce2bcdba_b702bdae",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-10-05T07:00:03Z",
+      "side": 1,
+      "message": "pin to xena one itself as other tempest plugins are pinned, add source-branch: 0.2.0",
+      "revId": "97e6b0a95ce514c74572861ed9ff377ae8d2f1bc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
