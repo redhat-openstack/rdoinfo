@@ -1600,7 +1600,6 @@ packages:
 - project: pycryptopp
   name: pycrytopp
   conf: fedora-dependency
-# Temporary until CentOS is updated to 7.5
 - project: python-backports-ssl_match_hostname
   name: python-backports-ssl_match_hostname
   conf: rdo-dependency
@@ -1719,14 +1718,12 @@ packages:
 - project: python-octavia-tests-golang
   name: python-octavia-tests-golang
   conf: rdo-dependency
-# Build dependencies for galera
 - project: scons
   name: scons
   conf: fedora-dependency
 - project: asio
   name: asio
   conf: fedora-dependency
-# Build dependencies for MariaDB
 - project: Judy
   name: Judy
   conf: fedora-dependency
@@ -2775,3 +2772,93 @@ packages:
 - project: openstack-network-scripts
   name: openstack-network-scripts
   conf: rdo-dependency
+- project: python-confget
+  name: python-confget
+  conf: fedora-dependency
+- project: python-ntc-templates
+  name: python-ntc-templates
+  conf: fedora-dependency
+- project: python-moto
+  name: python-moto
+  conf: fedora-dependency
+- project: python-types-paramiko
+  name: python-types-paramiko
+  conf: fedora-dependency
+- project: python-pyOpenSSL
+  name: python-pyOpenSSL
+  conf: fedora-dependency
+- project: python-thrift
+  name: python-thrift
+  conf: fedora-dependency
+- project: python-pyroute2-nftables
+  name: python-pyroute2-nftables
+  conf: fedora-dependency
+- project: python-arrow
+  name: python-arrow
+  conf: fedora-dependency
+- project: python-pyroute2-ethtool
+  name: python-pyroute2-ethtool
+  conf: fedora-dependency
+- project: python-storpool
+  name: python-storpool
+  conf: fedora-dependency
+- project: python-google-api-client
+  name: python-google-api-client
+  conf: fedora-dependency
+- project: python-threadpoolctl
+  name: python-threadpoolctl
+  conf: fedora-dependency
+- project: python-platformdirs
+  name: python-platformdirs
+  conf: fedora-dependency
+- project: python-elementpath
+  name: python-elementpath
+  conf: fedora-dependency
+- project: python-typepy
+  name: python-typepy
+  conf: fedora-dependency
+- project: python-salt
+  name: python-salt
+  conf: fedora-dependency
+- project: python-pyroute2-nslink
+  name: python-pyroute2-nslink
+  conf: fedora-dependency
+- project: python-pyroute2-ndb
+  name: python-pyroute2-ndb
+  conf: fedora-dependency
+- project: python-mbstrdecoder
+  name: python-mbstrdecoder
+  conf: fedora-dependency
+- project: python-hvac
+  name: python-hvac
+  conf: fedora-dependency
+- project: python-pyroute2-core
+  name: python-pyroute2-core
+  conf: fedora-dependency
+- project: python-pyroute2-ipdb
+  name: python-pyroute2-ipdb
+  conf: fedora-dependency
+- project: python-jaeger-client
+  name: python-jaeger-client
+  conf: fedora-dependency
+- project: python-pyroute2-ipset
+  name: python-pyroute2-ipset
+  conf: fedora-dependency
+- project: python-xmlschema
+  name: python-xmlschema
+  conf: fedora-dependency
+- project: python-anyio
+  name: python-anyio
+  conf: fedora-dependency
+- project: python-storpool-spopenstack
+  name: python-storpool-spopenstack
+  conf: fedora-dependency
+- project: python-charset-normalizer
+  name: python-charset-normalizer
+  conf: fedora-dependency
+- project: python-linstor
+  name: python-linstor
+  conf: fedora-dependency
+- project: python-pytz
+  name: python-pytz
+  conf: fedora-dependency
