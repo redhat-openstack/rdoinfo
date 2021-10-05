@@ -22,6 +22,27 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/HighAvailability/x86_64/os/
     - name: CentOS Stream 8 PowerTools
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
+  - name: el9s
+    buildsys: cbs/cloud9s-openstack-yoga-el9s
+    buildsys-tags:
+    - cloud9s-openstack-yoga-el9s-build
+    - cloud9s-openstack-yoga-candidate
+    - cloud9s-openstack-yoga-testing
+    distrepos:
+    - name: RDO Yoga el9s
+      url: http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-yoga/
+    - name: CentOS Stream 9 BaseOS
+      url: http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/
+    - name: CentOS Stream 9 AppStream
+      url: http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/
+    - name: CentOS Stream 9 HighAvailability
+      url: http://mirror.stream.centos.org/9-stream/HighAvailability/x86_64/os/
+    - name: CentOS Stream 9 CRB
+      url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
+- name: xena
+  branch: rpm-master
+  tags_map: separated_buildreqs
+  repos:
   - name: el8s
     buildsys: cbs/cloud8s-openstack-xena-el8
     buildsys-tags:
