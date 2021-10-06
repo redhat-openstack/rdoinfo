@@ -12,7 +12,9 @@ package-configs:
     tags:
       dependency:
     maintainers:
-    - nobody@rdoproject.org
+    - amoralej@redhat.com
+    - jcapitao@redhat.com
+    - ykarel@redhat.com
   rdo-dependency:
     # This is the conf for dependencies in rdo-common not being entirely managed
     # in review.r.o but using cbs-tags for automatic tagging
@@ -26,7 +28,9 @@ package-configs:
     tags:
       dependency:
     maintainers:
-    - nobody@rdoproject.org
+    - amoralej@redhat.com
+    - jcapitao@redhat.com
+    - ykarel@redhat.com
 packages:
 - project: python-sphinx
   name: python-sphinx
