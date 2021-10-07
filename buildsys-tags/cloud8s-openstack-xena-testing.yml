@@ -26,6 +26,9 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-collection-containers-podman-1.6.1-1.el8
+- project: ansible-core
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-core-2.11.5-3.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-freeipa-0.3.1-1.el8
@@ -812,6 +815,9 @@ packages:
 - project: python-redis
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-redis-3.5.3-1.el8
+- project: python-resolvelib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-resolvelib-0.5.5-3.el8
 - project: python-repoze-lru
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-repoze-lru-0.7-6.el8
