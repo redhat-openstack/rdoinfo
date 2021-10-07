@@ -38,6 +38,9 @@ packages:
 - project: cpp-hocon
   buildsys-tags:
     cloud9s-openstack-xena-testing: cpp-hocon-0.3.0-4.el9s
+- project: cppunit
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: cppunit-1.15.1-5.el9s
 - project: crudini
   buildsys-tags:
     cloud9s-openstack-xena-testing: crudini-0.9.3-4.el9s
@@ -89,6 +92,9 @@ packages:
 - project: hiera
   buildsys-tags:
     cloud9s-openstack-xena-testing: hiera-3.7.0-2.el9s
+- project: jsoncpp
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: jsoncpp-1.9.4-4.el9s
 - project: leatherman
   buildsys-tags:
     cloud9s-openstack-xena-testing: leatherman-1.12.6-3.el9s
@@ -497,6 +503,9 @@ packages:
 - project: python-httpcore
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-httpcore-0.12.3-1.el9s
+- project: python-httplib2
+  buildsys-tags:
+    cloud9s-openstack-xena-testing: python-httplib2-0.19.1-4.el9s
 - project: python-httpx
   buildsys-tags:
     cloud9s-openstack-xena-testing: python-httpx-0.17.1-1.el9s
