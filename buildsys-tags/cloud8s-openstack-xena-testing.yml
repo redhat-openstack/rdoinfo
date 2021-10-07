@@ -29,6 +29,24 @@ packages:
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-freeipa-0.3.1-1.el8
+- project: aodh
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-aodh-13.0.0-1.el8
+- project: aodhclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-aodhclient-2.3.0-1.el8
+- project: automaton
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-automaton-2.4.0-1.el8
+- project: barbican
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-barbican-13.0.0-1.el8
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-barbican-tests-tempest-1.5.0-1.el8
+- project: barbicanclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-barbicanclient-5.2.0-1.el8
 - project: blosc
   buildsys-tags:
     cloud8s-openstack-xena-testing: blosc-1.20.1-1.el8
@@ -38,9 +56,42 @@ packages:
 - project: bridge-utils
   buildsys-tags:
     cloud8s-openstack-xena-testing: bridge-utils-1.6-4.el8
+- project: castellan
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-castellan-3.9.1-1.el8
+- project: ceilometer
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ceilometer-17.0.0-1.el8
+- project: ceilometerclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ceilometerclient-2.9.0-1.el8
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ceilometermiddleware-2.3.0-1.el8
+- project: cinder
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-cinder-19.0.0-1.el8
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-cinder-tests-tempest-1.5.0-1.el8
+- project: cinderclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-cinderclient-8.1.0-1.el8
 - project: ck
   buildsys-tags:
     cloud8s-openstack-xena-testing: ck-0.6.0-10.el8
+- project: cliff
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-cliff-3.9.0-1.el8
+- project: cloudkitty
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-cloudkitty-15.0.0-1.el8
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-cloudkitty-ui-13.0.0-1.el8
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-cloudkittyclient-4.3.0-1.el8
 - project: coin-or-Cbc
   buildsys-tags:
     cloud8s-openstack-xena-testing: coin-or-Cbc-2.10.3-2.el8
@@ -59,21 +110,57 @@ packages:
 - project: coin-or-Sample
   buildsys-tags:
     cloud8s-openstack-xena-testing: coin-or-Sample-1.2.11-3.el8
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-collectd-gnocchi-1.7.1-1.el8
 - project: cpp-hocon
   buildsys-tags:
     cloud8s-openstack-xena-testing: cpp-hocon-0.3.0-4.1.el8
 - project: crudini
   buildsys-tags:
     cloud8s-openstack-xena-testing: crudini-0.9.3-1.el8
+- project: cursive
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-cursive-0.2.2-1.el8
+- project: debtcollector
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-debtcollector-2.3.0-2.el8
+- project: designate
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-designate-13.0.0-1.el8
+- project: designate-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-designate-ui-13.0.0-1.el8
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-designate-tests-tempest-0.12.0-1.el8
+- project: designateclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-designateclient-4.3.0-1.el8
+- project: dib-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: dib-utils-0.0.11-1.el8
 - project: dibbler
   buildsys-tags:
     cloud8s-openstack-xena-testing: dibbler-1.0.1-10.el8
+- project: diskimage-builder
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: diskimage-builder-3.13.0-1.el8
 - project: double-conversion
   buildsys-tags:
     cloud8s-openstack-xena-testing: double-conversion-3.1.5-4.el8
+- project: dracclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-dracclient-6.0.0-1.el8
 - project: dumb-init
   buildsys-tags:
     cloud8s-openstack-xena-testing: dumb-init-1.2.2-6.el8
+- project: ec2-api
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ec2-api-13.0.0-1.el8
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ec2api-tests-tempest-1.3.0-1.el8
 - project: environment-modules
   buildsys-tags:
     cloud8s-openstack-xena-testing: environment-modules-4.4.1-1.el8
@@ -86,12 +173,30 @@ packages:
 - project: future
   buildsys-tags:
     cloud8s-openstack-xena-testing: future-0.18.2-3.el8
+- project: futurist
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-futurist-2.4.0-1.el8
 - project: gflags
   buildsys-tags:
     cloud8s-openstack-xena-testing: gflags-2.2.2-3.el8
+- project: glance
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-glance-23.0.0-1.el8
+- project: glance_store
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-glance-store-2.7.0-1.el8
+- project: glanceclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-glanceclient-3.5.0-1.el8
+- project: glareclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-glareclient-0.5.3-1.el8
 - project: glpk
   buildsys-tags:
     cloud8s-openstack-xena-testing: glpk-4.65-4.el8
+- project: gnocchiclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-gnocchiclient-7.0.4-1.el8
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
     cloud8s-openstack-xena-testing: golang-github-vbatts-tar-split-0.11.1-2.el8
@@ -107,21 +212,105 @@ packages:
 - project: gv
   buildsys-tags:
     cloud8s-openstack-xena-testing: gv-3.7.4-21.el8
+- project: hacking
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-hacking-1.1.0-1.el8
+- project: hardware
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-hardware-0.28.0-1.el8
 - project: hdf5
   buildsys-tags:
     cloud8s-openstack-xena-testing: hdf5-1.10.5-5.el8
+- project: heat
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-heat-17.0.0-1.el8
+- project: heat-agents
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-heat-agents-3.0.0-1.el8
 - project: heat-cfntools
   buildsys-tags:
     cloud8s-openstack-xena-testing: heat-cfntools-1.4.2-11.el8
+- project: heat-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-heat-ui-6.0.0-1.el8
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-heat-tests-tempest-1.4.0-1.el8
+- project: heat-translator
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-heat-translator-2.4.1-1.el8
+- project: heatclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-heatclient-2.4.0-1.el8
 - project: hiera
   buildsys-tags:
     cloud8s-openstack-xena-testing: hiera-3.6.0-1.el8
+- project: horizon
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-django-horizon-20.1.0-1.el8
+- project: ibmcclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ibmcclient-0.2.5.1-1.el8
+- project: ironic
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ironic-18.2.0-1.el8
+- project: ironic-inspector
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ironic-inspector-10.8.0-1.el8
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ironic-inspector-client-4.6.0-1.el8
+- project: ironic-lib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ironic-lib-5.0.0-1.el8
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ironic-prometheus-exporter-3.0.0-1.el8
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ironic-python-agent-8.2.0-1.el8
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ironic-python-agent-builder-2.7.0-1.el8
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ironic-tests-tempest-2.3.1-1.el8
+- project: ironic-ui
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-ironic-ui-5.0.0-1.el8
+- project: ironicclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ironicclient-4.8.0-1.el8
 - project: jemalloc
   buildsys-tags:
     cloud8s-openstack-xena-testing: jemalloc-5.2.1-2.el8
 - project: jsoncpp
   buildsys-tags:
     cloud8s-openstack-xena-testing: jsoncpp-1.9.2-1.el8
+- project: keystone
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-keystone-20.0.0-1.el8
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-keystone-tests-tempest-0.8.0-1.el8
+- project: keystoneauth1
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-keystoneauth1-4.4.0-1.el8
+- project: keystoneclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-keystoneclient-4.3.0-1.el8
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-keystonemiddleware-9.3.0-1.el8
+- project: kuryr
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-kuryr-lib-2.4.0-1.el8
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-kuryr-kubernetes-5.0.0-1.el8
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-kuryr-tests-tempest-0.11.0-1.el8
 - project: leatherman
   buildsys-tags:
     cloud8s-openstack-xena-testing: leatherman-1.12.0-5.el8
@@ -149,30 +338,558 @@ packages:
 - project: luajit
   buildsys-tags:
     cloud8s-openstack-xena-testing: luajit-2.1.0-0.16beta3.el8
+- project: magnum
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-magnum-13.0.0-1.el8
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-magnum-tests-tempest-1.5.0-1.el8
+- project: magnum-ui
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-magnum-ui-9.0.0-1.el8
+- project: magnumclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-magnumclient-3.5.0-1.el8
+- project: manila
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-manila-13.0.0-1.el8
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-manila-tests-tempest-1.6.0-1.el8
+- project: manila-ui
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-manila-ui-6.0.0-1.el8
+- project: manilaclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-manilaclient-3.0.0-1.el8
+- project: microversion-parse
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-microversion-parse-1.0.1-1.el8
+- project: mistral
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-mistral-13.0.0-1.el8
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-mistral-ui-13.0.0-1.el8
+- project: mistral-extra
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-mistral-extra-11.1.0-1.el8
+- project: mistral-lib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-mistral-lib-2.5.0-1.el8
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-mistral-tests-tempest-1.3.0-1.el8
+- project: mistralclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-mistralclient-4.3.0-1.el8
 - project: mod_xsendfile
   buildsys-tags:
     cloud8s-openstack-xena-testing: mod_xsendfile-0.12-19.el8
+- project: monascaclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-monascaclient-2.4.0-1.el8
+- project: mox3
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-mox3-1.1.0-1.el8
 - project: mp
   buildsys-tags:
     cloud8s-openstack-xena-testing: mp-3.1.0-24.20161124git1f39801.el8
+- project: murano
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-murano-12.0.0-1.el8
+- project: murano-agent
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-murano-agent-8.0.0-1.el8
+- project: murano-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-murano-ui-12.0.0-1.el8
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-murano-tests-tempest-2.3.1-1.el8
+- project: muranoclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-muranoclient-2.3.0-1.el8
 - project: nauty
   buildsys-tags:
     cloud8s-openstack-xena-testing: nauty-2.6.12-1.el8
 - project: ndisc6
   buildsys-tags:
     cloud8s-openstack-xena-testing: ndisc6-1.0.3-9.el8
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
+- project: neutron
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-neutron-19.0.0-1.el8
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-neutron-dynamic-routing-19.0.0-1.el8
+- project: neutron-lib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-neutron-lib-2.15.0-1.el8
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-neutron-tests-tempest-1.7.0-1.el8
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-neutron-vpnaas-19.0.0-1.el8
+- project: neutronclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-neutronclient-7.6.0-1.el8
+- project: nova
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-nova-24.0.0-1.el8
+- project: novaclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-novaclient-17.6.0-1.el8
+- project: novajoin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-novajoin-1.3.0-1.el8
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-novajoin-tests-tempest-0.0.3-1.1.468b968git.el8
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-xena-testing: novnc-1.2.0-2.el8
+- project: octavia
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-octavia-9.0.0-1.el8
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-octavia-ui-8.0.0-1.el8
+- project: octavia-lib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-octavia-lib-2.4.1-1.el8
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-octavia-tests-tempest-1.8.1-1.el8
+- project: octaviaclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-octaviaclient-2.4.0-1.el8
 - project: openpgm
   buildsys-tags:
     cloud8s-openstack-xena-testing: openpgm-5.2.122-21.el8
+- project: openstack-selinux
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-selinux-0.8.27-1.el8
+- project: openstackclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-openstackclient-5.6.0-1.el8
+- project: openstacksdk
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-openstacksdk-0.59.0-1.el8
+- project: os-apply-config
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: os-apply-config-12.0.0-1.el8
+- project: os-brick
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-brick-5.0.1-1.el8
+- project: os-client-config
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-client-config-2.1.0-1.el8
+- project: os-collect-config
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: os-collect-config-12.0.0-1.el8
+- project: os-faults
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-faults-0.2.7-1.el8
+- project: os-ken
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-ken-2.1.0-1.el8
+- project: os-refresh-config
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: os-refresh-config-12.0.0-1.el8
+- project: os-resource-classes
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-resource-classes-1.1.0-1.el8
+- project: os-service-types
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-service-types-1.7.0-1.el8
+- project: os-testr
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-testr-2.0.1-1.el8
+- project: os-traits
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-traits-2.6.0-1.el8
+- project: os-vif
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-vif-2.6.0-1.el8
+- project: os-win
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-win-5.5.0-1.el8
+- project: os-xenapi
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-os-xenapi-0.3.4-1.el8
+- project: osc-lib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-osc-lib-2.4.2-1.el8
+- project: osc-placement
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-osc-placement-3.1.1-1.el8
+- project: oslo-cache
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-cache-2.8.1-1.el8
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-concurrency-4.4.1-1.el8
+- project: oslo-config
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-config-8.7.1-1.el8
+- project: oslo-context
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-context-3.3.1-1.el8
+- project: oslo-db
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-db-11.0.0-1.el8
+- project: oslo-i18n
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-i18n-5.1.0-1.el8
+- project: oslo-limit
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-limit-1.4.0-1.el8
+- project: oslo-log
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-log-4.6.0-1.el8
+- project: oslo-messaging
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-messaging-12.9.1-1.el8
+- project: oslo-metrics
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-metrics-0.3.0-1.el8
+- project: oslo-middleware
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-middleware-4.4.0-1.el8
+- project: oslo-policy
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-policy-3.8.2-1.el8
+- project: oslo-privsep
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-privsep-2.6.2-1.el8
+- project: oslo-reports
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-reports-2.3.0-1.el8
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-rootwrap-6.3.0-1.el8
+- project: oslo-serialization
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-serialization-4.2.0-1.el8
+- project: oslo-service
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-service-2.6.0-1.el8
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-sphinx-4.18.0-1.el8
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-upgradecheck-1.4.0-1.el8
+- project: oslo-utils
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-utils-4.10.0-1.el8
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-versionedobjects-2.5.0-1.el8
+- project: oslo-vmware
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslo-vmware-3.9.1-1.el8
+- project: oslotest
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oslotest-4.5.0-1.el8
+- project: osprofiler
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-osprofiler-3.4.2-1.el8
+- project: oswin-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-oswin-tests-tempest-1.3.0-1.el8
+- project: ovsdbapp
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-ovsdbapp-1.12.0-1.el8
+- project: packstack
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-packstack-19.0.0-0.1.0rc1.el8
+- project: pankoclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-pankoclient-1.2.0-1.el8
+- project: patrole
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-patrole-0.12.0-1.el8
+- project: placement
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-placement-6.0.0-1.el8
+- project: proliantutils
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-proliantutils-2.9.4-1.el8
 - project: protobuf
   buildsys-tags:
     cloud8s-openstack-xena-testing: protobuf-3.11.2-2.el8
 - project: puppet
   buildsys-tags:
     cloud8s-openstack-xena-testing: puppet-7.8.0-1.el8
+- project: puppet-aodh
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-aodh-19.4.0-1.el8
+- project: puppet-apache
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-apache-6.5.1-1.e4a1532git.el8
+- project: puppet-archive
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-archive-6.0.2-0.1.0rc0.2f4cb0fgit.el8
+- project: puppet-auditd
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-auditd-2.2.0-3.189b22bgit.el8
+- project: puppet-barbican
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-barbican-19.4.0-1.el8
+- project: puppet-cassandra
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-cassandra-3.1.1-0.3.0rc0.39d8816git.el8
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ceilometer-19.4.0-1.el8
+- project: puppet-certmonger
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-certmonger-2.7.1-1.3e2e660git.el8
+- project: puppet-cinder
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-cinder-19.4.0-1.el8
+- project: puppet-collectd
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-collectd-13.0.1-0.1.0rc0.acd970cgit.el8
+- project: puppet-concat
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-concat-7.1.1-1.5b86b60git.el8
+- project: puppet-contrail
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-contrail-1.0.0-5.6f87929git.el8
+- project: puppet-corosync
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-corosync-8.2.1-0.1.0rc0.cd23c0agit.el8
+- project: puppet-datacat
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-datacat-0.6.2-1.5cce8f2git.el8
+- project: puppet-designate
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-designate-19.4.0-1.el8
+- project: puppet-dns
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-dns-9.0.0-1.e2cfa2dgit.el8
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ec2api-19.4.0-1.el8
+- project: puppet-elasticsearch
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-elasticsearch-7.0.0-2.a46f52egit.el8
+- project: puppet-etcd
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-etcd-1.12.3-1.el8
+- project: puppet-fdio
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-fdio-18.01-3.6fd1c8egit.el8
+- project: puppet-firewall
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-firewall-3.2.0-1.760196fgit.el8
+- project: puppet-fluentd
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-fluentd-0.10.0-2.4dfc15agit.el8
+- project: puppet-git
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-git-0.5.0-1.4e4498egit.el8
+- project: puppet-glance
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-glance-19.4.0-1.el8
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-gnocchi-19.4.0-1.el8
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-haproxy-6.2.1-1.ad776e4git.el8
+- project: puppet-heat
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-heat-19.4.0-1.el8
+- project: puppet-horizon
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-horizon-19.4.0-1.el8
+- project: puppet-inifile
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-inifile-5.2.0-1.el8
+- project: puppet-ipaclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ipaclient-2.5.2-1.b086731git.el8
+- project: puppet-ironic
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ironic-19.4.0-1.el8
+- project: puppet-java
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-java-7.1.1-1.ae3e12egit.el8
+- project: puppet-kafka
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-kafka-8.0.1-0.1.0rc0.f814261git.el8
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
+- project: puppet-keystone
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-keystone-19.4.0-1.el8
+- project: puppet-kibana3
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-kibana3-0.0.4-1.6ca9631git.el8
+- project: puppet-kmod
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-kmod-3.0.1-0.1.0rc0.c3d9086git.el8
+- project: puppet-lib-file_concat
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-lib-file_concat-1.0.1-1.el8
+- project: puppet-magnum
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-magnum-19.4.0-1.el8
+- project: puppet-manila
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-manila-19.4.0-1.el8
+- project: puppet-memcached
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-memcached-7.0.0-1.d1d88b0git.el8
+- project: puppet-mistral
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-mistral-19.4.0-1.el8
+- project: puppet-module-data
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-module-data-0.5.1-1.28dafcegit.el8
+- project: puppet-mongodb
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-mongodb-4.0.1-0.1.0rc0.0190f9dgit.el8
+- project: puppet-murano
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-murano-19.4.0-1.el8
+- project: puppet-mysql
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-mysql-12.0.1-1.857e1f0git.el8
+- project: puppet-neutron
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-neutron-19.4.0-1.el8
+- project: puppet-nova
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-nova-19.4.0-1.el8
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
+- project: puppet-ntp
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ntp-4.2.0-1.el8
+- project: puppet-octavia
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-octavia-19.4.0-1.el8
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-openstack_extras-19.4.0-1.el8
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-openstacklib-19.4.0-1.el8
+- project: puppet-oslo
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-oslo-19.4.0-1.el8
+- project: puppet-ovn
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ovn-19.4.0-1.el8
+- project: puppet-placement
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-placement-6.4.0-1.el8
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
+- project: puppet-qdr
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-qdr-8.4.0-1.el8
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-rabbitmq-11.1.1-0.1.0rc0.f69bfa0git.el8
+- project: puppet-redis
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-redis-8.1.2-0.1.0rc0.8990a32git.el8
+- project: puppet-remote
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-remote-10.0.0-1.7420908git.el8
+- project: puppet-rsync
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-rsync-1.1.3-2.ebc7ecdgit.el8
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-rsyslog-5.2.1-0.1.0rc0.2ae3c64git.el8
+- project: puppet-sahara
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-sahara-19.4.0-1.el8
+- project: puppet-sensu
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-sensu-5.8.0-1.c770764git.el8
+- project: puppet-snmp
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-snmp-6.0.1-0.1.0rc0.7116b19git.el8
+- project: puppet-ssh
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-ssh-8.0.0-1.b84d4dcgit.el8
+- project: puppet-staging
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-staging-1.0.4-1.b466d93git.el8
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-stdlib-8.0.0-1.21132c8git.el8
+- project: puppet-swift
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-swift-19.4.0-1.el8
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-sysctl-0.0.12-2.847ec1cgit.el8
+- project: puppet-systemd
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-systemd-3.5.1-0.1.0rc0.65af359git.el8
+- project: puppet-tacker
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-tacker-19.4.0-1.el8
+- project: puppet-tempest
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-tempest-19.4.0-1.el8
+- project: puppet-timezone
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-timezone-6.1.0-2.16fc3afgit.el8
+- project: puppet-tomcat
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-tomcat-6.1.0-1.67c3ad8git.el8
+- project: puppet-trove
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-trove-19.4.0-1.el8
+- project: puppet-uchiwa
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-uchiwa-2.1.1-2.837c669git.el8
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-vcsrepo-5.0.0-1.c5d736cgit.el8
+- project: puppet-veritas_hyperscale
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-veritas_hyperscale-1.1.1-1.el8
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-vitrage-9.4.0-1.el8
+- project: puppet-vlan
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-vlan-0.1.0-1.el8
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-vswitch-15.4.0-1.el8
+- project: puppet-watcher
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-watcher-19.4.0-1.el8
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-xinetd-3.3.0-3.e742608git.el8
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-zaqar-19.4.0-1.el8
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: puppet-zookeeper-1.2.0-1.76fc0b0git.el8
+- project: pycadf
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-pycadf-3.1.1-2.el8
 - project: pydot
   buildsys-tags:
     cloud8s-openstack-xena-testing: pydot-1.4.1-1.el8
@@ -548,6 +1265,9 @@ packages:
 - project: python-httpcore
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-httpcore-0.12.2-1.2.el8
+- project: python-httplib2
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-httplib2-0.16.0-1.el8
 - project: python-httpx
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-httpx-0.16.1-1.1.el8
@@ -1094,9 +1814,24 @@ packages:
 - project: qpid-proton
   buildsys-tags:
     cloud8s-openstack-xena-testing: qpid-proton-0.30.0-1.el8
+- project: rally
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-rally-3.3.0-1.el8
 - project: rdo-openvswitch
   buildsys-tags:
     cloud8s-openstack-xena-testing: rdo-openvswitch-2.15-2.el8
+- project: reno
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-reno-3.4.0-1.el8
+- project: requestsexceptions
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-requestsexceptions-1.4.0-2.el8
+- project: rsd-lib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-rsd-lib-1.2.0-1.el8
+- project: rsdclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-rsdclient-1.0.2-1.el8
 - project: ruby-augeas
   buildsys-tags:
     cloud8s-openstack-xena-testing: ruby-augeas-0.5.0-23.el8
@@ -1154,30 +1889,159 @@ packages:
 - project: rubygem-yard
   buildsys-tags:
     cloud8s-openstack-xena-testing: rubygem-yard-0.9.12-8.el8
+- project: sahara
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-sahara-15.0.0-1.el8
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-sahara-ui-15.0.0-1.el8
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: sahara-image-elements-15.0.0-1.el8
+- project: sahara-plugin-ambari
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sahara-plugin-ambari-6.0.0-1.el8
+- project: sahara-plugin-cdh
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sahara-plugin-cdh-6.0.0-1.el8
+- project: sahara-plugin-mapr
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sahara-plugin-mapr-6.0.0-1.el8
+- project: sahara-plugin-spark
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sahara-plugin-spark-6.0.0-1.el8
+- project: sahara-plugin-storm
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sahara-plugin-storm-6.0.0-1.el8
+- project: sahara-plugin-vanilla
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sahara-plugin-vanilla-6.0.0-1.el8
+- project: sahara-tests
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-sahara-tests-0.14.0-1.el8
+- project: saharaclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-saharaclient-3.4.0-1.el8
+- project: scciclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-scciclient-0.9.0-1.el8
+- project: senlin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-senlin-12.0.0-1.el8
+- project: senlinclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-senlinclient-2.3.0-1.el8
+- project: shade
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-shade-1.33.0-2.el8
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sphinx-feature-classification-1.1.0-2.el8
 - project: sshpass
   buildsys-tags:
     cloud8s-openstack-xena-testing: sshpass-1.06-8.el8
+- project: stevedore
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-stevedore-3.4.0-1.el8
 - project: subunit
   buildsys-tags:
     cloud8s-openstack-xena-testing: subunit-1.4.0-1.el8
+- project: sushy
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-sushy-3.12.0-1.el8
+- project: swift
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-swift-2.28.0-1.el8
+- project: swiftclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-swiftclient-3.12.0-1.el8
 - project: sympy
   buildsys-tags:
     cloud8s-openstack-xena-testing: sympy-1.4-6.el8
 - project: sysbench
   buildsys-tags:
     cloud8s-openstack-xena-testing: sysbench-1.0.20-5.el8
+- project: tacker
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-tacker-6.0.0-1.el8
+- project: tackerclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-tackerclient-1.8.0-1.el8
+- project: taskflow
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-taskflow-4.6.2-1.el8
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-telemetry-tests-tempest-1.5.0-1.el8
+- project: tempest
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-tempest-29.0.0-1.el8
+- project: tempestconf
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-tempestconf-3.2.1-1.el8
+- project: tobiko
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-tobiko-0.4.9-1.el8
+- project: tooz
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-tooz-2.9.0-1.el8
+- project: trove
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-trove-16.0.0-1.el8
+- project: trove-dashboard
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-trove-ui-17.0.0-1.el8
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-trove-tests-tempest-1.3.0-1.el8
+- project: troveclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-troveclient-7.1.1-1.el8
 - project: uwsgi
   buildsys-tags:
     cloud8s-openstack-xena-testing: uwsgi-2.0.18-4.el8
+- project: virtualbmc
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-virtualbmc-2.2.1-1.el8
+- project: vitrage
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-vitrage-7.5.0-1.el8
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-vitrage-tests-tempest-5.4.0-1.el8
+- project: vitrageclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-vitrageclient-4.4.0-1.el8
+- project: vmware-nsx-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+- project: watcher
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-watcher-7.0.0-1.el8
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-watcher-tests-tempest-2.3.0-1.el8
 - project: web-assets
   buildsys-tags:
     cloud8s-openstack-xena-testing: web-assets-5-10.el8
+- project: wsme
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-wsme-0.9.3-1.el8
 - project: xqc
   buildsys-tags:
     cloud8s-openstack-xena-testing: xqc-1.0-0.16.20101120svn7.el8
 - project: yaml-cpp
   buildsys-tags:
     cloud8s-openstack-xena-testing: yaml-cpp-0.6.3-4.el8
+- project: zaqar
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-zaqar-13.0.0-1.el8
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-zaqar-tests-tempest-1.3.1-1.el8
+- project: zaqarclient
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-zaqarclient-2.2.0-1.el8
 - project: zeromq
   buildsys-tags:
     cloud8s-openstack-xena-testing: zeromq-4.3.2-1.el8
