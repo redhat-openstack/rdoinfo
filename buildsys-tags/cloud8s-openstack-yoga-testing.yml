@@ -548,6 +548,9 @@ packages:
 - project: python-httpcore
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-httpcore-0.12.2-1.2.el8
+- project: python-httplib
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-httplib2-0.16.0-1.el8
 - project: python-httpx
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-httpx-0.16.1-1.1.el8
