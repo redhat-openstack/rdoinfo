@@ -22,6 +22,30 @@
       "revId": "fd742d862a9c7413680f69846dd62f3efbbc3b54",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d1ea976_80211b41",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 880,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2021-10-12T14:32:26Z",
+      "side": 1,
+      "message": "@Alex i just reverted to the commit that was added as part of NOTE so valid/nonvalid can be handled seperately if needed, earlier by mistake it was moved to c7707642a0e2e0c7f7a64d1765c1b0160768737f, but considering https://review.opendev.org/c/openstack/puppet-tripleo/+/721370 seems it\u0027s no longer used in TripleO, right?",
+      "parentUuid": "ecb47f67_d88bacbe",
+      "range": {
+        "startLine": 878,
+        "startChar": 0,
+        "endLine": 880,
+        "endChar": 40
+      },
+      "revId": "fd742d862a9c7413680f69846dd62f3efbbc3b54",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
