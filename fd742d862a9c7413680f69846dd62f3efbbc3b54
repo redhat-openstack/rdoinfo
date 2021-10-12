@@ -46,6 +46,64 @@
       "revId": "fd742d862a9c7413680f69846dd62f3efbbc3b54",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3dea7780_c16e7bcf",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 880,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2021-10-12T14:36:52Z",
+      "side": 1,
+      "message": "Correct.  We likely can remove this in a follow up as it\u0027s no longer required.",
+      "parentUuid": "1d1ea976_80211b41",
+      "range": {
+        "startLine": 878,
+        "startChar": 0,
+        "endLine": 880,
+        "endChar": 40
+      },
+      "revId": "fd742d862a9c7413680f69846dd62f3efbbc3b54",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ccd92935_3410949b",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 917,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2021-10-12T14:36:52Z",
+      "side": 1,
+      "message": "There are a few others that can be removed as well since I don\u0027t believe they are used even outside of a tripleo context.",
+      "revId": "fd742d862a9c7413680f69846dd62f3efbbc3b54",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a43abbe4_419684f5",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 954,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2021-10-12T14:36:52Z",
+      "side": 1,
+      "message": "This one too. Will need to review some of these as I know we dropped them from puppet-tripleo, but will need to check if any of the puppet-openstack modules require them (i dont\u0027 think they do)",
+      "revId": "fd742d862a9c7413680f69846dd62f3efbbc3b54",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
