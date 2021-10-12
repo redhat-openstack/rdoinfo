@@ -1092,8 +1092,9 @@ packages:
   component: tripleo
   maintainers:
   - jslagle@redhat.com
-  - dprince@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: tripleo-heat-templates-compat
   conf: rpmfactory-core
   upstream: https://opendev.org/openstack/tripleo-heat-templates
@@ -1102,11 +1103,16 @@ packages:
   - mburns@redhat.com
   - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: tripleo-image-elements
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - jruzicka@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: tripleo-validations
   conf: rpmfactory-core
   component: validation
@@ -1147,36 +1153,55 @@ packages:
   name: os-apply-config
   component: tripleo
   maintainers:
-  - jruzicka@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-collect-config
   conf: rpmfactory-core
   name: os-collect-config
   component: tripleo
   maintainers:
-  - jruzicka@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-net-config
   conf: rpmfactory-core
   name: os-net-config
   component: tripleo
   maintainers:
-  - dprince@redhat.com
+  - hjensas@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-refresh-config
   conf: rpmfactory-core
   name: os-refresh-config
   component: tripleo
   maintainers:
-  - jruzicka@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-cloud-config
   conf: rpmfactory-core
   name: os-cloud-config
   component: clients
   maintainers:
-  - jruzicka@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-client-config
   conf: rpmfactory-lib
   component: tripleo
   maintainers:
-  - jruzicka@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-win
   name: python-os-win
   conf: rpmfactory-lib
@@ -1204,7 +1229,6 @@ packages:
   maintainers:
   - hguemar@fedoraproject.org
   - fpercoco@redhat.com
-  - therve@redhat.com
 - project: ironic-inspector
   conf: rpmfactory-core
   component: baremetal
@@ -1419,10 +1443,10 @@ packages:
   conf: rpmfactory-client
   component: tripleo
   maintainers:
-  - brad@redhat.com
-  - dprince@redhat.com
   - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: zaqarclient
   conf: rpmfactory-client
   maintainers:
@@ -1580,6 +1604,9 @@ packages:
   maintainers:
   - aschultz@next-development.com
   - mburns@redhat.com
+  - jslagle@redhat.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: tripleo-repos
   conf: rpmfactory-core
   name: tripleo-repos
@@ -1587,6 +1614,8 @@ packages:
   maintainers:
   - bnemec@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: tripleo-ui
   conf: rpmfactory-core
   component: ui
@@ -1725,6 +1754,8 @@ packages:
   maintainers:
   - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: os-brick
   name: python-os-brick
   conf: rpmfactory-lib
@@ -2105,6 +2136,10 @@ packages:
   component: tripleo
   maintainers:
   - sbaker@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: scciclient
   conf: rpmfactory-client
   component: baremetal
@@ -2240,7 +2275,10 @@ packages:
   name: ansible-role-redhat-subscription
   component: tripleo
   maintainers:
-  - sdoran@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: mistral-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-mistral-tests-tempest
@@ -2321,14 +2359,20 @@ packages:
   name: ansible-role-container-registry
   component: tripleo
   maintainers:
-  - emilien@redhat.com
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: ansible-role-tripleo-modify-image
   conf: rpmfactory-lib
   name: ansible-role-tripleo-modify-image
   component: tripleo
   maintainers:
   - sbaker@redhat.com
+  - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: metalsmith
   name: python-metalsmith
   conf: rpmfactory-lib
@@ -2363,7 +2407,10 @@ packages:
   name: ansible-role-chrony
   component: tripleo
   maintainers:
+  - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: ansible-role-tripleo-keystone
   conf: rpmfactory-lib
   name: ansible-role-tripleo-keystone
@@ -2396,8 +2443,10 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - kecarter@redhat.com
+  - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: tripleo-ipa
   conf: rpmfactory-lib
   name: ansible-tripleo-ipa
@@ -2425,7 +2474,10 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
+  - jslagle@redhat.com
   - aschultz@next-development.com
+  - cjeanner@redhat.com
+  - kecarter@redhat.com
 - project: puppet-placement
   upstream: https://opendev.org/openstack/puppet-placement
   conf: rpmfactory-puppet
