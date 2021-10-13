@@ -61,7 +61,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.5.0
 - project: barbicanclient
   tags:
     yoga-uc:
@@ -87,7 +86,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.5.0
 - project: cinderclient
   tags:
     yoga-uc:
@@ -129,7 +127,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 0.12.0
 - project: designateclient
   tags:
     yoga-uc:
@@ -150,7 +147,6 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.3.0
 - project: futurist
   tags:
     yoga-uc:
@@ -161,7 +157,6 @@ packages:
 - project: glance-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 0.2.0
 - project: glance_store
   tags:
     yoga-uc:
@@ -207,7 +202,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.4.0
 - project: heat-translator
   tags:
     yoga-uc:
@@ -251,7 +245,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 2.3.1
 - project: ironic-ui
   tags:
     yoga-uc:
@@ -265,7 +258,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 0.8.0
 - project: keystoneauth1
   tags:
     yoga-uc:
@@ -290,14 +282,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 0.11.0
 - project: magnum
   tags:
     yoga-uc:
 - project: magnum-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.5.0
 - project: magnum-ui
   tags:
     yoga-uc:
@@ -311,7 +301,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.6.0
 - project: manila-ui
   tags:
     yoga-uc:
@@ -343,7 +332,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.3.0
 - project: mistralclient
   tags:
     yoga-uc:
@@ -368,7 +356,6 @@ packages:
 - project: murano-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 2.3.1
 - project: muranoclient
   tags:
     yoga-uc:
@@ -400,7 +387,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     yoga-uc:
@@ -426,7 +412,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.7.0
 - project: neutron-vpnaas
   tags:
     yoga-uc:
@@ -447,7 +432,6 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 0.0.3
 - project: octavia
   tags:
     yoga-uc:
@@ -461,7 +445,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.8.1
 - project: octaviaclient
   tags:
     yoga-uc:
@@ -642,7 +625,6 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.3.0
 - project: ovn-octavia-provider
   tags:
     yoga-uc:
@@ -656,7 +638,6 @@ packages:
 - project: patrole
   tags:
     yoga-uc:
-      source-branch: 0.12.0
 - project: placement
   tags:
     yoga-uc:
@@ -1008,7 +989,6 @@ packages:
 - project: sahara-tests
   tags:
     yoga-uc:
-      source-branch: 0.14.0
 - project: saharaclient
   tags:
     yoga-uc:
@@ -1072,11 +1052,9 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.5.0
 - project: tempest
   tags:
     yoga-uc:
-      source-branch: 29.0.0
 - project: tempestconf
   tags:
     yoga-uc:
@@ -1132,7 +1110,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.3.0
 - project: troveclient
   tags:
     yoga-uc:
@@ -1157,7 +1134,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 5.4.0
 - project: vitrageclient
   tags:
     yoga-uc:
@@ -1168,7 +1144,6 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     yoga-uc:
@@ -1178,7 +1153,6 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 2.3.0
 - project: wsme
   tags:
     yoga-uc:
@@ -1189,7 +1163,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     yoga-uc:
-      source-branch: 1.3.1
 - project: zaqarclient
   tags:
     yoga-uc:
