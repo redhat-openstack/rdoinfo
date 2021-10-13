@@ -70,6 +70,30 @@
       "revId": "79975dfc4fa344e7011ffc24f62b8a8aca5cffc1",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "606a86b9_49888ba4",
+        "filename": "rdo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1097,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2021-10-13T13:59:18Z",
+      "side": 1,
+      "message": "Both are registered. I hit this on the other patch which actually checks against gerrit for the emails. jslagle@redhat.com isn\u0027t registered but there\u0027s no checking on this file. Also he\u0027s part of admins so his inclusions is really optional.",
+      "parentUuid": "6a957818_262da54d",
+      "range": {
+        "startLine": 1096,
+        "startChar": 3,
+        "endLine": 1097,
+        "endChar": 23
+      },
+      "revId": "79975dfc4fa344e7011ffc24f62b8a8aca5cffc1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
     }
   ]
 }
