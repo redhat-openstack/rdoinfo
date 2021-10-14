@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "db0fad47_31d0030f",
+        "filename": "buildsys-tags/cloud9s-openstack-xena-testing.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 334,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2021-10-14T07:02:19Z",
+      "side": 1,
+      "message": "cmd2 is 2.1.2 in u-c for xena. I have doubts about what to push. I\u0027d say 2.2.0 is closer that 1.4.0. Is there a 2.1.2 build in fedora that we could build for xena?",
+      "range": {
+        "startLine": 334,
+        "startChar": 0,
+        "endLine": 334,
+        "endChar": 6
+      },
+      "revId": "44ad31c5ebbfe557fb13b51dc9369a5957f2e258",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d49b4833_e2684c05",
+        "filename": "buildsys-tags/cloud9s-openstack-xena-testing.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 787,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2021-10-14T07:02:19Z",
+      "side": 1,
+      "message": "scp is 0.13.6 in upper-constraints.txt for xena. I\u0027d keep 0.13.3.",
+      "range": {
+        "startLine": 787,
+        "startChar": 0,
+        "endLine": 787,
+        "endChar": 6
+      },
+      "revId": "44ad31c5ebbfe557fb13b51dc9369a5957f2e258",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
