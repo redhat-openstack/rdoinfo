@@ -185,6 +185,9 @@ packages:
 - project: glance
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-glance-23.0.0-1.el8
+- project: glance-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-xena-release: python-glance-tests-tempest-0.2.0-1.el8
 - project: glance_store
   buildsys-tags:
     cloud8s-openstack-xena-release: python-glance-store-2.7.0-1.el8
