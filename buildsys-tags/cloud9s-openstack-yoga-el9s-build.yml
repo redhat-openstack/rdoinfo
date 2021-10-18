@@ -8,6 +8,9 @@ packages:
 - project: bitstream-vera-fonts
   buildsys-tags:
     cloud9s-openstack-yoga-el9s-build: bitstream-vera-fonts-1.10-44.el9s
+- project: distribution-gpg-keys
+  buildsys-tags:
+    cloud9s-openstack-yoga-el9s-build: distribution-gpg-keys-1.58-1.el9s
 - project: djvulibre
   buildsys-tags:
     cloud9s-openstack-yoga-el9s-build: djvulibre-3.5.27-31.el9s
@@ -26,6 +29,12 @@ packages:
 - project: libwmf
   buildsys-tags:
     cloud9s-openstack-yoga-el9s-build: libwmf-0.2.12-6.el9s
+- project: mock
+  buildsys-tags:
+    cloud9s-openstack-yoga-el9s-build: mock-2.8-1.el9s
+- project: mock-core-configs
+  buildsys-tags:
+    cloud9s-openstack-yoga-el9s-build: mock-core-configs-36.1-1.el9s
 - project: openstack-macros
   buildsys-tags:
     cloud9s-openstack-yoga-el9s-build: openstack-macros-2020.1.2-1.el9s
