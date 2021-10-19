@@ -26,9 +26,42 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-collection-containers-podman-1.6.1-1.el8
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-collections-openstack-1.5.1-1.el8
+- project: ansible-config_template
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-config_template-1.1.1-2.8a9b962git.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-freeipa-0.3.1-1.el8
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-pacemaker-1.0.4-2.666f706git.el8
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-atos-hsm-2.0.0-1.el8
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-chrony-1.0.3-1.el8
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-lunasa-hsm-2.0.0-1.el8
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
+- project: ansible-role-qdr-config
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-qdr-config-0.0.1-1.el8
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-redhat-subscription-1.1.5-1.el8
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-role-thales-hsm-2.0.0-1.el8
+- project: ansible-tripleo-ipa-server
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-tripleo-ipa-server-0.1.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-aodh-13.0.0-1.el8
@@ -314,6 +347,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-keystonemiddleware-9.3.0-1.el8
+- project: kolla
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: openstack-kolla-13.0.0-0.1.0rc1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-kuryr-lib-2.4.0-1.el8
@@ -538,7 +574,7 @@ packages:
     cloud8s-openstack-xena-testing: python-os-ken-2.1.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
-    cloud8s-openstack-xena-testing: os-refresh-config-12.0.0-1.el8
+    cloud8s-openstack-xena-testing: os-refresh-config-13.0.1-1.el8
 - project: os-resource-classes
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-os-resource-classes-1.1.0-1.el8
@@ -2045,6 +2081,12 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-tooz-2.9.0-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-tripleo-ipa-0.2.2-1.el8
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: ansible-tripleo-ipsec-11.0.1-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-trove-16.0.0-1.el8
