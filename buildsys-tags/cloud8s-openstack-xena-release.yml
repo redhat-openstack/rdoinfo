@@ -26,9 +26,48 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-collection-containers-podman-1.6.1-1.el8
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-collections-openstack-1.5.1-1.el8
+- project: ansible-config_template
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-config_template-1.1.1-2.8a9b962git.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-freeipa-0.3.1-1.el8
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-pacemaker-1.0.4-2.666f706git.el8
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-atos-hsm-2.0.0-1.el8
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-chrony-1.0.3-1.el8
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-collectd-config-0.0.2-1.el8
+- project: ansible-role-container-registry
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-container-registry-1.4.0-1.el8
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-lunasa-hsm-2.0.0-1.el8
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
+- project: ansible-role-qdr-config
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-qdr-config-0.0.1-1.el8
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-redhat-subscription-1.1.5-1.el8
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-thales-hsm-2.0.0-1.el8
+- project: ansible-role-tripleo-modify-image
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-role-tripleo-modify-image-1.3.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-aodh-13.0.0-1.el8
@@ -292,7 +331,7 @@ packages:
     cloud8s-openstack-xena-release: openstack-ironic-ui-5.0.0-1.el8
 - project: ironicclient
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-ironicclient-4.8.0-1.el8
+    cloud8s-openstack-xena-release: python-ironicclient-4.8.1-1.el8
 - project: jemalloc
   buildsys-tags:
     cloud8s-openstack-xena-release: jemalloc-5.2.1-2.el8
@@ -314,6 +353,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud8s-openstack-xena-release: python-keystonemiddleware-9.3.0-1.el8
+- project: kolla
+  buildsys-tags:
+    cloud8s-openstack-xena-release: openstack-kolla-13.0.0-0.1.0rc1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-xena-release: python-kuryr-lib-2.4.0-1.el8
@@ -374,6 +416,9 @@ packages:
 - project: manilaclient
   buildsys-tags:
     cloud8s-openstack-xena-release: python-manilaclient-3.0.0-1.el8
+- project: metalsmith
+  buildsys-tags:
+    cloud8s-openstack-xena-release: python-metalsmith-1.5.1-1.el8
 - project: microversion-parse
   buildsys-tags:
     cloud8s-openstack-xena-release: python-microversion-parse-1.0.1-1.el8
@@ -520,7 +565,7 @@ packages:
     cloud8s-openstack-xena-release: python-openstacksdk-0.59.0-1.el8
 - project: os-apply-config
   buildsys-tags:
-    cloud8s-openstack-xena-release: os-apply-config-12.0.0-1.el8
+    cloud8s-openstack-xena-release: os-apply-config-13.1.0-1.el8
 - project: os-brick
   buildsys-tags:
     cloud8s-openstack-xena-release: python-os-brick-5.0.1-1.el8
@@ -529,16 +574,19 @@ packages:
     cloud8s-openstack-xena-release: python-os-client-config-2.1.0-1.el8
 - project: os-collect-config
   buildsys-tags:
-    cloud8s-openstack-xena-release: os-collect-config-12.0.0-1.el8
+    cloud8s-openstack-xena-release: os-collect-config-13.1.0-1.el8
 - project: os-faults
   buildsys-tags:
     cloud8s-openstack-xena-release: python-os-faults-0.2.7-1.el8
 - project: os-ken
   buildsys-tags:
     cloud8s-openstack-xena-release: python-os-ken-2.1.0-1.el8
+- project: os-net-config
+  buildsys-tags:
+    cloud8s-openstack-xena-release: os-net-config-15.1.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
-    cloud8s-openstack-xena-release: os-refresh-config-12.0.0-1.el8
+    cloud8s-openstack-xena-release: os-refresh-config-13.0.1-1.el8
 - project: os-resource-classes
   buildsys-tags:
     cloud8s-openstack-xena-release: python-os-resource-classes-1.1.0-1.el8
@@ -844,7 +892,7 @@ packages:
     cloud8s-openstack-xena-release: puppet-ovn-19.4.0-1.el8
 - project: puppet-pacemaker
   buildsys-tags:
-    cloud8s-openstack-xena-release: puppet-pacemaker-1.1.0-2.el8
+    cloud8s-openstack-xena-release: puppet-pacemaker-1.3.0-1.el8
 - project: puppet-placement
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-placement-6.4.0-1.el8
@@ -908,6 +956,9 @@ packages:
 - project: puppet-tomcat
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-tomcat-6.1.0-1.67c3ad8git.el8
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud8s-openstack-xena-release: puppet-tripleo-16.0.0-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-trove-19.4.0-1.el8
@@ -2027,6 +2078,9 @@ packages:
 - project: tackerclient
   buildsys-tags:
     cloud8s-openstack-xena-release: python-tackerclient-1.8.0-1.el8
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud8s-openstack-xena-release: python-tap-as-a-service-7.0.0-2.351c1fbgit.el8
 - project: taskflow
   buildsys-tags:
     cloud8s-openstack-xena-release: python-taskflow-4.6.2-1.el8
@@ -2045,6 +2099,39 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud8s-openstack-xena-release: python-tooz-2.9.0-1.el8
+- project: tripleo-ansible
+  buildsys-tags:
+    cloud8s-openstack-xena-release: tripleo-ansible-4.1.0-1.el8
+- project: tripleo-common
+  buildsys-tags:
+    cloud8s-openstack-xena-release: openstack-tripleo-common-16.2.0-1.el8
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud8s-openstack-xena-release: openstack-tripleo-heat-templates-15.1.0-1.el8
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud8s-openstack-xena-release: openstack-tripleo-image-elements-14.1.0-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-tripleo-ipa-0.2.2-1.el8
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-tripleo-ipsec-11.0.1-1.el8
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud8s-openstack-xena-release: tripleo-operator-ansible-0.7.0-1.el8
+- project: tripleo-powerflex
+  buildsys-tags:
+    cloud8s-openstack-xena-release: ansible-tripleo-powerflex-1.0.0-1.el8
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud8s-openstack-xena-release: openstack-tripleo-puppet-elements-15.1.0-1.el8
+- project: tripleo-validations
+  buildsys-tags:
+    cloud8s-openstack-xena-release: openstack-tripleo-validations-15.1.0-1.el8
+- project: tripleoclient
+  buildsys-tags:
+    cloud8s-openstack-xena-release: python-tripleoclient-17.1.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-trove-16.0.0-1.el8
@@ -2060,6 +2147,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud8s-openstack-xena-release: uwsgi-2.0.18-4.el8
+- project: validations-common
+  buildsys-tags:
+    cloud8s-openstack-xena-release: validations-common-1.4.0-1.el8
+- project: validations-libs
+  buildsys-tags:
+    cloud8s-openstack-xena-release: python-validations-libs-1.4.0-1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8s-openstack-xena-release: python-virtualbmc-2.2.1-1.el8
