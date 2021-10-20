@@ -1,0 +1,9 @@
+-project:
+  check:
+    jobs:
+      - distgit-tripleo-master-testing-centos-8-standalone-scenario010-victoria:
+          dependencis:
+            - DLRN-rpmbuild-centos8
+          voting: false
+          files:
+            - ^tags/victoria.yml$
