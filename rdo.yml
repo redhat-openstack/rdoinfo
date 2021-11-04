@@ -2404,6 +2404,7 @@ packages:
   - chkumar@redhat.com
 - project: rhos-bootstrap
   name: rhost-bootstrap
+  source-branch: main
   component: tripleo
   conf: rpmfactory-core
   upstream: https://github.com/redhat-openstack/rhos-bootstrap
