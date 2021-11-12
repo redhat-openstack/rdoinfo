@@ -403,13 +403,13 @@ packages:
     cloud8s-openstack-wallaby-release: python-magnumclient-3.4.1-1.el8
 - project: manila
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-manila-12.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-manila-12.1.0-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-manila-tests-tempest-1.4.0-1.el8
 - project: manila-ui
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-manila-ui-5.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-manila-ui-5.1.0-1.el8
 - project: manilaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-manilaclient-2.6.1-1.el8
