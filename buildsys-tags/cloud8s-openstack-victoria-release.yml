@@ -163,7 +163,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-designate-11.0.0-1.el8
 - project: designate-dashboard
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-designate-ui-11.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-designate-ui-11.0.0-2.el8
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-designate-tests-tempest-0.9.0-2.el8
@@ -415,7 +415,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-mistral-11.0.0-1.el8
 - project: mistral-dashboard
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-mistral-ui-11.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-mistral-ui-11.0.1-1.el8
 - project: mistral-extra
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-mistral-extra-10.1.0-2.el8
