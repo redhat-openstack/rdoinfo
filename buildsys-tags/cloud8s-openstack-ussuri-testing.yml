@@ -292,7 +292,7 @@ packages:
     cloud8s-openstack-ussuri-testing: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-django-horizon-18.3.4-1.el8
+    cloud8s-openstack-ussuri-testing: python-django-horizon-18.3.5-1.el8
 - project: ironic
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-ironic-15.0.2-1.el8
@@ -1990,10 +1990,10 @@ packages:
     cloud8s-openstack-ussuri-testing: python-sahara-plugin-ambari-3.0.0-1.el8
 - project: sahara-plugin-cdh
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-sahara-plugin-cdh-3.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-sahara-plugin-cdh-3.0.1-1.el8
 - project: sahara-plugin-mapr
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-sahara-plugin-mapr-3.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: python-sahara-plugin-mapr-3.0.1-1.el8
 - project: sahara-plugin-spark
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-sahara-plugin-spark-3.0.1-1.el8
