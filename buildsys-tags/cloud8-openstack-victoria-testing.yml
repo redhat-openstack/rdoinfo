@@ -382,13 +382,13 @@ packages:
     cloud8-openstack-victoria-testing: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-magnum-11.1.1-1.el8
+    cloud8-openstack-victoria-testing: openstack-magnum-11.2.0-1.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-magnum-tests-tempest-1.1.0-2.el8
 - project: magnum-ui
   buildsys-tags:
-    cloud8-openstack-victoria-testing: openstack-magnum-ui-7.0.0-2.el8
+    cloud8-openstack-victoria-testing: openstack-magnum-ui-7.0.1-1.el8
 - project: magnumclient
   buildsys-tags:
     cloud8-openstack-victoria-testing: python-magnumclient-3.2.2-1.el8
