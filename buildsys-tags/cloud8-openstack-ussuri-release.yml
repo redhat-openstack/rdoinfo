@@ -694,7 +694,7 @@ packages:
     cloud8-openstack-ussuri-release: python-ovsdbapp-1.2.3-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8-openstack-ussuri-release: openstack-packstack-16.0.2-2.el8
+    cloud8-openstack-ussuri-release: openstack-packstack-16.1.0-1.el8
 - project: panko
   buildsys-tags:
     cloud8-openstack-ussuri-release: openstack-panko-8.1.0-1.el8
@@ -721,7 +721,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-6.14.0-2.el8
 - project: puppet-aodh
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-aodh-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-aodh-16.4.0-1.el8
 - project: puppet-apache
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-apache-5.4.0-1.420605fgit.el8
@@ -733,13 +733,13 @@ packages:
     cloud8-openstack-ussuri-release: puppet-auditd-2.2.0-3.189b22bgit.el8
 - project: puppet-barbican
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-barbican-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-barbican-16.4.0-1.el8
 - project: puppet-cassandra
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-cassandra-2.7.4-0.1.0rc0.c2c6007git.el8
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-ceilometer-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-ceilometer-16.4.0-1.el8
 - project: puppet-ceph
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-ceph-3.1.1-1.el8
@@ -748,7 +748,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-certmonger-2.6.0-1.el8
 - project: puppet-cinder
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-cinder-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-cinder-16.4.0-1.el8
 - project: puppet-collectd
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-collectd-12.1.0-1.4125abdgit.el8
@@ -769,13 +769,13 @@ packages:
     cloud8-openstack-ussuri-release: puppet-datacat-0.6.2-1.5cce8f2git.el8
 - project: puppet-designate
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-designate-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-designate-16.4.0-1.el8
 - project: puppet-dns
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-dns-7.0.0-1.ad11babgit.el8
 - project: puppet-ec2api
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-ec2api-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-ec2api-16.4.0-1.el8
 - project: puppet-elasticsearch
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-elasticsearch-6.4.0-2.d6d3bb6git.el8
@@ -796,19 +796,19 @@ packages:
     cloud8-openstack-ussuri-release: puppet-git-0.5.0-1.4e4498egit.el8
 - project: puppet-glance
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-glance-16.4.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-glance-16.5.0-1.el8
 - project: puppet-gnocchi
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-gnocchi-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-gnocchi-16.4.0-1.el8
 - project: puppet-haproxy
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-haproxy-4.2.0-1.c93d8degit.el8
 - project: puppet-heat
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-heat-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-heat-16.4.0-1.el8
 - project: puppet-horizon
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-horizon-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-horizon-16.4.0-1.el8
 - project: puppet-inifile
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-inifile-4.2.0-1.el8
@@ -817,7 +817,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-ipaclient-2.5.2-1.el8
 - project: puppet-ironic
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-ironic-16.3.0-2.el8
+    cloud8-openstack-ussuri-release: puppet-ironic-16.4.0-1.el8
 - project: puppet-java
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-java-6.2.0-1.5a0d540git.el8
@@ -829,7 +829,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
 - project: puppet-keystone
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-keystone-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-keystone-16.4.0-1.el8
 - project: puppet-kibana3
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-kibana3-0.0.4-1.6ca9631git.el8
@@ -841,10 +841,10 @@ packages:
     cloud8-openstack-ussuri-release: puppet-lib-file_concat-1.0.1-1.el8
 - project: puppet-magnum
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-magnum-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-magnum-16.4.0-1.el8
 - project: puppet-manila
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-manila-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-manila-16.4.0-1.el8
 - project: puppet-memcached
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-memcached-6.0.0-1.el8
@@ -853,7 +853,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-midonet-1.1.0-2.4a44c33git.el8
 - project: puppet-mistral
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-mistral-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-mistral-16.4.0-1.el8
 - project: puppet-module-data
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-module-data-0.5.1-1.28dafcegit.el8
@@ -862,7 +862,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-mongodb-3.1.1-0.1.0rc0.d9402c9git.el8
 - project: puppet-murano
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-murano-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-murano-16.3.1-1.el8
 - project: puppet-mysql
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-mysql-10.4.0-1.fff2c82git.el8
@@ -871,10 +871,10 @@ packages:
     cloud8-openstack-ussuri-release: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
 - project: puppet-neutron
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-neutron-16.4.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-neutron-16.5.0-1.el8
 - project: puppet-nova
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-nova-16.5.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-nova-16.6.0-1.el8
 - project: puppet-nssdb
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
@@ -883,34 +883,34 @@ packages:
     cloud8-openstack-ussuri-release: puppet-ntp-4.2.0-1.el8
 - project: puppet-octavia
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-octavia-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-octavia-16.4.0-1.el8
 - project: puppet-openstack_extras
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-openstack_extras-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-openstack_extras-16.4.0-1.el8
 - project: puppet-openstacklib
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-openstacklib-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-openstacklib-16.4.0-1.el8
 - project: puppet-oslo
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-oslo-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-oslo-16.4.0-1.el8
 - project: puppet-ovn
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-ovn-16.4.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-ovn-16.5.0-1.el8
 - project: puppet-pacemaker
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-pacemaker-1.1.0-1.el8
 - project: puppet-panko
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-panko-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-panko-16.4.0-1.el8
 - project: puppet-placement
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-placement-3.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-placement-3.4.0-1.el8
 - project: puppet-powerdns
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
 - project: puppet-qdr
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-qdr-5.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-qdr-5.3.1-1.el8
 - project: puppet-rabbitmq
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-rabbitmq-10.0.2-0.1.0rc0.eafe833git.el8
@@ -928,7 +928,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
 - project: puppet-sahara
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-sahara-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-sahara-16.4.0-1.el8
 - project: puppet-sensu
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-sensu-2.62.3-1.20361a4git.el8
@@ -946,7 +946,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-stdlib-6.3.0-1.93eee77git.el8
 - project: puppet-swift
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-swift-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-swift-16.4.0-1.el8
 - project: puppet-sysctl
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-sysctl-0.0.12-2.a3d160dgit.el8
@@ -955,10 +955,10 @@ packages:
     cloud8-openstack-ussuri-release: puppet-systemd-2.9.0-1.1e15600git.el8
 - project: puppet-tacker
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-tacker-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-tacker-16.4.0-1.el8
 - project: puppet-tempest
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-tempest-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-tempest-16.3.1-1.el8
 - project: puppet-timezone
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-timezone-5.2.2-1.855de65git.el8
@@ -970,7 +970,7 @@ packages:
     cloud8-openstack-ussuri-release: puppet-tripleo-12.7.0-1.el8
 - project: puppet-trove
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-trove-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-trove-16.4.0-1.el8
 - project: puppet-uchiwa
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-uchiwa-2.1.1-2.837c669git.el8
@@ -982,22 +982,22 @@ packages:
     cloud8-openstack-ussuri-release: puppet-veritas_hyperscale-1.1.1-1.el8
 - project: puppet-vitrage
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-vitrage-6.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-vitrage-6.4.0-1.el8
 - project: puppet-vlan
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-vlan-0.1.0-1.el8
 - project: puppet-vswitch
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-vswitch-12.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-vswitch-12.4.0-1.el8
 - project: puppet-watcher
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-watcher-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-watcher-16.4.0-1.el8
 - project: puppet-xinetd
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-xinetd-3.3.0-2.8d460c4git.el8
 - project: puppet-zaqar
   buildsys-tags:
-    cloud8-openstack-ussuri-release: puppet-zaqar-16.3.0-1.el8
+    cloud8-openstack-ussuri-release: puppet-zaqar-16.4.0-1.el8
 - project: puppet-zookeeper
   buildsys-tags:
     cloud8-openstack-ussuri-release: puppet-zookeeper-1.0.0-1.becf07cgit.el8
