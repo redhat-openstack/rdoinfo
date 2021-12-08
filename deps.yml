@@ -2788,3 +2788,24 @@ packages:
 - project: libev
   name: libev
   conf: rdo-dependency
+- project: xxhash
+  name: xxhash
+  conf: fedora-dependency
+- project: wyhash
+  name: wyhash
+  conf: fedora-dependency
+- project: re2
+  name: re2
+  conf: fedora-dependency
+- project: gtest
+  name: gtest
+  conf: fedora-dependency
+- project: abseil-cpp
+  name: abseil-cpp
+  conf: fedora-dependency
+- project: google-benchmark
+  name: google-benchmark
+  conf: fedora-dependency
+- project: abseil-cpp
+  name: abseil-cpp
+  conf: fedora-dependency
