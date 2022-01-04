@@ -1108,6 +1108,15 @@ packages:
   - jslagle@redhat.com
   - aschultz@next-development.com
   - kecarter@redhat.com
+- project: task-core
+  conf: rpmfactory-core
+  component: tripleo
+  upstream: https://github.com/directord/task-core
+  name: task-core
+  maintainers:
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - kecarter@redhat.com
 - project: dib-utils
   conf: rpmfactory-core
   name: dib-utils
