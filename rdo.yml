@@ -1099,6 +1099,13 @@ packages:
   name: diskimage-builder
   maintainers:
   - jruzicka@redhat.com
+- project: directord
+  conf: rpmfactory-core
+  name: directord
+  maintainers:
+  - jslagle@redhat.com
+  - aschultz@next-development.com
+  - kecarter@redhat.com
 - project: dib-utils
   conf: rpmfactory-core
   name: dib-utils
