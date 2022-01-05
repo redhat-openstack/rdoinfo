@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd01384b_64194a53",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1104,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-05T08:40:19Z",
+      "side": 1,
+      "message": "rpmfactory-core config sets upstream to https://opendev.org/openstack/directord but this repo doesn\u0027t exist so you need to explicitely set the upstream repo where you need to pull upstream code to build. Example in:\n\nhttps://github.com/redhat-openstack/rdoinfo/blob/c2867825d2a494e622d60dc74d6668913675c425/rdo.yml#L2632",
+      "range": {
+        "startLine": 1104,
+        "startChar": 0,
+        "endLine": 1104,
+        "endChar": 4
+      },
+      "revId": "8ed74e401cf2f8b6fc04fee319fbab35a049ce05",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b67dba21_1f4fd149",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1105,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-05T08:40:19Z",
+      "side": 1,
+      "message": "I think directord should be included in tripleo component as i guess will be the actual user.",
+      "revId": "8ed74e401cf2f8b6fc04fee319fbab35a049ce05",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
