@@ -851,6 +851,9 @@ packages:
 - project: python-sseclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-sseclient-0.0.27-2.el9s
+- project: python-ssh-python
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-ssh-python-0.9.0-1.el9s
 - project: python-statsd
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-statsd-3.2.1-20.el9s
