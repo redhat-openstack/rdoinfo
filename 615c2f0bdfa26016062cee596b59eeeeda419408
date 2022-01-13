@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3dd5a6aa_83a4effc",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1574,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-13T09:56:06Z",
+      "side": 1,
+      "message": "rpmfactory-lib config will set package name to python-ovn-bgp-agent and, according to discussion this is an standalone program so we want ovn-bgp-agent. Also, we need to properly setup the upstream repos. Please, add following two lines:\n\nname: ovn-bgp-agent\nupstream: https://opendev.org/x/ovn-bgp-agent",
+      "range": {
+        "startLine": 1574,
+        "startChar": 0,
+        "endLine": 1574,
+        "endChar": 4
+      },
+      "revId": "615c2f0bdfa26016062cee596b59eeeeda419408",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed5f6e6c_cf9280b8",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1580,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-01-13T09:56:06Z",
+      "side": 1,
+      "message": "This user doesn\u0027t exist in review.rdoproject.org, please ask him to login or remove it from the list.",
+      "range": {
+        "startLine": 1580,
+        "startChar": 0,
+        "endLine": 1580,
+        "endChar": 2
+      },
+      "revId": "615c2f0bdfa26016062cee596b59eeeeda419408",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": true
+    }
+  ]
+}
