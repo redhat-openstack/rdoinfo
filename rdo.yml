@@ -1570,6 +1570,17 @@ packages:
 - project: oslo-privsep
   conf: rpmfactory-lib
   upstream: https://opendev.org/openstack/oslo.privsep
+- project: ovn-bgp-agent
+  conf: rpmfactory-lib
+  name: ovn-bgp-agent
+  upstream: https://opendev.org/x/ovn-bgp-agent
+  component: network
+  maintainers:
+  - bcafarel@redhat.com
+  - dalvarez@redhat.com
+  - dsneddon@redhat.com
+  - ltomasbo@redhat.com
+  - lucasagomes@gmail.com
 - project: ovsdbapp
   conf: rpmfactory-lib
   component: network
