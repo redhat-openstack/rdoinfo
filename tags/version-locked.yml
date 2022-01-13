@@ -36,3 +36,9 @@ packages:
 - project: validations-libs
   tags:
     version-locked:
+# After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
+- project: os-brick
+  tags:
+    version-locked:
+      train:
+      ussuri:
