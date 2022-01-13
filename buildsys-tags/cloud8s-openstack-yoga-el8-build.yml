@@ -92,6 +92,9 @@ packages:
 - project: golang-gopkg-yaml
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: golang-gopkg-yaml-1-27.20191206git51d6538.el8
+- project: google-benchmark
+  buildsys-tags:
+    cloud8s-openstack-yoga-el8-build: google-benchmark-1.6.0-1.el8
 - project: google-roboto-slab-fonts
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: google-roboto-slab-fonts-1.100263-0.10.20150923git.el8
@@ -227,6 +230,9 @@ packages:
 - project: python-funcparserlib
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: python-funcparserlib-0.3.6-22.el8
+- project: python-googleapis-common-protos
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-googleapis-common-protos-1.53.0-1.el8s
 - project: python-httpbin
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: python-httpbin-0.7.0-9.el8

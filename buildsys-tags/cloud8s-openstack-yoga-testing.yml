@@ -8,6 +8,9 @@ packages:
 - project: PyYAML
   buildsys-tags:
     cloud8s-openstack-yoga-testing: PyYAML-5.4.1-2.el8
+- project: abseil-cpp
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: abseil-cpp-20210324.2-2.1.el8
 - project: ansible
   buildsys-tags:
     cloud8s-openstack-yoga-testing: ansible-2.9.23-1.el8
@@ -1103,6 +1106,9 @@ packages:
 - project: rdo-openvswitch
   buildsys-tags:
     cloud8s-openstack-yoga-testing: rdo-openvswitch-2.15-2.el8
+- project: re2
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: re2-20190801-9.el8
 - project: ruby-augeas
   buildsys-tags:
     cloud8s-openstack-yoga-testing: ruby-augeas-0.5.0-23.el8
@@ -1178,9 +1184,15 @@ packages:
 - project: web-assets
   buildsys-tags:
     cloud8s-openstack-yoga-testing: web-assets-5-10.el8
+- project: wyhash
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: wyhash-final1-4.20220111gitwyhash_final.el8
 - project: xqc
   buildsys-tags:
     cloud8s-openstack-yoga-testing: xqc-1.0-0.16.20101120svn7.el8
+- project: xxhash
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: xxhash-0.8.1-1.el8
 - project: yaml-cpp
   buildsys-tags:
     cloud8s-openstack-yoga-testing: yaml-cpp-0.6.3-4.el8
