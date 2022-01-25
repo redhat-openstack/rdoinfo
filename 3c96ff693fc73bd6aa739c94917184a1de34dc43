@@ -34,6 +34,24 @@
       "parentUuid": "83c37aee_778bfcea",
       "revId": "3c96ff693fc73bd6aa739c94917184a1de34dc43",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20842d0f_78e04acf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 303
+      },
+      "writtenOn": "2022-01-25T14:35:01Z",
+      "side": 1,
+      "message": "realistically it should be master across the board. I did create a distgit patch for xena https://review.rdoproject.org/r/c/openstack/ansible-role-chrony-distgit/+/38484 but do i need to update that tags instead?",
+      "parentUuid": "8df62be1_18522304",
+      "revId": "3c96ff693fc73bd6aa739c94917184a1de34dc43",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
