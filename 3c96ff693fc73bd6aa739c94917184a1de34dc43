@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83c37aee_778bfcea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-01-25T06:36:44Z",
+      "side": 1,
+      "message": "Would need to promote to -testing first, then only can do to -release. also can create seperate patch for releases, as doing it for multiple releases in single patch will launch jobs for all the releases and if there are some random failures merging can get delayed.",
+      "revId": "3c96ff693fc73bd6aa739c94917184a1de34dc43",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
