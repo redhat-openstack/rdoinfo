@@ -16,6 +16,24 @@
       "message": "Would need to promote to -testing first, then only can do to -release. also can create seperate patch for releases, as doing it for multiple releases in single patch will launch jobs for all the releases and if there are some random failures merging can get delayed.",
       "revId": "3c96ff693fc73bd6aa739c94917184a1de34dc43",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8df62be1_18522304",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-01-25T06:44:36Z",
+      "side": 1,
+      "message": "ok found testing patch https://review.rdoproject.org/r/c/rdoinfo/+/38481, and that too failed as 1.1.0 build do not exists in CBS https://cbs.centos.org/koji/packageinfo?packageID\u003d7348. So would need the build first, that can be done by updating Version: in distgit, like for xena at https://github.com/rdo-packages/ansible-role-chrony-distgit/commit/faf3f08948dbdfa3d46d5c9f04804ce98099e5d3\n\nI see all releases are following master so latest ansible-role-chrony patches should already be used in those releases for trunk repos, are u seeing some issue somewhere? just a guess may be you seeing issue in old stable releases which do not fallback_to_master? if that\u0027s true then can set source-branch: master or 1.1.0 whatever is desired\n\nCan u share some more context, i can then check further.\n\ntags:\n  stein: null\n  train: null\n  ussuri: null\n  victoria: null\n  wallaby: null\n  xena:\n    source-branch: 1.0.3\n  yoga: null\n  yoga-uc: null",
+      "parentUuid": "83c37aee_778bfcea",
+      "revId": "3c96ff693fc73bd6aa739c94917184a1de34dc43",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
