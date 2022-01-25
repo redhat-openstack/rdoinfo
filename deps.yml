@@ -150,9 +150,6 @@ packages:
 - project: python-XStatic-Bootstrap-SCSS
   name: python-XStatic-Bootstrap-SCSS
   conf: fedora-dependency
-- project: python-sphinx-testing
-  name: python-sphinx-testing
-  conf: rdo-dependency
 - project: PyQt4
   name: PyQt4
   conf: fedora-dependency
@@ -2405,9 +2402,6 @@ packages:
   conf: fedora-dependency
 - project: rubygem-docile
   name: rubygem-docile
-  conf: fedora-dependency
-- project: rubygem-fast_gettext
-  name: rubygem-fat_gettext
   conf: fedora-dependency
 - project: rubygem-hocon
   name: rubygem-hocon
