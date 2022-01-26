@@ -91,7 +91,7 @@ packages:
     cloud8s-openstack-victoria-release: python-castellan-3.6.1-1.el8
 - project: ceilometer
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-ceilometer-15.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-ceilometer-15.1.0-1.el8
 - project: ceilometerclient
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-ceilometerclient-2.9.0-1.el8
@@ -118,10 +118,10 @@ packages:
     cloud8s-openstack-victoria-release: python-cliff-3.4.0-1.el8
 - project: cloudkitty
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-cloudkitty-13.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-cloudkitty-13.0.2-1.el8
 - project: cloudkitty-dashboard
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-cloudkitty-ui-11.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-cloudkitty-ui-11.0.1-1.el8
 - project: cloudkittyclient
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-cloudkittyclient-4.1.0-2.el8
@@ -190,7 +190,7 @@ packages:
     cloud8s-openstack-victoria-release: dumb-init-1.2.2-6.el8
 - project: ec2-api
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-ec2-api-11.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-ec2-api-11.1.0-1.el8
 - project: ec2api-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-ec2api-tests-tempest-1.1.0-2.el8
@@ -343,7 +343,7 @@ packages:
     cloud8s-openstack-victoria-release: python-keystonemiddleware-9.1.0-2.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-kolla-11.2.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-kolla-11.2.1-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-kuryr-lib-2.1.0-2.el8
@@ -382,7 +382,7 @@ packages:
     cloud8s-openstack-victoria-release: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-magnum-11.2.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-magnum-11.2.1-1.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-magnum-tests-tempest-1.1.0-2.el8
@@ -475,7 +475,7 @@ packages:
     cloud8s-openstack-victoria-release: python-networking-bgpvpn-13.0.0-1.el8
 - project: networking-generic-switch
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-networking-generic-switch-4.0.0-2.el8
+    cloud8s-openstack-victoria-release: python-networking-generic-switch-4.0.1-1.el8
 - project: networking-l2gw
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-networking-l2gw-16.0.0-2.el8
@@ -529,7 +529,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-octavia-7.1.2-1.el8
 - project: octavia-dashboard
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-octavia-ui-6.0.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-octavia-ui-6.0.1-1.el8
 - project: octavia-lib
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-octavia-lib-2.2.0-2.el8
