@@ -283,7 +283,7 @@ packages:
     cloud8s-openstack-victoria-release: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-django-horizon-18.6.1-2.el8
+    cloud8s-openstack-victoria-release: python-django-horizon-18.6.3-1.el8
 - project: ibmcclient
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-ibmcclient-0.2.5.1-1.el8
@@ -292,7 +292,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-ironic-16.0.3-2.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-ironic-inspector-10.4.1-1.el8
+    cloud8s-openstack-victoria-release: openstack-ironic-inspector-10.4.2-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-ironic-inspector-client-4.4.0-1.el8
@@ -304,7 +304,7 @@ packages:
     cloud8s-openstack-victoria-release: python-ironic-prometheus-exporter-2.1.1-2.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-ironic-python-agent-6.4.3-1.el8
+    cloud8s-openstack-victoria-release: openstack-ironic-python-agent-6.4.4-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-ironic-python-agent-builder-2.2.0-2.el8
