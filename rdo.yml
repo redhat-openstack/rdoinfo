@@ -525,7 +525,6 @@ packages:
 - project: puppet-ec2api
   conf: rpmfactory-puppet
   maintainers:
-  - lyarwood@redhat.com
   - mschuppert@redhat.com
 - project: puppet-glance
   conf: rpmfactory-puppet
@@ -551,7 +550,6 @@ packages:
 - project: puppet-nova
   conf: rpmfactory-puppet
   maintainers:
-  - lyarwood@redhat.com
   - mschuppert@redhat.com
 - project: puppet-octavia
   conf: rpmfactory-puppet
@@ -783,7 +781,6 @@ packages:
 - project: nova
   conf: rpmfactory-core
   maintainers:
-  - lyarwood@redhat.com
   - kchamart@redhat.com
   - smooney@redhat.com
   component: compute
@@ -1340,7 +1337,6 @@ packages:
   component: compute
   maintainers:
   - marcos.fermin.lobo@cern.ch
-  - lyarwood@redhat.com
   - kchamart@redhat.com
   - smooney@redhat.com
 - project: magnum
@@ -1394,7 +1390,6 @@ packages:
 - project: novaclient
   conf: rpmfactory-client
   maintainers:
-  - lyarwood@redhat.com
   - kchamart@redhat.com
   - smooney@redhat.com
 - project: swiftclient
@@ -1969,7 +1964,6 @@ packages:
   component: clients
   maintainers:
   - amoralej@redhat.com
-  - lyarwood@redhat.com
   - smooney@redhat.com
 - project: sahara-tests
   conf: rpmfactory-tempest-plugin
@@ -2479,7 +2473,6 @@ packages:
 - project: placement
   conf: rpmfactory-core
   maintainers:
-  - lyarwood@redhat.com
   - kchamart@redhat.com
   - smooney@redhat.com
 - project: ansible-role-openstack-operations
@@ -2541,7 +2534,6 @@ packages:
   upstream: https://opendev.org/openstack/puppet-placement
   conf: rpmfactory-puppet
   maintainers:
-  - lyarwood@redhat.com
   - mschuppert@redhat.com
 - project: os-ken
   conf: rpmfactory-lib
@@ -2558,7 +2550,6 @@ packages:
   conf: rpmfactory-lib
   component: clients
   maintainers:
-  - lyarwood@redhat.com
   - kchamart@redhat.com
   - smooney@redhat.com
 - project: ansible-role-atos-hsm
