@@ -2800,3 +2800,8 @@ packages:
 - project: google-benchmark
   name: google-benchmark
   conf: fedora-dependency
+- project: ansible-packaging
+  name: ansible-packaging
+  conf: fedora-dependency
+  maintainers:
+  - sshnaidm@redhat.com
