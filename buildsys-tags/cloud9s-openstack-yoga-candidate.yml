@@ -2,3 +2,6 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-yoga-candidate: novnc-1.3.0-1.el9s
+- project: ansible-packaging
+  buildsys-tags:
+    cloud9s-openstack-yoga-candidate: ansible-packaging-1-3.el9s
