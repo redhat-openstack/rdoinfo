@@ -511,7 +511,7 @@ packages:
     cloud8s-openstack-xena-testing: openstack-neutron-dynamic-routing-19.1.0-1.el8
 - project: neutron-lib
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-neutron-lib-2.15.1-1.el8
+    cloud8s-openstack-xena-testing: python-neutron-lib-2.15.2-1.el8
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-neutron-tests-tempest-1.7.0-1.el8
@@ -664,7 +664,7 @@ packages:
     cloud8s-openstack-xena-testing: python-oslo-serialization-4.2.0-1.el8
 - project: oslo-service
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-oslo-service-2.6.0-1.el8
+    cloud8s-openstack-xena-testing: python-oslo-service-2.6.1-1.el8
 - project: oslo-sphinx
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-oslo-sphinx-4.18.0-1.el8
