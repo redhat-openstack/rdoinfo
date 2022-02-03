@@ -38,3 +38,6 @@ packages:
 - project: rubygem-semantic_puppet
   buildsys-tags:
     cloud8s-openstack-xena-candidate: rubygem-semantic_puppet-1.0.4-2.el8
+- project: ansible-packaging
+  buildsys-tags:
+    cloud8s-openstack-yoga-candidate: ansible-packaging-1-3.el8
