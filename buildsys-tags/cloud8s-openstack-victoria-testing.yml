@@ -328,7 +328,7 @@ packages:
     cloud8s-openstack-victoria-testing: jsoncpp-1.9.2-1.el8
 - project: keystone
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-keystone-18.0.0-1.el8
+    cloud8s-openstack-victoria-testing: openstack-keystone-18.1.0-1.el8
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-keystone-tests-tempest-0.5.0-2.el8
@@ -346,7 +346,7 @@ packages:
     cloud8s-openstack-victoria-testing: openstack-kolla-11.2.1-1.el8
 - project: kuryr
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-kuryr-lib-2.1.0-2.el8
+    cloud8s-openstack-victoria-testing: python-kuryr-lib-2.1.1-1.el8
 - project: kuryr-kubernetes
   buildsys-tags:
     cloud8s-openstack-victoria-testing: openstack-kuryr-kubernetes-3.0.0-1.el8
@@ -403,7 +403,7 @@ packages:
     cloud8s-openstack-victoria-testing: openstack-manila-ui-4.1.0-1.el8
 - project: manilaclient
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-manilaclient-2.3.0-2.el8
+    cloud8s-openstack-victoria-testing: python-manilaclient-2.3.1-1.el8
 - project: metalsmith
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-metalsmith-1.2.0-2.el8
@@ -499,7 +499,7 @@ packages:
     cloud8s-openstack-victoria-testing: openstack-neutron-dynamic-routing-17.0.0-2.el8
 - project: neutron-lib
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-neutron-lib-2.6.1-2.el8
+    cloud8s-openstack-victoria-testing: python-neutron-lib-2.6.2-1.el8
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-neutron-tests-tempest-1.2.0-2.el8
@@ -565,7 +565,7 @@ packages:
     cloud8s-openstack-victoria-testing: python-os-faults-0.2.7-1.el8
 - project: os-ken
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-os-ken-1.2.0-2.el8
+    cloud8s-openstack-victoria-testing: python-os-ken-1.2.1-1.el8
 - project: os-net-config
   buildsys-tags:
     cloud8s-openstack-victoria-testing: os-net-config-13.2.1-1.el8
@@ -670,10 +670,10 @@ packages:
     cloud8s-openstack-victoria-testing: python-oswin-tests-tempest-1.1.0-2.el8
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-ovn-octavia-provider-0.3.1-1.el8
+    cloud8s-openstack-victoria-testing: python-ovn-octavia-provider-0.4.1-1.el8
 - project: ovsdbapp
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-ovsdbapp-1.6.0-1.el8
+    cloud8s-openstack-victoria-testing: python-ovsdbapp-1.6.1-1.el8
 - project: packstack
   buildsys-tags:
     cloud8s-openstack-victoria-testing: openstack-packstack-17.0.0-1.el8
@@ -2044,7 +2044,7 @@ packages:
     cloud8s-openstack-victoria-testing: sysbench-1.0.17-3.el8
 - project: tacker
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tacker-4.0.0-1.el8
+    cloud8s-openstack-victoria-testing: openstack-tacker-4.1.0-1.el8
 - project: tackerclient
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-tackerclient-1.3.0-2.el8
@@ -2059,7 +2059,7 @@ packages:
     cloud8s-openstack-victoria-testing: python-telemetry-tests-tempest-1.1.0-2.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tempest-26.1.0-2.el8
+    cloud8s-openstack-victoria-testing: openstack-tempest-28.1.0-1.el8
 - project: tempest-horizon
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-horizon-tests-tempest-1.1.0-2.el8
