@@ -749,6 +749,9 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-pysaml2-6.1.0-2.el9s
+- project: python-pytest-httpbin
+  buildsys-tags:
+    cloud9s-openstack-yoga-el9s-build: python-pytest-httpbin-1.0.0-5.el9s
 - project: python-pytest-runner
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-pytest-runner-4.0-12.el9s
