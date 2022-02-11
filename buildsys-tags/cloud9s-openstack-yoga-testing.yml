@@ -512,6 +512,9 @@ packages:
 - project: python-html5lib
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-html5lib-1.1-4.el9s
+- project: python-httpbin
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-httpbin-0.7.0-16.el9s
 - project: python-httpcore
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-httpcore-0.12.3-1.el9s
