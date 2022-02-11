@@ -320,6 +320,9 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-beautifulsoup4-4.10.0-1.el9s
+- project: python-blinker
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-blinker-1.4-12.el9s
 - project: python-boto
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-boto-2.49.0-8.el9s
@@ -512,6 +515,9 @@ packages:
 - project: python-html5lib
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-html5lib-1.1-4.el9s
+- project: python-httpbin
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-httpbin-0.7.0-16.el9s
 - project: python-httpcore
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-httpcore-0.12.3-1.el9s
@@ -755,6 +761,9 @@ packages:
 - project: python-pytimeparse
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-pytimeparse-1.1.8-8.el9s
+- project: python-raven
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-raven-6.10.0-12.el9s
 - project: python-rcssmin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-rcssmin-1.0.6-22.el9s
