@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53590003_d289ebd5",
+        "filename": "buildsys-tags/cloud9s-openstack-yoga-testing.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 520,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-02-14T14:22:46Z",
+      "side": 1,
+      "message": "if python-pytest-httpbin is a buildrequirement only (that\u0027s why we add it to el9-build tag instead of testing one) and these packages are requirements for python3-pytest-httpbin, these should also be in el9s-build tag, not in -testing one.",
+      "range": {
+        "startLine": 520,
+        "startChar": 43,
+        "endLine": 520,
+        "endChar": 50
+      },
+      "revId": "601911c0a854a74d731361672f1197ef8d8a75cd",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
