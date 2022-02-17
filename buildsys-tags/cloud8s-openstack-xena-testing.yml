@@ -13,13 +13,13 @@ packages:
     cloud8s-openstack-xena-testing: ansible-2.9.23-1.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
-    cloud8s-openstack-xena-testing: ansible-collection-ansible-netcommon-2.2.0-1.el8
+    cloud8s-openstack-xena-testing: ansible-collection-ansible-netcommon-2.2.0-1.1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
-    cloud8s-openstack-xena-testing: ansible-collection-ansible-posix-1.2.0-1.el8
+    cloud8s-openstack-xena-testing: ansible-collection-ansible-posix-1.3.0-1.el8
 - project: ansible-collection-ansible-utils
   buildsys-tags:
-    cloud8s-openstack-xena-testing: ansible-collection-ansible-utils-2.3.0-1.el8
+    cloud8s-openstack-xena-testing: ansible-collection-ansible-utils-2.3.0-2.el8
 - project: ansible-collection-community-general
   buildsys-tags:
     cloud8s-openstack-xena-testing: ansible-collection-community-general-4.0.0-1.el8
@@ -1141,7 +1141,7 @@ packages:
     cloud8s-openstack-xena-testing: python-aniso8601-8.1.0-1.el8
 - project: python-ansible-runner
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-ansible-runner-1.4.6-3.el8
+    cloud8s-openstack-xena-testing: python-ansible-runner-2.0.0a1-3.el8
 - project: python-anyjson
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-anyjson-0.3.3-24.el8
@@ -1513,7 +1513,7 @@ packages:
     cloud8s-openstack-xena-testing: python-netmiko-3.0.0-1.el8
 - project: python-network-runner
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-network-runner-0.2.2-2.el8
+    cloud8s-openstack-xena-testing: python-network-runner-0.3.4-2.el8
 - project: python-networkx
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-networkx-2.5-1.el8
@@ -1652,6 +1652,9 @@ packages:
 - project: python-requests_ntlm
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-requests_ntlm-1.1.0-9.el8
+- project: python-resolvelib
+  buildsys-tags:
+    cloud8s-openstack-xena-testing: python-resolvelib-0.5.5-3.el8
 - project: python-responses
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-responses-0.10.14-1.el8
