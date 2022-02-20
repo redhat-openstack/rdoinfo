@@ -13,23 +13,25 @@ packages:
     version-locked:
 # This project was removed in Pike and locked to the commit before
 # retirement.
-- project: os-cloud-config
+- project: horizon
   tags:
     version-locked:
 # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
-- project: tap-as-a-service
-  tags:
-    version-locked:
-# Until we have a new release in u-c.
-- project: wsme
-  tags:
-    version-locked:
-# We want to pull latest commits from neutron instead of u-c pinned version
 - project: neutron
   tags:
     version-locked:
+# Until we have a new release in u-c.
+- project: os-brick
+  tags:
+    version-locked:
+      train:
+      ussuri:
+# We want to pull latest commits from neutron instead of u-c pinned version
+- project: os-cloud-config
+  tags:
+    version-locked:
 # We want to pull latest commits from horizon instead of u-c pinned version
-- project: horizon
+- project: tap-as-a-service
   tags:
     version-locked:
 # Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
@@ -37,8 +39,6 @@ packages:
   tags:
     version-locked:
 # After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
-- project: os-brick
+- project: wsme
   tags:
     version-locked:
-      train:
-      ussuri:
