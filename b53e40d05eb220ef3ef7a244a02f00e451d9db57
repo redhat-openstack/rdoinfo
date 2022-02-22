@@ -16,6 +16,24 @@
       "message": "You need to update upper-constraints on each branch and there will be automatic updates on rdoinfo for the corresponding releases. For yoga, see:\n\nhttps://review.rdoproject.org/r/c/rdoinfo/+/39573/4/tags/yoga-uc.yml\n\nyou need to get them fixed upstream for xena and wallaby.",
       "revId": "b53e40d05eb220ef3ef7a244a02f00e451d9db57",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f204aa9a_93d1c0a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 739
+      },
+      "writtenOn": "2022-02-22T11:38:14Z",
+      "side": 1,
+      "message": "Ack, thanks for explaining. This was confusing because we only have *-uc for yoga and rdoinfo readme only mention upper-constrains for *-uc files, which is the version under development.",
+      "parentUuid": "c850f716_ce357018",
+      "revId": "b53e40d05eb220ef3ef7a244a02f00e451d9db57",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
