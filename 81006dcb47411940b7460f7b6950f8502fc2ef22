@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95071eef_cc57716e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-02-24T10:37:50Z",
+      "side": 1,
+      "message": "Red Hat Universal Base Image 8 (RPMs) - CodeRea  86 kB/s |  16 kB     00:00    \nNo match for argument: collectd-hugepages\nNo match for argument: collectd-pcie-errors\nNo match for argument: collectd-pmu\nNo match for argument: collectd-rdt\nNo match for argument: collectd-turbostat\nError: Unable to find a match: collectd-hugepages collectd-pcie-errors collectd-pmu collectd-rdt collectd-turbostat\n\nhttps://logserver.rdoproject.org/69/39669/2/check/rdoinfo-tripleo-xena-release-centos-8-scenario001-standalone/01ff758/logs/undercloud/home/zuul/container-builds/1d8b9bff-fdcd-4e45-8858-b3e54bb17321/base/collectd/collectd-build.log.txt.gz",
+      "revId": "81006dcb47411940b7460f7b6950f8502fc2ef22",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
