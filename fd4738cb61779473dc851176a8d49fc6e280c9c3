@@ -16,6 +16,24 @@
       "message": "openstack tripleo container image build: error: unrecognized arguments: --tcib-extras tcib_release\u003d8 --tcib-extras tcib_python_version\u003d3.6\n\nhttps://logserver.rdoproject.org/73/39873/1/check/rdoinfo-tripleo-wallaby-release-centos-8-scenario001-standalone/b015b07/logs/undercloud/home/zuul/container_image_build.log.txt.gz",
       "revId": "fd4738cb61779473dc851176a8d49fc6e280c9c3",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f97446d_aff47b28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-02-28T09:00:34Z",
+      "side": 1,
+      "message": "We should bump tripleoclient to 17.1.0 which includes [1][2] to fix this issue.\nAs it\u0027s major release dunno if it\u0027s ok, @marios wdyt ?\n\n\n[1] https://github.com/openstack/python-tripleoclient/commit/fb6daacedd733fbaa801507a7acf14c699faf0c5\n[2] https://review.opendev.org/q/I7fe4d59f1fb76ba59d065b56c5900f4d3cfcda2e",
+      "parentUuid": "eb0767f4_c5bc1086",
+      "revId": "fd4738cb61779473dc851176a8d49fc6e280c9c3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
