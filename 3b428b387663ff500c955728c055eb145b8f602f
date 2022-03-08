@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37699362_d05cbcbe",
+        "filename": "buildsys-tags/cloud8s-openstack-yoga-testing.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 466,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2022-03-08T18:20:54Z",
+      "side": 1,
+      "message": "rpmdiff:\n- Enable dependency generator\n\nAdds missing Requires:\npython3.6dist(decorator) \u003e\u003d 4.0.0\npython3.6dist(stevedore)",
+      "revId": "3b428b387663ff500c955728c055eb145b8f602f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffd9cd42_40a2b716",
+        "filename": "buildsys-tags/cloud8s-openstack-yoga-testing.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2022-03-08T18:20:54Z",
+      "side": 1,
+      "message": "- Update to 0.3.9",
+      "revId": "3b428b387663ff500c955728c055eb145b8f602f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
