@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0b9604c_7bd44f44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2022-03-08T18:36:01Z",
+      "side": 1,
+      "message": "\u003e - rdoinfo-tripleo-master-testing-centos-8-scenario001-standalone https://review.rdoproject.org/zuul/build/b969f7d67adc4b7e89316862156dcdba : FAILURE in 2h 33m 19s (non-voting)\n\nFTR this failed in Tempest:\n\nhttps://logserver.rdoproject.org/88/40188/2/check/rdoinfo-tripleo-master-testing-centos-8-scenario001-standalone/b969f7d/logs/undercloud/var/log/tempest/tempest_run.log.txt.gz\n\n...\n    urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host\u003d\u0027192.168.24.3\u0027, port\u003d9696): Read timed out. (read timeout\u003d60)\n",
+      "revId": "3b428b387663ff500c955728c055eb145b8f602f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "37699362_d05cbcbe",
