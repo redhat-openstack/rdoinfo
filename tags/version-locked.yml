@@ -11,6 +11,20 @@ packages:
 - project: gnocchiclient
   tags:
     version-locked:
+# We want to pull latest commits from horizon instead of u-c pinned version
+- project: horizon
+  tags:
+    version-locked:
+# We want to pull latest commits from neutron instead of u-c pinned version
+- project: neutron
+  tags:
+    version-locked:
+# After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
+- project: os-brick
+  tags:
+    version-locked:
+      train:
+      ussuri:
 # This project was removed in Pike and locked to the commit before
 # retirement.
 - project: os-cloud-config
@@ -20,25 +34,11 @@ packages:
 - project: tap-as-a-service
   tags:
     version-locked:
-# Until we have a new release in u-c.
-- project: wsme
-  tags:
-    version-locked:
-# We want to pull latest commits from neutron instead of u-c pinned version
-- project: neutron
-  tags:
-    version-locked:
-# We want to pull latest commits from horizon instead of u-c pinned version
-- project: horizon
-  tags:
-    version-locked:
 # Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
 - project: validations-libs
   tags:
     version-locked:
-# After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
-- project: os-brick
+# Until we have a new release in u-c.
+- project: wsme
   tags:
     version-locked:
-      train:
-      ussuri:
