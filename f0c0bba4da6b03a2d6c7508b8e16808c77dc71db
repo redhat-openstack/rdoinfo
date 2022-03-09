@@ -50,6 +50,23 @@
       "message": "recheck",
       "revId": "f0c0bba4da6b03a2d6c7508b8e16808c77dc71db",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7da83280_2e867a33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-09T15:55:57Z",
+      "side": 1,
+      "message": "tempest update works fine in my test, but neutron-tests-tempest fail to load:\n\n  File \"/usr/lib/python3.9/site-packages/neutron_tempest_plugin/api/test_qos.py\", line 1402, in QosMinimumPpsRuleTestJSON\n    RULE_NAME \u003d qos_consts.RULE_TYPE_MINIMUM_PACKET_RATE + \"_rule\"\nAttributeError: module \u0027neutron_lib.services.qos.constants\u0027 has no attribute \u0027RULE_TYPE_MINIMUM_PACKET_RATE\u0027\n\n\n",
+      "revId": "f0c0bba4da6b03a2d6c7508b8e16808c77dc71db",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
