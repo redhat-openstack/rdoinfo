@@ -1,0 +1,15 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-9-standalone-full-temepst-scenario:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/yoga-uc.yml$
+        - distgit-tripleo-ci-centos-9-standalone-full-tempest-scenario-wallaby:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/wallaby.yml$
