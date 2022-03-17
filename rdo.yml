@@ -567,7 +567,7 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-rsyslog
   conf: rpmfactory-puppet
-  upstream: git://github.com/voxpupuli/%(project)s
+  upstream: https://github.com/voxpupuli/%(project)s
 - project: puppet-sahara
   conf: rpmfactory-puppet
 - project: puppet-swift
@@ -600,113 +600,113 @@ packages:
   conf: rpmfactory-puppet
 - project: puppet-apache
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-apache
+  upstream: https://github.com/puppetlabs/puppetlabs-apache
   source-branch: main
 - project: puppet-concat
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-concat
+  upstream: https://github.com/puppetlabs/puppetlabs-concat
   source-branch: main
 - project: puppet-firewall
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-firewall
+  upstream: https://github.com/puppetlabs/puppetlabs-firewall
   source-branch: main
 - project: puppet-haproxy
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-haproxy
+  upstream: https://github.com/puppetlabs/puppetlabs-haproxy
   source-branch: main
 - project: puppet-corosync
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppet-community/puppet-corosync
+  upstream: https://github.com/puppet-community/puppet-corosync
 - project: puppet-git
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-git
+  upstream: https://github.com/puppetlabs/puppetlabs-git
 - project: puppet-inifile
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-inifile
+  upstream: https://github.com/puppetlabs/puppetlabs-inifile
   source-branch: main
 - project: puppet-mongodb
   conf: rpmfactory-puppet
-  upstream: git://github.com/voxpupuli/puppet-mongodb
+  upstream: https://github.com/voxpupuli/puppet-mongodb
 - project: puppet-mysql
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-mysql
+  upstream: https://github.com/puppetlabs/puppetlabs-mysql
   source-branch: main
 - project: puppet-java
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-java
+  upstream: https://github.com/puppetlabs/puppetlabs-java
   source-branch: main
 - project: puppet-ntp
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-ntp
+  upstream: https://github.com/puppetlabs/puppetlabs-ntp
 - project: puppet-rabbitmq
   conf: rpmfactory-puppet
-  upstream: git://github.com/voxpupuli/puppet-rabbitmq
+  upstream: https://github.com/voxpupuli/puppet-rabbitmq
 - project: puppet-rsync
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-rsync
+  upstream: https://github.com/puppetlabs/puppetlabs-rsync
   source-branch: main
 - project: puppet-stdlib
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-stdlib
+  upstream: https://github.com/puppetlabs/puppetlabs-stdlib
   source-branch: main
 - project: puppet-tomcat
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-tomcat
+  upstream: https://github.com/puppetlabs/puppetlabs-tomcat
   source-branch: main
 - project: puppet-vcsrepo
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-vcsrepo
+  upstream: https://github.com/puppetlabs/puppetlabs-vcsrepo
   source-branch: main
 - project: puppet-xinetd
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppetlabs/puppetlabs-xinetd
+  upstream: https://github.com/puppetlabs/puppetlabs-xinetd
 - project: puppet-cassandra
   conf: rpmfactory-puppet
-  upstream: git://github.com/voxpupuli/puppet-cassandra
+  upstream: https://github.com/voxpupuli/puppet-cassandra
 - project: puppet-certmonger
   conf: rpmfactory-puppet
-  upstream: git://github.com/saltedsignal/%(project)s
+  upstream: https://github.com/saltedsignal/%(project)s
 - project: puppet-contrail
   conf: rpmfactory-puppet
-  upstream: git://github.com/Juniper/%(project)s
+  upstream: https://github.com/Juniper/%(project)s
   maintainers:
   - mhenkel@juniper.net
   - kparmar@juniper.net
 - project: puppet-datacat
   conf: rpmfactory-puppet
-  upstream: git://github.com/richardc/%(project)s
+  upstream: https://github.com/richardc/%(project)s
 - project: puppet-dns
   conf: rpmfactory-puppet
-  upstream: git://github.com/theforeman/%(project)s
+  upstream: https://github.com/theforeman/%(project)s
 - project: puppet-elasticsearch
   conf: rpmfactory-puppet
-  upstream: git://github.com/elastic/%(project)s
+  upstream: https://github.com/elastic/%(project)s
 - project: puppet-etcd
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppet-etcd/%(project)s
+  upstream: https://github.com/puppet-etcd/%(project)s
 - project: puppet-fdio
   conf: rpmfactory-puppet
   upstream: https://git.fd.io/%(project)s
 - project: puppet-kafka
   conf: rpmfactory-puppet
-  upstream: git://github.com/puppet-community/%(project)s
+  upstream: https://github.com/puppet-community/%(project)s
 - project: puppet-fluentd
   conf: rpmfactory-puppet
-  upstream: git://github.com/soylent/konstantin-fluentd
+  upstream: https://github.com/soylent/konstantin-fluentd
 - project: puppet-ipaclient
   conf: rpmfactory-puppet
-  upstream: git://github.com/joshuabaird/%(project)s
+  upstream: https://github.com/joshuabaird/%(project)s
   maintainers:
   - alee@redhat.com
 - project: puppet-keepalived
   conf: rpmfactory-puppet
-  upstream: git://github.com/Unyonsys/puppet-module-keepalived
+  upstream: https://github.com/Unyonsys/puppet-module-keepalived
 - project: puppet-kibana3
   conf: rpmfactory-puppet
-  upstream: git://github.com/thejandroman/%(project)s
+  upstream: https://github.com/thejandroman/%(project)s
 - project: puppet-memcached
   conf: rpmfactory-puppet
-  upstream: git://github.com/saz/%(project)s
+  upstream: https://github.com/saz/%(project)s
 - project: puppet-midonet
   conf: rpmfactory-puppet
   upstream: https://opendev.org/openstack/%(project)s
@@ -714,16 +714,16 @@ packages:
   - alejandroandreu@openmailbox.org
 - project: puppet-collectd
   conf: rpmfactory-puppet
-  upstream: git://github.com/voxpupuli/%(project)s
+  upstream: https://github.com/voxpupuli/%(project)s
 - project: puppet-module-data
   conf: rpmfactory-puppet
-  upstream: git://github.com/ripienaar/%(project)s
+  upstream: https://github.com/ripienaar/%(project)s
 # - project: puppet-nagios-openstack
 #   conf: rpmfactory-puppet
-#   upstream: git://github.com/gildub/%(project)s
+#   upstream: https://github.com/gildub/%(project)s
 - project: puppet-nssdb
   conf: rpmfactory-puppet
-  upstream: git://github.com/rcritten/%(project)s
+  upstream: https://github.com/rcritten/%(project)s
 - project: puppet-opendaylight
   conf: rpmfactory-puppet
   upstream: https://git.opendaylight.org/gerrit/integration/packaging/%(project)s
@@ -732,49 +732,49 @@ packages:
   upstream: https://opendev.org/openstack/%(project)s
 - project: puppet-powerdns
   conf: rpmfactory-puppet
-  upstream: git://github.com/antonlindstrom/%(project)s
+  upstream: https://github.com/antonlindstrom/%(project)s
 - project: puppet-redis
   conf: rpmfactory-puppet
-  upstream: git://github.com/arioch/%(project)s
+  upstream: https://github.com/arioch/%(project)s
 - project: puppet-remote
   conf: rpmfactory-puppet
-  upstream: git://github.com/paramite/%(project)s
+  upstream: https://github.com/paramite/%(project)s
 - project: puppet-sensu
   conf: rpmfactory-puppet
-  upstream: git://github.com/sensu/sensu-puppet
+  upstream: https://github.com/sensu/sensu-puppet
 - project: puppet-snmp
   conf: rpmfactory-puppet
-  upstream: git://github.com/razorsedge/%(project)s
+  upstream: https://github.com/razorsedge/%(project)s
 - project: puppet-ssh
   conf: rpmfactory-puppet
-  upstream: git://github.com/saz/%(project)s
+  upstream: https://github.com/saz/%(project)s
 - project: puppet-staging
   conf: rpmfactory-puppet
-  upstream: git://github.com/nanliu/%(project)s
+  upstream: https://github.com/nanliu/%(project)s
 - project: puppet-timezone
   conf: rpmfactory-puppet
-  upstream: git://github.com/saz/%(project)s
+  upstream: https://github.com/saz/%(project)s
 - project: puppet-uchiwa
   conf: rpmfactory-puppet
-  upstream: git://github.com/Yelp/%(project)s
+  upstream: https://github.com/Yelp/%(project)s
 - project: puppet-vlan
   conf: rpmfactory-puppet
-  upstream: git://github.com/derekhiggins/%(project)s
+  upstream: https://github.com/derekhiggins/%(project)s
 - project: puppet-zookeeper
   conf: rpmfactory-puppet
-  upstream: git://github.com/deric/%(project)s
+  upstream: https://github.com/deric/%(project)s
 - project: puppet-kmod
   conf: rpmfactory-puppet
-  upstream: git://github.com/camptocamp/%(project)s
+  upstream: https://github.com/camptocamp/%(project)s
 - project: puppet-sysctl
   conf: rpmfactory-puppet
-  upstream: git://github.com/duritong/%(project)s
+  upstream: https://github.com/duritong/%(project)s
 - project: puppet-systemd
   conf: rpmfactory-puppet
-  upstream: git://github.com/camptocamp/%(project)s
+  upstream: https://github.com/camptocamp/%(project)s
 - project: puppet-lib-file_concat
   conf: rpmfactory-puppet
-  upstream: git://github.com/electrical/%(project)s
+  upstream: https://github.com/electrical/%(project)s
   maintainers:
   - alejandroandreu@openmailbox.org
 # core openstack projects
@@ -1635,7 +1635,7 @@ packages:
 - project: openstack-puppet-modules
   conf: rpmfactory-core
   name: openstack-puppet-modules
-  upstream: git://github.com/redhat-openstack/%(name)s
+  upstream: https://github.com/redhat-openstack/%(name)s
   maintainers:
   - apevec@gmail.com
   - gchamoul@redhat.com
@@ -1812,7 +1812,7 @@ packages:
   - rosmaita.fossdev@gmail.com
 - project: hardware
   conf: rpmfactory-lib
-  upstream: git://github.com/redhat-cip/hardware.git
+  upstream: https://github.com/redhat-cip/hardware.git
   maintainers:
   - dtantsur@protonmail.com
   - elfosardo@gmail.com
@@ -2274,7 +2274,7 @@ packages:
   upstream: https://github.com/javierpena/openstack-macros
 - project: puppet-archive
   conf: rpmfactory-puppet
-  upstream: git://github.com/voxpupuli/%(project)s
+  upstream: https://github.com/voxpupuli/%(project)s
 - project: os-service-types
   conf: rpmfactory-lib
   component: clients
