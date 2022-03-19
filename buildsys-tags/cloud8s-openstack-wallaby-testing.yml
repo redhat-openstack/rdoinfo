@@ -286,7 +286,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-heat-translator-2.3.0-1.el8
 - project: heatclient
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-heatclient-2.3.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-heatclient-2.3.1-1.el8
 - project: hiera
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: hiera-3.6.0-1.el8
@@ -316,7 +316,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-ironic-python-agent-7.0.2-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-ironic-python-agent-builder-2.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-ironic-python-agent-builder-2.8.0-1.el8
 - project: ironic-staging-drivers
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-ironic-staging-drivers-0.15.0-1.el8
