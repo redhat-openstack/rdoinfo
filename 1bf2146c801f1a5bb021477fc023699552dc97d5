@@ -16,6 +16,23 @@
       "message": "https://logserver.rdoproject.org/53/40653/4/check/rdoinfo-DLRN-check-centos9/a567706/buildset/centos-wallaby-rdo/repos/component/tempest/5c/55/5c556626d16c2a4c6ee9c9da45d4954db6f83f27_dev/rpmbuild.log\n\n```\nDEBUG: {7} tempest.tests.test_list_tests.TestTestList.test_stestr_list_no_errors [1.490283s] ... FAILED\nDEBUG: Captured traceback:\nDEBUG: ~~~~~~~~~~~~~~~~~~~\nDEBUG:     Traceback (most recent call last):\nDEBUG:       File \"/builddir/build/BUILD/tempest-30.0.1.dev5/tempest/tests/test_list_tests.py\", line 30, in test_stestr_list_no_errors\nDEBUG:         self.assertEqual(0, p.returncode,\nDEBUG:       File \"/usr/lib/python3.9/site-packages/testtools/testcase.py\", line 391, in assertEqual\nDEBUG:         self.assertThat(observed, matcher, message)\nDEBUG:       File \"/usr/lib/python3.9/site-packages/testtools/testcase.py\", line 478, in assertThat\nDEBUG:         raise mismatch_error\nDEBUG:     testtools.matchers._impl.MismatchError: 0 !\u003d 100: test discovery failed, one or more files cause an error on import b\u0027\\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\\nFailures during discovery\\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\\n--- stdout ---\\n2022-03-21 08:33:26.445 34255 INFO tempest [-] Using tempest config file /etc/tempest/tempest.conf\\x1b[00m\\n--- import errors ---\\nFailed to import test module: tempest.scenario.test_compute_unified_limits\\nTraceback (most recent call last):\\n  File \"/usr/lib64/python3.9/unittest/loader.py\", line 436, in _find_test_path\\n    module \u003d self._get_module_from_name(name)\\n  File \"/usr/lib64/python3.9/unittest/loader.py\", line 377, in _get_module_from_name\\n    __import__(name)\\n  File \"/builddir/build/BUILD/tempest-30.0.1.dev5/tempest/scenario/test_compute_unified_limits.py\", line 72, in \u003cmodule\u003e\\n    class ServersQuotaTest(ComputeProjectQuotaTest):\\nTypeError: function() argument \\\u0027code\\\u0027 must be code, not str\\n\\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\\nThe above traceback was encountered during test discovery which imports all the found test modules in the specified test_path.\\n\u0027\n\n```",
       "revId": "1bf2146c801f1a5bb021477fc023699552dc97d5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a84d8f50_4f84ffb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2022-03-21T13:54:21Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "1bf2146c801f1a5bb021477fc023699552dc97d5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
