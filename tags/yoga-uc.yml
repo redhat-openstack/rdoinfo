@@ -658,19 +658,22 @@ packages:
 - project: puppet-apache
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: e27004b9d7fda5506d28b6e7b8682a04168bdd21
 - project: puppet-archive
   tags:
     yoga-uc:
+      source-branch: c49aa3e2ae7585af9520912512c3a51506fe787e
 - project: puppet-auditd
   tags:
     yoga-uc:
+      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
 - project: puppet-barbican
   tags:
     yoga-uc:
 - project: puppet-cassandra
   tags:
     yoga-uc:
+      source-branch: 89bf2d1d2393bb85677d95631089b2e57f15fee2
 - project: puppet-ceilometer
   tags:
     yoga-uc:
@@ -680,53 +683,64 @@ packages:
 - project: puppet-certmonger
   tags:
     yoga-uc:
+      source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
 - project: puppet-cinder
   tags:
     yoga-uc:
 - project: puppet-collectd
   tags:
     yoga-uc:
+      source-branch: 12791f3d39e2ac81213511270dc8eda706b66aa4
 - project: puppet-concat
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: 7bf6cedb695f83ce69573d4958534d116314eff1
 - project: puppet-contrail
   tags:
     yoga-uc:
+      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
 - project: puppet-corosync
   tags:
     yoga-uc:
+      source-branch: 5f48a6c39a62d406c68b41dabde60f2144405490
 - project: puppet-datacat
   tags:
     yoga-uc:
+      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
 - project: puppet-designate
   tags:
     yoga-uc:
 - project: puppet-dns
   tags:
     yoga-uc:
+      source-branch: cc80d3caa6fbb8e7aa3b79aaa8d049d2d443324e
 - project: puppet-ec2api
   tags:
     yoga-uc:
 - project: puppet-elasticsearch
   tags:
     yoga-uc:
+      source-branch: 0da23b4210efdde41576b5ae1c2f2958674c950c
 - project: puppet-etcd
   tags:
     yoga-uc:
+      source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
 - project: puppet-fdio
   tags:
     yoga-uc:
+      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
 - project: puppet-firewall
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: 94f707c6c2b73f1665add77f797b5263da0c9bc6
 - project: puppet-fluentd
   tags:
     yoga-uc:
+      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
 - project: puppet-git
   tags:
     yoga-uc:
+      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
 - project: puppet-glance
   tags:
     yoga-uc:
@@ -736,7 +750,7 @@ packages:
 - project: puppet-haproxy
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: ab1e225809ccc1172a36721f408b19b3a8a87e29
 - project: puppet-heat
   tags:
     yoga-uc:
@@ -746,35 +760,41 @@ packages:
 - project: puppet-inifile
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: 3ec441bf180894c349c130007f4247516794f5d2
 - project: puppet-ipaclient
   tags:
     yoga-uc:
+      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
 - project: puppet-ironic
   tags:
     yoga-uc:
 - project: puppet-java
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: d36a0f6f1298176dd3ac912f23424c5c54138bf9
 - project: puppet-kafka
   tags:
     yoga-uc:
+      source-branch: f8142612f690fa29e0ca3af412fde7886fe4b8c4
 - project: puppet-keepalived
   tags:
     yoga-uc:
+      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
 - project: puppet-keystone
   tags:
     yoga-uc:
 - project: puppet-kibana3
   tags:
     yoga-uc:
+      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
 - project: puppet-kmod
   tags:
     yoga-uc:
+      source-branch: 985384758f957ea2cbb15babb6bfde4d367ba677
 - project: puppet-lib-file_concat
   tags:
     yoga-uc:
+      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
 - project: puppet-magnum
   tags:
     yoga-uc:
@@ -784,6 +804,7 @@ packages:
 - project: puppet-memcached
   tags:
     yoga-uc:
+      source-branch: 51a961a1fe81a8556bb109e509c56bda60c360b3
 - project: puppet-midonet
   tags:
     yoga-uc:
@@ -793,16 +814,18 @@ packages:
 - project: puppet-module-data
   tags:
     yoga-uc:
+      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mongodb
   tags:
     yoga-uc:
+      source-branch: 58e45c7972000f86ab28ebff113108944e27b6cb
 - project: puppet-murano
   tags:
     yoga-uc:
 - project: puppet-mysql
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: dd2b6407e245f8bbd87918e158fd063a2aa5cfb9
 - project: puppet-n1k-vsm
   tags:
     yoga-uc:
@@ -815,6 +838,7 @@ packages:
 - project: puppet-nssdb
   tags:
     yoga-uc:
+      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-octavia
   tags:
     yoga-uc:
@@ -839,25 +863,30 @@ packages:
 - project: puppet-powerdns
   tags:
     yoga-uc:
+      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
 - project: puppet-qdr
   tags:
     yoga-uc:
 - project: puppet-rabbitmq
   tags:
     yoga-uc:
+      source-branch: e9e1da10bb340449937509e3e81ec9f4612e77ed
 - project: puppet-redis
   tags:
     yoga-uc:
+      source-branch: 406874a0d3010910c1df37353e24585dc4e1b840
 - project: puppet-remote
   tags:
     yoga-uc:
+      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: 4ff5dca1755b3f8bd4dd518ff50b0c02b3d75b00
 - project: puppet-rsyslog
   tags:
     yoga-uc:
+      source-branch: dfec1469af837e3f2ee1443a2e62e87fa1e4b759
 - project: puppet-sahara
   tags:
     yoga-uc:
@@ -871,25 +900,30 @@ packages:
 - project: puppet-snmp
   tags:
     yoga-uc:
+      source-branch: 7116b196da1e0dc7a6ae5313489e7d59b671d4e4
 - project: puppet-ssh
   tags:
     yoga-uc:
+      source-branch: b84d4dcea802ce0a12e7d1d96bd71e993cd579bd
 - project: puppet-staging
   tags:
     yoga-uc:
+      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
 - project: puppet-stdlib
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: ea43f2ecd217ff85fe6797b177c7df7718266a94
 - project: puppet-swift
   tags:
     yoga-uc:
 - project: puppet-sysctl
   tags:
     yoga-uc:
+      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
     yoga-uc:
+      source-branch: 76e91a6ce46d1a13cbf7baa0e28ccf40b2ced52a
 - project: puppet-tacker
   tags:
     yoga-uc:
@@ -899,10 +933,11 @@ packages:
 - project: puppet-timezone
   tags:
     yoga-uc:
+      source-branch: 6f1a8e1af9e5a77a54df19d8426c4b408d69c41d
 - project: puppet-tomcat
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: 71c5d97c2f7a878f3a52132c1c3b4a103dc0db86
 - project: puppet-tripleo
   tags:
     yoga-uc:
@@ -912,19 +947,22 @@ packages:
 - project: puppet-uchiwa
   tags:
     yoga-uc:
+      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
     yoga-uc:
-      source-branch: main
+      source-branch: 35fd75419515da3ad45bd8fbaa800752dc5bf1d7
 - project: puppet-veritas_hyperscale
   tags:
     yoga-uc:
+      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
 - project: puppet-vitrage
   tags:
     yoga-uc:
 - project: puppet-vlan
   tags:
     yoga-uc:
+      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
 - project: puppet-vswitch
   tags:
     yoga-uc:
@@ -934,12 +972,14 @@ packages:
 - project: puppet-xinetd
   tags:
     yoga-uc:
+      source-branch: e742608dccdf42236144acf9f05e483b47c576f1
 - project: puppet-zaqar
   tags:
     yoga-uc:
 - project: puppet-zookeeper
   tags:
     yoga-uc:
+      source-branch: b2b1169c24be5e78ea384c1bdc24e810b044c3c7
 - project: pycadf
   tags:
     yoga-uc:
