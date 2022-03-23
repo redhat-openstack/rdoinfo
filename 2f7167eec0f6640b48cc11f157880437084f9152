@@ -1,0 +1,412 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6027fe98_f200031d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "I think you used centos8-master instead of centos9-master?\n\nBTW, i think we can remove some puppet modules. We can do it in zed.",
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "678c441a_b6c25325",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 661,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "Did you used centos9-master repo?, for promoted-components i see puppet-apache commit is e27004b9d7fda5506d28b6e7b8682a04168bdd21",
+      "range": {
+        "startLine": 661,
+        "startChar": 21,
+        "endLine": 661,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "978d9f52_20b39e7e",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 697,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "i see 7bf6cedb695f83ce69573d4958534d116314eff1",
+      "range": {
+        "startLine": 697,
+        "startChar": 21,
+        "endLine": 697,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcfebb55_67b9a2d7",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 716,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "cc80d3caa6fbb8e7aa3b79aaa8d049d2d443324e",
+      "range": {
+        "startLine": 716,
+        "startChar": 21,
+        "endLine": 716,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09e824a6_96e5d9e1",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 735,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "94f707c6c2b73f1665add77f797b5263da0c9bc6",
+      "range": {
+        "startLine": 735,
+        "startChar": 21,
+        "endLine": 735,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31640189_31ab1544",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 753,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "ab1e225809ccc1172a36721f408b19b3a8a87e29",
+      "range": {
+        "startLine": 753,
+        "startChar": 21,
+        "endLine": 753,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "103dd6c8_7e2cf551",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 763,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "3ec441bf180894c349c130007f4247516794f5d2",
+      "range": {
+        "startLine": 763,
+        "startChar": 21,
+        "endLine": 763,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9329c8ce_845117d0",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 774,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "d36a0f6f1298176dd3ac912f23424c5c54138bf9",
+      "range": {
+        "startLine": 774,
+        "startChar": 21,
+        "endLine": 774,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb43a656_14d01721",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 793,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "985384758f957ea2cbb15babb6bfde4d367ba677",
+      "range": {
+        "startLine": 793,
+        "startChar": 21,
+        "endLine": 793,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "329b1ec8_046cdedb",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 821,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "58e45c7972000f86ab28ebff113108944e27b6cb",
+      "range": {
+        "startLine": 821,
+        "startChar": 21,
+        "endLine": 821,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b194c47_3edd4e75",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 828,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "dd2b6407e245f8bbd87918e158fd063a2aa5cfb9",
+      "range": {
+        "startLine": 828,
+        "startChar": 21,
+        "endLine": 828,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3591bd93_ad61ee04",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 873,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "e9e1da10bb340449937509e3e81ec9f4612e77ed",
+      "range": {
+        "startLine": 873,
+        "startChar": 21,
+        "endLine": 873,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9eb52135_fff5284c",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 877,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "406874a0d3010910c1df37353e24585dc4e1b840",
+      "range": {
+        "startLine": 877,
+        "startChar": 21,
+        "endLine": 877,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8efab01e_e7841ebc",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 899,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "20361a4043d2881359551510ada0817caee3bc05",
+      "range": {
+        "startLine": 899,
+        "startChar": 21,
+        "endLine": 899,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12a6afae_9dd70efa",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 915,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "ea43f2ecd217ff85fe6797b177c7df7718266a94",
+      "range": {
+        "startLine": 915,
+        "startChar": 21,
+        "endLine": 915,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fe22489_b84271be",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 926,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "76e91a6ce46d1a13cbf7baa0e28ccf40b2ced52a",
+      "range": {
+        "startLine": 926,
+        "startChar": 21,
+        "endLine": 926,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "328faa6b_4a25a04b",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 940,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "71c5d97c2f7a878f3a52132c1c3b4a103dc0db86",
+      "range": {
+        "startLine": 940,
+        "startChar": 21,
+        "endLine": 940,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d20fdd3_eaff5811",
+        "filename": "tags/yoga-uc.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 954,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T07:56:31Z",
+      "side": 1,
+      "message": "35fd75419515da3ad45bd8fbaa800752dc5bf1d7",
+      "range": {
+        "startLine": 954,
+        "startChar": 21,
+        "endLine": 954,
+        "endChar": 61
+      },
+      "revId": "2f7167eec0f6640b48cc11f157880437084f9152",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
