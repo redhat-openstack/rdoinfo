@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29514a05_d57eda69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-03-23T10:00:45Z",
+      "side": 1,
+      "message": "ansible-packaging requires some modification from fedora spec:\n\nRequires:       (ansible \u003e\u003d 2.9.10 or ansible-core \u003e\u003d 2.11.0)\n\nand\n\nConflicts:      ansible-macros\n\nI\u0027m building it in https://review.rdoproject.org/r/c/deps/ansible-packaging/+/40832 so i\u0027ll build for cs8 from there too",
+      "revId": "c571b5bd44a86101a19c70e2d97b19fa37e781b1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
