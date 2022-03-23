@@ -1,4 +1,7 @@
 packages:
+- project: ansible-collection-containers-podman
+  buildsys-tags:
+    cloud8s-openstack-wallaby-candidate: ansible-collection-containers-podman-1.9.2-1.el8
 - project: PyYAML
   buildsys-tags:
     cloud8s-openstack-wallaby-candidate: PyYAML-5.4.1-2.el8
