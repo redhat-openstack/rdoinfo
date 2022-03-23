@@ -8,6 +8,9 @@ packages:
 - project: ansible-macros
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: ansible-macros-2021.1.2-1.el8
+- project: ansible-packaging
+  buildsys-tags:
+    cloud8s-openstack-yoga-el8-build: ansible-packaging-1-1.el8
 - project: ara
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: ara-1.5.3-1.el8

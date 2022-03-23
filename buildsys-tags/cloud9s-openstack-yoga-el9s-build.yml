@@ -5,6 +5,9 @@ packages:
 - project: ansible-macros
   buildsys-tags:
     cloud9s-openstack-yoga-el9s-build: ansible-macros-2021.1.2-2.el9s
+- project: ansible-packaging
+  buildsys-tags:
+    cloud9s-openstack-yoga-el9s-build: ansible-packaging-1-1.el9s
 - project: bitstream-vera-fonts
   buildsys-tags:
     cloud9s-openstack-yoga-el9s-build: bitstream-vera-fonts-1.10-44.el9s
