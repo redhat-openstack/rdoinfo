@@ -16,6 +16,24 @@
       "message": "can\u0027t figure out why the tripleo jobs are failing, on what tempest test, i don\u0027t see anywhere a list of tests with their results",
       "revId": "9dc81e194c1ff1a9373bd1e81434e69454ed3252",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b11d344_ba464d0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2022-03-28T09:18:41Z",
+      "side": 1,
+      "message": "found it:\nhttps://logserver.rdoproject.org/53/40653/9/check/distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset001-wallaby/7acb0cc/logs/undercloud/var/log/tempest/stestr_results.html.gz\n\nhttps://logserver.rdoproject.org/53/40653/9/check/distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset035-wallaby/1933528/logs/undercloud/var/log/tempest/stestr_results.html.gz\n\nthe third job failed after 38 minutes, so there will be most likely a deployment issue",
+      "parentUuid": "6c9acef0_6a65920b",
+      "revId": "9dc81e194c1ff1a9373bd1e81434e69454ed3252",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
