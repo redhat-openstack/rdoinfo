@@ -1,0 +1,481 @@
+packages:
+- project: Cython
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: Cython-0.29.2-1.el8
+- project: ImageMagick
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: ImageMagick-6.7.8.9-18.el8
+- project: ansible-macros
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: ansible-macros-2021.1.2-1.el8
+- project: ansible-packaging
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: ansible-packaging-1-1.el8
+- project: ara
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: ara-1.5.3-1.el8
+- project: asio
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: asio-1.10.8-10.el8
+- project: atop
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: atop-2.4.0-4.el8
+- project: brotli
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: brotli-1.0.6-1.el8
+- project: clblast
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: clblast-1.5.0-3.el8
+- project: coin-or-Data-Netlib
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: coin-or-Data-Netlib-1.2.8-2.el8
+- project: coin-or-Data-miplib3
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: coin-or-Data-miplib3-1.2.7-2.el8
+- project: coin-or-DyLP
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: coin-or-DyLP-1.10.4-2.el8
+- project: coin-or-Vol
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: coin-or-Vol-1.5.4-2.el8
+- project: distribution-gpg-keys
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: distribution-gpg-keys-1.37-1.el8
+- project: epydoc
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: epydoc-3.0.1.20090203svn-12.el8
+- project: fdupes
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: fdupes-2.0.0-2.el8
+- project: go-compilers
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: go-compilers-1-33.el8
+- project: golang-github-BurntSushi-toml
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-BurntSushi-toml-0.3.1-2.el8
+- project: golang-github-Sirupsen-logrus
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-Sirupsen-logrus-1.0.4-4.20191206gitd682213.el8
+- project: golang-github-codegangsta-cli
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-codegangsta-cli-1.17.0-8.20191206git01857ac.el8
+- project: golang-github-davecgh-go-spew
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-davecgh-go-spew-1.1.0-3.el8
+- project: golang-github-golang-sys
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-golang-sys-0-0.24.20191206gitb688937.el8
+- project: golang-github-kr-pretty
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-kr-pretty-0.1.0-2.el8
+- project: golang-github-kr-pty
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-kr-pty-0-0.40.20191206git2c10821.el8
+- project: golang-github-kr-text
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-kr-text-0-0.19.20191206git6807e77.el8
+- project: golang-github-pmezard-go-difflib
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-pmezard-go-difflib-0-0.11.20191206git792786c.el8
+- project: golang-github-stretchr-objx
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-stretchr-objx-0-0.14.git1a9d0bb.el8
+- project: golang-github-stretchr-testify
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-stretchr-testify-1.2.1-2.el8
+- project: golang-github-urfave-cli
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-github-urfave-cli-1.20.0-1.el8
+- project: golang-googlecode-go-crypto
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-googlecode-go-crypto-0-0.24.20191206gita49355c.el8
+- project: golang-gopkg-check
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-gopkg-check-1-20.20191206git788fd78.el8
+- project: golang-gopkg-yaml
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: golang-gopkg-yaml-1-27.20191206git51d6538.el8
+- project: google-benchmark
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: google-benchmark-1.6.0-1.el8
+- project: google-roboto-slab-fonts
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: google-roboto-slab-fonts-1.100263-0.10.20150923git.el8
+- project: gtest
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: gtest-1.11.0-1.el8
+- project: haveged
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: haveged-1.9.8-1.el8
+- project: ipa-pgothic-fonts
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: ipa-pgothic-fonts-003.03-15.el8
+- project: libgpuarray
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: libgpuarray-0.7.6-6.el8
+- project: libiodbc
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: libiodbc-3.52.12-9.el8
+- project: librsvg2
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: librsvg2-2.42.7-2.el8
+- project: mock
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: mock-1.4.21-1.el8
+- project: mock-core-configs
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: mock-core-configs-31.7-1.el8
+- project: openstack-macros
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: openstack-macros-2020.1.2-1.el8
+- project: parallel
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: parallel-20190922-1.el8
+- project: pycmd
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: pycmd-1.2-19.el8
+- project: pyelftools
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: pyelftools-0.26-1.el8
+- project: python-Pallets-Sphinx-Themes
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-Pallets-Sphinx-Themes-1.2.2-3.el8
+- project: python-actdiag
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-actdiag-2.0.0-4.el8
+- project: python-apipkg
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-apipkg-1.5-6.el8
+- project: python-async-generator
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-async-generator-1.10-5.el8
+- project: python-betamax
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-betamax-0.8.1-8.el8
+- project: python-blinker
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-blinker-1.4-8.el8
+- project: python-blist
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-blist-1.3.6-23.el8
+- project: python-blockdiag
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-blockdiag-2.0.1-3.el8
+- project: python-breathe
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-breathe-4.14.1-1.el8
+- project: python-cairocffi
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cairocffi-1.1.0-1.el8
+- project: python-cairosvg
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cairosvg-2.4.2-2.el8
+- project: python-case
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-case-1.5.3-5.el8
+- project: python-cliff
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cliff-2.16.0-2.el8
+- project: python-cov-core
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cov-core-1.15.0-17.el8
+- project: python-cpuinfo
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cpuinfo-5.0.0-5.el8
+- project: python-cram
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cram-0.7-4.el8
+- project: python-cryptography-vectors
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cryptography-vectors-3.2.1-1.el8
+- project: python-cssselect2
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-cssselect2-0.2.2-2.2.el8
+- project: python-d2to1
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-d2to1-0.2.12-15.post1.el8
+- project: python-debtcollector
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-debtcollector-1.22.0-2.el8
+- project: python-demjson
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-demjson-2.2.4-16.el8
+- project: python-django-nose
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-django-nose-1.4.5-10.el8
+- project: python-dtopt
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-dtopt-0.1-34.el8
+- project: python-enum34
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-enum34-1.1.6-9.el8
+- project: python-execnet
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-execnet-1.7.1-1.el8
+- project: python-fields
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-fields-5.0.0-4.el8
+- project: python-filelock
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-filelock-3.0.12-5.el8
+- project: python-flexmock
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-flexmock-0.10.4-5.el8
+- project: python-flit
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-flit-1.3-4.el8
+- project: python-freezegun
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-freezegun-0.3.12-4.el8
+- project: python-funcparserlib
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-funcparserlib-0.3.6-22.el8
+- project: python-httpbin
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-httpbin-0.7.0-9.el8
+- project: python-httpretty
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-httpretty-0.9.7-1.el8
+- project: python-hypothesis
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-hypothesis-4.23.8-6.el8
+- project: python-isodate
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-isodate-0.6.0-4.el8
+- project: python-mox3
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-mox3-0.28.0-2.el8
+- project: python-nose-cover3
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-nose-cover3-0.1.0-27.el8
+- project: python-nose-exclude
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-nose-exclude-0.5.0-7.el8
+- project: python-nose2
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-nose2-0.9.1-1.el8
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-openstackdocstheme-2.2.6-1.el8
+- project: python-oslotest
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-oslotest-3.8.1-2.el8
+- project: python-parameterized
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-parameterized-0.7.0-1.el8
+- project: python-pkgconfig
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pkgconfig-1.5.1-5.el8
+- project: python-pkginfo
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pkginfo-1.5.0.1-1.el8
+- project: python-pretend
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pretend-1.0.8-19.el8
+- project: python-process-tests
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-process-tests-2.0.2-5.el8
+- project: python-pycxx
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pycxx-7.1.3-5.el8
+- project: python-pykmip
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pykmip-0.8.0-5.el8
+- project: python-pyquery
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pyquery-1.4.0-6.el8
+- project: python-pytest-benchmark
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-benchmark-3.2.2-4.el8
+- project: python-pytest-cov
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-cov-2.8.1-3.el8
+- project: python-pytest-flake8
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-flake8-1.0.4-4.el8
+- project: python-pytest-forked
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-forked-1.3.0-2.el8
+- project: python-pytest-httpbin
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-httpbin-0.3.0-10.el8
+- project: python-pytest-mock
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-mock-1.10.4-6.el8
+- project: python-pytest-relaxed
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-relaxed-1.1.5-6.el8
+- project: python-pytest-timeout
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-timeout-1.3.4-1.el8
+- project: python-pytest-tornado
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-tornado-0.8.0-4.el8
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-xdist-1.31.0-1.el8
+- project: python-pytest-xprocess
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-pytest-xprocess-0.18.1-1.el8
+- project: python-raven
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-raven-6.10.0-5.el8
+- project: python-rdflib
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-rdflib-4.2.1-13.el8
+- project: python-selenium
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-selenium-3.14.0-1.el8
+- project: python-seqdiag
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-seqdiag-2.0.0-4.el8
+- project: python-snowballstemmer
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-snowballstemmer-1.9.0-4.el8
+- project: python-spec
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-spec-1.4.1-2.el8
+- project: python-sphinx
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-2.2.2-1.el8
+- project: python-sphinx-epytext
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-epytext-0.0.4-4.el8
+- project: python-sphinx-issues
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-issues-1.2.0-4.el8
+- project: python-sphinx-removed-in
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-removed-in-0.2.1-4.el8
+- project: python-sphinx-testing
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-testing-1.0.1-7.el8
+- project: python-sphinx-theme-alabaster
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-theme-alabaster-0.7.12-7.el8
+- project: python-sphinx-theme-py3doc-enhanced
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx-theme-py3doc-enhanced-2.3.2-15.el8
+- project: python-sphinx_rtd_theme
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinx_rtd_theme-0.4.3-7.el8
+- project: python-sphinxcontrib-actdiag
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-actdiag-2.0.0-1.el8
+- project: python-sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-apidoc-0.2.1-13.el8
+- project: python-sphinxcontrib-applehelp
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-applehelp-1.0.1-5.el8
+- project: python-sphinxcontrib-blockdiag
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-blockdiag-2.0.0-3.el8
+- project: python-sphinxcontrib-devhelp
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-devhelp-1.0.1-5.el8
+- project: python-sphinxcontrib-htmlhelp
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-htmlhelp-1.0.3-2.el8
+- project: python-sphinxcontrib-httpdomain
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-httpdomain-1.7.0-7.el8
+- project: python-sphinxcontrib-jsmath
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-jsmath-1.0.1-0.1.5.el8
+- project: python-sphinxcontrib-pecanwsme
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-pecanwsme-0.10.0-1.el8
+- project: python-sphinxcontrib-programoutput
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-programoutput-0.14-4.el8
+- project: python-sphinxcontrib-qthelp
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-qthelp-1.0.2-0.1.5.el8
+- project: python-sphinxcontrib-seqdiag
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-seqdiag-2.0.0-1.el8
+- project: python-sphinxcontrib-serializinghtml
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-serializinghtml-1.1.3-5.el8
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-sphinxcontrib-svg2pdfconverter-1.0.1-1.el8
+- project: python-stevedore
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-stevedore-1.31.0-2.el8
+- project: python-termcolor
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-termcolor-1.1.0-20.el8
+- project: python-testpath
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-testpath-0.3.1-10.el8
+- project: python-tinycss2
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-tinycss2-1.0.2-4.el8
+- project: python-trustme
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-trustme-0.5.2-4.el8
+- project: python-typeguard
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-typeguard-2.9.1-1.el8
+- project: python-webcolors
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-webcolors-1.11.1-3.el8
+- project: python-whoosh
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-whoosh-2.7.4-17.el8
+- project: python-wurlitzer
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-wurlitzer-1.0.3-2.el8
+- project: python-xcffib
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python-xcffib-0.8.1-3.el8
+- project: python3-pytest-asyncio
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: python3-pytest-asyncio-0.10.0-4.el8
+- project: pyxattr
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: pyxattr-0.7.1-2.el8
+- project: rubygem-builder
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-builder-3.2.3-7.el8
+- project: rubygem-fakefs
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-fakefs-0.13.1-4.el8
+- project: rubygem-introspection
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-introspection-0.0.4-7.el8
+- project: rubygem-json_pure
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-json_pure-1.8.1-10.el8
+- project: rubygem-metaclass
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-metaclass-0.0.4-9.el8
+- project: rubygem-mocha
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-mocha-1.9.0-1.el8
+- project: rubygem-nokogiri
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-nokogiri-1.10.7-3.el8
+- project: rubygem-pkg-config
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-pkg-config-1.4.0-1.el8
+- project: rubygem-racc
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: rubygem-racc-1.4.16-201.el8
+- project: scons
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: scons-3.1.2-1.el8
+- project: tclx
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: tclx-8.4.0-34.el8
+- project: ttembed
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: ttembed-1.1-12.el8
+- project: xapian-bindings
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: xapian-bindings-1.4.13-2.el8
+- project: xapian-core
+  buildsys-tags:
+    cloud8s-openstack-zed-el8-build: xapian-core-1.4.13-2.el8
