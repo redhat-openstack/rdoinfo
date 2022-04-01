@@ -1,0 +1,421 @@
+packages:
+- project: ImageMagick
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: ImageMagick-6.9.11.27-7.el9s
+- project: ansible-packaging
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: ansible-packaging-1-1.el9s
+- project: bitstream-vera-fonts
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: bitstream-vera-fonts-1.10-44.el9s
+- project: distribution-gpg-keys
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: distribution-gpg-keys-1.58-1.el9s
+- project: djvulibre
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: djvulibre-3.5.27-31.el9s
+- project: haveged
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: haveged-1.9.14-4.el9s
+- project: google-benchmark
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: google-benchmark-1.6.0-1.el9s
+- project: gtest
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: gtest-1.11.0-1.el9s
+- project: ipa-pgothic-fonts
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: ipa-pgothic-fonts-003.03-18.el9s
+- project: libart_lgpl
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: libart_lgpl-2.3.21-25.el9s
+- project: liblqr-1
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: liblqr-1-0.4.2-17.el9s
+- project: libwmf
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: libwmf-0.2.12-6.el9s
+- project: mock
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: mock-2.8-1.el9s
+- project: mock-core-configs
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: mock-core-configs-36.1-1.el9s
+- project: openstack-macros
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: openstack-macros-2020.1.2-1.el9s
+- project: parallel
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: parallel-20201222-2.el9s
+- project: pycmd
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: pycmd-1.2-23.el9s
+- project: python-Pallets-Sphinx-Themes
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-Pallets-Sphinx-Themes-1.2.2-7.el9s
+- project: python-actdiag
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-actdiag-2.0.0-5.el9s
+- project: python-aiofiles
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-aiofiles-0.6.0-1.el9s
+- project: python-aiohttp
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-aiohttp-3.7.4-1.el9s
+- project: python-aiohttp-cors
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-aiohttp-cors-0.7.0-12.el9s
+- project: python-apipkg
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-apipkg-1.5-12.el9s
+- project: python-async-generator
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-async-generator-1.10-9.el9s
+- project: python-async-timeout
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-async-timeout-3.0.1-11.el9s
+- project: python-betamax
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-betamax-0.8.1-12.el9s
+- project: python-black
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-black-20.8~b1-2.el9s
+- project: python-blinker
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-blinker-1.4-12.el9s
+- project: python-blockdiag
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-blockdiag-2.0.1-4.el9s
+- project: python-case
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-case-1.5.3-10.el9s
+- project: python-cbor2
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-cbor2-5.1.2-3.el9s
+- project: python-cppy
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-cppy-1.1.0-4.el9s
+- project: python-cpuinfo
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-cpuinfo-8.0.0-1.el9s
+- project: python-cram
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-cram-0.7-8.el9s
+- project: python-d2to1
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-d2to1-0.2.12-19.post1.el9s
+- project: python-distlib
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-distlib-0.3.1-4.el9s
+- project: python-django-nose
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-django-nose-1.4.7-3.el9s
+- project: python-dotenv
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-dotenv-0.17.1-2.el9s
+- project: python-email-validator
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-email-validator-1.1.1-3.el9s
+- project: python-execnet
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-execnet-1.7.1-5.el9s
+- project: python-fields
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-fields-5.0.0-8.el9s
+- project: python-filelock
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-filelock-3.0.12-9.el9s
+- project: python-flaky
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-flaky-3.7.0-2.el9s
+- project: python-flexmock
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-flexmock-0.10.4-10.el9s
+- project: python-flit
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-flit-3.3.0-1.el9s
+- project: python-freezegun
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-freezegun-1.0.0-4.el9s
+- project: python-funcparserlib
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-funcparserlib-0.3.6-26.el9s
+- project: python-genshi
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-genshi-0.7.5-3.el9s
+- project: python-genty
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-genty-1.3.2-9.el9s
+- project: python-hamcrest
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-hamcrest-1.9.0-16.el9s
+- project: python-httpbin
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-httpbin-0.7.0-16.el9s
+- project: python-httpretty
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-httpretty-1.0.5-2.el9s
+- project: python-httptools
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-httptools-0.1.0-3.el9s
+- project: python-hypothesis
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-hypothesis-6.14.3-1.el9s
+- project: python-isodate
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-isodate-0.6.0-8.el9s
+- project: python-isort
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-isort-5.8.0-1.el9s
+- project: python-lark-parser
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-lark-parser-0.9.0-2.el9s
+- project: python-m2r
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-m2r-0.2.1-3.20190604git66f4a5a.el9s
+- project: python-mistune
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-mistune-0.8.3-15.el9s
+- project: python-mujson
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-mujson-1.4-1.el9s
+- project: python-multidict
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-multidict-5.1.0-2.el9s
+- project: python-mypy_extensions
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-mypy_extensions-0.4.3-5.el9s
+- project: python-nose-cover3
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-nose-cover3-0.1.0-31.el9s
+- project: python-nose-exclude
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-nose-exclude-0.5.0-11.el9s
+- project: python-openstackdocstheme
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-openstackdocstheme-2.2.6-3.el9s
+- project: python-outcome
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-outcome-1.1.0-1.el9s
+- project: python-pathspec
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pathspec-0.8.1-1.el9s
+- project: python-pkgconfig
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pkgconfig-1.5.2-1.el9s
+- project: python-pkginfo
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pkginfo-1.5.0.1-7.el9s
+- project: python-priority
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-priority-1.3.0-12.el9s
+- project: python-process-tests
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-process-tests-2.1.2-1.el9s
+- project: python-psycopg2
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-psycopg2-2.8.6-3.el9s
+- project: python-pydantic
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pydantic-1.7.3-1.el9s
+- project: python-pykmip
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pykmip-0.8.0-9.el9s
+- project: python-pytest-aiohttp
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-aiohttp-0.3.0-11.el9s
+- project: python-pytest-benchmark
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-benchmark-3.2.3-5.el9s
+- project: python-pytest-cov
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-cov-2.11.1-3.el9s
+- project: python-pytest-expect
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-expect-1.1.0-9.el9s
+- project: python-pytest-flake8
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-flake8-1.0.6-3.el9s
+- project: python-pytest-forked
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-forked-1.3.0-2.el9s
+- project: python-pytest-httpbin
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-httpbin-1.0.0-5.el9s
+- project: python-pytest-isort
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-isort-1.2.0-2.el9s
+- project: python-pytest-mock
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-mock-3.5.1-2.el9s
+- project: python-pytest-mpl
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-mpl-0.12-2.el9s
+- project: python-pytest-toolbox
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-toolbox-0.4-6.el9s
+- project: python-pytest-tornado
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-tornado-0.8.1-3.el9s
+- project: python-pytest-trio
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-trio-0.7.0-2.el9s
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-xdist-2.2.1-1.el9s
+- project: python-pytest-xprocess
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pytest-xprocess-0.18.1-2.el9s
+- project: python-raven
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-raven-6.10.0-12.el9s
+- project: python-rdflib
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-rdflib-5.0.0-1.el9s
+- project: python-regex
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-regex-2021.4.4-1.el9s
+- project: python-reportlab
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-reportlab-3.5.66-1.el9s
+- project: python-requests-download
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-requests-download-0.1.2-5.el9s
+- project: python-requests-unixsocket
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-requests-unixsocket-0.1.5-9.el9s
+- project: python-selenium
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-selenium-3.14.0-5.el9s
+- project: python-seqdiag
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-seqdiag-2.0.0-5.el9s
+- project: python-sh
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sh-1.14.1-2.el9s
+- project: python-should_dsl
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-should_dsl-2.1.2-5.el9s
+- project: python-spec
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-spec-1.4.1-6.el9s
+- project: python-sphinx-epytext
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinx-epytext-0.0.4-5.el9s
+- project: python-sphinx-issues
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinx-issues-1.2.0-8.el9s
+- project: python-sphinx-removed-in
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinx-removed-in-0.2.1-5.el9s
+- project: python-sphinx-testing
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinx-testing-1.0.1-10.el9s
+- project: python-sphinx-theme-py3doc-enhanced
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinx-theme-py3doc-enhanced-2.3.2-19.el9s
+- project: python-sphinxcontrib-actdiag
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-actdiag-2.0.0-2.el9s
+- project: python-sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-apidoc-0.3.0-2.el9s
+- project: python-sphinxcontrib-blockdiag
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-blockdiag-2.0.0-4.el9s
+- project: python-sphinxcontrib-httpdomain
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-httpdomain-1.7.0-11.el9s
+- project: python-sphinxcontrib-log-cabinet
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-log-cabinet-1.0.1-6.el9s
+- project: python-sphinxcontrib-pecanwsme
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-pecanwsme-0.10.0-4.el9s
+- project: python-sphinxcontrib-programoutput
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-programoutput-0.16-1.1.el9s
+- project: python-sphinxcontrib-seqdiag
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-seqdiag-2.0.0-2.el9s
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-sphinxcontrib-svg2pdfconverter-1.1.1-3.el9s
+- project: python-straight-plugin
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-straight-plugin-1.5.0-14.el9s
+- project: python-testpath
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-testpath-0.4.4-4.el9s
+- project: python-tox
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-tox-3.23.0-2.el9s
+- project: python-tox-current-env
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-tox-current-env-0.0.6-1.el9s
+- project: python-trio
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-trio-0.18.0-1.el9s
+- project: python-trustme
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-trustme-0.7.0-1.el9s
+- project: python-typeguard
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-typeguard-2.10.0-3.el9s
+- project: python-typeshed
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-typeshed-0.1-0.20191011git2.el9s
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-typing-extensions-3.7.4.3-2.el9s
+- project: python-u-msgpack-python
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-u-msgpack-python-2.7.1-1.el9s
+- project: python-uvicorn
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-uvicorn-0.13.4-1.el9s
+- project: python-uvloop
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-uvloop-0.14.0-4.el9s
+- project: python-virtualenv
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-virtualenv-20.4.4-1.el9s
+- project: python-watchgod
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-watchgod-0.7-1.el9s
+- project: python-webcolors
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-webcolors-1.11.1-4.el9s
+- project: python-websockets
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-websockets-8.1-3.el9s
+- project: python-wsproto
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-wsproto-1.0.0-1.el9s
+- project: python-yarl
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-yarl-1.6.3-3.el9s
+- project: python-zope-testing
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-zope-testing-4.7-4.el9s
+- project: python3-mypy
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python3-mypy-0.812-1.el9s
+- project: python3-pytest-asyncio
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python3-pytest-asyncio-0.14.0-2.el9s
+- project: python3-typed_ast
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python3-typed_ast-1.4.3-1.el9s
+- project: rubygem-builder
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: rubygem-builder-3.2.4-4.el9s
+- project: rubygem-introspection
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: rubygem-introspection-0.0.4-10.el9s
+- project: rubygem-metaclass
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: rubygem-metaclass-0.0.4-12.el9s
+- project: rubygem-mocha
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: rubygem-mocha-1.9.0-4.el9s
