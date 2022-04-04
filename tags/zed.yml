@@ -1,1220 +1,1080 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    yoga:
+    zed:
 - project: ansible-config_template
   tags:
-    yoga:
+    zed:
 - project: ansible-pacemaker
   tags:
-    yoga:
+    zed:
 - project: ansible-role-atos-hsm
   tags:
-    yoga:
+    zed:
 - project: ansible-role-chrony
   tags:
-    yoga:
+    zed:
 - project: ansible-role-collect-logs
   tags:
-    yoga:
+    zed:
 - project: ansible-role-collectd-config
   tags:
-    yoga:
+    zed:
 - project: ansible-role-container-registry
   tags:
-    yoga:
+    zed:
 - project: ansible-role-lunasa-hsm
   tags:
-    yoga:
+    zed:
 - project: ansible-role-openstack-operations
   tags:
-    yoga:
+    zed:
 - project: ansible-role-qdr-config
   tags:
-    yoga:
+    zed:
 - project: ansible-role-redhat-subscription
   tags:
-    yoga:
+    zed:
 - project: ansible-role-thales-hsm
   tags:
-    yoga:
+    zed:
 - project: ansible-role-tripleo-modify-image
   tags:
-    yoga:
+    zed:
 - project: ansible-tripleo-ipa-server
   tags:
-    yoga:
+    zed:
 - project: aodh
   tags:
-    yoga:
+    zed:
 - project: aodhclient
   tags:
-    yoga:
-      source-branch: 2.4.1
+    zed:
 - project: automaton
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: barbican
   tags:
-    yoga:
+    zed:
 - project: barbican-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: barbicanclient
   tags:
-    yoga:
-      source-branch: 5.3.0
+    zed:
 - project: castellan
   tags:
-    yoga:
-      source-branch: 3.10.1
+    zed:
 - project: ceilometer
   tags:
-    yoga:
+    zed:
 - project: ceilometerclient
   tags:
-    yoga:
-      source-branch: 2.9.0
+    zed:
+      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
 - project: ceilometermiddleware
   tags:
-    yoga:
-      source-branch: 2.4.1
+    zed:
 - project: cinder
   tags:
-    yoga:
+    zed:
 - project: cinder-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: cinderclient
   tags:
-    yoga:
-      source-branch: 8.3.0
+    zed:
 - project: cinderlib
   tags:
-    yoga:
+    zed:
 - project: cliff
   tags:
-    yoga:
-      source-branch: 3.10.1
+    zed:
 - project: cloudkitty
   tags:
-    yoga:
+    zed:
 - project: cloudkitty-dashboard
   tags:
-    yoga:
+    zed:
 - project: cloudkittyclient
   tags:
-    yoga:
-      source-branch: 4.5.0
+    zed:
 - project: collectd-gnocchi
   tags:
-    yoga:
+    zed:
 - project: cursive
   tags:
-    yoga:
-      source-branch: 0.2.2
+    zed:
 - project: debtcollector
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: designate
   tags:
-    yoga:
+    zed:
 - project: designate-dashboard
   tags:
-    yoga:
+    zed:
 - project: designate-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: designateclient
   tags:
-    yoga:
-      source-branch: 4.5.0
+    zed:
 - project: dib-utils
   tags:
-    yoga:
-      source-branch: 0.0.11
+    zed:
 - project: directord
   tags:
-    yoga:
+    zed:
       source-branch: main
 - project: diskimage-builder
   tags:
-    yoga:
+    zed:
 - project: dracclient
   tags:
-    yoga:
+    zed:
 - project: ec2-api
   tags:
-    yoga:
+    zed:
 - project: ec2api-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: futurist
   tags:
-    yoga:
-      source-branch: 2.4.0
+    zed:
 - project: glance
   tags:
-    yoga:
+    zed:
 - project: glance-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: glance_store
   tags:
-    yoga:
-      source-branch: 3.0.0
+    zed:
 - project: glanceclient
   tags:
-    yoga:
-      source-branch: 3.6.0
+    zed:
 - project: glare
   tags:
-    yoga:
+    zed:
 - project: glareclient
   tags:
-    yoga:
-      source-branch: 0.5.3
+    zed:
 - project: glean
   tags:
-    yoga:
+    zed:
 - project: gnocchi
   tags:
-    yoga:
+    zed:
       source-branch: stable/4.4
 - project: gnocchiclient
   tags:
-    yoga:
-      source-branch: 7.0.4
+    zed:
 - project: hacking
   tags:
-    yoga:
-      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    zed:
 - project: hardware
   tags:
-    yoga:
+    zed:
 - project: heat
   tags:
-    yoga:
+    zed:
 - project: heat-agents
   tags:
-    yoga:
+    zed:
 - project: heat-dashboard
   tags:
-    yoga:
+    zed:
 - project: heat-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: heat-translator
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: heatclient
   tags:
-    yoga:
-      source-branch: 2.5.1
+    zed:
 - project: horizon
   tags:
-    yoga:
+    zed:
 - project: ibmcclient
   tags:
-    yoga:
+    zed:
 - project: ironic
   tags:
-    yoga:
+    zed:
 - project: ironic-inspector
   tags:
-    yoga:
+    zed:
 - project: ironic-inspector-client
   tags:
-    yoga:
-      source-branch: 4.7.1
+    zed:
 - project: ironic-lib
   tags:
-    yoga:
-      source-branch: 5.2.0
+    zed:
 - project: ironic-prometheus-exporter
   tags:
-    yoga:
+    zed:
 - project: ironic-python-agent
   tags:
-    yoga:
+    zed:
 - project: ironic-python-agent-builder
   tags:
-    yoga:
+    zed:
 - project: ironic-staging-drivers
   tags:
-    yoga:
+    zed:
 - project: ironic-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: ironic-ui
   tags:
-    yoga:
+    zed:
 - project: ironicclient
   tags:
-    yoga:
-      source-branch: 4.11.0
+    zed:
 - project: keystone
   tags:
-    yoga:
+    zed:
 - project: keystone-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: keystoneauth1
   tags:
-    yoga:
-      source-branch: 4.5.0
+    zed:
 - project: keystoneclient
   tags:
-    yoga:
-      source-branch: 4.4.0
+    zed:
 - project: keystonemiddleware
   tags:
-    yoga:
-      source-branch: 9.4.0
+    zed:
 - project: kolla
   tags:
-    yoga:
+    zed:
 - project: kuryr
   tags:
-    yoga:
+    zed:
 - project: kuryr-kubernetes
   tags:
-    yoga:
+    zed:
 - project: kuryr-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: magnum
   tags:
-    yoga:
+    zed:
 - project: magnum-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: magnum-ui
   tags:
-    yoga:
+    zed:
 - project: magnumclient
   tags:
-    yoga:
-      source-branch: 3.6.0
+    zed:
 - project: manila
   tags:
-    yoga:
+    zed:
 - project: manila-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: manila-ui
   tags:
-    yoga:
+    zed:
 - project: manilaclient
   tags:
-    yoga:
-      source-branch: 3.3.0
+    zed:
 - project: metalsmith
   tags:
-    yoga:
-      source-branch: 1.6.2
+    zed:
 - project: microversion-parse
   tags:
-    yoga:
-      source-branch: 1.0.1
+    zed:
 - project: mistral
   tags:
-    yoga:
+    zed:
 - project: mistral-dashboard
   tags:
-    yoga:
+    zed:
 - project: mistral-extra
   tags:
-    yoga:
+    zed:
 - project: mistral-lib
   tags:
-    yoga:
-      source-branch: 2.6.0
+    zed:
 - project: mistral-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: mistralclient
   tags:
-    yoga:
-      source-branch: 4.4.0
+    zed:
 - project: monascaclient
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: mox3
   tags:
-    yoga:
+    zed:
       source-branch: 1.1.0
 - project: murano
   tags:
-    yoga:
+    zed:
 - project: murano-agent
   tags:
-    yoga:
+    zed:
 - project: murano-dashboard
   tags:
-    yoga:
+    zed:
 - project: murano-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: muranoclient
   tags:
-    yoga:
-      source-branch: 2.4.1
+    zed:
 - project: networking-ansible
   tags:
-    yoga:
+    zed:
 - project: networking-arista
   tags:
-    yoga:
+    zed:
 - project: networking-bagpipe
   tags:
-    yoga:
+    zed:
 - project: networking-baremetal
   tags:
-    yoga:
+    zed:
 - project: networking-bgpvpn
   tags:
-    yoga:
+    zed:
 - project: networking-bigswitch
   tags:
-    yoga:
+    zed:
 - project: networking-generic-switch
   tags:
-    yoga:
+    zed:
 - project: networking-l2gw
   tags:
-    yoga:
+    zed:
 - project: networking-l2gw-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: networking-mlnx
   tags:
-    yoga:
+    zed:
 - project: networking-odl
   tags:
-    yoga:
+    zed:
 - project: networking-omnipath
   tags:
-    yoga:
+    zed:
 - project: networking-sfc
   tags:
-    yoga:
+    zed:
 - project: neutron
   tags:
-    yoga:
+    zed:
 - project: neutron-dynamic-routing
   tags:
-    yoga:
+    zed:
 - project: neutron-lib
   tags:
-    yoga:
-      source-branch: 2.20.0
+    zed:
 - project: neutron-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: neutron-vpnaas
   tags:
-    yoga:
+    zed:
 - project: neutronclient
   tags:
-    yoga:
-      source-branch: 7.8.0
+    zed:
 - project: nova
   tags:
-    yoga:
+    zed:
 - project: novaclient
   tags:
-    yoga:
-      source-branch: 17.7.0
+    zed:
 - project: novajoin
   tags:
-    yoga:
+    zed:
 - project: novajoin-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: octavia
   tags:
-    yoga:
+    zed:
 - project: octavia-dashboard
   tags:
-    yoga:
+    zed:
 - project: octavia-lib
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: octavia-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: octaviaclient
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: openstack-macros
   tags:
-    yoga:
+    zed:
 - project: openstack-selinux
   tags:
-    yoga:
+    zed:
 - project: openstackclient
   tags:
-    yoga:
-      source-branch: 5.8.0
+    zed:
 - project: openstacksdk
   tags:
-    yoga:
-      source-branch: 0.61.0
+    zed:
 - project: os-apply-config
   tags:
-    yoga:
+    zed:
 - project: os-brick
   tags:
-    yoga:
-      source-branch: 5.2.0
+    zed:
 - project: os-client-config
   tags:
-    yoga:
-      source-branch: 2.1.0
+    zed:
 - project: os-collect-config
   tags:
-    yoga:
+    zed:
 - project: os-faults
   tags:
-    yoga:
+    zed:
 - project: os-ken
   tags:
-    yoga:
-      source-branch: 2.3.1
+    zed:
 - project: os-net-config
   tags:
-    yoga:
+    zed:
 - project: os-refresh-config
   tags:
-    yoga:
+    zed:
 - project: os-resource-classes
   tags:
-    yoga:
-      source-branch: 1.1.0
+    zed:
 - project: os-service-types
   tags:
-    yoga:
-      source-branch: 1.7.0
+    zed:
 - project: os-testr
   tags:
-    yoga:
-      source-branch: 2.0.1
+    zed:
 - project: os-traits
   tags:
-    yoga:
-      source-branch: 2.7.0
+    zed:
 - project: os-vif
   tags:
-    yoga:
-      source-branch: 2.7.1
+    zed:
 - project: os-win
   tags:
-    yoga:
-      source-branch: 5.6.0
+    zed:
 - project: os-xenapi
   tags:
-    yoga:
-      source-branch: 0.3.4
+    zed:
 - project: osc-lib
   tags:
-    yoga:
-      source-branch: 2.5.0
+    zed:
 - project: osc-placement
   tags:
-    yoga:
-      source-branch: 3.2.0
+    zed:
 - project: oslo-cache
   tags:
-    yoga:
-      source-branch: 2.10.1
+    zed:
 - project: oslo-concurrency
   tags:
-    yoga:
-      source-branch: 4.5.0
+    zed:
 - project: oslo-config
   tags:
-    yoga:
-      source-branch: 8.8.0
+    zed:
 - project: oslo-context
   tags:
-    yoga:
-      source-branch: 4.1.0
+    zed:
 - project: oslo-db
   tags:
-    yoga:
-      source-branch: 11.2.0
+    zed:
 - project: oslo-i18n
   tags:
-    yoga:
-      source-branch: 5.1.0
+    zed:
 - project: oslo-limit
   tags:
-    yoga:
-      source-branch: 1.5.0
+    zed:
 - project: oslo-log
   tags:
-    yoga:
-      source-branch: 4.7.0
+    zed:
 - project: oslo-messaging
   tags:
-    yoga:
-      source-branch: 12.13.0
+    zed:
 - project: oslo-metrics
   tags:
-    yoga:
-      source-branch: 0.4.0
+    zed:
 - project: oslo-middleware
   tags:
-    yoga:
-      source-branch: 4.5.1
+    zed:
 - project: oslo-policy
   tags:
-    yoga:
-      source-branch: 3.11.0
+    zed:
 - project: oslo-privsep
   tags:
-    yoga:
-      source-branch: 2.7.0
+    zed:
 - project: oslo-reports
   tags:
-    yoga:
-      source-branch: 2.3.0
+    zed:
 - project: oslo-rootwrap
   tags:
-    yoga:
-      source-branch: 6.3.1
+    zed:
 - project: oslo-serialization
   tags:
-    yoga:
-      source-branch: 4.3.0
+    zed:
 - project: oslo-service
   tags:
-    yoga:
-      source-branch: 2.8.0
+    zed:
 - project: oslo-sphinx
   tags:
-    yoga:
+    zed:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    yoga:
-      source-branch: 1.5.0
+    zed:
 - project: oslo-utils
   tags:
-    yoga:
-      source-branch: 4.12.2
+    zed:
 - project: oslo-versionedobjects
   tags:
-    yoga:
-      source-branch: 2.6.0
+    zed:
 - project: oslo-vmware
   tags:
-    yoga:
-      source-branch: 3.10.0
+    zed:
 - project: oslotest
   tags:
-    yoga:
-      source-branch: 4.5.0
+    zed:
 - project: osprofiler
   tags:
-    yoga:
-      source-branch: 3.4.2
+    zed:
 - project: oswin-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: ovn-bgp-agent
   tags:
-    yoga:
+    zed:
 - project: ovn-octavia-provider
   tags:
-    yoga:
+    zed:
 - project: ovsdbapp
   tags:
-    yoga:
-      source-branch: 1.15.1
+    zed:
 - project: packstack
   tags:
-    yoga:
+    zed:
 - project: patrole
   tags:
-    yoga:
+    zed:
 - project: placement
   tags:
-    yoga:
+    zed:
 - project: proliantutils
   tags:
-    yoga:
-      source-branch: 2.12.2
+    zed:
 - project: puppet-aodh
   tags:
-    yoga:
+    zed:
 - project: puppet-apache
   tags:
-    yoga:
-      source-branch: e27004b9d7fda5506d28b6e7b8682a04168bdd21
+    zed:
+      source-branch: main
 - project: puppet-archive
   tags:
-    yoga:
-      source-branch: c49aa3e2ae7585af9520912512c3a51506fe787e
+    zed:
 - project: puppet-auditd
   tags:
-    yoga:
-      source-branch: 189b22ba3cc15024cc77a0e6acd10c44fefb2679
+    zed:
 - project: puppet-barbican
   tags:
-    yoga:
+    zed:
 - project: puppet-cassandra
   tags:
-    yoga:
-      source-branch: 89bf2d1d2393bb85677d95631089b2e57f15fee2
+    zed:
 - project: puppet-ceilometer
   tags:
-    yoga:
+    zed:
 - project: puppet-ceph
   tags:
-    yoga:
+    zed:
 - project: puppet-certmonger
   tags:
-    yoga:
-      source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
+    zed:
 - project: puppet-cinder
   tags:
-    yoga:
+    zed:
 - project: puppet-collectd
   tags:
-    yoga:
-      source-branch: 12791f3d39e2ac81213511270dc8eda706b66aa4
+    zed:
 - project: puppet-concat
   tags:
-    yoga:
-      source-branch: 7bf6cedb695f83ce69573d4958534d116314eff1
+    zed:
+      source-branch: main
 - project: puppet-contrail
   tags:
-    yoga:
-      source-branch: 6f87929aa560660fce203f588487f08cacd0fdf7
+    zed:
 - project: puppet-corosync
   tags:
-    yoga:
-      source-branch: 5f48a6c39a62d406c68b41dabde60f2144405490
+    zed:
 - project: puppet-datacat
   tags:
-    yoga:
-      source-branch: 5cce8f2389c94c0a96d38c85ebe222a0e400e087
+    zed:
 - project: puppet-designate
   tags:
-    yoga:
+    zed:
 - project: puppet-dns
   tags:
-    yoga:
-      source-branch: cc80d3caa6fbb8e7aa3b79aaa8d049d2d443324e
+    zed:
 - project: puppet-ec2api
   tags:
-    yoga:
+    zed:
 - project: puppet-elasticsearch
   tags:
-    yoga:
-      source-branch: 0da23b4210efdde41576b5ae1c2f2958674c950c
+    zed:
 - project: puppet-etcd
   tags:
-    yoga:
-      source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
+    zed:
 - project: puppet-fdio
   tags:
-    yoga:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
+    zed:
 - project: puppet-firewall
   tags:
-    yoga:
-      source-branch: 94f707c6c2b73f1665add77f797b5263da0c9bc6
+    zed:
+      source-branch: main
 - project: puppet-fluentd
   tags:
-    yoga:
-      source-branch: 4dfc15a70970fc9e182c876d6dc74b3764fbea4b
+    zed:
 - project: puppet-git
   tags:
-    yoga:
-      source-branch: 4e4498e3db218cefc27e40b7eb4e442177ccab28
+    zed:
 - project: puppet-glance
   tags:
-    yoga:
+    zed:
 - project: puppet-gnocchi
   tags:
-    yoga:
+    zed:
 - project: puppet-haproxy
   tags:
-    yoga:
-      source-branch: ab1e225809ccc1172a36721f408b19b3a8a87e29
+    zed:
+      source-branch: main
 - project: puppet-heat
   tags:
-    yoga:
+    zed:
 - project: puppet-horizon
   tags:
-    yoga:
+    zed:
 - project: puppet-inifile
   tags:
-    yoga:
-      source-branch: 3ec441bf180894c349c130007f4247516794f5d2
+    zed:
+      source-branch: main
 - project: puppet-ipaclient
   tags:
-    yoga:
-      source-branch: b086731d5f1c0129db3cd8e3ebdc1acd649ebfce
+    zed:
 - project: puppet-ironic
   tags:
-    yoga:
+    zed:
 - project: puppet-java
   tags:
-    yoga:
-      source-branch: d36a0f6f1298176dd3ac912f23424c5c54138bf9
+    zed:
+      source-branch: main
 - project: puppet-kafka
   tags:
-    yoga:
-      source-branch: f8142612f690fa29e0ca3af412fde7886fe4b8c4
+    zed:
 - project: puppet-keepalived
   tags:
-    yoga:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    zed:
 - project: puppet-keystone
   tags:
-    yoga:
+    zed:
 - project: puppet-kibana3
   tags:
-    yoga:
-      source-branch: 6ca9631fbe82766134f98e2e8780bb91e7cd3f0e
+    zed:
 - project: puppet-kmod
   tags:
-    yoga:
-      source-branch: 985384758f957ea2cbb15babb6bfde4d367ba677
+    zed:
 - project: puppet-lib-file_concat
   tags:
-    yoga:
-      source-branch: 813132b5d776204e1da169a93e4bc6a1e253f75c
+    zed:
 - project: puppet-magnum
   tags:
-    yoga:
+    zed:
 - project: puppet-manila
   tags:
-    yoga:
+    zed:
 - project: puppet-memcached
   tags:
-    yoga:
-      source-branch: 51a961a1fe81a8556bb109e509c56bda60c360b3
+    zed:
 - project: puppet-midonet
   tags:
-    yoga:
+    zed:
 - project: puppet-mistral
   tags:
-    yoga:
+    zed:
 - project: puppet-module-data
   tags:
-    yoga:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    zed:
 - project: puppet-mongodb
   tags:
-    yoga:
-      source-branch: 58e45c7972000f86ab28ebff113108944e27b6cb
+    zed:
 - project: puppet-murano
   tags:
-    yoga:
+    zed:
 - project: puppet-mysql
   tags:
-    yoga:
-      source-branch: dd2b6407e245f8bbd87918e158fd063a2aa5cfb9
+    zed:
+      source-branch: main
 - project: puppet-n1k-vsm
   tags:
-    yoga:
+    zed:
 - project: puppet-neutron
   tags:
-    yoga:
+    zed:
 - project: puppet-nova
   tags:
-    yoga:
+    zed:
 - project: puppet-nssdb
   tags:
-    yoga:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    zed:
 - project: puppet-octavia
   tags:
-    yoga:
+    zed:
 - project: puppet-openstack_extras
   tags:
-    yoga:
+    zed:
 - project: puppet-openstacklib
   tags:
-    yoga:
+    zed:
 - project: puppet-oslo
   tags:
-    yoga:
+    zed:
 - project: puppet-ovn
   tags:
-    yoga:
+    zed:
 - project: puppet-pacemaker
   tags:
-    yoga:
+    zed:
 - project: puppet-placement
   tags:
-    yoga:
+    zed:
 - project: puppet-powerdns
   tags:
-    yoga:
-      source-branch: d3d9b3afbefda3f0c01059ee0364f9d3fe411e75
+    zed:
 - project: puppet-qdr
   tags:
-    yoga:
+    zed:
 - project: puppet-rabbitmq
   tags:
-    yoga:
-      source-branch: e9e1da10bb340449937509e3e81ec9f4612e77ed
+    zed:
 - project: puppet-redis
   tags:
-    yoga:
-      source-branch: 406874a0d3010910c1df37353e24585dc4e1b840
+    zed:
 - project: puppet-remote
   tags:
-    yoga:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    zed:
 - project: puppet-rsync
   tags:
-    yoga:
-      source-branch: 4ff5dca1755b3f8bd4dd518ff50b0c02b3d75b00
+    zed:
+      source-branch: main
 - project: puppet-rsyslog
   tags:
-    yoga:
-      source-branch: dfec1469af837e3f2ee1443a2e62e87fa1e4b759
+    # NOTE(aschultz): rsyslog broke backwards compatibility with
+    # # https://github.com/voxpupuli/puppet-rsyslog/pull/136
+    zed:
+      source-branch: 2548a0d95c1549b506b7bb2314dd149b028fc04b
 - project: puppet-sahara
   tags:
-    yoga:
+    zed:
 - project: puppet-sensu
   tags:
-    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
-    # clients to Go language, which we don't provide and will not provide in future,
-    # because Sensu is being deprecated.
-    yoga:
-      source-branch: 20361a4043d2881359551510ada0817caee3bc05
+    zed:
 - project: puppet-snmp
   tags:
-    yoga:
-      source-branch: 7116b196da1e0dc7a6ae5313489e7d59b671d4e4
+    zed:
 - project: puppet-ssh
   tags:
-    yoga:
-      source-branch: b84d4dcea802ce0a12e7d1d96bd71e993cd579bd
+    zed:
 - project: puppet-staging
   tags:
-    yoga:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    zed:
 - project: puppet-stdlib
   tags:
-    yoga:
-      source-branch: ea43f2ecd217ff85fe6797b177c7df7718266a94
+    zed:
+      source-branch: main
 - project: puppet-swift
   tags:
-    yoga:
+    zed:
 - project: puppet-sysctl
   tags:
-    yoga:
-      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
+    zed:
 - project: puppet-systemd
   tags:
-    yoga:
-      source-branch: 76e91a6ce46d1a13cbf7baa0e28ccf40b2ced52a
+    zed:
 - project: puppet-tacker
   tags:
-    yoga:
+    zed:
 - project: puppet-tempest
   tags:
-    yoga:
+    zed:
 - project: puppet-timezone
   tags:
-    yoga:
-      source-branch: 6f1a8e1af9e5a77a54df19d8426c4b408d69c41d
+    zed:
 - project: puppet-tomcat
   tags:
-    yoga:
-      source-branch: 71c5d97c2f7a878f3a52132c1c3b4a103dc0db86
+    zed:
+      source-branch: main
 - project: puppet-tripleo
   tags:
-    yoga:
+    zed:
 - project: puppet-trove
   tags:
-    yoga:
+    zed:
 - project: puppet-uchiwa
   tags:
-    yoga:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
+    zed:
 - project: puppet-vcsrepo
   tags:
-    yoga:
-      source-branch: 35fd75419515da3ad45bd8fbaa800752dc5bf1d7
+    zed:
+      source-branch: main
 - project: puppet-veritas_hyperscale
   tags:
-    yoga:
-      source-branch: 7c7868adb027c5bcfdcb6fc9d86610470759ae28
+    zed:
 - project: puppet-vitrage
   tags:
-    yoga:
+    zed:
 - project: puppet-vlan
   tags:
-    yoga:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    zed:
 - project: puppet-vswitch
   tags:
-    yoga:
+    zed:
 - project: puppet-watcher
   tags:
-    yoga:
+    zed:
 - project: puppet-xinetd
   tags:
-    yoga:
-      source-branch: e742608dccdf42236144acf9f05e483b47c576f1
+    zed:
 - project: puppet-zaqar
   tags:
-    yoga:
+    zed:
 - project: puppet-zookeeper
   tags:
-    yoga:
-      source-branch: b2b1169c24be5e78ea384c1bdc24e810b044c3c7
+    zed:
 - project: pycadf
   tags:
-    yoga:
-      source-branch: 3.1.1
+    zed:
 - project: rally
   tags:
-    yoga:
+    zed:
 - project: rally-openstack
   tags:
-    yoga:
+    zed:
 - project: reno
   tags:
-    yoga:
-      source-branch: 3.5.0
+    zed:
 - project: requestsexceptions
   tags:
-    yoga:
-      source-branch: 1.4.0
+    zed:
 - project: rsd-lib
   tags:
-    yoga:
-      source-branch: 1.2.0
+    zed:
 - project: rsdclient
   tags:
-    yoga:
-      source-branch: 1.0.2
+    zed:
 - project: sahara
   tags:
-    yoga:
+    zed:
 - project: sahara-dashboard
   tags:
-    yoga:
+    zed:
 - project: sahara-image-elements
   tags:
-    yoga:
+    zed:
 - project: sahara-plugin-ambari
   tags:
-    yoga:
+    zed:
 - project: sahara-plugin-cdh
   tags:
-    yoga:
+    zed:
 - project: sahara-plugin-mapr
   tags:
-    yoga:
+    zed:
 - project: sahara-plugin-spark
   tags:
-    yoga:
+    zed:
 - project: sahara-plugin-storm
   tags:
-    yoga:
+    zed:
 - project: sahara-plugin-vanilla
   tags:
-    yoga:
+    zed:
 - project: sahara-tests
   tags:
-    yoga:
+    zed:
 - project: saharaclient
   tags:
-    yoga:
-      source-branch: 3.5.0
+    zed:
 - project: scciclient
   tags:
-    yoga:
+    zed:
 - project: senlin
   tags:
-    yoga:
+    zed:
 - project: senlinclient
   tags:
-    yoga:
-      source-branch: 2.4.0
+    zed:
 - project: shade
   tags:
-    yoga:
-      source-branch: 1.33.0
+    zed:
 - project: sphinx-feature-classification
   tags:
-    yoga:
-      source-branch: 1.1.0
+    zed:
 - project: stackviz
   tags:
-    yoga:
+    zed:
 - project: stevedore
   tags:
-    yoga:
-      source-branch: 3.5.0
+    zed:
 - project: sushy
   tags:
-    yoga:
-      source-branch: 4.1.1
+    zed:
 - project: sushy-oem-idrac
   tags:
-    yoga:
+    zed:
 - project: sushy-tools
   tags:
-    yoga:
+    zed:
 - project: swift
   tags:
-    yoga:
+    zed:
 - project: swiftclient
   tags:
-    yoga:
-      source-branch: 3.13.1
+    zed:
 - project: tacker
   tags:
-    yoga:
+    zed:
 - project: tackerclient
   tags:
-    yoga:
-      source-branch: 1.10.0
+    zed:
 - project: tap-as-a-service
   tags:
-    yoga:
+    zed:
 - project: task-core
   tags:
-    yoga:
+    zed:
       source-branch: main
 - project: taskflow
   tags:
-    yoga:
-      source-branch: 4.6.4
+    zed:
 - project: telemetry-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: tempest
   tags:
-    yoga:
+    zed:
 - project: tempestconf
   tags:
-    yoga:
+    zed:
 - project: tobiko
   tags:
-    yoga:
+    zed:
 - project: tooz
   tags:
-    yoga:
-      source-branch: 2.10.1
+    zed:
 - project: tripleo-ansible
   tags:
-    yoga:
+    zed:
 - project: tripleo-common
   tags:
-    yoga:
+    zed:
 - project: tripleo-heat-templates
   tags:
-    yoga:
+    zed:
 - project: tripleo-image-elements
   tags:
-    yoga:
+    zed:
 - project: tripleo-ipa
   tags:
-    yoga:
+    zed:
 - project: tripleo-ipsec
   tags:
-    yoga:
+    zed:
 - project: tripleo-operator-ansible
   tags:
-    yoga:
+    zed:
 - project: tripleo-powerflex
   tags:
-    yoga:
+    zed:
 - project: tripleo-puppet-elements
   tags:
-    yoga:
+    zed:
 - project: tripleo-repos
   tags:
-    yoga:
+    zed:
 - project: tripleo-validations
   tags:
-    yoga:
+    zed:
 - project: tripleoclient
   tags:
-    yoga:
+    zed:
 - project: trove
   tags:
-    yoga:
+    zed:
 - project: trove-dashboard
   tags:
-    yoga:
+    zed:
 - project: trove-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: troveclient
   tags:
-    yoga:
-      source-branch: 7.2.0
+    zed:
 - project: validations-common
   tags:
-    yoga:
+    zed:
 - project: validations-libs
   tags:
-    yoga:
+    zed:
 - project: virtualbmc
   tags:
-    yoga:
-      source-branch: 2.2.1
+    zed:
 - project: vitrage
   tags:
-    yoga:
+    zed:
 - project: vitrage-dashboard
   tags:
-    yoga:
-      source-branch: 3.0.0
+    zed:
 - project: vitrage-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: vitrageclient
   tags:
-    yoga:
-      source-branch: 4.5.0
+    zed:
 - project: vmware-nsx
   tags:
-    yoga:
+    zed:
 - project: vmware-nsx-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: vmware-nsxlib
   tags:
-    yoga:
+    zed:
 - project: watcher
   tags:
-    yoga:
+    zed:
 - project: watcher-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: wsme
   tags:
-    yoga:
-      source-branch: 0.10.1
+    zed:
 - project: zaqar
   tags:
-    yoga:
+    zed:
 - project: zaqar-tempest-plugin
   tags:
-    yoga:
+    zed:
 - project: zaqarclient
   tags:
-    yoga:
-      source-branch: 2.3.0
+    zed:
