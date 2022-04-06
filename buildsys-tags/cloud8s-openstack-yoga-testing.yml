@@ -1001,6 +1001,9 @@ packages:
 - project: python-txaio
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-txaio-20.4.1-2.el8
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-typing-extensions-3.7.4.3-1.el8
 - project: python-tzlocal
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-tzlocal-1.5.1-9.el8
@@ -1097,9 +1100,6 @@ packages:
 - project: python2-typing
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python2-typing-3.7.4.1-1.el8
-- project: python-typing-extensions
-  buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-typing-extensions-3.7.4.3-1.el8
 - project: qhull
   buildsys-tags:
     cloud8s-openstack-yoga-testing: qhull-7.2.1-2.el8
