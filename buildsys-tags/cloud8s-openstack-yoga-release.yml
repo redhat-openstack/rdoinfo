@@ -1,0 +1,2089 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: GitPython-3.0.2-2.el8
+- project: MUMPS
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: MUMPS-5.2.1-4.el8
+- project: PyYAML
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: PyYAML-5.4.1-2.el8
+- project: abseil-cpp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: abseil-cpp-20210324.2-2.1.el8
+- project: ansible
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-2.9.27-5.el8
+- project: ansible-collection-ansible-netcommon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-collection-ansible-netcommon-2.2.0-1.el8
+- project: ansible-collection-ansible-posix
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-collection-ansible-posix-1.2.0-1.el8
+- project: ansible-collection-ansible-utils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-collection-ansible-utils-2.3.0-1.el8
+- project: ansible-collection-community-general
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-collection-community-general-4.0.0-1.el8
+- project: ansible-collection-containers-podman
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-collection-containers-podman-1.9.3-1.el8
+- project: ansible-freeipa
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-freeipa-0.3.1-1.el8
+- project: aodh
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-aodh-14.0.0-1.el8
+- project: aodhclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-aodhclient-2.4.1-1.el8
+- project: automaton
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-automaton-2.5.0-1.el8
+- project: barbican
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-barbican-14.0.0-1.el8
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-barbican-tests-tempest-1.6.0-1.el8
+- project: barbicanclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-barbicanclient-5.3.0-1.el8
+- project: blosc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: blosc-1.20.1-1.el8
+- project: boost-nowide
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: boost-nowide-0-20190813.gitec9672b.el8
+- project: bridge-utils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: bridge-utils-1.6-4.el8
+- project: castellan
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-castellan-3.10.1-1.el8
+- project: ceilometer
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ceilometer-18.0.0-1.el8
+- project: ceilometerclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ceilometerclient-2.9.0-2.el8
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ceilometermiddleware-2.4.1-1.el8
+- project: cinder
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-cinder-20.0.0-1.el8
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cinder-tests-tempest-1.6.0-1.el8
+- project: cinderclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cinderclient-8.3.0-1.el8
+- project: cinderlib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cinderlib-4.1.0-1.el8
+- project: ck
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ck-0.6.0-10.el8
+- project: cliff
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cliff-3.10.1-1.el8
+- project: cloudkitty
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-cloudkitty-16.0.0-1.el8
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-cloudkitty-ui-14.0.0-1.el8
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cloudkittyclient-4.5.0-1.el8
+- project: coin-or-Cbc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: coin-or-Cbc-2.10.3-2.el8
+- project: coin-or-Cgl
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: coin-or-Cgl-0.60.2-2.el8
+- project: coin-or-Clp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: coin-or-Clp-1.17.3-3.el8
+- project: coin-or-CoinUtils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: coin-or-CoinUtils-2.11.3-2.el8
+- project: coin-or-Osi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: coin-or-Osi-0.108.5-1.el8
+- project: coin-or-Sample
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: coin-or-Sample-1.2.11-3.el8
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-collectd-gnocchi-1.7.1-1.el8
+- project: cpp-hocon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: cpp-hocon-0.3.0-4.1.el8
+- project: crudini
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: crudini-0.9.3-1.el8
+- project: cursive
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cursive-0.2.2-1.el8
+- project: debtcollector
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-debtcollector-2.5.0-1.el8
+- project: designate
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-designate-14.0.0-1.el8
+- project: designate-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-designate-ui-14.0.0-1.el8
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-designate-tests-tempest-0.13.0-1.el8
+- project: designateclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-designateclient-4.5.0-1.el8
+- project: dib-utils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: dib-utils-0.0.11-1.el8
+- project: dibbler
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: dibbler-1.0.1-10.el8
+- project: diskimage-builder
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: diskimage-builder-3.20.1-1.el8
+- project: double-conversion
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: double-conversion-3.1.5-4.el8
+- project: dracclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-dracclient-8.0.0-1.el8
+- project: dumb-init
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: dumb-init-1.2.2-6.el8
+- project: ec2-api
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ec2-api-14.0.0-2.el8
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ec2api-tests-tempest-1.4.0-1.el8
+- project: environment-modules
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: environment-modules-4.4.1-1.el8
+- project: etcd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: etcd-3.2.21-2.el8
+- project: facter
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: facter-3.14.7-7.el8
+- project: future
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: future-0.18.2-3.el8
+- project: futurist
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-futurist-2.4.0-1.el8
+- project: gflags
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: gflags-2.2.2-3.el8
+- project: glance
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-glance-24.0.0-1.el8
+- project: glance-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-glance-tests-tempest-0.3.0-1.el8
+- project: glance_store
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-glance-store-3.0.0-1.el8
+- project: glanceclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-glanceclient-3.6.0-1.el8
+- project: glareclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-glareclient-0.5.3-2.el8
+- project: glpk
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: glpk-4.65-4.el8
+- project: gnocchi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: gnocchi-4.4.1-1.el8
+- project: gnocchiclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-gnocchiclient-7.0.4-2.el8
+- project: golang-github-vbatts-tar-split
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: golang-github-vbatts-tar-split-0.11.1-2.el8
+- project: google-api-python-client
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: google-api-python-client-1.6.7-10.el8
+- project: gperftools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: gperftools-2.7-6.el8
+- project: grpc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: grpc-1.26.0-1.el8
+- project: gv
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: gv-3.7.4-21.el8
+- project: hacking
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-hacking-1.1.0-2.el8
+- project: hardware
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-hardware-0.29.1-1.el8
+- project: hdf5
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: hdf5-1.10.5-5.el8
+- project: heat
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-heat-18.0.0-1.el8
+- project: heat-agents
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-heat-agents-4.0.0-1.el8
+- project: heat-cfntools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: heat-cfntools-1.4.2-11.el8
+- project: heat-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-heat-ui-7.0.0-1.el8
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-heat-tests-tempest-1.5.0-1.el8
+- project: heat-translator
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-heat-translator-2.5.0-1.el8
+- project: heatclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-heatclient-2.5.1-1.el8
+- project: hiera
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: hiera-3.6.0-1.el8
+- project: horizon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-horizon-22.1.0-1.el8
+- project: ibmcclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ibmcclient-0.2.5.1-1.el8
+- project: ironic
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ironic-20.1.0-1.el8
+- project: ironic-inspector
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ironic-inspector-10.11.0-1.el8
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ironic-inspector-client-4.7.1-1.el8
+- project: ironic-lib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ironic-lib-5.2.0-1.el8
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ironic-prometheus-exporter-3.1.0-1.el8
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ironic-python-agent-8.5.0-1.el8
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ironic-python-agent-builder-4.0.1-1.el8
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ironic-staging-drivers-0.16.0-1.el8
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ironic-tests-tempest-2.4.0-1.el8
+- project: ironic-ui
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-ironic-ui-5.1.0-1.el8
+- project: ironicclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ironicclient-4.11.0-1.el8
+- project: jemalloc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: jemalloc-5.2.1-2.el8
+- project: jsoncpp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: jsoncpp-1.9.2-1.el8
+- project: keystone
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-keystone-21.0.0-1.el8
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-keystone-tests-tempest-0.9.0-1.el8
+- project: keystoneauth1
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-keystoneauth1-4.5.0-1.el8
+- project: keystoneclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-keystoneclient-4.4.0-1.el8
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-keystonemiddleware-9.4.0-1.el8
+- project: kuryr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kuryr-lib-2.5.0-1.el8
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-kuryr-kubernetes-6.0.0-1.el8
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kuryr-tests-tempest-0.12.0-1.el8
+- project: leatherman
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: leatherman-1.12.0-5.el8
+- project: liberasurecode
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: liberasurecode-1.6.0-4.el8
+- project: libimagequant
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: libimagequant-2.12.6-1.el8
+- project: librdkafka
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: librdkafka-1.5.0-1.el8
+- project: libsodium
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: libsodium-1.0.18-2.el8
+- project: libunwind
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: libunwind-1.3.1-3.el8
+- project: libuv
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: libuv-1.23.1-1.el8
+- project: libwebsockets
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: libwebsockets-3.2.2-1.el8
+- project: luajit
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: luajit-2.1.0-0.16beta3.el8
+- project: magnum
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-magnum-14.0.0-1.el8
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-magnum-tests-tempest-1.6.0-1.el8
+- project: magnum-ui
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-magnum-ui-10.0.0-1.el8
+- project: magnumclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-magnumclient-3.6.0-1.el8
+- project: manila
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-manila-14.0.0-1.el8
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-manila-tests-tempest-1.7.0-1.el8
+- project: manila-ui
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-manila-ui-7.0.0-1.el8
+- project: manilaclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-manilaclient-3.3.0-1.el8
+- project: microversion-parse
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-microversion-parse-1.0.1-1.el8
+- project: mistral
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-mistral-14.0.0-1.el8
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-mistral-ui-14.0.0-1.el8
+- project: mistral-extra
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mistral-extra-11.2.0-1.el8
+- project: mistral-lib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mistral-lib-2.6.0-1.el8
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mistral-tests-tempest-1.4.0-1.el8
+- project: mistralclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mistralclient-4.4.0-1.el8
+- project: mod_xsendfile
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: mod_xsendfile-0.12-19.el8
+- project: monascaclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-monascaclient-2.5.0-1.el8
+- project: mox3
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mox3-1.1.0-1.el8
+- project: mp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: mp-3.1.0-24.20161124git1f39801.el8
+- project: murano
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-murano-13.0.0-1.el8
+- project: murano-agent
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-murano-agent-9.0.0-1.el8
+- project: murano-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-murano-ui-13.0.0-1.el8
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-murano-tests-tempest-2.4.0-1.el8
+- project: muranoclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-muranoclient-2.4.1-1.el8
+- project: nauty
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: nauty-2.6.12-1.el8
+- project: ndisc6
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ndisc6-1.0.3-9.el8
+- project: networking-l2gw
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-networking-l2gw-18.0.0-1.el8
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-networking-bgpvpn-16.0.0-1.el8
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
+- project: neutron
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-neutron-20.0.0-1.el8
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-neutron-dynamic-routing-20.0.0-1.el8
+- project: neutron-lib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-neutron-lib-2.20.0-1.el8
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-neutron-tests-tempest-1.9.0-1.el8
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-neutron-vpnaas-20.0.0-1.el8
+- project: neutronclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-neutronclient-7.8.0-1.el8
+- project: nova
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-nova-25.0.0-1.el8
+- project: novaclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-novaclient-17.7.0-1.el8
+- project: novajoin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-novajoin-1.3.0-1.el8
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-novajoin-tests-tempest-0.0.3-1.1.b2e5485git.el8
+- project: novnc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: novnc-1.3.0-1.el8
+- project: octavia
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-octavia-10.0.0-1.el8
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-octavia-ui-9.0.0-1.el8
+- project: octavia-lib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-octavia-lib-2.5.0-1.el8
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-octavia-tests-tempest-1.9.0-1.el8
+- project: octaviaclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-octaviaclient-2.5.0-1.el8
+- project: openpgm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openpgm-5.2.122-21.el8
+- project: openstack-selinux
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-selinux-0.8.30-1.el8
+- project: openstackclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-openstackclient-5.8.0-1.el8
+- project: openstacksdk
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-openstacksdk-0.61.0-1.el8
+- project: os-apply-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: os-apply-config-13.1.0-1.el8
+- project: os-brick
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-brick-5.2.0-1.el8
+- project: os-client-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-client-config-2.1.0-2.el8
+- project: os-collect-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: os-collect-config-13.1.0-1.el8
+- project: os-faults
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-faults-0.2.7-1.el8
+- project: os-ken
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-ken-2.3.1-1.el8
+- project: os-net-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: os-net-config-15.1.0-1.el8
+- project: os-refresh-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: os-refresh-config-13.0.1-1.el8
+- project: os-resource-classes
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-resource-classes-1.1.0-1.el8
+- project: os-service-types
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-service-types-1.7.0-3.el8
+- project: os-testr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-testr-2.0.1-1.el8
+- project: os-traits
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-traits-2.7.0-1.el8
+- project: os-vif
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-vif-2.7.1-1.el8
+- project: os-win
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-win-5.6.0-1.el8
+- project: os-xenapi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-os-xenapi-0.3.4-1.el8
+- project: osc-lib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-osc-lib-2.5.0-1.el8
+- project: osc-placement
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-osc-placement-3.2.0-1.el8
+- project: oslo-cache
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-cache-2.10.1-1.el8
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-concurrency-4.5.0-1.el8
+- project: oslo-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-config-8.8.0-1.el8
+- project: oslo-context
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-context-4.1.0-1.el8
+- project: oslo-db
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-db-11.2.0-1.el8
+- project: oslo-i18n
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-i18n-5.1.0-1.el8
+- project: oslo-limit
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-limit-1.5.0-1.el8
+- project: oslo-log
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-log-4.7.0-1.el8
+- project: oslo-messaging
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-messaging-12.13.0-1.el8
+- project: oslo-metrics
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-metrics-0.4.0-1.el8
+- project: oslo-middleware
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-middleware-4.5.1-1.el8
+- project: oslo-policy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-policy-3.11.0-1.el8
+- project: oslo-privsep
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-privsep-2.7.0-1.el8
+- project: oslo-reports
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-reports-2.3.0-1.el8
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-rootwrap-6.3.1-1.el8
+- project: oslo-serialization
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-serialization-4.3.0-1.el8
+- project: oslo-service
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-service-2.8.0-1.el8
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-sphinx-4.18.0-1.el8
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-upgradecheck-1.5.0-1.el8
+- project: oslo-utils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-utils-4.12.2-1.el8
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-versionedobjects-2.6.0-1.el8
+- project: oslo-vmware
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslo-vmware-3.10.0-1.el8
+- project: oslotest
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oslotest-4.5.0-1.el8
+- project: osprofiler
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-osprofiler-3.4.2-1.el8
+- project: oswin-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oswin-tests-tempest-1.4.0-1.el8
+- project: ovn-octavia-provider
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ovn-octavia-provider-2.0.0-1.el8
+- project: ovsdbapp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ovsdbapp-1.15.1-1.el8
+- project: packstack
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-packstack-20.0.0-0.1.0rc1.el8
+- project: patrole
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-patrole-0.14.0-1.el8
+- project: placement
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-placement-7.0.0-1.el8
+- project: proliantutils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-proliantutils-2.12.2-1.el8
+- project: protobuf
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: protobuf-3.11.2-2.el8
+- project: puppet
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-7.8.0-1.el8
+- project: puppet-aodh
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-aodh-20.3.0-1.el8
+- project: puppet-apache
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-apache-7.0.0-1.e27004bgit.el8
+- project: puppet-archive
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-archive-6.0.3-0.1.0rc0.c49aa3egit.el8
+- project: puppet-auditd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-auditd-2.2.0-3.189b22bgit.el8
+- project: puppet-barbican
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-barbican-20.3.0-1.el8
+- project: puppet-cassandra
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-cassandra-3.1.1-0.4.0rc0.89bf2d1git.el8
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ceilometer-20.3.0-1.el8
+- project: puppet-ceph
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ceph-3.1.1-1.el8
+- project: puppet-certmonger
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-certmonger-2.7.1-1.3e2e660git.el8
+- project: puppet-cinder
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-cinder-20.3.0-1.el8
+- project: puppet-collectd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-collectd-13.0.1-0.1.0rc0.12791f3git.el8
+- project: puppet-concat
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-concat-7.1.1-2.7bf6cedgit.el8
+- project: puppet-contrail
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-contrail-1.0.0-5.6f87929git.el8
+- project: puppet-corosync
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-corosync-8.2.1-0.2.0rc0.5f48a6cgit.el8
+- project: puppet-datacat
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-datacat-0.6.2-1.5cce8f2git.el8
+- project: puppet-designate
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-designate-20.3.0-1.el8
+- project: puppet-dns
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-dns-9.2.0-1.cc80d3cgit.el8
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ec2api-20.3.0-1.el8
+- project: puppet-elasticsearch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-elasticsearch-8.0.1-0.1.0rc0.0da23b4git.el8
+- project: puppet-etcd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-etcd-1.12.3-1.el8
+- project: puppet-fdio
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-fdio-18.01-3.6fd1c8egit.el8
+- project: puppet-firewall
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-firewall-3.4.0-1.94f707cgit.el8
+- project: puppet-fluentd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-fluentd-0.10.0-2.4dfc15agit.el8
+- project: puppet-git
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-git-0.5.0-1.4e4498egit.el8
+- project: puppet-glance
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-glance-20.3.0-1.el8
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-gnocchi-20.3.0-1.el8
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-haproxy-6.2.1-2.ab1e225git.el8
+- project: puppet-heat
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-heat-20.3.0-1.el8
+- project: puppet-horizon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-horizon-20.3.0-1.el8
+- project: puppet-inifile
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-inifile-5.2.0-2.3ec441bgit.el8
+- project: puppet-ipaclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ipaclient-2.5.2-1.b086731git.el8
+- project: puppet-ironic
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ironic-20.3.0-1.el8
+- project: puppet-java
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-java-7.3.0-1.d36a0f6git.el8
+- project: puppet-kafka
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-kafka-8.0.1-0.1.0rc0.f814261git.el8
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
+- project: puppet-keystone
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-keystone-20.3.0-1.el8
+- project: puppet-kibana3
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-kibana3-0.0.4-1.6ca9631git.el8
+- project: puppet-kmod
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-kmod-3.1.2-0.1.0rc0.9853847git.el8
+- project: puppet-lib-file_concat
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-lib-file_concat-1.0.1-1.el8
+- project: puppet-magnum
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-magnum-20.3.0-1.el8
+- project: puppet-manila
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-manila-20.3.0-1.el8
+- project: puppet-memcached
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-memcached-7.0.0-2.51a961agit.el8
+- project: puppet-mistral
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-mistral-20.3.0-1.el8
+- project: puppet-module-data
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-module-data-0.5.1-1.28dafcegit.el8
+- project: puppet-mongodb
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-mongodb-4.1.2-0.1.0rc0.58e45c7git.el8
+- project: puppet-murano
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-murano-20.3.0-1.el8
+- project: puppet-mysql
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-mysql-12.0.1-2.dd2b640git.el8
+- project: puppet-neutron
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-neutron-20.3.0-1.el8
+- project: puppet-nova
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-nova-20.3.0-1.el8
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
+- project: puppet-octavia
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-octavia-20.3.0-1.el8
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-openstack_extras-20.3.0-1.el8
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-openstacklib-20.3.0-1.el8
+- project: puppet-oslo
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-oslo-20.3.0-1.el8
+- project: puppet-ovn
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ovn-20.3.0-1.el8
+- project: puppet-placement
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-placement-7.3.0-1.el8
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
+- project: puppet-qdr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-qdr-9.3.0-1.el8
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-rabbitmq-11.1.1-0.2.0rc0.e9e1da1git.el8
+- project: puppet-redis
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-redis-8.2.1-0.1.0rc0.406874agit.el8
+- project: puppet-remote
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-remote-10.0.0-1.7420908git.el8
+- project: puppet-rsync
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-rsync-1.2.0-1.4ff5dcagit.el8
+- project: puppet-sahara
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-sahara-20.3.0-1.el8
+- project: puppet-snmp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-snmp-6.0.1-0.1.0rc0.7116b19git.el8
+- project: puppet-ssh
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-ssh-8.0.0-1.b84d4dcgit.el8
+- project: puppet-staging
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-staging-1.0.4-1.b466d93git.el8
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-stdlib-8.1.0-2.ea43f2egit.el8
+- project: puppet-swift
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-swift-20.3.0-1.el8
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-sysctl-0.0.12-2.847ec1cgit.el8
+- project: puppet-systemd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-systemd-3.8.1-0.1.0rc0.65af359git.el8
+- project: puppet-tacker
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-tacker-20.3.0-1.el8
+- project: puppet-tempest
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-tempest-20.3.0-1.el8
+- project: puppet-timezone
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-timezone-6.1.0-3.6f1a8e1git.el8
+- project: puppet-tomcat
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-tomcat-6.1.0-2.71c5d97git.el8
+- project: puppet-trove
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-trove-20.3.0-1.el8
+- project: puppet-uchiwa
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-uchiwa-2.1.1-2.837c669git.el8
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-vcsrepo-5.0.0-2.35fd754git.el8
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-vitrage-10.3.0-1.el8
+- project: puppet-vlan
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-vlan-0.1.0-1.el8
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-vswitch-16.3.0-1.el8
+- project: puppet-watcher
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-watcher-20.3.0-1.el8
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-xinetd-3.3.0-1.e742608git.el8
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-zaqar-20.3.0-1.el8
+- project: puppet-zookeeper
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-zookeeper-1.2.1-1.b2b1169git.el8
+- project: pycadf
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pycadf-3.1.1-1.el8
+- project: pydot
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pydot-1.4.1-1.el8
+- project: pyflakes
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pyflakes-2.2.0-3.el8
+- project: pyparsing
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pyparsing-2.4.6-1.el8
+- project: pysendfile
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pysendfile-2.0.1-15.el8
+- project: pysnmp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pysnmp-4.4.12-1.el8
+- project: pystache
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pystache-0.5.4-13.el8
+- project: pytest
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: pytest-4.6.9-1.el8
+- project: python-APScheduler
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-APScheduler-3.5.3-3.el8
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-Bottleneck-1.2.1-13.el8
+- project: python-PuLP
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-PuLP-1.6.5-1.el8
+- project: python-SecretStorage
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-SecretStorage-3.1.1-4.el8
+- project: python-XStatic
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-1.0.1-19.el8
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-1.5.8.0-10.el8
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-UUID-0.0.4.0-9.el8
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-Vis-4.16.0.0-6.el8
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-D3-3.5.17.0-10.el8
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-FileSaver-1.3.2.0-6.el8
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Font-Awesome-4.7.0.0-10.el8
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Hogan-2.0.0.2-17.el8
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-JS-Yaml-3.8.1.0-7.el8
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-JSEncrypt-2.3.1.1-9.el8
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Jasmine-2.4.1.1-9.el8
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Json2yaml-0.1.1.0-6.el8
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Magic-Search-0.2.5.1-12.el8
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Rickshaw-1.5.0.0-19.el8
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-Spin-1.2.5.2-18.el8
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-bootswatch-3.3.7.0-11.el8
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-jQuery-1.10.2.1-1.el8
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-jquery-ui-1.12.0.1-9.el8
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-mdi-1.6.50.2-1.el8
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-objectpath-1.2.1.0-2.el8
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-smart-table-1.4.13.2-9.el8
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-termjs-0.0.7.0-9.el8
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-XStatic-tv4-1.2.7.0-2.el8
+- project: python-alembic
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-alembic-1.7.1-3.el8
+- project: python-amqp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-amqp-5.0.9-1.el8
+- project: python-aniso8601
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-aniso8601-8.1.0-1.el8
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ansible-runner-1.4.6-3.el8
+- project: python-anyjson
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-anyjson-0.3.3-24.el8
+- project: python-appdirs
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-appdirs-1.4.3-12.el8
+- project: python-asgiref
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-asgiref-3.4.1-6.el8
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-atomicwrites-1.3.0-6.el8
+- project: python-autobahn
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-autobahn-20.7.1-2.el8
+- project: python-autopage
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-autopage-0.4.0-1.el8
+- project: python-bcrypt
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-bcrypt-3.1.7-3.el8
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-beautifulsoup4-4.9.3-1.el8
+- project: python-boto
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-boto-2.49.0-4.el8
+- project: python-boto3
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-boto3-1.6.1-2.el8
+- project: python-botocore
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-botocore-1.17.52-1.el8
+- project: python-cachetools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cachetools-4.2.0-1.el8
+- project: python-certifi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-certifi-2018.10.15-8.el8
+- project: python-cffi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cffi-1.13.2-1.el8
+- project: python-cmd2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cmd2-1.4.0-1.1.el8
+- project: python-colorama
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-colorama-0.4.3-3.el8
+- project: python-configparser
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-configparser-3.7.1-6.el8
+- project: python-confluent-kafka
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-confluent-kafka-0.11.6-8.el8
+- project: python-construct
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-construct-2.10.56-1.el8
+- project: python-contextlib2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-contextlib2-0.5.5-12.el8
+- project: python-contextvars
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-contextvars-2.4-1.el8
+- project: python-cotyledon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cotyledon-1.7.3-4.el8
+- project: python-cradox
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cradox-2.1.0-7.el8
+- project: python-croniter
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-croniter-0.3.35-1.el8
+- project: python-cryptography
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cryptography-3.2.1-1.el8
+- project: python-cssselect
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cssselect-0.9.2-13.el8
+- project: python-curio
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-curio-1.4-1.el8
+- project: python-cycler
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-cycler-0.10.0-13.el8
+- project: python-daemon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-daemon-2.2.4-3.el8
+- project: python-daiquiri
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-daiquiri-1.5.0-6.el8
+- project: python-dataclasses
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-dataclasses-0.8-1.el8
+- project: python-ddt
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ddt-1.2.1-4.el8
+- project: python-decorator
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-decorator-4.4.0-5.el8
+- project: python-defusedxml
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-defusedxml-0.7.1-1.el8
+- project: python-deprecation
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-deprecation-2.1.0-1.el8
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-dictdiffer-0.8.1-2.el8
+- project: python-distro
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-distro-1.4.0-4.el8
+- project: python-django
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-3.2.12-1.2.el8
+- project: python-django-appconf
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-appconf-1.0.3-1.el8
+- project: python-django-compressor
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-compressor-2.4.1-1.el8
+- project: python-django-debreach
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-debreach-2.0.1-1.el8
+- project: python-django-formtools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-formtools-2.2-1.el8
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-django-pyscss-2.0.2-14.el8
+- project: python-docker
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-docker-4.2.1-3.el8
+- project: python-docker-pycreds
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-docker-pycreds-0.4.0-5.el8
+- project: python-docopt
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-docopt-0.6.2-15.el8
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-dogpile-cache-1.1.5-1.1.el8
+- project: python-dulwich
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-dulwich-0.20.11-1.el8
+- project: python-edengrid
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-edgegrid-1.1.1-6.el8
+- project: python-editor
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-editor-1.0.4-4.el8
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-elasticsearch-7.5.1-1.el8
+- project: python-entrypoints
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-entrypoints-0.3-4.el8
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-etcd3gw-0.2.5-1.el8
+- project: python-eventlet
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-eventlet-0.33.0-2.el8
+- project: python-exabgp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-exabgp-4.0.10-4.el8
+- project: python-extras
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-extras-1.0.0-10.el8
+- project: python-falcon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-falcon-2.0.0-1.el8
+- project: python-fastavro
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-fastavro-0.19.8-2.el8
+- project: python-fastcache
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-fastcache-1.1.0-5.el8
+- project: python-fasteners
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-fasteners-0.14.1-20.el8
+- project: python-fixtures
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-fixtures-3.0.0-27.el8
+- project: python-flake8
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-flake8-3.8.4-1.el8
+- project: python-flask
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-flask-1.1.2-4.el8
+- project: python-flask-restful
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-flask-restful-0.3.9-2.el8
+- project: python-fluidity-sm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-fluidity-sm-0.2.0-16.el8
+- project: python-funcsigs
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-funcsigs-1.0.2-17.el8
+- project: python-gabbi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-gabbi-1.49.0-1.el8
+- project: python-gitdb
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-gitdb-2.0.3-10.el8
+- project: python-gmpy2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-gmpy2-2.0.8-7.el8
+- project: python-google-auth
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-google-auth-1.24.0-1.el8
+- project: python-gunicorn
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-gunicorn-20.0.4-1.el8
+- project: python-h11
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-h11-0.12.0-1.el8
+- project: python-h2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-h2-3.2.0-4.el8
+- project: python-hpack
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-hpack-3.0.0-11.el8
+- project: python-hstspreload
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-hstspreload-2020.9.29-1.el8
+- project: python-httpcore
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-httpcore-0.12.2-1.2.el8
+- project: python-httplib2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-httplib2-0.16.0-1.el8
+- project: python-httpx
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-httpx-0.16.1-1.1.el8
+- project: python-hyperframe
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-hyperframe-5.2.0-7.el8
+- project: python-ifaddr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ifaddr-0.1.7-2.el8
+- project: python-immutables
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-immutables-0.14-1.el8
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-importlib-metadata-1.7.0-1.el8
+- project: python-importlib-resources
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-importlib-resources-4.1.1-1.el8
+- project: python-influxdb
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-influxdb-5.2.0-6.el8
+- project: python-invoke
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-invoke-1.4.0-1.el8
+- project: python-iso8601
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-iso8601-0.1.12-3.el8
+- project: python-jeepney
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-jeepney-0.4.3-1.el8
+- project: python-json-logger
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-json-logger-0.1.7-11.el8
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-jsonpath-rw-1.4.0-3.el8
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-jsonpath-rw-ext-1.2.2-1.el8
+- project: python-jsonschema
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-jsonschema-3.2.0-5.el8
+- project: python-junitxml
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-junitxml-0.7-20.el8
+- project: python-kafka
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kafka-1.4.3-3.el8
+- project: python-kazoo
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kazoo-2.8.0-1.el8
+- project: python-kerberos
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kerberos-1.3.0-7.el8
+- project: python-keyring
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-keyring-21.0.0-1.el8
+- project: python-kiwisolver
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kiwisolver-1.1.0-4.el8
+- project: python-kombu
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kombu-5.0.2-1.el8
+- project: python-kubernetes
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-kubernetes-21.7.0-1.el8
+- project: python-ldap3
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ldap3-2.8.1-1.el8
+- project: python-ldappool
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ldappool-2.4.0-5.el8
+- project: python-lesscpy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-lesscpy-0.13.0-12.el8
+- project: python-lexicon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-lexicon-1.0.0-9.el8
+- project: python-linecache2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-linecache2-1.0.0-25.el8
+- project: python-lockfile
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-lockfile-0.11.0-16.el8
+- project: python-logutils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-logutils-0.3.5-11.el8
+- project: python-lz4
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-lz4-2.1.2-6.el8
+- project: python-marathon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-marathon-0.8.8-12.el8
+- project: python-matplotlib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-matplotlib-3.1.1-2.el8
+- project: python-mccabe
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mccabe-0.6.1-14.el8
+- project: python-memcached
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-memcached-1.59-1.el8
+- project: python-migrate
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-migrate-0.13.0-1.el8
+- project: python-mimeparse
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mimeparse-1.6.0-11.el8
+- project: python-mock
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mock-3.0.5-7.el8
+- project: python-monotonic
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-monotonic-1.5-5.el8
+- project: python-more-itertools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-more-itertools-7.2.0-3.el8
+- project: python-mpmath
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-mpmath-1.1.0-6.el8
+- project: python-msgpack
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-msgpack-1.0.3-2.el8
+- project: python-munch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-munch-2.5.0-3.el8
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-murano-pkg-check-0.3.0-15.el8
+- project: python-natsort
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-natsort-7.1.0-1.el8
+- project: python-ndg_httpsclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ndg_httpsclient-0.5.1-5.el8
+- project: python-netmiko
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-netmiko-3.0.0-1.el8
+- project: python-network-runner
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-network-runner-0.2.2-2.el8
+- project: python-networkx
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-networkx-2.5-1.el8
+- project: python-ntlm-auth
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ntlm-auth-1.5.0-1.el8
+- project: python-numexpr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-numexpr-2.7.1-1.el8
+- project: python-oauth2client
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-oauth2client-4.1.3-8.el8
+- project: python-olefile
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-olefile-0.46-8.el8
+- project: python-openshift
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-openshift-0.10.1-3.el8
+- project: python-packaging
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-packaging-20.4-1.el8
+- project: python-pandas
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pandas-0.25.3-1.el8
+- project: python-paramiko
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-paramiko-2.7.2-1.el8
+- project: python-passlib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-passlib-1.7.4-1.el8
+- project: python-paste
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-paste-3.5.0-1.el8
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-paste-deploy-2.1.1-1.el8
+- project: python-pathlib2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pathlib2-2.3.5-1.el8
+- project: python-pbr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pbr-5.5.1-1.el8
+- project: python-pecan
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pecan-1.3.3-2.el8
+- project: python-pexpect
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pexpect-4.7.0-4.el8
+- project: python-pint
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pint-0.10.1-1.el8
+- project: python-pluggy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pluggy-0.13.1-2.el8
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-posix_ipc-0.9.8-22.el8
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-prometheus_client-0.7.1-2.el8
+- project: python-psutil
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-psutil-5.7.3-1.el8
+- project: python-pyasn1
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyasn1-0.4.6-3.el8
+- project: python-pycdlib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pycdlib-1.11.0-3.el8
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pycodestyle-2.6.0-4.el8
+- project: python-pyeclib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyeclib-1.6.0-2.el8
+- project: python-pygal
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pygal-2.4.0-12.el8
+- project: python-pyghmi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyghmi-1.5.19-1.el8
+- project: python-pyglet
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyglet-1.4.6-1.el8
+- project: python-pygraphviz
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pygraphviz-1.5-9.el8
+- project: python-pykwalify
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pykwalify-1.7.0-5.el8
+- project: python-pymemcache
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pymemcache-3.5.0-1.el8
+- project: python-pynacl
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pynacl-1.4.0-1.el8
+- project: python-pyngus
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyngus-2.3.0-4.el8
+- project: python-pyperclip
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyperclip-1.8.0-2.el8
+- project: python-pyroute2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyroute2-0.6.5-2.el8
+- project: python-pyrsistent
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pyrsistent-0.17.3-1.el8
+- project: python-pysaml2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pysaml2-6.1.0-1.el8
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pytest-runner-4.0-8.el8
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-pytimeparse-1.1.8-4.el8
+- project: python-rcssmin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-rcssmin-1.0.6-18.el8
+- project: python-redis
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-redis-3.5.3-1.el8
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-repoze-lru-0.7-6.el8
+- project: python-requests
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-requests-2.25.1-1.el8
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-requests-kerberos-0.12.0-8.el8
+- project: python-requests-mock
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-requests-mock-1.8.0-1.el8
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-requests_ntlm-1.1.0-9.el8
+- project: python-responses
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-responses-0.10.14-1.el8
+- project: python-retrying
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-retrying-1.3.3-1.el8
+- project: python-rfc3986
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-rfc3986-1.4.0-3.el8
+- project: python-rjsmin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-rjsmin-1.1.0-1.el8
+- project: python-routes
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-routes-2.4.1-12.el8
+- project: python-rsa
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-rsa-4.8-1.el8
+- project: python-ruamel-yaml
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ruamel-yaml-0.16.5-3.el8
+- project: python-ruamel-yaml-clib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ruamel-yaml-clib-0.1.2-1.el8
+- project: python-s3transfer
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-s3transfer-0.3.3-3.el8
+- project: python-scandir
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-scandir-1.9.0-9.el8
+- project: python-scp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-scp-0.13.3-2.el8
+- project: python-scrypt
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-scrypt-0.8.0-11.el8
+- project: python-scss
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-scss-1.3.7-3.el8
+- project: python-semver
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-semver-2.13.0-1.el8
+- project: python-service-identity
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-service-identity-18.1.0-5.el8
+- project: python-setproctitle
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-setproctitle-1.1.10-16.el8
+- project: python-setuptools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-setuptools-50.3.2-1.el8
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-simplegeneric-0.8.1-17.el8
+- project: python-simplejson
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-simplejson-3.17.6-2.el8
+- project: python-singledispatch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-singledispatch-3.4.0.3-18.el8
+- project: python-six
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-six-1.15.0-2.el8
+- project: python-smi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-smi-0.3.4-6.el8
+- project: python-smmap
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-smmap-2.0.3-9.el8
+- project: python-snappy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-snappy-0.5.4-5.el8
+- project: python-sniffio
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sniffio-1.2.0-1.el8
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sortedcontainers-2.3.0-1.el8
+- project: python-soupsieve
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-soupsieve-2.3.1-2.el8
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sphinx-argparse-0.2.2-8.el8
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sqlalchemy-1.4.31-1.el8
+- project: python-sqlalchemy-filters
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sqlalchemy-filters-0.12.0-2.el8
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sqlalchemy-utils-0.37.8-1.el8
+- project: python-sqlparse
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sqlparse-0.3.1-3.el8
+- project: python-sseclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sseclient-0.0.18-9.el8
+- project: python-ssh-python
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ssh-python-0.9.0-1.el8
+- project: python-statsd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-statsd-3.2.1-16.el8
+- project: python-stestr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-stestr-3.2.0-3.el8
+- project: python-string_utils
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-string_utils-0.6.0-10.el8
+- project: python-subunit2sql
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-subunit2sql-1.9.0-3.el8
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sysv_ipc-1.0.1-1.el8
+- project: python-tables
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tables-3.5.2-6.el8
+- project: python-tabulate
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tabulate-0.8.7-4.el8
+- project: python-tempita
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tempita-0.5.1-25.el8
+- project: python-tenacity
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tenacity-6.3.1-1.el8
+- project: python-testrepository
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-testrepository-0.0.20-20.el8
+- project: python-testresources
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-testresources-2.0.1-1.el8
+- project: python-testscenarios
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-testscenarios-0.5.0-17.el8
+- project: python-testtools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-testtools-2.5.0-2.el8
+- project: python-textfsm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-textfsm-0.3.2-9.el8
+- project: python-timeout-decorator
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-timeout-decorator-0.4.1-2.el8
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tinyrpc-1.0.3-1.el8
+- project: python-tornado
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tornado-6.1.0-1.el8
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tosca-parser-2.1.0-1.el8
+- project: python-traceback2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-traceback2-1.4.0-25.el8
+- project: python-trollius
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-trollius-2.1-14.el8
+- project: python-txaio
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-txaio-20.4.1-2.el8
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-typing-extensions-3.7.4.3-1.el8
+- project: python-tzlocal
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tzlocal-1.5.1-9.el8
+- project: python-ujson
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-ujson-2.0.3-2.el8
+- project: python-unicodecsv
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-unicodecsv-0.14.1-19.el8
+- project: python-uritemplate
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-uritemplate-3.0.0-10.el8
+- project: python-urllib-gssapi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-urllib-gssapi-1.0.1-10.el8
+- project: python-urllib3
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-urllib3-1.25.10-4.el8
+- project: python-versiontools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-versiontools-1.9.1-24.el8
+- project: python-vine
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-vine-5.0.0-2.el8
+- project: python-voluptuous
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-voluptuous-0.12.1-1.el8
+- project: python-waitress
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-waitress-1.4.2-1.el8
+- project: python-warlock
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-warlock-1.3.3-1.el8
+- project: python-wcwidth
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-wcwidth-0.2.5-2.el8
+- project: python-webob
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-webob-1.8.6-3.el8
+- project: python-websocket-client
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-websocket-client-0.56.0-5.el8
+- project: python-websockify
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-websockify-0.9.0-1.el8
+- project: python-webtest
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-webtest-2.0.35-3.el8
+- project: python-werkzeug
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-werkzeug-2.0.1-2.el8
+- project: python-winrm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-winrm-0.4.1-1.el8
+- project: python-wrapt
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-wrapt-1.13.3-2.el8
+- project: python-wsaccel
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-wsaccel-0.6.2-20.el8
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-wsgi_intercept-1.9.2-1.el8
+- project: python-xmltodict
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-xmltodict-0.12.0-6.el8
+- project: python-yappi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-yappi-1.3.0-1.el8
+- project: python-yaql
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-yaql-1.1.3-10.el8
+- project: python-zake
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zake-0.2.2-18.el8
+- project: python-zeroconf
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zeroconf-0.24.4-1.el8
+- project: python-zipp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zipp-3.4.0-1.el8
+- project: python-zmq
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zmq-20.0.0-1.el8
+- project: python-zope-event
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zope-event-4.2.0-16.el8
+- project: python-zope-interface
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zope-interface-4.7.1-1.el8
+- project: python-zstd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zstd-1.4.5.1-1.el8
+- project: python2-typing
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python2-typing-3.7.4.1-1.el8
+- project: qhull
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: qhull-7.2.1-2.el8
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: qpid-dispatch-1.9.0-2.el8
+- project: qpid-proton
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: qpid-proton-0.30.0-1.el8
+- project: rally
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-rally-3.3.0-1.el8
+- project: rally-openstack
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-rally-plugins-2.2.0-1.el8
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rdo-openvswitch-2.15-2.el8
+- project: re2
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: re2-20190801-9.el8
+- project: reno
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-reno-3.5.0-1.el8
+- project: requestsexceptions
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-requestsexceptions-1.4.0-3.el8
+- project: rsd-lib
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-rsd-lib-1.2.0-1.el8
+- project: rsdclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-rsdclient-1.0.2-1.el8
+- project: ruby-augeas
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ruby-augeas-0.5.0-23.el8
+- project: rubygem-cane
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-cane-3.0.0-1.el8
+- project: rubygem-concurrent-ruby
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-concurrent-ruby-1.1.5-2.el8
+- project: rubygem-deep_merge
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-deep_merge-1.2.1-4.el8
+- project: rubygem-docile
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-docile-1.1.5-10.el8
+- project: rubygem-fast_gettext
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-fast_gettext-1.2.0-9.el8
+- project: rubygem-hocon
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-hocon-1.3.0-1.el8
+- project: rubygem-multi_json
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-multi_json-1.13.1-4.el8
+- project: rubygem-parallel
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-parallel-1.12.1-5.el8
+- project: rubygem-pathspec
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-pathspec-0.2.1-5.el8
+- project: rubygem-puppet-resource_api
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-puppet-resource_api-1.8.12-1.el8
+- project: rubygem-redcarpet
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-redcarpet-3.3.2-16.1.el8
+- project: rubygem-rgen
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-rgen-0.8.4-2.el8
+- project: rubygem-rspec-fire
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-rspec-fire-1.3.0-1.el8
+- project: rubygem-ruby-shadow
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-ruby-shadow-2.5.0-12.el8
+- project: rubygem-semantic_puppet
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-semantic_puppet-1.0.4-2.el8
+- project: rubygem-simplecov
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-simplecov-0.13.0-7.el8.1
+- project: rubygem-simplecov-html
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-simplecov-html-0.10.0-8.el8
+- project: rubygem-yard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: rubygem-yard-0.9.12-8.el8
+- project: sahara
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-sahara-16.0.0-1.el8
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-sahara-ui-16.0.0-1.el8
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: sahara-image-elements-16.0.0-1.el8
+- project: sahara-plugin-ambari
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sahara-plugin-ambari-7.0.0-1.el8
+- project: sahara-plugin-cdh
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sahara-plugin-cdh-7.0.0-1.el8
+- project: sahara-plugin-mapr
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sahara-plugin-mapr-7.0.0-1.el8
+- project: sahara-plugin-spark
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sahara-plugin-spark-7.0.0-1.el8
+- project: sahara-plugin-storm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sahara-plugin-storm-7.0.0-1.el8
+- project: sahara-plugin-vanilla
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sahara-plugin-vanilla-7.0.0-1.el8
+- project: sahara-tests
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-sahara-tests-0.15.0-1.el8
+- project: saharaclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-saharaclient-3.5.0-1.el8
+- project: scciclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-scciclient-0.11.2-1.el8
+- project: senlin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-senlin-13.0.0-1.el8
+- project: senlinclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-senlinclient-2.4.0-1.el8
+- project: shade
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-shade-1.33.0-1.el8
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sphinx-feature-classification-1.1.0-1.el8
+- project: sshpass
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: sshpass-1.06-8.el8
+- project: stevedore
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-stevedore-3.5.0-1.el8
+- project: subunit
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: subunit-1.4.0-1.el8
+- project: sushy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sushy-4.1.1-1.el8
+- project: sushy-tools
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-sushy-tools-0.18.2-1.el8
+- project: swift
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-swift-2.29.1-1.el8
+- project: swiftclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-swiftclient-3.13.1-1.el8
+- project: sympy
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: sympy-1.4-6.el8
+- project: sysbench
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: sysbench-1.0.20-5.el8
+- project: tacker
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tacker-7.0.0-1.el8
+- project: tackerclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tackerclient-1.10.0-1.el8
+- project: taskflow
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-taskflow-4.6.4-1.el8
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-telemetry-tests-tempest-1.6.0-1.el8
+- project: tempest
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tempest-30.0.0-1.el8
+- project: tempestconf
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tempestconf-3.2.1-1.el8
+- project: tobiko
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tobiko-0.5.1-1.el8
+- project: tooz
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tooz-2.10.1-1.el8
+- project: trove
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-trove-17.0.0-1.el8
+- project: trove-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-trove-ui-18.0.0-1.el8
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-trove-tests-tempest-1.4.0-1.el8
+- project: troveclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-troveclient-7.2.0-1.el8
+- project: uwsgi
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: uwsgi-2.0.18-4.el8
+- project: virtualbmc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-virtualbmc-2.2.1-1.el8
+- project: vitrage
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-vitrage-8.0.1-1.el8
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-vitrage-ui-3.0.0-1.el8
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-vitrage-tests-tempest-5.5.0-1.el8
+- project: vitrageclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-vitrageclient-4.5.0-1.el8
+- project: vmware-nsx-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+- project: watcher
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-watcher-8.0.0-1.el8
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-watcher-tests-tempest-2.4.0-1.el8
+- project: web-assets
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: web-assets-5-10.el8
+- project: wsme
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-wsme-0.10.1-1.el8
+- project: wyhash
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: wyhash-final1-4.20220111gitwyhash_final.el8
+- project: xqc
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: xqc-1.0-0.16.20101120svn7.el8
+- project: xxhash
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: xxhash-0.8.1-1.el8
+- project: yaml-cpp
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: yaml-cpp-0.6.3-4.el8
+- project: zaqar
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-zaqar-14.0.0-1.el8
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zaqar-tests-tempest-1.4.0-1.el8
+- project: zaqarclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-zaqarclient-2.3.0-1.el8
+- project: zeromq
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: zeromq-4.3.2-1.el8
+- project: zstd
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: zstd-1.4.5-6.el8
