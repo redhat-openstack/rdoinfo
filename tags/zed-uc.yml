@@ -890,13 +890,6 @@ packages:
 - project: puppet-sahara
   tags:
     zed-uc:
-- project: puppet-sensu
-  tags:
-    # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
-    # clients to Go language, which we don't provide and will not provide in future,
-    # because Sensu is being deprecated.
-    zed-uc:
-      source-branch: 20361a4043d2881359551510ada0817caee3bc05
 - project: puppet-snmp
   tags:
     zed-uc:
@@ -944,10 +937,6 @@ packages:
 - project: puppet-trove
   tags:
     zed-uc:
-- project: puppet-uchiwa
-  tags:
-    zed-uc:
-      source-branch: 837c66949b2898e1dad6c6bda3db2835f645e95a
 - project: puppet-vcsrepo
   tags:
     zed-uc:
