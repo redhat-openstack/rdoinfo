@@ -629,6 +629,9 @@ packages:
 - project: puppet-ceilometer
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-ceilometer-20.3.0-1.el9s
+- project: puppet-ceph
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: puppet-ceph-3.1.1-1.el9s
 - project: puppet-certmonger
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-certmonger-2.7.1-1.3e2e660git.el9s
@@ -773,6 +776,9 @@ packages:
 - project: puppet-placement
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-placement-7.3.0-1.el9s
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: puppet-powerdns-0.0.5-2.d3d9b3agit.el9s
 - project: puppet-qdr
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-qdr-9.3.0-1.el9s
