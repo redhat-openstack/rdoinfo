@@ -662,6 +662,9 @@ packages:
 - project: puppet-ceilometer
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-ceilometer-20.3.0-1.el8
+- project: puppet-ceph
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: puppet-ceph-3.1.1-1.el8
 - project: puppet-certmonger
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-certmonger-2.7.1-1.3e2e660git.el8
@@ -806,6 +809,9 @@ packages:
 - project: puppet-placement
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-placement-7.3.0-1.el8
+- project: puppet-powerdns
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
 - project: puppet-qdr
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-qdr-9.3.0-1.el8
@@ -1154,9 +1160,6 @@ packages:
 - project: python-django-appconf
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-django-appconf-1.0.3-1.el8
-- project: python-django-babel
-  buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-django-babel-0.6.2-10.el8
 - project: python-django-compressor
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-django-compressor-2.4.1-1.el8
