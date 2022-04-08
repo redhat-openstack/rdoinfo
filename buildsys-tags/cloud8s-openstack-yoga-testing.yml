@@ -163,7 +163,7 @@ packages:
     cloud8s-openstack-yoga-testing: dumb-init-1.2.2-6.el8
 - project: ec2-api
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-ec2-api-14.0.0-1.el8
+    cloud8s-openstack-yoga-testing: openstack-ec2-api-14.0.0-2.el8
 - project: ec2api-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-ec2api-tests-tempest-1.4.0-1.el8
@@ -431,6 +431,12 @@ packages:
 - project: ndisc6
   buildsys-tags:
     cloud8s-openstack-yoga-testing: ndisc6-1.0.3-9.el8
+- project: networking-l2gw
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-networking-l2gw-18.0.0-1.el8
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-networking-bgpvpn-16.0.0-1.el8
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
@@ -626,6 +632,9 @@ packages:
 - project: ovsdbapp
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-ovsdbapp-1.15.1-1.el8
+- project: packstack
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: openstack-packstack-20.0.0-0.1.0rc1.el8
 - project: patrole
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-patrole-0.14.0-1.el8
