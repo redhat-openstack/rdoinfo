@@ -136,7 +136,7 @@ packages:
     cloud9s-openstack-yoga-testing: dumb-init-1.2.5-2.el9s
 - project: ec2-api
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-ec2-api-14.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-ec2-api-14.0.0-2.el9s
 - project: ec2api-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-ec2api-tests-tempest-1.4.0-1.el9s
@@ -395,6 +395,12 @@ packages:
 - project: muranoclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-muranoclient-2.4.1-1.el9s
+- project: networking-l2gw
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-l2gw-18.0.0-1.el9s
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-bgpvpn-16.0.0-1.el9s
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
