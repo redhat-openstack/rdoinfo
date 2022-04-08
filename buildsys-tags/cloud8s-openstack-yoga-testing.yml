@@ -626,6 +626,9 @@ packages:
 - project: ovsdbapp
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-ovsdbapp-1.15.1-1.el8
+- project: packstack
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: openstack-packstack-20.0.0-0.1.0rc1.el8
 - project: patrole
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-patrole-0.14.0-1.el8
