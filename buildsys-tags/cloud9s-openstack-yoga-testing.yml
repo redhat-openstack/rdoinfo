@@ -395,12 +395,12 @@ packages:
 - project: muranoclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-muranoclient-2.4.1-1.el9s
-- project: networking-l2gw
-  buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-networking-l2gw-18.0.0-1.el9s
 - project: networking-bgpvpn
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-bgpvpn-16.0.0-1.el9s
+- project: networking-l2gw
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-l2gw-18.0.0-1.el9s
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
