@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "27608c7172862b4a3d5d51d5aca8be86bd34e72d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dd36a06_61afbbbc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-04-11T12:24:59Z",
+      "side": 1,
+      "message": "A vm failed with:\n\nKernel panic - not syncing: IO-APIC + timer doesn\u0027t work\n\nHopefully, just a glitch\n\n",
+      "revId": "27608c7172862b4a3d5d51d5aca8be86bd34e72d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
