@@ -51,6 +51,23 @@
       "parentUuid": "daebaecd_f0d4d9d2",
       "revId": "76b8ab6cdccf2ddd2406a360304ff05bb902318e",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c801b31_55b9de21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-04-12T07:11:05Z",
+      "side": 1,
+      "message": "This should be yoga.yml instead of yoga-uc.yml, rebase on top of https://review.rdoproject.org/r/c/rdoinfo/+/41822 please.\n\nAlso, you\u0027ll need a Depends-On: https://review.rdoproject.org/r/c/openstack/tempest-distgit/+/41237",
+      "revId": "76b8ab6cdccf2ddd2406a360304ff05bb902318e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
