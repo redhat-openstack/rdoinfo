@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "daebaecd_f0d4d9d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2022-04-12T02:27:41Z",
+      "side": 1,
+      "message": "https://logserver.rdoproject.org/10/41810/1/check/rdoinfo-DLRN-check-centos9/635a57b/buildset/centos-xena-rdo/repos/component/tempest/44/da/44dac69eb77d78a0de8e68e63617099249345578_dev/rpmbuild.log\n\n```\nDEBUG: + /usr/bin/gzip -dc /builddir/build/SOURCES/tempest-30.1.0-0.20220411190504.44dac69.tar.gz\nDEBUG: + /usr/bin/tar -xof -\nDEBUG: + STATUS\u003d0\nDEBUG: + \u0027[\u0027 0 -ne 0 \u0027]\u0027\nDEBUG: + cd tempest-30.1.0\nDEBUG: + /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .\nDEBUG: + /usr/bin/git init -q\nDEBUG: + /usr/bin/git config user.name rpm-build\nDEBUG: + /usr/bin/git config user.email \u0027\u003crpm-build\u003e\u0027\nDEBUG: + /usr/bin/git config gc.auto 0\nDEBUG: + /usr/bin/git add --force .\nDEBUG: + /usr/bin/git commit -q --allow-empty -a --author \u0027rpm-build \u003crpm-build\u003e\u0027 -m \u0027openstack-tempest-30.1.0 base\u0027\nDEBUG: + /usr/bin/cat /builddir/build/SOURCES/0001-Remove-usage-of-unittest2.patch\nDEBUG: + /usr/bin/git apply --index --reject -\nDEBUG: Checking patch requirements.txt...\nDEBUG: error: while searching for:\nDEBUG: PrettyTable\u003e\u003d0.7.1 # BSD\nDEBUG: urllib3\u003e\u003d1.21.1 # MIT\nDEBUG: debtcollector\u003e\u003d1.2.0 # Apache-2.0\nDEBUG: unittest2\u003e\u003d1.1.0 # BSD\nDEBUG: error: patch failed: requirements.txt:20\nDEBUG: Checking patch tempest/lib/base.py...\nDEBUG: error: while searching for:\nDEBUG: #    under the License.\nDEBUG: import os\nDEBUG: import sys\nDEBUG: import fixtures\nDEBUG: import pkg_resources\nDEBUG: import testtools\nDEBUG: def _handle_skip_exception():\nDEBUG:     try:\nDEBUG:         stestr_version \u003d pkg_resources.parse_version(\nDEBUG:             pkg_resources.get_distribution(\"stestr\").version)\nDEBUG:         stestr_min \u003d pkg_resources.parse_version(\u00272.5.0\u0027)\nDEBUG:         new_stestr \u003d (stestr_version \u003e\u003d stestr_min)\nDEBUG:         import unittest\nDEBUG:         import unittest2\nDEBUG:         if sys.version_info \u003e\u003d (3, 5) and new_stestr:\nDEBUG:             testtools.TestCase.skipException \u003d unittest.case.SkipTest\nDEBUG:         else:\nDEBUG:             testtools.TestCase.skipException \u003d unittest2.case.SkipTest\nDEBUG:     except Exception:\nDEBUG:         pass\nDEBUG: error: patch failed: tempest/lib/base.py:14\nDEBUG: Applying patch requirements.txt with 1 reject...\nDEBUG: Rejected hunk #1.\nDEBUG: Applying patch tempest/lib/base.py with 1 reject...\nDEBUG: Rejected hunk #1.\nDEBUG: RPM build errors:\nDEBUG: error: Bad exit status from /var/tmp/rpm-tmp.QY5Bt3 (%prep)\nDEBUG:     line 63: It\u0027s not recommended to have unversioned Obsoletes: Obsoletes:     python-tempest-lib\nDEBUG:     Bad exit status from /var/tmp/rpm-tmp.QY5Bt3 (%prep)\nDEBUG: Child return code was: 1\nINFO: EXCEPTION: [Error()]\nTraceback (most recent call last):\n  File \"/usr/lib/python3.6/site-packages/mockbuild/trace_decorator.py\", line 95, in trace\n    result \u003d func(*args, **kw)\n  File \"/usr/lib/python3.6/site-packages/mockbuild/util.py\", line 746, in do_with_status\n    raise exception.Error(\"Command failed: \\n # %s\\n%s\" % (command, output), child.returncode)\nmockbuild.exception.Error: Command failed: \n # bash --login -c /usr/bin/rpmbuild -bb --target x86_64 --nodeps /builddir/build/SPECS/openstack-tempest.spec\n\n```",
+      "revId": "76b8ab6cdccf2ddd2406a360304ff05bb902318e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
