@@ -680,6 +680,10 @@ packages:
 - project: puppet-ceph
   tags:
     zed-uc:
+- project: puppet-certmonger
+  tags:
+    zed-uc:
+      source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
 - project: puppet-cinder
   tags:
     zed-uc:
