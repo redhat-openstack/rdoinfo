@@ -395,15 +395,33 @@ packages:
 - project: muranoclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-muranoclient-2.4.1-1.el9s
+- project: networking-ansible
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-ansible-5.0.0-1.el9s
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-bagpipe-16.0.0-1.el9s
 - project: networking-bgpvpn
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-bgpvpn-16.0.0-1.el9s
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-generic-switch-6.1.0-1.el9s
 - project: networking-l2gw
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-l2gw-18.0.0-1.el9s
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
+- project: networking-mlnx
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-mlnx-16.0.0-1.el9s
+- project: networking-odl
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-odl-20.0.0-1.el9s
+- project: networking-sfc
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-sfc-14.0.0-1.el9s
 - project: neutron
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-neutron-20.0.0-1.el9s
@@ -1882,7 +1900,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-telemetry-tests-tempest-1.6.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-tempest-30.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-tempest-30.1.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tempestconf-3.2.1-1.el9s
