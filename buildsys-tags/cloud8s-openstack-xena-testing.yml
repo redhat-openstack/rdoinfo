@@ -226,7 +226,7 @@ packages:
     cloud8s-openstack-xena-testing: openstack-glance-23.0.0-2.el8
 - project: glance-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-glance-tests-tempest-0.2.0-1.el8
+    cloud8s-openstack-xena-testing: python-glance-tests-tempest-0.3.0-1.el8
 - project: glance_store
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-glance-store-2.7.0-1.el8
@@ -523,7 +523,7 @@ packages:
     cloud8s-openstack-xena-testing: python-neutronclient-7.6.0-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-nova-24.0.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-nova-24.1.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-novaclient-17.6.0-1.el8
@@ -949,7 +949,7 @@ packages:
     cloud8s-openstack-xena-testing: puppet-tacker-19.4.0-1.el8
 - project: puppet-tempest
   buildsys-tags:
-    cloud8s-openstack-xena-testing: puppet-tempest-19.4.0-1.el8
+    cloud8s-openstack-xena-testing: puppet-tempest-19.5.0-1.el8
 - project: puppet-timezone
   buildsys-tags:
     cloud8s-openstack-xena-testing: puppet-timezone-6.1.0-2.16fc3afgit.el8
@@ -2089,7 +2089,7 @@ packages:
     cloud8s-openstack-xena-testing: python-telemetry-tests-tempest-1.5.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-tempest-29.1.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-tempest-30.1.0-1.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-tempestconf-3.2.1-1.el8
