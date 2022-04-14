@@ -160,7 +160,7 @@ packages:
     cloud8s-openstack-victoria-release: python-debtcollector-2.2.0-2.el8
 - project: designate
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-designate-11.0.1-1.el8
+    cloud8s-openstack-victoria-release: openstack-designate-11.0.2-1.el8
 - project: designate-dashboard
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-designate-ui-11.0.0-2.el8
@@ -511,7 +511,7 @@ packages:
     cloud8s-openstack-victoria-release: python-neutronclient-7.2.1-2.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-nova-22.3.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-nova-22.4.0-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-novaclient-17.2.1-1.el8
