@@ -25,7 +25,7 @@ packages:
     cloud8s-openstack-xena-release: ansible-collection-community-general-4.0.0-1.el8
 - project: ansible-collection-containers-podman
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-collection-containers-podman-1.8.2-1.el8
+    cloud8s-openstack-xena-release: ansible-collection-containers-podman-1.9.3-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-collections-openstack-1.5.1-1.el8
@@ -82,7 +82,7 @@ packages:
     cloud8s-openstack-xena-release: openstack-barbican-13.0.0-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-barbican-tests-tempest-1.5.0-1.el8
+    cloud8s-openstack-xena-release: python-barbican-tests-tempest-1.6.0-1.el8
 - project: barbicanclient
   buildsys-tags:
     cloud8s-openstack-xena-release: python-barbicanclient-5.2.0-1.el8
@@ -109,10 +109,10 @@ packages:
     cloud8s-openstack-xena-release: python-ceilometermiddleware-2.3.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-cinder-19.0.0-2.el8
+    cloud8s-openstack-xena-release: openstack-cinder-19.1.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-cinder-tests-tempest-1.5.0-1.el8
+    cloud8s-openstack-xena-release: python-cinder-tests-tempest-1.6.0-1.el8
 - project: cinderclient
   buildsys-tags:
     cloud8s-openstack-xena-release: python-cinderclient-8.1.0-1.el8
@@ -409,7 +409,7 @@ packages:
     cloud8s-openstack-xena-release: openstack-manila-13.0.2-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-manila-tests-tempest-1.6.0-1.el8
+    cloud8s-openstack-xena-release: python-manila-tests-tempest-1.7.0-1.el8
 - project: manila-ui
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-manila-ui-6.0.0-1.el8
@@ -568,7 +568,7 @@ packages:
     cloud8s-openstack-xena-release: os-apply-config-13.1.0-1.el8
 - project: os-brick
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-os-brick-5.0.1-1.el8
+    cloud8s-openstack-xena-release: python-os-brick-5.0.2-1.el8
 - project: os-client-config
   buildsys-tags:
     cloud8s-openstack-xena-release: python-os-client-config-2.1.0-2.el8
@@ -616,7 +616,7 @@ packages:
     cloud8s-openstack-xena-release: python-osc-placement-3.1.1-1.el8
 - project: oslo-cache
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-oslo-cache-2.8.1-1.el8
+    cloud8s-openstack-xena-release: python-oslo-cache-2.8.2-1.el8
 - project: oslo-concurrency
   buildsys-tags:
     cloud8s-openstack-xena-release: python-oslo-concurrency-4.4.1-1.el8
@@ -640,7 +640,7 @@ packages:
     cloud8s-openstack-xena-release: python-oslo-log-4.6.0-1.el8
 - project: oslo-messaging
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-oslo-messaging-12.9.2-1.el8
+    cloud8s-openstack-xena-release: python-oslo-messaging-12.9.3-1.el8
 - project: oslo-metrics
   buildsys-tags:
     cloud8s-openstack-xena-release: python-oslo-metrics-0.3.1-1.el8
