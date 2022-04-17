@@ -20,6 +20,48 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud9s-openstack-yoga-testing: ansible-collection-containers-podman-1.9.3-1.el9s
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-collections-openstack-1.7.1-1.938abd0git.el9s
+- project: ansible-config_template
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-config_template-1.2.1-1.bd7543agit.el9s
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-pacemaker-1.0.4-2.666f706git.el9s
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-atos-hsm-3.0.0-1.el9s
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-chrony-1.2.0-1.el9s
+- project: ansible-role-collect-logs
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-collect-logs-1.5.0-1.el9s
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-collectd-config-0.0.2-1.el9s
+- project: ansible-role-container-registry
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-container-registry-1.4.0-1.el9s
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-lunasa-hsm-3.0.0-1.el9s
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el9s
+- project: ansible-role-qdr-config
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-qdr-config-0.0.1-1.el9s
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-redhat-subscription-1.2.0-1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-thales-hsm-3.0.0-1.el9s
+- project: ansible-role-tripleo-modify-image
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-role-tripleo-modify-image-1.4.0-1.el9s
 - project: aodh
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-aodh-14.0.0-1.el9s
@@ -284,6 +326,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-keystonemiddleware-9.4.0-1.el9s
+- project: kolla
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: openstack-kolla-14.0.0-0.1.0rc1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-kuryr-lib-2.5.0-1.el9s
@@ -353,6 +398,9 @@ packages:
 - project: manilaclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-manilaclient-3.3.0-1.el9s
+- project: metalsmith
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-metalsmith-1.6.2-1.el9s
 - project: microversion-parse
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-microversion-parse-1.0.1-1.el9s
@@ -395,15 +443,36 @@ packages:
 - project: muranoclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-muranoclient-2.4.1-1.el9s
+- project: networking-ansible
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-ansible-5.0.0-1.el9s
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-bagpipe-16.0.0-1.el9s
+- project: networking-baremetal
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-baremetal-5.1.0-1.el9s
 - project: networking-bgpvpn
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-bgpvpn-16.0.0-1.el9s
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-generic-switch-6.1.0-1.el9s
 - project: networking-l2gw
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-l2gw-18.0.0-1.el9s
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
+- project: networking-mlnx
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-mlnx-16.0.0-1.el9s
+- project: networking-odl
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-odl-20.0.0-1.el9s
+- project: networking-sfc
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-networking-sfc-14.0.0-1.el9s
 - project: neutron
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-neutron-20.0.0-1.el9s
@@ -487,10 +556,10 @@ packages:
     cloud9s-openstack-yoga-testing: python-os-ken-2.3.1-1.el9s
 - project: os-net-config
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: os-net-config-15.1.0-1.el9s
+    cloud9s-openstack-yoga-testing: os-net-config-15.2.0-1.el9s
 - project: os-refresh-config
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: os-refresh-config-13.0.1-1.el9s
+    cloud9s-openstack-yoga-testing: os-refresh-config-13.1.0-1.el9s
 - project: os-resource-classes
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-os-resource-classes-1.1.0-1.el9s
@@ -740,6 +809,9 @@ packages:
 - project: puppet-memcached
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-memcached-7.0.0-2.51a961agit.el9s
+- project: puppet-midonet
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: puppet-midonet-1.1.0-2.4a44c33git.el9s
 - project: puppet-mistral
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-mistral-20.3.0-1.el9s
@@ -779,6 +851,9 @@ packages:
 - project: puppet-ovn
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-ovn-20.3.0-1.el9s
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: puppet-pacemaker-1.4.0-1.el9s
 - project: puppet-placement
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-placement-7.3.0-1.el9s
@@ -800,6 +875,9 @@ packages:
 - project: puppet-rsync
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-rsync-1.2.0-1.4ff5dcagit.el9s
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: puppet-rsyslog-5.2.1-0.2.0rc0.dfec146git.el9s
 - project: puppet-sahara
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-sahara-20.3.0-1.el9s
@@ -836,6 +914,9 @@ packages:
 - project: puppet-tomcat
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-tomcat-6.1.0-2.71c5d97git.el9s
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: puppet-tripleo-16.1.0-1.el9s
 - project: puppet-trove
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-trove-20.3.0-1.el9s
@@ -1882,7 +1963,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-telemetry-tests-tempest-1.6.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-tempest-30.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-tempest-30.1.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tempestconf-3.2.1-1.el9s
@@ -1892,6 +1973,33 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tooz-2.10.1-1.el9s
+- project: tripleo-ansible
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: tripleo-ansible-4.2.0-1.el9s
+- project: tripleo-common
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: openstack-tripleo-common-16.4.0-1.el9s
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: openstack-tripleo-heat-templates-16.0.0-1.el9s
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: openstack-tripleo-image-elements-14.2.0-1.el9s
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-tripleo-ipa-0.2.2-1.el9s
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ansible-tripleo-ipsec-11.0.1-1.el9s
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: tripleo-operator-ansible-0.8.0-1.el9s
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: openstack-tripleo-puppet-elements-15.2.0-1.el9s
+- project: tripleo-validations
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: openstack-tripleo-validations-15.2.0-1.el9s
 - project: trove
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-trove-17.0.0-1.el9s
@@ -1907,6 +2015,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud9s-openstack-yoga-testing: uwsgi-2.0.18-16.el9s
+- project: validations-common
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: validations-common-1.7.0-1.el9s
+- project: validations-libs
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-validations-libs-1.7.0-1.el9s
 - project: virtualbmc
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-virtualbmc-2.2.1-1.el9s
