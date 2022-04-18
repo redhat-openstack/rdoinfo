@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "beac06af_6cf8ca39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2022-04-18T05:23:41Z",
+      "side": 1,
+      "message": "rebased on master to resolve the conflict.\n\npuppet-midonet repo has received no update for 3 years and looks unmaintained.\n https://opendev.org/x/puppet-midonet\n \nAlso, networking-midonet is already retired so I don\u0027t expect any user who would require this in recent OpenStack versions.\n https://github.com/openstack/networking-midonet/",
+      "revId": "55d665b52b78b969f280e14262dd608a968d100f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
