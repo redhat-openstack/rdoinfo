@@ -2000,6 +2000,9 @@ packages:
 - project: tripleo-validations
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-tripleo-validations-15.2.0-1.el9s
+- project: tripleoclient
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: python-tripleoclient-18.0.0-1.el9s
 - project: trove
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-trove-17.0.0-1.el9s
