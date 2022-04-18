@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84206bef_e7fca755",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2022-04-18T05:27:58Z",
+      "side": 1,
+      "message": "Rebased on master to resolve conflict.\n\nVeritas HyperScale driver was already removed from cinder.\n https://github.com/openstack/cinder/commit/9aca21f5cec8f03a3bb410acb21399955144fe0f\n\nThe module has received no update for \u003e 4 years and looks unmaintained.\n https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale",
+      "revId": "bdf29491268af347622db094acf8b709ea08afb7",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
