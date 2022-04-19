@@ -662,6 +662,9 @@ packages:
 - project: oswin-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-oswin-tests-tempest-1.4.0-1.el9s
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ovn-bgp-agent-0.2.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-ovn-octavia-provider-2.0.0-1.el9s
