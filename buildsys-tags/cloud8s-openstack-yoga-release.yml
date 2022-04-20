@@ -29,9 +29,51 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-collection-containers-podman-1.9.3-1.el8
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-collections-openstack-1.7.1-1.938abd0git.el8
+- project: ansible-config_template
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-config_template-1.2.1-1.bd7543agit.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-freeipa-0.3.1-1.el8
+- project: ansible-pacemaker
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-pacemaker-1.0.4-2.666f706git.el8
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-atos-hsm-3.0.0-1.el8
+- project: ansible-role-chrony
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-chrony-1.2.0-1.el8
+- project: ansible-role-collect-logs
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-collect-logs-1.5.0-1.el8
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-collectd-config-0.0.2-1.el8
+- project: ansible-role-container-registry
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-container-registry-1.4.0-1.el8
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-lunasa-hsm-3.0.0-1.el8
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
+- project: ansible-role-qdr-config
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-qdr-config-0.0.1-1.el8
+- project: ansible-role-redhat-subscription
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-redhat-subscription-1.2.0-1.el8
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-thales-hsm-3.0.0-1.el8
+- project: ansible-role-tripleo-modify-image
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-role-tripleo-modify-image-1.4.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-yoga-release: openstack-aodh-14.0.0-1.el8
@@ -380,6 +422,9 @@ packages:
 - project: manilaclient
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-manilaclient-3.3.0-1.el8
+- project: metalsmith
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-metalsmith-1.6.2-1.el8
 - project: microversion-parse
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-microversion-parse-1.0.1-1.el8
@@ -544,10 +589,10 @@ packages:
     cloud8s-openstack-yoga-release: python-os-ken-2.3.1-1.el8
 - project: os-net-config
   buildsys-tags:
-    cloud8s-openstack-yoga-release: os-net-config-15.1.0-1.el8
+    cloud8s-openstack-yoga-release: os-net-config-15.2.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
-    cloud8s-openstack-yoga-release: os-refresh-config-13.0.1-1.el8
+    cloud8s-openstack-yoga-release: os-refresh-config-13.1.0-1.el8
 - project: os-resource-classes
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-os-resource-classes-1.1.0-1.el8
@@ -650,6 +695,9 @@ packages:
 - project: oswin-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-oswin-tests-tempest-1.4.0-1.el8
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ovn-bgp-agent-0.2.0-1.el8
 - project: ovn-octavia-provider
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-ovn-octavia-provider-2.0.0-1.el8
@@ -658,7 +706,7 @@ packages:
     cloud8s-openstack-yoga-release: python-ovsdbapp-1.15.1-1.el8
 - project: packstack
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-packstack-20.0.0-0.1.0rc1.el8
+    cloud8s-openstack-yoga-release: openstack-packstack-20.0.0-1.el8
 - project: patrole
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-patrole-0.14.0-1.el8
@@ -800,6 +848,9 @@ packages:
 - project: puppet-memcached
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-memcached-7.0.0-2.51a961agit.el8
+- project: puppet-midonet
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-midonet-1.1.0-2.4a44c33git.el8
 - project: puppet-mistral
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-mistral-20.3.0-1.el8
@@ -839,6 +890,9 @@ packages:
 - project: puppet-ovn
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-ovn-20.3.0-1.el8
+- project: puppet-pacemaker
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-pacemaker-1.4.0-1.el8
 - project: puppet-placement
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-placement-7.3.0-1.el8
@@ -860,6 +914,9 @@ packages:
 - project: puppet-rsync
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-rsync-1.2.0-1.4ff5dcagit.el8
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-rsyslog-5.2.1-0.2.0rc0.dfec146git.el8
 - project: puppet-sahara
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-sahara-20.3.0-1.el8
@@ -896,6 +953,9 @@ packages:
 - project: puppet-tomcat
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-tomcat-6.1.0-2.71c5d97git.el8
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: puppet-tripleo-16.1.0-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-trove-20.3.0-1.el8
@@ -2029,7 +2089,7 @@ packages:
     cloud8s-openstack-yoga-release: python-telemetry-tests-tempest-1.6.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-tempest-30.1.0-1.el8
+    cloud8s-openstack-yoga-release: openstack-tempest-30.1.0-2.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-tempestconf-3.2.1-1.el8
@@ -2039,6 +2099,36 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-tooz-2.10.1-1.el8
+- project: tripleo-ansible
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: tripleo-ansible-4.2.0-1.el8
+- project: tripleo-common
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tripleo-common-16.4.0-1.el8
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tripleo-heat-templates-16.0.0-1.el8
+- project: tripleo-image-elements
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tripleo-image-elements-14.2.0-1.el8
+- project: tripleo-ipa
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-tripleo-ipa-0.2.2-1.el8
+- project: tripleo-ipsec
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: ansible-tripleo-ipsec-11.0.1-1.el8
+- project: tripleo-operator-ansible
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: tripleo-operator-ansible-0.8.0-1.el8
+- project: tripleo-puppet-elements
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tripleo-puppet-elements-15.2.0-1.el8
+- project: tripleo-validations
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: openstack-tripleo-validations-15.2.0-1.el8
+- project: tripleoclient
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-tripleoclient-18.0.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-yoga-release: openstack-trove-17.0.0-1.el8
@@ -2054,6 +2144,12 @@ packages:
 - project: uwsgi
   buildsys-tags:
     cloud8s-openstack-yoga-release: uwsgi-2.0.18-4.el8
+- project: validations-common
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: validations-common-1.7.0-1.el8
+- project: validations-libs
+  buildsys-tags:
+    cloud8s-openstack-yoga-release: python-validations-libs-1.7.0-1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-virtualbmc-2.2.1-1.el8
