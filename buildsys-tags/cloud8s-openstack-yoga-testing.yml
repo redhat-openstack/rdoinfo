@@ -695,6 +695,9 @@ packages:
 - project: oswin-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-oswin-tests-tempest-1.4.0-1.el8
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: ovn-bgp-agent-0.2.0-1.el8
 - project: ovn-octavia-provider
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-ovn-octavia-provider-2.0.0-1.el8
@@ -2086,7 +2089,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-telemetry-tests-tempest-1.6.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-tempest-30.1.0-1.el8
+    cloud8s-openstack-yoga-testing: openstack-tempest-30.1.0-2.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-tempestconf-3.2.1-1.el8
