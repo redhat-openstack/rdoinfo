@@ -283,7 +283,7 @@ packages:
     cloud8s-openstack-victoria-testing: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: python-django-horizon-18.6.3-1.el8
+    cloud8s-openstack-victoria-testing: python-django-horizon-18.6.4-1.el8
 - project: ibmcclient
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-ibmcclient-0.2.5.1-1.el8
@@ -493,7 +493,7 @@ packages:
     cloud8s-openstack-victoria-testing: python-networking-sfc-11.0.0-2.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-neutron-17.3.0-1.el8
+    cloud8s-openstack-victoria-testing: openstack-neutron-17.4.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-victoria-testing: openstack-neutron-dynamic-routing-17.0.0-2.el8
@@ -568,7 +568,7 @@ packages:
     cloud8s-openstack-victoria-testing: python-os-ken-1.2.1-1.el8
 - project: os-net-config
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: os-net-config-13.2.1-1.el8
+    cloud8s-openstack-victoria-testing: os-net-config-13.3.0-1.el8
 - project: os-refresh-config
   buildsys-tags:
     cloud8s-openstack-victoria-testing: os-refresh-config-12.0.1-1.el8
@@ -943,7 +943,7 @@ packages:
     cloud8s-openstack-victoria-testing: puppet-tomcat-4.1.0-1.6add7e4git.el8
 - project: puppet-tripleo
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: puppet-tripleo-13.6.4-1.el8
+    cloud8s-openstack-victoria-testing: puppet-tripleo-13.7.0-1.el8
 - project: puppet-trove
   buildsys-tags:
     cloud8s-openstack-victoria-testing: puppet-trove-17.4.0-2.el8
@@ -2074,16 +2074,16 @@ packages:
     cloud8s-openstack-victoria-testing: python-tooz-2.7.2-1.el8
 - project: tripleo-ansible
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: tripleo-ansible-2.5.0-1.el8
+    cloud8s-openstack-victoria-testing: tripleo-ansible-2.6.0-1.el8
 - project: tripleo-common
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tripleo-common-13.2.3-1.el8
+    cloud8s-openstack-victoria-testing: openstack-tripleo-common-13.3.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tripleo-heat-templates-13.5.0-1.el8
+    cloud8s-openstack-victoria-testing: openstack-tripleo-heat-templates-13.6.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tripleo-image-elements-12.2.2-1.el8
+    cloud8s-openstack-victoria-testing: openstack-tripleo-image-elements-12.2.3-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-victoria-testing: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2095,10 +2095,10 @@ packages:
     cloud8s-openstack-victoria-testing: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tripleo-puppet-elements-13.1.1-1.el8
+    cloud8s-openstack-victoria-testing: openstack-tripleo-puppet-elements-13.1.2-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8s-openstack-victoria-testing: openstack-tripleo-validations-13.4.1-1.el8
+    cloud8s-openstack-victoria-testing: openstack-tripleo-validations-13.5.0-1.el8
 - project: tripleoclient
   buildsys-tags:
     cloud8s-openstack-victoria-testing: python-tripleoclient-14.2.3-1.el8
