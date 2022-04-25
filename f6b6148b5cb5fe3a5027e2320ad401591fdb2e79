@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f6ea573_2e0ebad9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 620
+      },
+      "writtenOn": "2022-04-25T13:44:42Z",
+      "side": 1,
+      "message": "Since OSP16, on oslo.cache, we switched to a new memcache backend based on pymemcache to support TLS connections. However this lib handle connections in a different way that the previous backend based on python-memcached. Indeed this lib doesn\u0027t recover from cluster disconnection as python-memcached did. This \"requirement\" bump allow us to handle deconnections and so allow us to recover properly. This is why this new version of dogpile.cache is required.\n\noslo.cache\u0027s pymemcache backend doesn\u0027t recover from socket disconnection",
+      "revId": "f6b6148b5cb5fe3a5027e2320ad401591fdb2e79",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
