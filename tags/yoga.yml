@@ -5,42 +5,55 @@ packages:
 - project: ansible-config_template
   tags:
     yoga:
+      source-branch: bd7543a73681f16e20d5562291b8f545fc4fb904
 - project: ansible-pacemaker
   tags:
     yoga:
+      source-branch: 666f706b8fef8e59df690a59a838efb6eeec5815
 - project: ansible-role-atos-hsm
   tags:
     yoga:
+      source-branch: 3.0.0
 - project: ansible-role-chrony
   tags:
     yoga:
+      source-branch: 1.2.0
 - project: ansible-role-collect-logs
   tags:
     yoga:
+      source-branch: 1.5.0
 - project: ansible-role-collectd-config
   tags:
     yoga:
+      source-branch: 0.0.2
 - project: ansible-role-container-registry
   tags:
     yoga:
+      source-branch: 1.4.0
 - project: ansible-role-lunasa-hsm
   tags:
     yoga:
+      source-branch: 3.0.0
 - project: ansible-role-openstack-operations
   tags:
     yoga:
+      source-branch: 2ab288f14e6d3e5334dea211a365ee303ae5f9dc
 - project: ansible-role-qdr-config
   tags:
     yoga:
+      source-branch: 0.0.1
 - project: ansible-role-redhat-subscription
   tags:
     yoga:
+      source-branch: 1.2.0
 - project: ansible-role-thales-hsm
   tags:
     yoga:
+      source-branch: 3.0.0
 - project: ansible-role-tripleo-modify-image
   tags:
     yoga:
+      source-branch: 4.0.0
 - project: ansible-tripleo-ipa-server
   tags:
     yoga:
@@ -508,9 +521,11 @@ packages:
 - project: os-net-config
   tags:
     yoga:
+      source-branch: 15.2.0
 - project: os-refresh-config
   tags:
     yoga:
+      source-branch: 13.1.0
 - project: os-resource-classes
   tags:
     yoga:
@@ -875,6 +890,7 @@ packages:
 - project: puppet-pacemaker
   tags:
     yoga:
+      source-branch: 1.4.0
 - project: puppet-placement
   tags:
     yoga:
@@ -959,6 +975,7 @@ packages:
 - project: puppet-tripleo
   tags:
     yoga:
+      source-branch: 16.1.0
 - project: puppet-trove
   tags:
     yoga:
@@ -1140,39 +1157,49 @@ packages:
 - project: tripleo-ansible
   tags:
     yoga:
+      source-branch: 4.2.0
 - project: tripleo-common
   tags:
     yoga:
+      source-branch: 16.4.0
 - project: tripleo-heat-templates
   tags:
     yoga:
+      source-branch: 16.0.0
 - project: tripleo-image-elements
   tags:
     yoga:
+      source-branch: 14.2.0
 - project: tripleo-ipa
   tags:
     yoga:
+      source-branch: 0.2.2
 - project: tripleo-ipsec
   tags:
     yoga:
+      source-branch: 11.0.1
 - project: tripleo-operator-ansible
   tags:
     yoga:
+      source-branch: 0.8.0
 - project: tripleo-powerflex
   tags:
     yoga:
 - project: tripleo-puppet-elements
   tags:
     yoga:
+      source-branch: 15.2.0
 - project: tripleo-repos
   tags:
     yoga:
 - project: tripleo-validations
   tags:
     yoga:
+      source-branch: 15.2.0
 - project: tripleoclient
   tags:
     yoga:
+      source-branch: 18.0.0
 - project: trove
   tags:
     yoga:
@@ -1190,9 +1217,11 @@ packages:
 - project: validations-common
   tags:
     yoga:
+      source-branch: 1.7.0
 - project: validations-libs
   tags:
     yoga:
+      source-branch: 1.7.0
 - project: virtualbmc
   tags:
     yoga:
