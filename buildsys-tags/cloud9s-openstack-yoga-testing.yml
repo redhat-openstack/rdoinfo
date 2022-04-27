@@ -391,7 +391,7 @@ packages:
     cloud9s-openstack-yoga-testing: openstack-manila-14.0.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-manila-tests-tempest-1.7.0-1.el9s
+    cloud9s-openstack-yoga-testing: python-manila-tests-tempest-1.8.0-1.el9s
 - project: manila-ui
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-manila-ui-7.0.0-1.el9s
@@ -670,7 +670,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-ovn-octavia-provider-2.0.0-1.el9s
 - project: ovsdbapp
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-ovsdbapp-1.15.1-1.el9s
+    cloud9s-openstack-yoga-testing: python-ovsdbapp-1.15.2-1.el9s
 - project: packstack
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-packstack-20.0.0-1.el9s
