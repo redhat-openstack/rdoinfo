@@ -409,7 +409,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-manila-12.1.2-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-manila-tests-tempest-1.7.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-manila-tests-tempest-1.8.0-1.el8
 - project: manila-ui
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-manila-ui-5.1.0-1.el8
@@ -691,7 +691,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-ovn-octavia-provider-1.0.0-1.el8
 - project: ovsdbapp
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-ovsdbapp-1.9.1-1.el8
+    cloud8s-openstack-wallaby-testing: python-ovsdbapp-1.9.2-1.el8
 - project: packstack
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-packstack-18.0.0-1.el8
