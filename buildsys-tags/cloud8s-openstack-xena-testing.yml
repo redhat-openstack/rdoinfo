@@ -409,7 +409,7 @@ packages:
     cloud8s-openstack-xena-testing: openstack-manila-13.0.3-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-manila-tests-tempest-1.7.0-1.el8
+    cloud8s-openstack-xena-testing: python-manila-tests-tempest-1.8.0-1.el8
 - project: manila-ui
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-manila-ui-6.0.0-1.el8
@@ -694,7 +694,7 @@ packages:
     cloud8s-openstack-xena-testing: python-ovn-octavia-provider-1.1.1-1.el8
 - project: ovsdbapp
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-ovsdbapp-1.12.0-1.el8
+    cloud8s-openstack-xena-testing: python-ovsdbapp-1.12.1-1.el8
 - project: packstack
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-packstack-19.0.0-0.1.0rc1.el8
