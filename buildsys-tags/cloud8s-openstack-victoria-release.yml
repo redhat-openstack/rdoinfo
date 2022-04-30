@@ -100,7 +100,7 @@ packages:
     cloud8s-openstack-victoria-release: python-ceilometermiddleware-2.1.0-2.el8
 - project: cinder
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-cinder-17.2.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-cinder-17.4.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-cinder-tests-tempest-1.4.0-1.el8
@@ -343,7 +343,7 @@ packages:
     cloud8s-openstack-victoria-release: python-keystonemiddleware-9.1.0-2.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-kolla-11.2.1-1.el8
+    cloud8s-openstack-victoria-release: openstack-kolla-11.3.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-kuryr-lib-2.1.1-1.el8
@@ -403,7 +403,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-manila-ui-4.1.0-1.el8
 - project: manilaclient
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-manilaclient-2.3.1-1.el8
+    cloud8s-openstack-victoria-release: python-manilaclient-2.3.2-1.el8
 - project: metalsmith
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-metalsmith-1.2.0-2.el8
@@ -493,7 +493,7 @@ packages:
     cloud8s-openstack-victoria-release: python-networking-sfc-11.0.0-2.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-victoria-release: openstack-neutron-17.4.0-1.el8
+    cloud8s-openstack-victoria-release: openstack-neutron-17.4.1-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-neutron-dynamic-routing-17.0.0-2.el8
@@ -1267,7 +1267,7 @@ packages:
     cloud8s-openstack-victoria-release: python-docopt-0.6.2-15.el8
 - project: python-dogpile-cache
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-dogpile-cache-1.1.2-1.1.el8
+    cloud8s-openstack-victoria-release: python-dogpile-cache-1.1.5-1.1.el8
 - project: python-dulwich
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-dulwich-0.20.6-1.el8
@@ -1582,7 +1582,7 @@ packages:
     cloud8s-openstack-victoria-release: python-pykwalify-1.7.0-5.el8
 - project: python-pymemcache
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-pymemcache-3.4.0-1.el8
+    cloud8s-openstack-victoria-release: python-pymemcache-3.5.0-1.el8
 - project: python-pynacl
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-pynacl-1.4.0-1.el8
@@ -2026,7 +2026,7 @@ packages:
     cloud8s-openstack-victoria-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-sushy-3.4.5-1.el8
+    cloud8s-openstack-victoria-release: python-sushy-3.4.6-1.el8
 - project: sushy-oem-idrac
   buildsys-tags:
     cloud8s-openstack-victoria-release: python-sushy-oem-idrac-0.0.2-1.el8
@@ -2101,7 +2101,7 @@ packages:
     cloud8s-openstack-victoria-release: openstack-tripleo-validations-13.5.0-1.el8
 - project: tripleoclient
   buildsys-tags:
-    cloud8s-openstack-victoria-release: python-tripleoclient-14.2.3-1.el8
+    cloud8s-openstack-victoria-release: python-tripleoclient-14.3.0-1.el8
 - project: trove
   buildsys-tags:
     cloud8s-openstack-victoria-release: openstack-trove-14.1.0-1.el8
