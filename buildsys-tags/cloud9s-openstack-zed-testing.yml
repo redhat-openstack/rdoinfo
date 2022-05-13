@@ -82,7 +82,10 @@ packages:
     cloud9s-openstack-zed-testing: gperftools-2.9.1-1.el9s
 - project: grpc
   buildsys-tags:
-    cloud9s-openstack-zed-testing: grpc-1.26.0-15.el9s
+    cloud9s-openstack-zed-testing: grpc-1.41.1-6.el9s
+- project: gtest
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: gtest-1.11.0-1.el9s
 - project: gv
   buildsys-tags:
     cloud9s-openstack-zed-testing: gv-3.7.4-27.el9s
@@ -487,10 +490,10 @@ packages:
     cloud9s-openstack-zed-testing: python-gmpy2-2.1.0-0.22.b5.el9s
 - project: python-google-api-core
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-google-api-core-1.17.0-3.el9s
+    cloud9s-openstack-zed-testing: python-google-api-core-2.7.3-1.el9s
 - project: python-google-auth
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-google-auth-1.30.0-1.el9s
+    cloud9s-openstack-zed-testing: python-google-auth-2.6.6-1.el9s
 - project: python-googleapis-common-protos
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-googleapis-common-protos-1.53.0-1.el9s
