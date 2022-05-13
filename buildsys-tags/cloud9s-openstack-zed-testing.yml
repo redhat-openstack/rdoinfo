@@ -83,6 +83,9 @@ packages:
 - project: grpc
   buildsys-tags:
     cloud9s-openstack-zed-testing: grpc-1.26.0-15.el9s
+- project: gtest
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: gtest-1.11.0-1.el9s
 - project: gv
   buildsys-tags:
     cloud9s-openstack-zed-testing: gv-3.7.4-27.el9s
