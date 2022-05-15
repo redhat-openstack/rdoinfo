@@ -283,7 +283,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-heat-ui-5.0.0-1.el8
 - project: heat-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-heat-tests-tempest-1.2.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-heat-tests-tempest-1.5.0-1.el8
 - project: heat-translator
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-heat-translator-2.3.0-1.el8
@@ -514,7 +514,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-neutron-lib-2.10.2-1.el8
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-neutron-tests-tempest-1.4.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-neutron-tests-tempest-1.9.0-1.el8
 - project: neutron-vpnaas
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-neutron-vpnaas-18.0.0-1.el8
