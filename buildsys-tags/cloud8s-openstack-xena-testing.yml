@@ -283,7 +283,7 @@ packages:
     cloud8s-openstack-xena-testing: openstack-heat-ui-6.0.0-1.el8
 - project: heat-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-heat-tests-tempest-1.4.0-1.el8
+    cloud8s-openstack-xena-testing: python-heat-tests-tempest-1.5.0-1.el8
 - project: heat-translator
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-heat-translator-2.4.1-1.el8
@@ -514,7 +514,7 @@ packages:
     cloud8s-openstack-xena-testing: python-neutron-lib-2.15.2-1.el8
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-neutron-tests-tempest-1.7.0-1.el8
+    cloud8s-openstack-xena-testing: python-neutron-tests-tempest-1.9.0-1.el8
 - project: neutron-vpnaas
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-neutron-vpnaas-19.0.0-1.el8
@@ -664,7 +664,7 @@ packages:
     cloud8s-openstack-xena-testing: python-oslo-serialization-4.2.0-1.el8
 - project: oslo-service
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-oslo-service-2.6.1-1.el8
+    cloud8s-openstack-xena-testing: python-oslo-service-2.6.2-1.el8
 - project: oslo-sphinx
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-oslo-sphinx-4.18.0-1.el8
@@ -673,7 +673,7 @@ packages:
     cloud8s-openstack-xena-testing: python-oslo-upgradecheck-1.4.0-1.el8
 - project: oslo-utils
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-oslo-utils-4.10.1-2.el8
+    cloud8s-openstack-xena-testing: python-oslo-utils-4.10.2-1.el8
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-oslo-versionedobjects-2.5.0-1.el8
