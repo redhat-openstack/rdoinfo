@@ -34,6 +34,24 @@
       "parentUuid": "db09b185_2fc61889",
       "revId": "1e19ad0c637e0f0d9d3da8750caad88982209019",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa5e8948_72e049e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2022-05-16T16:09:52Z",
+      "side": 1,
+      "message": "Hmmm. I\u0027ve installed the facter-4.2.8-3.c7e3f55b6git.el9s.noarch package in my local but it seems the package does not include the fix.\n\n\n[root@localhost ~]# rpm -qa | grep fact\nfacter-4.2.8-3.c7e3f55b6git.el9s.noarch\n[root@localhost ~]# vi /usr/share/gems/gems/facter-4.2.8/lib/facter/framework/core/cache_manager.rb\n[root@localhost ~]# rpm -qa | grep fact\nfacter-4.2.8-3.c7e3f55b6git.el9s.noarch\n[root@localhost ~]# tail -15 /usr/share/gems/gems/facter-4.2.8/lib/facter/framework/core/cache_manager.rb\n      @log.debug(\"#{group_name} facts cache file expired, missing or is corrupt\")\n      true\n    end\n\n    def delete_cache(group_name)\n      cache_file_name \u003d File.join(@cache_dir, group_name)\n\n      begin\n        File.delete(cache_file_name) if File.readable?(cache_file_name)\n      rescue Errno::EACCES \u003d\u003e e\n        @log.warn(\"Could not delete cache: #{e.message}\")\n      end\n    end\n  end\nend\n[root@localhost ~]#",
+      "parentUuid": "c1546c53_b06e64dd",
+      "revId": "1e19ad0c637e0f0d9d3da8750caad88982209019",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
