@@ -165,7 +165,7 @@ packages:
 - project: glance_store
   tags:
     zed-uc:
-      source-branch: 3.0.0
+      source-branch: 4.0.0
 - project: glanceclient
   tags:
     zed-uc:
@@ -413,7 +413,7 @@ packages:
 - project: neutron-lib
   tags:
     zed-uc:
-      source-branch: 2.20.0
+      source-branch: 2.21.0
 - project: neutron-tempest-plugin
   tags:
     zed-uc:
@@ -518,7 +518,7 @@ packages:
 - project: os-win
   tags:
     zed-uc:
-      source-branch: 5.6.0
+      source-branch: 5.7.0
 - project: os-xenapi
   tags:
     zed-uc:
@@ -1096,7 +1096,7 @@ packages:
 - project: troveclient
   tags:
     zed-uc:
-      source-branch: 7.2.0
+      source-branch: 7.3.0
 - project: validations-common
   tags:
     zed-uc:
