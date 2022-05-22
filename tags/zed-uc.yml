@@ -165,11 +165,11 @@ packages:
 - project: glance_store
   tags:
     zed-uc:
-      source-branch: 3.0.0
+      source-branch: 4.0.0
 - project: glanceclient
   tags:
     zed-uc:
-      source-branch: 3.6.0
+      source-branch: 4.0.0
 - project: glare
   tags:
     zed-uc:
@@ -266,15 +266,15 @@ packages:
 - project: keystoneauth1
   tags:
     zed-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: keystoneclient
   tags:
     zed-uc:
-      source-branch: 4.4.0
+      source-branch: 4.5.0
 - project: keystonemiddleware
   tags:
     zed-uc:
-      source-branch: 9.4.0
+      source-branch: 9.5.0
 - project: kolla
   tags:
     zed-uc:
@@ -312,7 +312,7 @@ packages:
 - project: manilaclient
   tags:
     zed-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: metalsmith
   tags:
     zed-uc:
@@ -430,7 +430,7 @@ packages:
 - project: novaclient
   tags:
     zed-uc:
-      source-branch: 17.7.0
+      source-branch: 18.0.0
 - project: novajoin
   tags:
     zed-uc:
@@ -467,7 +467,7 @@ packages:
 - project: openstacksdk
   tags:
     zed-uc:
-      source-branch: 0.61.0
+      source-branch: 0.99.0
 - project: os-apply-config
   tags:
     zed-uc:
@@ -488,7 +488,7 @@ packages:
 - project: os-ken
   tags:
     zed-uc:
-      source-branch: 2.3.1
+      source-branch: 2.4.0
 - project: os-net-config
   tags:
     zed-uc:
@@ -514,11 +514,11 @@ packages:
 - project: os-vif
   tags:
     zed-uc:
-      source-branch: 2.7.1
+      source-branch: 2.8.0
 - project: os-win
   tags:
     zed-uc:
-      source-branch: 5.6.0
+      source-branch: 5.7.0
 - project: os-xenapi
   tags:
     zed-uc:
@@ -526,7 +526,7 @@ packages:
 - project: osc-lib
   tags:
     zed-uc:
-      source-branch: 2.5.0
+      source-branch: 2.6.0
 - project: osc-placement
   tags:
     zed-uc:
@@ -562,7 +562,7 @@ packages:
 - project: oslo-log
   tags:
     zed-uc:
-      source-branch: 4.7.0
+      source-branch: 5.0.0
 - project: oslo-messaging
   tags:
     zed-uc:
@@ -639,7 +639,7 @@ packages:
 - project: ovsdbapp
   tags:
     zed-uc:
-      source-branch: 1.16.0
+      source-branch: 1.16.1
 - project: packstack
   tags:
     zed-uc:
@@ -1000,7 +1000,7 @@ packages:
 - project: sushy
   tags:
     zed-uc:
-      source-branch: 4.1.1
+      source-branch: 4.2.0
 - project: sushy-oem-idrac
   tags:
     zed-uc:
@@ -1013,14 +1013,14 @@ packages:
 - project: swiftclient
   tags:
     zed-uc:
-      source-branch: 3.13.1
+      source-branch: 4.0.0
 - project: tacker
   tags:
     zed-uc:
 - project: tackerclient
   tags:
     zed-uc:
-      source-branch: 1.10.0
+      source-branch: 1.11.0
 - project: tap-as-a-service
   tags:
     zed-uc:
@@ -1096,7 +1096,7 @@ packages:
 - project: troveclient
   tags:
     zed-uc:
-      source-branch: 7.2.0
+      source-branch: 7.3.0
 - project: validations-common
   tags:
     zed-uc:
