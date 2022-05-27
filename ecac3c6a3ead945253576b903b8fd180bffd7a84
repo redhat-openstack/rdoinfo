@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc72b118_a6e63f6f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2022-05-27T15:36:15Z",
+      "side": 1,
+      "message": "this is an automated sync with upstream upper-constraints\nhttps://review.rdoproject.org/r/q/topic:rdoinfo-uc-update-master\n\nreverting to sdk 0.6.1 could break other projects depending on features in newer SDK version, what is the plan to make TripleO compatible, and what test coverage should we add to rdoinfo CI on uc bumps?",
+      "revId": "ecac3c6a3ead945253576b903b8fd180bffd7a84",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "e4c3112b_eb464992",
