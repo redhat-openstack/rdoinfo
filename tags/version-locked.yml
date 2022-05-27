@@ -42,3 +42,7 @@ packages:
 - project: wsme
   tags:
     version-locked:
+# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
+- project: openstacksdk
+  tags:
+    version-locked:
