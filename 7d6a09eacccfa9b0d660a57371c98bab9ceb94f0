@@ -16,6 +16,23 @@
       "message": "\u003e Patch Set 1: Verified+1\n\u003e \n\u003e Build succeeded.\n\u003e \n\u003e - tox-linters https://review.rdoproject.org/zuul/build/d8ae88b16ea248e6b0fd765af1683c0e : SUCCESS in 2m 59s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/e16537da617b4f3eb91150392bf4fbd4 : SUCCESS in 2m 43s\n\u003e - rdoinfo-DLRN-check-centos8 https://review.rdoproject.org/zuul/build/71b4480abdf34dc79c630b0ba5d0cf6e : SUCCESS in 9m 39s\n\u003e - rdoinfo-DLRN-check-centos9 https://review.rdoproject.org/zuul/build/8327f55ea71e4df59f3d8206ca6ff141 : SUCCESS in 7m 43s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/9ffd79ff054d4420850aff2776addcce : SUCCESS in 1m 52s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/c1ae715d21064bd59465556f480480bc : SUCCESS in 1m 56s\n\u003e - distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset035-wallaby https://review.rdoproject.org/zuul/build/7335bc94d0f24ad8b9dc3d111a8104a0 : FAILURE in 1h 05m 49s (non-voting)\n\u003e - distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset001-wallaby https://review.rdoproject.org/zuul/build/59b4f98e40434adda2f3ebcdb5e560bb : FAILURE in 3h 20m 15s (non-voting)\n\u003e - distgit-tripleo-ci-centos-9-standalone-full-tempest-scenario-wallaby https://review.rdoproject.org/zuul/build/702533442f8f4c1ba34bba4b1f0240af : FAILURE in 2h 01m 46s (non-voting)\n\u003e - distgit-tripleo-ci-centos-9-standalone-full-tempest-api-wallaby https://review.rdoproject.org/zuul/build/7c8770358d424a0baf144b323c5e9363 : FAILURE in 2h 22m 18s (non-voting)\n\n\nhttps://logserver.rdoproject.org/05/43405/1/check/distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset001-wallaby/59b4f98/logs/undercloud/var/log/tempest/tempest_run.log.txt.gz\n\n```\n{1} tempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_rebuild_server_with_volume_attached [124.076331s] ... ok\n```",
       "revId": "7d6a09eacccfa9b0d660a57371c98bab9ceb94f0",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfc2620c_d192ef69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2022-06-06T04:36:49Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "7d6a09eacccfa9b0d660a57371c98bab9ceb94f0",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
