@@ -1,0 +1,23 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-master-testing-centos-9-standalone:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+        - distgit-tripleo-master-testing-centos-9-standalone-scenario001:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+        - distgit-tripleo-master-testing-centos-9-standalone-scenario002:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+        - distgit-tripleo-master-testing-centos-9-standalone-scenario003:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+        - distgit-tripleo-master-testing-centos-9-standalone-scenario004:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false

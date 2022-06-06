@@ -2,7 +2,7 @@ packages:
 - project: ansible-collections-openstack
   tags:
     zed-uc:
-      source-branch: 1.8.0
+      source-branch: master
 - project: ansible-config_template
   tags:
     zed-uc:
@@ -467,7 +467,7 @@ packages:
 - project: openstacksdk
   tags:
     zed-uc:
-      source-branch: 0.61.0
+      source-branch: 0.99.0
 - project: os-apply-config
   tags:
     zed-uc:
