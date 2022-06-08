@@ -669,9 +669,6 @@ packages:
 - project: puppet-barbican
   tags:
     zed-uc:
-- project: puppet-cassandra
-  tags:
-    zed-uc:
 - project: puppet-ceilometer
   tags:
     zed-uc:
@@ -690,13 +687,7 @@ packages:
 - project: puppet-concat
   tags:
     zed-uc:
-- project: puppet-contrail
-  tags:
-    zed-uc:
 - project: puppet-corosync
-  tags:
-    zed-uc:
-- project: puppet-datacat
   tags:
     zed-uc:
 - project: puppet-designate
@@ -706,9 +697,6 @@ packages:
   tags:
     zed-uc:
 - project: puppet-ec2api
-  tags:
-    zed-uc:
-- project: puppet-elasticsearch
   tags:
     zed-uc:
 - project: puppet-etcd
@@ -750,20 +738,10 @@ packages:
 - project: puppet-ironic
   tags:
     zed-uc:
-- project: puppet-java
-  tags:
-    zed-uc:
-      source-branch: main
-- project: puppet-kafka
-  tags:
-    zed-uc:
 - project: puppet-keepalived
   tags:
     zed-uc:
 - project: puppet-keystone
-  tags:
-    zed-uc:
-- project: puppet-kibana3
   tags:
     zed-uc:
 - project: puppet-kmod
@@ -877,10 +855,6 @@ packages:
 - project: puppet-tempest
   tags:
     zed-uc:
-- project: puppet-tomcat
-  tags:
-    zed-uc:
-      source-branch: main
 - project: puppet-tripleo
   tags:
     zed-uc:
@@ -907,9 +881,6 @@ packages:
   tags:
     zed-uc:
 - project: puppet-zaqar
-  tags:
-    zed-uc:
-- project: puppet-zookeeper
   tags:
     zed-uc:
 - project: pycadf
