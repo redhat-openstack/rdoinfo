@@ -201,6 +201,9 @@ packages:
 - project: python-pika_pool
   name: python-pika_pool
   conf: fedora-dependency
+- project: python-poetry-core
+  name: python-poetry-core
+  conf: fedora-dependency
 - project: python-positional
   name: python-positional
   conf: fedora-dependency
@@ -841,6 +844,9 @@ packages:
   conf: fedora-dependency
 - project: python-isodate
   name: python-isodate
+  conf: fedora-dependency
+- project: python-editables
+  name: python-editables
   conf: fedora-dependency
 - project: python-editor
   name: python-editor
