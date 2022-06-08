@@ -85,6 +85,24 @@
       "message": "I compared the run from passing https://logserver.rdoproject.org/59/43459/2/check/distgit-tripleo-ci-centos-9-standalone-full-tempest-api-wallaby/00b837a/logs/undercloud/var/log/tempest/tempest_run.log.txt.gz and failing https://logserver.rdoproject.org/openstack-periodic-integration-stable1/opendev.org/openstack/tripleo-ci/master/periodic-tripleo-ci-centos-9-standalone-full-tempest-api-wallaby/0700df7/logs/undercloud/var/log/tempest/tempest_run.log.txt.gz\n\ntempest.api.compute.servers.test_server_actions.ServerActionsTestJSON.test_rebuild_server_with_volume_attached [678.691509s] ... FAILED \n\nit is expected as we need additional 4 patches, this test is already in skip list so it will not impact anything.",
       "revId": "02b7a4afb3a9a61a6190fa26fc31e12f83b360b4",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c6373c5_13e9a708",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2022-06-08T13:17:15Z",
+      "side": 1,
+      "message": "@Alfredo, This patch is ready to merge. We also need to backport additional patches downstream on top of this.",
+      "parentUuid": "d66bf4ba_9b5e6293",
+      "revId": "02b7a4afb3a9a61a6190fa26fc31e12f83b360b4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
