@@ -355,7 +355,7 @@ packages:
     cloud8s-openstack-xena-testing: python-keystonemiddleware-9.3.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-kolla-13.0.1-1.el8
+    cloud8s-openstack-xena-testing: openstack-kolla-13.1.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-kuryr-lib-2.4.0-1.el8
@@ -2089,7 +2089,7 @@ packages:
     cloud8s-openstack-xena-testing: python-telemetry-tests-tempest-1.5.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-tempest-30.1.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-tempest-31.0.0-1.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-tempestconf-3.2.1-1.el8
