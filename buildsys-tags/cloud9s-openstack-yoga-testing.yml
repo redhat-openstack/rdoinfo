@@ -199,7 +199,7 @@ packages:
     cloud9s-openstack-yoga-testing: gflags-2.2.2-8.el9s
 - project: glance
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-glance-24.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-glance-24.1.0-1.el9s
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-glance-tests-tempest-0.3.0-1.el9s
@@ -328,7 +328,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-keystonemiddleware-9.4.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-kolla-14.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-kolla-14.1.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-kuryr-lib-2.5.0-1.el9s
@@ -1966,7 +1966,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-telemetry-tests-tempest-1.6.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-tempest-30.1.0-2.el9s
+    cloud9s-openstack-yoga-testing: openstack-tempest-31.0.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tempestconf-3.2.1-1.el9s
