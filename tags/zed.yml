@@ -767,10 +767,7 @@ packages:
       source-branch: main
 - project: puppet-rsyslog
   tags:
-    # NOTE(aschultz): rsyslog broke backwards compatibility with
-    # # https://github.com/voxpupuli/puppet-rsyslog/pull/136
     zed:
-      source-branch: 2548a0d95c1549b506b7bb2314dd149b028fc04b
 - project: puppet-sahara
   tags:
     zed:
