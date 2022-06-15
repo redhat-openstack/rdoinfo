@@ -1,0 +1,33 @@
+- project:
+    check:
+      jobs:
+        - distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset035-wallaby:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/wallaby.yml$
+        - distgit-tripleo-ci-centos-9-ovb-3ctlr_1comp-featureset001-wallaby:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/wallaby.yml$
+        - distgit-tripleo-ci-centos-9-standalone-full-tempest-scenario-wallaby:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/wallaby.yml$
+        - distgit-tripleo-ci-centos-9-standalone-full-tempest-api-wallaby:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/wallaby.yml$
+        - distgit-tripleo-ci-centos-9-standalone-wallaby:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            voting: false
+            files:
+              - ^tags/wallaby.yml$
