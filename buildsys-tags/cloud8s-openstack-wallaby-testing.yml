@@ -175,7 +175,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-designate-ui-12.0.0-2.el8
 - project: designate-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-designate-tests-tempest-0.11.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-designate-tests-tempest-0.13.0-1.el8
 - project: designateclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-designateclient-4.2.0-1.el8
@@ -2080,7 +2080,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-telemetry-tests-tempest-1.3.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-tempest-31.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-tempest-31.0.0-2.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-tempestconf-3.1.0-1.el8
