@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92c22341_5264ee83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2022-06-15T14:13:16Z",
+      "side": 1,
+      "message": "https://logserver.rdoproject.org/10/43610/2/check/distgit-tripleo-ci-centos-9-standalone-full-tempest-api-wallaby/35b35a1/logs/undercloud/var/log/tempest/tempest_run.log.txt.gz\n```\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nFailed 1 tests - output below:\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\ntempest.api.volume.test_volumes_snapshots.VolumesSnapshotTestJSON.test_snapshot_create_offline_delete_online[compute,id-5210a1de-85a0-11e6-bb21-641c676a5d61]\n-------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nCaptured traceback:\n~~~~~~~~~~~~~~~~~~~\n    Traceback (most recent call last):\n      File \"/usr/lib/python3.9/site-packages/tempest/common/waiters.py\", line 317, in wait_for_volume_resource_status\n        raise lib_exc.TimeoutException(message)\n    tempest.lib.exceptions.TimeoutException: Request timed out\n    Details: volume 72c756fe-c566-492c-9bcd-35666146ccd1 failed to reach available status (current in-use) within the required time (300 s).\n```\nmay be happened due to infra issue",
+      "revId": "2aa0e5cfba5c3c271d534179e491df44c678c902",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
