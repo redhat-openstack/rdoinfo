@@ -169,13 +169,13 @@ packages:
     cloud8s-openstack-xena-testing: python-debtcollector-2.3.0-2.el8
 - project: designate
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-designate-13.0.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-designate-13.0.1-1.el8
 - project: designate-dashboard
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-designate-ui-13.0.0-2.el8
 - project: designate-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-designate-tests-tempest-0.12.0-1.el8
+    cloud8s-openstack-xena-testing: python-designate-tests-tempest-0.13.0-1.el8
 - project: designateclient
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-designateclient-4.3.0-1.el8
