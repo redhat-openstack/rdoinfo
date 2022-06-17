@@ -50,6 +50,40 @@
       "message": "Can anyone help why it is failing to build package for tag 2.3.0 in ironic tempest [1]?\n\n[1]: https://review.rdoproject.org/zuul/build/19685a0d27414832ae1193569614377b",
       "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53507ee6_21db5562",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2022-06-17T13:21:52Z",
+      "side": 1,
+      "message": "Looks like the build is failing because the overall RPM build job seems to now expect to make a doc package or include documentation that really doesn\u0027t exist nor has existed. The spec files also haven\u0027t changed in quite some time, making me think it is the build input into the job overall, as it is variable driven from what I can see, but someone who knows the build pipeline likely needs to take a look. Regardless, this change doesn\u0027t seem valid. The plugin is branchless... but xena release plugin for Train is kind of beyond what would have been tested for upstream even too.",
+      "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9339363_697d23ef",
+        "filename": "tags/train.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2022-06-17T13:21:52Z",
+      "side": 1,
+      "message": "So... 2.3.0 is a Xena deliverable. Meaning Xena requirements... I\u0027m not sure this is going to work as hoped.",
+      "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
