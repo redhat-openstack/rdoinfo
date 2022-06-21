@@ -67,6 +67,23 @@
       "message": "Seems there is an issue with heat and keystone but I can\u0027t find out the link with the change.",
       "revId": "2e2bc345297e85a9e5f852cc7f9dd7bd706de8f6",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eea4b60_de3f6410",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2022-06-21T01:10:26Z",
+      "side": 1,
+      "message": "recheck\n\ntempestconf failed because of 500 error in cinder api call, which was triggered by MessagingTimeout.",
+      "revId": "2e2bc345297e85a9e5f852cc7f9dd7bd706de8f6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
