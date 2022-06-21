@@ -87,6 +87,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5427a838_b963e819",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2022-06-21T20:29:56Z",
+      "side": 1,
+      "message": "Well, that still doesn\u0027t answer the deal with the rpm package building wanting to build a docs rpm.",
+      "parentUuid": "1ce1a451_d38825eb",
+      "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e9339363_697d23ef",
@@ -118,6 +136,24 @@
       "side": 1,
       "message": "2.3.0 is also train-last tag, which means it is the last version that was tested with train.\nThe \"\u003cversion\u003e deliverable\" concept doesn\u0027t really apply to tempest and its plugins.",
       "parentUuid": "e9339363_697d23ef",
+      "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7276a02f_a8bb3343",
+        "filename": "tags/train.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 511
+      },
+      "writtenOn": "2022-06-21T20:29:56Z",
+      "side": 1,
+      "message": "Agreed, but there is nothing we can do here since we\u0027re still apparently pulling ?latest master branch? in for train overall for the failure to be occurring.\n\nI *think* this should be 2.1.0 which seems like the most appropriate happy place to get us past.",
+      "parentUuid": "f077cb26_5b87943f",
       "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
