@@ -105,6 +105,23 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f7ccf39d_1f98606a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2022-06-22T11:30:20Z",
+      "side": 1,
+      "message": "Regarding the doc building errors, notice the difference in the doc building command in the spec file between Train (and Ussuri) and Victoria:\nhttps://github.com/rdo-packages/ironic-tempest-plugin-distgit/blob/train-rdo/python-ironic-tests-tempest.spec#L88\nhttps://github.com/rdo-packages/ironic-tempest-plugin-distgit/blob/victoria-rdo/python-ironic-tests-tempest.spec#L93\n\nIn Victoria (where the doc building passes) the command is slightly different, passing different arguments specifying location of the doc build, maybe that\u0027s the issue there? I\u0027d try edit the spec file and recheck this patch with a Depends-on on that spec file change.",
+      "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e9339363_697d23ef",
