@@ -178,6 +178,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0cae4a19_d43e6cd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-06-22T14:55:54Z",
+      "side": 1,
+      "message": "You\u0027ll need to patch the distgit for ironic-tempest-plugin to replace the doc build command. Using sphinx-build should be backwards compatible but you still can run this review with depends-on distgit patches (for each release branch).",
+      "parentUuid": "092bf9cc_46930b8f",
+      "revId": "1c0f8fa8c8b7f665ef2c71e1c13972173ddfc8cc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e9339363_697d23ef",
         "filename": "tags/train.yml",
         "patchSetId": 2
