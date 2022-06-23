@@ -7,10 +7,6 @@ packages:
 - project: ceilometerclient
   tags:
     version-locked:
-# (TODO) remove version-locked when 7.0.4 is in u-c.
-- project: gnocchiclient
-  tags:
-    version-locked:
 # We want to pull latest commits from horizon instead of u-c pinned version
 - project: horizon
   tags:
