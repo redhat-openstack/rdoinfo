@@ -16,6 +16,24 @@
       "message": "we don\u0027t want to revert gnochiclienty to 7.0.6 even if it\u0027s in u-c. updating it in u-c is wip.",
       "revId": "8e7f2bb0902ae42e54638edad8a10c36545113a2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34b06c02_4da68560",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-07-01T15:37:40Z",
+      "side": 1,
+      "message": "yes, until update in u-c is done, we can\u0027t abandon this patch otherwise bot will create another one",
+      "parentUuid": "30539075_4b86e93f",
+      "revId": "8e7f2bb0902ae42e54638edad8a10c36545113a2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
