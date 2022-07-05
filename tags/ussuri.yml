@@ -478,6 +478,7 @@ packages:
 - project: os-apply-config
   tags:
     ussuri:
+      source-branch: 910348f934ed38497a5e3c284da0a86c5f077a1c
 - project: os-brick
   tags:
     ussuri:
@@ -489,6 +490,7 @@ packages:
 - project: os-collect-config
   tags:
     ussuri:
+      source-branch: 1bdb36136a052dddc3299c2775916aeb6ad3648b
 - project: os-faults
   tags:
     ussuri:
@@ -499,9 +501,11 @@ packages:
 - project: os-net-config
   tags:
     ussuri:
+      source-branch: 3ebf87b434a77e9d37c7d4324dda804c5418e6bc
 - project: os-refresh-config
   tags:
     ussuri:
+      source-branch: 2790bcc985cf87a540870d54179077f7300904da
 - project: os-resource-classes
   tags:
     ussuri:
@@ -654,6 +658,7 @@ packages:
 - project: paunch
   tags:
     ussuri:
+      source-branch: f546658bdf5991a5f02393f120b449141daa55f0
 - project: placement
   tags:
     ussuri:
@@ -963,6 +968,7 @@ packages:
 - project: puppet-tripleo
   tags:
     ussuri:
+      source-branch: 2025ebf859150ebd78d39bfcc306e52f3b105810
 - project: puppet-trove
   tags:
     ussuri:
@@ -1151,21 +1157,26 @@ packages:
 - project: tripleo-ansible
   tags:
     ussuri:
+      source-branch: 6392b5903a76d7654510d36407ab856ce64270d6
 - project: tripleo-common
   tags:
     ussuri:
+      source-branch: 10b421198ebdd53dbc07e03deb258e519723cbd2
 - project: tripleo-heat-templates
   tags:
     ussuri:
+      source-branch: fe237480190aef90ed494752a4ac23f486d7fe01
 - project: tripleo-image-elements
   tags:
     ussuri:
+      source-branch: 78a9a1cf6e300ac356fecea8ef05e19b61cebf2e
 - project: tripleo-ipa
   tags:
     ussuri:
 - project: tripleo-ipsec
   tags:
     ussuri:
+      source-branch: d9666d8900f90ef79d704478dde622b09b8ccfd1
 - project: tripleo-operator-ansible
   tags:
     ussuri:
@@ -1175,12 +1186,14 @@ packages:
 - project: tripleo-puppet-elements
   tags:
     ussuri:
+      source-branch: 92190ae5fc47b90020a3465a7196dd1ebfda19d4
 - project: tripleo-repos
   tags:
     ussuri:
 - project: tripleo-validations
   tags:
     ussuri:
+      source-branch: c96015df9d8723a7ec76dbe161bde6a56e9dc0c9
 - project: tripleoclient
   tags:
     ussuri:
