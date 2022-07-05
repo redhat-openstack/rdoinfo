@@ -85,6 +85,24 @@
       "message": "we should split this patch for each release, as there are 7 jobs for each release we need to pass 40 jobs.. and if there is a failing one we will have to recheck all",
       "revId": "97eee259eebdf911acc879b73c43fef7f627920d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6f7bf9b_4fc4a7ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 753
+      },
+      "writtenOn": "2022-07-05T06:44:54Z",
+      "side": 1,
+      "message": "There was no issue with your patch. You just have to build the collection for C8 and C9 first before you can import it into RDO releases.",
+      "parentUuid": "1da87ee9_848e0e11",
+      "revId": "97eee259eebdf911acc879b73c43fef7f627920d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
