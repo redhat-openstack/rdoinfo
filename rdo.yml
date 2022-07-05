@@ -5,23 +5,6 @@ releases:
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
-  - name: el8s
-    buildsys: cbs/cloud8s-openstack-zed-el8
-    buildsys-tags:
-    - cloud8s-openstack-zed-el8-build
-    - cloud8s-openstack-zed-candidate
-    - cloud8s-openstack-zed-testing
-    distrepos:
-    - name: RDO Zed el8s
-      url: http://mirror.centos.org/centos/8-stream/cloud/x86_64/openstack-zed/
-    - name: CentOS Stream 8 BaseOS
-      url: http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/
-    - name: CentOS Stream 8 AppStream
-      url: http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/
-    - name: CentOS Stream 8 HighAvailability
-      url: http://mirror.centos.org/centos/8-stream/HighAvailability/x86_64/os/
-    - name: CentOS Stream 8 PowerTools
-      url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
   - name: el9s
     buildsys: cbs/cloud9s-openstack-zed-el9s
     buildsys-tags:
