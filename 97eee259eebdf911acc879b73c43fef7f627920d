@@ -16,6 +16,24 @@
       "message": "@JM1, seems ansible-collection-containers-podman-1.9.4-1.el8 is not packaged yet?",
       "revId": "97eee259eebdf911acc879b73c43fef7f627920d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edd711a5_d79ac0b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 753
+      },
+      "writtenOn": "2022-07-05T05:53:54Z",
+      "side": 1,
+      "message": "Patches to build the collection for C8 and C9:\n\n* https://review.rdoproject.org/r/c/deps/ansible-collection-containers-podman/+/43849\n* https://review.rdoproject.org/r/c/rdoinfo/+/43850",
+      "parentUuid": "0b859c52_c791c7eb",
+      "revId": "97eee259eebdf911acc879b73c43fef7f627920d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
