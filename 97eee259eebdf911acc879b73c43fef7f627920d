@@ -68,6 +68,23 @@
       "message": "recheck",
       "revId": "97eee259eebdf911acc879b73c43fef7f627920d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f022222_ab6c1767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-07-05T06:44:29Z",
+      "side": 1,
+      "message": "we should split this patch for each release, as there are 7 jobs for each release we need to pass 40 jobs.. and if there is a failing one we will have to recheck all",
+      "revId": "97eee259eebdf911acc879b73c43fef7f627920d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
