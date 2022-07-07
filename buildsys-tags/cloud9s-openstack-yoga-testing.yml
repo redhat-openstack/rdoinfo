@@ -109,7 +109,7 @@ packages:
     cloud9s-openstack-yoga-testing: openstack-cinder-20.0.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-cinder-tests-tempest-1.6.0-1.el9s
+    cloud9s-openstack-yoga-testing: python-cinder-tests-tempest-1.7.0-1.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-cinderclient-8.3.0-1.el9s
@@ -202,7 +202,7 @@ packages:
     cloud9s-openstack-yoga-testing: openstack-glance-24.1.0-1.el9s
 - project: glance-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-glance-tests-tempest-0.3.0-1.el9s
+    cloud9s-openstack-yoga-testing: python-glance-tests-tempest-0.4.0-1.el9s
 - project: glance_store
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-glance-store-3.0.0-1.el9s
@@ -397,7 +397,7 @@ packages:
     cloud9s-openstack-yoga-testing: openstack-manila-ui-7.0.0-1.el9s
 - project: manilaclient
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-manilaclient-3.3.0-1.el9s
+    cloud9s-openstack-yoga-testing: python-manilaclient-3.3.1-1.el9s
 - project: metalsmith
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-metalsmith-1.6.2-1.el9s
@@ -1966,7 +1966,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-telemetry-tests-tempest-1.6.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-tempest-31.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-tempest-31.1.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tempestconf-3.2.1-1.el9s
