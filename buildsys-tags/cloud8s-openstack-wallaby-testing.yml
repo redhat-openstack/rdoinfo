@@ -112,7 +112,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-cinder-18.2.0-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-cinder-tests-tempest-1.6.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-cinder-tests-tempest-1.7.0-1.el8
 - project: cinderclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-cinderclient-7.4.1-1.el8
@@ -226,7 +226,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-glance-22.1.0-1.el8
 - project: glance-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-glance-tests-tempest-0.3.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-glance-tests-tempest-0.4.0-1.el8
 - project: glance_store
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-glance-store-2.5.1-1.el8
@@ -2080,7 +2080,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-telemetry-tests-tempest-1.3.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-tempest-31.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-tempest-31.1.0-1.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-tempestconf-3.1.0-1.el8
@@ -2125,7 +2125,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-trove-15.0.0-1.el8
 - project: trove-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-trove-ui-16.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-trove-ui-16.0.1-1.el8
 - project: trove-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-trove-tests-tempest-1.2.0-1.el8
