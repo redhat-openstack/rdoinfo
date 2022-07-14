@@ -326,6 +326,9 @@ packages:
 - project: python-seqdiag
   buildsys-tags:
     cloud8s-openstack-wallaby-el8-build: python-seqdiag-2.0.0-4.el8
+- project: python-setuptools_scm
+  buildsys-tags:
+    cloud8s-openstack-wallaby-el8-build: python-setuptools_scm-6.0.1-1.el8
 - project: python-snowballstemmer
   buildsys-tags:
     cloud8s-openstack-wallaby-el8-build: python-snowballstemmer-1.9.0-4.el8
@@ -410,6 +413,9 @@ packages:
 - project: python-tinycss2
   buildsys-tags:
     cloud8s-openstack-wallaby-el8-build: python-tinycss2-1.0.2-4.el8
+- project: python-toml
+  buildsys-tags:
+    cloud8s-openstack-wallaby-el8-build: python-toml-0.10.1-2.el8
 - project: python-trustme
   buildsys-tags:
     cloud8s-openstack-wallaby-el8-build: python-trustme-0.5.2-4.el8
