@@ -165,7 +165,7 @@ packages:
 - project: glance_store
   tags:
     zed-uc:
-      source-branch: 4.0.0
+      source-branch: 4.0.1
 - project: glanceclient
   tags:
     zed-uc:
@@ -446,14 +446,14 @@ packages:
 - project: octavia-lib
   tags:
     zed-uc:
-      source-branch: 2.5.0
+      source-branch: 3.0.0
 - project: octavia-tempest-plugin
   tags:
     zed-uc:
 - project: octaviaclient
   tags:
     zed-uc:
-      source-branch: 2.5.0
+      source-branch: 3.0.0
 - project: openstack-macros
   tags:
     zed-uc:
