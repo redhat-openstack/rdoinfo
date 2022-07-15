@@ -1070,3 +1070,13 @@ packages:
 - project: zeromq
   buildsys-tags:
     cloud9s-openstack-wallaby-testing: zeromq-4.3.4-1.el9s
+- project: erlang
+  buildsys-tags:
+    cloud9s-openstack-wallaby-testing: erlang-24.3.4.2-1.el9s
+- project: rabbitmq-server
+  buildsys-tags:
+    cloud9s-openstack-wallaby-testing: rabbitmq-server-3.9.21-1.el9s
+- project: elixir
+  buildsys-tags:
+    cloud9s-openstack-wallaby-testing: elixir-1.13.2-1.el9s
+
