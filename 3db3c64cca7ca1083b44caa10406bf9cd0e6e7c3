@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6d1213b_99f3ce1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 527
+      },
+      "writtenOn": "2022-07-18T14:38:48Z",
+      "side": 1,
+      "message": "1.9.0 was tagged today (18th Jul 2022) with https://review.opendev.org/c/openstack/releases/+/849565 \n\nManila\u0027s upstream gate does not pin tempest for the branches indicated here (W, X, Y), and the test runs can be seen here:\n\nhttps://zuul.opendev.org/t/openstack/builds?job_name\u003dmanila-tempest-plugin-lvm-wallaby\nhttps://zuul.opendev.org/t/openstack/builds?job_name\u003dmanila-tempest-plugin-lvm-xena\nhttps://zuul.opendev.org/t/openstack/builds?job_name\u003dmanila-tempest-plugin-lvm-yoga\n\nSo this bump LGTM, thanks Carlos!",
+      "revId": "3db3c64cca7ca1083b44caa10406bf9cd0e6e7c3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
