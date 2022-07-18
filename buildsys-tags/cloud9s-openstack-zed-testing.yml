@@ -560,6 +560,9 @@ packages:
 - project: python-jeepney
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-jeepney-0.7.1-1.el9s
+- project: python-jinja2
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-jinja2-3.0.1-2.el9s
 - project: python-jmespath
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-jmespath-0.10.0-1.el9s
@@ -623,6 +626,9 @@ packages:
 - project: python-marathon
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-marathon-0.8.8-16.el9s
+- project: python-markupsafe
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-markupsafe-2.0.0-2.el9s
 - project: python-matplotlib
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-matplotlib-3.4.2-1.el9s
