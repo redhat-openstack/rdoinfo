@@ -15,6 +15,11 @@ packages:
 - project: neutron
   tags:
     version-locked:
+# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
+- project: openstacksdk
+  tags:
+    version-locked:
+      zed-uc:
 # After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
 - project: os-brick
   tags:
@@ -38,8 +43,3 @@ packages:
 - project: wsme
   tags:
     version-locked:
-# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
-- project: openstacksdk
-  tags:
-    version-locked:
-      zed-uc:
