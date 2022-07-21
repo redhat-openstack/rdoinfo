@@ -51,6 +51,24 @@
       "message": "recheck",
       "revId": "7f21bd36914bc601b580a5271b7e15d4262a3331",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36f0f141_4b4674dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-07-21T15:26:30Z",
+      "side": 1,
+      "message": "Tested more jobs in https://review.opendev.org/q/topic:ovs2.17, there were some failures in one or the other run but those looks unreated to the ovn update.",
+      "parentUuid": "aaeec200_9f0de9e0",
+      "revId": "7f21bd36914bc601b580a5271b7e15d4262a3331",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
