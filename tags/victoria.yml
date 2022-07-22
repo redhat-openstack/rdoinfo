@@ -471,6 +471,7 @@ packages:
 - project: os-apply-config
   tags:
     victoria:
+      source-branch: 39d7e01041bd99120d9f594a70418b0cb2ee4965
 - project: os-brick
   tags:
     victoria:
@@ -482,6 +483,7 @@ packages:
 - project: os-collect-config
   tags:
     victoria:
+      source-branch: 950978bc39785badd96414673cfc5d99a6c24145
 - project: os-faults
   tags:
     victoria:
@@ -492,9 +494,11 @@ packages:
 - project: os-net-config
   tags:
     victoria:
+      source-branch: 1fda18fbf0ea74234d8b68a2314a01491f45212d
 - project: os-refresh-config
   tags:
     victoria:
+      source-branch: 1196e78afceac69736ddc96cbc44f975dc0002a5
 - project: os-resource-classes
   tags:
     victoria:
@@ -949,6 +953,7 @@ packages:
 - project: puppet-tripleo
   tags:
     victoria:
+      source-branch: 6a03592488c315601ccc5a034bdf3906a17de196
 - project: puppet-trove
   tags:
     victoria:
@@ -1127,21 +1132,26 @@ packages:
 - project: tripleo-ansible
   tags:
     victoria:
+      source-branch: 83ec40cc007d70dfa02902724b8240fac68704d5
 - project: tripleo-common
   tags:
     victoria:
+      source-branch: d76477f1c168dae3bd6f26e40bb9629398618872
 - project: tripleo-heat-templates
   tags:
     victoria:
+      source-branch: 778ca8da06876f05c2565da578c2f1a4d4dce1ce
 - project: tripleo-image-elements
   tags:
     victoria:
+      source-branch: 8a2012bc3ef551a269cefaa91ded1cdf2a26e30e
 - project: tripleo-ipa
   tags:
     victoria:
 - project: tripleo-ipsec
   tags:
     victoria:
+      source-branch: 96c60fa201697546cf4cc619e13fd685d7f7d52f
 - project: tripleo-operator-ansible
   tags:
     victoria:
@@ -1151,15 +1161,18 @@ packages:
 - project: tripleo-puppet-elements
   tags:
     victoria:
+      source-branch: 7b85576d2eb30ff9f7e278d95ef3ccd22a9f7c8c
 - project: tripleo-repos
   tags:
     victoria:
 - project: tripleo-validations
   tags:
     victoria:
+      source-branch: 46d430ee5015c707b19ca86c7977e8999b0c7ea9
 - project: tripleoclient
   tags:
     victoria:
+      source-branch: d41d32eee3ee1558b41f16093aaf2be21012bf4c
 - project: trove
   tags:
     victoria:
