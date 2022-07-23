@@ -16,30 +16,30 @@ packages:
   tags:
     version-locked:
 # After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
+- project: openstacksdk
+  tags:
+    version-locked:
+      zed-uc:
+# This project was removed in Pike and locked to the commit before
+# retirement.
 - project: os-brick
   tags:
     version-locked:
       train:
       ussuri:
-# This project was removed in Pike and locked to the commit before
-# retirement.
+# FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
 - project: os-cloud-config
   tags:
     version-locked:
-# FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
+# Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
 - project: tap-as-a-service
   tags:
     version-locked:
-# Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
+# Until we have a new release in u-c.
 - project: validations-libs
   tags:
     version-locked:
-# Until we have a new release in u-c.
+# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
 - project: wsme
   tags:
     version-locked:
-# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
-- project: openstacksdk
-  tags:
-    version-locked:
-      zed-uc:
