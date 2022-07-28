@@ -48,6 +48,30 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "903a939a_bb30f51a",
+        "filename": "buildsys-tags/cloud8s-openstack-yoga-release.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1258,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-07-28T12:41:57Z",
+      "side": 1,
+      "message": "ok I untagged it and remove it here in PS2",
+      "parentUuid": "6a8d6d2c_1878f219",
+      "range": {
+        "startLine": 1256,
+        "startChar": 0,
+        "endLine": 1258,
+        "endChar": 68
+      },
+      "revId": "dfb33dc99ec86c31f5eb3492a005c19b99b01911",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "17e580e1_10b851eb",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "we have it in cloud9s-openstack-yoga-release so i\u0027d leave it unless it\u0027s creating some issue (i don\u0027t see it in job logs).",
       "parentUuid": "17e580e1_10b851eb",
+      "range": {
+        "startLine": 1352,
+        "startChar": 0,
+        "endLine": 1354,
+        "endChar": 81
+      },
+      "revId": "dfb33dc99ec86c31f5eb3492a005c19b99b01911",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "672bcc2c_5a888179",
+        "filename": "buildsys-tags/cloud8s-openstack-yoga-release.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1354,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-07-28T12:41:57Z",
+      "side": 1,
+      "message": "ok, I removed it from this patch and will propose a separated patch to add it in -testing file, even though it\u0027s already tagged.",
+      "parentUuid": "46ccd308_201a0a57",
       "range": {
         "startLine": 1352,
         "startChar": 0,
