@@ -241,7 +241,7 @@ packages:
     cloud8s-openstack-wallaby-release: glpk-4.65-4.el8
 - project: gnocchi
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: gnocchi-4.3.5-1.el8
+    cloud8s-openstack-wallaby-release: gnocchi-4.4.2-1.el8
 - project: gnocchiclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-gnocchiclient-7.0.7-1.el8
@@ -2167,7 +2167,7 @@ packages:
     cloud8s-openstack-wallaby-release: python-vmware-nsxlib-17.0.0-1.el8
 - project: watcher
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-watcher-6.0.0-1.el8
+    cloud8s-openstack-wallaby-release: openstack-watcher-6.0.1-1.el8
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-watcher-tests-tempest-2.2.0-1.el8
