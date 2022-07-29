@@ -59,6 +59,9 @@ packages:
 - project: facter
   buildsys-tags:
     cloud9s-openstack-zed-testing: facter-4.2.10-1.el9s
+- project: python-funcparserlib
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-funcparserlib-1.0.0-1.el9s
 - project: future
   buildsys-tags:
     cloud9s-openstack-zed-testing: future-0.18.2-9.el9s
