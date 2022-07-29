@@ -337,7 +337,7 @@ packages:
     cloud9s-openstack-zed-testing: python-boto3-1.18.58-1.el9s
 - project: python-botocore
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-botocore-1.21.58-1.el9s
+    cloud9s-openstack-zed-testing: python-botocore-1.27.40-1.el9s
 - project: python-cachetools
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-cachetools-5.2.0-3.el9s
@@ -499,7 +499,7 @@ packages:
     cloud9s-openstack-zed-testing: python-google-auth-2.6.6-1.el9s
 - project: python-googleapis-common-protos
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-googleapis-common-protos-1.53.0-1.el9s
+    cloud9s-openstack-zed-testing: python-googleapis-common-protos-1.56.4-2.el9s
 - project: python-greenlet
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-greenlet-1.1.2-2.el9s
@@ -526,7 +526,7 @@ packages:
     cloud9s-openstack-zed-testing: python-httpcore-0.14.7-1.el9s
 - project: python-httplib2
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-httplib2-0.19.1-4.el9s
+    cloud9s-openstack-zed-testing: python-httplib2-0.20.4-6.el9s
 - project: python-httpx
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-httpx-0.17.1-1.el9s
@@ -559,7 +559,7 @@ packages:
     cloud9s-openstack-zed-testing: python-itsdangerous-2.0.1-2.el9s
 - project: python-jeepney
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-jeepney-0.7.1-1.el9s
+    cloud9s-openstack-zed-testing: python-jeepney-0.8.0-3.el9s
 - project: python-jinja2
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-jinja2-3.0.1-2.el9s
@@ -625,7 +625,7 @@ packages:
     cloud9s-openstack-zed-testing: python-lz4-3.0.2-5.el9s
 - project: python-marathon
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-marathon-0.8.8-16.el9s
+    cloud9s-openstack-zed-testing: python-marathon-0.13.0-2.el9s
 - project: python-markupsafe
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-markupsafe-2.0.0-2.el9s
@@ -788,6 +788,9 @@ packages:
 - project: python-requests_ntlm
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-requests_ntlm-1.1.0-14.el9s
+- project: python-requests-toolbelt
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-requests-toolbelt-0.9.1-16.el9s
 - project: python-responses
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-responses-0.21.0-3.el9s
@@ -1018,7 +1021,7 @@ packages:
     cloud9s-openstack-zed-testing: python-zake-0.2.2-22.el9s
 - project: python-zeroconf
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-zeroconf-0.38.3-1.el9s
+    cloud9s-openstack-zed-testing: python-zeroconf-0.38.7-1.el9s
 - project: python-zmq
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-zmq-22.0.3-1.el9s
