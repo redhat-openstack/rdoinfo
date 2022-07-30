@@ -1346,6 +1346,9 @@ packages:
 - project: python-google-auth
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-google-auth-1.24.0-1.el8
+- project: python-googleapis-common-protos
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: python-googleapis-common-protos-1.53.0-1.el8s
 - project: python-gunicorn
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-gunicorn-20.0.4-1.el8
