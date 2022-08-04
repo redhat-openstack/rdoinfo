@@ -947,6 +947,9 @@ packages:
 - project: python-txaio
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-txaio-22.2.1-1.el9s
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-typing-extensions-3.7.4.3-2.el9s
 - project: python-tzlocal
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-tzlocal-2.1-2.el9s
