@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ed416c3_cf1b7261",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-08-04T14:54:24Z",
+      "side": 1,
+      "message": "All weirdo jobs failing with:\n\n2022-08-04 09:48:43 -0400 /Stage[main]/Nova::Cell_v2::Map_cell0/Exec[nova-cell_v2-map_cell0]/returns (notice):   File \"/usr/lib/python3.9/site-packages/nova/cmd/manage.py\", line 709, in cell0_default_connection\n2022-08-04 09:48:43 -0400 /Stage[main]/Nova::Cell_v2::Map_cell0/Exec[nova-cell_v2-map_cell0]/returns (notice):     url.database \u003d url.database + \u0027_cell0\u0027\n2022-08-04 09:48:43 -0400 /Stage[main]/Nova::Cell_v2::Map_cell0/Exec[nova-cell_v2-map_cell0]/returns (notice): AttributeError: can\u0027t set attribute\n2022-08-04 09:48:43 -0400 /Stage[main]/Nova::Cell_v2::Map_cell0/Exec[nova-cell_v2-map_cell0] (err): Failed to call refresh: \u0027nova-manage  cell_v2 map_cell0\u0027 returned 255 instead of one of [0]\n2022-08-04 09:48:43 -0400 /Stage[main]/Nova::Cell_v2::Map_cell0/Exec[nova-cell_v2-map_cell0] (err): \u0027nova-manage  cell_v2 map_cell0\u0027 returned 255 instead of one of [0]\n\nwe need to dig on it.\n\n",
+      "revId": "3711f67182d6303e99c7f67b35d58427d30431f3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
