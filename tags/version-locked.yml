@@ -7,6 +7,11 @@ packages:
 - project: ceilometerclient
   tags:
     version-locked:
+- project: gnocchiclient
+  tags:
+    version-locked:
+      wallaby:
+      xena:
 # We want to pull latest commits from horizon instead of u-c pinned version
 - project: horizon
   tags:
