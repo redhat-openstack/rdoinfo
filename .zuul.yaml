@@ -1,0 +1,14 @@
+- project:
+    check:
+      jobs:
+        - weirdo-dlrn-wallaby-puppet-scenario001-centos8:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-packstack-scenario001-centos8:
+            dependencies:
+              - rdoinfo-DLRN-check-centos8
+            files:
+              - ^tags/wallaby.yml$
+
