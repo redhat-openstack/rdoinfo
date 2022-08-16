@@ -1,0 +1,39 @@
+- project:
+    check:
+      jobs:
+        - weirdo-dlrn-wallaby-puppet-scenario001-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-puppet-scenario002-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-puppet-scenario003-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-puppet-scenario004-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-packstack-scenario001-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-packstack-scenario002-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+        - weirdo-dlrn-wallaby-packstack-scenario003-centos9:
+            dependencies:
+              - rdoinfo-DLRN-check-centos9
+            files:
+              - ^tags/wallaby.yml$
+
