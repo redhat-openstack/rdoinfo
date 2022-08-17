@@ -224,6 +224,9 @@ packages:
 - project: python-pydantic
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-pydantic-1.7.3-1.el9s
+- project: python-pyfakefs
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-pyfakefs-4.4.0-4.el9s
 - project: python-pykmip
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-pykmip-0.8.0-9.el9s
@@ -287,6 +290,9 @@ packages:
 - project: python-requests-download
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-requests-download-0.1.2-5.el9s
+- project: python-requests-toolbelt
+  buildsys-tags:
+    cloud9s-openstack-zed-el9s-build: python-requests-toolbelt-0.9.1-16.el9s
 - project: python-requests-unixsocket
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-requests-unixsocket-0.1.5-9.el9s
