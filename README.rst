@@ -49,7 +49,6 @@ files which contains buildsys-tags and tags info for packages.
 
 
 In addition to the release names, we can use some special tag:
-
     * *version-locked* is used to prevent our periodic jobs from proposing updates to
       the source-branch tag in projects managed by the upper-constraints file.
     * *under-review* is used for packages that should be built by DLRN, but not
@@ -59,7 +58,7 @@ Example what metadata is set in buildsys-tags/* files will be explained below.
 
 
 * *tags* in this directory, all files contains metadata for under-development OpenStack release.
-         Each file have one of the following convention:
+    Each file have one of the following convention:
 
     * *release* is the name of Openstack release
     * *release-uc* all projects with in the files, pins to the source-branch of all projects
@@ -82,7 +81,8 @@ Each file has its use. Below are examples of metadata per yaml file.
 
 For `rdo.yaml` file:
 
-.. code::YAML
+.. code-block:: yaml
+
     release:
     ...
     - name: train
@@ -151,14 +151,12 @@ Following attributes are assigned to `rdo.yaml` file:
 
     * *name:* Openstack release name
     * *branch:* project distgit branch
-    * *tags_map:* possible value `separated_buildreqs` and `unified_buildreqs``;
+    * *tags_map:* possible value `separated_buildreqs` and `unified_buildreqs`;
                   option helps to build legacy packages before Rocky OS release
                   with proper tag. More info [9]_
     * *repos* defines main repo name, CBS [2]_ build target tags, repository url for built packages
 
-* *package-default* section - default information. If package doesn't include that
-                              data, it will be set from this section
-
+* *package-default* section - default information. If package doesn't include that data, it will be set from this section
     * *name:* package name
     * *distgit:* package distgit repo that include spec files, startup scripts, etc.
     * *patches:* RDO repository that contains required patches for building package
@@ -167,7 +165,6 @@ Following attributes are assigned to `rdo.yaml` file:
     * *tags:* available tags in distgit repository. Usually are named as Openstack releases.
 
 * *package-configs* section - main package metadata that will be used later in packages section
-
     * *name:* package name
     * *upstream:* upstream repository url
     * *distgit:* package distgit repo that include spec files, startup scripts, etc.
@@ -187,7 +184,8 @@ Following attributes are assigned to `rdo.yaml` file:
 
 For `deps.yml` file:
 
-.. code::YAML
+.. code-block:: yaml
+
     package-configs:
       fedora-dependency:
          # This is the conf for dependencies rebuilt from Fedora distgit
@@ -228,7 +226,8 @@ And for the *packages*:
 
 For `buildsys-tags/*` file:
 
-.. code::YAML
+.. code-block:: yaml
+
     packages:
     ...
     - project: ansible-role-chrony
@@ -243,7 +242,8 @@ Following attributes are assigned for e.g. `buildsys-tags/cloud7-openstack-train
 
 For `tags/train.yaml` file:
 
-.. code::YAML
+.. code-block:: yaml
+
     packages:
     - project: ansible-role-chrony
       tags:
@@ -268,10 +268,9 @@ so after that DLRN is able to get all required informations (more info in `verif
 
 
 Projects that use `rdoinfo`:
-
-    * rdopkg [5]_
-    * DLRN [6]_
-    * distroinfo [11]_
+  * rdopkg [5]_
+  * DLRN [6]_
+  * distroinfo [11]_
 
 
 Updating rdoinfo
