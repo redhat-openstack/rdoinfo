@@ -50,6 +50,23 @@
       "message": "recheck get latest status",
       "revId": "3711f67182d6303e99c7f67b35d58427d30431f3",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82059ffd_ed1c0b15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-08-23T11:25:44Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - rdoinfo-tripleo-wallaby-testing-centos-9-scenario001-standalone https://review.rdoproject.org/zuul/build/0491bde5d42a475d827f3c9f56f482ec : FAILURE in 6m 42s (non-voting)\n\u003e - validate-buildsys-tags-wallaby-testing-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/a5812bc615b843d6af18d0a95ba74289 : FAILURE in 52m 12s\n\u003e - validate-buildsys-tags-wallaby-testing-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/e31fa21a2cb747a49f69bedc03cf4c7e : FAILURE in 1h 00m 44s\n\u003e - validate-buildsys-tags-wallaby-testing-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/1ede00a9269342d7939b2f68568aa4f3 : FAILURE in 47m 39s\n\u003e - validate-buildsys-tags-wallaby-testing-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/e298c17d533a4e2daec33c2b944ea994 : FAILURE in 36m 28s\n\u003e - validate-buildsys-tags-wallaby-testing-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/da1c9f7bdcf94b3faba6d519c79764fe : FAILURE in 54m 54s\n\u003e - validate-buildsys-tags-wallaby-testing-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/4db5eb9f1bb5463f932b9e6b5c8c1640 : FAILURE in 52m 18s\n\u003e - validate-buildsys-tags-wallaby-testing-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/2722b9a099a04dd08ec0e25156edcc3b : FAILURE in 55m 07s\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/5ec1fb87f1ee478497bad508947d9ad9 : SUCCESS in 3m 03s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/93e024fa46f34369846ecfa017ff0e4a : SUCCESS in 3m 15s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/e05e0e6aed3d4f4ebaa93d000ffb26ab : SUCCESS in 2m 00s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/92279dac895047989b341c26861042be : SUCCESS in 3m 47s\n\nOhkk to clear the weirdo failures here we need:-\n1) oslo.db release:- https://review.opendev.org/c/openstack/releases/+/853310\n2) update in u-c and rdoinfo/tags/wallaby.yml\n3) wallaby puppet promotion\n\nAnd for TripleO https://review.opendev.org/c/openstack/tripleo-quickstart/+/854115",
+      "revId": "3711f67182d6303e99c7f67b35d58427d30431f3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
