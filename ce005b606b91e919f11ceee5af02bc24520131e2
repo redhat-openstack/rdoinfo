@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2427e38f_ac124f2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-08-24T10:28:22Z",
+      "side": 1,
+      "message": "May be we can stop fallback to master for train[1][2][3] now to avoid wrong building of commits for branched projects?\n[1] https://softwarefactory-project.io/r/plugins/gitiles/software-factory/sf-infra/+/refs/heads/master/playbooks/host_vars/trunk-centos8.rdoproject.org.yaml#312\n[2] https://softwarefactory-project.io/r/plugins/gitiles/software-factory/sf-infra/+/refs/heads/master/playbooks/host_vars/trunk-centos7.rdoproject.org.yaml#32\n[3] https://softwarefactory-project.io/r/plugins/gitiles/software-factory/sf-infra/+/refs/heads/master/playbooks/host_vars/trunk.rdoproject.org.yaml#160",
+      "revId": "ce005b606b91e919f11ceee5af02bc24520131e2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
