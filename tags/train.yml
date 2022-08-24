@@ -277,6 +277,7 @@ packages:
 - project: kolla
   tags:
     train:
+      source-branch: d967f400e2761e9022a6b2dedc2d307d32d1ea27
 - project: kuryr
   tags:
     train:
@@ -412,6 +413,7 @@ packages:
 - project: neutron-dynamic-routing
   tags:
     train:
+      source-branch: 56de1c4330de76256937ecd0b1d8cde8f16d9f0a
 - project: neutron-fwaas
   tags:
     train:
