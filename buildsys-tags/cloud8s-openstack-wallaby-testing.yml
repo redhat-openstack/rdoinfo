@@ -505,7 +505,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-networking-sfc-12.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-neutron-18.4.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-neutron-18.5.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-neutron-dynamic-routing-18.1.0-1.el8
@@ -2137,10 +2137,10 @@ packages:
     cloud8s-openstack-wallaby-testing: uwsgi-2.0.18-4.el8
 - project: validations-common
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: validations-common-1.7.0-1.el8
+    cloud8s-openstack-wallaby-testing: validations-common-1.7.1-1.el8
 - project: validations-libs
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-validations-libs-1.7.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-validations-libs-1.7.1-1.el8
 - project: virtualbmc
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-virtualbmc-2.2.0-2.el8
