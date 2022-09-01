@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "b3e48aaa7c0721eb2b8bab4c0b11307e9072e251",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dec10c7_38e2ad39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-09-01T08:53:49Z",
+      "side": 1,
+      "message": "Noticed similar failure in periodic once https://logserver.rdoproject.org/openstack-periodic-integration-stable1/opendev.org/openstack/tripleo-ci/master/periodic-tripleo-ci-centos-9-scenario001-standalone-wallaby/55cb4ff/logs/undercloud/home/zuul/standalone_deploy.log.txt.gz",
+      "revId": "b3e48aaa7c0721eb2b8bab4c0b11307e9072e251",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
