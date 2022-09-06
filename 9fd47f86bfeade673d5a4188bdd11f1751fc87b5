@@ -67,6 +67,23 @@
       "message": "recheck",
       "revId": "9fd47f86bfeade673d5a4188bdd11f1751fc87b5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f2bc6a6_8a26dda6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-09-06T08:08:43Z",
+      "side": 1,
+      "message": "It\u0027s failing because the patch [1] requires defusedxml\u003e\u003d0.7.0, but\nit\u0027s currently set to 0.6.0 in u-c of Train [2]. I local built it with 0.6.0 but same issue.\nI\u0027m wondering whether we should bump defusedxml to 0.7.0 or not\n\n\n[1] https://review.opendev.org/q/I8ff057ee64c04c4cd5c92abf3e31b52c6225ed76\n[2] https://github.com/openstack/requirements/blob/09fcb76336303cd62e15e49eadc27ec32f3e9122/upper-constraints.txt#L152",
+      "revId": "9fd47f86bfeade673d5a4188bdd11f1751fc87b5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
