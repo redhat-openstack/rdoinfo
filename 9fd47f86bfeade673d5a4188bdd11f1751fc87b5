@@ -119,6 +119,23 @@
       "parentUuid": "1ee6cd25_47e08518",
       "revId": "9fd47f86bfeade673d5a4188bdd11f1751fc87b5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb309034_6f3721db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 363
+      },
+      "writtenOn": "2022-09-06T12:12:28Z",
+      "side": 1,
+      "message": "It looks like defusedxml 0.7.0 still supports Python 3.6, so it is probably safe to bump UC to that.",
+      "revId": "9fd47f86bfeade673d5a4188bdd11f1751fc87b5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
