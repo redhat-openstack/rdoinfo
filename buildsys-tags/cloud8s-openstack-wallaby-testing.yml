@@ -355,7 +355,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-keystonemiddleware-9.2.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-kolla-12.4.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-kolla-12.5.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-kuryr-lib-2.3.0-1.el8
@@ -394,7 +394,7 @@ packages:
     cloud8s-openstack-wallaby-testing: luajit-2.1.0-0.16beta3.el8
 - project: magnum
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-magnum-12.1.1-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-magnum-12.1.1-2.el8
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-magnum-tests-tempest-1.3.0-1.el8
@@ -556,7 +556,7 @@ packages:
     cloud8s-openstack-wallaby-testing: openpgm-5.2.122-21.el8
 - project: openstack-selinux
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-selinux-0.8.27-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-selinux-0.8.34-1.el8
 - project: openstackclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-openstackclient-5.5.1-1.el8
