@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2383205e_e6fda6b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-09-09T16:25:22Z",
+      "side": 1,
+      "message": "wrt oslo-concurrency, DLRN build is stuck because of the patch [1] which is post 5.0.0. I need to dig into it.\n\n\n[1] https://review.opendev.org/c/openstack/oslo.concurrency/+/855713",
+      "revId": "dca54c0866dd3c4566a7dae7af0075f71fe97ac9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
