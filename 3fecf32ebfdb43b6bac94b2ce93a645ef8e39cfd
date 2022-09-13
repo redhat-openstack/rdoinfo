@@ -16,6 +16,24 @@
       "message": "Let\u0027s wait for results in https://review.opendev.org/c/openstack/tripleo-heat-templates/+/857182 before we merge. Also pushed https://review.opendev.org/c/openstack/tripleo-quickstart-extras/+/857201 for clearing current issue in oooq job in this patch",
       "revId": "3fecf32ebfdb43b6bac94b2ce93a645ef8e39cfd",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bdf69d82_dcb8c63d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2022-09-13T05:42:58Z",
+      "side": 1,
+      "message": "so mixed-os job passing[1] now with the change, but ffu-upgrade job failing with file /etc/sysconfig/network-scripts/ifdown-ovs from install of network-scripts-openvswitch2.17-2.17.0-31.el8s.x86_64 conflicts with file from package network-scripts-openvswitch-2.12.0-1.1.el8.x86_64[2].\n\n[1] https://zuul.opendev.org/t/openstack/build/96b19c921a35454cb3ae31f04d183669\n[2] https://storage.gra.cloud.ovh.net/v1/AUTH_dcaab5e32b234d56b626f72581e3644c/zuul_opendev_logs_be8/857182/2/check/tripleo-ci-centos-8-undercloud-ffu-wallaby/be8a9db/logs/undercloud/home/zuul/ffu_undercloud_upgrade.log",
+      "parentUuid": "34ab0013_ca4167e5",
+      "revId": "3fecf32ebfdb43b6bac94b2ce93a645ef8e39cfd",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
