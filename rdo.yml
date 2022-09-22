@@ -999,6 +999,17 @@ packages:
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+- project: whitebox-neutron-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  upstream: https://opendev.org/x/whitebox-neutron-tempest-plugin
+  name: python-whitebox-neutron-tests-tempest
+  component: network
+  maintainers:
+  - akatz@redhat.com
+  - eolivare@redhat.com
+  - mblue@redhat.com
+  - rsafrono@redhat.com
+  - skaplons@redhat.com
 - project: neutron-fwaas
   conf: rpmfactory-core
   component: network
