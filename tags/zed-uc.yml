@@ -546,7 +546,7 @@ packages:
 - project: oslo-db
   tags:
     zed-uc:
-      source-branch: 12.0.0
+      source-branch: 12.1.0
 - project: oslo-i18n
   tags:
     zed-uc:
@@ -893,6 +893,7 @@ packages:
 - project: sahara
   tags:
     zed-uc:
+      source-branch: master
 - project: sahara-dashboard
   tags:
     zed-uc:
