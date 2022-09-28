@@ -302,6 +302,9 @@ packages:
 - project: python-ansible-runner
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-ansible-runner-2.2.1-2.el9s
+- project: python-anyio
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-anyio-3.5.0-1.el9s
 - project: python-anyjson
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-anyjson-0.3.3-29.el9s
@@ -529,13 +532,13 @@ packages:
     cloud9s-openstack-zed-testing: python-html5lib-1.1-4.el9s
 - project: python-httpcore
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-httpcore-0.14.7-1.el9s
+    cloud9s-openstack-zed-testing: python-httpcore-0.15.0-2.el9s
 - project: python-httplib2
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-httplib2-0.20.4-6.el9s
 - project: python-httpx
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-httpx-0.17.1-1.el9s
+    cloud9s-openstack-zed-testing: python-httpx-0.23.0-1.el9s
 - project: python-hyperframe
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-hyperframe-6.0.0-2.el9s
@@ -950,6 +953,9 @@ packages:
 - project: python-tosca-parser
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-tosca-parser-2.6.0-3.el9s
+- project: python-trio
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-trio-0.18.0-1.el9s
 - project: python-trollius
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-trollius-2.1-18.el9s
