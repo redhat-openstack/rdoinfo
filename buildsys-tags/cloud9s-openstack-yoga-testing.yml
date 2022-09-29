@@ -22,7 +22,7 @@ packages:
     cloud9s-openstack-yoga-testing: ansible-collection-containers-podman-1.9.4-1.el9s
 - project: ansible-collections-openstack
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: ansible-collections-openstack-1.8.0-1.el9s
+    cloud9s-openstack-yoga-testing: ansible-collections-openstack-1.9.1-1.el9s
 - project: ansible-config_template
   buildsys-tags:
     cloud9s-openstack-yoga-testing: ansible-config_template-1.2.1-1.bd7543agit.el9s
@@ -1966,7 +1966,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-telemetry-tests-tempest-1.6.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-tempest-31.1.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-tempest-32.0.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tempestconf-3.2.1-1.el9s
