@@ -16,6 +16,24 @@
       "message": "Plan was to use tagged releases of Puppet modules, is that still the plan?",
       "revId": "ed9069f759573540081530097e68b7988333e8a5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01cc0cf9_b8b317b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-09-30T07:35:29Z",
+      "side": 1,
+      "message": "For non OpenStack modules we can\u0027t use tag as they don\u0027t follow OpenStack release timelines. We pin those project to last promoted hash, and then build commit snapshot RPM.\nFor OpenStack puppet modules we usually use tag, but maybe I\u0027m missing something, is there a new plan ?",
+      "parentUuid": "62b7077c_f1a3a67d",
+      "revId": "ed9069f759573540081530097e68b7988333e8a5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
