@@ -28,7 +28,7 @@ packages:
     cloud8s-openstack-xena-release: ansible-collection-containers-podman-1.9.4-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-collections-openstack-1.8.0-1.el8
+    cloud8s-openstack-xena-release: ansible-collections-openstack-1.9.1-1.el8
 - project: ansible-config_template
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-config_template-1.1.1-2.8a9b962git.el8
@@ -1927,7 +1927,7 @@ packages:
     cloud8s-openstack-xena-release: openstack-rally-plugins-2.1.0-1.el8
 - project: rdo-openvswitch
   buildsys-tags:
-    cloud8s-openstack-xena-release: rdo-openvswitch-2.15-2.el8
+    cloud8s-openstack-xena-release: rdo-openvswitch-2.17-3.el8
 - project: reno
   buildsys-tags:
     cloud8s-openstack-xena-release: python-reno-3.4.0-1.el8
@@ -2089,7 +2089,7 @@ packages:
     cloud8s-openstack-xena-release: python-telemetry-tests-tempest-1.5.0-1.el8
 - project: tempest
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-tempest-31.1.0-1.el8
+    cloud8s-openstack-xena-release: openstack-tempest-32.0.0-1.el8
 - project: tempestconf
   buildsys-tags:
     cloud8s-openstack-xena-release: python-tempestconf-3.2.1-1.el8
