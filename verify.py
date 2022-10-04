@@ -13,6 +13,7 @@ def verify(fn, include_fns=[]):
     for pkg in inforepo['packages']:
         verify_buildsys_tags(pkg, buildsystags)
     verify_components(inforepo)
+    verify_status(inforepo)
     print("\n%s looks OK" % fn)
 
 def verify_buildsys_tags(pkg, buildsystags):
@@ -60,6 +61,21 @@ def list_buildsys_tags(info):
             if 'buildsys-tags' in repo.keys():
                 tags = tags + repo['buildsys-tags']
     return tags
+
+def verify_status(info):
+    status_list = []
+    for release in info['releases']:
+        _status = ''
+        try:
+            _status = release['status']
+        except:
+            raise Exception("'status' metadata is not set for release %s " %
+                            release['name'])
+        authorized_status = ['development', 'maintained',
+                             'extended_maintenance', 'eol']
+        if _status not in authorized_status:
+            raise Exception("The 'status' value '%s' is not in authorized "
+                            "values %s" % (_status, authorized_status))
 
 if __name__ == '__main__':
     verify('rdo-full.yml')
