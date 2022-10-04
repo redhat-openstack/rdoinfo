@@ -2,6 +2,7 @@ import:
 - tags.yml
 releases:
 - name: antelope
+  status: development
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -22,6 +23,7 @@ releases:
       url: http://mirror.stream.centos.org/9-stream/HighAvailability/x86_64/os/
     - name: CentOS Stream 9 CRB
 - name: zed
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -43,6 +45,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: yoga
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -83,6 +86,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: xena
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -122,6 +126,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: wallaby
+  status: maintained
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -178,6 +183,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: victoria
+  status: extended_maintenance
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -219,6 +225,7 @@ releases:
     - name: CentOS Stream 8 PowerTools
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 - name: ussuri
+  status: extended_maintenance
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -261,6 +268,7 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 
 - name: train
+  status: extended_maintenance
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -317,6 +325,7 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 
 - name: stein
+  status: extended_maintenance
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -337,6 +346,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: rocky
+  status: extended_maintenance
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -357,6 +367,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: queens
+  status: extended_maintenance
   branch: queens-rdo
   repos:
   - name: el7
@@ -375,6 +386,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: pike
+  status: extended_maintenance
   branch: pike-rdo
   repos:
   - name: el7
@@ -393,6 +405,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: ocata
+  status: eol
   branch: ocata-rdo
   repos:
   - name: el7
