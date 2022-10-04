@@ -1,1154 +1,1005 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    zed:
-      source-branch: 1.9.1
+    antelope:
 - project: ansible-config_template
   tags:
-    zed:
+    antelope:
 - project: ansible-pacemaker
   tags:
-    zed:
+    antelope:
 - project: ansible-role-atos-hsm
   tags:
-    zed:
+    antelope:
 - project: ansible-role-chrony
   tags:
-    zed:
+    antelope:
 - project: ansible-role-collect-logs
   tags:
-    zed:
+    antelope:
 - project: ansible-role-collectd-config
   tags:
-    zed:
+    antelope:
 - project: ansible-role-container-registry
   tags:
-    zed:
+    antelope:
 - project: ansible-role-lunasa-hsm
   tags:
-    zed:
+    antelope:
 - project: ansible-role-openstack-operations
   tags:
-    zed:
+    antelope:
 - project: ansible-role-qdr-config
   tags:
-    zed:
+    antelope:
 - project: ansible-role-redhat-subscription
   tags:
-    zed:
+    antelope:
 - project: ansible-role-thales-hsm
   tags:
-    zed:
+    antelope:
 - project: ansible-role-tripleo-modify-image
   tags:
-    zed:
+    antelope:
 - project: ansible-tripleo-ipa-server
   tags:
-    zed:
+    antelope:
 - project: aodh
   tags:
-    zed:
+    antelope:
 - project: aodhclient
   tags:
-    zed:
-      source-branch: 3.0.0
+    antelope:
 - project: automaton
   tags:
-    zed:
-      source-branch: 3.0.1
+    antelope:
 - project: barbican
   tags:
-    zed:
+    antelope:
 - project: barbican-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.7.0
+    antelope:
 - project: barbicanclient
   tags:
-    zed:
-      source-branch: 5.4.0
+    antelope:
 - project: castellan
   tags:
-    zed:
-      source-branch: 4.0.0
+    antelope:
 - project: ceilometer
   tags:
-    zed:
+    antelope:
 - project: ceilometerclient
   tags:
-    zed:
-      source-branch: 2.9.0
+    antelope:
+      source-branch: 3ff6bac3da348bad0b220ab26eab6ad6bfbeb675
 - project: ceilometermiddleware
   tags:
-    zed:
-      source-branch: 3.0.0
+    antelope:
 - project: cinder
   tags:
-    zed:
+    antelope:
 - project: cinder-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.7.2
+    antelope:
 - project: cinderclient
   tags:
-    zed:
-      source-branch: 9.1.0
+    antelope:
 - project: cinderlib
   tags:
-    zed:
+    antelope:
 - project: cliff
   tags:
-    zed:
-      source-branch: 4.0.0
+    antelope:
 - project: cloudkitty
   tags:
-    zed:
+    antelope:
 - project: cloudkitty-dashboard
   tags:
-    zed:
+    antelope:
 - project: cloudkittyclient
   tags:
-    zed:
-      source-branch: 4.6.0
+    antelope:
 - project: collectd-gnocchi
   tags:
-    zed:
+    antelope:
 - project: cursive
   tags:
-    zed:
-      source-branch: 0.2.2
+    antelope:
 - project: debtcollector
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: designate
   tags:
-    zed:
+    antelope:
 - project: designate-dashboard
   tags:
-    zed:
+    antelope:
 - project: designate-tempest-plugin
   tags:
-    zed:
-      source-branch: 0.14.0
+    antelope:
 - project: designateclient
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: dib-utils
   tags:
-    zed:
-      source-branch: 0.0.11
+    antelope:
 - project: directord
   tags:
-    zed:
+    antelope:
       source-branch: main
 - project: diskimage-builder
   tags:
-    zed:
+    antelope:
 - project: dracclient
   tags:
-    zed:
+    antelope:
 - project: ec2-api
   tags:
-    zed:
+    antelope:
 - project: ec2api-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.5.0
+    antelope:
 - project: futurist
   tags:
-    zed:
-      source-branch: 2.4.1
+    antelope:
 - project: glance
   tags:
-    zed:
+    antelope:
 - project: glance-tempest-plugin
   tags:
-    zed:
-      source-branch: 0.5.0
+    antelope:
 - project: glance_store
   tags:
-    zed:
-      source-branch: 4.1.0
+    antelope:
 - project: glanceclient
   tags:
-    zed:
-      source-branch: 4.1.0
+    antelope:
 - project: glare
   tags:
-    zed:
+    antelope:
 - project: glareclient
   tags:
-    zed:
-      source-branch: 0.5.3
+    antelope:
 - project: glean
   tags:
-    zed:
+    antelope:
 - project: gnocchi
   tags:
-    zed:
+    antelope:
       source-branch: stable/4.4
 - project: gnocchiclient
   tags:
-    zed:
-      source-branch: 7.0.7
+    antelope:
 - project: hacking
   tags:
-    zed:
-      source-branch: 865398f0c9a20883ef1ab68a9f80ffd74b9098e8
+    antelope:
 - project: hardware
   tags:
-    zed:
+    antelope:
 - project: heat
   tags:
-    zed:
+    antelope:
 - project: heat-agents
   tags:
-    zed:
+    antelope:
 - project: heat-dashboard
   tags:
-    zed:
+    antelope:
 - project: heat-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.6.0
+    antelope:
 - project: heat-translator
   tags:
-    zed:
-      source-branch: 2.6.0
+    antelope:
 - project: heatclient
   tags:
-    zed:
-      source-branch: 3.1.0
+    antelope:
 - project: horizon
   tags:
-    zed:
+    antelope:
 - project: ibmcclient
   tags:
-    zed:
+    antelope:
 - project: ironic
   tags:
-    zed:
+    antelope:
 - project: ironic-inspector
   tags:
-    zed:
+    antelope:
 - project: ironic-inspector-client
   tags:
-    zed:
-      source-branch: 4.8.0
+    antelope:
 - project: ironic-lib
   tags:
-    zed:
-      source-branch: 5.3.0
+    antelope:
 - project: ironic-prometheus-exporter
   tags:
-    zed:
+    antelope:
 - project: ironic-python-agent
   tags:
-    zed:
+    antelope:
 - project: ironic-python-agent-builder
   tags:
-    zed:
+    antelope:
 - project: ironic-staging-drivers
   tags:
-    zed:
+    antelope:
 - project: ironic-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: ironic-ui
   tags:
-    zed:
+    antelope:
 - project: ironicclient
   tags:
-    zed:
-      source-branch: 5.0.1
+    antelope:
 - project: keystone
   tags:
-    zed:
+    antelope:
 - project: keystone-tempest-plugin
   tags:
-    zed:
-      source-branch: 0.10.0
+    antelope:
 - project: keystoneauth1
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: keystoneclient
   tags:
-    zed:
-      source-branch: 5.0.1
+    antelope:
 - project: keystonemiddleware
   tags:
-    zed:
-      source-branch: 10.1.0
+    antelope:
 - project: kolla
   tags:
-    zed:
+    antelope:
 - project: kuryr
   tags:
-    zed:
+    antelope:
 - project: kuryr-kubernetes
   tags:
-    zed:
+    antelope:
 - project: kuryr-tempest-plugin
   tags:
-    zed:
-      source-branch: 0.13.0
+    antelope:
 - project: magnum
   tags:
-    zed:
+    antelope:
 - project: magnum-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.7.0
+    antelope:
 - project: magnum-ui
   tags:
-    zed:
+    antelope:
 - project: magnumclient
   tags:
-    zed:
-      source-branch: 4.0.0
+    antelope:
 - project: manila
   tags:
-    zed:
+    antelope:
 - project: manila-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.10.0
+    antelope:
 - project: manila-ui
   tags:
-    zed:
+    antelope:
 - project: manilaclient
   tags:
-    zed:
-      source-branch: 4.1.0
+    antelope:
 - project: metalsmith
   tags:
-    zed:
-      source-branch: 1.8.0
+    antelope:
 - project: microversion-parse
   tags:
-    zed:
-      source-branch: 1.0.1
+    antelope:
 - project: mistral
   tags:
-    zed:
+    antelope:
 - project: mistral-dashboard
   tags:
-    zed:
+    antelope:
 - project: mistral-extra
   tags:
-    zed:
+    antelope:
 - project: mistral-lib
   tags:
-    zed:
-      source-branch: 2.7.0
+    antelope:
 - project: mistral-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.0.0
+    antelope:
 - project: mistralclient
   tags:
-    zed:
-      source-branch: 4.5.0
+    antelope:
 - project: monascaclient
   tags:
-    zed:
-      source-branch: 2.6.0
+    antelope:
 - project: murano
   tags:
-    zed:
+    antelope:
 - project: murano-agent
   tags:
-    zed:
+    antelope:
 - project: murano-dashboard
   tags:
-    zed:
+    antelope:
 - project: murano-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: muranoclient
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: networking-ansible
   tags:
-    zed:
+    antelope:
 - project: networking-arista
   tags:
-    zed:
+    antelope:
 - project: networking-bagpipe
   tags:
-    zed:
+    antelope:
 - project: networking-baremetal
   tags:
-    zed:
+    antelope:
 - project: networking-bgpvpn
   tags:
-    zed:
+    antelope:
 - project: networking-bigswitch
   tags:
-    zed:
+    antelope:
 - project: networking-generic-switch
   tags:
-    zed:
+    antelope:
 - project: networking-l2gw
   tags:
-    zed:
+    antelope:
 - project: networking-l2gw-tempest-plugin
   tags:
-    zed:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
+    antelope:
 - project: networking-mlnx
   tags:
-    zed:
+    antelope:
 - project: networking-odl
   tags:
-    zed:
+    antelope:
 - project: networking-omnipath
   tags:
-    zed:
+    antelope:
 - project: networking-sfc
   tags:
-    zed:
+    antelope:
 - project: neutron
   tags:
-    zed:
+    antelope:
 - project: neutron-dynamic-routing
   tags:
-    zed:
+    antelope:
 - project: neutron-lib
   tags:
-    zed:
-      source-branch: 3.1.0
+    antelope:
 - project: neutron-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.0.0
+    antelope:
 - project: neutron-vpnaas
   tags:
-    zed:
+    antelope:
 - project: neutronclient
   tags:
-    zed:
-      source-branch: 8.1.0
+    antelope:
 - project: nova
   tags:
-    zed:
+    antelope:
 - project: novaclient
   tags:
-    zed:
-      source-branch: 18.1.0
+    antelope:
 - project: novajoin
   tags:
-    zed:
+    antelope:
 - project: novajoin-tempest-plugin
   tags:
-    zed:
-      source-branch: b2e548518a8893562ed111fe66f5937603f5ec5d
+    antelope:
 - project: octavia
   tags:
-    zed:
+    antelope:
 - project: octavia-dashboard
   tags:
-    zed:
+    antelope:
 - project: octavia-lib
   tags:
-    zed:
-      source-branch: 3.1.0
+    antelope:
 - project: octavia-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.0.0
+    antelope:
 - project: octaviaclient
   tags:
-    zed:
-      source-branch: 3.1.0
+    antelope:
 - project: openstack-macros
   tags:
-    zed:
+    antelope:
 - project: openstack-selinux
   tags:
-    zed:
+    antelope:
 - project: openstackclient
   tags:
-    zed:
-      source-branch: 6.0.0
+    antelope:
 - project: openstacksdk
   tags:
-    zed:
-      source-branch: 0.61.0
+    antelope:
 - project: os-apply-config
   tags:
-    zed:
+    antelope:
 - project: os-brick
   tags:
-    zed:
-      source-branch: 6.1.0
+    antelope:
 - project: os-client-config
   tags:
-    zed:
-      source-branch: 2.1.0
+    antelope:
 - project: os-collect-config
   tags:
-    zed:
+    antelope:
 - project: os-faults
   tags:
-    zed:
+    antelope:
 - project: os-ken
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: os-net-config
   tags:
-    zed:
+    antelope:
 - project: os-refresh-config
   tags:
-    zed:
+    antelope:
 - project: os-resource-classes
   tags:
-    zed:
-      source-branch: 1.1.0
+    antelope:
 - project: os-service-types
   tags:
-    zed:
-      source-branch: 1.7.0
+    antelope:
 - project: os-testr
   tags:
-    zed:
-      source-branch: 3.0.0
+    antelope:
 - project: os-traits
   tags:
-    zed:
-      source-branch: 2.9.0
+    antelope:
 - project: os-vif
   tags:
-    zed:
-      source-branch: 2.8.0
+    antelope:
 - project: os-win
   tags:
-    zed:
-      source-branch: 5.7.1
+    antelope:
 - project: os-xenapi
   tags:
-    zed:
-      source-branch: 0.3.4
+    antelope:
 - project: osc-lib
   tags:
-    zed:
-      source-branch: 2.6.2
+    antelope:
 - project: osc-placement
   tags:
-    zed:
-      source-branch: 4.0.0
+    antelope:
 - project: oslo-cache
   tags:
-    zed:
-      source-branch: 3.1.0
+    antelope:
 - project: oslo-concurrency
   tags:
-    zed:
-      source-branch: 5.0.1
+    antelope:
 - project: oslo-config
   tags:
-    zed:
-      source-branch: 9.0.0
+    antelope:
 - project: oslo-context
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: oslo-db
   tags:
-    zed:
-      source-branch: 12.1.0
+    antelope:
 - project: oslo-i18n
   tags:
-    zed:
-      source-branch: 5.1.0
+    antelope:
 - project: oslo-limit
   tags:
-    zed:
-      source-branch: 2.0.1
+    antelope:
 - project: oslo-log
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: oslo-messaging
   tags:
-    zed:
-      source-branch: 14.0.0
+    antelope:
 - project: oslo-metrics
   tags:
-    zed:
-      source-branch: 0.5.0
+    antelope:
 - project: oslo-middleware
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: oslo-policy
   tags:
-    zed:
-      source-branch: 4.0.0
+    antelope:
 - project: oslo-privsep
   tags:
-    zed:
-      source-branch: 3.0.1
+    antelope:
 - project: oslo-reports
   tags:
-    zed:
-      source-branch: 2.4.0
+    antelope:
 - project: oslo-rootwrap
   tags:
-    zed:
-      source-branch: 6.3.1
+    antelope:
 - project: oslo-serialization
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: oslo-service
   tags:
-    zed:
-      source-branch: 3.0.0
+    antelope:
 - project: oslo-sphinx
   tags:
-    zed:
+    antelope:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    zed:
-      source-branch: 2.0.0
+    antelope:
 - project: oslo-utils
   tags:
-    zed:
-      source-branch: 6.0.1
+    antelope:
 - project: oslo-versionedobjects
   tags:
-    zed:
-      source-branch: 3.0.1
+    antelope:
 - project: oslo-vmware
   tags:
-    zed:
-      source-branch: 4.0.1
+    antelope:
 - project: oslotest
   tags:
-    zed:
-      source-branch: 4.5.0
+    antelope:
 - project: osprofiler
   tags:
-    zed:
-      source-branch: 3.4.3
+    antelope:
 - project: oswin-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.0.0
+    antelope:
 - project: ovn-bgp-agent
   tags:
-    zed:
+    antelope:
 - project: ovn-octavia-provider
   tags:
-    zed:
+    antelope:
 - project: ovsdbapp
   tags:
-    zed:
-      source-branch: 2.1.0
+    antelope:
 - project: packstack
   tags:
-    zed:
+    antelope:
 - project: patrole
   tags:
-    zed:
+    antelope:
 - project: placement
   tags:
-    zed:
+    antelope:
 - project: proliantutils
   tags:
-    zed:
-      source-branch: 2.12.2
+    antelope:
 - project: puppet-aodh
   tags:
-    zed:
+    antelope:
 - project: puppet-apache
   tags:
-    zed:
-      source-branch: 3b4bae8dbac8081e241d3049a520cc953705ceb5
+    antelope:
+      source-branch: main
 - project: puppet-archive
   tags:
-    zed:
-      source-branch: 1a0ef7a5972a74adc7809894ac94b5ed9b02d219
+    antelope:
 - project: puppet-barbican
   tags:
-    zed:
+    antelope:
 - project: puppet-ceilometer
   tags:
-    zed:
+    antelope:
 - project: puppet-ceph
   tags:
-    zed:
+    antelope:
 - project: puppet-certmonger
   tags:
-    zed:
-      source-branch: 3e2e66019dfa3b3a6324c401f7f08c99edb212df
+    antelope:
 - project: puppet-cinder
   tags:
-    zed:
+    antelope:
 - project: puppet-collectd
   tags:
-    zed:
-      source-branch: 4aab38cc923b852a1c96a2a42904168440fc9047
+    antelope:
 - project: puppet-concat
   tags:
-    zed:
-      source-branch: 77a8e289edb489980ec61d361acd0c66a26f15b2
+    antelope:
+      source-branch: main
 - project: puppet-corosync
   tags:
-    zed:
-      source-branch: 5f48a6c39a62d406c68b41dabde60f2144405490
+    antelope:
 - project: puppet-designate
   tags:
-    zed:
+    antelope:
 - project: puppet-dns
   tags:
-    zed:
-      source-branch: 9db91f1a5bc229ce3eb6b0956f0844c1cd717031
+    antelope:
 - project: puppet-ec2api
   tags:
-    zed:
+    antelope:
 - project: puppet-etcd
   tags:
-    zed:
-      source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
+    antelope:
 - project: puppet-fdio
   tags:
-    zed:
-      source-branch: 6fd1c8e407eb57bcb42198975dd1fdb1c0de1013
+    antelope:
 - project: puppet-firewall
   tags:
-    zed:
-      source-branch: 3b5953cdb4b29937af3c208e32fadfe230728b8e
+    antelope:
+      source-branch: main
 - project: puppet-glance
   tags:
-    zed:
+    antelope:
 - project: puppet-gnocchi
   tags:
-    zed:
+    antelope:
 - project: puppet-haproxy
   tags:
-    zed:
-      source-branch: 04e0ffae432e6f772f19b192b3992ff4987b1182
+    antelope:
+      source-branch: main
 - project: puppet-heat
   tags:
-    zed:
+    antelope:
 - project: puppet-horizon
   tags:
-    zed:
+    antelope:
 - project: puppet-inifile
   tags:
-    zed:
-      source-branch: 687ecf34b35e3739a4c932cf8a78353ebe75d2b9
+    antelope:
+      source-branch: main
 - project: puppet-ironic
   tags:
-    zed:
+    antelope:
 - project: puppet-keepalived
   tags:
-    zed:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+    antelope:
 - project: puppet-keystone
   tags:
-    zed:
+    antelope:
 - project: puppet-kmod
   tags:
-    zed:
-      source-branch: 1a04364d68b6d53f6b657594da05983ed2aaaa72
+    antelope:
 - project: puppet-magnum
   tags:
-    zed:
+    antelope:
 - project: puppet-manila
   tags:
-    zed:
+    antelope:
 - project: puppet-memcached
   tags:
-    zed:
-      source-branch: bf92113a87ef6a595a0e1d9086ec6e25d0726f13
+    antelope:
 - project: puppet-mistral
   tags:
-    zed:
+    antelope:
 - project: puppet-module-data
   tags:
-    zed:
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+    antelope:
 - project: puppet-murano
   tags:
-    zed:
+    antelope:
 - project: puppet-mysql
   tags:
-    zed:
-      source-branch: bf75e01b9b4699f332a32f99b871da3e3c308773
+    antelope:
+      source-branch: main
 - project: puppet-neutron
   tags:
-    zed:
+    antelope:
 - project: puppet-nova
   tags:
-    zed:
+    antelope:
 - project: puppet-nssdb
   tags:
-    zed:
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+    antelope:
 - project: puppet-octavia
   tags:
-    zed:
+    antelope:
 - project: puppet-openstack_extras
   tags:
-    zed:
+    antelope:
 - project: puppet-openstacklib
   tags:
-    zed:
+    antelope:
 - project: puppet-oslo
   tags:
-    zed:
+    antelope:
 - project: puppet-ovn
   tags:
-    zed:
+    antelope:
 - project: puppet-pacemaker
   tags:
-    zed:
+    antelope:
 - project: puppet-placement
   tags:
-    zed:
+    antelope:
 - project: puppet-qdr
   tags:
-    zed:
+    antelope:
 - project: puppet-rabbitmq
   tags:
-    zed:
-      source-branch: 138a977c21b9acb5a007f3c53a7f4a2623101f9e
+    antelope:
 - project: puppet-redis
   tags:
-    zed:
-      source-branch: 38b0d2d4bb2abc0806e9f148ce385ae9a28deb38
+    antelope:
 - project: puppet-remote
   tags:
-    zed:
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+    antelope:
 - project: puppet-rsync
   tags:
-    zed:
-      source-branch: 65ee03436d46572ce046f2051fec2965a7ef6430
+    antelope:
+      source-branch: main
 - project: puppet-rsyslog
   tags:
-    zed:
-      source-branch: 7c7c37d4904c4038492558f48351e86ec07abf45
+    antelope:
 - project: puppet-sahara
   tags:
-    zed:
+    antelope:
 - project: puppet-snmp
   tags:
-    zed:
-      source-branch: 15556044befdfd351c62ab55c61f2308d56315d6
+    antelope:
 - project: puppet-ssh
   tags:
-    zed:
-      source-branch: ec47d72407a608c56743cf5a7e7b09056062ed7b
+    antelope:
 - project: puppet-staging
   tags:
-    zed:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+    antelope:
 - project: puppet-stdlib
   tags:
-    zed:
-      source-branch: 6ab03a1260ebac03c20467781dabe03c933a4c5a
+    antelope:
+      source-branch: main
 - project: puppet-swift
   tags:
-    zed:
+    antelope:
 - project: puppet-sysctl
   tags:
-    zed:
-      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
+    antelope:
 - project: puppet-systemd
   tags:
-    zed:
-      source-branch: ae5dfe59ed14b814011b18959bdf526b49577d39
+    antelope:
 - project: puppet-tacker
   tags:
-    zed:
+    antelope:
 - project: puppet-tempest
   tags:
-    zed:
+    antelope:
 - project: puppet-tripleo
   tags:
-    zed:
+    antelope:
 - project: puppet-trove
   tags:
-    zed:
+    antelope:
 - project: puppet-vcsrepo
   tags:
-    zed:
-      source-branch: fa05b22f43f9ef50a9e9b3f699115b954a4d690c
+    antelope:
+      source-branch: main
 - project: puppet-vitrage
   tags:
-    zed:
+    antelope:
 - project: puppet-vlan
   tags:
-    zed:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+    antelope:
 - project: puppet-vswitch
   tags:
-    zed:
+    antelope:
 - project: puppet-watcher
   tags:
-    zed:
+    antelope:
 - project: puppet-xinetd
   tags:
-    zed:
-      source-branch: d7be36645a7490b60aa85e826de5d2885fbdd026
+    antelope:
 - project: puppet-zaqar
   tags:
-    zed:
+    antelope:
 - project: pycadf
   tags:
-    zed:
-      source-branch: 3.1.1
+    antelope:
 - project: rally
   tags:
-    zed:
+    antelope:
 - project: rally-openstack
   tags:
-    zed:
+    antelope:
 - project: reno
   tags:
-    zed:
-      source-branch: 3.5.0
+    antelope:
 - project: requestsexceptions
   tags:
-    zed:
-      source-branch: 1.4.0
+    antelope:
 - project: rsd-lib
   tags:
-    zed:
-      source-branch: 1.2.0
+    antelope:
 - project: rsdclient
   tags:
-    zed:
-      source-branch: 1.0.2
+    antelope:
 - project: sahara
   tags:
-    zed:
+    antelope:
 - project: sahara-dashboard
   tags:
-    zed:
+    antelope:
 - project: sahara-image-elements
   tags:
-    zed:
+    antelope:
 - project: sahara-plugin-ambari
   tags:
-    zed:
+    antelope:
 - project: sahara-plugin-cdh
   tags:
-    zed:
+    antelope:
 - project: sahara-plugin-mapr
   tags:
-    zed:
+    antelope:
 - project: sahara-plugin-spark
   tags:
-    zed:
+    antelope:
 - project: sahara-plugin-storm
   tags:
-    zed:
+    antelope:
 - project: sahara-plugin-vanilla
   tags:
-    zed:
+    antelope:
 - project: sahara-tests
   tags:
-    zed:
-      source-branch: 0.16.0
+    antelope:
 - project: saharaclient
   tags:
-    zed:
-      source-branch: 4.0.2
+    antelope:
 - project: scciclient
   tags:
-    zed:
+    antelope:
 - project: senlin
   tags:
-    zed:
+    antelope:
 - project: senlinclient
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: shade
   tags:
-    zed:
-      source-branch: 1.33.0
+    antelope:
 - project: sphinx-feature-classification
   tags:
-    zed:
-      source-branch: 1.1.0
+    antelope:
 - project: stackviz
   tags:
-    zed:
+    antelope:
 - project: stevedore
   tags:
-    zed:
-      source-branch: 4.0.0
+    antelope:
 - project: sushy
   tags:
-    zed:
-      source-branch: 4.3.0
+    antelope:
 - project: sushy-oem-idrac
   tags:
-    zed:
+    antelope:
 - project: sushy-tools
   tags:
-    zed:
+    antelope:
 - project: swift
   tags:
-    zed:
+    antelope:
 - project: swiftclient
   tags:
-    zed:
-      source-branch: 4.1.0
+    antelope:
 - project: tacker
   tags:
-    zed:
+    antelope:
 - project: tackerclient
   tags:
-    zed:
-      source-branch: 1.12.0
+    antelope:
 - project: tap-as-a-service
   tags:
-    zed:
+    antelope:
 - project: task-core
   tags:
-    zed:
+    antelope:
       source-branch: main
 - project: taskflow
   tags:
-    zed:
-      source-branch: 5.0.0
+    antelope:
 - project: telemetry-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.7.0
+    antelope:
 - project: tempest
   tags:
-    zed:
-      source-branch: 32.0.0
+    antelope:
 - project: tempestconf
   tags:
-    zed:
+    antelope:
 - project: tobiko
   tags:
-    zed:
+    antelope:
 - project: tooz
   tags:
-    zed:
-      source-branch: 3.1.0
+    antelope:
 - project: tripleo-ansible
   tags:
-    zed:
+    antelope:
 - project: tripleo-common
   tags:
-    zed:
+    antelope:
 - project: tripleo-heat-templates
   tags:
-    zed:
+    antelope:
 - project: tripleo-image-elements
   tags:
-    zed:
+    antelope:
 - project: tripleo-ipa
   tags:
-    zed:
+    antelope:
 - project: tripleo-ipsec
   tags:
-    zed:
+    antelope:
 - project: tripleo-operator-ansible
   tags:
-    zed:
+    antelope:
 - project: tripleo-powerflex
   tags:
-    zed:
+    antelope:
 - project: tripleo-puppet-elements
   tags:
-    zed:
+    antelope:
 - project: tripleo-repos
   tags:
-    zed:
+    antelope:
 - project: tripleo-validations
   tags:
-    zed:
+    antelope:
 - project: tripleoclient
   tags:
-    zed:
+    antelope:
 - project: trove
   tags:
-    zed:
+    antelope:
 - project: trove-dashboard
   tags:
-    zed:
+    antelope:
 - project: trove-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.5.0
+    antelope:
 - project: troveclient
   tags:
-    zed:
-      source-branch: 8.0.0
+    antelope:
 - project: validations-common
   tags:
-    zed:
+    antelope:
 - project: validations-libs
   tags:
-    zed:
+    antelope:
 - project: virtualbmc
   tags:
-    zed:
-      source-branch: 2.2.2
+    antelope:
 - project: vitrage
   tags:
-    zed:
+    antelope:
 - project: vitrage-dashboard
   tags:
-    zed:
-      source-branch: 3.0.0
+    antelope:
 - project: vitrage-tempest-plugin
   tags:
-    zed:
-      source-branch: 6.0.0
+    antelope:
 - project: vitrageclient
   tags:
-    zed:
-      source-branch: 4.6.0
+    antelope:
 - project: vmware-nsx
   tags:
-    zed:
+    antelope:
 - project: vmware-nsx-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.0.0.0
+    antelope:
 - project: vmware-nsxlib
   tags:
-    zed:
+    antelope:
 - project: watcher
   tags:
-    zed:
+    antelope:
 - project: watcher-tempest-plugin
   tags:
-    zed:
-      source-branch: 2.5.0
+    antelope:
 - project: wsme
   tags:
-    zed:
-      source-branch: 0.10.1
+    antelope:
 - project: zaqar
   tags:
-    zed:
+    antelope:
 - project: zaqar-tempest-plugin
   tags:
-    zed:
-      source-branch: 1.5.0
+    antelope:
 - project: zaqarclient
   tags:
-    zed:
-      source-branch: 2.4.0
+    antelope:
