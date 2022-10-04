@@ -1,6 +1,26 @@
 import:
 - tags.yml
 releases:
+- name: antelope
+  branch: rpm-master
+  tags_map: separated_buildreqs
+  repos:
+  - name: el9s
+    buildsys: cbs/cloud9s-openstack-antelope-el9s
+    buildsys-tags:
+    - cloud9s-openstack-antelope-el9s-build
+    - cloud9s-openstack-antelope-candidate
+    - cloud9s-openstack-antelope-testing
+    distrepos:
+    - name: RDO Zed el9s
+      url: http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-antelope/
+    - name: CentOS Stream 9 BaseOS
+      url: http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/
+    - name: CentOS Stream 9 AppStream
+      url: http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/
+    - name: CentOS Stream 9 HighAvailability
+      url: http://mirror.stream.centos.org/9-stream/HighAvailability/x86_64/os/
+    - name: CentOS Stream 9 CRB
 - name: zed
   branch: rpm-master
   tags_map: separated_buildreqs
