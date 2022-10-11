@@ -79,7 +79,7 @@ packages:
     cloud8s-openstack-xena-testing: python-automaton-2.4.0-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-barbican-13.0.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-barbican-13.0.1-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-barbican-tests-tempest-1.6.0-1.el8
@@ -355,7 +355,7 @@ packages:
     cloud8s-openstack-xena-testing: python-keystonemiddleware-9.3.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-kolla-13.5.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-kolla-13.6.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-kuryr-lib-2.4.0-1.el8
