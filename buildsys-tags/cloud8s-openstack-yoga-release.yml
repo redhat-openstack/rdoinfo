@@ -85,7 +85,7 @@ packages:
     cloud8s-openstack-yoga-release: python-automaton-2.5.0-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-barbican-14.0.0-1.el8
+    cloud8s-openstack-yoga-release: openstack-barbican-14.0.1-1.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-barbican-tests-tempest-1.6.0-1.el8
@@ -361,7 +361,7 @@ packages:
     cloud8s-openstack-yoga-release: python-keystonemiddleware-9.4.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-kolla-14.5.0-1.el8
+    cloud8s-openstack-yoga-release: openstack-kolla-14.6.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-kuryr-lib-2.5.0-1.el8
