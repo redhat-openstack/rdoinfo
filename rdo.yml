@@ -1051,19 +1051,23 @@ packages:
   conf: rpmfactory-core
   component: network
   maintainers:
-  - ihrachys@redhat.com
-  - majopela@redhat.com
+  - johnsomor@gmail.com
+  - dekehn@gmail.com
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
   component: network
   maintainers:
+  - nate.johnston@redhat.com
+  - johnsomor@gmail.com
+  - dekehn@gmail.com
   - amoralej@redhat.com
 - project: octavia
   conf: rpmfactory-core
   component: octavia
   maintainers:
-  - cgoncalves@redhat.com
+  - nate.johnston@redhat.com
+  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
   - johnsomor@gmail.com
@@ -1072,14 +1076,16 @@ packages:
   conf: rpmfactory-core
   component: ui
   maintainers:
-  - cgoncalves@redhat.com
+  - nate.johnston@redhat.com
+  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
   - johnsomor@gmail.com
 - project: octaviaclient
   conf: rpmfactory-client
   maintainers:
-  - cgoncalves@redhat.com
+  - nate.johnston@redhat.com
+  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
   - johnsomor@gmail.com
@@ -1087,7 +1093,8 @@ packages:
   conf: rpmfactory-lib
   component: octavia
   maintainers:
-  - cgoncalves@redhat.com
+  - nate.johnston@redhat.com
+  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
   - johnsomor@gmail.com
@@ -1096,7 +1103,8 @@ packages:
   name: python-octavia-tests-tempest
   component: octavia
   maintainers:
-  - cgoncalves@redhat.com
+  - nate.johnston@redhat.com
+  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
   - johnsomor@gmail.com
@@ -2516,6 +2524,9 @@ packages:
   conf: rpmfactory-core
   component: ui
   maintainers:
+  - johnsomor@redhat.com
+  - nate.johnston@redhat.com
+  - dekehn@gmail.com
   - kevintibi@hotmail.com
   - rod2a@hotmail.com
 - project: ansible-role-container-registry
