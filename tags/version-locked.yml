@@ -24,7 +24,8 @@ packages:
 - project: openstacksdk
   tags:
     version-locked:
-      zed-uc:
+      zed:
+      antelope-uc:
 # This project was removed in Pike and locked to the commit before
 # retirement.
 - project: os-brick
