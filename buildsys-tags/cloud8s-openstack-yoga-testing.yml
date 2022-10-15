@@ -85,7 +85,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-automaton-2.5.0-1.el8
 - project: barbican
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-barbican-14.0.1-1.el8
+    cloud8s-openstack-yoga-testing: openstack-barbican-14.0.1-2.el8
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-barbican-tests-tempest-1.6.0-1.el8
@@ -2056,7 +2056,7 @@ packages:
     cloud8s-openstack-yoga-testing: sshpass-1.06-8.el8
 - project: stevedore
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-stevedore-3.5.0-1.el8
+    cloud8s-openstack-yoga-testing: python-stevedore-3.5.1-1.el8
 - project: subunit
   buildsys-tags:
     cloud8s-openstack-yoga-testing: subunit-1.4.0-1.el8
