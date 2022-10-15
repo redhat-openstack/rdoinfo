@@ -76,7 +76,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-automaton-2.5.0-1.el9s
 - project: barbican
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-barbican-14.0.1-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-barbican-14.0.1-2.el9s
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-barbican-tests-tempest-1.6.0-1.el9s
@@ -1927,7 +1927,7 @@ packages:
     cloud9s-openstack-yoga-testing: sshpass-1.09-1.el9s
 - project: stevedore
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-stevedore-3.5.0-1.el9s
+    cloud9s-openstack-yoga-testing: python-stevedore-3.5.1-1.el9s
 - project: subunit
   buildsys-tags:
     cloud9s-openstack-yoga-testing: subunit-1.4.0-6.el9s
