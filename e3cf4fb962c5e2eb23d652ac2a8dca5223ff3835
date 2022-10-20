@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d3c8882_38ef7361",
+        "filename": "rdo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 848,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-20T11:28:17Z",
+      "side": 1,
+      "message": "Better to use rpmfactory-client and set project: cyborgclient.\n\nYou can take as reference novaclient:\n\nhttps://github.com/redhat-openstack/rdoinfo/blob/master/rdo.yml#L1460-L1464\n\nNote that, by default projects in rpmfactory-clients are included in component: clients although you can override to use compute if you prefer (for consistency with other clients i\u0027d keep it in clients although i\u0027ll leave up to you the component where to include it).",
+      "range": {
+        "startLine": 848,
+        "startChar": 0,
+        "endLine": 848,
+        "endChar": 4
+      },
+      "revId": "e3cf4fb962c5e2eb23d652ac2a8dca5223ff3835",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc478167_a05d8612",
+        "filename": "rdo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 853,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-20T11:28:17Z",
+      "side": 1,
+      "message": "You can take keystone plugin as example of tempest plugin:\n\nhttps://github.com/redhat-openstack/rdoinfo/blob/master/rdo.yml#L2303-L2309\n\nNote:\n\n  conf: rpmfactory-tempest-plugin\n  name: python-keystone-tests-tempest\n\nWith current name convention, the name should be python-cyborg-tests-tempest",
+      "range": {
+        "startLine": 853,
+        "startChar": 0,
+        "endLine": 853,
+        "endChar": 4
+      },
+      "revId": "e3cf4fb962c5e2eb23d652ac2a8dca5223ff3835",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d5c173d_89326798",
+        "filename": "tags/under-review.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-20T11:28:17Z",
+      "side": 1,
+      "message": "ditto,\n\nproject: cyborgclient",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 4
+      },
+      "revId": "e3cf4fb962c5e2eb23d652ac2a8dca5223ff3835",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
