@@ -62,7 +62,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.7.0
 - project: barbicanclient
   tags:
     antelope-uc:
@@ -88,7 +87,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.7.2
 - project: cinderclient
   tags:
     antelope-uc:
@@ -130,7 +128,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 0.14.0
 - project: designateclient
   tags:
     antelope-uc:
@@ -155,7 +152,6 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.5.0
 - project: futurist
   tags:
     antelope-uc:
@@ -166,7 +162,6 @@ packages:
 - project: glance-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 0.5.0
 - project: glance_store
   tags:
     antelope-uc:
@@ -212,7 +207,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.6.0
 - project: heat-translator
   tags:
     antelope-uc:
@@ -256,7 +250,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.5.0
 - project: ironic-ui
   tags:
     antelope-uc:
@@ -270,7 +263,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 0.10.0
 - project: keystoneauth1
   tags:
     antelope-uc:
@@ -295,14 +287,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 0.13.0
 - project: magnum
   tags:
     antelope-uc:
 - project: magnum-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.7.0
 - project: magnum-ui
   tags:
     antelope-uc:
@@ -316,7 +306,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.10.0
 - project: manila-ui
   tags:
     antelope-uc:
@@ -348,7 +337,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.0.0
 - project: mistralclient
   tags:
     antelope-uc:
@@ -369,7 +357,6 @@ packages:
 - project: murano-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.5.0
 - project: muranoclient
   tags:
     antelope-uc:
@@ -401,7 +388,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     antelope-uc:
@@ -427,7 +413,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.0.0
 - project: neutron-vpnaas
   tags:
     antelope-uc:
@@ -448,7 +433,6 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: b2e548518a8893562ed111fe66f5937603f5ec5d
 - project: octavia
   tags:
     antelope-uc:
@@ -462,7 +446,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.0.0
 - project: octaviaclient
   tags:
     antelope-uc:
@@ -643,7 +626,6 @@ packages:
 - project: oswin-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.0.0
 - project: ovn-bgp-agent
   tags:
     antelope-uc:
@@ -1030,11 +1012,9 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.7.0
 - project: tempest
   tags:
     antelope-uc:
-      source-branch: 32.0.0
 - project: tempestconf
   tags:
     antelope-uc:
@@ -1090,7 +1070,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.5.0
 - project: troveclient
   tags:
     antelope-uc:
@@ -1115,7 +1094,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 6.0.0
 - project: vitrageclient
   tags:
     antelope-uc:
@@ -1126,7 +1104,6 @@ packages:
 - project: vmware-nsx-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.0.0.0
 - project: vmware-nsxlib
   tags:
     antelope-uc:
@@ -1136,7 +1113,6 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 2.5.0
 - project: wsme
   tags:
     antelope-uc:
@@ -1147,7 +1123,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     antelope-uc:
-      source-branch: 1.5.0
 - project: zaqarclient
   tags:
     antelope-uc:
