@@ -840,6 +840,11 @@ packages:
   - kchamart@redhat.com
   - smooney@redhat.com
   component: compute
+- project: cyborg
+  conf: rpmfactory-core
+  maintainers:
+  - smooney@redhat.com
+  component: compute
 - project: keystone
   conf: rpmfactory-core
   component: security
