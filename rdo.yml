@@ -840,6 +840,11 @@ packages:
   - kchamart@redhat.com
   - smooney@redhat.com
   component: compute
+- project: cyborg
+  conf: rpmfactory-core
+  maintainers:
+  - smooney@redhat.com
+  component: compute
 - project: keystone
   conf: rpmfactory-core
   component: security
@@ -975,6 +980,12 @@ packages:
   component: compute
   maintainers:
   - alifshit@redhat.com
+- project: cyborg-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-cyborg-tests-tempest
+  maintainers:
+  - smooney@redhat.com
+  component: compute
 - project: neutron-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-neutron-tests-tempest
@@ -1462,6 +1473,11 @@ packages:
   maintainers:
   - kchamart@redhat.com
   - smooney@redhat.com
+- project: cyborgclient
+  conf: rpmfactory-client
+  maintainers:
+  - smooney@redhat.com
+  component: compute
 - project: swiftclient
   conf: rpmfactory-client
 - project: ceilometerclient
