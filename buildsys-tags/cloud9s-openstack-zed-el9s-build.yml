@@ -95,9 +95,6 @@ packages:
 - project: python-d2to1
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-d2to1-0.2.12-19.post1.el9s
-- project: python-distlib
-  buildsys-tags:
-    cloud9s-openstack-zed-el9s-build: python-distlib-0.3.1-4.el9s
 - project: python-django-nose
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-django-nose-1.4.7-3.el9s
@@ -116,9 +113,6 @@ packages:
 - project: python-fields
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-fields-5.0.0-8.el9s
-- project: python-filelock
-  buildsys-tags:
-    cloud9s-openstack-zed-el9s-build: python-filelock-3.7.1-1.el9s
 - project: python-flaky
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-flaky-3.7.0-2.el9s
@@ -350,12 +344,6 @@ packages:
 - project: python-testpath
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-testpath-0.4.4-4.el9s
-- project: python-tox
-  buildsys-tags:
-    cloud9s-openstack-zed-el9s-build: python-tox-3.23.0-2.el9s
-- project: python-tox-current-env
-  buildsys-tags:
-    cloud9s-openstack-zed-el9s-build: python-tox-current-env-0.0.6-1.el9s
 - project: python-trio
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-trio-0.18.0-1.el9s
@@ -377,9 +365,6 @@ packages:
 - project: python-uvloop
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-uvloop-0.14.0-4.el9s
-- project: python-virtualenv
-  buildsys-tags:
-    cloud9s-openstack-zed-el9s-build: python-virtualenv-20.4.4-1.el9s
 - project: python-watchgod
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: python-watchgod-0.7-1.el9s
