@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ca6bfa8_ebf9e9a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-10-21T06:48:16Z",
+      "side": 1,
+      "message": "Note that tempest was pinned as part of zed preparation in https://review.rdoproject.org/r/c/rdoinfo/+/45314\n\nNow that we have separated zed and antelope for master, we can unpin both tempest and tempest plugins to track master branches in RDO Trunk centos9-master, which is probably what you want, right?\n\nIf so, please, feel free to update the review to unpin all the tempest-related packages in antelope-uc.yml\n ",
+      "revId": "fa5ed8dc45c0f03a5d50940bcae03e4ac3eb753a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9cb656f2_9a2741a7",
