@@ -34,6 +34,23 @@
       "parentUuid": "bd18083a_c65bb2e6",
       "revId": "f150d33cbf759f822574da8c4b2325b306652560",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62259ba9_81a3587b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-10-24T08:28:18Z",
+      "side": 1,
+      "message": "I manually cbs tag-build cloud9s-openstack-zed-release python-stevedore-3.3.0-2.el9s in order to trigger the creation of http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-zed/ repository in mirror.s.c.o http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-zed/",
+      "revId": "f150d33cbf759f822574da8c4b2325b306652560",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
