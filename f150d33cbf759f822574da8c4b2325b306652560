@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd18083a_c65bb2e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-10-24T07:14:42Z",
+      "side": 1,
+      "message": "\u003e Patch Set 3: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - validate-buildsys-tags-zed-release-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/ec204eb8cd034fe5928bfc034c0048c8 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/701b53c4cf6e4581afdd651739a1543d : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/6607838b377d4076956236b4eaa0c1d3 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/e0f821393e6e4c1f9e236caceff57cd4 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario005-centos9 https://review.rdoproject.org/zuul/build/a7844338cee041b9bc44208e4b20a3bc : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/ee0122dff9ee4a81b93c060db94b94a3 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/5d5eaae90aa44a5591cc2a71bf58624c : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/facf6fec617548789f0f530d282a5a69 : SKIPPED\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/8fc9c21fc10649618addf3620ed3fae9 : SUCCESS in 2m 32s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/73eff2183e5343aab28892c758e47315 : SUCCESS in 2m 49s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/f41d67e96a714643828ab53fe228a808 : SUCCESS in 1m 56s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/6c9816b0ca76486abf6d71062009908d : POST_FAILURE in 56m 23s\n\nFailure because of missing python-requests-toolbelt in -testing tag",
+      "revId": "f150d33cbf759f822574da8c4b2325b306652560",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
