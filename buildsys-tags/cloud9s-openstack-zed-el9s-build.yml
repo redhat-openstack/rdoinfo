@@ -401,3 +401,6 @@ packages:
 - project: rubygem-mocha
   buildsys-tags:
     cloud9s-openstack-zed-el9s-build: rubygem-mocha-1.9.0-4.el9s
+- project: zeromq
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: zeromq-4.3.4-1.el9s
