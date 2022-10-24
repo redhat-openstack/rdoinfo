@@ -2,7 +2,7 @@ packages:
 - project: ansible-collections-openstack
   tags:
     antelope-uc:
-      source-branch: 1.9.1
+      source-branch: ed36d82a0c60a841d2f30c61a50d60531481b2cc
 - project: ansible-config_template
   tags:
     antelope-uc:
@@ -480,7 +480,7 @@ packages:
 - project: openstacksdk
   tags:
     antelope-uc:
-      source-branch: 0.61.0
+      source-branch: 0.101.0
 - project: os-apply-config
   tags:
     antelope-uc:
