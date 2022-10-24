@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "e8b2bd8bc9ab9dda7afa25c8a7d2ae9662b4426f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "064186bd_edf05e83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-10-24T14:59:24Z",
+      "side": 1,
+      "message": "\u003e Patch Set 5: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - validate-buildsys-tags-zed-release-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/8da34bbec1a44641ab7735f18cf8bf2d : FAILURE in 5m 33s\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/64b99ae569f64670bb0fda6f5dddbd42 : FAILURE in 5m 35s\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/97178190ade749f0a2548779d0a67c3c : FAILURE in 5m 36s\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/e053ea9434084a3aaacbf4e39f37d7e0 : FAILURE in 5m 24s\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario005-centos9 https://review.rdoproject.org/zuul/build/4a1693f47a6d451c9e2a229510a9348d : FAILURE in 5m 27s\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/c775c32f7e7847898c6faa3a232aeca6 : FAILURE in 5m 15s\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/0bd04182b4b9461f9192cc4781c8d402 : FAILURE in 5m 23s\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/40ae9084bf274e6c81b3c452a3cea577 : FAILURE in 5m 21s\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/4c5f5032dc3043c3829a7a3bc10d2baf : SUCCESS in 2m 34s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/4cd7ddf0c53546bf8fb94ebb23e80393 : SUCCESS in 3m 07s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/14182893933242afabb67cd71fe21544 : SUCCESS in 2m 08s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/78cf5a22613d4d7ab7c6ddd4f6e1dda7 : SUCCESS in 46m 34s\n\nFailed to download packages: libuv-1:1.42.0-1.el9.x86_64: Cannot download, all mirrors were already tried without success\", \"results\"\n\nlibuv comes from AppStream repo",
+      "revId": "e8b2bd8bc9ab9dda7afa25c8a7d2ae9662b4426f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
