@@ -84,6 +84,23 @@
       "message": "\u003e Patch Set 5: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - validate-buildsys-tags-zed-release-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/ba7715dac6a14014b9ba31cc603bce8a : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/827f9db51ec9417f903752bb8fe2e712 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/3db96a46e7644b96b12ac704e8289282 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/fa66006b7ff241aa9611369afe168ac8 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario005-centos9 https://review.rdoproject.org/zuul/build/308e5ca14ef54f8a91bf4617648d73a8 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/bbedc1fa42034390a85fba93786e9137 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/550e87f95cf84b37839d147e729ddbb6 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/349b79f6b3604eacaede57c10045a13e : SKIPPED\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/b6383658de9549bc880c54ef9b0ffb92 : SUCCESS in 2m 33s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/a07a498f0cc6422aa3cd8de2c440b16b : SUCCESS in 2m 53s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/88831b8987004397b15a7144bd13bbc3 : SUCCESS in 2m 00s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/88dda34b04444afbbeca672cfdd2ca64 : FAILURE in 39m 46s\n\npip index -i http://mirror.regionone.vexxhost-nodepool-sf.rdoproject.org/pypi/simple --trusted-host mirror.regionone.vexxhost-nodepool-sf.rdoproject.org versions rdopkg | grep LATEST\nLATEST:    1.4.0\n\nshould be 1.5.1",
       "revId": "e8b2bd8bc9ab9dda7afa25c8a7d2ae9662b4426f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34cf5413_c094043a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-10-25T07:57:13Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "e8b2bd8bc9ab9dda7afa25c8a7d2ae9662b4426f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
