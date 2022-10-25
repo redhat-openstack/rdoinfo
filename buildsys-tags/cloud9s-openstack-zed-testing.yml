@@ -79,7 +79,7 @@ packages:
     cloud9s-openstack-zed-testing: ck-0.7.0-5.el9s
 - project: cliff
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-cliff-3.7.0-1.el9s
+    cloud9s-openstack-zed-testing: python-cliff-4.0.0-1.el9s
 - project: cloudkitty
   buildsys-tags:
     cloud9s-openstack-zed-testing: openstack-cloudkitty-17.0.0-1.el9s
@@ -151,7 +151,7 @@ packages:
     cloud9s-openstack-zed-testing: future-0.18.2-9.el9s
 - project: futurist
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-futurist-2.3.0-3.el9s
+    cloud9s-openstack-zed-testing: python-futurist-2.4.1-1.el9s
 - project: gflags
   buildsys-tags:
     cloud9s-openstack-zed-testing: gflags-2.2.2-8.el9s
@@ -670,7 +670,7 @@ packages:
     cloud9s-openstack-zed-testing: puppet-cinder-21.0.0-1.el9s
 - project: puppet-collectd
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-collectd-14.0.1-0.1.0rc0.f0b4d85git.el9s
+    cloud9s-openstack-zed-testing: puppet-collectd-14.0.1-0.2.0rc0.4aab38cgit.el9s
 - project: puppet-concat
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-concat-7.2.0-1.77a8e28git.el9s
@@ -712,7 +712,7 @@ packages:
     cloud9s-openstack-zed-testing: puppet-horizon-21.0.0-1.el9s
 - project: puppet-inifile
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-inifile-5.3.0-1.el9s
+    cloud9s-openstack-zed-testing: puppet-inifile-5.3.0-2.1.0rc0.687ecf3git.el9s
 - project: puppet-ironic
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-ironic-21.0.0-1.el9s
@@ -724,7 +724,7 @@ packages:
     cloud9s-openstack-zed-testing: puppet-keystone-21.0.0-1.el9s
 - project: puppet-kmod
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-kmod-3.2.1-0.1.0rc0.0d69a96git.el9s
+    cloud9s-openstack-zed-testing: puppet-kmod-3.2.1-O.2.0rc0.1a04364git.el9s
 - project: puppet-magnum
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-magnum-21.0.0-1.el9s
@@ -781,10 +781,10 @@ packages:
     cloud9s-openstack-zed-testing: puppet-qdr-10.0.0-1.el9s
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-rabbitmq-12.0.3-0.1.0rc0.48e8723git.el9s
+    cloud9s-openstack-zed-testing: puppet-rabbitmq-12.0.3-0.2.0rc0.138a977git.el9s
 - project: puppet-redis
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-redis-8.4.1-0.1.0rc0.6abc4f4git.el9s
+    cloud9s-openstack-zed-testing: puppet-redis-8.4.1-0.2.0rc0.38b0d2dgit.el9s
 - project: puppet-remote
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-remote-10.0.0-1.7420908git.el9s
@@ -793,13 +793,13 @@ packages:
     cloud9s-openstack-zed-testing: puppet-rsync-1.2.0-2.65ee034git.el9s
 - project: puppet-rsyslog
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-rsyslog-6.0.1-0.1.0rc0.d42f3dcgit.el9s
+    cloud9s-openstack-zed-testing: puppet-rsyslog-6.0.1-0.2.0rc0.7c7c37dgit.el9s
 - project: puppet-sahara
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-sahara-21.0.0-1.el9s
 - project: puppet-snmp
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-snmp-6.0.1-0.2.0rc0.7d4c97cgit.el9s
+    cloud9s-openstack-zed-testing: puppet-snmp-6.0.1-0.3.0rc0.1555604git.el9s
 - project: puppet-ssh
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-ssh-9.0.0-1.ec47d72git.el9s
@@ -1885,7 +1885,7 @@ packages:
     cloud9s-openstack-zed-testing: sshpass-1.09-1.el9s
 - project: stevedore
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-stevedore-3.3.0-2.el9s
+    cloud9s-openstack-zed-testing: python-stevedore-4.0.2-1.el9s
 - project: subunit
   buildsys-tags:
     cloud9s-openstack-zed-testing: subunit-1.4.0-6.el9s
