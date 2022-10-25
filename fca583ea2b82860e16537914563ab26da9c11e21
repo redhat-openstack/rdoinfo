@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b7b5adf_8352970e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-10-25T15:02:47Z",
+      "side": 1,
+      "message": "\u003e Patch Set 6: Verified-1\n\u003e \n\u003e Build failed.\n\u003e \n\u003e - validate-buildsys-tags-zed-release-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/6a105bccf55640daaca76138b722e39a : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/b72454aab4c84eda86a57ce374ccf03f : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/b81ca77e08054a648970c342139a8baa : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/fffabc12990d4635b0a97f34e92994b3 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-puppet-scenario005-centos9 https://review.rdoproject.org/zuul/build/eac0413cbec74f9aaa0a664ecc4c4a29 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/31a228d200ba496287c303ea5a5631b8 : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/54d0700b66554f3a9884e30db3e5038f : SKIPPED\n\u003e - validate-buildsys-tags-zed-release-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/e6b0283972ff483eae9f81793fa868c4 : SKIPPED\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/8ba95dbf84964b56a74a0e5ca6977a00 : SUCCESS in 2m 45s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/a832c530c175480a8392c6926e4911cc : SUCCESS in 2m 56s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/404a85edca7a4a0e9c970f56b9706634 : SUCCESS in 2m 14s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/9f57c9d87d6a4387a7b1231fb692c28c : POST_FAILURE in 41m 36s\n\nhttps://review.rdoproject.org/r/c/rdoinfo/+/45827 patch is still in Post Queue",
+      "revId": "fca583ea2b82860e16537914563ab26da9c11e21",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
