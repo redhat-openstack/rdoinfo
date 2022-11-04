@@ -20,18 +20,42 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-collection-containers-podman-1.9.4-1.el9s
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-collections-openstack-2.0.0-0.1.ed36d82git.el9s
+- project: ansible-config_template
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-config_template-2.0.0-1.el9s
 - project: ansible-pacemaker
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-pacemaker-1.0.4-3.7c10fdbgit.el9s
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-role-atos-hsm-4.0.0-1.el9s
 - project: ansible-role-chrony
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-role-chrony-1.3.0-1.el9s
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-role-collectd-config-0.0.2-1.el9s
 - project: ansible-role-container-registry
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-role-container-registry-1.4.0-1.el9s
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-role-lunasa-hsm-4.0.0-1.el9s
+- project: ansible-role-openstack-operations
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el9s
+- project: ansible-role-qdr-config
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-role-qdr-config-0.0.1-1.el9s
 - project: ansible-role-redhat-subscription
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-role-redhat-subscription-1.3.0-1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: ansible-role-thales-hsm-4.0.0-1.el9s
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-role-tripleo-modify-image-1.5.0-1.el9s
@@ -634,7 +658,7 @@ packages:
     cloud9s-openstack-zed-testing: python-oswin-tests-tempest-2.0.0-1.el9s
 - project: ovn-bgp-agent
   buildsys-tags:
-    cloud9s-openstack-zed-testing: ovn-bgp-agent-0.2.0-1.el9s
+    cloud9s-openstack-zed-testing: ovn-bgp-agent-0.3.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-ovn-octavia-provider-3.0.0-1.el9s
@@ -839,6 +863,9 @@ packages:
 - project: puppet-tempest
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-tempest-21.0.0-1.el9s
+- project: puppet-tripleo
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: puppet-tripleo-17.0.0-1.el9s
 - project: puppet-trove
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-trove-21.0.0-1.el9s
@@ -1949,9 +1976,15 @@ packages:
 - project: tooz
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-tooz-3.1.0-1.el9s
+- project: tripleo-ansible
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: tripleo-ansible-5.0.0-1.el9s
 - project: tripleo-common
   buildsys-tags:
     cloud9s-openstack-zed-testing: openstack-tripleo-common-17.0.0-1.el9s
+- project: tripleo-heat-templates
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: openstack-tripleo-heat-templates-17.0.0-1.el9s
 - project: tripleo-image-elements
   buildsys-tags:
     cloud9s-openstack-zed-testing: openstack-tripleo-image-elements-15.0.0-1.el9s
@@ -1967,6 +2000,12 @@ packages:
 - project: tripleo-puppet-elements
   buildsys-tags:
     cloud9s-openstack-zed-testing: openstack-tripleo-puppet-elements-16.0.0-1.el9s
+- project: tripleo-validations
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: openstack-tripleo-validations-16.0.0-1.el9s
+- project: tripleoclient
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-tripleoclient-19.0.0-1.el9s
 - project: trove
   buildsys-tags:
     cloud9s-openstack-zed-testing: openstack-trove-18.0.0-1.el9s
