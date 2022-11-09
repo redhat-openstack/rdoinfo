@@ -109,7 +109,7 @@ packages:
     cloud8s-openstack-wallaby-testing: python-ceilometermiddleware-2.2.0-1.el8
 - project: cinder
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-cinder-18.2.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-cinder-18.2.1-1.el8
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-cinder-tests-tempest-1.7.0-1.el8
@@ -223,7 +223,7 @@ packages:
     cloud8s-openstack-wallaby-testing: gflags-2.2.2-3.el8
 - project: glance
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-glance-22.1.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-glance-22.1.1-1.el8
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-glance-tests-tempest-0.4.0-1.el8
@@ -271,7 +271,7 @@ packages:
     cloud8s-openstack-wallaby-testing: hdf5-1.10.5-5.el8
 - project: heat
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-heat-16.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-heat-16.1.0-1.el8
 - project: heat-agents
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-heat-agents-2.2.0-1.el8
@@ -280,7 +280,7 @@ packages:
     cloud8s-openstack-wallaby-testing: heat-cfntools-1.4.2-11.el8
 - project: heat-dashboard
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-heat-ui-5.0.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-heat-ui-5.0.1-1.el8
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-heat-tests-tempest-1.5.0-1.el8
@@ -295,7 +295,7 @@ packages:
     cloud8s-openstack-wallaby-testing: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-django-horizon-19.3.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-django-horizon-19.4.0-1.el8
 - project: ibmcclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-ibmcclient-0.2.5.1-1.el8
@@ -505,10 +505,10 @@ packages:
     cloud8s-openstack-wallaby-testing: python-networking-sfc-12.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-neutron-18.5.0-2.el8
+    cloud8s-openstack-wallaby-testing: openstack-neutron-18.6.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-neutron-dynamic-routing-18.1.0-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-neutron-dynamic-routing-18.1.1-1.el8
 - project: neutron-lib
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-neutron-lib-2.10.2-1.el8
@@ -520,10 +520,10 @@ packages:
     cloud8s-openstack-wallaby-testing: openstack-neutron-vpnaas-18.0.1-1.el8
 - project: neutronclient
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-neutronclient-7.3.0-1.el8
+    cloud8s-openstack-wallaby-testing: python-neutronclient-7.3.1-1.el8
 - project: nova
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: openstack-nova-23.2.1-1.el8
+    cloud8s-openstack-wallaby-testing: openstack-nova-23.2.2-1.el8
 - project: novaclient
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-novaclient-17.4.1-1.el8
@@ -568,7 +568,7 @@ packages:
     cloud8s-openstack-wallaby-testing: os-apply-config-12.0.0-1.el8
 - project: os-brick
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-os-brick-4.3.3-1.el8
+    cloud8s-openstack-wallaby-testing: python-os-brick-4.3.4-1.el8
 - project: os-client-config
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: python-os-client-config-2.1.0-1.el8
@@ -688,10 +688,10 @@ packages:
     cloud8s-openstack-wallaby-testing: python-oswin-tests-tempest-1.2.0-1.el8
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-ovn-octavia-provider-1.0.1-1.el8
+    cloud8s-openstack-wallaby-testing: python-ovn-octavia-provider-1.0.2-1.el8
 - project: ovsdbapp
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: python-ovsdbapp-1.9.3-1.el8
+    cloud8s-openstack-wallaby-testing: python-ovsdbapp-1.9.4-1.el8
 - project: packstack
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: openstack-packstack-18.0.0-1.el8
@@ -736,7 +736,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-cassandra-3.1.1-0.2.0rc0.542df57git.el8
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-ceilometer-18.4.1-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-ceilometer-18.4.2-1.el8
 - project: puppet-ceph
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-ceph-3.1.1-1.el8
@@ -745,7 +745,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-certmonger-2.7.1-1.3e2e660git.el8
 - project: puppet-cinder
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-cinder-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-cinder-18.5.1-1.el8
 - project: puppet-collectd
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-collectd-12.2.1-0.2.0rc0.60d656agit.el8
@@ -763,7 +763,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-datacat-0.6.2-1.5cce8f2git.el8
 - project: puppet-designate
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-designate-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-designate-18.6.0-1.el8
 - project: puppet-dns
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-dns-8.1.0-1.43e446agit.el8
@@ -790,10 +790,10 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-git-0.5.0-1.4e4498egit.el8
 - project: puppet-glance
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-glance-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-glance-18.6.0-1.el8
 - project: puppet-gnocchi
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-gnocchi-18.4.1-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-gnocchi-18.4.2-1.el8
 - project: puppet-haproxy
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-haproxy-4.2.1-1.a797b8cgit.el8
@@ -802,7 +802,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-heat-18.4.0-1.el8
 - project: puppet-horizon
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-horizon-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-horizon-18.6.0-1.el8
 - project: puppet-inifile
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-inifile-4.2.0-1.df46d2agit.el8
@@ -811,7 +811,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-ipaclient-2.5.2-1.b086731git.el8
 - project: puppet-ironic
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-ironic-18.6.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-ironic-18.7.0-1.el8
 - project: puppet-java
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-java-6.3.0-1.f991317git.el8
@@ -823,7 +823,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
 - project: puppet-keystone
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-keystone-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-keystone-18.6.0-1.el8
 - project: puppet-kibana3
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-kibana3-0.0.4-1.6ca9631git.el8
@@ -838,7 +838,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-magnum-18.4.1-1.el8
 - project: puppet-manila
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-manila-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-manila-18.5.1-1.el8
 - project: puppet-memcached
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-memcached-6.0.0-1.4c70dbdgit.el8
@@ -865,10 +865,10 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-n1k-vsm-0.0.2-1.91772fagit.el8
 - project: puppet-neutron
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-neutron-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-neutron-18.6.0-1.el8
 - project: puppet-nova
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-nova-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-nova-18.6.0-1.el8
 - project: puppet-nssdb
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
@@ -877,19 +877,19 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-ntp-4.2.0-1.el8
 - project: puppet-octavia
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-octavia-18.4.1-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-octavia-18.5.0-1.el8
 - project: puppet-openstack_extras
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-openstack_extras-18.5.0-1.el8
 - project: puppet-openstacklib
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-openstacklib-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-openstacklib-18.5.1-1.el8
 - project: puppet-oslo
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-oslo-18.4.1-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-oslo-18.5.0-1.el8
 - project: puppet-ovn
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-ovn-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-ovn-18.6.0-1.el8
 - project: puppet-pacemaker
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-pacemaker-1.1.0-2.el8
@@ -898,7 +898,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-panko-18.4.0-1.el8
 - project: puppet-placement
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-placement-5.4.1-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-placement-5.4.2-1.el8
 - project: puppet-powerdns
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-powerdns-0.0.5-2.d3d9b3agit.el8
@@ -940,7 +940,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-stdlib-6.3.0-3.7c1ae25git.el8
 - project: puppet-swift
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-swift-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-swift-18.6.0-1.el8
 - project: puppet-sysctl
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-sysctl-0.0.12-2.847ec1cgit.el8
@@ -952,7 +952,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-tacker-18.4.0-1.el8
 - project: puppet-tempest
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-tempest-18.5.0-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-tempest-18.5.1-1.el8
 - project: puppet-timezone
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-timezone-6.1.0-1.13ece6bgit.el8
@@ -982,7 +982,7 @@ packages:
     cloud8s-openstack-wallaby-testing: puppet-vlan-0.1.0-1.el8
 - project: puppet-vswitch
   buildsys-tags:
-    cloud8s-openstack-wallaby-testing: puppet-vswitch-14.4.1-1.el8
+    cloud8s-openstack-wallaby-testing: puppet-vswitch-14.4.2-1.el8
 - project: puppet-watcher
   buildsys-tags:
     cloud8s-openstack-wallaby-testing: puppet-watcher-18.4.0-1.el8
