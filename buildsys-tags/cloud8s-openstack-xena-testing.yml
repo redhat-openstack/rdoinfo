@@ -301,10 +301,10 @@ packages:
     cloud8s-openstack-xena-testing: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-ironic-18.2.1-1.el8
+    cloud8s-openstack-xena-testing: openstack-ironic-18.2.2-1.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-ironic-inspector-10.8.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-ironic-inspector-10.8.1-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-ironic-inspector-client-4.6.0-1.el8
@@ -316,7 +316,7 @@ packages:
     cloud8s-openstack-xena-testing: python-ironic-prometheus-exporter-3.0.0-1.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-ironic-python-agent-8.2.1-1.el8
+    cloud8s-openstack-xena-testing: openstack-ironic-python-agent-8.2.2-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-ironic-python-agent-builder-2.7.0-1.el8
@@ -355,7 +355,7 @@ packages:
     cloud8s-openstack-xena-testing: python-keystonemiddleware-9.3.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-kolla-13.6.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-kolla-13.7.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-kuryr-lib-2.4.0-1.el8
@@ -2056,7 +2056,7 @@ packages:
     cloud8s-openstack-xena-testing: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8s-openstack-xena-testing: python-sushy-3.12.2-1.el8
+    cloud8s-openstack-xena-testing: python-sushy-3.12.3-1.el8
 - project: sushy-tools
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-sushy-tools-0.18.2-1.el8
