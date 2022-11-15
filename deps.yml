@@ -511,6 +511,9 @@ packages:
 - project: python-pytest-runner
   name: python-pytest-runner
   conf: rdo-dependency
+- project: python-pytz-deprecation-shim
+  name: python-pytz-deprecation-shim
+  conf: rdo-dependency
 - project: python-sqlalchemy-collectd
   name: python-sqlalchemy-collectd
   conf: fedora-dependency
