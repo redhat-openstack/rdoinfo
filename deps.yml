@@ -541,6 +541,12 @@ packages:
 - project: facter
   name: facter
   conf: rdo-dependency
+- project: python-jaraco-classes
+  name: python-jaraco-classes
+  conf: rdo-dependency
+- project: python-jaraco-packaging
+  name: python-jaraco-packaging
+  conf: rdo-dependency
 - project: python-jwt
   name: python-jwt
   conf: rdo-dependency
