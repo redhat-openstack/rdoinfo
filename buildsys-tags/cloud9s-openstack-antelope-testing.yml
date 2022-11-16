@@ -572,6 +572,9 @@ packages:
 - project: python-itsdangerous
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-itsdangerous-2.0.1-2.el9s
+- project: python-jaraco-classes
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-jaraco-classes-3.2.1-5.el9s
 - project: python-jeepney
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-jeepney-0.8.0-3.el9s
