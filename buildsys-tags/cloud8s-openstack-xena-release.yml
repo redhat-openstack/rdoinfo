@@ -10,7 +10,7 @@ packages:
     cloud8s-openstack-xena-release: PyYAML-5.4.1-2.el8
 - project: ansible
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-2.9.23-1.el8
+    cloud8s-openstack-xena-release: ansible-2.9.27-4.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-collection-ansible-netcommon-2.2.0-1.el8
@@ -301,10 +301,10 @@ packages:
     cloud8s-openstack-xena-release: python-ibmcclient-0.2.5.1-1.el8
 - project: ironic
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-ironic-18.2.1-1.el8
+    cloud8s-openstack-xena-release: openstack-ironic-18.2.2-1.el8
 - project: ironic-inspector
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-ironic-inspector-10.8.0-1.el8
+    cloud8s-openstack-xena-release: openstack-ironic-inspector-10.8.1-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
     cloud8s-openstack-xena-release: python-ironic-inspector-client-4.6.0-1.el8
@@ -316,7 +316,7 @@ packages:
     cloud8s-openstack-xena-release: python-ironic-prometheus-exporter-3.0.0-1.el8
 - project: ironic-python-agent
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-ironic-python-agent-8.2.1-1.el8
+    cloud8s-openstack-xena-release: openstack-ironic-python-agent-8.2.2-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-ironic-python-agent-builder-2.7.0-1.el8
@@ -355,7 +355,7 @@ packages:
     cloud8s-openstack-xena-release: python-keystonemiddleware-9.3.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-kolla-13.6.0-1.el8
+    cloud8s-openstack-xena-release: openstack-kolla-13.7.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-xena-release: python-kuryr-lib-2.4.0-1.el8
@@ -418,7 +418,7 @@ packages:
     cloud8s-openstack-xena-release: python-manilaclient-3.0.2-1.el8
 - project: metalsmith
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-metalsmith-1.5.2-1.el8
+    cloud8s-openstack-xena-release: python-metalsmith-1.5.3-1.el8
 - project: microversion-parse
   buildsys-tags:
     cloud8s-openstack-xena-release: python-microversion-parse-1.0.1-1.el8
@@ -2056,7 +2056,7 @@ packages:
     cloud8s-openstack-xena-release: subunit-1.4.0-1.el8
 - project: sushy
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-sushy-3.12.2-1.el8
+    cloud8s-openstack-xena-release: python-sushy-3.12.3-1.el8
 - project: sushy-tools
   buildsys-tags:
     cloud8s-openstack-xena-release: python-sushy-tools-0.18.2-1.el8
