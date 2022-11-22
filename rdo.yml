@@ -2786,6 +2786,14 @@ packages:
   upstream: https://github.com/infrawatch/collectd-config-ansible-role
   maintainers:
   - efoley@redhat.com
+- project: ansible-role-osp-observability
+  name: ansible-role-osp-observability
+  conf: rpmfactory-lib
+  component: cloudops
+  upstream: https://github.com/infrawatch/osp-observability-ansible
+  maintainers:
+  - mmagr@redhat.com
+  - efoley@redhat.com
 - project: oslo-limit
   conf: rpmfactory-lib
   upstream: https://opendev.org/openstack/oslo.limit
