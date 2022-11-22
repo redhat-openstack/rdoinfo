@@ -2258,6 +2258,14 @@ packages:
   - mmagr@redhat.com
   - mrunge@redhat.com
   - pkilambi@redhat.com
+- project: python-observabilityclient
+  name: python-observabilityclient
+  conf: rpmfactory-client
+  component: cloudops
+  upstream: https://github.com/infrawatch/python-observabilityclient
+  maintainers:
+  - mmagr@redhat.com
+  - efoley@redhat.com
 - project: kuryr
   name: python-kuryr-lib
   conf: rpmfactory-lib
