@@ -16,6 +16,24 @@
       "message": "There is no license file in the upstream repo, tipically named LICENSE or COPYING. May you add one before we go on with adding the package?\n\nSome other questions:\n\n- What RDO version you want to get the package in? only master or also zed or other stable ones?\n- I see this role depends in collectd_config and tripleo_collectd ones. I see the first one is in RDO but not the second. Should it be added too? is there any rpm available in other repo?.\n- You plan to create stable branches for this repo or be branchless and support several openstack releases from master?\n\n",
       "revId": "6bb08a7183e4987bcca2e607627abedecfa4a0d9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7c84ae9_0c3b2a42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29
+      },
+      "writtenOn": "2022-11-23T13:52:55Z",
+      "side": 1,
+      "message": "I have added the license file to the upstream repository now. It is the standard Apache v2 license. See https://github.com/infrawatch/osp-observability-ansible/pull/14. Thanks for pointing it out!\n\nWe\u0027ll want to go into master and zed for these changes. Same as https://review.rdoproject.org/r/c/rdoinfo/+/46177\n\nI suspect we\u0027ll want to do stable branches at some point.",
+      "parentUuid": "b784d64d_fab6c9ab",
+      "revId": "6bb08a7183e4987bcca2e607627abedecfa4a0d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
