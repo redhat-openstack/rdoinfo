@@ -34,6 +34,24 @@
       "parentUuid": "b784d64d_fab6c9ab",
       "revId": "6bb08a7183e4987bcca2e607627abedecfa4a0d9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe11be8d_9104e9f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2022-11-23T14:39:20Z",
+      "side": 1,
+      "message": "License has been added (thanks Leif)\n\nThe collectd_config and tripleo_ansible dependencies are going to be removed; this repo has been refactored a few times, and I\u0027m in the process of cleaning up the repo.\n\nIdeally, I think we\u0027d have branchless -- I\u0027ll confirm this shortly.",
+      "parentUuid": "b784d64d_fab6c9ab",
+      "revId": "6bb08a7183e4987bcca2e607627abedecfa4a0d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
