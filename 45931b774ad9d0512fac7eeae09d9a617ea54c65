@@ -16,6 +16,24 @@
       "message": "Talking as python-tempestconf core: can\u0027t we release a last 3.3.x from that tag, so that it\u0027s the last  version guaranteed to work on python 3.6?",
       "revId": "45931b774ad9d0512fac7eeae09d9a617ea54c65",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "056d05ec_ec88a2a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2022-11-28T20:06:11Z",
+      "side": 1,
+      "message": "I thought of it, although:\n1. there are 12 new patches since the last tag, only 2 of them touch python-tempestconf\u0027s logic\n2. we created a tag right before we dropped py3.6 - 3.3.0 which is supposed to be the last tag where py3.6 is guaranteed to work\n3. I\u0027m not sure I can create a tag retrospectively (not on top of the branch)\nhttps://docs.opendev.org/opendev/infra-manual/latest/drivers.html#tagging-a-release\n\nI\u0027m ok to create a new tag though (btw, what would be the number?) but I\u0027m concerned with point 3 mainly.",
+      "parentUuid": "773c3674_3c9df748",
+      "revId": "45931b774ad9d0512fac7eeae09d9a617ea54c65",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
