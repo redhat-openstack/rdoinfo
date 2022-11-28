@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eedf4c0_7c493561",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-28T14:23:15Z",
+      "side": 1,
+      "message": "Note that we also support centos8 in xena and yoga and we have got failures for them too. We should also pin on x and v.",
+      "revId": "a60388e1ab82412ec0152e349932511ed25fa728",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30a50952_c900658f",
+        "filename": "tags/victoria.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1125,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-28T14:23:15Z",
+      "side": 1,
+      "message": "We have been following commits in master branch so last successful build was for commit 29cc5000c65e1d1d1a3b89f27134070cea83f09d. I\u0027d recommend to pin to that commit instead of this tag or will we effectively reverting to a previous commit. Alternatively, you may push a new tag 3.3.1 or 3.4.0 to it.",
+      "range": {
+        "startLine": 1125,
+        "startChar": 20,
+        "endLine": 1125,
+        "endChar": 26
+      },
+      "revId": "a60388e1ab82412ec0152e349932511ed25fa728",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
