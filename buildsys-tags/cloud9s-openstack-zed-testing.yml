@@ -1073,6 +1073,9 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-beautifulsoup4-4.10.0-1.el9s
+- project: python-binary-memcached
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-binary-memcached-0.31.1-1.el9s
 - project: python-boto
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-boto-2.49.0-8.el9s
@@ -1724,6 +1727,9 @@ packages:
 - project: python-tzlocal
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-tzlocal-2.1-2.el9s
+- project: python-uhashring
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: python-uhashring-2.1-1.el9s
 - project: python-ujson
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-ujson-5.4.0-1.el9s
