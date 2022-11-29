@@ -16,6 +16,23 @@
       "message": "For some reason, packagee builds fails randomly in unit tests with error:\n\nconfigparser.NoOptionError: No option \u0027backup\u0027 in section: \u0027volume-feature-enabled\u0027\n\nIt happens randomly in different releases centos versions:\n\nhttps://logserver.rdoproject.org/70/46270/3/check/rdoinfo-DLRN-check-centos8/9f4fba3/buildset/centos-victoria-rdo/repos/component/tempest/29/cc/29cc5000c65e1d1d1a3b89f27134070cea83f09d_dev/build.log\n\nhttps://logserver.rdoproject.org/70/46270/3/check/rdoinfo-DLRN-check-centos9/6fb0b73/buildset/centos-wallaby-rdo/repos/component/tempest/29/cc/29cc5000c65e1d1d1a3b89f27134070cea83f09d_dev/rpmbuild.log\n\nAny idea what may be the root cause?\n",
       "revId": "624e8b6181d0344bf7b8a512a7097e719ba2511f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eba56d9_a03413fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2022-11-29T10:57:24Z",
+      "side": 1,
+      "message": "recheck",
+      "revId": "624e8b6181d0344bf7b8a512a7097e719ba2511f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
