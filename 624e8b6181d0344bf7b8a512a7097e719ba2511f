@@ -87,6 +87,24 @@
       "parentUuid": "8cfbd20e_269da014",
       "revId": "624e8b6181d0344bf7b8a512a7097e719ba2511f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49d674d3_4252d0d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2022-11-29T14:40:04Z",
+      "side": 1,
+      "message": "it\u0027s just a unit test fix, if we\u0027re ok with randomly failing unit tests, we can merge this, build the package and move on .. although I still don\u0027t understand how this commit can be packaged for centos 8 but the newest patch which fixes only unit tests can\u0027t be - especially when it didn\u0027t introduce any new dependency which would conflict with py3.6",
+      "parentUuid": "a89fb457_c31d5457",
+      "revId": "624e8b6181d0344bf7b8a512a7097e719ba2511f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
