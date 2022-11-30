@@ -385,7 +385,7 @@ packages:
     cloud9s-openstack-zed-release: python-magnumclient-4.0.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-manila-15.0.0-1.el9s
+    cloud9s-openstack-zed-release: openstack-manila-15.1.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-zed-release: python-manila-tests-tempest-1.10.0-1.el9s
@@ -394,7 +394,7 @@ packages:
     cloud9s-openstack-zed-release: openstack-manila-ui-8.0.0-1.el9s
 - project: manilaclient
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-manilaclient-4.1.0-1.el9s
+    cloud9s-openstack-zed-release: python-manilaclient-4.1.1-1.el9s
 - project: metalsmith
   buildsys-tags:
     cloud9s-openstack-zed-release: python-metalsmith-1.8.0-1.el9s
@@ -454,7 +454,7 @@ packages:
     cloud9s-openstack-zed-release: python-networking-generic-switch-7.0.0-1.el9s
 - project: networking-l2gw
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-networking-l2gw-18.0.0-1.el9s
+    cloud9s-openstack-zed-release: python-networking-l2gw-19.0.0-1.el9s
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-zed-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
@@ -583,7 +583,7 @@ packages:
     cloud9s-openstack-zed-release: python-osc-placement-4.0.0-1.el9s
 - project: oslo-cache
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-oslo-cache-3.2.0-1.el9s
+    cloud9s-openstack-zed-release: python-oslo-cache-3.2.0-2.el9s
 - project: oslo-concurrency
   buildsys-tags:
     cloud9s-openstack-zed-release: python-oslo-concurrency-5.0.1-1.el9s
@@ -676,7 +676,7 @@ packages:
     cloud9s-openstack-zed-release: openstack-placement-8.0.0-1.el9s
 - project: proliantutils
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-proliantutils-2.12.2-1.el9s
+    cloud9s-openstack-zed-release: python-proliantutils-2.14.0-1.el9s
 - project: protobuf
   buildsys-tags:
     cloud9s-openstack-zed-release: protobuf-3.19.0-2.el9s
@@ -1073,6 +1073,9 @@ packages:
 - project: python-beautifulsoup4
   buildsys-tags:
     cloud9s-openstack-zed-release: python-beautifulsoup4-4.10.0-1.el9s
+- project: python-binary-memcached
+  buildsys-tags:
+    cloud9s-openstack-zed-release: python-binary-memcached-0.31.1-1.el9s
 - project: python-boto
   buildsys-tags:
     cloud9s-openstack-zed-release: python-boto-2.49.0-8.el9s
@@ -1724,6 +1727,9 @@ packages:
 - project: python-tzlocal
   buildsys-tags:
     cloud9s-openstack-zed-release: python-tzlocal-2.1-2.el9s
+- project: python-uhashring
+  buildsys-tags:
+    cloud9s-openstack-zed-release: python-uhashring-2.1-1.el9s
 - project: python-ujson
   buildsys-tags:
     cloud9s-openstack-zed-release: python-ujson-5.4.0-1.el9s
@@ -1933,7 +1939,7 @@ packages:
     cloud9s-openstack-zed-release: subunit-1.4.0-6.el9s
 - project: sushy
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-sushy-4.3.0-1.el9s
+    cloud9s-openstack-zed-release: python-sushy-4.3.2-1.el9s
 - project: sushy-tools
   buildsys-tags:
     cloud9s-openstack-zed-release: python-sushy-tools-0.21.0-1.el9s
