@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebe61b74_acd732f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-12-05T08:56:43Z",
+      "side": 1,
+      "message": "For the OOO failures, I checked the logs, TIMED OUT occurred 5 minutes after last build push to the registry at 2022-12-01 22:38:55.051 [1] and last ASYNC POLL at 2022-12-01 22:41:55.182433 [2]\nI think the process got stuck somehow\n\n\n[1] https://logserver.rdoproject.org/63/46163/5/check/rdoinfo-tripleo-zed-release-centos-9-scenario001-standalone/0a2cf19/logs/undercloud/home/zuul/container_image_build.log.txt.gz\n[2] https://logserver.rdoproject.org/63/46163/5/check/rdoinfo-tripleo-zed-release-centos-9-scenario001-standalone/0a2cf19/job-output.txt",
+      "revId": "5a13a15a0e615f084775eb841eac8919489848a9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
