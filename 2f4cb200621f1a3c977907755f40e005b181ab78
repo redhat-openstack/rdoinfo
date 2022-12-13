@@ -124,6 +124,24 @@
       "parentUuid": "09007886_7c29c299",
       "revId": "2f4cb200621f1a3c977907755f40e005b181ab78",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "84e6db2f_e65c1eac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2022-12-13T16:18:04Z",
+      "side": 1,
+      "message": "At most it could make sense to revert to 2.2.0, which doesn\u0027t have the problematic change, but contains the other fixes.\nOr just revert that specific change, which I think it\u0027s what we have done in other cases.",
+      "parentUuid": "91fee072_29cb0f2f",
+      "revId": "2f4cb200621f1a3c977907755f40e005b181ab78",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
