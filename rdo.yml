@@ -2258,13 +2258,6 @@ packages:
   - mmagr@redhat.com
   - mrunge@redhat.com
   - pkilambi@redhat.com
-- project: observabilityclient
-  conf: rpmfactory-client
-  component: cloudops
-  upstream: https://github.com/infrawatch/python-observabilityclient
-  maintainers:
-  - mmagr@redhat.com
-  - efoley@redhat.com
 - project: kuryr
   name: python-kuryr-lib
   conf: rpmfactory-lib
@@ -2792,14 +2785,6 @@ packages:
   conf: rpmfactory-lib
   upstream: https://github.com/infrawatch/collectd-config-ansible-role
   maintainers:
-  - efoley@redhat.com
-- project: ansible-role-osp-observability
-  name: ansible-role-osp-observability
-  conf: rpmfactory-lib
-  component: cloudops
-  upstream: https://github.com/infrawatch/osp-observability-ansible
-  maintainers:
-  - mmagr@redhat.com
   - efoley@redhat.com
 - project: oslo-limit
   conf: rpmfactory-lib
