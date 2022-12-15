@@ -106,7 +106,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-ceilometermiddleware-2.4.1-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-cinder-20.0.1-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-cinder-20.0.1-2.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-cinder-tests-tempest-1.7.0-1.el9s
@@ -328,7 +328,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-keystonemiddleware-9.4.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-kolla-14.7.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-kolla-14.8.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-kuryr-lib-2.5.0-1.el9s
@@ -487,7 +487,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-neutron-tests-tempest-1.9.0-1.el9s
 - project: neutron-vpnaas
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-neutron-vpnaas-20.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-neutron-vpnaas-20.0.1-1.el9s
 - project: neutronclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-neutronclient-7.8.0-1.el9s
