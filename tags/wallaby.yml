@@ -51,11 +51,11 @@ packages:
 - project: aodhclient
   tags:
     wallaby:
-      source-branch: 2.2.0
+      source-branch: 2.1.1
 - project: automaton
   tags:
     wallaby:
-      source-branch: 2.3.1
+      source-branch: 2.2.0
 - project: barbican
   tags:
     wallaby:
@@ -66,11 +66,11 @@ packages:
 - project: barbicanclient
   tags:
     wallaby:
-      source-branch: 5.1.0
+      source-branch: 5.0.1
 - project: castellan
   tags:
     wallaby:
-      source-branch: 3.7.2
+      source-branch: 3.6.1
 - project: ceilometer
   tags:
     wallaby:
@@ -81,7 +81,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     wallaby:
-      source-branch: 2.2.0
+      source-branch: 2.1.0
 - project: cinder
   tags:
     wallaby:
@@ -92,14 +92,14 @@ packages:
 - project: cinderclient
   tags:
     wallaby:
-      source-branch: 7.4.1
+      source-branch: 7.2.2
 - project: cinderlib
   tags:
     wallaby:
 - project: cliff
   tags:
     wallaby:
-      source-branch: 3.7.0
+      source-branch: 3.4.0
 - project: cloudkitty
   tags:
     wallaby:
@@ -109,7 +109,7 @@ packages:
 - project: cloudkittyclient
   tags:
     wallaby:
-      source-branch: 4.2.0
+      source-branch: 4.1.0
 - project: collectd-gnocchi
   tags:
     wallaby:
@@ -134,7 +134,7 @@ packages:
 - project: designateclient
   tags:
     wallaby:
-      source-branch: 4.2.1
+      source-branch: 4.1.0
 - project: dib-utils
   tags:
     wallaby:
@@ -166,11 +166,11 @@ packages:
 - project: glance_store
   tags:
     wallaby:
-      source-branch: 2.5.1
+      source-branch: 2.3.1
 - project: glanceclient
   tags:
     wallaby:
-      source-branch: 3.3.0
+      source-branch: 3.2.2
 - project: glare
   tags:
     wallaby:
@@ -212,11 +212,11 @@ packages:
 - project: heat-translator
   tags:
     wallaby:
-      source-branch: 2.3.0
+      source-branch: 2.1.0
 - project: heatclient
   tags:
     wallaby:
-      source-branch: 2.3.1
+      source-branch: 2.2.1
 - project: horizon
   tags:
     wallaby:
@@ -232,11 +232,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     wallaby:
-      source-branch: 4.5.0
+      source-branch: 4.4.0
 - project: ironic-lib
   tags:
     wallaby:
-      source-branch: 4.6.4
+      source-branch: 4.4.2
 - project: ironic-prometheus-exporter
   tags:
     wallaby:
@@ -260,7 +260,7 @@ packages:
 - project: ironicclient
   tags:
     wallaby:
-      source-branch: 4.6.4
+      source-branch: 4.4.1
 - project: keystone
   tags:
     wallaby:
@@ -271,15 +271,15 @@ packages:
 - project: keystoneauth1
   tags:
     wallaby:
-      source-branch: 4.3.1
+      source-branch: 4.2.1
 - project: keystoneclient
   tags:
     wallaby:
-      source-branch: 4.2.0
+      source-branch: 4.1.1
 - project: keystonemiddleware
   tags:
     wallaby:
-      source-branch: 9.2.0
+      source-branch: 9.1.0
 - project: kolla
   tags:
     wallaby:
@@ -306,7 +306,7 @@ packages:
 - project: magnumclient
   tags:
     wallaby:
-      source-branch: 3.4.1
+      source-branch: 3.2.2
 - project: manila
   tags:
     wallaby:
@@ -320,11 +320,11 @@ packages:
 - project: manilaclient
   tags:
     wallaby:
-      source-branch: 2.6.4
+      source-branch: 2.3.2
 - project: metalsmith
   tags:
     wallaby:
-      source-branch: 1.4.4
+      source-branch: 1.2.1
 - project: microversion-parse
   tags:
     wallaby:
@@ -341,7 +341,7 @@ packages:
 - project: mistral-lib
   tags:
     wallaby:
-      source-branch: 2.4.0
+      source-branch: 2.3.0
 - project: mistral-tempest-plugin
   tags:
     wallaby:
@@ -349,11 +349,11 @@ packages:
 - project: mistralclient
   tags:
     wallaby:
-      source-branch: 4.2.0
+      source-branch: 4.1.1
 - project: monascaclient
   tags:
     wallaby:
-      source-branch: 2.3.0
+      source-branch: 2.2.1
 - project: mox3
   tags:
     wallaby:
@@ -374,7 +374,7 @@ packages:
 - project: muranoclient
   tags:
     wallaby:
-      source-branch: 2.2.0
+      source-branch: 2.1.1
 - project: networking-ansible
   tags:
     wallaby:
@@ -424,7 +424,7 @@ packages:
 - project: neutron-lib
   tags:
     wallaby:
-      source-branch: 2.10.2
+      source-branch: 2.6.2
 - project: neutron-tempest-plugin
   tags:
     wallaby:
@@ -435,14 +435,14 @@ packages:
 - project: neutronclient
   tags:
     wallaby:
-      source-branch: 7.3.1
+      source-branch: 7.2.1
 - project: nova
   tags:
     wallaby:
 - project: novaclient
   tags:
     wallaby:
-      source-branch: 17.4.1
+      source-branch: 17.2.1
 - project: novajoin
   tags:
     wallaby:
@@ -459,7 +459,7 @@ packages:
 - project: octavia-lib
   tags:
     wallaby:
-      source-branch: 2.3.1
+      source-branch: 2.2.0
 - project: octavia-tempest-plugin
   tags:
     wallaby:
@@ -467,7 +467,7 @@ packages:
 - project: octaviaclient
   tags:
     wallaby:
-      source-branch: 2.3.1
+      source-branch: 2.2.1
 - project: openstack-macros
   tags:
     wallaby:
@@ -477,18 +477,18 @@ packages:
 - project: openstackclient
   tags:
     wallaby:
-      source-branch: 5.5.1
+      source-branch: 5.4.0
 - project: openstacksdk
   tags:
     wallaby:
-      source-branch: 0.55.1
+      source-branch: 0.50.0
 - project: os-apply-config
   tags:
     wallaby:
 - project: os-brick
   tags:
     wallaby:
-      source-branch: 4.3.4
+      source-branch: 4.0.5
 - project: os-client-config
   tags:
     wallaby:
@@ -502,7 +502,7 @@ packages:
 - project: os-ken
   tags:
     wallaby:
-      source-branch: 1.4.1
+      source-branch: 1.2.1
 - project: os-net-config
   tags:
     wallaby:
@@ -524,15 +524,15 @@ packages:
 - project: os-traits
   tags:
     wallaby:
-      source-branch: 2.5.0
+      source-branch: 2.4.0
 - project: os-vif
   tags:
     wallaby:
-      source-branch: 2.4.1
+      source-branch: 2.2.1
 - project: os-win
   tags:
     wallaby:
-      source-branch: 5.4.0
+      source-branch: 5.2.0
 - project: os-xenapi
   tags:
     wallaby:
@@ -540,31 +540,31 @@ packages:
 - project: osc-lib
   tags:
     wallaby:
-      source-branch: 2.3.1
+      source-branch: 2.2.1
 - project: osc-placement
   tags:
     wallaby:
-      source-branch: 2.2.0
+      source-branch: 2.1.0
 - project: oslo-cache
   tags:
     wallaby:
-      source-branch: 2.7.1
+      source-branch: 2.6.3
 - project: oslo-concurrency
   tags:
     wallaby:
-      source-branch: 4.4.0
+      source-branch: 4.3.1
 - project: oslo-config
   tags:
     wallaby:
-      source-branch: 8.5.1
+      source-branch: 8.3.4
 - project: oslo-context
   tags:
     wallaby:
-      source-branch: 3.2.1
+      source-branch: 3.1.2
 - project: oslo-db
   tags:
     wallaby:
-      source-branch: 8.5.2
+      source-branch: 8.4.1
 - project: oslo-i18n
   tags:
     wallaby:
@@ -576,7 +576,7 @@ packages:
 - project: oslo-messaging
   tags:
     wallaby:
-      source-branch: 12.7.3
+      source-branch: 12.5.2
 - project: oslo-metrics
   tags:
     wallaby:
@@ -584,15 +584,15 @@ packages:
 - project: oslo-middleware
   tags:
     wallaby:
-      source-branch: 4.2.1
+      source-branch: 4.1.1
 - project: oslo-policy
   tags:
     wallaby:
-      source-branch: 3.7.1
+      source-branch: 3.5.0
 - project: oslo-privsep
   tags:
     wallaby:
-      source-branch: 2.5.1
+      source-branch: 2.4.0
 - project: oslo-reports
   tags:
     wallaby:
@@ -600,15 +600,15 @@ packages:
 - project: oslo-rootwrap
   tags:
     wallaby:
-      source-branch: 6.3.1
+      source-branch: 6.2.0
 - project: oslo-serialization
   tags:
     wallaby:
-      source-branch: 4.1.1
+      source-branch: 4.0.2
 - project: oslo-service
   tags:
     wallaby:
-      source-branch: 2.5.1
+      source-branch: 2.4.1
 - project: oslo-sphinx
   tags:
     wallaby:
@@ -616,19 +616,19 @@ packages:
 - project: oslo-upgradecheck
   tags:
     wallaby:
-      source-branch: 1.3.1
+      source-branch: 1.1.1
 - project: oslo-utils
   tags:
     wallaby:
-      source-branch: 4.8.2
+      source-branch: 4.6.1
 - project: oslo-versionedobjects
   tags:
     wallaby:
-      source-branch: 2.4.1
+      source-branch: 2.3.0
 - project: oslo-vmware
   tags:
     wallaby:
-      source-branch: 3.8.2
+      source-branch: 3.7.0
 - project: oslotest
   tags:
     wallaby:
@@ -650,7 +650,7 @@ packages:
 - project: ovsdbapp
   tags:
     wallaby:
-      source-branch: 1.9.4
+      source-branch: 1.6.1
 - project: packstack
   tags:
     wallaby:
@@ -1024,7 +1024,7 @@ packages:
 - project: reno
   tags:
     wallaby:
-      source-branch: 3.3.0
+      source-branch: 3.2.0
 - project: requestsexceptions
   tags:
     wallaby:
@@ -1070,7 +1070,7 @@ packages:
 - project: saharaclient
   tags:
     wallaby:
-      source-branch: 3.3.0
+      source-branch: 3.2.1
 - project: scciclient
   tags:
     wallaby:
@@ -1080,7 +1080,7 @@ packages:
 - project: senlinclient
   tags:
     wallaby:
-      source-branch: 2.2.1
+      source-branch: 2.1.1
 - project: shade
   tags:
     wallaby:
@@ -1095,11 +1095,11 @@ packages:
 - project: stevedore
   tags:
     wallaby:
-      source-branch: 3.3.3
+      source-branch: 3.2.2
 - project: sushy
   tags:
     wallaby:
-      source-branch: 3.7.6
+      source-branch: 3.4.6
 - project: sushy-oem-idrac
   tags:
     wallaby:
@@ -1113,14 +1113,14 @@ packages:
 - project: swiftclient
   tags:
     wallaby:
-      source-branch: 3.11.1
+      source-branch: 3.10.1
 - project: tacker
   tags:
     wallaby:
 - project: tackerclient
   tags:
     wallaby:
-      source-branch: 1.6.0
+      source-branch: 1.3.0
 - project: tap-as-a-service
   tags:
     wallaby:
@@ -1128,7 +1128,7 @@ packages:
 - project: taskflow
   tags:
     wallaby:
-      source-branch: 4.6.0
+      source-branch: 4.5.0
 - project: telemetry-tempest-plugin
   tags:
     wallaby:
@@ -1147,7 +1147,7 @@ packages:
 - project: tooz
   tags:
     wallaby:
-      source-branch: 2.8.3
+      source-branch: 2.7.2
 - project: tripleo-ansible
   tags:
     wallaby:
@@ -1197,7 +1197,7 @@ packages:
 - project: troveclient
   tags:
     wallaby:
-      source-branch: 7.0.0
+      source-branch: 5.1.2
 - project: validations-common
   tags:
     wallaby:
@@ -1222,7 +1222,7 @@ packages:
 - project: vitrageclient
   tags:
     wallaby:
-      source-branch: 4.3.0
+      source-branch: 4.1.1
 - project: vmware-nsx
   tags:
     wallaby:
@@ -1254,4 +1254,4 @@ packages:
 - project: zaqarclient
   tags:
     wallaby:
-      source-branch: 2.1.0
+      source-branch: 2.0.1
