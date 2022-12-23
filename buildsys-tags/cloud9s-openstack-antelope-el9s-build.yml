@@ -14,6 +14,9 @@ packages:
 - project: djvulibre
   buildsys-tags:
     cloud9s-openstack-antelope-el9s-build: djvulibre-3.5.27-31.el9s
+- project: ephemeral-port-reserve
+  buildsys-tags:
+    cloud9s-openstack-antelope-el9s-build: ephemeral-port-reserve-1.1.4-3.el9s
 - project: google-benchmark
   buildsys-tags:
     cloud9s-openstack-antelope-el9s-build: google-benchmark-1.6.0-1.el9s
