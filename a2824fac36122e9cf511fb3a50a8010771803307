@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a64bb2d9_620c4ed7",
+        "filename": "tags/wallaby.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1102,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-01-20T10:30:29Z",
+      "side": 0,
+      "message": "The policy by default, is to follow upper-constraints in all libraries included in the file. I understand you prefer latest commits in the stable/wallaby branch, can you confirm?\n\nIf that\u0027s the case, we can merge this patch, no problem, but we will also should update the automation that proposes reviews to sync rdoinfo pins to upper-constrains as in:\n\nhttps://review.rdoproject.org/r/c/rdo-infra/releng/+/46681",
+      "range": {
+        "startLine": 1102,
+        "startChar": 0,
+        "endLine": 1102,
+        "endChar": 5
+      },
+      "revId": "a2824fac36122e9cf511fb3a50a8010771803307",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
