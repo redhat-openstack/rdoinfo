@@ -703,8 +703,6 @@ packages:
 - project: puppet-haproxy
   tags:
     antelope-uc:
-      # TODO(cjeanner) remove this pinning once https://bugs.launchpad.net/tripleo/+bug/2003882 is fixed
-      source-branch: 9fbf4e653f01c8a3a31e30f641b4773b5c31a84e
 - project: puppet-heat
   tags:
     antelope-uc:
