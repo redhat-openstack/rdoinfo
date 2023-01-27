@@ -403,8 +403,6 @@ packages:
 - project: neutron
   tags:
     antelope-uc:
-      # (amoralej) Pin neutron until pyroute2-0.7.3 is in deps repo.
-      source-branch: f50dbac487713c457f6bf3330719c4578752225d
 - project: neutron-dynamic-routing
   tags:
     antelope-uc:
