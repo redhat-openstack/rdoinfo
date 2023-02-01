@@ -223,7 +223,7 @@ packages:
     cloud8s-openstack-xena-testing: gflags-2.2.2-3.el8
 - project: glance
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-glance-23.0.0-2.el8
+    cloud8s-openstack-xena-testing: openstack-glance-23.1.0-1.el8
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-xena-testing: python-glance-tests-tempest-0.4.0-1.el8
@@ -2134,7 +2134,7 @@ packages:
     cloud8s-openstack-xena-testing: python-tripleoclient-17.1.0-1.el8
 - project: trove
   buildsys-tags:
-    cloud8s-openstack-xena-testing: openstack-trove-16.0.0-1.el8
+    cloud8s-openstack-xena-testing: openstack-trove-16.0.1-1.el8
 - project: trove-dashboard
   buildsys-tags:
     cloud8s-openstack-xena-testing: openstack-trove-ui-17.0.0-1.el8
