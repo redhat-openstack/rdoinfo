@@ -196,7 +196,7 @@ packages:
     cloud9s-openstack-zed-testing: gflags-2.2.2-8.el9s
 - project: glance
   buildsys-tags:
-    cloud9s-openstack-zed-testing: openstack-glance-25.0.0-1.el9s
+    cloud9s-openstack-zed-testing: openstack-glance-25.1.0-1.el9s
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-glance-tests-tempest-0.5.0-1.el9s
@@ -1948,7 +1948,7 @@ packages:
     cloud9s-openstack-zed-testing: python-sushy-tools-0.21.0-1.el9s
 - project: swift
   buildsys-tags:
-    cloud9s-openstack-zed-testing: openstack-swift-2.30.0-1.el9s
+    cloud9s-openstack-zed-testing: openstack-swift-2.30.1-1.el9s
 - project: swiftclient
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-swiftclient-4.1.0-1.el9s
