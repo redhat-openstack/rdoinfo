@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7f18b53_73a4aadc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 775
+      },
+      "writtenOn": "2023-02-02T16:38:45Z",
+      "side": 1,
+      "message": "Thank you very much for the version bump, Luigi! I have a question inline, please take a look",
+      "revId": "720b0c388ff46af04d6db4115d3480143ac4d229",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67858ca5_7b30de58",
+        "filename": "tags/wallaby.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 316,
+      "author": {
+        "id": 775
+      },
+      "writtenOn": "2023-02-02T16:38:45Z",
+      "side": 1,
+      "message": "I was wondering if we could hit an issue with this bump for wallaby. This version contains a commit that bumps DDT in the requirements [1]. Do you think the bump could cause issues?\n\n[1] https://github.com/openstack/manila-tempest-plugin/commit/2b3fcc571f217c14042f0d6991f59087fbfb0385",
+      "range": {
+        "startLine": 316,
+        "startChar": 21,
+        "endLine": 316,
+        "endChar": 27
+      },
+      "revId": "720b0c388ff46af04d6db4115d3480143ac4d229",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
