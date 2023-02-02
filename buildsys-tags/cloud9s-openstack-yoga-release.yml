@@ -109,7 +109,7 @@ packages:
     cloud9s-openstack-yoga-release: openstack-cinder-20.1.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-cinder-tests-tempest-1.7.0-1.el9s
+    cloud9s-openstack-yoga-release: python-cinder-tests-tempest-1.8.0-1.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-cinderclient-8.3.0-1.el9s
@@ -301,7 +301,7 @@ packages:
     cloud9s-openstack-yoga-release: openstack-ironic-staging-drivers-0.16.0-1.el9s
 - project: ironic-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-ironic-tests-tempest-2.4.0-1.el9s
+    cloud9s-openstack-yoga-release: python-ironic-tests-tempest-2.6.0-1.el9s
 - project: ironic-ui
   buildsys-tags:
     cloud9s-openstack-yoga-release: openstack-ironic-ui-5.1.0-1.el9s
