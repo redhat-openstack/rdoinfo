@@ -106,7 +106,7 @@ packages:
     cloud9s-openstack-zed-release: openstack-cinder-21.1.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-cinder-tests-tempest-1.7.2-1.el9s
+    cloud9s-openstack-zed-release: python-cinder-tests-tempest-1.8.0-1.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-zed-release: python-cinderclient-9.1.0-1.el9s
@@ -301,7 +301,7 @@ packages:
     cloud9s-openstack-zed-release: openstack-ironic-staging-drivers-0.17.0-1.el9s
 - project: ironic-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-ironic-tests-tempest-2.5.0-1.el9s
+    cloud9s-openstack-zed-release: python-ironic-tests-tempest-2.6.0-1.el9s
 - project: ironic-ui
   buildsys-tags:
     cloud9s-openstack-zed-release: openstack-ironic-ui-6.0.0-1.el9s
