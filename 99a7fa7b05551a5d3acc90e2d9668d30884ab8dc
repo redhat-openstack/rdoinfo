@@ -33,6 +33,29 @@
       "message": "Thank you for spelling out the commit-list.\n",
       "revId": "99a7fa7b05551a5d3acc90e2d9668d30884ab8dc",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70d9eda1_3bf7472b",
+        "filename": "tags/wallaby.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 480,
+      "author": {
+        "id": 600
+      },
+      "writtenOn": "2023-02-03T11:37:24Z",
+      "side": 1,
+      "message": "i would almost prefer if we followd the actually wallaby branch but moving to the current tip i think is also ok. https://github.com/openstack/python-openstackclient/tree/stable/wallaby\n\nin general i think client libs should follow the branch not the releases.\nnon clinet libs i can see pinning that is a sperated discussion\n\n\nlooking at the sha\n\nhttps://github.com/openstack/python-openstackclient/compare/5.5.1...42d9b6ea571e30e4ca1fda9a21dd6ad2189a4f2f\n\nthe following affect compute\n\ncompute: Fix filtering servers by tags\nFix typo error in listing server\u0027s column name\ncompute: Reorder building of columns for \u0027server list\u0027\ncompute: Show flavor in \u0027server list\u0027 with API \u003e\u003d 2.47\ncompute: Require image when rebuilding a volume-backed server\ncompute: Note that \u0027--password\u0027 is deployment-specific\n\n\n\"compute: Require image when rebuilding a volume-backed server\"\nis the only one that could have any impact on an end user but its correct behavior so i think this is fine to include.\n\noverall i dont see anything partically compleing form a compute point of view to need a release but i have no objections to doing one.\n\nit looks like there are a couple of glance and cidner related patches which presumable are the motivation for the release.",
+      "range": {
+        "startLine": 480,
+        "startChar": 21,
+        "endLine": 480,
+        "endChar": 61
+      },
+      "revId": "99a7fa7b05551a5d3acc90e2d9668d30884ab8dc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
