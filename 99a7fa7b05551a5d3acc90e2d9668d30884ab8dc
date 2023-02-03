@@ -80,6 +80,30 @@
       },
       "revId": "99a7fa7b05551a5d3acc90e2d9668d30884ab8dc",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48b0f5d4_d3a0670d",
+        "filename": "tags/wallaby.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 480,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-02-03T14:43:20Z",
+      "side": 1,
+      "message": "\u003e in general i think client libs should follow the branch not the releases\n\u003e on clinet libs i can see pinning that is a sperated discussion\n\nWe had bad experiences trying to follow branches instead of u-c in the past. Said this, it may be a good case for releases in EM where no more tags are produced. So we may move to stable/\u003crelease\u003e branch once release goes to EM, wdyt?. It may be a good discussion to have.",
+      "parentUuid": "eb37455d_4248fbe5",
+      "range": {
+        "startLine": 480,
+        "startChar": 21,
+        "endLine": 480,
+        "endChar": 61
+      },
+      "revId": "99a7fa7b05551a5d3acc90e2d9668d30884ab8dc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
