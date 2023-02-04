@@ -229,7 +229,7 @@ packages:
     cloud8s-openstack-yoga-release: gflags-2.2.2-3.el8
 - project: glance
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-glance-24.1.0-1.el8
+    cloud8s-openstack-yoga-release: openstack-glance-24.2.0-1.el8
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-glance-tests-tempest-0.4.0-1.el8
@@ -2068,7 +2068,7 @@ packages:
     cloud8s-openstack-yoga-release: python-sushy-tools-0.18.2-1.el8
 - project: swift
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-swift-2.29.1-1.el8
+    cloud8s-openstack-yoga-release: openstack-swift-2.29.2-1.el8
 - project: swiftclient
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-swiftclient-3.13.1-1.el8
