@@ -477,6 +477,8 @@ packages:
 - project: openstackclient
   tags:
     wallaby:
+      # NOTE: the version is locked in tags/version-locked,
+      # don't forget to unlock it if you want to track u-c again.
       source-branch: 42d9b6ea571e30e4ca1fda9a21dd6ad2189a4f2f
 - project: openstacksdk
   tags:
