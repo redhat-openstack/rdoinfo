@@ -181,7 +181,7 @@ packages:
     cloud8s-openstack-yoga-testing: openstack-designate-ui-14.0.0-1.el8
 - project: designate-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-designate-tests-tempest-0.13.0-1.el8
+    cloud8s-openstack-yoga-testing: python-designate-tests-tempest-0.15.0-1.el8
 - project: designateclient
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-designateclient-4.5.1-1.el8
@@ -520,7 +520,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-neutron-lib-2.20.0-1.el8
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-neutron-tests-tempest-1.9.0-1.el8
+    cloud8s-openstack-yoga-testing: python-neutron-tests-tempest-2.1.0-1.el8
 - project: neutron-vpnaas
   buildsys-tags:
     cloud8s-openstack-yoga-testing: openstack-neutron-vpnaas-20.0.1-1.el8
