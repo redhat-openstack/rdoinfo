@@ -1,4 +1,7 @@
 packages:
+- project: Cython
+  buildsys-tags:
+    cloud8s-openstack-yoga-testing: Cython-0.29.2-1.el8
 - project: GitPython
   buildsys-tags:
     cloud8s-openstack-yoga-testing: GitPython-3.0.2-2.el8
