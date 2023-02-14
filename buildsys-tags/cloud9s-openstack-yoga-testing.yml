@@ -1,4 +1,7 @@
 packages:
+- project: ImageMagick
+  buildsys-tags:
+    cloud9s-openstack-yoga-testing: ImageMagick-6.9.11.27-7.el9s
 - project: GitPython
   buildsys-tags:
     cloud9s-openstack-yoga-testing: GitPython-3.1.14-1.el9s
