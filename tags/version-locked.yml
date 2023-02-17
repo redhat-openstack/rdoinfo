@@ -21,11 +21,6 @@ packages:
   tags:
     version-locked:
 # After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
-- project: openstacksdk
-  tags:
-    version-locked:
-      zed:
-      antelope-uc:
 # This project was removed in Pike and locked to the commit before
 # retirement.
 - project: os-brick
@@ -45,7 +40,6 @@ packages:
 - project: validations-libs
   tags:
     version-locked:
-# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
 - project: wsme
   tags:
     version-locked:
