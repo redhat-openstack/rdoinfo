@@ -20,35 +20,32 @@ packages:
 - project: neutron
   tags:
     version-locked:
-# After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
+- project: openstackclient
+  tags:
+    version-locked:
+      wallaby:
+# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
 - project: openstacksdk
   tags:
     version-locked:
       zed:
-# This project was removed in Pike and locked to the commit before
-# retirement.
+# After going to EM we follow branches in os-brick https://review.rdoproject.org/r/c/rdoinfo/+/37957
 - project: os-brick
   tags:
     version-locked:
       train:
       ussuri:
-# FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
 - project: os-cloud-config
   tags:
     version-locked:
-# Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
+# FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
 - project: tap-as-a-service
   tags:
     version-locked:
-# Until we have a new release in u-c.
+# Want to follow master and not u-c pinned version https://review.rdoproject.org/r/#/c/28584/
 - project: validations-libs
   tags:
     version-locked:
-# openstacksdk - https://bugs.launchpad.net/tripleo/+bug/1975917
 - project: wsme
   tags:
     version-locked:
-- project: openstackclient
-  tags:
-    version-locked:
-      wallaby:
