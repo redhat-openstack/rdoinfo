@@ -73,10 +73,6 @@ packages:
 - project: ceilometer
   tags:
     antelope-uc:
-- project: ceilometerclient
-  tags:
-    antelope-uc:
-      source-branch: 2.9.0
 - project: ceilometermiddleware
   tags:
     antelope-uc:
