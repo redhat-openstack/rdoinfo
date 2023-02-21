@@ -2800,6 +2800,14 @@ packages:
 - project: oslo-limit
   conf: rpmfactory-lib
   upstream: https://opendev.org/openstack/oslo.limit
+- project: tcib
+  name: python-tcib
+  upstream: https://github.com/openstack-k8s-operators/tcib
+  component: podified
+  maintainers:
+  - chkumar@redhat.com
+  - ramishra@redhat.com
+  - rlandy@redhat.com
 components:
 - name: common
 - name: compute
@@ -2817,3 +2825,4 @@ components:
 - name: ui
 - name: tempest
 - name: validation
+- name: podified
