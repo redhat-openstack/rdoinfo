@@ -55,7 +55,7 @@ packages:
 - project: automaton
   tags:
     antelope-uc:
-      source-branch: 3.0.1
+      source-branch: 3.1.0
 - project: barbican
   tags:
     antelope-uc:
@@ -65,18 +65,18 @@ packages:
 - project: barbicanclient
   tags:
     antelope-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: castellan
   tags:
     antelope-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: ceilometer
   tags:
     antelope-uc:
 - project: ceilometermiddleware
   tags:
     antelope-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
 - project: cinder
   tags:
     antelope-uc:
@@ -86,14 +86,14 @@ packages:
 - project: cinderclient
   tags:
     antelope-uc:
-      source-branch: 9.2.0
+      source-branch: 9.3.0
 - project: cinderlib
   tags:
     antelope-uc:
 - project: cliff
   tags:
     antelope-uc:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: cloudkitty
   tags:
     antelope-uc:
@@ -103,7 +103,7 @@ packages:
 - project: cloudkittyclient
   tags:
     antelope-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.0
 - project: collectd-gnocchi
   tags:
     antelope-uc:
@@ -127,7 +127,7 @@ packages:
 - project: designateclient
   tags:
     antelope-uc:
-      source-branch: 5.1.0
+      source-branch: 5.2.0
 - project: dib-utils
   tags:
     antelope-uc:
@@ -161,11 +161,11 @@ packages:
 - project: glance_store
   tags:
     antelope-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: glanceclient
   tags:
     antelope-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: glare
   tags:
     antelope-uc:
@@ -206,7 +206,7 @@ packages:
 - project: heat-translator
   tags:
     antelope-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
 - project: heatclient
   tags:
     antelope-uc:
@@ -226,11 +226,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     antelope-uc:
-      source-branch: 4.8.0
+      source-branch: 4.9.0
 - project: ironic-lib
   tags:
     antelope-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: ironic-prometheus-exporter
   tags:
     antelope-uc:
@@ -252,7 +252,7 @@ packages:
 - project: ironicclient
   tags:
     antelope-uc:
-      source-branch: 5.0.1
+      source-branch: 5.1.0
 - project: keystone
   tags:
     antelope-uc:
@@ -262,7 +262,7 @@ packages:
 - project: keystoneauth1
   tags:
     antelope-uc:
-      source-branch: 5.1.1
+      source-branch: 5.1.2
 - project: keystoneclient
   tags:
     antelope-uc:
@@ -295,7 +295,7 @@ packages:
 - project: magnumclient
   tags:
     antelope-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: manila
   tags:
     antelope-uc:
@@ -308,11 +308,11 @@ packages:
 - project: manilaclient
   tags:
     antelope-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: metalsmith
   tags:
     antelope-uc:
-      source-branch: 1.9.0
+      source-branch: 1.9.1
 - project: microversion-parse
   tags:
     antelope-uc:
@@ -405,7 +405,7 @@ packages:
 - project: neutron-lib
   tags:
     antelope-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: neutron-tempest-plugin
   tags:
     antelope-uc:
@@ -415,7 +415,7 @@ packages:
 - project: neutronclient
   tags:
     antelope-uc:
-      source-branch: 8.2.1
+      source-branch: 9.0.0
 - project: nova
   tags:
     antelope-uc:
@@ -438,14 +438,14 @@ packages:
 - project: octavia-lib
   tags:
     antelope-uc:
-      source-branch: 3.1.0
+      source-branch: 3.2.0
 - project: octavia-tempest-plugin
   tags:
     antelope-uc:
 - project: octaviaclient
   tags:
     antelope-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: openstack-macros
   tags:
     antelope-uc:
@@ -466,7 +466,7 @@ packages:
 - project: os-brick
   tags:
     antelope-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
 - project: os-client-config
   tags:
     antelope-uc:
@@ -502,15 +502,15 @@ packages:
 - project: os-traits
   tags:
     antelope-uc:
-      source-branch: 2.9.0
+      source-branch: 2.10.0
 - project: os-vif
   tags:
     antelope-uc:
-      source-branch: 3.1.0
+      source-branch: 3.1.1
 - project: os-win
   tags:
     antelope-uc:
-      source-branch: 5.8.0
+      source-branch: 5.9.0
 - project: os-xenapi
   tags:
     antelope-uc:
@@ -518,11 +518,11 @@ packages:
 - project: osc-lib
   tags:
     antelope-uc:
-      source-branch: 2.6.2
+      source-branch: 2.7.0
 - project: osc-placement
   tags:
     antelope-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: oslo-cache
   tags:
     antelope-uc:
@@ -530,7 +530,7 @@ packages:
 - project: oslo-concurrency
   tags:
     antelope-uc:
-      source-branch: 5.0.1
+      source-branch: 5.1.0
 - project: oslo-config
   tags:
     antelope-uc:
@@ -538,7 +538,7 @@ packages:
 - project: oslo-context
   tags:
     antelope-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: oslo-db
   tags:
     antelope-uc:
@@ -546,11 +546,11 @@ packages:
 - project: oslo-i18n
   tags:
     antelope-uc:
-      source-branch: 5.1.0
+      source-branch: 6.0.0
 - project: oslo-limit
   tags:
     antelope-uc:
-      source-branch: 2.0.1
+      source-branch: 2.1.0
 - project: oslo-log
   tags:
     antelope-uc:
@@ -562,35 +562,35 @@ packages:
 - project: oslo-metrics
   tags:
     antelope-uc:
-      source-branch: 0.5.0
+      source-branch: 0.6.0
 - project: oslo-middleware
   tags:
     antelope-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: oslo-policy
   tags:
     antelope-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: oslo-privsep
   tags:
     antelope-uc:
-      source-branch: 3.0.1
+      source-branch: 3.1.0
 - project: oslo-reports
   tags:
     antelope-uc:
-      source-branch: 2.4.0
+      source-branch: 3.0.0
 - project: oslo-rootwrap
   tags:
     antelope-uc:
-      source-branch: 6.3.1
+      source-branch: 7.0.0
 - project: oslo-serialization
   tags:
     antelope-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: oslo-service
   tags:
     antelope-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
 - project: oslo-sphinx
   tags:
     antelope-uc:
@@ -598,7 +598,7 @@ packages:
 - project: oslo-upgradecheck
   tags:
     antelope-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: oslo-utils
   tags:
     antelope-uc:
@@ -606,11 +606,11 @@ packages:
 - project: oslo-versionedobjects
   tags:
     antelope-uc:
-      source-branch: 3.0.1
+      source-branch: 3.1.0
 - project: oslo-vmware
   tags:
     antelope-uc:
-      source-branch: 4.0.1
+      source-branch: 4.1.0
 - project: oslotest
   tags:
     antelope-uc:
@@ -631,7 +631,7 @@ packages:
 - project: ovsdbapp
   tags:
     antelope-uc:
-      source-branch: 2.2.0
+      source-branch: 2.2.1
 - project: packstack
   tags:
     antelope-uc:
@@ -916,7 +916,7 @@ packages:
 - project: senlinclient
   tags:
     antelope-uc:
-      source-branch: 2.5.0
+      source-branch: 3.0.0
 - project: shade
   tags:
     antelope-uc:
@@ -931,11 +931,11 @@ packages:
 - project: stevedore
   tags:
     antelope-uc:
-      source-branch: 4.1.1
+      source-branch: 5.0.0
 - project: sushy
   tags:
     antelope-uc:
-      source-branch: 4.4.1
+      source-branch: 4.4.2
 - project: sushy-oem-idrac
   tags:
     antelope-uc:
@@ -948,14 +948,14 @@ packages:
 - project: swiftclient
   tags:
     antelope-uc:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: tacker
   tags:
     antelope-uc:
 - project: tackerclient
   tags:
     antelope-uc:
-      source-branch: 1.12.0
+      source-branch: 1.13.0
 - project: tap-as-a-service
   tags:
     antelope-uc:
@@ -1031,7 +1031,7 @@ packages:
 - project: troveclient
   tags:
     antelope-uc:
-      source-branch: 8.0.0
+      source-branch: 8.1.0
 - project: validations-common
   tags:
     antelope-uc:
@@ -1055,7 +1055,7 @@ packages:
 - project: vitrageclient
   tags:
     antelope-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.0
 - project: vmware-nsx
   tags:
     antelope-uc:
@@ -1087,4 +1087,4 @@ packages:
 - project: zaqarclient
   tags:
     antelope-uc:
-      source-branch: 2.5.0
+      source-branch: 2.5.1
