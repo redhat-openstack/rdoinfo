@@ -2800,6 +2800,15 @@ packages:
 - project: oslo-limit
   conf: rpmfactory-lib
   upstream: https://opendev.org/openstack/oslo.limit
+- project: tcib
+  conf: rpmfactory-lib
+  upstream: https://github.com/openstack-k8s-operators/tcib
+  name: python-tcib
+  component: <Need to add new component>
+  maintainers:
+  - chkumar@redhat.com
+  - ramishra@redhat.com
+  - rlandy@redhat.com
 components:
 - name: common
 - name: compute
