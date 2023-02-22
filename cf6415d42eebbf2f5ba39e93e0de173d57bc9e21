@@ -16,6 +16,24 @@
       "message": "it needs python-openstacksdk-0.103.0 to be promoted",
       "revId": "cf6415d42eebbf2f5ba39e93e0de173d57bc9e21",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70fbbc71_3170e42f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-02-22T09:17:32Z",
+      "side": 1,
+      "message": "The last promotion failed, I\u0027m working on https://review.opendev.org/c/openstack/puppet-trove/+/874367 and https://review.opendev.org/c/x/packstack/+/874728 to fix it",
+      "parentUuid": "3bb6a513_3e5f616e",
+      "revId": "cf6415d42eebbf2f5ba39e93e0de173d57bc9e21",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
