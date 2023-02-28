@@ -2803,6 +2803,7 @@ packages:
 - project: tcib
   conf: rpmfactory-lib
   upstream: https://github.com/openstack-k8s-operators/tcib
+  source-branch: main
   component: podified
   maintainers:
   - chkumar@redhat.com
