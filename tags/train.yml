@@ -292,6 +292,7 @@ packages:
 - project: magnum
   tags:
     train:
+      source-branch: train-eol
 - project: magnum-tempest-plugin
   tags:
     train:
@@ -299,6 +300,7 @@ packages:
 - project: magnum-ui
   tags:
     train:
+      source-branch: train-eol
 - project: magnumclient
   tags:
     train:
