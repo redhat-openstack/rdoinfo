@@ -149,6 +149,9 @@ packages:
 - project: python-hatch-fancy-pypi-readme
   buildsys-tags:
     cloud9s-openstack-antelope-el9s-build: python-hatch-fancy-pypi-readme-22.3.0-4.el9s
+- project: python-hatch-vcs
+  buildsys-tags:
+    cloud9s-openstack-antelope-el9s-build: python-hatch-vcs-0.3.0-3.el9s
 - project: python-hatchling
   buildsys-tags:
     cloud9s-openstack-antelope-el9s-build: python-hatchling-1.3.1-1.el9s
