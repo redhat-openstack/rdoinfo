@@ -16,6 +16,24 @@
       "message": "\u003e Patch Set 1: Verified-1\n\u003e \n\u003e Build failed.\n\u003e https://review.rdoproject.org/zuul/buildset/cf67ed3212cd48a5ac287314cc2faaf5\n\u003e \n\u003e - tox-linters https://review.rdoproject.org/zuul/build/6e9e8aaee63a47fa829737979c0cbc08 : SUCCESS in 2m 11s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/eba5e95f8de242d0975d85b504392ea2 : SUCCESS in 2m 34s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/a73a30d4aa8b4e84a38092251750bce5 : SUCCESS in 1m 50s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/e432e5b96682414f906cd6dc82e7a3f6 : FAILURE in 2m 46s\n\nIt needs python-setuptools_scm as run-time dep",
       "revId": "1990b2db7497e233de38ef61902f479798753228",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6795ff0_53ce528d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-03-01T16:48:48Z",
+      "side": 1,
+      "message": "Patch proposed at https://review.rdoproject.org/r/c/rdoinfo/+/47310",
+      "parentUuid": "45c31aed_75507a33",
+      "revId": "1990b2db7497e233de38ef61902f479798753228",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
