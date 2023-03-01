@@ -126,9 +126,11 @@ packages:
 - project: designate
   tags:
     train:
+      source-branch: train-eol
 - project: designate-dashboard
   tags:
     train:
+      source-branch: train-eol
 - project: designate-tempest-plugin
   tags:
     train:
@@ -136,7 +138,7 @@ packages:
 - project: designateclient
   tags:
     train:
-      source-branch: 3.0.0
+      source-branch: train-eol
 - project: dib-utils
   tags:
     train:
