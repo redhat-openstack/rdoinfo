@@ -33,6 +33,24 @@
       "message": "\u003e Patch Set 1: Verified-1\n\u003e \n\u003e Build failed.\n\u003e https://review.rdoproject.org/zuul/buildset/5afc654d18d04575b617213313509f33\n\u003e \n\u003e - rdoinfo-tripleo-master-testing-centos-9-scenario001-standalone https://review.rdoproject.org/zuul/build/4d61983a06a94b3f8152e37a9a5d22d7 : SKIPPED Skipped due to failed job validate-buildsys-tags (non-voting)\n\u003e - rdoinfo-tripleo-master-testing-centos-9-undercloud-containers https://review.rdoproject.org/zuul/build/a18088931cdd4a2093eb5e871f2393e4 : SKIPPED Skipped due to failed job validate-buildsys-tags (non-voting)\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/517cf071b2e948248705bf26f2d16044 : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/ae95eaf471e7450595a6b07913cbbef4 : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/3aac1a4151c5454887988803d960a71b : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/da2d7c91e3b7482faa554ea699880331 : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario005-centos9 https://review.rdoproject.org/zuul/build/e543c0f7edb843e1baf82d3891199e58 : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/a50fa5d92f3545e992802f2bd7dc540f : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/751c8165c2054ec5a6f3ac3728d559b7 : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - validate-buildsys-tags-antelope-testing-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/72610a1c20574616abdc8f8eb6230b34 : SKIPPED Skipped due to failed job validate-buildsys-tags\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/504004608fb64149958bccc064a510ee : SUCCESS in 2m 19s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/53c273a1732f46f1ba182236ded008a1 : SUCCESS in 2m 36s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/d4f2743e510d4597b6e87869a6b94b78 : SUCCESS in 1m 58s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/22437ec2883748d897343267abd5d6c8 : FAILURE in 2m 57s\n\nWe need to remove the extra subpakcages that we don\u0027t need but make the CI fail because of unresolved deps",
       "revId": "0a60930520e6cb0cdc357571603f558881d8bd65",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0a0b918_a818aa7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-03-02T13:40:41Z",
+      "side": 1,
+      "message": "Patch proposed at https://review.rdoproject.org/r/c/deps/python-jsonschema/+/47345",
+      "parentUuid": "57ca77f1_b3f4e76f",
+      "revId": "0a60930520e6cb0cdc357571603f558881d8bd65",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
