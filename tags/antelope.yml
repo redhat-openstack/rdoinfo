@@ -868,7 +868,10 @@ packages:
 - project: taskflow
   tags:
     antelope:
-- project: telemetry-tempest-plugin
+- project: tcib
+  tags:
+    antelope:
+-project: telemetry-tempest-plugin
   tags:
     antelope:
 - project: tempest
