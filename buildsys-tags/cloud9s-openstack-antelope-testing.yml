@@ -599,6 +599,9 @@ packages:
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-jsonpath-rw-ext-1.2.2-2.el9s
+- project: python-jsonschema
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-jsonschema-4.16.0-2.el9s
 - project: python-junitxml
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-junitxml-0.7-24.el9s
@@ -848,9 +851,6 @@ packages:
 - project: python-s3transfer
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-s3transfer-0.6.0-3.el9s
-- project: python-setuptools_scm
-  buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-setuptools_scm-7.1.0-2.el9s
 - project: python-scp
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-scp-0.14.4-1.el9s
@@ -872,6 +872,9 @@ packages:
 - project: python-setproctitle
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-setproctitle-1.2.3-2.el9s
+- project: python-setuptools_scm
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-setuptools_scm-7.1.0-2.el9s
 - project: python-simplegeneric
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-simplegeneric-0.8.1-21.el9s
