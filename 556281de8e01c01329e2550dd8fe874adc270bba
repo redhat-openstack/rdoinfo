@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09904c57_9802fb1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-03-06T16:04:11Z",
+      "side": 1,
+      "message": "python-APScheduler-3.8.0-1.el9s [1] is not currently the version in u-c (i.e 3.9.1) [2] but APScheduler is currently retired project in Fedora and latest NVR is 3.8.0 [3].\nThis NVR does not cap tzlocal whereas the current one does, see below:\n\n$ rpm -qp --requires https://cbs.centos.org/kojifiles/packages/python-APScheduler/3.7.0/2.el9s/noarch/python3-APScheduler-3.7.0-2.el9s.noarch.rpm\n(python3.9dist(tzlocal) \u003e\u003d 2 with python3.9dist(tzlocal) \u003c 3)\n[...]\n\nThis makes installation of python3-APScheduler failing as we have python3-tzlocal-4.2-1.el9s.noarch in deps repo \u003d\u003e we are currently hitting the issue during the bootstrap of Antelope Trunk Builder with openstack-watcher\n\n[1] https://cbs.centos.org/koji/buildinfo?buildID\u003d35540\n[2] https://github.com/openstack/requirements/blob/6a6ededcd24aafa84e17db7c24b291037dd7056c/upper-constraints.txt#L507\n[3] https://koji.fedoraproject.org/koji/packageinfo?packageID\u003d21652",
+      "revId": "556281de8e01c01329e2550dd8fe874adc270bba",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
