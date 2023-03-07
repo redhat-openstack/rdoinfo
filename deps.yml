@@ -2418,6 +2418,9 @@ packages:
 - project: python-dataclasses
   name: python-dataclasses
   conf: rdo-dependency
+- project: python-datetimerange
+  name: python-datetimerange
+  conf: fedora-dependency
 - project: distribution-gpg-keys
   name: distribution-gpg-keys
   conf: fedora-dependency
