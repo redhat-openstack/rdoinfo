@@ -2809,6 +2809,14 @@ packages:
   - chkumar@redhat.com
   - ramishra@redhat.com
   - rlandy@redhat.com
+- project: edpm-ansible
+  conf: rpmfactory-lib
+  upstream: https://github.com/openstack-k8s-operators/edpm-ansible
+  source-branch: main
+  component: edpm
+  maintainers:
+  - ralfieri@redhat.com
+  - jslagle@redhat.com
 components:
 - name: common
 - name: compute
@@ -2827,3 +2835,4 @@ components:
 - name: tempest
 - name: validation
 - name: podified
+- name: edpm
