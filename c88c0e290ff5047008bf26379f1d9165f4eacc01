@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e643ba42_7dd1ac1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-03-10T07:21:25Z",
+      "side": 1,
+      "message": "we had to revert ironic-tempest-plugin in train in the past related to create_isolated_network, see https://review.rdoproject.org/r/c/rdoinfo/+/46410",
+      "revId": "c88c0e290ff5047008bf26379f1d9165f4eacc01",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
