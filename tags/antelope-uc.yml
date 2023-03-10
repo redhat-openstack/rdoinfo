@@ -659,9 +659,6 @@ packages:
 - project: puppet-cinder
   tags:
     antelope-uc:
-- project: puppet-collectd
-  tags:
-    antelope-uc:
 - project: puppet-concat
   tags:
     antelope-uc:
@@ -702,9 +699,6 @@ packages:
   tags:
     antelope-uc:
 - project: puppet-ironic
-  tags:
-    antelope-uc:
-- project: puppet-keepalived
   tags:
     antelope-uc:
 - project: puppet-keystone
@@ -758,9 +752,6 @@ packages:
 - project: puppet-ovn
   tags:
     antelope-uc:
-- project: puppet-pacemaker
-  tags:
-    antelope-uc:
 - project: puppet-placement
   tags:
     antelope-uc:
@@ -785,13 +776,7 @@ packages:
 - project: puppet-sahara
   tags:
     antelope-uc:
-- project: puppet-snmp
-  tags:
-    antelope-uc:
 - project: puppet-ssh
-  tags:
-    antelope-uc:
-- project: puppet-staging
   tags:
     antelope-uc:
 - project: puppet-stdlib
@@ -809,9 +794,6 @@ packages:
 - project: puppet-tempest
   tags:
     antelope-uc:
-- project: puppet-tripleo
-  tags:
-    antelope-uc:
 - project: puppet-trove
   tags:
     antelope-uc:
@@ -819,9 +801,6 @@ packages:
   tags:
     antelope-uc:
 - project: puppet-vitrage
-  tags:
-    antelope-uc:
-- project: puppet-vlan
   tags:
     antelope-uc:
 - project: puppet-vswitch
