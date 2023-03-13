@@ -398,6 +398,9 @@ packages:
 - project: python-daiquiri
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-daiquiri-3.2.1-1.el9s
+- project: python-datetimerange
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-datetimerange-1.2.0-1.el9s
 - project: python-ddt
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-ddt-1.6.0-1.el9s
