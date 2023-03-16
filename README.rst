@@ -151,6 +151,7 @@ Following attributes are assigned to `rdo.yaml` file:
 
     * *name:* Openstack release name
     * *branch:* project distgit branch
+    * *identifier:* release year-based identifier (since antelope)
     * *tags_map:* possible value `separated_buildreqs` and `unified_buildreqs`;
                   option helps to build legacy packages before Rocky OS release
                   with proper tag. More info [9]_
