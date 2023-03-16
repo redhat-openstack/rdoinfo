@@ -367,63 +367,6 @@ releases:
       url: http://mirror.centos.org/centos/7/updates/x86_64/
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
-- name: queens
-  status: extended_maintenance
-  branch: queens-rdo
-  repos:
-  - name: el7
-    buildsys: cbs/cloud7-openstack-queens-el7
-    buildsys-tags:
-    - cloud7-openstack-queens-candidate
-    - cloud7-openstack-queens-testing
-    - cloud7-openstack-queens-release
-    distrepos:
-    - name: RDO Queens el7
-      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-queens/
-    - name: CentOS 7 Base
-      url: http://mirror.centos.org/centos/7/os/x86_64/
-    - name: CentOS 7 Updates
-      url: http://mirror.centos.org/centos/7/updates/x86_64/
-    - name: CentOS 7 Extras
-      url: http://mirror.centos.org/centos/7/extras/x86_64/
-- name: pike
-  status: extended_maintenance
-  branch: pike-rdo
-  repos:
-  - name: el7
-    buildsys: cbs/cloud7-openstack-pike-el7
-    buildsys-tags:
-    - cloud7-openstack-pike-candidate
-    - cloud7-openstack-pike-testing
-    - cloud7-openstack-pike-release
-    distrepos:
-    - name: RDO Pike el7
-      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-pike/
-    - name: CentOS 7 Base
-      url: http://mirror.centos.org/centos/7/os/x86_64/
-    - name: CentOS 7 Updates
-      url: http://mirror.centos.org/centos/7/updates/x86_64/
-    - name: CentOS 7 Extras
-      url: http://mirror.centos.org/centos/7/extras/x86_64/
-- name: ocata
-  status: eol
-  branch: ocata-rdo
-  repos:
-  - name: el7
-    buildsys: cbs/cloud7-openstack-ocata-el7
-    buildsys-tags:
-    - cloud7-openstack-ocata-candidate
-    - cloud7-openstack-ocata-testing
-    - cloud7-openstack-ocata-release
-    distrepos:
-    - name: RDO Ocata el7
-      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-ocata/
-    - name: CentOS 7 Base
-      url: http://mirror.centos.org/centos/7/os/x86_64/
-    - name: CentOS 7 Updates
-      url: http://mirror.centos.org/centos/7/updates/x86_64/
-    - name: CentOS 7 Extras
-      url: http://mirror.centos.org/centos/7/extras/x86_64/
 
 # default template for 'packages' infromation below
 package-default:
@@ -438,9 +381,6 @@ package-default:
     train:
     stein:
     rocky:
-    queens:
-    pike:
-    ocata:
 # custom templates for 'packages' information below, reducing
 # redundant information in this file; inherits package-default
 package-configs:
@@ -513,9 +453,6 @@ package-configs:
       train:
       stein:
       rocky:
-      queens:
-      pike:
-      ocata:
   rpmfactory-tempest-plugin:
     # Name and Project will be defined.
     name: '%(project)s'
@@ -537,8 +474,6 @@ package-configs:
       train:
       stein:
       rocky:
-      queens:
-      pike:
   rpm-packaging:
     name: '%(project)s'
     upstream: https://opendev.org/openstack/%(project)s
@@ -562,8 +497,6 @@ package-configs:
       stein:
         distro-branch: master
       rocky:
-        distro-branch: master
-      queens:
         distro-branch: master
 packages:
 # OpenStack Puppet Modules
