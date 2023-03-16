@@ -6,45 +6,25 @@ packages:
 - project: ansible-config_template
   tags:
     antelope:
-- project: ansible-pacemaker
-  tags:
-    antelope:
+      component: podified
 - project: ansible-role-atos-hsm
   tags:
     antelope:
-- project: ansible-role-chrony
-  tags:
-    antelope:
+      component: security
 - project: ansible-role-collect-logs
   tags:
     antelope:
 - project: ansible-role-collectd-config
   tags:
     antelope:
-- project: ansible-role-container-registry
-  tags:
-    antelope:
 - project: ansible-role-lunasa-hsm
   tags:
     antelope:
-- project: ansible-role-openstack-operations
-  tags:
-    antelope:
-- project: ansible-role-qdr-config
-  tags:
-    antelope:
-- project: ansible-role-redhat-subscription
-  tags:
-    antelope:
+      component: security
 - project: ansible-role-thales-hsm
   tags:
     antelope:
-- project: ansible-role-tripleo-modify-image
-  tags:
-    antelope:
-- project: ansible-tripleo-ipa-server
-  tags:
-    antelope:
+      component: security
 - project: aodh
   tags:
     antelope:
@@ -135,10 +115,6 @@ packages:
   tags:
     antelope:
       source-branch: 0.0.11
-- project: directord
-  tags:
-    antelope:
-      source-branch: main
 - project: diskimage-builder
   tags:
     antelope:
@@ -192,9 +168,11 @@ packages:
 - project: heat
   tags:
     antelope:
+      component: common
 - project: heat-agents
   tags:
     antelope:
+      component: common
 - project: heat-dashboard
   tags:
     antelope:
@@ -206,6 +184,7 @@ packages:
   tags:
     antelope:
       source-branch: 2.7.0
+      component: common
 - project: heatclient
   tags:
     antelope:
@@ -275,6 +254,7 @@ packages:
 - project: kolla
   tags:
     antelope:
+      component: common
 - project: kuryr
   tags:
     antelope:
@@ -324,16 +304,19 @@ packages:
 - project: mistral
   tags:
     antelope:
+      component: common
 - project: mistral-dashboard
   tags:
     antelope:
 - project: mistral-extra
   tags:
     antelope:
+      component: common
 - project: mistral-lib
   tags:
     antelope:
       source-branch: 2.8.0
+      component: common
 - project: mistral-tempest-plugin
   tags:
     antelope:
@@ -473,6 +456,7 @@ packages:
 - project: os-apply-config
   tags:
     antelope:
+      component: common
 - project: os-brick
   tags:
     antelope:
@@ -481,9 +465,11 @@ packages:
   tags:
     antelope:
       source-branch: 2.1.0
+      component: clients
 - project: os-collect-config
   tags:
     antelope:
+      component: common
 - project: os-faults
   tags:
     antelope:
@@ -494,9 +480,11 @@ packages:
 - project: os-net-config
   tags:
     antelope:
+      component: common
 - project: os-refresh-config
   tags:
     antelope:
+      component: common
 - project: os-resource-classes
   tags:
     antelope:
@@ -646,6 +634,7 @@ packages:
 - project: packstack
   tags:
     antelope:
+      component: puppet
 - project: patrole
   tags:
     antelope:
@@ -660,231 +649,264 @@ packages:
 - project: puppet-aodh
   tags:
     antelope:
+      component: puppet
 - project: puppet-apache
   tags:
     antelope:
       source-branch: 40d23ac2f16c94c5ed671bdc67be55de77ed1d8a
+      component: puppet
 - project: puppet-archive
   tags:
     antelope:
       source-branch: 68bea2d2db1c02f6c43cc00afa1e39c9075759a5
+      component: puppet
 - project: puppet-barbican
   tags:
     antelope:
+      component: puppet
 - project: puppet-ceilometer
   tags:
     antelope:
+      component: puppet
 - project: puppet-ceph
   tags:
     antelope:
+      component: puppet
 - project: puppet-cinder
   tags:
     antelope:
-- project: puppet-collectd
-  tags:
-    antelope:
-      source-branch: 8fa5ab6269a748512dbda6010b967fca2da0a119
+      component: puppet
 - project: puppet-concat
   tags:
     antelope:
       source-branch: 6dff852fd342374a02879d38b50ca4f71e17cd9b
+      component: puppet
 - project: puppet-corosync
   tags:
     antelope:
       source-branch: f5cd4617d203633fa0176155eb5fef9e0e104295
+      component: puppet
 - project: puppet-designate
   tags:
     antelope:
+      component: puppet
 - project: puppet-dns
   tags:
     antelope:
       source-branch: e736c2e8c28d005ba561dd3228814fe8e525a9b9
+      component: puppet
 - project: puppet-ec2api
   tags:
     antelope:
+      component: puppet
 - project: puppet-etcd
   tags:
     antelope:
       source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
+      component: puppet
 - project: puppet-firewall
   tags:
     antelope:
       source-branch: a1e4768ee0c632ed67706fe7e0db1980e008e353
+      component: puppet
 - project: puppet-glance
   tags:
     antelope:
+      component: puppet
 - project: puppet-gnocchi
   tags:
     antelope:
+      component: puppet
 - project: puppet-haproxy
   tags:
     antelope:
       source-branch: eb2c60a9b9413973d9ee965a825d62e40bd2d053
+      component: puppet
 - project: puppet-heat
   tags:
     antelope:
+      component: puppet
 - project: puppet-horizon
   tags:
     antelope:
+      component: puppet
 - project: puppet-inifile
   tags:
     antelope:
       source-branch: 12e8ac0881c06e1d897a70f1544f89332bce2daa
+      component: puppet
 - project: puppet-ironic
   tags:
     antelope:
-- project: puppet-keepalived
-  tags:
-    antelope:
-      source-branch: bbca37ade629a9178f09366fd0368187fb645f4e
+      component: puppet
 - project: puppet-keystone
   tags:
     antelope:
+      component: puppet
 - project: puppet-kmod
   tags:
     antelope:
       source-branch: 82fc304553b955ca85dc89e4aa201063579c1494
+      component: puppet
 - project: puppet-magnum
   tags:
     antelope:
+      component: puppet
 - project: puppet-manila
   tags:
     antelope:
+      component: puppet
 - project: puppet-memcached
   tags:
     antelope:
       source-branch: bf92113a87ef6a595a0e1d9086ec6e25d0726f13
+      component: puppet
 - project: puppet-mistral
   tags:
     antelope:
+      component: puppet
 - project: puppet-module-data
   tags:
     antelope:
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
+      component: puppet
 - project: puppet-murano
   tags:
     antelope:
+      component: puppet
 - project: puppet-mysql
   tags:
     antelope:
       source-branch: f226c7f0788745f0e4b9eeb0058d06e11cdc9ffc
+      component: puppet
 - project: puppet-neutron
   tags:
     antelope:
+      component: puppet
 - project: puppet-nova
   tags:
     antelope:
+      component: puppet
 - project: puppet-nssdb
   tags:
     antelope:
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
+      component: puppet
 - project: puppet-octavia
   tags:
     antelope:
+      component: puppet
 - project: puppet-openstack_extras
   tags:
     antelope:
+      component: puppet
 - project: puppet-openstacklib
   tags:
     antelope:
+      component: puppet
 - project: puppet-oslo
   tags:
     antelope:
+      component: puppet
 - project: puppet-ovn
   tags:
     antelope:
-- project: puppet-pacemaker
-  tags:
-    antelope:
+      component: puppet
 - project: puppet-placement
   tags:
     antelope:
+      component: puppet
 - project: puppet-qdr
   tags:
     antelope:
+      component: puppet
 - project: puppet-rabbitmq
   tags:
     antelope:
       source-branch: 1a1c6e724dc94761da8450943c1196571ccb79ee
+      component: puppet
 - project: puppet-redis
   tags:
     antelope:
       source-branch: 9881323f519626863562c84b509c06591ba58b79
+      component: puppet
 - project: puppet-remote
   tags:
     antelope:
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
+      component: puppet
 - project: puppet-rsync
   tags:
     antelope:
       source-branch: 65ee03436d46572ce046f2051fec2965a7ef6430
+      component: puppet
 - project: puppet-rsyslog
   tags:
     antelope:
       source-branch: ec3faef4d5336fcfe5d7f425c8248d7eb659391c
+      component: puppet
 - project: puppet-sahara
   tags:
     antelope:
-- project: puppet-snmp
-  tags:
-    antelope:
-      source-branch: 10a8ef0c9cf40af5500ad2b0eaa8f8f36a7fa678
+      component: puppet
 - project: puppet-ssh
   tags:
     antelope:
       source-branch: 8c871493260ff1a7027684c88b61a8b3e172d334
-- project: puppet-staging
-  tags:
-    antelope:
-      source-branch: b466d93f8deb0ed4d9762a17c3c38f356aa833ee
+      component: puppet
 - project: puppet-stdlib
   tags:
     antelope:
       source-branch: ef733aabd13d3a74dcc472ac963e6a657049e3d3
+      component: puppet
 - project: puppet-swift
   tags:
     antelope:
+      component: puppet
 - project: puppet-sysctl
   tags:
     antelope:
       source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
+      component: puppet
 - project: puppet-systemd
   tags:
     antelope:
       source-branch: b008789640d03703e65072ae0b162b2054decb3f
+      component: puppet
 - project: puppet-tempest
   tags:
     antelope:
-- project: puppet-tripleo
-  tags:
-    antelope:
+      component: puppet
 - project: puppet-trove
   tags:
     antelope:
+      component: puppet
 - project: puppet-vcsrepo
   tags:
     antelope:
       source-branch: b82414b990ed614c6c53445481b947b2dcdfc126
+      component: puppet
 - project: puppet-vitrage
   tags:
     antelope:
-- project: puppet-vlan
-  tags:
-    antelope:
-      source-branch: c937de75c28e63fba8d8738ad6a5f2ede517e53d
+      component: puppet
 - project: puppet-vswitch
   tags:
     antelope:
+      component: puppet
 - project: puppet-watcher
   tags:
     antelope:
+      component: puppet
 - project: puppet-xinetd
   tags:
     antelope:
       source-branch: d7be36645a7490b60aa85e826de5d2885fbdd026
+      component: puppet
 - project: puppet-zaqar
   tags:
     antelope:
+      component: puppet
 - project: pycadf
   tags:
     antelope:
@@ -1023,42 +1045,6 @@ packages:
   tags:
     antelope:
       source-branch: 3.2.0
-- project: tripleo-ansible
-  tags:
-    antelope:
-- project: tripleo-common
-  tags:
-    antelope:
-- project: tripleo-heat-templates
-  tags:
-    antelope:
-- project: tripleo-image-elements
-  tags:
-    antelope:
-- project: tripleo-ipa
-  tags:
-    antelope:
-- project: tripleo-ipsec
-  tags:
-    antelope:
-- project: tripleo-operator-ansible
-  tags:
-    antelope:
-- project: tripleo-powerflex
-  tags:
-    antelope:
-- project: tripleo-puppet-elements
-  tags:
-    antelope:
-- project: tripleo-repos
-  tags:
-    antelope:
-- project: tripleo-validations
-  tags:
-    antelope:
-- project: tripleoclient
-  tags:
-    antelope:
 - project: trove
   tags:
     antelope:
@@ -1073,12 +1059,6 @@ packages:
   tags:
     antelope:
       source-branch: 8.1.0
-- project: validations-common
-  tags:
-    antelope:
-- project: validations-libs
-  tags:
-    antelope:
 - project: virtualbmc
   tags:
     antelope:
@@ -1126,6 +1106,7 @@ packages:
 - project: zaqar
   tags:
     antelope:
+      component: common
 - project: zaqar-tempest-plugin
   tags:
     antelope:
