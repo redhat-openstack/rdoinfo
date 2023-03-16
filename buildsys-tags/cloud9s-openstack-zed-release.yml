@@ -469,7 +469,7 @@ packages:
     cloud9s-openstack-zed-release: python-networking-sfc-15.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-neutron-21.0.0-1.el9s
+    cloud9s-openstack-zed-release: openstack-neutron-21.1.0-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud9s-openstack-zed-release: openstack-neutron-dynamic-routing-21.0.0-1.el9s
@@ -661,7 +661,7 @@ packages:
     cloud9s-openstack-zed-release: ovn-bgp-agent-0.3.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-ovn-octavia-provider-3.0.0-1.el9s
+    cloud9s-openstack-zed-release: python-ovn-octavia-provider-3.1.0-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-zed-release: python-ovsdbapp-2.1.0-1.el9s
