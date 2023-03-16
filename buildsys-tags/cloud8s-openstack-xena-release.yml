@@ -70,7 +70,7 @@ packages:
     cloud8s-openstack-xena-release: ansible-role-tripleo-modify-image-1.3.0-1.el8
 - project: aodh
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-aodh-13.0.0-1.el8
+    cloud8s-openstack-xena-release: openstack-aodh-13.1.0-1.el8
 - project: aodhclient
   buildsys-tags:
     cloud8s-openstack-xena-release: python-aodhclient-2.3.1-1.el8
@@ -505,7 +505,7 @@ packages:
     cloud8s-openstack-xena-release: python-networking-sfc-13.0.0-1.el8
 - project: neutron
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-neutron-19.5.0-1.el8
+    cloud8s-openstack-xena-release: openstack-neutron-19.6.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-neutron-dynamic-routing-19.1.1-1.el8
@@ -691,7 +691,7 @@ packages:
     cloud8s-openstack-xena-release: python-oswin-tests-tempest-1.3.0-1.el8
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-ovn-octavia-provider-1.2.0-1.el8
+    cloud8s-openstack-xena-release: python-ovn-octavia-provider-1.3.0-1.el8
 - project: ovsdbapp
   buildsys-tags:
     cloud8s-openstack-xena-release: python-ovsdbapp-1.12.3-1.el8
