@@ -69,6 +69,24 @@
       "parentUuid": "8c467609_71ef9ecf",
       "revId": "d2a031a480bc7c88669fe67ce58f1bf4a4c4fa82",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81f3f4c3_35b08dd2",
+        "filename": "tags/antelope.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-03-21T09:58:58Z",
+      "side": 1,
+      "message": "rdopkg info has the option -t APPLY_TAG , doing rdopkg info -t antelope mistral , i.e. will show component: common.\n\nAlso, note that any rdopkg shows the whole tags dict.i.e:\n\n$ rdopkg info -l . -t antelope name:^openstack-mistral$\n...\ncomponent: common\ntags:\n  antelope:\n    component: common\n  bobcat: null\n  bobcat-uc: null\n...\n\n\n$ rdopkg info -l . name:^openstack-mistral$\ncomponent: tripleo\ntags:\n  antelope:\n    component: common\n  bobcat: null\n  bobcat-uc: null\n  rocky: null\n\nimo, doing the antelope versions the default and overriding all the previous releases would be more confusing and prone to error (currently we have t, u, v, w, x, y and z for tripleo components while only a for non-tripleo). In future, once we remove old ones and add new b, c... it may be convenient to switch, but imo doing it now will be more confusing.",
+      "parentUuid": "18ad3db7_9e86142c",
+      "revId": "d2a031a480bc7c88669fe67ce58f1bf4a4c4fa82",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
