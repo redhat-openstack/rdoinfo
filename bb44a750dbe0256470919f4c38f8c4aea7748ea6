@@ -35,6 +35,24 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "17c15b33_6528e50b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-03-22T11:27:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50c2fe68_7cb5cfef",
+      "revId": "bb44a750dbe0256470919f4c38f8c4aea7748ea6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "305e4bed_ae408364",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-03-22T10:54:58Z",
       "side": 1,
       "message": "This is part of TripleO\u0027s governance and will be retired.\n\nWe need this feature but the current plan is importing it to edpm-ansible so we should remove this now. If we need the separate module then we\u0027ll add this back later.",
+      "revId": "bb44a750dbe0256470919f4c38f8c4aea7748ea6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "791b2981_65100527",
+        "filename": "tags/antelope.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-03-22T11:27:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "305e4bed_ae408364",
       "revId": "bb44a750dbe0256470919f4c38f8c4aea7748ea6",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
