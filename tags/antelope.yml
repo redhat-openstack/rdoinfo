@@ -31,7 +31,6 @@ packages:
 - project: aodhclient
   tags:
     antelope:
-      source-branch: 3.2.0
 - project: automaton
   tags:
     antelope:
@@ -464,7 +463,6 @@ packages:
 - project: os-client-config
   tags:
     antelope:
-      source-branch: 2.1.0
       component: clients
 - project: os-collect-config
   tags:
@@ -653,7 +651,6 @@ packages:
 - project: puppet-apache
   tags:
     antelope:
-      source-branch: 40d23ac2f16c94c5ed671bdc67be55de77ed1d8a
       component: puppet
 - project: puppet-archive
   tags:
