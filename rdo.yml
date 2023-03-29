@@ -139,8 +139,6 @@ releases:
     - cloud9s-openstack-xena-candidate
     - cloud9s-openstack-xena-testing
     distrepos:
-    - name: RDO Xena el9s
-      url: http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-xena/
     - name: CentOS Stream 9 BaseOS
       url: http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/
     - name: CentOS Stream 9 AppStream
@@ -196,8 +194,6 @@ releases:
     - cloud9s-openstack-wallaby-candidate
     - cloud9s-openstack-wallaby-testing
     distrepos:
-    - name: RDO Wallaby el9s
-      url: http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-xena/
     - name: CentOS Stream 9 BaseOS
       url: http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/
     - name: CentOS Stream 9 AppStream
