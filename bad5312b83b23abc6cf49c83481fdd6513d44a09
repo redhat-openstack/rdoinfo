@@ -33,6 +33,23 @@
       "message": "check experimental",
       "revId": "bad5312b83b23abc6cf49c83481fdd6513d44a09",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d64d0b5f_136d8229",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-03-30T07:38:19Z",
+      "side": 1,
+      "message": "https://bugzilla.redhat.com/show_bug.cgi?id\u003d2182767 has been reported agains ovs 3.1 which may affect some cases. It\u0027d be good to get the fix before promoting this into wallaby?",
+      "revId": "bad5312b83b23abc6cf49c83481fdd6513d44a09",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
