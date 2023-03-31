@@ -26,6 +26,9 @@ packages:
 - project: ansible-config_template
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-config_template-2.0.0-1.el9s
+- project: ansible-core
+  buildsys-tags:
+    cloud9s-openstack-zed-testing: openstack-ansible-core-2.14.2-4.1.el9s
 - project: ansible-pacemaker
   buildsys-tags:
     cloud9s-openstack-zed-testing: ansible-pacemaker-1.0.4-3.7c10fdbgit.el9s
