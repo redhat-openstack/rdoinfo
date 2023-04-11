@@ -20,27 +20,81 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud9s-openstack-antelope-testing: ansible-collection-containers-podman-1.10.1-2.el9s
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: ansible-collections-openstack-2.0.0-0.1.ed36d82git.el9s
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-ansible-core-2.14.2-4.1.el9s
+- project: aodh
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-aodh-16.0.0-1.el9s
+- project: aodhclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-aodhclient-3.2.0-1.el9s
 - project: argon2
   buildsys-tags:
     cloud9s-openstack-antelope-testing: argon2-20171227-7.el9s
+- project: automaton
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-automaton-3.1.0-1.el9s
+- project: barbican
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-barbican-16.0.0-1.el9s
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-barbican-tests-tempest-2.0.0-1.el9s
+- project: barbicanclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-barbicanclient-5.5.0-1.el9s
 - project: blosc
   buildsys-tags:
     cloud9s-openstack-antelope-testing: blosc-1.21.0-1.el9s
 - project: bridge-utils
   buildsys-tags:
     cloud9s-openstack-antelope-testing: bridge-utils-1.7.1-2.el9s
+- project: castellan
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-castellan-4.1.0-1.el9s
 - project: catch1
   buildsys-tags:
     cloud9s-openstack-antelope-testing: catch1-1.12.2-8.el9s
+- project: ceilometer
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ceilometer-20.0.0-1.el9s
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ceilometermiddleware-3.1.0-1.el9s
+- project: cinder
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-cinder-22.0.0-1.el9s
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-cinder-tests-tempest-1.8.1-1.el9s
+- project: cinderclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-cinderclient-9.3.0-1.el9s
+- project: cinderlib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-cinderlib-5.0.0-1.el9s
 - project: ck
   buildsys-tags:
     cloud9s-openstack-antelope-testing: ck-0.7.0-5.el9s
 - project: cliff
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-cliff-3.7.0-1.el9s
+    cloud9s-openstack-antelope-testing: python-cliff-4.2.0-1.el9s
+- project: cloudkitty
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-cloudkitty-18.0.0-1.el9s
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-cloudkitty-ui-16.0.0-1.el9s
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-cloudkittyclient-4.7.0-1.el9s
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-collectd-gnocchi-1.7.1-1.el9s
 - project: cpp-hocon
   buildsys-tags:
     cloud9s-openstack-antelope-testing: cpp-hocon-0.3.0-4.el9s
@@ -50,12 +104,45 @@ packages:
 - project: crudini
   buildsys-tags:
     cloud9s-openstack-antelope-testing: crudini-0.9.3-4.el9s
+- project: cursive
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-cursive-0.2.3-1.el9s
+- project: debtcollector
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-debtcollector-2.5.0-1.el9s
+- project: designate
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-designate-16.0.0-1.el9s
+- project: designate-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-designate-ui-16.0.0-1.el9s
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-designate-tests-tempest-0.17.0-1.el9s
+- project: designateclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-designateclient-5.2.0-1.el9s
+- project: dib-utils
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: dib-utils-0.0.11-1.el9s
 - project: dibbler
   buildsys-tags:
     cloud9s-openstack-antelope-testing: dibbler-1.0.1-11.el9s
+- project: diskimage-builder
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: diskimage-builder-3.26.0-1.el9s
+- project: dracclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-dracclient-8.0.0-1.el9s
 - project: dumb-init
   buildsys-tags:
     cloud9s-openstack-antelope-testing: dumb-init-1.2.5-2.el9s
+- project: ec2-api
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ec2-api-16.0.0-1.el9s
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ec2api-tests-tempest-1.6.1-1.el9s
 - project: etcd
   buildsys-tags:
     cloud9s-openstack-antelope-testing: etcd-3.4.14-1.el9s
@@ -67,10 +154,31 @@ packages:
     cloud9s-openstack-antelope-testing: future-0.18.2-9.el9s
 - project: futurist
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-futurist-2.3.0-3.el9s
+    cloud9s-openstack-antelope-testing: python-futurist-2.4.1-1.el9s
 - project: gflags
   buildsys-tags:
     cloud9s-openstack-antelope-testing: gflags-2.2.2-8.el9s
+- project: glance
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-glance-26.0.0-1.el9s
+- project: glance-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-glance-tests-tempest-0.6.0-1.el9s
+- project: glance_store
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-glance-store-4.3.0-1.el9s
+- project: glanceclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-glanceclient-4.3.0-1.el9s
+- project: glean
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-glean-1.23.0-1.el9s
+- project: gnocchi
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: gnocchi-4.5.0-1.el9s
+- project: gnocchiclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-gnocchiclient-7.0.7-1.el9s
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
     cloud9s-openstack-antelope-testing: golang-github-vbatts-tar-split-0.11.2-1.el9s
@@ -92,18 +200,105 @@ packages:
 - project: gv
   buildsys-tags:
     cloud9s-openstack-antelope-testing: gv-3.7.4-27.el9s
+- project: hacking
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-hacking-1.1.0-2.el9s
+- project: hardware
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-hardware-0.30.0-1.el9s
 - project: hdf5
   buildsys-tags:
     cloud9s-openstack-antelope-testing: hdf5-1.10.6-5.el9s
+- project: heat
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-heat-20.0.0-1.el9s
+- project: heat-agents
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-heat-agents-6.0.0-1.el9s
 - project: heat-cfntools
   buildsys-tags:
     cloud9s-openstack-antelope-testing: heat-cfntools-1.4.2-15.el9s
+- project: heat-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-heat-ui-9.0.0-1.el9s
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-heat-tests-tempest-1.7.1-1.el9s
+- project: heat-translator
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-heat-translator-2.7.0-1.el9s
+- project: heatclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-heatclient-3.2.0-1.el9s
 - project: hiera
   buildsys-tags:
     cloud9s-openstack-antelope-testing: hiera-3.7.0-2.el9s
+- project: horizon
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-django-horizon-23.1.0-1.el9s
+- project: ibmcclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ibmcclient-0.2.5.1-1.el9s
+- project: ironic
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ironic-21.4.0-1.el9s
+- project: ironic-inspector
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ironic-inspector-11.4.0-1.el9s
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ironic-inspector-client-4.9.0-1.el9s
+- project: ironic-lib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ironic-lib-5.4.0-1.el9s
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ironic-prometheus-exporter-4.1.0-1.el9s
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ironic-python-agent-9.4.0-1.el9s
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ironic-python-agent-builder-5.1.0-1.el9s
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ironic-staging-drivers-0.17.0-1.el9s
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ironic-tests-tempest-2.6.1-1.el9s
+- project: ironic-ui
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-ironic-ui-6.1.0-1.el9s
+- project: ironicclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ironicclient-5.1.0-1.el9s
 - project: jsoncpp
   buildsys-tags:
     cloud9s-openstack-antelope-testing: jsoncpp-1.9.4-4.el9s
+- project: keystone
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-keystone-23.0.0-1.el9s
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-keystone-tests-tempest-0.12.0-1.el9s
+- project: keystoneauth1
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-keystoneauth1-5.1.2-1.el9s
+- project: keystoneclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-keystoneclient-5.1.0-1.el9s
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-keystonemiddleware-10.2.0-1.el9s
+- project: kuryr
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-kuryr-lib-2.7.0-1.el9s
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-kuryr-kubernetes-8.0.0-1.el9s
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-kuryr-tests-tempest-0.14.1-1.el9s
 - project: leatherman
   buildsys-tags:
     cloud9s-openstack-antelope-testing: leatherman-1.12.6-3.el9s
@@ -140,30 +335,516 @@ packages:
 - project: luajit
   buildsys-tags:
     cloud9s-openstack-antelope-testing: luajit-2.1.0-0.19beta3.el9s
+- project: magnum
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-magnum-16.0.0-1.el9s
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-magnum-tests-tempest-2.0.0-1.el9s
+- project: magnum-ui
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-magnum-ui-12.0.0-1.el9s
+- project: magnumclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-magnumclient-4.1.0-1.el9s
+- project: manila
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-manila-16.0.0-1.el9s
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-manila-tests-tempest-1.13.0-1.el9s
+- project: manila-ui
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-manila-ui-9.0.0-1.el9s
+- project: manilaclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-manilaclient-4.3.0-1.el9s
+- project: metalsmith
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-metalsmith-1.10.0-1.el9s
+- project: microversion-parse
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-microversion-parse-1.0.1-1.el9s
+- project: mistral
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-mistral-16.0.0-1.el9s
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-mistral-ui-16.0.0-1.el9s
+- project: mistral-extra
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-mistral-extra-13.0.0-1.el9s
+- project: mistral-lib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-mistral-lib-2.8.0-1.el9s
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-mistral-tests-tempest-2.1.1-1.el9s
+- project: mistralclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-mistralclient-5.0.0-1.el9s
+- project: monascaclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-monascaclient-2.7.0-1.el9s
+- project: murano
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-murano-15.0.0-1.el9s
+- project: murano-agent
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-murano-agent-11.0.0-1.el9s
+- project: murano-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-murano-ui-15.0.0-1.el9s
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-murano-tests-tempest-2.6.0-1.el9s
+- project: muranoclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-muranoclient-2.6.0-1.el9s
+- project: networking-ansible
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-ansible-5.0.0-1.el9s
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-bagpipe-18.0.0-1.el9s
+- project: networking-baremetal
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-baremetal-6.1.0-1.el9s
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-bgpvpn-18.0.0-1.el9s
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-generic-switch-7.1.0-1.el9s
+- project: networking-l2gw
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-l2gw-19.0.0-1.el9s
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
+- project: networking-mlnx
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-mlnx-16.0.0-1.el9s
+- project: networking-odl
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-odl-22.0.0-1.el9s
+- project: networking-sfc
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-sfc-16.0.0-1.el9s
+- project: neutron
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-neutron-22.0.0-1.el9s
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-neutron-dynamic-routing-22.0.0-1.el9s
+- project: neutron-lib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-neutron-lib-3.4.0-1.el9s
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-neutron-tests-tempest-2.2.0-1.el9s
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-neutron-vpnaas-22.0.0-1.el9s
+- project: neutronclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-neutronclient-9.0.0-1.el9s
+- project: nova
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-nova-27.0.0-1.el9s
+- project: novaclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-novaclient-18.3.0-1.el9s
+- project: novajoin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-novajoin-1.3.0-1.el9s
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-novajoin-tests-tempest-0.0.3-1.1.b2e5485git.el9s
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-antelope-testing: novnc-1.3.0-1.el9s
+- project: octavia
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-octavia-12.0.0-1.el9s
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-octavia-ui-11.0.0-1.el9s
+- project: octavia-lib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-octavia-lib-3.2.0-1.el9s
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-octavia-tests-tempest-2.3.0-1.el9s
+- project: octaviaclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-octaviaclient-3.4.0-1.el9s
 - project: openpgm
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openpgm-5.2.122-26.el9s
 - project: openstack-network-scripts
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-network-scripts-10.11.1-4.el9s
+- project: openstack-selinux
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-selinux-0.8.36-1.el9s
+- project: openstackclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-openstackclient-6.2.0-1.el9s
+- project: openstacksdk
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-openstacksdk-1.0.1-1.el9s
+- project: os-apply-config
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: os-apply-config-13.1.0-1.el9s
+- project: os-brick
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-brick-6.2.0-1.el9s
+- project: os-client-config
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-client-config-2.1.0-1.el9s
+- project: os-collect-config
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: os-collect-config-13.1.0-1.el9s
+- project: os-faults
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-faults-0.2.7-1.el9s
+- project: os-ken
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-ken-2.6.0-1.el9s
+- project: os-net-config
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: os-net-config-16.0.0-1.el9s
+- project: os-refresh-config
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: os-refresh-config-13.1.0-1.el9s
+- project: os-resource-classes
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-resource-classes-1.1.0-1.el9s
+- project: os-service-types
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-service-types-1.7.0-3.el9s
+- project: os-testr
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-testr-3.0.0-1.el9s
+- project: os-traits
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-traits-2.10.0-1.el9s
+- project: os-vif
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-vif-3.1.1-1.el9s
+- project: os-win
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-win-5.9.0-1.el9s
+- project: os-xenapi
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-os-xenapi-0.3.4-1.el9s
+- project: osc-lib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-osc-lib-2.7.0-1.el9s
+- project: osc-placement
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-osc-placement-4.1.0-1.el9s
+- project: oslo-cache
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-cache-3.3.1-1.el9s
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-concurrency-5.1.1-2.el9s
+- project: oslo-config
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-config-9.1.1-1.el9s
+- project: oslo-context
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-context-5.1.1-1.el9s
+- project: oslo-db
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-db-12.3.1-1.el9s
+- project: oslo-i18n
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-i18n-6.0.0-1.el9s
+- project: oslo-limit
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-limit-2.1.0-1.el9s
+- project: oslo-log
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-log-5.0.0-1.el9s
+- project: oslo-messaging
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-messaging-14.2.0-1.el9s
+- project: oslo-metrics
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-metrics-0.6.0-1.el9s
+- project: oslo-middleware
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-middleware-5.1.1-1.el9s
+- project: oslo-policy
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-policy-4.1.1-1.el9s
+- project: oslo-privsep
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-privsep-3.1.0-1.el9s
+- project: oslo-reports
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-reports-3.0.0-1.el9s
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-rootwrap-7.0.1-1.el9s
+- project: oslo-serialization
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-serialization-5.1.1-1.el9s
+- project: oslo-service
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-service-3.1.1-1.el9s
 - project: oslo-sphinx
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-oslo-sphinx-4.18.0-11.el9s
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-upgradecheck-2.1.1-1.el9s
+- project: oslo-utils
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-utils-6.1.0-1.el9s
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-versionedobjects-3.1.0-1.el9s
+- project: oslo-vmware
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oslo-vmware-4.1.1-1.el9s
 - project: oslotest
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-oslotest-4.4.1-3.el9s
+    cloud9s-openstack-antelope-testing: python-oslotest-4.5.0-1.el9s
+- project: osprofiler
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-osprofiler-3.4.3-1.el9s
+- project: oswin-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-oswin-tests-tempest-2.1.0-1.el9s
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: ovn-bgp-agent-0.3.0-1.el9s
+- project: ovn-octavia-provider
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ovn-octavia-provider-4.0.0-1.el9s
+- project: ovsdbapp
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-ovsdbapp-2.2.1-1.el9s
+- project: packstack
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-packstack-22.0.0-0.1.0rc1.el9s
+- project: patrole
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-patrole-0.16.0-1.el9s
+- project: placement
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-placement-9.0.0-1.el9s
+- project: proliantutils
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-proliantutils-2.14.0-1.el9s
 - project: protobuf
   buildsys-tags:
     cloud9s-openstack-antelope-testing: protobuf-3.19.0-2.el9s
 - project: puppet
   buildsys-tags:
     cloud9s-openstack-antelope-testing: puppet-7.16.0-1.el9s
+- project: puppet-aodh
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-aodh-22.0.0-1.el9s
+- project: puppet-apache
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-apache-9.1.2-1.40d23acgit.el9s
+- project: puppet-archive
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-archive-6.1.2-0.1.0rc0.68bea2dgit.el9s
+- project: puppet-barbican
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-barbican-22.0.0-1.el9s
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-ceilometer-22.0.0-1.el9s
+- project: puppet-ceph
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-ceph-4.0.0-1.el9s
+- project: puppet-cinder
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-cinder-22.0.0-1.el9s
+- project: puppet-collectd
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-collectd-14.0.1-0.3.0rc0.8fa5ab6git.el9s
+- project: puppet-concat
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-concat-7.3.2-1.6dff852git.el9s
+- project: puppet-corosync
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-corosync-8.2.1-0.3.0rc0.f5cd461git.el9s
+- project: puppet-designate
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-designate-22.0.0-1.el9s
+- project: puppet-dns
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-dns-9.5.1-1.e736c2egit.el9s
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-ec2api-22.0.0-1.el9s
+- project: puppet-etcd
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-etcd-1.12.3-1.el9s
+- project: puppet-firewall
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-firewall-4.0.1-1.a1e4768git.el9s
+- project: puppet-glance
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-glance-22.0.0-1.el9s
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-gnocchi-22.0.0-1.el9s
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-haproxy-6.4.0-1.eb2c60agit.el9s
+- project: puppet-heat
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-heat-22.0.0-1.el9s
+- project: puppet-horizon
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-horizon-22.0.0-1.el9s
+- project: puppet-inifile
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-inifile-5.4.0-1.12e8ac0git.el9s
+- project: puppet-ironic
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-ironic-22.0.0-1.el9s
+- project: puppet-keepalived
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el9s
+- project: puppet-keystone
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-keystone-22.0.0-1.el9s
+- project: puppet-kmod
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-kmod-3.2.1-0.3.0rc0.82fc304git.el9s
+- project: puppet-magnum
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-magnum-22.0.0-1.el9s
+- project: puppet-manila
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-manila-22.0.0-1.el9s
+- project: puppet-memcached
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-memcached-8.1.0-1.bf92113git.el9s
+- project: puppet-mistral
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-mistral-22.0.0-1.el9s
+- project: puppet-module-data
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-module-data-0.5.1-1.28dafcegit.el9s
+- project: puppet-murano
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-murano-22.0.0-1.el9s
+- project: puppet-mysql
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-mysql-13.2.0-1.f226c7fgit.el9s
+- project: puppet-neutron
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-neutron-22.0.0-1.el9s
+- project: puppet-nova
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-nova-22.0.0-1.el9s
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
+- project: puppet-octavia
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-octavia-22.0.0-1.el9s
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-openstack_extras-22.0.0-1.el9s
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-openstacklib-22.0.0-1.el9s
+- project: puppet-oslo
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-oslo-22.0.0-1.el9s
+- project: puppet-ovn
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-ovn-22.0.0-1.el9s
+- project: puppet-placement
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-placement-9.0.0-1.el9s
+- project: puppet-qdr
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-qdr-11.0.0-1.el9s
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-rabbitmq-12.1.1-0.1.0rc0.1a1c6e7git.el9s
+- project: puppet-redis
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-redis-8.8.1-0.1.0rc0.9881323git.el9s
+- project: puppet-remote
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-remote-10.0.0-1.7420908git.el9s
+- project: puppet-rsync
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-rsync-1.2.0-2.65ee034git.el9s
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-rsyslog-6.0.1-0.3.0rc0.ec3faefgit.el9s
+- project: puppet-sahara
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-sahara-22.0.0-1.el9s
+- project: puppet-snmp
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-snmp-6.0.1-0.4.0rc0.10a8ef0git.el9s
+- project: puppet-ssh
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-ssh-10.0.0-1.8c87149git.el9s
+- project: puppet-staging
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-staging-1.0.4-1.b466d93git.el9s
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-stdlib-8.5.0-1.ef733aagit.el9s
+- project: puppet-swift
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-swift-22.0.0-1.el9s
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-sysctl-0.0.12-2.847ec1cgit.el9s
+- project: puppet-systemd
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-systemd-4.0.2-0.1.0rc0.b008789git.el9s
+- project: puppet-tempest
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-tempest-22.0.0-1.el9s
+- project: puppet-trove
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-trove-22.0.0-1.el9s
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-vcsrepo-5.4.0-1.b82414bgit.el9s
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-vitrage-12.0.0-1.el9s
+- project: puppet-vlan
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-vlan-0.1.0-1.el9s
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-vswitch-18.0.0-1.el9s
+- project: puppet-watcher
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-watcher-22.0.0-1.el9s
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-xinetd-3.3.0-2.d7be366git.el9s
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: puppet-zaqar-22.0.0-1.el9s
 - project: pyOpenSSL
   buildsys-tags:
     cloud9s-openstack-antelope-testing: pyOpenSSL-20.0.1-2.el9s
+- project: pycadf
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-pycadf-3.1.1-1.el9s
 - project: pydot
   buildsys-tags:
     cloud9s-openstack-antelope-testing: pydot-1.4.2-1.el9s
@@ -1106,12 +1787,30 @@ packages:
 - project: qpid-proton
   buildsys-tags:
     cloud9s-openstack-antelope-testing: qpid-proton-0.35.0-2.el9s
+- project: rally
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-rally-3.3.0-1.el9s
+- project: rally-openstack
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-rally-plugins-2.2.0-2.el9s
 - project: rdo-openvswitch
   buildsys-tags:
     cloud9s-openstack-antelope-testing: rdo-openvswitch-3.1-2.el9s
 - project: re2
   buildsys-tags:
     cloud9s-openstack-antelope-testing: re2-20190801-9.el9s
+- project: reno
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-reno-4.0.0-1.el9s
+- project: requestsexceptions
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-requestsexceptions-1.4.0-3.el9s
+- project: rsd-lib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-rsd-lib-1.2.0-1.el9s
+- project: rsdclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-rsdclient-1.0.2-1.el9s
 - project: ruby-augeas
   buildsys-tags:
     cloud9s-openstack-antelope-testing: ruby-augeas-0.5.0-27.el9s
@@ -1142,15 +1841,78 @@ packages:
 - project: rubygem-thor
   buildsys-tags:
     cloud9s-openstack-antelope-testing: rubygem-thor-1.1.0-2.el9s
+- project: sahara
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-sahara-18.0.0-1.el9s
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-sahara-ui-18.0.0-1.el9s
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: sahara-image-elements-18.0.0-1.el9s
+- project: sahara-plugin-ambari
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sahara-plugin-ambari-9.0.0-1.el9s
+- project: sahara-plugin-cdh
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sahara-plugin-cdh-9.0.0-1.el9s
+- project: sahara-plugin-mapr
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sahara-plugin-mapr-9.0.0-1.el9s
+- project: sahara-plugin-spark
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sahara-plugin-spark-9.0.0-1.el9s
+- project: sahara-plugin-storm
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sahara-plugin-storm-9.0.0-1.el9s
+- project: sahara-plugin-vanilla
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sahara-plugin-vanilla-9.0.0-1.el9s
+- project: sahara-tests
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-sahara-tests-0.16.0-1.el9s
+- project: saharaclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-saharaclient-4.1.0-1.el9s
+- project: scciclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-scciclient-0.12.1-1.el9s
+- project: senlin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-senlin-15.0.0-1.el9s
+- project: senlinclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-senlinclient-3.0.0-1.el9s
+- project: shade
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-shade-1.33.0-1.el9s
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sphinx-feature-classification-1.1.0-1.el9s
 - project: sshpass
   buildsys-tags:
     cloud9s-openstack-antelope-testing: sshpass-1.09-1.el9s
 - project: stevedore
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-stevedore-3.3.0-2.el9s
+    cloud9s-openstack-antelope-testing: python-stevedore-5.0.0-1.el9s
 - project: subunit
   buildsys-tags:
     cloud9s-openstack-antelope-testing: subunit-1.4.0-6.el9s
+- project: sushy
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sushy-4.4.2-1.el9s
+- project: sushy-oem-idrac
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sushy-oem-idrac-5.0.0-1.el9s
+- project: sushy-tools
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-sushy-tools-0.21.1-1.el9s
+- project: swift
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-swift-2.31.1-1.el9s
+- project: swiftclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-swiftclient-4.2.0-1.el9s
 - project: sympy
   buildsys-tags:
     cloud9s-openstack-antelope-testing: sympy-1.11.1-2.el9s
@@ -1160,9 +1922,81 @@ packages:
 - project: sysfsutils
   buildsys-tags:
     cloud9s-openstack-antelope-testing: sysfsutils-2.1.1-1.el9s
+- project: tacker
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-tacker-9.0.0-1.el9s
+- project: tackerclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-tackerclient-1.13.0-1.el9s
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-tap-as-a-service-11.0.0-1.el9s
+- project: taskflow
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-taskflow-5.1.0-1.el9s
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-telemetry-tests-tempest-1.9.0-1.el9s
+- project: tempest
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-tempest-34.0.0-3.el9s
+- project: tempestconf
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-tempestconf-3.3.0-1.el9s
+- project: tobiko
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-tobiko-0.6.8-1.el9s
+- project: tooz
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-tooz-3.2.0-1.el9s
+- project: trove
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-trove-19.0.0-1.el9s
+- project: trove-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-trove-ui-20.0.0-1.el9s
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-trove-tests-tempest-2.0.1-1.el9s
+- project: troveclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-troveclient-8.1.0-1.el9s
 - project: uwsgi
   buildsys-tags:
     cloud9s-openstack-antelope-testing: uwsgi-2.0.18-16.el9s
+- project: validations-libs
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-validations-libs-1.8.0-1.el9s
+- project: virtualbmc
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-virtualbmc-3.0.1-1.el9s
+- project: vitrage
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-vitrage-10.0.0-1.el9s
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-vitrage-ui-4.0.0-1.el9s
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-vitrage-tests-tempest-6.1.1-1.el9s
+- project: vitrageclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-vitrageclient-4.7.0-1.el9s
+- project: vmware-nsx-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el9s
+- project: watcher
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-watcher-10.0.0-1.el9s
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-watcher-tests-tempest-2.6.0-1.el9s
+- project: whitebox-neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-whitebox-neutron-tests-tempest-0.0.1-1.1.7340201git.el9s
+- project: wsme
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-wsme-0.11.0-1.el9s
 - project: wyhash
   buildsys-tags:
     cloud9s-openstack-antelope-testing: wyhash-final1-4.el9s
@@ -1172,6 +2006,15 @@ packages:
 - project: yaml-cpp
   buildsys-tags:
     cloud9s-openstack-antelope-testing: yaml-cpp-0.6.3-4.el9s
+- project: zaqar
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-zaqar-16.0.0-1.el9s
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-zaqar-tests-tempest-1.6.0-1.el9s
+- project: zaqarclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-zaqarclient-2.5.1-1.el9s
 - project: zeromq
   buildsys-tags:
     cloud9s-openstack-antelope-testing: zeromq-4.3.4-1.el9s
