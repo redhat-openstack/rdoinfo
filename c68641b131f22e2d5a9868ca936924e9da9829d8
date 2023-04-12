@@ -16,6 +16,24 @@
       "message": "\u003e Patch Set 3: Verified-1\n\u003e \n\u003e Build failed.\n\u003e https://review.rdoproject.org/zuul/buildset/56310bb5caa8414f8cc5b25929c35201\n\u003e \n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario001-centos9 https://review.rdoproject.org/zuul/build/095d5d7b2b07412594d2abe7a1d377c5 : FAILURE in 7m 47s\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario002-centos9 https://review.rdoproject.org/zuul/build/f8f4b2ab7a65409b9c123d5f38fdf7c7 : FAILURE in 7m 40s\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario003-centos9 https://review.rdoproject.org/zuul/build/b6524493eb4a45549ca179ba6ec12eff : FAILURE in 7m 34s\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario004-centos9 https://review.rdoproject.org/zuul/build/1a373e39ff604badb3020e36c062ecc6 : FAILURE in 7m 34s\n\u003e - validate-buildsys-tags-antelope-testing-puppet-scenario005-centos9 https://review.rdoproject.org/zuul/build/5b4f0db5d83f4d718f10eba278b2b033 : FAILURE in 7m 37s\n\u003e - validate-buildsys-tags-antelope-testing-packstack-scenario001-centos9 https://review.rdoproject.org/zuul/build/b39efd33529a40389264f11b0670940e : SUCCESS in 28m 30s\n\u003e - validate-buildsys-tags-antelope-testing-packstack-scenario002-centos9 https://review.rdoproject.org/zuul/build/8fe2041cf7a24259ab2e2df1e87b9ac1 : SUCCESS in 28m 09s\n\u003e - validate-buildsys-tags-antelope-testing-packstack-scenario003-centos9 https://review.rdoproject.org/zuul/build/9b41bee8bacd442e8fc77cf6fcf08aca : SUCCESS in 29m 37s\n\u003e - tox-linters https://review.rdoproject.org/zuul/build/6748c625a8b5490d977cabed48cb1279 : SUCCESS in 2m 09s\n\u003e - tox-py36 https://review.rdoproject.org/zuul/build/6924d401aadf48709767d1876ce18727 : SUCCESS in 2m 26s\n\u003e - validate-dependencies-rebuilds https://review.rdoproject.org/zuul/build/0a2bd7201ada46d28ecdb134fe8c4727 : SUCCESS in 2m 10s\n\u003e - validate-buildsys-tags https://review.rdoproject.org/zuul/build/61b0c200c6364bf2b6750574ad4a0020 : SUCCESS in 23m 50s\n\nI proposed https://review.opendev.org/c/openstack/puppet-openstack-integration/+/880137 to resolve p-o-i failure",
       "revId": "c68641b131f22e2d5a9868ca936924e9da9829d8",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a84827c4_7b061922",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-04-12T09:57:29Z",
+      "side": 1,
+      "message": "Once that is merged let\u0027s fix the typo in commit message Propoose -\u003e Propose to rerun jobs",
+      "parentUuid": "d109bc1e_bb80d6a2",
+      "revId": "c68641b131f22e2d5a9868ca936924e9da9829d8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
