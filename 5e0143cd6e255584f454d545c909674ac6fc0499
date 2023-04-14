@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "976e3300_2c83d136",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-04-14T11:30:35Z",
+      "side": 1,
+      "message": "The CI jobs have used a centos mirror which doesn\u0027t have yet the updated ovs3.1.\n\nhttps://logserver.rdoproject.org/15/48015/2/check/validate-buildsys-tags-wallaby-testing-packstack-scenario002-centos9/fec4e45/logs/rpm_packages.txt.gz\n\nis it worthy to wait and rerun?\n",
+      "revId": "5e0143cd6e255584f454d545c909674ac6fc0499",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
