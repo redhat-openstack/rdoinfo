@@ -412,7 +412,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-magnumclient-3.6.0-1.el8
 - project: manila
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-manila-14.0.1-1.el8
+    cloud8s-openstack-yoga-testing: openstack-manila-14.1.0-1.el8
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-manila-tests-tempest-1.9.0-1.el8
@@ -421,7 +421,7 @@ packages:
     cloud8s-openstack-yoga-testing: openstack-manila-ui-7.0.0-1.el8
 - project: manilaclient
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-manilaclient-3.3.1-1.el8
+    cloud8s-openstack-yoga-testing: python-manilaclient-3.3.2-1.el8
 - project: metalsmith
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-metalsmith-1.6.3-1.el8
