@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12ba4395_e75f835c",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1626,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-04-19T09:08:58Z",
+      "side": 1,
+      "message": "rpmfactory sets default for upstream attribute (line 445 in this file):\n\nupstream: https://opendev.org/openstack/%(project)s\n\nSo, it\u0027d be better to simply remove the line and stick to package conf defaults.",
+      "range": {
+        "startLine": 1626,
+        "startChar": 0,
+        "endLine": 1626,
+        "endChar": 17
+      },
+      "revId": "bca0248057858f5dd08e51695db4da0b746fd0e1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
