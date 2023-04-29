@@ -26,6 +26,12 @@ packages:
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-ansible-core-2.14.2-4.1.el9s
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: ansible-role-atos-hsm-5.0.0-1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: ansible-role-thales-hsm-5.0.0-1.el9s
 - project: aodh
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-aodh-16.0.0-1.el9s
