@@ -688,6 +688,7 @@ packages:
 - project: puppet-aodh
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-apache
   tags:
     xena:
@@ -703,6 +704,7 @@ packages:
 - project: puppet-barbican
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-cassandra
   tags:
     xena:
@@ -710,6 +712,7 @@ packages:
 - project: puppet-ceilometer
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-ceph
   tags:
     xena:
@@ -720,6 +723,7 @@ packages:
 - project: puppet-cinder
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-collectd
   tags:
     xena:
@@ -743,6 +747,7 @@ packages:
 - project: puppet-designate
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-dns
   tags:
     xena:
@@ -750,6 +755,7 @@ packages:
 - project: puppet-ec2api
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-elasticsearch
   tags:
     xena:
@@ -777,9 +783,11 @@ packages:
 - project: puppet-glance
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-gnocchi
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-haproxy
   tags:
     xena:
@@ -787,9 +795,11 @@ packages:
 - project: puppet-heat
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-horizon
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-inifile
   tags:
     xena:
@@ -801,6 +811,7 @@ packages:
 - project: puppet-ironic
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-java
   tags:
     xena:
@@ -816,6 +827,7 @@ packages:
 - project: puppet-keystone
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-kibana3
   tags:
     xena:
@@ -831,9 +843,11 @@ packages:
 - project: puppet-magnum
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-manila
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-memcached
   tags:
     xena:
@@ -844,6 +858,7 @@ packages:
 - project: puppet-mistral
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-module-data
   tags:
     xena:
@@ -855,6 +870,7 @@ packages:
 - project: puppet-murano
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-mysql
   tags:
     xena:
@@ -865,9 +881,11 @@ packages:
 - project: puppet-neutron
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-nova
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-nssdb
   tags:
     xena:
@@ -875,18 +893,23 @@ packages:
 - project: puppet-octavia
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-openstack_extras
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-openstacklib
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-oslo
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-ovn
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-pacemaker
   tags:
     xena:
@@ -894,6 +917,7 @@ packages:
 - project: puppet-placement
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-powerdns
   tags:
     xena:
@@ -901,6 +925,7 @@ packages:
 - project: puppet-qdr
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-rabbitmq
   tags:
     xena:
@@ -924,6 +949,7 @@ packages:
 - project: puppet-sahara
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-sensu
   tags:
     # NOTE: IMPORTANT! Please don't ever update from this commit. Sensu refactored
@@ -950,6 +976,7 @@ packages:
 - project: puppet-swift
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-sysctl
   tags:
     xena:
@@ -961,9 +988,11 @@ packages:
 - project: puppet-tacker
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-tempest
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-timezone
   tags:
     xena:
@@ -979,6 +1008,7 @@ packages:
 - project: puppet-trove
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-uchiwa
   tags:
     xena:
@@ -994,6 +1024,7 @@ packages:
 - project: puppet-vitrage
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-vlan
   tags:
     xena:
@@ -1001,9 +1032,11 @@ packages:
 - project: puppet-vswitch
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-watcher
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-xinetd
   tags:
     xena:
@@ -1011,6 +1044,7 @@ packages:
 - project: puppet-zaqar
   tags:
     xena:
+      source-branch: xena-em
 - project: puppet-zookeeper
   tags:
     xena:
