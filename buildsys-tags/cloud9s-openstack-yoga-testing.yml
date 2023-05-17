@@ -79,7 +79,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-automaton-2.5.0-1.el9s
 - project: barbican
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-barbican-14.0.2-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-barbican-14.0.2-2.el9s
 - project: barbican-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-barbican-tests-tempest-1.6.0-1.el9s
@@ -544,7 +544,7 @@ packages:
     cloud9s-openstack-yoga-testing: os-apply-config-13.1.0-1.el9s
 - project: os-brick
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-os-brick-5.2.2-1.el9s
+    cloud9s-openstack-yoga-testing: python-os-brick-5.2.3-1.el9s
 - project: os-client-config
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-os-client-config-2.1.0-1.el9s
