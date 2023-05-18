@@ -161,7 +161,7 @@ packages:
 - project: glance_store
   tags:
     bobcat-uc:
-      source-branch: 4.4.0
+      source-branch: 4.3.1
 - project: glanceclient
   tags:
     bobcat-uc:
@@ -203,7 +203,7 @@ packages:
 - project: heatclient
   tags:
     bobcat-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: horizon
   tags:
     bobcat-uc:
@@ -255,7 +255,7 @@ packages:
 - project: keystoneauth1
   tags:
     bobcat-uc:
-      source-branch: 5.1.2
+      source-branch: 5.2.0
 - project: keystoneclient
   tags:
     bobcat-uc:
@@ -263,7 +263,7 @@ packages:
 - project: keystonemiddleware
   tags:
     bobcat-uc:
-      source-branch: 10.2.0
+      source-branch: 10.3.0
 - project: kolla
   tags:
     bobcat-uc:
@@ -922,7 +922,7 @@ packages:
 - project: sushy
   tags:
     bobcat-uc:
-      source-branch: 4.4.2
+      source-branch: 4.5.0
 - project: sushy-oem-idrac
   tags:
     bobcat-uc:
