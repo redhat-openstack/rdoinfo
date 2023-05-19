@@ -2713,6 +2713,14 @@ packages:
   - chkumar@redhat.com
   - ramishra@redhat.com
   - rlandy@redhat.com
+- project: edpm-image-builder
+  conf: rpmfactory-lib
+  name: edpm-image-builder
+  upstream: https://github.com/openstack-k8s-operators/edpm-image-builder
+  source-branch: main
+  component: podified
+  maintainers:
+  - sbaker@redhat.com
 components:
 - name: common
 - name: compute
