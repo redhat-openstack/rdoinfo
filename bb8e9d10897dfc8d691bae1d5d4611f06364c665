@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48b08305_a3c21f7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-05-24T20:46:42Z",
+      "side": 1,
+      "message": "python-tox and python-virtualenv are in el9-build so having these ones in bobcat-el9-build should be enough:\n\n  cloud9s-openstack-bobcat-el9s-build: python-tox-3.23.0-2.el9s\n  cloud9s-openstack-bobcat-el9s-build: python-virtualenv-20.4.4-1.el9s\n\nAre you having any issue or you plan to move tox or virtualenv to -testing?\n",
+      "revId": "bb8e9d10897dfc8d691bae1d5d4611f06364c665",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
