@@ -73,7 +73,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-ceilometermiddleware-3.1.0-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-cinder-22.0.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-cinder-22.1.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-cinder-tests-tempest-1.8.1-1.el9s
@@ -296,6 +296,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-keystonemiddleware-10.2.0-1.el9s
+- project: kolla
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: openstack-kolla-16.0.0-0.1.0rc1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-kuryr-lib-2.7.0-1.el9s
@@ -457,7 +460,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-neutronclient-9.0.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-nova-27.0.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-nova-27.1.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-novaclient-18.3.0-1.el9s
