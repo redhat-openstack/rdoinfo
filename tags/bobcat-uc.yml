@@ -6,45 +6,25 @@ packages:
 - project: ansible-config_template
   tags:
     bobcat-uc:
-- project: ansible-pacemaker
-  tags:
-    bobcat-uc:
+      component: podified
 - project: ansible-role-atos-hsm
   tags:
     bobcat-uc:
-- project: ansible-role-chrony
-  tags:
-    bobcat-uc:
+      component: security
 - project: ansible-role-collect-logs
   tags:
     bobcat-uc:
 - project: ansible-role-collectd-config
   tags:
     bobcat-uc:
-- project: ansible-role-container-registry
-  tags:
-    bobcat-uc:
 - project: ansible-role-lunasa-hsm
   tags:
     bobcat-uc:
-- project: ansible-role-openstack-operations
-  tags:
-    bobcat-uc:
-- project: ansible-role-qdr-config
-  tags:
-    bobcat-uc:
-- project: ansible-role-redhat-subscription
-  tags:
-    bobcat-uc:
+      component: security
 - project: ansible-role-thales-hsm
   tags:
     bobcat-uc:
-- project: ansible-role-tripleo-modify-image
-  tags:
-    bobcat-uc:
-- project: ansible-tripleo-ipa-server
-  tags:
-    bobcat-uc:
+      component: security
 - project: aodh
   tags:
     bobcat-uc:
@@ -132,10 +112,6 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 0.0.11
-- project: directord
-  tags:
-    bobcat-uc:
-      source-branch: main
 - project: diskimage-builder
   tags:
     bobcat-uc:
@@ -187,9 +163,11 @@ packages:
 - project: heat
   tags:
     bobcat-uc:
+      component: common
 - project: heat-agents
   tags:
     bobcat-uc:
+      component: common
 - project: heat-dashboard
   tags:
     bobcat-uc:
@@ -200,6 +178,7 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 2.7.0
+      component: common
 - project: heatclient
   tags:
     bobcat-uc:
@@ -267,6 +246,7 @@ packages:
 - project: kolla
   tags:
     bobcat-uc:
+      component: common
 - project: kuryr
   tags:
     bobcat-uc:
@@ -313,16 +293,19 @@ packages:
 - project: mistral
   tags:
     bobcat-uc:
+      component: common
 - project: mistral-dashboard
   tags:
     bobcat-uc:
 - project: mistral-extra
   tags:
     bobcat-uc:
+      component: common
 - project: mistral-lib
   tags:
     bobcat-uc:
       source-branch: 2.8.0
+      component: common
 - project: mistral-tempest-plugin
   tags:
     bobcat-uc:
@@ -456,6 +439,7 @@ packages:
 - project: os-apply-config
   tags:
     bobcat-uc:
+      component: common
 - project: os-brick
   tags:
     bobcat-uc:
@@ -464,9 +448,11 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 2.1.0
+      component: common
 - project: os-collect-config
   tags:
     bobcat-uc:
+      component: common
 - project: os-faults
   tags:
     bobcat-uc:
@@ -477,9 +463,11 @@ packages:
 - project: os-net-config
   tags:
     bobcat-uc:
+      component: common
 - project: os-refresh-config
   tags:
     bobcat-uc:
+      component: common
 - project: os-resource-classes
   tags:
     bobcat-uc:
@@ -628,6 +616,7 @@ packages:
 - project: packstack
   tags:
     bobcat-uc:
+      component: puppet
 - project: placement
   tags:
     bobcat-uc:
@@ -638,202 +627,240 @@ packages:
 - project: puppet-aodh
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-apache
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-archive
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-barbican
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-ceilometer
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-ceph
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-cinder
   tags:
     bobcat-uc:
-- project: puppet-collectd
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-concat
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-corosync
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-designate
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-dns
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-ec2api
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-etcd
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-firewall
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-glance
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-gnocchi
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-haproxy
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-heat
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-horizon
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-inifile
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-ironic
   tags:
     bobcat-uc:
-- project: puppet-keepalived
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-keystone
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-kmod
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-magnum
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-manila
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-memcached
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-mistral
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-module-data
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-murano
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-mysql
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-neutron
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-nova
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-nssdb
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-octavia
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-openstack_extras
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-openstacklib
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-oslo
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-ovn
   tags:
     bobcat-uc:
-- project: puppet-pacemaker
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-placement
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-qdr
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-rabbitmq
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-redis
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-remote
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-rsync
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-rsyslog
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-sahara
   tags:
     bobcat-uc:
-- project: puppet-snmp
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-ssh
   tags:
     bobcat-uc:
-- project: puppet-staging
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-stdlib
   tags:
     bobcat-uc:
       source-branch: 03bcefda390397588a213403fe2420fc97a70ee1
+      component: puppet
 - project: puppet-swift
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-sysctl
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-systemd
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-tempest
   tags:
     bobcat-uc:
-- project: puppet-tripleo
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-trove
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-vcsrepo
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-vitrage
   tags:
     bobcat-uc:
-- project: puppet-vlan
-  tags:
-    bobcat-uc:
+      component: puppet
 - project: puppet-vswitch
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-watcher
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-xinetd
   tags:
     bobcat-uc:
+      component: puppet
 - project: puppet-zaqar
   tags:
     bobcat-uc:
+      component: puppet
 - project: pycadf
   tags:
     bobcat-uc:
@@ -969,43 +996,6 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 4.1.0
-- project: tripleo-ansible
-  tags:
-    bobcat-uc:
-- project: tripleo-common
-  tags:
-    bobcat-uc:
-- project: tripleo-heat-templates
-  tags:
-    bobcat-uc:
-- project: tripleo-image-elements
-  tags:
-    bobcat-uc:
-- project: tripleo-ipa
-  tags:
-    bobcat-uc:
-      source-branch: d48deac395d32d47f5bf916d63092376f967b96e
-- project: tripleo-ipsec
-  tags:
-    bobcat-uc:
-- project: tripleo-operator-ansible
-  tags:
-    bobcat-uc:
-- project: tripleo-powerflex
-  tags:
-    bobcat-uc:
-- project: tripleo-puppet-elements
-  tags:
-    bobcat-uc:
-- project: tripleo-repos
-  tags:
-    bobcat-uc:
-- project: tripleo-validations
-  tags:
-    bobcat-uc:
-- project: tripleoclient
-  tags:
-    bobcat-uc:
 - project: trove
   tags:
     bobcat-uc:
@@ -1019,12 +1009,6 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 8.1.0
-- project: validations-common
-  tags:
-    bobcat-uc:
-- project: validations-libs
-  tags:
-    bobcat-uc:
 - project: virtualbmc
   tags:
     bobcat-uc:
@@ -1068,6 +1052,7 @@ packages:
 - project: zaqar
   tags:
     bobcat-uc:
+      component: common
 - project: zaqar-tempest-plugin
   tags:
     bobcat-uc:
