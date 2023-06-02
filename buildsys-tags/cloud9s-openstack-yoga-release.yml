@@ -106,7 +106,7 @@ packages:
     cloud9s-openstack-yoga-release: python-ceilometermiddleware-2.4.1-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-cinder-20.2.0-1.el9s
+    cloud9s-openstack-yoga-release: openstack-cinder-20.3.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-cinder-tests-tempest-1.8.0-1.el9s
@@ -205,7 +205,7 @@ packages:
     cloud9s-openstack-yoga-release: python-glance-tests-tempest-0.4.0-1.el9s
 - project: glance_store
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-glance-store-3.0.0-1.el9s
+    cloud9s-openstack-yoga-release: python-glance-store-3.0.1-1.el9s
 - project: glanceclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-glanceclient-3.6.0-1.el9s
@@ -493,7 +493,7 @@ packages:
     cloud9s-openstack-yoga-release: python-neutronclient-7.8.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-nova-25.1.1-1.el9s
+    cloud9s-openstack-yoga-release: openstack-nova-25.2.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-novaclient-17.7.0-1.el9s
