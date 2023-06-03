@@ -97,7 +97,7 @@ packages:
     cloud9s-openstack-zed-testing: catch1-1.12.2-8.el9s
 - project: ceilometer
   buildsys-tags:
-    cloud9s-openstack-zed-testing: openstack-ceilometer-19.0.0-1.el9s
+    cloud9s-openstack-zed-testing: openstack-ceilometer-19.1.0-1.el9s
 - project: ceilometerclient
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-ceilometerclient-2.9.0-2.el9s
@@ -598,7 +598,7 @@ packages:
     cloud9s-openstack-zed-testing: python-oslo-context-5.0.0-1.el9s
 - project: oslo-db
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-oslo-db-12.1.0-1.el9s
+    cloud9s-openstack-zed-testing: python-oslo-db-12.1.1-1.el9s
 - project: oslo-i18n
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-oslo-i18n-5.1.0-1.el9s
@@ -613,7 +613,7 @@ packages:
     cloud9s-openstack-zed-testing: python-oslo-messaging-14.0.0-1.el9s
 - project: oslo-metrics
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-oslo-metrics-0.5.0-1.el9s
+    cloud9s-openstack-zed-testing: python-oslo-metrics-0.5.1-1.el9s
 - project: oslo-middleware
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-oslo-middleware-5.0.0-1.el9s
@@ -643,7 +643,7 @@ packages:
     cloud9s-openstack-zed-testing: python-oslo-upgradecheck-2.0.0-1.el9s
 - project: oslo-utils
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-oslo-utils-6.0.1-1.el9s
+    cloud9s-openstack-zed-testing: python-oslo-utils-6.0.2-1.el9s
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-oslo-versionedobjects-3.0.1-1.el9s
