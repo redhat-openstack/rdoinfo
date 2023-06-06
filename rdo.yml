@@ -2721,6 +2721,15 @@ packages:
   component: podified
   maintainers:
   - sbaker@redhat.com
+- project: python-httpx
+  conf: rpmfactory-lib
+  name: python-httpx
+  upstream: https://github.com/encode/httpx
+  component: pile
+  distgit: http://review.rdoproject.org/r/deps/python-httpx.git
+  master-distgit: http://review.rdoproject.org/r/deps/python-httpx.git
+  maintainers:
+  - jcapitao@redhat.com
 components:
 - name: common
 - name: compute
@@ -2740,3 +2749,4 @@ components:
 - name: validation
 - name: podified
 - name: puppet
+- name: pile
