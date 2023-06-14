@@ -97,7 +97,7 @@ packages:
     cloud9s-openstack-zed-release: catch1-1.12.2-8.el9s
 - project: ceilometer
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-ceilometer-19.0.0-1.el9s
+    cloud9s-openstack-zed-release: openstack-ceilometer-19.1.0-1.el9s
 - project: ceilometerclient
   buildsys-tags:
     cloud9s-openstack-zed-release: python-ceilometerclient-2.9.0-2.el9s
@@ -106,7 +106,7 @@ packages:
     cloud9s-openstack-zed-release: python-ceilometermiddleware-3.0.0-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-cinder-21.2.0-1.el9s
+    cloud9s-openstack-zed-release: openstack-cinder-21.3.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-zed-release: python-cinder-tests-tempest-1.8.0-1.el9s
@@ -205,7 +205,7 @@ packages:
     cloud9s-openstack-zed-release: python-glance-tests-tempest-0.5.0-1.el9s
 - project: glance_store
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-glance-store-4.1.0-1.el9s
+    cloud9s-openstack-zed-release: python-glance-store-4.1.1-1.el9s
 - project: glanceclient
   buildsys-tags:
     cloud9s-openstack-zed-release: python-glanceclient-4.1.0-1.el9s
@@ -472,10 +472,10 @@ packages:
     cloud9s-openstack-zed-release: python-networking-sfc-15.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-neutron-21.1.0-1.el9s
+    cloud9s-openstack-zed-release: openstack-neutron-21.1.1-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-neutron-dynamic-routing-21.0.0-1.el9s
+    cloud9s-openstack-zed-release: openstack-neutron-dynamic-routing-21.0.1-1.el9s
 - project: neutron-lib
   buildsys-tags:
     cloud9s-openstack-zed-release: python-neutron-lib-3.1.1-1.el9s
@@ -490,7 +490,7 @@ packages:
     cloud9s-openstack-zed-release: python-neutronclient-8.1.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-zed-release: openstack-nova-26.1.1-1.el9s
+    cloud9s-openstack-zed-release: openstack-nova-26.2.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-zed-release: python-novaclient-18.1.0-1.el9s
@@ -598,7 +598,7 @@ packages:
     cloud9s-openstack-zed-release: python-oslo-context-5.0.0-1.el9s
 - project: oslo-db
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-oslo-db-12.1.0-1.el9s
+    cloud9s-openstack-zed-release: python-oslo-db-12.1.1-1.el9s
 - project: oslo-i18n
   buildsys-tags:
     cloud9s-openstack-zed-release: python-oslo-i18n-5.1.0-1.el9s
@@ -613,7 +613,7 @@ packages:
     cloud9s-openstack-zed-release: python-oslo-messaging-14.0.0-1.el9s
 - project: oslo-metrics
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-oslo-metrics-0.5.0-1.el9s
+    cloud9s-openstack-zed-release: python-oslo-metrics-0.5.1-1.el9s
 - project: oslo-middleware
   buildsys-tags:
     cloud9s-openstack-zed-release: python-oslo-middleware-5.0.0-1.el9s
@@ -643,7 +643,7 @@ packages:
     cloud9s-openstack-zed-release: python-oslo-upgradecheck-2.0.0-1.el9s
 - project: oslo-utils
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-oslo-utils-6.0.1-1.el9s
+    cloud9s-openstack-zed-release: python-oslo-utils-6.0.2-1.el9s
 - project: oslo-versionedobjects
   buildsys-tags:
     cloud9s-openstack-zed-release: python-oslo-versionedobjects-3.0.1-1.el9s
@@ -664,7 +664,7 @@ packages:
     cloud9s-openstack-zed-release: ovn-bgp-agent-0.3.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-zed-release: python-ovn-octavia-provider-3.1.0-1.el9s
+    cloud9s-openstack-zed-release: python-ovn-octavia-provider-3.1.1-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-zed-release: python-ovsdbapp-2.1.1-1.el9s
