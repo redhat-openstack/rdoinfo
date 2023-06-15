@@ -112,7 +112,7 @@ packages:
     cloud9s-openstack-zed-testing: python-cinder-tests-tempest-1.8.0-1.el9s
 - project: cinderclient
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-cinderclient-9.1.0-1.el9s
+    cloud9s-openstack-zed-testing: python-cinderclient-9.1.1-1.el9s
 - project: cinderlib
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-cinderlib-5.0.0-1.el9s
@@ -478,7 +478,7 @@ packages:
     cloud9s-openstack-zed-testing: openstack-neutron-dynamic-routing-21.0.1-1.el9s
 - project: neutron-lib
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-neutron-lib-3.1.1-1.el9s
+    cloud9s-openstack-zed-testing: python-neutron-lib-3.1.2-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-neutron-tests-tempest-2.1.0-1.el9s
@@ -793,7 +793,7 @@ packages:
     cloud9s-openstack-zed-testing: puppet-neutron-21.0.0-1.el9s
 - project: puppet-nova
   buildsys-tags:
-    cloud9s-openstack-zed-testing: puppet-nova-21.0.0-1.el9s
+    cloud9s-openstack-zed-testing: puppet-nova-21.1.0-1.el9s
 - project: puppet-nssdb
   buildsys-tags:
     cloud9s-openstack-zed-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
@@ -1528,7 +1528,7 @@ packages:
     cloud9s-openstack-zed-testing: python-pyperclip-1.8.0-3.el9s
 - project: python-pyroute2
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-pyroute2-0.6.9-2.el9s
+    cloud9s-openstack-zed-testing: python-pyroute2-0.6.9-3.el9s
 - project: python-pysaml2
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-pysaml2-6.1.0-2.el9s
