@@ -16,6 +16,23 @@
       "message": "recheck",
       "revId": "7c5ea3b8d6e62af2f409691ddbc25ac012863f59",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d326171f_24cf4767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-16T12:25:19Z",
+      "side": 1,
+      "message": "The SSL certificate of https://download.cirros-cloud.net/ is expired (Validity Not After Fri, 16 Jun 2023 10:04:52 GMT)\nso the curl command fails with \"SSL certificate problem: certificate has expired\\nMore details here: https://curl.se/docs/sslcerts.html\\n\\ncurl failed to verify the legitimacy of the server\"\nLet\u0027s wait a little bit to see whether or not a new letsencrypt cert is issued.",
+      "revId": "7c5ea3b8d6e62af2f409691ddbc25ac012863f59",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
