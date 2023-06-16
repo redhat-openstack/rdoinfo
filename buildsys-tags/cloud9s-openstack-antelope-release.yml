@@ -73,7 +73,7 @@ packages:
     cloud9s-openstack-antelope-release: python-ceilometermiddleware-3.1.0-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-cinder-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-cinder-22.1.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-cinder-tests-tempest-1.8.1-1.el9s
@@ -296,6 +296,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-keystonemiddleware-10.2.0-1.el9s
+- project: kolla
+  buildsys-tags:
+    cloud9s-openstack-antelope-release: openstack-kolla-16.0.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-kuryr-lib-2.7.0-1.el9s
@@ -439,13 +442,13 @@ packages:
     cloud9s-openstack-antelope-release: python-networking-sfc-16.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-neutron-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-neutron-22.0.1-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-neutron-dynamic-routing-22.0.0-1.el9s
 - project: neutron-lib
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-neutron-lib-3.4.0-1.el9s
+    cloud9s-openstack-antelope-release: python-neutron-lib-3.4.1-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-neutron-tests-tempest-2.2.0-1.el9s
@@ -457,7 +460,7 @@ packages:
     cloud9s-openstack-antelope-release: python-neutronclient-9.0.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-nova-27.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-nova-27.1.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-novaclient-18.3.0-1.el9s
@@ -631,7 +634,7 @@ packages:
     cloud9s-openstack-antelope-release: ovn-bgp-agent-0.3.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-ovn-octavia-provider-4.0.0-1.el9s
+    cloud9s-openstack-antelope-release: python-ovn-octavia-provider-4.0.1-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-ovsdbapp-2.2.1-1.el9s
@@ -754,7 +757,7 @@ packages:
     cloud9s-openstack-antelope-release: puppet-neutron-22.0.0-1.el9s
 - project: puppet-nova
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-nova-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-nova-22.1.0-1.el9s
 - project: puppet-nssdb
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
