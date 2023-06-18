@@ -97,7 +97,7 @@ packages:
     cloud9s-openstack-yoga-release: catch1-1.12.2-8.el9s
 - project: ceilometer
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-ceilometer-18.0.0-1.el9s
+    cloud9s-openstack-yoga-release: openstack-ceilometer-18.1.0-1.el9s
 - project: ceilometerclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-ceilometerclient-2.9.0-2.el9s
@@ -106,7 +106,7 @@ packages:
     cloud9s-openstack-yoga-release: python-ceilometermiddleware-2.4.1-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-cinder-20.2.0-1.el9s
+    cloud9s-openstack-yoga-release: openstack-cinder-20.3.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-cinder-tests-tempest-1.8.0-1.el9s
@@ -205,7 +205,7 @@ packages:
     cloud9s-openstack-yoga-release: python-glance-tests-tempest-0.4.0-1.el9s
 - project: glance_store
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-glance-store-3.0.0-1.el9s
+    cloud9s-openstack-yoga-release: python-glance-store-3.0.1-1.el9s
 - project: glanceclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-glanceclient-3.6.0-1.el9s
@@ -475,13 +475,13 @@ packages:
     cloud9s-openstack-yoga-release: python-networking-sfc-14.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-neutron-20.3.0-1.el9s
+    cloud9s-openstack-yoga-release: openstack-neutron-20.3.1-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud9s-openstack-yoga-release: openstack-neutron-dynamic-routing-20.0.1-1.el9s
 - project: neutron-lib
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-neutron-lib-2.20.1-1.el9s
+    cloud9s-openstack-yoga-release: python-neutron-lib-2.20.2-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-neutron-tests-tempest-2.1.0-1.el9s
@@ -493,7 +493,7 @@ packages:
     cloud9s-openstack-yoga-release: python-neutronclient-7.8.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-nova-25.1.1-1.el9s
+    cloud9s-openstack-yoga-release: openstack-nova-25.2.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-novaclient-17.7.0-1.el9s
@@ -667,7 +667,7 @@ packages:
     cloud9s-openstack-yoga-release: ovn-bgp-agent-0.2.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-ovn-octavia-provider-2.1.0-1.el9s
+    cloud9s-openstack-yoga-release: python-ovn-octavia-provider-2.1.1-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-ovsdbapp-1.15.3-1.el9s
@@ -835,7 +835,7 @@ packages:
     cloud9s-openstack-yoga-release: puppet-neutron-20.3.0-1.el9s
 - project: puppet-nova
   buildsys-tags:
-    cloud9s-openstack-yoga-release: puppet-nova-20.3.0-1.el9s
+    cloud9s-openstack-yoga-release: puppet-nova-20.4.0-1.el9s
 - project: puppet-nssdb
   buildsys-tags:
     cloud9s-openstack-yoga-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
@@ -1549,7 +1549,7 @@ packages:
     cloud9s-openstack-yoga-release: python-pyperclip-1.8.0-3.el9s
 - project: python-pyroute2
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-pyroute2-0.6.6-1.el9s
+    cloud9s-openstack-yoga-release: python-pyroute2-0.6.6-2.el9s
 - project: python-pysaml2
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-pysaml2-6.1.0-2.el9s
