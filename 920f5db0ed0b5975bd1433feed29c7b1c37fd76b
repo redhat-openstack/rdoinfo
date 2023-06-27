@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a88e8703_68aec3d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-06-27T13:28:19Z",
+      "side": 1,
+      "message": "I see references to stackviz in tripleo-quickstart-extras:\n\nhttps://opendev.org/openstack/tripleo-quickstart-extras/src/branch/master/playbooks/tasks/tempest.yml\n\ni guess it\u0027s not used out of tripleo so can be retired as part of tripleo removal. Anyway, we should get vote from someone in tripleo-ci team.\n",
+      "revId": "920f5db0ed0b5975bd1433feed29c7b1c37fd76b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
