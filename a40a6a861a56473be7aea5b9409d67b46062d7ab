@@ -22,6 +22,30 @@
       },
       "revId": "a40a6a861a56473be7aea5b9409d67b46062d7ab",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4d4dd14_47d3996a",
+        "filename": "tags/version-locked.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-06-28T16:32:30Z",
+      "side": 1,
+      "message": "no, it does not mean that.\n\nIn RDO we have some jobs which try to get versions in rdoinfo in sync with upper-constraints by sending reviews to update source-branch, as in:\n\nhttps://review.rdoproject.org/r/c/rdoinfo/+/48945\n\nAfter your unpin, we don\u0027t want that it tries to pin neutron-lib again to 2.10.2. having a package with version-locked tag, that bot ignore the package and it doesn\u0027t send reviews to try to sync it to u-c so it will keep following stable/wallaby.",
+      "parentUuid": "4c11a79f_aef22495",
+      "range": {
+        "startLine": 26,
+        "startChar": 6,
+        "endLine": 26,
+        "endChar": 13
+      },
+      "revId": "a40a6a861a56473be7aea5b9409d67b46062d7ab",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
