@@ -16,6 +16,23 @@
       "message": "Adding Yatin for Networking team validation",
       "revId": "afe376e1afba4f3928375b945dbb4b1977d462ec",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "beb545c8_64f186c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2023-06-28T14:18:16Z",
+      "side": 1,
+      "message": "I doubt if the rpm is still used by anyone, from https://lists.openstack.org/pipermail/openstack-discuss/2023-May/033830.html i see puppet and osa seems also not testing it. If anyone still using we may give some time to drop the support by pinning it.",
+      "revId": "afe376e1afba4f3928375b945dbb4b1977d462ec",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
