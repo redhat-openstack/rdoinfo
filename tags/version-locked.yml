@@ -20,6 +20,10 @@ packages:
 - project: neutron
   tags:
     version-locked:
+- project: neutron-lib
+  tags:
+    version-locked:
+      wallaby:
 - project: openstackclient
   tags:
     version-locked:
