@@ -16,6 +16,24 @@
       "message": "i\u0027ve sent follow up review to avoid the nigthly bot to try to sync with upper-constraints again in https://review.rdoproject.org/r/c/rdoinfo/+/49092.\n\nQuestion, do you use neutron-lib from stable/wallaby peak in neutron reviews on stable/wallaby instead of u-c ?",
       "revId": "489d9b81a5ca2a28cb697c462d305edeef325953",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c9aaf12_ef6af56f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2023-06-28T16:18:50Z",
+      "side": 1,
+      "message": "We use u-c in U/S, but 17.1-trunk-patches is a development branch. We are still merging patches in U/S but we never receive them in D/S. This is why I\u0027m unpinning the u-c version. In other words, this should be the same as Neutron that is not pinned to any tag.",
+      "parentUuid": "a6d11f43_a415e745",
+      "revId": "489d9b81a5ca2a28cb697c462d305edeef325953",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
