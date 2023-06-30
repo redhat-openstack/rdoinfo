@@ -16,6 +16,24 @@
       "message": "See https://review.rdoproject.org/r/c/rdoinfo/+/49091",
       "revId": "182b1445def4e54c23a6bab88c8337fd122876c1",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36446547_ed23e13f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-30T06:43:59Z",
+      "side": 1,
+      "message": "I was wondering why it was pinned to 2.10.2 which is 7 commits (backport mostly) behind what we have currently in Trunk [1]\n\n[1] https://trunk.rdoproject.org/centos9-wallaby/component/network/current/python3-neutron-lib-2.10.3-0.20230629124124.619c0fe.el9.noarch.rpm",
+      "parentUuid": "38a5fc2e_549f43d5",
+      "revId": "182b1445def4e54c23a6bab88c8337fd122876c1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
