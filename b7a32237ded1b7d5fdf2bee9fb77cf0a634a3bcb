@@ -16,6 +16,24 @@
       "message": "This can\u0027t be done.\n\nThe wallaby-last tag points to 0.16.0, so that\u0027s the last version guaranteed to be compatible with the version of tempest in wallaby.\n\nxena-last points to 0.19.0, so xena and newer releases can use 0.19.0.\n\n\n\n",
       "revId": "b7a32237ded1b7d5fdf2bee9fb77cf0a634a3bcb",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "286efbfa_44c954f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 921
+      },
+      "writtenOn": "2023-07-11T12:07:44Z",
+      "side": 1,
+      "message": "Hi Luigi!\n\nSure, will be fixed, but how did you know that?\nI mean when I\u0027m looking on:\nhttps://github.com/openstack/designate-tempest-plugin/releases/tag/xena-last\nand\nhttps://github.com/openstack/designate-tempest-plugin/releases/tag/wallaby-last\nI don\u0027t see the OSP version mentioned it\u0027s point to 😕\nWhere is it?",
+      "parentUuid": "e061ade0_73ed770f",
+      "revId": "b7a32237ded1b7d5fdf2bee9fb77cf0a634a3bcb",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
