@@ -157,7 +157,7 @@ packages:
     cloud9s-openstack-yoga-release: openstack-designate-ui-14.0.0-1.el9s
 - project: designate-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-release: python-designate-tests-tempest-0.15.0-1.el9s
+    cloud9s-openstack-yoga-release: python-designate-tests-tempest-0.19.0-1.el9s
 - project: designateclient
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-designateclient-4.5.1-1.el9s
@@ -328,7 +328,7 @@ packages:
     cloud9s-openstack-yoga-release: python-keystonemiddleware-9.4.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-yoga-release: openstack-kolla-14.9.0-1.el9s
+    cloud9s-openstack-yoga-release: openstack-kolla-14.10.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-yoga-release: python-kuryr-lib-2.5.0-1.el9s
