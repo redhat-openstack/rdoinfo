@@ -22,7 +22,7 @@ packages:
     cloud9s-openstack-antelope-release: ansible-collection-containers-podman-1.10.1-2.el9s
 - project: ansible-collections-openstack
   buildsys-tags:
-    cloud9s-openstack-antelope-release: ansible-collections-openstack-2.0.0-0.1.ed36d82git.el9s
+    cloud9s-openstack-antelope-release: ansible-collections-openstack-2.1.0-1.el9s
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-ansible-core-2.14.2-4.1.el9s
@@ -118,7 +118,7 @@ packages:
     cloud9s-openstack-antelope-release: python-debtcollector-2.5.0-1.el9s
 - project: designate
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-designate-16.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-designate-16.0.1-1.el9s
 - project: designate-dashboard
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-designate-ui-16.0.0-1.el9s
@@ -298,7 +298,7 @@ packages:
     cloud9s-openstack-antelope-release: python-keystonemiddleware-10.2.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-kolla-16.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-kolla-16.1.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-kuryr-lib-2.7.0-1.el9s
