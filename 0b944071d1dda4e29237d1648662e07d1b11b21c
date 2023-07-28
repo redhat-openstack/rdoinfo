@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12f3dc12_abfd3dfb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2023-07-28T08:00:00Z",
+      "side": 1,
+      "message": "novajoin-tempest-tests is a bit different compared to other tempest plugins as it is not official, it\u0027s hosted on the x/ namespace rather than the openstack/ one. This means it does not follow the usual release cycle and its maintainers are free to establish the compatibility with the appropriate tempest versions.\n\nThat said, technically it requires tempest 27 and even though the first version of tempest supported for wallaby is 26, we (RDO) ship a newer version (33).\n\nIn any case, I\u0027d recommend that novajoin-tempest-plugin maintainer created a tag, as it would be easier to refer to a specific version.",
+      "revId": "0b944071d1dda4e29237d1648662e07d1b11b21c",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
