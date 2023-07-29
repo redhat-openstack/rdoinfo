@@ -154,10 +154,10 @@ packages:
     cloud9s-openstack-yoga-testing: python-debtcollector-2.5.0-1.el9s
 - project: designate
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-designate-14.0.2-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-designate-14.0.3-1.el9s
 - project: designate-dashboard
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-designate-ui-14.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-designate-ui-14.0.1-1.el9s
 - project: designate-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-designate-tests-tempest-0.19.0-1.el9s
@@ -181,7 +181,7 @@ packages:
     cloud9s-openstack-yoga-testing: dumb-init-1.2.5-2.el9s
 - project: ec2-api
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-ec2-api-14.0.0-2.el9s
+    cloud9s-openstack-yoga-testing: openstack-ec2-api-14.0.2-1.el9s
 - project: ec2api-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-ec2api-tests-tempest-1.4.0-1.el9s
@@ -253,13 +253,13 @@ packages:
     cloud9s-openstack-yoga-testing: openstack-heat-18.0.1-1.el9s
 - project: heat-agents
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-heat-agents-4.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-heat-agents-4.0.1-1.el9s
 - project: heat-cfntools
   buildsys-tags:
     cloud9s-openstack-yoga-testing: heat-cfntools-1.4.2-15.el9s
 - project: heat-dashboard
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-heat-ui-7.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-heat-ui-7.0.1-1.el9s
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-heat-tests-tempest-1.5.0-1.el9s
@@ -337,7 +337,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-kuryr-lib-2.5.0-1.el9s
 - project: kuryr-kubernetes
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-kuryr-kubernetes-6.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-kuryr-kubernetes-6.0.1-1.el9s
 - project: kuryr-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-kuryr-tests-tempest-0.12.0-1.el9s
@@ -391,13 +391,13 @@ packages:
     cloud9s-openstack-yoga-testing: python-magnumclient-3.6.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-manila-14.1.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-manila-14.1.1-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-manila-tests-tempest-1.9.0-1.el9s
 - project: manila-ui
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-manila-ui-7.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-manila-ui-7.0.1-1.el9s
 - project: manilaclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-manilaclient-3.3.2-1.el9s
@@ -478,7 +478,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-networking-sfc-14.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-neutron-20.3.1-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-neutron-20.4.0-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud9s-openstack-yoga-testing: openstack-neutron-dynamic-routing-20.0.1-1.el9s
@@ -670,7 +670,7 @@ packages:
     cloud9s-openstack-yoga-testing: ovn-bgp-agent-0.2.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-ovn-octavia-provider-2.1.1-1.el9s
+    cloud9s-openstack-yoga-testing: python-ovn-octavia-provider-2.2.0-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-ovsdbapp-1.15.3-1.el9s
@@ -1957,7 +1957,7 @@ packages:
     cloud9s-openstack-yoga-testing: sysfsutils-2.1.1-1.el9s
 - project: tacker
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-tacker-7.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-tacker-7.1.0-1.el9s
 - project: tackerclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-tackerclient-1.10.0-1.el9s
@@ -2011,10 +2011,10 @@ packages:
     cloud9s-openstack-yoga-testing: python-tripleoclient-18.0.0-1.el9s
 - project: trove
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-trove-17.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-trove-17.0.1-1.el9s
 - project: trove-dashboard
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-trove-ui-18.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-trove-ui-18.0.1-1.el9s
 - project: trove-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-trove-tests-tempest-1.4.0-1.el9s
