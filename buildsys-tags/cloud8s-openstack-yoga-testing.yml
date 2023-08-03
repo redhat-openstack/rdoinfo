@@ -301,7 +301,7 @@ packages:
     cloud8s-openstack-yoga-testing: hiera-3.6.0-1.el8
 - project: horizon
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-django-horizon-22.1.0-1.el8
+    cloud8s-openstack-yoga-testing: python-django-horizon-22.1.1-1.el8
 - project: ibmcclient
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-ibmcclient-0.2.5.1-1.el8
@@ -751,7 +751,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-certmonger-2.7.1-1.3e2e660git.el8
 - project: puppet-cinder
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-cinder-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-cinder-20.4.0-1.el8
 - project: puppet-collectd
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-collectd-13.0.1-0.1.0rc0.12791f3git.el8
@@ -769,7 +769,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-datacat-0.6.2-1.5cce8f2git.el8
 - project: puppet-designate
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-designate-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-designate-20.3.1-1.el8
 - project: puppet-dns
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-dns-9.2.0-1.cc80d3cgit.el8
@@ -808,7 +808,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-heat-20.3.0-1.el8
 - project: puppet-horizon
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-horizon-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-horizon-20.4.0-1.el8
 - project: puppet-inifile
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-inifile-5.2.0-2.3ec441bgit.el8
@@ -829,7 +829,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
 - project: puppet-keystone
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-keystone-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-keystone-20.4.0-1.el8
 - project: puppet-kibana3
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-kibana3-0.0.4-1.6ca9631git.el8
@@ -844,7 +844,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-magnum-20.3.0-1.el8
 - project: puppet-manila
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-manila-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-manila-20.3.1-1.el8
 - project: puppet-memcached
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-memcached-7.0.0-2.51a961agit.el8
@@ -877,19 +877,19 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el8
 - project: puppet-octavia
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-octavia-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-octavia-20.4.0-1.el8
 - project: puppet-openstack_extras
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-openstack_extras-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-openstack_extras-20.3.1-1.el8
 - project: puppet-openstacklib
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-openstacklib-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-openstacklib-20.3.1-1.el8
 - project: puppet-oslo
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-oslo-20.3.0-1.el8
 - project: puppet-ovn
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-ovn-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-ovn-20.4.0-1.el8
 - project: puppet-pacemaker
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-pacemaker-1.4.0-1.el8
@@ -946,7 +946,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-tacker-20.3.0-1.el8
 - project: puppet-tempest
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-tempest-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-tempest-20.4.0-1.el8
 - project: puppet-timezone
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-timezone-6.1.0-3.6f1a8e1git.el8
@@ -958,7 +958,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-tripleo-16.1.0-1.el8
 - project: puppet-trove
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-trove-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-trove-20.4.0-1.el8
 - project: puppet-uchiwa
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-uchiwa-2.1.1-2.837c669git.el8
@@ -967,13 +967,13 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-vcsrepo-5.0.0-2.35fd754git.el8
 - project: puppet-vitrage
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-vitrage-10.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-vitrage-10.3.1-1.el8
 - project: puppet-vlan
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-vlan-0.1.0-1.el8
 - project: puppet-vswitch
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-vswitch-16.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-vswitch-16.3.1-1.el8
 - project: puppet-watcher
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-watcher-20.3.1-1.el8
@@ -2083,7 +2083,7 @@ packages:
     cloud8s-openstack-yoga-testing: openstack-tacker-7.1.0-1.el8
 - project: tackerclient
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-tackerclient-1.10.0-1.el8
+    cloud8s-openstack-yoga-testing: python-tackerclient-1.10.1-1.el8
 - project: taskflow
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-taskflow-4.6.4-1.el8
