@@ -229,7 +229,7 @@ packages:
     cloud8s-openstack-yoga-testing: gflags-2.2.2-3.el8
 - project: glance
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-glance-24.2.0-1.el8
+    cloud8s-openstack-yoga-testing: openstack-glance-24.2.1-1.el8
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-glance-tests-tempest-0.4.0-1.el8
@@ -742,7 +742,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-cassandra-3.1.1-0.4.0rc0.89bf2d1git.el8
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-ceilometer-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-ceilometer-20.4.0-1.el8
 - project: puppet-ceph
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-ceph-3.1.1-1.el8
@@ -799,13 +799,13 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-glance-20.3.0-1.el8
 - project: puppet-gnocchi
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-gnocchi-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-gnocchi-20.3.1-1.el8
 - project: puppet-haproxy
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-haproxy-6.2.1-2.ab1e225git.el8
 - project: puppet-heat
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-heat-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-heat-20.4.0-1.el8
 - project: puppet-horizon
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-horizon-20.4.0-1.el8
@@ -817,7 +817,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-ipaclient-2.5.2-1.b086731git.el8
 - project: puppet-ironic
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-ironic-20.3.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-ironic-20.4.0-1.el8
 - project: puppet-java
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-java-7.3.0-1.d36a0f6git.el8
@@ -934,7 +934,7 @@ packages:
     cloud8s-openstack-yoga-testing: puppet-stdlib-8.1.0-2.ea43f2egit.el8
 - project: puppet-swift
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: puppet-swift-20.4.0-1.el8
+    cloud8s-openstack-yoga-testing: puppet-swift-20.4.1-1.el8
 - project: puppet-sysctl
   buildsys-tags:
     cloud8s-openstack-yoga-testing: puppet-sysctl-0.0.12-2.847ec1cgit.el8
