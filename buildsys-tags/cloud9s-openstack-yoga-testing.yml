@@ -67,7 +67,7 @@ packages:
     cloud9s-openstack-yoga-testing: ansible-role-tripleo-modify-image-1.4.0-1.el9s
 - project: aodh
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-aodh-14.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-aodh-14.1.0-1.el9s
 - project: aodhclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-aodhclient-2.4.1-1.el9s
@@ -835,10 +835,10 @@ packages:
     cloud9s-openstack-yoga-testing: puppet-mysql-12.0.1-2.dd2b640git.el9s
 - project: puppet-neutron
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: puppet-neutron-20.3.0-1.el9s
+    cloud9s-openstack-yoga-testing: puppet-neutron-20.4.0-1.el9s
 - project: puppet-nova
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: puppet-nova-20.4.0-1.el9s
+    cloud9s-openstack-yoga-testing: puppet-nova-20.4.2-1.el9s
 - project: puppet-nssdb
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
@@ -853,7 +853,7 @@ packages:
     cloud9s-openstack-yoga-testing: puppet-openstacklib-20.3.1-1.el9s
 - project: puppet-oslo
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: puppet-oslo-20.3.0-1.el9s
+    cloud9s-openstack-yoga-testing: puppet-oslo-20.4.0-1.el9s
 - project: puppet-ovn
   buildsys-tags:
     cloud9s-openstack-yoga-testing: puppet-ovn-20.4.0-1.el9s
