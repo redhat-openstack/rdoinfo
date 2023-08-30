@@ -172,7 +172,7 @@ packages:
     cloud9s-openstack-antelope-release: python-glance-tests-tempest-0.6.0-1.el9s
 - project: glance_store
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-glance-store-4.3.0-1.el9s
+    cloud9s-openstack-antelope-release: python-glance-store-4.3.1-1.el9s
 - project: glanceclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-glanceclient-4.3.0-1.el9s
@@ -346,7 +346,7 @@ packages:
     cloud9s-openstack-antelope-release: luajit-2.1.0-0.19beta3.el9s
 - project: magnum
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-magnum-16.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-magnum-16.0.1-1.el9s
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-magnum-tests-tempest-2.0.0-1.el9s
@@ -367,7 +367,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-manila-ui-9.0.0-1.el9s
 - project: manilaclient
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-manilaclient-4.3.0-1.el9s
+    cloud9s-openstack-antelope-release: python-manilaclient-4.4.0-1.el9s
 - project: metalsmith
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-metalsmith-1.10.0-1.el9s
@@ -577,7 +577,7 @@ packages:
     cloud9s-openstack-antelope-release: python-oslo-limit-2.1.0-1.el9s
 - project: oslo-log
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-oslo-log-5.0.0-1.el9s
+    cloud9s-openstack-antelope-release: python-oslo-log-5.2.0-1.el9s
 - project: oslo-messaging
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-oslo-messaging-14.2.1-1.el9s
