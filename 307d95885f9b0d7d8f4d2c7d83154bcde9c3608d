@@ -51,6 +51,23 @@
       "message": "As a follow-up of https://review.rdoproject.org/r/c/openstack/openstackclient-distgit/+/49766",
       "revId": "307d95885f9b0d7d8f4d2c7d83154bcde9c3608d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "162f89a4_7c7fe699",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2023-09-05T16:32:29Z",
+      "side": 1,
+      "message": "rdoinfo-DLRN-check on C7 is failing:\n\nCollecting pyOpenSSL\u003e\u003d16.2.0\n  Downloading http://mirror.regionone.vexxhost-nodepool-sf.rdoproject.org/wheel/centos-7-x86_64/pyopenssl/pyOpenSSL-22.0.0-py2.py3-none-any.whl (55 kB)\nERROR: Package \u0027pyOpenSSL\u0027 requires a different Python: 2.7.5 not in \u0027\u003e\u003d3.6\u0027",
+      "revId": "307d95885f9b0d7d8f4d2c7d83154bcde9c3608d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
