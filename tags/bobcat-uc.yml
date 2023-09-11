@@ -180,6 +180,7 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 2.8.0
+      component: common
 - project: heatclient
   tags:
     bobcat-uc:
@@ -306,6 +307,7 @@ packages:
   tags:
     bobcat-uc:
       source-branch: 2.9.0
+      component: common
 - project: mistral-tempest-plugin
   tags:
     bobcat-uc:
