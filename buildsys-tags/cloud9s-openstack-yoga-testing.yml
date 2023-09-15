@@ -109,7 +109,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-ceilometermiddleware-2.4.1-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-cinder-20.3.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-cinder-20.3.1-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-cinder-tests-tempest-1.8.0-1.el9s
@@ -379,7 +379,7 @@ packages:
     cloud9s-openstack-yoga-testing: luajit-2.1.0-0.19beta3.el9s
 - project: magnum
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-magnum-14.1.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-magnum-14.1.1-1.el9s
 - project: magnum-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-magnum-tests-tempest-1.6.0-1.el9s
@@ -412,7 +412,7 @@ packages:
     cloud9s-openstack-yoga-testing: openstack-mistral-14.0.0-1.el9s
 - project: mistral-dashboard
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-mistral-ui-14.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-mistral-ui-14.0.1-1.el9s
 - project: mistral-extra
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-mistral-extra-11.3.0-1.el9s
