@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28196339_faeae7ba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-09-25T07:02:38Z",
+      "side": 1,
+      "message": "We have an issue with gnocchi \nrpm -qp --provides https://cbs.centos.org/kojifiles/packages/gnocchi/4.4.5/1.el9s/noarch/python3-gnocchi-4.4.5-1.el9s.noarch.rpm\npython-gnocchi \u003d 4.4.5-1.el9s\npython3-gnocchi \u003d 4.4.5-1.el9s\npython3.9-gnocchi \u003d 4.4.5-1.el9s\npython3.9dist(gnocchi) \u003d 0\npython3dist(gnocchi) \u003d 0",
+      "revId": "8f1999ca7adf2ce13a0bf2bb71e5cdb3daa506f1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
