@@ -831,28 +831,32 @@ packages:
   conf: rpmfactory-core
   component: cloudops
   maintainers:
-  - eglynn@redhat.com
-  - pkilambi@redhat.com
-  - mabaakou@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: gnocchi
   name: gnocchi
   conf: rpmfactory-core
   component: cloudops
   upstream: https://github.com/gnocchixyz/%(project)s
   maintainers:
-  - pkilambi@redhat.com
-  - mabaakou@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: aodh
   conf: rpmfactory-core
   component: cloudops
   maintainers:
-  - pkilambi@redhat.com
-  - mabaakou@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: panko
   conf: rpmfactory-core
   component: cloudops
   maintainers:
-  - pkilambi@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: heat
   conf: rpmfactory-core
   component: tripleo
@@ -1538,15 +1542,21 @@ packages:
   conf: rpmfactory-client
   upstream: https://github.com/gnocchixyz/python-%(project)s
   maintainers:
-  - pkilambi@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: aodhclient
   conf: rpmfactory-client
   maintainers:
-  - pkilambi@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: pankoclient
   conf: rpmfactory-client
   maintainers:
-  - pkilambi@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: monascaclient
   conf: rpmfactory-client
   maintainers:
@@ -1932,7 +1942,9 @@ packages:
   conf: rpmfactory-lib
   maintainers:
   - apevec@redhat.com
-  - pkilambi@redhat.com
+  - mrunge@redhat.com
+  - ykulkarn@redhat.com
+  - ekuvaja@redhat.com
 - project: magnumclient
   conf: rpmfactory-client
   maintainers:
@@ -2170,7 +2182,6 @@ packages:
   - lars@redhat.com
   - mmagr@redhat.com
   - mrunge@redhat.com
-  - pkilambi@redhat.com
 - project: kuryr
   name: python-kuryr-lib
   conf: rpmfactory-lib
