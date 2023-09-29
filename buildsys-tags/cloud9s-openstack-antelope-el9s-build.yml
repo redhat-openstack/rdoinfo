@@ -296,6 +296,9 @@ packages:
 - project: python-seqdiag
   buildsys-tags:
     cloud9s-openstack-antelope-el9s-build: python-seqdiag-3.0.0-4.el9s
+- project: python-setuptools_scm
+  buildsys-tags:
+    cloud9s-openstack-antelope-el9s-build: python-setuptools_scm-7.1.0-2.el9s
 - project: python-sh
   buildsys-tags:
     cloud9s-openstack-antelope-el9s-build: python-sh-1.14.1-2.el9s
