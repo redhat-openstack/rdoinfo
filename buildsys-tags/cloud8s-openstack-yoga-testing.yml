@@ -247,7 +247,7 @@ packages:
     cloud8s-openstack-yoga-testing: glpk-4.65-4.el8
 - project: gnocchi
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: gnocchi-4.4.5-1.el8
+    cloud8s-openstack-yoga-testing: gnocchi-4.4.5-2.el8
 - project: gnocchiclient
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-gnocchiclient-7.0.7-1.el8
@@ -547,7 +547,7 @@ packages:
     cloud8s-openstack-yoga-testing: openstack-octavia-10.1.0-1.el8
 - project: octavia-dashboard
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-octavia-ui-9.0.0-1.el8
+    cloud8s-openstack-yoga-testing: openstack-octavia-ui-9.0.1-1.el8
 - project: octavia-lib
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-octavia-lib-2.5.0-1.el8
