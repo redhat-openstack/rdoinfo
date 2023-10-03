@@ -41,6 +41,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 3.0.0
 - project: barbicanclient
   tags:
     bobcat-uc:
@@ -62,6 +63,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 1.10.0
 - project: cinderclient
   tags:
     bobcat-uc:
@@ -103,6 +105,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 0.20.0
 - project: designateclient
   tags:
     bobcat-uc:
@@ -123,6 +126,7 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 1.7.0
 - project: edpm-image-builder
   tags:
     bobcat-uc:
@@ -136,6 +140,7 @@ packages:
 - project: glance-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 0.7.0
 - project: glance_store
   tags:
     bobcat-uc:
@@ -176,6 +181,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.0.0
 - project: heat-translator
   tags:
     bobcat-uc:
@@ -220,6 +226,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.7.0
 - project: ironic-ui
   tags:
     bobcat-uc:
@@ -233,6 +240,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 0.13.0
 - project: keystoneauth1
   tags:
     bobcat-uc:
@@ -258,12 +266,14 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 0.15.1
 - project: magnum
   tags:
     bobcat-uc:
 - project: magnum-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.1.0
 - project: magnum-ui
   tags:
     bobcat-uc:
@@ -277,6 +287,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.0.0
 - project: manila-ui
   tags:
     bobcat-uc:
@@ -311,6 +322,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.2.0
 - project: mistralclient
   tags:
     bobcat-uc:
@@ -331,6 +343,7 @@ packages:
 - project: murano-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.7.0
 - project: muranoclient
   tags:
     bobcat-uc:
@@ -362,6 +375,7 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 5fad5e5a2dcefdada3911d8de068e986ba7e7600
 - project: networking-mlnx
   tags:
     bobcat-uc:
@@ -381,6 +395,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.5.0
 - project: neutron-vpnaas
   tags:
     bobcat-uc:
@@ -401,6 +416,7 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: d4a39ceb0f636de6a5b07b99a5a04a7a272dd398
 - project: octavia
   tags:
     bobcat-uc:
@@ -414,6 +430,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.4.1
 - project: octaviaclient
   tags:
     bobcat-uc:
@@ -930,6 +947,7 @@ packages:
 - project: sahara-tests
   tags:
     bobcat-uc:
+      source-branch: 0.18.0
 - project: saharaclient
   tags:
     bobcat-uc:
@@ -994,9 +1012,11 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 1.10.0
 - project: tempest
   tags:
     bobcat-uc:
+      source-branch: 3926608631111a0ec93b3c44129d0cb24d52edfa
 - project: tempestconf
   tags:
     bobcat-uc:
@@ -1016,6 +1036,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 2.2.0
 - project: troveclient
   tags:
     bobcat-uc:
@@ -1034,6 +1055,7 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 6.2.0
 - project: vitrageclient
   tags:
     bobcat-uc:
@@ -1044,9 +1066,11 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 3.0.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 5e55476a2eb94018abf530adf14b44122a299710
 - project: wsme
   tags:
     bobcat-uc:
@@ -1058,6 +1082,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     bobcat-uc:
+      source-branch: 1.7.0
 - project: zaqarclient
   tags:
     bobcat-uc:
