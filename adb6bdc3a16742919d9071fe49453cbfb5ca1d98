@@ -22,6 +22,30 @@
       },
       "revId": "adb6bdc3a16742919d9071fe49453cbfb5ca1d98",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d325500_5770e92c",
+        "filename": "tags/bobcat-uc.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-10-05T07:28:03Z",
+      "side": 1,
+      "message": "We tried to fix it with [1] but then preferred to pin [2] to unblock puppet promotion pipeline\n\n[1] https://review.opendev.org/c/x/packstack/+/893707\n[2] https://review.opendev.org/c/x/packstack/+/894179",
+      "parentUuid": "565f71f2_baa88acb",
+      "range": {
+        "startLine": 695,
+        "startChar": 21,
+        "endLine": 695,
+        "endChar": 27
+      },
+      "revId": "adb6bdc3a16742919d9071fe49453cbfb5ca1d98",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
