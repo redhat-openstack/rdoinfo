@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "565f71f2_baa88acb",
+        "filename": "tags/bobcat-uc.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 695,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-10-05T07:25:12Z",
+      "side": 1,
+      "message": "we are hitting the firewall issue with nova in packstack [1]\n\nhttps://github.com/redhat-openstack/packstack/blob/master/packstack/puppet/modules/packstack/manifests/nova/vncproxy.pp#L14C1-L18C6",
+      "range": {
+        "startLine": 695,
+        "startChar": 21,
+        "endLine": 695,
+        "endChar": 27
+      },
+      "revId": "adb6bdc3a16742919d9071fe49453cbfb5ca1d98",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
