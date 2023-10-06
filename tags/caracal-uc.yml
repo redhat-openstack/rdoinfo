@@ -1,1089 +1,1089 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    bobcat:
+    caracal-uc:
 - project: ansible-config_template
   tags:
-    bobcat:
+    caracal-uc:
       component: podified
 - project: ansible-role-atos-hsm
   tags:
-    bobcat:
+    caracal-uc:
       component: security
 - project: ansible-role-collect-logs
   tags:
-    bobcat:
+    caracal-uc:
 - project: ansible-role-collectd-config
   tags:
-    bobcat:
+    caracal-uc:
 - project: ansible-role-lunasa-hsm
   tags:
-    bobcat:
+    caracal-uc:
       component: security
 - project: ansible-role-thales-hsm
   tags:
-    bobcat:
+    caracal-uc:
       component: security
 - project: aodh
   tags:
-    bobcat:
+    caracal-uc:
 - project: aodhclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.3.0
 - project: automaton
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.2.0
 - project: barbican
   tags:
-    bobcat:
+    caracal-uc:
 - project: barbican-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.0.0
 - project: barbicanclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.6.1
 - project: castellan
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.3.0
 - project: ceilometer
   tags:
-    bobcat:
+    caracal-uc:
 - project: ceilometermiddleware
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.2.0
 - project: cinder
   tags:
-    bobcat:
+    caracal-uc:
 - project: cinder-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.10.0
 - project: cinderclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 9.4.0
 - project: cinderlib
   tags:
-    bobcat:
+    caracal-uc:
 - project: cliff
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.3.0
 - project: cloudkitty
   tags:
-    bobcat:
+    caracal-uc:
 - project: cloudkitty-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: cloudkittyclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.8.0
 - project: collectd-gnocchi
   tags:
-    bobcat:
+    caracal-uc:
 - project: cursive
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.2.3
 - project: debtcollector
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.5.0
 - project: designate
   tags:
-    bobcat:
+    caracal-uc:
 - project: designate-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: designate-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.20.0
 - project: designateclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.3.0
 - project: dib-utils
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.0.11
 - project: diskimage-builder
   tags:
-    bobcat:
+    caracal-uc:
 - project: dracclient
   tags:
-    bobcat:
+    caracal-uc:
 - project: ec2-api
   tags:
-    bobcat:
+    caracal-uc:
 - project: ec2api-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.7.0
 - project: edpm-image-builder
   tags:
-    bobcat:
+    caracal-uc:
 - project: futurist
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.4.1
 - project: glance
   tags:
-    bobcat:
+    caracal-uc:
 - project: glance-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.7.0
 - project: glance_store
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.6.1
 - project: glanceclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.4.0
 - project: glean
   tags:
-    bobcat:
+    caracal-uc:
 - project: gnocchi
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: stable/4.6
 - project: gnocchiclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 7.0.8
 - project: hacking
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 6.0.1
 - project: hardware
   tags:
-    bobcat:
+    caracal-uc:
 - project: heat
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: heat-agents
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: heat-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: heat-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.0.0
 - project: heat-translator
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.8.0
       component: common
 - project: heatclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.3.0
 - project: horizon
   tags:
-    bobcat:
+    caracal-uc:
 - project: ibmcclient
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic-inspector
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic-inspector-client
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.0.0
 - project: ironic-lib
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.5.0
 - project: ironic-prometheus-exporter
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic-python-agent
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic-python-agent-builder
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic-staging-drivers
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironic-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.7.0
 - project: ironic-ui
   tags:
-    bobcat:
+    caracal-uc:
 - project: ironicclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.4.0
 - project: keystone
   tags:
-    bobcat:
+    caracal-uc:
 - project: keystone-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.13.0
 - project: keystoneauth1
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.3.0
 - project: keystoneclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.2.0
 - project: keystonemiddleware
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 10.4.1
 - project: kolla
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: kuryr
   tags:
-    bobcat:
+    caracal-uc:
 - project: kuryr-kubernetes
   tags:
-    bobcat:
+    caracal-uc:
 - project: kuryr-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.15.1
 - project: magnum
   tags:
-    bobcat:
+    caracal-uc:
 - project: magnum-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.1.0
 - project: magnum-ui
   tags:
-    bobcat:
+    caracal-uc:
 - project: magnumclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.2.0
 - project: manila
   tags:
-    bobcat:
+    caracal-uc:
 - project: manila-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.0.0
 - project: manila-ui
   tags:
-    bobcat:
+    caracal-uc:
 - project: manilaclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.6.0
 - project: metalsmith
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.0.1
 - project: microversion-parse
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.0.1
 - project: mistral
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: mistral-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: mistral-extra
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: mistral-lib
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.9.0
       component: common
 - project: mistral-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.2.0
 - project: mistralclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.1.0
 - project: monascaclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.8.0
 - project: murano
   tags:
-    bobcat:
+    caracal-uc:
 - project: murano-agent
   tags:
-    bobcat:
+    caracal-uc:
 - project: murano-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: murano-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.7.0
 - project: muranoclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.7.0
 - project: networking-ansible
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-arista
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-bagpipe
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-baremetal
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-bgpvpn
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-bigswitch
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-generic-switch
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-l2gw
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-l2gw-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5fad5e5a2dcefdada3911d8de068e986ba7e7600
 - project: networking-mlnx
   tags:
-    bobcat:
+    caracal-uc:
 - project: networking-sfc
   tags:
-    bobcat:
+    caracal-uc:
 - project: neutron
   tags:
-    bobcat:
+    caracal-uc:
 - project: neutron-dynamic-routing
   tags:
-    bobcat:
+    caracal-uc:
 - project: neutron-lib
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.8.0
 - project: neutron-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.5.0
 - project: neutron-vpnaas
   tags:
-    bobcat:
+    caracal-uc:
 - project: neutronclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 11.0.0
 - project: nova
   tags:
-    bobcat:
+    caracal-uc:
 - project: novaclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 18.4.0
 - project: novajoin
   tags:
-    bobcat:
+    caracal-uc:
 - project: novajoin-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: d4a39ceb0f636de6a5b07b99a5a04a7a272dd398
 - project: octavia
   tags:
-    bobcat:
+    caracal-uc:
 - project: octavia-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: octavia-lib
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.3.0
 - project: octavia-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.4.1
 - project: octaviaclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.5.0
 - project: openstack-macros
   tags:
-    bobcat:
+    caracal-uc:
 - project: openstack-selinux
   tags:
-    bobcat:
+    caracal-uc:
 - project: openstackclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 6.3.0
 - project: openstacksdk
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.5.0
 - project: os-apply-config
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: os-brick
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 6.4.0
 - project: os-client-config
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.1.0
       component: clients
 - project: os-collect-config
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: os-faults
   tags:
-    bobcat:
+    caracal-uc:
 - project: os-ken
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.7.0
 - project: os-net-config
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: os-refresh-config
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: os-resource-classes
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.1.0
 - project: os-service-types
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.7.0
 - project: os-testr
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.0.0
 - project: os-traits
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.0.0
 - project: os-vif
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.2.0
 - project: os-win
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.9.0
 - project: osc-lib
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.8.1
 - project: osc-placement
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.2.0
 - project: oslo-cache
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.5.0
 - project: oslo-concurrency
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.2.0
 - project: oslo-config
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 9.2.0
 - project: oslo-context
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.2.0
 - project: oslo-db
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 14.1.0
 - project: oslo-i18n
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 6.1.0
 - project: oslo-limit
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.2.0
 - project: oslo-log
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.3.0
 - project: oslo-messaging
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 14.4.1
 - project: oslo-metrics
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.7.0
 - project: oslo-middleware
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.2.0
 - project: oslo-policy
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.2.1
 - project: oslo-privsep
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.2.0
 - project: oslo-reports
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.1.0
 - project: oslo-rootwrap
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 7.1.0
 - project: oslo-serialization
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.2.0
 - project: oslo-service
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.2.0
 - project: oslo-sphinx
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.2.0
 - project: oslo-utils
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 6.2.1
 - project: oslo-versionedobjects
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.2.0
 - project: oslo-vmware
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.2.0
 - project: oslotest
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.5.0
 - project: osprofiler
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.1.0
 - project: ovn-bgp-agent
   tags:
-    bobcat:
+    caracal-uc:
 - project: ovn-octavia-provider
   tags:
-    bobcat:
+    caracal-uc:
 - project: ovsdbapp
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.4.1
 - project: packstack
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: placement
   tags:
-    bobcat:
+    caracal-uc:
 - project: proliantutils
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.14.0
 - project: puppet-aodh
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-apache
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
-      source-branch: v11.1.0
+      source-branch: 48b6e04d8c06d234c6eda3e589497b5537efa827
 - project: puppet-archive
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 7c9734e3457982b3aa64c3f647a722e87d1b0ad1
 - project: puppet-barbican
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-ceilometer
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-ceph
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-cinder
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-concat
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: bb53e58babd9cd848b02cda4fe1b28f4203e0698
 - project: puppet-corosync
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 83cc0d7f6b9399ff1238d379eff129f75dfd6e92
 - project: puppet-designate
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-dns
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
-      source-branch: 10.1.0
+      source-branch: 93de238da7bfc17907aae0276deb953344267ac8
 - project: puppet-ec2api
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-etcd
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: e143c2d90a1154a958576af8930e3d10e1b25e54
 - project: puppet-firewall
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: b310fe6ba2a5c634304d25d3cf6d02c1bcf4ffe1
 - project: puppet-glance
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-gnocchi
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-haproxy
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: b90a36e962898eb6b1cca37bb12dd64b5df9590b
 - project: puppet-heat
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-horizon
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-inifile
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 5fc45079c949b47c94db0e0fc438c77e2b81f5e8
 - project: puppet-ironic
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-keystone
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-kmod
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
-      source-branch: v4.0.1
+      source-branch: e44dbc94097bf3bf0a21049cec2b4364368cce93
 - project: puppet-magnum
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-manila
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-memcached
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 8f0a98a8d68c05fd55f8cc76aa00a3a2aac22bae
 - project: puppet-mistral
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-module-data
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-murano
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-mysql
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 79b85708cd87d5bc314618fbd46ce2b9cc56da33
 - project: puppet-neutron
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-nova
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-nssdb
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-octavia
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-openstack_extras
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-openstacklib
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-oslo
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-ovn
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-placement
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-qdr
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-rabbitmq
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: ba728f5d3317117bb96de6895535d5965ca05c43
 - project: puppet-redis
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 589ca69ce2b7b8a0285ff05a4541df7bd05f3399
 - project: puppet-remote
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: c8444dff52794db7118b5695b41b67ccc900612f
 - project: puppet-rsyslog
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 2484786c5e1c6ec4f04ca4df4557957862fdbf16
 - project: puppet-sahara
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-ssh
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 575a7fe5d9d4436b5db414e2fae955c1cc96d932
 - project: puppet-stdlib
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
-      source-branch: v9.4.0
+      source-branch: 1e3884d99d7c67a572f3b5ef24ad3418d5724873
 - project: puppet-swift
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-sysctl
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: e5ae64c0aa2dfa4fa94140e6867c4dcc846e29f1
 - project: puppet-tempest
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-trove
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-vcsrepo
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
       source-branch: e5d9e4c8ce059e369f5c5bbd4b49f1fc908feae1
 - project: puppet-vitrage
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-vswitch
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-watcher
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: puppet-xinetd
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
-      source-branch: v3.4.1
+      source-branch: d7be36645a7490b60aa85e826de5d2885fbdd026
 - project: puppet-zaqar
   tags:
-    bobcat:
+    caracal-uc:
       component: puppet
 - project: pycadf
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.1.1
 - project: rally
   tags:
-    bobcat:
+    caracal-uc:
 - project: rally-openstack
   tags:
-    bobcat:
+    caracal-uc:
 - project: reno
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.0.0
 - project: requestsexceptions
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.4.0
 - project: rsd-lib
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.2.0
 - project: rsdclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.0.2
 - project: sahara
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-image-elements
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-plugin-ambari
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-plugin-cdh
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-plugin-mapr
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-plugin-spark
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-plugin-storm
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-plugin-vanilla
   tags:
-    bobcat:
+    caracal-uc:
 - project: sahara-tests
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.18.0
 - project: saharaclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.2.0
 - project: scciclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.14.0
 - project: senlin
   tags:
-    bobcat:
+    caracal-uc:
 - project: senlinclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.1.0
 - project: shade
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.33.0
 - project: sphinx-feature-classification
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.1.0
 - project: stevedore
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.1.0
 - project: sushy
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.5.1
 - project: sushy-oem-idrac
   tags:
-    bobcat:
+    caracal-uc:
 - project: sushy-tools
   tags:
-    bobcat:
+    caracal-uc:
 - project: swift
   tags:
-    bobcat:
+    caracal-uc:
 - project: swiftclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.4.0
 - project: tacker
   tags:
-    bobcat:
+    caracal-uc:
 - project: tackerclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.14.0
 - project: tap-as-a-service
   tags:
-    bobcat:
+    caracal-uc:
 - project: taskflow
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5.4.0
 - project: tcib
   tags:
-    bobcat:
+    caracal-uc:
 - project: telemetry-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.10.0
 - project: tempest
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 36.0.0
 - project: tempestconf
   tags:
-    bobcat:
+    caracal-uc:
 - project: tobiko
   tags:
-    bobcat:
+    caracal-uc:
 - project: tooz
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.2.0
 - project: trove
   tags:
-    bobcat:
+    caracal-uc:
 - project: trove-dashboard
   tags:
-    bobcat:
+    caracal-uc:
 - project: trove-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.2.0
 - project: troveclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 8.2.1
 - project: virtualbmc
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.1.0
 - project: vitrage
   tags:
-    bobcat:
+    caracal-uc:
 - project: vitrage-dashboard
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.0.0
 - project: vitrage-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 6.2.0
 - project: vitrageclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 4.8.0
 - project: watcher
   tags:
-    bobcat:
+    caracal-uc:
 - project: watcher-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 3.0.0
 - project: whitebox-neutron-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 5e55476a2eb94018abf530adf14b44122a299710
 - project: wsme
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 0.12.1
 - project: zaqar
   tags:
-    bobcat:
+    caracal-uc:
       component: common
 - project: zaqar-tempest-plugin
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 1.7.0
 - project: zaqarclient
   tags:
-    bobcat:
+    caracal-uc:
       source-branch: 2.6.0
