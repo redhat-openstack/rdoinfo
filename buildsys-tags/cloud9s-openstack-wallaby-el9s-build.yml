@@ -401,3 +401,6 @@ packages:
 - project: rubygem-mocha
   buildsys-tags:
     cloud9s-openstack-wallaby-el9s-build: rubygem-mocha-1.9.0-4.el9s
+- project: scapy
+  buildsys-tags:
+    cloud9s-openstack-wallaby-el9s-build: scapy-2.5.0-4.el9s
