@@ -32,14 +32,14 @@ files which contains buildsys-tags and tags info for packages.
   tag in CentOS Build System (CBS). In this dir, all files have specific convention:
   cloud `centOS release number` -openstack- `release` - `phase` where:
 
-    * *centOS release number* - since Train release, it will be 7 or 8
-    * *release*, official Openstack release name as ussuri, train, stein, etc.
+    * *centOS release number* - since Yoga release, it's be 9s only
+    * *release* - official Openstack release name as Antelope, Bobcat, etc.
       Available Openstack release names you can find here [1]_.
     * *phase* - name of fallowing phase:
         * *candidate* phase is assigned to packages to be rebuilt in CBS but not pushed
           to any RDO repository.
-        * *el7-build* (only available for Rocky and newer releases) and
-          *el8-build* (only available for Ussuri and newer releases) is assigned to packages
+        * *el8s-build* (only available for Train to Yoga) and
+          *el9s-build* (only available for Yoga and newer releases) is assigned to packages
           that only required to build other packages but are not a runtime requirement
           for any other package.
         * *testing*  means that the package is used in deployments using RDO Trunk repo
@@ -85,25 +85,28 @@ For `rdo.yaml` file:
 
     release:
     ...
-    - name: train
+    - name: caracal
+      status: development
       branch: rpm-master
+      identifier: "2024.1"
       tags_map: separated_buildreqs
       repos:
-      - name: el7
-        buildsys: cbs/cloud7-openstack-train-el7
+      - name: el9s
+        buildsys: cbs/cloud9s-openstack-caracal-el9s
         buildsys-tags:
-        - cloud7-openstack-train-el7-build
-        - cloud7-openstack-train-candidate
-        - cloud7-openstack-train-testing
-        - cloud7-openstack-train-release
+        - cloud9s-openstack-caracal-el9s-build
+        - cloud9s-openstack-caracal-candidate
+        - cloud9s-openstack-caracal-testing
         distrepos:
-        - name: RDO Train el7
-          url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-train/
-        - name: CentOS 7 Base
-          url: http://mirror.centos.org/centos/7/os/x86_64/
-        - name: CentOS 7 Updates
-          url: http://mirror.centos.org/centos/7/updates/x86_64/
-        - name: CentOS 7 Extras
+        - name: RDO Caracal el9s
+          url: http://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-caracal/
+        - name: CentOS Stream 9 BaseOS
+          url: http://mirror.stream.centos.org/9-stream/BaseOS/x86_64/os/
+        - name: CentOS Stream 9 AppStream
+          url: http://mirror.stream.centos.org/9-stream/AppStream/x86_64/os/
+        - name: CentOS Stream 9 HighAvailability
+          url: http://mirror.stream.centos.org/9-stream/HighAvailability/x86_64/os/
+        - name: CentOS Stream 9 CRB
     ...
     package-default:
       name: python-%(project)s
@@ -111,14 +114,10 @@ For `rdo.yaml` file:
       patches: http://review.rdoproject.org/r/openstack/%(project)s.git
       master-distgit: https://github.com/rdo-packages/%(project)s-distgit.git
       tags:
-        ussuri-uc:
-        ussuri:
-        train:
-        stein:
-        rocky:
-        queens:
-        pike:
-        ocata:
+        caracal-uc:
+        bobcat:
+        antelope:
+        zed:
     ...
     package-configs:
       somepackage:
@@ -140,7 +139,6 @@ For `rdo.yaml` file:
     components:
     - name: common
     - name: compute
-    - name: tripleo
 
 
 Following attributes are assigned to `rdo.yaml` file:
