@@ -372,7 +372,7 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 
 - name: stein
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -393,7 +393,7 @@ releases:
     - name: CentOS 7 Extras
       url: http://mirror.centos.org/centos/7/extras/x86_64/
 - name: rocky
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
