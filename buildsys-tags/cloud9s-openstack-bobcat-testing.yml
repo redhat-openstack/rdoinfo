@@ -20,27 +20,90 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: ansible-collection-containers-podman-1.10.1-2.el9s
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-collections-openstack-2.1.0-1.el9s
+- project: ansible-config_template
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-config_template-2.0.0-1.el9s
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: openstack-ansible-core-2.14.2-4.1.el9s
+- project: ansible-role-collect-logs
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-role-collect-logs-1.5.0-1.el9s
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-role-collectd-config-0.0.2-1.el9s
+- project: aodh
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-aodh-17.0.0-1.el9s
+- project: aodhclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-aodhclient-3.3.0-1.el9s
 - project: argon2
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: argon2-20171227-7.el9s
+- project: automaton
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-automaton-3.2.0-1.el9s
+- project: barbican
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-barbican-17.0.0-1.el9s
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-barbican-tests-tempest-3.0.0-1.el9s
+- project: barbicanclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-barbicanclient-5.6.1-1.el9s
 - project: blosc
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: blosc-1.21.0-1.el9s
 - project: bridge-utils
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: bridge-utils-1.7.1-2.el9s
+- project: castellan
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-castellan-4.3.0-1.el9s
 - project: catch1
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: catch1-1.12.2-8.el9s
+- project: ceilometer
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ceilometer-21.0.0-1.el9s
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ceilometermiddleware-3.2.0-1.el9s
+- project: cinder
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-cinder-23.0.0-1.el9s
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-cinder-tests-tempest-1.10.0-1.el9s
+- project: cinderclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-cinderclient-9.4.0-1.el9s
+- project: cinderlib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-cinderlib-5.1.0-1.el9s
 - project: ck
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: ck-0.7.0-5.el9s
 - project: cliff
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-cliff-3.7.0-1.el9s
+    cloud9s-openstack-bobcat-testing: python-cliff-4.3.0-1.el9s
+- project: cloudkitty
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-cloudkitty-19.0.0-1.el9s
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-cloudkitty-ui-17.0.0-1.el9s
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-cloudkittyclient-4.8.0-1.el9s
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-collectd-gnocchi-1.7.1-1.el9s
 - project: cpp-hocon
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: cpp-hocon-0.3.0-4.el9s
@@ -50,12 +113,45 @@ packages:
 - project: crudini
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: crudini-0.9.3-4.el9s
+- project: cursive
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-cursive-0.2.3-1.el9s
+- project: debtcollector
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-debtcollector-2.5.0-1.el9s
+- project: designate
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-designate-17.0.0-1.el9s
+- project: designate-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-designate-ui-17.0.0-1.el9s
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-designate-tests-tempest-0.20.0-1.el9s
+- project: designateclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-designateclient-5.3.0-1.el9s
+- project: dib-utils
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: dib-utils-0.0.11-1.el9s
 - project: dibbler
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: dibbler-1.0.1-11.el9s
+- project: diskimage-builder
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: diskimage-builder-3.31.0-1.el9s
+- project: dracclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-dracclient-8.0.0-1.el9s
 - project: dumb-init
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: dumb-init-1.2.5-2.el9s
+- project: ec2-api
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ec2-api-17.0.0-1.el9s
+- project: ec2api-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ec2api-tests-tempest-1.7.0-1.el9s
 - project: etcd
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: etcd-3.4.14-1.el9s
@@ -67,10 +163,28 @@ packages:
     cloud9s-openstack-bobcat-testing: future-0.18.2-9.el9s
 - project: futurist
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-futurist-2.3.0-3.el9s
+    cloud9s-openstack-bobcat-testing: python-futurist-2.4.1-1.el9s
 - project: gflags
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: gflags-2.2.2-8.el9s
+- project: glance
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-glance-27.0.0-1.el9s
+- project: glance-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-glance-tests-tempest-0.7.0-1.el9s
+- project: glance_store
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-glance-store-4.6.1-1.el9s
+- project: glanceclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-glanceclient-4.4.0-1.el9s
+- project: gnocchi
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: gnocchi-4.6.0-1.el9s
+- project: gnocchiclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-gnocchiclient-7.0.8-1.el9s
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: golang-github-vbatts-tar-split-0.11.2-1.el9s
@@ -92,18 +206,105 @@ packages:
 - project: gv
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: gv-3.7.4-27.el9s
+- project: hacking
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-hacking-6.0.1-1.el9s
+- project: hardware
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-hardware-0.30.0-1.el9s
 - project: hdf5
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: hdf5-1.10.6-5.el9s
+- project: heat
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-heat-21.0.0-1.el9s
+- project: heat-agents
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-heat-agents-7.0.0-1.el9s
 - project: heat-cfntools
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: heat-cfntools-1.4.2-15.el9s
+- project: heat-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-heat-ui-10.0.0-1.el9s
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-heat-tests-tempest-2.0.0-1.el9s
+- project: heat-translator
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-heat-translator-2.8.0-1.el9s
+- project: heatclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-heatclient-3.3.0-1.el9s
 - project: hiera
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: hiera-3.7.0-2.el9s
+- project: horizon
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-django-horizon-23.3.0-1.el9s
+- project: ibmcclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ibmcclient-0.2.5.1-1.el9s
+- project: ironic
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ironic-23.0.0-1.el9s
+- project: ironic-inspector
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ironic-inspector-11.7.0-1.el9s
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ironic-inspector-client-5.0.0-1.el9s
+- project: ironic-lib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ironic-lib-5.5.0-1.el9s
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ironic-prometheus-exporter-4.2.1-1.el9s
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ironic-python-agent-9.7.0-1.el9s
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ironic-python-agent-builder-5.2.0-1.el9s
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ironic-staging-drivers-0.17.0-1.el9s
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ironic-tests-tempest-2.7.0-1.el9s
+- project: ironic-ui
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-ironic-ui-6.2.1-1.el9s
+- project: ironicclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ironicclient-5.4.0-1.el9s
 - project: jsoncpp
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: jsoncpp-1.9.4-4.el9s
+- project: keystone
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-keystone-24.0.0-1.el9s
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-keystone-tests-tempest-0.13.0-1.el9s
+- project: keystoneauth1
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-keystoneauth1-5.3.0-1.el9s
+- project: keystoneclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-keystoneclient-5.2.0-1.el9s
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-keystonemiddleware-10.4.1-1.el9s
+- project: kuryr
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-kuryr-lib-2.8.0-1.el9s
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-kuryr-kubernetes-9.0.0-1.el9s
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-kuryr-tests-tempest-0.15.1-1.el9s
 - project: leatherman
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: leatherman-1.12.6-3.el9s
@@ -140,30 +341,477 @@ packages:
 - project: luajit
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: luajit-2.1.0-0.19beta3.el9s
+- project: magnum
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-magnum-17.0.1-1.el9s
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-magnum-tests-tempest-2.1.0-1.el9s
+- project: magnum-ui
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-magnum-ui-13.0.0-1.el9s
+- project: magnumclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-magnumclient-4.2.0-1.el9s
+- project: manila
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-manila-17.0.0-1.el9s
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-manila-tests-tempest-2.0.0-1.el9s
+- project: manila-ui
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-manila-ui-10.0.0-1.el9s
+- project: manilaclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-manilaclient-4.6.0-1.el9s
+- project: metalsmith
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-metalsmith-2.0.1-1.el9s
+- project: microversion-parse
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-microversion-parse-1.0.1-1.el9s
+- project: mistral
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-mistral-17.0.0-1.el9s
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-mistral-ui-17.0.0-1.el9s
+- project: mistral-extra
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-mistral-extra-13.1.0-1.el9s
+- project: mistral-lib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-mistral-lib-2.9.0-1.el9s
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-mistral-tests-tempest-2.2.0-1.el9s
+- project: mistralclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-mistralclient-5.1.0-1.el9s
+- project: monascaclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-monascaclient-2.8.0-1.el9s
+- project: murano
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-murano-16.0.0-1.el9s
+- project: murano-agent
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-murano-agent-12.0.0-1.el9s
+- project: murano-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-murano-ui-16.0.0-1.el9s
+- project: murano-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-murano-tests-tempest-2.7.0-1.el9s
+- project: muranoclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-muranoclient-2.7.0-1.el9s
+- project: networking-ansible
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-ansible-5.0.0-1.el9s
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-bagpipe-19.0.0-1.el9s
+- project: networking-baremetal
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-baremetal-6.2.0-1.el9s
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-bgpvpn-19.0.0-1.el9s
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-generic-switch-7.2.0-1.el9s
+- project: networking-l2gw
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-l2gw-19.0.0-1.el9s
+- project: networking-mlnx
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-mlnx-16.0.0-1.el9s
+- project: networking-sfc
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-sfc-17.0.0-1.el9s
+- project: neutron
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-neutron-23.0.0-1.el9s
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-neutron-dynamic-routing-23.0.0-1.el9s
+- project: neutron-lib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-neutron-lib-3.8.0-1.el9s
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-neutron-tests-tempest-2.5.0-1.el9s
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-neutron-vpnaas-23.0.0-1.el9s
+- project: neutronclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-neutronclient-11.0.0-1.el9s
+- project: nova
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-nova-28.0.0-1.el9s
+- project: novaclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-novaclient-18.4.0-1.el9s
+- project: novajoin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-novajoin-1.3.0-1.el9s
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: novnc-1.3.0-1.el9s
+- project: octavia
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-octavia-13.0.0-1.el9s
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-octavia-ui-12.0.0-1.el9s
+- project: octavia-lib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-octavia-lib-3.3.0-1.el9s
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-octavia-tests-tempest-2.4.1-1.el9s
+- project: octaviaclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-octaviaclient-3.5.0-1.el9s
 - project: openpgm
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: openpgm-5.2.122-26.el9s
 - project: openstack-network-scripts
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: openstack-network-scripts-10.11.1-4.el9s
+- project: openstack-selinux
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-selinux-0.8.36-1.el9s
+- project: openstackclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-openstackclient-6.3.0-1.el9s
+- project: openstacksdk
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-openstacksdk-1.5.0-1.el9s
+- project: os-apply-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: os-apply-config-13.1.0-1.el9s
+- project: os-brick
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-brick-6.4.0-1.el9s
+- project: os-client-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-client-config-2.1.0-1.el9s
+- project: os-collect-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: os-collect-config-13.1.0-1.el9s
+- project: os-faults
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-faults-0.2.7-2
+- project: os-ken
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-ken-2.7.0-1.el9s
+- project: os-net-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: os-net-config-16.0.0-1.el9s
+- project: os-refresh-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: os-refresh-config-13.1.0-1.el9s
+- project: os-resource-classes
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-resource-classes-1.1.0-1.el9s
+- project: os-service-types
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-service-types-1.7.0-3.el9s
+- project: os-testr
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-testr-3.0.0-1.el9s
+- project: os-traits
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-traits-3.0.0-1.el9s
+- project: os-vif
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-vif-3.2.0-1.el9s
+- project: os-win
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-os-win-5.9.0-1.el9s
+- project: osc-lib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-osc-lib-2.8.1-1.el9s
+- project: osc-placement
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-osc-placement-4.2.0-1.el9s
+- project: oslo-cache
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-cache-3.5.0-1.el9s
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-concurrency-5.2.0-1.el9s
+- project: oslo-config
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-config-9.2.0-1.el9s
+- project: oslo-context
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-context-5.2.0-1.el9s
+- project: oslo-db
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-db-14.1.0-1.el9s
+- project: oslo-i18n
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-i18n-6.1.0-1.el9s
+- project: oslo-limit
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-limit-2.2.0-1.el9s
+- project: oslo-log
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-log-5.3.0-1.el9s
+- project: oslo-messaging
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-messaging-14.4.1-1.el9s
+- project: oslo-metrics
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-metrics-0.7.0-1.el9s
+- project: oslo-middleware
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-middleware-5.2.0-1.el9s
+- project: oslo-policy
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-policy-4.2.1-1.el9s
+- project: oslo-privsep
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-privsep-3.2.0-1.el9s
+- project: oslo-reports
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-reports-3.1.0-1.el9s
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-rootwrap-7.1.0-1.el9s
+- project: oslo-serialization
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-serialization-5.2.0-1.el9s
+- project: oslo-service
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-service-3.2.0-1.el9s
 - project: oslo-sphinx
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-oslo-sphinx-4.18.0-11.el9s
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-upgradecheck-2.2.0-1.el9s
+- project: oslo-utils
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-utils-6.2.1-1.el9s
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-versionedobjects-3.2.0-1.el9s
+- project: oslo-vmware
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-oslo-vmware-4.2.0-1.el9s
 - project: oslotest
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-oslotest-4.4.1-3.el9s
+    cloud9s-openstack-bobcat-testing: python-oslotest-4.5.0-1.el9s
+- project: osprofiler
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-osprofiler-4.1.0-1.el9s
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ovn-bgp-agent-1.0.0-1.el9s
+- project: ovn-octavia-provider
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ovn-octavia-provider-5.0.0-1.el9s
+- project: ovsdbapp
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-ovsdbapp-2.4.1-1.el9s
+- project: packstack
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-packstack-23.0.0-0.1.0rc1.el9s
+- project: placement
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-placement-10.0.0-1.el9s
+- project: proliantutils
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-proliantutils-2.14.0-1.el9s
 - project: protobuf
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: protobuf-3.19.0-2.el9s
 - project: puppet
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: puppet-7.16.0-1.el9s
+- project: puppet-aodh
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-aodh-23.0.0-1.el9s
+- project: puppet-apache
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-apache-11.1.0-1.el9s
+- project: puppet-archive
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-archive-7.0.1-0.1.0rc0.68bea2dgit.el9s
+- project: puppet-barbican
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-barbican-23.0.0-1.el9s
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-ceilometer-23.0.0-1.el9s
+- project: puppet-cinder
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-cinder-23.0.0-1.el9s
+- project: puppet-concat
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-concat-9.0.0-1.bb53e58git.el9s
+- project: puppet-corosync
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-corosync-8.2.1-0.4.0rc0.83cc0d7git.el9s
+- project: puppet-designate
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-designate-23.0.0-1.el9s
+- project: puppet-dns
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-dns-10.1.0-1.el9s
+- project: puppet-ec2api
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-ec2api-23.0.0-1.el9s
+- project: puppet-etcd
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-etcd-1.12.3-1.el9s
+- project: puppet-firewall
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-firewall-7.0.2-1.el9s
+- project: puppet-glance
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-glance-23.0.0-1.el9s
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-gnocchi-23.0.0-1.el9s
+- project: puppet-haproxy
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-haproxy-7.2.0-1.b90a36egit.el9s
+- project: puppet-heat
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-heat-23.0.0-1.el9s
+- project: puppet-horizon
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-horizon-23.0.0-1.el9s
+- project: puppet-inifile
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-inifile-6.1.0-1.5fc4507git.el9s
+- project: puppet-ironic
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-ironic-23.0.0-1.el9s
+- project: puppet-keystone
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-keystone-23.0.0-1.el9s
+- project: puppet-kmod
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-kmod-4.0.1-1.el9s
+- project: puppet-magnum
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-magnum-23.0.0-1.el9s
+- project: puppet-manila
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-manila-23.0.0-1.el9s
+- project: puppet-memcached
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-memcached-8.2.0-1.8f0a98agit.el9s
+- project: puppet-mistral
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-mistral-23.0.0-1.el9s
+- project: puppet-module-data
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-module-data-0.5.1-1.28dafcegit.el9s
+- project: puppet-murano
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-murano-23.0.0-1.el9s
+- project: puppet-mysql
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-mysql-15.0.0-1.79b8570git.el9s
+- project: puppet-neutron
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-neutron-23.0.0-1.el9s
+- project: puppet-nova
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-nova-23.0.0-1.el9s
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
+- project: puppet-octavia
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-octavia-23.0.0-1.el9s
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-openstack_extras-23.0.0-1.el9s
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-openstacklib-23.0.0-1.el9s
+- project: puppet-oslo
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-oslo-23.0.0-1.el9s
+- project: puppet-ovn
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-ovn-23.0.0-1.el9s
+- project: puppet-placement
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-placement-10.0.0-1.el9s
+- project: puppet-qdr
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-qdr-12.0.0-1.el9s
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-rabbitmq-13.0.1-0.1.0rc0.ba728f5git.el9s
+- project: puppet-redis
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-redis-9.1.1-0.1.0rc0.589ca69git.el9s
+- project: puppet-remote
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-remote-10.0.0-1.7420908git.el9s
+- project: puppet-rsync
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-rsync-1.2.0-1.c8444dfgit.el9s
+- project: puppet-rsyslog
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-rsyslog-7.0.2-0.1.0rc0.2484786git.el9s
+- project: puppet-sahara
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-sahara-23.0.0-1.el9s
+- project: puppet-ssh
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-ssh-11.0.0-1.575a7fegit.el9s
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-stdlib-9.4.0-1.el9s
+- project: puppet-swift
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-swift-23.0.0-1.el9s
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-sysctl-0.0.12-2.847ec1cgit.el9s
+- project: puppet-tempest
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-tempest-23.0.0-1.el9s
+- project: puppet-trove
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-trove-23.0.0-1.el9s
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-vcsrepo-6.1.0-1.e5d9e4cgit.el9s
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-vitrage-13.0.0-1.el9s
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-vswitch-19.0.0-1.el9s
+- project: puppet-watcher
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-watcher-23.0.0-1.el9s
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-xinetd-3.4.1-1.el9s
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: puppet-zaqar-23.0.0-1.el9s
 - project: pyOpenSSL
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: pyOpenSSL-20.0.1-2.el9s
+- project: pycadf
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-pycadf-3.1.1-1.el9s
 - project: pydot
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: pydot-1.4.2-1.el9s
@@ -1106,12 +1754,30 @@ packages:
 - project: qpid-proton
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: qpid-proton-0.35.0-2.el9s
+- project: rally
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-rally-3.4.0-1.el9s
+- project: rally-openstack
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-rally-plugins-2.3.0-1.el9s
 - project: rdo-openvswitch
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: rdo-openvswitch-3.1-3.el9s
 - project: re2
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: re2-20190801-9.el9s
+- project: reno
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-reno-4.0.0-1.el9s
+- project: requestsexceptions
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-requestsexceptions-1.4.0-3.el9s
+- project: rsd-lib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-rsd-lib-1.2.0-1.el9s
+- project: rsdclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-rsdclient-1.0.2-1.el9s
 - project: ruby-augeas
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: ruby-augeas-0.5.0-27.el9s
@@ -1142,15 +1808,75 @@ packages:
 - project: rubygem-thor
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: rubygem-thor-1.1.0-2.el9s
+- project: sahara
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-sahara-19.0.0-1.el9s
+- project: sahara-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-sahara-ui-19.0.0-1.el9s
+- project: sahara-image-elements
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: sahara-image-elements-19.0.0-1.el9s
+- project: sahara-plugin-ambari
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sahara-plugin-ambari-10.0.0-1.el9s
+- project: sahara-plugin-cdh
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sahara-plugin-cdh-10.0.0-1.el9s
+- project: sahara-plugin-mapr
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sahara-plugin-mapr-10.0.0-1.el9s
+- project: sahara-plugin-spark
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sahara-plugin-spark-10.0.0-1.el9s
+- project: sahara-plugin-storm
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sahara-plugin-storm-10.0.0-1.el9s
+- project: sahara-plugin-vanilla
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sahara-plugin-vanilla-10.0.0-1.el9s
+- project: sahara-tests
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-sahara-tests-0.18.0-1.el9s
+- project: saharaclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-saharaclient-4.2.0-1.el9s
+- project: scciclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-scciclient-0.14.0-1.el9s
+- project: senlin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-senlin-16.0.0-1.el9s
+- project: senlinclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-senlinclient-3.1.0-1.el9s
+- project: shade
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-shade-1.33.0-1.el9s
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sphinx-feature-classification-1.1.0-1.el9s
 - project: sshpass
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: sshpass-1.09-1.el9s
 - project: stevedore
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-stevedore-3.3.0-2.el9s
+    cloud9s-openstack-bobcat-testing: python-stevedore-5.1.0-1.el9s
 - project: subunit
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: subunit-1.4.0-6.el9s
+- project: sushy
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sushy-4.5.1-1.el9s
+- project: sushy-tools
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sushy-tools-0.21.1-1.el9s
+- project: swift
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-swift-2.32.0-1.el9s
+- project: swiftclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-swiftclient-4.4.0-1.el9s
 - project: sympy
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: sympy-1.11.1-2.el9s
@@ -1160,9 +1886,72 @@ packages:
 - project: sysfsutils
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: sysfsutils-2.1.1-1.el9s
+- project: tacker
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-tacker-10.0.0-1.el9s
+- project: tackerclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-tackerclient-1.14.0-1.el9s
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-tap-as-a-service-12.0.0-1.el9s
+- project: taskflow
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-taskflow-5.4.0-1.el9s
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-telemetry-tests-tempest-1.10.0-1.el9s
+- project: tempest
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-tempest-36.0.0-1.el9s
+- project: tempestconf
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-tempestconf-3.4.0-1.el9s
+- project: tobiko
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-tobiko-0.6.14-1.el9s
+- project: tooz
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-tooz-4.2.0-1.el9s
+- project: trove
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-trove-20.0.0-1.el9s
+- project: trove-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-trove-ui-21.0.0-1.el9s
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-trove-tests-tempest-2.2.0-1.el9s
+- project: troveclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-troveclient-8.2.1-1.el9s
 - project: uwsgi
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: uwsgi-2.0.18-16.el9s
+- project: virtualbmc
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-virtualbmc-3.1.0-1.el9s
+- project: vitrage
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-vitrage-11.0.0-1.el9s
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-vitrage-ui-5.0.0-0.1.0rc1.el9s
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-vitrage-tests-tempest-6.2.0-1.el9s
+- project: vitrageclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-vitrageclient-4.8.0-1.el9s
+- project: watcher
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-watcher-11.0.0-1.el9s
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-watcher-tests-tempest-3.0.0-1.el9s
+- project: wsme
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-wsme-0.12.1-1.el9s
 - project: wyhash
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: wyhash-final1-4.el9s
@@ -1172,6 +1961,15 @@ packages:
 - project: yaml-cpp
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: yaml-cpp-0.6.3-4.el9s
+- project: zaqar
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-zaqar-17.0.0-1.el9s
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-zaqar-tests-tempest-1.7.0-1.el9s
+- project: zaqarclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-zaqarclient-2.6.0-1.el9s
 - project: zeromq
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: zeromq-4.3.4-1.el9s
