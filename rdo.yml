@@ -371,49 +371,6 @@ releases:
     - name: CentOS Stream 8 PowerTools
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 
-- name: stein
-  status: extended_maintenance
-  branch: rpm-master
-  tags_map: separated_buildreqs
-  repos:
-  - name: el7
-    buildsys: cbs/cloud7-openstack-stein-el7
-    buildsys-tags:
-    - cloud7-openstack-stein-el7-build
-    - cloud7-openstack-stein-candidate
-    - cloud7-openstack-stein-testing
-    - cloud7-openstack-stein-release
-    distrepos:
-    - name: RDO Stein el7
-      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-stein/
-    - name: CentOS 7 Base
-      url: http://mirror.centos.org/centos/7/os/x86_64/
-    - name: CentOS 7 Updates
-      url: http://mirror.centos.org/centos/7/updates/x86_64/
-    - name: CentOS 7 Extras
-      url: http://mirror.centos.org/centos/7/extras/x86_64/
-- name: rocky
-  status: extended_maintenance
-  branch: rpm-master
-  tags_map: separated_buildreqs
-  repos:
-  - name: el7
-    buildsys: cbs/cloud7-openstack-rocky-el7
-    buildsys-tags:
-    - cloud7-openstack-rocky-el7-build
-    - cloud7-openstack-rocky-candidate
-    - cloud7-openstack-rocky-testing
-    - cloud7-openstack-rocky-release
-    distrepos:
-    - name: RDO Rocky el7
-      url: http://mirror.centos.org/centos/7/cloud/x86_64/openstack-rocky/
-    - name: CentOS 7 Base
-      url: http://mirror.centos.org/centos/7/os/x86_64/
-    - name: CentOS 7 Updates
-      url: http://mirror.centos.org/centos/7/updates/x86_64/
-    - name: CentOS 7 Extras
-      url: http://mirror.centos.org/centos/7/extras/x86_64/
-
 # default template for 'packages' infromation below
 package-default:
   name: python-%(project)s
@@ -425,8 +382,6 @@ package-default:
     ussuri-uc:
     ussuri:
     train:
-    stein:
-    rocky:
 # custom templates for 'packages' information below, reducing
 # redundant information in this file; inherits package-default
 package-configs:
@@ -497,8 +452,6 @@ package-configs:
       ussuri-uc:
       ussuri:
       train:
-      stein:
-      rocky:
   rpmfactory-tempest-plugin:
     # Name and Project will be defined.
     name: '%(project)s'
@@ -518,8 +471,6 @@ package-configs:
       ussuri-uc:
       ussuri:
       train:
-      stein:
-      rocky:
   rpm-packaging:
     name: '%(project)s'
     upstream: https://opendev.org/openstack/%(project)s
@@ -539,10 +490,6 @@ package-configs:
       ussuri:
         distro-branch: master
       train:
-        distro-branch: master
-      stein:
-        distro-branch: master
-      rocky:
         distro-branch: master
 packages:
 # OpenStack Puppet Modules
