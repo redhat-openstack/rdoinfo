@@ -425,6 +425,9 @@ packages:
 - project: networking-l2gw
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-networking-l2gw-19.0.0-1.el9s
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s
 - project: networking-mlnx
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-networking-mlnx-16.0.0-1.el9s
@@ -458,6 +461,9 @@ packages:
 - project: novajoin
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-novajoin-1.3.0-1.el9s
+- project: novajoin-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-novajoin-tests-tempest-0.0.3-1.1.b2e5485git.el9s
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: novnc-1.3.0-1.el9s
