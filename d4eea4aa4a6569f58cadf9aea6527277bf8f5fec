@@ -50,6 +50,23 @@
       "message": "waiting for promotion of packstack with https://review.rdoproject.org/r/c/testproject/+/50494 and then recheck",
       "revId": "d4eea4aa4a6569f58cadf9aea6527277bf8f5fec",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "088cabcb_390320ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-10-18T08:29:52Z",
+      "side": 1,
+      "message": "I\u0027m ninja merging this as this update has chicken and egg problem between puppet-firewall update and packstack patch to support it. Currently, it\u0027s blocking puppet promotion, so i will force merge this.",
+      "revId": "d4eea4aa4a6569f58cadf9aea6527277bf8f5fec",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
