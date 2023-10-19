@@ -316,7 +316,7 @@ packages:
     cloud9s-openstack-zed-testing: jsoncpp-1.9.4-4.el9s
 - project: keystone
   buildsys-tags:
-    cloud9s-openstack-zed-testing: openstack-keystone-22.0.0-1.el9s
+    cloud9s-openstack-zed-testing: openstack-keystone-22.0.1-1.el9s
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-keystone-tests-tempest-0.10.0-1.el9s
@@ -514,7 +514,7 @@ packages:
     cloud9s-openstack-zed-testing: python-octavia-lib-3.1.0-1.el9s
 - project: octavia-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-zed-testing: python-octavia-tests-tempest-2.0.0-1.el9s
+    cloud9s-openstack-zed-testing: python-octavia-tests-tempest-2.4.0-1.el9s
 - project: octaviaclient
   buildsys-tags:
     cloud9s-openstack-zed-testing: python-octaviaclient-3.1.0-1.el9s
