@@ -283,7 +283,7 @@ packages:
     cloud9s-openstack-antelope-testing: jsoncpp-1.9.4-4.el9s
 - project: keystone
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-keystone-23.0.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-keystone-23.0.1-1.el9s
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-keystone-tests-tempest-0.12.0-1.el9s
@@ -484,7 +484,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-octavia-lib-3.2.0-1.el9s
 - project: octavia-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-octavia-tests-tempest-2.3.0-1.el9s
+    cloud9s-openstack-antelope-testing: python-octavia-tests-tempest-2.4.0-1.el9s
 - project: octaviaclient
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-octaviaclient-3.4.0-1.el9s
