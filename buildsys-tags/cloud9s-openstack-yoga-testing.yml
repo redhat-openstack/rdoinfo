@@ -316,7 +316,7 @@ packages:
     cloud9s-openstack-yoga-testing: jsoncpp-1.9.4-4.el9s
 - project: keystone
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: openstack-keystone-21.0.0-1.el9s
+    cloud9s-openstack-yoga-testing: openstack-keystone-21.0.1-1.el9s
 - project: keystone-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-keystone-tests-tempest-0.9.0-1.el9s
@@ -520,7 +520,7 @@ packages:
     cloud9s-openstack-yoga-testing: python-octavia-lib-2.5.0-1.el9s
 - project: octavia-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-yoga-testing: python-octavia-tests-tempest-1.9.0-2.el9s
+    cloud9s-openstack-yoga-testing: python-octavia-tests-tempest-2.4.0-1.el9s
 - project: octaviaclient
   buildsys-tags:
     cloud9s-openstack-yoga-testing: python-octaviaclient-2.6.0-1.el9s
