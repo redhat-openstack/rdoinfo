@@ -41,7 +41,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 3.0.0
 - project: barbicanclient
   tags:
     caracal-uc:
@@ -63,7 +62,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 1.10.0
 - project: cinderclient
   tags:
     caracal-uc:
@@ -105,7 +103,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 0.20.0
 - project: designateclient
   tags:
     caracal-uc:
@@ -126,7 +123,6 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 1.7.0
 - project: edpm-image-builder
   tags:
     caracal-uc:
@@ -140,7 +136,6 @@ packages:
 - project: glance-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 0.7.0
 - project: glance_store
   tags:
     caracal-uc:
@@ -181,7 +176,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.0.0
 - project: heat-translator
   tags:
     caracal-uc:
@@ -226,7 +220,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.7.0
 - project: ironic-ui
   tags:
     caracal-uc:
@@ -240,7 +233,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 0.13.0
 - project: keystoneauth1
   tags:
     caracal-uc:
@@ -266,14 +258,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 0.15.1
 - project: magnum
   tags:
     caracal-uc:
 - project: magnum-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.1.0
 - project: magnum-ui
   tags:
     caracal-uc:
@@ -287,7 +277,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.0.0
 - project: manila-ui
   tags:
     caracal-uc:
@@ -322,7 +311,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.2.0
 - project: mistralclient
   tags:
     caracal-uc:
@@ -343,7 +331,6 @@ packages:
 - project: murano-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.7.0
 - project: muranoclient
   tags:
     caracal-uc:
@@ -375,7 +362,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 5fad5e5a2dcefdada3911d8de068e986ba7e7600
 - project: networking-mlnx
   tags:
     caracal-uc:
@@ -395,7 +381,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.5.0
 - project: neutron-vpnaas
   tags:
     caracal-uc:
@@ -416,7 +401,6 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: d4a39ceb0f636de6a5b07b99a5a04a7a272dd398
 - project: octavia
   tags:
     caracal-uc:
@@ -430,7 +414,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.4.1
 - project: octaviaclient
   tags:
     caracal-uc:
@@ -947,7 +930,6 @@ packages:
 - project: sahara-tests
   tags:
     caracal-uc:
-      source-branch: 0.18.0
 - project: saharaclient
   tags:
     caracal-uc:
@@ -1012,11 +994,9 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 1.10.0
 - project: tempest
   tags:
     caracal-uc:
-      source-branch: 36.0.0
 - project: tempestconf
   tags:
     caracal-uc:
@@ -1036,7 +1016,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 2.2.0
 - project: troveclient
   tags:
     caracal-uc:
@@ -1051,7 +1030,6 @@ packages:
 - project: vitrage-dashboard
   tags:
     caracal-uc:
-      source-branch: 3.0.0
 - project: vitrage-tempest-plugin
   tags:
     caracal-uc:
@@ -1066,11 +1044,9 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 3.0.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 5e55476a2eb94018abf530adf14b44122a299710
 - project: wsme
   tags:
     caracal-uc:
@@ -1082,7 +1058,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 1.7.0
 - project: zaqarclient
   tags:
     caracal-uc:
