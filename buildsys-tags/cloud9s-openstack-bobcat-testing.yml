@@ -29,6 +29,15 @@ packages:
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: openstack-ansible-core-2.14.2-4.1.el9s
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-role-atos-hsm-6.0.0-0.1.0rc1.el9s
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-role-lunasa-hsm-6.0.0-1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: ansible-role-thales-hsm-6.0.0-0.1.0rc1.el9s
 - project: ansible-role-collect-logs
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: ansible-role-collect-logs-1.5.0-1.el9s
@@ -179,6 +188,9 @@ packages:
 - project: glanceclient
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-glanceclient-4.4.0-1.el9s
+- project: glean
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-glean-1.23.0-1.el9s
 - project: gnocchi
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: gnocchi-4.6.0-1.el9s
@@ -1610,6 +1622,9 @@ packages:
 - project: python-tabulate
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-tabulate-0.8.10-1.el9s
+- project: python-tcib
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-tcib-0.1.0-1.el9s
 - project: python-tcolorpy
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-tcolorpy-0.1.1-4.el9s
@@ -1880,6 +1895,9 @@ packages:
 - project: sushy
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-sushy-4.5.1-1.el9s
+- project: sushy-oem-idrac
+  buildsys-tags:
+    cloud9s-openstack-bocat-testing: python-sushy-oem-idrac-5.0.0-1.el9s
 - project: sushy-tools
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-sushy-tools-0.21.1-1.el9s
