@@ -32,18 +32,18 @@ packages:
 - project: ansible-role-atos-hsm
   buildsys-tags:
     cloud9s-openstack-bobcat-release: ansible-role-atos-hsm-6.0.0-0.1.0rc1.el9s
-- project: ansible-role-lunasa-hsm
-  buildsys-tags:
-    cloud9s-openstack-bobcat-release: ansible-role-lunasa-hsm-6.0.0-1.el9s
-- project: ansible-role-thales-hsm
-  buildsys-tags:
-    cloud9s-openstack-bobcat-release: ansible-role-thales-hsm-6.0.0-0.1.0rc1.el9s
 - project: ansible-role-collect-logs
   buildsys-tags:
     cloud9s-openstack-bobcat-release: ansible-role-collect-logs-1.5.0-1.el9s
 - project: ansible-role-collectd-config
   buildsys-tags:
     cloud9s-openstack-bobcat-release: ansible-role-collectd-config-0.0.2-1.el9s
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud9s-openstack-bobcat-release: ansible-role-lunasa-hsm-6.0.0-1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-bobcat-release: ansible-role-thales-hsm-6.0.0-0.1.0rc1.el9s
 - project: aodh
   buildsys-tags:
     cloud9s-openstack-bobcat-release: openstack-aodh-17.0.0-1.el9s
