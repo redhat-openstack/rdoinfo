@@ -2695,6 +2695,12 @@ packages:
   component: podified
   maintainers:
   - sbaker@redhat.com
+- project: observabilityclient
+  conf: rpmfactory-client
+  component: cloudops
+  maintainers:
+  - mmagr@redhat.com
+  - efoley@redhat.com
 components:
 - name: common
 - name: compute
