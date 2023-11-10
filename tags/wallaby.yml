@@ -716,7 +716,7 @@ packages:
 - project: puppet-concat
   tags:
     wallaby:
-      source-branch: dfeabb98d6493a647e1ffab333d0b64ba3c5df35
+      source-branch: v6.4.0
 - project: puppet-contrail
   tags:
     wallaby:
@@ -847,7 +847,7 @@ packages:
 - project: puppet-mysql
   tags:
     wallaby:
-      source-branch: 937d0443c6da5a4080ef977f8979f7d10fdb0253
+      source-branch: v10.10.0
 - project: puppet-n1k-vsm
   tags:
     wallaby:
@@ -945,7 +945,7 @@ packages:
 - project: puppet-stdlib
   tags:
     wallaby:
-      source-branch: 7c1ae256a70045473ebf2f50a61c8c082b926f29
+      source-branch: v6.6.0
 - project: puppet-swift
   tags:
     wallaby:
@@ -985,7 +985,7 @@ packages:
 - project: puppet-vcsrepo
   tags:
     wallaby:
-      source-branch: a36ee18f8f70343f22c7c9471f27e1b3efec99ee
+      source-branch: v3.2.1
 - project: puppet-veritas_hyperscale
   tags:
     wallaby:
@@ -1074,9 +1074,6 @@ packages:
   tags:
     wallaby:
       source-branch: 3.3.0
-- project: whitebox-neutron-tempest-plugin
-  tags:
-    wallaby:
 - project: scciclient
   tags:
     wallaby:
@@ -1246,6 +1243,9 @@ packages:
   tags:
     wallaby:
       source-branch: 2.2.0
+- project: whitebox-neutron-tempest-plugin
+  tags:
+    wallaby:
 - project: wsme
   tags:
     wallaby:
