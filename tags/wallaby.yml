@@ -1074,9 +1074,6 @@ packages:
   tags:
     wallaby:
       source-branch: 3.3.0
-- project: whitebox-neutron-tempest-plugin
-  tags:
-    wallaby:
 - project: scciclient
   tags:
     wallaby:
@@ -1246,6 +1243,9 @@ packages:
   tags:
     wallaby:
       source-branch: 2.2.0
+- project: whitebox-neutron-tempest-plugin
+  tags:
+    wallaby:
 - project: wsme
   tags:
     wallaby:
