@@ -575,7 +575,7 @@ packages:
 - project: oslo-utils
   tags:
     caracal-uc:
-      source-branch: 6.2.1
+      source-branch: 6.3.0
 - project: oslo-versionedobjects
   tags:
     caracal-uc:
@@ -626,7 +626,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: 7c9734e3457982b3aa64c3f647a722e87d1b0ad1
+      source-branch: v7.1.0
 - project: puppet-barbican
   tags:
     caracal-uc:
@@ -791,12 +791,12 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: ba728f5d3317117bb96de6895535d5965ca05c43
+      source-branch: v13.1.2
 - project: puppet-redis
   tags:
     caracal-uc:
       component: puppet
-      source-branch: 589ca69ce2b7b8a0285ff05a4541df7bd05f3399
+      source-branch: v9.2.0
 - project: puppet-remote
   tags:
     caracal-uc:
@@ -839,7 +839,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: e5ae64c0aa2dfa4fa94140e6867c4dcc846e29f1
+      source-branch: v6.1.0
 - project: puppet-tempest
   tags:
     caracal-uc:
