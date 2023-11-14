@@ -401,6 +401,10 @@ packages:
 - project: novajoin-tempest-plugin
   tags:
     caracal-uc:
+- project: observabilityclient
+  tags:
+    caracal-uc:
+      source-branch: 0.1.0
 - project: octavia
   tags:
     caracal-uc:
