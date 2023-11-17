@@ -361,7 +361,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-keystonemiddleware-9.4.0-1.el8
 - project: kolla
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: openstack-kolla-14.10.0-1.el8
+    cloud8s-openstack-yoga-testing: openstack-kolla-14.11.0-1.el8
 - project: kuryr
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-kuryr-lib-2.5.0-1.el8
@@ -628,7 +628,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-oslo-concurrency-4.5.0-1.el8
 - project: oslo-config
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-oslo-config-8.8.0-1.el8
+    cloud8s-openstack-yoga-testing: python-oslo-config-8.8.1-1.el8
 - project: oslo-context
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-oslo-context-4.1.0-1.el8
@@ -646,7 +646,7 @@ packages:
     cloud8s-openstack-yoga-testing: python-oslo-log-4.7.0-1.el8
 - project: oslo-messaging
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-oslo-messaging-12.13.1-1.el8
+    cloud8s-openstack-yoga-testing: python-oslo-messaging-12.13.2-1.el8
 - project: oslo-metrics
   buildsys-tags:
     cloud8s-openstack-yoga-testing: python-oslo-metrics-0.4.0-1.el8
