@@ -16,6 +16,24 @@
       "message": "Problem 1: conflicting requests\n    - nothing provides python3.9dist(requests) \u003e\u003d 2.26 needed by python3-docker-6.1.3-1.el9s.noarch from temp-cloud9s-openstack-caracal-testing\n   Problem 2: package python3-docker+ssh-6.1.3-1.el9s.noarch from temp-cloud9s-openstack-caracal-testing requires python3-docker \u003d 6.1.3-1.el9s, but none of the providers can be installed\n    - conflicting requests\n    - nothing provides python3.9dist(requests) \u003e\u003d 2.26 needed by python3-docker-6.1.3-1.el9s.noarch from temp-cloud9s-openstack-caracal-testing",
       "revId": "49d1b0b26bab4bdb13487944b688d2712654499d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22caeaaa_b9ecc30b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-11-17T08:48:02Z",
+      "side": 1,
+      "message": "python3-requests-2.25.1-7.el9.noarch is provided by BaseOS repo",
+      "parentUuid": "75b519e5_0860ba91",
+      "revId": "49d1b0b26bab4bdb13487944b688d2712654499d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
