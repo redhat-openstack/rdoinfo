@@ -605,6 +605,9 @@ packages:
 - project: python-jsonpath-rw-ext
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-jsonpath-rw-ext-1.2.2-2.el9s
+- project: python-jsonschema
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-jsonschema-4.16.0-2.el9s
 - project: python-junitxml
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-junitxml-0.7-24.el9s
