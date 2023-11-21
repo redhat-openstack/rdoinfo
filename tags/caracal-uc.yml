@@ -30,7 +30,7 @@ packages:
 - project: aodhclient
   tags:
     caracal-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: automaton
   tags:
     caracal-uc:
@@ -236,7 +236,7 @@ packages:
 - project: keystoneauth1
   tags:
     caracal-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: keystoneclient
   tags:
     caracal-uc:
@@ -244,7 +244,7 @@ packages:
 - project: keystonemiddleware
   tags:
     caracal-uc:
-      source-branch: 10.4.1
+      source-branch: 10.5.0
 - project: kolla
   tags:
     caracal-uc:
@@ -270,7 +270,7 @@ packages:
 - project: magnumclient
   tags:
     caracal-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: manila
   tags:
     caracal-uc:
@@ -283,11 +283,11 @@ packages:
 - project: manilaclient
   tags:
     caracal-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.0
 - project: metalsmith
   tags:
     caracal-uc:
-      source-branch: 2.0.1
+      source-branch: 2.1.0
 - project: microversion-parse
   tags:
     caracal-uc:
@@ -414,14 +414,14 @@ packages:
 - project: octavia-lib
   tags:
     caracal-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: octavia-tempest-plugin
   tags:
     caracal-uc:
 - project: octaviaclient
   tags:
     caracal-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: openstack-macros
   tags:
     caracal-uc:
@@ -435,7 +435,7 @@ packages:
 - project: openstacksdk
   tags:
     caracal-uc:
-      source-branch: 1.5.0
+      source-branch: 2.0.0
 - project: os-apply-config
   tags:
     caracal-uc:
@@ -443,7 +443,7 @@ packages:
 - project: os-brick
   tags:
     caracal-uc:
-      source-branch: 6.4.0
+      source-branch: 6.5.0
 - project: os-client-config
   tags:
     caracal-uc:
@@ -665,7 +665,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: 10.1.0
+      source-branch: 10.2.0
 - project: puppet-ec2api
   tags:
     caracal-uc:
@@ -800,7 +800,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: v9.2.0
+      source-branch: v9.3.0
 - project: puppet-remote
   tags:
     caracal-uc:
@@ -964,7 +964,7 @@ packages:
 - project: sushy
   tags:
     caracal-uc:
-      source-branch: 4.5.1
+      source-branch: 4.6.0
 - project: sushy-oem-idrac
   tags:
     caracal-uc:
