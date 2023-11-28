@@ -278,3 +278,6 @@ packages:
 - project: xapian-core
   buildsys-tags:
     cloud7-openstack-train-el7-build: xapian-core-1.2.22-1.el7
+- project: python-platformdirs 
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing
