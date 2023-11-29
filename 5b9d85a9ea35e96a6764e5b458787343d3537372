@@ -16,6 +16,24 @@
       "message": "needs promotion of latest puppet-ironic build",
       "revId": "5b9d85a9ea35e96a6764e5b458787343d3537372",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "821730ff_e7b18eef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-11-29T13:04:44Z",
+      "side": 1,
+      "message": "current master promotion pipeline is broken we need https://review.opendev.org/c/openstack/telemetry-tempest-plugin/+/902134",
+      "parentUuid": "441ee80c_17449271",
+      "revId": "5b9d85a9ea35e96a6764e5b458787343d3537372",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
