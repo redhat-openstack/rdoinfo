@@ -16,6 +16,29 @@
       "message": "This review adds openstack tag to python-platformdirs\nCan you please review it?",
       "revId": "818aabee4ef980eb25baade08246067646237e97",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7983c79a_d5b390fc",
+        "filename": "buildsys-tags/cloud7-openstack-train-el7-build.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-11-29T11:48:59Z",
+      "side": 1,
+      "message": "This should go in cloud9s-openstack-caracal-testing.yml file not in this one",
+      "range": {
+        "startLine": 281,
+        "startChar": 0,
+        "endLine": 283,
+        "endChar": 37
+      },
+      "revId": "818aabee4ef980eb25baade08246067646237e97",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
