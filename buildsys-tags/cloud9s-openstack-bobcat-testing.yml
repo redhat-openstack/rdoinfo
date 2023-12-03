@@ -308,6 +308,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-keystonemiddleware-10.4.1-1.el9s
+- project: kolla
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: openstack-kolla-17.0.0-0.1.0rc1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-kuryr-lib-2.8.0-1.el9s
@@ -502,7 +505,7 @@ packages:
     cloud9s-openstack-bobcat-testing: openstack-network-scripts-10.11.1-5.el9s
 - project: openstack-selinux
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: openstack-selinux-0.8.36-1.el9s
+    cloud9s-openstack-bobcat-testing: openstack-selinux-0.8.37-1.el9s
 - project: openstackclient
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-openstackclient-6.3.0-1.el9s
