@@ -33,6 +33,24 @@
       "message": "We will have to force merge this patch as it\u0027s needed to unblock master puppet promotion pipeline.\nMore precisely, this dep is needed to be able to update puppet to 7.27.0 [1] which is the minimal puppet version currently required in upstream p-o-i project.\n\n[1] https://review.rdoproject.org/r/c/deps/puppet/+/50965",
       "revId": "efbc504655717cab744c19c25bd109af91b24609",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf542101_da451b1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-12-06T08:37:20Z",
+      "side": 1,
+      "message": "FTR, scenario002 is failing because it needs puppet-ironic promotion (but puppet promotion is blocked).\nI\u0027m waiting for the other jobs to finish before force merging.",
+      "parentUuid": "62aaffab_659cf296",
+      "revId": "efbc504655717cab744c19c25bd109af91b24609",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
