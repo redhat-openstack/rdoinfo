@@ -2701,6 +2701,12 @@ packages:
   maintainers:
   - mmagr@redhat.com
   - efoley@redhat.com
+- project: os-diff
+  conf: rpmfactory-client
+  component: validation
+  maintainers:
+  - mbultel@redhat.com
+  - dpeacock@redhat.com
 components:
 - name: common
 - name: compute
