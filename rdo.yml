@@ -2698,6 +2698,15 @@ packages:
   maintainers:
   - mmagr@redhat.com
   - efoley@redhat.com
+- project: os-diff
+  name: os-diff
+  upstream: https://github.com/openstack-k8s-operators/os-diff
+  source-branch: main
+  conf: rpmfactory-client
+  component: podified
+  maintainers:
+  - mbultel@redhat.com
+  - dpeacock@redhat.com
 components:
 - name: common
 - name: compute
