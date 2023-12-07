@@ -94,7 +94,7 @@ packages:
     cloud9s-openstack-bobcat-testing: python-cinderclient-9.4.0-1.el9s
 - project: cinderlib
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-cinderlib-5.1.0-1.el9s
+    cloud9s-openstack-bobcat-testing: python-cinderlib-5.2.0-1.el9s
 - project: ck
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: ck-0.7.0-5.el9s
@@ -310,7 +310,7 @@ packages:
     cloud9s-openstack-bobcat-testing: python-keystonemiddleware-10.4.1-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: openstack-kolla-17.0.0-0.1.0rc1.el9s
+    cloud9s-openstack-bobcat-testing: openstack-kolla-17.0.0-0.2.0rc2.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-kuryr-lib-2.8.0-1.el9s
