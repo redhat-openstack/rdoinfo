@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71e29208_8aab4a4e",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2706,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-12-12T14:41:35Z",
+      "side": 1,
+      "message": "I think it should go into podified component as it\u0027s related to Openshift stuff.\nMost of the projects which were in \"validation\" component migrated to \"podified\" and others since the tripleo removal [1].\n\n[1] https://review.rdoproject.org/r/c/rdoinfo/+/48758",
+      "range": {
+        "startLine": 2706,
+        "startChar": 13,
+        "endLine": 2706,
+        "endChar": 23
+      },
+      "revId": "3cb0ae10aba41deeefec74a45059bb836221d7b1",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
