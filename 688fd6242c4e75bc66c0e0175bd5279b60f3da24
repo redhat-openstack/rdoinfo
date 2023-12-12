@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59910701_eaa39823",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-12-12T16:55:40Z",
+      "side": 1,
+      "message": "I spotted one more hint, see my in-line comments",
+      "revId": "688fd6242c4e75bc66c0e0175bd5279b60f3da24",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0d3ed67_2008b3e1",
+        "filename": "rdo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2704,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-12-12T16:55:40Z",
+      "side": 1,
+      "message": "I think we need to override \"name\" with \"name: os-diff\". Otherwise we would end up with \"name: python-os-diff\" as per [1], whereas it\u0027s go project\n\n[1] https://github.com/redhat-openstack/rdoinfo/blob/master/rdo.yml#L408",
+      "range": {
+        "startLine": 2704,
+        "startChar": 0,
+        "endLine": 2704,
+        "endChar": 18
+      },
+      "revId": "688fd6242c4e75bc66c0e0175bd5279b60f3da24",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5890eb79_fac18248",
+        "filename": "rdo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2704,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-12-12T16:55:40Z",
+      "side": 1,
+      "message": "Also we need to add upstream repo and source-branch is it differs from rpmfactory-client template\n\nupstream: https://github.com/openstack-k8s-operators/os-diff\nsource-branch: main",
+      "range": {
+        "startLine": 2704,
+        "startChar": 0,
+        "endLine": 2704,
+        "endChar": 1
+      },
+      "revId": "688fd6242c4e75bc66c0e0175bd5279b60f3da24",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
