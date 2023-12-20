@@ -827,10 +827,8 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - zbitter@redhat.com
-  - therve@redhat.com
+  - bshephar@redhat.com
   - ramishra@redhat.com
-  - sbaker@redhat.com
 - project: cinder
   conf: rpmfactory-core
   component: cinder
@@ -1168,9 +1166,8 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - therve@redhat.com
-  - sbaker@redhat.com
-  - zbitter@redhat.com
+  - bshephar@redhat.com
+  - ramishra@redhat.com
 - project: heat-dashboard
   name: openstack-heat-ui
   conf: rpmfactory-core
