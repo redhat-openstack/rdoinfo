@@ -1943,6 +1943,9 @@ packages:
 - project: taskflow
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-taskflow-5.1.0-1.el9s
+- project: tcib
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-tcib-0.2.0-1.el9s
 - project: telemetry-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-telemetry-tests-tempest-1.9.0-1.el9s
