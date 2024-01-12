@@ -184,7 +184,7 @@ packages:
 - project: heatclient
   tags:
     caracal-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: horizon
   tags:
     caracal-uc:
@@ -377,7 +377,7 @@ packages:
 - project: neutron-lib
   tags:
     caracal-uc:
-      source-branch: 3.9.0
+      source-branch: 3.10.0
 - project: neutron-tempest-plugin
   tags:
     caracal-uc:
@@ -497,15 +497,15 @@ packages:
 - project: oslo-cache
   tags:
     caracal-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: oslo-concurrency
   tags:
     caracal-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
 - project: oslo-config
   tags:
     caracal-uc:
-      source-branch: 9.2.0
+      source-branch: 9.3.0
 - project: oslo-context
   tags:
     caracal-uc:
@@ -529,7 +529,7 @@ packages:
 - project: oslo-messaging
   tags:
     caracal-uc:
-      source-branch: 14.5.0
+      source-branch: 14.6.0
 - project: oslo-metrics
   tags:
     caracal-uc:
@@ -537,7 +537,7 @@ packages:
 - project: oslo-middleware
   tags:
     caracal-uc:
-      source-branch: 5.2.0
+      source-branch: 6.0.0
 - project: oslo-policy
   tags:
     caracal-uc:
@@ -549,7 +549,7 @@ packages:
 - project: oslo-reports
   tags:
     caracal-uc:
-      source-branch: 3.1.0
+      source-branch: 3.2.0
 - project: oslo-rootwrap
   tags:
     caracal-uc:
@@ -557,11 +557,11 @@ packages:
 - project: oslo-serialization
   tags:
     caracal-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
 - project: oslo-service
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: oslo-sphinx
   tags:
     caracal-uc:
@@ -599,7 +599,7 @@ packages:
 - project: ovsdbapp
   tags:
     caracal-uc:
-      source-branch: 2.5.0
+      source-branch: 2.5.1
 - project: packstack
   tags:
     caracal-uc:
