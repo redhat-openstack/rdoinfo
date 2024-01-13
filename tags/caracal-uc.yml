@@ -55,7 +55,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: cinder
   tags:
     caracal-uc:
@@ -236,11 +236,11 @@ packages:
 - project: keystoneauth1
   tags:
     caracal-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: keystoneclient
   tags:
     caracal-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
 - project: keystonemiddleware
   tags:
     caracal-uc:
@@ -429,7 +429,7 @@ packages:
 - project: openstacksdk
   tags:
     caracal-uc:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: os-apply-config
   tags:
     caracal-uc:
@@ -437,7 +437,7 @@ packages:
 - project: os-brick
   tags:
     caracal-uc:
-      source-branch: 6.5.0
+      source-branch: 6.6.0
 - project: os-client-config
   tags:
     caracal-uc:
@@ -481,7 +481,7 @@ packages:
 - project: os-vif
   tags:
     caracal-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: os-win
   tags:
     caracal-uc:
@@ -489,7 +489,7 @@ packages:
 - project: osc-lib
   tags:
     caracal-uc:
-      source-branch: 2.8.1
+      source-branch: 3.0.0
 - project: osc-placement
   tags:
     caracal-uc:
@@ -619,7 +619,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: v12.0.1
+      source-branch: v12.0.2
 - project: puppet-archive
   tags:
     caracal-uc:
@@ -1012,7 +1012,7 @@ packages:
 - project: troveclient
   tags:
     caracal-uc:
-      source-branch: 8.2.1
+      source-branch: 8.3.0
 - project: virtualbmc
   tags:
     caracal-uc:
