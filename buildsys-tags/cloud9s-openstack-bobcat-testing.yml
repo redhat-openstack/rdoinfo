@@ -482,6 +482,9 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: novnc-1.3.0-1.el9s
+- project: observabilityclient
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-observabilityclient-0.1.1-1.el9s
 - project: octavia
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: openstack-octavia-13.0.0-1.el9s
