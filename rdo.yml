@@ -231,7 +231,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: victoria
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -273,7 +273,7 @@ releases:
     - name: CentOS Stream 8 PowerTools
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 - name: ussuri
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
@@ -316,7 +316,7 @@ releases:
       url: http://mirror.centos.org/centos/8-stream/PowerTools/x86_64/os/
 
 - name: train
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   tags_map: separated_buildreqs
   repos:
