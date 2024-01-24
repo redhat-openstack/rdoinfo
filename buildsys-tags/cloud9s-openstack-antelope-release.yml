@@ -473,6 +473,9 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-antelope-release: novnc-1.3.0-1.el9s
+- project: observabilityclient
+  buildsys-tags:
+    cloud9s-openstack-antelope-release: python-observabilityclient-0.1.1-1.el9s
 - project: octavia
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-octavia-12.0.0-1.el9s
