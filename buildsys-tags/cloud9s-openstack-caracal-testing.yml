@@ -352,7 +352,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-boto3-1.28.84-1.el9s
 - project: python-botocore
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-botocore-1.31.84-1.el9s
+    cloud9s-openstack-caracal-testing: python-botocore-1.34.23-2.el9s
 - project: python-cachetools
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-cachetools-5.3.2-2.el9s
@@ -373,7 +373,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-constantly-15.1.0-12.el9s
 - project: python-construct
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-construct-2.10.69-6.el9s
+    cloud9s-openstack-caracal-testing: python-construct-2.10.70-2.el9s
 - project: python-contextlib2
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-contextlib2-0.6.0.post1-1.el9s
@@ -421,13 +421,13 @@ packages:
     cloud9s-openstack-caracal-testing: python-dictdiffer-0.8.1-6.el9s
 - project: python-distro
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-distro-1.8.0-3.el9s
+    cloud9s-openstack-caracal-testing: python-distro-1.9.0-2.el9s
 - project: python-django
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-django-3.2.12-1.el9s
 - project: python-django-appconf
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-django-appconf-1.0.3-5.el9s
+    cloud9s-openstack-caracal-testing: python-django-appconf-1.0.6-2.el9s
 - project: python-django-compressor
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-django-compressor-4.4-1.el9s
@@ -517,13 +517,13 @@ packages:
     cloud9s-openstack-caracal-testing: python-google-api-core-2.11.0-2.el9s
 - project: python-google-auth
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-google-auth-2.23.4-1.el9s
+    cloud9s-openstack-caracal-testing: python-google-auth-2.26.2-2.el9s
 - project: python-googleapis-common-protos
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-googleapis-common-protos-1.56.4-2.el9s
 - project: python-greenlet
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-greenlet-3.0.1-1.el9s
+    cloud9s-openstack-caracal-testing: python-greenlet-3.0.3-2.el9s
 - project: python-grpcio-gcp
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-grpcio-gcp-0.2.2-4.el9s
@@ -643,7 +643,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-ldappool-3.0.0-1.el9s
 - project: python-lexicon
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-lexicon-1.0.0-13.el9s
+    cloud9s-openstack-caracal-testing: python-lexicon-2.0.1-9.el9s
 - project: python-linecache2
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-linecache2-1.0.0-29.el9s
@@ -751,7 +751,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-paste-3.7.1-1.el9s
 - project: python-paste-deploy
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-paste-deploy-3.0.1-1.el9s
+    cloud9s-openstack-caracal-testing: python-paste-deploy-3.1.0-2.el9s
 - project: python-pbr
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-pbr-5.11.1-1.el9s
@@ -766,13 +766,13 @@ packages:
     cloud9s-openstack-caracal-testing: python-pint-0.16.1-3.el9s
 - project: python-platformdirs
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-platformdirs-3.9.1-2.el9s
+    cloud9s-openstack-caracal-testing: python-platformdirs-3.11.0-1.el9s
 - project: python-posix_ipc
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-posix_ipc-0.9.8-26.el9s
 - project: python-prometheus_client
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-prometheus_client-0.18.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-prometheus_client-0.19.0-2.el9s
 - project: python-pycodestyle
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-pycodestyle-2.9.1-1.el9s
@@ -1009,7 +1009,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-typepy-1.3.0-2.el9s
 - project: python-typing-extensions
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-typing-extensions-3.7.4.3-2.el9s
+    cloud9s-openstack-caracal-testing: python-typing-extensions-4.9.0-1.el9s
 - project: python-tzlocal
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-tzlocal-4.2-1.el9s
@@ -1018,7 +1018,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-uhashring-2.1-1.el9s
 - project: python-ujson
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-ujson-5.8.0-2.el9s
+    cloud9s-openstack-caracal-testing: python-ujson-5.9.0-2.el9s
 - project: python-uritemplate
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-uritemplate-4.1.1-1.el9s
@@ -1030,7 +1030,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-vine-5.1.0-1.el9s
 - project: python-voluptuous
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-voluptuous-0.13.1-1.el9s
+    cloud9s-openstack-caracal-testing: python-voluptuous-0.14.1-2.el9s
 - project: python-waitress
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-waitress-2.1.2-1.el9s
