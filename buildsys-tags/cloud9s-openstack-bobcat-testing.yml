@@ -310,7 +310,7 @@ packages:
     cloud9s-openstack-bobcat-testing: python-keystonemiddleware-10.4.1-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: openstack-kolla-17.0.0-1.el9s
+    cloud9s-openstack-bobcat-testing: openstack-kolla-17.1.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-kuryr-lib-2.8.0-1.el9s
@@ -457,7 +457,7 @@ packages:
     cloud9s-openstack-bobcat-testing: openstack-neutron-dynamic-routing-23.0.0-1.el9s
 - project: neutron-lib
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-neutron-lib-3.8.0-1.el9s
+    cloud9s-openstack-bobcat-testing: python-neutron-lib-3.8.1-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-neutron-tests-tempest-2.5.0-1.el9s
@@ -499,7 +499,7 @@ packages:
     cloud9s-openstack-bobcat-testing: python-octavia-tests-tempest-2.4.1-1.el9s
 - project: octaviaclient
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-octaviaclient-3.5.0-1.el9s
+    cloud9s-openstack-bobcat-testing: python-octaviaclient-3.5.1-1.el9s
 - project: openpgm
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: openpgm-5.2.122-26.el9s
