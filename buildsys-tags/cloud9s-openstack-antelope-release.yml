@@ -217,7 +217,7 @@ packages:
     cloud9s-openstack-antelope-release: hdf5-1.10.6-5.el9s
 - project: heat
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-heat-20.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-heat-20.0.1-1.el9s
 - project: heat-agents
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-heat-agents-6.0.0-1.el9s
@@ -298,7 +298,7 @@ packages:
     cloud9s-openstack-antelope-release: python-keystonemiddleware-10.2.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-kolla-16.2.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-kolla-16.3.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-kuryr-lib-2.7.0-1.el9s
@@ -448,7 +448,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-neutron-dynamic-routing-22.0.0-1.el9s
 - project: neutron-lib
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-neutron-lib-3.4.1-1.el9s
+    cloud9s-openstack-antelope-release: python-neutron-lib-3.4.2-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-neutron-tests-tempest-2.2.0-1.el9s
