@@ -775,9 +775,12 @@ packages:
   component: compute
 - project: keystone
   conf: rpmfactory-core
-  component: security
+  component: keystone
   maintainers:
   - apevec@redhat.com
+  - xek@redhat.com
+  - dwilde@redhat.com
+  - dmendiza@redhat.com
 - project: glance
   conf: rpmfactory-core
   component: glance
@@ -1319,10 +1322,11 @@ packages:
   - sbaker@redhat.com
 - project: barbican
   conf: rpmfactory-core
-  component: security
+  component: barbican
   maintainers:
-  - greg.swift@rackspace.net
-  - msm@redhat.com
+  - alee@redhat.com
+  - xek@redhat.com
+  - dmendiza@redhat.com
 - project: cloudkitty
   conf: rpmfactory-core
   maintainers:
@@ -1462,7 +1466,7 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: rpmfactory-lib
-  component: security
+  component: keystone
 - project: ceilometermiddleware
   conf: rpmfactory-lib
   component: cloudops
@@ -1615,7 +1619,7 @@ packages:
   component: clients
   conf: rpmfactory-lib
 - project: castellan
-  component: security
+  component: barbican
   conf: rpmfactory-lib
 - project: taskflow
   conf: rpmfactory-lib
@@ -1815,7 +1819,7 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   conf: rpmfactory-lib
-  component: security
+  component: keystone
   upstream: https://opendev.org/openstack/keystoneauth
 - project: rally
   conf: rpmfactory-core
@@ -2214,10 +2218,11 @@ packages:
 - project: keystone-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-keystone-tests-tempest
-  component: security
+  component: keystone
   maintainers:
-  - panbalag@redhat.com
-  - alee@redhat.com
+  - dwilde@redhat.com
+  - xek@redhat.com
+  - dmendiza@redhat.com
 - project: senlin
   conf: rpmfactory-core
   name: openstack-senlin
@@ -2245,9 +2250,11 @@ packages:
 - project: barbican-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-barbican-tests-tempest
-  component: security
+  component: barbican
   maintainers:
   - alee@redhat.com
+  - dmendiza@redhat.com
+  - xek@redhat.com
 - project: vmware-nsx-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-vmware-nsx-tests-tempest
@@ -2271,6 +2278,7 @@ packages:
   maintainers:
   - alee@redhat.com
   - panbalag@redhat.com
+  - xek@redhat.com
 - project: openstack-macros
   conf: rpm-packaging
   upstream: https://github.com/javierpena/openstack-macros
@@ -2565,27 +2573,27 @@ packages:
 - project: ansible-role-atos-hsm
   conf: rpmfactory-lib
   name: ansible-role-atos-hsm
-  component: tripleo
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
-  - jaosorior@gmail.com
+  - xek@redhat.com
 - project: ansible-role-lunasa-hsm
   conf: rpmfactory-lib
   name: ansible-role-lunasa-hsm
-  component: tripleo
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
-  - moguimar@redhat.com
+  - xek@redhat.com
 - project: ansible-role-thales-hsm
   conf: rpmfactory-lib
   name: ansible-role-thales-hsm
-  component: tripleo
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
-  - jaosorior@gmail.com
+  - xek@redhat.com
 - project: ironic-prometheus-exporter
   conf: rpmfactory-lib
   component: baremetal
@@ -2726,3 +2734,5 @@ components:
 - name: validation
 - name: podified
 - name: puppet
+- name: keystone
+- name: barbican
