@@ -9,7 +9,6 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     caracal-uc:
-      component: security
 - project: ansible-role-collect-logs
   tags:
     caracal-uc:
@@ -19,11 +18,9 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     caracal-uc:
-      component: security
 - project: ansible-role-thales-hsm
   tags:
     caracal-uc:
-      component: security
 - project: aodh
   tags:
     caracal-uc:

@@ -13,6 +13,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     train:
+      component: tripleo
 - project: ansible-role-chrony
   tags:
     train:
@@ -25,6 +26,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     train:
+      component: tripleo
 - project: ansible-role-openstack-operations
   tags:
     train:
@@ -34,6 +36,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     train:
+      component: tripleo
 - project: ansible-role-tripleo-modify-image
   tags:
     train:
@@ -51,9 +54,11 @@ packages:
 - project: barbican
   tags:
     train:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     train:
+      component: security
       source-branch: 1.2.1
 - project: barbicanclient
   tags:
@@ -62,6 +67,7 @@ packages:
 - project: castellan
   tags:
     train:
+      component: security
       source-branch: 1.3.4
 - project: ceilometer
   tags:
@@ -260,13 +266,16 @@ packages:
 - project: keystone
   tags:
     train:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     train:
+      component: security
       source-branch: 0.3.0
 - project: keystoneauth1
   tags:
     train:
+      component: security
       source-branch: 3.17.4
 - project: keystoneclient
   tags:
@@ -275,6 +284,7 @@ packages:
 - project: keystonemiddleware
   tags:
     train:
+      component: security
       source-branch: 7.0.1
 - project: kolla
   tags:
