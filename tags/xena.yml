@@ -14,6 +14,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     xena:
+      component: tripleo
       source-branch: 2.0.0
 - project: ansible-role-chrony
   tags:
@@ -33,6 +34,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     xena:
+      component: tripleo
       source-branch: 2.0.0
 - project: ansible-role-openstack-operations
   tags:
@@ -49,6 +51,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     xena:
+      component: tripleo
       source-branch: 2.0.0
 - project: ansible-role-tripleo-modify-image
   tags:
@@ -71,9 +74,11 @@ packages:
 - project: barbican
   tags:
     xena:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     xena:
+      component: security
       source-branch: 1.6.0
 - project: barbicanclient
   tags:
@@ -82,6 +87,7 @@ packages:
 - project: castellan
   tags:
     xena:
+      component: security
       source-branch: 3.9.1
 - project: ceilometer
   tags:
@@ -275,13 +281,16 @@ packages:
 - project: keystone
   tags:
     xena:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     xena:
+      component: security
       source-branch: f57af91f9a97a822d2deee1fd32857ad4571d210
 - project: keystoneauth1
   tags:
     xena:
+      component: security
       source-branch: 4.4.0
 - project: keystoneclient
   tags:
@@ -290,6 +299,7 @@ packages:
 - project: keystonemiddleware
   tags:
     xena:
+      component: security
       source-branch: 9.3.0
 - project: kolla
   tags:

@@ -12,6 +12,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     victoria:
+      component: tripleo
 - project: ansible-role-chrony
   tags:
     victoria:
@@ -24,6 +25,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     victoria:
+      component: tripleo
 - project: ansible-role-openstack-operations
   tags:
     victoria:
@@ -33,6 +35,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     victoria:
+      component: tripleo
 - project: ansible-role-tripleo-modify-image
   tags:
     victoria:
@@ -53,9 +56,11 @@ packages:
 - project: barbican
   tags:
     victoria:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     victoria:
+      component: security
       source-branch: 1.2.1
 - project: barbicanclient
   tags:
@@ -64,6 +69,7 @@ packages:
 - project: castellan
   tags:
     victoria:
+      component: security
       source-branch: 3.6.1
 - project: ceilometer
   tags:
@@ -250,13 +256,16 @@ packages:
 - project: keystone
   tags:
     victoria:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     victoria:
+      component: security
       source-branch: 0.5.0
 - project: keystoneauth1
   tags:
     victoria:
+      component: security
       source-branch: 4.2.1
 - project: keystoneclient
   tags:
@@ -265,6 +274,7 @@ packages:
 - project: keystonemiddleware
   tags:
     victoria:
+      component: security
       source-branch: 9.1.0
 - project: kolla
   tags:

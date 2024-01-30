@@ -775,7 +775,7 @@ packages:
   component: compute
 - project: keystone
   conf: rpmfactory-core
-  component: security
+  component: keystone
   maintainers:
   - cdwilde@gmail.com
   - dmendiza@redhat.com
@@ -1322,7 +1322,7 @@ packages:
   - sbaker@redhat.com
 - project: barbican
   conf: rpmfactory-core
-  component: security
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
@@ -1467,7 +1467,7 @@ packages:
   - gauvain.pocentek@objectif-libre.com
 - project: keystonemiddleware
   conf: rpmfactory-lib
-  component: security
+  component: keystone
 - project: ceilometermiddleware
   conf: rpmfactory-lib
   component: cloudops
@@ -1620,7 +1620,7 @@ packages:
   component: clients
   conf: rpmfactory-lib
 - project: castellan
-  component: security
+  component: barbican
   conf: rpmfactory-lib
 - project: taskflow
   conf: rpmfactory-lib
@@ -1820,7 +1820,7 @@ packages:
   - flepied@redhat.com
 - project: keystoneauth1
   conf: rpmfactory-lib
-  component: security
+  component: keystone
   upstream: https://opendev.org/openstack/keystoneauth
 - project: rally
   conf: rpmfactory-core
@@ -2220,7 +2220,7 @@ packages:
 - project: keystone-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-keystone-tests-tempest
-  component: security
+  component: keystone
   maintainers:
   - cdwilde@gmail.com
   - xek@redhat.com
@@ -2252,7 +2252,7 @@ packages:
 - project: barbican-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-barbican-tests-tempest
-  component: security
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
@@ -2571,7 +2571,7 @@ packages:
 - project: ansible-role-atos-hsm
   conf: rpmfactory-lib
   name: ansible-role-atos-hsm
-  component: tripleo
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
@@ -2579,7 +2579,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   conf: rpmfactory-lib
   name: ansible-role-lunasa-hsm
-  component: tripleo
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
@@ -2587,7 +2587,7 @@ packages:
 - project: ansible-role-thales-hsm
   conf: rpmfactory-lib
   name: ansible-role-thales-hsm
-  component: tripleo
+  component: barbican
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
@@ -2732,3 +2732,5 @@ components:
 - name: validation
 - name: podified
 - name: puppet
+- name: barbican
+- name: keystone

@@ -12,6 +12,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     ussuri:
+      component: tripleo
 - project: ansible-role-chrony
   tags:
     ussuri:
@@ -24,6 +25,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     ussuri:
+      component: tripleo
 - project: ansible-role-openstack-operations
   tags:
     ussuri:
@@ -33,6 +35,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     ussuri:
+      component: tripleo
 - project: ansible-role-tripleo-modify-image
   tags:
     ussuri:
@@ -50,9 +53,11 @@ packages:
 - project: barbican
   tags:
     ussuri:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     ussuri:
+      component: security
       source-branch: 1.2.1
 - project: barbicanclient
   tags:
@@ -61,6 +66,7 @@ packages:
 - project: castellan
   tags:
     ussuri:
+      component: security
       source-branch: 3.0.4
 - project: ceilometer
   tags:
@@ -256,13 +262,16 @@ packages:
 - project: keystone
   tags:
     ussuri:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     ussuri:
+      component: security
       source-branch: 0.4.0
 - project: keystoneauth1
   tags:
     ussuri:
+      component: security
       source-branch: 4.0.0
 - project: keystoneclient
   tags:
@@ -271,6 +280,7 @@ packages:
 - project: keystonemiddleware
   tags:
     ussuri:
+      component: security
       source-branch: 9.0.0
 - project: kolla
   tags:
