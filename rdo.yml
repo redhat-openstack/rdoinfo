@@ -777,6 +777,9 @@ packages:
   conf: rpmfactory-core
   component: security
   maintainers:
+  - cdwilde@gmail.com
+  - dmendiza@redhat.com
+  - xek@redhat.com
   - apevec@redhat.com
 - project: glance
   conf: rpmfactory-core
@@ -1321,8 +1324,9 @@ packages:
   conf: rpmfactory-core
   component: security
   maintainers:
-  - greg.swift@rackspace.net
-  - msm@redhat.com
+  - alee@redhat.com
+  - dmendiza@redhat.com
+  - xek@redhat.com
 - project: cloudkitty
   conf: rpmfactory-core
   maintainers:
@@ -1453,8 +1457,9 @@ packages:
 - project: barbicanclient
   conf: rpmfactory-client
   maintainers:
-  - greg.swift@rackspace.net
-  - msm@redhat.com
+  - alee@redhat.com
+  - dmendiza@redhat.com
+  - xek@redhat.com
   - chkumar@redhat.com
 - project: cloudkittyclient
   conf: rpmfactory-client
@@ -2001,6 +2006,7 @@ packages:
   maintainers:
   - rcritten@redhat.com
   - alee@redhat.com
+  - xek@redhat.com
 - project: networking-fujitsu
   name: python-networking-fujitsu
   conf: rpmfactory-lib
@@ -2216,8 +2222,9 @@ packages:
   name: python-keystone-tests-tempest
   component: security
   maintainers:
-  - panbalag@redhat.com
-  - alee@redhat.com
+  - cdwilde@gmail.com
+  - xek@redhat.com
+  - dmendiza@redhat.com
 - project: senlin
   conf: rpmfactory-core
   name: openstack-senlin
@@ -2248,6 +2255,8 @@ packages:
   component: security
   maintainers:
   - alee@redhat.com
+  - dmendiza@redhat.com
+  - xek@redhat.com
 - project: vmware-nsx-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-vmware-nsx-tests-tempest
@@ -2270,6 +2279,7 @@ packages:
   component: security
   maintainers:
   - alee@redhat.com
+  - xek@redhat.com
   - panbalag@redhat.com
 - project: openstack-macros
   conf: rpm-packaging
@@ -2517,8 +2527,6 @@ packages:
   maintainers:
   - alee@redhat.com
   - cdwilde@gmail.com
-  - kevin@cloudnull.com
-  - lbragstad@gmail.com
   - xek@redhat.com
 - project: ansible-tripleo-ipa-server
   conf: rpmfactory-lib
@@ -2528,8 +2536,6 @@ packages:
   maintainers:
   - alee@redhat.com
   - cdwilde@gmail.com
-  - kevin@cloudnull.com
-  - lbragstad@gmail.com
   - xek@redhat.com
 - project: tripleo-operator-ansible
   name: tripleo-operator-ansible
@@ -2569,7 +2575,7 @@ packages:
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
-  - jaosorior@gmail.com
+  - xek@redhat.com
 - project: ansible-role-lunasa-hsm
   conf: rpmfactory-lib
   name: ansible-role-lunasa-hsm
@@ -2577,7 +2583,7 @@ packages:
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
-  - moguimar@redhat.com
+  - xek@redhat.com
 - project: ansible-role-thales-hsm
   conf: rpmfactory-lib
   name: ansible-role-thales-hsm
@@ -2585,7 +2591,7 @@ packages:
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
-  - jaosorior@gmail.com
+  - xek@redhat.com
 - project: ironic-prometheus-exporter
   conf: rpmfactory-lib
   component: baremetal
