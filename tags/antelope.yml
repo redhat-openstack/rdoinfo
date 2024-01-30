@@ -42,7 +42,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.0.0
+      source-branch: 3.0.0
 - project: barbicanclient
   tags:
     antelope:
@@ -64,7 +64,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     antelope:
-      source-branch: 1.8.1
+      source-branch: 1.10.0
 - project: cinderclient
   tags:
     antelope:
@@ -106,7 +106,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     antelope:
-      source-branch: 0.17.0
+      source-branch: 0.20.0
 - project: designateclient
   tags:
     antelope:
@@ -127,7 +127,7 @@ packages:
 - project: ec2api-tempest-plugin
   tags:
     antelope:
-      source-branch: 1.6.1
+      source-branch: 1.7.0
 - project: edpm-image-builder
   tags:
     antelope:
@@ -141,7 +141,7 @@ packages:
 - project: glance-tempest-plugin
   tags:
     antelope:
-      source-branch: 0.6.0
+      source-branch: 0.7.0
 - project: glance_store
   tags:
     antelope:
@@ -182,7 +182,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     antelope:
-      source-branch: 1.7.1
+      source-branch: 2.0.0
 - project: heat-translator
   tags:
     antelope:
@@ -227,7 +227,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.6.1
+      source-branch: 2.7.0
 - project: ironic-ui
   tags:
     antelope:
@@ -241,7 +241,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     antelope:
-      source-branch: 0.12.0
+      source-branch: 0.13.0
 - project: keystoneauth1
   tags:
     antelope:
@@ -267,14 +267,14 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     antelope:
-      source-branch: 0.14.1
+      source-branch: 0.15.1
 - project: magnum
   tags:
     antelope:
 - project: magnum-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.0.0
+      source-branch: 2.1.0
 - project: magnum-ui
   tags:
     antelope:
@@ -288,7 +288,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     antelope:
-      source-branch: 1.13.0
+      source-branch: 2.0.0
 - project: manila-ui
   tags:
     antelope:
@@ -323,7 +323,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.1.1
+      source-branch: 2.2.0
 - project: mistralclient
   tags:
     antelope:
@@ -344,7 +344,7 @@ packages:
 - project: murano-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
 - project: muranoclient
   tags:
     antelope:
@@ -376,7 +376,7 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     antelope:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
+      source-branch: 5fad5e5a2dcefdada3911d8de068e986ba7e7600
 - project: networking-mlnx
   tags:
     antelope:
@@ -402,7 +402,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.2.0
+      source-branch: 2.5.0
 - project: neutron-vpnaas
   tags:
     antelope:
@@ -441,7 +441,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.4.0
+      source-branch: 2.4.1
 - project: octaviaclient
   tags:
     antelope:
@@ -1038,7 +1038,7 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     antelope:
-      source-branch: 1.9.0
+      source-branch: 1.10.0
 - project: tempest
   tags:
     antelope:
@@ -1062,7 +1062,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.0.1
+      source-branch: 2.2.0
 - project: troveclient
   tags:
     antelope:
@@ -1081,7 +1081,7 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     antelope:
-      source-branch: 6.1.1
+      source-branch: 6.2.0
 - project: vitrageclient
   tags:
     antelope:
@@ -1102,11 +1102,11 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     antelope:
-      source-branch: 2.6.0
+      source-branch: 3.0.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     antelope:
-      source-branch: 73402012d40a549561eeb8f57917b089315bba9f
+      source-branch: 5e55476a2eb94018abf530adf14b44122a299710
 - project: wsme
   tags:
     antelope:
@@ -1118,7 +1118,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     antelope:
-      source-branch: 1.6.0
+      source-branch: 1.7.0
 - project: zaqarclient
   tags:
     antelope:
