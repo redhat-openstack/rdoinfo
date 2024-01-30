@@ -12,6 +12,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     zed:
+      component: tripleo
 - project: ansible-role-chrony
   tags:
     zed:
@@ -27,6 +28,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     zed:
+      component: tripleo
 - project: ansible-role-openstack-operations
   tags:
     zed:
@@ -39,6 +41,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     zed:
+      component: tripleo
 - project: ansible-role-tripleo-modify-image
   tags:
     zed:
@@ -59,9 +62,11 @@ packages:
 - project: barbican
   tags:
     zed:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     zed:
+      component: security
       source-branch: 1.7.0
 - project: barbicanclient
   tags:
@@ -70,6 +75,7 @@ packages:
 - project: castellan
   tags:
     zed:
+      component: security
       source-branch: 4.0.0
 - project: ceilometer
   tags:
@@ -267,13 +273,16 @@ packages:
 - project: keystone
   tags:
     zed:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     zed:
+      component: security
       source-branch: 0.10.0
 - project: keystoneauth1
   tags:
     zed:
+      component: security
       source-branch: 5.0.0
 - project: keystoneclient
   tags:
@@ -282,6 +291,7 @@ packages:
 - project: keystonemiddleware
   tags:
     zed:
+      component: security
       source-branch: 10.1.0
 - project: kolla
   tags:

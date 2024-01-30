@@ -14,6 +14,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     yoga:
+      component: tripleo
       source-branch: 3.0.0
 - project: ansible-role-chrony
   tags:
@@ -34,6 +35,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     yoga:
+      component: tripleo
       source-branch: 3.0.0
 - project: ansible-role-openstack-operations
   tags:
@@ -50,6 +52,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     yoga:
+      component: tripleo
       source-branch: 3.0.0
 - project: ansible-role-tripleo-modify-image
   tags:
@@ -72,9 +75,11 @@ packages:
 - project: barbican
   tags:
     yoga:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     yoga:
+      component: security
       source-branch: 1.6.0
 - project: barbicanclient
   tags:
@@ -83,6 +88,7 @@ packages:
 - project: castellan
   tags:
     yoga:
+      component: security
       source-branch: 3.10.2
 - project: ceilometer
   tags:
@@ -280,13 +286,16 @@ packages:
 - project: keystone
   tags:
     yoga:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     yoga:
+      component: security
       source-branch: 0.9.0
 - project: keystoneauth1
   tags:
     yoga:
+      component: security
       source-branch: 4.5.0
 - project: keystoneclient
   tags:
@@ -295,6 +304,7 @@ packages:
 - project: keystonemiddleware
   tags:
     yoga:
+      component: security
       source-branch: 9.4.0
 - project: kolla
   tags:

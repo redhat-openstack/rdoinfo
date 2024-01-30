@@ -13,6 +13,7 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     wallaby:
+      component: tripleo
 - project: ansible-role-chrony
   tags:
     wallaby:
@@ -28,6 +29,7 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     wallaby:
+      component: tripleo
 - project: ansible-role-openstack-operations
   tags:
     wallaby:
@@ -40,6 +42,7 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     wallaby:
+      component: tripleo
 - project: ansible-role-tripleo-modify-image
   tags:
     wallaby:
@@ -60,9 +63,11 @@ packages:
 - project: barbican
   tags:
     wallaby:
+      component: security
 - project: barbican-tempest-plugin
   tags:
     wallaby:
+      component: security
       source-branch: 1.6.0
 - project: barbicanclient
   tags:
@@ -71,6 +76,7 @@ packages:
 - project: castellan
   tags:
     wallaby:
+      component: security
       source-branch: 3.7.2
 - project: ceilometer
   tags:
@@ -265,13 +271,16 @@ packages:
 - project: keystone
   tags:
     wallaby:
+      component: security
 - project: keystone-tempest-plugin
   tags:
     wallaby:
+      component: security
       source-branch: f57af91f9a97a822d2deee1fd32857ad4571d210
 - project: keystoneauth1
   tags:
     wallaby:
+      component: security
       source-branch: 4.3.1
 - project: keystoneclient
   tags:
@@ -280,6 +289,7 @@ packages:
 - project: keystonemiddleware
   tags:
     wallaby:
+      component: security
       source-branch: 9.2.0
 - project: kolla
   tags:

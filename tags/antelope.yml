@@ -10,7 +10,6 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     antelope:
-      component: security
 - project: ansible-role-collect-logs
   tags:
     antelope:
@@ -20,11 +19,9 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     antelope:
-      component: security
 - project: ansible-role-thales-hsm
   tags:
     antelope:
-      component: security
 - project: aodh
   tags:
     antelope:

@@ -9,7 +9,6 @@ packages:
 - project: ansible-role-atos-hsm
   tags:
     bobcat:
-      component: security
 - project: ansible-role-collect-logs
   tags:
     bobcat:
@@ -19,11 +18,9 @@ packages:
 - project: ansible-role-lunasa-hsm
   tags:
     bobcat:
-      component: security
 - project: ansible-role-thales-hsm
   tags:
     bobcat:
-      component: security
 - project: aodh
   tags:
     bobcat:
