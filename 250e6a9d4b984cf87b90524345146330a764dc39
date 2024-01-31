@@ -51,6 +51,23 @@
       "message": "Created ticket https://issues.redhat.com/browse/RDO-180",
       "revId": "250e6a9d4b984cf87b90524345146330a764dc39",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03e14e83_e69c849e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-01-31T12:20:59Z",
+      "side": 1,
+      "message": "we will probably need to manually force-merge this change as the package movement to a new component is not well covered for CI. As we need some coordination with CI to get new pipelines for the two new components we will wait for Ronelle confirmation before merging.",
+      "revId": "250e6a9d4b984cf87b90524345146330a764dc39",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
