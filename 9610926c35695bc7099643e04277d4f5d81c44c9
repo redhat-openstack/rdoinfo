@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7d47e26_97b0371d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-02-07T12:03:17Z",
+      "side": 1,
+      "message": "There is python3-oauthlib-3.1.1 in centos9 appstream. We should not add it in RDO unless there is a strong reason (being too old). Did you try to build it with existing version.",
+      "revId": "9610926c35695bc7099643e04277d4f5d81c44c9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
