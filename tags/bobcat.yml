@@ -2,10 +2,12 @@ packages:
 - project: ansible-collections-openstack
   tags:
     bobcat:
+      source-branch: e009f80ffce5975d69018b8badd46297c7a90ec6
 - project: ansible-config_template
   tags:
     bobcat:
       component: podified
+      source-branch: ca25191181ef1d1269afe95ad0911bac8d4d0610
 - project: ansible-role-atos-hsm
   tags:
     bobcat:
@@ -16,6 +18,7 @@ packages:
 - project: ansible-role-collectd-config
   tags:
     bobcat:
+      source-branch: 1992666dad0fd24f7a013cdee7fcae428b94b9d7
 - project: ansible-role-lunasa-hsm
   tags:
     bobcat:
@@ -86,6 +89,7 @@ packages:
 - project: collectd-gnocchi
   tags:
     bobcat:
+      source-branch: 1.7.1
 - project: cursive
   tags:
     bobcat:
@@ -115,9 +119,11 @@ packages:
 - project: diskimage-builder
   tags:
     bobcat:
+      source-branch: master
 - project: dracclient
   tags:
     bobcat:
+      source-branch: b4f1db2231e91ef164154c068c0eb12e8811da4e
 - project: ec2-api
   tags:
     bobcat:
@@ -128,6 +134,7 @@ packages:
 - project: edpm-image-builder
   tags:
     bobcat:
+      source-branch: main
 - project: futurist
   tags:
     bobcat:
@@ -150,6 +157,7 @@ packages:
 - project: glean
   tags:
     bobcat:
+      source-branch: master
 - project: gnocchi
   tags:
     bobcat:
@@ -165,6 +173,7 @@ packages:
 - project: hardware
   tags:
     bobcat:
+      source-branch: master
 - project: heat
   tags:
     bobcat:
@@ -195,6 +204,7 @@ packages:
 - project: ibmcclient
   tags:
     bobcat:
+      source-branch: 8d8cfe9efcb502bafded943dd61a0e45c1860227
 - project: ironic
   tags:
     bobcat:
@@ -221,6 +231,7 @@ packages:
 - project: ironic-staging-drivers
   tags:
     bobcat:
+      source-branch: 3a71aaf0bfbcbdb62d15a6169799aa316155fe4c
 - project: ironic-tempest-plugin
   tags:
     bobcat:
@@ -349,9 +360,11 @@ packages:
 - project: networking-ansible
   tags:
     bobcat:
+      source-branch: b82d3496220f10151df1e3d5fc1d3ae77294be99
 - project: networking-arista
   tags:
     bobcat:
+      source-branch: d040e2d60c4bb48bd9892d9bee3023c14cf37780
 - project: networking-bagpipe
   tags:
     bobcat:
@@ -364,6 +377,7 @@ packages:
 - project: networking-bigswitch
   tags:
     bobcat:
+      source-branch: 96cf54085430c4596568cd5bc9a23640d3b56fa8
 - project: networking-generic-switch
   tags:
     bobcat:
@@ -377,6 +391,7 @@ packages:
 - project: networking-mlnx
   tags:
     bobcat:
+      source-branch: 0a69b9715505f21fe7cca8c408c42b618d2e72d7
 - project: networking-sfc
   tags:
     bobcat:
@@ -436,6 +451,7 @@ packages:
 - project: openstack-selinux
   tags:
     bobcat:
+      source-branch: master
 - project: openstackclient
   tags:
     bobcat:
@@ -448,6 +464,7 @@ packages:
   tags:
     bobcat:
       component: common
+      source-branch: master
 - project: os-brick
   tags:
     bobcat:
@@ -461,9 +478,11 @@ packages:
   tags:
     bobcat:
       component: common
+      source-branch: master
 - project: os-faults
   tags:
     bobcat:
+      source-branch: 0.2.7
 - project: os-ken
   tags:
     bobcat:
@@ -472,10 +491,12 @@ packages:
   tags:
     bobcat:
       component: common
+      source-branch: master
 - project: os-refresh-config
   tags:
     bobcat:
       component: common
+      source-branch: master
 - project: os-resource-classes
   tags:
     bobcat:
@@ -651,6 +672,7 @@ packages:
   tags:
     bobcat:
       component: puppet
+      source-branch: master
 - project: puppet-cinder
   tags:
     bobcat:
@@ -893,9 +915,11 @@ packages:
 - project: rally
   tags:
     bobcat:
+      source-branch: 7ad868bb9bc7834fa573f3612b8f3f22e2bb9719
 - project: rally-openstack
   tags:
     bobcat:
+      source-branch: 2c05430515be6d253abbc3d5a8af7d28a5827409
 - project: reno
   tags:
     bobcat:
@@ -977,9 +1001,11 @@ packages:
 - project: sushy-oem-idrac
   tags:
     bobcat:
+      source-branch: 34b96be03be122c05ecf542310bdff59e3e49ebe
 - project: sushy-tools
   tags:
     bobcat:
+      source-branch: master
 - project: swift
   tags:
     bobcat:
@@ -1004,6 +1030,7 @@ packages:
 - project: tcib
   tags:
     bobcat:
+      source-branch: main
 - project: telemetry-tempest-plugin
   tags:
     bobcat:
@@ -1015,9 +1042,11 @@ packages:
 - project: tempestconf
   tags:
     bobcat:
+      source-branch: master
 - project: tobiko
   tags:
     bobcat:
+      source-branch: f728814347d7b3fa9ed05c71c8ba164681a6dcc7
 - project: tooz
   tags:
     bobcat:
