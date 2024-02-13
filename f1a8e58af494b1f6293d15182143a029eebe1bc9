@@ -33,6 +33,24 @@
       "message": "I thought we discussed this, and the problem is the wrong microversion expected by manila tempest plugin (max microversion not constrained) and the fact that the puppet job doesn\u0027t fix it.\n\nhttps://bugs.launchpad.net/manila/+bug/2051926\n\nhttps://meetings.opendev.org/irclogs/%23rdo/%23rdo.2024-01-31.log.html#t2024-01-31T12:50:33\n\nShouldn\u0027t the affected promotion job be fixed instead?",
       "revId": "f1a8e58af494b1f6293d15182143a029eebe1bc9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "142261c8_0cdce75b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-02-13T09:52:13Z",
+      "side": 1,
+      "message": "I was not aware of this discussion sorry\nWe\u0027ll wait for https://review.opendev.org/c/openstack/puppet-tempest/+/907399 to be backported to stable branches once new libvirt lands in mirror\nI\u0027m gonna abandon it",
+      "parentUuid": "2ad36c79_e13ab903",
+      "revId": "f1a8e58af494b1f6293d15182143a029eebe1bc9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
