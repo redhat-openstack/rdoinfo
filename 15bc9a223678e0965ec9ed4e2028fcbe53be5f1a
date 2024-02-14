@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db761c55_f58cdeff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-02-14T08:35:06Z",
+      "side": 1,
+      "message": "I left some comments\nTo summarize:\nansible-* projects are pinned\nnetworking-* projects are pinned\nsystem oriented projects (openstack-selinux, glean, hardware) are pinned\nos-* projects follow master\npodified package follow master\nleftovers are pinned",
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e77cac90_fcf7dd1a",
+        "filename": "tags/bobcat.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-02-14T08:35:06Z",
+      "side": 1,
+      "message": "I think we could set 1.7.1 which is 3 commits (only repo config) behind this commit [1] and this is what we have in buildsys-tags since train.\n\nAlso, there is no update in master since 6 years now [2].\nI think we can even pin it to 1.7.1 in master\n\n\n[1] https://github.com/gnocchixyz/collectd-gnocchi/compare/1.7.1...master\n[2] https://github.com/gnocchixyz/collectd-gnocchi/commits/master/",
+      "range": {
+        "startLine": 92,
+        "startChar": 21,
+        "endLine": 92,
+        "endChar": 61
+      },
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02791f3a_65c8dd29",
+        "filename": "tags/bobcat.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-02-14T08:35:06Z",
+      "side": 1,
+      "message": "it\u0027s the only os-* package that will not follow master but I see there is no more activites since 4 years now so ok to pin.\nWe can set 0.2.7 which is same commit [1]\n\n[1] https://opendev.org/performa/os-faults/commits/tag/0.2.7",
+      "range": {
+        "startLine": 485,
+        "startChar": 21,
+        "endLine": 485,
+        "endChar": 61
+      },
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "953a093a_bbfe0bcd",
+        "filename": "tags/bobcat.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1008,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-02-14T08:35:06Z",
+      "side": 1,
+      "message": "I think sushy-tools should be pinned to a version as there is lot of activites in the repo [1].\nBut, as it\u0027s for testing purpose and would not serve in production maybe it doesn\u0027t hurt following master\n\n[1] https://opendev.org/openstack/sushy-tools/commits/branch/master",
+      "range": {
+        "startLine": 1008,
+        "startChar": 21,
+        "endLine": 1008,
+        "endChar": 27
+      },
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
