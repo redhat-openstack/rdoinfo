@@ -2464,17 +2464,6 @@ packages:
   name: openstack-rally-plugins
   maintainers:
   - chkumar@redhat.com
-- project: rhos-bootstrap
-  name: rhos-bootstrap
-  source-branch: main
-  component: tripleo
-  conf: rpmfactory-core
-  upstream: https://github.com/redhat-openstack/rhos-bootstrap
-  maintainers:
-  - jslagle@redhat.com
-  - aschultz@next-development.com
-  - cjeanner@redhat.com
-  - kecarter@redhat.com
 - project: ansible-role-chrony
   conf: rpmfactory-lib
   name: ansible-role-chrony
