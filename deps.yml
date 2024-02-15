@@ -2895,3 +2895,15 @@ packages:
 - project: python-faker
   name: python-faker
   conf: fedora-dependency
+- project: golang-github-spf13-cobra-devel
+  name: golang-github-spf13-cobra-devel
+  conf: rdo-dependency
+- project: golang-gopkg-ini-1-devel
+  name: golang-gopkg-ini-1-devel
+  conf: rdo-dependency
+- project: golang-gopkg-yaml-2-devel
+  name: golang-gopkg-yaml-2-devel
+  conf: rdo-dependency
+- project: golang-gopkg-yaml-3-devel
+  name: golang-gopkg-yaml-3-devel
+  conf: rdo-dependency
