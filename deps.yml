@@ -755,6 +755,9 @@ packages:
 - project: python-tomli
   name: python-tomli
   conf: fedora-dependency
+- project: python-tomlkit
+  name: python-tomlkit
+  conf: fedora-dependency
   maintainers:
   - lemenkov@gmail.com
 - project: babel
