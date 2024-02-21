@@ -575,6 +575,9 @@ packages:
 - project: python-influxdb
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-influxdb-5.3.1-1.el9s
+- project: python-influxdb-client
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-influxdb-client-1.36.1-5.el9s
 - project: python-invoke
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-invoke-1.5.0-2.el9s
@@ -814,7 +817,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-pyroute2-0.7.3-1.el9s
 - project: python-pysaml2
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-pysaml2-6.1.0-2.el9s
+    cloud9s-openstack-caracal-testing: python-pysaml2-7.4.2-2.el9s
 - project: python-pytest-runner
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-pytest-runner-4.0-12.el9s
