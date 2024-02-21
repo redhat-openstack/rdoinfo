@@ -1144,6 +1144,9 @@ packages:
 - project: pysnmp
   name: pysnmp
   conf: rdo-dependency
+- project: pysnmp-lextudio
+  name: pysnmp-lextudio
+  conf: rdo-dependency
 - project: python-dulwich
   name: python-dulwich
   conf: fedora-dependency
@@ -1264,6 +1267,9 @@ packages:
 - project: python-pyasn1
   name: python-pyasn1
   conf: fedora-dependency
+- project: python-pyasn1-lextudio
+  name: python-pyasn1-lextudio
+  conf: rdo-dependency
 - project: python-asn1crypto
   name: python-asn1crypto
   conf: fedora-dependency
@@ -2013,6 +2019,9 @@ packages:
 - project: python-smi
   name: python-smi
   conf: fedora-dependency
+- project: python-smi-lextudio
+  name: python-smi-lextudio
+  conf: rdo-dependency
 - project: python-kiwisolver
   name: python-kiwisolver
   conf: fedora-dependency
