@@ -87,7 +87,7 @@ packages:
 - project: debtcollector
   tags:
     caracal-uc:
-      source-branch: 2.5.0
+      source-branch: 3.0.0
 - project: designate
   tags:
     caracal-uc:
@@ -133,7 +133,7 @@ packages:
 - project: glance_store
   tags:
     caracal-uc:
-      source-branch: 4.6.1
+      source-branch: 4.7.0
 - project: glanceclient
   tags:
     caracal-uc:
@@ -483,7 +483,7 @@ packages:
 - project: osc-lib
   tags:
     caracal-uc:
-      source-branch: 3.0.0
+      source-branch: 3.0.1
 - project: osc-placement
   tags:
     caracal-uc:
@@ -499,11 +499,11 @@ packages:
 - project: oslo-config
   tags:
     caracal-uc:
-      source-branch: 9.3.0
+      source-branch: 9.4.0
 - project: oslo-context
   tags:
     caracal-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: oslo-db
   tags:
     caracal-uc:
@@ -511,7 +511,7 @@ packages:
 - project: oslo-i18n
   tags:
     caracal-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
 - project: oslo-limit
   tags:
     caracal-uc:
@@ -527,7 +527,7 @@ packages:
 - project: oslo-metrics
   tags:
     caracal-uc:
-      source-branch: 0.7.0
+      source-branch: 0.8.0
 - project: oslo-middleware
   tags:
     caracal-uc:
@@ -543,11 +543,11 @@ packages:
 - project: oslo-reports
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: oslo-rootwrap
   tags:
     caracal-uc:
-      source-branch: 7.1.0
+      source-branch: 7.2.0
 - project: oslo-serialization
   tags:
     caracal-uc:
@@ -571,11 +571,11 @@ packages:
 - project: oslo-versionedobjects
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: oslo-vmware
   tags:
     caracal-uc:
-      source-branch: 4.3.0
+      source-branch: 4.4.0
 - project: oslotest
   tags:
     caracal-uc:
@@ -593,7 +593,7 @@ packages:
 - project: ovsdbapp
   tags:
     caracal-uc:
-      source-branch: 2.5.1
+      source-branch: 2.6.0
 - project: packstack
   tags:
     caracal-uc:
@@ -653,7 +653,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: 10.2.0
+      source-branch: 10.3.0
 - project: puppet-ec2api
   tags:
     caracal-uc:
@@ -943,7 +943,7 @@ packages:
 - project: sushy
   tags:
     caracal-uc:
-      source-branch: 4.8.0
+      source-branch: 5.0.0
 - project: sushy-oem-idrac
   tags:
     caracal-uc:
