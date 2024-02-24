@@ -52,7 +52,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     caracal-uc:
-      source-branch: 3.3.0
+      source-branch: 3.3.1
 - project: cinder
   tags:
     caracal-uc:
@@ -66,7 +66,7 @@ packages:
 - project: cliff
   tags:
     caracal-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: cloudkitty
   tags:
     caracal-uc:
@@ -87,7 +87,7 @@ packages:
 - project: debtcollector
   tags:
     caracal-uc:
-      source-branch: 2.5.0
+      source-branch: 3.0.0
 - project: designate
   tags:
     caracal-uc:
@@ -123,7 +123,7 @@ packages:
 - project: futurist
   tags:
     caracal-uc:
-      source-branch: 2.4.1
+      source-branch: 3.0.0
 - project: glance
   tags:
     caracal-uc:
@@ -133,7 +133,7 @@ packages:
 - project: glance_store
   tags:
     caracal-uc:
-      source-branch: 4.6.1
+      source-branch: 4.7.0
 - project: glanceclient
   tags:
     caracal-uc:
@@ -173,7 +173,7 @@ packages:
 - project: heat-translator
   tags:
     caracal-uc:
-      source-branch: 2.8.0
+      source-branch: 3.0.0
       component: common
 - project: heatclient
   tags:
@@ -198,7 +198,7 @@ packages:
 - project: ironic-lib
   tags:
     caracal-uc:
-      source-branch: 5.6.0
+      source-branch: 6.0.0
 - project: ironic-prometheus-exporter
   tags:
     caracal-uc:
@@ -230,7 +230,7 @@ packages:
 - project: keystoneauth1
   tags:
     caracal-uc:
-      source-branch: 5.5.0
+      source-branch: 5.6.0
 - project: keystoneclient
   tags:
     caracal-uc:
@@ -238,7 +238,7 @@ packages:
 - project: keystonemiddleware
   tags:
     caracal-uc:
-      source-branch: 10.5.0
+      source-branch: 10.6.0
 - project: kolla
   tags:
     caracal-uc:
@@ -281,7 +281,7 @@ packages:
 - project: metalsmith
   tags:
     caracal-uc:
-      source-branch: 2.1.0
+      source-branch: 2.1.1
 - project: microversion-parse
   tags:
     caracal-uc:
@@ -300,7 +300,7 @@ packages:
 - project: mistral-lib
   tags:
     caracal-uc:
-      source-branch: 2.9.0
+      source-branch: 2.10.0
       component: common
 - project: mistral-tempest-plugin
   tags:
@@ -431,7 +431,7 @@ packages:
 - project: os-brick
   tags:
     caracal-uc:
-      source-branch: 6.6.0
+      source-branch: 6.7.0
 - project: os-client-config
   tags:
     caracal-uc:
@@ -447,7 +447,7 @@ packages:
 - project: os-ken
   tags:
     caracal-uc:
-      source-branch: 2.8.0
+      source-branch: 2.8.1
 - project: os-net-config
   tags:
     caracal-uc:
@@ -483,7 +483,7 @@ packages:
 - project: osc-lib
   tags:
     caracal-uc:
-      source-branch: 3.0.0
+      source-branch: 3.0.1
 - project: osc-placement
   tags:
     caracal-uc:
@@ -499,11 +499,11 @@ packages:
 - project: oslo-config
   tags:
     caracal-uc:
-      source-branch: 9.3.0
+      source-branch: 9.4.0
 - project: oslo-context
   tags:
     caracal-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: oslo-db
   tags:
     caracal-uc:
@@ -511,15 +511,15 @@ packages:
 - project: oslo-i18n
   tags:
     caracal-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
 - project: oslo-limit
   tags:
     caracal-uc:
-      source-branch: 2.3.0
+      source-branch: 2.4.0
 - project: oslo-log
   tags:
     caracal-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: oslo-messaging
   tags:
     caracal-uc:
@@ -527,27 +527,27 @@ packages:
 - project: oslo-metrics
   tags:
     caracal-uc:
-      source-branch: 0.7.0
+      source-branch: 0.8.0
 - project: oslo-middleware
   tags:
     caracal-uc:
-      source-branch: 6.0.0
+      source-branch: 6.1.0
 - project: oslo-policy
   tags:
     caracal-uc:
-      source-branch: 4.2.1
+      source-branch: 4.3.0
 - project: oslo-privsep
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: oslo-reports
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: oslo-rootwrap
   tags:
     caracal-uc:
-      source-branch: 7.1.0
+      source-branch: 7.2.0
 - project: oslo-serialization
   tags:
     caracal-uc:
@@ -555,7 +555,7 @@ packages:
 - project: oslo-service
   tags:
     caracal-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: oslo-sphinx
   tags:
     caracal-uc:
@@ -563,19 +563,19 @@ packages:
 - project: oslo-upgradecheck
   tags:
     caracal-uc:
-      source-branch: 2.2.0
+      source-branch: 2.3.0
 - project: oslo-utils
   tags:
     caracal-uc:
-      source-branch: 7.0.0
+      source-branch: 7.1.0
 - project: oslo-versionedobjects
   tags:
     caracal-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
 - project: oslo-vmware
   tags:
     caracal-uc:
-      source-branch: 4.3.0
+      source-branch: 4.4.0
 - project: oslotest
   tags:
     caracal-uc:
@@ -593,7 +593,7 @@ packages:
 - project: ovsdbapp
   tags:
     caracal-uc:
-      source-branch: 2.5.1
+      source-branch: 2.6.0
 - project: packstack
   tags:
     caracal-uc:
@@ -653,7 +653,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: 10.2.0
+      source-branch: 10.3.0
 - project: puppet-ec2api
   tags:
     caracal-uc:
@@ -939,11 +939,11 @@ packages:
 - project: stevedore
   tags:
     caracal-uc:
-      source-branch: 5.1.0
+      source-branch: 5.2.0
 - project: sushy
   tags:
     caracal-uc:
-      source-branch: 4.8.0
+      source-branch: 5.0.0
 - project: sushy-oem-idrac
   tags:
     caracal-uc:
@@ -970,7 +970,7 @@ packages:
 - project: taskflow
   tags:
     caracal-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: tcib
   tags:
     caracal-uc:
