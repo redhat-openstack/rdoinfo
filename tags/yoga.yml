@@ -1208,6 +1208,7 @@ packages:
 - project: tripleo-repos
   tags:
     yoga:
+      source-branch: c73cb0f636cbb9cd620a894cb0b33704bee40d68
 - project: tripleo-validations
   tags:
     yoga:
@@ -1233,9 +1234,11 @@ packages:
 - project: validations-common
   tags:
     yoga:
+      source-branch: f273ccbb963e31056bd7c7565e52e56d1d754199
 - project: validations-libs
   tags:
     yoga:
+      source-branch: 8d9e1b5dfd43be5cb41b67b6071c1a35a00cbaa1
 - project: virtualbmc
   tags:
     yoga:
