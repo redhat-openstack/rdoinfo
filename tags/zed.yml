@@ -16,15 +16,18 @@ packages:
 - project: ansible-role-chrony
   tags:
     zed:
+      source-branch: 0111661102ebb211ce8e1a08df57fb51cb4671fb
 - project: ansible-role-collect-logs
   tags:
     zed:
+      source-branch: 910efeb55838f076893ae97a1085ad55062ef05e
 - project: ansible-role-collectd-config
   tags:
     zed:
 - project: ansible-role-container-registry
   tags:
     zed:
+      source-branch: a091b9cd216c3ecf48a8e0718e57b0d256e9a725
 - project: ansible-role-lunasa-hsm
   tags:
     zed:
@@ -32,12 +35,14 @@ packages:
 - project: ansible-role-openstack-operations
   tags:
     zed:
+      source-branch: 2ab288f14e6d3e5334dea211a365ee303ae5f9dc
 - project: ansible-role-qdr-config
   tags:
     zed:
 - project: ansible-role-redhat-subscription
   tags:
     zed:
+      source-branch: eefe5019238a7b88bda0a9df1a6d9b02267e4902
 - project: ansible-role-thales-hsm
   tags:
     zed:
@@ -45,6 +50,7 @@ packages:
 - project: ansible-role-tripleo-modify-image
   tags:
     zed:
+      source-branch: b6eedb6fb194ec32b92866257131714e02bae741
 - project: ansible-tripleo-ipa-server
   tags:
     zed:
@@ -1080,9 +1086,11 @@ packages:
 - project: tripleo-ipsec
   tags:
     zed:
+      source-branch: b5559c8c8669638f311f1c57d2d2a87f0202cddf
 - project: tripleo-operator-ansible
   tags:
     zed:
+      source-branch: e1abb34ef8eddaebaee63012730b5c65ca731c24
 - project: tripleo-powerflex
   tags:
     zed:
@@ -1092,6 +1100,7 @@ packages:
 - project: tripleo-repos
   tags:
     zed:
+      source-branch: c73cb0f636cbb9cd620a894cb0b33704bee40d68
 - project: tripleo-validations
   tags:
     zed:
@@ -1115,9 +1124,11 @@ packages:
 - project: validations-common
   tags:
     zed:
+      source-branch: f273ccbb963e31056bd7c7565e52e56d1d754199
 - project: validations-libs
   tags:
     zed:
+      source-branch: 8d9e1b5dfd43be5cb41b67b6071c1a35a00cbaa1
 - project: virtualbmc
   tags:
     zed:
