@@ -1604,6 +1604,9 @@ packages:
 - project: python-ssh-python
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-ssh-python-0.9.0-1.el9s
+- project: python-sshtunnel
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-sshtunnel-0.4.0-12.el9s
 - project: python-statsd
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-statsd-3.2.1-20.el9s
