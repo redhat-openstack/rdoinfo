@@ -16,6 +16,24 @@
       "message": "recheck do we know what is failing?",
       "revId": "d2d57d7f2d4742184ba487c106063c68f984d218",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29435859_f1d6bacd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 14
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 141
+      },
+      "writtenOn": "2024-02-29T16:33:24Z",
+      "side": 1,
+      "message": "At least the manila tests are failing because this patch should be backported:\nhttps://review.opendev.org/c/openstack/puppet-tempest/+/907399\nBut the patch can\u0027t be backported due to some other failures (a mariadb issue), Joel and Alfredo know the whole history, see the last discussion about this here: https://meetings.opendev.org/irclogs/%23rdo/%23rdo.2024-02-26.log.html#t2024-02-26T09:41:21",
+      "parentUuid": "c4b69b4f_a349d36f",
+      "revId": "d2d57d7f2d4742184ba487c106063c68f984d218",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
