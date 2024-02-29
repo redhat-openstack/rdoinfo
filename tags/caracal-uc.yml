@@ -368,7 +368,7 @@ packages:
 - project: neutron-lib
   tags:
     caracal-uc:
-      source-branch: 3.10.0
+      source-branch: 3.11.0
 - project: neutron-tempest-plugin
   tags:
     caracal-uc:
@@ -399,7 +399,7 @@ packages:
 - project: octavia-lib
   tags:
     caracal-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: octavia-tempest-plugin
   tags:
     caracal-uc:
@@ -472,7 +472,7 @@ packages:
 - project: os-vif
   tags:
     caracal-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: os-win
   tags:
     caracal-uc:
@@ -504,7 +504,7 @@ packages:
 - project: oslo-db
   tags:
     caracal-uc:
-      source-branch: 14.1.0
+      source-branch: 15.0.0
 - project: oslo-i18n
   tags:
     caracal-uc:
@@ -548,7 +548,7 @@ packages:
 - project: oslo-serialization
   tags:
     caracal-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: oslo-service
   tags:
     caracal-uc:
@@ -986,7 +986,7 @@ packages:
 - project: tooz
   tags:
     caracal-uc:
-      source-branch: 5.0.0
+      source-branch: 6.0.0
 - project: trove
   tags:
     caracal-uc:
