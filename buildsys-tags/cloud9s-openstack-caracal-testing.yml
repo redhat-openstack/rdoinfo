@@ -173,6 +173,9 @@ packages:
 - project: pysnmp
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pysnmp-4.4.12-6.el9s
+- project: pysnmp-lextudio
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: pysnmp-lextudio-5.0.26-1.el9s
 - project: pystache
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pystache-0.5.4-13.el9s
@@ -328,7 +331,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-atomicwrites-1.4.0-6.el9s
 - project: python-autobahn
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-autobahn-23.1.2-2.el9s
+    cloud9s-openstack-caracal-testing: python-autobahn-23.6.2-4.el9s
 - project: python-autopage
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-autopage-0.5.2-3.el9s
@@ -466,7 +469,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-entrypoints-0.3-8.el9s
 - project: python-etcd3gw
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-etcd3gw-2.3.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-etcd3gw-2.4.0-1.el9s
 - project: python-eventlet
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-eventlet-0.33.3-1.el9s
@@ -782,6 +785,9 @@ packages:
 - project: python-prometheus_client
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-prometheus_client-0.19.0-2.el9s
+- project: python-pyasn1-lextudio
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-pyasn1-lextudio-1.1.2-0.1.el9s
 - project: python-pycodestyle
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-pycodestyle-2.9.1-1.el9s
@@ -908,6 +914,9 @@ packages:
 - project: python-smi
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-smi-0.3.4-10.el9s
+- project: python-smi-lextudio
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-smi-lextudio-1.1.13-1.el9s
 - project: python-smmap
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-smmap-5.0.0-1.el9s
