@@ -5,6 +5,7 @@ releases:
   status: development
   branch: rpm-master
   identifier: "2024.1"
+  upstream_branch: "master"
   tags_map: separated_buildreqs
   repos:
   - name: el9s
@@ -27,6 +28,7 @@ releases:
   status: maintained
   branch: rpm-master
   identifier: "2023.2"
+  upstream_branch: "stable/2023.2"
   tags_map: separated_buildreqs
   repos:
   - name: el9s
@@ -50,6 +52,7 @@ releases:
   status: maintained
   branch: rpm-master
   identifier: "2023.1"
+  upstream_branch: "stable/2023.1"
   tags_map: separated_buildreqs
   repos:
   - name: el9s
@@ -72,6 +75,7 @@ releases:
 - name: zed
   status: maintained
   branch: rpm-master
+  upstream_branch: "stable/zed"
   tags_map: separated_buildreqs
   repos:
   - name: el9s
@@ -95,6 +99,7 @@ releases:
 - name: yoga
   status: extended_maintenance
   branch: rpm-master
+  upstream_branch: "unmaintained/yoga"
   tags_map: separated_buildreqs
   repos:
   - name: el8s
@@ -136,6 +141,7 @@ releases:
 - name: xena
   status: extended_maintenance
   branch: rpm-master
+  upstream_branch: "stable/xena"
   tags_map: separated_buildreqs
   repos:
   - name: el8s
@@ -176,6 +182,7 @@ releases:
 - name: wallaby
   status: extended_maintenance
   branch: rpm-master
+  upstream_branch: "stable/wallaby"
   tags_map: separated_buildreqs
   repos:
   - name: el8
@@ -233,6 +240,7 @@ releases:
 - name: victoria
   status: eol
   branch: rpm-master
+  upstream_branch: "stable/victoria"
   tags_map: separated_buildreqs
   repos:
   - name: el8
