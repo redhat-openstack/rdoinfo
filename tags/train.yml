@@ -133,6 +133,7 @@ packages:
 - project: designate
   tags:
     train:
+      component: network
 - project: designate-dashboard
   tags:
     train:
@@ -140,10 +141,12 @@ packages:
   tags:
     train:
       source-branch: 0.7.0
+      component: network
 - project: designateclient
   tags:
     train:
       source-branch: 3.0.0
+      component: network
 - project: dib-utils
   tags:
     train:
