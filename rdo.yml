@@ -960,18 +960,17 @@ packages:
   - twilson@redhat.com
 - project: designate
   conf: rpmfactory-core
-  component: network
+  component: designate
   maintainers:
   - johnsomor@gmail.com
-  - dekehn@gmail.com
+  - nate.johnston@gmail.com
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
-  component: network
+  component: designate
   maintainers:
   - nate.johnston@redhat.com
   - johnsomor@gmail.com
-  - dekehn@gmail.com
   - amoralej@redhat.com
 - project: octavia
   conf: rpmfactory-core
@@ -1450,6 +1449,7 @@ packages:
   - mrunge@redhat.com
 - project: designateclient
   conf: rpmfactory-client
+  component: designate
 - project: manilaclient
   maintainers:
   - tbarron@redhat.com
@@ -2411,7 +2411,6 @@ packages:
   maintainers:
   - johnsomor@redhat.com
   - nate.johnston@redhat.com
-  - dekehn@gmail.com
   - kevintibi@hotmail.com
   - rod2a@hotmail.com
 - project: ansible-role-container-registry

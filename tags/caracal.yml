@@ -78,15 +78,19 @@ packages:
 - project: designate
   tags:
     caracal:
+      component: designate
 - project: designate-dashboard
   tags:
     caracal:
+      component: designate
 - project: designate-tempest-plugin
   tags:
     caracal:
+      component: designate
 - project: designateclient
   tags:
     caracal:
+      component: designate
 - project: dib-utils
   tags:
     caracal:
