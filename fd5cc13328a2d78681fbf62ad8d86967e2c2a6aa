@@ -33,6 +33,23 @@
       "message": "recheck",
       "revId": "fd5cc13328a2d78681fbf62ad8d86967e2c2a6aa",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bedf997_9d732cb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-04T11:27:05Z",
+      "side": 1,
+      "message": "One of the scenarios fails barbican tempest with:\n\noslo_config.cfg.NoSuchOptError: no such option api_v1 in group [image-feature-enabled]\n\nhttps://logserver.rdoproject.org/52/51952/2/check/weirdo-dlrn-antelope-puppet-scenario002-centos9/17ebb5f/logs/weirdo-project/logs/testr_results.html",
+      "revId": "fd5cc13328a2d78681fbf62ad8d86967e2c2a6aa",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
