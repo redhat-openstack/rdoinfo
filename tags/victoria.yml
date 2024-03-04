@@ -124,17 +124,21 @@ packages:
 - project: designate
   tags:
     victoria:
+      component: network
 - project: designate-dashboard
   tags:
     victoria:
+      component: network
 - project: designate-tempest-plugin
   tags:
     victoria:
       source-branch: 0.9.0
+      component: network
 - project: designateclient
   tags:
     victoria:
       source-branch: 4.1.0
+      component: network
 - project: dib-utils
   tags:
     victoria:
