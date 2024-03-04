@@ -88,12 +88,15 @@ packages:
 - project: designate
   tags:
     caracal-uc:
+      component: designate
 - project: designate-dashboard
   tags:
     caracal-uc:
+      component: designate
 - project: designate-tempest-plugin
   tags:
     caracal-uc:
+      component: designate
 - project: designateclient
   tags:
     caracal-uc:

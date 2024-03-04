@@ -133,17 +133,21 @@ packages:
 - project: designate
   tags:
     train:
+      component: network
 - project: designate-dashboard
   tags:
     train:
+      component: network
 - project: designate-tempest-plugin
   tags:
     train:
       source-branch: 0.7.0
+      component: network
 - project: designateclient
   tags:
     train:
       source-branch: 3.0.0
+      component: network
 - project: dib-utils
   tags:
     train:

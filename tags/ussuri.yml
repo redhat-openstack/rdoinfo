@@ -133,17 +133,21 @@ packages:
 - project: designate
   tags:
     ussuri:
+      component: network
 - project: designate-dashboard
   tags:
     ussuri:
+      component: network
 - project: designate-tempest-plugin
   tags:
     ussuri:
       source-branch: 0.8.0
+      component: network
 - project: designateclient
   tags:
     ussuri:
       source-branch: 4.0.0
+      component: network
 - project: dib-utils
   tags:
     ussuri:

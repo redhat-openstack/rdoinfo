@@ -98,17 +98,21 @@ packages:
 - project: designate
   tags:
     antelope:
+      component: designate
 - project: designate-dashboard
   tags:
     antelope:
+      component: designate
 - project: designate-tempest-plugin
   tags:
     antelope:
       source-branch: 0.20.0
+      component: designate
 - project: designateclient
   tags:
     antelope:
       source-branch: 5.2.0
+      component: designate
 - project: dib-utils
   tags:
     antelope:
