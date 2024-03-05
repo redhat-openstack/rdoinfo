@@ -24,7 +24,7 @@ packages:
 - project: aodhclient
   tags:
     caracal-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: automaton
   tags:
     caracal-uc:
@@ -38,7 +38,7 @@ packages:
 - project: barbicanclient
   tags:
     caracal-uc:
-      source-branch: 5.6.1
+      source-branch: 5.7.0
 - project: castellan
   tags:
     caracal-uc:
@@ -59,7 +59,7 @@ packages:
 - project: cinderclient
   tags:
     caracal-uc:
-      source-branch: 9.4.0
+      source-branch: 9.5.0
 - project: cliff
   tags:
     caracal-uc:
@@ -73,7 +73,7 @@ packages:
 - project: cloudkittyclient
   tags:
     caracal-uc:
-      source-branch: 4.8.0
+      source-branch: 5.0.0
 - project: collectd-gnocchi
   tags:
     caracal-uc:
@@ -134,7 +134,7 @@ packages:
 - project: glanceclient
   tags:
     caracal-uc:
-      source-branch: 4.4.0
+      source-branch: 4.5.0
 - project: glean
   tags:
     caracal-uc:
@@ -175,7 +175,7 @@ packages:
 - project: heatclient
   tags:
     caracal-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: horizon
   tags:
     caracal-uc:
@@ -231,7 +231,7 @@ packages:
 - project: keystoneclient
   tags:
     caracal-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: keystonemiddleware
   tags:
     caracal-uc:
@@ -261,7 +261,7 @@ packages:
 - project: magnumclient
   tags:
     caracal-uc:
-      source-branch: 4.3.0
+      source-branch: 4.4.0
 - project: manila
   tags:
     caracal-uc:
@@ -274,7 +274,7 @@ packages:
 - project: manilaclient
   tags:
     caracal-uc:
-      source-branch: 4.7.0
+      source-branch: 4.8.0
 - project: metalsmith
   tags:
     caracal-uc:
@@ -305,7 +305,7 @@ packages:
 - project: mistralclient
   tags:
     caracal-uc:
-      source-branch: 5.1.0
+      source-branch: 5.2.0
 - project: monascaclient
   tags:
     caracal-uc:
@@ -325,7 +325,7 @@ packages:
 - project: muranoclient
   tags:
     caracal-uc:
-      source-branch: 2.7.0
+      source-branch: 2.8.0
 - project: networking-ansible
   tags:
     caracal-uc:
@@ -378,7 +378,7 @@ packages:
 - project: neutronclient
   tags:
     caracal-uc:
-      source-branch: 11.1.0
+      source-branch: 11.2.0
 - project: nova
   tags:
     caracal-uc:
@@ -406,7 +406,7 @@ packages:
 - project: octaviaclient
   tags:
     caracal-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: openstack-macros
   tags:
     caracal-uc:
@@ -484,7 +484,7 @@ packages:
 - project: osc-placement
   tags:
     caracal-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: oslo-cache
   tags:
     caracal-uc:
@@ -500,7 +500,7 @@ packages:
 - project: oslo-context
   tags:
     caracal-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: oslo-db
   tags:
     caracal-uc:
@@ -576,7 +576,7 @@ packages:
 - project: oslotest
   tags:
     caracal-uc:
-      source-branch: 4.5.0
+      source-branch: 5.0.0
 - project: osprofiler
   tags:
     caracal-uc:
@@ -610,7 +610,7 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-      source-branch: v12.0.2
+      source-branch: v12.0.3
 - project: puppet-archive
   tags:
     caracal-uc:
@@ -867,7 +867,7 @@ packages:
 - project: reno
   tags:
     caracal-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: requestsexceptions
   tags:
     caracal-uc:
@@ -953,7 +953,7 @@ packages:
 - project: swiftclient
   tags:
     caracal-uc:
-      source-branch: 4.4.0
+      source-branch: 4.5.0
 - project: tacker
   tags:
     caracal-uc:
@@ -999,7 +999,7 @@ packages:
 - project: troveclient
   tags:
     caracal-uc:
-      source-branch: 8.3.0
+      source-branch: 8.4.0
 - project: virtualbmc
   tags:
     caracal-uc:
@@ -1017,7 +1017,7 @@ packages:
 - project: vitrageclient
   tags:
     caracal-uc:
-      source-branch: 4.8.0
+      source-branch: 5.0.0
 - project: watcher
   tags:
     caracal-uc:
@@ -1044,4 +1044,4 @@ packages:
 - project: zaqarclient
   tags:
     caracal-uc:
-      source-branch: 2.6.0
+      source-branch: 2.7.0
