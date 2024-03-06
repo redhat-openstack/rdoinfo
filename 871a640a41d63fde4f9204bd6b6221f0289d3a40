@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e3347ab_81984d2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T15:18:03Z",
+      "side": 1,
+      "message": "Some packages are still requiring senlinclient:\n\nopenstack-rally-plugins-0:2.3.1-0.20240226135256.2c05430.el9.noarch\nopenstack-rally-plugins-0:2.3.1-0.20240226135256.2c05430.el9.src\npython-mistral-extra-0:13.1.1-0.20231111195332.2e2cf63.el9.src\npython-openstackclient-0:6.5.0-0.20240205083803.c29e057.el9.src\npython3-mistral-extra-0:13.1.1-0.20231111195332.2e2cf63.el9.noarch\n\nI will send patches for that.",
+      "revId": "871a640a41d63fde4f9204bd6b6221f0289d3a40",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
