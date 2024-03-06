@@ -16,6 +16,98 @@
       "message": "Alfredo, could you tell me what I may be doing wrong here?  Thanks!",
       "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dca4809_0704372d",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 963,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T15:39:11Z",
+      "side": 1,
+      "message": "You are updating the component per release from antelope in tags/\u003crelease/.yaml so you shouldn\u0027t update the default values here. Actually, modifying it here, would change it in all releases, also in releases before antelope, which is not what we want i guess.",
+      "range": {
+        "startLine": 963,
+        "startChar": 13,
+        "endLine": 963,
+        "endChar": 22
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78dbc199_3b388ee1",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 970,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T15:39:11Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 970,
+        "startChar": 13,
+        "endLine": 970,
+        "endChar": 22
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce9084da_d4f1564f",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1452,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T15:39:11Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 1452,
+        "startChar": 13,
+        "endLine": 1452,
+        "endChar": 22
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eafd63a1_0acd818f",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2724,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T15:39:11Z",
+      "side": 1,
+      "message": "You need to add designate component to the global list of components here.",
+      "range": {
+        "startLine": 2724,
+        "startChar": 0,
+        "endLine": 2724,
+        "endChar": 4
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
