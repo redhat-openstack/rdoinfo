@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64b2b0bc_eae28d34",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T13:54:12Z",
+      "side": 1,
+      "message": "What Joel said, this would modify *all* releases. Currently, we have tripleo for old releases and common for releases from antelope, as in:\n\nhttps://github.com/redhat-openstack/rdoinfo/blob/master/tags/antelope.yml#L481\n\nIf you want to change the default component in rdo.yml, then you need to override the component for previous releases, train, ussuri, victoria, wallaby, xena, yoga and zed, so that actual components assignment does not change.",
+      "revId": "2a6541bac477ef7817b6242166e3c2945286dd29",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
