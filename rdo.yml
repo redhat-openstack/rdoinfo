@@ -1198,7 +1198,7 @@ packages:
 - project: os-net-config
   conf: rpmfactory-core
   name: os-net-config
-  component: tripleo
+  component: common
   upstream: https://github.com/os-net-config/os-net-config
   maintainers:
   - hjensas@redhat.com
