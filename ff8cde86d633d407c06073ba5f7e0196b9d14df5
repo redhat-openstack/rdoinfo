@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "07114422_632ca29a",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 963,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T15:45:58Z",
+      "side": 1,
+      "message": "Alternatively, you could define default value to designate here (rdo.yml) and override the value to network in the tags for all the releases previous to antelope (train, ussuri, victoria, wallaby, xena, yoga and zed). That\u0027s simplify the management of the components for future releases.",
+      "parentUuid": "5dca4809_0704372d",
+      "range": {
+        "startLine": 963,
+        "startChar": 13,
+        "endLine": 963,
+        "endChar": 22
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "78dbc199_3b388ee1",
         "filename": "rdo.yml",
         "patchSetId": 1
