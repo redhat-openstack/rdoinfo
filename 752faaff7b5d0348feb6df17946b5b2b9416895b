@@ -33,6 +33,24 @@
       "message": "@Martin see my previous comment about issue in scenario002, i guess it\u0027s legit issue.",
       "revId": "752faaff7b5d0348feb6df17946b5b2b9416895b",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f66f2182_ee323271",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 266
+      },
+      "writtenOn": "2024-03-06T13:04:46Z",
+      "side": 1,
+      "message": "it is, thanks, there seems to be a version mismatch .. based on the rdoinfo, barbican-tempest-plugin for antelope should be at 3.0.0 - https://github.com/redhat-openstack/rdoinfo/blob/8f36db32c0823b948170b52a03837e9ae045f40e/tags/antelope.yml#L43 \n\nhowever, in that job that fails, the plugin is only at 2.0.0 - https://logserver.rdoproject.org/52/51952/2/check/weirdo-dlrn-antelope-puppet-scenario002-centos9/17ebb5f/logs/weirdo-project/logs/rpm-qa.txt.gz\n\nthere is a commit in the plugin that removes some api_v1 options - https://opendev.org/openstack/barbican-tempest-plugin/commit/e5ed4b9f1e6b2843c48b0df56a71cdb185004ef7 - and that\u0027s only since version 3.0.0\n\nany idea why we might have an old plugin version in the job?",
+      "parentUuid": "3f412862_7a175ba2",
+      "revId": "752faaff7b5d0348feb6df17946b5b2b9416895b",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
