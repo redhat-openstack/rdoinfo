@@ -58,6 +58,30 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "241a5726_2381c094",
+        "filename": "tags/bobcat.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T10:22:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e77cac90_fcf7dd1a",
+      "range": {
+        "startLine": 92,
+        "startChar": 21,
+        "endLine": 92,
+        "endChar": 61
+      },
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "02791f3a_65c8dd29",
@@ -81,6 +105,30 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce0c3412_e4938554",
+        "filename": "tags/bobcat.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T10:22:36Z",
+      "side": 1,
+      "message": "actually os-faults is unrelated with the rest of os- packages, just name coincidence.",
+      "parentUuid": "02791f3a_65c8dd29",
+      "range": {
+        "startLine": 485,
+        "startChar": 21,
+        "endLine": 485,
+        "endChar": 61
+      },
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "953a093a_bbfe0bcd",
@@ -94,6 +142,30 @@
       "writtenOn": "2024-02-14T08:35:06Z",
       "side": 1,
       "message": "I think sushy-tools should be pinned to a version as there is lot of activites in the repo [1].\nBut, as it\u0027s for testing purpose and would not serve in production maybe it doesn\u0027t hurt following master\n\n[1] https://opendev.org/openstack/sushy-tools/commits/branch/master",
+      "range": {
+        "startLine": 1008,
+        "startChar": 21,
+        "endLine": 1008,
+        "endChar": 27
+      },
+      "revId": "15bc9a223678e0965ec9ed4e2028fcbe53be5f1a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7881f25_8d163d48",
+        "filename": "tags/bobcat.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1008,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-06T10:22:36Z",
+      "side": 1,
+      "message": "I was in doubts for sushy-tools tbh, but i think sushy-tools should be pretty independent on openstack versions and yes, it\u0027s mainly ci thing so i decided to follow master.",
+      "parentUuid": "953a093a_bbfe0bcd",
       "range": {
         "startLine": 1008,
         "startChar": 21,
