@@ -310,22 +310,6 @@ packages:
   tags:
     caracal-uc:
       source-branch: 2.8.0
-- project: murano
-  tags:
-    caracal-uc:
-- project: murano-agent
-  tags:
-    caracal-uc:
-- project: murano-dashboard
-  tags:
-    caracal-uc:
-- project: murano-tempest-plugin
-  tags:
-    caracal-uc:
-- project: muranoclient
-  tags:
-    caracal-uc:
-      source-branch: 2.8.0
 - project: networking-ansible
   tags:
     caracal-uc:
@@ -721,10 +705,6 @@ packages:
     caracal-uc:
       component: puppet
       source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
-- project: puppet-murano
-  tags:
-    caracal-uc:
-      component: puppet
 - project: puppet-mysql
   tags:
     caracal-uc:
