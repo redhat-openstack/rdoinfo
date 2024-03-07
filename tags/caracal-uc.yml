@@ -792,10 +792,6 @@ packages:
     caracal-uc:
       component: puppet
       source-branch: 2484786c5e1c6ec4f04ca4df4557957862fdbf16
-- project: puppet-sahara
-  tags:
-    caracal-uc:
-      component: puppet
 - project: puppet-ssh
   tags:
     caracal-uc:
@@ -880,36 +876,6 @@ packages:
   tags:
     caracal-uc:
       source-branch: 1.0.2
-- project: sahara
-  tags:
-    caracal-uc:
-- project: sahara-dashboard
-  tags:
-    caracal-uc:
-- project: sahara-image-elements
-  tags:
-    caracal-uc:
-- project: sahara-plugin-ambari
-  tags:
-    caracal-uc:
-- project: sahara-plugin-cdh
-  tags:
-    caracal-uc:
-- project: sahara-plugin-mapr
-  tags:
-    caracal-uc:
-- project: sahara-plugin-spark
-  tags:
-    caracal-uc:
-- project: sahara-plugin-storm
-  tags:
-    caracal-uc:
-- project: sahara-plugin-vanilla
-  tags:
-    caracal-uc:
-- project: sahara-tests
-  tags:
-    caracal-uc:
 - project: saharaclient
   tags:
     caracal-uc:

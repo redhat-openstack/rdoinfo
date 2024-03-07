@@ -704,10 +704,6 @@ packages:
   tags:
     caracal:
       component: puppet
-- project: puppet-sahara
-  tags:
-    caracal:
-      component: puppet
 - project: puppet-ssh
   tags:
     caracal:
@@ -781,36 +777,6 @@ packages:
   tags:
     caracal:
 - project: rsdclient
-  tags:
-    caracal:
-- project: sahara
-  tags:
-    caracal:
-- project: sahara-dashboard
-  tags:
-    caracal:
-- project: sahara-image-elements
-  tags:
-    caracal:
-- project: sahara-plugin-ambari
-  tags:
-    caracal:
-- project: sahara-plugin-cdh
-  tags:
-    caracal:
-- project: sahara-plugin-mapr
-  tags:
-    caracal:
-- project: sahara-plugin-spark
-  tags:
-    caracal:
-- project: sahara-plugin-storm
-  tags:
-    caracal:
-- project: sahara-plugin-vanilla
-  tags:
-    caracal:
-- project: sahara-tests
   tags:
     caracal:
 - project: saharaclient
