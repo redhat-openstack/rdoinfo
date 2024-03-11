@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7d3cea0_8a555ec3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-03-11T16:28:00Z",
+      "side": 1,
+      "message": "From logs: ERROR:dlrn-repositories:Git ref 4.3.3 for https://opendev.org/openstack/glance_store does not exist and it is not the default source in dlrn config. Check your package configuration.\n\nThe tag is not created yet. Note, that we have automation to follow what is in upper-constraints, so once the tag is created and bumped in upper-constraints file, it would create a similar review to this one. Said so, no problem in sending it manually, but the criteria for RDO is to follow what is in u-c upstream.",
+      "revId": "96526773ca0e6b31e8dcf8b7f801724d7dcb816a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
