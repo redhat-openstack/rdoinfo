@@ -1988,6 +1988,9 @@ packages:
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-watcher-tests-tempest-3.0.0-1.el9s
+- project: whitebox-neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-whitebox-neutron-tests-tempest-0.0.1-1.1.7340201git.el9s
 - project: wsme
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-wsme-0.12.1-1.el9s
