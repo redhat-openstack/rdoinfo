@@ -573,11 +573,6 @@ packages:
   tags:
     caracal:
       component: puppet
-- project: puppet-haproxy
-  tags:
-    caracal:
-      component: puppet
-      source-branch: main
 - project: puppet-heat
   tags:
     caracal:
@@ -616,10 +611,6 @@ packages:
     caracal:
       component: puppet
 - project: puppet-mistral
-  tags:
-    caracal:
-      component: puppet
-- project: puppet-module-data
   tags:
     caracal:
       component: puppet
@@ -681,10 +672,6 @@ packages:
     caracal:
       component: puppet
       source-branch: main
-- project: puppet-rsyslog
-  tags:
-    caracal:
-      component: puppet
 - project: puppet-ssh
   tags:
     caracal:
