@@ -651,11 +651,6 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-- project: puppet-haproxy
-  tags:
-    caracal-uc:
-      component: puppet
-      source-branch: b90a36e962898eb6b1cca37bb12dd64b5df9590b
 - project: puppet-heat
   tags:
     caracal-uc:
@@ -699,11 +694,6 @@ packages:
   tags:
     caracal-uc:
       component: puppet
-- project: puppet-module-data
-  tags:
-    caracal-uc:
-      component: puppet
-      source-branch: 28dafce3a70b35364d33f64d9f518e1adffef242
 - project: puppet-mysql
   tags:
     caracal-uc:
@@ -766,11 +756,6 @@ packages:
     caracal-uc:
       component: puppet
       source-branch: c8444dff52794db7118b5695b41b67ccc900612f
-- project: puppet-rsyslog
-  tags:
-    caracal-uc:
-      component: puppet
-      source-branch: 2484786c5e1c6ec4f04ca4df4557957862fdbf16
 - project: puppet-ssh
   tags:
     caracal-uc:
