@@ -18,6 +18,23 @@
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2b486d5_d7e29ba9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2024-03-12T22:23:42Z",
+      "side": 1,
+      "message": "updating with changes to previous releases",
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5dca4809_0704372d",
@@ -55,6 +72,30 @@
       "side": 1,
       "message": "Alternatively, you could define default value to designate here (rdo.yml) and override the value to network in the tags for all the releases previous to antelope (train, ussuri, victoria, wallaby, xena, yoga and zed). That\u0027s simplify the management of the components for future releases.",
       "parentUuid": "5dca4809_0704372d",
+      "range": {
+        "startLine": 963,
+        "startChar": 13,
+        "endLine": 963,
+        "endChar": 22
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "917bae9b_d29f7a35",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 963,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2024-03-12T22:23:42Z",
+      "side": 1,
+      "message": "I took the alternative, it makes sense to me to make life easier for the future.",
+      "parentUuid": "07114422_632ca29a",
       "range": {
         "startLine": 963,
         "startChar": 13,
@@ -124,6 +165,30 @@
       "writtenOn": "2024-03-06T15:39:11Z",
       "side": 1,
       "message": "You need to add designate component to the global list of components here.",
+      "range": {
+        "startLine": 2724,
+        "startChar": 0,
+        "endLine": 2724,
+        "endChar": 4
+      },
+      "revId": "ff8cde86d633d407c06073ba5f7e0196b9d14df5",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9853ca2f_41ce5824",
+        "filename": "rdo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2724,
+      "author": {
+        "id": 565
+      },
+      "writtenOn": "2024-03-12T22:23:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eafd63a1_0acd818f",
       "range": {
         "startLine": 2724,
         "startChar": 0,
