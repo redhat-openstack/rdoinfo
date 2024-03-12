@@ -310,7 +310,7 @@ packages:
     cloud9s-openstack-bobcat-release: python-keystonemiddleware-10.4.1-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: openstack-kolla-17.2.0-1.el9s
+    cloud9s-openstack-bobcat-release: openstack-kolla-17.3.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-kuryr-lib-2.8.0-1.el9s
@@ -1988,6 +1988,9 @@ packages:
 - project: watcher-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-watcher-tests-tempest-3.0.0-1.el9s
+- project: whitebox-neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-bobcat-release: python-whitebox-neutron-tests-tempest-0.0.1-1.1.7340201git.el9s
 - project: wsme
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-wsme-0.12.1-1.el9s
