@@ -93,12 +93,6 @@ packages:
 - project: dracclient
   tags:
     caracal:
-- project: ec2-api
-  tags:
-    caracal:
-- project: ec2api-tempest-plugin
-  tags:
-    caracal:
 - project: edpm-image-builder
   tags:
     caracal:
@@ -553,10 +547,6 @@ packages:
     caracal:
       component: puppet
 - project: puppet-dns
-  tags:
-    caracal:
-      component: puppet
-- project: puppet-ec2api
   tags:
     caracal:
       component: puppet
