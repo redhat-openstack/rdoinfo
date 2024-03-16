@@ -37,7 +37,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-aodh-16.0.0-1.el9s
 - project: aodhclient
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-aodhclient-3.2.0-1.el9s
+    cloud9s-openstack-antelope-release: python-aodhclient-3.2.1-1.el9s
 - project: argon2
   buildsys-tags:
     cloud9s-openstack-antelope-release: argon2-20171227-7.el9s
@@ -49,7 +49,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-barbican-16.0.0-2.el9s
 - project: barbican-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-barbican-tests-tempest-2.0.0-1.el9s
+    cloud9s-openstack-antelope-release: python-barbican-tests-tempest-3.0.0-1.el9s
 - project: barbicanclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-barbicanclient-5.5.0-1.el9s
@@ -76,7 +76,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-cinder-22.1.1-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-cinder-tests-tempest-1.8.1-1.el9s
+    cloud9s-openstack-antelope-release: python-cinder-tests-tempest-1.10.0-1.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-cinderclient-9.3.0-1.el9s
@@ -124,7 +124,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-designate-ui-16.0.0-1.el9s
 - project: designate-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-designate-tests-tempest-0.17.0-1.el9s
+    cloud9s-openstack-antelope-release: python-designate-tests-tempest-0.20.0-1.el9s
 - project: designateclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-designateclient-5.2.0-1.el9s
@@ -148,7 +148,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-ec2-api-16.0.0-1.el9s
 - project: ec2api-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-ec2api-tests-tempest-1.6.1-1.el9s
+    cloud9s-openstack-antelope-release: python-ec2api-tests-tempest-1.7.0-1.el9s
 - project: etcd
   buildsys-tags:
     cloud9s-openstack-antelope-release: etcd-3.4.14-1.el9s
@@ -169,10 +169,10 @@ packages:
     cloud9s-openstack-antelope-release: openstack-glance-26.0.0-1.el9s
 - project: glance-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-glance-tests-tempest-0.6.0-1.el9s
+    cloud9s-openstack-antelope-release: python-glance-tests-tempest-0.7.0-1.el9s
 - project: glance_store
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-glance-store-4.3.1-1.el9s
+    cloud9s-openstack-antelope-release: python-glance-store-4.3.2-1.el9s
 - project: glanceclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-glanceclient-4.3.0-1.el9s
@@ -229,7 +229,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-heat-ui-9.0.0-1.el9s
 - project: heat-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-heat-tests-tempest-1.7.1-1.el9s
+    cloud9s-openstack-antelope-release: python-heat-tests-tempest-2.0.0-1.el9s
 - project: heat-translator
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-heat-translator-2.7.0-1.el9s
@@ -271,7 +271,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-ironic-staging-drivers-0.17.0-1.el9s
 - project: ironic-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-ironic-tests-tempest-2.6.1-1.el9s
+    cloud9s-openstack-antelope-release: python-ironic-tests-tempest-2.7.0-1.el9s
 - project: ironic-ui
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-ironic-ui-6.1.0-1.el9s
@@ -286,7 +286,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-keystone-23.0.1-1.el9s
 - project: keystone-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-keystone-tests-tempest-0.12.0-1.el9s
+    cloud9s-openstack-antelope-release: python-keystone-tests-tempest-0.13.0-1.el9s
 - project: keystoneauth1
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-keystoneauth1-5.1.2-1.el9s
@@ -298,7 +298,7 @@ packages:
     cloud9s-openstack-antelope-release: python-keystonemiddleware-10.2.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-kolla-16.3.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-kolla-16.4.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-kuryr-lib-2.7.0-1.el9s
@@ -307,7 +307,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-kuryr-kubernetes-8.0.0-1.el9s
 - project: kuryr-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-kuryr-tests-tempest-0.14.1-1.el9s
+    cloud9s-openstack-antelope-release: python-kuryr-tests-tempest-0.15.1-1.el9s
 - project: leatherman
   buildsys-tags:
     cloud9s-openstack-antelope-release: leatherman-1.12.6-3.el9s
@@ -346,10 +346,10 @@ packages:
     cloud9s-openstack-antelope-release: luajit-2.1.0-0.19beta3.el9s
 - project: magnum
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-magnum-16.0.1-1.el9s
+    cloud9s-openstack-antelope-release: openstack-magnum-16.0.2-1.el9s
 - project: magnum-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-magnum-tests-tempest-2.0.0-1.el9s
+    cloud9s-openstack-antelope-release: python-magnum-tests-tempest-2.1.0-1.el9s
 - project: magnum-ui
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-magnum-ui-12.0.0-1.el9s
@@ -358,16 +358,16 @@ packages:
     cloud9s-openstack-antelope-release: python-magnumclient-4.1.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-manila-16.1.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-manila-16.2.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-manila-tests-tempest-1.13.0-1.el9s
+    cloud9s-openstack-antelope-release: python-manila-tests-tempest-2.0.0-1.el9s
 - project: manila-ui
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-manila-ui-9.0.0-1.el9s
 - project: manilaclient
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-manilaclient-4.4.0-1.el9s
+    cloud9s-openstack-antelope-release: python-manilaclient-4.4.1-1.el9s
 - project: metalsmith
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-metalsmith-1.10.0-1.el9s
@@ -388,7 +388,7 @@ packages:
     cloud9s-openstack-antelope-release: python-mistral-lib-2.8.0-1.el9s
 - project: mistral-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-mistral-tests-tempest-2.1.1-1.el9s
+    cloud9s-openstack-antelope-release: python-mistral-tests-tempest-2.2.0-1.el9s
 - project: mistralclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-mistralclient-5.0.0-1.el9s
@@ -406,7 +406,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-murano-ui-15.0.0-1.el9s
 - project: murano-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-murano-tests-tempest-2.6.0-1.el9s
+    cloud9s-openstack-antelope-release: python-murano-tests-tempest-2.7.0-1.el9s
 - project: muranoclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-muranoclient-2.6.0-1.el9s
@@ -451,7 +451,7 @@ packages:
     cloud9s-openstack-antelope-release: python-neutron-lib-3.4.2-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-neutron-tests-tempest-2.2.0-1.el9s
+    cloud9s-openstack-antelope-release: python-neutron-tests-tempest-2.5.0-1.el9s
 - project: neutron-vpnaas
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-neutron-vpnaas-22.0.0-1.el9s
@@ -511,7 +511,7 @@ packages:
     cloud9s-openstack-antelope-release: os-apply-config-13.1.0-1.el9s
 - project: os-brick
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-os-brick-6.2.2-1.el9s
+    cloud9s-openstack-antelope-release: python-os-brick-6.2.3-1.el9s
 - project: os-client-config
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-os-client-config-2.1.0-1.el9s
@@ -571,7 +571,7 @@ packages:
     cloud9s-openstack-antelope-release: python-oslo-context-5.1.1-1.el9s
 - project: oslo-db
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-oslo-db-12.3.1-1.el9s
+    cloud9s-openstack-antelope-release: python-oslo-db-12.3.2-1.el9s
 - project: oslo-i18n
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-oslo-i18n-6.0.0-2.el9s
@@ -583,13 +583,13 @@ packages:
     cloud9s-openstack-antelope-release: python-oslo-log-5.2.0-1.el9s
 - project: oslo-messaging
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-oslo-messaging-14.2.1-1.el9s
+    cloud9s-openstack-antelope-release: python-oslo-messaging-14.2.4-1.el9s
 - project: oslo-metrics
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-oslo-metrics-0.6.0-1.el9s
 - project: oslo-middleware
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-oslo-middleware-5.1.1-1.el9s
+    cloud9s-openstack-antelope-release: python-oslo-middleware-5.1.1-2.el9s
 - project: oslo-policy
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-oslo-policy-4.1.1-1.el9s
@@ -598,7 +598,7 @@ packages:
     cloud9s-openstack-antelope-release: python-oslo-privsep-3.1.0-1.el9s
 - project: oslo-reports
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-oslo-reports-3.0.0-1.el9s
+    cloud9s-openstack-antelope-release: python-oslo-reports-3.0.0-2.el9s
 - project: oslo-rootwrap
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-oslo-rootwrap-7.0.1-1.el9s
@@ -685,7 +685,7 @@ packages:
     cloud9s-openstack-antelope-release: puppet-collectd-14.0.1-0.3.0rc0.8fa5ab6git.el9s
 - project: puppet-concat
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-concat-7.3.2-1.6dff852git.el9s
+    cloud9s-openstack-antelope-release: puppet-concat-7.3.3-1.el9s
 - project: puppet-corosync
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-corosync-8.2.1-0.3.0rc0.f5cd461git.el9s
@@ -1954,10 +1954,10 @@ packages:
     cloud9s-openstack-antelope-release: python-tcib-0.2.0-1.el9s
 - project: telemetry-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-telemetry-tests-tempest-1.9.0-1.el9s
+    cloud9s-openstack-antelope-release: python-telemetry-tests-tempest-1.10.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-tempest-34.0.0-3.el9s
+    cloud9s-openstack-antelope-release: openstack-tempest-37.0.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-tempestconf-3.3.0-1.el9s
@@ -1975,7 +1975,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-trove-ui-20.0.0-1.el9s
 - project: trove-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-trove-tests-tempest-2.0.1-1.el9s
+    cloud9s-openstack-antelope-release: python-trove-tests-tempest-2.2.0-1.el9s
 - project: troveclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-troveclient-8.1.0-1.el9s
@@ -1996,7 +1996,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-vitrage-ui-4.0.0-1.el9s
 - project: vitrage-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-vitrage-tests-tempest-6.1.1-1.el9s
+    cloud9s-openstack-antelope-release: python-vitrage-tests-tempest-6.2.0-1.el9s
 - project: vitrageclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-vitrageclient-4.7.0-1.el9s
@@ -2008,7 +2008,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-watcher-10.0.0-1.el9s
 - project: watcher-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-watcher-tests-tempest-2.6.0-1.el9s
+    cloud9s-openstack-antelope-release: python-watcher-tests-tempest-3.0.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-whitebox-neutron-tests-tempest-0.0.1-1.1.7340201git.el9s
@@ -2029,7 +2029,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-zaqar-16.0.0-1.el9s
 - project: zaqar-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-zaqar-tests-tempest-1.6.0-1.el9s
+    cloud9s-openstack-antelope-release: python-zaqar-tests-tempest-1.7.0-1.el9s
 - project: zaqarclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-zaqarclient-2.5.1-1.el9s
