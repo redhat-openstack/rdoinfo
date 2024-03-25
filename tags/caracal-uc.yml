@@ -35,6 +35,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 4.0.0
 - project: barbicanclient
   tags:
     caracal-uc:
@@ -56,6 +57,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 1.12.0
 - project: cinderclient
   tags:
     caracal-uc:
@@ -94,6 +96,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 0.22.0
 - project: designateclient
   tags:
     caracal-uc:
@@ -117,6 +120,7 @@ packages:
 - project: glance-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 0.8.0
 - project: glance_store
   tags:
     caracal-uc:
@@ -157,6 +161,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.1.0
 - project: heat-translator
   tags:
     caracal-uc:
@@ -201,6 +206,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.9.0
 - project: ironic-ui
   tags:
     caracal-uc:
@@ -214,6 +220,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 0.14.0
 - project: keystoneauth1
   tags:
     caracal-uc:
@@ -239,12 +246,14 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 0.16.0
 - project: magnum
   tags:
     caracal-uc:
 - project: magnum-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.3.0
 - project: magnum-ui
   tags:
     caracal-uc:
@@ -258,6 +267,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.2.0
 - project: manila-ui
   tags:
     caracal-uc:
@@ -292,6 +302,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.3.0
 - project: mistralclient
   tags:
     caracal-uc:
@@ -327,6 +338,7 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     caracal-uc:
@@ -346,6 +358,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.7.0
 - project: neutron-vpnaas
   tags:
     caracal-uc:
@@ -377,6 +390,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.6.0
 - project: octaviaclient
   tags:
     caracal-uc:
@@ -887,9 +901,11 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.0.0
 - project: tempest
   tags:
     caracal-uc:
+      source-branch: 37.0.0
 - project: tempestconf
   tags:
     caracal-uc:
@@ -909,6 +925,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 2.3.0
 - project: troveclient
   tags:
     caracal-uc:
@@ -926,7 +943,7 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     caracal-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
 - project: vitrageclient
   tags:
     caracal-uc:
@@ -937,12 +954,15 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 3.0.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 0.1.0
 - project: whitebox-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 0.0.2
 - project: wsme
   tags:
     caracal-uc:
@@ -954,6 +974,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     caracal-uc:
+      source-branch: 1.8.0
 - project: zaqarclient
   tags:
     caracal-uc:
