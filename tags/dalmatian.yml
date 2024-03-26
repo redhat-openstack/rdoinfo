@@ -1,981 +1,851 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ansible-config_template
   tags:
-    caracal-uc:
+    dalmatian:
       component: podified
 - project: ansible-role-atos-hsm
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ansible-role-collectd-config
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ansible-role-lunasa-hsm
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ansible-role-thales-hsm
   tags:
-    caracal-uc:
+    dalmatian:
 - project: aodh
   tags:
-    caracal-uc:
+    dalmatian:
 - project: aodhclient
   tags:
-    caracal-uc:
-      source-branch: 3.5.1
+    dalmatian:
 - project: automaton
   tags:
-    caracal-uc:
-      source-branch: 3.2.0
+    dalmatian:
 - project: barbican
   tags:
-    caracal-uc:
+    dalmatian:
 - project: barbican-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 4.0.0
+    dalmatian:
 - project: barbicanclient
   tags:
-    caracal-uc:
-      source-branch: 5.7.0
+    dalmatian:
 - project: castellan
   tags:
-    caracal-uc:
-      source-branch: 5.0.0
+    dalmatian:
 - project: ceilometer
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ceilometermiddleware
   tags:
-    caracal-uc:
-      source-branch: 3.3.1
+    dalmatian:
 - project: cinder
   tags:
-    caracal-uc:
+    dalmatian:
 - project: cinder-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 1.12.0
+    dalmatian:
 - project: cinderclient
   tags:
-    caracal-uc:
-      source-branch: 9.5.0
+    dalmatian:
 - project: cliff
   tags:
-    caracal-uc:
-      source-branch: 4.6.0
+    dalmatian:
 - project: cloudkitty
   tags:
-    caracal-uc:
+    dalmatian:
 - project: cloudkitty-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: cloudkittyclient
   tags:
-    caracal-uc:
-      source-branch: 5.0.0
+    dalmatian:
 - project: collectd-gnocchi
   tags:
-    caracal-uc:
+    dalmatian:
 - project: cursive
   tags:
-    caracal-uc:
-      source-branch: 0.2.3
+    dalmatian:
 - project: debtcollector
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
 - project: designate
   tags:
-    caracal-uc:
+    dalmatian:
 - project: designate-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: designate-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 0.22.0
+    dalmatian:
 - project: designateclient
   tags:
-    caracal-uc:
-      source-branch: 6.0.1
+    dalmatian:
 - project: diskimage-builder
   tags:
-    caracal-uc:
+    dalmatian:
 - project: dracclient
   tags:
-    caracal-uc:
+    dalmatian:
 - project: edpm-image-builder
   tags:
-    caracal-uc:
+    dalmatian:
 - project: futurist
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
 - project: glance
   tags:
-    caracal-uc:
+    dalmatian:
 - project: glance-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 0.8.0
+    dalmatian:
 - project: glance_store
   tags:
-    caracal-uc:
-      source-branch: 4.7.0
+    dalmatian:
 - project: glanceclient
   tags:
-    caracal-uc:
-      source-branch: 4.5.0
+    dalmatian:
 - project: glean
   tags:
-    caracal-uc:
+    dalmatian:
 - project: gnocchi
   tags:
-    caracal-uc:
+    dalmatian:
       source-branch: stable/4.6
 - project: gnocchiclient
   tags:
-    caracal-uc:
-      source-branch: 7.0.8
+    dalmatian:
 - project: hacking
   tags:
-    caracal-uc:
-      source-branch: 6.0.1
+    dalmatian:
 - project: hardware
   tags:
-    caracal-uc:
+    dalmatian:
 - project: heat
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: heat-agents
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: heat-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: heat-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.1.0
+    dalmatian:
 - project: heat-translator
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
       component: common
 - project: heatclient
   tags:
-    caracal-uc:
-      source-branch: 3.5.0
+    dalmatian:
 - project: horizon
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ibmcclient
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic-inspector
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic-inspector-client
   tags:
-    caracal-uc:
-      source-branch: 5.1.0
+    dalmatian:
 - project: ironic-lib
   tags:
-    caracal-uc:
-      source-branch: 6.0.0
+    dalmatian:
 - project: ironic-prometheus-exporter
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic-python-agent
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic-python-agent-builder
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic-staging-drivers
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironic-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.9.0
+    dalmatian:
 - project: ironic-ui
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ironicclient
   tags:
-    caracal-uc:
-      source-branch: 5.5.0
+    dalmatian:
 - project: keystone
   tags:
-    caracal-uc:
+    dalmatian:
 - project: keystone-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 0.14.0
+    dalmatian:
 - project: keystoneauth1
   tags:
-    caracal-uc:
-      source-branch: 5.6.0
+    dalmatian:
 - project: keystoneclient
   tags:
-    caracal-uc:
-      source-branch: 5.4.0
+    dalmatian:
 - project: keystonemiddleware
   tags:
-    caracal-uc:
-      source-branch: 10.6.0
+    dalmatian:
 - project: kolla
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: kuryr
   tags:
-    caracal-uc:
+    dalmatian:
 - project: kuryr-kubernetes
   tags:
-    caracal-uc:
+    dalmatian:
 - project: kuryr-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 0.16.0
+    dalmatian:
 - project: magnum
   tags:
-    caracal-uc:
+    dalmatian:
 - project: magnum-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.3.0
+    dalmatian:
 - project: magnum-ui
   tags:
-    caracal-uc:
+    dalmatian:
 - project: magnumclient
   tags:
-    caracal-uc:
-      source-branch: 4.4.0
+    dalmatian:
 - project: manila
   tags:
-    caracal-uc:
+    dalmatian:
 - project: manila-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.2.0
+    dalmatian:
 - project: manila-ui
   tags:
-    caracal-uc:
+    dalmatian:
 - project: manilaclient
   tags:
-    caracal-uc:
-      source-branch: 4.8.0
+    dalmatian:
 - project: metalsmith
   tags:
-    caracal-uc:
-      source-branch: 2.1.1
+    dalmatian:
 - project: microversion-parse
   tags:
-    caracal-uc:
-      source-branch: 1.0.1
+    dalmatian:
 - project: mistral
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: mistral-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: mistral-extra
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: mistral-lib
   tags:
-    caracal-uc:
-      source-branch: 2.10.0
+    dalmatian:
       component: common
 - project: mistral-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.3.0
+    dalmatian:
 - project: mistralclient
   tags:
-    caracal-uc:
-      source-branch: 5.2.0
+    dalmatian:
 - project: monascaclient
   tags:
-    caracal-uc:
-      source-branch: 2.8.0
+    dalmatian:
 - project: networking-ansible
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-arista
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-bagpipe
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-baremetal
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-bgpvpn
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-bigswitch
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-generic-switch
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-l2gw
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-l2gw-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
+    dalmatian:
 - project: networking-mlnx
   tags:
-    caracal-uc:
+    dalmatian:
 - project: networking-sfc
   tags:
-    caracal-uc:
+    dalmatian:
 - project: neutron
   tags:
-    caracal-uc:
+    dalmatian:
 - project: neutron-dynamic-routing
   tags:
-    caracal-uc:
+    dalmatian:
 - project: neutron-lib
   tags:
-    caracal-uc:
-      source-branch: 3.11.0
+    dalmatian:
 - project: neutron-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.7.0
+    dalmatian:
 - project: neutron-vpnaas
   tags:
-    caracal-uc:
+    dalmatian:
 - project: neutronclient
   tags:
-    caracal-uc:
-      source-branch: 11.2.0
+    dalmatian:
 - project: nova
   tags:
-    caracal-uc:
+    dalmatian:
 - project: novaclient
   tags:
-    caracal-uc:
-      source-branch: 18.6.0
+    dalmatian:
 - project: observabilityclient
   tags:
-    caracal-uc:
-      source-branch: 0.1.1
+    dalmatian:
 - project: octavia
   tags:
-    caracal-uc:
+    dalmatian:
 - project: octavia-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: octavia-lib
   tags:
-    caracal-uc:
-      source-branch: 3.5.0
+    dalmatian:
 - project: octavia-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.6.0
+    dalmatian:
 - project: octaviaclient
   tags:
-    caracal-uc:
-      source-branch: 3.7.0
+    dalmatian:
 - project: openstack-macros
   tags:
-    caracal-uc:
+    dalmatian:
 - project: openstack-selinux
   tags:
-    caracal-uc:
+    dalmatian:
 - project: openstackclient
   tags:
-    caracal-uc:
-      source-branch: 6.6.0
+    dalmatian:
 - project: openstacksdk
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
 - project: os-apply-config
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: os-brick
   tags:
-    caracal-uc:
-      source-branch: 6.7.0
+    dalmatian:
 - project: os-client-config
   tags:
-    caracal-uc:
-      source-branch: 2.1.0
+    dalmatian:
       component: clients
 - project: os-collect-config
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: os-diff
   tags:
-    caracal-uc:
+    dalmatian:
 - project: os-faults
   tags:
-    caracal-uc:
+    dalmatian:
 - project: os-ken
   tags:
-    caracal-uc:
-      source-branch: 2.8.1
+    dalmatian:
 - project: os-net-config
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: os-refresh-config
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: os-resource-classes
   tags:
-    caracal-uc:
-      source-branch: 1.1.0
+    dalmatian:
 - project: os-service-types
   tags:
-    caracal-uc:
-      source-branch: 1.7.0
+    dalmatian:
 - project: os-testr
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
 - project: os-traits
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
 - project: os-vif
   tags:
-    caracal-uc:
-      source-branch: 3.5.0
+    dalmatian:
 - project: os-win
   tags:
-    caracal-uc:
-      source-branch: 5.9.0
+    dalmatian:
 - project: osc-lib
   tags:
-    caracal-uc:
-      source-branch: 3.0.1
+    dalmatian:
 - project: osc-placement
   tags:
-    caracal-uc:
-      source-branch: 4.3.0
+    dalmatian:
 - project: oslo-cache
   tags:
-    caracal-uc:
-      source-branch: 3.7.0
+    dalmatian:
 - project: oslo-concurrency
   tags:
-    caracal-uc:
-      source-branch: 6.0.0
+    dalmatian:
 - project: oslo-config
   tags:
-    caracal-uc:
-      source-branch: 9.4.0
+    dalmatian:
 - project: oslo-context
   tags:
-    caracal-uc:
-      source-branch: 5.5.0
+    dalmatian:
 - project: oslo-db
   tags:
-    caracal-uc:
-      source-branch: 15.0.0
+    dalmatian:
 - project: oslo-i18n
   tags:
-    caracal-uc:
-      source-branch: 6.3.0
+    dalmatian:
 - project: oslo-limit
   tags:
-    caracal-uc:
-      source-branch: 2.4.0
+    dalmatian:
 - project: oslo-log
   tags:
-    caracal-uc:
-      source-branch: 5.5.0
+    dalmatian:
 - project: oslo-messaging
   tags:
-    caracal-uc:
-      source-branch: 14.7.0
+    dalmatian:
 - project: oslo-metrics
   tags:
-    caracal-uc:
-      source-branch: 0.8.0
+    dalmatian:
 - project: oslo-middleware
   tags:
-    caracal-uc:
-      source-branch: 6.1.0
+    dalmatian:
 - project: oslo-policy
   tags:
-    caracal-uc:
-      source-branch: 4.3.0
+    dalmatian:
 - project: oslo-privsep
   tags:
-    caracal-uc:
-      source-branch: 3.3.0
+    dalmatian:
 - project: oslo-reports
   tags:
-    caracal-uc:
-      source-branch: 3.3.0
+    dalmatian:
 - project: oslo-rootwrap
   tags:
-    caracal-uc:
-      source-branch: 7.2.0
+    dalmatian:
 - project: oslo-serialization
   tags:
-    caracal-uc:
-      source-branch: 5.4.0
+    dalmatian:
 - project: oslo-service
   tags:
-    caracal-uc:
-      source-branch: 3.4.0
+    dalmatian:
 - project: oslo-sphinx
   tags:
-    caracal-uc:
+    dalmatian:
       source-branch: f92583cfc34292ec1441368f984c9692346946c4
 - project: oslo-upgradecheck
   tags:
-    caracal-uc:
-      source-branch: 2.3.0
+    dalmatian:
 - project: oslo-utils
   tags:
-    caracal-uc:
-      source-branch: 7.1.0
+    dalmatian:
 - project: oslo-versionedobjects
   tags:
-    caracal-uc:
-      source-branch: 3.3.0
+    dalmatian:
 - project: oslo-vmware
   tags:
-    caracal-uc:
-      source-branch: 4.4.0
+    dalmatian:
 - project: oslotest
   tags:
-    caracal-uc:
-      source-branch: 5.0.0
+    dalmatian:
 - project: osprofiler
   tags:
-    caracal-uc:
-      source-branch: 4.1.0
+    dalmatian:
 - project: ovn-bgp-agent
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ovn-octavia-provider
   tags:
-    caracal-uc:
+    dalmatian:
 - project: ovsdbapp
   tags:
-    caracal-uc:
-      source-branch: 2.6.0
+    dalmatian:
 - project: packstack
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: placement
   tags:
-    caracal-uc:
+    dalmatian:
 - project: proliantutils
   tags:
-    caracal-uc:
-      source-branch: 2.16.2
+    dalmatian:
 - project: puppet-aodh
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-apache
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v12.0.3
+      source-branch: main
 - project: puppet-archive
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v7.1.0
 - project: puppet-barbican
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-ceilometer
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-ceph
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-cinder
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-concat
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v9.0.2
+      source-branch: main
 - project: puppet-corosync
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 83cc0d7f6b9399ff1238d379eff129f75dfd6e92
 - project: puppet-designate
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-dns
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 10.3.0
 - project: puppet-firewall
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v8.0.1
+      source-branch: main
 - project: puppet-glance
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-gnocchi
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-heat
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-horizon
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-inifile
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v6.1.1
+      source-branch: main
 - project: puppet-ironic
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-keystone
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-kmod
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v4.0.1
 - project: puppet-magnum
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-manila
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-memcached
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v8.3.0
 - project: puppet-mistral
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-mysql
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 79b85708cd87d5bc314618fbd46ce2b9cc56da33
+      source-branch: main
 - project: puppet-neutron
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-nova
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-nssdb
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-octavia
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-openstack_extras
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-openstacklib
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-oslo
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-ovn
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-placement
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-rabbitmq
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v13.2.0
 - project: puppet-redis
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v10.0.0
 - project: puppet-remote
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: c8444dff52794db7118b5695b41b67ccc900612f
+      source-branch: main
 - project: puppet-ssh
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 575a7fe5d9d4436b5db414e2fae955c1cc96d932
 - project: puppet-stdlib
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v9.5.0
+      source-branch: main
 - project: puppet-swift
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-sysctl
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v6.6.0
 - project: puppet-tempest
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-trove
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-vcsrepo
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: e5d9e4c8ce059e369f5c5bbd4b49f1fc908feae1
+      source-branch: main
 - project: puppet-vitrage
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-vswitch
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-watcher
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: puppet-xinetd
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
-      source-branch: v3.4.1
 - project: puppet-zaqar
   tags:
-    caracal-uc:
+    dalmatian:
       component: puppet
 - project: pycadf
   tags:
-    caracal-uc:
-      source-branch: 3.1.1
+    dalmatian:
 - project: rally
   tags:
-    caracal-uc:
+    dalmatian:
 - project: rally-openstack
   tags:
-    caracal-uc:
+    dalmatian:
 - project: reno
   tags:
-    caracal-uc:
-      source-branch: 4.1.0
+    dalmatian:
 - project: requestsexceptions
   tags:
-    caracal-uc:
-      source-branch: 1.4.0
+    dalmatian:
 - project: rsd-lib
   tags:
-    caracal-uc:
-      source-branch: 1.2.0
+    dalmatian:
 - project: rsdclient
   tags:
-    caracal-uc:
-      source-branch: 1.0.2
+    dalmatian:
 - project: saharaclient
   tags:
-    caracal-uc:
-      source-branch: 4.2.0
+    dalmatian:
 - project: scciclient
   tags:
-    caracal-uc:
-      source-branch: 0.15.0
+    dalmatian:
 - project: shade
   tags:
-    caracal-uc:
-      source-branch: 1.33.0
+    dalmatian:
 - project: sphinx-feature-classification
   tags:
-    caracal-uc:
-      source-branch: 1.1.0
+    dalmatian:
 - project: stevedore
   tags:
-    caracal-uc:
-      source-branch: 5.2.0
+    dalmatian:
 - project: sushy
   tags:
-    caracal-uc:
-      source-branch: 5.0.0
+    dalmatian:
 - project: sushy-oem-idrac
   tags:
-    caracal-uc:
+    dalmatian:
 - project: sushy-tools
   tags:
-    caracal-uc:
+    dalmatian:
 - project: swift
   tags:
-    caracal-uc:
+    dalmatian:
 - project: swiftclient
   tags:
-    caracal-uc:
-      source-branch: 4.5.0
+    dalmatian:
 - project: tacker
   tags:
-    caracal-uc:
+    dalmatian:
 - project: tackerclient
   tags:
-    caracal-uc:
-      source-branch: 2.0.0
+    dalmatian:
 - project: tap-as-a-service
   tags:
-    caracal-uc:
+    dalmatian:
 - project: taskflow
   tags:
-    caracal-uc:
-      source-branch: 5.6.0
+    dalmatian:
 - project: tcib
   tags:
-    caracal-uc:
+    dalmatian:
 - project: telemetry-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.0.0
+    dalmatian:
 - project: tempest
   tags:
-    caracal-uc:
-      source-branch: 37.0.0
+    dalmatian:
 - project: tempestconf
   tags:
-    caracal-uc:
+    dalmatian:
 - project: tobiko
   tags:
-    caracal-uc:
+    dalmatian:
 - project: tooz
   tags:
-    caracal-uc:
-      source-branch: 6.1.0
+    dalmatian:
 - project: trove
   tags:
-    caracal-uc:
+    dalmatian:
 - project: trove-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: trove-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 2.3.0
+    dalmatian:
 - project: troveclient
   tags:
-    caracal-uc:
-      source-branch: 8.4.0
+    dalmatian:
 - project: virtualbmc
   tags:
-    caracal-uc:
-      source-branch: 3.1.0
+    dalmatian:
 - project: vitrage
   tags:
-    caracal-uc:
+    dalmatian:
 - project: vitrage-dashboard
   tags:
-    caracal-uc:
+    dalmatian:
 - project: vitrage-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 6.3.0
+    dalmatian:
 - project: vitrageclient
   tags:
-    caracal-uc:
-      source-branch: 5.0.0
+    dalmatian:
 - project: watcher
   tags:
-    caracal-uc:
+    dalmatian:
 - project: watcher-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 3.0.0
+    dalmatian:
 - project: whitebox-neutron-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 0.1.0
+    dalmatian:
 - project: whitebox-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 0.0.2
+    dalmatian:
 - project: wsme
   tags:
-    caracal-uc:
-      source-branch: 0.12.1
+    dalmatian:
 - project: zaqar
   tags:
-    caracal-uc:
+    dalmatian:
       component: common
 - project: zaqar-tempest-plugin
   tags:
-    caracal-uc:
-      source-branch: 1.8.0
+    dalmatian:
 - project: zaqarclient
   tags:
-    caracal-uc:
-      source-branch: 2.7.0
+    dalmatian:
