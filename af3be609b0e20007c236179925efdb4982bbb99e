@@ -39,6 +39,30 @@
       },
       "revId": "af3be609b0e20007c236179925efdb4982bbb99e",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4278d935_5d4137a1",
+        "filename": "tags/caracal-uc.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-03-26T08:49:21Z",
+      "side": 1,
+      "message": "I chose 82e3d07ea410e1489c6a83e5a4b9557d52643d41 because it\u0027s what we currently have in CBS since Xena\n\n  cloud8s-openstack-xena-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8\n  cloud8s-openstack-xena-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8\n  cloud8s-openstack-yoga-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8\n  cloud8s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8\n  cloud9s-openstack-antelope-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-antelope-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-bobcat-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-bobcat-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-yoga-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-yoga-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-zed-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  cloud9s-openstack-zed-testing: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el9s\n  \nWe have pinned to 5fad5e5a2dcefdada3911d8de068e986ba7e7600 since Antelope, but this commit and fcae637cec0578b8176b6cded8d5682472b60aff are just repo config [1]\nI think we should pin back to 82e3d07ea410e1489c6a83e5a4b9557d52643d41 for Antelope and Bobcat to be consistent (but we can live with it tbh)\n\n[1] https://opendev.org/x/networking-l2gw-tempest-plugin/commits/branch/master",
+      "parentUuid": "1d182aca_84817a1d",
+      "range": {
+        "startLine": 341,
+        "startChar": 21,
+        "endLine": 341,
+        "endChar": 61
+      },
+      "revId": "af3be609b0e20007c236179925efdb4982bbb99e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
