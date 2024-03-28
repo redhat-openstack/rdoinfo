@@ -23,24 +23,81 @@ packages:
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-ansible-core-2.14.2-4.1.el9s
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: ansible-role-atos-hsm-7.0.0-0.1.0rc1.el9s
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: ansible-role-lunasa-hsm-7.0.0-0.1.0rc1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: ansible-role-thales-hsm-7.0.0-0.1.0rc1.el9s
+- project: aodh
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-aodh-18.0.0-0.1.0rc1.el9s
+- project: aodhclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-aodhclient-3.5.1-1.el9s
 - project: argon2
   buildsys-tags:
     cloud9s-openstack-caracal-testing: argon2-20171227-7.el9s
+- project: automaton
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-automaton-3.2.0-1.el9s
+- project: barbican
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-barbican-18.0.0-0.1.0rc1.el9s
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-barbican-tests-tempest-4.0.0-1.el9s
+- project: barbicanclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-barbicanclient-5.7.0-1.el9s
 - project: blosc
   buildsys-tags:
     cloud9s-openstack-caracal-testing: blosc-1.21.0-1.el9s
 - project: bridge-utils
   buildsys-tags:
     cloud9s-openstack-caracal-testing: bridge-utils-1.7.1-2.el9s
+- project: castellan
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-castellan-5.0.0-1.el9s
 - project: catch1
   buildsys-tags:
     cloud9s-openstack-caracal-testing: catch1-1.12.2-8.el9s
+- project: ceilometer
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ceilometer-22.0.0-0.1.0rc1.el9s
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ceilometermiddleware-3.3.1-1.el9s
+- project: cinder
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-cinder-24.0.0-0.1.0rc1.el9s
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-cinder-tests-tempest-1.12.0-1.el9s
+- project: cinderclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-cinderclient-9.5.0-1.el9s
 - project: ck
   buildsys-tags:
     cloud9s-openstack-caracal-testing: ck-0.7.0-5.el9s
 - project: cliff
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-cliff-3.7.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-cliff-4.6.0-1.el9s
+- project: cloudkitty
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-cloudkitty-20.0.0-0.1.0rc1.el9s
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-cloudkitty-ui-18.0.0-0.1.0rc1.el9s
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-cloudkittyclient-5.0.0-1.el9s
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-collectd-gnocchi-1.7.1-2.el9s
 - project: cpp-hocon
   buildsys-tags:
     cloud9s-openstack-caracal-testing: cpp-hocon-0.3.0-4.el9s
@@ -50,9 +107,33 @@ packages:
 - project: crudini
   buildsys-tags:
     cloud9s-openstack-caracal-testing: crudini-0.9.3-4.el9s
+- project: cursive
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-cursive-0.2.3-2.el9s
+- project: debtcollector
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-debtcollector-3.0.0-1.el9s
+- project: designate
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-designate-18.0.0-0.1.0rc1.el9s
+- project: designate-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-designate-ui-18.0.0-0.1.0rc1.el9s
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-designate-tests-tempest-0.22.0-1.el9s
+- project: designateclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-designateclient-6.0.1-1.el9s
 - project: dibbler
   buildsys-tags:
     cloud9s-openstack-caracal-testing: dibbler-1.0.1-11.el9s
+- project: diskimage-builder
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: diskimage-builder-3.32.0-1.el9s
+- project: dracclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-dracclient-8.0.0-2.el9s
 - project: dumb-init
   buildsys-tags:
     cloud9s-openstack-caracal-testing: dumb-init-1.2.5-2.el9s
@@ -71,6 +152,24 @@ packages:
 - project: gflags
   buildsys-tags:
     cloud9s-openstack-caracal-testing: gflags-2.2.2-8.el9s
+- project: glance
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-glance-28.0.0-0.1.0rc1.el9s
+- project: glance-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-glance-tests-tempest-0.8.0-1.el9s
+- project: glance_store
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-glance-store-4.7.0-1.el9s
+- project: glanceclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-glanceclient-4.5.0-1.el9s
+- project: glean
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-glean-1.23.0-2.el9s
+- project: gnocchiclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-gnocchiclient-7.0.8-1.el9s
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
     cloud9s-openstack-caracal-testing: golang-github-vbatts-tar-split-0.11.2-1.el9s
@@ -92,18 +191,102 @@ packages:
 - project: gv
   buildsys-tags:
     cloud9s-openstack-caracal-testing: gv-3.7.4-27.el9s
+- project: hacking
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-hacking-6.1.0-1.el9s
+- project: hardware
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-hardware-0.31.0-1.el9s
 - project: hdf5
   buildsys-tags:
     cloud9s-openstack-caracal-testing: hdf5-1.10.6-5.el9s
+- project: heat
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-heat-22.0.0-0.1.0rc1.el9s
+- project: heat-agents
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-heat-agents-8.0.0-0.1.0rc1.el9s
 - project: heat-cfntools
   buildsys-tags:
     cloud9s-openstack-caracal-testing: heat-cfntools-1.4.2-15.el9s
+- project: heat-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-heat-ui-11.0.0-0.1.0rc1.el9s
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-heat-tests-tempest-2.1.0-1.el9s
+- project: heat-translator
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-heat-translator-3.0.0-1.el9s
+- project: heatclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-heatclient-3.5.0-1.el9s
 - project: hiera
   buildsys-tags:
     cloud9s-openstack-caracal-testing: hiera-3.7.0-2.el9s
+- project: horizon
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-django-horizon-24.0.0-1.el9s
+- project: ibmcclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ibmcclient-0.2.5.1-2.el9s
+- project: ironic
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ironic-24.1.0-1.el9s
+- project: ironic-inspector
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ironic-inspector-12.1.0-1.el9s
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ironic-inspector-client-5.1.0-1.el9s
+- project: ironic-lib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ironic-lib-6.0.0-1.el9s
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ironic-prometheus-exporter-4.3.0-1.el9s
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ironic-python-agent-9.11.0-1.el9s
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ironic-python-agent-builder-5.3.0-1.el9s
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ironic-tests-tempest-2.9.0-1.el9s
+- project: ironic-ui
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ironic-ui-6.3.0-1.el9s
+- project: ironicclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ironicclient-5.5.0-1.el9s
 - project: jsoncpp
   buildsys-tags:
     cloud9s-openstack-caracal-testing: jsoncpp-1.9.4-4.el9s
+- project: keystone
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-keystone-25.0.0-0.1.0rc1.el9s
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-keystone-tests-tempest-0.14.0-1.el9s
+- project: keystoneauth1
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-keystoneauth1-5.6.0-1.el9s
+- project: keystoneclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-keystoneclient-5.4.0-1.el9s
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-keystonemiddleware-10.6.0-1.el9s
+- project: kuryr
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-kuryr-lib-3.0.0-1.el9s
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-kuryr-kubernetes-10.0.0-0.1.0rc1.el9s
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-kuryr-tests-tempest-0.16.0-1.el9s
 - project: leatherman
   buildsys-tags:
     cloud9s-openstack-caracal-testing: leatherman-1.12.6-3.el9s
@@ -137,21 +320,249 @@ packages:
 - project: libwebsockets
   buildsys-tags:
     cloud9s-openstack-caracal-testing: libwebsockets-4.3.0-1.el9s
+- project: magnum
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-magnum-18.0.0-0.1.0rc1.el9s
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-magnum-tests-tempest-2.3.0-1.el9s
+- project: magnum-ui
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-magnum-ui-14.0.0-0.1.0rc1.el9s
+- project: magnumclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-magnumclient-4.4.0-1.el9s
+- project: manila
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-manila-18.0.0-0.1.0rc1.el9s
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-manila-tests-tempest-2.2.0-1.el9s
+- project: manila-ui
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-manila-ui-11.0.0-0.1.0rc1.el9s
+- project: manilaclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-manilaclient-4.8.0-1.el9s
+- project: metalsmith
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-metalsmith-2.1.1-1.el9s
+- project: microversion-parse
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-microversion-parse-1.0.1-2.el9s
+- project: mistral
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-mistral-18.0.0-0.1.0rc1.el9s
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-mistral-ui-18.0.0-0.1.0rc1.el9s
+- project: mistral-extra
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-mistral-extra-13.2.0-1.el9s
+- project: mistral-lib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-mistral-lib-2.10.0-1.el9s
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-mistral-tests-tempest-2.3.0-1.el9s
+- project: mistralclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-mistralclient-5.2.0-1.el9s
+- project: monascaclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-monascaclient-2.8.0-1.el9s
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-bagpipe-20.0.0-0.1.0rc1.el9s
+- project: networking-baremetal
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-baremetal-6.3.0-1.el9s
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-bgpvpn-20.0.0-0.1.0rc1.el9s
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-generic-switch-7.3.0-1.el9s
+- project: networking-sfc
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-sfc-18.0.0-0.1.0rc1.el9s
+- project: neutron
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-neutron-24.0.0-0.2.0rc2.el9s
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-neutron-dynamic-routing-24.0.0-0.1.0rc1.el9s
+- project: neutron-lib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-neutron-lib-3.11.0-1.el9s
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-neutron-tests-tempest-2.7.0-1.el9s
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-neutron-vpnaas-24.0.0-0.2.0rc2.el9s
+- project: neutronclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-neutronclient-11.2.0-1.el9s
+- project: nova
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-nova-29.0.0-0.2.0rc1.el9s
+- project: novaclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-novaclient-18.6.0-1.el9s
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-caracal-testing: novnc-1.3.0-1.el9s
+- project: octavia
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-octavia-14.0.0-0.1.0rc1.el9s
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-octavia-ui-13.0.0-0.1.0rc1.el9s
+- project: octavia-lib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-octavia-lib-3.5.0-1.el9s
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-octavia-tests-tempest-2.6.0-1.el9s
+- project: octaviaclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-octaviaclient-3.7.0-1.el9s
 - project: openpgm
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openpgm-5.2.122-26.el9s
 - project: openstack-network-scripts
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-network-scripts-10.11.1-5.el9s
+- project: openstackclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-openstackclient-6.6.0-1.el9s
+- project: openstacksdk
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-openstacksdk-3.0.0-1.el9s
+- project: os-brick
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-brick-6.7.0-1.el9s
+- project: os-client-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-client-config-2.1.0-3.el9s
+- project: os-faults
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-faults-0.2.7-2.el9s
+- project: os-ken
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-ken-2.8.1-1.el9s
+- project: os-resource-classes
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-resource-classes-1.1.0-2.el9s
+- project: os-service-types
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-service-types-1.7.0-4.el9s
+- project: os-testr
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-testr-3.0.0-2.el9s
+- project: os-traits
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-traits-3.0.0-1.el9s
+- project: os-vif
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-vif-3.5.0-1.el9s
+- project: os-win
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-os-win-5.9.0-2.el9s
+- project: osc-lib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-osc-lib-3.0.1-1.el9s
+- project: osc-placement
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-osc-placement-4.3.0-1.el9s
+- project: oslo-cache
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-cache-3.7.0-1.el9s
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-concurrency-6.0.0-1.el9s
+- project: oslo-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-config-9.4.0-1.el9s
+- project: oslo-context
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-context-5.5.0-1.el9s
+- project: oslo-db
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-db-15.0.0-1.el9s
+- project: oslo-i18n
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-i18n-6.3.0-1.el9s
+- project: oslo-limit
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-limit-2.4.0-1.el9s
+- project: oslo-log
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-log-5.5.0-1.el9s
+- project: oslo-messaging
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-messaging-14.7.0-1.el9s
+- project: oslo-metrics
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-metrics-0.8.0-1.el9s
+- project: oslo-middleware
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-middleware-6.1.0-1.el9s
+- project: oslo-policy
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-policy-4.3.0-1.el9s
+- project: oslo-privsep
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-privsep-3.3.0-1.el9s
+- project: oslo-reports
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-reports-3.3.0-1.el9s
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-rootwrap-7.2.0-1.el9s
+- project: oslo-serialization
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-serialization-5.4.0-1.el9s
+- project: oslo-service
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-service-3.4.0-1.el9s
 - project: oslo-sphinx
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-oslo-sphinx-4.18.0-11.el9s
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-upgradecheck-2.3.0-1.el9s
+- project: oslo-utils
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-utils-7.1.0-1.el9s
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-versionedobjects-3.3.0-1.el9s
+- project: oslo-vmware
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-oslo-vmware-4.4.0-1.el9s
 - project: oslotest
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-oslotest-4.4.1-3.el9s
+    cloud9s-openstack-caracal-testing: python-oslotest-5.0.0-1.el9s
+- project: osprofiler
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-osprofiler-4.1.0-1.el9s
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: ovn-bgp-agent-2.0.0-0.2.0rc2.el9s
+- project: ovn-octavia-provider
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ovn-octavia-provider-6.0.0-0.1.0rc1.el9s
+- project: ovsdbapp
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-ovsdbapp-2.6.0-1.el9s
+- project: placement
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-placement-11.0.0-0.1.0rc1.el9s
+- project: proliantutils
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-proliantutils-2.16.2-1.el9s
 - project: protobuf
   buildsys-tags:
     cloud9s-openstack-caracal-testing: protobuf-3.19.0-2.el9s
@@ -161,6 +572,9 @@ packages:
 - project: pyOpenSSL
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pyOpenSSL-20.0.1-2.el9s
+- project: pycadf
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-pycadf-3.1.1-2.el9s
 - project: pydot
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pydot-1.4.2-1.el9s
@@ -170,9 +584,6 @@ packages:
 - project: pysendfile
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pysendfile-2.0.1-19.el9s
-- project: pysnmp
-  buildsys-tags:
-    cloud9s-openstack-caracal-testing: pysnmp-4.4.12-6.el9s
 - project: pysnmp-lextudio
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pysnmp-lextudio-5.0.26-2.el9s
@@ -1148,12 +1559,30 @@ packages:
 - project: qpid-proton
   buildsys-tags:
     cloud9s-openstack-caracal-testing: qpid-proton-0.35.0-2.el9s
+- project: rally
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-rally-4.0.0-1.el9s
+- project: rally-openstack
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-rally-plugins-2.3.0-2.el9s
 - project: rdo-openvswitch
   buildsys-tags:
     cloud9s-openstack-caracal-testing: rdo-openvswitch-3.2-2.el9s
 - project: re2
   buildsys-tags:
     cloud9s-openstack-caracal-testing: re2-20190801-9.el9s
+- project: reno
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-reno-4.1.0-1.el9s
+- project: requestsexceptions
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-requestsexceptions-1.4.0-4.el9s
+- project: rsd-lib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-rsd-lib-1.2.0-2.el9s
+- project: rsdclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-rsdclient-1.0.2-2.el9s
 - project: ruby-augeas
   buildsys-tags:
     cloud9s-openstack-caracal-testing: ruby-augeas-0.5.0-27.el9s
@@ -1184,15 +1613,42 @@ packages:
 - project: rubygem-thor
   buildsys-tags:
     cloud9s-openstack-caracal-testing: rubygem-thor-1.1.0-2.el9s
+- project: saharaclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-saharaclient-4.2.0-1.el9s
+- project: scciclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-scciclient-0.15.0-2.el9s
+- project: shade
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-shade-1.33.0-2.el9s
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-sphinx-feature-classification-1.1.0-2.el9s
 - project: sshpass
   buildsys-tags:
     cloud9s-openstack-caracal-testing: sshpass-1.09-1.el9s
 - project: stevedore
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-stevedore-3.3.0-2.el9s
+    cloud9s-openstack-caracal-testing: python-stevedore-5.2.0-1.el9s
 - project: subunit
   buildsys-tags:
     cloud9s-openstack-caracal-testing: subunit-1.4.0-6.el9s
+- project: sushy
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-sushy-5.0.0-1.el9s
+- project: sushy-oem-idrac
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-sushy-oem-idrac-5.0.0-2.el9s
+- project: sushy-tools
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-sushy-tools-1.2.0-1.el9s
+- project: swift
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-swift-2.33.0-1.el9s
+- project: swiftclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-swiftclient-4.5.0-1.el9s
 - project: sympy
   buildsys-tags:
     cloud9s-openstack-caracal-testing: sympy-1.12-2.el9s
@@ -1202,9 +1658,72 @@ packages:
 - project: sysfsutils
   buildsys-tags:
     cloud9s-openstack-caracal-testing: sysfsutils-2.1.1-1.el9s
+- project: tacker
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-tacker-11.0.0-0.1.0rc1.el9s
+- project: tackerclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-tackerclient-2.0.0-1.el9s
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-tap-as-a-service-13.0.0-0.1.0rc1.el9s
+- project: taskflow
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-taskflow-5.6.0-1.el9s
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-telemetry-tests-tempest-2.0.0-1.el9s
+- project: tempest
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-tempest-37.0.0-3.el9s
+- project: tempestconf
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-tempestconf-3.4.2-1.el9s
+- project: tooz
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-tooz-6.1.0-1.el9s
+- project: trove
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-trove-21.0.0-0.1.0rc1.el9s
+- project: trove-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-trove-ui-22.0.0-0.1.0rc1.el9s
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-trove-tests-tempest-2.3.0-1.el9s
+- project: troveclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-troveclient-8.4.0-1.el9s
 - project: uwsgi
   buildsys-tags:
     cloud9s-openstack-caracal-testing: uwsgi-2.0.18-16.el9s
+- project: virtualbmc
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-virtualbmc-3.1.0-1.el9s
+- project: vitrage
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-vitrage-12.0.0-0.1.0rc1.el9s
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-vitrage-ui-6.0.0-0.1.0rc1.el9s
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-vitrage-tests-tempest-6.3.0-1.el9s
+- project: vitrageclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-vitrageclient-5.0.0-1.el9s
+- project: watcher
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-watcher-12.0.0-0.1.0rc1.el9s
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-watcher-tests-tempest-3.0.0-1.el9s
+- project: whitebox-neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.1.0-1.el9s
+- project: wsme
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-wsme-0.12.1-1.el9s
 - project: wyhash
   buildsys-tags:
     cloud9s-openstack-caracal-testing: wyhash-final1-4.el9s
@@ -1214,6 +1733,15 @@ packages:
 - project: yaml-cpp
   buildsys-tags:
     cloud9s-openstack-caracal-testing: yaml-cpp-0.6.3-4.el9s
+- project: zaqar
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-zaqar-18.0.0-0.1.0rc1.el9s
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-zaqar-tests-tempest-1.8.0-1.el9s
+- project: zaqarclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-zaqarclient-2.7.0-1.el9s
 - project: zeromq
   buildsys-tags:
     cloud9s-openstack-caracal-testing: zeromq-4.3.4-1.el9s
