@@ -16,6 +16,24 @@
       "message": "I think we need to make Vitrage project pull pysnmp-lextudio to fix the conflict but I\u0027m not sure it is the right path tbh",
       "revId": "0472448d92127bdef46ffa15895c2c7528df30bf",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f126d46_d4efa018",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-03-29T15:44:41Z",
+      "side": 1,
+      "message": "lextudio conflicts with python3-pysnmp [1] \n\n[1] https://review.rdoproject.org/cgit/deps/pysnmp-lextudio/tree/SPECS/pysnmp-lextudio.spec?h\u003dc9s-caracal-rdo\u0026id\u003d57924e21b40bb41d7786ac54d1c74ec09b44e442#n36",
+      "parentUuid": "ff168f5f_02b3811b",
+      "revId": "0472448d92127bdef46ffa15895c2c7528df30bf",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
