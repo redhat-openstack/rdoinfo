@@ -187,7 +187,7 @@ packages:
     cloud9s-openstack-bobcat-release: python-glance-store-4.6.1-1.el9s
 - project: glanceclient
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: python-glanceclient-4.4.0-1.el9s
+    cloud9s-openstack-bobcat-release: python-glanceclient-4.4.1-1.el9s
 - project: glean
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-glean-1.23.0-1.el9s
@@ -277,7 +277,7 @@ packages:
     cloud9s-openstack-bobcat-release: openstack-ironic-python-agent-9.7.0-1.el9s
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: openstack-ironic-python-agent-builder-5.2.0-1.el9s
+    cloud9s-openstack-bobcat-release: openstack-ironic-python-agent-builder-5.2.1-1.el9s
 - project: ironic-staging-drivers
   buildsys-tags:
     cloud9s-openstack-bobcat-release: openstack-ironic-staging-drivers-0.17.0-1.el9s
