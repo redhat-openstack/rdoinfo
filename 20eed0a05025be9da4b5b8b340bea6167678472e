@@ -33,6 +33,24 @@
       "message": "From what I can see, the failure does not seem connected to the packages being updated.\n\nThe error I could spot in validate-buildsys-tags-bobcat-release-puppet-scenario002-centos9 is:\n\n2024-04-15 07:29:49 -0400 Puppet (err): Evaluation Error: Error while evaluating a Resource Statement, Class[Ironic::Inspector]: has no parameter named \u0027rabbit_use_ssl\u0027 (file: /etc/puppet/modules/openstack_integration/manifests/ironic.pp, line: 129, column: 3) on node np0004605004.novalocal\"]}",
       "revId": "20eed0a05025be9da4b5b8b340bea6167678472e",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11a1883b_a6ab855b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-04-16T07:16:32Z",
+      "side": 1,
+      "message": "We need a new release of puppet-ironic which includes https://review.opendev.org/c/openstack/puppet-ironic/+/915301",
+      "parentUuid": "58f4ee49_b519e0cd",
+      "revId": "20eed0a05025be9da4b5b8b340bea6167678472e",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
