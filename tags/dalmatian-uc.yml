@@ -905,7 +905,7 @@ packages:
 - project: tempest
   tags:
     dalmatian-uc:
-      source-branch: 37.0.0
+      source-branch: 38.0.0
 - project: tempestconf
   tags:
     dalmatian-uc:
@@ -925,7 +925,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.3.0
+      source-branch: 2.3.1
 - project: troveclient
   tags:
     dalmatian-uc:
@@ -958,11 +958,11 @@ packages:
 - project: whitebox-neutron-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.1.0
+      source-branch: 0.2.0
 - project: whitebox-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.0.2
+      source-branch: 766ff042bd8528043947f16c84d13c9645d258d1
 - project: wsme
   tags:
     dalmatian-uc:
