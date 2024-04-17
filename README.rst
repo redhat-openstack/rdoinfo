@@ -253,6 +253,7 @@ For `tags/train.yaml` file:
 
 * *project:* package project name
 * *tags:* Openstack release name
+* project
 
 
 Why it has such architecture
