@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc00e528_a4033c26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-04-18T14:49:38Z",
+      "side": 1,
+      "message": "Errors during downloading metadata for repository \u0027caracal\u0027:\n  - Status code: 404 for https://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-caracal/repodata/repomd.xml (IP: 3.162.3.8)\nError: Failed to download metadata for repo \u0027caracal\u0027: Cannot download repomd.xml: Cannot download repodata/repomd.xml: All mirrors were tried\n\n\nIn order to create the repo and fix the issue https://mirror.stream.centos.org/SIGs/9-stream/cloud/x86_64/openstack-caracal/\n\n```\ncbs add-pkg --owner rdobuilder cloud9s-openstack-caracal-release python-stevedore\ncbs tag-build cloud9s-openstack-caracal-release  python-stevedore-5.2.0-1.el9s\n```\n\n```\n$ cbs list-history --tag\u003dcloud9s-openstack-caracal-release\nTue Aug 29 15:53:51 2023 new tag: cloud9s-openstack-caracal-release by cbs-koji\nTue Aug 29 15:53:51 2023 tag configuration for cloud9s-openstack-caracal-release altered by cbs-koji [still active]\n    arches:  -\u003e x86_64 aarch64 ppc64le\n    permission.name: None -\u003e build-cloud\nThu Apr 18 16:46:09 2024 package owner rdobuilder set for python-stevedore in cloud9s-openstack-caracal-release by jcapitao [still active]\nThu Apr 18 16:46:09 2024 package list entry created: python-stevedore in cloud9s-openstack-caracal-release by jcapitao [still active]\nThu Apr 18 16:46:37 2024 python-stevedore-5.2.0-1.el9s tagged into cloud9s-openstack-caracal-release by jcapitao [still active]\n```",
+      "revId": "aee56287bf9e4ff53c247602d1a03df661a86aca",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
