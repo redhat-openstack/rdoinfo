@@ -20,6 +20,9 @@ packages:
 - project: ansible-collection-containers-podman
   buildsys-tags:
     cloud9s-openstack-caracal-testing: ansible-collection-containers-podman-1.10.1-2.el9s
+- project: ansible-config_template
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: ansible-config_template-2.1.0-1.el9s
 - project: ansible-core
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-ansible-core-2.14.2-4.1.el9s
@@ -167,6 +170,9 @@ packages:
 - project: glean
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-glean-1.23.0-2.el9s
+- project: gnocchi
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: gnocchi-4.6.2-1.el9s
 - project: gnocchiclient
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-gnocchiclient-7.0.8-1.el9s
@@ -251,6 +257,9 @@ packages:
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-ironic-python-agent-builder-5.3.0-1.el9s
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-ironic-staging-drivers-0.17.0-1.el9s
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-ironic-tests-tempest-2.9.0-1.el9s
@@ -334,7 +343,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-magnumclient-4.4.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-manila-18.0.1-1.el9s
+    cloud9s-openstack-caracal-testing: openstack-manila-18.1.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-manila-tests-tempest-2.2.0-1.el9s
@@ -383,6 +392,9 @@ packages:
 - project: networking-generic-switch
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-networking-generic-switch-7.3.0-1.el9s
+- project: networking-l2gw
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-l2gw-20.0.0-1.el9s
 - project: networking-sfc
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-networking-sfc-18.0.0-1.el9s
@@ -413,6 +425,9 @@ packages:
 - project: novnc
   buildsys-tags:
     cloud9s-openstack-caracal-testing: novnc-1.3.0-1.el9s
+- project: observabilityclient
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-observabilityclient-0.1.1-1.el9s
 - project: octavia
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-octavia-14.0.0-1.el9s
@@ -434,18 +449,27 @@ packages:
 - project: openstack-network-scripts
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-network-scripts-10.11.1-5.el9s
+- project: openstack-selinux
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-selinux-0.8.39-1.el9s
 - project: openstackclient
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-openstackclient-6.6.0-1.el9s
 - project: openstacksdk
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-openstacksdk-3.0.0-1.el9s
+- project: os-apply-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: os-apply-config-13.2.0-1.el9s
 - project: os-brick
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-brick-6.7.0-1.el9s
 - project: os-client-config
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-client-config-2.1.0-3.el9s
+- project: os-collect-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: os-collect-config-13.2.0-1.el9s
 - project: os-faults
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-faults-0.2.7-2.el9s
@@ -557,6 +581,9 @@ packages:
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-ovsdbapp-2.6.0-1.el9s
+- project: packstack
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-packstack-24.0.0-0.1.0rc1.el9s
 - project: placement
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-placement-11.0.0-1.el9s
@@ -569,6 +596,156 @@ packages:
 - project: puppet
   buildsys-tags:
     cloud9s-openstack-caracal-testing: puppet-7.27.0-1.el9s
+- project: puppet-aodh
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-aodh-24.0.0-1.el9s
+- project: puppet-apache
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-apache-12.1.0-1.el9s
+- project: puppet-archive
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-archive-7.1.0-1.el9s
+- project: puppet-barbican
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-barbican-24.0.0-1.el9s
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-ceilometer-24.0.0-1.el9s
+- project: puppet-cinder
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-cinder-24.0.0-1.el9s
+- project: puppet-concat
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-concat-9.0.2-1.el9s
+- project: puppet-corosync
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-corosync-8.2.1-0.4.0rc0.83cc0d7git.el9s
+- project: puppet-designate
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-designate-24.0.0-1.el9s
+- project: puppet-dns
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-dns-10.3.0-1.el9s
+- project: puppet-firewall
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-firewall-8.0.1-1.el9s
+- project: puppet-glance
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-glance-24.0.0-1.el9s
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-gnocchi-24.0.0-1.el9s
+- project: puppet-heat
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-heat-24.0.0-1.el9s
+- project: puppet-horizon
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-horizon-24.0.0-1.el9s
+- project: puppet-inifile
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-inifile-6.1.1-1.el9s
+- project: puppet-ironic
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-ironic-24.0.0-1.el9s
+- project: puppet-keystone
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-keystone-24.0.0-1.el9s
+- project: puppet-kmod
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-kmod-4.0.1-1.el9s
+- project: puppet-magnum
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-magnum-24.0.0-1.el9s
+- project: puppet-manila
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-manila-24.0.0-1.el9s
+- project: puppet-memcached
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-memcached-8.3.0-1.el9s
+- project: puppet-mistral
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-mistral-24.0.0-1.el9s
+- project: puppet-mysql
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-mysql-15.0.0-1.79b8570git.el9s
+- project: puppet-neutron
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-neutron-24.0.0-1.el9s
+- project: puppet-nova
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-nova-24.0.0-1.el9s
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
+- project: puppet-octavia
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-octavia-24.0.0-1.el9s
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-openstack_extras-24.0.0-1.el9s
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-openstacklib-24.0.0-1.el9s
+- project: puppet-oslo
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-oslo-24.0.0-1.el9s
+- project: puppet-ovn
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-ovn-24.0.0-1.el9s
+- project: puppet-placement
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-placement-11.0.0-1.el9s
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-rabbitmq-13.2.0-1.el9s
+- project: puppet-redis
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-redis-10.0.0-1.el9s
+- project: puppet-remote
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-remote-10.0.0-1.7420908git.el9s
+- project: puppet-rsync
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-rsync-1.2.0-1.c8444dfgit.el9s
+- project: puppet-ssh
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-ssh-11.0.0-1.575a7fegit.el9s
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-stdlib-9.6.0-1.el9s
+- project: puppet-swift
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-swift-24.0.0-1.el9s
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-sysctl-0.0.12-2.847ec1cgit.el9s
+- project: puppet-systemd
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-systemd-6.6.0-1.el9s
+- project: puppet-tempest
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-tempest-24.0.0-1.el9s
+- project: puppet-trove
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-trove-24.0.0-1.el9s
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-vcsrepo-6.1.0-1.e5d9e4cgit.el9s
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-vitrage-14.0.0-1.el9s
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-vswitch-20.0.0-1.el9s
+- project: puppet-watcher
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-watcher-24.0.0-1.el9s
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-xinetd-3.4.1-1.el9s
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-zaqar-24.0.0-1.el9s
 - project: pyOpenSSL
   buildsys-tags:
     cloud9s-openstack-caracal-testing: pyOpenSSL-20.0.1-2.el9s
@@ -1685,6 +1862,9 @@ packages:
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-tempestconf-3.4.2-1.el9s
+- project: tobiko
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: openstack-tobiko-0.7.2-1.el9s
 - project: tooz
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-tooz-6.1.0-1.el9s
@@ -1726,7 +1906,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-watcher-tests-tempest-3.1.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.1.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.2.0-1.el9s
 - project: whitebox-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-whitebox-tests-tempest-0.0.3-0.1.766ff04git.el9s
