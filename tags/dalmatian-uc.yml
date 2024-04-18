@@ -35,7 +35,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 4.0.0
 - project: barbicanclient
   tags:
     dalmatian-uc:
@@ -57,7 +56,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 1.12.0
 - project: cinderclient
   tags:
     dalmatian-uc:
@@ -96,7 +94,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.22.0
 - project: designateclient
   tags:
     dalmatian-uc:
@@ -120,7 +117,6 @@ packages:
 - project: glance-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.8.0
 - project: glance_store
   tags:
     dalmatian-uc:
@@ -161,7 +157,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.1.0
 - project: heat-translator
   tags:
     dalmatian-uc:
@@ -206,7 +201,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.9.0
 - project: ironic-ui
   tags:
     dalmatian-uc:
@@ -220,7 +214,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.14.0
 - project: keystoneauth1
   tags:
     dalmatian-uc:
@@ -246,14 +239,12 @@ packages:
 - project: kuryr-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.16.0
 - project: magnum
   tags:
     dalmatian-uc:
 - project: magnum-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.3.0
 - project: magnum-ui
   tags:
     dalmatian-uc:
@@ -267,7 +258,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.2.0
 - project: manila-ui
   tags:
     dalmatian-uc:
@@ -302,7 +292,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.3.0
 - project: mistralclient
   tags:
     dalmatian-uc:
@@ -338,7 +327,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     dalmatian-uc:
@@ -358,7 +346,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.7.0
 - project: neutron-vpnaas
   tags:
     dalmatian-uc:
@@ -390,7 +377,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.6.0
 - project: octaviaclient
   tags:
     dalmatian-uc:
@@ -901,11 +887,9 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.0.0
 - project: tempest
   tags:
     dalmatian-uc:
-      source-branch: 38.0.0
 - project: tempestconf
   tags:
     dalmatian-uc:
@@ -925,7 +909,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 2.3.1
 - project: troveclient
   tags:
     dalmatian-uc:
@@ -943,7 +926,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 6.3.0
 - project: vitrageclient
   tags:
     dalmatian-uc:
@@ -954,15 +936,12 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 3.0.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 0.2.0
 - project: whitebox-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 766ff042bd8528043947f16c84d13c9645d258d1
 - project: wsme
   tags:
     dalmatian-uc:
@@ -974,7 +953,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     dalmatian-uc:
-      source-branch: 1.8.0
 - project: zaqarclient
   tags:
     dalmatian-uc:
