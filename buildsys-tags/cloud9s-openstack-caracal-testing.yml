@@ -329,6 +329,9 @@ packages:
 - project: libwebsockets
   buildsys-tags:
     cloud9s-openstack-caracal-testing: libwebsockets-4.3.0-1.el9s
+- project: luajit
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: luajit-2.1.1692716794-3.el9s
 - project: magnum
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-magnum-18.0.0-1.el9s
@@ -395,6 +398,9 @@ packages:
 - project: networking-l2gw
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-networking-l2gw-20.0.0-1.el9s
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-networking-l2gw-tests-tempest-0.1.0-4.82e3d07git.el9s
 - project: networking-sfc
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-networking-sfc-18.0.0-1.el9s
@@ -460,7 +466,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-openstacksdk-3.0.0-1.el9s
 - project: os-apply-config
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: os-apply-config-13.2.0-1.el9s
+    cloud9s-openstack-caracal-testing: os-apply-config-14.0.0-1.el9s
 - project: os-brick
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-brick-6.7.0-1.el9s
@@ -469,13 +475,16 @@ packages:
     cloud9s-openstack-caracal-testing: python-os-client-config-2.1.0-3.el9s
 - project: os-collect-config
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: os-collect-config-13.2.0-1.el9s
+    cloud9s-openstack-caracal-testing: os-collect-config-14.0.0-1.el9s
 - project: os-faults
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-faults-0.2.7-2.el9s
 - project: os-ken
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-ken-2.8.1-1.el9s
+- project: os-refresh-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: os-refresh-config-14.0.0-1.el9s
 - project: os-resource-classes
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-os-resource-classes-1.1.0-2.el9s
