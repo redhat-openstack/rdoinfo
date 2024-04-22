@@ -623,6 +623,9 @@ packages:
 - project: puppet-ceilometer
   buildsys-tags:
     cloud9s-openstack-caracal-testing: puppet-ceilometer-24.0.0-1.el9s
+- project: puppet-ceph
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: puppet-ceph-6.0.0-1.el9s
 - project: puppet-cinder
   buildsys-tags:
     cloud9s-openstack-caracal-testing: puppet-cinder-24.0.0-1.el9s
