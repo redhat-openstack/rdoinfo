@@ -2,16 +2,19 @@ packages:
 - project: ansible-collections-openstack
   tags:
     caracal:
+      source-branch: 598cc2d743c82d34f1b36a6e9e41311a70edb297
 - project: ansible-config_template
   tags:
     caracal:
       component: podified
+      source-branch: ca25191181ef1d1269afe95ad0911bac8d4d0610
 - project: ansible-role-atos-hsm
   tags:
     caracal:
 - project: ansible-role-collectd-config
   tags:
     caracal:
+      source-branch: 0.0.2
 - project: ansible-role-lunasa-hsm
   tags:
     caracal:
@@ -79,6 +82,7 @@ packages:
 - project: collectd-gnocchi
   tags:
     caracal:
+      source-branch: de115a710d45074f4cfb4b1a18fc565d165d72ff
 - project: cursive
   tags:
     caracal:
@@ -104,9 +108,11 @@ packages:
 - project: diskimage-builder
   tags:
     caracal:
+      source-branch: master
 - project: dracclient
   tags:
     caracal:
+      source-branch: b4f1db2231e91ef164154c068c0eb12e8811da4e
 - project: edpm-image-builder
   tags:
     caracal:
@@ -132,6 +138,7 @@ packages:
 - project: glean
   tags:
     caracal:
+      source-branch: master
 - project: gnocchi
   tags:
     caracal:
@@ -147,6 +154,7 @@ packages:
 - project: hardware
   tags:
     caracal:
+      source-branch: master
 - project: heat
   tags:
     caracal:
@@ -177,6 +185,7 @@ packages:
 - project: ibmcclient
   tags:
     caracal:
+      source-branch: 8d8cfe9efcb502bafded943dd61a0e45c1860227
 - project: ironic
   tags:
     caracal:
@@ -203,6 +212,7 @@ packages:
 - project: ironic-staging-drivers
   tags:
     caracal:
+      source-branch: 3a71aaf0bfbcbdb62d15a6169799aa316155fe4c
 - project: ironic-tempest-plugin
   tags:
     caracal:
@@ -237,6 +247,8 @@ packages:
   tags:
     caracal:
       component: common
+      # TODO(jcapitao): remove line below once stable/2024.1 branch created
+      source-branch: master
 - project: kuryr
   tags:
     caracal:
@@ -314,6 +326,7 @@ packages:
 - project: networking-ansible
   tags:
     caracal:
+      source-branch: b82d3496220f10151df1e3d5fc1d3ae77294be99
 - project: networking-arista
   tags:
     caracal:
@@ -329,12 +342,14 @@ packages:
 - project: networking-bigswitch
   tags:
     caracal:
+      source-branch: 96cf54085430c4596568cd5bc9a23640d3b56fa8
 - project: networking-generic-switch
   tags:
     caracal:
 - project: networking-l2gw
   tags:
     caracal:
+      source-branch: c556d24d9a611d14a92f5fe9115a5e2f5be97ef3
 - project: networking-l2gw-tempest-plugin
   tags:
     caracal:
@@ -342,6 +357,7 @@ packages:
 - project: networking-mlnx
   tags:
     caracal:
+      source-branch: 0a69b9715505f21fe7cca8c408c42b618d2e72d7
 - project: networking-sfc
   tags:
     caracal:
@@ -401,6 +417,7 @@ packages:
 - project: openstack-selinux
   tags:
     caracal:
+      source-branch: master
 - project: openstackclient
   tags:
     caracal:
@@ -413,6 +430,7 @@ packages:
   tags:
     caracal:
       component: common
+      source-branch: master
 - project: os-brick
   tags:
     caracal:
@@ -426,12 +444,15 @@ packages:
   tags:
     caracal:
       component: common
+      source-branch: master
 - project: os-diff
   tags:
     caracal:
+      source-branch: 612c527cfb479ae77dae424a36c6f40962d79244
 - project: os-faults
   tags:
     caracal:
+      source-branch: 0.2.7
 - project: os-ken
   tags:
     caracal:
@@ -440,10 +461,12 @@ packages:
   tags:
     caracal:
       component: common
+      source-branch: master
 - project: os-refresh-config
   tags:
     caracal:
       component: common
+      source-branch: master
 - project: os-resource-classes
   tags:
     caracal:
@@ -619,6 +642,7 @@ packages:
   tags:
     caracal:
       component: puppet
+      source-branch: master
 - project: puppet-cinder
   tags:
     caracal:
@@ -825,9 +849,11 @@ packages:
 - project: rally
   tags:
     caracal:
+      source-branch: e5d9fc8e63cc0727831633cf5b89e5114270c8c3
 - project: rally-openstack
   tags:
     caracal:
+      source-branch: c5cb9ba25bf74b76f4b0e0e070b1a98bfd49f6af
 - project: reno
   tags:
     caracal:
@@ -871,9 +897,11 @@ packages:
 - project: sushy-oem-idrac
   tags:
     caracal:
+      source-branch: 4e51aefa3ee32417a2b5b6ae801710a365818586
 - project: sushy-tools
   tags:
     caracal:
+      source-branch: master
 - project: swift
   tags:
     caracal:
@@ -909,9 +937,11 @@ packages:
 - project: tempestconf
   tags:
     caracal:
+      source-branch: master
 - project: tobiko
   tags:
     caracal:
+      source-branch: 2945010168e9277baf52ab1db44d49b8157253ee
 - project: tooz
   tags:
     caracal:
