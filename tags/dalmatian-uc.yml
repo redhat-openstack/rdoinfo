@@ -120,7 +120,7 @@ packages:
 - project: glance_store
   tags:
     dalmatian-uc:
-      source-branch: 4.7.0
+      source-branch: 4.8.0
 - project: glanceclient
   tags:
     dalmatian-uc:
@@ -363,7 +363,7 @@ packages:
 - project: observabilityclient
   tags:
     dalmatian-uc:
-      source-branch: 0.1.1
+      source-branch: 0.2.0
 - project: octavia
   tags:
     dalmatian-uc:
@@ -769,7 +769,7 @@ packages:
   tags:
     dalmatian-uc:
       component: puppet
-      source-branch: v6.6.0
+      source-branch: v7.0.0
 - project: puppet-tempest
   tags:
     dalmatian-uc:
