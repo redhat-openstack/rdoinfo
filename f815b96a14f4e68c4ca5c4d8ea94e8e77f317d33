@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "878f4ec6_fb390a90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-05-09T13:21:09Z",
+      "side": 1,
+      "message": "proposed automatically as updated in upper-constraints https://review.rdoproject.org/r/c/rdoinfo/+/53064",
+      "revId": "f815b96a14f4e68c4ca5c4d8ea94e8e77f317d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52ee93fb_46c95c98",
+        "filename": "tags/dalmatian.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-05-09T13:21:09Z",
+      "side": 1,
+      "message": "note that dalmatian tag is used as a pre-test repo to test builds from master commits, without applying pins. The tag to follow pinned is dalmatian-uc",
+      "range": {
+        "startLine": 332,
+        "startChar": 0,
+        "endLine": 332,
+        "endChar": 10
+      },
+      "revId": "f815b96a14f4e68c4ca5c4d8ea94e8e77f317d33",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
