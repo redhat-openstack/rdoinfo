@@ -290,6 +290,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-keystonemiddleware-10.6.0-1.el9s
+- project: kolla
+  buildsys-tags:
+    cloud9s-openstack-caracal-release: openstack-kolla-18.0.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-kuryr-lib-3.0.0-1.el9s
@@ -520,7 +523,7 @@ packages:
     cloud9s-openstack-caracal-release: python-oslo-concurrency-6.0.0-1.el9s
 - project: oslo-config
   buildsys-tags:
-    cloud9s-openstack-caracal-release: python-oslo-config-9.4.0-1.el9s
+    cloud9s-openstack-caracal-release: python-oslo-config-9.4.0-2.el9s
 - project: oslo-context
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-oslo-context-5.5.0-1.el9s
