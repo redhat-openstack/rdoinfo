@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80b090b0_54dde8e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-05-23T14:29:38Z",
+      "side": 1,
+      "message": "Apparently, some projects still do not support sqlalchemy \u003e\u003d 2.0 properly. From this CI jobs, at least:\n\n- Zaqar:\n\n2024-05-23 10:01:17.237 94098 ERROR zaqar.transport.wsgi.v2_0.queues   File \"/usr/lib/python3.9/site-packages/zaqar/storage/sqlalchemy/driver.py\", line 68, in run\n2024-05-23 10:01:17.237 94098 ERROR zaqar.transport.wsgi.v2_0.queues     return self.engine.execute(*args, **kwargs)\n2024-05-23 10:01:17.237 94098 ERROR zaqar.transport.wsgi.v2_0.queues AttributeError: \u0027Engine\u0027 object has no attribute \u0027execute\u0027\n\n- Trove:\n\n2024-05-23 09:21:58 -0400 /Stage[main]/Trove::Db::Sync/Exec[trove-manage db_sync]/returns (notice):     from sqlalchemy.databases import sqlite as sa_base\n2024-05-23 09:21:58 -0400 /Stage[main]/Trove::Db::Sync/Exec[trove-manage db_sync]/returns (notice): ModuleNotFoundError: No module named \u0027sqlalchemy.databases\u0027\n2024-05-23 09:21:58 -0400 /Stage[main]/Trove::Db::Sync/Exec[trove-manage db_sync] (err): Failed to call refresh: \u0027trove-manage db_sync\u0027 returned 1 instead of one of [0]\n\n- Mistral:\n\n2024-05-23 09:23:18 -0400 /Stage[main]/Mistral::Db::Sync/Exec[mistral-db-sync]/returns (notice): sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1060, \"Duplicate column name \u0027type\u0027\")\n2024-05-23 09:23:18 -0400 /Stage[main]/Mistral::Db::Sync/Exec[mistral-db-sync]/returns (notice): [SQL: ALTER TABLE task_executions_v2 ADD COLUMN type VARCHAR(10)]\n2024-05-23 09:23:18 -0400 /Stage[main]/Mistral::Db::Sync/Exec[mistral-db-sync]/returns (notice): (Background on this error at: https://sqlalche.me/e/20/e3q8)\n2024-05-23 09:23:18 -0400 /Stage[main]/Mistral::Db::Sync/Exec[mistral-db-sync] (err): Failed to call refresh: \u0027mistral-db-manage upgrade head\u0027 returned 1 instead of one of [0]\n2024-05-23 09:23:18 -0400 /Stage[main]/Mistral::Db::Sync/Exec[mistral-db-sync] (err): \u0027mistral-db-manage upgrade head\u0027 returned 1 instead of one of [0]\n\n- networking_bgpn:\n\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):   File \"/usr/lib/python3.9/site-packages/alembic/runtime/migration.py\", line 623, in run_migrations\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):     step.migration_fn(**kw)\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):   File \"/usr/lib/python3.9/site-packages/networking_bgpvpn/neutron/db/migration/alembic_migrations/versions/rocky/contract/9d7f1ae5fa56_add_standard_attributes.py\", line 45, in upgrade\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):     upgrade_table(table)\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):   File \"/usr/lib/python3.9/site-packages/networking_bgpvpn/neutron/db/migration/alembic_migrations/versions/rocky/contract/9d7f1ae5fa56_add_standard_attributes.py\", line 54, in upgrade_table\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):     generate_records_for_existing(table, table_model)\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):   File \"/usr/lib/python3.9/site-packages/networking_bgpvpn/neutron/db/migration/alembic_migrations/versions/rocky/contract/9d7f1ae5fa56_add_standard_attributes.py\", line 72, in generate_records_for_existing\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice):     with session.begin(subtransactions\u003dTrue):\n2024-05-23 09:26:49 -0400 /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns (notice): TypeError: begin() got an unexpected keyword argument \u0027subtransactions\u0027",
+      "revId": "4be5a3fd34e480b8afed60c17b755f6fdc269645",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
