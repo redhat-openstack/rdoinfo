@@ -38,7 +38,7 @@ packages:
 - project: barbicanclient
   tags:
     dalmatian-uc:
-      source-branch: 5.7.0
+      source-branch: 6.0.0
 - project: castellan
   tags:
     dalmatian-uc:
@@ -49,7 +49,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     dalmatian-uc:
-      source-branch: 3.3.1
+      source-branch: 3.4.0
 - project: cinder
   tags:
     dalmatian-uc:
@@ -63,7 +63,7 @@ packages:
 - project: cliff
   tags:
     dalmatian-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.0
 - project: cloudkitty
   tags:
     dalmatian-uc:
@@ -73,7 +73,7 @@ packages:
 - project: cloudkittyclient
   tags:
     dalmatian-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: collectd-gnocchi
   tags:
     dalmatian-uc:
@@ -124,7 +124,7 @@ packages:
 - project: glanceclient
   tags:
     dalmatian-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: glean
   tags:
     dalmatian-uc:
@@ -185,7 +185,7 @@ packages:
 - project: ironic-lib
   tags:
     dalmatian-uc:
-      source-branch: 6.0.0
+      source-branch: 6.1.0
 - project: ironic-prometheus-exporter
   tags:
     dalmatian-uc:
@@ -225,7 +225,7 @@ packages:
 - project: keystonemiddleware
   tags:
     dalmatian-uc:
-      source-branch: 10.6.0
+      source-branch: 10.7.0
 - project: kolla
   tags:
     dalmatian-uc:
@@ -251,7 +251,7 @@ packages:
 - project: magnumclient
   tags:
     dalmatian-uc:
-      source-branch: 4.4.0
+      source-branch: 4.5.0
 - project: manila
   tags:
     dalmatian-uc:
@@ -264,11 +264,11 @@ packages:
 - project: manilaclient
   tags:
     dalmatian-uc:
-      source-branch: 4.8.0
+      source-branch: 4.9.0
 - project: metalsmith
   tags:
     dalmatian-uc:
-      source-branch: 2.1.1
+      source-branch: 2.2.0
 - project: microversion-parse
   tags:
     dalmatian-uc:
@@ -287,7 +287,7 @@ packages:
 - project: mistral-lib
   tags:
     dalmatian-uc:
-      source-branch: 2.10.0
+      source-branch: 3.0.0
       component: common
 - project: mistral-tempest-plugin
   tags:
@@ -449,7 +449,7 @@ packages:
 - project: os-vif
   tags:
     dalmatian-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: os-win
   tags:
     dalmatian-uc:
@@ -481,7 +481,7 @@ packages:
 - project: oslo-db
   tags:
     dalmatian-uc:
-      source-branch: 15.0.0
+      source-branch: 15.1.0
 - project: oslo-i18n
   tags:
     dalmatian-uc:
@@ -493,11 +493,11 @@ packages:
 - project: oslo-log
   tags:
     dalmatian-uc:
-      source-branch: 5.5.1
+      source-branch: 6.0.0
 - project: oslo-messaging
   tags:
     dalmatian-uc:
-      source-branch: 14.7.0
+      source-branch: 14.8.0
 - project: oslo-metrics
   tags:
     dalmatian-uc:
@@ -529,7 +529,7 @@ packages:
 - project: oslo-service
   tags:
     dalmatian-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: oslo-sphinx
   tags:
     dalmatian-uc:
@@ -632,7 +632,7 @@ packages:
   tags:
     dalmatian-uc:
       component: puppet
-      source-branch: v8.0.1
+      source-branch: v8.0.2
 - project: puppet-glance
   tags:
     dalmatian-uc:
@@ -679,7 +679,7 @@ packages:
   tags:
     dalmatian-uc:
       component: puppet
-      source-branch: v8.3.0
+      source-branch: v9.0.0
 - project: puppet-mistral
   tags:
     dalmatian-uc:
@@ -730,7 +730,7 @@ packages:
   tags:
     dalmatian-uc:
       component: puppet
-      source-branch: v13.4.0
+      source-branch: v13.5.0
 - project: puppet-redis
   tags:
     dalmatian-uc:
@@ -853,7 +853,7 @@ packages:
 - project: sushy
   tags:
     dalmatian-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: sushy-oem-idrac
   tags:
     dalmatian-uc:
@@ -866,7 +866,7 @@ packages:
 - project: swiftclient
   tags:
     dalmatian-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: tacker
   tags:
     dalmatian-uc:
@@ -912,7 +912,7 @@ packages:
 - project: troveclient
   tags:
     dalmatian-uc:
-      source-branch: 8.4.0
+      source-branch: 8.5.0
 - project: virtualbmc
   tags:
     dalmatian-uc:
