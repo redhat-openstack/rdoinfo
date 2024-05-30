@@ -286,7 +286,7 @@ packages:
     cloud9s-openstack-antelope-testing: openstack-keystone-23.0.1-1.el9s
 - project: keystone-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-keystone-tests-tempest-0.14.0-1.el9s
+    cloud9s-openstack-antelope-testing: python-keystone-tests-tempest-0.16.0-1.el9s
 - project: keystoneauth1
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-keystoneauth1-5.1.2-1.el9s
@@ -1957,7 +1957,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-telemetry-tests-tempest-2.1.0-1.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-tempest-38.0.0-2.el9s
+    cloud9s-openstack-antelope-testing: openstack-tempest-39.0.0-1.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-tempestconf-3.3.0-1.el9s
