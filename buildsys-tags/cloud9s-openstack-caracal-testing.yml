@@ -82,7 +82,7 @@ packages:
     cloud9s-openstack-caracal-testing: openstack-cinder-24.0.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-cinder-tests-tempest-1.12.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-cinder-tests-tempest-1.14.0-3.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-cinderclient-9.5.0-1.el9s
@@ -1915,7 +1915,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-watcher-tests-tempest-3.1.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.4.0-2.el9s
+    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.5.0-3.el9s
 - project: whitebox-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-whitebox-tests-tempest-0.0.3-0.1.766ff04git.el9s
