@@ -16,6 +16,23 @@
       "message": "depends on https://review.rdoproject.org/r/c/rdoinfo/+/53514",
       "revId": "08c0c412a2d022a3f33d74709d30a012aade8b87",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdae5916_90d723a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2024-06-18T15:16:03Z",
+      "side": 1,
+      "message": "This required that https://review.rdoproject.org/r/c/rdoinfo/+/53514 be merged first so that the version dependency for gabbi (which needs wsgi-intercept) can be satisfied.",
+      "revId": "08c0c412a2d022a3f33d74709d30a012aade8b87",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
