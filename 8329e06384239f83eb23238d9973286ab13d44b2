@@ -33,6 +33,23 @@
       "message": "This change is needed for https://review.rdoproject.org/r/c/rdoinfo/+/53512\n\nTelemetry-tempest-plugin needs gabbi, and gabbi needs wsgi-intercept.\nThe versions of the gabbi and wsgi-intercept packages need to to be bumped to satisfy the requirements from telemetry-tempest-plugin v2.2.0, which is being added to antelope because it is needed in openstack-k8s-operators/telemetry-operator jobs.",
       "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3607d95_0c710dc6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-06-20T16:28:59Z",
+      "side": 1,
+      "message": "Those versions are above u-c [1], this might create issues in the future.\nWe want to stay closer to upstream and not diverge too much.\n\nhttps://github.com/openstack/requirements/blob/stable/2023.1/upper-constraints.txt\nhttps://github.com/openstack/requirements/blob/stable/2023.2/upper-constraints.txt\nhttps://github.com/openstack/requirements/blob/stable/2024.1/upper-constraints.txt",
+      "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
