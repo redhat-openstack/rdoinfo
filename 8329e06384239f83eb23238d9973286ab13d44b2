@@ -50,6 +50,24 @@
       "message": "Those versions are above u-c [1], this might create issues in the future.\nWe want to stay closer to upstream and not diverge too much.\n\nhttps://github.com/openstack/requirements/blob/stable/2023.1/upper-constraints.txt\nhttps://github.com/openstack/requirements/blob/stable/2023.2/upper-constraints.txt\nhttps://github.com/openstack/requirements/blob/stable/2024.1/upper-constraints.txt",
       "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1010d1ad_a823c72d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 718
+      },
+      "writtenOn": "2024-06-20T16:57:35Z",
+      "side": 1,
+      "message": "I don\u0027t know if gabbi is widely used, or if it is just used by telemetry projects.\nIf it\u0027s just used by telemetry projects, then it would be safe to increase these versions beyond u-c, right?\n\nOr, we could propose increasing the u-c for gabbi to something that isn\u0027t 2.4.0",
+      "parentUuid": "d3607d95_0c710dc6",
+      "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
