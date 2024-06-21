@@ -68,6 +68,24 @@
       "parentUuid": "d3607d95_0c710dc6",
       "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dea90ed_1c57d585",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-06-21T09:04:02Z",
+      "side": 1,
+      "message": "Upstream policy does not allow bumping u-c dependencies of stable releases, so it\u0027s not an option.\n\nThe list of packages that requires gabbi:\n`\ndnf repoquery --whatrequires python3-gabbi\nLast metadata expiration check: 0:01:12 ago on Fri Jun 21 08:58:44 2024.\ngnocchi-0:4.6.2-0.20240315144326.b37b943.el9.src\nopenstack-aodh-0:18.1.0-0.20240619161544.f43e903.el9.src\nopenstack-ceilometer-1:22.1.0-0.20240619143213.31cf6dc.el9.src\nopenstack-cloudkitty-0:20.1.0-0.20240513132315.8a5319f.el9.src\nopenstack-nova-1:29.1.0-0.20240531105802.7dc4b1e.el9.src\nopenstack-placement-0:11.1.0-0.20240521182446.c8255d7.el9.src\npython-microversion-parse-0:1.0.1-0.20230630142347.2c36df6.el9.src\npython-telemetry-tests-tempest-0:2.2.1-0.20240619142407.c713d12.el9.src\npython3-aodh-tests-0:18.1.0-0.20240619161544.f43e903.el9.noarch\npython3-ceilometer-tests-1:22.1.0-0.20240619143213.31cf6dc.el9.noarch\npython3-gnocchi-tests-0:4.6.2-0.20240315144326.b37b943.el9.noarch\npython3-heat-tests-tempest-0:2.2.1-0.20240619105722.f9f9d82.el9.noarch\npython3-placement-tests-0:11.1.0-0.20240521182446.c8255d7.el9.noarch\npython3-telemetry-tests-tempest-0:2.2.1-0.20240619142407.c713d12.el9.noarch\n`\n\nSo the scope is telemetry projects mainly indeed.\n\nIs 2.7.2 a strong requirement ? are there features used that are not shipped in 2.4.0 ?",
+      "parentUuid": "1010d1ad_a823c72d",
+      "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
