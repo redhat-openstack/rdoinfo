@@ -86,6 +86,24 @@
       "parentUuid": "1010d1ad_a823c72d",
       "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a59a0299_785c96a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 939
+      },
+      "writtenOn": "2024-06-21T11:20:56Z",
+      "side": 1,
+      "message": "its a requirement for our latest changes in telemetry-tempest-plugin that we need to bump it in downstream for osp18 tests \nhttps://review.rdoproject.org/r/c/rdoinfo/+/53512 and its already tested upstream with this Gabbi version and if it mainly affecting telemetry project scope it shouldn\u0027t make a conflict with anything.",
+      "parentUuid": "9dea90ed_1c57d585",
+      "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
