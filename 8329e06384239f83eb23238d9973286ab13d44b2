@@ -104,6 +104,24 @@
       "parentUuid": "9dea90ed_1c57d585",
       "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19a94bb3_e06f2bcf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2024-06-24T08:27:59Z",
+      "side": 1,
+      "message": "what is the alternative here? We could cherry-pick patches, but in my understanding, this explicitly not wanted in RDO.\n\nhttps://review.opendev.org/c/openstack/telemetry-tempest-plugin/+/920008 is the patch that both introduced the requirement to gabbi 2.7 and also fixed issues in previous testing.",
+      "parentUuid": "a59a0299_785c96a2",
+      "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
