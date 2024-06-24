@@ -122,6 +122,24 @@
       "parentUuid": "a59a0299_785c96a2",
       "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8230809b_7b09b49b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-06-24T12:20:34Z",
+      "side": 1,
+      "message": "There are 13 commits between 2.4.0 and 2.7.2 (including release commit) [1].\nI checked the commits content, they are minor changes. Also, as gabbi is used for testing purpose I think it\u0027s not that risky for the global scope of RDO.\n\nWrt wsgi_intercept it was bumped to 1.9.3 in [2], but the reason is not explicit enough. One solution is to set wsgi_intercept \u003e 2.9.2 in new gabbi NVR in order to not have to bump wsgi_intercept in all releases above u-c.\nOther solution is to bump it.\n\nThe list of packages that requires wsgi_intercept:\n`\ndnf repoquery --whatrequires python3-wsgi_intercept\nopenstack-nova-1:29.1.0-0.20240531105802.7dc4b1e.el9.src\nopenstack-placement-0:11.1.0-0.20240521182446.c8255d7.el9.src\nopenstack-trove-1:21.1.0-0.20240614074720.114601e.el9.src\npython-osc-placement-0:4.3.0-0.20240305125832.e6c1acf.el9.src\npython3-gabbi-0:2.0.4-2.el9s.noarch\npython3-gabbi-0:2.4.0-1.el9s.noarch\npython3-gabbi-0:2.7.2-8.el9s.noarch\npython3-placement-tests-0:11.1.0-0.20240521182446.c8255d7.el9.noarch\n`\n\nAs gabbi and wsgi_intercept are used at build time for some packages, we will know at the next build of one of this package if it\u0027s ok or not.\n\nSo, we can merge this patch but we\u0027ll have to be cautious in the following days at least for the first build of each package requiring gabbi ans wsgi_intercept.\n\n\n[1] https://github.com/cdent/gabbi/compare/2.4.0...2.7.2\n[2] https://github.com/cdent/gabbi/commit/f05933a90ceafd10acd2897829ddc708a1a89da8",
+      "parentUuid": "19a94bb3_e06f2bcf",
+      "revId": "8329e06384239f83eb23238d9973286ab13d44b2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
