@@ -288,6 +288,24 @@
       "message": "2024-07-02T16:12:13Z\tERROR\tcontroller-runtime.source.EventHandler\tfailed to get informer from cache\t{\"error\": \"failed to get API group resources: unable to retrieve the complete list of server APIs: metal3.io/v1alpha1: the server could not find the requested resource\"}\n\nfrom https://logserver.rdoproject.org/53/53553/3/check/validate-buildsys-tags-dalmatian-testing-cifmw-crc-podified-edpm-baremetal/9a301d5/ci-framework-data/logs/openstack-k8s-operators-openstack-must-gather/namespaces/openstack-operators/pods/openstack-baremetal-operator-controller-manager-589dfbd44885ktl/logs/manager.log",
       "revId": "35e9cc003a0238db7e16c6a0aa3ef9e527ff85d9",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7cffed5_5df867b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-07-02T16:43:49Z",
+      "side": 1,
+      "message": "it means BMO is not deployed",
+      "parentUuid": "503e6e4a_09c1f12a",
+      "revId": "35e9cc003a0238db7e16c6a0aa3ef9e527ff85d9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ],
   "submitRequirementResults": []
