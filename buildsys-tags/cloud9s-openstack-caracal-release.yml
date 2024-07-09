@@ -488,6 +488,9 @@ packages:
 - project: os-ken
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-os-ken-2.8.1-1.el9s
+- project: os-net-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-release: os-net-config-17.0.0-1.el9s
 - project: os-refresh-config
   buildsys-tags:
     cloud9s-openstack-caracal-release: os-refresh-config-14.0.0-1.el9s
