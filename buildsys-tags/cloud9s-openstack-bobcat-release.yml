@@ -178,7 +178,7 @@ packages:
     cloud9s-openstack-bobcat-release: gflags-2.2.2-8.el9s
 - project: glance
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: openstack-glance-27.0.0-1.el9s
+    cloud9s-openstack-bobcat-release: openstack-glance-27.1.0-1.el9s
 - project: glance-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-glance-tests-tempest-0.7.0-1.el9s
@@ -469,7 +469,7 @@ packages:
     cloud9s-openstack-bobcat-release: python-neutronclient-11.0.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: openstack-nova-28.1.0-1.el9s
+    cloud9s-openstack-bobcat-release: openstack-nova-28.2.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-novaclient-18.4.0-1.el9s
