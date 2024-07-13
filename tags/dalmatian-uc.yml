@@ -494,7 +494,7 @@ packages:
 - project: oslo-log
   tags:
     dalmatian-uc:
-      source-branch: 6.1.0
+      source-branch: 6.0.0
 - project: oslo-messaging
   tags:
     dalmatian-uc:
@@ -689,7 +689,7 @@ packages:
   tags:
     dalmatian-uc:
       component: puppet
-      source-branch: 79b85708cd87d5bc314618fbd46ce2b9cc56da33
+      source-branch: v16.0.0
 - project: puppet-neutron
   tags:
     dalmatian-uc:
