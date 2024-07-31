@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d78cb12_223bd37a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-07-31T16:41:50Z",
+      "side": 1,
+      "message": "our requests package (i.e 2.25.1-8.el9 from BaseOS) does not contain JSONDecodeError\n\n\nAttributeError: module \u0027requests\u0027 has no attribute \u0027JSONDecodeError\u0027\n\nu-c is currently 2.32.3 [1]\n\n[1] https://github.com/openstack/requirements/blob/2c279bd469df43206693b27fe85565028346f042/upper-constraints.txt#L232",
+      "revId": "f432010f48274ecd24b00d37f9db49a4df8a980f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
