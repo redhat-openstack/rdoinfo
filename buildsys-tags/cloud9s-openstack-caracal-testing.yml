@@ -355,7 +355,7 @@ packages:
     cloud9s-openstack-caracal-testing: openstack-manila-18.1.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-manila-tests-tempest-2.2.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-manila-tests-tempest-2.4.0-3.el9s
 - project: manila-ui
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-manila-ui-11.0.0-1.el9s
@@ -1918,7 +1918,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-watcher-tests-tempest-3.1.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.7.1-3.el9s
+    cloud9s-openstack-caracal-testing: python-whitebox-neutron-tests-tempest-0.8.0-3.el9s
 - project: whitebox-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-whitebox-tests-tempest-0.0.3-0.1.766ff04git.el9s
