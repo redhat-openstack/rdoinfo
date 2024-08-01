@@ -298,7 +298,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-keystonemiddleware-10.2.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-kolla-16.4.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-kolla-16.5.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-kuryr-lib-2.7.0-1.el9s
@@ -361,7 +361,7 @@ packages:
     cloud9s-openstack-antelope-testing: openstack-manila-16.2.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-manila-tests-tempest-2.2.0-1.el9s
+    cloud9s-openstack-antelope-testing: python-manila-tests-tempest-2.4.0-1.el9s
 - project: manila-ui
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-manila-ui-9.0.0-1.el9s
@@ -2011,7 +2011,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-watcher-tests-tempest-3.0.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-whitebox-neutron-tests-tempest-0.7.1-1.el9s
+    cloud9s-openstack-antelope-testing: python-whitebox-neutron-tests-tempest-0.8.0-1.el9s
 - project: whitebox-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-whitebox-tests-tempest-0.0.3-0.1.766ff04git.el9s
