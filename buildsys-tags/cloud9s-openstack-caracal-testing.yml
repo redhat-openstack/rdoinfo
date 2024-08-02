@@ -1454,6 +1454,9 @@ packages:
 - project: python-repoze-lru
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-repoze-lru-0.7-10.el9s
+- project: python-requests
+  buildsys-tags:
+    cloud9s-openstack-caracal-testing: python-requests-2.31.0-1.el9s
 - project: python-requests-kerberos
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-requests-kerberos-0.14.0-1.el9s
