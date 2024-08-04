@@ -241,7 +241,7 @@ packages:
     cloud9s-openstack-antelope-testing: hiera-3.7.0-2.el9s
 - project: horizon
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-django-horizon-23.1.0-1.el9s
+    cloud9s-openstack-antelope-testing: python-django-horizon-23.1.1-1.el9s
 - project: ibmcclient
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-ibmcclient-0.2.5.1-1.el9s
@@ -358,7 +358,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-magnumclient-4.1.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-manila-16.2.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-manila-16.2.1-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-manila-tests-tempest-2.4.0-1.el9s
@@ -637,7 +637,7 @@ packages:
     cloud9s-openstack-antelope-testing: ovn-bgp-agent-0.3.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-ovn-octavia-provider-4.0.1-1.el9s
+    cloud9s-openstack-antelope-testing: python-ovn-octavia-provider-4.0.2-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-ovsdbapp-2.2.2-1.el9s
