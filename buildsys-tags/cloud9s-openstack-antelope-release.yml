@@ -97,7 +97,7 @@ packages:
     cloud9s-openstack-antelope-release: openstack-cloudkitty-ui-16.0.0-1.el9s
 - project: cloudkittyclient
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-cloudkittyclient-4.7.0-1.el9s
+    cloud9s-openstack-antelope-release: python-cloudkittyclient-4.7.1-1.el9s
 - project: collectd-gnocchi
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-collectd-gnocchi-1.7.1-1.el9s
@@ -175,7 +175,7 @@ packages:
     cloud9s-openstack-antelope-release: python-glance-store-4.3.3-1.el9s
 - project: glanceclient
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-glanceclient-4.3.1-1.el9s
+    cloud9s-openstack-antelope-release: python-glanceclient-4.3.2-1.el9s
 - project: glean
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-glean-1.23.0-1.el9s
@@ -241,7 +241,7 @@ packages:
     cloud9s-openstack-antelope-release: hiera-3.7.0-2.el9s
 - project: horizon
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-django-horizon-23.1.0-1.el9s
+    cloud9s-openstack-antelope-release: python-django-horizon-23.1.1-1.el9s
 - project: ibmcclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-ibmcclient-0.2.5.1-1.el9s
@@ -298,7 +298,7 @@ packages:
     cloud9s-openstack-antelope-release: python-keystonemiddleware-10.2.0-1.el9s
 - project: kolla
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-kolla-16.4.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-kolla-16.5.0-1.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-kuryr-lib-2.7.0-1.el9s
@@ -358,19 +358,19 @@ packages:
     cloud9s-openstack-antelope-release: python-magnumclient-4.1.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-manila-16.2.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-manila-16.2.1-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-manila-tests-tempest-2.2.0-1.el9s
+    cloud9s-openstack-antelope-release: python-manila-tests-tempest-2.4.0-1.el9s
 - project: manila-ui
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-manila-ui-9.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-manila-ui-9.0.1-1.el9s
 - project: manilaclient
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-manilaclient-4.4.1-1.el9s
+    cloud9s-openstack-antelope-release: python-manilaclient-4.4.2-1.el9s
 - project: metalsmith
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-metalsmith-1.10.0-1.el9s
+    cloud9s-openstack-antelope-release: python-metalsmith-1.10.1-1.el9s
 - project: microversion-parse
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-microversion-parse-1.0.1-1.el9s
@@ -637,7 +637,7 @@ packages:
     cloud9s-openstack-antelope-release: ovn-bgp-agent-0.3.0-1.el9s
 - project: ovn-octavia-provider
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-ovn-octavia-provider-4.0.1-1.el9s
+    cloud9s-openstack-antelope-release: python-ovn-octavia-provider-4.0.2-1.el9s
 - project: ovsdbapp
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-ovsdbapp-2.2.2-1.el9s
@@ -1948,7 +1948,7 @@ packages:
     cloud9s-openstack-antelope-release: python-tap-as-a-service-11.0.0-1.el9s
 - project: taskflow
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-taskflow-5.1.0-1.el9s
+    cloud9s-openstack-antelope-release: python-taskflow-5.1.1-1.el9s
 - project: tcib
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-tcib-0.2.0-1.el9s
@@ -2011,7 +2011,7 @@ packages:
     cloud9s-openstack-antelope-release: python-watcher-tests-tempest-3.0.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-whitebox-neutron-tests-tempest-0.7.1-1.el9s
+    cloud9s-openstack-antelope-release: python-whitebox-neutron-tests-tempest-0.8.0-1.el9s
 - project: whitebox-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-whitebox-tests-tempest-0.0.3-0.1.766ff04git.el9s
