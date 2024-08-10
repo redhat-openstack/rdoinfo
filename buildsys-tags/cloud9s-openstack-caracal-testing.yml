@@ -418,7 +418,7 @@ packages:
     cloud9s-openstack-caracal-testing: openstack-neutron-dynamic-routing-24.0.0-1.el9s
 - project: neutron-lib
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-neutron-lib-3.11.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-neutron-lib-3.11.1-1.el9s
 - project: neutron-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-neutron-tests-tempest-2.7.0-1.el9s
@@ -430,7 +430,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-neutronclient-11.2.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-nova-29.1.0-1.el9s
+    cloud9s-openstack-caracal-testing: openstack-nova-29.2.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-novaclient-18.6.0-1.el9s
