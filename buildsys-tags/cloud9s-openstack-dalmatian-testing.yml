@@ -137,6 +137,9 @@ packages:
 - project: libwebsockets
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: libwebsockets-4.3.0-1.el9s
+- project: llhttp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-testing: llhttp-9.2.1-1.el9s
 - project: luajit
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: luajit-2.1.1692716794-3.el9s
