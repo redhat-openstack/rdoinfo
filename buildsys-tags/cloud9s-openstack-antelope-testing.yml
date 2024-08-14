@@ -442,7 +442,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-networking-sfc-16.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-neutron-22.2.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-neutron-22.2.1-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-neutron-dynamic-routing-22.0.0-1.el9s
@@ -460,7 +460,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-neutronclient-9.0.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-nova-27.4.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-nova-27.5.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-novaclient-18.3.0-1.el9s
@@ -1969,7 +1969,7 @@ packages:
     cloud9s-openstack-antelope-testing: python-tooz-3.2.0-1.el9s
 - project: trove
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-trove-19.0.0-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-trove-19.0.1-1.el9s
 - project: trove-dashboard
   buildsys-tags:
     cloud9s-openstack-antelope-testing: openstack-trove-ui-20.0.0-1.el9s
