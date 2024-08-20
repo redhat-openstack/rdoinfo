@@ -16,6 +16,24 @@
       "message": "python3-google-api-client requires it.\n\n# dnf repoquery --requires  python3-google-api-client|grep oauth\nLast metadata expiration check: 0:01:22 ago on Tue Aug 20 14:04:39 2024.\n(python3.9dist(oauth2client) \u003c 5~~dev0 with python3.9dist(oauth2client) \u003e\u003d 1.5)\npython3-oauth2client \u003e\u003d 2.0.0\n\n\nSo it\u0027s still transitive requirement",
       "revId": "d8539803c7561f465657062dc03b376942093559",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c519ec2_50a381ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 682
+      },
+      "writtenOn": "2024-08-20T14:58:25Z",
+      "side": 1,
+      "message": "Hmm.. Recent versions of python3-google-api-client no longer requires oauth2client. We probably have to update the spec for that package first.",
+      "parentUuid": "455ef0b0_2a08e338",
+      "revId": "d8539803c7561f465657062dc03b376942093559",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
