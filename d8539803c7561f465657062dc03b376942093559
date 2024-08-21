@@ -34,6 +34,24 @@
       "parentUuid": "455ef0b0_2a08e338",
       "revId": "d8539803c7561f465657062dc03b376942093559",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c4499fd_e9d899b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-08-21T08:41:59Z",
+      "side": 1,
+      "message": "Right, I just realized that dependency is coming from old version of the package python3-google-api-client-2:1.6.7-14.el9s.noarch\n\nCurrent version does not longer have it:\n```\n# dnf repoquery --latest-limit 1 --requires python3-google-api-client\nLast metadata expiration check: 0:18:00 ago on Wed Aug 21 08:22:57 2024.\n((python3.9dist(google-api-core) \u003c 2 or python3.9dist(google-api-core) \u003e 2.1) with (python3.9dist(google-api-core) \u003c 2.1 or python3.9dist(google-api-core) \u003e 2.2) with (python3.9dist(google-api-core) \u003c 2.2 or python3.9dist(google-api-core) \u003e 2.3) with (python3.9dist(google-api-core) \u003c 2.3 or python3.9dist(google-api-core) \u003e 2.3) with python3.9dist(google-api-core) \u003c 3~~dev0 with python3.9dist(google-api-core) \u003e\u003d 1.31.5)\n(python3.9dist(google-auth) \u003c 3~~dev0 with python3.9dist(google-auth) \u003e\u003d 1.19)\n(python3.9dist(httplib2) \u003c 1~~dev0 with python3.9dist(httplib2) \u003e\u003d 0.15)\n(python3.9dist(uritemplate) \u003c 5 with python3.9dist(uritemplate) \u003e\u003d 3.0.1)\npython(abi) \u003d 3.9\npython3.9dist(google-auth-httplib2) \u003e\u003d 0.1\n```",
+      "parentUuid": "8c519ec2_50a381ab",
+      "revId": "d8539803c7561f465657062dc03b376942093559",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
