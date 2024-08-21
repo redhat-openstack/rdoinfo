@@ -247,7 +247,7 @@ packages:
     cloud9s-openstack-antelope-release: python-ibmcclient-0.2.5.1-1.el9s
 - project: ironic
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-ironic-21.4.1-1.el9s
+    cloud9s-openstack-antelope-release: openstack-ironic-21.4.2-1.el9s
 - project: ironic-inspector
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-ironic-inspector-11.4.1-1.el9s
@@ -442,7 +442,7 @@ packages:
     cloud9s-openstack-antelope-release: python-networking-sfc-16.0.0-1.el9s
 - project: neutron
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-neutron-22.1.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-neutron-22.2.1-1.el9s
 - project: neutron-dynamic-routing
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-neutron-dynamic-routing-22.0.0-1.el9s
@@ -460,7 +460,7 @@ packages:
     cloud9s-openstack-antelope-release: python-neutronclient-9.0.0-1.el9s
 - project: nova
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-nova-27.4.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-nova-27.5.0-1.el9s
 - project: novaclient
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-novaclient-18.3.0-1.el9s
@@ -523,7 +523,7 @@ packages:
     cloud9s-openstack-antelope-release: python-os-faults-0.2.7-1.el9s
 - project: os-ken
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-os-ken-2.6.0-1.el9s
+    cloud9s-openstack-antelope-release: python-os-ken-2.6.1-1.el9s
 - project: os-net-config
   buildsys-tags:
     cloud9s-openstack-antelope-release: os-net-config-16.0.0-1.el9s
@@ -757,7 +757,7 @@ packages:
     cloud9s-openstack-antelope-release: puppet-mysql-13.2.0-1.f226c7fgit.el9s
 - project: puppet-neutron
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-neutron-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-neutron-22.0.1-1.el9s
 - project: puppet-nova
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-nova-22.1.0-1.el9s
@@ -1969,7 +1969,7 @@ packages:
     cloud9s-openstack-antelope-release: python-tooz-3.2.0-1.el9s
 - project: trove
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-trove-19.0.0-1.el9s
+    cloud9s-openstack-antelope-release: openstack-trove-19.0.1-1.el9s
 - project: trove-dashboard
   buildsys-tags:
     cloud9s-openstack-antelope-release: openstack-trove-ui-20.0.0-1.el9s
@@ -2011,7 +2011,7 @@ packages:
     cloud9s-openstack-antelope-release: python-watcher-tests-tempest-3.0.0-1.el9s
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-release: python-whitebox-neutron-tests-tempest-0.8.0-1.el9s
+    cloud9s-openstack-antelope-release: python-whitebox-neutron-tests-tempest-0.9.0-1.el9s
 - project: whitebox-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-whitebox-tests-tempest-0.0.3-0.1.766ff04git.el9s
