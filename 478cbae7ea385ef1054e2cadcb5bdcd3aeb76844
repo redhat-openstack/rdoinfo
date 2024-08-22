@@ -16,6 +16,24 @@
       "message": "I think we need to drop source-branch from here. then dlrn will build the rpms from latest master branch.\n\nI might be wrong here @Alfredo need your input here.",
       "revId": "478cbae7ea385ef1054e2cadcb5bdcd3aeb76844",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29545f8d_a86f7f21",
+        "filename": "tags/antelope.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1103,
+      "author": {
+        "id": 783
+      },
+      "writtenOn": "2024-08-22T08:04:16Z",
+      "side": 1,
+      "message": "It is done for other projects that way like tempestconf on other files.\n\nActually one advantage of keeping \u0027source-branch: master\u0027 is any reader will know we deliberately want master branch, so no one will add another project of whitebox when seeing it missing.",
+      "parentUuid": "63f03c51_960358fb",
+      "revId": "478cbae7ea385ef1054e2cadcb5bdcd3aeb76844",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
