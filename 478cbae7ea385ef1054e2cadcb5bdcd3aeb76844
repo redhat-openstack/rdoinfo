@@ -52,6 +52,24 @@
       "parentUuid": "29545f8d_a86f7f21",
       "revId": "478cbae7ea385ef1054e2cadcb5bdcd3aeb76844",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a842ba48_cb1c9398",
+        "filename": "tags/antelope.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1103,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2024-08-22T09:03:48Z",
+      "side": 1,
+      "message": "I prefer being explicit here. Some builders may have disabled the fallback to master option when no stable branch exists, so this lgtm.",
+      "parentUuid": "18680ed6_64150df0",
+      "revId": "478cbae7ea385ef1054e2cadcb5bdcd3aeb76844",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
