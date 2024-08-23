@@ -120,7 +120,7 @@ packages:
 - project: glance_store
   tags:
     dalmatian-uc:
-      source-branch: 4.8.0
+      source-branch: 4.8.1
 - project: glanceclient
   tags:
     dalmatian-uc:
@@ -185,7 +185,7 @@ packages:
 - project: ironic-lib
   tags:
     dalmatian-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
 - project: ironic-prometheus-exporter
   tags:
     dalmatian-uc:
@@ -371,7 +371,7 @@ packages:
 - project: octavia-lib
   tags:
     dalmatian-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: octavia-tempest-plugin
   tags:
     dalmatian-uc:
@@ -511,19 +511,19 @@ packages:
 - project: oslo-privsep
   tags:
     dalmatian-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: oslo-reports
   tags:
     dalmatian-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: oslo-rootwrap
   tags:
     dalmatian-uc:
-      source-branch: 7.2.0
+      source-branch: 7.3.0
 - project: oslo-serialization
   tags:
     dalmatian-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: oslo-service
   tags:
     dalmatian-uc:
@@ -535,7 +535,7 @@ packages:
 - project: oslo-utils
   tags:
     dalmatian-uc:
-      source-branch: 7.2.0
+      source-branch: 7.3.0
 - project: oslo-versionedobjects
   tags:
     dalmatian-uc:
@@ -838,7 +838,7 @@ packages:
 - project: sushy
   tags:
     dalmatian-uc:
-      source-branch: 5.1.1
+      source-branch: 5.2.0
 - project: sushy-oem-idrac
   tags:
     dalmatian-uc:
@@ -865,7 +865,7 @@ packages:
 - project: taskflow
   tags:
     dalmatian-uc:
-      source-branch: 5.9.0
+      source-branch: 5.9.1
 - project: tcib
   tags:
     dalmatian-uc:
