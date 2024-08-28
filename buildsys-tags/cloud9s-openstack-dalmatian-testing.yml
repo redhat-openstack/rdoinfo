@@ -137,6 +137,9 @@ packages:
 - project: libwebsockets
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: libwebsockets-4.3.0-1.el9s
+- project: llhttp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-testing: llhttp-9.2.1-1.el9s
 - project: luajit
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: luajit-2.1.1692716794-3.el9s
@@ -244,7 +247,7 @@ packages:
     cloud9s-openstack-dalmatian-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-21.el9s
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud9s-openstack-dalmatian-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-21.el9s
+    cloud9s-openstack-dalmatian-testing: python-XStatic-JQuery-quicksearch-2.0.3.2-1.el9s
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-XStatic-JS-Yaml-3.8.1.0-11.el9s
@@ -1081,7 +1084,7 @@ packages:
     cloud9s-openstack-dalmatian-testing: python-websocket-client-1.7.0-1.el9s
 - project: python-websockify
   buildsys-tags:
-    cloud9s-openstack-dalmatian-testing: python-websockify-0.11.0-3.el9s
+    cloud9s-openstack-dalmatian-testing: python-websockify-0.12.0-1.el9s
 - project: python-webtest
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-webtest-3.0.0-1.el9s
