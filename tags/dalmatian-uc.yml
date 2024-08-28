@@ -49,7 +49,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     dalmatian-uc:
-      source-branch: 3.4.0
+      source-branch: 3.5.0
 - project: cinder
   tags:
     dalmatian-uc:
@@ -120,7 +120,7 @@ packages:
 - project: glance_store
   tags:
     dalmatian-uc:
-      source-branch: 4.8.0
+      source-branch: 4.8.1
 - project: glanceclient
   tags:
     dalmatian-uc:
@@ -160,7 +160,7 @@ packages:
 - project: heat-translator
   tags:
     dalmatian-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
       component: common
 - project: heatclient
   tags:
@@ -185,7 +185,7 @@ packages:
 - project: ironic-lib
   tags:
     dalmatian-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
 - project: ironic-prometheus-exporter
   tags:
     dalmatian-uc:
@@ -217,11 +217,11 @@ packages:
 - project: keystoneauth1
   tags:
     dalmatian-uc:
-      source-branch: 5.7.0
+      source-branch: 5.8.0
 - project: keystoneclient
   tags:
     dalmatian-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: keystonemiddleware
   tags:
     dalmatian-uc:
@@ -340,7 +340,7 @@ packages:
 - project: neutron-lib
   tags:
     dalmatian-uc:
-      source-branch: 3.14.1
+      source-branch: 3.15.0
 - project: neutron-tempest-plugin
   tags:
     dalmatian-uc:
@@ -371,7 +371,7 @@ packages:
 - project: octavia-lib
   tags:
     dalmatian-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: octavia-tempest-plugin
   tags:
     dalmatian-uc:
@@ -400,7 +400,7 @@ packages:
 - project: os-brick
   tags:
     dalmatian-uc:
-      source-branch: 6.8.0
+      source-branch: 6.9.0
 - project: os-client-config
   tags:
     dalmatian-uc:
@@ -447,7 +447,7 @@ packages:
 - project: os-vif
   tags:
     dalmatian-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: os-win
   tags:
     dalmatian-uc:
@@ -467,7 +467,7 @@ packages:
 - project: oslo-concurrency
   tags:
     dalmatian-uc:
-      source-branch: 6.0.0
+      source-branch: 6.1.0
 - project: oslo-config
   tags:
     dalmatian-uc:
@@ -487,7 +487,7 @@ packages:
 - project: oslo-limit
   tags:
     dalmatian-uc:
-      source-branch: 2.4.0
+      source-branch: 2.5.0
 - project: oslo-log
   tags:
     dalmatian-uc:
@@ -495,7 +495,7 @@ packages:
 - project: oslo-messaging
   tags:
     dalmatian-uc:
-      source-branch: 14.8.1
+      source-branch: 14.9.0
 - project: oslo-metrics
   tags:
     dalmatian-uc:
@@ -511,19 +511,19 @@ packages:
 - project: oslo-privsep
   tags:
     dalmatian-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: oslo-reports
   tags:
     dalmatian-uc:
-      source-branch: 3.3.0
+      source-branch: 3.4.0
 - project: oslo-rootwrap
   tags:
     dalmatian-uc:
-      source-branch: 7.2.0
+      source-branch: 7.3.0
 - project: oslo-serialization
   tags:
     dalmatian-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: oslo-service
   tags:
     dalmatian-uc:
@@ -535,7 +535,7 @@ packages:
 - project: oslo-utils
   tags:
     dalmatian-uc:
-      source-branch: 7.2.0
+      source-branch: 7.3.0
 - project: oslo-versionedobjects
   tags:
     dalmatian-uc:
@@ -551,7 +551,7 @@ packages:
 - project: osprofiler
   tags:
     dalmatian-uc:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: ovn-bgp-agent
   tags:
     dalmatian-uc:
@@ -838,7 +838,7 @@ packages:
 - project: sushy
   tags:
     dalmatian-uc:
-      source-branch: 5.1.1
+      source-branch: 5.2.0
 - project: sushy-oem-idrac
   tags:
     dalmatian-uc:
@@ -865,7 +865,7 @@ packages:
 - project: taskflow
   tags:
     dalmatian-uc:
-      source-branch: 5.9.0
+      source-branch: 5.9.1
 - project: tcib
   tags:
     dalmatian-uc:
@@ -884,7 +884,7 @@ packages:
 - project: tooz
   tags:
     dalmatian-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
 - project: trove
   tags:
     dalmatian-uc:
