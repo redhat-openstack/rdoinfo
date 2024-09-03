@@ -848,6 +848,9 @@ packages:
 - project: python-repoze-lru
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-repoze-lru-0.7-10.el9s
+- project: python-requests
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-testing: python-requests-2.32.3-3.el9s
 - project: python-requests-kerberos
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-requests-kerberos-0.14.0-1.el9s
@@ -1081,7 +1084,7 @@ packages:
     cloud9s-openstack-dalmatian-testing: python-webob-1.8.8-2.el9s
 - project: python-websocket-client
   buildsys-tags:
-    cloud9s-openstack-dalmatian-testing: python-websocket-client-1.7.0-1.el9s
+    cloud9s-openstack-dalmatian-testing: python-websocket-client-1.8.0-2.el9s
 - project: python-websockify
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-websockify-0.12.0-1.el9s
@@ -1108,7 +1111,7 @@ packages:
     cloud9s-openstack-dalmatian-testing: python-wsgi_intercept-1.12.0-5.el9s
 - project: python-xmlschema
   buildsys-tags:
-    cloud9s-openstack-dalmatian-testing: python-xmlschema-2.0.3-2.el9s
+    cloud9s-openstack-dalmatian-testing: python-xmlschema-2.4.0-3.el9s
 - project: python-xmltodict
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-xmltodict-0.13.0-1.el9s
