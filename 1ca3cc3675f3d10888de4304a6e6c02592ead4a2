@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0becd23_52398d76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-09-11T13:40:55Z",
+      "side": 1,
+      "message": "FTR, we need to pull that patch [1] to make it work with new oslo.config, and unblock Dalmatian bootstrapping.\nOnce the patch contained in new release then we\u0027ll be able to pin to tag again.\n\n[1] https://review.opendev.org/c/openstack/oslo.reports/+/927739",
+      "revId": "1ca3cc3675f3d10888de4304a6e6c02592ead4a2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
