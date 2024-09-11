@@ -33,6 +33,24 @@
       "message": "hmm, the build fails due to:\n import testscenarios\\nModuleNotFoundError: No module named \\\u0027testscenarios\n \nA new dep introduced by: https://review.opendev.org/c/openstack/tempest/+/925431\nI wonder what do I need to change in the spec file to install this dep.",
       "revId": "2fdc2f40a95c6428de1c0b824bf05506b3e27df2",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95967eb9_56fceea0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-09-11T13:37:28Z",
+      "side": 1,
+      "message": "I guess you have to add that dependencies (i.e BuildRequires: python3-testscenarios) in tempest distgit after l.43 [1], on antelope-rdo branch.\nFor Caracal and Bobcat, it was not needed as they are using the mechanism to automatically add the right dependencies at both build-time and run-time.\n\nYou can then amend this patch with a Depends-On on your distgit patch to test\n\n[1] https://github.com/rdo-packages/tempest-distgit/blob/antelope-rdo/openstack-tempest.spec#L43",
+      "parentUuid": "3176b9eb_44998a0f",
+      "revId": "2fdc2f40a95c6428de1c0b824bf05506b3e27df2",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
