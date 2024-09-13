@@ -53,3 +53,9 @@ packages:
 - project: wsme
   tags:
     version-locked:
+# we temporary lock oslo-reports pin update until new release is issued
+# https://review.rdoproject.org/r/c/rdoinfo/+/54341
+- project: oslo-reports
+  tags:
+    version-locked:
+      dalmatian-uc:
