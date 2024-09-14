@@ -42,6 +42,12 @@ packages:
 - project: os-cloud-config
   tags:
     version-locked:
+# we temporary lock oslo-reports pin update until new release is issued
+# https://review.rdoproject.org/r/c/rdoinfo/+/54341
+- project: oslo-reports
+  tags:
+    version-locked:
+      dalmatian-uc:
 # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
 - project: tap-as-a-service
   tags:
@@ -53,9 +59,3 @@ packages:
 - project: wsme
   tags:
     version-locked:
-# we temporary lock oslo-reports pin update until new release is issued
-# https://review.rdoproject.org/r/c/rdoinfo/+/54341
-- project: oslo-reports
-  tags:
-    version-locked:
-      dalmatian-uc:
