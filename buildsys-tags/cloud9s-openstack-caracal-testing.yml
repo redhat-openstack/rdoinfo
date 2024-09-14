@@ -241,7 +241,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-ibmcclient-0.2.5.1-2.el9s
 - project: ironic
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-ironic-24.1.1-1.el9s
+    cloud9s-openstack-caracal-testing: openstack-ironic-24.1.2-1.el9s
 - project: ironic-inspector
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-ironic-inspector-12.1.0-1.el9s
@@ -256,7 +256,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-ironic-prometheus-exporter-4.3.0-1.el9s
 - project: ironic-python-agent
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-ironic-python-agent-9.11.0-1.el9s
+    cloud9s-openstack-caracal-testing: openstack-ironic-python-agent-9.11.1-1.el9s
 - project: ironic-python-agent-builder
   buildsys-tags:
     cloud9s-openstack-caracal-testing: openstack-ironic-python-agent-builder-5.3.0-1.el9s
@@ -565,7 +565,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-oslo-rootwrap-7.2.0-1.el9s
 - project: oslo-serialization
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-oslo-serialization-5.4.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-oslo-serialization-5.4.1-1.el9s
 - project: oslo-service
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-oslo-service-3.4.1-1.el9s
@@ -1873,7 +1873,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-telemetry-tests-tempest-2.2.0-3.el9s
 - project: tempest
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-tempest-39.0.0-3.el9s
+    cloud9s-openstack-caracal-testing: openstack-tempest-40.0.0-3.el9s
 - project: tempestconf
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-tempestconf-3.4.2-1.el9s
