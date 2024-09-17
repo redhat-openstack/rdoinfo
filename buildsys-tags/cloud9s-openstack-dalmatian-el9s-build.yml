@@ -203,6 +203,9 @@ packages:
 - project: python-openstackdocstheme
   buildsys-tags:
     cloud9s-openstack-dalmatian-el9s-build: python-openstackdocstheme-3.0.0-1.el9s
+- project: python-parameterized
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-el9s-build: python-parameterized-0.9.0-9.el9s
 - project: python-pathspec
   buildsys-tags:
     cloud9s-openstack-dalmatian-el9s-build: python-pathspec-0.8.1-1.el9s
