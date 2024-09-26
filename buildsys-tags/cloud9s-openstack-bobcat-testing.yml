@@ -88,7 +88,7 @@ packages:
     cloud9s-openstack-bobcat-testing: openstack-cinder-23.2.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: python-cinder-tests-tempest-1.14.0-2.el9s
+    cloud9s-openstack-bobcat-testing: python-cinder-tests-tempest-1.15.0-2.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-cinderclient-9.4.0-1.el9s
@@ -425,6 +425,9 @@ packages:
 - project: networking-ansible
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-networking-ansible-5.0.0-1.el9s
+- project: networking-arista
+  buildsys-tags:
+    cloud9s-openstack-bobcat-testing: python-networking-arista-2023.1.0-2.el9s
 - project: networking-bagpipe
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-networking-bagpipe-19.0.0-1.el9s
@@ -508,7 +511,7 @@ packages:
     cloud9s-openstack-bobcat-testing: openstack-network-scripts-10.11.1-6.el9s
 - project: openstack-selinux
   buildsys-tags:
-    cloud9s-openstack-bobcat-testing: openstack-selinux-0.8.39-1.el9s
+    cloud9s-openstack-bobcat-testing: openstack-selinux-0.8.40-1.el9s
 - project: openstackclient
   buildsys-tags:
     cloud9s-openstack-bobcat-testing: python-openstackclient-6.3.0-1.el9s
