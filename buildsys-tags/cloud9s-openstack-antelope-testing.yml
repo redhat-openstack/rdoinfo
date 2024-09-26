@@ -76,7 +76,7 @@ packages:
     cloud9s-openstack-antelope-testing: openstack-cinder-22.2.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: python-cinder-tests-tempest-1.14.0-1.el9s
+    cloud9s-openstack-antelope-testing: python-cinder-tests-tempest-1.15.0-1.el9s
 - project: cinderclient
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-cinderclient-9.3.0-1.el9s
@@ -413,6 +413,9 @@ packages:
 - project: networking-ansible
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-networking-ansible-5.0.0-1.el9s
+- project: networking-arista
+  buildsys-tags:
+    cloud9s-openstack-antelope-testing: python-networking-arista-2023.1.0-1.el9s
 - project: networking-bagpipe
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-networking-bagpipe-18.0.0-1.el9s
@@ -499,7 +502,7 @@ packages:
     cloud9s-openstack-antelope-testing: openstack-network-scripts-10.11.1-6.el9s
 - project: openstack-selinux
   buildsys-tags:
-    cloud9s-openstack-antelope-testing: openstack-selinux-0.8.39-1.el9s
+    cloud9s-openstack-antelope-testing: openstack-selinux-0.8.40-1.el9s
 - project: openstackclient
   buildsys-tags:
     cloud9s-openstack-antelope-testing: python-openstackclient-6.2.1-1.el9s
