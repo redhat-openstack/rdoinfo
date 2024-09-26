@@ -101,6 +101,9 @@ packages:
 - project: hiera
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: hiera-3.7.0-2.el9s
+- project: inotify-tools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-testing: inotify-tools-4.23.9.0-2.el9s
 - project: jsoncpp
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: jsoncpp-1.9.4-4.el9s
