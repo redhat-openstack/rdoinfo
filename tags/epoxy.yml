@@ -1,962 +1,834 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    dalmatian:
+    epoxy:
 - project: ansible-config_template
   tags:
-    dalmatian:
+    epoxy:
       component: podified
 - project: ansible-role-atos-hsm
   tags:
-    dalmatian:
+    epoxy:
 - project: ansible-role-collectd-config
   tags:
-    dalmatian:
+    epoxy:
 - project: ansible-role-lunasa-hsm
   tags:
-    dalmatian:
+    epoxy:
 - project: ansible-role-thales-hsm
   tags:
-    dalmatian:
+    epoxy:
 - project: aodh
   tags:
-    dalmatian:
+    epoxy:
 - project: aodhclient
   tags:
-    dalmatian:
-      source-branch: 3.6.0
+    epoxy:
 - project: automaton
   tags:
-    dalmatian:
-      source-branch: 3.2.0
+    epoxy:
 - project: barbican
   tags:
-    dalmatian:
+    epoxy:
 - project: barbican-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 4.1.0
+    epoxy:
 - project: barbicanclient
   tags:
-    dalmatian:
-      source-branch: 7.0.0
+    epoxy:
 - project: castellan
   tags:
-    dalmatian:
-      source-branch: 5.1.1
+    epoxy:
 - project: ceilometer
   tags:
-    dalmatian:
+    epoxy:
 - project: ceilometermiddleware
   tags:
-    dalmatian:
-      source-branch: 3.5.0
+    epoxy:
 - project: cinder
   tags:
-    dalmatian:
+    epoxy:
 - project: cinder-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 1.15.0
+    epoxy:
 - project: cinderclient
   tags:
-    dalmatian:
-      source-branch: 9.6.0
+    epoxy:
 - project: cliff
   tags:
-    dalmatian:
-      source-branch: 4.7.0
+    epoxy:
 - project: cloudkitty
   tags:
-    dalmatian:
+    epoxy:
 - project: cloudkitty-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: cloudkittyclient
   tags:
-    dalmatian:
-      source-branch: 5.2.0
+    epoxy:
 - project: collectd-gnocchi
   tags:
-    dalmatian:
+    epoxy:
 - project: cursive
   tags:
-    dalmatian:
-      source-branch: 0.2.3
+    epoxy:
 - project: debtcollector
   tags:
-    dalmatian:
-      source-branch: 3.0.0
+    epoxy:
 - project: designate
   tags:
-    dalmatian:
+    epoxy:
 - project: designate-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: designate-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 0.23.0
+    epoxy:
 - project: designateclient
   tags:
-    dalmatian:
-      source-branch: 6.1.0
+    epoxy:
 - project: diskimage-builder
   tags:
-    dalmatian:
+    epoxy:
 - project: dracclient
   tags:
-    dalmatian:
+    epoxy:
 - project: edpm-image-builder
   tags:
-    dalmatian:
+    epoxy:
 - project: futurist
   tags:
-    dalmatian:
-      source-branch: 3.0.0
+    epoxy:
 - project: glance
   tags:
-    dalmatian:
+    epoxy:
 - project: glance-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 0.10.0
+    epoxy:
 - project: glance_store
   tags:
-    dalmatian:
-      source-branch: 4.8.1
+    epoxy:
 - project: glanceclient
   tags:
-    dalmatian:
-      source-branch: 4.7.0
+    epoxy:
 - project: glean
   tags:
-    dalmatian:
+    epoxy:
 - project: gnocchi
   tags:
-    dalmatian:
+    epoxy:
       source-branch: stable/4.6
 - project: gnocchiclient
   tags:
-    dalmatian:
-      source-branch: 7.1.0
+    epoxy:
 - project: hacking
   tags:
-    dalmatian:
-      source-branch: 7.0.0
+    epoxy:
 - project: hardware
   tags:
-    dalmatian:
+    epoxy:
 - project: heat
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: heat-agents
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: heat-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: heat-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.3.0
+    epoxy:
 - project: heat-translator
   tags:
-    dalmatian:
-      source-branch: 3.1.0
+    epoxy:
       component: common
 - project: heatclient
   tags:
-    dalmatian:
-      source-branch: 4.0.0
+    epoxy:
 - project: horizon
   tags:
-    dalmatian:
+    epoxy:
 - project: ibmcclient
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic-inspector
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic-inspector-client
   tags:
-    dalmatian:
-      source-branch: 5.2.0
+    epoxy:
 - project: ironic-lib
   tags:
-    dalmatian:
-      source-branch: 6.2.0
+    epoxy:
 - project: ironic-prometheus-exporter
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic-python-agent
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic-python-agent-builder
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic-staging-drivers
   tags:
-    dalmatian:
+    epoxy:
 - project: ironic-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.11.0
+    epoxy:
 - project: ironic-ui
   tags:
-    dalmatian:
+    epoxy:
 - project: ironicclient
   tags:
-    dalmatian:
-      source-branch: 5.8.0
+    epoxy:
 - project: keystone
   tags:
-    dalmatian:
+    epoxy:
 - project: keystone-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 0.17.0
+    epoxy:
 - project: keystoneauth1
   tags:
-    dalmatian:
-      source-branch: 5.8.0
+    epoxy:
 - project: keystoneclient
   tags:
-    dalmatian:
-      source-branch: 5.5.0
+    epoxy:
 - project: keystonemiddleware
   tags:
-    dalmatian:
-      source-branch: 10.7.1
+    epoxy:
 - project: kolla
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: kuryr
   tags:
-    dalmatian:
+    epoxy:
 - project: kuryr-kubernetes
   tags:
-    dalmatian:
+    epoxy:
 - project: kuryr-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 0.16.0
+    epoxy:
 - project: magnum
   tags:
-    dalmatian:
+    epoxy:
 - project: magnum-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.5.0
+    epoxy:
 - project: magnum-ui
   tags:
-    dalmatian:
+    epoxy:
 - project: magnumclient
   tags:
-    dalmatian:
-      source-branch: 4.7.0
+    epoxy:
 - project: manila
   tags:
-    dalmatian:
+    epoxy:
 - project: manila-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.5.0
+    epoxy:
 - project: manila-ui
   tags:
-    dalmatian:
+    epoxy:
 - project: manilaclient
   tags:
-    dalmatian:
-      source-branch: 5.0.0
+    epoxy:
 - project: metalsmith
   tags:
-    dalmatian:
-      source-branch: 2.3.0
+    epoxy:
 - project: microversion-parse
   tags:
-    dalmatian:
-      source-branch: 2.0.0
+    epoxy:
 - project: mistral
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: mistral-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: mistral-extra
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: mistral-lib
   tags:
-    dalmatian:
-      source-branch: 3.0.0
+    epoxy:
       component: common
 - project: mistral-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.4.0
+    epoxy:
 - project: mistralclient
   tags:
-    dalmatian:
-      source-branch: 5.3.0
+    epoxy:
 - project: monascaclient
   tags:
-    dalmatian:
-      source-branch: 2.8.0
+    epoxy:
 - project: networking-ansible
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-arista
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-bagpipe
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-baremetal
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-bgpvpn
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-generic-switch
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-l2gw
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-l2gw-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
+    epoxy:
 - project: networking-mlnx
   tags:
-    dalmatian:
+    epoxy:
 - project: networking-sfc
   tags:
-    dalmatian:
-      source-branch: 61f1d91834b4660b695ffb429a011d63f38187d4
+    epoxy:
 - project: neutron
   tags:
-    dalmatian:
+    epoxy:
 - project: neutron-dynamic-routing
   tags:
-    dalmatian:
+    epoxy:
 - project: neutron-lib
   tags:
-    dalmatian:
-      source-branch: 3.15.0
+    epoxy:
 - project: neutron-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.9.0
+    epoxy:
 - project: neutron-vpnaas
   tags:
-    dalmatian:
+    epoxy:
 - project: neutronclient
   tags:
-    dalmatian:
-      source-branch: 11.3.1
+    epoxy:
 - project: nova
   tags:
-    dalmatian:
+    epoxy:
 - project: novaclient
   tags:
-    dalmatian:
-      source-branch: 18.7.0
+    epoxy:
 - project: observabilityclient
   tags:
-    dalmatian:
-      source-branch: 0.3.0
+    epoxy:
 - project: octavia
   tags:
-    dalmatian:
+    epoxy:
 - project: octavia-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: octavia-lib
   tags:
-    dalmatian:
-      source-branch: 3.6.0
+    epoxy:
 - project: octavia-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.8.0
+    epoxy:
 - project: octaviaclient
   tags:
-    dalmatian:
-      source-branch: 3.8.0
+    epoxy:
 - project: openstack-macros
   tags:
-    dalmatian:
+    epoxy:
 - project: openstack-selinux
   tags:
-    dalmatian:
+    epoxy:
 - project: openstackclient
   tags:
-    dalmatian:
-      source-branch: 7.1.2
+    epoxy:
 - project: openstacksdk
   tags:
-    dalmatian:
-      source-branch: 4.0.0
+    epoxy:
 - project: os-apply-config
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: os-brick
   tags:
-    dalmatian:
-      source-branch: 6.9.0
+    epoxy:
 - project: os-client-config
   tags:
-    dalmatian:
-      source-branch: 2.1.0
+    epoxy:
       component: clients
 - project: os-collect-config
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: os-diff
   tags:
-    dalmatian:
+    epoxy:
 - project: os-faults
   tags:
-    dalmatian:
+    epoxy:
 - project: os-ken
   tags:
-    dalmatian:
-      source-branch: 2.10.0
+    epoxy:
 - project: os-net-config
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: os-refresh-config
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: os-resource-classes
   tags:
-    dalmatian:
-      source-branch: 1.1.0
+    epoxy:
 - project: os-service-types
   tags:
-    dalmatian:
-      source-branch: 1.7.0
+    epoxy:
 - project: os-testr
   tags:
-    dalmatian:
-      source-branch: 3.0.0
+    epoxy:
 - project: os-traits
   tags:
-    dalmatian:
-      source-branch: 3.1.0
+    epoxy:
 - project: os-vif
   tags:
-    dalmatian:
-      source-branch: 3.7.0
+    epoxy:
 - project: os-win
   tags:
-    dalmatian:
-      source-branch: 5.9.0
+    epoxy:
 - project: osc-lib
   tags:
-    dalmatian:
-      source-branch: 3.1.0
+    epoxy:
 - project: osc-placement
   tags:
-    dalmatian:
-      source-branch: 4.5.0
+    epoxy:
 - project: oslo-cache
   tags:
-    dalmatian:
-      source-branch: 3.8.0
+    epoxy:
 - project: oslo-concurrency
   tags:
-    dalmatian:
-      source-branch: 6.1.0
+    epoxy:
 - project: oslo-config
   tags:
-    dalmatian:
-      source-branch: 9.6.0
+    epoxy:
 - project: oslo-context
   tags:
-    dalmatian:
-      source-branch: 5.6.0
+    epoxy:
 - project: oslo-db
   tags:
-    dalmatian:
-      source-branch: 16.0.0
+    epoxy:
 - project: oslo-i18n
   tags:
-    dalmatian:
-      source-branch: 6.4.0
+    epoxy:
 - project: oslo-limit
   tags:
-    dalmatian:
-      source-branch: 2.5.0
+    epoxy:
 - project: oslo-log
   tags:
-    dalmatian:
-      source-branch: 6.1.2
+    epoxy:
 - project: oslo-messaging
   tags:
-    dalmatian:
-      source-branch: 14.9.0
+    epoxy:
 - project: oslo-metrics
   tags:
-    dalmatian:
-      source-branch: 0.9.0
+    epoxy:
 - project: oslo-middleware
   tags:
-    dalmatian:
-      source-branch: 6.2.0
+    epoxy:
 - project: oslo-policy
   tags:
-    dalmatian:
-      source-branch: 4.4.0
+    epoxy:
 - project: oslo-privsep
   tags:
-    dalmatian:
-      source-branch: 3.4.0
+    epoxy:
 - project: oslo-reports
   tags:
-    dalmatian:
-      source-branch: a25f36fa6620ee3f90a37599e41dac311a49c452
+    epoxy:
 - project: oslo-rootwrap
   tags:
-    dalmatian:
-      source-branch: 7.3.0
+    epoxy:
 - project: oslo-serialization
   tags:
-    dalmatian:
-      source-branch: 5.5.0
+    epoxy:
 - project: oslo-service
   tags:
-    dalmatian:
-      source-branch: 3.5.0
+    epoxy:
 - project: oslo-upgradecheck
   tags:
-    dalmatian:
-      source-branch: 2.4.0
+    epoxy:
 - project: oslo-utils
   tags:
-    dalmatian:
-      source-branch: 7.3.0
+    epoxy:
 - project: oslo-versionedobjects
   tags:
-    dalmatian:
-      source-branch: 3.4.0
+    epoxy:
 - project: oslo-vmware
   tags:
-    dalmatian:
-      source-branch: 4.5.0
+    epoxy:
 - project: oslotest
   tags:
-    dalmatian:
-      source-branch: 5.0.0
+    epoxy:
 - project: osprofiler
   tags:
-    dalmatian:
-      source-branch: 4.2.0
+    epoxy:
 - project: ovn-bgp-agent
   tags:
-    dalmatian:
+    epoxy:
 - project: ovn-octavia-provider
   tags:
-    dalmatian:
+    epoxy:
 - project: ovsdbapp
   tags:
-    dalmatian:
-      source-branch: 2.8.0
+    epoxy:
 - project: packstack
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: placement
   tags:
-    dalmatian:
+    epoxy:
 - project: proliantutils
   tags:
-    dalmatian:
-      source-branch: 2.16.3
+    epoxy:
 - project: puppet-aodh
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-apache
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v12.1.0
+      source-branch: main
 - project: puppet-archive
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v7.1.0
 - project: puppet-barbican
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-ceilometer
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-ceph
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-cinder
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-concat
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v9.0.2
+      source-branch: main
 - project: puppet-designate
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-dns
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: 11.0.0
 - project: puppet-firewall
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v8.0.3
+      source-branch: main
 - project: puppet-glance
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-gnocchi
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-heat
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-horizon
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-inifile
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v6.1.1
+      source-branch: main
 - project: puppet-ironic
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-keystone
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-kmod
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v4.0.1
 - project: puppet-magnum
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-manila
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-memcached
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v9.0.0
 - project: puppet-mistral
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-mysql
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v16.0.0
+      source-branch: main
 - project: puppet-neutron
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-nova
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-nssdb
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-octavia
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-openstack_extras
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-openstacklib
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-oslo
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-ovn
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-placement
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-rabbitmq
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v13.7.0
 - project: puppet-redis
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v11.0.0
 - project: puppet-remote
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: c8444dff52794db7118b5695b41b67ccc900612f
+      source-branch: main
 - project: puppet-ssh
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: 575a7fe5d9d4436b5db414e2fae955c1cc96d932
 - project: puppet-stdlib
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v9.6.0
+      source-branch: main
 - project: puppet-swift
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-sysctl
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v7.1.0
 - project: puppet-tempest
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-trove
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-vcsrepo
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: e5d9e4c8ce059e369f5c5bbd4b49f1fc908feae1
+      source-branch: main
 - project: puppet-vitrage
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-vswitch
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-watcher
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: puppet-xinetd
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
-      source-branch: v3.4.1
 - project: puppet-zaqar
   tags:
-    dalmatian:
+    epoxy:
       component: puppet
 - project: pycadf
   tags:
-    dalmatian:
-      source-branch: 3.1.1
+    epoxy:
 - project: rally
   tags:
-    dalmatian:
+    epoxy:
 - project: rally-openstack
   tags:
-    dalmatian:
+    epoxy:
 - project: reno
   tags:
-    dalmatian:
-      source-branch: 4.1.0
+    epoxy:
 - project: requestsexceptions
   tags:
-    dalmatian:
-      source-branch: 1.4.0
+    epoxy:
 - project: rsd-lib
   tags:
-    dalmatian:
-      source-branch: 1.2.0
+    epoxy:
 - project: rsdclient
   tags:
-    dalmatian:
-      source-branch: 1.0.2
+    epoxy:
 - project: scciclient
   tags:
-    dalmatian:
-      source-branch: 0.16.0
+    epoxy:
 - project: sphinx-feature-classification
   tags:
-    dalmatian:
-      source-branch: 2.0.0
+    epoxy:
 - project: stevedore
   tags:
-    dalmatian:
-      source-branch: 5.3.0
+    epoxy:
 - project: sushy
   tags:
-    dalmatian:
-      source-branch: 5.2.0
+    epoxy:
 - project: sushy-oem-idrac
   tags:
-    dalmatian:
+    epoxy:
 - project: sushy-tools
   tags:
-    dalmatian:
+    epoxy:
 - project: swift
   tags:
-    dalmatian:
+    epoxy:
 - project: swiftclient
   tags:
-    dalmatian:
-      source-branch: 4.6.0
+    epoxy:
 - project: tacker
   tags:
-    dalmatian:
+    epoxy:
 - project: tackerclient
   tags:
-    dalmatian:
-      source-branch: 2.1.0
+    epoxy:
 - project: tap-as-a-service
   tags:
-    dalmatian:
+    epoxy:
 - project: taskflow
   tags:
-    dalmatian:
-      source-branch: 5.9.1
+    epoxy:
 - project: tcib
   tags:
-    dalmatian:
+    epoxy:
 - project: telemetry-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.3.0
+    epoxy:
 - project: tempest
   tags:
-    dalmatian:
-      source-branch: 41.0.0
+    epoxy:
 - project: tempestconf
   tags:
-    dalmatian:
+    epoxy:
 - project: tobiko
   tags:
-    dalmatian:
+    epoxy:
 - project: tooz
   tags:
-    dalmatian:
-      source-branch: 6.3.0
+    epoxy:
 - project: trove
   tags:
-    dalmatian:
+    epoxy:
 - project: trove-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: trove-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.4.0
+    epoxy:
 - project: troveclient
   tags:
-    dalmatian:
-      source-branch: 8.6.0
+    epoxy:
 - project: virtualbmc
   tags:
-    dalmatian:
-      source-branch: 3.1.0
+    epoxy:
 - project: vitrage
   tags:
-    dalmatian:
+    epoxy:
 - project: vitrage-dashboard
   tags:
-    dalmatian:
+    epoxy:
 - project: vitrage-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 6.4.0
+    epoxy:
 - project: vitrageclient
   tags:
-    dalmatian:
-      source-branch: 5.1.1
+    epoxy:
 - project: watcher
   tags:
-    dalmatian:
+    epoxy:
 - project: watcher-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 3.2.0
+    epoxy:
 - project: whitebox-neutron-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: master
+    epoxy:
 - project: whitebox-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 0.0.3
+    epoxy:
 - project: wsme
   tags:
-    dalmatian:
-      source-branch: 0.12.1
+    epoxy:
 - project: zaqar
   tags:
-    dalmatian:
+    epoxy:
       component: common
 - project: zaqar-tempest-plugin
   tags:
-    dalmatian:
-      source-branch: 2.0.0
+    epoxy:
 - project: zaqarclient
   tags:
-    dalmatian:
-      source-branch: 2.8.0
+    epoxy:
