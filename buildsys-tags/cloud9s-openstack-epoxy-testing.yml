@@ -1,0 +1,1225 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: GitPython-3.1.43-1.el9s
+- project: abseil-cpp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: abseil-cpp-20210324.2-2.el9s
+- project: ansible-collection-ansible-netcommon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ansible-collection-ansible-netcommon-4.1.0-2.el9s
+- project: ansible-collection-ansible-posix
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ansible-collection-ansible-posix-1.5.1-1.el9s
+- project: ansible-collection-ansible-utils
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ansible-collection-ansible-utils-2.9.0-1.el9s
+- project: ansible-collection-community-general
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ansible-collection-community-general-6.4.0-1.el9s
+- project: ansible-collection-containers-podman
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ansible-collection-containers-podman-1.10.1-2.el9s
+- project: ansible-core
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: openstack-ansible-core-2.14.2-4.1.el9s
+- project: argon2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: argon2-20171227-7.el9s
+- project: blosc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: blosc-1.21.0-1.el9s
+- project: bridge-utils
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: bridge-utils-1.7.1-2.el9s
+- project: catch1
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: catch1-1.12.2-8.el9s
+- project: ck
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ck-0.7.0-5.el9s
+- project: cliff
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-cliff-3.7.0-1.el9s
+- project: cpp-hocon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: cpp-hocon-0.3.0-4.el9s
+- project: cppunit
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: cppunit-1.15.1-5.el9s
+- project: crudini
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: crudini-0.9.3-4.el9s
+- project: dibbler
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: dibbler-1.0.1-11.el9s
+- project: dumb-init
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: dumb-init-1.2.5-2.el9s
+- project: etcd
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: etcd-3.4.14-1.el9s
+- project: facter
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: facter-4.2.10-3.el9s
+- project: future
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: future-0.18.2-9.el9s
+- project: futurist
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-futurist-2.3.0-3.el9s
+- project: gflags
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: gflags-2.2.2-8.el9s
+- project: golang-github-vbatts-tar-split
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: golang-github-vbatts-tar-split-0.11.2-1.el9s
+- project: google-api-python-client
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: google-api-python-client-2.58.0-1.el9s
+- project: google-auth-httplib2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: google-auth-httplib2-0.1.0-2.el9s
+- project: gperftools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: gperftools-2.9.1-1.el9s
+- project: grpc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: grpc-1.41.1-6.el9s
+- project: gtest
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: gtest-1.11.0-1.el9s
+- project: gv
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: gv-3.7.4-27.el9s
+- project: hdf5
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: hdf5-1.10.6-5.el9s
+- project: heat-cfntools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: heat-cfntools-1.4.2-15.el9s
+- project: hiera
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: hiera-3.7.0-2.el9s
+- project: inotify-tools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: inotify-tools-4.23.9.0-2.el9s
+- project: jsoncpp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: jsoncpp-1.9.4-4.el9s
+- project: leatherman
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: leatherman-1.12.6-3.el9s
+- project: libaec
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libaec-1.0.4-7.el9s
+- project: liberasurecode
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: liberasurecode-1.6.2-2.el9s
+- project: libev
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libev-4.33-3.el9s
+- project: libimagequant
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libimagequant-2.14.1-1.el9s
+- project: libraqm
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libraqm-0.7.0-7.el9s
+- project: libsodium
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libsodium-1.0.18-7.el9s
+- project: libtomcrypt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libtomcrypt-1.18.2-12.el9s
+- project: libtommath
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libtommath-1.2.0-3.el9s
+- project: libunwind
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libunwind-1.4.0-5.el9s
+- project: libwebsockets
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libwebsockets-4.3.0-1.el9s
+- project: llhttp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: llhttp-9.2.1-1.el9s
+- project: luajit
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: luajit-2.1.1692716794-3.el9s
+- project: novnc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: novnc-1.3.0-1.el9s
+- project: openpgm
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: openpgm-5.2.122-26.el9s
+- project: openstack-network-scripts
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: openstack-network-scripts-10.11.1-6.el9s
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-oslo-sphinx-4.18.0-11.el9s
+- project: oslotest
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-oslotest-4.4.1-3.el9s
+- project: protobuf
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: protobuf-3.19.0-2.el9s
+- project: puppet
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: puppet-7.27.0-1.el9s
+- project: pyOpenSSL
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pyOpenSSL-20.0.1-2.el9s
+- project: pydot
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pydot-3.0.1-1.el9s
+- project: pyflakes
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pyflakes-2.5.0-1.el9s
+- project: pyparsing
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pyparsing-3.1.2-7.el9s
+- project: pysendfile
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pysendfile-2.0.1-19.el9s
+- project: pysnmp-lextudio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pysnmp-lextudio-5.0.26-2.el9s
+- project: pystache
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: pystache-0.5.4-13.el9s
+- project: python-APScheduler
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-APScheduler-3.10.4-4.el9s
+- project: python-Automat
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-Automat-20.2.0-5.el9s
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-Bottleneck-1.2.1-17.el9s
+- project: python-SecretStorage
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-SecretStorage-3.3.1-1.el9s
+- project: python-XStatic
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-1.0.1-23.el9s
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-1.5.8.0-14.el9s
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-14.el9s
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-FileUpload-12.0.4.0-18.el9s
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el9s
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el9s
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-UUID-0.0.4.0-13.el9s
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-Vis-4.16.0.0-10.el9s
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-20.el9s
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-20.el9s
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-14.el9s
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-D3-3.5.17.0-14.el9s
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-FileSaver-1.3.2.0-10.el9s
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Font-Awesome-4.7.0.0-14.el9s
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Hogan-2.0.0.2-21.el9s
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-JQuery-Migrate-1.2.1.1-21.el9s
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-21.el9s
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-JQuery-quicksearch-2.0.3.2-1.el9s
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-JS-Yaml-3.8.1.0-11.el9s
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-JSEncrypt-2.3.1.1-13.el9s
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Jasmine-2.4.1.1-13.el9s
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Json2yaml-0.1.1.0-10.el9s
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Magic-Search-0.2.5.1-16.el9s
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Rickshaw-1.5.0.0-23.el9s
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-Spin-1.2.5.2-22.el9s
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-bootswatch-3.3.7.0-15.el9s
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-jQuery-1.10.2.1-9.el9s.2
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-jquery-ui-1.12.0.1-13.el9s
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-mdi-1.6.50.2-4.el9s
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-objectpath-1.2.1.0-2.el9s
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-roboto-fontface-0.5.0.0-17.el9s
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-smart-table-1.4.13.2-13.el9s
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-termjs-0.0.7.0-13.el9s
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-XStatic-tv4-1.2.7.0-2.el9s
+- project: python-alembic
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-alembic-1.13.2-1.el9s
+- project: python-amqp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-amqp-5.2.0-2.el9s
+- project: python-aniso8601
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-aniso8601-9.0.1-1.el9s
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ansible-runner-2.3.6-1.el9s
+- project: python-anyio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-anyio-3.5.0-1.el9s
+- project: python-anyjson
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-anyjson-0.3.3-29.el9s
+- project: python-appdirs
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-appdirs-1.4.4-2.el9s
+- project: python-argon2-cffi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-argon2-cffi-20.1.0-7.el9s
+- project: python-asgiref
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-asgiref-3.8.1-1.el9s
+- project: python-async-generator
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-async-generator-1.10-9.el9s
+- project: python-async-timeout
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-async-timeout-4.0.2-5.el9s
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-atomicwrites-1.4.0-6.el9s
+- project: python-autobahn
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-autobahn-23.6.2-4.el9s
+- project: python-autopage
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-autopage-0.5.2-3.el9s
+- project: python-bcrypt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-bcrypt-3.2.2-4.el9s
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-beautifulsoup4-4.12.3-2.el9s
+- project: python-binary-memcached
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-binary-memcached-0.31.2-1.el9s
+- project: python-blinker
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-blinker-1.7.0-1.el9s
+- project: python-boto
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-boto-2.49.0-8.el9s
+- project: python-boto3
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-boto3-1.35.5-1.el9s
+- project: python-botocore
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-botocore-1.35.5-1.el9s
+- project: python-cachetools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-cachetools-5.4.0-2.el9s
+- project: python-certifi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-certifi-2020.12.5-2.el9s
+- project: python-click
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-click-8.1.7-1.el9s
+- project: python-cmd2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-cmd2-2.4.2-1.el9s
+- project: python-colorama
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-colorama-0.4.6-2.el9s
+- project: python-constantly
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-constantly-15.1.0-12.el9s
+- project: python-construct
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-construct-2.10.70-2.el9s
+- project: python-contextlib2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-contextlib2-0.6.0.post1-1.el9s
+- project: python-cotyledon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-cotyledon-1.7.3-8.el9s
+- project: python-coverage
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-coverage-7.3.2-2.el9s
+- project: python-croniter
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-croniter-1.4.1-1.el9s
+- project: python-cssselect
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-cssselect-0.9.2-17.el9s
+- project: python-curio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-curio-1.5-1.el9s
+- project: python-cycler
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-cycler-0.10.0-17.el9s
+- project: python-daemon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-daemon-2.3.1-1.el9s
+- project: python-daiquiri
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-daiquiri-3.2.1-1.el9s
+- project: python-datetimerange
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-datetimerange-1.2.0-1.el9s
+- project: python-ddt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ddt-1.6.0-1.el9s
+- project: python-defusedxml
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-defusedxml-0.7.1-1.el9s
+- project: python-deprecated
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-deprecated-1.2.14-3.el9s
+- project: python-deprecation
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-deprecation-2.1.0-2.el9s
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-dictdiffer-0.8.1-6.el9s
+- project: python-distro
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-distro-1.9.0-2.el9s
+- project: python-django
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-django-4.2.14-3.el9s
+- project: python-django-appconf
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-django-appconf-1.0.6-2.el9s
+- project: python-django-compressor
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-django-compressor-4.4-2.el9s
+- project: python-django-debreach
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-django-debreach-2.1.0-2.el9s
+- project: python-django-formtools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-django-formtools-2.2-2.el9s
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-django-pyscss-2.0.3-1.el9s
+- project: python-docker
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-docker-7.1.0-2.el9s
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-dogpile-cache-1.3.1-1.el9s
+- project: python-dulwich
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-dulwich-0.21.7-2.el9s
+- project: python-edgegrid
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-edgegrid-1.2.1-4.el9s
+- project: python-editor
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-editor-1.0.4-8.el9s
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-elasticsearch-7.17.4-1.el9s
+- project: python-elementpath
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-elementpath-4.4.0-2.el9s
+- project: python-entrypoints
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-entrypoints-0.3-8.el9s
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-etcd3gw-2.4.1-1.el9s
+- project: python-eventlet
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-eventlet-0.36.1-1.el9s
+- project: python-exabgp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-exabgp-4.2.22-1.el9s
+- project: python-extras
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-extras-1.0.0-15.el9s
+- project: python-falcon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-falcon-3.1.3-1.el9s
+- project: python-fastcache
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-fastcache-1.1.0-9.el9s
+- project: python-fasteners
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-fasteners-0.19-1.el9s
+- project: python-fixtures
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-fixtures-4.0.1-1.el9s
+- project: python-flake8
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-flake8-5.0.3-1.el9s
+- project: python-flask
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-flask-3.0.3-2.el9s
+- project: python-flask-restful
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-flask-restful-0.3.9-2.el9s
+- project: python-fluidity-sm
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-fluidity-sm-0.2.0-21.el9s
+- project: python-funcsigs
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-funcsigs-1.0.2-23.el9s
+- project: python-gabbi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-gabbi-2.7.2-8.el9s
+- project: python-gevent
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-gevent-23.7.0-2.el9s
+- project: python-gitdb
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-gitdb-4.0.10-1.el9s
+- project: python-gmpy2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-gmpy2-2.1.0-0.22.b5.el9s
+- project: python-google-api-core
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-google-api-core-2.11.0-2.el9s
+- project: python-google-auth
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-google-auth-2.34.0-1.el9s
+- project: python-googleapis-common-protos
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-googleapis-common-protos-1.56.4-2.el9s
+- project: python-greenlet
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-greenlet-3.0.3-2.el9s
+- project: python-grpcio-gcp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-grpcio-gcp-0.2.2-4.el9s
+- project: python-gunicorn
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-gunicorn-21.2.0-2.el9s
+- project: python-h11
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-h11-0.14.0-1.el9s
+- project: python-h2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-h2-4.0.0-3.el9s
+- project: python-hpack
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-hpack-4.0.0-2.el9s
+- project: python-html5lib
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-html5lib-1.1-4.el9s
+- project: python-httpcore
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-httpcore-1.0.2-1.el9s
+- project: python-httplib2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-httplib2-0.20.4-6.el9s
+- project: python-httpx
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-httpx-0.26.0-1.el9s
+- project: python-hyperframe
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-hyperframe-6.0.0-2.el9s
+- project: python-hyperlink
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-hyperlink-21.0.0-2.el9s
+- project: python-ifaddr
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ifaddr-0.1.7-3.el9s
+- project: python-immutables
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-immutables-0.20-1.el9s
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-importlib-metadata-6.8.0-1.el9s
+- project: python-incremental
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-incremental-21.3.0-1.el9s
+- project: python-influxdb
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-influxdb-5.3.1-1.el9s
+- project: python-influxdb-client
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-influxdb-client-1.45.0-1.el9s
+- project: python-invoke
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-invoke-1.5.0-2.el9s
+- project: python-iso8601
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-iso8601-1.1.0-1.el9s
+- project: python-itsdangerous
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-itsdangerous-2.1.2-2.el9s
+- project: python-jaraco-classes
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jaraco-classes-3.2.1-5.el9s
+- project: python-jaraco-packaging
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jaraco-packaging-8.2.1-4.el9s
+- project: python-jeepney
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jeepney-0.8.0-3.el9s
+- project: python-jinja2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jinja2-3.0.1-2.el9s
+- project: python-jmespath
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jmespath-1.0.1-1.el9s
+- project: python-json-logger
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-json-logger-2.0.4-1.el9s
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jsonpath-rw-1.4.0-4.el9s
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jsonpath-rw-ext-1.2.2-2.el9s
+- project: python-jsonschema
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jsonschema-4.16.0-2.el9s
+- project: python-junitxml
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-junitxml-0.7-24.el9s
+- project: python-jwt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-jwt-2.8.0-1.el9s
+- project: python-kafka
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-kafka-2.0.2-1.el9s
+- project: python-kazoo
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-kazoo-2.8.0-2.el9s
+- project: python-kerberos
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-kerberos-1.3.0-11.el9s
+- project: python-keyring
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-keyring-24.3.0-4.el9s
+- project: python-kiwisolver
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-kiwisolver-1.3.1-2.el9s
+- project: python-kombu
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-kombu-5.3.7-1.el9s
+- project: python-krb5
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-krb5-0.5.0-1.el9s
+- project: python-kubernetes
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-kubernetes-30.1.0-2.el9s
+- project: python-ldap3
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ldap3-2.9.1-1.el9s
+- project: python-ldappool
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ldappool-3.0.0-1.el9s
+- project: python-lexicon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-lexicon-2.0.1-9.el9s
+- project: python-linecache2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-linecache2-1.0.0-29.el9s
+- project: python-lockfile
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-lockfile-0.12.2-2.el9s
+- project: python-logutils
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-logutils-0.3.5-15.el9s
+- project: python-lz4
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-lz4-3.0.2-5.el9s
+- project: python-marathon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-marathon-0.13.0-2.el9s
+- project: python-markupsafe
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-markupsafe-2.1.5-1.el9s
+- project: python-matplotlib
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-matplotlib-3.4.2-1.el9s
+- project: python-mbstrdecoder
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-mbstrdecoder-1.1.2-1.el9s
+- project: python-mccabe
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-mccabe-0.7.0-1.el9s
+- project: python-memcached
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-memcached-1.59-3.el9s
+- project: python-migrate
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-migrate-0.13.0-5.el9s
+- project: python-mimeparse
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-mimeparse-1.6.0-16.el9s
+- project: python-mock
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-mock-4.0.3-5.el9s
+- project: python-monotonic
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-monotonic-1.5-9.el9s
+- project: python-more-itertools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-more-itertools-10.1.0-1.el9s
+- project: python-mpmath
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-mpmath-1.3.0-1.el9s
+- project: python-msgpack
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-msgpack-1.0.7-1.el9s
+- project: python-munch
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-munch-2.5.0-4.el9s
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-murano-pkg-check-0.3.0-20.el9s
+- project: python-natsort
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-natsort-7.1.1-2.el9s
+- project: python-ncclient
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ncclient-0.6.15-2.el9s
+- project: python-ndg_httpsclient
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ndg_httpsclient-0.5.1-9.el9s
+- project: python-netaddr
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-netaddr-0.10.1-5.el9s
+- project: python-netmiko
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-netmiko-4.3.0-1.el9s
+- project: python-network-runner
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-network-runner-0.3.5-1.el9s
+- project: python-nose
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-nose-1.3.7-33.el9s
+- project: python-ntlm-auth
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ntlm-auth-1.5.0-2.el9s
+- project: python-numexpr
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-numexpr-2.7.1-5.el9s
+- project: python-olefile
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-olefile-0.46-13.el9s
+- project: python-openshift
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-openshift-0.11.2-3.el9s
+- project: python-outcome
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-outcome-1.1.0-1.el9s
+- project: python-pandas
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pandas-1.2.1-2.el9s
+- project: python-paramiko
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-paramiko-3.4.1-1.el9s
+- project: python-passlib
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-passlib-1.7.4-3.el9s
+- project: python-paste
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-paste-3.10.1-1.el9s
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-paste-deploy-3.1.0-2.el9s
+- project: python-pbr
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pbr-6.0.0-1.el9s
+- project: python-pecan
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pecan-1.5.1-1.el9s
+- project: python-pillow
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pillow-10.1.0-1.el9s
+- project: python-pint
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pint-0.16.1-3.el9s
+- project: python-platformdirs
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-platformdirs-4.2.2-1.el9s
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-posix_ipc-0.9.8-26.el9s
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-prometheus_client-0.19.0-2.el9s
+- project: python-pyasn1
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyasn1-0.6.0-1.el9s
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pycodestyle-2.9.1-1.el9s
+- project: python-pyeclib
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyeclib-1.6.0-3.el9s
+- project: python-pyghmi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyghmi-1.5.69-1.el9s
+- project: python-pyglet
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyglet-1.4.6-4.el9s
+- project: python-pygraphviz
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pygraphviz-1.7-1.el9s
+- project: python-pymemcache
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pymemcache-4.0.0-1.el9s
+- project: python-pymongo
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pymongo-4.2.0-2.el9s
+- project: python-pynacl
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pynacl-1.5.0-1.el9s
+- project: python-pyngus
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyngus-2.3.0-8.el9s
+- project: python-pyperclip
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyperclip-1.8.2-2.el9s
+- project: python-pyroute2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pyroute2-0.7.12-2.el9s
+- project: python-pysaml2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pysaml2-7.4.2-2.el9s
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pytest-runner-4.0-12.el9s
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pytimeparse-1.1.8-8.el9s
+- project: python-pytz-deprecation-shim
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pytz-deprecation-shim-0.1.0.post0-1.el9s
+- project: python-rcssmin
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-rcssmin-1.1.1-1.el9s
+- project: python-reactivex
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-reactivex-4.0.4-5.el9s
+- project: python-redis
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-redis-5.0.4-1.el9s
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-repoze-lru-0.7-10.el9s
+- project: python-requests
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-requests-2.32.3-3.el9s
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-requests-kerberos-0.14.0-1.el9s
+- project: python-requests-mock
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-requests-mock-1.10.0-1.el9s
+- project: python-requests-toolbelt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-requests-toolbelt-0.9.1-16.el9s
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-requests_ntlm-1.1.0-14.el9s
+- project: python-responses
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-responses-0.25.3-1.el9s
+- project: python-retrying
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-retrying-1.3.3-2.el9s
+- project: python-rfc3986
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-rfc3986-1.5.0-1.el9s
+- project: python-rjsmin
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-rjsmin-1.2.1-2.el9s
+- project: python-routes
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-routes-2.5.1-1.el9s
+- project: python-rsa
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-rsa-4.9-1.el9s
+- project: python-rst-linker
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-rst-linker-2.2.0-4.el9s
+- project: python-s3transfer
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-s3transfer-0.10.2-1.el9s
+- project: python-scp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-scp-0.14.5-1.el9s
+- project: python-scrypt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-scrypt-0.8.20-1.el9s
+- project: python-scss
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-scss-1.4.0-1.el9s
+- project: python-semantic_version
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-semantic_version-2.10.0-4.el9s
+- project: python-semver
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-semver-2.13.0-3.el9s
+- project: python-service-identity
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-service-identity-18.1.0-9.el9s
+- project: python-setproctitle
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-setproctitle-1.3.3-1.el9s
+- project: python-setuptools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-setuptools-65.5.1-2.el9s
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-simplegeneric-0.8.1-21.el9s
+- project: python-simplejson
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-simplejson-3.19.2-1.el9s
+- project: python-smi-lextudio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-smi-lextudio-1.1.13-1.el9s
+- project: python-smmap
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-smmap-5.0.1-1.el9s
+- project: python-snappy
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-snappy-0.5.4-9.el9s
+- project: python-sniffio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sniffio-1.3.1-1.el9s
+- project: python-socksio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-socksio-1.0.0-3.el9s
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sortedcontainers-2.4.0-8.el9s
+- project: python-soupsieve
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-soupsieve-2.6-2.el9s
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sphinx-argparse-0.2.2-12.el9s
+- project: python-spnego
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-spnego-0.10.2-1.el9s
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sqlalchemy-2.0.31-1.el9s
+- project: python-sqlalchemy-filters
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sqlalchemy-filters-0.12.0-3.el9s
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sqlalchemy-utils-0.41.1-1.el9s
+- project: python-sqlparse
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sqlparse-0.4.2-4.el9s
+- project: python-sseclient
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sseclient-0.0.27-2.el9s
+- project: python-ssh-python
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ssh-python-0.9.0-1.el9s
+- project: python-sshtunnel
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sshtunnel-0.4.0-12.el9s
+- project: python-statsd
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-statsd-3.2.1-20.el9s
+- project: python-stestr
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-stestr-4.1.0-1.el9s
+- project: python-string_utils
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-string_utils-1.0.0-4.el9s
+- project: python-suds
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-suds-1.1.2-5.el9s
+- project: python-sure
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sure-1.4.11-12.el9s
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sysv_ipc-1.1.0-2.el9s
+- project: python-tables
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tables-3.6.1-2.el9s
+- project: python-tabulate
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tabulate-0.9.0-4.el9s
+- project: python-tcolorpy
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tcolorpy-0.1.1-4.el9s
+- project: python-tempita
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tempita-0.5.2-2.el9s
+- project: python-tenacity
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tenacity-8.2.3-1.el9s
+- project: python-testrepository
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-testrepository-0.0.20-24.el9s
+- project: python-testresources
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-testresources-2.0.1-2.el9s
+- project: python-testscenarios
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-testscenarios-0.5.0-21.el9s
+- project: python-testtools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-testtools-2.7.1-1.el9s
+- project: python-textfsm
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-textfsm-1.1.3-1.el9s
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tinyrpc-1.0.3-5.el9s
+- project: python-tomli
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tomli-2.0.1-4.el9s
+- project: python-tomlkit
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tomlkit-0.13.2-1.el9s
+- project: python-tornado
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tornado-6.3.3-1.el9s
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tosca-parser-2.9.1-1.el9s
+- project: python-trio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-trio-0.18.0-1.el9s
+- project: python-trollius
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-trollius-2.1-18.el9s
+- project: python-twisted
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-twisted-22.4.0-1.el9s
+- project: python-txaio
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-txaio-23.1.1-2.el9s
+- project: python-typepy
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-typepy-1.3.0-2.el9s
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-typing-extensions-4.12.2-2.el9s
+- project: python-tzlocal
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-tzlocal-5.2-1.el9s
+- project: python-uhashring
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-uhashring-2.3-3.el9s
+- project: python-ujson
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-ujson-5.9.0-2.el9s
+- project: python-uritemplate
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-uritemplate-4.1.1-1.el9s
+- project: python-versiontools
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-versiontools-1.9.1-28.el9s
+- project: python-vine
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-vine-5.1.0-1.el9s
+- project: python-voluptuous
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-voluptuous-0.15.2-1.el9s
+- project: python-waitress
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-waitress-3.0.0-1.el9s
+- project: python-warlock
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-warlock-2.0.1-3.el9s
+- project: python-wcwidth
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-wcwidth-0.2.13-1.el9s
+- project: python-webencodings
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-webencodings-0.5.1-15.el9s
+- project: python-webob
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-webob-1.8.8-2.el9s
+- project: python-websocket-client
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-websocket-client-1.8.0-2.el9s
+- project: python-websockify
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-websockify-0.12.0-1.el9s
+- project: python-webtest
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-webtest-3.0.0-1.el9s
+- project: python-werkzeug
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-werkzeug-3.0.3-1.el9s
+- project: python-wheel
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-wheel-0.36.2-2.el9s
+- project: python-winrm
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-winrm-0.4.1-2.el9s
+- project: python-wrapt
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-wrapt-1.16.0-1.el9s
+- project: python-wsaccel
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-wsaccel-0.6.3-2.el9s
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-wsgi_intercept-1.12.0-5.el9s
+- project: python-xmlschema
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-xmlschema-2.4.0-3.el9s
+- project: python-xmltodict
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-xmltodict-0.13.0-1.el9s
+- project: python-yappi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-yappi-1.6.0-1.el9s
+- project: python-yaql
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-yaql-2.0.0-3.el9s
+- project: python-zake
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zake-0.2.2-22.el9s
+- project: python-zeroconf
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zeroconf-0.38.7-1.el9s
+- project: python-zipp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zipp-3.6.0-1.el9s
+- project: python-zmq
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zmq-25.1.1-3.el9s
+- project: python-zope-event
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zope-event-4.2.0-20.el9s
+- project: python-zope-interface
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zope-interface-5.4.0-1.el9s
+- project: python-zstd
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-zstd-1.5.5.1-1.el9s
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: qpid-dispatch-1.19.0-4.el9s
+- project: qpid-proton
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: qpid-proton-0.35.0-2.el9s
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rdo-openvswitch-3.3-1.el9s
+- project: re2
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: re2-20190801-9.el9s
+- project: ruby-augeas
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: ruby-augeas-0.5.0-27.el9s
+- project: rubygem-concurrent-ruby
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-concurrent-ruby-1.1.5-2.el9s
+- project: rubygem-deep_merge
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-deep_merge-1.2.1-7.el9s
+- project: rubygem-fast_gettext
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-fast_gettext-1.2.0-9.el9s
+- project: rubygem-hocon
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-hocon-1.3.1-2.el9s
+- project: rubygem-multi_json
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-multi_json-1.15.0-2.el9s
+- project: rubygem-puppet-resource_api
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-puppet-resource_api-1.8.18-1.el9s
+- project: rubygem-ruby-shadow
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-ruby-shadow-2.5.0-15.el9s
+- project: rubygem-semantic_puppet
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-semantic_puppet-1.0.4-2.el9s
+- project: rubygem-thor
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: rubygem-thor-1.1.0-2.el9s
+- project: sshpass
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: sshpass-1.09-1.el9s
+- project: stevedore
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-stevedore-3.3.0-2.el9s
+- project: subunit
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: subunit-1.4.0-6.el9s
+- project: sympy
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: sympy-1.12-2.el9s
+- project: sysbench
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: sysbench-1.0.20-5.el9s
+- project: sysfsutils
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: sysfsutils-2.1.1-1.el9s
+- project: uwsgi
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: uwsgi-2.0.18-16.el9s
+- project: wyhash
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: wyhash-final1-4.el9s
+- project: xxhash
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: xxhash-0.8.1-1.el9s
+- project: yaml-cpp
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: yaml-cpp-0.6.3-4.el9s
+- project: zeromq
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: zeromq-4.3.4-1.el9s
