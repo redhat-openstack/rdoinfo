@@ -24,9 +24,11 @@ packages:
 - project: aodhclient
   tags:
     dalmatian:
+      source-branch: 3.6.0
 - project: automaton
   tags:
     dalmatian:
+      source-branch: 3.2.0
 - project: barbican
   tags:
     dalmatian:
@@ -36,15 +38,18 @@ packages:
 - project: barbicanclient
   tags:
     dalmatian:
+      source-branch: 7.0.0
 - project: castellan
   tags:
     dalmatian:
+      source-branch: 5.1.1
 - project: ceilometer
   tags:
     dalmatian:
 - project: ceilometermiddleware
   tags:
     dalmatian:
+      source-branch: 3.5.0
 - project: cinder
   tags:
     dalmatian:
@@ -54,9 +59,11 @@ packages:
 - project: cinderclient
   tags:
     dalmatian:
+      source-branch: 9.6.0
 - project: cliff
   tags:
     dalmatian:
+      source-branch: 4.7.0
 - project: cloudkitty
   tags:
     dalmatian:
@@ -66,15 +73,18 @@ packages:
 - project: cloudkittyclient
   tags:
     dalmatian:
+      source-branch: 5.2.0
 - project: collectd-gnocchi
   tags:
     dalmatian:
 - project: cursive
   tags:
     dalmatian:
+      source-branch: 0.2.3
 - project: debtcollector
   tags:
     dalmatian:
+      source-branch: 3.0.0
 - project: designate
   tags:
     dalmatian:
@@ -87,6 +97,7 @@ packages:
 - project: designateclient
   tags:
     dalmatian:
+      source-branch: 6.1.0
 - project: diskimage-builder
   tags:
     dalmatian:
@@ -99,6 +110,7 @@ packages:
 - project: futurist
   tags:
     dalmatian:
+      source-branch: 3.0.0
 - project: glance
   tags:
     dalmatian:
@@ -108,9 +120,11 @@ packages:
 - project: glance_store
   tags:
     dalmatian:
+      source-branch: 4.8.1
 - project: glanceclient
   tags:
     dalmatian:
+      source-branch: 4.7.0
 - project: glean
   tags:
     dalmatian:
@@ -121,6 +135,7 @@ packages:
 - project: gnocchiclient
   tags:
     dalmatian:
+      source-branch: 7.1.0
 - project: hacking
   tags:
     dalmatian:
@@ -145,9 +160,11 @@ packages:
   tags:
     dalmatian:
       component: common
+      source-branch: 3.1.0
 - project: heatclient
   tags:
     dalmatian:
+      source-branch: 4.0.0
 - project: horizon
   tags:
     dalmatian:
@@ -163,9 +180,11 @@ packages:
 - project: ironic-inspector-client
   tags:
     dalmatian:
+      source-branch: 5.2.0
 - project: ironic-lib
   tags:
     dalmatian:
+      source-branch: 6.2.0
 - project: ironic-prometheus-exporter
   tags:
     dalmatian:
@@ -187,6 +206,7 @@ packages:
 - project: ironicclient
   tags:
     dalmatian:
+      source-branch: 5.8.0
 - project: keystone
   tags:
     dalmatian:
@@ -196,12 +216,15 @@ packages:
 - project: keystoneauth1
   tags:
     dalmatian:
+      source-branch: 5.8.0
 - project: keystoneclient
   tags:
     dalmatian:
+      source-branch: 5.5.0
 - project: keystonemiddleware
   tags:
     dalmatian:
+      source-branch: 10.7.1
 - project: kolla
   tags:
     dalmatian:
@@ -227,6 +250,7 @@ packages:
 - project: magnumclient
   tags:
     dalmatian:
+      source-branch: 4.7.0
 - project: manila
   tags:
     dalmatian:
@@ -239,12 +263,15 @@ packages:
 - project: manilaclient
   tags:
     dalmatian:
+      source-branch: 5.0.0
 - project: metalsmith
   tags:
     dalmatian:
+      source-branch: 2.3.0
 - project: microversion-parse
   tags:
     dalmatian:
+      source-branch: 2.0.0
 - project: mistral
   tags:
     dalmatian:
@@ -260,15 +287,18 @@ packages:
   tags:
     dalmatian:
       component: common
+      source-branch: 3.0.0
 - project: mistral-tempest-plugin
   tags:
     dalmatian:
 - project: mistralclient
   tags:
     dalmatian:
+      source-branch: 5.3.0
 - project: monascaclient
   tags:
     dalmatian:
+      source-branch: 2.8.0
 - project: networking-ansible
   tags:
     dalmatian:
@@ -308,6 +338,7 @@ packages:
 - project: neutron-lib
   tags:
     dalmatian:
+      source-branch: 3.15.0
 - project: neutron-tempest-plugin
   tags:
     dalmatian:
@@ -317,15 +348,18 @@ packages:
 - project: neutronclient
   tags:
     dalmatian:
+      source-branch: 11.3.1
 - project: nova
   tags:
     dalmatian:
 - project: novaclient
   tags:
     dalmatian:
+      source-branch: 18.7.0
 - project: observabilityclient
   tags:
     dalmatian:
+      source-branch: 0.3.0
 - project: octavia
   tags:
     dalmatian:
@@ -335,12 +369,14 @@ packages:
 - project: octavia-lib
   tags:
     dalmatian:
+      source-branch: 3.6.0
 - project: octavia-tempest-plugin
   tags:
     dalmatian:
 - project: octaviaclient
   tags:
     dalmatian:
+      source-branch: 3.8.0
 - project: openstack-macros
   tags:
     dalmatian:
@@ -350,9 +386,11 @@ packages:
 - project: openstackclient
   tags:
     dalmatian:
+      source-branch: 7.1.2
 - project: openstacksdk
   tags:
     dalmatian:
+      source-branch: 4.0.0
 - project: os-apply-config
   tags:
     dalmatian:
@@ -360,10 +398,12 @@ packages:
 - project: os-brick
   tags:
     dalmatian:
+      source-branch: 6.9.0
 - project: os-client-config
   tags:
     dalmatian:
       component: clients
+      source-branch: 2.1.0
 - project: os-collect-config
   tags:
     dalmatian:
@@ -377,6 +417,7 @@ packages:
 - project: os-ken
   tags:
     dalmatian:
+      source-branch: 2.10.0
 - project: os-net-config
   tags:
     dalmatian:
@@ -388,96 +429,127 @@ packages:
 - project: os-resource-classes
   tags:
     dalmatian:
+      source-branch: 1.1.0
 - project: os-service-types
   tags:
     dalmatian:
+      source-branch: 1.7.0
 - project: os-testr
   tags:
     dalmatian:
+      source-branch: 3.0.0
 - project: os-traits
   tags:
     dalmatian:
+      source-branch: 3.1.0
 - project: os-vif
   tags:
     dalmatian:
+      source-branch: 3.7.0
 - project: os-win
   tags:
     dalmatian:
+      source-branch: 5.9.0
 - project: osc-lib
   tags:
     dalmatian:
+      source-branch: 3.1.0
 - project: osc-placement
   tags:
     dalmatian:
+      source-branch: 4.5.0
 - project: oslo-cache
   tags:
     dalmatian:
+      source-branch: 3.8.0
 - project: oslo-concurrency
   tags:
     dalmatian:
+      source-branch: 6.1.0
 - project: oslo-config
   tags:
     dalmatian:
+      source-branch: 9.6.0
 - project: oslo-context
   tags:
     dalmatian:
+      source-branch: 5.6.0
 - project: oslo-db
   tags:
     dalmatian:
+      source-branch: 16.0.0
 - project: oslo-i18n
   tags:
     dalmatian:
+      source-branch: 6.4.0
 - project: oslo-limit
   tags:
     dalmatian:
+      source-branch: 2.5.0
 - project: oslo-log
   tags:
     dalmatian:
+      source-branch: 6.1.2
 - project: oslo-messaging
   tags:
     dalmatian:
+      source-branch: 14.9.0
 - project: oslo-metrics
   tags:
     dalmatian:
+      source-branch: 0.9.0
 - project: oslo-middleware
   tags:
     dalmatian:
+      source-branch: 6.2.0
 - project: oslo-policy
   tags:
     dalmatian:
+      source-branch: 4.4.0
 - project: oslo-privsep
   tags:
     dalmatian:
+      source-branch: 3.4.0
 - project: oslo-reports
   tags:
     dalmatian:
+      source-branch: 3.4.0
 - project: oslo-rootwrap
   tags:
     dalmatian:
+      source-branch: 7.3.0
 - project: oslo-serialization
   tags:
     dalmatian:
+      source-branch: 5.5.0
 - project: oslo-service
   tags:
     dalmatian:
+      source-branch: 3.5.0
 - project: oslo-upgradecheck
   tags:
     dalmatian:
+      source-branch: 2.4.0
 - project: oslo-utils
   tags:
     dalmatian:
+      source-branch: 7.3.0
 - project: oslo-versionedobjects
   tags:
     dalmatian:
+      source-branch: 3.4.0
 - project: oslo-vmware
   tags:
     dalmatian:
+      source-branch: 4.5.0
 - project: oslotest
   tags:
     dalmatian:
+      source-branch: 5.0.0
 - project: osprofiler
   tags:
     dalmatian:
+      source-branch: 4.2.0
 - project: ovn-bgp-agent
   tags:
     dalmatian:
@@ -487,6 +559,7 @@ packages:
 - project: ovsdbapp
   tags:
     dalmatian:
+      source-branch: 2.8.0
 - project: packstack
   tags:
     dalmatian:
@@ -708,6 +781,7 @@ packages:
 - project: pycadf
   tags:
     dalmatian:
+      source-branch: 3.1.1
 - project: rally
   tags:
     dalmatian:
@@ -717,12 +791,15 @@ packages:
 - project: reno
   tags:
     dalmatian:
+      source-branch: 4.1.0
 - project: requestsexceptions
   tags:
     dalmatian:
+      source-branch: 1.4.0
 - project: rsd-lib
   tags:
     dalmatian:
+      source-branch: 1.2.0
 - project: rsdclient
   tags:
     dalmatian:
@@ -732,12 +809,15 @@ packages:
 - project: sphinx-feature-classification
   tags:
     dalmatian:
+      source-branch: 2.0.0
 - project: stevedore
   tags:
     dalmatian:
+      source-branch: 5.3.0
 - project: sushy
   tags:
     dalmatian:
+      source-branch: 5.2.0
 - project: sushy-oem-idrac
   tags:
     dalmatian:
@@ -750,18 +830,21 @@ packages:
 - project: swiftclient
   tags:
     dalmatian:
+      source-branch: 4.6.0
 - project: tacker
   tags:
     dalmatian:
 - project: tackerclient
   tags:
     dalmatian:
+      source-branch: 2.1.0
 - project: tap-as-a-service
   tags:
     dalmatian:
 - project: taskflow
   tags:
     dalmatian:
+      source-branch: 5.9.1
 - project: tcib
   tags:
     dalmatian:
@@ -780,6 +863,7 @@ packages:
 - project: tooz
   tags:
     dalmatian:
+      source-branch: 6.3.0
 - project: trove
   tags:
     dalmatian:
@@ -792,9 +876,11 @@ packages:
 - project: troveclient
   tags:
     dalmatian:
+      source-branch: 8.6.0
 - project: virtualbmc
   tags:
     dalmatian:
+      source-branch: 3.1.0
 - project: vitrage
   tags:
     dalmatian:
@@ -807,6 +893,7 @@ packages:
 - project: vitrageclient
   tags:
     dalmatian:
+      source-branch: 5.1.1
 - project: watcher
   tags:
     dalmatian:
@@ -832,3 +919,4 @@ packages:
 - project: zaqarclient
   tags:
     dalmatian:
+      source-branch: 2.8.0
