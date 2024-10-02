@@ -948,10 +948,12 @@ packages:
   component: compute
   maintainers:
   - alifshit@redhat.com
+  - ltoscano@redhat.com
 - project: cyborg-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-cyborg-tests-tempest
   maintainers:
+  - ltoscano@redhat.com
   - smooney@redhat.com
   component: compute
 - project: neutron-tempest-plugin
@@ -965,6 +967,7 @@ packages:
   - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
+  - ltoscano@redhat.com
   - twilson@redhat.com
 - project: whitebox-neutron-tempest-plugin
   conf: rpmfactory-tempest-plugin
@@ -975,6 +978,7 @@ packages:
   - alex.katz.post@gmail.com
   - eolivare@redhat.com
   - mblue@redhat.com
+  - ltoscano@redhat.com
   - rsafrono@redhat.com
   - skaplons@redhat.com
 - project: neutron-fwaas
@@ -1027,6 +1031,7 @@ packages:
   maintainers:
   - nate.johnston@redhat.com
   - johnsomor@gmail.com
+  - ltoscano@redhat.com
   - amoralej@redhat.com
 - project: octavia
   conf: rpmfactory-core
@@ -1074,6 +1079,7 @@ packages:
   - bcafarel@redhat.com
   - gthiemon@redhat.com
   - johnsomor@gmail.com
+  - ltoscano@redhat.com
 - project: watcher
   conf: rpmfactory-core
   maintainers:
@@ -1296,6 +1302,7 @@ packages:
   name: python-oswin-tests-tempest
   maintainers:
   - mkopec@redhat.com
+  - ltoscano@redhat.com
 - project: os-xenapi
   conf: rpmfactory-lib
   maintainers:
@@ -2012,6 +2019,8 @@ packages:
   conf: rpmfactory-tempest-plugin
   name: python-horizon-tests-tempest
   component: ui
+  maintainers:
+  - ltoscano@redhat.com
 - project: os-vif
   conf: rpmfactory-lib
   component: clients
@@ -2096,6 +2105,7 @@ packages:
   component: network
   upstream: https://opendev.org/x/%(project)s
   maintainers:
+  - ltoscano@redhat.com
   - rnoriega@redhat.com
 - project: heat-translator
   name: python-heat-translator
@@ -2222,6 +2232,7 @@ packages:
   maintainers:
   - asegurap@redhat.com
   - dmellado@redhat.com
+  - ltoscano@redhat.com
   - luis5tb@gmail.com
   - mdulko@redhat.com
   - itzikb@redhat.com
@@ -2279,6 +2290,7 @@ packages:
   - cdwilde@gmail.com
   - xek@redhat.com
   - dmendiza@redhat.com
+  - ltoscano@redhat.com
 - project: senlin
   conf: rpmfactory-core
   name: openstack-senlin
@@ -2310,6 +2322,7 @@ packages:
   maintainers:
   - alee@redhat.com
   - dmendiza@redhat.com
+  - ltoscano@redhat.com
   - xek@redhat.com
 - project: vmware-nsx-tempest-plugin
   conf: rpmfactory-tempest-plugin
@@ -2318,6 +2331,7 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - liujiong63@163.com
+  - ltoscano@redhat.com
 - project: karbor-dashboard
   name: openstack-karbor-ui
   conf: rpmfactory-core
@@ -2327,6 +2341,8 @@ packages:
 - project: watcher-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-watcher-tests-tempest
+  maintainers:
+  - ltoscano@redhat.com
 - project: novajoin-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-novajoin-tests-tempest
@@ -2335,6 +2351,7 @@ packages:
   - alee@redhat.com
   - xek@redhat.com
   - panbalag@redhat.com
+  - ltoscano@redhat.com
 - project: openstack-macros
   conf: rpm-packaging
   upstream: https://github.com/javierpena/openstack-macros
@@ -2351,6 +2368,7 @@ packages:
   name: python-zaqar-tests-tempest
   maintainers:
   - therve@redhat.com
+  - ltoscano@redhat.com
 - project: rsd-lib
   conf: rpmfactory-lib
   component: clients
@@ -2367,11 +2385,13 @@ packages:
   name: python-heat-tests-tempest
   maintainers:
   - ramishra@redhat.com
+  - ltoscano@redhat.com
 - project: murano-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-murano-tests-tempest
   maintainers:
   - ykarel@redhat.com
+  - ltoscano@redhat.com
 - project: tripleo-ipsec
   conf: rpmfactory-lib
   name: ansible-tripleo-ipsec
@@ -2392,6 +2412,7 @@ packages:
   name: python-mistral-tests-tempest
   maintainers:
   - dougal@redhat.com
+  - ltoscano@redhat.com
 - project: tripleo-common-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-tripleo-common-tests-tempest
@@ -2399,23 +2420,31 @@ packages:
 - project: manila-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-manila-tests-tempest
+  maintainers:
+  - ltoscano@redhat.com
   component: manila
 - project: magnum-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-magnum-tests-tempest
   maintainers:
+  - ltoscano@redhat.com
   - ykarel@redhat.com
 - project: vitrage-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-vitrage-tests-tempest
   maintainers:
   - eyal.bar-ilan@nokia.com
+  - ltoscano@redhat.com
 - project: trove-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-trove-tests-tempest
+  maintainers:
+  - ltoscano@redhat.com
 - project: telemetry-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-telemetry-tests-tempest
+  maintainers:
+  - ltoscano@redhat.com
 - project: cinder-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-cinder-tests-tempest
@@ -2424,6 +2453,7 @@ packages:
   - abishop@redhat.com
   - eharney@redhat.com
   - geguileo@redhat.com
+  - ltoscano@redhat.com
   - rajatdhasmana@gmail.com
   - rosmaita.fossdev@gmail.com
 - project: ironic-tempest-plugin
@@ -2435,6 +2465,7 @@ packages:
   - elfosardo@gmail.com
   - iurygregory@gmail.com
   - jkreger@gmail.com
+  - ltoscano@redhat.com
   - harald.jensas@gmail.com
   - sbaker@redhat.com
 - project: glance-tempest-plugin
@@ -2443,14 +2474,19 @@ packages:
   name: python-glance-tests-tempest
   component: glance
   maintainers:
+  - ltoscano@redhat.com
   - pdeore@redhat.com
 - project: ec2api-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-ec2api-tests-tempest
   component: compute
+  maintainers:
+  - ltoscano@redhat.com
 - project: congress-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-congress-tests-tempest
+  maintainers:
+  - ltoscano@redhat.com
 - project: tap-as-a-service
   conf: rpmfactory-lib
   component: network
