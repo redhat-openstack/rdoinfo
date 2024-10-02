@@ -47,7 +47,9 @@ packages:
 - project: oslo-reports
   tags:
     version-locked:
-      dalmatian-uc:
+      epoxy-uc:
+      epoxy:
+      dalmatian:
 # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
 - project: tap-as-a-service
   tags:
