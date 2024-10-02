@@ -44,10 +44,13 @@ packages:
     version-locked:
 # we temporary lock oslo-reports pin update until new release is issued
 # https://review.rdoproject.org/r/c/rdoinfo/+/54341
+# https://review.opendev.org/c/openstack/releases/+/931140
 - project: oslo-reports
   tags:
     version-locked:
-      dalmatian-uc:
+      epoxy-uc:
+      epoxy:
+      dalmatian:
 # FIXME(jpena) unlock once a version > 3.0.0 is in upper-constraints.txt
 - project: tap-as-a-service
   tags:
