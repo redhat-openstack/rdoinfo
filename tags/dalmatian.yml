@@ -2,16 +2,19 @@ packages:
 - project: ansible-collections-openstack
   tags:
     dalmatian:
+      source-branch: 032a5222c1861c3146c85a8b977cd348713c080d
 - project: ansible-config_template
   tags:
     dalmatian:
       component: podified
+      source-branch: 931f6aa32da32fb081f84b3f93239e165e5048b7
 - project: ansible-role-atos-hsm
   tags:
     dalmatian:
 - project: ansible-role-collectd-config
   tags:
     dalmatian:
+      source-branch: 1992666dad0fd24f7a013cdee7fcae428b94b9d7
 - project: ansible-role-lunasa-hsm
   tags:
     dalmatian:
@@ -79,6 +82,7 @@ packages:
 - project: collectd-gnocchi
   tags:
     dalmatian:
+      source-branch: de115a710d45074f4cfb4b1a18fc565d165d72ff
 - project: cursive
   tags:
     dalmatian:
@@ -104,9 +108,11 @@ packages:
 - project: diskimage-builder
   tags:
     dalmatian:
+      source-branch: master
 - project: dracclient
   tags:
     dalmatian:
+      source-branch: da7647f98429548f3269cfc4ee72d36ce28eea8f
 - project: edpm-image-builder
   tags:
     dalmatian:
@@ -132,6 +138,7 @@ packages:
 - project: glean
   tags:
     dalmatian:
+      source-branch: master
 - project: gnocchi
   tags:
     dalmatian:
@@ -147,6 +154,7 @@ packages:
 - project: hardware
   tags:
     dalmatian:
+      source-branch: master
 - project: heat
   tags:
     dalmatian:
@@ -177,6 +185,7 @@ packages:
 - project: ibmcclient
   tags:
     dalmatian:
+      source-branch: 8d8cfe9efcb502bafded943dd61a0e45c1860227
 - project: ironic
   tags:
     dalmatian:
@@ -203,6 +212,7 @@ packages:
 - project: ironic-staging-drivers
   tags:
     dalmatian:
+      source-branch: 3a71aaf0bfbcbdb62d15a6169799aa316155fe4c
 - project: ironic-tempest-plugin
   tags:
     dalmatian:
@@ -237,12 +247,16 @@ packages:
   tags:
     dalmatian:
       component: common
+      # TODO(jcapitao): remove line below once stable/2024.2 branch created
+      source-branch: master
 - project: kuryr
   tags:
     dalmatian:
 - project: kuryr-kubernetes
   tags:
     dalmatian:
+      # TODO(jcapitao): remove line below once stable/2024.2 branch created
+      source-branch: master
 - project: kuryr-tempest-plugin
   tags:
     dalmatian:
@@ -314,9 +328,11 @@ packages:
 - project: networking-ansible
   tags:
     dalmatian:
+      source-branch: b82d3496220f10151df1e3d5fc1d3ae77294be99
 - project: networking-arista
   tags:
     dalmatian:
+      source-branch: a07135258f3ff00fb819ab330284cd9fbd20f97d
 - project: networking-bagpipe
   tags:
     dalmatian:
@@ -332,6 +348,7 @@ packages:
 - project: networking-l2gw
   tags:
     dalmatian:
+      source-branch: 99cbbe907455355f3a8f5bb1b62b365fc71f2074
 - project: networking-l2gw-tempest-plugin
   tags:
     dalmatian:
@@ -339,6 +356,7 @@ packages:
 - project: networking-mlnx
   tags:
     dalmatian:
+      source-branch: 0a69b9715505f21fe7cca8c408c42b618d2e72d7
 - project: networking-sfc
   tags:
     dalmatian:
@@ -399,6 +417,7 @@ packages:
 - project: openstack-selinux
   tags:
     dalmatian:
+      source-branch: master
 - project: openstackclient
   tags:
     dalmatian:
@@ -411,6 +430,7 @@ packages:
   tags:
     dalmatian:
       component: common
+      source-branch: master
 - project: os-brick
   tags:
     dalmatian:
@@ -424,12 +444,14 @@ packages:
   tags:
     dalmatian:
       component: common
+      source-branch: master
 - project: os-diff
   tags:
     dalmatian:
 - project: os-faults
   tags:
     dalmatian:
+      source-branch: 113ba244f8d085319330f427d262218455564fe7
 - project: os-ken
   tags:
     dalmatian:
@@ -438,10 +460,12 @@ packages:
   tags:
     dalmatian:
       component: common
+      source-branch: master
 - project: os-refresh-config
   tags:
     dalmatian:
       component: common
+      source-branch: master
 - project: os-resource-classes
   tags:
     dalmatian:
@@ -613,6 +637,7 @@ packages:
   tags:
     dalmatian:
       component: puppet
+      source-branch: master
 - project: puppet-cinder
   tags:
     dalmatian:
@@ -814,9 +839,11 @@ packages:
 - project: rally
   tags:
     dalmatian:
+      source-branch: 4e7a4e54142e134fc6e88a66014a1f36005d3c79
 - project: rally-openstack
   tags:
     dalmatian:
+      source-branch: 85e56595d39b5c44f51db0945f84565cd703a6c0
 - project: reno
   tags:
     dalmatian:
@@ -852,9 +879,11 @@ packages:
 - project: sushy-oem-idrac
   tags:
     dalmatian:
+      source-branch: 585703a22c8bb93064286ed7f7127c3bcb294540
 - project: sushy-tools
   tags:
     dalmatian:
+      source-branch: master
 - project: swift
   tags:
     dalmatian:
@@ -890,9 +919,11 @@ packages:
 - project: tempestconf
   tags:
     dalmatian:
+      source-branch: master
 - project: tobiko
   tags:
     dalmatian:
+      source-branch: 576859757d26d0b04ee971304d511caa68dda10a
 - project: tooz
   tags:
     dalmatian:
