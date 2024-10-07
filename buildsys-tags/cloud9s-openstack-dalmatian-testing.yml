@@ -647,6 +647,9 @@ packages:
 - project: puppet-ceilometer
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: puppet-ceilometer-25.0.0-1.el9s
+- project: puppet-ceph
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-testing: puppet-ceph-6.0.0-1.el9s
 - project: puppet-cinder
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: puppet-cinder-25.0.0-1.el9s
