@@ -1,0 +1,1963 @@
+packages:
+- project: GitPython
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: GitPython-3.1.43-1.el9s
+- project: abseil-cpp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: abseil-cpp-20210324.2-2.el9s
+- project: ansible-collection-ansible-netcommon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-collection-ansible-netcommon-4.1.0-2.el9s
+- project: ansible-collection-ansible-posix
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-collection-ansible-posix-1.5.1-1.el9s
+- project: ansible-collection-ansible-utils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-collection-ansible-utils-2.9.0-1.el9s
+- project: ansible-collection-community-general
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-collection-community-general-6.4.0-1.el9s
+- project: ansible-collection-containers-podman
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-collection-containers-podman-1.10.1-2.el9s
+- project: ansible-collections-openstack
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-collections-openstack-2.2.0-1.el9s
+- project: ansible-config_template
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-config_template-2.1.1-1.el9s
+- project: ansible-core
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ansible-core-2.14.2-4.1.el9s
+- project: ansible-role-atos-hsm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-role-atos-hsm-8.0.0-1.el9s
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-role-collectd-config-0.0.2-1.el9s
+- project: ansible-role-lunasa-hsm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-role-lunasa-hsm-8.0.0-1.el9s
+- project: ansible-role-thales-hsm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ansible-role-thales-hsm-8.0.0-1.el9s
+- project: aodh
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-aodh-19.0.0-1.el9s
+- project: aodhclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-aodhclient-3.6.0-1.el9s
+- project: argon2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: argon2-20171227-7.el9s
+- project: automaton
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-automaton-3.2.0-1.el9s
+- project: barbican
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-barbican-19.0.0-1.el9s
+- project: barbican-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-barbican-tests-tempest-4.1.0-1.el9s
+- project: barbicanclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-barbicanclient-7.0.0-1.el9s
+- project: blosc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: blosc-1.21.0-1.el9s
+- project: bridge-utils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: bridge-utils-1.7.1-2.el9s
+- project: castellan
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-castellan-5.1.1-1.el9s
+- project: catch1
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: catch1-1.12.2-8.el9s
+- project: ceilometer
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ceilometer-23.0.0-1.el9s
+- project: ceilometermiddleware
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ceilometermiddleware-3.5.0-1.el9s
+- project: cinder
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-cinder-25.0.0-1.el9s
+- project: cinder-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cinder-tests-tempest-1.14.0-4.el9s
+- project: cinderclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cinderclient-9.6.0-1.el9s
+- project: ck
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ck-0.7.0-5.el9s
+- project: cliff
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cliff-4.7.0-1.el9s
+- project: cloudkitty
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-cloudkitty-21.0.0-1.el9s
+- project: cloudkitty-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-cloudkitty-ui-19.0.0-1.el9s
+- project: cloudkittyclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cloudkittyclient-5.2.0-1.el9s
+- project: collectd-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-collectd-gnocchi-1.7.1-2.el9s
+- project: cpp-hocon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: cpp-hocon-0.3.0-4.el9s
+- project: cppunit
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: cppunit-1.15.1-5.el9s
+- project: crudini
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: crudini-0.9.3-4.el9s
+- project: cursive
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cursive-0.2.3-2.el9s
+- project: debtcollector
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-debtcollector-3.0.0-1.el9s
+- project: designate
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-designate-19.0.0-1.el9s
+- project: designate-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-designate-ui-19.0.0-1.el9s
+- project: designate-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-designate-tests-tempest-0.23.0-1.el9s
+- project: designateclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-designateclient-6.1.0-1.el9s
+- project: dibbler
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: dibbler-1.0.1-11.el9s
+- project: diskimage-builder
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: diskimage-builder-3.34.0-1.el9s
+- project: dracclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-dracclient-8.0.0-2.el9s
+- project: dumb-init
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: dumb-init-1.2.5-2.el9s
+- project: edpm-image-builder
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: edpm-image-builder-0.1.0-1.el9s
+- project: etcd
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: etcd-3.4.14-1.el9s
+- project: facter
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: facter-4.2.10-3.el9s
+- project: future
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: future-0.18.2-9.el9s
+- project: futurist
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-futurist-3.0.0-1.el9s
+- project: gflags
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: gflags-2.2.2-8.el9s
+- project: glance
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-glance-29.0.0-1.el9s
+- project: glance-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-glance-tests-tempest-0.10.0-1.el9s
+- project: glance_store
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-glance-store-4.8.1-1.el9s
+- project: glanceclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-glanceclient-4.7.0-1.el9s
+- project: glean
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-glean-1.24.0-1.el9s
+- project: gnocchi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: gnocchi-4.6.4-1.el9s
+- project: gnocchiclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-gnocchiclient-7.1.0-1.el9s
+- project: golang-github-vbatts-tar-split
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: golang-github-vbatts-tar-split-0.11.2-1.el9s
+- project: google-api-python-client
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: google-api-python-client-2.58.0-1.el9s
+- project: google-auth-httplib2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: google-auth-httplib2-0.1.0-2.el9s
+- project: gperftools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: gperftools-2.9.1-1.el9s
+- project: grpc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: grpc-1.41.1-6.el9s
+- project: gtest
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: gtest-1.11.0-1.el9s
+- project: gv
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: gv-3.7.4-27.el9s
+- project: hacking
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-hacking-7.0.0-1.el9s
+- project: hardware
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-hardware-0.31.0-1.el9s
+- project: hdf5
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: hdf5-1.10.6-5.el9s
+- project: heat
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-heat-23.0.0-1.el9s
+- project: heat-agents
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-heat-agents-9.0.0-1.el9s
+- project: heat-cfntools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: heat-cfntools-1.4.2-15.el9s
+- project: heat-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-heat-ui-12.0.0-1.el9s
+- project: heat-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-heat-tests-tempest-2.3.0-1.el9s
+- project: heat-translator
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-heat-translator-3.1.0-1.el9s
+- project: heatclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-heatclient-4.0.0-1.el9s
+- project: hiera
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: hiera-3.7.0-2.el9s
+- project: horizon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-horizon-25.1.0-1.el9s
+- project: ibmcclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ibmcclient-0.2.5.1-2.el9s
+- project: inotify-tools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: inotify-tools-4.23.9.0-2.el9s
+- project: ironic
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ironic-26.1.1-1.el9s
+- project: ironic-inspector
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ironic-inspector-12.3.0-1.el9s
+- project: ironic-inspector-client
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ironic-inspector-client-5.2.0-1.el9s
+- project: ironic-lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ironic-lib-6.2.0-1.el9s
+- project: ironic-prometheus-exporter
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ironic-prometheus-exporter-4.4.0-1.el9s
+- project: ironic-python-agent
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ironic-python-agent-9.14.0-1.el9s
+- project: ironic-python-agent-builder
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ironic-python-agent-builder-5.4.0-1.el9s
+- project: ironic-staging-drivers
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ironic-staging-drivers-0.17.0-1.el9s
+- project: ironic-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ironic-tests-tempest-2.11.0-1.el9s
+- project: ironic-ui
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-ironic-ui-6.4.0-1.el9s
+- project: ironicclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ironicclient-5.8.0-1.el9s
+- project: jsoncpp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: jsoncpp-1.9.4-4.el9s
+- project: keystone
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-keystone-26.0.0-1.el9s
+- project: keystone-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-keystone-tests-tempest-0.17.0-1.el9s
+- project: keystoneauth1
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-keystoneauth1-5.8.0-1.el9s
+- project: keystoneclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-keystoneclient-5.5.0-1.el9s
+- project: keystonemiddleware
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-keystonemiddleware-10.7.1-1.el9s
+- project: kuryr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kuryr-lib-3.1.0-1.el9s
+- project: kuryr-kubernetes
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-kuryr-kubernetes-10.0.0-1.el9s
+- project: kuryr-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kuryr-tests-tempest-0.16.0-1.el9s
+- project: leatherman
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: leatherman-1.12.6-3.el9s
+- project: libaec
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libaec-1.0.4-7.el9s
+- project: liberasurecode
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: liberasurecode-1.6.2-2.el9s
+- project: libev
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libev-4.33-3.el9s
+- project: libimagequant
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libimagequant-2.14.1-1.el9s
+- project: libraqm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libraqm-0.7.0-7.el9s
+- project: libsodium
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libsodium-1.0.18-7.el9s
+- project: libtomcrypt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libtomcrypt-1.18.2-12.el9s
+- project: libtommath
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libtommath-1.2.0-3.el9s
+- project: libunwind
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libunwind-1.4.0-5.el9s
+- project: libwebsockets
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: libwebsockets-4.3.0-1.el9s
+- project: llhttp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: llhttp-9.2.1-1.el9s
+- project: luajit
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: luajit-2.1.1692716794-3.el9s
+- project: magnum
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-magnum-19.0.0-1.el9s
+- project: magnum-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-magnum-tests-tempest-2.5.0-1.el9s
+- project: magnum-ui
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-magnum-ui-15.0.0-1.el9s
+- project: magnumclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-magnumclient-4.7.0-1.el9s
+- project: manila
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-manila-19.0.0-1.el9s
+- project: manila-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-manila-tests-tempest-2.5.0-1.el9s
+- project: manila-ui
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-manila-ui-12.0.0-1.el9s
+- project: manilaclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-manilaclient-5.0.0-1.el9s
+- project: metalsmith
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-metalsmith-2.3.0-1.el9s
+- project: microversion-parse
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-microversion-parse-2.0.0-1.el9s
+- project: mistral
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-mistral-19.0.0-1.el9s
+- project: mistral-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-mistral-ui-19.0.0-1.el9s
+- project: mistral-extra
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mistral-extra-13.3.0-1.el9s
+- project: mistral-lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mistral-lib-3.0.0-1.el9s
+- project: mistral-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mistral-tests-tempest-2.4.0-1.el9s
+- project: mistralclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mistralclient-5.3.0-1.el9s
+- project: monascaclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-monascaclient-2.8.0-1.el9s
+- project: networking-ansible
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-ansible-5.0.0-1.el9s
+- project: networking-arista
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-arista-2023.1.0-2.el9s
+- project: networking-bagpipe
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-bagpipe-21.0.0-1.el9s
+- project: networking-baremetal
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-baremetal-6.4.0-1.el9s
+- project: networking-bgpvpn
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-bgpvpn-21.0.0-1.el9s
+- project: networking-generic-switch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-generic-switch-7.4.0-1.el9s
+- project: networking-l2gw
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-l2gw-20.0.0-1.el9s
+- project: networking-l2gw-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-l2gw-tests-tempest-0.1.0-4.82e3d07git.el9s
+- project: networking-mlnx
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-mlnx-21.0.0-1.el9s
+- project: networking-sfc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-networking-sfc-19.0.0-0.1.0rc1.el9s
+- project: neutron
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-neutron-25.0.0-2.el9s
+- project: neutron-dynamic-routing
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-neutron-dynamic-routing-25.0.0-1.el9s
+- project: neutron-lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-neutron-lib-3.15.0-1.el9s
+- project: neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-neutron-tests-tempest-2.9.0-1.el9s
+- project: neutron-vpnaas
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-neutron-vpnaas-25.0.0-1.el9s
+- project: neutronclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-neutronclient-11.3.1-1.el9s
+- project: nova
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-nova-30.0.0-1.el9s
+- project: novaclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-novaclient-18.7.0-1.el9s
+- project: novnc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: novnc-1.3.0-1.el9s
+- project: observabilityclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-observabilityclient-0.3.0-1.el9s
+- project: octavia
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-octavia-15.0.0-1.el9s
+- project: octavia-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-octavia-ui-14.0.0-1.el9s
+- project: octavia-lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-octavia-lib-3.6.0-1.el9s
+- project: octavia-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-octavia-tests-tempest-2.8.0-1.el9s
+- project: octaviaclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-octaviaclient-3.8.0-1.el9s
+- project: openpgm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openpgm-5.2.122-26.el9s
+- project: openstack-network-scripts
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-network-scripts-10.11.1-6.el9s
+- project: openstack-selinux
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-selinux-0.8.40-1.el9s
+- project: openstackclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-openstackclient-7.1.2-3.el9s
+- project: openstacksdk
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-openstacksdk-4.0.0-1.el9s
+- project: os-apply-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: os-apply-config-14.0.0-1.el9s
+- project: os-brick
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-brick-6.9.0-1.el9s
+- project: os-client-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-client-config-2.1.0-3.el9s
+- project: os-collect-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: os-collect-config-14.0.0-1.el9s
+- project: os-faults
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-faults-0.2.7-2.el9s
+- project: os-ken
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-ken-2.10.0-1.el9s
+- project: os-net-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: os-net-config-18.0.0-1.el9s
+- project: os-refresh-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: os-refresh-config-14.0.0-1.el9s
+- project: os-resource-classes
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-resource-classes-1.1.0-2.el9s
+- project: os-service-types
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-service-types-1.7.0-4.el9s
+- project: os-testr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-testr-3.0.0-2.el9s
+- project: os-traits
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-traits-3.1.0-1.el9s
+- project: os-vif
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-vif-3.7.0-1.el9s
+- project: os-win
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-os-win-5.9.0-2.el9s
+- project: osc-lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-osc-lib-3.1.0-1.el9s
+- project: osc-placement
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-osc-placement-4.5.0-1.el9s
+- project: oslo-cache
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-cache-3.8.0-1.el9s
+- project: oslo-concurrency
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-concurrency-6.1.0-1.el9s
+- project: oslo-config
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-config-9.6.0-1.el9s
+- project: oslo-context
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-context-5.6.0-1.el9s
+- project: oslo-db
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-db-16.0.0-1.el9s
+- project: oslo-i18n
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-i18n-6.4.0-1.el9s
+- project: oslo-limit
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-limit-2.5.0-1.el9s
+- project: oslo-log
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-log-6.1.2-1.el9s
+- project: oslo-messaging
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-messaging-14.9.0-1.el9s
+- project: oslo-metrics
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-metrics-0.9.0-1.el9s
+- project: oslo-middleware
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-middleware-6.2.0-1.el9s
+- project: oslo-policy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-policy-4.4.0-1.el9s
+- project: oslo-privsep
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-privsep-3.4.0-1.el9s
+- project: oslo-reports
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-reports-3.4.0-1.el9s
+- project: oslo-rootwrap
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-rootwrap-7.3.0-1.el9s
+- project: oslo-serialization
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-serialization-5.5.0-1.el9s
+- project: oslo-service
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-service-3.5.0-1.el9s
+- project: oslo-sphinx
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-sphinx-4.18.0-11.el9s
+- project: oslo-upgradecheck
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-upgradecheck-2.4.0-1.el9s
+- project: oslo-utils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-utils-7.3.0-1.el9s
+- project: oslo-versionedobjects
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-versionedobjects-3.4.0-1.el9s
+- project: oslo-vmware
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslo-vmware-4.5.0-1.el9s
+- project: oslotest
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-oslotest-5.0.0-1.el9s
+- project: osprofiler
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-osprofiler-4.2.0-1.el9s
+- project: ovn-bgp-agent
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ovn-bgp-agent-3.0.0-1.el9s
+- project: ovn-octavia-provider
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ovn-octavia-provider-7.0.0-1.el9s
+- project: ovsdbapp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ovsdbapp-2.8.0-1.el9s
+- project: packstack
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-packstack-25.0.0-0.1.0rc1.el9s
+- project: placement
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-placement-12.0.0-1.el9s
+- project: proliantutils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-proliantutils-2.16.3-1.el9s
+- project: protobuf
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: protobuf-3.19.0-2.el9s
+- project: puppet
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-7.27.0-1.el9s
+- project: puppet-aodh
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-aodh-25.0.0-1.el9s
+- project: puppet-apache
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-apache-12.1.0-1.el9s
+- project: puppet-archive
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-archive-7.1.0-1.el9s
+- project: puppet-barbican
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-barbican-25.0.0-1.el9s
+- project: puppet-ceilometer
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-ceilometer-25.0.0-1.el9s
+- project: puppet-ceph
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-ceph-6.0.0-1.el9s
+- project: puppet-cinder
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-cinder-25.0.0-1.el9s
+- project: puppet-concat
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-concat-9.0.2-1.el9s
+- project: puppet-designate
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-designate-25.0.0-1.el9s
+- project: puppet-dns
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-dns-11.0.0-1.el9s
+- project: puppet-firewall
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-firewall-8.0.3-1.el9s
+- project: puppet-glance
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-glance-25.0.0-1.el9s
+- project: puppet-gnocchi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-gnocchi-25.0.0-1.el9s
+- project: puppet-heat
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-heat-25.0.0-1.el9s
+- project: puppet-horizon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-horizon-25.0.0-1.el9s
+- project: puppet-inifile
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-inifile-6.1.1-1.el9s
+- project: puppet-ironic
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-ironic-25.0.0-1.el9s
+- project: puppet-keystone
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-keystone-25.0.0-1.el9s
+- project: puppet-kmod
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-kmod-4.0.1-1.el9s
+- project: puppet-magnum
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-magnum-25.0.0-1.el9s
+- project: puppet-manila
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-manila-25.0.0-1.el9s
+- project: puppet-memcached
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-memcached-9.0.0-1.el9s
+- project: puppet-mistral
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-mistral-25.0.0-1.el9s
+- project: puppet-mysql
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-mysql-16.0.0-1.el9s
+- project: puppet-neutron
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-neutron-25.0.0-1.el9s
+- project: puppet-nova
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-nova-25.0.0-1.el9s
+- project: puppet-nssdb
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
+- project: puppet-octavia
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-octavia-25.0.0-1.el9s
+- project: puppet-openstack_extras
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-openstack_extras-25.0.0-1.el9s
+- project: puppet-openstacklib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-openstacklib-25.0.0-1.el9s
+- project: puppet-oslo
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-oslo-25.0.0-1.el9s
+- project: puppet-ovn
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-ovn-25.0.0-1.el9s
+- project: puppet-placement
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-placement-12.0.0-1.el9s
+- project: puppet-rabbitmq
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-rabbitmq-13.7.0-1.el9s
+- project: puppet-redis
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-redis-11.0.0-1.el9s
+- project: puppet-remote
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-remote-10.0.0-1.7420908git.el9s
+- project: puppet-rsync
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-rsync-1.2.0-1.c8444dfgit.el9s
+- project: puppet-ssh
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-ssh-11.0.0-1.575a7fegit.el9s
+- project: puppet-stdlib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-stdlib-9.6.0-1.el9s
+- project: puppet-swift
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-swift-25.0.0-1.el9s
+- project: puppet-sysctl
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-sysctl-0.0.12-2.847ec1cgit.el9s
+- project: puppet-systemd
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-systemd-7.1.0-1.el9s
+- project: puppet-tempest
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-tempest-25.0.0-1.el9s
+- project: puppet-trove
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-trove-25.0.0-1.el9s
+- project: puppet-vcsrepo
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-vcsrepo-6.1.0-1.e5d9e4cgit.el9s
+- project: puppet-vitrage
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-vitrage-15.0.0-1.el9s
+- project: puppet-vswitch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-vswitch-21.0.0-1.el9s
+- project: puppet-watcher
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-watcher-25.0.0-1.el9s
+- project: puppet-xinetd
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-xinetd-3.4.1-1.el9s
+- project: puppet-zaqar
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: puppet-zaqar-25.0.0-1.el9s
+- project: pyOpenSSL
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pyOpenSSL-20.0.1-2.el9s
+- project: pycadf
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pycadf-3.1.1-2.el9s
+- project: pydot
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pydot-3.0.1-1.el9s
+- project: pyflakes
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pyflakes-2.5.0-1.el9s
+- project: pyparsing
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pyparsing-3.1.2-7.el9s
+- project: pysendfile
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pysendfile-2.0.1-19.el9s
+- project: pysnmp-lextudio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pysnmp-lextudio-5.0.26-2.el9s
+- project: pystache
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: pystache-0.5.4-13.el9s
+- project: python-APScheduler
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-APScheduler-3.10.4-4.el9s
+- project: python-Automat
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-Automat-20.2.0-5.el9s
+- project: python-Bottleneck
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-Bottleneck-1.2.1-17.el9s
+- project: python-SecretStorage
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-SecretStorage-3.3.1-1.el9s
+- project: python-XStatic
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-1.0.1-23.el9s
+- project: python-XStatic-Angular
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-1.5.8.0-14.el9s
+- project: python-XStatic-Angular-Bootstrap
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-Bootstrap-2.2.0.0-14.el9s
+- project: python-XStatic-Angular-FileUpload
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-FileUpload-12.0.4.0-18.el9s
+- project: python-XStatic-Angular-Gettext
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el9s
+- project: python-XStatic-Angular-Schema-Form
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el9s
+- project: python-XStatic-Angular-UUID
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-UUID-0.0.4.0-13.el9s
+- project: python-XStatic-Angular-Vis
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-Vis-4.16.0.0-10.el9s
+- project: python-XStatic-Angular-lrdragndrop
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-20.el9s
+- project: python-XStatic-Bootstrap-Datepicker
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-20.el9s
+- project: python-XStatic-Bootstrap-SCSS
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-14.el9s
+- project: python-XStatic-D3
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-D3-3.5.17.0-14.el9s
+- project: python-XStatic-FileSaver
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-FileSaver-1.3.2.0-10.el9s
+- project: python-XStatic-Font-Awesome
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Font-Awesome-4.7.0.0-14.el9s
+- project: python-XStatic-Hogan
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Hogan-2.0.0.2-21.el9s
+- project: python-XStatic-JQuery-Migrate
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-JQuery-Migrate-1.2.1.1-21.el9s
+- project: python-XStatic-JQuery-TableSorter
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-JQuery-TableSorter-2.14.5.1-21.el9s
+- project: python-XStatic-JQuery-quicksearch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-JQuery-quicksearch-2.0.3.2-1.el9s
+- project: python-XStatic-JS-Yaml
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-JS-Yaml-3.8.1.0-11.el9s
+- project: python-XStatic-JSEncrypt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-JSEncrypt-2.3.1.1-13.el9s
+- project: python-XStatic-Jasmine
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Jasmine-2.4.1.1-13.el9s
+- project: python-XStatic-Json2yaml
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Json2yaml-0.1.1.0-10.el9s
+- project: python-XStatic-Magic-Search
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Magic-Search-0.2.5.1-16.el9s
+- project: python-XStatic-Rickshaw
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Rickshaw-1.5.0.0-23.el9s
+- project: python-XStatic-Spin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-Spin-1.2.5.2-22.el9s
+- project: python-XStatic-bootswatch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-bootswatch-3.3.7.0-15.el9s
+- project: python-XStatic-jQuery
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-jQuery-1.10.2.1-9.el9s.2
+- project: python-XStatic-jquery-ui
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-jquery-ui-1.12.0.1-13.el9s
+- project: python-XStatic-mdi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-mdi-1.6.50.2-4.el9s
+- project: python-XStatic-objectpath
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-objectpath-1.2.1.0-2.el9s
+- project: python-XStatic-roboto-fontface
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-roboto-fontface-0.5.0.0-17.el9s
+- project: python-XStatic-smart-table
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-smart-table-1.4.13.2-13.el9s
+- project: python-XStatic-termjs
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-termjs-0.0.7.0-13.el9s
+- project: python-XStatic-tv4
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-XStatic-tv4-1.2.7.0-2.el9s
+- project: python-alembic
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-alembic-1.13.2-1.el9s
+- project: python-amqp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-amqp-5.2.0-2.el9s
+- project: python-aniso8601
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-aniso8601-9.0.1-1.el9s
+- project: python-ansible-runner
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ansible-runner-2.3.6-1.el9s
+- project: python-anyio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-anyio-3.5.0-1.el9s
+- project: python-anyjson
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-anyjson-0.3.3-29.el9s
+- project: python-appdirs
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-appdirs-1.4.4-2.el9s
+- project: python-argon2-cffi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-argon2-cffi-20.1.0-7.el9s
+- project: python-asgiref
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-asgiref-3.8.1-1.el9s
+- project: python-async-generator
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-async-generator-1.10-9.el9s
+- project: python-async-timeout
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-async-timeout-4.0.2-5.el9s
+- project: python-atomicwrites
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-atomicwrites-1.4.0-6.el9s
+- project: python-autobahn
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-autobahn-23.6.2-4.el9s
+- project: python-autopage
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-autopage-0.5.2-3.el9s
+- project: python-bcrypt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-bcrypt-3.2.2-4.el9s
+- project: python-beautifulsoup4
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-beautifulsoup4-4.12.3-2.el9s
+- project: python-binary-memcached
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-binary-memcached-0.31.2-1.el9s
+- project: python-blinker
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-blinker-1.7.0-1.el9s
+- project: python-boto
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-boto-2.49.0-8.el9s
+- project: python-boto3
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-boto3-1.35.5-1.el9s
+- project: python-botocore
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-botocore-1.35.5-1.el9s
+- project: python-cachetools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cachetools-5.4.0-2.el9s
+- project: python-certifi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-certifi-2020.12.5-2.el9s
+- project: python-click
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-click-8.1.7-1.el9s
+- project: python-cmd2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cmd2-2.4.2-1.el9s
+- project: python-colorama
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-colorama-0.4.6-2.el9s
+- project: python-constantly
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-constantly-15.1.0-12.el9s
+- project: python-construct
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-construct-2.10.70-2.el9s
+- project: python-contextlib2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-contextlib2-0.6.0.post1-1.el9s
+- project: python-cotyledon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cotyledon-1.7.3-8.el9s
+- project: python-coverage
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-coverage-7.3.2-2.el9s
+- project: python-croniter
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-croniter-1.4.1-1.el9s
+- project: python-cssselect
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cssselect-0.9.2-17.el9s
+- project: python-curio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-curio-1.5-1.el9s
+- project: python-cycler
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-cycler-0.10.0-17.el9s
+- project: python-daemon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-daemon-2.3.1-1.el9s
+- project: python-daiquiri
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-daiquiri-3.2.1-1.el9s
+- project: python-datetimerange
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-datetimerange-1.2.0-1.el9s
+- project: python-ddt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ddt-1.6.0-1.el9s
+- project: python-defusedxml
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-defusedxml-0.7.1-1.el9s
+- project: python-deprecated
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-deprecated-1.2.14-3.el9s
+- project: python-deprecation
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-deprecation-2.1.0-2.el9s
+- project: python-dictdiffer
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-dictdiffer-0.8.1-6.el9s
+- project: python-distro
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-distro-1.9.0-2.el9s
+- project: python-django
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-4.2.14-3.el9s
+- project: python-django-appconf
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-appconf-1.0.6-2.el9s
+- project: python-django-compressor
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-compressor-4.4-2.el9s
+- project: python-django-debreach
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-debreach-2.1.0-2.el9s
+- project: python-django-formtools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-formtools-2.2-2.el9s
+- project: python-django-pyscss
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-django-pyscss-2.0.3-1.el9s
+- project: python-docker
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-docker-7.1.0-2.el9s
+- project: python-dogpile-cache
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-dogpile-cache-1.3.1-1.el9s
+- project: python-dulwich
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-dulwich-0.21.7-2.el9s
+- project: python-edgegrid
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-edgegrid-1.2.1-4.el9s
+- project: python-editor
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-editor-1.0.4-8.el9s
+- project: python-elasticsearch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-elasticsearch-7.17.4-1.el9s
+- project: python-elementpath
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-elementpath-4.4.0-2.el9s
+- project: python-entrypoints
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-entrypoints-0.3-8.el9s
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-etcd3gw-2.4.1-1.el9s
+- project: python-eventlet
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-eventlet-0.36.1-1.el9s
+- project: python-exabgp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-exabgp-4.2.22-1.el9s
+- project: python-extras
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-extras-1.0.0-15.el9s
+- project: python-falcon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-falcon-3.1.3-1.el9s
+- project: python-fastcache
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-fastcache-1.1.0-9.el9s
+- project: python-fasteners
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-fasteners-0.19-1.el9s
+- project: python-fixtures
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-fixtures-4.0.1-1.el9s
+- project: python-flake8
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-flake8-5.0.3-1.el9s
+- project: python-flask
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-flask-3.0.3-2.el9s
+- project: python-flask-restful
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-flask-restful-0.3.9-2.el9s
+- project: python-fluidity-sm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-fluidity-sm-0.2.0-21.el9s
+- project: python-funcsigs
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-funcsigs-1.0.2-23.el9s
+- project: python-gabbi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-gabbi-2.7.2-8.el9s
+- project: python-gevent
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-gevent-23.7.0-2.el9s
+- project: python-gitdb
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-gitdb-4.0.10-1.el9s
+- project: python-gmpy2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-gmpy2-2.1.0-0.22.b5.el9s
+- project: python-google-api-core
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-google-api-core-2.11.0-2.el9s
+- project: python-google-auth
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-google-auth-2.34.0-1.el9s
+- project: python-googleapis-common-protos
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-googleapis-common-protos-1.56.4-2.el9s
+- project: python-greenlet
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-greenlet-3.0.3-2.el9s
+- project: python-grpcio-gcp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-grpcio-gcp-0.2.2-4.el9s
+- project: python-gunicorn
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-gunicorn-21.2.0-2.el9s
+- project: python-h11
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-h11-0.14.0-1.el9s
+- project: python-h2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-h2-4.0.0-3.el9s
+- project: python-hpack
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-hpack-4.0.0-2.el9s
+- project: python-html5lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-html5lib-1.1-4.el9s
+- project: python-httpcore
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-httpcore-1.0.2-1.el9s
+- project: python-httplib2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-httplib2-0.20.4-6.el9s
+- project: python-httpx
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-httpx-0.26.0-1.el9s
+- project: python-hyperframe
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-hyperframe-6.0.0-2.el9s
+- project: python-hyperlink
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-hyperlink-21.0.0-2.el9s
+- project: python-ifaddr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ifaddr-0.1.7-3.el9s
+- project: python-immutables
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-immutables-0.20-1.el9s
+- project: python-importlib-metadata
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-importlib-metadata-6.8.0-1.el9s
+- project: python-incremental
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-incremental-21.3.0-1.el9s
+- project: python-influxdb
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-influxdb-5.3.1-1.el9s
+- project: python-influxdb-client
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-influxdb-client-1.45.0-1.el9s
+- project: python-invoke
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-invoke-1.5.0-2.el9s
+- project: python-iso8601
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-iso8601-1.1.0-1.el9s
+- project: python-itsdangerous
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-itsdangerous-2.1.2-2.el9s
+- project: python-jaraco-classes
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jaraco-classes-3.2.1-5.el9s
+- project: python-jaraco-packaging
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jaraco-packaging-8.2.1-4.el9s
+- project: python-jeepney
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jeepney-0.8.0-3.el9s
+- project: python-jinja2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jinja2-3.0.1-2.el9s
+- project: python-jmespath
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jmespath-1.0.1-1.el9s
+- project: python-json-logger
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-json-logger-2.0.4-1.el9s
+- project: python-jsonpath-rw
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jsonpath-rw-1.4.0-4.el9s
+- project: python-jsonpath-rw-ext
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jsonpath-rw-ext-1.2.2-2.el9s
+- project: python-jsonschema
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jsonschema-4.16.0-2.el9s
+- project: python-junitxml
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-junitxml-0.7-24.el9s
+- project: python-jwt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-jwt-2.8.0-1.el9s
+- project: python-kafka
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kafka-2.0.2-1.el9s
+- project: python-kazoo
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kazoo-2.8.0-2.el9s
+- project: python-kerberos
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kerberos-1.3.0-11.el9s
+- project: python-keyring
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-keyring-24.3.0-4.el9s
+- project: python-kiwisolver
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kiwisolver-1.3.1-2.el9s
+- project: python-kombu
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kombu-5.3.7-1.el9s
+- project: python-krb5
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-krb5-0.5.0-1.el9s
+- project: python-kubernetes
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-kubernetes-30.1.0-2.el9s
+- project: python-ldap3
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ldap3-2.9.1-1.el9s
+- project: python-ldappool
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ldappool-3.0.0-1.el9s
+- project: python-lexicon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-lexicon-2.0.1-9.el9s
+- project: python-linecache2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-linecache2-1.0.0-29.el9s
+- project: python-lockfile
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-lockfile-0.12.2-2.el9s
+- project: python-logutils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-logutils-0.3.5-15.el9s
+- project: python-lz4
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-lz4-3.0.2-5.el9s
+- project: python-marathon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-marathon-0.13.0-2.el9s
+- project: python-markupsafe
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-markupsafe-2.1.5-1.el9s
+- project: python-matplotlib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-matplotlib-3.4.2-1.el9s
+- project: python-mbstrdecoder
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mbstrdecoder-1.1.2-1.el9s
+- project: python-mccabe
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mccabe-0.7.0-1.el9s
+- project: python-memcached
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-memcached-1.59-3.el9s
+- project: python-migrate
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-migrate-0.13.0-5.el9s
+- project: python-mimeparse
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mimeparse-1.6.0-16.el9s
+- project: python-mock
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mock-4.0.3-5.el9s
+- project: python-monotonic
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-monotonic-1.5-9.el9s
+- project: python-more-itertools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-more-itertools-10.1.0-1.el9s
+- project: python-mpmath
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-mpmath-1.3.0-1.el9s
+- project: python-msgpack
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-msgpack-1.0.7-1.el9s
+- project: python-munch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-munch-2.5.0-4.el9s
+- project: python-murano-pkg-check
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-murano-pkg-check-0.3.0-20.el9s
+- project: python-natsort
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-natsort-7.1.1-2.el9s
+- project: python-ncclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ncclient-0.6.15-2.el9s
+- project: python-ndg_httpsclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ndg_httpsclient-0.5.1-9.el9s
+- project: python-netaddr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-netaddr-0.10.1-5.el9s
+- project: python-netmiko
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-netmiko-4.3.0-1.el9s
+- project: python-network-runner
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-network-runner-0.3.5-1.el9s
+- project: python-nose
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-nose-1.3.7-33.el9s
+- project: python-ntlm-auth
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ntlm-auth-1.5.0-2.el9s
+- project: python-numexpr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-numexpr-2.7.1-5.el9s
+- project: python-olefile
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-olefile-0.46-13.el9s
+- project: python-openshift
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-openshift-0.11.2-3.el9s
+- project: python-outcome
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-outcome-1.1.0-1.el9s
+- project: python-pandas
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pandas-1.2.1-2.el9s
+- project: python-paramiko
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-paramiko-3.4.1-1.el9s
+- project: python-passlib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-passlib-1.7.4-3.el9s
+- project: python-paste
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-paste-3.10.1-1.el9s
+- project: python-paste-deploy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-paste-deploy-3.1.0-2.el9s
+- project: python-pbr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pbr-6.0.0-1.el9s
+- project: python-pecan
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pecan-1.5.1-1.el9s
+- project: python-pillow
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pillow-10.1.0-1.el9s
+- project: python-pint
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pint-0.16.1-3.el9s
+- project: python-platformdirs
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-platformdirs-4.2.2-1.el9s
+- project: python-posix_ipc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-posix_ipc-0.9.8-26.el9s
+- project: python-prometheus_client
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-prometheus_client-0.19.0-2.el9s
+- project: python-pyasn1
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyasn1-0.6.0-1.el9s
+- project: python-pycodestyle
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pycodestyle-2.9.1-1.el9s
+- project: python-pyeclib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyeclib-1.6.0-3.el9s
+- project: python-pyghmi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyghmi-1.5.69-1.el9s
+- project: python-pyglet
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyglet-1.4.6-4.el9s
+- project: python-pygraphviz
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pygraphviz-1.7-1.el9s
+- project: python-pymemcache
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pymemcache-4.0.0-1.el9s
+- project: python-pymongo
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pymongo-4.2.0-2.el9s
+- project: python-pynacl
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pynacl-1.5.0-1.el9s
+- project: python-pyngus
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyngus-2.3.0-8.el9s
+- project: python-pyperclip
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyperclip-1.8.2-2.el9s
+- project: python-pyroute2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pyroute2-0.7.12-2.el9s
+- project: python-pysaml2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pysaml2-7.4.2-2.el9s
+- project: python-pytest-runner
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pytest-runner-4.0-12.el9s
+- project: python-pytimeparse
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pytimeparse-1.1.8-8.el9s
+- project: python-pytz-deprecation-shim
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-pytz-deprecation-shim-0.1.0.post0-1.el9s
+- project: python-rcssmin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rcssmin-1.1.1-1.el9s
+- project: python-reactivex
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-reactivex-4.0.4-5.el9s
+- project: python-redis
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-redis-5.0.4-1.el9s
+- project: python-repoze-lru
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-repoze-lru-0.7-10.el9s
+- project: python-requests
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-requests-2.32.3-3.el9s
+- project: python-requests-kerberos
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-requests-kerberos-0.14.0-1.el9s
+- project: python-requests-mock
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-requests-mock-1.10.0-1.el9s
+- project: python-requests-toolbelt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-requests-toolbelt-0.9.1-16.el9s
+- project: python-requests_ntlm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-requests_ntlm-1.1.0-14.el9s
+- project: python-responses
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-responses-0.25.3-1.el9s
+- project: python-retrying
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-retrying-1.3.3-2.el9s
+- project: python-rfc3986
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rfc3986-1.5.0-1.el9s
+- project: python-rjsmin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rjsmin-1.2.1-2.el9s
+- project: python-routes
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-routes-2.5.1-1.el9s
+- project: python-rsa
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rsa-4.9-1.el9s
+- project: python-rst-linker
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rst-linker-2.2.0-4.el9s
+- project: python-s3transfer
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-s3transfer-0.10.2-1.el9s
+- project: python-scp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-scp-0.14.5-1.el9s
+- project: python-scrypt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-scrypt-0.8.20-1.el9s
+- project: python-scss
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-scss-1.4.0-1.el9s
+- project: python-semantic_version
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-semantic_version-2.10.0-4.el9s
+- project: python-semver
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-semver-2.13.0-3.el9s
+- project: python-service-identity
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-service-identity-18.1.0-9.el9s
+- project: python-setproctitle
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-setproctitle-1.3.3-1.el9s
+- project: python-setuptools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-setuptools-65.5.1-2.el9s
+- project: python-simplegeneric
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-simplegeneric-0.8.1-21.el9s
+- project: python-simplejson
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-simplejson-3.19.2-1.el9s
+- project: python-smi-lextudio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-smi-lextudio-1.1.13-1.el9s
+- project: python-smmap
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-smmap-5.0.1-1.el9s
+- project: python-snappy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-snappy-0.5.4-9.el9s
+- project: python-sniffio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sniffio-1.3.1-1.el9s
+- project: python-socksio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-socksio-1.0.0-3.el9s
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sortedcontainers-2.4.0-8.el9s
+- project: python-soupsieve
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-soupsieve-2.6-2.el9s
+- project: python-sphinx-argparse
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sphinx-argparse-0.2.2-12.el9s
+- project: python-spnego
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-spnego-0.10.2-1.el9s
+- project: python-sqlalchemy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sqlalchemy-2.0.31-1.el9s
+- project: python-sqlalchemy-filters
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sqlalchemy-filters-0.12.0-3.el9s
+- project: python-sqlalchemy-utils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sqlalchemy-utils-0.41.1-1.el9s
+- project: python-sqlparse
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sqlparse-0.4.2-4.el9s
+- project: python-sseclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sseclient-0.0.27-2.el9s
+- project: python-ssh-python
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ssh-python-0.9.0-1.el9s
+- project: python-sshtunnel
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sshtunnel-0.4.0-12.el9s
+- project: python-statsd
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-statsd-3.2.1-20.el9s
+- project: python-stestr
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-stestr-4.1.0-1.el9s
+- project: python-string_utils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-string_utils-1.0.0-4.el9s
+- project: python-suds
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-suds-1.1.2-5.el9s
+- project: python-sure
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sure-1.4.11-12.el9s
+- project: python-sysv_ipc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sysv_ipc-1.1.0-2.el9s
+- project: python-tables
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tables-3.6.1-2.el9s
+- project: python-tabulate
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tabulate-0.9.0-4.el9s
+- project: python-tcolorpy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tcolorpy-0.1.1-4.el9s
+- project: python-tempita
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tempita-0.5.2-2.el9s
+- project: python-tenacity
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tenacity-8.2.3-1.el9s
+- project: python-testrepository
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-testrepository-0.0.20-24.el9s
+- project: python-testresources
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-testresources-2.0.1-2.el9s
+- project: python-testscenarios
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-testscenarios-0.5.0-21.el9s
+- project: python-testtools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-testtools-2.7.1-1.el9s
+- project: python-textfsm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-textfsm-1.1.3-1.el9s
+- project: python-tinyrpc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tinyrpc-1.0.3-5.el9s
+- project: python-tomli
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tomli-2.0.1-4.el9s
+- project: python-tomlkit
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tomlkit-0.13.2-1.el9s
+- project: python-tornado
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tornado-6.3.3-1.el9s
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tosca-parser-2.9.1-1.el9s
+- project: python-trio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-trio-0.18.0-1.el9s
+- project: python-trollius
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-trollius-2.1-18.el9s
+- project: python-twisted
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-twisted-22.4.0-1.el9s
+- project: python-txaio
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-txaio-23.1.1-2.el9s
+- project: python-typepy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-typepy-1.3.0-2.el9s
+- project: python-typing-extensions
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-typing-extensions-4.12.2-2.el9s
+- project: python-tzlocal
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tzlocal-5.2-1.el9s
+- project: python-uhashring
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-uhashring-2.3-3.el9s
+- project: python-ujson
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-ujson-5.9.0-2.el9s
+- project: python-uritemplate
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-uritemplate-4.1.1-1.el9s
+- project: python-versiontools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-versiontools-1.9.1-28.el9s
+- project: python-vine
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-vine-5.1.0-1.el9s
+- project: python-voluptuous
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-voluptuous-0.15.2-1.el9s
+- project: python-waitress
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-waitress-3.0.0-1.el9s
+- project: python-warlock
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-warlock-2.0.1-3.el9s
+- project: python-wcwidth
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-wcwidth-0.2.13-1.el9s
+- project: python-webencodings
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-webencodings-0.5.1-15.el9s
+- project: python-webob
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-webob-1.8.8-2.el9s
+- project: python-websocket-client
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-websocket-client-1.8.0-2.el9s
+- project: python-websockify
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-websockify-0.12.0-1.el9s
+- project: python-webtest
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-webtest-3.0.0-1.el9s
+- project: python-werkzeug
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-werkzeug-3.0.3-1.el9s
+- project: python-wheel
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-wheel-0.36.2-2.el9s
+- project: python-winrm
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-winrm-0.4.1-2.el9s
+- project: python-wrapt
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-wrapt-1.16.0-1.el9s
+- project: python-wsaccel
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-wsaccel-0.6.3-2.el9s
+- project: python-wsgi_intercept
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-wsgi_intercept-1.12.0-5.el9s
+- project: python-xmlschema
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-xmlschema-2.4.0-3.el9s
+- project: python-xmltodict
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-xmltodict-0.13.0-1.el9s
+- project: python-yappi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-yappi-1.6.0-1.el9s
+- project: python-yaql
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-yaql-2.0.0-3.el9s
+- project: python-zake
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zake-0.2.2-22.el9s
+- project: python-zeroconf
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zeroconf-0.38.7-1.el9s
+- project: python-zipp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zipp-3.6.0-1.el9s
+- project: python-zmq
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zmq-25.1.1-3.el9s
+- project: python-zope-event
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zope-event-4.2.0-20.el9s
+- project: python-zope-interface
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zope-interface-5.4.0-1.el9s
+- project: python-zstd
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zstd-1.5.5.1-1.el9s
+- project: qpid-dispatch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: qpid-dispatch-1.19.0-4.el9s
+- project: qpid-proton
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: qpid-proton-0.35.0-2.el9s
+- project: rally
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-rally-4.1.0-1.el9s
+- project: rally-openstack
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-rally-plugins-3.0.0-1.el9s
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rdo-openvswitch-3.3-1.el9s
+- project: re2
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: re2-20190801-9.el9s
+- project: reno
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-reno-4.1.0-1.el9s
+- project: requestsexceptions
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-requestsexceptions-1.4.0-4.el9s
+- project: rsd-lib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rsd-lib-1.2.0-2.el9s
+- project: rsdclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-rsdclient-1.0.2-2.el9s
+- project: ruby-augeas
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: ruby-augeas-0.5.0-27.el9s
+- project: rubygem-concurrent-ruby
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-concurrent-ruby-1.1.5-2.el9s
+- project: rubygem-deep_merge
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-deep_merge-1.2.1-7.el9s
+- project: rubygem-fast_gettext
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-fast_gettext-1.2.0-9.el9s
+- project: rubygem-hocon
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-hocon-1.3.1-2.el9s
+- project: rubygem-multi_json
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-multi_json-1.15.0-2.el9s
+- project: rubygem-puppet-resource_api
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-puppet-resource_api-1.8.18-1.el9s
+- project: rubygem-ruby-shadow
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-ruby-shadow-2.5.0-15.el9s
+- project: rubygem-semantic_puppet
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-semantic_puppet-1.0.4-2.el9s
+- project: rubygem-thor
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: rubygem-thor-1.1.0-2.el9s
+- project: scciclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-scciclient-0.16.0-1.el9s
+- project: sphinx-feature-classification
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sphinx-feature-classification-2.0.0-1.el9s
+- project: sshpass
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: sshpass-1.09-1.el9s
+- project: stevedore
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-stevedore-5.3.0-1.el9s
+- project: subunit
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: subunit-1.4.0-6.el9s
+- project: sushy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sushy-5.2.0-1.el9s
+- project: sushy-oem-idrac
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sushy-oem-idrac-6.0.0-1.el9s
+- project: sushy-tools
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-sushy-tools-1.3.0-1.el9s
+- project: swift
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-swift-2.34.0-1.el9s
+- project: swiftclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-swiftclient-4.6.0-1.el9s
+- project: sympy
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: sympy-1.12-2.el9s
+- project: sysbench
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: sysbench-1.0.20-5.el9s
+- project: sysfsutils
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: sysfsutils-2.1.1-1.el9s
+- project: tacker
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-tacker-12.0.0-1.el9s
+- project: tackerclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tackerclient-2.1.0-1.el9s
+- project: tap-as-a-service
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tap-as-a-service-14.0.0-1.el9s
+- project: taskflow
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-taskflow-5.9.1-1.el9s
+- project: tcib
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tcib-0.3.0-1.el9s
+- project: telemetry-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-telemetry-tests-tempest-2.3.0-1.el9s
+- project: tempest
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-tempest-41.0.0-4.el9s
+- project: tempestconf
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tempestconf-3.5.0-1.el9s
+- project: tobiko
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-tobiko-0.8.0-1.el9s
+- project: tooz
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-tooz-6.3.0-1.el9s
+- project: trove
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-trove-22.0.0-1.el9s
+- project: trove-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-trove-ui-23.0.0-1.el9s
+- project: trove-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-trove-tests-tempest-2.4.0-1.el9s
+- project: troveclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-troveclient-8.6.0-1.el9s
+- project: uwsgi
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: uwsgi-2.0.18-16.el9s
+- project: virtualbmc
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-virtualbmc-3.1.0-1.el9s
+- project: vitrage
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-vitrage-13.0.0-1.el9s
+- project: vitrage-dashboard
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-vitrage-ui-7.0.0-1.el9s
+- project: vitrage-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-vitrage-tests-tempest-6.4.0-1.el9s
+- project: vitrageclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-vitrageclient-5.1.1-1.el9s
+- project: watcher
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-watcher-13.0.0-1.el9s
+- project: watcher-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-watcher-tests-tempest-3.2.0-1.el9s
+- project: whitebox-neutron-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-whitebox-neutron-tests-tempest-0.8.0-4.el9s
+- project: whitebox-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-whitebox-tests-tempest-0.0.3-1.el9s
+- project: wsme
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-wsme-0.12.1-1.el9s
+- project: wyhash
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: wyhash-final1-4.el9s
+- project: xxhash
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: xxhash-0.8.1-1.el9s
+- project: yaml-cpp
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: yaml-cpp-0.6.3-4.el9s
+- project: zaqar
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: openstack-zaqar-19.0.0-1.el9s
+- project: zaqar-tempest-plugin
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zaqar-tests-tempest-2.0.0-1.el9s
+- project: zaqarclient
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: python-zaqarclient-2.8.0-1.el9s
+- project: zeromq
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-release: zeromq-4.3.4-1.el9s
