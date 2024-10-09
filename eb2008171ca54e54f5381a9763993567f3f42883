@@ -16,6 +16,23 @@
       "message": "Failing puppet jobs",
       "revId": "eb2008171ca54e54f5381a9763993567f3f42883",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a554fdf4_f6edd366",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2024-10-09T10:27:31Z",
+      "side": 1,
+      "message": "needs puppet-tempest commit [1] to be promoted\n\n[1] https://opendev.org/openstack/puppet-tempest/commit/cd44577546e66ce4c1806e2e8e31e21e5a818904",
+      "revId": "eb2008171ca54e54f5381a9763993567f3f42883",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
