@@ -2792,6 +2792,16 @@ packages:
   maintainers:
   - mbultel@redhat.com
   - david.j.peacock@gmail.com
+- project: watcherclient
+  conf: rpmfactory-client
+  maintainers:
+  - amoralej@redhat.com
+- project: watcher-dashboard
+  name: openstack-watcher-ui
+  conf: rpmfactory-core
+  component: ui
+  maintainers:
+  - amoralej@redhat.com
 components:
 - name: common
 - name: compute
