@@ -917,6 +917,10 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     epoxy-uc:
+- project: watcherclient
+  tags:
+    epoxy-uc:
+      source-branch: 4.5.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     epoxy-uc:
