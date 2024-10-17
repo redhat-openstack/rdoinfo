@@ -255,8 +255,7 @@ packages:
 - project: kuryr-kubernetes
   tags:
     dalmatian:
-      # TODO(jcapitao): remove line below once stable/2024.2 branch created
-      source-branch: master
+      source-branch: 398bd461265abb10daeb1feee3f4e24564244e61
 - project: kuryr-tempest-plugin
   tags:
     dalmatian:
