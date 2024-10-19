@@ -32,6 +32,9 @@ packages:
 - project: ansible-role-atos-hsm
   buildsys-tags:
     cloud9s-openstack-caracal-release: ansible-role-atos-hsm-7.0.0-1.el9s
+- project: ansible-role-collectd-config
+  buildsys-tags:
+    cloud9s-openstack-caracal-release: ansible-role-collectd-config-0.0.2-1.el9s
 - project: ansible-role-lunasa-hsm
   buildsys-tags:
     cloud9s-openstack-caracal-release: ansible-role-lunasa-hsm-7.0.0-1.el9s
@@ -355,7 +358,7 @@ packages:
     cloud9s-openstack-caracal-release: python-magnumclient-4.4.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-caracal-release: openstack-manila-18.1.0-1.el9s
+    cloud9s-openstack-caracal-release: openstack-manila-18.2.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-manila-tests-tempest-2.4.0-3.el9s
