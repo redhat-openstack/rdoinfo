@@ -2406,6 +2406,7 @@ packages:
 - project: rdo-openvswitch
   name: rdo-openvswitch
   conf: rdo-dependency
+  upstream: https://review.rdoproject.org/cgit/deps/rdo-openvswitch/
 - project: python-edengrid
   name: python-edengrid
   conf: fedora-dependency
