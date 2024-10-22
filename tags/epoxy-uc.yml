@@ -151,6 +151,7 @@ packages:
 - project: heat-dashboard
   tags:
     epoxy-uc:
+      source-branch: 51bcdc4181078e9fe5ab2eb613c9be768258b199
 - project: heat-tempest-plugin
   tags:
     epoxy-uc:
@@ -166,6 +167,7 @@ packages:
 - project: horizon
   tags:
     epoxy-uc:
+      source-branch: d3c4ffe496b6b920c3e41ff65efd36fb318f58ca
 - project: ibmcclient
   tags:
     epoxy-uc:
@@ -252,6 +254,7 @@ packages:
 - project: manila-ui
   tags:
     epoxy-uc:
+      source-branch: 3b40731bc960a9ff7887ef4ffcc7c1de094ed7bd
 - project: manilaclient
   tags:
     epoxy-uc:
