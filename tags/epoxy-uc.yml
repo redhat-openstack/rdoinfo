@@ -331,7 +331,7 @@ packages:
 - project: neutron-lib
   tags:
     epoxy-uc:
-      source-branch: 3.15.0
+      source-branch: 3.16.0
 - project: neutron-tempest-plugin
   tags:
     epoxy-uc:
@@ -379,7 +379,7 @@ packages:
 - project: openstackclient
   tags:
     epoxy-uc:
-      source-branch: 7.1.2
+      source-branch: 7.2.0
 - project: openstacksdk
   tags:
     epoxy-uc:
@@ -486,7 +486,7 @@ packages:
 - project: oslo-messaging
   tags:
     epoxy-uc:
-      source-branch: 14.9.0
+      source-branch: 14.9.1
 - project: oslo-metrics
   tags:
     epoxy-uc:
@@ -572,7 +572,7 @@ packages:
   tags:
     epoxy-uc:
       component: puppet
-      source-branch: v12.1.0
+      source-branch: v12.2.0
 - project: puppet-archive
   tags:
     epoxy-uc:
@@ -825,7 +825,7 @@ packages:
 - project: sushy
   tags:
     epoxy-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
 - project: sushy-oem-idrac
   tags:
     epoxy-uc:
