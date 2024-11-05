@@ -1083,10 +1083,11 @@ packages:
   - ltoscano@redhat.com
 - project: watcher
   conf: rpmfactory-core
+  component: optimize
   maintainers:
   - mpryc@redhat.com
-  - daniel.pawlik@corp.ovh.com
-  - jpena@redhat.com
+  - amoralej@redhat.com
+  - chkumar@redhat.com
 - project: vitrage
   conf: rpmfactory-core
   maintainers:
@@ -2342,8 +2343,11 @@ packages:
 - project: watcher-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-watcher-tests-tempest
+  component: optimize
   maintainers:
   - ltoscano@redhat.com
+  - amoralej@redhat.com
+  - chkumar@redhat.com
 - project: novajoin-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-novajoin-tests-tempest
@@ -2796,12 +2800,14 @@ packages:
   conf: rpmfactory-client
   maintainers:
   - amoralej@redhat.com
+  - chkumar@redhat.com
 - project: watcher-dashboard
   name: openstack-watcher-ui
   conf: rpmfactory-core
   component: ui
   maintainers:
   - amoralej@redhat.com
+  - chkumar@redhat.com
 components:
 - name: common
 - name: compute
@@ -2824,3 +2830,4 @@ components:
 - name: barbican
 - name: keystone
 - name: designate
+- name: optimize
