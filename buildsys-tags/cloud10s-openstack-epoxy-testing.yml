@@ -1,0 +1,19 @@
+packages:
+- project: liberasurecode
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: liberasurecode-1.6.2-10.el10s
+- project: novnc
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: novnc-1.5.0-2.el10s
+- project: openstack-network-scripts
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: openstack-network-scripts-10.11.1-7.el10s
+- project: python-websockify
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-websockify-0.12.0-1.el10s
+- project: rdo-openvswitch
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: rdo-openvswitch-3.4-1.el10s
+- project: uwsgi
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: uwsgi-2.0.27-4.el10s
