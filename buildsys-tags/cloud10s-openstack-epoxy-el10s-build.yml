@@ -1,0 +1,103 @@
+packages:
+- project: fish
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: fish-3.7.1-1.el10s
+- project: patchelf
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: patchelf-0.18.0-6.el10s
+- project: python-build
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-build-1.2.1-6.el10s
+- project: python-cachetools
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-cachetools-5.4.0-6.el10s
+- project: python-chardet
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-chardet-5.2.0-1.el10s
+- project: python-colorama
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-colorama-0.4.6-9.el10s
+- project: python-distlib
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-distlib-0.3.9-1.el10s
+- project: python-execnet
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-execnet-2.1.1-4.el10s
+- project: python-factory-boy
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-factory-boy-3.3.1-2.el10s
+- project: python-faker
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-faker-30.6.0-1.el10s
+- project: python-filelock
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-filelock-3.15.4-3.el10s
+- project: python-flaky
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-flaky-3.8.1-4.el10s
+- project: python-hatch-vcs
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-hatch-vcs-0.4.0-6.el10s
+- project: python-hypothesis
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-hypothesis-6.104.2-9.el10s
+- project: python-meson-python
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-meson-python-0.17.1-2.el10s
+- project: python-pandas
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pandas-2.2.1-7.el10s
+- project: python-platformdirs
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-platformdirs-4.2.2-2.el10s
+- project: python-pyproject-api
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pyproject-api-1.6.1-5.el10s
+- project: python-pyproject-metadata
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pyproject-metadata-0.8.0-3.el10s
+- project: python-pytest-asyncio
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pytest-asyncio-0.23.8-1.el10s
+- project: python-pytest-env
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pytest-env-0.6.2^20170617gitafb13a0-19.el10s
+- project: python-pytest-mock
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pytest-mock-3.14.0-2.el10s
+- project: python-pytest-randomly
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pytest-randomly-3.15.0-4.el10s
+- project: python-pytest-xdist
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-pytest-xdist-3.6.1-4.el10s
+- project: python-re-assert
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-re-assert-1.1.0-19.el10s
+- project: python-regex
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-regex-2024.9.11-1.el10s
+- project: python-setproctitle
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-setproctitle-1.3.3-4.el10s
+- project: python-sortedcontainers
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-sortedcontainers-2.4.0-19.el10s
+- project: python-time-machine
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-time-machine-2.16.0-1.el10s
+- project: python-tox
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-tox-4.21.2-3.el10s
+- project: python-tox-current-env
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-tox-current-env-0.0.12-1.el10s
+- project: python-versioneer
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-versioneer-0.29-1.el10s
+- project: python-virtualenv
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: python-virtualenv-20.21.1-25.el10s
+- project: pytz
+  buildsys-tags:
+    cloud10s-openstack-expoxy-el10s-build: pytz-2024.1-3.el10s
