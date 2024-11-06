@@ -299,6 +299,9 @@ packages:
 - project: keystonemiddleware
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-keystonemiddleware-10.7.1-1.el9s
+- project: kolla
+  buildsys-tags:
+    cloud9s-openstack-dalmatian-testing: openstack-kolla-19.0.0-0.1.0rc2.el9s
 - project: kuryr
   buildsys-tags:
     cloud9s-openstack-dalmatian-testing: python-kuryr-lib-3.1.0-1.el9s
