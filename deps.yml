@@ -2,9 +2,9 @@ package-configs:
   fedora-dependency:
     # This is the conf for dependencies rebuilt from Fedora distgit
     # and using cbs-tags for automatic tagging
-    distgit: http://review.rdoproject.org/r/deps/%(project)s.git
+    distgit: https://review.rdoproject.org/r/deps/%(project)s.git
     patches:
-    master-distgit: http://review.rdoproject.org/r/deps/%(project)s.git
+    master-distgit: https://review.rdoproject.org/r/deps/%(project)s.git
     upstream: https://src.fedoraproject.org/rpms/%(project)s
     centos-distgit: https://git.centos.org/rpms/%(project)s
     review-patches:
@@ -18,9 +18,9 @@ package-configs:
   rdo-dependency:
     # This is the conf for dependencies in rdo-common not being entirely managed
     # in review.r.o but using cbs-tags for automatic tagging
-    distgit: http://review.rdoproject.org/r/deps/%(project)s.git
+    distgit: https://review.rdoproject.org/r/deps/%(project)s.git
     patches:
-    master-distgit: http://review.rdoproject.org/r/deps/%(project)s.git
+    master-distgit: https://review.rdoproject.org/r/deps/%(project)s.git
     upstream: https://src.fedoraproject.org/rpms/%(project)s
     centos-distgit: https://git.centos.org/rpms/%(project)s
     review-patches:
