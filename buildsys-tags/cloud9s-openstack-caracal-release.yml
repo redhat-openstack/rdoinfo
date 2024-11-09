@@ -82,7 +82,7 @@ packages:
     cloud9s-openstack-caracal-release: python-ceilometermiddleware-3.3.1-1.el9s
 - project: cinder
   buildsys-tags:
-    cloud9s-openstack-caracal-release: openstack-cinder-24.1.0-1.el9s
+    cloud9s-openstack-caracal-release: openstack-cinder-24.2.0-1.el9s
 - project: cinder-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-cinder-tests-tempest-1.15.0-3.el9s
@@ -556,7 +556,7 @@ packages:
     cloud9s-openstack-caracal-release: python-oslo-log-5.5.1-1.el9s
 - project: oslo-messaging
   buildsys-tags:
-    cloud9s-openstack-caracal-release: python-oslo-messaging-14.7.1-1.el9s
+    cloud9s-openstack-caracal-release: python-oslo-messaging-14.7.2-1.el9s
 - project: oslo-metrics
   buildsys-tags:
     cloud9s-openstack-caracal-release: python-oslo-metrics-0.8.0-1.el9s
