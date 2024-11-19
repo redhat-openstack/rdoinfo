@@ -73,7 +73,7 @@ packages:
 - project: cloudkittyclient
   tags:
     epoxy-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
 - project: collectd-gnocchi
   tags:
     epoxy-uc:
@@ -182,7 +182,7 @@ packages:
 - project: ironic-lib
   tags:
     epoxy-uc:
-      source-branch: 6.2.0
+      source-branch: 7.0.0
 - project: ironic-prometheus-exporter
   tags:
     epoxy-uc:
@@ -204,7 +204,7 @@ packages:
 - project: ironicclient
   tags:
     epoxy-uc:
-      source-branch: 5.8.0
+      source-branch: 5.9.0
 - project: keystone
   tags:
     epoxy-uc:
@@ -255,7 +255,7 @@ packages:
 - project: manilaclient
   tags:
     epoxy-uc:
-      source-branch: 5.0.0
+      source-branch: 5.1.0
 - project: metalsmith
   tags:
     epoxy-uc:
@@ -362,14 +362,14 @@ packages:
 - project: octavia-lib
   tags:
     epoxy-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: octavia-tempest-plugin
   tags:
     epoxy-uc:
 - project: octaviaclient
   tags:
     epoxy-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
 - project: openstack-macros
   tags:
     epoxy-uc:
@@ -410,7 +410,7 @@ packages:
 - project: os-ken
   tags:
     epoxy-uc:
-      source-branch: 2.10.0
+      source-branch: 2.11.2
 - project: os-net-config
   tags:
     epoxy-uc:
@@ -454,11 +454,11 @@ packages:
 - project: oslo-cache
   tags:
     epoxy-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
 - project: oslo-concurrency
   tags:
     epoxy-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
 - project: oslo-config
   tags:
     epoxy-uc:
@@ -518,7 +518,7 @@ packages:
 - project: oslo-service
   tags:
     epoxy-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: oslo-upgradecheck
   tags:
     epoxy-uc:
@@ -845,14 +845,14 @@ packages:
 - project: tackerclient
   tags:
     epoxy-uc:
-      source-branch: 2.1.0
+      source-branch: 2.2.0
 - project: tap-as-a-service
   tags:
     epoxy-uc:
 - project: taskflow
   tags:
     epoxy-uc:
-      source-branch: 5.9.1
+      source-branch: 5.10.0
 - project: tcib
   tags:
     epoxy-uc:
@@ -914,7 +914,7 @@ packages:
 - project: watcherclient
   tags:
     epoxy-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     epoxy-uc:
@@ -935,4 +935,4 @@ packages:
 - project: zaqarclient
   tags:
     epoxy-uc:
-      source-branch: 2.8.0
+      source-branch: 2.9.0
