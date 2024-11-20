@@ -223,7 +223,7 @@ packages:
     cloud9s-openstack-caracal-testing: heat-cfntools-1.4.2-15.el9s
 - project: heat-dashboard
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-heat-ui-11.0.0-1.el9s
+    cloud9s-openstack-caracal-testing: openstack-heat-ui-11.0.0-2.el9s
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-heat-tests-tempest-2.1.0-1.el9s
@@ -238,7 +238,7 @@ packages:
     cloud9s-openstack-caracal-testing: hiera-3.7.0-2.el9s
 - project: horizon
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: python-django-horizon-24.0.0-1.el9s
+    cloud9s-openstack-caracal-testing: python-django-horizon-24.0.0-2.el9s
 - project: ibmcclient
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-ibmcclient-0.2.5.1-2.el9s
@@ -364,7 +364,7 @@ packages:
     cloud9s-openstack-caracal-testing: python-manila-tests-tempest-2.4.0-3.el9s
 - project: manila-ui
   buildsys-tags:
-    cloud9s-openstack-caracal-testing: openstack-manila-ui-11.0.0-1.el9s
+    cloud9s-openstack-caracal-testing: openstack-manila-ui-11.0.0-2.el9s
 - project: manilaclient
   buildsys-tags:
     cloud9s-openstack-caracal-testing: python-manilaclient-4.8.0-1.el9s
