@@ -238,7 +238,7 @@ packages:
     cloud9s-openstack-bobcat-release: heat-cfntools-1.4.2-15.el9s
 - project: heat-dashboard
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: openstack-heat-ui-10.0.0-1.el9s
+    cloud9s-openstack-bobcat-release: openstack-heat-ui-10.0.0-2.el9s
 - project: heat-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-heat-tests-tempest-2.1.0-2.el9s
@@ -253,7 +253,7 @@ packages:
     cloud9s-openstack-bobcat-release: hiera-3.7.0-2.el9s
 - project: horizon
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: python-django-horizon-23.3.0-1.el9s
+    cloud9s-openstack-bobcat-release: python-django-horizon-23.3.0-2.el9s
 - project: ibmcclient
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-ibmcclient-0.2.5.1-1.el9s
@@ -379,7 +379,7 @@ packages:
     cloud9s-openstack-bobcat-release: python-manila-tests-tempest-2.4.0-2.el9s
 - project: manila-ui
   buildsys-tags:
-    cloud9s-openstack-bobcat-release: openstack-manila-ui-10.0.0-1.el9s
+    cloud9s-openstack-bobcat-release: openstack-manila-ui-10.0.0-2.el9s
 - project: manilaclient
   buildsys-tags:
     cloud9s-openstack-bobcat-release: python-manilaclient-4.6.1-1.el9s
