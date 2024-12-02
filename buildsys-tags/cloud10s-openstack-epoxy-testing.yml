@@ -1,4 +1,10 @@
 packages:
+- project: crudini
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: crudini-0.9.5-4.el10s
+- project: dumb-init
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: dumb-init-1.2.5-12.el10s
 - project: liberasurecode
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: liberasurecode-1.6.2-10.el10s
