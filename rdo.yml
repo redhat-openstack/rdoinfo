@@ -474,8 +474,8 @@ package-configs:
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     component: common
     maintainers:
-    - jruzicka@redhat.com
-    - hguemar@fedoraproject.org
+    - jcapitao@redhat.com
+    - kkula@redhat.com
   rpmfactory-client:
     name: python-%(project)s
     upstream: https://opendev.org/openstack/python-%(project)s
@@ -488,8 +488,8 @@ package-configs:
     review-origin: ssh://review.rdoproject.org:29418/openstack/%(project)s-distgit.git
     component: clients
     maintainers:
-    - jruzicka@redhat.com
-    - hguemar@fedoraproject.org
+    - jcapitao@redhat.com
+    - kkula@redhat.com
   rpmfactory-lib:
     name: python-%(project)s
     upstream: https://opendev.org/openstack/%(project)s
@@ -503,7 +503,6 @@ package-configs:
     component: common
     maintainers:
     - apevec@redhat.com
-    - hguemar@fedoraproject.org
     - lbezdick@redhat.com
   rpmfactory-puppet:
     name: '%(project)s'
@@ -858,14 +857,12 @@ packages:
   conf: rpmfactory-core
   component: glance
   maintainers:
-  - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: glance_store
   conf: rpmfactory-lib
   component: glance
   name: python-glance-store
   maintainers:
-  - hguemar@fedoraproject.org
   - cyril@redhat.com
 - project: swift
   conf: rpmfactory-core
@@ -1165,12 +1162,9 @@ packages:
   conf: rpmfactory-core
   maintainers:
   - vimartin@redhat.com
-  - hguemar@fedoraproject.org
 - project: diskimage-builder
   conf: rpmfactory-core
   name: diskimage-builder
-  maintainers:
-  - jruzicka@redhat.com
 - project: directord
   source-branch: main
   conf: rpmfactory-core
@@ -1194,8 +1188,6 @@ packages:
 - project: dib-utils
   conf: rpmfactory-core
   name: dib-utils
-  maintainers:
-  - jruzicka@redhat.com
 - project: tripleo-heat-templates
   conf: rpmfactory-core
   component: tripleo
@@ -1329,13 +1321,11 @@ packages:
   conf: rpmfactory-core
   component: manila
   maintainers:
-  - hguemar@fedoraproject.org
   - tbarron@redhat.com
 - project: zaqar
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - hguemar@fedoraproject.org
   - fpercoco@redhat.com
 - project: ironic-inspector
   conf: rpmfactory-core
@@ -1435,7 +1425,6 @@ packages:
   conf: rpmfactory-core
   component: ui
   maintainers:
-  - hguemar@fedoraproject.org
   - tbarron@redhat.com
 - project: neutron-lbaas-dashboard
   name: openstack-neutron-lbaas-ui
@@ -1511,8 +1500,6 @@ packages:
   maintainers:
   - bcafarel@redhat.com
   - bhaley@redhat.com
-  - hguemar@fedoraproject.org
-  - jruzicka@redhat.com
   - majopela@redhat.com
   - nate.johnston@redhat.com
   - ralonsoh@redhat.com
@@ -1579,7 +1566,6 @@ packages:
 - project: zaqarclient
   conf: rpmfactory-client
   maintainers:
-  - hguemar@fedoraproject.org
   - fpercoco@redhat.com
   - therve@redhat.com
 - project: openstacksdk
@@ -1943,7 +1929,6 @@ packages:
 - project: mistralclient
   conf: rpmfactory-client
   maintainers:
-  - hguemar@fedoraproject.org
   - dougal@redhat.com
 - project: mistral-extra
   conf: rpmfactory-lib
@@ -1955,7 +1940,6 @@ packages:
   conf: rpmfactory-core
   component: tripleo
   maintainers:
-  - hguemar@fedoraproject.org
   - dougal@redhat.com
 - project: mistral-lib
   conf: rpmfactory-lib
