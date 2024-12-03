@@ -1865,7 +1865,7 @@ packages:
 - project: os-brick
   name: python-os-brick
   conf: rpmfactory-lib
-  component: clients
+  component: cinder
   upstream: https://opendev.org/openstack/%(project)s
   maintainers:
   - abishop@redhat.com
