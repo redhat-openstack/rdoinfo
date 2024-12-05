@@ -761,6 +761,9 @@ packages:
 - project: python-outcome
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-outcome-1.1.0-1.el9s
+- project: python-packaging
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-packaging-24.2-2.el9s
 - project: python-pandas
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-pandas-1.2.1-2.el9s
