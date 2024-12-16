@@ -32,6 +32,9 @@ packages:
 - project: liblqr-1
   buildsys-tags:
     cloud9s-openstack-epoxy-el9s-build: liblqr-1-0.4.2-17.el9s
+- project: libsass
+  buildsys-tags:
+    cloud9s-openstack-epoxy-el9s-build: libsass-3.6.6-1.el9s
 - project: libwmf
   buildsys-tags:
     cloud9s-openstack-epoxy-el9s-build: libwmf-0.2.12-6.el9s
