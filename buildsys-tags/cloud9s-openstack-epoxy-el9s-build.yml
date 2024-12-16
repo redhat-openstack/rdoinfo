@@ -68,6 +68,9 @@ packages:
 - project: python-aiohttp-cors
   buildsys-tags:
     cloud9s-openstack-epoxy-el9s-build: python-aiohttp-cors-0.7.0-12.el9s
+- project: python-aiosqlite
+  buildsys-tags:
+    cloud9s-openstack-epoxy-el9s-build: python-aiosqlite-0.20.0-4.el9s
 - project: python-apipkg
   buildsys-tags:
     cloud9s-openstack-epoxy-el9s-build: python-apipkg-1.5-12.el9s
