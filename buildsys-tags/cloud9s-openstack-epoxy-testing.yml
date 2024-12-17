@@ -125,6 +125,9 @@ packages:
 - project: libraqm
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: libraqm-0.7.0-7.el9s
+- project: libsass
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: libsass-3.6.6-1.el9s
 - project: libsodium
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: libsodium-1.0.18-7.el9s
@@ -668,6 +671,9 @@ packages:
 - project: python-lexicon
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-lexicon-2.0.1-9.el9s
+- project: python-libsass
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-libsass-0.23.0-4.el9s
 - project: python-linecache2
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-linecache2-1.0.0-29.el9s
