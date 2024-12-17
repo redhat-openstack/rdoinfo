@@ -361,7 +361,7 @@ packages:
     cloud9s-openstack-antelope-release: python-magnumclient-4.1.0-1.el9s
 - project: manila
   buildsys-tags:
-    cloud9s-openstack-antelope-release: openstack-manila-16.2.1-1.el9s
+    cloud9s-openstack-antelope-release: openstack-manila-16.3.0-1.el9s
 - project: manila-tempest-plugin
   buildsys-tags:
     cloud9s-openstack-antelope-release: python-manila-tests-tempest-2.4.0-1.el9s
@@ -667,7 +667,7 @@ packages:
     cloud9s-openstack-antelope-release: puppet-7.16.0-1.el9s
 - project: puppet-aodh
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-aodh-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-aodh-22.0.1-1.el9s
 - project: puppet-apache
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-apache-9.1.2-1.40d23acgit.el9s
@@ -676,16 +676,16 @@ packages:
     cloud9s-openstack-antelope-release: puppet-archive-6.1.2-0.1.0rc0.68bea2dgit.el9s
 - project: puppet-barbican
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-barbican-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-barbican-22.0.1-1.el9s
 - project: puppet-ceilometer
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-ceilometer-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-ceilometer-22.0.1-1.el9s
 - project: puppet-ceph
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-ceph-5.0.0-1.el9s
 - project: puppet-cinder
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-cinder-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-cinder-22.0.1-1.el9s
 - project: puppet-collectd
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-collectd-14.0.1-0.3.0rc0.8fa5ab6git.el9s
@@ -697,7 +697,7 @@ packages:
     cloud9s-openstack-antelope-release: puppet-corosync-8.2.1-0.3.0rc0.f5cd461git.el9s
 - project: puppet-designate
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-designate-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-designate-22.0.1-1.el9s
 - project: puppet-dns
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-dns-9.5.1-1.e736c2egit.el9s
@@ -712,19 +712,19 @@ packages:
     cloud9s-openstack-antelope-release: puppet-firewall-4.0.1-1.a1e4768git.el9s
 - project: puppet-glance
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-glance-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-glance-22.0.1-1.el9s
 - project: puppet-gnocchi
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-gnocchi-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-gnocchi-22.0.1-1.el9s
 - project: puppet-haproxy
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-haproxy-6.4.0-1.eb2c60agit.el9s
 - project: puppet-heat
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-heat-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-heat-22.0.1-1.el9s
 - project: puppet-horizon
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-horizon-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-horizon-22.1.0-1.el9s
 - project: puppet-inifile
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-inifile-5.4.0-1.12e8ac0git.el9s
@@ -736,22 +736,22 @@ packages:
     cloud9s-openstack-antelope-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el9s
 - project: puppet-keystone
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-keystone-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-keystone-22.1.0-1.el9s
 - project: puppet-kmod
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-kmod-3.2.1-0.3.0rc0.82fc304git.el9s
 - project: puppet-magnum
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-magnum-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-magnum-22.0.1-1.el9s
 - project: puppet-manila
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-manila-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-manila-22.0.1-1.el9s
 - project: puppet-memcached
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-memcached-8.1.0-1.bf92113git.el9s
 - project: puppet-mistral
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-mistral-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-mistral-22.0.1-1.el9s
 - project: puppet-module-data
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-module-data-0.5.1-1.28dafcegit.el9s
@@ -766,28 +766,28 @@ packages:
     cloud9s-openstack-antelope-release: puppet-neutron-22.0.1-1.el9s
 - project: puppet-nova
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-nova-22.1.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-nova-22.2.0-1.el9s
 - project: puppet-nssdb
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-nssdb-1.0.1-1.2ed2a2dgit.el9s
 - project: puppet-octavia
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-octavia-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-octavia-22.0.1-1.el9s
 - project: puppet-openstack_extras
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-openstack_extras-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-openstack_extras-22.0.1-1.el9s
 - project: puppet-openstacklib
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-openstacklib-22.0.0-1.el9s
 - project: puppet-oslo
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-oslo-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-oslo-22.0.1-1.el9s
 - project: puppet-ovn
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-ovn-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-ovn-22.0.1-1.el9s
 - project: puppet-placement
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-placement-9.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-placement-9.0.1-1.el9s
 - project: puppet-qdr
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-qdr-11.0.0-1.el9s
@@ -823,7 +823,7 @@ packages:
     cloud9s-openstack-antelope-release: puppet-stdlib-8.5.0-1.ef733aagit.el9s
 - project: puppet-swift
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-swift-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-swift-22.0.1-1.el9s
 - project: puppet-sysctl
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-sysctl-0.0.12-2.847ec1cgit.el9s
@@ -835,28 +835,28 @@ packages:
     cloud9s-openstack-antelope-release: puppet-tempest-22.1.0-1.el9s
 - project: puppet-trove
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-trove-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-trove-22.0.1-1.el9s
 - project: puppet-vcsrepo
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-vcsrepo-5.4.0-1.b82414bgit.el9s
 - project: puppet-vitrage
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-vitrage-12.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-vitrage-12.0.1-1.el9s
 - project: puppet-vlan
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-vlan-0.1.0-1.el9s
 - project: puppet-vswitch
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-vswitch-18.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-vswitch-18.0.1-1.el9s
 - project: puppet-watcher
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-watcher-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-watcher-22.0.1-1.el9s
 - project: puppet-xinetd
   buildsys-tags:
     cloud9s-openstack-antelope-release: puppet-xinetd-3.3.0-2.d7be366git.el9s
 - project: puppet-zaqar
   buildsys-tags:
-    cloud9s-openstack-antelope-release: puppet-zaqar-22.0.0-1.el9s
+    cloud9s-openstack-antelope-release: puppet-zaqar-22.0.1-1.el9s
 - project: pyOpenSSL
   buildsys-tags:
     cloud9s-openstack-antelope-release: pyOpenSSL-20.0.1-2.el9s
