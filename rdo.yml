@@ -113,7 +113,7 @@ releases:
       url: http://mirror.stream.centos.org/9-stream/HighAvailability/x86_64/os/
     - name: CentOS Stream 9 CRB
 - name: antelope
-  status: maintained
+  status: extended_maintenance
   branch: rpm-master
   identifier: "2023.1"
   upstream_branch: "stable/2023.1"
@@ -137,7 +137,7 @@ releases:
       url: http://mirror.stream.centos.org/9-stream/HighAvailability/x86_64/os/
     - name: CentOS Stream 9 CRB
 - name: zed
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   upstream_branch: "unmaintained/zed"
   tags_map: separated_buildreqs
@@ -161,7 +161,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: yoga
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   upstream_branch: "unmaintained/yoga"
   tags_map: separated_buildreqs
@@ -203,7 +203,7 @@ releases:
     - name: CentOS Stream 9 CRB
       url: http://mirror.stream.centos.org/9-stream/CRB/x86_64/os/
 - name: xena
-  status: extended_maintenance
+  status: eol
   branch: rpm-master
   upstream_branch: "stable/xena"
   tags_map: separated_buildreqs
