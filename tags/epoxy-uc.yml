@@ -476,11 +476,11 @@ packages:
 - project: oslo-log
   tags:
     epoxy-uc:
-      source-branch: 6.2.0
+      source-branch: 7.0.0
 - project: oslo-messaging
   tags:
     epoxy-uc:
-      source-branch: 15.0.0
+      source-branch: 16.0.0
 - project: oslo-metrics
   tags:
     epoxy-uc:
@@ -709,7 +709,7 @@ packages:
   tags:
     epoxy-uc:
       component: puppet
-      source-branch: v11.0.0
+      source-branch: v11.1.0
 - project: puppet-remote
   tags:
     epoxy-uc:
