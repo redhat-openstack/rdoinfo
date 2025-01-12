@@ -14,6 +14,12 @@ packages:
 - project: openstack-network-scripts
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: openstack-network-scripts-10.11.1-7.el10s
+- project: python-cpuinfo
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-cpuinfo-9.0.0-10.el10s
+- project: python-pytest-benchmark
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-pytest-benchmark-4.0.0-4.el10s
 - project: python-redis
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-redis-5.1.1-3.el10s
