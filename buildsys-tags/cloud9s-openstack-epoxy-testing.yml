@@ -1042,7 +1042,7 @@ packages:
     cloud9s-openstack-epoxy-testing: python-tornado-6.4.1-1.el9s
 - project: python-tosca-parser
   buildsys-tags:
-    cloud9s-openstack-epoxy-testing: python-tosca-parser-2.9.1-1.el9s
+    cloud9s-openstack-epoxy-testing: python-tosca-parser-2.12.0-1.el9s
 - project: python-trio
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-trio-0.18.0-1.el9s
@@ -1199,6 +1199,9 @@ packages:
 - project: rubygem-thor
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: rubygem-thor-1.1.0-2.el9s
+- project: sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-sphinxcontrib-apidoc-0.5.0-1.el9s
 - project: sshpass
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: sshpass-1.09-1.el9s
