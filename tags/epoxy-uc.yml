@@ -49,7 +49,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     epoxy-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: cinder
   tags:
     epoxy-uc:
@@ -278,7 +278,7 @@ packages:
 - project: mistral-lib
   tags:
     epoxy-uc:
-      source-branch: 3.0.0
+      source-branch: 3.1.0
       component: common
 - project: mistral-tempest-plugin
   tags:
@@ -335,14 +335,14 @@ packages:
 - project: neutronclient
   tags:
     epoxy-uc:
-      source-branch: 11.3.1
+      source-branch: 11.4.0
 - project: nova
   tags:
     epoxy-uc:
 - project: novaclient
   tags:
     epoxy-uc:
-      source-branch: 18.7.0
+      source-branch: 18.8.0
 - project: observabilityclient
   tags:
     epoxy-uc:
@@ -385,7 +385,7 @@ packages:
 - project: os-brick
   tags:
     epoxy-uc:
-      source-branch: 6.9.0
+      source-branch: 6.10.0
 - project: os-client-config
   tags:
     epoxy-uc:
@@ -452,7 +452,7 @@ packages:
 - project: oslo-concurrency
   tags:
     epoxy-uc:
-      source-branch: 6.2.0
+      source-branch: 7.0.0
 - project: oslo-config
   tags:
     epoxy-uc:
@@ -512,7 +512,7 @@ packages:
 - project: oslo-service
   tags:
     epoxy-uc:
-      source-branch: 3.6.0
+      source-branch: 4.0.0
 - project: oslo-upgradecheck
   tags:
     epoxy-uc:
@@ -908,7 +908,7 @@ packages:
 - project: watcherclient
   tags:
     epoxy-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     epoxy-uc:
@@ -929,4 +929,4 @@ packages:
 - project: zaqarclient
   tags:
     epoxy-uc:
-      source-branch: 2.9.0
+      source-branch: 2.10.0
