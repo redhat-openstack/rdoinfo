@@ -278,7 +278,7 @@ packages:
 - project: mistral-lib
   tags:
     epoxy-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
       component: common
 - project: mistral-tempest-plugin
   tags:
@@ -324,7 +324,7 @@ packages:
 - project: neutron-lib
   tags:
     epoxy-uc:
-      source-branch: 3.18.0
+      source-branch: 3.18.1
 - project: neutron-tempest-plugin
   tags:
     epoxy-uc:
