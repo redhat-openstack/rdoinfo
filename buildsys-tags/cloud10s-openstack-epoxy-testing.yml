@@ -23,6 +23,9 @@ packages:
 - project: fontawesome-fonts
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: fontawesome-fonts-6.7.2-1.el10s
+- project: futurist
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-futurist-2.3.0-3.el10s
 - project: gflags
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: gflags-2.2.2-16.el10s
@@ -269,6 +272,9 @@ packages:
 - project: python-construct
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-construct-2.10.70-2.el10s
+- project: python-contextlib2
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-contextlib2-0.6.0.post1-2.el10s
 - project: python-coverage
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-coverage-7.3.2-5.el10s
@@ -329,6 +335,9 @@ packages:
 - project: python-elementpath
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-elementpath-4.5.0-4.el10s
+- project: python-etcd3gw
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-etcd3gw-2.4.1-1.el10s
 - project: python-eventlet
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-eventlet-0.36.1-1.el10s
