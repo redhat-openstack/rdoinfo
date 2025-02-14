@@ -347,7 +347,7 @@ packages:
 - project: python3-mypy
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python3-mypy-1.14.1-2.el10s
-- project: sphinxcontrib-apidoc
+- project: python-sphinxcontrib-apidoc
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-sphinxcontrib-apidoc-0.5.0-1.el10s
 - project: tomcli
