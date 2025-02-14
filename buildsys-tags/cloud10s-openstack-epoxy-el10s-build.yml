@@ -290,6 +290,9 @@ packages:
 - project: python-sphinx-issues
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-sphinx-issues-5.0.0-2.el10s
+- project: python-sphinxcontrib-apidoc
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: python-sphinxcontrib-apidoc-0.5.0-1.el10s
 - project: python-sphinxcontrib-httpdomain
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-sphinxcontrib-httpdomain-1.8.1-1.el10s
@@ -347,9 +350,12 @@ packages:
 - project: python3-mypy
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python3-mypy-1.14.1-2.el10s
-- project: python-sphinxcontrib-apidoc
+- project: rubygem-introspection
   buildsys-tags:
-    cloud10s-openstack-epoxy-el10s-build: python-sphinxcontrib-apidoc-0.5.0-1.el10s
+    cloud10s-openstack-epoxy-el10s-build: rubygem-introspection-0.0.4-19.el10s
+- project: rubygem-metaclass
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: rubygem-metaclass-0.0.4-20.el10s
 - project: tomcli
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: tomcli-0.8.0-2.el10s
