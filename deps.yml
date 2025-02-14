@@ -1644,9 +1644,6 @@ packages:
 - project: python-backports-ssl_match_hostname
   name: python-backports-ssl_match_hostname
   conf: rdo-dependency
-- project: sphinxcontrib-apidoc
-  name: python-sphinxcontrib-apidoc
-  conf: fedora-dependency
 - project: uwsgi
   name: uwsgi
   conf: rdo-dependency
