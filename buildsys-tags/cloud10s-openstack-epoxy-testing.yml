@@ -389,6 +389,9 @@ packages:
 - project: python-flask
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-flask-3.1.0-3.el10s
+- project: python-flask-restful
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-flask-restful-0.3.10-1.el10s
 - project: python-fluidity-sm
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-fluidity-sm-0.2.0-35.el10s
@@ -734,6 +737,9 @@ packages:
 - project: python-sphinx-argparse
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-sphinx-argparse-0.5.2-1.el10s
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-sphinxcontrib-svg2pdfconverter-1.2.0-13.el10s
 - project: python-spnego
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-spnego-0.11.1-2.el10s
@@ -794,6 +800,9 @@ packages:
 - project: python-tomlkit
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-tomlkit-0.13.2-1.el10s
+- project: python-tosca-parser
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-tosca-parser-2.12.0-1.el10s
 - project: python-trio
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-trio-0.23.1-7.el10s
