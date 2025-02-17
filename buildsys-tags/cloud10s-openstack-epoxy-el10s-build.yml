@@ -305,6 +305,9 @@ packages:
 - project: python-sphinxcontrib-programoutput
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-sphinxcontrib-programoutput-0.16-1.1.el10s
+- project: python-sphinxcontrib-svg2pdfconverter
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: python-sphinxcontrib-svg2pdfconverter-1.2.0-13.el10s
 - project: python-tempora
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-tempora-5.7.0-2.el10s
