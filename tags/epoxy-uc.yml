@@ -49,7 +49,7 @@ packages:
 - project: ceilometermiddleware
   tags:
     epoxy-uc:
-      source-branch: 3.6.0
+      source-branch: 3.6.1
 - project: cinder
   tags:
     epoxy-uc:
@@ -157,7 +157,7 @@ packages:
 - project: heat-translator
   tags:
     epoxy-uc:
-      source-branch: 3.1.0
+      source-branch: 3.2.0
       component: common
 - project: heatclient
   tags:
@@ -219,7 +219,7 @@ packages:
 - project: keystonemiddleware
   tags:
     epoxy-uc:
-      source-branch: 10.8.0
+      source-branch: 10.9.0
 - project: kolla
   tags:
     epoxy-uc:
@@ -256,7 +256,7 @@ packages:
 - project: metalsmith
   tags:
     epoxy-uc:
-      source-branch: 2.4.0
+      source-branch: 2.4.1
 - project: microversion-parse
   tags:
     epoxy-uc:
@@ -275,7 +275,7 @@ packages:
 - project: mistral-lib
   tags:
     epoxy-uc:
-      source-branch: 3.3.0
+      source-branch: 3.3.1
       component: common
 - project: mistral-tempest-plugin
   tags:
@@ -352,7 +352,7 @@ packages:
 - project: octavia-lib
   tags:
     epoxy-uc:
-      source-branch: 3.7.0
+      source-branch: 3.8.0
 - project: octavia-tempest-plugin
   tags:
     epoxy-uc:
@@ -381,7 +381,7 @@ packages:
 - project: os-brick
   tags:
     epoxy-uc:
-      source-branch: 6.10.0
+      source-branch: 6.11.0
 - project: os-client-config
   tags:
     epoxy-uc:
@@ -448,7 +448,7 @@ packages:
 - project: oslo-concurrency
   tags:
     epoxy-uc:
-      source-branch: 7.0.0
+      source-branch: 7.1.0
 - project: oslo-config
   tags:
     epoxy-uc:
@@ -468,15 +468,15 @@ packages:
 - project: oslo-limit
   tags:
     epoxy-uc:
-      source-branch: 2.6.0
+      source-branch: 2.6.1
 - project: oslo-log
   tags:
     epoxy-uc:
-      source-branch: 7.0.0
+      source-branch: 7.1.0
 - project: oslo-messaging
   tags:
     epoxy-uc:
-      source-branch: 16.0.0
+      source-branch: 16.1.0
 - project: oslo-metrics
   tags:
     epoxy-uc:
@@ -492,7 +492,7 @@ packages:
 - project: oslo-privsep
   tags:
     epoxy-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: oslo-reports
   tags:
     epoxy-uc:
@@ -504,7 +504,7 @@ packages:
 - project: oslo-serialization
   tags:
     epoxy-uc:
-      source-branch: 5.6.0
+      source-branch: 5.7.0
 - project: oslo-service
   tags:
     epoxy-uc:
@@ -512,15 +512,15 @@ packages:
 - project: oslo-upgradecheck
   tags:
     epoxy-uc:
-      source-branch: 2.4.0
+      source-branch: 2.5.0
 - project: oslo-utils
   tags:
     epoxy-uc:
-      source-branch: 8.1.0
+      source-branch: 8.2.0
 - project: oslo-versionedobjects
   tags:
     epoxy-uc:
-      source-branch: 3.5.0
+      source-branch: 3.6.0
 - project: oslo-vmware
   tags:
     epoxy-uc:
@@ -542,7 +542,7 @@ packages:
 - project: ovsdbapp
   tags:
     epoxy-uc:
-      source-branch: 2.10.0
+      source-branch: 2.10.1
 - project: packstack
   tags:
     epoxy-uc:
@@ -811,7 +811,7 @@ packages:
 - project: stevedore
   tags:
     epoxy-uc:
-      source-branch: 5.4.0
+      source-branch: 5.4.1
 - project: sushy
   tags:
     epoxy-uc:
@@ -842,7 +842,7 @@ packages:
 - project: taskflow
   tags:
     epoxy-uc:
-      source-branch: 5.10.0
+      source-branch: 5.11.0
 - project: tcib
   tags:
     epoxy-uc:
