@@ -38,7 +38,7 @@ packages:
 - project: barbicanclient
   tags:
     epoxy-uc:
-      source-branch: 7.0.0
+      source-branch: 7.1.0
 - project: castellan
   tags:
     epoxy-uc:
@@ -63,7 +63,7 @@ packages:
 - project: cliff
   tags:
     epoxy-uc:
-      source-branch: 4.8.0
+      source-branch: 4.9.1
 - project: cloudkitty
   tags:
     epoxy-uc:
@@ -73,7 +73,7 @@ packages:
 - project: cloudkittyclient
   tags:
     epoxy-uc:
-      source-branch: 5.3.0
+      source-branch: 5.3.1
 - project: collectd-gnocchi
   tags:
     epoxy-uc:
@@ -97,7 +97,7 @@ packages:
 - project: designateclient
   tags:
     epoxy-uc:
-      source-branch: 6.1.0
+      source-branch: 6.2.0
 - project: diskimage-builder
   tags:
     epoxy-uc:
@@ -121,7 +121,7 @@ packages:
 - project: glanceclient
   tags:
     epoxy-uc:
-      source-branch: 4.7.0
+      source-branch: 4.8.0
 - project: glean
   tags:
     epoxy-uc:
@@ -175,7 +175,7 @@ packages:
 - project: ironic-inspector-client
   tags:
     epoxy-uc:
-      source-branch: 5.2.0
+      source-branch: 5.3.0
 - project: ironic-lib
   tags:
     epoxy-uc:
@@ -215,7 +215,7 @@ packages:
 - project: keystoneclient
   tags:
     epoxy-uc:
-      source-branch: 5.5.0
+      source-branch: 5.6.0
 - project: keystonemiddleware
   tags:
     epoxy-uc:
@@ -239,7 +239,7 @@ packages:
 - project: magnumclient
   tags:
     epoxy-uc:
-      source-branch: 4.7.0
+      source-branch: 4.8.0
 - project: manila
   tags:
     epoxy-uc:
@@ -283,7 +283,7 @@ packages:
 - project: mistralclient
   tags:
     epoxy-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: monascaclient
   tags:
     epoxy-uc:
@@ -321,7 +321,7 @@ packages:
 - project: neutron-lib
   tags:
     epoxy-uc:
-      source-branch: 3.18.1
+      source-branch: 3.18.2
 - project: neutron-tempest-plugin
   tags:
     epoxy-uc:
@@ -338,11 +338,11 @@ packages:
 - project: novaclient
   tags:
     epoxy-uc:
-      source-branch: 18.8.0
+      source-branch: 18.9.0
 - project: observabilityclient
   tags:
     epoxy-uc:
-      source-branch: 0.3.0
+      source-branch: 0.4.0
 - project: octavia
   tags:
     epoxy-uc:
@@ -359,7 +359,7 @@ packages:
 - project: octaviaclient
   tags:
     epoxy-uc:
-      source-branch: 3.9.0
+      source-branch: 3.10.0
 - project: openstack-macros
   tags:
     epoxy-uc:
@@ -369,7 +369,7 @@ packages:
 - project: openstackclient
   tags:
     epoxy-uc:
-      source-branch: 7.3.1
+      source-branch: 7.4.0
 - project: openstacksdk
   tags:
     epoxy-uc:
@@ -400,7 +400,7 @@ packages:
 - project: os-ken
   tags:
     epoxy-uc:
-      source-branch: 3.0.0
+      source-branch: 3.0.1
 - project: os-net-config
   tags:
     epoxy-uc:
@@ -428,7 +428,7 @@ packages:
 - project: os-vif
   tags:
     epoxy-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
 - project: os-win
   tags:
     epoxy-uc:
@@ -440,7 +440,7 @@ packages:
 - project: osc-placement
   tags:
     epoxy-uc:
-      source-branch: 4.5.0
+      source-branch: 4.6.0
 - project: oslo-cache
   tags:
     epoxy-uc:
@@ -460,7 +460,7 @@ packages:
 - project: oslo-db
   tags:
     epoxy-uc:
-      source-branch: 17.2.0
+      source-branch: 17.2.1
 - project: oslo-i18n
   tags:
     epoxy-uc:
@@ -542,7 +542,7 @@ packages:
 - project: ovsdbapp
   tags:
     epoxy-uc:
-      source-branch: 2.10.1
+      source-branch: 2.11.0
 - project: packstack
   tags:
     epoxy-uc:
@@ -815,7 +815,7 @@ packages:
 - project: sushy
   tags:
     epoxy-uc:
-      source-branch: 5.4.0
+      source-branch: 5.5.0
 - project: sushy-oem-idrac
   tags:
     epoxy-uc:
@@ -828,7 +828,7 @@ packages:
 - project: swiftclient
   tags:
     epoxy-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.0
 - project: tacker
   tags:
     epoxy-uc:
@@ -874,7 +874,7 @@ packages:
 - project: troveclient
   tags:
     epoxy-uc:
-      source-branch: 8.7.0
+      source-branch: 8.8.0
 - project: virtualbmc
   tags:
     epoxy-uc:
@@ -904,7 +904,7 @@ packages:
 - project: watcherclient
   tags:
     epoxy-uc:
-      source-branch: 4.7.0
+      source-branch: 4.8.0
 - project: whitebox-neutron-tempest-plugin
   tags:
     epoxy-uc:
@@ -925,4 +925,4 @@ packages:
 - project: zaqarclient
   tags:
     epoxy-uc:
-      source-branch: 2.10.0
+      source-branch: 3.0.0
