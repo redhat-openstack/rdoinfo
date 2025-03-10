@@ -803,6 +803,9 @@ packages:
 - project: python-pyasn1
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-pyasn1-0.6.0-1.el9s
+- project: python-pycdlib
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-pycdlib-1.14.0-1.el10s
 - project: python-pycodestyle
   buildsys-tags:
     cloud9s-openstack-epoxy-testing: python-pycodestyle-2.9.1-1.el9s

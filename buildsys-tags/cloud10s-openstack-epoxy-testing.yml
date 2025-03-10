@@ -614,6 +614,9 @@ packages:
 - project: python-pillow
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-pillow-11.1.0-2.el10s
+- project: python-pint
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-pint-0.16.1-4.el10s
 - project: python-prometheus_client
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-prometheus_client-0.21.0-2.el10s
