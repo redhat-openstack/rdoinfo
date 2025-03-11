@@ -362,6 +362,9 @@ packages:
 - project: tomcli
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: tomcli-0.8.0-2.el10s
+- project: ttembed
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: ttembed-1.1-23.el10s
 - project: xorg-x11-drv-libinput
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: xorg-x11-drv-libinput-1.5.0-2.el10s
