@@ -581,6 +581,9 @@ packages:
 - project: python-ndg_httpsclient
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-ndg_httpsclient-0.5.1-23.el10s
+- project: python-netifaces
+  buildsys-tags:
+    cloud9s-openstack-epoxy-testing: python-netifaces-0.11.0-1.el10s
 - project: python-netmiko
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-netmiko-4.4.0-5.el10s
