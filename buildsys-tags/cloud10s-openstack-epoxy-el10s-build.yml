@@ -2,6 +2,9 @@ packages:
 - project: ImageMagick
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: ImageMagick-6.9.12.98-1.el10s
+- project: ansible-packaging
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: ansible-packaging-1-9.1.1.el10s
 - project: LibRaw
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: LibRaw-0.21.3-1.el10s

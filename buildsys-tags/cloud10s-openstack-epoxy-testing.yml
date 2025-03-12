@@ -5,6 +5,9 @@ packages:
 - project: abseil-cpp
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: abseil-cpp-20240722.1-1.el10s
+- project: ansible-core
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: openstack-ansible-core-2.14.2-4.1.el10s
 - project: argon2
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: argon2-20190702-6.el10s
@@ -110,6 +113,9 @@ packages:
 - project: pysnmp-lextudio
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: pysnmp-lextudio-5.0.26-2.el10s
+- project: pystache
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: pystache-0.6.7-1.el10s
 - project: python-APScheduler
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-APScheduler-3.10.4-4.el10s
