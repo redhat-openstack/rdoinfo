@@ -115,7 +115,7 @@ packages:
     cloud10s-openstack-epoxy-testing: pysnmp-lextudio-5.0.26-2.el10s
 - project: pystache
   buildsys-tags:
-    cloud10s-openstack-epoxy-testing: pystache-0.6.7-1.el10s
+    cloud10s-openstack-epoxy-testing: pystache-0.6.7-2.el10s
 - project: python-APScheduler
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-APScheduler-3.10.4-4.el10s
@@ -632,6 +632,9 @@ packages:
 - project: python-prometheus_client
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-prometheus_client-0.21.0-2.el10s
+- project: python-pyasyncore
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-pyasyncore-1.0.2-6.el10s
 - project: python-pycdlib
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-pycdlib-1.14.0-1.el10s
