@@ -35,6 +35,9 @@ packages:
 - project: fontawesome-fonts
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: fontawesome-fonts-4.7.0-13.el10s
+- project: fonttools
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: fonttools-4.55.3-4.el10s
 - project: futurist
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-futurist-2.3.0-3.el10s
@@ -275,6 +278,9 @@ packages:
 - project: python-blinker
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-blinker-1.9.0-1.el10s
+- project: python-boto
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-boto-2.49.0-17.el10s
 - project: python-boto3
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-boto3-1.35.81-1.el10s
@@ -305,6 +311,9 @@ packages:
 - project: python-contextlib2
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-contextlib2-0.6.0.post1-2.el10s
+- project: python-contourpy
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-contourpy-1.2.0-6.el10s
 - project: python-cotyledon
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-cotyledon-1.7.3-8.el10s
@@ -545,6 +554,9 @@ packages:
 - project: python-lz4
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-lz4-4.3.3-5.el10s
+- project: python-matplotlib
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-matplotlib-3.7.2-2.el10s
 - project: python-mbstrdecoder
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-mbstrdecoder-1.1.3-1.el10s
@@ -908,6 +920,9 @@ packages:
 - project: python-zmq
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-zmq-26.2.0-3.el10s
+- project: python-zombie-imp
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-zombie-imp-0.0.2-8.el10s
 - project: python-zope-event
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-zope-event-4.2.0-20.el10s
@@ -974,6 +989,9 @@ packages:
 - project: subunit
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: subunit-1.4.4-5.el10s
+- project: sympy
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: sympy-1.12-2.el10s
 - project: uwsgi
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: uwsgi-2.0.27-4.el10s
