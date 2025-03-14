@@ -14,6 +14,9 @@ packages:
 - project: fish
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: fish-3.7.1-1.el10s
+- project: fonttools
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: fonttools-4.55.3-4.el10s
 - project: google-benchmark
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: google-benchmark-1.9.1-1.el10s
@@ -347,6 +350,9 @@ packages:
 - project: python-websockets
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-websockets-14.1-2.el10s
+- project: python-wurlitzer
+  buildsys-tags:
+    cloud10s-openstack-epoxy-el10s-build: python-wurlitzer-3.1.1-3.el10s
 - project: python-yarl
   buildsys-tags:
     cloud10s-openstack-epoxy-el10s-build: python-yarl-1.13.1-2.el10s
