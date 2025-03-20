@@ -680,6 +680,9 @@ packages:
 - project: python-pysaml2
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-pysaml2-7.4.2-2.el10s
+- project: python-pytest-rerunfailures
+  buildsys-tags:
+    cloud10s-openstack-epoxy-testing: python-pytest-rerunfailures-15.0-1.el10s
 - project: python-pytest-runner
   buildsys-tags:
     cloud10s-openstack-epoxy-testing: python-pytest-runner-4.0-26.el10s
