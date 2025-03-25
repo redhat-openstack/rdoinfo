@@ -35,6 +35,7 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 4.3.0
 - project: barbicanclient
   tags:
     epoxy-uc:
@@ -56,6 +57,7 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 1.17.0
 - project: cinderclient
   tags:
     epoxy-uc:
@@ -94,6 +96,7 @@ packages:
 - project: designate-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 0.25.0
 - project: designateclient
   tags:
     epoxy-uc:
@@ -114,6 +117,7 @@ packages:
 - project: glance-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 0.12.0
 - project: glance_store
   tags:
     epoxy-uc:
@@ -154,6 +158,7 @@ packages:
 - project: heat-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.5.0
 - project: heat-translator
   tags:
     epoxy-uc:
@@ -195,6 +200,7 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.13.0
 - project: ironic-ui
   tags:
     epoxy-uc:
@@ -208,6 +214,7 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 0.18.0
 - project: keystoneauth1
   tags:
     epoxy-uc:
@@ -233,6 +240,7 @@ packages:
 - project: magnum-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.7.0
 - project: magnum-ui
   tags:
     epoxy-uc:
@@ -246,6 +254,7 @@ packages:
 - project: manila-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.7.0
 - project: manila-ui
   tags:
     epoxy-uc:
@@ -280,6 +289,7 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.6.0
 - project: mistralclient
   tags:
     epoxy-uc:
@@ -306,6 +316,7 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     epoxy-uc:
@@ -325,6 +336,7 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.11.0
 - project: neutron-vpnaas
   tags:
     epoxy-uc:
@@ -356,6 +368,7 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 3.0.0
 - project: octaviaclient
   tags:
     epoxy-uc:
@@ -849,9 +862,11 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.5.0
 - project: tempest
   tags:
     epoxy-uc:
+      source-branch: 43.0.0
 - project: tempestconf
   tags:
     epoxy-uc:
@@ -871,6 +886,7 @@ packages:
 - project: trove-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 2.5.0
 - project: troveclient
   tags:
     epoxy-uc:
@@ -888,6 +904,7 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 6.6.0
 - project: vitrageclient
   tags:
     epoxy-uc:
@@ -901,6 +918,7 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 3.4.0
 - project: watcherclient
   tags:
     epoxy-uc:
@@ -908,9 +926,11 @@ packages:
 - project: whitebox-neutron-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: master
 - project: whitebox-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 0.0.3
 - project: wsme
   tags:
     epoxy-uc:
@@ -922,6 +942,7 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     epoxy-uc:
+      source-branch: 3.0.0
 - project: zaqarclient
   tags:
     epoxy-uc:
