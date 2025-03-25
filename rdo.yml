@@ -915,7 +915,7 @@ packages:
   component: cloudops
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: gnocchi
   name: gnocchi
   conf: rpmfactory-core
@@ -923,19 +923,19 @@ packages:
   upstream: https://github.com/gnocchixyz/%(project)s
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: aodh
   conf: rpmfactory-core
   component: cloudops
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: panko
   conf: rpmfactory-core
   component: cloudops
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: heat
   conf: rpmfactory-core
   component: tripleo
@@ -1616,17 +1616,17 @@ packages:
   upstream: https://github.com/gnocchixyz/python-%(project)s
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: aodhclient
   conf: rpmfactory-client
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: pankoclient
   conf: rpmfactory-client
   maintainers:
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: monascaclient
   conf: rpmfactory-client
   maintainers:
@@ -2011,7 +2011,7 @@ packages:
   maintainers:
   - apevec@redhat.com
   - mrunge@redhat.com
-  - ykulkarn@redhat.com
+  - mmagr@redhat.com
 - project: magnumclient
   conf: rpmfactory-client
   maintainers:
