@@ -1,949 +1,949 @@
 packages:
 - project: ansible-collections-openstack
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ansible-config_template
   tags:
-    epoxy:
+    flamingo-uc:
       component: podified
 - project: ansible-role-atos-hsm
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ansible-role-collectd-config
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ansible-role-lunasa-hsm
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ansible-role-thales-hsm
   tags:
-    epoxy:
+    flamingo-uc:
 - project: aodh
   tags:
-    epoxy:
+    flamingo-uc:
 - project: aodhclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.7.1
 - project: automaton
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.2.0
 - project: barbican
   tags:
-    epoxy:
+    flamingo-uc:
 - project: barbican-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.3.0
 - project: barbicanclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.1.0
 - project: castellan
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.2.1
 - project: ceilometer
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ceilometermiddleware
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.6.1
 - project: cinder
   tags:
-    epoxy:
+    flamingo-uc:
 - project: cinder-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 1.17.0
 - project: cinderclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 9.7.0
 - project: cliff
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.9.1
 - project: cloudkitty
   tags:
-    epoxy:
+    flamingo-uc:
 - project: cloudkitty-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: cloudkittyclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.3.1
 - project: collectd-gnocchi
   tags:
-    epoxy:
+    flamingo-uc:
 - project: cursive
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.2.3
 - project: debtcollector
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.0.0
 - project: designate
   tags:
-    epoxy:
+    flamingo-uc:
 - project: designate-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: designate-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.25.0
 - project: designateclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 6.2.0
 - project: diskimage-builder
   tags:
-    epoxy:
+    flamingo-uc:
 - project: edpm-image-builder
   tags:
-    epoxy:
+    flamingo-uc:
 - project: futurist
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.1.0
 - project: glance
   tags:
-    epoxy:
+    flamingo-uc:
 - project: glance-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.12.0
 - project: glance_store
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.9.1
 - project: glanceclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.8.0
 - project: glean
   tags:
-    epoxy:
+    flamingo-uc:
 - project: gnocchi
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: stable/4.6
 - project: gnocchiclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.1.0
 - project: hacking
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.0.0
 - project: hardware
   tags:
-    epoxy:
+    flamingo-uc:
 - project: heat
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: heat-agents
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: heat-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: heat-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.5.0
 - project: heat-translator
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.2.0
       component: common
 - project: heatclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.1.0
 - project: horizon
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic-inspector
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic-inspector-client
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.3.0
 - project: ironic-lib
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.0.0
 - project: ironic-prometheus-exporter
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic-python-agent
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic-python-agent-builder
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic-staging-drivers
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironic-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.13.0
 - project: ironic-ui
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ironicclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.10.0
 - project: keystone
   tags:
-    epoxy:
+    flamingo-uc:
 - project: keystone-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.18.0
 - project: keystoneauth1
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.10.0
 - project: keystoneclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.6.0
 - project: keystonemiddleware
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 10.9.0
 - project: kolla
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: kuryr
   tags:
-    epoxy:
+    flamingo-uc:
 - project: magnum
   tags:
-    epoxy:
+    flamingo-uc:
 - project: magnum-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.7.0
 - project: magnum-ui
   tags:
-    epoxy:
+    flamingo-uc:
 - project: magnumclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.8.1
 - project: manila
   tags:
-    epoxy:
+    flamingo-uc:
 - project: manila-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.7.0
 - project: manila-ui
   tags:
-    epoxy:
+    flamingo-uc:
 - project: manilaclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.4.0
 - project: metalsmith
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.4.1
 - project: microversion-parse
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.0.0
 - project: mistral
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: mistral-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: mistral-extra
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: mistral-lib
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.3.1
       component: common
 - project: mistral-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.6.0
 - project: mistralclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.4.0
 - project: monascaclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.8.0
 - project: networking-bagpipe
   tags:
-    epoxy:
+    flamingo-uc:
 - project: networking-baremetal
   tags:
-    epoxy:
+    flamingo-uc:
 - project: networking-bgpvpn
   tags:
-    epoxy:
+    flamingo-uc:
 - project: networking-generic-switch
   tags:
-    epoxy:
+    flamingo-uc:
 - project: networking-l2gw
   tags:
-    epoxy:
+    flamingo-uc:
 - project: networking-l2gw-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
-    epoxy:
+    flamingo-uc:
 - project: networking-sfc
   tags:
-    epoxy:
+    flamingo-uc:
 - project: neutron
   tags:
-    epoxy:
+    flamingo-uc:
 - project: neutron-dynamic-routing
   tags:
-    epoxy:
+    flamingo-uc:
 - project: neutron-lib
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.18.2
 - project: neutron-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.11.0
 - project: neutron-vpnaas
   tags:
-    epoxy:
+    flamingo-uc:
 - project: neutronclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 11.4.0
 - project: nova
   tags:
-    epoxy:
+    flamingo-uc:
 - project: novaclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 18.9.0
 - project: observabilityclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.4.0
 - project: octavia
   tags:
-    epoxy:
+    flamingo-uc:
 - project: octavia-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: octavia-lib
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.8.0
 - project: octavia-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.0.0
 - project: octaviaclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.10.0
 - project: openstack-macros
   tags:
-    epoxy:
+    flamingo-uc:
 - project: openstack-selinux
   tags:
-    epoxy:
+    flamingo-uc:
 - project: openstackclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.4.0
 - project: openstacksdk
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.4.0
 - project: os-apply-config
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: os-brick
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 6.11.0
 - project: os-client-config
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.1.0
       component: clients
 - project: os-collect-config
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: os-diff
   tags:
-    epoxy:
+    flamingo-uc:
 - project: os-faults
   tags:
-    epoxy:
+    flamingo-uc:
 - project: os-ken
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.0.1
 - project: os-net-config
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: os-refresh-config
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: os-resource-classes
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 1.1.0
 - project: os-service-types
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 1.7.0
 - project: os-testr
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.0.0
 - project: os-traits
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.3.0
 - project: os-vif
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.1.0
 - project: os-win
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.9.0
 - project: osc-lib
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.2.0
 - project: osc-placement
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.6.0
 - project: oslo-cache
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.10.1
 - project: oslo-concurrency
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.1.0
 - project: oslo-config
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 9.7.1
 - project: oslo-context
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.7.1
 - project: oslo-db
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 17.2.1
 - project: oslo-i18n
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 6.5.1
 - project: oslo-limit
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.6.1
 - project: oslo-log
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.1.0
 - project: oslo-messaging
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 16.1.0
 - project: oslo-metrics
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.11.0
 - project: oslo-middleware
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 6.3.1
 - project: oslo-policy
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.5.1
 - project: oslo-privsep
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.6.0
 - project: oslo-reports
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: a25f36fa6620ee3f90a37599e41dac311a49c452
 - project: oslo-rootwrap
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 7.5.1
 - project: oslo-serialization
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.7.0
 - project: oslo-service
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.1.1
 - project: oslo-upgradecheck
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.5.0
 - project: oslo-utils
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 8.2.0
 - project: oslo-versionedobjects
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.6.0
 - project: oslo-vmware
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.6.0
 - project: oslotest
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.0.0
 - project: osprofiler
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.2.0
 - project: ovn-bgp-agent
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ovn-octavia-provider
   tags:
-    epoxy:
+    flamingo-uc:
 - project: ovsdbapp
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.11.0
 - project: packstack
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: placement
   tags:
-    epoxy:
+    flamingo-uc:
 - project: proliantutils
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.16.3
 - project: puppet-aodh
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-apache
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v12.3.0
 - project: puppet-archive
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v7.1.0
 - project: puppet-barbican
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-ceilometer
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-ceph
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-cinder
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-concat
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v9.1.0
 - project: puppet-designate
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-dns
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: 11.0.1
 - project: puppet-firewall
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v8.1.4
 - project: puppet-glance
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-gnocchi
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-heat
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-horizon
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-inifile
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v6.2.0
 - project: puppet-ironic
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-keystone
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-kmod
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v4.1.0
 - project: puppet-magnum
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-manila
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-memcached
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v10.0.1
 - project: puppet-mistral
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-mysql
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v16.2.0
 - project: puppet-neutron
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-nova
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-nssdb
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: 2ed2a2df59bbeaf9cf628e1a4a499476842282fd
 - project: puppet-octavia
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-openstack_extras
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-openstacklib
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-oslo
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-ovn
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-placement
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-rabbitmq
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v14.2.0
 - project: puppet-redis
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v11.1.0
 - project: puppet-remote
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: 7420908328b832f4b20e1eba44bcccd926da8faa
 - project: puppet-rsync
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: c8444dff52794db7118b5695b41b67ccc900612f
 - project: puppet-ssh
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: 575a7fe5d9d4436b5db414e2fae955c1cc96d932
 - project: puppet-stdlib
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v9.7.0
 - project: puppet-swift
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-sysctl
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: 847ec1c07ed3e231a48d8816971c0bd4afe7a72b
 - project: puppet-systemd
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v8.1.0
 - project: puppet-tempest
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-trove
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-vcsrepo
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v7.0.0
 - project: puppet-vitrage
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-vswitch
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-watcher
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: puppet-xinetd
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
       source-branch: v3.4.1
 - project: puppet-zaqar
   tags:
-    epoxy:
+    flamingo-uc:
       component: puppet
 - project: pycadf
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.0.1
 - project: rally
   tags:
-    epoxy:
+    flamingo-uc:
 - project: rally-openstack
   tags:
-    epoxy:
+    flamingo-uc:
 - project: reno
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.1.0
 - project: requestsexceptions
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 1.4.0
 - project: rsd-lib
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 1.2.0
 - project: rsdclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 1.0.2
 - project: scciclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.16.0
 - project: sphinx-feature-classification
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.0.0
 - project: stevedore
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.4.1
 - project: sushy
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.5.0
 - project: sushy-oem-idrac
   tags:
-    epoxy:
+    flamingo-uc:
 - project: sushy-tools
   tags:
-    epoxy:
+    flamingo-uc:
 - project: swift
   tags:
-    epoxy:
+    flamingo-uc:
 - project: swiftclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.7.0
 - project: tacker
   tags:
-    epoxy:
+    flamingo-uc:
 - project: tackerclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.3.0
 - project: tap-as-a-service
   tags:
-    epoxy:
+    flamingo-uc:
 - project: taskflow
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.12.0
 - project: tcib
   tags:
-    epoxy:
+    flamingo-uc:
 - project: telemetry-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.5.0
 - project: tempest
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 43.0.0
 - project: tempestconf
   tags:
-    epoxy:
+    flamingo-uc:
 - project: tobiko
   tags:
-    epoxy:
+    flamingo-uc:
 - project: tooz
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 6.3.0
 - project: trove
   tags:
-    epoxy:
+    flamingo-uc:
 - project: trove-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: trove-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 2.5.0
 - project: troveclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 8.8.0
 - project: virtualbmc
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.1.0
 - project: vitrage
   tags:
-    epoxy:
+    flamingo-uc:
 - project: vitrage-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: vitrage-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 6.6.0
 - project: vitrageclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 5.2.0
 - project: watcher
   tags:
-    epoxy:
+    flamingo-uc:
 - project: watcher-dashboard
   tags:
-    epoxy:
+    flamingo-uc:
 - project: watcher-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.4.0
 - project: watcherclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 4.8.0
 - project: whitebox-neutron-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: master
 - project: whitebox-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.0.3
 - project: wsme
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 0.12.1
 - project: zaqar
   tags:
-    epoxy:
+    flamingo-uc:
       component: common
 - project: zaqar-tempest-plugin
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.0.0
 - project: zaqarclient
   tags:
-    epoxy:
+    flamingo-uc:
       source-branch: 3.0.0
