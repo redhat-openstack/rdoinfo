@@ -35,7 +35,6 @@ packages:
 - project: barbican-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 4.3.0
 - project: barbicanclient
   tags:
     flamingo-uc:
@@ -57,7 +56,6 @@ packages:
 - project: cinder-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 1.17.0
 - project: cinderclient
   tags:
     flamingo-uc:
@@ -96,7 +94,6 @@ packages:
 - project: designate-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 0.25.0
 - project: designateclient
   tags:
     flamingo-uc:
@@ -117,7 +114,6 @@ packages:
 - project: glance-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 0.12.0
 - project: glance_store
   tags:
     flamingo-uc:
@@ -158,7 +154,6 @@ packages:
 - project: heat-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.5.0
 - project: heat-translator
   tags:
     flamingo-uc:
@@ -200,7 +195,6 @@ packages:
 - project: ironic-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.13.0
 - project: ironic-ui
   tags:
     flamingo-uc:
@@ -214,7 +208,6 @@ packages:
 - project: keystone-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 0.18.0
 - project: keystoneauth1
   tags:
     flamingo-uc:
@@ -240,7 +233,6 @@ packages:
 - project: magnum-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.7.0
 - project: magnum-ui
   tags:
     flamingo-uc:
@@ -254,7 +246,6 @@ packages:
 - project: manila-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.7.0
 - project: manila-ui
   tags:
     flamingo-uc:
@@ -289,7 +280,6 @@ packages:
 - project: mistral-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.6.0
 - project: mistralclient
   tags:
     flamingo-uc:
@@ -316,7 +306,6 @@ packages:
 - project: networking-l2gw-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 82e3d07ea410e1489c6a83e5a4b9557d52643d41
 - project: networking-mlnx
   tags:
     flamingo-uc:
@@ -336,7 +325,6 @@ packages:
 - project: neutron-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.11.0
 - project: neutron-vpnaas
   tags:
     flamingo-uc:
@@ -368,7 +356,6 @@ packages:
 - project: octavia-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 3.0.0
 - project: octaviaclient
   tags:
     flamingo-uc:
@@ -862,11 +849,9 @@ packages:
 - project: telemetry-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.5.0
 - project: tempest
   tags:
     flamingo-uc:
-      source-branch: 43.0.0
 - project: tempestconf
   tags:
     flamingo-uc:
@@ -886,7 +871,6 @@ packages:
 - project: trove-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 2.5.0
 - project: troveclient
   tags:
     flamingo-uc:
@@ -904,7 +888,6 @@ packages:
 - project: vitrage-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 6.6.0
 - project: vitrageclient
   tags:
     flamingo-uc:
@@ -918,7 +901,6 @@ packages:
 - project: watcher-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 3.4.0
 - project: watcherclient
   tags:
     flamingo-uc:
@@ -926,11 +908,9 @@ packages:
 - project: whitebox-neutron-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: master
 - project: whitebox-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 0.0.3
 - project: wsme
   tags:
     flamingo-uc:
@@ -942,7 +922,6 @@ packages:
 - project: zaqar-tempest-plugin
   tags:
     flamingo-uc:
-      source-branch: 3.0.0
 - project: zaqarclient
   tags:
     flamingo-uc:
