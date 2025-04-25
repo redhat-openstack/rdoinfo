@@ -2,16 +2,19 @@ packages:
 - project: ansible-collections-openstack
   tags:
     epoxy:
+      source-branch: 41cf92df998491b9b8a91a20eacd9528acd0fc77
 - project: ansible-config_template
   tags:
     epoxy:
       component: podified
+      source-branch: 07c6e485f5d1886335e007889057aac9b18d45a4
 - project: ansible-role-atos-hsm
   tags:
     epoxy:
 - project: ansible-role-collectd-config
   tags:
     epoxy:
+      source-branch: 1992666dad0fd24f7a013cdee7fcae428b94b9d7
 - project: ansible-role-lunasa-hsm
   tags:
     epoxy:
@@ -79,6 +82,7 @@ packages:
 - project: collectd-gnocchi
   tags:
     epoxy:
+      source-branch: de115a710d45074f4cfb4b1a18fc565d165d72ff
 - project: cursive
   tags:
     epoxy:
@@ -104,6 +108,7 @@ packages:
 - project: diskimage-builder
   tags:
     epoxy:
+      source-branch: master
 - project: edpm-image-builder
   tags:
     epoxy:
@@ -129,6 +134,7 @@ packages:
 - project: glean
   tags:
     epoxy:
+      source-branch: master
 - project: gnocchi
   tags:
     epoxy:
@@ -144,6 +150,7 @@ packages:
 - project: hardware
   tags:
     epoxy:
+      source-branch: master
 - project: heat
   tags:
     epoxy:
@@ -197,6 +204,7 @@ packages:
 - project: ironic-staging-drivers
   tags:
     epoxy:
+      source-branch: 3a71aaf0bfbcbdb62d15a6169799aa316155fe4c
 - project: ironic-tempest-plugin
   tags:
     epoxy:
@@ -320,6 +328,7 @@ packages:
 - project: networking-mlnx
   tags:
     epoxy:
+      source-branch: 880ab3a234b87eafb068ed71190b7a84cd12a0c3
 - project: networking-sfc
   tags:
     epoxy:
@@ -379,6 +388,7 @@ packages:
 - project: openstack-selinux
   tags:
     epoxy:
+      source-branch: master
 - project: openstackclient
   tags:
     epoxy:
@@ -391,6 +401,7 @@ packages:
   tags:
     epoxy:
       component: common
+      source-branch: master
 - project: os-brick
   tags:
     epoxy:
@@ -404,12 +415,14 @@ packages:
   tags:
     epoxy:
       component: common
+      source-branch: master
 - project: os-diff
   tags:
     epoxy:
 - project: os-faults
   tags:
     epoxy:
+      source-branch: 25b7d106a8cbe705322a0cb61f9391a625ebf98f
 - project: os-ken
   tags:
     epoxy:
@@ -418,10 +431,12 @@ packages:
   tags:
     epoxy:
       component: common
+      source-branch: master
 - project: os-refresh-config
   tags:
     epoxy:
       component: common
+      source-branch: master
 - project: os-resource-classes
   tags:
     epoxy:
@@ -593,6 +608,7 @@ packages:
   tags:
     epoxy:
       component: puppet
+      source-branch: master
 - project: puppet-cinder
   tags:
     epoxy:
@@ -794,9 +810,11 @@ packages:
 - project: rally
   tags:
     epoxy:
+      source-branch: dcba35a3681c9a6254685790aa672d3db338d975
 - project: rally-openstack
   tags:
     epoxy:
+      source-branch: 109bf1e5598db5637a3f4f446e8a3415140e8b2a
 - project: reno
   tags:
     epoxy:
@@ -832,9 +850,11 @@ packages:
 - project: sushy-oem-idrac
   tags:
     epoxy:
+      source-branch: 585703a22c8bb93064286ed7f7127c3bcb294540
 - project: sushy-tools
   tags:
     epoxy:
+      source-branch: master
 - project: swift
   tags:
     epoxy:
@@ -870,9 +890,11 @@ packages:
 - project: tempestconf
   tags:
     epoxy:
+      source-branch: master
 - project: tobiko
   tags:
     epoxy:
+      source-branch: ccf40e1a63245e5c60ca5bbb96b3b0d6ac38a759
 - project: tooz
   tags:
     epoxy:
