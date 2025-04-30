@@ -107,7 +107,7 @@ packages:
 - project: futurist
   tags:
     flamingo-uc:
-      source-branch: 3.1.0
+      source-branch: 3.1.1
 - project: glance
   tags:
     flamingo-uc:
@@ -373,7 +373,7 @@ packages:
 - project: openstacksdk
   tags:
     flamingo-uc:
-      source-branch: 4.4.0
+      source-branch: 4.5.0
 - project: os-apply-config
   tags:
     flamingo-uc:
@@ -602,7 +602,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v8.1.4
+      source-branch: v8.1.5
 - project: puppet-glance
   tags:
     flamingo-uc:
@@ -739,7 +739,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v8.1.0
+      source-branch: v8.2.0
 - project: puppet-tempest
   tags:
     flamingo-uc:
