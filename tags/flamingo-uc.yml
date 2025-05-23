@@ -24,7 +24,7 @@ packages:
 - project: aodhclient
   tags:
     flamingo-uc:
-      source-branch: 3.7.1
+      source-branch: 3.8.0
 - project: automaton
   tags:
     flamingo-uc:
@@ -42,7 +42,7 @@ packages:
 - project: castellan
   tags:
     flamingo-uc:
-      source-branch: 5.2.1
+      source-branch: 5.3.0
 - project: ceilometer
   tags:
     flamingo-uc:
@@ -97,7 +97,7 @@ packages:
 - project: designateclient
   tags:
     flamingo-uc:
-      source-branch: 6.2.0
+      source-branch: 6.3.0
 - project: diskimage-builder
   tags:
     flamingo-uc:
@@ -211,7 +211,7 @@ packages:
 - project: keystoneauth1
   tags:
     flamingo-uc:
-      source-branch: 5.10.0
+      source-branch: 5.11.0
 - project: keystoneclient
   tags:
     flamingo-uc:
@@ -219,7 +219,7 @@ packages:
 - project: keystonemiddleware
   tags:
     flamingo-uc:
-      source-branch: 10.9.0
+      source-branch: 10.10.0
 - project: kolla
   tags:
     flamingo-uc:
@@ -321,7 +321,7 @@ packages:
 - project: neutron-lib
   tags:
     flamingo-uc:
-      source-branch: 3.18.2
+      source-branch: 3.19.0
 - project: neutron-tempest-plugin
   tags:
     flamingo-uc:
@@ -331,7 +331,7 @@ packages:
 - project: neutronclient
   tags:
     flamingo-uc:
-      source-branch: 11.4.0
+      source-branch: 11.5.0
 - project: nova
   tags:
     flamingo-uc:
@@ -436,7 +436,7 @@ packages:
 - project: osc-lib
   tags:
     flamingo-uc:
-      source-branch: 4.0.0
+      source-branch: 4.0.2
 - project: osc-placement
   tags:
     flamingo-uc:
@@ -444,7 +444,7 @@ packages:
 - project: oslo-cache
   tags:
     flamingo-uc:
-      source-branch: 3.10.1
+      source-branch: 3.11.0
 - project: oslo-concurrency
   tags:
     flamingo-uc:
@@ -452,11 +452,11 @@ packages:
 - project: oslo-config
   tags:
     flamingo-uc:
-      source-branch: 9.7.1
+      source-branch: 9.8.0
 - project: oslo-context
   tags:
     flamingo-uc:
-      source-branch: 5.7.1
+      source-branch: 6.0.0
 - project: oslo-db
   tags:
     flamingo-uc:
@@ -476,11 +476,11 @@ packages:
 - project: oslo-messaging
   tags:
     flamingo-uc:
-      source-branch: 16.1.0
+      source-branch: 17.0.0
 - project: oslo-metrics
   tags:
     flamingo-uc:
-      source-branch: 0.11.0
+      source-branch: 0.12.0
 - project: oslo-middleware
   tags:
     flamingo-uc:
@@ -492,7 +492,7 @@ packages:
 - project: oslo-privsep
   tags:
     flamingo-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: oslo-reports
   tags:
     flamingo-uc:
@@ -500,7 +500,7 @@ packages:
 - project: oslo-rootwrap
   tags:
     flamingo-uc:
-      source-branch: 7.5.1
+      source-branch: 7.6.0
 - project: oslo-serialization
   tags:
     flamingo-uc:
@@ -508,7 +508,7 @@ packages:
 - project: oslo-service
   tags:
     flamingo-uc:
-      source-branch: 4.1.1
+      source-branch: 4.2.0
 - project: oslo-upgradecheck
   tags:
     flamingo-uc:
@@ -516,11 +516,11 @@ packages:
 - project: oslo-utils
   tags:
     flamingo-uc:
-      source-branch: 8.2.0
+      source-branch: 9.0.0
 - project: oslo-versionedobjects
   tags:
     flamingo-uc:
-      source-branch: 3.6.0
+      source-branch: 3.7.0
 - project: oslo-vmware
   tags:
     flamingo-uc:
@@ -542,7 +542,7 @@ packages:
 - project: ovsdbapp
   tags:
     flamingo-uc:
-      source-branch: 2.11.0
+      source-branch: 2.12.0
 - project: packstack
   tags:
     flamingo-uc:
@@ -828,7 +828,7 @@ packages:
 - project: swiftclient
   tags:
     flamingo-uc:
-      source-branch: 4.7.0
+      source-branch: 4.8.0
 - project: tacker
   tags:
     flamingo-uc:
@@ -842,7 +842,7 @@ packages:
 - project: taskflow
   tags:
     flamingo-uc:
-      source-branch: 5.12.0
+      source-branch: 6.0.0
 - project: tcib
   tags:
     flamingo-uc:
