@@ -364,6 +364,9 @@ packages:
 - project: neutron-dynamic-routing
   tags:
     dalmatian:
+- project: neutron-fwaas
+  tags:
+    epoxy:
 - project: neutron-lib
   tags:
     dalmatian:
