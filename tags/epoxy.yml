@@ -338,6 +338,9 @@ packages:
 - project: neutron-dynamic-routing
   tags:
     epoxy:
+- project: neutron-fwaas
+  tags:
+    epoxy:
 - project: neutron-lib
   tags:
     epoxy:
