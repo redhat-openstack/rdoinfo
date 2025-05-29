@@ -977,24 +977,24 @@ packages:
   component: network
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
-  - majopela@redhat.com
-  - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
 - project: neutron-lib
   conf: rpmfactory-lib
   name: python-neutron-lib
   component: network
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
-  - majopela@redhat.com
-  - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
 - project: whitebox-tempest-plugin
   conf: rpmfactory-tempest-plugin
   upstream: https://opendev.org/x/whitebox-tempest-plugin
@@ -1016,13 +1016,13 @@ packages:
   component: network
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
-  - majopela@redhat.com
-  - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - ltoscano@redhat.com
   - twilson@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
 - project: whitebox-neutron-tempest-plugin
   conf: rpmfactory-tempest-plugin
   upstream: https://opendev.org/x/whitebox-neutron-tempest-plugin
@@ -1035,17 +1035,21 @@ packages:
   - ltoscano@redhat.com
   - rsafrono@redhat.com
   - skaplons@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
+  - ralonsoh@redhat.com
 - project: neutron-fwaas
   conf: rpmfactory-core
   component: network
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
-  - majopela@redhat.com
-  - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
 - project: neutron-lbaas
   conf: rpmfactory-core
   component: octavia
@@ -1066,12 +1070,12 @@ packages:
   component: network
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
-  - majopela@redhat.com
-  - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
 - project: designate
   conf: rpmfactory-core
   component: designate
@@ -1717,10 +1721,11 @@ packages:
   maintainers:
   - twilson@redhat.com
   - dalvarez@redhat.com
-  - majopela@redhat.com
-  - lmartins@redhat.com
-  - rbanerje@redhat.com
-  - rbryant@rehdat.com
+  - ralonsoh@redhat.com
+  - ykarel@redhat.com
+  - skaplons@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redhat.com
 - project: stevedore
   component: clients
   conf: rpmfactory-lib
@@ -2679,12 +2684,12 @@ packages:
   component: network
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
-  - majopela@redhat.com
-  - njohnsto@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
+  - ykarel@redhat.com
+  - mtomaska@redhat.com
+  - averdagu@redat.com
 - project: os-resource-classes
   conf: rpmfactory-lib
   component: clients
@@ -2756,9 +2761,7 @@ packages:
   component: network
   conf: rpmfactory-lib
   maintainers:
-    - mjozefcz@redhat.com
-    - bhaley@redat.com
-    - flaviof@redhat.com
+    - froyo@redhat.com
 - project: ibmcclient
   conf: rpmfactory-client
   upstream: https://github.com/IamFive/python-%(project)s
