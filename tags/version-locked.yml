@@ -42,6 +42,11 @@ packages:
 - project: os-cloud-config
   tags:
     version-locked:
+# Antelope is unmaintained so no new releases and we need newer commit
+- project: oslo-cache
+  tags:
+    version-locked:
+      antelope:
 # we temporary lock oslo-reports pin update until new release is issued
 # https://review.rdoproject.org/r/c/rdoinfo/+/54341
 # https://review.opendev.org/c/openstack/releases/+/931140
