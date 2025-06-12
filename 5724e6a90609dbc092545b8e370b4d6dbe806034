@@ -69,6 +69,24 @@
       "parentUuid": "2f2bfe72_f1346a37",
       "revId": "5724e6a90609dbc092545b8e370b4d6dbe806034",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "930079d9_e885045b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2025-06-12T15:28:09Z",
+      "side": 1,
+      "message": "it\u0027s just a new subpackage for the new threading extras https://github.com/openstack/oslo.service/blob/master/setup.cfg#L26-L28\n\nIt\u0027s done in the oslo-service spec there are macros to help automating it. An example of similar subpackage for extras is in:\n\nhttps://github.com/rdo-packages/glance_store-distgit/blob/17791fb5fdd2a2400efac3defd158fd3d5effb5e/python-glance-store.spec#L82",
+      "parentUuid": "44a1b605_9e512688",
+      "revId": "5724e6a90609dbc092545b8e370b4d6dbe806034",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
