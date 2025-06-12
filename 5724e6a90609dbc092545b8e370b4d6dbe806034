@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79026df1_9718416e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 580
+      },
+      "writtenOn": "2025-06-12T10:22:44Z",
+      "side": 1,
+      "message": "It is failing the oslo.service repo: https://logserver.rdoproject.org/5fd/rdoproject.org/5fdf14fec21d48a58bd77118918f20c6/buildset/centos-rpm-master/repos/component/common/22/6f/226fe87b907bfa5ec6a20fbff821c89313e61649_dev/mock.log\n\nError:\n  No matching package to install: \u0027python3dist(cotyledon) \u003e\u003d 2\u0027\n\nSnippet: https://paste.opendev.org/show/bWXvTLJ9RdyiE49DzneS/",
+      "revId": "5724e6a90609dbc092545b8e370b4d6dbe806034",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
