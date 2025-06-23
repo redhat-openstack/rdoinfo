@@ -355,7 +355,7 @@ packages:
 - project: octavia-lib
   tags:
     flamingo-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
 - project: octavia-tempest-plugin
   tags:
     flamingo-uc:
@@ -511,7 +511,7 @@ packages:
 - project: oslo-service
   tags:
     flamingo-uc:
-      source-branch: 4.2.0
+      source-branch: 4.2.1
 - project: oslo-upgradecheck
   tags:
     flamingo-uc:
@@ -570,7 +570,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v7.1.0
+      source-branch: v8.0.0
 - project: puppet-barbican
   tags:
     flamingo-uc:
@@ -703,7 +703,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v14.3.0
+      source-branch: v14.4.1
 - project: puppet-redis
   tags:
     flamingo-uc:
