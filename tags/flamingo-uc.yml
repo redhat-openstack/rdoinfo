@@ -24,7 +24,7 @@ packages:
 - project: aodhclient
   tags:
     flamingo-uc:
-      source-branch: 3.8.0
+      source-branch: 3.9.0
 - project: automaton
   tags:
     flamingo-uc:
@@ -42,14 +42,14 @@ packages:
 - project: castellan
   tags:
     flamingo-uc:
-      source-branch: 5.3.0
+      source-branch: 5.4.0
 - project: ceilometer
   tags:
     flamingo-uc:
 - project: ceilometermiddleware
   tags:
     flamingo-uc:
-      source-branch: 3.7.0
+      source-branch: 3.8.0
 - project: cinder
   tags:
     flamingo-uc:
@@ -121,7 +121,7 @@ packages:
 - project: glanceclient
   tags:
     flamingo-uc:
-      source-branch: 4.8.0
+      source-branch: 4.9.0
 - project: glean
   tags:
     flamingo-uc:
@@ -162,7 +162,7 @@ packages:
 - project: heatclient
   tags:
     flamingo-uc:
-      source-branch: 4.2.0
+      source-branch: 4.3.0
 - project: horizon
   tags:
     flamingo-uc:
@@ -201,7 +201,7 @@ packages:
 - project: ironicclient
   tags:
     flamingo-uc:
-      source-branch: 5.11.0
+      source-branch: 5.12.0
 - project: keystone
   tags:
     flamingo-uc:
@@ -219,7 +219,7 @@ packages:
 - project: keystonemiddleware
   tags:
     flamingo-uc:
-      source-branch: 10.10.0
+      source-branch: 10.11.0
 - project: kolla
   tags:
     flamingo-uc:
@@ -256,7 +256,7 @@ packages:
 - project: metalsmith
   tags:
     flamingo-uc:
-      source-branch: 2.4.1
+      source-branch: 2.5.0
 - project: microversion-parse
   tags:
     flamingo-uc:
@@ -275,7 +275,7 @@ packages:
 - project: mistral-lib
   tags:
     flamingo-uc:
-      source-branch: 3.3.1
+      source-branch: 3.4.0
       component: common
 - project: mistral-tempest-plugin
   tags:
@@ -324,7 +324,7 @@ packages:
 - project: neutron-lib
   tags:
     flamingo-uc:
-      source-branch: 3.19.0
+      source-branch: 3.21.0
 - project: neutron-tempest-plugin
   tags:
     flamingo-uc:
@@ -334,14 +334,14 @@ packages:
 - project: neutronclient
   tags:
     flamingo-uc:
-      source-branch: 11.5.0
+      source-branch: 11.6.0
 - project: nova
   tags:
     flamingo-uc:
 - project: novaclient
   tags:
     flamingo-uc:
-      source-branch: 18.9.0
+      source-branch: 18.10.0
 - project: observabilityclient
   tags:
     flamingo-uc:
@@ -384,11 +384,11 @@ packages:
 - project: os-brick
   tags:
     flamingo-uc:
-      source-branch: 6.11.0
+      source-branch: 6.12.0
 - project: os-client-config
   tags:
     flamingo-uc:
-      source-branch: 2.1.0
+      source-branch: 2.3.0
       component: clients
 - project: os-collect-config
   tags:
@@ -403,7 +403,7 @@ packages:
 - project: os-ken
   tags:
     flamingo-uc:
-      source-branch: 3.0.1
+      source-branch: 3.1.0
 - project: os-net-config
   tags:
     flamingo-uc:
@@ -419,7 +419,7 @@ packages:
 - project: os-service-types
   tags:
     flamingo-uc:
-      source-branch: 1.7.0
+      source-branch: 1.8.0
 - project: os-testr
   tags:
     flamingo-uc:
@@ -439,7 +439,7 @@ packages:
 - project: osc-lib
   tags:
     flamingo-uc:
-      source-branch: 4.0.2
+      source-branch: 4.1.0
 - project: osc-placement
   tags:
     flamingo-uc:
@@ -455,7 +455,7 @@ packages:
 - project: oslo-config
   tags:
     flamingo-uc:
-      source-branch: 9.8.0
+      source-branch: 10.0.0
 - project: oslo-context
   tags:
     flamingo-uc:
@@ -463,7 +463,7 @@ packages:
 - project: oslo-db
   tags:
     flamingo-uc:
-      source-branch: 17.2.1
+      source-branch: 17.3.0
 - project: oslo-i18n
   tags:
     flamingo-uc:
@@ -479,7 +479,7 @@ packages:
 - project: oslo-messaging
   tags:
     flamingo-uc:
-      source-branch: 17.0.0
+      source-branch: 17.1.0
 - project: oslo-metrics
   tags:
     flamingo-uc:
@@ -487,7 +487,7 @@ packages:
 - project: oslo-middleware
   tags:
     flamingo-uc:
-      source-branch: 6.5.0
+      source-branch: 6.6.0
 - project: oslo-policy
   tags:
     flamingo-uc:
@@ -511,7 +511,7 @@ packages:
 - project: oslo-service
   tags:
     flamingo-uc:
-      source-branch: 4.2.1
+      source-branch: 4.2.2
 - project: oslo-upgradecheck
   tags:
     flamingo-uc:
@@ -818,7 +818,7 @@ packages:
 - project: sushy
   tags:
     flamingo-uc:
-      source-branch: 5.6.0
+      source-branch: 5.7.0
 - project: sushy-oem-idrac
   tags:
     flamingo-uc:
@@ -928,4 +928,4 @@ packages:
 - project: zaqarclient
   tags:
     flamingo-uc:
-      source-branch: 3.0.1
+      source-branch: 4.0.0
