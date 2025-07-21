@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62a9b0d7_e797437c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2025-07-21T06:51:05Z",
+      "side": 1,
+      "message": "It\u0027s BR for current build of tinyrpc:\n\n# dnf repoquery --whatrequires \"*funcsigs*\"\nLast metadata expiration check: 0:02:33 ago on Mon Jul 21 06:42:10 2025.\npython3-tinyrpc-tests-0:1.0.3-5.el9s.noarch\n\n\ntinyrpc should be updated before removing funcsigs",
+      "revId": "1aea773a78b4712b1b7254b96f326d277f4ae456",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
