@@ -2490,6 +2490,13 @@ packages:
   name: python-telemetry-tests-tempest
   maintainers:
   - ltoscano@redhat.com
+- project: cloudkitty-tempest-plugin
+  conf: rpmfactory-tempest-plugin
+  name: python-cloudkitty-tests-tempest
+  maintainers:
+  - efoley@redhat.com
+  - jlarriba@redhat.com
+  component: cloudops
 - project: cinder-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-cinder-tests-tempest
