@@ -75,6 +75,10 @@ packages:
 - project: cloudkitty-dashboard
   tags:
     epoxy:
+- project: cloudkitty-tempest-plugin
+  tags:
+    epoxy:
+      source-branch: master
 - project: cloudkittyclient
   tags:
     epoxy:
