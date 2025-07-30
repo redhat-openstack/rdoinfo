@@ -80,6 +80,10 @@ packages:
 - project: cloudkitty-dashboard
   tags:
     antelope:
+- project: cloudkitty-tempest-plugin
+  tags:
+    antelope:
+      source_branch: master
 - project: cloudkittyclient
   tags:
     antelope:
