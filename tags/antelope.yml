@@ -372,6 +372,7 @@ packages:
 - project: networking-l2gw
   tags:
     antelope:
+      source-branch: 1301419d7e73f1d3f00e0254845b976231668cb7
 - project: networking-l2gw-tempest-plugin
   tags:
     antelope:
@@ -921,6 +922,7 @@ packages:
 - project: rally
   tags:
     antelope:
+      source-branch: 5e83ecf74d4a4aa6bde9460ac55d6ac8862ec521
 - project: rally-openstack
   tags:
     antelope:
