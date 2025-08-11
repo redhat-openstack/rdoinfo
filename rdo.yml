@@ -877,8 +877,8 @@ packages:
 - project: nova
   conf: rpmfactory-core
   maintainers:
-  - kchamart@redhat.com
-  - smooney@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
   component: compute
 - project: cyborg
   conf: rpmfactory-core
@@ -1510,8 +1510,8 @@ packages:
 - project: novaclient
   conf: rpmfactory-client
   maintainers:
-  - kchamart@redhat.com
-  - smooney@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
 - project: cyborgclient
   conf: rpmfactory-client
   maintainers:
