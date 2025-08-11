@@ -877,8 +877,8 @@ packages:
 - project: nova
   conf: rpmfactory-core
   maintainers:
-  - kchamart@redhat.com
-  - smooney@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
   component: compute
 - project: cyborg
   conf: rpmfactory-core
@@ -1510,8 +1510,8 @@ packages:
 - project: novaclient
   conf: rpmfactory-client
   maintainers:
-  - kchamart@redhat.com
-  - smooney@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
 - project: cyborgclient
   conf: rpmfactory-client
   maintainers:
@@ -2600,7 +2600,8 @@ packages:
   conf: rpmfactory-client
   upstream: https://opendev.org/openstack/osc-placement
   maintainers:
-  - kchamart@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
 - project: stackviz
   conf: rpmfactory-lib
   name: python-stackviz
@@ -2629,8 +2630,8 @@ packages:
 - project: placement
   conf: rpmfactory-core
   maintainers:
-  - kchamart@redhat.com
-  - smooney@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
 - project: ansible-role-openstack-operations
   conf: rpmfactory-lib
   name: ansible-role-openstack-operations
@@ -2702,8 +2703,8 @@ packages:
   conf: rpmfactory-lib
   component: clients
   maintainers:
-  - kchamart@redhat.com
-  - smooney@redhat.com
+  - sbauza@redhat.com
+  - gibi@redhat.com
 - project: ansible-role-atos-hsm
   conf: rpmfactory-lib
   name: ansible-role-atos-hsm
