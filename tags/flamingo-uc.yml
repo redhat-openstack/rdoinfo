@@ -891,6 +891,8 @@ packages:
 - project: vitrage
   tags:
     flamingo-uc:
+      # unpin when python-networkx>=3.4 is available
+      source-branch: 652b3d1205620a1f436af77af89e21d4a0d2f9df
 - project: vitrage-dashboard
   tags:
     flamingo-uc:
