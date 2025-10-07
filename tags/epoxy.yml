@@ -21,6 +21,9 @@ packages:
 - project: ansible-role-thales-hsm
   tags:
     epoxy:
+- project: aetos
+  tags:
+    epoxy:
 - project: aodh
   tags:
     epoxy:
@@ -370,7 +373,7 @@ packages:
 - project: observabilityclient
   tags:
     epoxy:
-      source-branch: 0.4.0
+      source-branch: 1.1.0
 - project: octavia
   tags:
     epoxy:
