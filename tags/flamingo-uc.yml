@@ -27,7 +27,7 @@ packages:
 - project: aodhclient
   tags:
     flamingo-uc:
-      source-branch: 3.9.0
+      source-branch: 3.9.1
 - project: automaton
   tags:
     flamingo-uc:
@@ -66,7 +66,7 @@ packages:
 - project: cliff
   tags:
     flamingo-uc:
-      source-branch: 4.10.0
+      source-branch: 4.11.0
 - project: cloudkitty
   tags:
     flamingo-uc:
@@ -127,7 +127,7 @@ packages:
 - project: glanceclient
   tags:
     flamingo-uc:
-      source-branch: 4.9.0
+      source-branch: 4.10.0
 - project: glean
   tags:
     flamingo-uc:
@@ -163,7 +163,7 @@ packages:
 - project: heat-translator
   tags:
     flamingo-uc:
-      source-branch: 3.2.0
+      source-branch: 3.3.0
       component: common
 - project: heatclient
   tags:
@@ -225,7 +225,7 @@ packages:
 - project: keystonemiddleware
   tags:
     flamingo-uc:
-      source-branch: 10.11.0
+      source-branch: 10.12.0
 - project: kolla
   tags:
     flamingo-uc:
@@ -332,7 +332,7 @@ packages:
 - project: neutron-lib
   tags:
     flamingo-uc:
-      source-branch: 3.21.1
+      source-branch: 3.22.0
 - project: neutron-tempest-plugin
   tags:
     flamingo-uc:
@@ -380,11 +380,11 @@ packages:
 - project: openstackclient
   tags:
     flamingo-uc:
-      source-branch: 8.1.0
+      source-branch: 8.2.0
 - project: openstacksdk
   tags:
     flamingo-uc:
-      source-branch: 4.6.0
+      source-branch: 4.7.1
 - project: os-apply-config
   tags:
     flamingo-uc:
@@ -447,7 +447,7 @@ packages:
 - project: osc-lib
   tags:
     flamingo-uc:
-      source-branch: 4.1.0
+      source-branch: 4.2.0
 - project: osc-placement
   tags:
     flamingo-uc:
@@ -578,7 +578,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v8.0.0
+      source-branch: v8.1.0
 - project: puppet-barbican
   tags:
     flamingo-uc:
@@ -613,7 +613,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v8.1.7
+      source-branch: v8.2.0
 - project: puppet-glance
   tags:
     flamingo-uc:
@@ -669,7 +669,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v16.2.0
+      source-branch: v16.3.0
 - project: puppet-neutron
   tags:
     flamingo-uc:
@@ -716,7 +716,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v11.1.0
+      source-branch: v12.0.0
 - project: puppet-remote
   tags:
     flamingo-uc:
@@ -750,7 +750,7 @@ packages:
   tags:
     flamingo-uc:
       component: puppet
-      source-branch: v8.2.0
+      source-branch: v9.0.1
 - project: puppet-tempest
   tags:
     flamingo-uc:
@@ -938,4 +938,4 @@ packages:
 - project: zaqarclient
   tags:
     flamingo-uc:
-      source-branch: 4.0.0
+      source-branch: 4.1.0
