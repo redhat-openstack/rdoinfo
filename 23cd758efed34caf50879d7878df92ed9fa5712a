@@ -16,6 +16,23 @@
       "message": "Both packages x11vnc, libvncserver exists in fedora/EPEL. package name is same.",
       "revId": "23cd758efed34caf50879d7878df92ed9fa5712a",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c51654df_3103e868",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2025-10-22T09:30:10Z",
+      "side": 1,
+      "message": "Just checked with Alfredo, The current dependencies process is broken. We need the help of release delivery to pull the stuff.\n\nBy merging this review, it will create rdo distgit repos and nothing else.",
+      "revId": "23cd758efed34caf50879d7878df92ed9fa5712a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
