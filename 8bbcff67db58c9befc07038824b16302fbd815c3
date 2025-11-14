@@ -16,6 +16,24 @@
       "message": "This will move cloudkitty for all the releases, is this the intent right?\n\nIn order to have consistent repos and update the content, we will need to force rebuilding one package on each changed component, common and cloudops, by sending a dummy patch to one distgit on each component for each release after merging this.",
       "revId": "8bbcff67db58c9befc07038824b16302fbd815c3",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "214dd8ed_477794b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 363
+      },
+      "writtenOn": "2025-11-14T16:05:37Z",
+      "side": 1,
+      "message": "I think that it wasn\u0027t in cloudops is an oversight, given that the tempest tests are in the cloudops component. Thus, this was the intent.",
+      "parentUuid": "23c0c176_79318a12",
+      "revId": "8bbcff67db58c9befc07038824b16302fbd815c3",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
