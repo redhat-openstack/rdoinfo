@@ -34,6 +34,24 @@
       "parentUuid": "9b7e4f1a_c3624250",
       "revId": "40eae4014418176d74c23efb4f2df313086a3a37",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3692df9f_184f4812",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2025-11-17T14:58:14Z",
+      "side": 1,
+      "message": "Note that a rebuild on any package in both the old and new components should be triggered, in this case any package in common + the ones in cloudpos as Yatin mentioned.",
+      "parentUuid": "162db9f8_b7dc33ab",
+      "revId": "40eae4014418176d74c23efb4f2df313086a3a37",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
