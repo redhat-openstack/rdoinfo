@@ -13,16 +13,20 @@ packages:
     cloud8s-openstack-ussuri-testing: ansible-2.9.27-4.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-collection-ansible-netcommon-1.5.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-collection-ansible-netcommon-1.5.0-1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-collection-ansible-posix-1.2.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-collection-ansible-posix-1.2.0-1.el8
 - project: ansible-collection-community-general
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-collection-community-general-2.5.1-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-collection-community-general-2.5.1-1.el8
 - project: ansible-collection-containers-podman
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-collection-containers-podman-1.6.1-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-collection-containers-podman-1.6.1-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: ansible-collections-openstack-1.5.0-1.el8
@@ -37,28 +41,34 @@ packages:
     cloud8s-openstack-ussuri-testing: ansible-pacemaker-1.0.3-2.5847167git.el8
 - project: ansible-role-atos-hsm
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-role-atos-hsm-0.1.0-2.e51c244git.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-role-atos-hsm-0.1.0-2.e51c244git.el8
 - project: ansible-role-chrony
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: ansible-role-chrony-1.0.3-1.el8
 - project: ansible-role-container-registry
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-role-container-registry-1.3.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-role-container-registry-1.3.0-1.el8
 - project: ansible-role-lunasa-hsm
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: ansible-role-lunasa-hsm-1.0.0-1.el8
 - project: ansible-role-openstack-operations
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
 - project: ansible-role-redhat-subscription
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-role-redhat-subscription-1.1.2-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-role-redhat-subscription-1.1.2-1.el8
 - project: ansible-role-thales-hsm
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-role-thales-hsm-0.2.0-2.99b3d39git.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-role-thales-hsm-0.2.0-2.99b3d39git.el8
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: ansible-role-tripleo-modify-image-1.2.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      ansible-role-tripleo-modify-image-1.2.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-aodh-10.0.0-1.el8
@@ -244,7 +254,8 @@ packages:
     cloud8s-openstack-ussuri-testing: python-gnocchiclient-7.0.4-1.el8
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: golang-github-vbatts-tar-split-0.11.1-2.el8
+    cloud8s-openstack-ussuri-testing: 
+      golang-github-vbatts-tar-split-0.11.1-2.el8
 - project: google-api-python-client
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: google-api-python-client-1.6.7-10.el8
@@ -307,16 +318,19 @@ packages:
     cloud8s-openstack-ussuri-testing: python-ironic-lib-4.2.3-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-ironic-prometheus-exporter-2.0.1-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-ironic-prometheus-exporter-2.0.1-1.el8
 - project: ironic-python-agent
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-ironic-python-agent-6.1.3-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-ironic-python-agent-builder-1.1.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      openstack-ironic-python-agent-builder-1.1.0-1.el8
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-ironic-staging-drivers-0.13.1-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      openstack-ironic-staging-drivers-0.13.1-1.el8
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-ironic-tests-tempest-2.0.0-1.el8
@@ -484,13 +498,15 @@ packages:
     cloud8s-openstack-ussuri-testing: python-networking-bgpvpn-12.0.0-1.el8
 - project: networking-generic-switch
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-networking-generic-switch-3.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-networking-generic-switch-3.0.0-1.el8
 - project: networking-l2gw
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-networking-l2gw-15.0.0-1.el8
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-networking-l2gw-tests-tempest-0.1.0-2.2e265b5git.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-networking-l2gw-tests-tempest-0.1.0-2.2e265b5git.el8
 - project: networking-mlnx
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-networking-mlnx-16.0.0-1.el8
@@ -505,7 +521,8 @@ packages:
     cloud8s-openstack-ussuri-testing: openstack-neutron-16.4.2-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-neutron-dynamic-routing-16.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      openstack-neutron-dynamic-routing-16.0.0-1.el8
 - project: neutron-fwaas
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-neutron-fwaas-16.0.0-1.el8
@@ -532,7 +549,8 @@ packages:
     cloud8s-openstack-ussuri-testing: python-novajoin-1.3.0-1.el8
 - project: novajoin-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-novajoin-tests-tempest-0.0.1-0.5.cb81f53git.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-novajoin-tests-tempest-0.0.1-0.5.cb81f53git.el8
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: novnc-1.1.0-6.el8
@@ -730,7 +748,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-barbican-16.4.0-1.el8
 - project: puppet-cassandra
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-cassandra-2.7.4-0.1.0rc0.c2c6007git.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-cassandra-2.7.4-0.1.0rc0.c2c6007git.el8
 - project: puppet-ceilometer
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-ceilometer-16.4.0-1.el8
@@ -757,7 +776,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-contrail-1.0.0-5.6f87929git.el8
 - project: puppet-corosync
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-corosync-6.0.2-0.1.0rc0.2a27f93git.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-corosync-6.0.2-0.1.0rc0.2a27f93git.el8
 - project: puppet-datacat
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-datacat-0.6.2-1.5cce8f2git.el8
@@ -772,7 +792,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-ec2api-16.4.0-1.el8
 - project: puppet-elasticsearch
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-elasticsearch-6.4.0-2.d6d3bb6git.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-elasticsearch-6.4.0-2.d6d3bb6git.el8
 - project: puppet-etcd
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-etcd-1.12.3-1.el8
@@ -820,7 +841,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-kafka-6.0.1-0.1.0rc0.5c407b3git.el8
 - project: puppet-keepalived
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-keepalived-0.0.1-0.11.bbca37agit.el8
 - project: puppet-keystone
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-keystone-16.4.0-1.el8
@@ -853,7 +875,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-module-data-0.5.1-1.28dafcegit.el8
 - project: puppet-mongodb
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-mongodb-3.1.1-0.1.0rc0.d9402c9git.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-mongodb-3.1.1-0.1.0rc0.d9402c9git.el8
 - project: puppet-murano
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-murano-16.3.1-1.el8
@@ -907,7 +930,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-qdr-5.3.1-1.el8
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-rabbitmq-10.0.2-0.1.0rc0.eafe833git.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-rabbitmq-10.0.2-0.1.0rc0.eafe833git.el8
 - project: puppet-redis
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-redis-5.0.1-0.1.0rc0.8e48eeegit.el8
@@ -919,7 +943,8 @@ packages:
     cloud8s-openstack-ussuri-testing: puppet-rsync-1.1.1-2.db5f8b5git.el8
 - project: puppet-rsyslog
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
+    cloud8s-openstack-ussuri-testing: 
+      puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
 - project: puppet-sahara
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: puppet-sahara-16.4.0-1.el8
@@ -1042,16 +1067,20 @@ packages:
     cloud8s-openstack-ussuri-testing: python-XStatic-Angular-1.5.8.0-10.el8
 - project: python-XStatic-Angular-Bootstrap
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
 - project: python-XStatic-Angular-FileUpload
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
 - project: python-XStatic-Angular-Gettext
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Angular-Gettext-2.3.8.0-1.el8
 - project: python-XStatic-Angular-Schema-Form
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
 - project: python-XStatic-Angular-UUID
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-XStatic-Angular-UUID-0.0.4.0-9.el8
@@ -1060,13 +1089,16 @@ packages:
     cloud8s-openstack-ussuri-testing: python-XStatic-Angular-Vis-4.16.0.0-6.el8
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
 - project: python-XStatic-D3
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-XStatic-D3-3.5.17.0-10.el8
@@ -1081,13 +1113,16 @@ packages:
     cloud8s-openstack-ussuri-testing: python-XStatic-Hogan-2.0.0.2-17.el8
 - project: python-XStatic-JQuery-Migrate
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-XStatic-JS-Yaml-3.8.1.0-7.el8
@@ -1126,7 +1161,8 @@ packages:
     cloud8s-openstack-ussuri-testing: python-XStatic-objectpath-1.2.1.0-2.el8
 - project: python-XStatic-roboto-fontface
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-XStatic-roboto-fontface-0.5.0.0-13.el8
 - project: python-XStatic-smart-table
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-XStatic-smart-table-1.4.13.2-9.el8
@@ -2026,7 +2062,8 @@ packages:
     cloud8s-openstack-ussuri-testing: python-shaker-1.1.3-1.el8
 - project: sphinx-feature-classification
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-sphinx-feature-classification-1.0.1-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-sphinx-feature-classification-1.0.1-1.el8
 - project: sshpass
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: sshpass-1.06-8.el8
@@ -2089,10 +2126,12 @@ packages:
     cloud8s-openstack-ussuri-testing: openstack-tripleo-common-12.4.6-2.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-tripleo-heat-templates-12.4.5-2.el8
+    cloud8s-openstack-ussuri-testing: 
+      openstack-tripleo-heat-templates-12.4.5-2.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-tripleo-image-elements-12.0.2-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      openstack-tripleo-image-elements-12.0.2-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2104,7 +2143,8 @@ packages:
     cloud8s-openstack-ussuri-testing: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: openstack-tripleo-puppet-elements-12.3.4-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      openstack-tripleo-puppet-elements-12.3.4-1.el8
 - project: tripleo-validations
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: openstack-tripleo-validations-12.3.6-1.el8
@@ -2152,7 +2192,8 @@ packages:
     cloud8s-openstack-ussuri-testing: python-networking-vmware-nsx-16.0.0-1.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-ussuri-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+    cloud8s-openstack-ussuri-testing: 
+      python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
 - project: vmware-nsxlib
   buildsys-tags:
     cloud8s-openstack-ussuri-testing: python-vmware-nsxlib-15.0.7-1.el8
