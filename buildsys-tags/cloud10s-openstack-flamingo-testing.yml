@@ -49,7 +49,8 @@ packages:
     cloud10s-openstack-flamingo-testing: gflags-2.2.2-16.el10s
 - project: google-api-python-client
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: google-api-python-client-2.159.0-1.el10s
+    cloud10s-openstack-flamingo-testing: 
+      google-api-python-client-2.159.0-1.el10s
 - project: google-auth-httplib2
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: google-auth-httplib2-0.2.0-6.el10s
@@ -97,7 +98,8 @@ packages:
     cloud10s-openstack-flamingo-testing: openpgm-5.2.122-36.el10s
 - project: openstack-network-scripts
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: openstack-network-scripts-10.11.1-7.el10s
+    cloud10s-openstack-flamingo-testing: 
+      openstack-network-scripts-10.11.1-7.el10s
 - project: oslotest
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-oslotest-4.4.1-3.el10s
@@ -127,7 +129,8 @@ packages:
     cloud10s-openstack-flamingo-testing: python-Automat-24.8.1-1.el10s
 - project: python-SecretStorage
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-SecretStorage-3.3.3^20240314git3e5097c-11.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-SecretStorage-3.3.3^20240314git3e5097c-11.el10s
 - project: python-XStatic
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-1.0.1-23.el10s
@@ -136,91 +139,114 @@ packages:
     cloud10s-openstack-flamingo-testing: python-XStatic-Angular-1.5.8.0-14.el10s
 - project: python-XStatic-Angular-Bootstrap
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-14.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-Bootstrap-2.2.0.0-14.el10s
 - project: python-XStatic-Angular-FileUpload
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-FileUpload-12.0.4.0-18.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-FileUpload-12.0.4.0-18.el10s
 - project: python-XStatic-Angular-Gettext
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-Gettext-2.3.8.0-1.el10s
 - project: python-XStatic-Angular-Schema-Form
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-3.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-Schema-Form-0.8.13.0-3.el10s
 - project: python-XStatic-Angular-UUID
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-UUID-0.0.4.0-13.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-UUID-0.0.4.0-13.el10s
 - project: python-XStatic-Angular-Vis
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-Vis-4.16.0.0-10.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-Vis-4.16.0.0-10.el10s
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-20.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Angular-lrdragndrop-1.0.2.2-20.el10s
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-20.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Bootstrap-Datepicker-1.3.1.0-20.el10s
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-14.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Bootstrap-SCSS-3.3.7.1-14.el10s
 - project: python-XStatic-D3
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-D3-3.5.17.0-14.el10s
 - project: python-XStatic-FileSaver
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-FileSaver-1.3.2.0-10.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-FileSaver-1.3.2.0-10.el10s
 - project: python-XStatic-Font-Awesome
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Font-Awesome-4.7.0.0-14.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Font-Awesome-4.7.0.0-14.el10s
 - project: python-XStatic-Hogan
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-Hogan-2.0.0.2-21.el10s
 - project: python-XStatic-JQuery-Migrate
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-JQuery-Migrate-1.2.1.1-21.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-JQuery-Migrate-1.2.1.1-21.el10s
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-21.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-JQuery-TableSorter-2.14.5.1-21.el10s
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-JQuery-quicksearch-2.0.3.2-1.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-JQuery-quicksearch-2.0.3.2-1.el10s
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-JS-Yaml-3.8.1.0-11.el10s
 - project: python-XStatic-JSEncrypt
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-JSEncrypt-2.3.1.1-13.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-JSEncrypt-2.3.1.1-13.el10s
 - project: python-XStatic-Jasmine
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-Jasmine-2.4.1.1-13.el10s
 - project: python-XStatic-Json2yaml
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Json2yaml-0.1.1.0-10.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Json2yaml-0.1.1.0-10.el10s
 - project: python-XStatic-Rickshaw
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-Rickshaw-1.5.0.0-23.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-Rickshaw-1.5.0.0-23.el10s
 - project: python-XStatic-Spin
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-Spin-1.2.5.2-22.el10s
 - project: python-XStatic-bootswatch
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-bootswatch-3.3.7.0-15.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-bootswatch-3.3.7.0-15.el10s
 - project: python-XStatic-jQuery
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-jQuery-1.10.2.1-9.el10s.2
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-jQuery-1.10.2.1-9.el10s.2
 - project: python-XStatic-jquery-ui
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-jquery-ui-1.12.0.1-13.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-jquery-ui-1.12.0.1-13.el10s
 - project: python-XStatic-mdi
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-mdi-1.6.50.2-4.el10s
 - project: python-XStatic-objectpath
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-objectpath-1.2.1.0-3.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-objectpath-1.2.1.0-3.el10s
 - project: python-XStatic-roboto-fontface
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-roboto-fontface-0.5.0.0-17.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-roboto-fontface-0.5.0.0-17.el10s
 - project: python-XStatic-smart-table
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-XStatic-smart-table-1.4.13.2-13.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-XStatic-smart-table-1.4.13.2-13.el10s
 - project: python-XStatic-termjs
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-termjs-0.0.7.0-13.el10s
@@ -247,7 +273,8 @@ packages:
     cloud10s-openstack-flamingo-testing: python-argon2-cffi-23.1.0-4.el10s
 - project: python-argon2-cffi-bindings
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-argon2-cffi-bindings-21.2.0-9.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-argon2-cffi-bindings-21.2.0-9.el10s
 - project: python-asgiref
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-asgiref-3.8.1-1.el10s
@@ -439,7 +466,8 @@ packages:
     cloud10s-openstack-flamingo-testing: python-google-auth-2.37.0-1.el10s
 - project: python-googleapis-common-protos
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-googleapis-common-protos-1.63.0-9.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-googleapis-common-protos-1.63.0-9.el10s
 - project: python-grpcio-gcp
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-grpcio-gcp-0.2.2-17.el10s
@@ -478,7 +506,8 @@ packages:
     cloud10s-openstack-flamingo-testing: python-importlib-metadata-8.5.0-1.el10s
 - project: python-importlib-resources
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-importlib-resources-6.4.4-3.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-importlib-resources-6.4.4-3.el10s
 - project: python-incremental
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-incremental-24.7.2-2.el10s
@@ -817,7 +846,8 @@ packages:
     cloud10s-openstack-flamingo-testing: python-testscenarios-0.5.0-21.el10s
 - project: python-testtools
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: python-testtools-2.7.2-1.bootstrap.el10s
+    cloud10s-openstack-flamingo-testing: 
+      python-testtools-2.7.2-1.bootstrap.el10s
 - project: python-textfsm
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-textfsm-1.1.3-6.el10s
@@ -967,7 +997,8 @@ packages:
     cloud10s-openstack-flamingo-testing: rubygem-multi_json-1.15.0-11.el10s
 - project: rubygem-puppet-resource_api
   buildsys-tags:
-    cloud10s-openstack-flamingo-testing: rubygem-puppet-resource_api-1.8.18-4.el10s
+    cloud10s-openstack-flamingo-testing: 
+      rubygem-puppet-resource_api-1.8.18-4.el10s
 - project: rubygem-scanf
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: rubygem-scanf-1.0.0-8.el10s
