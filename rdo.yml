@@ -1057,16 +1057,12 @@ packages:
   component: octavia
   maintainers:
   - bcafarel@redhat.com
-  - bhaley@redhat.com
   - majopela@redhat.com
   - nate.johnston@redhat.com
   - ralonsoh@redhat.com
   - skaplons@redhat.com
   - twilson@redhat.com
-  - cgoncalves@redhat.com
-  - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
 - project: neutron-vpnaas
   conf: rpmfactory-core
   component: network
@@ -1082,64 +1078,66 @@ packages:
   conf: rpmfactory-core
   component: designate
   maintainers:
-  - johnsomor@gmail.com
   - nate.johnston@gmail.com
+  - oschwart@redhat.com
+  - beagles@redhat.com
 - project: designate-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-designate-tests-tempest
   component: designate
   maintainers:
   - nate.johnston@redhat.com
-  - johnsomor@gmail.com
   - ltoscano@redhat.com
   - amoralej@redhat.com
+  - oschwart@redhat.com
+  - beagles@redhat.com
 - project: octavia
   conf: rpmfactory-core
   component: octavia
   maintainers:
   - nate.johnston@redhat.com
-  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
+  - beagles@redhat.com
+  - rcruise@redhat.com
 - project: octavia-dashboard
   name: openstack-octavia-ui
   conf: rpmfactory-core
   component: ui
   maintainers:
   - nate.johnston@redhat.com
-  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
+  - beagles@redhat.com
+  - rcruise@redhat.com
 - project: octaviaclient
   conf: rpmfactory-client
   maintainers:
   - nate.johnston@redhat.com
-  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
+  - beagles@redhat.com
+  - rcruise@redhat.com
 - project: octavia-lib
   conf: rpmfactory-lib
   component: octavia
   maintainers:
   - nate.johnston@redhat.com
-  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
+  - beagles@redhat.com
+  - rcruise@redhat.com
 - project: octavia-tempest-plugin
   conf: rpmfactory-tempest-plugin
   name: python-octavia-tests-tempest
   component: octavia
   maintainers:
   - nate.johnston@redhat.com
-  - tweining@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
   - ltoscano@redhat.com
+  - beagles@redhat.com
+  - rcruise@redhat.com
 - project: watcher
   conf: rpmfactory-core
   component: optimize
@@ -1481,10 +1479,8 @@ packages:
   component: ui
   maintainers:
   - github@sheep.art.pl
-  - cgoncalves@redhat.com
   - bcafarel@redhat.com
   - gthiemon@redhat.com
-  - johnsomor@gmail.com
 - project: sahara-image-elements
   conf: rpmfactory-core
   name: sahara-image-elements
@@ -2560,10 +2556,11 @@ packages:
   conf: rpmfactory-core
   component: ui
   maintainers:
-  - johnsomor@redhat.com
   - nate.johnston@redhat.com
   - kevintibi@hotmail.com
   - rod2a@hotmail.com
+  - oschwart@redhat.com
+  - beagles@redhat.com
 - project: ansible-role-container-registry
   conf: rpmfactory-lib
   name: ansible-role-container-registry
