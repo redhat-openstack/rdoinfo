@@ -13,7 +13,8 @@ packages:
     cloud8s-openstack-xena-release: ansible-2.9.27-4.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-collection-ansible-netcommon-2.2.0-1.el8
+    cloud8s-openstack-xena-release: 
+      ansible-collection-ansible-netcommon-2.2.0-1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-collection-ansible-posix-1.2.0-1.el8
@@ -22,16 +23,19 @@ packages:
     cloud8s-openstack-xena-release: ansible-collection-ansible-utils-2.3.0-1.el8
 - project: ansible-collection-community-general
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-collection-community-general-4.0.0-1.el8
+    cloud8s-openstack-xena-release: 
+      ansible-collection-community-general-4.0.0-1.el8
 - project: ansible-collection-containers-podman
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-collection-containers-podman-1.9.4-1.el8
+    cloud8s-openstack-xena-release: 
+      ansible-collection-containers-podman-1.9.4-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-collections-openstack-1.9.1-1.el8
 - project: ansible-config_template
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-config_template-1.1.1-2.8a9b962git.el8
+    cloud8s-openstack-xena-release: 
+      ansible-config_template-1.1.1-2.8a9b962git.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-freeipa-0.3.1-1.el8
@@ -55,7 +59,8 @@ packages:
     cloud8s-openstack-xena-release: ansible-role-lunasa-hsm-2.0.0-1.el8
 - project: ansible-role-openstack-operations
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
+    cloud8s-openstack-xena-release: 
+      ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
 - project: ansible-role-qdr-config
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-role-qdr-config-0.0.1-1.el8
@@ -67,7 +72,8 @@ packages:
     cloud8s-openstack-xena-release: ansible-role-thales-hsm-2.0.0-1.el8
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
-    cloud8s-openstack-xena-release: ansible-role-tripleo-modify-image-1.3.0-1.el8
+    cloud8s-openstack-xena-release: 
+      ansible-role-tripleo-modify-image-1.3.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-aodh-13.1.0-1.el8
@@ -313,16 +319,19 @@ packages:
     cloud8s-openstack-xena-release: python-ironic-lib-5.0.1-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-ironic-prometheus-exporter-3.0.0-1.el8
+    cloud8s-openstack-xena-release: 
+      python-ironic-prometheus-exporter-3.0.0-1.el8
 - project: ironic-python-agent
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-ironic-python-agent-8.2.3-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-ironic-python-agent-builder-2.7.0-1.el8
+    cloud8s-openstack-xena-release: 
+      openstack-ironic-python-agent-builder-2.7.0-1.el8
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-ironic-staging-drivers-0.15.0-1.el8
+    cloud8s-openstack-xena-release: 
+      openstack-ironic-staging-drivers-0.15.0-1.el8
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-xena-release: python-ironic-tests-tempest-2.6.0-1.el8
@@ -493,7 +502,8 @@ packages:
     cloud8s-openstack-xena-release: python-networking-l2gw-18.0.0-1.el8
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
+    cloud8s-openstack-xena-release: 
+      python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
 - project: networking-mlnx
   buildsys-tags:
     cloud8s-openstack-xena-release: python-networking-mlnx-16.0.0-1.el8
@@ -508,7 +518,8 @@ packages:
     cloud8s-openstack-xena-release: openstack-neutron-19.7.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-neutron-dynamic-routing-19.1.1-1.el8
+    cloud8s-openstack-xena-release: 
+      openstack-neutron-dynamic-routing-19.1.1-1.el8
 - project: neutron-lib
   buildsys-tags:
     cloud8s-openstack-xena-release: python-neutron-lib-2.15.4-1.el8
@@ -532,7 +543,8 @@ packages:
     cloud8s-openstack-xena-release: python-novajoin-1.3.0-1.el8
 - project: novajoin-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-novajoin-tests-tempest-0.0.3-1.1.468b968git.el8
+    cloud8s-openstack-xena-release: 
+      python-novajoin-tests-tempest-0.0.3-1.1.468b968git.el8
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-xena-release: novnc-1.2.0-2.el8
@@ -733,7 +745,8 @@ packages:
     cloud8s-openstack-xena-release: puppet-barbican-19.4.1-1.el8
 - project: puppet-cassandra
   buildsys-tags:
-    cloud8s-openstack-xena-release: puppet-cassandra-3.1.1-0.3.0rc0.39d8816git.el8
+    cloud8s-openstack-xena-release: 
+      puppet-cassandra-3.1.1-0.3.0rc0.39d8816git.el8
 - project: puppet-ceilometer
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-ceilometer-19.5.0-1.el8
@@ -748,7 +761,8 @@ packages:
     cloud8s-openstack-xena-release: puppet-cinder-19.5.0-1.el8
 - project: puppet-collectd
   buildsys-tags:
-    cloud8s-openstack-xena-release: puppet-collectd-13.0.1-0.1.0rc0.acd970cgit.el8
+    cloud8s-openstack-xena-release: 
+      puppet-collectd-13.0.1-0.1.0rc0.acd970cgit.el8
 - project: puppet-concat
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-concat-7.1.1-1.5b86b60git.el8
@@ -757,7 +771,8 @@ packages:
     cloud8s-openstack-xena-release: puppet-contrail-1.0.0-5.6f87929git.el8
 - project: puppet-corosync
   buildsys-tags:
-    cloud8s-openstack-xena-release: puppet-corosync-8.2.1-0.1.0rc0.cd23c0agit.el8
+    cloud8s-openstack-xena-release: 
+      puppet-corosync-8.2.1-0.1.0rc0.cd23c0agit.el8
 - project: puppet-datacat
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-datacat-0.6.2-1.5cce8f2git.el8
@@ -904,7 +919,8 @@ packages:
     cloud8s-openstack-xena-release: puppet-qdr-8.4.0-1.el8
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud8s-openstack-xena-release: puppet-rabbitmq-11.1.1-0.1.0rc0.f69bfa0git.el8
+    cloud8s-openstack-xena-release: 
+      puppet-rabbitmq-11.1.1-0.1.0rc0.f69bfa0git.el8
 - project: puppet-redis
   buildsys-tags:
     cloud8s-openstack-xena-release: puppet-redis-8.1.2-0.1.0rc0.8990a32git.el8
@@ -1036,16 +1052,19 @@ packages:
     cloud8s-openstack-xena-release: python-XStatic-Angular-1.5.8.0-10.el8
 - project: python-XStatic-Angular-Bootstrap
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
 - project: python-XStatic-Angular-FileUpload
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
 - project: python-XStatic-Angular-Gettext
   buildsys-tags:
     cloud8s-openstack-xena-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
 - project: python-XStatic-Angular-Schema-Form
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
 - project: python-XStatic-Angular-UUID
   buildsys-tags:
     cloud8s-openstack-xena-release: python-XStatic-Angular-UUID-0.0.4.0-9.el8
@@ -1054,10 +1073,12 @@ packages:
     cloud8s-openstack-xena-release: python-XStatic-Angular-Vis-4.16.0.0-6.el8
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
     cloud8s-openstack-xena-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
@@ -1078,10 +1099,12 @@ packages:
     cloud8s-openstack-xena-release: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud8s-openstack-xena-release: python-XStatic-JS-Yaml-3.8.1.0-7.el8
@@ -1120,7 +1143,8 @@ packages:
     cloud8s-openstack-xena-release: python-XStatic-objectpath-1.2.1.0-2.el8
 - project: python-XStatic-roboto-fontface
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+    cloud8s-openstack-xena-release: 
+      python-XStatic-roboto-fontface-0.5.0.0-13.el8
 - project: python-XStatic-smart-table
   buildsys-tags:
     cloud8s-openstack-xena-release: python-XStatic-smart-table-1.4.13.2-9.el8
@@ -2044,7 +2068,8 @@ packages:
     cloud8s-openstack-xena-release: python-shade-1.33.0-2.el8
 - project: sphinx-feature-classification
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-sphinx-feature-classification-1.1.0-2.el8
+    cloud8s-openstack-xena-release: 
+      python-sphinx-feature-classification-1.1.0-2.el8
 - project: sshpass
   buildsys-tags:
     cloud8s-openstack-xena-release: sshpass-1.06-8.el8
@@ -2080,7 +2105,8 @@ packages:
     cloud8s-openstack-xena-release: python-tackerclient-1.8.0-1.el8
 - project: tap-as-a-service
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-tap-as-a-service-7.0.0-2.351c1fbgit.el8
+    cloud8s-openstack-xena-release: 
+      python-tap-as-a-service-7.0.0-2.351c1fbgit.el8
 - project: taskflow
   buildsys-tags:
     cloud8s-openstack-xena-release: python-taskflow-4.6.2-1.el8
@@ -2107,10 +2133,12 @@ packages:
     cloud8s-openstack-xena-release: openstack-tripleo-common-16.2.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-tripleo-heat-templates-15.1.0-1.el8
+    cloud8s-openstack-xena-release: 
+      openstack-tripleo-heat-templates-15.1.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-tripleo-image-elements-14.1.0-1.el8
+    cloud8s-openstack-xena-release: 
+      openstack-tripleo-image-elements-14.1.0-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-xena-release: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2125,7 +2153,8 @@ packages:
     cloud8s-openstack-xena-release: ansible-tripleo-powerflex-1.0.0-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-xena-release: openstack-tripleo-puppet-elements-15.1.0-1.el8
+    cloud8s-openstack-xena-release: 
+      openstack-tripleo-puppet-elements-15.1.0-1.el8
 - project: tripleo-validations
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-tripleo-validations-15.1.0-1.el8
@@ -2170,7 +2199,8 @@ packages:
     cloud8s-openstack-xena-release: python-vitrageclient-4.4.0-1.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-xena-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+    cloud8s-openstack-xena-release: 
+      python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
 - project: watcher
   buildsys-tags:
     cloud8s-openstack-xena-release: openstack-watcher-7.0.0-1.el8
