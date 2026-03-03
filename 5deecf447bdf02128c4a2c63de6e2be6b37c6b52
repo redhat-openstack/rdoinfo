@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2be9f424_e90be252",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2026-03-03T14:20:32Z",
+      "side": 1,
+      "message": "oslo-service fails to rebuild:\n\nNo matching package to install: \u0027python3dist(cotyledon) \u003e\u003d 2.2\u0027\n\nWe have python-cotyledon-2.0.0-1.el10s in master. We\u0027ll need to bump",
+      "revId": "5deecf447bdf02128c4a2c63de6e2be6b37c6b52",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
