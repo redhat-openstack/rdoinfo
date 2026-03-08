@@ -13,22 +13,26 @@ packages:
     cloud8-openstack-train-testing: ansible-2.9.23-1.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
-    cloud8-openstack-train-testing: ansible-collection-ansible-netcommon-1.5.0-1.el8
+    cloud8-openstack-train-testing: 
+      ansible-collection-ansible-netcommon-1.5.0-1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
     cloud8-openstack-train-testing: ansible-collection-ansible-posix-1.2.0-1.el8
 - project: ansible-collection-community-general
   buildsys-tags:
-    cloud8-openstack-train-testing: ansible-collection-community-general-2.5.1-1.el8
+    cloud8-openstack-train-testing: 
+      ansible-collection-community-general-2.5.1-1.el8
 - project: ansible-collection-containers-podman
   buildsys-tags:
-    cloud8-openstack-train-testing: ansible-collection-containers-podman-1.6.1-1.el8
+    cloud8-openstack-train-testing: 
+      ansible-collection-containers-podman-1.6.1-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8-openstack-train-testing: ansible-collections-openstack-1.5.0-1.el8
 - project: ansible-config_template
   buildsys-tags:
-    cloud8-openstack-train-testing: ansible-config_template-1.0.0-1.faf60ddgit.el8
+    cloud8-openstack-train-testing: 
+      ansible-config_template-1.0.0-1.faf60ddgit.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8-openstack-train-testing: ansible-freeipa-0.3.1-1.el8
@@ -52,7 +56,8 @@ packages:
     cloud8-openstack-train-testing: ansible-role-lunasa-hsm-1.0.0-0.1.el8
 - project: ansible-role-openstack-operations
   buildsys-tags:
-    cloud8-openstack-train-testing: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
+    cloud8-openstack-train-testing: 
+      ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
 - project: ansible-role-redhat-subscription
   buildsys-tags:
     cloud8-openstack-train-testing: ansible-role-redhat-subscription-1.1.2-1.el8
@@ -61,7 +66,8 @@ packages:
     cloud8-openstack-train-testing: ansible-role-thales-hsm-0.2.0-1.el8
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
-    cloud8-openstack-train-testing: ansible-role-tripleo-modify-image-1.1.0-1.el8
+    cloud8-openstack-train-testing: 
+      ansible-role-tripleo-modify-image-1.1.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-aodh-9.0.0-1.el8
@@ -304,16 +310,19 @@ packages:
     cloud8-openstack-train-testing: python-ironic-lib-2.21.3-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8-openstack-train-testing: python-ironic-prometheus-exporter-1.1.2-1.el8
+    cloud8-openstack-train-testing: 
+      python-ironic-prometheus-exporter-1.1.2-1.el8
 - project: ironic-python-agent
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-ironic-python-agent-5.0.4-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-ironic-python-agent-builder-1.0.0-1.el8
+    cloud8-openstack-train-testing: 
+      openstack-ironic-python-agent-builder-1.0.0-1.el8
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-ironic-staging-drivers-0.12.0-1.el8
+    cloud8-openstack-train-testing: 
+      openstack-ironic-staging-drivers-0.12.0-1.el8
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud8-openstack-train-testing: python-ironic-tests-tempest-1.5.1-1.el8
@@ -478,7 +487,8 @@ packages:
     cloud8-openstack-train-testing: python-networking-l2gw-14.0.0-1.el8
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-train-testing: python-networking-l2gw-tests-tempest-0.1.0-1.a3af33bgit.el8
+    cloud8-openstack-train-testing: 
+      python-networking-l2gw-tests-tempest-0.1.0-1.a3af33bgit.el8
 - project: networking-odl
   buildsys-tags:
     cloud8-openstack-train-testing: python-networking-odl-15.0.0-1.el8
@@ -493,7 +503,8 @@ packages:
     cloud8-openstack-train-testing: openstack-neutron-15.3.4-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-neutron-dynamic-routing-15.0.0-1.el8
+    cloud8-openstack-train-testing: 
+      openstack-neutron-dynamic-routing-15.0.0-1.el8
 - project: neutron-fwaas
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-neutron-fwaas-15.0.1-1.el8
@@ -520,7 +531,8 @@ packages:
     cloud8-openstack-train-testing: python-novajoin-1.3.0-1.el8
 - project: novajoin-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-train-testing: python-novajoin-tests-tempest-0.0.1-0.4.80dd51agit.el8
+    cloud8-openstack-train-testing: 
+      python-novajoin-tests-tempest-0.0.1-0.4.80dd51agit.el8
 - project: novnc
   buildsys-tags:
     cloud8-openstack-train-testing: novnc-1.1.0-6.el8
@@ -718,7 +730,8 @@ packages:
     cloud8-openstack-train-testing: puppet-barbican-15.5.0-1.el8
 - project: puppet-cassandra
   buildsys-tags:
-    cloud8-openstack-train-testing: puppet-cassandra-2.7.4-0.2.0rc0.9954256git.el8
+    cloud8-openstack-train-testing: 
+      puppet-cassandra-2.7.4-0.2.0rc0.9954256git.el8
 - project: puppet-ceilometer
   buildsys-tags:
     cloud8-openstack-train-testing: puppet-ceilometer-15.5.0-1.el8
@@ -745,7 +758,8 @@ packages:
     cloud8-openstack-train-testing: puppet-contrail-1.0.0-5.6f87929git.el8
 - project: puppet-corosync
   buildsys-tags:
-    cloud8-openstack-train-testing: puppet-corosync-6.0.2-0.2.0rc0.961add3git.el8
+    cloud8-openstack-train-testing: 
+      puppet-corosync-6.0.2-0.2.0rc0.961add3git.el8
 - project: puppet-datacat
   buildsys-tags:
     cloud8-openstack-train-testing: puppet-datacat-0.6.2-1.5cce8f2git.el8
@@ -1030,16 +1044,19 @@ packages:
     cloud8-openstack-train-testing: python-XStatic-Angular-1.5.8.0-10.el8
 - project: python-XStatic-Angular-Bootstrap
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
 - project: python-XStatic-Angular-FileUpload
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
 - project: python-XStatic-Angular-Gettext
   buildsys-tags:
     cloud8-openstack-train-testing: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
 - project: python-XStatic-Angular-Schema-Form
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
 - project: python-XStatic-Angular-UUID
   buildsys-tags:
     cloud8-openstack-train-testing: python-XStatic-Angular-UUID-0.0.4.0-9.el8
@@ -1048,10 +1065,12 @@ packages:
     cloud8-openstack-train-testing: python-XStatic-Angular-Vis-4.16.0.0-6.el8
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
     cloud8-openstack-train-testing: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
@@ -1072,10 +1091,12 @@ packages:
     cloud8-openstack-train-testing: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud8-openstack-train-testing: python-XStatic-JS-Yaml-3.8.1.0-7.el8
@@ -1114,7 +1135,8 @@ packages:
     cloud8-openstack-train-testing: python-XStatic-objectpath-1.2.1.0-2.el8
 - project: python-XStatic-roboto-fontface
   buildsys-tags:
-    cloud8-openstack-train-testing: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+    cloud8-openstack-train-testing: 
+      python-XStatic-roboto-fontface-0.5.0.0-13.el8
 - project: python-XStatic-smart-table
   buildsys-tags:
     cloud8-openstack-train-testing: python-XStatic-smart-table-1.4.13.2-9.el8
@@ -1930,7 +1952,8 @@ packages:
     cloud8-openstack-train-testing: python-shaker-1.1.3-1.el8
 - project: sphinx-feature-classification
   buildsys-tags:
-    cloud8-openstack-train-testing: python-sphinx-feature-classification-0.4.1-1.el8
+    cloud8-openstack-train-testing: 
+      python-sphinx-feature-classification-0.4.1-1.el8
 - project: sshpass
   buildsys-tags:
     cloud8-openstack-train-testing: sshpass-1.06-8.el8
@@ -1990,10 +2013,12 @@ packages:
     cloud8-openstack-train-testing: openstack-tripleo-common-11.7.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-tripleo-heat-templates-11.6.0-1.el8
+    cloud8-openstack-train-testing: 
+      openstack-tripleo-heat-templates-11.6.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-tripleo-image-elements-10.6.3-1.el8
+    cloud8-openstack-train-testing: 
+      openstack-tripleo-image-elements-10.6.3-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8-openstack-train-testing: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2005,7 +2030,8 @@ packages:
     cloud8-openstack-train-testing: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8-openstack-train-testing: openstack-tripleo-puppet-elements-11.3.1-1.el8
+    cloud8-openstack-train-testing: 
+      openstack-tripleo-puppet-elements-11.3.1-1.el8
 - project: tripleo-validations
   buildsys-tags:
     cloud8-openstack-train-testing: openstack-tripleo-validations-11.6.0-1.el8
@@ -2050,10 +2076,12 @@ packages:
     cloud8-openstack-train-testing: python-vitrageclient-3.0.0-1.el8
 - project: vmware-nsx
   buildsys-tags:
-    cloud8-openstack-train-testing: python-networking-vmware-nsx-14.0.0-2.3321751git.el8
+    cloud8-openstack-train-testing: 
+      python-networking-vmware-nsx-14.0.0-2.3321751git.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
-    cloud8-openstack-train-testing: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+    cloud8-openstack-train-testing: 
+      python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
 - project: vmware-nsxlib
   buildsys-tags:
     cloud8-openstack-train-testing: python-vmware-nsxlib-14.0.3-1.el8
