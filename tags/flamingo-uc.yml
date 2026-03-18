@@ -911,6 +911,9 @@ packages:
 - project: watcher-dashboard
   tags:
     flamingo-uc:
+    # pin to a known good commit as watcher-dashboard is breaking
+    # due to https://review.opendev.org/c/openstack/watcher-dashboard/+/980456
+      source-branch: d03dbda70d8ca090756a03dd6408303bf5d4479b
 - project: watcher-tempest-plugin
   tags:
     flamingo-uc:
