@@ -128,6 +128,9 @@ packages:
 - project: python-SecretStorage
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-SecretStorage-3.3.3^20240314git3e5097c-11.el10s
+- project: python-setuptools
+  buildsys-tags:
+    cloud10s-openstack-flamingo-testing: python-setuptools-80.10.2-2.el10s
 - project: python-XStatic
   buildsys-tags:
     cloud10s-openstack-flamingo-testing: python-XStatic-1.0.1-23.el10s
