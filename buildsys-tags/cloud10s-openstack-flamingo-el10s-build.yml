@@ -46,7 +46,8 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-aiodns-3.2.0-2.el10s
 - project: python-aiohappyeyeballs
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-aiohappyeyeballs-2.4.4-3.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-aiohappyeyeballs-2.4.4-3.el10s
 - project: python-aiohttp
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-aiohttp-3.10.11-4.el10s
@@ -91,7 +92,8 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-faker-30.6.0-1.el10s
 - project: python-fastjsonschema
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-fastjsonschema-2.21.1-2.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-fastjsonschema-2.21.1-2.el10s
 - project: python-fields
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-fields-5.0.0-22.el10s
@@ -115,7 +117,8 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-hamcrest-2.0.3-9.el10s
 - project: python-hatch-fancy-pypi-readme
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-hatch-fancy-pypi-readme-24.1.0-6.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-hatch-fancy-pypi-readme-24.1.0-6.el10s
 - project: python-hatch-vcs
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-hatch-vcs-0.4.0-6.el10s
@@ -133,16 +136,19 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-jaraco-classes-3.4.0-6.el10s
 - project: python-jaraco-collections
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-jaraco-collections-5.1.0-2.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-jaraco-collections-5.1.0-2.el10s
 - project: python-jaraco-context
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-jaraco-context-6.0.1-5.el10s
 - project: python-jaraco-functools
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-jaraco-functools-4.1.0-2.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-jaraco-functools-4.1.0-2.el10s
 - project: python-jaraco-packaging
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-jaraco-packaging-10.2.3-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-jaraco-packaging-10.2.3-1.el10s
 - project: python-jaraco-test
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-jaraco-test-5.5.1-2.el10s
@@ -166,13 +172,15 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-multidict-6.1.0-1.el10s
 - project: python-mypy_extensions
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-mypy_extensions-1.0.0-8.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-mypy_extensions-1.0.0-8.el10s
 - project: python-oauth2client
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-oauth2client-4.1.3-27.el10s
 - project: python-openstackdocstheme
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-openstackdocstheme-3.0.0-10.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-openstackdocstheme-3.0.0-10.el10s
 - project: python-pandas
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-pandas-2.2.1-7.el10s
@@ -223,22 +231,26 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-pyproject-api-1.6.1-5.el10s
 - project: python-pyproject-metadata
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pyproject-metadata-0.8.0-3.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pyproject-metadata-0.8.0-3.el10s
 - project: python-pytest-aiohttp
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-pytest-aiohttp-1.0.5-5.el10s
 - project: python-pytest-asyncio
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pytest-asyncio-0.23.8-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pytest-asyncio-0.23.8-1.el10s
 - project: python-pytest-benchmark
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pytest-benchmark-4.0.0-4.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pytest-benchmark-4.0.0-4.el10s
 - project: python-pytest-cov
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-pytest-cov-5.0.0-1.el10s
 - project: python-pytest-env
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pytest-env-0.6.2^20170617gitafb13a0-19.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pytest-env-0.6.2^20170617gitafb13a0-19.el10s
 - project: python-pytest-expect
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-pytest-expect-1.1.0-25.el10s
@@ -250,16 +262,19 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-pytest-mock-3.14.0-2.el10s
 - project: python-pytest-randomly
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pytest-randomly-3.15.0-4.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pytest-randomly-3.15.0-4.el10s
 - project: python-pytest-relaxed
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-pytest-relaxed-2.0.2-4.el10s
 - project: python-pytest-rerunfailures
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pytest-rerunfailures-15.0-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pytest-rerunfailures-15.0-1.el10s
 - project: python-pytest-tornado
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-pytest-tornado-0.8.1-17.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-pytest-tornado-0.8.1-17.el10s
 - project: python-pytest-trio
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-pytest-trio-0.8.0-12.el10s
@@ -277,13 +292,16 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-regex-2024.9.11-1.el10s
 - project: python-requests-futures
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-requests-futures-1.0.1-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-requests-futures-1.0.1-1.el10s
 - project: python-requests-unixsocket
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-requests-unixsocket-0.4.0-7.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-requests-unixsocket-0.4.0-7.el10s
 - project: python-scikit-build-core
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-scikit-build-core-0.10.7-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-scikit-build-core-0.10.7-1.el10s
 - project: python-selenium
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-selenium-3.141.0-1.el10s
@@ -295,28 +313,35 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-should_dsl-2.1.2-18.el10s
 - project: python-sphinx-epytext
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinx-epytext-0.0.4-20.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinx-epytext-0.0.4-20.el10s
 - project: python-sphinx-issues
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-sphinx-issues-5.0.0-2.el10s
 - project: python-sphinxcontrib-apidoc
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinxcontrib-apidoc-0.5.0-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinxcontrib-apidoc-0.5.0-1.el10s
 - project: python-sphinxcontrib-httpdomain
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinxcontrib-httpdomain-1.8.1-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinxcontrib-httpdomain-1.8.1-1.el10s
 - project: python-sphinxcontrib-log-cabinet
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinxcontrib-log-cabinet-1.0.1-19.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinxcontrib-log-cabinet-1.0.1-19.el10s
 - project: python-sphinxcontrib-pecanwsme
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinxcontrib-pecanwsme-0.11.0-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinxcontrib-pecanwsme-0.11.0-1.el10s
 - project: python-sphinxcontrib-programoutput
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinxcontrib-programoutput-0.16-1.1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinxcontrib-programoutput-0.16-1.1.el10s
 - project: python-sphinxcontrib-svg2pdfconverter
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-sphinxcontrib-svg2pdfconverter-1.2.0-13.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-sphinxcontrib-svg2pdfconverter-1.2.0-13.el10s
 - project: python-tempora
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-tempora-5.7.0-2.el10s
@@ -328,7 +353,8 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-tox-4.21.2-3.el10s
 - project: python-tox-current-env
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-tox-current-env-0.0.16-1.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-tox-current-env-0.0.16-1.el10s
 - project: python-trustme
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-trustme-1.2.0-2.el10s
@@ -337,10 +363,12 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python-typeguard-4.4.1-1.el10s
 - project: python-types-docutils
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-types-docutils-0.21.0.20241128-2.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-types-docutils-0.21.0.20241128-2.el10s
 - project: python-u-msgpack-python
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: python-u-msgpack-python-2.8.0-7.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      python-u-msgpack-python-2.8.0-7.el10s
 - project: python-uvloop
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: python-uvloop-0.19.0-7.el10s
@@ -367,7 +395,8 @@ packages:
     cloud10s-openstack-flamingo-el10s-build: python3-mypy-1.14.1-2.el10s
 - project: rubygem-introspection
   buildsys-tags:
-    cloud10s-openstack-flamingo-el10s-build: rubygem-introspection-0.0.4-19.el10s
+    cloud10s-openstack-flamingo-el10s-build: 
+      rubygem-introspection-0.0.4-19.el10s
 - project: rubygem-metaclass
   buildsys-tags:
     cloud10s-openstack-flamingo-el10s-build: rubygem-metaclass-0.0.4-20.el10s
