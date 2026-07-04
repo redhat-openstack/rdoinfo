@@ -55,31 +55,38 @@ packages:
     cloud8s-openstack-yoga-el8-build: golang-github-BurntSushi-toml-0.3.1-2.el8
 - project: golang-github-Sirupsen-logrus
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-Sirupsen-logrus-1.0.4-4.20191206gitd682213.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-Sirupsen-logrus-1.0.4-4.20191206gitd682213.el8
 - project: golang-github-codegangsta-cli
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-codegangsta-cli-1.17.0-8.20191206git01857ac.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-codegangsta-cli-1.17.0-8.20191206git01857ac.el8
 - project: golang-github-davecgh-go-spew
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: golang-github-davecgh-go-spew-1.1.0-3.el8
 - project: golang-github-golang-sys
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-golang-sys-0-0.24.20191206gitb688937.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-golang-sys-0-0.24.20191206gitb688937.el8
 - project: golang-github-kr-pretty
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: golang-github-kr-pretty-0.1.0-2.el8
 - project: golang-github-kr-pty
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-kr-pty-0-0.40.20191206git2c10821.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-kr-pty-0-0.40.20191206git2c10821.el8
 - project: golang-github-kr-text
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-kr-text-0-0.19.20191206git6807e77.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-kr-text-0-0.19.20191206git6807e77.el8
 - project: golang-github-pmezard-go-difflib
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-pmezard-go-difflib-0-0.11.20191206git792786c.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-pmezard-go-difflib-0-0.11.20191206git792786c.el8
 - project: golang-github-stretchr-objx
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-github-stretchr-objx-0-0.14.git1a9d0bb.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-github-stretchr-objx-0-0.14.git1a9d0bb.el8
 - project: golang-github-stretchr-testify
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: golang-github-stretchr-testify-1.2.1-2.el8
@@ -88,19 +95,23 @@ packages:
     cloud8s-openstack-yoga-el8-build: golang-github-urfave-cli-1.20.0-1.el8
 - project: golang-googlecode-go-crypto
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-googlecode-go-crypto-0-0.24.20191206gita49355c.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-googlecode-go-crypto-0-0.24.20191206gita49355c.el8
 - project: golang-gopkg-check
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-gopkg-check-1-20.20191206git788fd78.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-gopkg-check-1-20.20191206git788fd78.el8
 - project: golang-gopkg-yaml
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: golang-gopkg-yaml-1-27.20191206git51d6538.el8
+    cloud8s-openstack-yoga-el8-build: 
+      golang-gopkg-yaml-1-27.20191206git51d6538.el8
 - project: google-benchmark
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: google-benchmark-1.6.0-1.el8
 - project: google-roboto-slab-fonts
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: google-roboto-slab-fonts-1.100263-0.10.20150923git.el8
+    cloud8s-openstack-yoga-el8-build: 
+      google-roboto-slab-fonts-1.100263-0.10.20150923git.el8
 - project: gtest
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: gtest-1.11.0-1.el8
@@ -232,7 +243,8 @@ packages:
     cloud8s-openstack-yoga-el8-build: python-funcparserlib-0.3.6-22.el8
 - project: python-googleapis-common-protos
   buildsys-tags:
-    cloud8s-openstack-yoga-testing: python-googleapis-common-protos-1.53.0-1.el8s
+    cloud8s-openstack-yoga-testing: 
+      python-googleapis-common-protos-1.53.0-1.el8s
 - project: python-httpbin
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: python-httpbin-0.7.0-9.el8
@@ -361,7 +373,8 @@ packages:
     cloud8s-openstack-yoga-el8-build: python-sphinx-theme-alabaster-0.7.12-7.el8
 - project: python-sphinx-theme-py3doc-enhanced
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinx-theme-py3doc-enhanced-2.3.2-15.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinx-theme-py3doc-enhanced-2.3.2-15.el8
 - project: python-sphinx_rtd_theme
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: python-sphinx_rtd_theme-0.4.3-7.el8
@@ -385,28 +398,35 @@ packages:
     cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-htmlhelp-1.0.3-2.el8
 - project: python-sphinxcontrib-httpdomain
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-httpdomain-1.7.0-7.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-httpdomain-1.7.0-7.el8
 - project: python-sphinxcontrib-jsmath
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-jsmath-1.0.1-0.1.5.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-jsmath-1.0.1-0.1.5.el8
 - project: python-sphinxcontrib-pecanwsme
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-pecanwsme-0.10.0-1.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-pecanwsme-0.10.0-1.el8
 - project: python-sphinxcontrib-programoutput
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-programoutput-0.14-4.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-programoutput-0.14-4.el8
 - project: python-sphinxcontrib-qthelp
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-qthelp-1.0.2-0.1.5.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-qthelp-1.0.2-0.1.5.el8
 - project: python-sphinxcontrib-seqdiag
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-seqdiag-2.0.0-1.el8
 - project: python-sphinxcontrib-serializinghtml
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-serializinghtml-1.1.3-5.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-serializinghtml-1.1.3-5.el8
 - project: python-sphinxcontrib-svg2pdfconverter
   buildsys-tags:
-    cloud8s-openstack-yoga-el8-build: python-sphinxcontrib-svg2pdfconverter-1.0.1-1.el8
+    cloud8s-openstack-yoga-el8-build: 
+      python-sphinxcontrib-svg2pdfconverter-1.0.1-1.el8
 - project: python-stevedore
   buildsys-tags:
     cloud8s-openstack-yoga-el8-build: python-stevedore-1.31.0-2.el8
