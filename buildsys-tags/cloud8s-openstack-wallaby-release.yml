@@ -13,19 +13,24 @@ packages:
     cloud8s-openstack-wallaby-release: ansible-2.9.27-4.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-collection-ansible-netcommon-2.2.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-collection-ansible-netcommon-2.2.0-1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-collection-ansible-posix-1.2.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-collection-ansible-posix-1.2.0-1.el8
 - project: ansible-collection-ansible-utils
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-collection-ansible-utils-2.3.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-collection-ansible-utils-2.3.0-1.el8
 - project: ansible-collection-community-general
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-collection-community-general-4.0.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-collection-community-general-4.0.0-1.el8
 - project: ansible-collection-containers-podman
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-collection-containers-podman-1.9.4-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-collection-containers-podman-1.9.4-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-collections-openstack-1.9.1-2.el8
@@ -37,7 +42,8 @@ packages:
     cloud8s-openstack-wallaby-release: ansible-freeipa-0.3.1-1.el8
 - project: ansible-pacemaker
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-pacemaker-1.0.4-0.1.5847167git.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-pacemaker-1.0.4-0.1.5847167git.el8
 - project: ansible-role-atos-hsm
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-role-atos-hsm-1.0.0-1.el8
@@ -49,25 +55,29 @@ packages:
     cloud8s-openstack-wallaby-release: ansible-role-collectd-config-0.0.1-1.el8
 - project: ansible-role-container-registry
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-role-container-registry-1.3.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-role-container-registry-1.3.0-1.el8
 - project: ansible-role-lunasa-hsm
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-role-lunasa-hsm-1.1.0-1.el8
 - project: ansible-role-openstack-operations
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-role-openstack-operations-0.0.1-0.1.09e0e81git.el8
 - project: ansible-role-qdr-config
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-role-qdr-config-0.0.1-1.el8
 - project: ansible-role-redhat-subscription
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-role-redhat-subscription-1.1.4-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-role-redhat-subscription-1.1.4-1.el8
 - project: ansible-role-thales-hsm
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-role-thales-hsm-1.0.0-1.el8
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: ansible-role-tripleo-modify-image-1.2.1-1.el8
+    cloud8s-openstack-wallaby-release: 
+      ansible-role-tripleo-modify-image-1.2.1-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-aodh-12.0.0-1.el8
@@ -175,7 +185,8 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-designate-ui-12.0.0-2.el8
 - project: designate-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-designate-tests-tempest-0.19.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-designate-tests-tempest-0.19.0-1.el8
 - project: designateclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-designateclient-4.2.1-1.el8
@@ -247,7 +258,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-gnocchiclient-7.0.7-1.el8
 - project: golang-github-vbatts-tar-split
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: golang-github-vbatts-tar-split-0.11.1-2.el8
+    cloud8s-openstack-wallaby-release: 
+      golang-github-vbatts-tar-split-0.11.1-2.el8
 - project: google-api-python-client
   buildsys-tags:
     cloud8s-openstack-wallaby-release: google-api-python-client-1.6.7-10.el8
@@ -307,22 +319,26 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-ironic-inspector-10.6.2-1.el8
 - project: ironic-inspector-client
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-ironic-inspector-client-4.5.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-ironic-inspector-client-4.5.0-1.el8
 - project: ironic-lib
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-ironic-lib-4.6.4-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-ironic-prometheus-exporter-2.2.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-ironic-prometheus-exporter-2.2.0-1.el8
 - project: ironic-python-agent
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-ironic-python-agent-7.1.0-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-ironic-python-agent-builder-2.8.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-ironic-python-agent-builder-2.8.0-1.el8
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-ironic-staging-drivers-0.15.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-ironic-staging-drivers-0.15.0-1.el8
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-ironic-tests-tempest-2.6.0-1.el8
@@ -487,13 +503,15 @@ packages:
     cloud8s-openstack-wallaby-release: python-networking-bgpvpn-14.0.0-1.el8
 - project: networking-generic-switch
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-generic-switch-5.0.1-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-networking-generic-switch-5.0.1-1.el8
 - project: networking-l2gw
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-networking-l2gw-17.0.1-1.el8
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-networking-l2gw-tests-tempest-0.1.0-2.2e265b5git.el8
+    cloud8s-openstack-wallaby-release: 
+      python-networking-l2gw-tests-tempest-0.1.0-2.2e265b5git.el8
 - project: networking-mlnx
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-networking-mlnx-16.0.0-1.el8
@@ -508,7 +526,8 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-neutron-18.6.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-neutron-dynamic-routing-18.1.1-1.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-neutron-dynamic-routing-18.1.1-1.el8
 - project: neutron-lib
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-neutron-lib-2.10.2-1.el8
@@ -532,7 +551,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-novajoin-1.3.0-1.el8
 - project: novajoin-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-novajoin-tests-tempest-0.0.3-1.1.468b968git.el8
+    cloud8s-openstack-wallaby-release: 
+      python-novajoin-tests-tempest-0.0.3-1.1.468b968git.el8
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-wallaby-release: novnc-1.2.0-2.el8
@@ -724,7 +744,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-apache-5.5.0-2.0c19106git.el8
 - project: puppet-archive
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-archive-4.6.1-0.1.0rc0.bc7e4ffgit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-archive-4.6.1-0.1.0rc0.bc7e4ffgit.el8
 - project: puppet-auditd
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-auditd-2.2.0-3.189b22bgit.el8
@@ -733,7 +754,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-barbican-18.4.1-1.el8
 - project: puppet-cassandra
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-cassandra-3.1.1-0.2.0rc0.542df57git.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-cassandra-3.1.1-0.2.0rc0.542df57git.el8
 - project: puppet-ceilometer
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-ceilometer-18.4.2-1.el8
@@ -748,7 +770,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-cinder-18.5.1-1.el8
 - project: puppet-collectd
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-collectd-12.2.1-0.2.0rc0.60d656agit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-collectd-12.2.1-0.2.0rc0.60d656agit.el8
 - project: puppet-concat
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-concat-6.4.0-1.el8
@@ -757,7 +780,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-contrail-1.0.0-5.6f87929git.el8
 - project: puppet-corosync
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-corosync-8.0.1-0.1.0rc0.6a9da9agit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-corosync-8.0.1-0.1.0rc0.6a9da9agit.el8
 - project: puppet-datacat
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-datacat-0.6.2-1.5cce8f2git.el8
@@ -772,7 +796,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-ec2api-18.4.0-1.el8
 - project: puppet-elasticsearch
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-elasticsearch-7.0.0-1.62cf708git.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-elasticsearch-7.0.0-1.62cf708git.el8
 - project: puppet-etcd
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-etcd-1.12.3-1.el8
@@ -817,10 +842,12 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-java-6.3.0-1.f991317git.el8
 - project: puppet-kafka
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-kafka-7.0.1-0.2.0rc0.3546820git.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-kafka-7.0.1-0.2.0rc0.3546820git.el8
 - project: puppet-keepalived
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-keepalived-0.0.1-0.11.bbca37agit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-keepalived-0.0.1-0.11.bbca37agit.el8
 - project: puppet-keystone
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-keystone-18.6.0-1.el8
@@ -853,7 +880,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-module-data-0.5.1-1.28dafcegit.el8
 - project: puppet-mongodb
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-mongodb-3.1.1-0.3.0rc0.a59b99egit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-mongodb-3.1.1-0.3.0rc0.a59b99egit.el8
 - project: puppet-murano
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-murano-18.4.0-1.el8
@@ -907,10 +935,12 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-qdr-7.4.0-1.el8
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-rabbitmq-11.0.1-0.1.0rc0.63fee2cgit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-rabbitmq-11.0.1-0.1.0rc0.63fee2cgit.el8
 - project: puppet-redis
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-redis-6.1.1-0.1.0rc0.547105egit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-redis-6.1.1-0.1.0rc0.547105egit.el8
 - project: puppet-remote
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-remote-10.0.0-1.7420908git.el8
@@ -919,7 +949,8 @@ packages:
     cloud8s-openstack-wallaby-release: puppet-rsync-1.1.3-1.b3ee352git.el8
 - project: puppet-rsyslog
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
+    cloud8s-openstack-wallaby-release: 
+      puppet-rsyslog-4.0.1-0.1.0rc0.2548a0dgit.el8
 - project: puppet-sahara
   buildsys-tags:
     cloud8s-openstack-wallaby-release: puppet-sahara-18.4.0-1.el8
@@ -1039,16 +1070,20 @@ packages:
     cloud8s-openstack-wallaby-release: python-XStatic-Angular-1.5.8.0-10.el8
 - project: python-XStatic-Angular-Bootstrap
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
 - project: python-XStatic-Angular-FileUpload
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
 - project: python-XStatic-Angular-Gettext
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Angular-Gettext-2.3.8.0-1.el8
 - project: python-XStatic-Angular-Schema-Form
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
 - project: python-XStatic-Angular-UUID
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-XStatic-Angular-UUID-0.0.4.0-9.el8
@@ -1057,13 +1092,16 @@ packages:
     cloud8s-openstack-wallaby-release: python-XStatic-Angular-Vis-4.16.0.0-6.el8
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
 - project: python-XStatic-D3
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-XStatic-D3-3.5.17.0-10.el8
@@ -1072,19 +1110,23 @@ packages:
     cloud8s-openstack-wallaby-release: python-XStatic-FileSaver-1.3.2.0-6.el8
 - project: python-XStatic-Font-Awesome
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Font-Awesome-4.7.0.0-10.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Font-Awesome-4.7.0.0-10.el8
 - project: python-XStatic-Hogan
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-XStatic-Hogan-2.0.0.2-17.el8
 - project: python-XStatic-JQuery-Migrate
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-XStatic-JS-Yaml-3.8.1.0-7.el8
@@ -1099,7 +1141,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-XStatic-Json2yaml-0.1.1.0-6.el8
 - project: python-XStatic-Magic-Search
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-Magic-Search-0.2.5.1-12.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-Magic-Search-0.2.5.1-12.el8
 - project: python-XStatic-Rickshaw
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-XStatic-Rickshaw-1.5.0.0-19.el8
@@ -1123,7 +1166,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-XStatic-objectpath-1.2.1.0-2.el8
 - project: python-XStatic-roboto-fontface
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+    cloud8s-openstack-wallaby-release: 
+      python-XStatic-roboto-fontface-0.5.0.0-13.el8
 - project: python-XStatic-smart-table
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-XStatic-smart-table-1.4.13.2-9.el8
@@ -2035,7 +2079,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-shade-1.33.0-2.el8
 - project: sphinx-feature-classification
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-sphinx-feature-classification-1.1.0-2.el8
+    cloud8s-openstack-wallaby-release: 
+      python-sphinx-feature-classification-1.1.0-2.el8
 - project: sshpass
   buildsys-tags:
     cloud8s-openstack-wallaby-release: sshpass-1.06-8.el8
@@ -2077,7 +2122,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-taskflow-4.6.0-1.el8
 - project: telemetry-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-telemetry-tests-tempest-1.3.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-telemetry-tests-tempest-1.3.0-1.el8
 - project: tempest
   buildsys-tags:
     cloud8s-openstack-wallaby-release: openstack-tempest-33.0.0-1.el8
@@ -2098,10 +2144,12 @@ packages:
     cloud8s-openstack-wallaby-release: openstack-tripleo-common-15.4.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-heat-templates-14.3.0-2.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-tripleo-heat-templates-14.3.0-2.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-image-elements-13.1.1-1.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-tripleo-image-elements-13.1.1-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-wallaby-release: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2113,10 +2161,12 @@ packages:
     cloud8s-openstack-wallaby-release: tripleo-operator-ansible-0.5.1-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-puppet-elements-14.1.1-1.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-tripleo-puppet-elements-14.1.1-1.el8
 - project: tripleo-validations
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: openstack-tripleo-validations-14.3.1-1.el8
+    cloud8s-openstack-wallaby-release: 
+      openstack-tripleo-validations-14.3.1-1.el8
 - project: tripleoclient
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-tripleoclient-16.4.0-1.el8
@@ -2161,7 +2211,8 @@ packages:
     cloud8s-openstack-wallaby-release: python-networking-vmware-nsx-17.0.0-1.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+    cloud8s-openstack-wallaby-release: 
+      python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
 - project: vmware-nsxlib
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-vmware-nsxlib-17.0.0-1.el8
@@ -2176,7 +2227,8 @@ packages:
     cloud8s-openstack-wallaby-release: web-assets-5-10.el8
 - project: whitebox-neutron-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-wallaby-release: python-whitebox-neutron-tests-tempest-0.0.1-1.1.7340201git.el8
+    cloud8s-openstack-wallaby-release: 
+      python-whitebox-neutron-tests-tempest-0.0.1-1.1.7340201git.el8
 - project: wsme
   buildsys-tags:
     cloud8s-openstack-wallaby-release: python-wsme-0.10.1-1.el8
