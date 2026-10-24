@@ -16,7 +16,8 @@ packages:
     cloud8s-openstack-yoga-release: ansible-2.9.27-5.el8
 - project: ansible-collection-ansible-netcommon
   buildsys-tags:
-    cloud8s-openstack-yoga-release: ansible-collection-ansible-netcommon-2.2.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      ansible-collection-ansible-netcommon-2.2.0-1.el8
 - project: ansible-collection-ansible-posix
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-collection-ansible-posix-1.2.0-1.el8
@@ -25,16 +26,19 @@ packages:
     cloud8s-openstack-yoga-release: ansible-collection-ansible-utils-2.3.0-1.el8
 - project: ansible-collection-community-general
   buildsys-tags:
-    cloud8s-openstack-yoga-release: ansible-collection-community-general-4.0.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      ansible-collection-community-general-4.0.0-1.el8
 - project: ansible-collection-containers-podman
   buildsys-tags:
-    cloud8s-openstack-yoga-release: ansible-collection-containers-podman-1.9.4-1.el8
+    cloud8s-openstack-yoga-release: 
+      ansible-collection-containers-podman-1.9.4-1.el8
 - project: ansible-collections-openstack
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-collections-openstack-1.9.1-1.el8
 - project: ansible-config_template
   buildsys-tags:
-    cloud8s-openstack-yoga-release: ansible-config_template-1.2.1-1.bd7543agit.el8
+    cloud8s-openstack-yoga-release: 
+      ansible-config_template-1.2.1-1.bd7543agit.el8
 - project: ansible-freeipa
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-freeipa-0.3.1-1.el8
@@ -61,7 +65,8 @@ packages:
     cloud8s-openstack-yoga-release: ansible-role-lunasa-hsm-3.0.0-1.el8
 - project: ansible-role-openstack-operations
   buildsys-tags:
-    cloud8s-openstack-yoga-release: ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
+    cloud8s-openstack-yoga-release: 
+      ansible-role-openstack-operations-0.0.1-0.2.2ab288fgit.el8
 - project: ansible-role-qdr-config
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-role-qdr-config-0.0.1-1.el8
@@ -73,7 +78,8 @@ packages:
     cloud8s-openstack-yoga-release: ansible-role-thales-hsm-3.0.0-1.el8
 - project: ansible-role-tripleo-modify-image
   buildsys-tags:
-    cloud8s-openstack-yoga-release: ansible-role-tripleo-modify-image-1.4.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      ansible-role-tripleo-modify-image-1.4.0-1.el8
 - project: aodh
   buildsys-tags:
     cloud8s-openstack-yoga-release: openstack-aodh-14.1.0-1.el8
@@ -319,16 +325,19 @@ packages:
     cloud8s-openstack-yoga-release: python-ironic-lib-5.2.0-1.el8
 - project: ironic-prometheus-exporter
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-ironic-prometheus-exporter-3.1.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      python-ironic-prometheus-exporter-3.1.0-1.el8
 - project: ironic-python-agent
   buildsys-tags:
     cloud8s-openstack-yoga-release: openstack-ironic-python-agent-8.5.3-1.el8
 - project: ironic-python-agent-builder
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-ironic-python-agent-builder-4.1.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      openstack-ironic-python-agent-builder-4.1.0-1.el8
 - project: ironic-staging-drivers
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-ironic-staging-drivers-0.16.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      openstack-ironic-staging-drivers-0.16.0-1.el8
 - project: ironic-tempest-plugin
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-ironic-tests-tempest-2.6.0-1.el8
@@ -499,7 +508,8 @@ packages:
     cloud8s-openstack-yoga-release: python-networking-l2gw-18.0.0-1.el8
 - project: networking-l2gw-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
+    cloud8s-openstack-yoga-release: 
+      python-networking-l2gw-tests-tempest-0.1.0-3.82e3d07git.el8
 - project: networking-mlnx
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-networking-mlnx-16.0.0-1.el8
@@ -514,7 +524,8 @@ packages:
     cloud8s-openstack-yoga-release: openstack-neutron-20.5.0-1.el8
 - project: neutron-dynamic-routing
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-neutron-dynamic-routing-20.0.1-1.el8
+    cloud8s-openstack-yoga-release: 
+      openstack-neutron-dynamic-routing-20.0.1-1.el8
 - project: neutron-lib
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-neutron-lib-2.20.2-1.el8
@@ -538,7 +549,8 @@ packages:
     cloud8s-openstack-yoga-release: python-novajoin-1.3.0-1.el8
 - project: novajoin-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-novajoin-tests-tempest-0.0.3-1.1.b2e5485git.el8
+    cloud8s-openstack-yoga-release: 
+      python-novajoin-tests-tempest-0.0.3-1.1.b2e5485git.el8
 - project: novnc
   buildsys-tags:
     cloud8s-openstack-yoga-release: novnc-1.3.0-1.el8
@@ -739,7 +751,8 @@ packages:
     cloud8s-openstack-yoga-release: puppet-barbican-20.3.1-1.el8
 - project: puppet-cassandra
   buildsys-tags:
-    cloud8s-openstack-yoga-release: puppet-cassandra-3.1.1-0.4.0rc0.89bf2d1git.el8
+    cloud8s-openstack-yoga-release: 
+      puppet-cassandra-3.1.1-0.4.0rc0.89bf2d1git.el8
 - project: puppet-ceilometer
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-ceilometer-20.4.1-1.el8
@@ -754,7 +767,8 @@ packages:
     cloud8s-openstack-yoga-release: puppet-cinder-20.4.1-1.el8
 - project: puppet-collectd
   buildsys-tags:
-    cloud8s-openstack-yoga-release: puppet-collectd-13.0.1-0.1.0rc0.12791f3git.el8
+    cloud8s-openstack-yoga-release: 
+      puppet-collectd-13.0.1-0.1.0rc0.12791f3git.el8
 - project: puppet-concat
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-concat-7.1.1-2.7bf6cedgit.el8
@@ -763,7 +777,8 @@ packages:
     cloud8s-openstack-yoga-release: puppet-contrail-1.0.0-5.6f87929git.el8
 - project: puppet-corosync
   buildsys-tags:
-    cloud8s-openstack-yoga-release: puppet-corosync-8.2.1-0.2.0rc0.5f48a6cgit.el8
+    cloud8s-openstack-yoga-release: 
+      puppet-corosync-8.2.1-0.2.0rc0.5f48a6cgit.el8
 - project: puppet-datacat
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-datacat-0.6.2-1.5cce8f2git.el8
@@ -778,7 +793,8 @@ packages:
     cloud8s-openstack-yoga-release: puppet-ec2api-20.3.0-1.el8
 - project: puppet-elasticsearch
   buildsys-tags:
-    cloud8s-openstack-yoga-release: puppet-elasticsearch-8.0.1-0.1.0rc0.0da23b4git.el8
+    cloud8s-openstack-yoga-release: 
+      puppet-elasticsearch-8.0.1-0.1.0rc0.0da23b4git.el8
 - project: puppet-etcd
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-etcd-1.12.3-1.el8
@@ -904,7 +920,8 @@ packages:
     cloud8s-openstack-yoga-release: puppet-qdr-9.3.0-1.el8
 - project: puppet-rabbitmq
   buildsys-tags:
-    cloud8s-openstack-yoga-release: puppet-rabbitmq-11.1.1-0.2.0rc0.e9e1da1git.el8
+    cloud8s-openstack-yoga-release: 
+      puppet-rabbitmq-11.1.1-0.2.0rc0.e9e1da1git.el8
 - project: puppet-redis
   buildsys-tags:
     cloud8s-openstack-yoga-release: puppet-redis-8.2.1-0.1.0rc0.406874agit.el8
@@ -1030,16 +1047,19 @@ packages:
     cloud8s-openstack-yoga-release: python-XStatic-Angular-1.5.8.0-10.el8
 - project: python-XStatic-Angular-Bootstrap
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-Angular-Bootstrap-2.2.0.0-10.el8
 - project: python-XStatic-Angular-FileUpload
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-Angular-FileUpload-12.0.4.0-14.el8
 - project: python-XStatic-Angular-Gettext
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-XStatic-Angular-Gettext-2.3.8.0-1.el8
 - project: python-XStatic-Angular-Schema-Form
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-Angular-Schema-Form-0.8.13.0-2.el8
 - project: python-XStatic-Angular-UUID
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-XStatic-Angular-UUID-0.0.4.0-9.el8
@@ -1048,10 +1068,12 @@ packages:
     cloud8s-openstack-yoga-release: python-XStatic-Angular-Vis-4.16.0.0-6.el8
 - project: python-XStatic-Angular-lrdragndrop
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-Angular-lrdragndrop-1.0.2.2-16.el8
 - project: python-XStatic-Bootstrap-Datepicker
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-Bootstrap-Datepicker-1.3.1.0-16.el8
 - project: python-XStatic-Bootstrap-SCSS
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-XStatic-Bootstrap-SCSS-3.3.7.1-10.el8
@@ -1072,10 +1094,12 @@ packages:
     cloud8s-openstack-yoga-release: python-XStatic-JQuery-Migrate-1.2.1.1-17.el8
 - project: python-XStatic-JQuery-TableSorter
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-JQuery-TableSorter-2.14.5.1-17.el8
 - project: python-XStatic-JQuery-quicksearch
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-JQuery-quicksearch-2.0.3.1-17.el8
 - project: python-XStatic-JS-Yaml
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-XStatic-JS-Yaml-3.8.1.0-7.el8
@@ -1114,7 +1138,8 @@ packages:
     cloud8s-openstack-yoga-release: python-XStatic-objectpath-1.2.1.0-2.el8
 - project: python-XStatic-roboto-fontface
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-XStatic-roboto-fontface-0.5.0.0-13.el8
+    cloud8s-openstack-yoga-release: 
+      python-XStatic-roboto-fontface-0.5.0.0-13.el8
 - project: python-XStatic-smart-table
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-XStatic-smart-table-1.4.13.2-9.el8
@@ -1348,7 +1373,8 @@ packages:
     cloud8s-openstack-yoga-release: python-google-auth-1.24.0-1.el8
 - project: python-googleapis-common-protos
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-googleapis-common-protos-1.53.0-1.el8s
+    cloud8s-openstack-yoga-release: 
+      python-googleapis-common-protos-1.53.0-1.el8s
 - project: python-gunicorn
   buildsys-tags:
     cloud8s-openstack-yoga-release: python-gunicorn-20.0.4-1.el8
@@ -2050,7 +2076,8 @@ packages:
     cloud8s-openstack-yoga-release: python-shade-1.33.0-1.el8
 - project: sphinx-feature-classification
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-sphinx-feature-classification-1.1.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      python-sphinx-feature-classification-1.1.0-1.el8
 - project: sshpass
   buildsys-tags:
     cloud8s-openstack-yoga-release: sshpass-1.06-8.el8
@@ -2110,10 +2137,12 @@ packages:
     cloud8s-openstack-yoga-release: openstack-tripleo-common-16.4.0-1.el8
 - project: tripleo-heat-templates
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-tripleo-heat-templates-16.0.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      openstack-tripleo-heat-templates-16.0.0-1.el8
 - project: tripleo-image-elements
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-tripleo-image-elements-14.2.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      openstack-tripleo-image-elements-14.2.0-1.el8
 - project: tripleo-ipa
   buildsys-tags:
     cloud8s-openstack-yoga-release: ansible-tripleo-ipa-0.2.2-1.el8
@@ -2125,7 +2154,8 @@ packages:
     cloud8s-openstack-yoga-release: tripleo-operator-ansible-0.8.0-1.el8
 - project: tripleo-puppet-elements
   buildsys-tags:
-    cloud8s-openstack-yoga-release: openstack-tripleo-puppet-elements-15.2.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      openstack-tripleo-puppet-elements-15.2.0-1.el8
 - project: tripleo-validations
   buildsys-tags:
     cloud8s-openstack-yoga-release: openstack-tripleo-validations-15.2.0-1.el8
@@ -2170,7 +2200,8 @@ packages:
     cloud8s-openstack-yoga-release: python-vitrageclient-4.5.0-1.el8
 - project: vmware-nsx-tempest-plugin
   buildsys-tags:
-    cloud8s-openstack-yoga-release: python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
+    cloud8s-openstack-yoga-release: 
+      python-vmware-nsx-tests-tempest-2.0.0.0-1.el8
 - project: watcher
   buildsys-tags:
     cloud8s-openstack-yoga-release: openstack-watcher-8.0.0-1.el8
